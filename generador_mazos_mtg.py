@@ -4,6 +4,7 @@ import random
 import os
 import json
 import matplotlib.pyplot as plt
+import glob
 from collections import Counter, defaultdict
 
 class MTGDeckGenerator:
@@ -62,6 +63,49 @@ class MTGDeckGenerator:
                 self.nonbasic_lands_ids.append(card_id)
         
         print(f"Índices preparados: {len(self.basic_lands_ids)} tierras básicas")
+    
+    def clean_existing_decks(self):
+        """
+        Limpia todos los mazos existentes (.dck y .json) antes de generar nuevos
+        """
+        files_removed = 0
+        
+        # Patrones de archivos a eliminar
+        patterns_to_clean = [
+            "*.dck",                    # Archivos de mazo de Forge
+            "*population*.json",        # Archivos de población
+            "*_stats.png",             # Gráficos de estadísticas
+            "Best_*",                  # Mejores mazos anteriores
+            "Gen*_Deck*.dck",          # Mazos de generaciones del AG
+            "Mono_*",                  # Mazos mono-color
+            "Bi_*",                    # Mazos bi-color
+            "Tri_*",                   # Mazos tri-color
+            "*Color_*",                # Mazos multicolor
+            "Random_*",                # Mazos aleatorios
+            "Test_*",                  # Mazos de prueba
+            "Extra_*"                  # Mazos extra
+        ]
+        
+        print(f"\n🧹 Limpiando mazos existentes en {self.output_dir}...")
+        
+        for pattern in patterns_to_clean:
+            file_pattern = os.path.join(self.output_dir, pattern)
+            files = glob.glob(file_pattern)
+            
+            for file_path in files:
+                try:
+                    os.remove(file_path)
+                    files_removed += 1
+                    print(f"   Eliminado: {os.path.basename(file_path)}")
+                except Exception as e:
+                    print(f"   Error eliminando {os.path.basename(file_path)}: {e}")
+        
+        if files_removed > 0:
+            print(f"✅ {files_removed} archivos eliminados correctamente")
+        else:
+            print("ℹ️  No se encontraron archivos para eliminar")
+        
+        return files_removed
     
     def array_to_deck(self, deck_array, deck_name="Deck"):
         """
@@ -163,21 +207,30 @@ class MTGDeckGenerator:
             all_colors = ['W', 'U', 'B', 'R', 'G']
             colors = random.sample(all_colors, min(num_colors, len(all_colors)))
         
-        # Determinar pool de cartas disponibles
+        # NUEVA LÓGICA DE FILTRADO DE CARTAS
         available_cards = set()
         
-        # Añadir cartas de los colores seleccionados
-        for color in colors:
-            available_cards.update(self.color_indices.get(color, []))
-        
-        # Añadir cartas incoloras
-        available_cards.update(self.color_indices.get('colorless', []))
-        
-        # Añadir cartas multicolor que contengan solo los colores seleccionados
-        for card_id in self.color_indices.get('multicolor', []):
-            card_colors = self.card_catalog[card_id]['color_identity']
-            if all(c in colors for c in card_colors):
+        # Añadir cartas que SOLO contengan los colores permitidos
+        for card_id, card in self.card_catalog.items():
+            card_colors = set(card['color_identity'])
+            allowed_colors = set(colors)
+            
+            # Criterios de inclusión:
+            # 1. La carta no debe tener colores prohibidos
+            # 2. Incluir cartas incoloras SOLO si no tienen color identity problemática
+            if card_colors.issubset(allowed_colors):
                 available_cards.add(card_id)
+            # Casos especiales: tierras básicas siempre permitidas para sus colores
+            elif card.get('is_basic_land', False) and len(card_colors) == 1 and card_colors.issubset(allowed_colors):
+                available_cards.add(card_id)
+        
+        # Verificar que tenemos cartas suficientes
+        if len(available_cards) < 20:
+            print(f"⚠️  Advertencia: Solo {len(available_cards)} cartas disponibles para {colors}")
+            # Fallback: añadir cartas incoloras verdaderas
+            for card_id, card in self.card_catalog.items():
+                if len(card['color_identity']) == 0:  # Verdaderamente incoloras
+                    available_cards.add(card_id)
         
         # Convertir a lista para indexación
         available_cards = list(available_cards)
@@ -222,7 +275,7 @@ class MTGDeckGenerator:
                 card_id = random.choice(pool)
                 
                 # Tierras básicas pueden tener más de 4 copias
-                if self.card_catalog[card_id]['is_basic_land']:
+                if self.card_catalog[card_id].get('is_basic_land', False):
                     max_allowed = 20
                 else:
                     max_allowed = max_copies
@@ -240,7 +293,7 @@ class MTGDeckGenerator:
             return cards_added
         
         # Añadir tierras básicas
-        basic_lands_needed = max(15, num_lands - len(lands_pool))
+        basic_lands_needed = max(15, num_lands - len([c for c in lands_pool if not self.card_catalog[c].get('is_basic_land', False)]))
         color_to_basic = {
             'W': 'Plains', 'U': 'Island', 'B': 'Swamp', 
             'R': 'Mountain', 'G': 'Forest'
@@ -258,7 +311,7 @@ class MTGDeckGenerator:
         
         # Añadir tierras no básicas
         nonbasic_lands_needed = num_lands - basic_lands_needed
-        nonbasic_pool = [c for c in lands_pool if not self.card_catalog[c]['is_basic_land']]
+        nonbasic_pool = [c for c in lands_pool if not self.card_catalog[c].get('is_basic_land', False)]
         if nonbasic_pool and nonbasic_lands_needed > 0:
             add_cards_from_pool(nonbasic_pool, nonbasic_lands_needed)
         
@@ -292,129 +345,365 @@ class MTGDeckGenerator:
         
         return deck_array
     
-    def generate_strategic_population(self, total_size=50):
+    def generate_population_exact_size(self, total_size):
         """
-        Genera una población inicial estratégica usando arrays
+        Genera una población de exactamente el tamaño especificado 
+        manteniendo proporcionalidad estratégica
         
         Args:
-            total_size (int): Tamaño total de la población
+            total_size (int): Número exacto de mazos a generar
             
         Returns:
             list: Lista de mazos generados
         """
-        print(f"Generando población inicial estratégica de {total_size} mazos...")
+        print(f"Generando población de EXACTAMENTE {total_size} mazos...")
+        
+        if total_size < 5:
+            print("ERROR: Se necesitan al mínimo 5 mazos para diversidad básica")
+            return []
+        
+        # Limpiar mazos existentes automáticamente
+        self.clean_existing_decks()
+        
         population = []
         deck_counter = 0
-        
         all_colors = ['W', 'U', 'B', 'R', 'G']
         
-        # 1. Mazos mono-color (2 por cada color = 10 mazos)
-        print("\n--- Generando mazos mono-color ---")
-        for color in all_colors:
-            for i in range(2):
+        # DISTRIBUCIÓN PROPORCIONAL SEGÚN TAMAÑO
+        distribution = self._calculate_distribution(total_size)
+        
+        print(f"\nDistribución calculada para {total_size} mazos:")
+        for category, count in distribution.items():
+            if count > 0:
+                print(f"  {category}: {count} mazos")
+        
+        # 1. MAZOS MONO-COLOR
+        print(f"\n--- Generando {distribution['mono']} mazos mono-color ---")
+        mono_per_color = distribution['mono'] // 5
+        extra_mono = distribution['mono'] % 5
+        
+        for i, color in enumerate(all_colors):
+            count = mono_per_color + (1 if i < extra_mono else 0)
+            if count > 0:
                 deck_counter += 1
                 color_name = {'W': 'Blanco', 'U': 'Azul', 'B': 'Negro', 'R': 'Rojo', 'G': 'Verde'}[color]
-                deck_name = f"Mono_{color_name}_{i+1}"
+                deck_name = f"Mono_{color_name}_{deck_counter}"
                 
                 try:
                     deck_array = self.generate_random_deck_array(colors=[color])
                     deck = self.array_to_deck(deck_array, deck_name)
                     population.append(deck)
-                    print(f"Mazo {deck_counter} generado: {deck_name}")
+                    print(f"  Mazo {deck_counter}: {deck_name}")
                 except Exception as e:
-                    print(f"Error al generar mazo {deck_name}: {e}")
+                    print(f"  Error al generar {deck_name}: {e}")
         
-        # 2. Mazos bi-color (20 mazos - 2 por cada combinación)
-        print("\n--- Generando mazos bi-color ---")
-        for i, color1 in enumerate(all_colors):
-            for color2 in all_colors[i+1:]:
-                # Solo generar 1 mazo por combinación para mantener el tamaño total
+        # 2. MAZOS BI-COLOR
+        if distribution['bi'] > 0:
+            print(f"\n--- Generando {distribution['bi']} mazos bi-color ---")
+            
+            # Todas las combinaciones de 2 colores (10 total)
+            bi_combinations = []
+            for i, color1 in enumerate(all_colors):
+                for color2 in all_colors[i+1:]:
+                    bi_combinations.append([color1, color2])
+            
+            # Distribuir mazos bi-color proporcionalmente
+            bi_per_combo = distribution['bi'] // len(bi_combinations)
+            extra_bi = distribution['bi'] % len(bi_combinations)
+            
+            combo_idx = 0
+            for colors in bi_combinations:
+                count = bi_per_combo + (1 if combo_idx < extra_bi else 0)
+                for j in range(count):
+                    deck_counter += 1
+                    color_names = {
+                        'W': 'Blanco', 'U': 'Azul', 'B': 'Negro', 'R': 'Rojo', 'G': 'Verde'
+                    }
+                    deck_name = f"Bi_{color_names[colors[0]]}_{color_names[colors[1]]}_{j+1}"
+                    
+                    try:
+                        deck_array = self.generate_random_deck_array(colors=colors)
+                        deck = self.array_to_deck(deck_array, deck_name)
+                        population.append(deck)
+                        print(f"  Mazo {deck_counter}: {deck_name}")
+                    except Exception as e:
+                        print(f"  Error al generar {deck_name}: {e}")
+                combo_idx += 1
+        
+        # 3. MAZOS TRI-COLOR
+        if distribution['tri'] > 0:
+            print(f"\n--- Generando {distribution['tri']} mazos tri-color ---")
+            
+            # Combinaciones populares de 3 colores
+            tri_combinations = [
+                ['W', 'U', 'B'],  # Esper
+                ['U', 'B', 'R'],  # Grixis
+                ['B', 'R', 'G'],  # Jund
+                ['R', 'G', 'W'],  # Naya
+                ['G', 'W', 'U'],  # Bant
+                ['W', 'B', 'R'],  # Mardu
+                ['U', 'R', 'G'],  # Temur
+                ['B', 'G', 'W'],  # Abzan
+                ['R', 'W', 'U'],  # Jeskai
+                ['G', 'U', 'B']   # Sultai
+            ]
+            
+            # Distribuir proporcionalmente
+            tri_per_combo = distribution['tri'] // len(tri_combinations)
+            extra_tri = distribution['tri'] % len(tri_combinations)
+            
+            combo_idx = 0
+            for colors in tri_combinations:
+                count = tri_per_combo + (1 if combo_idx < extra_tri else 0)
+                for j in range(count):
+                    deck_counter += 1
+                    deck_name = f"Tri_{''.join(colors)}_{j+1}"
+                    
+                    try:
+                        deck_array = self.generate_random_deck_array(colors=colors)
+                        deck = self.array_to_deck(deck_array, deck_name)
+                        population.append(deck)
+                        print(f"  Mazo {deck_counter}: {deck_name}")
+                    except Exception as e:
+                        print(f"  Error al generar {deck_name}: {e}")
+                combo_idx += 1
+                
+                if len(population) >= total_size:
+                    break
+        
+        # 4. MAZOS DE 4+ COLORES
+        if distribution['multi'] > 0:
+            print(f"\n--- Generando {distribution['multi']} mazos multicolor (4-5 colores) ---")
+            
+            for i in range(distribution['multi']):
                 deck_counter += 1
-                color_names = {
-                    'W': 'Blanco', 'U': 'Azul', 'B': 'Negro', 'R': 'Rojo', 'G': 'Verde'
-                }
-                deck_name = f"{color_names[color1]}_{color_names[color2]}_1"
+                
+                # Alternar entre 4 y 5 colores
+                if i % 2 == 0:
+                    # 4 colores (excluir uno)
+                    excluded_color = all_colors[i % 5]
+                    colors = [c for c in all_colors if c != excluded_color]
+                    deck_name = f"4Color_Sin{excluded_color}_{deck_counter}"
+                else:
+                    # 5 colores
+                    colors = all_colors.copy()
+                    deck_name = f"5Color_{deck_counter}"
                 
                 try:
-                    deck_array = self.generate_random_deck_array(colors=[color1, color2])
+                    deck_array = self.generate_random_deck_array(colors=colors)
                     deck = self.array_to_deck(deck_array, deck_name)
                     population.append(deck)
-                    print(f"Mazo {deck_counter} generado: {deck_name}")
+                    print(f"  Mazo {deck_counter}: {deck_name}")
                 except Exception as e:
-                    print(f"Error al generar mazo {deck_name}: {e}")
+                    print(f"  Error al generar {deck_name}: {e}")
         
-        # 3. Mazos tri-color (10 mazos)
-        print("\n--- Generando mazos tri-color ---")
-        tricolor_combinations = [
-            ['W', 'U', 'B'], ['U', 'B', 'R'], ['B', 'R', 'G'], 
-            ['R', 'G', 'W'], ['G', 'W', 'U'],  # Shards
-            ['W', 'B', 'R'], ['U', 'R', 'G'], ['B', 'G', 'W'],
-            ['R', 'W', 'U'], ['G', 'U', 'B']   # Wedges
-        ]
-        
-        for colors in tricolor_combinations:
-            deck_counter += 1
-            deck_name = f"Tri_{''.join(colors)}"
+        # 5. MAZOS ALEATORIOS PARA COMPLETAR
+        remaining = total_size - len(population)
+        if remaining > 0:
+            print(f"\n--- Generando {remaining} mazos aleatorios para completar ---")
             
-            try:
-                deck_array = self.generate_random_deck_array(colors=colors)
-                deck = self.array_to_deck(deck_array, deck_name)
-                population.append(deck)
-                print(f"Mazo {deck_counter} generado: {deck_name}")
-            except Exception as e:
-                print(f"Error al generar mazo {deck_name}: {e}")
+            for i in range(remaining):
+                deck_counter += 1
+                
+                # Número aleatorio de colores (1-3, con sesgo hacia 2)
+                color_distribution = [1, 2, 2, 2, 3]  # Sesgo hacia bi-color
+                num_colors = random.choice(color_distribution)
+                colors = random.sample(all_colors, num_colors)
+                deck_name = f"Random_{''.join(sorted(colors))}_{deck_counter}"
+                
+                try:
+                    deck_array = self.generate_random_deck_array(colors=colors)
+                    deck = self.array_to_deck(deck_array, deck_name)
+                    population.append(deck)
+                    print(f"  Mazo {deck_counter}: {deck_name}")
+                except Exception as e:
+                    print(f"  Error al generar {deck_name}: {e}")
         
-        # 4. Mazos 4-5 colores (10 mazos)
-        print("\n--- Generando mazos de 4-5 colores ---")
-        
-        # 5 mazos de 4 colores
-        for color_to_exclude in all_colors:
-            deck_counter += 1
-            four_colors = [c for c in all_colors if c != color_to_exclude]
-            deck_name = f"4Color_Sin_{color_to_exclude}"
+        # VERIFICACIÓN FINAL
+        actual_size = len(population)
+        if actual_size != total_size:
+            print(f"\n⚠️  ADVERTENCIA: Se generaron {actual_size} mazos en lugar de {total_size}")
             
-            try:
-                deck_array = self.generate_random_deck_array(colors=four_colors)
-                deck = self.array_to_deck(deck_array, deck_name)
-                population.append(deck)
-                print(f"Mazo {deck_counter} generado: {deck_name}")
-            except Exception as e:
-                print(f"Error al generar mazo {deck_name}: {e}")
+            if actual_size > total_size:
+                # Eliminar mazos extra (los últimos aleatorios)
+                population = population[:total_size]
+                print(f"   Recortado a {total_size} mazos")
+            elif actual_size < total_size:
+                # Generar mazos adicionales simples
+                missing = total_size - actual_size
+                print(f"   Generando {missing} mazos adicionales...")
+                
+                for i in range(missing):
+                    deck_counter += 1
+                    colors = random.sample(all_colors, 2)  # Bi-color por defecto
+                    deck_name = f"Extra_{deck_counter}"
+                    
+                    try:
+                        deck_array = self.generate_random_deck_array(colors=colors)
+                        deck = self.array_to_deck(deck_array, deck_name)
+                        population.append(deck)
+                    except Exception as e:
+                        print(f"   Error al generar mazo extra: {e}")
         
-        # 5 mazos de 5 colores
-        for i in range(5):
-            deck_counter += 1
-            deck_name = f"5Color_{i+1}"
-            
-            try:
-                deck_array = self.generate_random_deck_array(colors=all_colors)
-                deck = self.array_to_deck(deck_array, deck_name)
-                population.append(deck)
-                print(f"Mazo {deck_counter} generado: {deck_name}")
-            except Exception as e:
-                print(f"Error al generar mazo {deck_name}: {e}")
+        # Guardar población
+        if len(population) <= 20:
+            filename = "test_population.json"
+        else:
+            filename = "initial_population.json"
         
-        # Guardar la población
-        self.save_population(population)
-        
-        print(f"\nPoblación inicial generada: {len(population)} mazos")
-        return population
-    
-    def save_population(self, population):
-        """Guarda una población de mazos"""
-        # Guardar en formato JSON
-        population_file = os.path.join(self.output_dir, "initial_population.json")
+        population_file = os.path.join(self.output_dir, filename)
         with open(population_file, 'w', encoding='utf-8') as f:
             json.dump(population, f, ensure_ascii=False, indent=2)
-        print(f"Población guardada en: {population_file}")
         
-        # Guardar cada mazo en formato .dck
-        for deck in population:
+        print(f"\n✅ Población final: {len(population)} mazos")
+        print(f"   Guardada en: {population_file}")
+        
+        # Guardar mazos en formato .dck y generar gráficos
+        print(f"\n📊 Generando archivos .dck y gráficos de estadísticas...")
+        successful_graphs = 0
+        for i, deck in enumerate(population):
+            # Guardar en formato Forge
             self.save_as_forge_deck(deck)
             
-            # Generar estadísticas visuales
+            # Generar gráfico para cada mazo
             stats_path = os.path.join(self.output_dir, f"{deck['name']}_stats.png")
-            self.plot_deck_stats(deck, stats_path)
+            try:
+                if self.plot_deck_stats(deck, stats_path):
+                    successful_graphs += 1
+                
+                # Mostrar progreso cada 10 mazos o al final
+                if (i + 1) % 10 == 0 or (i + 1) == len(population):
+                    print(f"   Procesados: {i + 1}/{len(population)} mazos")
+                    
+            except Exception as e:
+                print(f"   ⚠️  Error con {deck['name']}: {e}")
+        
+        print(f"✅ Generados exitosamente: {successful_graphs}/{len(population)} gráficos")
+        
+        # Análisis final de distribución
+        self._analyze_final_distribution(population)
+        
+        return population
+    
+    def _calculate_distribution(self, total_size):
+        """
+        Calcula la distribución proporcional de tipos de mazos
+        
+        Args:
+            total_size (int): Tamaño total de la población
+            
+        Returns:
+            dict: Distribución por categorías
+        """
+        # Porcentajes objetivo (suman 100%)
+        DISTRIBUTION_PERCENTAGES = {
+            'mono': 0.25,      # 25% mono-color
+            'bi': 0.50,        # 50% bi-color (más común/competitivo)
+            'tri': 0.20,       # 20% tri-color 
+            'multi': 0.05      # 5% multicolor (4-5 colores)
+        }
+        
+        distribution = {}
+        allocated = 0
+        
+        # Calcular cantidades manteniendo al menos 1 de cada tipo importante
+        for category, percentage in DISTRIBUTION_PERCENTAGES.items():
+            if total_size >= 20:
+                # Para poblaciones grandes, usar porcentajes
+                count = max(1, int(total_size * percentage))
+            else:
+                # Para poblaciones pequeñas, distribución mínima
+                if category == 'mono':
+                    count = min(5, max(1, total_size // 4))
+                elif category == 'bi':
+                    count = min(10, max(1, total_size // 2))
+                elif category == 'tri':
+                    count = min(5, max(0, total_size // 6))
+                else:  # multi
+                    count = min(2, max(0, total_size // 10))
+            
+            distribution[category] = count
+            allocated += count
+        
+        # Ajustar si nos pasamos o nos falta
+        total_allocated = sum(distribution.values())
+        difference = total_size - total_allocated
+        
+        if difference != 0:
+            # Distribuir la diferencia priorizando bi-color
+            if difference > 0:
+                # Faltan mazos, añadir a bi-color
+                distribution['bi'] += difference
+            else:
+                # Sobran mazos, quitar proporcionalmente
+                categories = ['multi', 'tri', 'mono', 'bi']  # Orden de prioridad para quitar
+                remaining_to_remove = abs(difference)
+                
+                for category in categories:
+                    if remaining_to_remove <= 0:
+                        break
+                    
+                    can_remove = max(0, distribution[category] - (1 if category in ['mono', 'bi'] else 0))
+                    remove = min(can_remove, remaining_to_remove)
+                    distribution[category] -= remove
+                    remaining_to_remove -= remove
+        
+        return distribution
+    
+    def _analyze_final_distribution(self, population):
+        """
+        Analiza y muestra la distribución final de la población
+        
+        Args:
+            population (list): Lista de mazos generados
+        """
+        print(f"\n📊 ANÁLISIS DE LA POBLACIÓN FINAL:")
+        
+        # Contar por número de colores
+        color_distribution = {0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0}
+        color_combinations = {}
+        
+        for deck in population:
+            num_colors = len(deck['colors'])
+            color_distribution[num_colors] += 1
+            
+            colors_key = ''.join(sorted(deck['colors'])) if deck['colors'] else 'Incoloro'
+            color_combinations[colors_key] = color_combinations.get(colors_key, 0) + 1
+        
+        print(f"   Por número de colores:")
+        for num_colors, count in color_distribution.items():
+            if count > 0:
+                color_name = {
+                    0: 'Incoloro', 1: 'Mono-color', 2: 'Bi-color',
+                    3: 'Tri-color', 4: '4 colores', 5: '5 colores'
+                }[num_colors]
+                percentage = (count / len(population)) * 100
+                print(f"     {color_name}: {count} mazos ({percentage:.1f}%)")
+        
+        print(f"\n   Combinaciones específicas:")
+        sorted_combinations = sorted(color_combinations.items(), key=lambda x: -x[1])
+        for colors, count in sorted_combinations[:10]:  # Top 10
+            percentage = (count / len(population)) * 100
+            print(f"     {colors or 'Incoloro'}: {count} mazos ({percentage:.1f}%)")
+        
+        if len(sorted_combinations) > 10:
+            others = sum(count for _, count in sorted_combinations[10:])
+            percentage = (others / len(population)) * 100
+            print(f"     Otros: {others} mazos ({percentage:.1f}%)")
+    
+    def generate_strategic_population(self, total_size=50):
+        """
+        Método principal para generar población estratégica
+        Reemplaza al método original con lógica hardcodeada
+        """
+        return self.generate_population_exact_size(total_size)
+    
+    def generate_test_population(self, total_size=15):
+        """
+        Método principal para generar población de prueba
+        Reemplaza al método original con lógica hardcodeada
+        """
+        return self.generate_population_exact_size(total_size)
     
     def save_as_forge_deck(self, deck):
         """
@@ -445,62 +734,104 @@ class MTGDeckGenerator:
             deck (dict): Diccionario con información del mazo
             save_path (str, optional): Ruta donde guardar los gráficos
         """
-        # Calcular estadísticas
-        stats = self.analyze_deck(deck)
-        
-        # Crear figura con subplots
-        fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(18, 6))
-        
-        # 1. Curva de maná
-        mana_costs = list(stats['mana_curve'].keys())
-        mana_counts = list(stats['mana_curve'].values())
-        
-        ax1.bar(mana_costs, mana_counts, color='steelblue')
-        ax1.set_title('Curva de maná', fontsize=14)
-        ax1.set_xlabel('Coste de maná')
-        ax1.set_ylabel('Número de cartas')
-        ax1.grid(True, alpha=0.3)
-        
-        # 2. Distribución de tipos
-        types = list(stats['type_distribution'].keys())
-        type_counts = list(stats['type_distribution'].values())
-        
-        colors_pie = ['#8B4513', '#1E90FF', '#FF6347', '#FFD700', '#9370DB']
-        ax2.pie(type_counts, labels=types, autopct='%1.1f%%', startangle=90, colors=colors_pie)
-        ax2.set_title('Distribución por tipo', fontsize=14)
-        
-        # 3. Distribución de colores
-        colors = list(stats['color_distribution'].keys())
-        color_counts = list(stats['color_distribution'].values())
-        
-        # Asignar colores reales para el gráfico
-        color_map = {
-            'Blanco': '#FFFACD',
-            'Azul': '#4169E1',
-            'Negro': '#2F4F4F',
-            'Rojo': '#DC143C',
-            'Verde': '#228B22',
-            'Incoloro': '#C0C0C0'
-        }
-        plot_colors = [color_map.get(color, 'gray') for color in colors]
-        
-        ax3.bar(colors, color_counts, color=plot_colors)
-        ax3.set_title('Distribución por color', fontsize=14)
-        ax3.set_xlabel('Color')
-        ax3.set_ylabel('Número de cartas')
-        ax3.tick_params(axis='x', rotation=45)
-        ax3.grid(True, alpha=0.3)
-        
-        plt.tight_layout()
-        
-        # Añadir título general
-        fig.suptitle(f"Estadísticas de {deck['name']}", fontsize=16, y=1.02)
-        
-        if save_path:
-            plt.savefig(save_path, bbox_inches='tight', dpi=150)
-            plt.close()
-        else:
-            plt.show()
+        try:
+            # Calcular estadísticas
+            stats = self.analyze_deck(deck)
+            
+            # Crear figura con subplots
+            fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(18, 6))
+            
+            # 1. Curva de maná
+            mana_costs = list(stats['mana_curve'].keys())
+            mana_counts = list(stats['mana_curve'].values())
+            
+            if sum(mana_counts) > 0:  # Solo si hay cartas no-tierra
+                ax1.bar(mana_costs, mana_counts, color='steelblue')
+                ax1.set_title('Curva de maná', fontsize=14)
+                ax1.set_xlabel('Coste de maná')
+                ax1.set_ylabel('Número de cartas')
+                ax1.grid(True, alpha=0.3)
+            else:
+                ax1.text(0.5, 0.5, 'Sin cartas\nno-tierra', ha='center', va='center', transform=ax1.transAxes)
+                ax1.set_title('Curva de maná', fontsize=14)
+            
+            # 2. Distribución de tipos
+            types = list(stats['type_distribution'].keys())
+            type_counts = list(stats['type_distribution'].values())
+            
+            if sum(type_counts) > 0:
+                # Filtrar tipos con 0 cartas
+                filtered_types = []
+                filtered_counts = []
+                for t, c in zip(types, type_counts):
+                    if c > 0:
+                        filtered_types.append(t)
+                        filtered_counts.append(c)
+                
+                if filtered_counts:
+                    colors_pie = ['#8B4513', '#1E90FF', '#FF6347', '#FFD700', '#9370DB', '#32CD32']
+                    ax2.pie(filtered_counts, labels=filtered_types, autopct='%1.1f%%', 
+                           startangle=90, colors=colors_pie[:len(filtered_counts)])
+                    ax2.set_title('Distribución por tipo', fontsize=14)
+            else:
+                ax2.text(0.5, 0.5, 'Sin datos', ha='center', va='center', transform=ax2.transAxes)
+                ax2.set_title('Distribución por tipo', fontsize=14)
+            
+            # 3. Distribución de colores
+            colors = list(stats['color_distribution'].keys())
+            color_counts = list(stats['color_distribution'].values())
+            
+            if sum(color_counts) > 0:
+                # Filtrar colores con 0 cartas
+                filtered_colors = []
+                filtered_color_counts = []
+                plot_colors = []
+                
+                # Asignar colores reales para el gráfico
+                color_map = {
+                    'Blanco': '#FFFACD',
+                    'Azul': '#4169E1',
+                    'Negro': '#2F4F4F',
+                    'Rojo': '#DC143C',
+                    'Verde': '#228B22',
+                    'Incoloro': '#C0C0C0'
+                }
+                
+                for color, count in zip(colors, color_counts):
+                    if count > 0:
+                        filtered_colors.append(color)
+                        filtered_color_counts.append(count)
+                        plot_colors.append(color_map.get(color, 'gray'))
+                
+                if filtered_colors:
+                    ax3.bar(filtered_colors, filtered_color_counts, color=plot_colors)
+                    ax3.set_title('Distribución por color', fontsize=14)
+                    ax3.set_xlabel('Color')
+                    ax3.set_ylabel('Número de cartas')
+                    ax3.tick_params(axis='x', rotation=45)
+                    ax3.grid(True, alpha=0.3)
+            else:
+                ax3.text(0.5, 0.5, 'Sin cartas\nde color', ha='center', va='center', transform=ax3.transAxes)
+                ax3.set_title('Distribución por color', fontsize=14)
+            
+            plt.tight_layout()
+            
+            # Añadir título general
+            fig.suptitle(f"Estadísticas de {deck['name']}", fontsize=16, y=1.02)
+            
+            if save_path:
+                plt.savefig(save_path, bbox_inches='tight', dpi=150)
+                plt.close()
+                return True
+            else:
+                plt.show()
+                return True
+                
+        except Exception as e:
+            print(f"   Error generando gráfico para {deck['name']}: {e}")
+            if 'fig' in locals():
+                plt.close(fig)
+            return False
     
     def analyze_deck(self, deck):
         """
