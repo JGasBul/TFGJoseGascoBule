@@ -7,13 +7,13 @@ import time
 from datetime import datetime
 
 class MTGCardScraper:
-    def __init__(self, output_dir="mtg_data", exclude_latest_set=True):
+    def __init__(self, output_dir="mtg_data", exclude_latest_set=False):
         """
         Inicializa el scraper de cartas de MTG
         
         Args:
             output_dir (str): Directorio para guardar los datos descargados
-            exclude_latest_set (bool): Si excluir la última expansión (para compatibilidad con Forge)
+            exclude_latest_set (bool): Parámetro mantenido por compatibilidad, pero no usado
         """
         self.output_dir = output_dir
         self.exclude_latest_set = exclude_latest_set
@@ -25,6 +25,27 @@ class MTGCardScraper:
         })
         self.cards_df = None
         self.card_catalog = {}  # Diccionario {card_id: card_data}
+        
+        # Lista específica de códigos de expansiones a obtener
+        # Esto es mucho más confiable que buscar por nombres
+        self.target_set_codes = {
+            'FDN': 'Magic: The Gathering Foundations',
+            'DMU': 'Dominaria United', 
+            'BRO': 'The Brothers\' War',
+            'ONE': 'Phyrexia: All Will Be One',
+            'MOM': 'March of the Machine',
+            'MAT': 'March of the Machine: The Aftermath',
+            'WOE': 'Wilds of Eldraine',
+            'LCI': 'The Lost Caverns of Ixalan',
+            'MKM': 'Murders at Karlov Manor',
+            'OTJ': 'Outlaws of Thunder Junction',
+            'BIG': 'Outlaws of Thunder Junction/The Big Score',
+            'BLB': 'Bloomburrow',
+            'DSK': 'Duskmourn: House of Horror',
+            'DFT': 'Aetherdrift',
+            'TDM': 'Tarkir: Dragonstorm',
+            'FIN': 'Final Fantasy'
+        }
     
     def get_sets_from_scryfall(self):
         """Obtiene la lista de colecciones (sets) disponibles en Scryfall"""
@@ -46,42 +67,77 @@ class MTGCardScraper:
             print(f"Error {response.status_code} al obtener sets: {response.text}")
             return None
     
-    def get_standard_sets(self):
-        """Identifica cuáles de los sets disponibles están en formato Estándar ANTERIOR"""
+    def get_target_sets(self):
+        """Identifica los sets objetivo por sus códigos específicos"""
         sets_df = self.get_sets_from_scryfall()
         if sets_df is None:
             return None
         
-        # Obtener fecha actual
-        current_date = pd.to_datetime('today')
+        print(f"Buscando {len(self.target_set_codes)} expansiones por código...")
         
-        # Para el formato estándar ANTERIOR, tomamos sets de hace 2-4 años
-        # Esto garantiza mejor compatibilidad con Forge
-        sets_df['released_at'] = pd.to_datetime(sets_df['released_at'])
+        target_sets_found = []
+        not_found_codes = []
         
-        # Fecha límite superior: hace 1 año (para excluir sets muy recientes)
-        upper_date_limit = current_date - pd.DateOffset(years=2)
-        # Fecha límite inferior: hace 3 años
-        lower_date_limit = current_date - pd.DateOffset(years=4)
+        for code, expected_name in self.target_set_codes.items():
+            # Buscar por código exacto (case insensitive)
+            matching_sets = sets_df[
+                sets_df['code'].str.upper() == code.upper()
+            ]
+            
+            if len(matching_sets) > 0:
+                set_data = matching_sets.iloc[0]
+                target_sets_found.append(set_data)
+                print(f"✓ {code}: {set_data['name']} - {set_data.get('card_count', 0)} cartas")
+            else:
+                not_found_codes.append((code, expected_name))
+                print(f"✗ {code}: No encontrado (esperaba: {expected_name})")
         
-        standard_sets = sets_df[
-            (sets_df['set_type'] == 'expansion') & 
-            (sets_df['released_at'] > lower_date_limit) &
-            (sets_df['released_at'] < upper_date_limit)
-        ]
+        # Para códigos no encontrados, mostrar información de debugging
+        if not_found_codes:
+            print(f"\nCódigos no encontrados: {len(not_found_codes)}")
+            
+            # Buscar códigos similares para debugging
+            for code, expected_name in not_found_codes:
+                print(f"\nBuscando información para {code} ({expected_name}):")
+                
+                # Buscar por partes del nombre
+                name_parts = expected_name.replace(":", "").replace("/", " ").split()
+                similar_sets = []
+                
+                for part in name_parts:
+                    if len(part) > 3:  # Solo palabras significativas
+                        matches = sets_df[
+                            sets_df['name'].str.contains(part, case=False, na=False, regex=False)
+                        ]
+                        for _, match in matches.iterrows():
+                            if match['code'] not in [found['code'] for found in target_sets_found]:
+                                similar_sets.append(match)
+                
+                if similar_sets:
+                    print(f"  Sets similares encontrados:")
+                    # Eliminar duplicados y mostrar los primeros 5
+                    seen_codes = set()
+                    for match in similar_sets[:10]:
+                        if match['code'] not in seen_codes:
+                            seen_codes.add(match['code'])
+                            print(f"    - {match['name']} ({match['code']}) [{match.get('set_type', 'unknown')}] - {match.get('card_count', 0)} cartas")
+                else:
+                    print(f"  No se encontraron sets similares")
         
-        # Ordenar por fecha de lanzamiento
-        standard_sets = standard_sets.sort_values('released_at', ascending=False)
+        if not target_sets_found:
+            print("No se encontraron expansiones objetivo.")
+            return None
         
-        print(f"Usando formato Estándar ANTERIOR para máxima compatibilidad con Forge")
-        print(f"Sets entre {lower_date_limit.strftime('%Y-%m')} y {upper_date_limit.strftime('%Y-%m')}")
-        print(f"Sets identificados: {len(standard_sets)}")
+        target_sets_df = pd.DataFrame(target_sets_found)
         
-        # Mostrar los sets seleccionados
-        for _, set_data in standard_sets.iterrows():
-            print(f"  - {set_data['name']} ({set_data['code']}) - {set_data['released_at'].strftime('%Y-%m')}")
+        print(f"\n" + "="*80)
+        print(f"EXPANSIONES ENCONTRADAS: {len(target_sets_df)} de {len(self.target_set_codes)}")
+        print("="*80)
+        for _, set_data in target_sets_df.iterrows():
+            print(f"  {set_data['code'].upper()}: {set_data['name']} - {set_data.get('card_count', 0)} cartas - {set_data.get('released_at', 'Fecha desconocida')}")
+        print("="*80)
         
-        return standard_sets
+        return target_sets_df
     
     def get_cards_from_set(self, set_code):
         """
@@ -109,35 +165,62 @@ class MTGCardScraper:
                     time.sleep(0.1)  # Respetar rate limits
                 else:
                     url = None
+            elif response.status_code == 404:
+                print(f"Set {set_code} no encontrado en Scryfall")
+                url = None
             else:
                 print(f"Error {response.status_code} al obtener cartas: {response.text}")
                 url = None
         
+        print(f"  Obtenidas {len(cards)} cartas del set {set_code}")
         return cards
     
-    def get_all_standard_cards(self):
-        """Obtiene todas las cartas del formato Estándar"""
-        standard_sets = self.get_standard_sets()
-        if standard_sets is None:
+    def get_all_target_cards(self):
+        """Obtiene todas las cartas de las expansiones objetivo"""
+        target_sets = self.get_target_sets()
+        if target_sets is None or len(target_sets) == 0:
+            print("No se encontraron expansiones objetivo válidas.")
             return None
         
         all_cards = []
-        for _, set_row in tqdm(standard_sets.iterrows(), total=len(standard_sets)):
+        successful_sets = []
+        
+        for _, set_row in tqdm(target_sets.iterrows(), total=len(target_sets), desc="Procesando sets"):
             set_code = set_row['code']
-            set_cards = self.get_cards_from_set(set_code)
-            for card in set_cards:
-                card['set_name'] = set_row['name']
-            all_cards.extend(set_cards)
+            set_name = set_row['name']
             
-            # Guardar cada set por separado como backup
-            set_filename = os.path.join(self.output_dir, f"set_{set_code}.json")
-            with open(set_filename, 'w', encoding='utf-8') as f:
-                json.dump(set_cards, f, ensure_ascii=False, indent=2)
+            set_cards = self.get_cards_from_set(set_code)
+            
+            if set_cards:
+                for card in set_cards:
+                    card['set_name'] = set_name
+                all_cards.extend(set_cards)
+                successful_sets.append((set_code, set_name))
+                
+                # Guardar cada set por separado como backup
+                set_filename = os.path.join(self.output_dir, f"set_{set_code.lower()}.json")
+                with open(set_filename, 'w', encoding='utf-8') as f:
+                    json.dump(set_cards, f, ensure_ascii=False, indent=2)
+            else:
+                print(f"No se pudieron obtener cartas del set: {set_name} ({set_code})")
+        
+        if not all_cards:
+            print("No se obtuvieron cartas de ninguna expansión.")
+            return None
         
         # Guardar todas las cartas juntas
-        all_cards_filename = os.path.join(self.output_dir, "all_standard_cards.json")
+        all_cards_filename = os.path.join(self.output_dir, "all_target_cards.json")
         with open(all_cards_filename, 'w', encoding='utf-8') as f:
             json.dump(all_cards, f, ensure_ascii=False, indent=2)
+        
+        print(f"\n" + "="*80)
+        print("RESUMEN DE OBTENCIÓN")
+        print("="*80)
+        print(f"Sets procesados exitosamente: {len(successful_sets)}")
+        for code, name in successful_sets:
+            print(f"  {code}: {name}")
+        print(f"Total de cartas obtenidas: {len(all_cards)}")
+        print("="*80)
         
         return all_cards
     
@@ -157,7 +240,9 @@ class MTGCardScraper:
         # Usar un set para evitar duplicados por nombre
         seen_cards = set()
         
-        for card in cards:
+        print(f"Procesando {len(cards)} cartas...")
+        
+        for card in tqdm(cards, desc="Procesando cartas"):
             try:
                 card_name = card['name']
                 
@@ -266,6 +351,10 @@ class MTGCardScraper:
                     color_indices[color].append(card_id)
             else:
                 color_indices['multicolor'].append(card_id)
+                # También añadir a cada color individual para búsquedas
+                for color in card['color_identity']:
+                    if color in color_indices:
+                        color_indices[color].append(card_id)
         
         # Guardar índices
         indices_filename = os.path.join(self.output_dir, "card_indices.json")
@@ -280,13 +369,17 @@ class MTGCardScraper:
     
     def run(self):
         """Ejecuta el proceso completo de obtención y procesamiento de cartas"""
-        print("Obteniendo cartas del formato Estándar...")
-        if self.exclude_latest_set:
-            print("(Excluyendo la última expansión para compatibilidad con Forge)")
+        print("=" * 60)
+        print("OBTENCIÓN DE CARTAS POR CÓDIGOS DE EXPANSIÓN")
+        print("=" * 60)
+        print("Expansiones objetivo:")
+        for i, (code, name) in enumerate(self.target_set_codes.items(), 1):
+            print(f"  {i:2d}. {code}: {name}")
+        print("=" * 60)
         
-        cards = self.get_all_standard_cards()
+        cards = self.get_all_target_cards()
         if cards:
-            print(f"Se obtuvieron {len(cards)} cartas.")
+            print(f"\nSe obtuvieron {len(cards)} cartas en total.")
             
             print("Procesando datos de cartas...")
             self.cards_df = self.process_card_data(cards)
@@ -308,8 +401,15 @@ class MTGCardScraper:
         if self.cards_df is None:
             return
         
-        print("\nEstadísticas de cartas:")
+        print("\n" + "=" * 50)
+        print("ESTADÍSTICAS DE CARTAS OBTENIDAS")
+        print("=" * 50)
         print(f"Total de cartas únicas: {len(self.cards_df)}")
+        
+        print("\nDistribución por expansión:")
+        set_counts = self.cards_df['set_name'].value_counts()
+        for set_name, count in set_counts.items():
+            print(f"  {set_name}: {count} cartas")
         
         print("\nDistribución por tipo:")
         type_counts = {
@@ -327,16 +427,47 @@ class MTGCardScraper:
         print("\nDistribución por rareza:")
         rarity_counts = self.cards_df['rarity'].value_counts()
         for rarity, count in rarity_counts.items():
-            print(f"  {rarity}: {count}")
+            print(f"  {rarity.capitalize()}: {count}")
+        
+        print("\nDistribución por colores:")
+        color_stats = {
+            'Blanco (W)': 0,
+            'Azul (U)': 0, 
+            'Negro (B)': 0,
+            'Rojo (R)': 0,
+            'Verde (G)': 0,
+            'Incoloro': 0,
+            'Multicolor': 0
+        }
+        
+        for _, card in self.cards_df.iterrows():
+            colors = card['color_identity']
+            if len(colors) == 0:
+                color_stats['Incoloro'] += 1
+            elif len(colors) == 1:
+                color_map = {'W': 'Blanco (W)', 'U': 'Azul (U)', 'B': 'Negro (B)', 
+                           'R': 'Rojo (R)', 'G': 'Verde (G)'}
+                if colors[0] in color_map:
+                    color_stats[color_map[colors[0]]] += 1
+            else:
+                color_stats['Multicolor'] += 1
+        
+        for color, count in color_stats.items():
+            print(f"  {color}: {count}")
         
         print("\nDistribución por CMC:")
         cmc_counts = self.cards_df['cmc'].value_counts().sort_index()
         for cmc, count in cmc_counts.items():
             if cmc <= 7:
                 print(f"  CMC {int(cmc)}: {count}")
-            else:
-                print(f"  CMC 8+: {count}")
+            elif cmc > 7:
+                # Agrupar CMC 8+ 
+                cmc_8_plus = self.cards_df[self.cards_df['cmc'] > 7].shape[0]
+                print(f"  CMC 8+: {cmc_8_plus}")
+                break
+        
+        print("=" * 50)
 
 if __name__ == "__main__":
-    scraper = MTGCardScraper(exclude_latest_set=True)
+    scraper = MTGCardScraper()
     cards_df = scraper.run()
