@@ -39,7 +39,8 @@ class MTGGeneticAlgorithm:
                  parallel_batch_size=None,
                  base_timeout=120,
                  log_level='INFO',
-                 save_forge_outputs=True):
+                 save_forge_outputs=True,
+                 headless_mode=False):
         """
         Inicializa el algoritmo genético con parámetros de paralelización
         
@@ -122,6 +123,10 @@ class MTGGeneticAlgorithm:
         
         # Configurar Forge
         self.setup_forge()
+        
+        #Modo headless
+        self.headless_mode = headless_mode
+        self.logger.info(f"Modo: {'Headless (xvfb-run)' if headless_mode else 'GUI normal'}")
     
     def setup_logging(self, log_level):
         """Configura sistema de logging"""
@@ -355,7 +360,8 @@ class MTGGeneticAlgorithm:
                     'forge_output_dir': self.forge_output_dir,
                     'deck1_idx': i,
                     'deck2_idx': j,
-                    'reverse': False
+                    'reverse': False,
+                    'headless_mode': self.headless_mode
                 })
                 
                 # Combate 2: j vs i (orden invertido)
@@ -989,14 +995,20 @@ def parallel_forge_combat_worker(combat_info):
     worker_id = os.getpid()
     
     start_time = time.time()
+    headless_mode = combat_info.get('headless_mode', False)
     
     # Comando para ejecutar Forge
-    cmd = [
+    base_cmd = [
         "java", "-jar", forge_jar_path,
         "sim",
         "-d", deck1_name, deck2_name,
         "-n", "1"
     ]
+    
+    if headless_mode:
+        cmd = ["xvfb-run", "-a"] + base_cmd 
+    else:
+        cmd = base_cmd 
     
     try:
         # Ejecutar Forge

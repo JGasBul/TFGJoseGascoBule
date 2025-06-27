@@ -363,6 +363,7 @@ class MTGMenuSystem:
         self.decks_dir = "mtg_decks"
         self.evolved_dir = "mtg_evolved_decks"
         self.forge_jar = None
+        self.headless_mode = False
         
         # Crear directorios
         Path(self.data_dir).mkdir(exist_ok=True)
@@ -378,6 +379,7 @@ class MTGMenuSystem:
         self.hardware_analyzer = None
         
         self.check_system_status()
+        self.auto_detect_headless()
     
     def analyze_hardware_if_needed(self):
         """Analiza hardware si no se ha hecho ya"""
@@ -433,6 +435,35 @@ class MTGMenuSystem:
                 self.forge_jar = matches[0]
                 self.forge_configured = True
                 break
+    def auto_detect_headless(self):
+        """Detecta automáticamente si estamos en un entorno headless"""
+        try:
+            # Método 1: Verificar variable de entorno DISPLAY
+            display = os.environ.get('DISPLAY')
+            if not display:
+                self.headless_mode = True
+                return
+            
+            # Método 2: Verificar SSH_CONNECTION (indica sesión SSH)
+            ssh_connection = os.environ.get('SSH_CONNECTION')
+            if ssh_connection:
+                self.headless_mode = True
+                return
+            
+            # Método 3: Intentar importar tkinter (GUI)
+            try:
+                import tkinter
+                # Intentar crear una ventana temporal
+                root = tkinter.Tk()
+                root.withdraw()  # Ocultar ventana
+                root.destroy()
+                self.headless_mode = False
+            except:
+                self.headless_mode = True
+                
+        except Exception:
+            # Si hay cualquier error, asumir headless por seguridad
+            self.headless_mode = True
     
     def print_header(self):
         """Imprime el header del programa"""
@@ -459,6 +490,11 @@ class MTGMenuSystem:
             print(f"  ✅ Forge: Configurado en {os.path.basename(self.forge_jar)}")
         else:
             print("  ❌ Forge: No encontrado (necesario para algoritmo genético)")
+            
+        if self.headless_mode:
+            print("  🖥️  Modo: Headless (sin interfaz gráfica) - usando xvfb-run")
+        else:
+            print("  🖥️  Modo: GUI disponible - ejecución estándar")
         
         # Estado del análisis de hardware
         if self.hardware_analyzer:
@@ -526,6 +562,7 @@ class MTGMenuSystem:
             print("  6. 📊 Ver estadísticas del sistema")
             print("  7. 🚀 Ejecución automática completa (AUTO-OPTIMIZADA)")
             print("  8. ⚡ Modo de prueba rápida (AUTO-OPTIMIZADO)")
+            print("  9. 🖥️  Configurar modo headless")
             print("  0. 🚪 Salir")
             
             try:
@@ -550,8 +587,10 @@ class MTGMenuSystem:
                     self.ejecucion_completa_optimizada()
                 elif choice == "8":
                     self.modo_prueba_optimizado()
+                elif choice == "9":
+                    self.menu_configurar_headless()
                 else:
-                    print("\n❌ Opción no válida. Por favor, selecciona un número del 0 al 8.")
+                    print("\n❌ Opción no válida. Por favor, selecciona un número del 0 al 9.")
                     input("\nPresiona Enter para continuar...")
             
             except KeyboardInterrupt:
@@ -740,6 +779,93 @@ class MTGMenuSystem:
         
         input("\nPresiona Enter para continuar...")
     
+    def menu_configurar_headless(self):
+        """Menú para configurar modo headless - NUEVO"""
+        print("\n" + "=" * 60)
+        print("🖥️  CONFIGURAR MODO HEADLESS")
+        print("=" * 60)
+        
+        print(f"Estado actual: {'✅ Headless' if self.headless_mode else '🖼️  GUI disponible'}")
+        
+        print("\nEl modo headless es necesario en servidores o máquinas sin interfaz gráfica.")
+        print("En modo headless, Forge se ejecuta con 'xvfb-run -a' para simular display.")
+        print("\n🏫 PERFECTO para la universidad donde usas SSH sin X11 forwarding!")
+        
+        print("\n🔧 OPCIONES:")
+        print("  1. 🔍 Auto-detectar (recomendado)")
+        print("  2. ✅ Forzar modo headless (para servidores/universidad)")
+        print("  3. 🖼️  Forzar modo GUI (para escritorio)")
+        print("  4. 🧪 Probar detección actual")
+        print("  5. 📋 Ver información del entorno")
+        
+        try:
+            choice = input("\n👉 Selecciona opción (1-5): ").strip()
+            
+            if choice == "1":
+                print("\n🔍 Ejecutando auto-detección...")
+                old_mode = self.headless_mode
+                self.auto_detect_headless()
+                
+                if old_mode != self.headless_mode:
+                    print(f"   Modo cambiado: {'GUI → Headless' if self.headless_mode else 'Headless → GUI'}")
+                else:
+                    print(f"   Modo confirmado: {'Headless' if self.headless_mode else 'GUI'}")
+                
+                print(f"   ✅ Configuración: {'xvfb-run + java' if self.headless_mode else 'java directo'}")
+                
+            elif choice == "2":
+                self.headless_mode = True
+                print("\n✅ Modo headless activado manualmente")
+                print("   Forge se ejecutará con: xvfb-run -a java -jar forge.jar")
+                print("   🏫 Perfecto para máquinas de universidad!")
+                
+            elif choice == "3":
+                self.headless_mode = False
+                print("\n🖼️  Modo GUI activado manualmente")
+                print("   Forge se ejecutará con: java -jar forge.jar")
+                print("   💻 Perfecto para tu máquina personal!")
+                
+            elif choice == "4":
+                print("\n🧪 PRUEBA DE DETECCIÓN:")
+                print(f"   Variable DISPLAY: {os.environ.get('DISPLAY', '❌ No definida')}")
+                print(f"   SSH_CONNECTION: {os.environ.get('SSH_CONNECTION', '❌ No definida')}")
+                
+                try:
+                    import tkinter
+                    root = tkinter.Tk()
+                    root.withdraw()
+                    root.destroy()
+                    print("   Tkinter: ✅ Disponible")
+                except Exception as e:
+                    print(f"   Tkinter: ❌ Error - {e}")
+                
+                print(f"   Modo detectado: {'Headless' if self.headless_mode else 'GUI'}")
+                
+            elif choice == "5":
+                print("\n📋 INFORMACIÓN DEL ENTORNO:")
+                print(f"   Sistema: {platform.system()} {platform.release()}")
+                print(f"   Usuario: {os.environ.get('USER', 'desconocido')}")
+                print(f"   HOME: {os.environ.get('HOME', 'desconocido')}")
+                print(f"   TERM: {os.environ.get('TERM', 'desconocido')}")
+                print(f"   SSH_CLIENT: {os.environ.get('SSH_CLIENT', '❌ No en SSH')}")
+                print(f"   SSH_TTY: {os.environ.get('SSH_TTY', '❌ No en SSH')}")
+                
+                # Sugerencia automática
+                if os.environ.get('SSH_CONNECTION') or not os.environ.get('DISPLAY'):
+                    print("\n💡 SUGERENCIA: Parece que estás en un entorno remoto")
+                    print("   Se recomienda usar modo headless (Opción 2)")
+                else:
+                    print("\n💡 SUGERENCIA: Parece que tienes GUI disponible")
+                    print("   Puedes usar modo normal (Opción 3)")
+                
+            else:
+                print("❌ Opción no válida.")
+        
+        except Exception as e:
+            print(f"\n❌ Error: {e}")
+        
+        input("\nPresiona Enter para continuar...")
+    
     def menu_algoritmo_genetico_optimizado(self):
         """Menú para algoritmo genético auto-optimizado"""
         print("\n" + "=" * 60)
@@ -882,6 +1008,7 @@ class MTGMenuSystem:
                 tournament_size=3,
                 elite_size=elite_size,
                 stagnation_limit=stagnation_limit,
+                headless_mode=self.headless_mode,
                 # PARÁMETROS DE PARALELIZACIÓN - AQUÍ ESTÁ LA CLAVE
                 max_workers=config['max_workers'],
                 parallel_batch_size=config['parallel_batch_size'],
@@ -1180,6 +1307,7 @@ class MTGMenuSystem:
                 tournament_size=3,
                 elite_size=max(2, population_size // 15),
                 stagnation_limit=max(5, generations // 4),
+                headless_mode=self.headless_mode,
                 # PARÁMETROS DE PARALELIZACIÓN
                 max_workers=config['max_workers'],
                 parallel_batch_size=config['parallel_batch_size'],
@@ -1309,6 +1437,7 @@ class MTGMenuSystem:
                 tournament_size=3,
                 elite_size=2,
                 stagnation_limit=max(2, test_gens // 2),
+                headless_mode=self.headless_mode,
                 # PARÁMETROS DE PARALELIZACIÓN
                 **ga_config
             )
