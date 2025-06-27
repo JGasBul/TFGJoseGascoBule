@@ -1,3 +1,5 @@
+# Algoritmo Genético MTG Mejorado - Recibe configuración de paralelización
+
 import os
 import json
 import random
@@ -8,10 +10,15 @@ import time
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from multiprocessing import Pool, cpu_count
+from multiprocessing import Pool, cpu_count, Manager
 from collections import defaultdict
 import re
 from tqdm import tqdm
+import logging
+import csv
+from datetime import datetime
+from concurrent.futures import ProcessPoolExecutor, as_completed
+import threading
 
 class MTGGeneticAlgorithm:
     def __init__(self, 
@@ -26,23 +33,22 @@ class MTGGeneticAlgorithm:
                  crossover_rate=0.9,
                  tournament_size=3,
                  elite_size=5,
-                 stagnation_limit=20):
+                 stagnation_limit=20,
+                 # NUEVOS PARÁMETROS DE PARALELIZACIÓN
+                 max_workers=None,
+                 parallel_batch_size=None,
+                 base_timeout=120,
+                 log_level='INFO',
+                 save_forge_outputs=True):
         """
-        Inicializa el algoritmo genético con representación de arrays
+        Inicializa el algoritmo genético con parámetros de paralelización
         
         Args:
-            population_file (str): Ruta al archivo JSON con población inicial
-            catalog_path (str): Ruta al catálogo de cartas
-            indices_path (str): Ruta a los índices de cartas
-            output_dir (str): Directorio para guardar los mazos evolucionados
-            forge_jar_path (str): Ruta al ejecutable forge-gui-desktop.jar
-            max_generations (int): Número máximo de generaciones
-            population_size (int): Tamaño de la población
-            mutation_rate (float): Tasa de mutación base
-            crossover_rate (float): Tasa de cruce
-            tournament_size (int): Tamaño del torneo para selección
-            elite_size (int): Número de mejores individuos a preservar
-            stagnation_limit (int): Generaciones sin mejora antes de terminar
+            max_workers (int): Número de workers paralelos (None = auto-detectar)
+            parallel_batch_size (int): Tamaño de lote paralelo (None = auto-calcular)
+            base_timeout (int): Timeout base en segundos
+            log_level (str): Nivel de logging ('DEBUG', 'INFO', 'WARNING')
+            save_forge_outputs (bool): Si guardar outputs completos de Forge
         """
         self.output_dir = output_dir
         if not os.path.exists(output_dir):
@@ -57,8 +63,24 @@ class MTGGeneticAlgorithm:
         self.elite_size = elite_size
         self.stagnation_limit = stagnation_limit
         
+        # CONFIGURACIÓN DE PARALELIZACIÓN
+        self.max_workers = max_workers if max_workers else max(2, cpu_count() // 2)
+        self.parallel_batch_size = parallel_batch_size if parallel_batch_size else self.max_workers * 3
+        self.base_timeout = base_timeout
+        self.adaptive_timeout = base_timeout
+        self.save_forge_outputs = save_forge_outputs
+        
+        # Configurar logging
+        self.setup_logging(log_level)
+        
+        # Estructuras para datos (thread-safe)
+        self.combat_log = []
+        self.generation_stats = []
+        self.current_generation = 0
+        self.combat_lock = threading.Lock()
+        
         # Cargar catálogo e índices
-        print(f"Cargando catálogo de cartas...")
+        self.logger.info(f"Cargando catálogo de cartas...")
         with open(catalog_path, 'r', encoding='utf-8') as f:
             self.card_catalog = json.load(f)
         self.card_catalog = {int(k): v for k, v in self.card_catalog.items()}
@@ -71,7 +93,8 @@ class MTGGeneticAlgorithm:
         
         # Cargar población inicial
         self.population = self.load_population(population_file)
-        print(f"Población inicial cargada: {len(self.population)} mazos")
+        self.logger.info(f"Población inicial: {len(self.population)} mazos")
+        self.logger.info(f"Configuración paralela: {self.max_workers} workers, timeout {self.base_timeout}s")
         
         # Convertir población a arrays
         self.population_arrays = []
@@ -79,7 +102,6 @@ class MTGGeneticAlgorithm:
             if 'array' in deck:
                 self.population_arrays.append(np.array(deck['array']))
             else:
-                # Convertir del formato antiguo si es necesario
                 array = self.deck_to_array(deck)
                 self.population_arrays.append(array)
         
@@ -101,6 +123,49 @@ class MTGGeneticAlgorithm:
         # Configurar Forge
         self.setup_forge()
     
+    def setup_logging(self, log_level):
+        """Configura sistema de logging"""
+        self.logs_dir = os.path.join(self.output_dir, "logs")
+        os.makedirs(self.logs_dir, exist_ok=True)
+        
+        log_filename = os.path.join(self.logs_dir, f"parallel_ag_execution_{datetime.now().strftime('%Y%m%d_%H%M%S')}.log")
+        
+        # Configurar nivel de logging
+        numeric_level = getattr(logging, log_level.upper())
+        
+        logging.basicConfig(
+            level=numeric_level,
+            format='%(asctime)s - %(processName)s - %(levelname)s - %(message)s',
+            handlers=[
+                logging.FileHandler(log_filename, encoding='utf-8'),
+                logging.StreamHandler()
+            ],
+            force=True
+        )
+        
+        self.logger = logging.getLogger(__name__)
+        self.logger.info("=== ALGORITMO GENÉTICO PARALELO INICIADO ===")
+        
+        # Archivos de logs
+        self.combat_log_file = os.path.join(self.logs_dir, "parallel_combat_results.csv")
+        self.match_details_file = os.path.join(self.logs_dir, "parallel_match_details.json")
+        
+        if self.save_forge_outputs:
+            self.forge_output_dir = os.path.join(self.logs_dir, "forge_outputs")
+            os.makedirs(self.forge_output_dir, exist_ok=True)
+        else:
+            self.forge_output_dir = None
+            self.logger.info("Forge outputs deshabilitados para ahorrar espacio")
+        
+        # Inicializar CSV
+        with open(self.combat_log_file, 'w', newline='', encoding='utf-8') as f:
+            writer = csv.writer(f)
+            writer.writerow([
+                'Generation', 'Match_ID', 'Deck1_Name', 'Deck2_Name', 
+                'Winner', 'Deck1_Wins', 'Deck2_Wins', 'Duration_Seconds',
+                'Worker_ID', 'Forge_Output_File', 'Error_Message', 'Timestamp'
+            ])
+    
     def load_population(self, population_file):
         """Carga la población inicial desde archivo"""
         try:
@@ -108,7 +173,7 @@ class MTGGeneticAlgorithm:
                 population = json.load(f)
             return population
         except Exception as e:
-            print(f"Error al cargar población: {e}")
+            self.logger.error(f"Error al cargar población: {e}")
             return []
     
     def deck_to_array(self, deck):
@@ -167,75 +232,101 @@ class MTGGeneticAlgorithm:
         }
     
     def setup_forge(self):
-        """Configura Forge para simulaciones"""
-        # Verificar que Forge existe
+        """Configura Forge"""
         if not os.path.exists(self.forge_jar_path):
-            print(f"ERROR: No se encontró Forge en {self.forge_jar_path}")
-            print("Este algoritmo REQUIERE Forge para las evaluaciones.")
-            print("Por favor, descarga forge-gui-desktop.jar y colócalo en la ruta especificada.")
+            self.logger.error(f"ERROR: No se encontró Forge en {self.forge_jar_path}")
             sys.exit(1)
-        
-        # Configurar directorios de Forge
+
+        # Usar rutas fijas y simples
         self.forge_root = os.path.dirname(self.forge_jar_path)
-        self.forge_decks_dir = os.path.join(self.forge_root, "user", "decks", "constructed")
-        self.forge_old_winners_dir = os.path.join(self.forge_root, "user", "decks", "old_winners")
-        
+        self.forge_decks_dir = "./user/decks/constructed"
+        self.forge_old_winners_dir = "./user/decks/old_winners"
+
         # Crear directorios si no existen
         os.makedirs(self.forge_decks_dir, exist_ok=True)
         os.makedirs(self.forge_old_winners_dir, exist_ok=True)
-        
-        # Limpiar mazos antiguos de generaciones previas
+
+        # Limpiar al inicio
         self.clean_forge_decks()
-        
-        print("Forge configurado correctamente para simulaciones.")
-        print(f"Directorio de mazos: {self.forge_decks_dir}")
+
+        self.logger.info(f"Forge configurado. Directorio de mazos: {self.forge_decks_dir}")
     
     def clean_forge_decks(self):
-        """Limpia los mazos antiguos del directorio de Forge"""
-        # Buscar archivos que coincidan con nuestro patrón de nombres
-        pattern = re.compile(r"Gen\d+_Deck\d+\.dck")
+        """Limpia TODOS los archivos de ./user/decks/constructed - VERSIÓN SIMPLE"""
+        target_dir = "./user/decks/constructed"
         
-        for filename in os.listdir(self.forge_decks_dir):
-            if pattern.match(filename):
-                filepath = os.path.join(self.forge_decks_dir, filename)
-                try:
-                    os.remove(filepath)
-                except Exception as e:
-                    print(f"Advertencia: No se pudo eliminar {filename}: {e}")
+        print(f"🧹 Limpiando TODO en: {target_dir}")
         
-        print("Mazos antiguos limpiados.")
-    
-    def save_old_winner(self, deck, generation):
-        """Guarda el ganador anterior en la carpeta de old_winners"""
-        timestamp = time.strftime("%Y%m%d_%H%M%S")
-        filename = f"Winner_Gen{generation}_{timestamp}.dck"
-        filepath = os.path.join(self.forge_old_winners_dir, filename)
-        self.save_forge_deck(deck, filepath)
-        print(f"Ganador anterior guardado en: {filename}")
-    
-    def evaluate_population_tournament(self, population_arrays, generation=0):
-        """
-        Evalúa toda la población mediante un torneo round-robin
+        if not os.path.exists(target_dir):
+            print(f"❌ Directorio no existe: {target_dir}")
+            return 0
         
-        Args:
-            population_arrays (list): Lista de arrays representando mazos
-            generation (int): Generación actual
+        try:
+            files = os.listdir(target_dir)
+            print(f"   📂 Archivos encontrados: {len(files)}")
             
-        Returns:
-            list: Lista de valores de fitness (win rates)
-        """
+            if len(files) == 0:
+                print("   📭 Directorio ya está vacío")
+                return 0
+            
+            cleaned_count = 0
+            for filename in files:
+                filepath = os.path.join(target_dir, filename)
+                try:
+                    if os.path.isfile(filepath):  # Solo archivos, no directorios
+                        os.remove(filepath)
+                        cleaned_count += 1
+                        print(f"   ✅ Eliminado: {filename}")
+                except Exception as e:
+                    print(f"   ❌ Error eliminando {filename}: {e}")
+            
+            print(f"✅ Limpieza completada: {cleaned_count} archivos eliminados")
+            return cleaned_count
+            
+        except Exception as e:
+            print(f"❌ Error accediendo al directorio: {e}")
+            return 0
+    
+    def save_combat_result_parallel(self, result):
+        """Thread-safe: Guarda resultado de combate"""
+        with self.combat_lock:
+            # Guardar en CSV
+            with open(self.combat_log_file, 'a', newline='', encoding='utf-8') as f:
+                writer = csv.writer(f)
+                writer.writerow([
+                    result['generation'], result['match_id'], 
+                    result['deck1_name'], result['deck2_name'],
+                    result['winner'], result['deck1_wins'], result['deck2_wins'], 
+                    result['duration'], result['worker_id'],
+                    result['forge_output_file'], result['error_message'], 
+                    result['timestamp']
+                ])
+            
+            # Guardar en memoria
+            self.combat_log.append(result)
+    
+    def evaluate_population_tournament_parallel(self, population_arrays, generation=0):
+        """Evalúa población mediante torneo round-robin paralelo"""
+        self.current_generation = generation
+
+        self.logger.info(f"=== EVALUACIÓN PARALELA GENERACIÓN {generation} ===")
+
         n_decks = len(population_arrays)
         wins = [0] * n_decks
         games = [0] * n_decks
-        
-        print(f"\nEjecutando torneo round-robin con {n_decks} mazos...")
-        print(f"Total de enfrentamientos: {n_decks * (n_decks - 1) // 2}")
-        
-        # Limpiar mazos antiguos antes de crear los nuevos
-        self.clean_forge_decks()
-        
-        # Convertir todos los arrays a mazos y guardarlos en el directorio de Forge
-        deck_files = []
+
+        generation_start_time = time.time()
+
+        self.logger.info(f"Población: {n_decks} mazos")
+        self.logger.info(f"Workers paralelos: {self.max_workers}")
+        self.logger.info(f"Total de enfrentamientos: {n_decks * (n_decks - 1) // 2}")
+
+        # SOLO limpiar en la primera generación (generación 0)
+        if generation == 0:
+            self.clean_forge_decks()
+        else:
+            self.logger.info(f"Manteniendo mazos existentes para generación {generation}")
+
         deck_names = []
         for i, array in enumerate(population_arrays):
             deck_name = f"Gen{generation}_Deck{i}"
@@ -243,38 +334,100 @@ class MTGGeneticAlgorithm:
             deck = self.array_to_deck(array, deck_name)
             deck_file = os.path.join(self.forge_decks_dir, f"{deck_name}.dck")
             self.save_forge_deck(deck, deck_file)
-            deck_files.append(deck_file)
         
-        # Ejecutar todos los enfrentamientos
+        # Crear lista de todos los combates
+        combat_tasks = []
         match_count = 0
-        total_matches = n_decks * (n_decks - 1) // 2
         
-        with tqdm(total=total_matches, desc="Enfrentamientos") as pbar:
-            for i in range(n_decks):
-                for j in range(i + 1, n_decks):
-                    # Cada par juega 2 partidas (una con cada jugador primero)
-                    # Partida 1: i vs j
-                    wins_i_vs_j = self.simulate_forge_match(
-                        deck_names[i], deck_names[j], games=1
-                    )
-                    wins[i] += wins_i_vs_j
-                    wins[j] += (1 - wins_i_vs_j)
-                    games[i] += 1
-                    games[j] += 1
+        for i in range(n_decks):
+            for j in range(i + 1, n_decks):
+                # Combate 1: i vs j
+                match_count += 1
+                match_id_1 = f"Gen{generation}_Match{match_count}_{int(time.time())}"
+                combat_tasks.append({
+                    'deck1_name': deck_names[i],
+                    'deck2_name': deck_names[j],
+                    'forge_jar_path': self.forge_jar_path,
+                    'forge_root': self.forge_root,
+                    'timeout': self.adaptive_timeout,
+                    'match_id': match_id_1,
+                    'generation': generation,
+                    'forge_output_dir': self.forge_output_dir,
+                    'deck1_idx': i,
+                    'deck2_idx': j,
+                    'reverse': False
+                })
+                
+                # Combate 2: j vs i (orden invertido)
+                match_count += 1
+                match_id_2 = f"Gen{generation}_Match{match_count}_{int(time.time())}"
+                combat_tasks.append({
+                    'deck1_name': deck_names[j],
+                    'deck2_name': deck_names[i],
+                    'forge_jar_path': self.forge_jar_path,
+                    'forge_root': self.forge_root,
+                    'timeout': self.adaptive_timeout,
+                    'match_id': match_id_2,
+                    'generation': generation,
+                    'forge_output_dir': self.forge_output_dir,
+                    'deck1_idx': j,
+                    'deck2_idx': i,
+                    'reverse': True
+                })
+        
+        total_combats = len(combat_tasks)
+        self.logger.info(f"Ejecutando {total_combats} combates en paralelo...")
+        
+        # EJECUCIÓN PARALELA
+        successful_combats = 0
+        failed_combats = 0
+        
+        with ProcessPoolExecutor(max_workers=self.max_workers) as executor:
+            # Enviar tareas y crear barra de progreso
+            with tqdm(total=total_combats, desc=f"Gen {generation} - Combates Paralelos") as pbar:
+                # Submit todas las tareas
+                future_to_combat = {
+                    executor.submit(parallel_forge_combat_worker, task): task 
+                    for task in combat_tasks
+                }
+                
+                # Procesar resultados conforme van completándose
+                for future in as_completed(future_to_combat):
+                    task = future_to_combat[future]
                     
-                    # Partida 2: j vs i (cambiar orden de juego)
-                    wins_j_vs_i = self.simulate_forge_match(
-                        deck_names[j], deck_names[i], games=1
-                    )
-                    wins[j] += wins_j_vs_i
-                    wins[i] += (1 - wins_j_vs_i)
-                    games[i] += 1
-                    games[j] += 1
+                    try:
+                        result = future.result()
+                        
+                        # Guardar resultado
+                        self.save_combat_result_parallel(result)
+                        
+                        if result['success']:
+                            successful_combats += 1
+                            # Actualizar contadores de victorias
+                            i = task['deck1_idx']
+                            j = task['deck2_idx']
+                            
+                            if result['return_value'] == 1:
+                                wins[i] += 1
+                            else:
+                                wins[j] += 1
+                            
+                            games[i] += 1
+                            games[j] += 1
+                        else:
+                            failed_combats += 1
+                            if result['winner'] == 'TIMEOUT':
+                                # Aumentar timeout si hay muchos timeouts
+                                self.adaptive_timeout = min(self.base_timeout * 3, self.adaptive_timeout * 1.1)
+                            self.logger.warning(f"Combate fallido: {result['error_message']}")
+                        
+                    except Exception as e:
+                        failed_combats += 1
+                        self.logger.error(f"Error procesando combate: {e}")
                     
-                    match_count += 1
                     pbar.update(1)
         
-        # Calcular fitness (win rate) para cada mazo
+        # Calcular fitness
         fitness_values = []
         for i in range(n_decks):
             if games[i] > 0:
@@ -283,95 +436,42 @@ class MTGGeneticAlgorithm:
                 win_rate = 0.0
             fitness_values.append(win_rate)
         
-        # Mostrar estadísticas del torneo
-        print(f"\nResultados del torneo:")
-        print(f"  Mejor win rate: {max(fitness_values):.2%}")
-        print(f"  Peor win rate: {min(fitness_values):.2%}")
-        print(f"  Win rate promedio: {np.mean(fitness_values):.2%}")
+        generation_duration = time.time() - generation_start_time
+        
+        # Log de resultados
+        self.logger.info(f"=== RESULTADOS GENERACIÓN {generation} ===")
+        self.logger.info(f"Duración total: {generation_duration/60:.1f} minutos")
+        self.logger.info(f"Combates exitosos: {successful_combats}/{total_combats}")
+        self.logger.info(f"Combates fallidos: {failed_combats}")
+        self.logger.info(f"Mejor fitness: {max(fitness_values):.4f}")
+        self.logger.info(f"Fitness promedio: {np.mean(fitness_values):.4f}")
+        
+        # Ranking de mazos
+        deck_rankings = [(i, deck_names[i], fitness_values[i], wins[i], games[i]) 
+                        for i in range(n_decks)]
+        deck_rankings.sort(key=lambda x: x[2], reverse=True)
+        
+        self.logger.info("Top 5 mazos:")
+        for rank, (idx, name, fitness, win_count, game_count) in enumerate(deck_rankings[:5], 1):
+            self.logger.info(f"  {rank}. {name}: {fitness:.4f} ({win_count}/{game_count})")
+        
+        # Guardar estadísticas de generación
+        generation_stats = {
+            'generation': generation,
+            'duration_minutes': generation_duration / 60,
+            'total_combats': total_combats,
+            'successful_combats': successful_combats,
+            'failed_combats': failed_combats,
+            'best_fitness': max(fitness_values),
+            'avg_fitness': np.mean(fitness_values),
+            'deck_rankings': deck_rankings,
+            'adaptive_timeout': self.adaptive_timeout,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+        self.generation_stats.append(generation_stats)
         
         return fitness_values
-    
-    def simulate_forge_match(self, deck1_name, deck2_name, games=1):
-        """
-        Simula una partida entre dos mazos en Forge
-        
-        Args:
-            deck1_name (str): Nombre del primer mazo (sin extensión .dck)
-            deck2_name (str): Nombre del segundo mazo (sin extensión .dck)
-            games (int): Número de partidas
-            
-        Returns:
-            int: Número de victorias del primer mazo
-        """
-        # Comando para ejecutar Forge en modo simulación
-        # Forge espera solo los nombres de los mazos, no las rutas completas
-        cmd = [
-            "java", "-jar", self.forge_jar_path,
-            "sim",
-            "-d", deck1_name, deck2_name,
-            "-n", "1"
-        ]
-        
-        try:
-            # Ejecutar desde el directorio de Forge
-            result = subprocess.run(
-                cmd, 
-                capture_output=True, 
-                text=True, 
-                timeout=60,  # Timeout más corto para partidas individuales
-                cwd=self.forge_root  # Cambiar al directorio de Forge
-            )
-            
-            # Parsear resultados
-            output = result.stdout
-            
-            # Buscar el patrón de victoria en el formato de Forge
-            # Formato: "Ai(X)-NombreMazo has won!"
-            # Necesitamos ver si ganó deck1 o deck2
-            
-            # Contar victorias del deck1
-            deck1_wins = 0
-            deck2_wins = 0
-            
-            # Buscar todas las líneas que contienen "has won!"
-            for line in output.split('\n'):
-                if "has won!" in line:
-                    if deck1_name in line:
-                        deck1_wins += 1
-                    elif deck2_name in line:
-                        deck2_wins += 1
-            
-            # Si se jugó más de una partida, retornar el número de victorias
-            if games > 1:
-                return deck1_wins
-            
-            # Si solo se jugó una partida, retornar 1 o 0
-            if deck1_wins > 0:
-                return 1
-            elif deck2_wins > 0:
-                return 0
-            
-            # Si no encontramos un ganador claro, buscar patrones alternativos
-            # Patrón alternativo: "Player 1 wins" o similar
-            if re.search(r"Player 1 wins?", output, re.IGNORECASE):
-                return 1
-            elif re.search(r"Player 2 wins?", output, re.IGNORECASE):
-                return 0
-            
-            # Si hay error, imprimir para debugging
-            if result.stderr:
-                print(f"\nError en simulación: {result.stderr}")
-            
-            # Si no podemos determinar el ganador, asumimos empate (0)
-            print(f"\nNo se pudo determinar ganador entre {deck1_name} y {deck2_name}")
-            return 0
-            
-        except subprocess.TimeoutExpired:
-            print(f"\nTimeout en partida {deck1_name} vs {deck2_name}")
-            return 0
-        except Exception as e:
-            print(f"\nError en simulación: {e}")
-            return 0
     
     def save_forge_deck(self, deck, filepath):
         """Guarda un mazo en formato Forge"""
@@ -381,54 +481,30 @@ class MTGGeneticAlgorithm:
             f.write("\n[Main]\n")
             
             for card in deck['cards']:
-                # Forge espera el formato simple "cantidad nombre"
                 f.write(f"{card['count']} {card['name']}\n")
     
+    # [Resto de métodos iguales: crossover, mutación, etc.]
     def crossover_uniform(self, parent1_array, parent2_array):
-        """
-        Cruce uniforme entre dos arrays de mazos
-        
-        Args:
-            parent1_array (np.array): Primer padre
-            parent2_array (np.array): Segundo padre
-            
-        Returns:
-            tuple: Dos hijos (np.array)
-        """
+        """Cruce uniforme entre dos arrays de mazos"""
         if random.random() > self.crossover_rate:
             return parent1_array.copy(), parent2_array.copy()
         
-        # Crear máscaras para cruce uniforme
         mask = np.random.randint(0, 2, size=self.total_cards)
-        
-        # Crear hijos
         child1 = np.where(mask == 1, parent1_array, parent2_array)
         child2 = np.where(mask == 0, parent1_array, parent2_array)
         
-        # Ajustar a exactamente 60 cartas
         child1 = self.adjust_deck_size(child1)
         child2 = self.adjust_deck_size(child2)
         
         return child1, child2
     
     def crossover_two_point(self, parent1_array, parent2_array):
-        """
-        Cruce de dos puntos entre arrays de mazos
-        
-        Args:
-            parent1_array (np.array): Primer padre
-            parent2_array (np.array): Segundo padre
-            
-        Returns:
-            tuple: Dos hijos (np.array)
-        """
+        """Cruce de dos puntos entre arrays de mazos"""
         if random.random() > self.crossover_rate:
             return parent1_array.copy(), parent2_array.copy()
         
-        # Seleccionar dos puntos de cruce
         points = sorted(random.sample(range(1, self.total_cards), 2))
         
-        # Crear hijos
         child1 = np.concatenate([
             parent1_array[:points[0]],
             parent2_array[points[0]:points[1]],
@@ -441,171 +517,34 @@ class MTGGeneticAlgorithm:
             parent2_array[points[1]:]
         ])
         
-        # Ajustar a exactamente 60 cartas
         child1 = self.adjust_deck_size(child1)
         child2 = self.adjust_deck_size(child2)
         
         return child1, child2
     
     def mutate_swap(self, deck_array):
-        """
-        Mutación por intercambio: intercambia cartas entre posiciones
-        
-        Args:
-            deck_array (np.array): Array del mazo
-            
-        Returns:
-            np.array: Array mutado
-        """
+        """Mutación por intercambio: intercambia cartas entre posiciones"""
         if random.random() > self.mutation_rate:
             return deck_array.copy()
         
         mutated = deck_array.copy()
-        
-        # Número de intercambios
         num_swaps = random.randint(1, 3)
         
         for _ in range(num_swaps):
-            # Encontrar posiciones con cartas
             nonzero_positions = np.where(mutated > 0)[0]
             if len(nonzero_positions) < 2:
                 continue
             
-            # Seleccionar dos posiciones diferentes
             pos1, pos2 = random.sample(list(nonzero_positions), 2)
             
-            # Intercambiar una copia
             if mutated[pos1] > 0 and mutated[pos2] < 4:
                 mutated[pos1] -= 1
                 mutated[pos2] += 1
         
         return mutated
     
-    def mutate_add_remove(self, deck_array):
-        """
-        Mutación por adición/remoción: añade o quita cartas
-        
-        Args:
-            deck_array (np.array): Array del mazo
-            
-        Returns:
-            np.array: Array mutado
-        """
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
-        
-        mutated = deck_array.copy()
-        
-        # Número de mutaciones
-        num_mutations = random.randint(1, 5)
-        
-        for _ in range(num_mutations):
-            if random.random() < 0.5:
-                # Añadir una carta
-                # Seleccionar carta que no esté al máximo
-                valid_positions = np.where((mutated < 4) | 
-                                         (np.array([self.card_catalog[i]['is_basic_land'] 
-                                                   for i in range(self.total_cards)])))[0]
-                if len(valid_positions) > 0:
-                    pos = random.choice(valid_positions)
-                    mutated[pos] += 1
-            else:
-                # Quitar una carta
-                nonzero_positions = np.where(mutated > 0)[0]
-                if len(nonzero_positions) > 0:
-                    pos = random.choice(nonzero_positions)
-                    mutated[pos] -= 1
-        
-        # Ajustar a 60 cartas
-        mutated = self.adjust_deck_size(mutated)
-        
-        return mutated
-    
-    def mutate_color_shift(self, deck_array):
-        """
-        Mutación de cambio de color: reemplaza cartas por otras del mismo tipo pero diferente color
-        
-        Args:
-            deck_array (np.array): Array del mazo
-            
-        Returns:
-            np.array: Array mutado
-        """
-        if random.random() > self.mutation_rate * 2:  # Menos frecuente
-            return deck_array.copy()
-        
-        mutated = deck_array.copy()
-        
-        # Identificar colores actuales del mazo
-        current_colors = set()
-        for card_id, count in enumerate(mutated):
-            if count > 0:
-                colors = self.card_catalog[card_id]['color_identity']
-                current_colors.update(colors)
-        
-        # Si el mazo es monocolor, añadir un color
-        if len(current_colors) <= 1:
-            all_colors = ['W', 'U', 'B', 'R', 'G']
-            available_colors = [c for c in all_colors if c not in current_colors]
-            if available_colors:
-                new_color = random.choice(available_colors)
-                current_colors.add(new_color)
-        
-        # Reemplazar algunas cartas por cartas del mismo tipo pero diferente color
-        num_replacements = random.randint(2, 5)
-        
-        for _ in range(num_replacements):
-            # Seleccionar una carta no-tierra para reemplazar
-            nonland_positions = []
-            for i in range(self.total_cards):
-                if mutated[i] > 0 and not self.card_catalog[i]['is_land']:
-                    nonland_positions.append(i)
-            
-            if not nonland_positions:
-                continue
-            
-            old_pos = random.choice(nonland_positions)
-            old_card = self.card_catalog[old_pos]
-            
-            # Buscar cartas similares en otros colores
-            candidates = []
-            
-            # Determinar el tipo de carta a buscar
-            if old_card['is_creature']:
-                search_pool = self.type_indices.get('creatures', [])
-            elif old_card['is_instant'] or old_card['is_sorcery']:
-                search_pool = self.type_indices.get('spells', [])
-            else:
-                continue
-            
-            # Filtrar por CMC similar (±1)
-            target_cmc = old_card['cmc']
-            for card_id in search_pool:
-                card = self.card_catalog[card_id]
-                if (abs(card['cmc'] - target_cmc) <= 1 and
-                    card_id != old_pos and
-                    any(c in current_colors for c in card['color_identity'])):
-                    candidates.append(card_id)
-            
-            if candidates:
-                new_pos = random.choice(candidates)
-                # Reemplazar
-                count = mutated[old_pos]
-                mutated[old_pos] = 0
-                mutated[new_pos] = min(4, mutated[new_pos] + count)
-        
-        return self.adjust_deck_size(mutated)
-    
     def adjust_deck_size(self, deck_array):
-        """
-        Ajusta el array para que tenga exactamente 60 cartas
-        
-        Args:
-            deck_array (np.array): Array del mazo
-            
-        Returns:
-            np.array: Array ajustado
-        """
+        """Ajusta el array para que tenga exactamente 60 cartas"""
         total = np.sum(deck_array)
         
         if total == 60:
@@ -614,15 +553,11 @@ class MTGGeneticAlgorithm:
         adjusted = deck_array.copy()
         
         if total < 60:
-            # Añadir cartas
             diff = 60 - total
-            
-            # Priorizar añadir tierras si hay pocas
             land_count = sum(adjusted[i] for i in range(self.total_cards) 
                            if self.card_catalog[i]['is_land'])
             
             if land_count < 20:
-                # Añadir tierras básicas
                 basic_lands = [i for i, card in self.card_catalog.items() 
                              if card.get('is_basic_land', False)]
                 for _ in range(min(diff, 20 - land_count)):
@@ -631,9 +566,7 @@ class MTGGeneticAlgorithm:
                         adjusted[land_id] += 1
                         diff -= 1
             
-            # Añadir el resto
             while diff > 0:
-                # Seleccionar posición válida
                 valid_positions = np.where(
                     (adjusted < 4) | 
                     np.array([self.card_catalog[i]['is_basic_land'] 
@@ -648,9 +581,7 @@ class MTGGeneticAlgorithm:
                     break
         
         else:  # total > 60
-            # Quitar cartas
             diff = total - 60
-            
             while diff > 0:
                 nonzero_positions = np.where(adjusted > 0)[0]
                 if len(nonzero_positions) > 0:
@@ -663,16 +594,7 @@ class MTGGeneticAlgorithm:
         return adjusted
     
     def tournament_selection(self, population_arrays, fitness_values):
-        """
-        Selección por torneo
-        
-        Args:
-            population_arrays (list): Lista de arrays de mazos
-            fitness_values (list): Valores de fitness correspondientes
-            
-        Returns:
-            np.array: Array seleccionado
-        """
+        """Selección por torneo"""
         tournament_indices = random.sample(range(len(population_arrays)), 
                                          min(self.tournament_size, len(population_arrays)))
         
@@ -682,25 +604,13 @@ class MTGGeneticAlgorithm:
         return population_arrays[winner_idx].copy()
     
     def calculate_diversity(self, population_arrays):
-        """
-        Calcula la diversidad de la población
-        
-        Args:
-            population_arrays (list): Lista de arrays
-            
-        Returns:
-            float: Medida de diversidad (0.0-1.0)
-        """
-        # Calcular frecuencia de cada carta en la población
+        """Calcula la diversidad de la población"""
         card_frequencies = np.zeros(self.total_cards)
         
         for array in population_arrays:
             card_frequencies += (array > 0).astype(int)
         
-        # Normalizar
         card_frequencies = card_frequencies / len(population_arrays)
-        
-        # Diversidad = proporción de cartas que aparecen en 20-80% de los mazos
         diverse_cards = np.sum((card_frequencies > 0.2) & (card_frequencies < 0.8))
         total_used_cards = np.sum(card_frequencies > 0)
         
@@ -712,199 +622,271 @@ class MTGGeneticAlgorithm:
         return diversity
     
     def adaptive_mutation_rate(self, generation, stagnation_counter):
-        """
-        Ajusta la tasa de mutación según el progreso
-        
-        Args:
-            generation (int): Generación actual
-            stagnation_counter (int): Generaciones sin mejora
-            
-        Returns:
-            float: Tasa de mutación ajustada
-        """
+        """Ajusta la tasa de mutación según el progreso"""
         base_rate = self.mutation_rate
         
-        # Aumentar mutación si hay estancamiento
         if stagnation_counter > 5:
             base_rate *= 1.5
         if stagnation_counter > 10:
             base_rate *= 2.0
         
-        # Disminuir mutación en generaciones tardías si hay progreso
         if generation > 50 and stagnation_counter < 3:
             base_rate *= 0.8
         
-        return min(0.3, base_rate)  # Límite máximo del 30%
+        return min(0.3, base_rate)
     
     def evolve(self):
-        """
-        Ejecuta el algoritmo genético completo
-        
-        Returns:
-            dict: El mejor mazo encontrado
-        """
-        print("Iniciando evolución...")
-        print(f"Población: {self.population_size}, Generaciones: {self.max_generations}")
-        print(f"Mutación: {self.mutation_rate}, Cruce: {self.crossover_rate}")
-        
-        # Evaluación inicial mediante torneo round-robin
-        print("\nEvaluando población inicial mediante torneo round-robin...")
-        fitness_values = self.evaluate_population_tournament(self.population_arrays, 0)
-        
-        # Estadísticas iniciales
-        best_idx = np.argmax(fitness_values)
-        best_fitness = fitness_values[best_idx]
-        avg_fitness = np.mean(fitness_values)
-        diversity = self.calculate_diversity(self.population_arrays)
-        
-        self.stats['best_fitness'].append(best_fitness)
-        self.stats['avg_fitness'].append(avg_fitness)
-        self.stats['diversity'].append(diversity)
-        self.stats['mutation_rate'].append(self.mutation_rate)
-        
-        print(f"Gen 0: Mejor={best_fitness:.4f}, Promedio={avg_fitness:.4f}, Diversidad={diversity:.4f}")
-        
-        # Guardar mejor inicial
-        best_deck = self.array_to_deck(self.population_arrays[best_idx], "Best_Gen_0")
-        self.hall_of_fame.append((0, best_fitness, best_deck))
-        self.best_fitness_ever = best_fitness
-        
-        # Evolución
-        for generation in range(1, self.max_generations + 1):
-            print(f"\n===== Generación {generation} =====")
-            
-            # Ajustar tasa de mutación
-            current_mutation_rate = self.adaptive_mutation_rate(generation, self.stagnation_counter)
-            
-            # Nueva población
-            new_population = []
-            
-            # Elitismo: preservar los mejores
-            elite_indices = np.argsort(fitness_values)[-self.elite_size:]
-            for idx in elite_indices:
-                new_population.append(self.population_arrays[idx].copy())
-            
-            # Generar el resto de la población
-            while len(new_population) < self.population_size:
-                # Selección
-                parent1 = self.tournament_selection(self.population_arrays, fitness_values)
-                parent2 = self.tournament_selection(self.population_arrays, fitness_values)
-                
-                # Cruce
-                if random.random() < 0.5:
-                    child1, child2 = self.crossover_uniform(parent1, parent2)
-                else:
-                    child1, child2 = self.crossover_two_point(parent1, parent2)
-                
-                # Mutación
-                # Aplicar diferentes tipos de mutación
-                if random.random() < current_mutation_rate:
-                    mutation_type = random.choice(['swap', 'add_remove', 'color_shift'])
-                    if mutation_type == 'swap':
-                        child1 = self.mutate_swap(child1)
-                    elif mutation_type == 'add_remove':
-                        child1 = self.mutate_add_remove(child1)
-                    else:
-                        child1 = self.mutate_color_shift(child1)
-                
-                if random.random() < current_mutation_rate:
-                    mutation_type = random.choice(['swap', 'add_remove', 'color_shift'])
-                    if mutation_type == 'swap':
-                        child2 = self.mutate_swap(child2)
-                    elif mutation_type == 'add_remove':
-                        child2 = self.mutate_add_remove(child2)
-                    else:
-                        child2 = self.mutate_color_shift(child2)
-                
-                new_population.append(child1)
-                if len(new_population) < self.population_size:
-                    new_population.append(child2)
-            
-            # Reemplazar población
-            self.population_arrays = new_population
-            
-            # Evaluar nueva población mediante torneo
-            print(f"Evaluando generación {generation} mediante torneo round-robin...")
-            fitness_values = self.evaluate_population_tournament(self.population_arrays, generation)
-            
-            # Estadísticas
+        """Ejecuta el algoritmo genético completo con paralelización - CORREGIDO"""
+        self.logger.info("=== INICIANDO ALGORITMO GENÉTICO PARALELO ===")
+        self.logger.info(f"Configuración: {self.population_size} mazos, {self.max_generations} generaciones")
+        self.logger.info(f"Paralelización: {self.max_workers} workers, timeout {self.base_timeout}s")
+
+        try:
+            # Evaluación inicial mediante torneo paralelo
+            self.logger.info("Evaluando población inicial con procesamiento paralelo...")
+            fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
+
+            # Estadísticas iniciales
             best_idx = np.argmax(fitness_values)
-            current_best_fitness = fitness_values[best_idx]
+            best_fitness = fitness_values[best_idx]
             avg_fitness = np.mean(fitness_values)
             diversity = self.calculate_diversity(self.population_arrays)
-            
-            self.stats['best_fitness'].append(current_best_fitness)
+
+            self.stats['best_fitness'].append(best_fitness)
             self.stats['avg_fitness'].append(avg_fitness)
             self.stats['diversity'].append(diversity)
-            self.stats['mutation_rate'].append(current_mutation_rate)
-            
-            print(f"Mejor={current_best_fitness:.4f}, Promedio={avg_fitness:.4f}, Diversidad={diversity:.4f}")
-            print(f"Tasa de mutación actual: {current_mutation_rate:.4f}")
-            
-            # Verificar mejora
-            if current_best_fitness > self.best_fitness_ever:
-                self.best_fitness_ever = current_best_fitness
-                self.stagnation_counter = 0
-                best_deck = self.array_to_deck(self.population_arrays[best_idx], 
-                                             f"Best_Gen_{generation}")
-                self.hall_of_fame.append((generation, current_best_fitness, best_deck))
-                print(f"¡Nueva mejor solución encontrada!")
+            self.stats['mutation_rate'].append(self.mutation_rate)
+
+            self.logger.info(f"Gen 0: Mejor={best_fitness:.4f}, Promedio={avg_fitness:.4f}, Diversidad={diversity:.4f}")
+
+            # Guardar mejor inicial
+            best_deck = self.array_to_deck(self.population_arrays[best_idx], "Best_Gen_0")
+            self.hall_of_fame.append((0, best_fitness, best_deck))
+            self.best_fitness_ever = best_fitness
+
+            # Evolución con paralelización
+            for generation in range(1, self.max_generations + 1):
+                self.logger.info(f"\n===== Generación {generation} =====")
                 
-                # Guardar el ganador anterior en old_winners si existe uno previo
-                if len(self.hall_of_fame) > 1:
-                    _, _, previous_best = self.hall_of_fame[-2]
-                    self.save_old_winner(previous_best, generation-1)
+                # Ajustar tasa de mutación
+                current_mutation_rate = self.adaptive_mutation_rate(generation, self.stagnation_counter)
                 
-                # Guardar el mejor mazo actual
-                self.save_best_deck(best_deck, generation)
+                # Nueva población
+                new_population = []
+                
+                # Elitismo: preservar los mejores
+                elite_indices = np.argsort(fitness_values)[-self.elite_size:]
+                for idx in elite_indices:
+                    new_population.append(self.population_arrays[idx].copy())
+                
+                self.logger.debug(f"Elite preservada: {self.elite_size} individuos")
+                
+                # Generar el resto de la población
+                while len(new_population) < self.population_size:
+                    # Selección
+                    parent1 = self.tournament_selection(self.population_arrays, fitness_values)
+                    parent2 = self.tournament_selection(self.population_arrays, fitness_values)
+                    
+                    # Cruce
+                    if random.random() < 0.5:
+                        child1, child2 = self.crossover_uniform(parent1, parent2)
+                    else:
+                        child1, child2 = self.crossover_two_point(parent1, parent2)
+                    
+                    # Mutación
+                    if random.random() < current_mutation_rate:
+                        child1 = self.mutate_swap(child1)
+                    
+                    if random.random() < current_mutation_rate:
+                        child2 = self.mutate_swap(child2)
+                    
+                    new_population.append(child1)
+                    if len(new_population) < self.population_size:
+                        new_population.append(child2)
+                
+                # Reemplazar población
+                self.population_arrays = new_population
+                
+                # Evaluar nueva población CON PARALELIZACIÓN
+                self.logger.info(f"Evaluando generación {generation} con {self.max_workers} workers...")
+                fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, generation)
+                
+                # Estadísticas
+                best_idx = np.argmax(fitness_values)
+                current_best_fitness = fitness_values[best_idx]
+                avg_fitness = np.mean(fitness_values)
+                diversity = self.calculate_diversity(self.population_arrays)
+                
+                self.stats['best_fitness'].append(current_best_fitness)
+                self.stats['avg_fitness'].append(avg_fitness)
+                self.stats['diversity'].append(diversity)
+                self.stats['mutation_rate'].append(current_mutation_rate)
+                
+                self.logger.info(f"Mejor={current_best_fitness:.4f}, Promedio={avg_fitness:.4f}, Diversidad={diversity:.4f}")
+                self.logger.info(f"Tasa de mutación actual: {current_mutation_rate:.4f}")
+                
+                # Verificar mejora
+                if current_best_fitness > self.best_fitness_ever:
+                    self.best_fitness_ever = current_best_fitness
+                    self.stagnation_counter = 0
+                    best_deck = self.array_to_deck(self.population_arrays[best_idx], 
+                                                 f"Best_Gen_{generation}")
+                    self.hall_of_fame.append((generation, current_best_fitness, best_deck))
+                    self.logger.info(f"¡Nueva mejor solución encontrada!")
+                    
+                    # Guardar el mejor mazo actual
+                    self.save_best_deck(best_deck, generation)
+                else:
+                    self.stagnation_counter += 1
+                    self.logger.info(f"Sin mejora durante {self.stagnation_counter} generaciones")
+                
+                # Guardar población cada 10 generaciones
+                if generation % 10 == 0:
+                    self.save_population_arrays(generation)
+                
+                # Criterios de parada
+                if self.stagnation_counter >= self.stagnation_limit:
+                    self.logger.info(f"Terminando por estancamiento ({self.stagnation_limit} generaciones sin mejora)")
+                    break
+                
+                if current_best_fitness >= 0.95:
+                    self.logger.info("Terminando por alcanzar fitness objetivo (95% win rate)")
+                    break
+                
+            if self.hall_of_fame:
+                final_generation, final_fitness, final_best_deck = max(self.hall_of_fame, key=lambda x: x[1])
+
+                # Guardar como ganador final
+                final_json = os.path.join(self.output_dir, "WINNER_FINAL.json")
+                final_dck = os.path.join(self.output_dir, "WINNER_FINAL.dck")
+
+                with open(final_json, 'w', encoding='utf-8') as f:
+                    json.dump(final_best_deck, f, ensure_ascii=False, indent=2)
+
+                self.save_forge_deck(final_best_deck, final_dck)
+
+                self.logger.info(f"🏆 GANADOR FINAL guardado:")
+                self.logger.info(f"   JSON: {final_json}")
+                self.logger.info(f"   DCK: {final_dck}")
+                self.logger.info(f"   Fitness: {final_fitness:.4f}")
+                self.logger.info(f"   Generación: {final_generation}")    
+            
+            # Guardar estadísticas finales
+            self.save_statistics()
+            self.save_final_logs()
+            
+            # Retornar el mejor mazo encontrado
+            if self.hall_of_fame:
+                _, _, best_deck = max(self.hall_of_fame, key=lambda x: x[1])
+                return best_deck
             else:
-                self.stagnation_counter += 1
-                print(f"Sin mejora durante {self.stagnation_counter} generaciones")
-            
-            # Guardar población cada 10 generaciones
-            if generation % 10 == 0:
-                self.save_population_arrays(generation)
-            
-            # Criterios de parada
-            if self.stagnation_counter >= self.stagnation_limit:
-                print(f"Terminando por estancamiento ({self.stagnation_limit} generaciones sin mejora)")
-                break
-            
-            if current_best_fitness >= 0.95:
-                print("Terminando por alcanzar fitness objetivo (95% win rate)")
-                break
+                return self.array_to_deck(self.population_arrays[0], "Final_Deck")
         
-        # Guardar estadísticas finales
-        self.save_statistics()
+        except KeyboardInterrupt:
+            self.logger.info("=== EJECUCIÓN INTERRUMPIDA POR EL USUARIO ===")
+            # GUARDAR MEJOR ENCONTRADO HASTA AHORA
+            if self.hall_of_fame:
+                interrupt_generation, interrupt_fitness, interrupt_best_deck = max(self.hall_of_fame, key=lambda x: x[1])
+
+                interrupt_json = os.path.join(self.output_dir, "INTERRUPTED_BEST.json")
+                interrupt_dck = os.path.join(self.output_dir, "INTERRUPTED_BEST.dck")
+
+                with open(interrupt_json, 'w', encoding='utf-8') as f:
+                    json.dump(interrupt_best_deck, f, ensure_ascii=False, indent=2)
+
+                self.save_forge_deck(interrupt_best_deck, interrupt_dck)
+
+                self.logger.info(f"💾 MEJOR MAZO HASTA INTERRUPCIÓN guardado:")
+                self.logger.info(f"   JSON: {interrupt_json}")
+                self.logger.info(f"   DCK: {interrupt_dck}")
+                self.logger.info(f"   Fitness: {interrupt_fitness:.4f}")
+
+            self.save_final_logs()
+            raise
+        except Exception as e:
+            self.logger.error(f"Error durante la evolución paralela: {e}")
+            self.save_final_logs()
+            raise
+    
+    def save_final_logs(self):
+        """Guarda logs finales de la ejecución paralela"""
+        self.logger.info("Guardando logs finales paralelos...")
         
-        # Retornar el mejor mazo encontrado
-        if self.hall_of_fame:
-            _, _, best_deck = max(self.hall_of_fame, key=lambda x: x[1])
-            return best_deck
-        else:
-            return self.array_to_deck(self.population_arrays[0], "Final_Deck")
+        # Estadísticas de paralelización
+        parallelization_stats = {
+            'max_workers_used': self.max_workers,
+            'parallel_batch_size': self.parallel_batch_size,
+            'adaptive_timeout_final': self.adaptive_timeout,
+            'base_timeout': self.base_timeout,
+            'save_forge_outputs': self.save_forge_outputs
+        }
+        
+        # Guardar estadísticas de generaciones con info de paralelización
+        generation_stats_file = os.path.join(self.logs_dir, "parallel_generation_statistics.json")
+        with open(generation_stats_file, 'w', encoding='utf-8') as f:
+            json.dump({
+                'parallelization_config': parallelization_stats,
+                'generation_stats': self.generation_stats
+            }, f, ensure_ascii=False, indent=2)
+        
+        # Guardar detalles de combates
+        with open(self.match_details_file, 'w', encoding='utf-8') as f:
+            json.dump(self.combat_log, f, ensure_ascii=False, indent=2)
+        
+        # Estadísticas finales
+        total_matches = len(self.combat_log)
+        successful_matches = len([m for m in self.combat_log if m['winner'] not in ['TIMEOUT', 'ERROR']])
+        
+        # Análisis de rendimiento por worker
+        worker_stats = {}
+        for match in self.combat_log:
+            worker_id = match.get('worker_id', 'unknown')
+            if worker_id not in worker_stats:
+                worker_stats[worker_id] = {'total': 0, 'successful': 0, 'avg_duration': 0}
+            
+            worker_stats[worker_id]['total'] += 1
+            if match['winner'] not in ['TIMEOUT', 'ERROR']:
+                worker_stats[worker_id]['successful'] += 1
+                worker_stats[worker_id]['avg_duration'] += match['duration']
+        
+        # Calcular promedios
+        for worker_id, stats in worker_stats.items():
+            if stats['successful'] > 0:
+                stats['avg_duration'] = stats['avg_duration'] / stats['successful']
+            stats['success_rate'] = stats['successful'] / stats['total'] if stats['total'] > 0 else 0
+        
+        self.logger.info(f"=== ESTADÍSTICAS FINALES PARALELAS ===")
+        self.logger.info(f"Workers utilizados: {self.max_workers}")
+        self.logger.info(f"Total de combates: {total_matches}")
+        self.logger.info(f"Combates exitosos: {successful_matches}")
+        if total_matches > 0:
+            self.logger.info(f"Tasa de éxito global: {successful_matches/total_matches*100:.1f}%")
+        
+        self.logger.info("Rendimiento por worker:")
+        for worker_id, stats in worker_stats.items():
+            self.logger.info(f"  Worker {worker_id}: {stats['successful']}/{stats['total']} "
+                           f"({stats['success_rate']*100:.1f}%) - "
+                           f"Promedio: {stats['avg_duration']:.1f}s")
+        
+        self.logger.info(f"Logs guardados en: {self.logs_dir}")
     
     def save_best_deck(self, deck, generation):
-        """Guarda el mejor mazo encontrado"""
+        """Guarda el mejor mazo encontrado en ambos formatos"""
+        self.logger.info(f"Guardando mejor mazo de generación {generation}")
+        
         # Formato JSON
         json_file = os.path.join(self.output_dir, f"best_deck_gen_{generation}.json")
         with open(json_file, 'w', encoding='utf-8') as f:
             json.dump(deck, f, ensure_ascii=False, indent=2)
         
-        # Formato Forge
+        # Formato Forge (.dck) - CORREGIDO
         forge_file = os.path.join(self.output_dir, f"best_deck_gen_{generation}.dck")
-        self.save_forge_deck(deck, forge_file)
-    
-    def save_population_arrays(self, generation):
-        """Guarda la población actual como arrays"""
-        arrays_data = {
-            'generation': generation,
-            'arrays': [arr.tolist() for arr in self.population_arrays]
-        }
-        
-        file_path = os.path.join(self.output_dir, f"population_gen_{generation}.json")
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(arrays_data, f)
+        try:
+            self.save_forge_deck(deck, forge_file)
+            self.logger.info(f"Mejor mazo guardado: {json_file} y {forge_file}")
+        except Exception as e:
+            self.logger.error(f"Error guardando archivo .dck: {e}")
+            self.logger.info(f"Mejor mazo guardado solo en JSON: {json_file}")
     
     def save_statistics(self):
         """Guarda estadísticas de evolución"""
@@ -918,30 +900,30 @@ class MTGGeneticAlgorithm:
         })
         
         # Guardar CSV
-        csv_file = os.path.join(self.output_dir, "evolution_stats.csv")
+        csv_file = os.path.join(self.output_dir, "parallel_evolution_stats.csv")
         stats_df.to_csv(csv_file, index=False)
         
         # Crear gráficos
         fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 10))
         
         # Fitness
-        ax1.plot(stats_df['generation'], stats_df['best_fitness'], 'b-', label='Mejor')
-        ax1.plot(stats_df['generation'], stats_df['avg_fitness'], 'r--', label='Promedio')
+        ax1.plot(stats_df['generation'], stats_df['best_fitness'], 'b-', linewidth=2, label='Mejor')
+        ax1.plot(stats_df['generation'], stats_df['avg_fitness'], 'r--', linewidth=2, label='Promedio')
         ax1.set_xlabel('Generación')
         ax1.set_ylabel('Fitness')
-        ax1.set_title('Evolución del Fitness')
+        ax1.set_title('Evolución del Fitness (Paralelo)')
         ax1.legend()
         ax1.grid(True, alpha=0.3)
         
         # Diversidad
-        ax2.plot(stats_df['generation'], stats_df['diversity'], 'g-')
+        ax2.plot(stats_df['generation'], stats_df['diversity'], 'g-', linewidth=2)
         ax2.set_xlabel('Generación')
         ax2.set_ylabel('Diversidad')
         ax2.set_title('Evolución de la Diversidad')
         ax2.grid(True, alpha=0.3)
         
         # Tasa de mutación
-        ax3.plot(stats_df['generation'], stats_df['mutation_rate'], 'm-')
+        ax3.plot(stats_df['generation'], stats_df['mutation_rate'], 'm-', linewidth=2)
         ax3.set_xlabel('Generación')
         ax3.set_ylabel('Tasa de Mutación')
         ax3.set_title('Tasa de Mutación Adaptativa')
@@ -954,15 +936,15 @@ class MTGGeneticAlgorithm:
             ax4.scatter(hof_gens, hof_fitness, c='red', s=100, marker='*')
             ax4.set_xlabel('Generación')
             ax4.set_ylabel('Fitness')
-            ax4.set_title('Hall of Fame (Mejores Soluciones)')
+            ax4.set_title(f'Hall of Fame (Workers: {self.max_workers})')
             ax4.grid(True, alpha=0.3)
         
         plt.tight_layout()
-        plt.savefig(os.path.join(self.output_dir, "evolution_stats.png"), dpi=150)
+        plt.savefig(os.path.join(self.output_dir, "parallel_evolution_stats.png"), dpi=150)
         plt.close()
         
         # Guardar Hall of Fame
-        hof_file = os.path.join(self.output_dir, "hall_of_fame.json")
+        hof_file = os.path.join(self.output_dir, "parallel_hall_of_fame.json")
         hof_data = []
         for gen, fitness, deck in self.hall_of_fame:
             hof_data.append({
@@ -970,40 +952,204 @@ class MTGGeneticAlgorithm:
                 'fitness': fitness,
                 'deck_name': deck['name'],
                 'colors': deck['colors'],
-                'stats': deck['stats']
+                'stats': deck['stats'],
+                'parallel_workers': self.max_workers
             })
         
         with open(hof_file, 'w', encoding='utf-8') as f:
             json.dump(hof_data, f, ensure_ascii=False, indent=2)
         
-        print(f"\nEstadísticas guardadas en {self.output_dir}")
+        self.logger.info(f"Estadísticas paralelas guardadas en {self.output_dir}")
+
+
+# FUNCIÓN WORKER PARA PARALELIZACIÓN (debe estar fuera de la clase)
+def parallel_forge_combat_worker(combat_info):
+    """
+    Worker function para ejecutar combates en paralelo
+    
+    Args:
+        combat_info (dict): Información del combate
+            
+    Returns:
+        dict: Resultado del combate
+    """
+    import subprocess
+    import time
+    import os
+    from datetime import datetime
+    
+    deck1_name = combat_info['deck1_name']
+    deck2_name = combat_info['deck2_name']
+    forge_jar_path = combat_info['forge_jar_path']
+    forge_root = combat_info['forge_root']
+    timeout = combat_info['timeout']
+    match_id = combat_info['match_id']
+    generation = combat_info['generation']
+    forge_output_dir = combat_info.get('forge_output_dir')
+    worker_id = os.getpid()
+    
+    start_time = time.time()
+    
+    # Comando para ejecutar Forge
+    cmd = [
+        "java", "-jar", forge_jar_path,
+        "sim",
+        "-d", deck1_name, deck2_name,
+        "-n", "1"
+    ]
+    
+    try:
+        # Ejecutar Forge
+        result = subprocess.run(
+            cmd,
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+            cwd=forge_root
+        )
+        
+        duration = time.time() - start_time
+        
+        # Guardar output de Forge si está habilitado
+        forge_output_file = ""
+        if forge_output_dir:
+            forge_output_file = f"{match_id}.txt"
+            output_path = os.path.join(forge_output_dir, forge_output_file)
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(f"=== COMBATE PARALELO: {deck1_name} vs {deck2_name} ===\n")
+                f.write(f"Worker ID: {worker_id}\n")
+                f.write(f"Comando: {' '.join(cmd)}\n")
+                f.write(f"Duración: {duration:.2f} segundos\n")
+                f.write(f"Return code: {result.returncode}\n\n")
+                f.write("=== STDOUT ===\n")
+                f.write(result.stdout)
+                f.write("\n=== STDERR ===\n")
+                f.write(result.stderr)
+        
+        # Parsear resultados
+        output = result.stdout
+        deck1_wins = 0
+        deck2_wins = 0
+        game_results = []
+        
+        # Buscar victorias
+        for line in output.split('\n'):
+            if "has won!" in line:
+                if deck1_name in line:
+                    deck1_wins += 1
+                    game_results.append(f"Victoria: {deck1_name}")
+                elif deck2_name in line:
+                    deck2_wins += 1
+                    game_results.append(f"Victoria: {deck2_name}")
+        
+        # Determinar ganador
+        if deck1_wins > deck2_wins:
+            winner = deck1_name
+            return_value = 1
+        elif deck2_wins > deck1_wins:
+            winner = deck2_name
+            return_value = 0
+        else:
+            winner = "EMPATE"
+            return_value = 0
+        
+        return {
+            'success': True,
+            'match_id': match_id,
+            'generation': generation,
+            'deck1_name': deck1_name,
+            'deck2_name': deck2_name,
+            'winner': winner,
+            'deck1_wins': deck1_wins,
+            'deck2_wins': deck2_wins,
+            'duration': duration,
+            'worker_id': worker_id,
+            'forge_output_file': forge_output_file,
+            'error_message': '',
+            'game_results': game_results,
+            'return_value': return_value,
+            'timestamp': datetime.now().isoformat()
+        }
+        
+    except subprocess.TimeoutExpired:
+        duration = time.time() - start_time
+        return {
+            'success': False,
+            'match_id': match_id,
+            'generation': generation,
+            'deck1_name': deck1_name,
+            'deck2_name': deck2_name,
+            'winner': 'TIMEOUT',
+            'deck1_wins': 0,
+            'deck2_wins': 0,
+            'duration': duration,
+            'worker_id': worker_id,
+            'forge_output_file': '',
+            'error_message': f'Timeout después de {timeout}s',
+            'game_results': [],
+            'return_value': 0,
+            'timestamp': datetime.now().isoformat()
+        }
+    
+    except Exception as e:
+        duration = time.time() - start_time
+        return {
+            'success': False,
+            'match_id': match_id,
+            'generation': generation,
+            'deck1_name': deck1_name,
+            'deck2_name': deck2_name,
+            'winner': 'ERROR',
+            'deck1_wins': 0,
+            'deck2_wins': 0,
+            'duration': duration,
+            'worker_id': worker_id,
+            'forge_output_file': '',
+            'error_message': str(e),
+            'game_results': [],
+            'return_value': 0,
+            'timestamp': datetime.now().isoformat()
+        }
+
 
 if __name__ == "__main__":
-    # Configuración
+    # EJEMPLO DE USO DIRECTO (normalmente se llamaría desde mtg_main.py)
     config = {
-        'population_file': "mtg_decks/initial_population.json",
+        'population_file': "mtg_decks/test_population.json",
         'catalog_path': "mtg_data/card_catalog.json",
         'indices_path': "mtg_data/card_indices.json",
         'output_dir': "mtg_evolved_decks",
         'forge_jar_path': "./forge-gui-desktop.jar",
-        'max_generations': 100,
-        'population_size': 50,
+        'max_generations': 3,
+        'population_size': 8,
         'mutation_rate': 0.05,
         'crossover_rate': 0.9,
         'tournament_size': 3,
-        'elite_size': 5,
-        'stagnation_limit': 20
+        'elite_size': 2,
+        'stagnation_limit': 5,
+        # PARÁMETROS DE PARALELIZACIÓN (normalmente pasados desde mtg_main.py)
+        'max_workers': 4,           # Configurado por hardware analyzer
+        'parallel_batch_size': 12,  # Configurado por hardware analyzer
+        'base_timeout': 120,        # Configurado por hardware analyzer
+        'log_level': 'INFO',        # Configurado por hardware analyzer
+        'save_forge_outputs': True  # Configurado por hardware analyzer
     }
+    
+    print("🚀 === ALGORITMO GENÉTICO MTG PARALELO ===")
+    print(f"Configuración: {config['population_size']} mazos, {config['max_generations']} generaciones")
+    print(f"Paralelización: {config['max_workers']} workers")
     
     # Ejecutar algoritmo
     ga = MTGGeneticAlgorithm(**config)
     best_deck = ga.evolve()
     
     # Mostrar resultado
-    print("\n===== MEJOR MAZO ENCONTRADO =====")
+    print("\n🏆 ===== MEJOR MAZO ENCONTRADO =====")
     print(f"Nombre: {best_deck['name']}")
     print(f"Colores: {', '.join(best_deck['colors'])}")
     print(f"Estadísticas: {best_deck['stats']}")
-    print("\nCartas:")
-    for card in sorted(best_deck['cards'], key=lambda x: (x['cmc'], x['name'])):
-        print(f"  {card['count']}x {card['name']} ({card['mana_cost']})")
+    print("\nCartas principales:")
+    for card in sorted(best_deck['cards'], key=lambda x: (x['cmc'], x['name']))[:10]:
+        print(f"  {card['count']}x {card['name']} ({card.get('mana_cost', 'N/A')})")
+    
+    print(f"\n✅ Logs paralelos guardados en: mtg_evolved_decks/logs/")
