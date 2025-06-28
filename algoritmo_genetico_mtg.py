@@ -127,6 +127,12 @@ class MTGGeneticAlgorithm:
         #Modo headless
         self.headless_mode = headless_mode
         self.logger.info(f"Modo: {'Headless (xvfb-run)' if headless_mode else 'GUI normal'}")
+        
+         #Hall of Fame Global
+        self.hall_of_fame_arrays = []  # Lista de (fitness, deck_array)
+        self.max_hall_size = max(self.elite_size, 5)  # Al menos 5 mejores históricos
+
+        self.logger.info(f"Hall of Fame configurado: {self.max_hall_size} mejores históricos")
     
     def setup_logging(self, log_level):
         """Configura sistema de logging"""
@@ -641,6 +647,49 @@ class MTGGeneticAlgorithm:
         
         return min(0.3, base_rate)
     
+    def update_hall_of_fame(self, fitness_values, population_arrays):
+        """
+        Actualiza el Hall of Fame global con los mejores individuos históricos
+
+        Args:
+            fitness_values (list): Fitness de la generación actual
+            population_arrays (list): Arrays de mazos de la generación actual
+        """
+        # Combinar candidatos actuales con hall of fame existente
+        current_candidates = [(fitness_values[i], population_arrays[i].copy()) 
+                             for i in range(len(fitness_values))]
+
+        all_candidates = self.hall_of_fame_arrays + current_candidates
+
+        # Ordenar por fitness (mayor a menor)
+        all_candidates.sort(key=lambda x: x[0], reverse=True)
+
+        # Eliminar duplicados exactos y mantener solo los mejores únicos
+        unique_best = []
+        seen_hashes = set()
+
+        for fitness, array in all_candidates:
+            # Crear hash único del array para detectar duplicados
+            array_hash = hash(array.tobytes())
+
+            if array_hash not in seen_hashes and len(unique_best) < self.max_hall_size:
+                unique_best.append((fitness, array))
+                seen_hashes.add(array_hash)
+
+        # Actualizar hall of fame
+        old_size = len(self.hall_of_fame_arrays)
+        self.hall_of_fame_arrays = unique_best
+        new_size = len(self.hall_of_fame_arrays)
+
+        # Log de cambios
+        if new_size > old_size:
+            self.logger.info(f"🏆 Hall of Fame expandido: {old_size} → {new_size}")
+
+        if len(unique_best) > 0:
+            best_fitness = unique_best[0][0]
+            worst_fitness = unique_best[-1][0]
+            self.logger.debug(f"Hall of Fame: Mejor={best_fitness:.4f}, Peor={worst_fitness:.4f}")
+    
     def evolve(self):
         """Ejecuta el algoritmo genético completo con paralelización - CORREGIDO"""
         self.logger.info("=== INICIANDO ALGORITMO GENÉTICO PARALELO ===")
@@ -651,6 +700,15 @@ class MTGGeneticAlgorithm:
             # Evaluación inicial mediante torneo paralelo
             self.logger.info("Evaluando población inicial con procesamiento paralelo...")
             fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
+            
+            # 🔧 DEBUG POST-EVALUACIÓN
+            max_current = max(fitness_values)
+            max_historical = self.hall_of_fame_arrays[0][0] if self.hall_of_fame_arrays else 0
+            print(f"FITNESS_CHECK: actual={max_current:.4f}, historico={max_historical:.4f}")
+            
+            # NUEVO: Inicializar Hall of Fame
+            self.update_hall_of_fame(fitness_values, self.population_arrays)
+            self.logger.info(f"🏆 Hall of Fame inicializado con {len(self.hall_of_fame_arrays)} individuos")
 
             # Estadísticas iniciales
             best_idx = np.argmax(fitness_values)
@@ -679,14 +737,18 @@ class MTGGeneticAlgorithm:
                 
                 # Nueva población
                 new_population = []
-                
-                # Elitismo: preservar los mejores
-                elite_indices = np.argsort(fitness_values)[-self.elite_size:]
-                for idx in elite_indices:
-                    new_population.append(self.population_arrays[idx].copy())
-                
-                self.logger.debug(f"Elite preservada: {self.elite_size} individuos")
-                
+
+                # 🏆 ELITISMO GLOBAL: Preservar del Hall of Fame
+                hof_preserved = 0
+                for fitness, elite_array in self.hall_of_fame_arrays:
+                    if hof_preserved < self.elite_size:
+                        new_population.append(elite_array.copy())
+                        hof_preserved += 1
+                        
+                        # 🔧 DEBUG CRÍTICO
+                        print(f"ELITE: fitness={fitness:.4f}, array_sum={np.sum(elite_array)}")
+                        
+                print(f"ELITE_TOTAL: {hof_preserved} preservados")                
                 # Generar el resto de la población
                 while len(new_population) < self.population_size:
                     # Selección
@@ -710,12 +772,88 @@ class MTGGeneticAlgorithm:
                     if len(new_population) < self.population_size:
                         new_population.append(child2)
                 
+                print(f"🔍 POBLACIÓN ANTES DE EVALUAR:")
+                print(f"    Size: {len(new_population)}")
+                if len(self.hall_of_fame_arrays) > 0:
+                    elite_array = self.hall_of_fame_arrays[0][1]
+                    elite_sum = np.sum(elite_array)
+                    print(f"    Elite esperado sum: {elite_sum}")
+
+                    # Buscar elite en población
+                    for i, pop_array in enumerate(new_population):
+                        if np.array_equal(elite_array, pop_array):
+                            print(f"    ✅ Elite encontrado en posición {i}")
+                            break
+                    else:
+                        print(f"    🚨 Elite NO encontrado en nueva población!")
+                        
                 # Reemplazar población
                 self.population_arrays = new_population
+                
+                # 🔧 DEBUG: Verificar que elite sigue en posición 0
+                print(f"🔍 VERIFICACIÓN POSICIONES:")
+                print(f"    new_population size: {len(new_population)}")
+                print(f"    population_arrays size: {len(self.population_arrays)}")
+                
+                if len(self.hall_of_fame_arrays) > 0:
+                    elite_original = self.hall_of_fame_arrays[0][1]
+                    
+                    # Verificar cada posición
+                    for i in range(min(5, len(self.population_arrays))):
+                        is_elite = np.array_equal(elite_original, self.population_arrays[i])
+                        array_sum = np.sum(self.population_arrays[i])
+                        print(f"    Posición {i}: sum={array_sum}, es_elite={is_elite}")
+                
+                # Después de preservar elite, antes de evaluar:
+                if len(self.hall_of_fame_arrays) > 0:
+                    original_elite = self.hall_of_fame_arrays[0][1]
+                    copied_elite = self.population_arrays[0]
+
+                    print(f"🔍 VERIFICACIÓN ELITE COPY:")
+                    print(f"    Original sum: {np.sum(original_elite)}")
+                    print(f"    Copia sum: {np.sum(copied_elite)}")
+                    print(f"    Arrays iguales: {np.array_equal(original_elite, copied_elite)}")
+
+                    # Verificar primeras 10 cartas
+                    print(f"    Original[0:10]: {original_elite[0:10]}")
+                    print(f"    Copia[0:10]: {copied_elite[0:10]}")
+
+                    if not np.array_equal(original_elite, copied_elite):
+                        print(f"🚨 ELITE CORROMPIDO DURANTE COPIA!")
+
+                        # Encontrar diferencias
+                        diff_positions = np.where(original_elite != copied_elite)[0]
+                        print(f"    Diferencias en posiciones: {diff_positions[:5]}...")  # Primeras 5
+                
+                # Después de: self.population_arrays = new_population
+                print(f"🔍 POBLACIÓN ASIGNADA:")
+                if len(self.hall_of_fame_arrays) > 0:
+                    elite_array = self.hall_of_fame_arrays[0][1]
+
+                    for i, pop_array in enumerate(self.population_arrays):
+                        if np.array_equal(elite_array, pop_array):
+                            print(f"    ✅ Elite en population_arrays posición {i}")
+                            break
+                    else:
+                        print(f"    🚨 Elite perdido en population_arrays!")
                 
                 # Evaluar nueva población CON PARALELIZACIÓN
                 self.logger.info(f"Evaluando generación {generation} con {self.max_workers} workers...")
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, generation)
+                
+                # Después de evaluate_population_tournament_parallel:
+                max_current = max(fitness_values)
+                max_historical = self.hall_of_fame_arrays[0][0] if self.hall_of_fame_arrays else 0
+                print(f"FITNESS_CHECK: actual={max_current:.4f}, historico={max_historical:.4f}")
+
+                if max_current < max_historical - 0.05:
+                    print(f"🚨 BUG CONFIRMADO: Elite perdido entre preservación y evaluación")
+                
+                # 🏆 ACTUALIZAR HALL OF FAME
+                self.update_hall_of_fame(fitness_values, self.population_arrays)
+                
+                # 🔧 DEBUG:
+                self.analyze_generation_debug(generation, fitness_values)
                 
                 # Estadísticas
                 best_idx = np.argmax(fitness_values)
@@ -731,16 +869,20 @@ class MTGGeneticAlgorithm:
                 self.logger.info(f"Mejor={current_best_fitness:.4f}, Promedio={avg_fitness:.4f}, Diversidad={diversity:.4f}")
                 self.logger.info(f"Tasa de mutación actual: {current_mutation_rate:.4f}")
                 
-                # Verificar mejora
-                if current_best_fitness > self.best_fitness_ever:
-                    self.best_fitness_ever = current_best_fitness
+                # Verificar mejora usando Hall of Fame
+                hall_of_fame_best = self.hall_of_fame_arrays[0][0] if self.hall_of_fame_arrays else 0
+                current_best_fitness = max(fitness_values)
+
+                if hall_of_fame_best > self.best_fitness_ever:
+                    self.best_fitness_ever = hall_of_fame_best
                     self.stagnation_counter = 0
-                    best_deck = self.array_to_deck(self.population_arrays[best_idx], 
-                                                 f"Best_Gen_{generation}")
-                    self.hall_of_fame.append((generation, current_best_fitness, best_deck))
-                    self.logger.info(f"¡Nueva mejor solución encontrada!")
-                    
-                    # Guardar el mejor mazo actual
+
+                    # Encontrar el mejor mazo actual en el Hall of Fame
+                    best_fitness, best_array = self.hall_of_fame_arrays[0]
+                    best_deck = self.array_to_deck(best_array, f"HallOfFame_Gen_{generation}")
+                    self.hall_of_fame.append((generation, best_fitness, best_deck))
+
+                    self.logger.info(f"🎉 Nuevo récord en Hall of Fame: {best_fitness:.4f}")
                     self.save_best_deck(best_deck, generation)
                 else:
                     self.stagnation_counter += 1
@@ -758,6 +900,8 @@ class MTGGeneticAlgorithm:
                 if current_best_fitness >= 0.95:
                     self.logger.info("Terminando por alcanzar fitness objetivo (95% win rate)")
                     break
+                
+                self.debug_hall_of_fame(generation, fitness_values)
                 
             if self.hall_of_fame:
                 final_generation, final_fitness, final_best_deck = max(self.hall_of_fame, key=lambda x: x[1])
@@ -893,6 +1037,97 @@ class MTGGeneticAlgorithm:
         except Exception as e:
             self.logger.error(f"Error guardando archivo .dck: {e}")
             self.logger.info(f"Mejor mazo guardado solo en JSON: {json_file}")
+            
+    def analyze_generation_debug(self, generation, fitness_values):
+        """Debug detallado de cada generación"""
+        print(f"\n🔍 === DEBUG GENERACIÓN {generation} ===")
+
+        # 1. Estadísticas básicas de fitness
+        print(f"📊 FITNESS STATS:")
+        print(f"   Mejor: {max(fitness_values):.4f}")
+        print(f"   Promedio: {np.mean(fitness_values):.4f}")
+        print(f"   Peor: {min(fitness_values):.4f}")
+        print(f"   Mediana: {np.median(fitness_values):.4f}")
+
+        # 2. Distribución de fitness
+        high = len([f for f in fitness_values if f > 0.70])
+        medium_high = len([f for f in fitness_values if 0.60 < f <= 0.70])
+        medium = len([f for f in fitness_values if 0.50 < f <= 0.60])
+        low = len([f for f in fitness_values if f <= 0.50])
+
+        print(f"📈 DISTRIBUCIÓN FITNESS:")
+        print(f"   >0.70 (Alto): {high} mazos ({high/len(fitness_values)*100:.1f}%)")
+        print(f"   0.60-0.70 (Medio-Alto): {medium_high} mazos ({medium_high/len(fitness_values)*100:.1f}%)")
+        print(f"   0.50-0.60 (Medio): {medium} mazos ({medium/len(fitness_values)*100:.1f}%)")
+        print(f"   ≤0.50 (Bajo): {low} mazos ({low/len(fitness_values)*100:.1f}%)")
+
+        # 3. Top mazos
+        top_indices = np.argsort(fitness_values)[-5:]  # Top 5
+        print(f"🏆 TOP 5 MAZOS:")
+        for i, idx in enumerate(reversed(top_indices)):
+            print(f"   {i+1}. Mazo {idx}: {fitness_values[idx]:.4f}")
+
+        # 4. Análisis de cartas populares
+        card_usage = np.zeros(self.total_cards)
+        for array in self.population_arrays:
+            card_usage += (array > 0).astype(int)
+
+        used_cards = np.sum(card_usage > 0)
+        common_cards = np.sum(card_usage > len(self.population_arrays) * 0.5)  # En >50% mazos
+        staple_cards = np.sum(card_usage > len(self.population_arrays) * 0.8)  # En >80% mazos
+
+        print(f"🃏 USO DE CARTAS:")
+        print(f"   Cartas usadas: {used_cards}/{self.total_cards}")
+        print(f"   Cartas comunes (>50% mazos): {common_cards}")
+        print(f"   Cartas staple (>80% mazos): {staple_cards}")
+
+        # 5. Verificar propagación genética
+        if generation > 0:
+            print(f"🧬 PROPAGACIÓN GENÉTICA:")
+            improvement = max(fitness_values) - max(self.stats['best_fitness'])
+            avg_improvement = np.mean(fitness_values) - self.stats['avg_fitness'][-1] if self.stats['avg_fitness'] else 0
+
+            print(f"   Mejora del mejor: {improvement:+.4f}")
+            print(f"   Mejora del promedio: {avg_improvement:+.4f}")
+
+            if improvement <= 0 and avg_improvement <= 0.01:
+                print(f"   ⚠️  POSIBLE ESTANCAMIENTO")
+            elif avg_improvement > 0.05:
+                print(f"   ✅ EVOLUCIÓN SALUDABLE")
+
+        # 6. Calcular diversidad actual
+        current_diversity = self.calculate_diversity(self.population_arrays)
+        print(f"🌈 DIVERSIDAD: {current_diversity:.4f}")
+
+        if current_diversity < 0.01:
+            print(f"   🚨 DIVERSIDAD CRÍTICA - Convergencia prematura")
+        elif current_diversity > 0.20:
+            print(f"   ⚠️  DIVERSIDAD ALTA - Falta convergencia")
+        else:
+            print(f"   ✅ DIVERSIDAD SALUDABLE")
+
+        print(f"=" * 50)
+        
+    def debug_hall_of_fame(self, generation, fitness_values):
+        """Debug del estado del Hall of Fame"""
+        if not self.hall_of_fame_arrays:
+            self.logger.warning(f"Gen {generation}: Hall of Fame vacío!")
+            return
+
+        self.logger.info(f"🏆 === HALL OF FAME GEN {generation} ===")
+        for i, (fitness, _) in enumerate(self.hall_of_fame_arrays[:3]):  # Top 3
+            self.logger.info(f"   {i+1}. Fitness histórico: {fitness:.4f}")
+
+        historical_best = self.hall_of_fame_arrays[0][0]
+        current_best = max(fitness_values) if 'fitness_values' in locals() else 0
+
+        self.logger.info(f"   Mejor histórico: {historical_best:.4f}")
+        self.logger.info(f"   Mejor actual: {current_best:.4f}")
+
+        if current_best < historical_best - 0.01:
+            self.logger.info(f"   ✅ Sin regresión - Hall of Fame funciona")
+        else:
+            self.logger.info(f"   🎉 Posible mejora o mantenimiento")    
     
     def save_statistics(self):
         """Guarda estadísticas de evolución"""

@@ -232,26 +232,12 @@ class HardwareAnalyzer:
         )
         optimal_workers = max(2, optimal_workers)
         
-        # === TIMEOUTS SEGÚN RENDIMIENTO ===
-        if profile['system_tier'] == "high_performance":
-            base_timeout = 90
-        elif profile['system_tier'] == "balanced":
-            base_timeout = 120
-        elif profile['system_tier'] == "conservative":
-            base_timeout = 180
-        else:
-            base_timeout = 240
+        # === TIMEOUTS ===
+        base_timeout = 300
         
         # === CONFIGURACIÓN DE LOGS ===
-        if storage['free_gb'] >= 10:
-            log_level = 'DEBUG'
-            save_forge_outputs = True
-        elif storage['free_gb'] >= 5:
-            log_level = 'INFO'
-            save_forge_outputs = True
-        else:
-            log_level = 'WARNING'
-            save_forge_outputs = False
+        log_level = 'INFO'
+        save_forge_outputs = True
         
         # === POBLACIONES RECOMENDADAS ===
         if profile['system_tier'] == "high_performance":
@@ -1418,7 +1404,7 @@ class MTGMenuSystem:
                 ga_config = {
                     'max_workers': 2,
                     'parallel_batch_size': 6,
-                    'base_timeout': 120,
+                    'base_timeout': 300,
                     'log_level': 'INFO',
                     'save_forge_outputs': True
                 }
