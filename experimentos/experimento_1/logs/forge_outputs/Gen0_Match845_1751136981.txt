@@ -1,0 +1,439 @@
+=== COMBATE PARALELO: Gen0_Deck24 vs Gen0_Deck27 ===
+Worker ID: 1832525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck24 Gen0_Deck27 -n 1
+Duración: 43.78 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2639 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 96 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck24 vs Ai(2)-Gen0_Deck27 - one game of Constructed
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+Mulligan: Ai(1)-Gen0_Deck24 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Forest (30)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Forest (30) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Dryad Militant (51)
+Resolve stack: Dryad Militant - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Replacement Effect: Simic Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck27 played Simic Guildgate (88)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Dryad Militant (51) to attack Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Dryad Militant (51).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Dryad Militant (51) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Rugged Highlands (24)
+Add to stack: Ai(1)-Gen0_Deck24 triggered Rugged Highlands (24)
+Resolve stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (24)]
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Replacement Effect: Simic Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck27 played Simic Guildgate (89)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Dryad Militant (51) to attack Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Dryad Militant (51).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Dryad Militant (51) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Selesnya Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Selesnya Guildgate (13)
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Land: Ai(2)-Gen0_Deck27 played Forest (75)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Simic Guildgate (88) - {T}: Add {U} or {G}.
+Mana: Simic Guildgate (89) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Imperious Perfect (90)
+Resolve stack: Imperious Perfect - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Forest (28)
+Mana: Rugged Highlands (24) - {T}: Add {R} or {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Goblin Smuggler (22)
+Resolve stack: Goblin Smuggler - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck24 activated Goblin Smuggler (22) targeting [Dryad Militant (51)]
+Resolve stack: Goblin Smuggler (22) - Dryad Militant (51) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Dryad Militant (51) to attack Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Dryad Militant (51).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Dryad Militant (51) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Simic Guildgate (88) - {T}: Add {U} or {G}.
+Mana: Simic Guildgate (89) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Imperious Perfect (91)
+Resolve stack: Imperious Perfect - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 assigned Imperious Perfect (90) to attack Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Imperious Perfect (90).
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Damage: Imperious Perfect (90) deals 3 combat damage to Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck24 activated Goblin Smuggler (22) targeting [Dryad Militant (51)]
+Resolve stack: Goblin Smuggler (22) - Dryad Militant (51) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Rugged Highlands (24) - {T}: Add {R} or {G}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Elvish Archdruid (55)
+Resolve stack: Elvish Archdruid - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Dryad Militant (51) to attack Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Dryad Militant (51).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Dryad Militant (51) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Rugged Highlands (26)
+Add to stack: Ai(1)-Gen0_Deck24 triggered Rugged Highlands (26)
+Resolve stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (26)]
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 assigned Imperious Perfect (90) and Imperious Perfect (91) to attack Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Imperious Perfect (90).
+Ai(1)-Gen0_Deck24 didn't block Imperious Perfect (91).
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Damage: Imperious Perfect (90) deals 3 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Imperious Perfect (91) deals 3 combat damage to Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Simic Guildgate (88) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Wary Thespian (77)
+Resolve stack: Wary Thespian - Creature 3 / 1
+Add to stack: Ai(2)-Gen0_Deck27 triggered Wary Thespian (77)
+Resolve stack: Ai(2)-Gen0_Deck27 surveiled 1 card(s) to the graveyard
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (77)]
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck24 activated Goblin Smuggler (22) targeting [Elvish Archdruid (55)]
+Resolve stack: Goblin Smuggler (22) - Elvish Archdruid (55) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Rugged Highlands (25)
+Add to stack: Ai(1)-Gen0_Deck24 triggered Rugged Highlands (25)
+Resolve stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (25)]
+Mana: Rugged Highlands (24) - {T}: Add {R} or {G}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Ravenous Giant (45)
+Resolve stack: Ravenous Giant - Creature 5 / 5
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Land: Ai(2)-Gen0_Deck27 played Mountain (117)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Simic Guildgate (88) - {T}: Add {U} or {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Simic Guildgate (89) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Surrak, the Hunt Caller (76)
+Resolve stack: Surrak, the Hunt Caller - Creature 5 / 4
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck24 triggered Ravenous Giant (45)
+Damage: Ravenous Giant (45) deals 1 non-combat damage to Ai(1)-Gen0_Deck24.
+Resolve stack: At the beginning of your upkeep, Ravenous Giant deals 1 damage to you. [Phase: Ai(1)-Gen0_Deck24]
+Add to stack: Ai(1)-Gen0_Deck24 activated Goblin Smuggler (22) targeting [Elvish Archdruid (55)]
+Resolve stack: Goblin Smuggler (22) - Elvish Archdruid (55) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Rugged Highlands (24) - {T}: Add {R} or {G}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Selesnya Guildgate (13) - {T}: Add {G} or {W}.
+Mana: Rugged Highlands (25) - {T}: Add {R} or {G}.
+Mana: Elvish Archdruid (55) - {T}: Add {G} for each Elf you control.
+Add to stack: Ai(1)-Gen0_Deck24 cast Chandra, Flameshaper (49)
+Replacement Effect: Chandra, Flameshaper enters with six loyalty counters on it.
+Resolve stack: Chandra, Flameshaper
+Add to stack: Ai(1)-Gen0_Deck24 activated Chandra, Flameshaper (49) targeting [Surrak, the Hunt Caller (76), Imperious Perfect (90)]
+Damage: Chandra, Flameshaper (49) deals 4 damage () to Surrak, the Hunt Caller (76).
+Damage: Chandra, Flameshaper (49) deals 3 damage () to Imperious Perfect (90).
+Resolve stack: Chandra, Flameshaper (49) - Chandra, Flameshaper (49) deals 8 damage divided to 
+Surrak, the Hunt Caller (76) (4 damage) and Imperious Perfect (90) (3 damage).
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck24 triggered Ravenous Giant (45)
+Damage: Ravenous Giant (45) deals 1 non-combat damage to Ai(1)-Gen0_Deck24.
+Resolve stack: At the beginning of your upkeep, Ravenous Giant deals 1 damage to you. [Phase: Ai(1)-Gen0_Deck24]
+Add to stack: Ai(1)-Gen0_Deck24 activated Goblin Smuggler (22) targeting [Elvish Archdruid (55)]
+Resolve stack: Goblin Smuggler (22) - Elvish Archdruid (55) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck24 activated Chandra, Flameshaper (49) targeting [Ravenous Giant (45)]
+Resolve stack: Chandra, Flameshaper (49) - Ai(1)-Gen0_Deck24 creates a token that's a copy of Ravenous Giant (45), except it has haste.
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Ravenous Giant (162), Ravenous Giant (45) and Elvish Archdruid (55) to attack Ai(2)-Gen0_Deck27.
+Mana: Forest (75) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck27 activated Imperious Perfect (91)
+Resolve stack: Imperious Perfect (91) - Ai(2)-Gen0_Deck27 creates a 1/1 green Elf Warrior creature token.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Ravenous Giant (162).
+Ai(2)-Gen0_Deck27 didn't block Elvish Archdruid (55).
+Ai(2)-Gen0_Deck27 assigned Elf Warrior Token (169) and Wary Thespian (77) to block Ravenous Giant (45).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Ravenous Giant (162) deals 5 combat damage to Ai(2)-Gen0_Deck27.
+Damage: Ravenous Giant (45) deals 2 damage () to Elf Warrior Token (169).
+Damage: Ravenous Giant (45) deals 3 damage () to Wary Thespian (77).
+Damage: Elvish Archdruid (55) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Damage: Elf Warrior Token (169) deals 2 damage () to Ravenous Giant (45).
+Damage: Wary Thespian (77) deals 3 damage () to Ravenous Giant (45).
+Add to stack: Ai(2)-Gen0_Deck27 triggered Wary Thespian (77)
+Resolve stack: Ai(2)-Gen0_Deck27 surveiled 1 card(s) to the top of the library
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (77)]
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Add to stack: Ai(1)-Gen0_Deck24 triggered Ravenous Giant (162)
+Resolve stack: At the beginning of the end step, sacrifice Ravenous Giant. [Phase: Ai(1)-Gen0_Deck24]
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (75) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Fishing Pole (71)
+Resolve stack: Fishing Pole
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Simic Guildgate (88) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 activated Fishing Pole (71) targeting [Imperious Perfect (91)]
+Resolve stack: Fishing Pole (71) -  Attach to Imperious Perfect (91)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck24 activated Goblin Smuggler (22) targeting [Elvish Archdruid (55)]
+Resolve stack: Goblin Smuggler (22) - Elvish Archdruid (55) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck24 activated Chandra, Flameshaper (49) targeting [Elvish Archdruid (55)]
+Resolve stack: Chandra, Flameshaper (49) - Ai(1)-Gen0_Deck24 creates a token that's a copy of Elvish Archdruid (55), except it has haste.
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Elvish Archdruid (186), Elvish Archdruid (55) and Dryad Militant (51) to attack Ai(2)-Gen0_Deck27.
+Mana: Simic Guildgate (89) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 activated Imperious Perfect (91)
+Resolve stack: Imperious Perfect (91) - Ai(2)-Gen0_Deck27 creates a 1/1 green Elf Warrior creature token.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Dryad Militant (51).
+Ai(2)-Gen0_Deck27 didn't block Elvish Archdruid (55).
+Ai(2)-Gen0_Deck27 assigned Elf Warrior Token (193) to block Elvish Archdruid (186).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Elvish Archdruid (186) deals 3 damage () to Elf Warrior Token (193).
+Damage: Elvish Archdruid (55) deals 3 combat damage to Ai(2)-Gen0_Deck27.
+Damage: Dryad Militant (51) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Damage: Elf Warrior Token (193) deals 2 damage () to Elvish Archdruid (186).
+Player control: Ai(1)-Gen0_Deck24 is controlled by Ai(1)-Gen0_Deck24
+Player control: Ai(2)-Gen0_Deck27 is controlled by Ai(2)-Gen0_Deck27
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck24 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck27 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck24: 1 Ai(2)-Gen0_Deck27: 0 
+
+Game Result: Game 1 ended in 27061 ms. Ai(1)-Gen0_Deck24 has won!
+
+
+=== STDERR ===

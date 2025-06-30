@@ -1,0 +1,540 @@
+=== COMBATE PARALELO: Gen1_Deck0 vs Gen1_Deck21 ===
+Worker ID: 2031308
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck0 Gen1_Deck21 -n 1
+Duración: 49.53 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3962 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 64 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck0 vs Ai(2)-Gen1_Deck21 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck0 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck21 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (23)
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Swamp (105)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (19)
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Burglar Rat (56)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen1_Deck0 triggered Burglar Rat (56)
+Discard: Ai(2)-Gen1_Deck21 discards Swamp (108).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (56)]
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Island (79)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Mana: Island (79) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Fog Bank (66)
+Resolve stack: Fog Bank - Creature 0 / 2
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (28)
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Eaten Alive (4) targeting [Fog Bank (66)]
+Resolve stack: Eaten Alive (4) - Exile Fog Bank (66).
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Burglar Rat (58)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen1_Deck0 triggered Burglar Rat (58)
+Discard: Ai(2)-Gen1_Deck21 discards Sphinx of Forgotten Lore (74).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (58)]
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Rogue's Passage (96)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Mana: Island (79) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Rogue's Passage (96) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Exclusion Mage (73)
+Resolve stack: Exclusion Mage - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck21 triggered Exclusion Mage (73) targeting [Burglar Rat (58)]
+Resolve stack: When Exclusion Mage enters, return target creature an opponent controls to its owner's hand. (Targeting: [[Burglar Rat (58)]]) [Zone Changer: Exclusion Mage (73)]
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (25)
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Marauding Blight-Priest (14)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Diregraf Ghoul (42)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Cryptic Caves (61)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (27)
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 assigned Marauding Blight-Priest (14) and Diregraf Ghoul (42) to attack Ai(2)-Gen1_Deck21.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Rogue's Passage (96) - {T}: Add {C}.
+Mana: Cryptic Caves (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck21 cast High Fae Trickster (98)
+Resolve stack: High Fae Trickster - Creature 4 / 2
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck21 didn't block Diregraf Ghoul (42).
+Ai(2)-Gen1_Deck21 didn't block Marauding Blight-Priest (14).
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Damage: Marauding Blight-Priest (14) deals 3 combat damage to Ai(2)-Gen1_Deck21.
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Painful Quandary (50)
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned High Fae Trickster (98) and Exclusion Mage (73) to attack Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck0 didn't block High Fae Trickster (98).
+Ai(1)-Gen1_Deck0 didn't block Exclusion Mage (73).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: High Fae Trickster (98) deals 4 combat damage to Ai(1)-Gen1_Deck0.
+Damage: Exclusion Mage (73) deals 2 combat damage to Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen1_Deck21 played Uncharted Haven (85)
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Vengeful Bloodwitch (64)
+Add to stack: Ai(1)-Gen1_Deck0 triggered Painful Quandary (50)
+Mana: Rogue's Passage (96) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck21 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen1_Deck21 draws a card.
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Vengeful Bloodwitch (64), Activator: Ai(2)-Gen1_Deck21, SpellAbility: Vengeful Bloodwitch - Creature 1 / 1]
+Resolve stack: Vengeful Bloodwitch - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 assigned Marauding Blight-Priest (14) and Diregraf Ghoul (42) to attack Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck21 didn't block Diregraf Ghoul (42).
+Ai(2)-Gen1_Deck21 didn't block Marauding Blight-Priest (14).
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Damage: Marauding Blight-Priest (14) deals 3 combat damage to Ai(2)-Gen1_Deck21.
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast High-Society Hunter (5)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Evolving Wilds (115)
+Add to stack: Ai(2)-Gen1_Deck21 activated Evolving Wilds (115)
+Resolve stack: Evolving Wilds (115) - Ai(2)-Gen1_Deck21 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 assigned High-Society Hunter (5), Marauding Blight-Priest (14) and Diregraf Ghoul (42) to attack Ai(2)-Gen1_Deck21.
+Add to stack: Ai(1)-Gen1_Deck0 triggered High-Society Hunter (5)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (5)]
+Add to stack: Ai(1)-Gen1_Deck0 triggered High-Society Hunter (5)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Diregraf Ghoul (42)]
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck21 assigned High Fae Trickster (98) to block High-Society Hunter (5).
+Ai(2)-Gen1_Deck21 assigned Exclusion Mage (73) to block Marauding Blight-Priest (14).
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Damage: High-Society Hunter (5) deals 6 damage () to High Fae Trickster (98).
+Damage: Marauding Blight-Priest (14) deals 3 damage () to Exclusion Mage (73).
+Damage: High Fae Trickster (98) deals 4 damage () to High-Society Hunter (5).
+Damage: Exclusion Mage (73) deals 2 damage () to Marauding Blight-Priest (14).
+Add to stack: Ai(1)-Gen1_Deck0 triggered High-Society Hunter (5)
+Add to stack: Ai(1)-Gen1_Deck0 triggered High-Society Hunter (5)
+Add to stack: Ai(1)-Gen1_Deck0 triggered High-Society Hunter (5)
+Add to stack: Ai(2)-Gen1_Deck21 triggered Vengeful Bloodwitch (64) targeting [Ai(1)-Gen1_Deck0]
+Add to stack: Ai(2)-Gen1_Deck21 triggered Vengeful Bloodwitch (64) targeting [Ai(1)-Gen1_Deck0]
+Resolve stack: Whenever this creature or another creature you control dies, target opponent loses 1 life and you gain 1 life. (Targeting: [[Ai(1)-Gen1_Deck0]]) [Zone Changer: High Fae Trickster (98)]
+Resolve stack: Whenever this creature or another creature you control dies, target opponent loses 1 life and you gain 1 life. (Targeting: [[Ai(1)-Gen1_Deck0]]) [Zone Changer: Exclusion Mage (73)]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: High Fae Trickster (98)]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Exclusion Mage (73)]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Marauding Blight-Priest (14)]
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (32)
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Painful Quandary (48)
+Mana: Island (79) - {T}: Add {U}.
+Mana: Uncharted Haven (85) - {T}: Add one mana of the chosen color.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Cancel (117) targeting [Painful Quandary]
+Add to stack: Ai(1)-Gen1_Deck0 triggered Painful Quandary (50)
+Discard: Ai(2)-Gen1_Deck21 discards Vengeful Bloodwitch (62).
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Cancel (117), Activator: Ai(2)-Gen1_Deck21, SpellAbility: Counter target spell.]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: Cancel (117) - Counter Painful Quandary (48).
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Uncharted Haven (85) - {T}: Add one mana of the chosen color.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck21 activated Rogue's Passage (96) targeting [Vengeful Bloodwitch (64)]
+Resolve stack: Rogue's Passage (96) - Vengeful Bloodwitch (64) can't be blocked this turn.
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Vengeful Bloodwitch (64) to attack Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck0 didn't block Vengeful Bloodwitch (64).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: Vengeful Bloodwitch (64) deals 1 combat damage to Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (22)
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Burglar Rat (58)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen1_Deck0 triggered Burglar Rat (58)
+Discard: Ai(2)-Gen1_Deck21 discards Kaito, Cunning Infiltrator (68).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (58)]
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Burglar Rat (57)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen1_Deck0 triggered Burglar Rat (57)
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (57)]
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Uncharted Haven (85) - {T}: Add one mana of the chosen color.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck21 activated Rogue's Passage (96) targeting [Vengeful Bloodwitch (64)]
+Resolve stack: Rogue's Passage (96) - Vengeful Bloodwitch (64) can't be blocked this turn.
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Rogue's Passage (95)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Vengeful Bloodwitch (64) to attack Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck0 didn't block Vengeful Bloodwitch (64).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: Vengeful Bloodwitch (64) deals 1 combat damage to Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 assigned Burglar Rat (58) and Burglar Rat (57) to attack Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck21 didn't block Burglar Rat (57).
+Ai(2)-Gen1_Deck21 didn't block Burglar Rat (58).
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Damage: Burglar Rat (58) deals 1 combat damage to Ai(2)-Gen1_Deck21.
+Damage: Burglar Rat (57) deals 1 combat damage to Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (29)
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck0 cast Zul Ashur, Lich Lord (36)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Uncharted Haven (85) - {T}: Add one mana of the chosen color.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck21 activated Rogue's Passage (96) targeting [Vengeful Bloodwitch (64)]
+Resolve stack: Rogue's Passage (96) - Vengeful Bloodwitch (64) can't be blocked this turn.
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Vengeful Bloodwitch (64) to attack Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck0 didn't block Vengeful Bloodwitch (64).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: Vengeful Bloodwitch (64) deals 1 combat damage to Ai(1)-Gen1_Deck0.
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 assigned Zul Ashur, Lich Lord (36), Burglar Rat (58) and Burglar Rat (57) to attack Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck21 didn't block Zul Ashur, Lich Lord (36).
+Ai(2)-Gen1_Deck21 didn't block Burglar Rat (57).
+Ai(2)-Gen1_Deck21 didn't block Burglar Rat (58).
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Damage: Zul Ashur, Lich Lord (36) deals 2 combat damage to Ai(2)-Gen1_Deck21.
+Damage: Burglar Rat (58) deals 1 combat damage to Ai(2)-Gen1_Deck21.
+Damage: Burglar Rat (57) deals 1 combat damage to Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's End of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck0 played Swamp (35)
+Phase: Ai(1)-Gen1_Deck0's End step
+Phase: Ai(1)-Gen1_Deck0's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Uncharted Haven (85) - {T}: Add one mana of the chosen color.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck21 activated Rogue's Passage (96) targeting [Vengeful Bloodwitch (64)]
+Resolve stack: Rogue's Passage (96) - Vengeful Bloodwitch (64) can't be blocked this turn.
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Island (83)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen1_Deck0)
+Phase: Ai(1)-Gen1_Deck0's Untap step
+Phase: Ai(1)-Gen1_Deck0's Upkeep step
+Phase: Ai(1)-Gen1_Deck0's Draw step
+Phase: Ai(1)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck0 assigned Zul Ashur, Lich Lord (36), Burglar Rat (58) and Burglar Rat (57) to attack Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Vengeful Bloodwitch (64) to block Zul Ashur, Lich Lord (36).
+Ai(2)-Gen1_Deck21 didn't block Burglar Rat (57).
+Ai(2)-Gen1_Deck21 didn't block Burglar Rat (58).
+Phase: Ai(1)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck0's Combat Damage Step
+Damage: Zul Ashur, Lich Lord (36) deals 2 damage () to Vengeful Bloodwitch (64).
+Damage: Burglar Rat (58) deals 1 combat damage to Ai(2)-Gen1_Deck21.
+Damage: Burglar Rat (57) deals 1 combat damage to Ai(2)-Gen1_Deck21.
+Damage: Vengeful Bloodwitch (64) deals 1 damage () to Zul Ashur, Lich Lord (36).
+Player control: Ai(1)-Gen1_Deck0 is controlled by Ai(1)-Gen1_Deck0
+Player control: Ai(2)-Gen1_Deck21 is controlled by Ai(2)-Gen1_Deck21
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen1_Deck0 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck21 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck0: 1 Ai(2)-Gen1_Deck21: 0 
+
+Game Result: Game 1 ended in 28439 ms. Ai(1)-Gen1_Deck0 has won!
+
+
+=== STDERR ===

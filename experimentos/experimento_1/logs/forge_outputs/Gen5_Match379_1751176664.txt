@@ -1,0 +1,547 @@
+=== COMBATE PARALELO: Gen5_Deck7 vs Gen5_Deck15 ===
+Worker ID: 2818998
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck7 Gen5_Deck15 -n 1
+Duración: 71.35 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3100 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 92 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck7 vs Ai(2)-Gen5_Deck15 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck15 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Land: Ai(2)-Gen5_Deck15 played Island (89)
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Swamp (16)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen5_Deck15 played Tranquil Cove (105)
+Add to stack: Ai(2)-Gen5_Deck15 triggered Tranquil Cove (105)
+Add to stack: Ai(2)-Gen5_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Tranquil Cove (105)]
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (105)]
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Plains (40)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Charming Prince (51)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck7 triggered Charming Prince (51)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (51)]
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Land: Ai(2)-Gen5_Deck15 played Soulstone Sanctuary (96)
+Add to stack: Ai(2)-Gen5_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Soulstone Sanctuary (96)]
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Mountain (60)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 assigned Charming Prince (51) to attack Ai(2)-Gen5_Deck15.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck15 didn't block Charming Prince (51).
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Damage: Charming Prince (51) deals 2 combat damage to Ai(2)-Gen5_Deck15.
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Inspiring Overseer (29)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen5_Deck7 triggered Inspiring Overseer (29)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (29)]
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Land: Ai(2)-Gen5_Deck15 played Plains (81)
+Add to stack: Ai(2)-Gen5_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (81)]
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Mana: Tranquil Cove (105) - {T}: Add {W} or {U}.
+Mana: Soulstone Sanctuary (96) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Squad Rallier (110)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Swamp (22)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 assigned Inspiring Overseer (29) to attack Ai(2)-Gen5_Deck15.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck15 didn't block Inspiring Overseer (29).
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Damage: Inspiring Overseer (29) deals 2 combat damage to Ai(2)-Gen5_Deck15.
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Burnished Hart (35)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Land: Ai(2)-Gen5_Deck15 played Island (94)
+Add to stack: Ai(2)-Gen5_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (94)]
+Mana: Island (89) - {T}: Add {U}.
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Island (94) - {T}: Add {U}.
+Mana: Tranquil Cove (105) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen5_Deck15 activated Soulstone Sanctuary (96)
+Resolve stack: Soulstone Sanctuary (96) - Soulstone Sanctuary (96) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Mana: Soulstone Sanctuary (96) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck15 activated Adventuring Gear (62) targeting [Soulstone Sanctuary (96)]
+Resolve stack: Adventuring Gear (62) -  Attach to Soulstone Sanctuary (96)
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Plains (43)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 assigned Inspiring Overseer (29) to attack Ai(2)-Gen5_Deck15.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck15 didn't block Inspiring Overseer (29).
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Damage: Inspiring Overseer (29) deals 2 combat damage to Ai(2)-Gen5_Deck15.
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Marauding Blight-Priest (8)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Knight of Grace (32)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Tranquil Cove (105) - {T}: Add {W} or {U}.
+Mana: Island (89) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Exemplar of Light (103)
+Resolve stack: Exemplar of Light - Creature 3 / 3
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Plains (39)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Burnished Hart (36)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Land: Ai(2)-Gen5_Deck15 played Plains (83)
+Add to stack: Ai(2)-Gen5_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (83)]
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 assigned Squad Rallier (110), Exemplar of Light (103) and Soulstone Sanctuary (96) to attack Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck7 didn't block Soulstone Sanctuary (96).
+Ai(1)-Gen5_Deck7 didn't block Exemplar of Light (103).
+Ai(1)-Gen5_Deck7 didn't block Squad Rallier (110).
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Damage: Squad Rallier (110) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Damage: Exemplar of Light (103) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Damage: Soulstone Sanctuary (96) deals 5 combat damage to Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Ajani, Caller of the Pride (71)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen5_Deck15 activated Ajani, Caller of the Pride (71) targeting [Soulstone Sanctuary (96)]
+Resolve stack: Ajani, Caller of the Pride (71) - Ai(2)-Gen5_Deck15 puts a +1/+1 counter on Soulstone Sanctuary (96).
+Mana: Tranquil Cove (105) - {T}: Add {W} or {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Felidar Cub (68)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Swamp (18)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 assigned Inspiring Overseer (29) to attack Ajani, Caller of the Pride (71).
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck15 didn't block Inspiring Overseer (29).
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Add to stack: Ai(2)-Gen5_Deck15 activated Ajani, Caller of the Pride (71) targeting [Squad Rallier (110)]
+Resolve stack: Ajani, Caller of the Pride (71) - Squad Rallier (110) gains flying and double strike until end of turn.
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 assigned Squad Rallier (110), Exemplar of Light (103) and Soulstone Sanctuary (96) to attack Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck7 assigned Burnished Hart (35) and Charming Prince (51) to block Soulstone Sanctuary (96).
+Ai(1)-Gen5_Deck7 didn't block Exemplar of Light (103).
+Ai(1)-Gen5_Deck7 didn't block Squad Rallier (110).
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Damage: Squad Rallier (110) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Damage: Squad Rallier (110) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Damage: Exemplar of Light (103) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Damage: Soulstone Sanctuary (96) deals 2 damage () to Burnished Hart (35).
+Damage: Soulstone Sanctuary (96) deals 2 damage () to Charming Prince (51).
+Damage: Burnished Hart (35) deals 2 damage () to Soulstone Sanctuary (96).
+Damage: Charming Prince (51) deals 2 damage () to Soulstone Sanctuary (96).
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Mana: Island (89) - {T}: Add {U}.
+Mana: Plains (81) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Mystic Archaeologist (67)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Bishop's Soldier (72)
+Resolve stack: Bishop's Soldier - Creature 2 / 2
+Mana: Tranquil Cove (105) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen5_Deck15 activated Adventuring Gear (62) targeting [Squad Rallier (110)]
+Resolve stack: Adventuring Gear (62) -  Attach to Squad Rallier (110)
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Swamp (26)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Charming Prince (53)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck7 triggered Charming Prince (53)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (53)]
+Add to stack: Ai(1)-Gen5_Deck7 triggered Marauding Blight-Priest (8)
+Resolve stack: Whenever you gain life, each opponent loses 1 life. [Player: Ai(1)-Gen5_Deck7, Gained Amount: 3]
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 assigned Squad Rallier (110) and Exemplar of Light (103) to attack Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck7 assigned Inspiring Overseer (29) to block Exemplar of Light (103).
+Ai(1)-Gen5_Deck7 didn't block Squad Rallier (110).
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Damage: Squad Rallier (110) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Damage: Exemplar of Light (103) deals 3 damage () to Inspiring Overseer (29).
+Damage: Inspiring Overseer (29) deals 2 damage () to Exemplar of Light (103).
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Ajani's Pridemate (87)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Island (94) - {T}: Add {U}.
+Mana: Tranquil Cove (105) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen5_Deck15 activated Squad Rallier (110)
+Resolve stack: Squad Rallier (110) - Ai(2)-Gen5_Deck15 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Land: Ai(1)-Gen5_Deck7 played Swamp (21)
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Burnished Hart (34)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Land: Ai(2)-Gen5_Deck15 played Demolition Field (115)
+Add to stack: Ai(2)-Gen5_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (115)]
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 assigned Squad Rallier (110) and Exemplar of Light (103) to attack Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck7 didn't block Exemplar of Light (103).
+Ai(1)-Gen5_Deck7 assigned Burnished Hart (36) to block Squad Rallier (110).
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck7 activated Burnished Hart (36)
+Resolve stack: Burnished Hart (36) - Ai(1)-Gen5_Deck7 searches their library for two Land.Basic cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Damage: Exemplar of Light (103) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's End of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck15 cast Giada, Font of Hope (116)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Island (94) - {T}: Add {U}.
+Mana: Tranquil Cove (105) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen5_Deck15 activated Squad Rallier (110)
+Resolve stack: Squad Rallier (110) - Ai(2)-Gen5_Deck15 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(2)-Gen5_Deck15's End step
+Phase: Ai(2)-Gen5_Deck15's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen5_Deck7)
+Phase: Ai(1)-Gen5_Deck7's Untap step
+Phase: Ai(1)-Gen5_Deck7's Upkeep step
+Phase: Ai(1)-Gen5_Deck7's Draw step
+Phase: Ai(1)-Gen5_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck7's End of Combat Step
+Phase: Ai(1)-Gen5_Deck7's Main phase, postcombat
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck7 cast Marauding Blight-Priest (10)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen5_Deck7's End step
+Phase: Ai(1)-Gen5_Deck7's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck15's Untap step
+Phase: Ai(2)-Gen5_Deck15's Upkeep step
+Phase: Ai(2)-Gen5_Deck15's Draw step
+Phase: Ai(2)-Gen5_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck15 assigned Squad Rallier (110), Exemplar of Light (103), Felidar Cub (68), Mystic Archaeologist (67), Bishop's Soldier (72), Ajani's Pridemate (87) and Giada, Font of Hope (116) to attack Ai(1)-Gen5_Deck7.
+Phase: Ai(2)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck7 assigned Marauding Blight-Priest (8) to block Mystic Archaeologist (67).
+Ai(1)-Gen5_Deck7 assigned Knight of Grace (32) to block Felidar Cub (68).
+Ai(1)-Gen5_Deck7 didn't block Giada, Font of Hope (116).
+Ai(1)-Gen5_Deck7 didn't block Exemplar of Light (103).
+Ai(1)-Gen5_Deck7 assigned Marauding Blight-Priest (10) to block Ajani's Pridemate (87).
+Ai(1)-Gen5_Deck7 assigned Charming Prince (53) to block Bishop's Soldier (72).
+Ai(1)-Gen5_Deck7 assigned Burnished Hart (34) to block Squad Rallier (110).
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck7 activated Burnished Hart (34)
+Resolve stack: Burnished Hart (34) - Ai(1)-Gen5_Deck7 searches their library for two Land.Basic cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen5_Deck15's First Strike Damage Step
+Damage: Knight of Grace (32) deals 3 damage () to Felidar Cub (68).
+Phase: Ai(2)-Gen5_Deck15's Combat Damage Step
+Damage: Exemplar of Light (103) deals 3 combat damage to Ai(1)-Gen5_Deck7.
+Damage: Mystic Archaeologist (67) deals 2 damage () to Marauding Blight-Priest (8).
+Damage: Bishop's Soldier (72) deals 2 damage () to Charming Prince (53).
+Damage: Ajani's Pridemate (87) deals 2 damage () to Marauding Blight-Priest (10).
+Damage: Giada, Font of Hope (116) deals 2 combat damage to Ai(1)-Gen5_Deck7.
+Damage: Charming Prince (53) deals 2 damage () to Bishop's Soldier (72).
+Damage: Marauding Blight-Priest (8) deals 3 damage () to Mystic Archaeologist (67).
+Damage: Marauding Blight-Priest (10) deals 3 damage () to Ajani's Pridemate (87).
+Player control: Ai(1)-Gen5_Deck7 is controlled by Ai(1)-Gen5_Deck7
+Player control: Ai(2)-Gen5_Deck15 is controlled by Ai(2)-Gen5_Deck15
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen5_Deck7 has lost because life total reached 0
+Game outcome: Ai(2)-Gen5_Deck15 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck7: 0 Ai(2)-Gen5_Deck15: 1 
+
+Game Result: Game 1 ended in 52054 ms. Ai(2)-Gen5_Deck15 has won!
+
+
+=== STDERR ===

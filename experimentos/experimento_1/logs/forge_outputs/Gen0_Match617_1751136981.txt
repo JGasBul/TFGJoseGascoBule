@@ -1,0 +1,428 @@
+=== COMBATE PARALELO: Gen0_Deck13 vs Gen0_Deck23 ===
+Worker ID: 1832524
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck13 Gen0_Deck23 -n 1
+Duración: 47.88 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3174 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 106 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck13 vs Ai(2)-Gen0_Deck23 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck23 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck13 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(2)-Gen0_Deck23 played Bloodfell Caves (87)
+Add to stack: Ai(2)-Gen0_Deck23 triggered Bloodfell Caves (87)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (87)]
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Rogue's Passage (36)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Mountain (116)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Bloodfell Caves (87) - {T}: Add {B} or {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Knight of Malice (82)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Swamp (45)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Rogue's Passage (36) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Three Tree Mascot (51)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (72)
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Bloodfell Caves (87) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Electroduplicate (70) targeting [Knight of Malice (82)]
+Resolve stack: Electroduplicate (70) - Ai(2)-Gen0_Deck23 creates a token that's a copy of Knight of Malice (82), except it has haste.
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Knight of Malice (122) and Knight of Malice (82) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Knight of Malice (82).
+Ai(1)-Gen0_Deck13 didn't block Knight of Malice (122).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (122) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Knight of Malice (82) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Knight of Malice (122)
+Resolve stack: At the beginning of the end step, sacrifice Knight of Malice. [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Swamp (48)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Three Tree Mascot (51) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 didn't block Three Tree Mascot (51).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Three Tree Mascot (51) deals 2 combat damage to Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Vengeful Bloodwitch (3)
+Resolve stack: Vengeful Bloodwitch - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Knight of Malice (82) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Knight of Malice (82).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (82) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Three Tree Mascot (51) and Vengeful Bloodwitch (3) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 didn't block Three Tree Mascot (51).
+Ai(2)-Gen0_Deck23 didn't block Vengeful Bloodwitch (3).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Three Tree Mascot (51) deals 2 combat damage to Ai(2)-Gen0_Deck23.
+Damage: Vengeful Bloodwitch (3) deals 1 combat damage to Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck13 played Uncharted Haven (26)
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Knight of Malice (82) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Knight of Malice (82).
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (72) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Sure Strike (68) targeting [Knight of Malice (82)]
+Resolve stack: Sure Strike (68) - Knight of Malice (82) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (82) deals 5 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Replacement Effect: Jungle Hollow enters tapped.
+Land: Ai(2)-Gen0_Deck23 played Jungle Hollow (105)
+Add to stack: Ai(2)-Gen0_Deck23 triggered Jungle Hollow (105)
+Resolve stack: When Jungle Hollow enters, you gain 1 life. [Zone Changer: Jungle Hollow (105)]
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Island (23)
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Uncharted Haven (26) - {T}: Add one mana of the chosen color.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Rogue's Passage (36) targeting [Three Tree Mascot (51)]
+Resolve stack: Rogue's Passage (36) - Three Tree Mascot (51) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Three Tree Mascot (51) and Vengeful Bloodwitch (3) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 didn't block Three Tree Mascot (51).
+Ai(2)-Gen0_Deck23 didn't block Vengeful Bloodwitch (3).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Three Tree Mascot (51) deals 2 combat damage to Ai(2)-Gen0_Deck23.
+Damage: Vengeful Bloodwitch (3) deals 1 combat damage to Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Swamp (96)
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Bloodfell Caves (87) - {T}: Add {B} or {R}.
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Swamp (96) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Electroduplicate (70) targeting [Knight of Malice (82)]
+Resolve stack: Electroduplicate (70) - Ai(2)-Gen0_Deck23 creates a token that's a copy of Knight of Malice (82), except it has haste.
+Replacement Effect: Flashback {2}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Knight of Malice (125) and Knight of Malice (82) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Knight of Malice (82).
+Ai(1)-Gen0_Deck13 didn't block Knight of Malice (125).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (125) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Knight of Malice (82) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Knight of Malice (125)
+Resolve stack: At the beginning of the end step, sacrifice Knight of Malice. [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Uncharted Haven (26) - {T}: Add one mana of the chosen color.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Rogue's Passage (36) targeting [Three Tree Mascot (51)]
+Resolve stack: Rogue's Passage (36) - Three Tree Mascot (51) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Three Tree Mascot (51) and Vengeful Bloodwitch (3) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 didn't block Three Tree Mascot (51).
+Ai(2)-Gen0_Deck23 didn't block Vengeful Bloodwitch (3).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Three Tree Mascot (51) deals 2 combat damage to Ai(2)-Gen0_Deck23.
+Damage: Vengeful Bloodwitch (3) deals 1 combat damage to Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Swamp (98)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Knight of Malice (82) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Knight of Malice (82).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (82) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Bloodfell Caves (87) - {T}: Add {B} or {R}.
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Swamp (96) - {T}: Add {B}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Jungle Hollow (105) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Etali, Primal Storm (99)
+Resolve stack: Etali, Primal Storm - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Uncharted Haven (26) - {T}: Add one mana of the chosen color.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Rogue's Passage (36) targeting [Three Tree Mascot (51)]
+Resolve stack: Rogue's Passage (36) - Three Tree Mascot (51) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Three Tree Mascot (51) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 didn't block Three Tree Mascot (51).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Three Tree Mascot (51) deals 2 combat damage to Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Etali, Primal Storm (99) and Knight of Malice (82) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck23 triggered Etali, Primal Storm (99)
+Add to stack: Ai(2)-Gen0_Deck23 cast Desecration Demon (33)
+Add to stack: Ai(2)-Gen0_Deck23 cast Myojin of Night's Reach (103)
+Resolve stack: Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs. [Attacker: Etali, Primal Storm (99)]
+Resolve stack: Myojin of Night's Reach - Creature 5 / 2
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Knight of Malice (82).
+Ai(1)-Gen0_Deck13 assigned Vengeful Bloodwitch (3) to block Etali, Primal Storm (99).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (82) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Etali, Primal Storm (99) deals 6 damage () to Vengeful Bloodwitch (3).
+Damage: Vengeful Bloodwitch (3) deals 1 damage () to Etali, Primal Storm (99).
+Add to stack: Ai(1)-Gen0_Deck13 triggered Vengeful Bloodwitch (3) targeting [Ai(2)-Gen0_Deck23]
+Resolve stack: Whenever this creature or another creature you control dies, target opponent loses 1 life and you gain 1 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Vengeful Bloodwitch (3)]
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Swamp (96) - {T}: Add {B}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Abyssal Harvester (79)
+Resolve stack: Abyssal Harvester - Creature 3 / 2
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Uncharted Haven (26) - {T}: Add one mana of the chosen color.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Rogue's Passage (36) targeting [Three Tree Mascot (51)]
+Resolve stack: Rogue's Passage (36) - Three Tree Mascot (51) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Rogue's Passage (35)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Desecration Demon (33)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen0_Deck13]
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Mountain (118)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Desecration Demon (33)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Desecration Demon (33), Etali, Primal Storm (99), Myojin of Night's Reach (103), Abyssal Harvester (79) and Knight of Malice (82) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck23 triggered Etali, Primal Storm (99)
+Add to stack: Ai(2)-Gen0_Deck23 cast Fake Your Own Death (84) targeting [Desecration Demon (33)]
+Resolve stack: Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs. [Attacker: Etali, Primal Storm (99)]
+Resolve stack: Fake Your Own Death (84) - Desecration Demon (33) gets +2/+0  until end of turn. Desecration Demon (33) .
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Desecration Demon (33).
+Ai(1)-Gen0_Deck13 didn't block Knight of Malice (82).
+Ai(1)-Gen0_Deck13 didn't block Etali, Primal Storm (99).
+Ai(1)-Gen0_Deck13 didn't block Myojin of Night's Reach (103).
+Ai(1)-Gen0_Deck13 didn't block Abyssal Harvester (79).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (82) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Player control: Ai(1)-Gen0_Deck13 is controlled by Ai(1)-Gen0_Deck13
+Player control: Ai(2)-Gen0_Deck23 is controlled by Ai(2)-Gen0_Deck23
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck13 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck23 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck13: 0 Ai(2)-Gen0_Deck23: 1 
+
+Game Result: Game 1 ended in 29796 ms. Ai(2)-Gen0_Deck23 has won!
+
+
+=== STDERR ===

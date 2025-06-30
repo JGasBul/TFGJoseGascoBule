@@ -1,0 +1,302 @@
+=== COMBATE PARALELO: Gen0_Deck2 vs Gen0_Deck17 ===
+Worker ID: 1832525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck2 Gen0_Deck17 -n 1
+Duración: 36.23 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2464 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 44 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck2 vs Ai(2)-Gen0_Deck17 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck17 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck17 has mulliganed down to 5 cards.
+Mulligan: Ai(2)-Gen0_Deck17 has kept a hand of 5 cards
+Mulligan: Ai(1)-Gen0_Deck2 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Crawling Barrens (115)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (33)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Forest (86)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Soulstone Sanctuary (55)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (55) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (34)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (55) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Marauding Blight-Priest (16)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Demolition Field (59)
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (34) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Demolition Field (59) targeting [Crawling Barrens (115)]
+Resolve stack: Demolition Field (59) - Destroy Crawling Barrens (115). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck2 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Marauding Blight-Priest (16) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Marauding Blight-Priest (16).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Marauding Blight-Priest (16) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (55) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Burglar Rat (56)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck2 triggered Burglar Rat (56)
+Discard: Ai(2)-Gen0_Deck17 discards Heroes' Bane (79).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (56)]
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (23)
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Soulstone Sanctuary (55)
+Resolve stack: Soulstone Sanctuary (55) - Soulstone Sanctuary (55) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Soulstone Sanctuary (55), Marauding Blight-Priest (16) and Burglar Rat (56) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Marauding Blight-Priest (16).
+Ai(2)-Gen0_Deck17 didn't block Soulstone Sanctuary (55).
+Ai(2)-Gen0_Deck17 didn't block Burglar Rat (56).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Soulstone Sanctuary (55) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Marauding Blight-Priest (16) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Burglar Rat (56) deals 1 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen0_Deck17 played Uncharted Haven (106)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Soulstone Sanctuary (55), Marauding Blight-Priest (16) and Burglar Rat (56) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Marauding Blight-Priest (16).
+Ai(2)-Gen0_Deck17 didn't block Soulstone Sanctuary (55).
+Ai(2)-Gen0_Deck17 didn't block Burglar Rat (56).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Soulstone Sanctuary (55) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Marauding Blight-Priest (16) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Burglar Rat (56) deals 1 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (55) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Painful Quandary (50)
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Soulstone Sanctuary (55), Marauding Blight-Priest (16) and Burglar Rat (56) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Marauding Blight-Priest (16).
+Ai(2)-Gen0_Deck17 didn't block Soulstone Sanctuary (55).
+Ai(2)-Gen0_Deck17 didn't block Burglar Rat (56).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Soulstone Sanctuary (55) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Marauding Blight-Priest (16) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Burglar Rat (56) deals 1 combat damage to Ai(2)-Gen0_Deck17.
+Player control: Ai(1)-Gen0_Deck2 is controlled by Ai(1)-Gen0_Deck2
+Player control: Ai(2)-Gen0_Deck17 is controlled by Ai(2)-Gen0_Deck17
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen0_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck17 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck2: 1 Ai(2)-Gen0_Deck17: 0 
+
+Game Result: Game 1 ended in 17278 ms. Ai(1)-Gen0_Deck2 has won!
+
+
+=== STDERR ===

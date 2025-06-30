@@ -1,0 +1,377 @@
+=== COMBATE PARALELO: Gen6_Deck9 vs Gen6_Deck28 ===
+Worker ID: 3014462
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck9 Gen6_Deck28 -n 1
+Duración: 40.22 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2882 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 124 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck9 vs Ai(2)-Gen6_Deck28 - one game of Constructed
+Mulligan: Ai(1)-Gen6_Deck9 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen6_Deck9 has mulliganed down to 5 cards.
+Mulligan: Ai(2)-Gen6_Deck28 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen6_Deck9 has kept a hand of 5 cards
+Turn: Turn 1 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Land: Ai(2)-Gen6_Deck28 played Plains (77)
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck28's End of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Main phase, postcombat
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck28 cast Healer's Hawk (117)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen6_Deck28's End step
+Phase: Ai(2)-Gen6_Deck28's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen6_Deck9)
+Phase: Ai(1)-Gen6_Deck9's Untap step
+Phase: Ai(1)-Gen6_Deck9's Upkeep step
+Phase: Ai(1)-Gen6_Deck9's Draw step
+Phase: Ai(1)-Gen6_Deck9's Main phase, precombat
+Land: Ai(1)-Gen6_Deck9 played Swamp (12)
+Phase: Ai(1)-Gen6_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck9's End of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck9's End step
+Phase: Ai(1)-Gen6_Deck9's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Land: Ai(2)-Gen6_Deck28 played Plains (92)
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 assigned Healer's Hawk (117) to attack Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck9 didn't block Healer's Hawk (117).
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's End of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Main phase, postcombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck28 cast Knight of Grace (76)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck28's End step
+Phase: Ai(2)-Gen6_Deck28's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen6_Deck9)
+Phase: Ai(1)-Gen6_Deck9's Untap step
+Phase: Ai(1)-Gen6_Deck9's Upkeep step
+Phase: Ai(1)-Gen6_Deck9's Draw step
+Phase: Ai(1)-Gen6_Deck9's Main phase, precombat
+Land: Ai(1)-Gen6_Deck9 played Plains (29)
+Phase: Ai(1)-Gen6_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck9's End of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Main phase, postcombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen6_Deck9 cast Charming Prince (48)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen6_Deck9 triggered Charming Prince (48)
+Resolve stack: Ai(1)-Gen6_Deck9 scried 2 card(s) to the top of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (48)]
+Phase: Ai(1)-Gen6_Deck9's End step
+Phase: Ai(1)-Gen6_Deck9's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Land: Ai(2)-Gen6_Deck28 played Demolition Field (119)
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 assigned Knight of Grace (76) and Healer's Hawk (117) to attack Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck9 didn't block Healer's Hawk (117).
+Ai(1)-Gen6_Deck9 didn't block Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Damage: Knight of Grace (76) deals 2 combat damage to Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's End of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Main phase, postcombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck28 cast Ajani, Caller of the Pride (74)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen6_Deck28 activated Ajani, Caller of the Pride (74) targeting [Knight of Grace (76)]
+Resolve stack: Ajani, Caller of the Pride (74) - Ai(2)-Gen6_Deck28 puts a +1/+1 counter on Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's End step
+Phase: Ai(2)-Gen6_Deck28's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen6_Deck9)
+Phase: Ai(1)-Gen6_Deck9's Untap step
+Phase: Ai(1)-Gen6_Deck9's Upkeep step
+Phase: Ai(1)-Gen6_Deck9's Draw step
+Phase: Ai(1)-Gen6_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck9 assigned Charming Prince (48) to attack Ajani, Caller of the Pride (74).
+Phase: Ai(1)-Gen6_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck28 didn't block Charming Prince (48).
+Phase: Ai(1)-Gen6_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck9's End of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen6_Deck9 played Uncharted Haven (45)
+Phase: Ai(1)-Gen6_Deck9's End step
+Phase: Ai(1)-Gen6_Deck9's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck28 activated Demolition Field (119) targeting [Uncharted Haven (45)]
+Resolve stack: Demolition Field (119) - Destroy Uncharted Haven (45). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen6_Deck28 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Land: Ai(2)-Gen6_Deck28 played Plains (80)
+Add to stack: Ai(2)-Gen6_Deck28 activated Ajani, Caller of the Pride (74) targeting [Knight of Grace (76)]
+Resolve stack: Ajani, Caller of the Pride (74) - Ai(2)-Gen6_Deck28 puts a +1/+1 counter on Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 assigned Knight of Grace (76) and Healer's Hawk (117) to attack Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck9 didn't block Healer's Hawk (117).
+Ai(1)-Gen6_Deck9 didn't block Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Damage: Knight of Grace (76) deals 4 combat damage to Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's End of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck28's End step
+Phase: Ai(2)-Gen6_Deck28's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen6_Deck9)
+Phase: Ai(1)-Gen6_Deck9's Untap step
+Phase: Ai(1)-Gen6_Deck9's Upkeep step
+Phase: Ai(1)-Gen6_Deck9's Draw step
+Phase: Ai(1)-Gen6_Deck9's Main phase, precombat
+Land: Ai(1)-Gen6_Deck9 played Swamp (13)
+Phase: Ai(1)-Gen6_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck9 assigned Charming Prince (48) to attack Ajani, Caller of the Pride (74).
+Phase: Ai(1)-Gen6_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck28 didn't block Charming Prince (48).
+Phase: Ai(1)-Gen6_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck9's End of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Main phase, postcombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen6_Deck9 cast Ajani, Caller of the Pride (19)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen6_Deck9 activated Ajani, Caller of the Pride (19) targeting [Charming Prince (48)]
+Resolve stack: Ajani, Caller of the Pride (19) - Ai(1)-Gen6_Deck9 puts a +1/+1 counter on Charming Prince (48).
+Phase: Ai(1)-Gen6_Deck9's End step
+Phase: Ai(1)-Gen6_Deck9's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Land: Ai(2)-Gen6_Deck28 played Plains (91)
+Add to stack: Ai(2)-Gen6_Deck28 activated Ajani, Caller of the Pride (74) targeting [Knight of Grace (76)]
+Resolve stack: Ajani, Caller of the Pride (74) - Ai(2)-Gen6_Deck28 puts a +1/+1 counter on Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 assigned Healer's Hawk (117) to attack Ai(1)-Gen6_Deck9.
+Ai(2)-Gen6_Deck28 assigned Knight of Grace (76) to attack Ajani, Caller of the Pride (19).
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck9 didn't block Healer's Hawk (117).
+Ai(1)-Gen6_Deck9 didn't block Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's End of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Main phase, postcombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck28 cast Exemplar of Light (109)
+Resolve stack: Exemplar of Light - Creature 3 / 3
+Phase: Ai(2)-Gen6_Deck28's End step
+Phase: Ai(2)-Gen6_Deck28's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen6_Deck9)
+Phase: Ai(1)-Gen6_Deck9's Untap step
+Phase: Ai(1)-Gen6_Deck9's Upkeep step
+Phase: Ai(1)-Gen6_Deck9's Draw step
+Phase: Ai(1)-Gen6_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck9's End of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen6_Deck9 played Uncharted Haven (46)
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen6_Deck9 cast Ajani, Caller of the Pride (20)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen6_Deck9 activated Ajani, Caller of the Pride (20) targeting [Charming Prince (48)]
+Resolve stack: Ajani, Caller of the Pride (20) - Ai(1)-Gen6_Deck9 puts a +1/+1 counter on Charming Prince (48).
+Phase: Ai(1)-Gen6_Deck9's End step
+Phase: Ai(1)-Gen6_Deck9's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Add to stack: Ai(2)-Gen6_Deck28 activated Ajani, Caller of the Pride (74) targeting [Knight of Grace (76)]
+Resolve stack: Ajani, Caller of the Pride (74) - Ai(2)-Gen6_Deck28 puts a +1/+1 counter on Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 assigned Knight of Grace (76), Exemplar of Light (109) and Healer's Hawk (117) to attack Ajani, Caller of the Pride (20).
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck9 didn't block Healer's Hawk (117).
+Ai(1)-Gen6_Deck9 didn't block Knight of Grace (76).
+Ai(1)-Gen6_Deck9 didn't block Exemplar of Light (109).
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck28's End of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Main phase, postcombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck28 cast Charming Prince (97)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen6_Deck28 triggered Charming Prince (97)
+Resolve stack: Ai(2)-Gen6_Deck28 scried 1 card(s) to the top of the library and 1 card(s) to the bottom of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (97)]
+Phase: Ai(2)-Gen6_Deck28's End step
+Phase: Ai(2)-Gen6_Deck28's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen6_Deck9)
+Phase: Ai(1)-Gen6_Deck9's Untap step
+Phase: Ai(1)-Gen6_Deck9's Upkeep step
+Phase: Ai(1)-Gen6_Deck9's Draw step
+Phase: Ai(1)-Gen6_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck9's End of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Main phase, postcombat
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck9 cast Scrawling Crawler (59)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Phase: Ai(1)-Gen6_Deck9's End step
+Phase: Ai(1)-Gen6_Deck9's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Add to stack: Ai(1)-Gen6_Deck9 triggered Scrawling Crawler (59)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen6_Deck28]
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Add to stack: Ai(2)-Gen6_Deck28 activated Ajani, Caller of the Pride (74) targeting [Knight of Grace (76)]
+Resolve stack: Ajani, Caller of the Pride (74) - Ai(2)-Gen6_Deck28 puts a +1/+1 counter on Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 assigned Knight of Grace (76), Exemplar of Light (109) and Healer's Hawk (117) to attack Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck9 didn't block Healer's Hawk (117).
+Ai(1)-Gen6_Deck9 assigned Scrawling Crawler (59) to block Knight of Grace (76).
+Ai(1)-Gen6_Deck9 didn't block Exemplar of Light (109).
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Damage: Knight of Grace (76) deals 7 damage () to Scrawling Crawler (59).
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Damage: Exemplar of Light (109) deals 3 combat damage to Ai(1)-Gen6_Deck9.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen6_Deck9.
+Add to stack: Ai(2)-Gen6_Deck28 triggered Exemplar of Light (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen6_Deck28, Gained Amount: 1]
+Add to stack: Ai(2)-Gen6_Deck28 triggered Exemplar of Light (109)
+Resolve stack: Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn. [Added once: Exemplar of Light (109) Amount: 1]
+Phase: Ai(2)-Gen6_Deck28's End of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck28's End step
+Phase: Ai(2)-Gen6_Deck28's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen6_Deck9)
+Phase: Ai(1)-Gen6_Deck9's Untap step
+Phase: Ai(1)-Gen6_Deck9's Upkeep step
+Phase: Ai(1)-Gen6_Deck9's Draw step
+Phase: Ai(1)-Gen6_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck9's End of Combat Step
+Phase: Ai(1)-Gen6_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck9's End step
+Phase: Ai(1)-Gen6_Deck9's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen6_Deck28)
+Phase: Ai(2)-Gen6_Deck28's Untap step
+Phase: Ai(2)-Gen6_Deck28's Upkeep step
+Phase: Ai(2)-Gen6_Deck28's Draw step
+Phase: Ai(2)-Gen6_Deck28's Main phase, precombat
+Add to stack: Ai(2)-Gen6_Deck28 activated Ajani, Caller of the Pride (74) targeting [Knight of Grace (76)]
+Resolve stack: Ajani, Caller of the Pride (74) - Ai(2)-Gen6_Deck28 puts a +1/+1 counter on Knight of Grace (76).
+Phase: Ai(2)-Gen6_Deck28's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck28's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck28 assigned Knight of Grace (76), Exemplar of Light (109), Charming Prince (97) and Healer's Hawk (117) to attack Ai(1)-Gen6_Deck9.
+Phase: Ai(2)-Gen6_Deck28's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck9 didn't block Charming Prince (97).
+Ai(1)-Gen6_Deck9 didn't block Healer's Hawk (117).
+Ai(1)-Gen6_Deck9 assigned Charming Prince (48) to block Knight of Grace (76).
+Ai(1)-Gen6_Deck9 didn't block Exemplar of Light (109).
+Phase: Ai(2)-Gen6_Deck28's First Strike Damage Step
+Damage: Knight of Grace (76) deals 8 damage () to Charming Prince (48).
+Phase: Ai(2)-Gen6_Deck28's Combat Damage Step
+Damage: Exemplar of Light (109) deals 4 combat damage to Ai(1)-Gen6_Deck9.
+Damage: Charming Prince (97) deals 2 combat damage to Ai(1)-Gen6_Deck9.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen6_Deck9.
+Player control: Ai(1)-Gen6_Deck9 is controlled by Ai(1)-Gen6_Deck9
+Player control: Ai(2)-Gen6_Deck28 is controlled by Ai(2)-Gen6_Deck28
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen6_Deck9 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck28 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck9: 0 Ai(2)-Gen6_Deck28: 1 
+
+Game Result: Game 1 ended in 21400 ms. Ai(2)-Gen6_Deck28 has won!
+
+
+=== STDERR ===

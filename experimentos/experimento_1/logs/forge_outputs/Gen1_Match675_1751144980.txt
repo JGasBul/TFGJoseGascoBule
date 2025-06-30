@@ -1,0 +1,428 @@
+=== COMBATE PARALELO: Gen1_Deck15 vs Gen1_Deck23 ===
+Worker ID: 2031308
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck15 Gen1_Deck23 -n 1
+Duración: 47.97 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3014 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 124 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck15 vs Ai(2)-Gen1_Deck23 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck15 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen1_Deck15 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen1_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Plains (36)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Swamp (104)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen1_Deck15 played Tranquil Cove (11)
+Add to stack: Ai(1)-Gen1_Deck15 triggered Tranquil Cove (11)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (11)]
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Soulstone Sanctuary (87)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Gleaming Barrier (91)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (20)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Tranquil Cove (11) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Cat Collector (15)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen1_Deck15 triggered Cat Collector (15)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (15)]
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Cryptic Caves (62)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Giada, Font of Hope (59)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Cryptic Caves (63)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Cat Collector (15) and Giada, Font of Hope (59) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Giada, Font of Hope (59).
+Ai(2)-Gen1_Deck23 assigned Gleaming Barrier (91) to block Cat Collector (15).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Cat Collector (15) deals 3 damage () to Gleaming Barrier (91).
+Damage: Giada, Font of Hope (59) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Knight of Grace (29)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Swamp (98)
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck23 activated Soulstone Sanctuary (87)
+Resolve stack: Soulstone Sanctuary (87) - Soulstone Sanctuary (87) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Soulstone Sanctuary (87) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 didn't block Soulstone Sanctuary (87).
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Damage: Soulstone Sanctuary (87) deals 3 combat damage to Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Island (44)
+Mana: Island (44) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Witness Protection (8) targeting [Soulstone Sanctuary (87)]
+Resolve stack: Witness Protection (8) -  Attach to Legitimate Businessperson (87)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Giada, Font of Hope (59) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Giada, Font of Hope (59) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Tranquil Cove (11) - {T}: Add {W} or {U}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Mystic Archaeologist (3)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Swamp (97)
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck23 activated Cryptic Caves (62)
+Resolve stack: Cryptic Caves (62) - Ai(2)-Gen1_Deck23 draws a card.
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Island (48)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Giada, Font of Hope (59) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Giada, Font of Hope (59) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Mystic Archaeologist (5)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Swamp (105)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck23 activated Cryptic Caves (63)
+Resolve stack: Cryptic Caves (63) - Ai(2)-Gen1_Deck23 draws a card.
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Giada, Font of Hope (59) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Giada, Font of Hope (59) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Tranquil Cove (11) - {T}: Add {W} or {U}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Ajani, Caller of the Pride (25)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen1_Deck15 activated Ajani, Caller of the Pride (25) targeting [Giada, Font of Hope (59)]
+Resolve stack: Ajani, Caller of the Pride (25) - Ai(1)-Gen1_Deck15 puts a +1/+1 counter on Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Swamp (95)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Discard: Ai(2)-Gen1_Deck23 discards Swamp (100).
+Turn: Turn 17 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck15 played Secluded Courtyard (30)
+Add to stack: Ai(1)-Gen1_Deck15 activated Ajani, Caller of the Pride (25) targeting [Giada, Font of Hope (59)]
+Resolve stack: Ajani, Caller of the Pride (25) - Ai(1)-Gen1_Deck15 puts a +1/+1 counter on Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Cat Collector (15), Knight of Grace (29), Mystic Archaeologist (3), Mystic Archaeologist (5) and Giada, Font of Hope (59) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Mystic Archaeologist (3).
+Ai(2)-Gen1_Deck23 didn't block Mystic Archaeologist (5).
+Ai(2)-Gen1_Deck23 didn't block Giada, Font of Hope (59).
+Ai(2)-Gen1_Deck23 assigned Legitimate Businessperson (87) to block Knight of Grace (29).
+Ai(2)-Gen1_Deck23 assigned Gleaming Barrier (91) to block Cat Collector (15).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Damage: Knight of Grace (29) deals 2 damage () to Legitimate Businessperson (87).
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Cat Collector (15) deals 3 damage () to Gleaming Barrier (91).
+Damage: Mystic Archaeologist (3) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Damage: Mystic Archaeologist (5) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Damage: Giada, Font of Hope (59) deals 4 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Swamp (93)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Tranquil Cove (11) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck15 activated Mystic Archaeologist (3)
+Resolve stack: Mystic Archaeologist (3) - Ai(1)-Gen1_Deck15 draws two cards.
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck15 played Secluded Courtyard (31)
+Add to stack: Ai(1)-Gen1_Deck15 activated Ajani, Caller of the Pride (25) targeting [Giada, Font of Hope (59)]
+Resolve stack: Ajani, Caller of the Pride (25) - Ai(1)-Gen1_Deck15 puts a +1/+1 counter on Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Giada, Font of Hope (59), Cat Collector (15), Knight of Grace (29), Mystic Archaeologist (3) and Mystic Archaeologist (5) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Mystic Archaeologist (3).
+Ai(2)-Gen1_Deck23 didn't block Mystic Archaeologist (5).
+Ai(2)-Gen1_Deck23 didn't block Giada, Font of Hope (59).
+Ai(2)-Gen1_Deck23 didn't block Knight of Grace (29).
+Ai(2)-Gen1_Deck23 assigned Gleaming Barrier (91) to block Cat Collector (15).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Damage: Knight of Grace (29) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Giada, Font of Hope (59) deals 5 combat damage to Ai(2)-Gen1_Deck23.
+Damage: Cat Collector (15) deals 3 damage () to Gleaming Barrier (91).
+Damage: Mystic Archaeologist (3) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Damage: Mystic Archaeologist (5) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Player control: Ai(1)-Gen1_Deck15 is controlled by Ai(1)-Gen1_Deck15
+Player control: Ai(2)-Gen1_Deck23 is controlled by Ai(2)-Gen1_Deck23
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen1_Deck15 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck23 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck15: 1 Ai(2)-Gen1_Deck23: 0 
+
+Game Result: Game 1 ended in 31267 ms. Ai(1)-Gen1_Deck15 has won!
+
+
+=== STDERR ===

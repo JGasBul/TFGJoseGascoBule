@@ -1,0 +1,344 @@
+=== COMBATE PARALELO: Gen5_Deck21 vs Gen5_Deck23 ===
+Worker ID: 2818999
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck21 Gen5_Deck23 -n 1
+Duración: 36.74 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2833 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 94 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck21 vs Ai(2)-Gen5_Deck23 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck23 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck21 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Land: Ai(2)-Gen5_Deck23 played Crawling Barrens (84)
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen5_Deck21 played Maze's End (1)
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck21's End of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck21's End step
+Phase: Ai(1)-Gen5_Deck21's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Land: Ai(2)-Gen5_Deck23 played Forest (75)
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Land: Ai(1)-Gen5_Deck21 played Swamp (44)
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck21's End of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck21's End step
+Phase: Ai(1)-Gen5_Deck21's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Land: Ai(2)-Gen5_Deck23 played Demolition Field (119)
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Crawling Barrens (84) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck23 activated Demolition Field (119) targeting [Maze's End (1)]
+Resolve stack: Demolition Field (119) - Destroy Maze's End (1). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen5_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Land: Ai(1)-Gen5_Deck21 played Mountain (54)
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck21's End of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck21 cast Diregraf Ghoul (51)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck21's End step
+Phase: Ai(1)-Gen5_Deck21's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Land: Ai(2)-Gen5_Deck23 played Demolition Field (118)
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck23 cast Witness Protection (91) targeting [Diregraf Ghoul (51)]
+Resolve stack: Witness Protection (91) -  Attach to Legitimate Businessperson (51)
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Land: Ai(1)-Gen5_Deck21 played Forest (17)
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 assigned Legitimate Businessperson (51) to attack Ai(2)-Gen5_Deck23.
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck23 didn't block Legitimate Businessperson (51).
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Damage: Legitimate Businessperson (51) deals 1 combat damage to Ai(2)-Gen5_Deck23.
+Phase: Ai(1)-Gen5_Deck21's End of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck21 cast Marauding Blight-Priest (41)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen5_Deck21's End step
+Phase: Ai(1)-Gen5_Deck21's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Crawling Barrens (84) - {T}: Add {C}.
+Mana: Demolition Field (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck23 cast Cackling Prowler (78)
+Resolve stack: Cackling Prowler - Creature 4 / 3
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Land: Ai(1)-Gen5_Deck21 played Swamp (43)
+Mana: Swamp (44) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck21 cast Eaten Alive (5) targeting [Cackling Prowler (78)]
+Add to stack: Ai(2)-Gen5_Deck23 triggered Cackling Prowler (78)
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Resolve stack: Ward {2} (Whenever this permanent becomes the target of a spell or ability an opponent controls, counter it unless that player pays {2}.) [Source: Eaten Alive (5), Target: Cackling Prowler (78)]
+Resolve stack: Eaten Alive (5) - Exile Cackling Prowler (78).
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 assigned Marauding Blight-Priest (41) to attack Ai(2)-Gen5_Deck23.
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck23 didn't block Marauding Blight-Priest (41).
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Damage: Marauding Blight-Priest (41) deals 3 combat damage to Ai(2)-Gen5_Deck23.
+Phase: Ai(1)-Gen5_Deck21's End of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck21's End step
+Phase: Ai(1)-Gen5_Deck21's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 assigned Marauding Blight-Priest (41) to attack Ai(2)-Gen5_Deck23.
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck23 didn't block Marauding Blight-Priest (41).
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Damage: Marauding Blight-Priest (41) deals 3 combat damage to Ai(2)-Gen5_Deck23.
+Phase: Ai(1)-Gen5_Deck21's End of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Swamp (43) - {T}: Add {B}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (17) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen5_Deck21 cast High-Society Hunter (7)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(1)-Gen5_Deck21's End step
+Phase: Ai(1)-Gen5_Deck21's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 assigned High-Society Hunter (7) and Marauding Blight-Priest (41) to attack Ai(2)-Gen5_Deck23.
+Add to stack: Ai(1)-Gen5_Deck21 triggered High-Society Hunter (7)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (7)]
+Add to stack: Ai(1)-Gen5_Deck21 triggered High-Society Hunter (7)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Marauding Blight-Priest (41)]
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck23 didn't block High-Society Hunter (7).
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Damage: High-Society Hunter (7) deals 6 combat damage to Ai(2)-Gen5_Deck23.
+Phase: Ai(1)-Gen5_Deck21's End of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck21 played Swamp (47)
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Swamp (44) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck21 cast Ajani's Pridemate (24)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Mana: Swamp (43) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck21 cast Diregraf Ghoul (49)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck21's End step
+Phase: Ai(1)-Gen5_Deck21's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen5_Deck23)
+Phase: Ai(2)-Gen5_Deck23's Untap step
+Phase: Ai(2)-Gen5_Deck23's Upkeep step
+Phase: Ai(2)-Gen5_Deck23's Draw step
+Phase: Ai(2)-Gen5_Deck23's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen5_Deck23 played Orzhov Guildgate (61)
+Phase: Ai(2)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck23's End of Combat Step
+Phase: Ai(2)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck23's End step
+Phase: Ai(2)-Gen5_Deck23's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen5_Deck21)
+Phase: Ai(1)-Gen5_Deck21's Untap step
+Phase: Ai(1)-Gen5_Deck21's Upkeep step
+Phase: Ai(1)-Gen5_Deck21's Draw step
+Phase: Ai(1)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck21 assigned High-Society Hunter (7), Ajani's Pridemate (24) and Diregraf Ghoul (49) to attack Ai(2)-Gen5_Deck23.
+Add to stack: Ai(1)-Gen5_Deck21 triggered High-Society Hunter (7)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (7)]
+Add to stack: Ai(1)-Gen5_Deck21 triggered High-Society Hunter (7)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Diregraf Ghoul (49)]
+Phase: Ai(1)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck23 didn't block High-Society Hunter (7).
+Ai(2)-Gen5_Deck23 didn't block Ajani's Pridemate (24).
+Phase: Ai(1)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck21's Combat Damage Step
+Damage: High-Society Hunter (7) deals 7 combat damage to Ai(2)-Gen5_Deck23.
+Damage: Ajani's Pridemate (24) deals 2 combat damage to Ai(2)-Gen5_Deck23.
+Player control: Ai(1)-Gen5_Deck21 is controlled by Ai(1)-Gen5_Deck21
+Player control: Ai(2)-Gen5_Deck23 is controlled by Ai(2)-Gen5_Deck23
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen5_Deck21 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck23 has lost because life total reached 0
+Match result: Ai(1)-Gen5_Deck21: 1 Ai(2)-Gen5_Deck23: 0 
+
+Game Result: Game 1 ended in 18906 ms. Ai(1)-Gen5_Deck21 has won!
+
+
+=== STDERR ===

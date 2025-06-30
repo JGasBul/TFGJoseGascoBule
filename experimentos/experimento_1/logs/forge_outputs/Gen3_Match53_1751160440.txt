@@ -1,0 +1,317 @@
+=== COMBATE PARALELO: Gen3_Deck0 vs Gen3_Deck27 ===
+Worker ID: 2418662
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck0 Gen3_Deck27 -n 1
+Duración: 29.29 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2581 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 127 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck0 vs Ai(2)-Gen3_Deck27 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck0 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck0)
+Phase: Ai(1)-Gen3_Deck0's Untap step
+Phase: Ai(1)-Gen3_Deck0's Upkeep step
+Phase: Ai(1)-Gen3_Deck0's Draw step
+Phase: Ai(1)-Gen3_Deck0's Main phase, precombat
+Land: Ai(1)-Gen3_Deck0 played Swamp (20)
+Phase: Ai(1)-Gen3_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck0's End of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck0 cast Diregraf Ghoul (42)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck0's End step
+Phase: Ai(1)-Gen3_Deck0's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck27)
+Phase: Ai(2)-Gen3_Deck27's Untap step
+Phase: Ai(2)-Gen3_Deck27's Upkeep step
+Phase: Ai(2)-Gen3_Deck27's Draw step
+Phase: Ai(2)-Gen3_Deck27's Main phase, precombat
+Land: Ai(2)-Gen3_Deck27 played Swamp (86)
+Phase: Ai(2)-Gen3_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck27's End of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Main phase, postcombat
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck27 cast Diregraf Ghoul (88)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck27's End step
+Phase: Ai(2)-Gen3_Deck27's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck0)
+Phase: Ai(1)-Gen3_Deck0's Untap step
+Phase: Ai(1)-Gen3_Deck0's Upkeep step
+Phase: Ai(1)-Gen3_Deck0's Draw step
+Phase: Ai(1)-Gen3_Deck0's Main phase, precombat
+Land: Ai(1)-Gen3_Deck0 played Soulstone Sanctuary (54)
+Phase: Ai(1)-Gen3_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck0 assigned Diregraf Ghoul (42) to attack Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck27 didn't block Diregraf Ghoul (42).
+Phase: Ai(1)-Gen3_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck0's Combat Damage Step
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's End of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck0 cast Zul Ashur, Lich Lord (39)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck0's End step
+Phase: Ai(1)-Gen3_Deck0's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck27)
+Phase: Ai(2)-Gen3_Deck27's Untap step
+Phase: Ai(2)-Gen3_Deck27's Upkeep step
+Phase: Ai(2)-Gen3_Deck27's Draw step
+Phase: Ai(2)-Gen3_Deck27's Main phase, precombat
+Land: Ai(2)-Gen3_Deck27 played Island (108)
+Phase: Ai(2)-Gen3_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck27's End of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck27's End step
+Phase: Ai(2)-Gen3_Deck27's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck0)
+Phase: Ai(1)-Gen3_Deck0's Untap step
+Phase: Ai(1)-Gen3_Deck0's Upkeep step
+Phase: Ai(1)-Gen3_Deck0's Draw step
+Phase: Ai(1)-Gen3_Deck0's Main phase, precombat
+Land: Ai(1)-Gen3_Deck0 played Demolition Field (59)
+Phase: Ai(1)-Gen3_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck0 assigned Diregraf Ghoul (42) and Zul Ashur, Lich Lord (39) to attack Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck27 assigned Diregraf Ghoul (88) to block Zul Ashur, Lich Lord (39).
+Ai(2)-Gen3_Deck27 didn't block Diregraf Ghoul (42).
+Phase: Ai(1)-Gen3_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck0's Combat Damage Step
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen3_Deck27.
+Damage: Zul Ashur, Lich Lord (39) deals 2 damage () to Diregraf Ghoul (88).
+Damage: Diregraf Ghoul (88) deals 2 damage () to Zul Ashur, Lich Lord (39).
+Phase: Ai(1)-Gen3_Deck0's End of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck0 cast Marauding Blight-Priest (16)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen3_Deck0's End step
+Phase: Ai(1)-Gen3_Deck0's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck27)
+Phase: Ai(2)-Gen3_Deck27's Untap step
+Phase: Ai(2)-Gen3_Deck27's Upkeep step
+Phase: Ai(2)-Gen3_Deck27's Draw step
+Phase: Ai(2)-Gen3_Deck27's Main phase, precombat
+Land: Ai(2)-Gen3_Deck27 played Plains (97)
+Phase: Ai(2)-Gen3_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck27's End of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Main phase, postcombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Island (108) - {T}: Add {U}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck27 cast Seeker's Folly (113)
+Discard: Ai(1)-Gen3_Deck0 discards Evolving Wilds (44).
+Discard: Ai(1)-Gen3_Deck0 discards Burglar Rat (58).
+Resolve stack: Seeker's Folly (113) -  Target opponent discards two cards. (Targeting: Ai(1)-Gen3_Deck0)
+Phase: Ai(2)-Gen3_Deck27's End step
+Phase: Ai(2)-Gen3_Deck27's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck0)
+Phase: Ai(1)-Gen3_Deck0's Untap step
+Phase: Ai(1)-Gen3_Deck0's Upkeep step
+Phase: Ai(1)-Gen3_Deck0's Draw step
+Phase: Ai(1)-Gen3_Deck0's Main phase, precombat
+Land: Ai(1)-Gen3_Deck0 played Swamp (33)
+Phase: Ai(1)-Gen3_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck0 assigned Marauding Blight-Priest (16) and Diregraf Ghoul (42) to attack Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck27 didn't block Marauding Blight-Priest (16).
+Ai(2)-Gen3_Deck27 didn't block Diregraf Ghoul (42).
+Phase: Ai(1)-Gen3_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck0's Combat Damage Step
+Damage: Marauding Blight-Priest (16) deals 3 combat damage to Ai(2)-Gen3_Deck27.
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's End of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck0 cast Midnight Snack (10)
+Resolve stack: Midnight Snack
+Phase: Ai(1)-Gen3_Deck0's End step
+Add to stack: Ai(1)-Gen3_Deck0 triggered Midnight Snack (10)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(1)-Gen3_Deck0]
+Phase: Ai(1)-Gen3_Deck0's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck27)
+Phase: Ai(2)-Gen3_Deck27's Untap step
+Phase: Ai(2)-Gen3_Deck27's Upkeep step
+Phase: Ai(2)-Gen3_Deck27's Draw step
+Phase: Ai(2)-Gen3_Deck27's Main phase, precombat
+Land: Ai(2)-Gen3_Deck27 played Island (110)
+Phase: Ai(2)-Gen3_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck27's End of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Main phase, postcombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck27 cast Ajani's Pridemate (102)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck27's End step
+Phase: Ai(2)-Gen3_Deck27's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck0)
+Phase: Ai(1)-Gen3_Deck0's Untap step
+Phase: Ai(1)-Gen3_Deck0's Upkeep step
+Phase: Ai(1)-Gen3_Deck0's Draw step
+Phase: Ai(1)-Gen3_Deck0's Main phase, precombat
+Land: Ai(1)-Gen3_Deck0 played Swamp (22)
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck0 activated Soulstone Sanctuary (54)
+Resolve stack: Soulstone Sanctuary (54) - Soulstone Sanctuary (54) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen3_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck0 assigned Marauding Blight-Priest (16), Diregraf Ghoul (42) and Soulstone Sanctuary (54) to attack Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck27 assigned Ajani's Pridemate (102) to block Marauding Blight-Priest (16).
+Ai(2)-Gen3_Deck27 didn't block Soulstone Sanctuary (54).
+Ai(2)-Gen3_Deck27 didn't block Diregraf Ghoul (42).
+Phase: Ai(1)-Gen3_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck0's Combat Damage Step
+Damage: Marauding Blight-Priest (16) deals 3 damage () to Ajani's Pridemate (102).
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen3_Deck27.
+Damage: Soulstone Sanctuary (54) deals 3 combat damage to Ai(2)-Gen3_Deck27.
+Damage: Ajani's Pridemate (102) deals 2 damage () to Marauding Blight-Priest (16).
+Phase: Ai(1)-Gen3_Deck0's End of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck0's End step
+Add to stack: Ai(1)-Gen3_Deck0 triggered Midnight Snack (10)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(1)-Gen3_Deck0]
+Phase: Ai(1)-Gen3_Deck0's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck27)
+Phase: Ai(2)-Gen3_Deck27's Untap step
+Phase: Ai(2)-Gen3_Deck27's Upkeep step
+Phase: Ai(2)-Gen3_Deck27's Draw step
+Phase: Ai(2)-Gen3_Deck27's Main phase, precombat
+Land: Ai(2)-Gen3_Deck27 played Swamp (72)
+Phase: Ai(2)-Gen3_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck27's End of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck27's End step
+Phase: Ai(2)-Gen3_Deck27's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck0)
+Phase: Ai(1)-Gen3_Deck0's Untap step
+Phase: Ai(1)-Gen3_Deck0's Upkeep step
+Phase: Ai(1)-Gen3_Deck0's Draw step
+Phase: Ai(1)-Gen3_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck0 assigned Soulstone Sanctuary (54) and Diregraf Ghoul (42) to attack Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck27 didn't block Soulstone Sanctuary (54).
+Ai(2)-Gen3_Deck27 didn't block Diregraf Ghoul (42).
+Phase: Ai(1)-Gen3_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck0's Combat Damage Step
+Damage: Soulstone Sanctuary (54) deals 3 combat damage to Ai(2)-Gen3_Deck27.
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's End of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck0 cast Marauding Blight-Priest (15)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen3_Deck0's End step
+Add to stack: Ai(1)-Gen3_Deck0 triggered Midnight Snack (10)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(1)-Gen3_Deck0]
+Phase: Ai(1)-Gen3_Deck0's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck27)
+Phase: Ai(2)-Gen3_Deck27's Untap step
+Phase: Ai(2)-Gen3_Deck27's Upkeep step
+Phase: Ai(2)-Gen3_Deck27's Draw step
+Phase: Ai(2)-Gen3_Deck27's Main phase, precombat
+Land: Ai(2)-Gen3_Deck27 played Plains (95)
+Phase: Ai(2)-Gen3_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck27's End of Combat Step
+Phase: Ai(2)-Gen3_Deck27's Main phase, postcombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Island (108) - {T}: Add {U}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Island (110) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck27 cast Eaten Alive (63) targeting [Soulstone Sanctuary (54)]
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Resolve stack: Eaten Alive (63) - Exile Soulstone Sanctuary (54).
+Phase: Ai(2)-Gen3_Deck27's End step
+Phase: Ai(2)-Gen3_Deck27's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck0)
+Phase: Ai(1)-Gen3_Deck0's Untap step
+Phase: Ai(1)-Gen3_Deck0's Upkeep step
+Phase: Ai(1)-Gen3_Deck0's Draw step
+Phase: Ai(1)-Gen3_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck0 assigned Marauding Blight-Priest (15) and Diregraf Ghoul (42) to attack Ai(2)-Gen3_Deck27.
+Phase: Ai(1)-Gen3_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck27 didn't block Diregraf Ghoul (42).
+Ai(2)-Gen3_Deck27 didn't block Marauding Blight-Priest (15).
+Phase: Ai(1)-Gen3_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck0's Combat Damage Step
+Damage: Marauding Blight-Priest (15) deals 3 combat damage to Ai(2)-Gen3_Deck27.
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen3_Deck27.
+Player control: Ai(1)-Gen3_Deck0 is controlled by Ai(1)-Gen3_Deck0
+Player control: Ai(2)-Gen3_Deck27 is controlled by Ai(2)-Gen3_Deck27
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen3_Deck0 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck27 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck0: 1 Ai(2)-Gen3_Deck27: 0 
+
+Game Result: Game 1 ended in 15497 ms. Ai(1)-Gen3_Deck0 has won!
+
+
+=== STDERR ===

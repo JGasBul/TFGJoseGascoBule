@@ -1,0 +1,408 @@
+=== COMBATE PARALELO: Gen0_Deck9 vs Gen0_Deck23 ===
+Worker ID: 1832526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck9 Gen0_Deck23 -n 1
+Duración: 46.62 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3208 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 103 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck9 vs Ai(2)-Gen0_Deck23 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck23 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck9 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (73)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (73) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Bushwhack (115)
+Resolve stack: Bushwhack (115) -  Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Land: Ai(1)-Gen0_Deck9 played Mountain (52)
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck9's End step
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Swamp (95)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Forest (73) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Vampire Gourmand (89)
+Resolve stack: Vampire Gourmand - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Land: Ai(1)-Gen0_Deck9 played Plains (25)
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck9 cast Slumbering Cerberus (39)
+Resolve stack: Slumbering Cerberus - Creature 4 / 2
+Phase: Ai(1)-Gen0_Deck9's End step
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Mountain (117)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Forest (73) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Knight of Malice (81)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck9 played Secluded Courtyard (23)
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck9's End step
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Replacement Effect: Jungle Hollow enters tapped.
+Land: Ai(2)-Gen0_Deck23 played Jungle Hollow (104)
+Add to stack: Ai(2)-Gen0_Deck23 triggered Jungle Hollow (104)
+Resolve stack: When Jungle Hollow enters, you gain 1 life. [Zone Changer: Jungle Hollow (104)]
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Land: Ai(1)-Gen0_Deck9 played Plains (28)
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck9's End step
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (76)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Forest (76) - {T}: Add {G}.
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Jungle Hollow (104) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Heroes' Bane (109)
+Replacement Effect: Heroes' Bane enters with four +1/+1 counters on it.
+Resolve stack: Heroes' Bane - Creature 0 / 0
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Land: Ai(1)-Gen0_Deck9 played Mountain (53)
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck9 cast Ghitu Lavarunner (32)
+Resolve stack: Ghitu Lavarunner - Creature 1 / 2
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck9's End step
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Swamp (94)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Vampire Gourmand (89) and Heroes' Bane (109) to attack Ai(1)-Gen0_Deck9.
+Add to stack: Ai(2)-Gen0_Deck23 triggered Vampire Gourmand (89)
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck9 cast Deadly Riposte (49) targeting [Vampire Gourmand (89)]
+Damage: Deadly Riposte (49) deals 3 damage () to Vampire Gourmand (89).
+Resolve stack: Deadly Riposte (49) - Deadly Riposte (49) deals 3 damage to Vampire Gourmand (89). Ai(1)-Gen0_Deck9 gains 2 life.
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn. [Attacker: Vampire Gourmand (89)]
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck9 didn't block Heroes' Bane (109).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (109) deals 4 combat damage to Ai(1)-Gen0_Deck9.
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Forest (76) - {T}: Add {G}.
+Mana: Jungle Hollow (104) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Predator Ooze (92)
+Resolve stack: Predator Ooze - Creature 1 / 1
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (94) - {T}: Add {B}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Abyssal Harvester (80)
+Resolve stack: Abyssal Harvester - Creature 3 / 2
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(1)-Gen0_Deck9 triggered Slumbering Cerberus (39)
+Resolve stack: Morbid — At the beginning of each end step, if a creature died this turn, untap this creature. [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Land: Ai(1)-Gen0_Deck9 played Mountain (55)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck9 cast Ball Lightning (7)
+Resolve stack: Ball Lightning - Creature 6 / 1
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 assigned Ball Lightning (7) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Predator Ooze (92) to block Ball Lightning (7).
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Damage: Ball Lightning (7) deals 5 combat damage to Ai(2)-Gen0_Deck23.
+Damage: Ball Lightning (7) deals 1 damage () to Predator Ooze (92).
+Damage: Predator Ooze (92) deals 1 damage () to Ball Lightning (7).
+Add to stack: Ai(2)-Gen0_Deck23 triggered Predator Ooze (92)
+Resolve stack: Whenever a creature dealt damage by Predator Ooze this turn dies, put a +1/+1 counter on Predator Ooze. [Zone Changer: Ball Lightning (7)]
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck9's End step
+Add to stack: Ai(1)-Gen0_Deck9 triggered Slumbering Cerberus (39)
+Resolve stack: Morbid — At the beginning of each end step, if a creature died this turn, untap this creature. [Phase: Ai(1)-Gen0_Deck9]
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Swamp (97)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (109), Abyssal Harvester (80) and Knight of Malice (81) to attack Ai(1)-Gen0_Deck9.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck9 assigned Slumbering Cerberus (39) to block Abyssal Harvester (80).
+Ai(1)-Gen0_Deck9 didn't block Knight of Malice (81).
+Ai(1)-Gen0_Deck9 didn't block Heroes' Bane (109).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (81) deals 2 combat damage to Ai(1)-Gen0_Deck9.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (109) deals 4 combat damage to Ai(1)-Gen0_Deck9.
+Damage: Abyssal Harvester (80) deals 3 damage () to Slumbering Cerberus (39).
+Damage: Slumbering Cerberus (39) deals 4 damage () to Abyssal Harvester (80).
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Land: Ai(1)-Gen0_Deck9 played Cryptic Caves (1)
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck9 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen0_Deck9 draws a card.
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck9's End step
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Forest (76) - {T}: Add {G}.
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (109)
+Resolve stack: Heroes' Bane (109) - Ai(2)-Gen0_Deck23 puts eight +1/+1 counters on Heroes' Bane (109).
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Predator Ooze (92), Heroes' Bane (109) and Knight of Malice (81) to attack Ai(1)-Gen0_Deck9.
+Add to stack: Ai(2)-Gen0_Deck23 triggered Predator Ooze (92)
+Resolve stack: Whenever Predator Ooze attacks, put a +1/+1 counter on it. [Attacker: Predator Ooze (92)]
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck9 didn't block Knight of Malice (81).
+Ai(1)-Gen0_Deck9 didn't block Predator Ooze (92).
+Ai(1)-Gen0_Deck9 assigned Ghitu Lavarunner (32) to block Heroes' Bane (109).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Damage: Knight of Malice (81) deals 2 combat damage to Ai(1)-Gen0_Deck9.
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Predator Ooze (92) deals 3 combat damage to Ai(1)-Gen0_Deck9.
+Damage: Heroes' Bane (109) deals 8 damage () to Ghitu Lavarunner (32).
+Damage: Ghitu Lavarunner (32) deals 1 damage () to Heroes' Bane (109).
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (94) - {T}: Add {B}.
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Revenge of the Rats (112)
+Resolve stack: Revenge of the Rats (112) - Ai(2)-Gen0_Deck23 creates two tapped 1/1 black Rat creature tokens.
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck9)
+Phase: Ai(1)-Gen0_Deck9's Untap step
+Phase: Ai(1)-Gen0_Deck9's Upkeep step
+Phase: Ai(1)-Gen0_Deck9's Draw step
+Phase: Ai(1)-Gen0_Deck9's Main phase, precombat
+Land: Ai(1)-Gen0_Deck9 played Plains (31)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck9 cast Slagstorm (47)
+Damage: Slagstorm (47) deals 3 damage () to Knight of Malice (81).
+Damage: Slagstorm (47) deals 3 damage () to Heroes' Bane (109).
+Damage: Slagstorm (47) deals 3 damage () to Predator Ooze (92).
+Damage: Slagstorm (47) deals 3 damage () to Rat Token (125).
+Damage: Slagstorm (47) deals 3 damage () to Rat Token (126).
+Resolve stack: Slagstorm (47) -  Slagstorm deals 3 damage to each creature.
+Phase: Ai(1)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck9's End of Combat Step
+Phase: Ai(1)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck9's End step
+Phase: Ai(1)-Gen0_Deck9's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (109) and Predator Ooze (92) to attack Ai(1)-Gen0_Deck9.
+Add to stack: Ai(2)-Gen0_Deck23 triggered Predator Ooze (92)
+Resolve stack: Whenever Predator Ooze attacks, put a +1/+1 counter on it. [Attacker: Predator Ooze (92)]
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck9 didn't block Predator Ooze (92).
+Ai(1)-Gen0_Deck9 didn't block Heroes' Bane (109).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (109) deals 8 combat damage to Ai(1)-Gen0_Deck9.
+Damage: Predator Ooze (92) deals 4 combat damage to Ai(1)-Gen0_Deck9.
+Player control: Ai(1)-Gen0_Deck9 is controlled by Ai(1)-Gen0_Deck9
+Player control: Ai(2)-Gen0_Deck23 is controlled by Ai(2)-Gen0_Deck23
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck9 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck23 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck9: 0 Ai(2)-Gen0_Deck23: 1 
+
+Game Result: Game 1 ended in 28493 ms. Ai(2)-Gen0_Deck23 has won!
+
+
+=== STDERR ===

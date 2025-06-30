@@ -1,0 +1,457 @@
+=== COMBATE PARALELO: Gen4_Deck12 vs Gen4_Deck25 ===
+Worker ID: 2621219
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck12 Gen4_Deck25 -n 1
+Duración: 54.78 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2475 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 102 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck12 vs Ai(2)-Gen4_Deck25 - one game of Constructed
+Mulligan: Ai(1)-Gen4_Deck12 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen4_Deck25 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Plains (28)
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Rogue's Passage (62)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen4_Deck12 played Secluded Courtyard (22)
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Mana: Secluded Courtyard (22) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck12 cast Mystic Archaeologist (7)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Plains (92)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Rogue's Passage (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Mazemind Tome (110)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Add to stack: Ai(2)-Gen4_Deck25 activated Mazemind Tome (110)
+Resolve stack: Ai(2)-Gen4_Deck25 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen4_Deck25 scries 1.
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Island (38)
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 assigned Mystic Archaeologist (7) to attack Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (7).
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Damage: Mystic Archaeologist (7) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Mana: Island (38) - {T}: Add {U}.
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck12 cast Mystic Archaeologist (5)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Add to stack: Ai(2)-Gen4_Deck25 activated Mazemind Tome (110)
+Resolve stack: Ai(2)-Gen4_Deck25 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen4_Deck25 scries 1.
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Swamp (72)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Rogue's Passage (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Burnished Hart (82)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Cryptic Caves (3)
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 assigned Mystic Archaeologist (7) and Mystic Archaeologist (5) to attack Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (5).
+Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (7).
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Damage: Mystic Archaeologist (7) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Mystic Archaeologist (5) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Mana: Secluded Courtyard (22) - {T}: Add {C}.
+Mana: Cryptic Caves (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck12 cast Release the Dogs (46)
+Resolve stack: Release the Dogs (46) - Ai(1)-Gen4_Deck12 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Plains (89)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Burnished Hart (82) to attack Ai(1)-Gen4_Deck12.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck12 didn't block Burnished Hart (82).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Burnished Hart (82) deals 2 combat damage to Ai(1)-Gen4_Deck12.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Rogue's Passage (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Squad Rallier (77)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Cryptic Caves (1)
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck12 activated Cryptic Caves (3)
+Resolve stack: Cryptic Caves (3) - Ai(1)-Gen4_Deck12 draws a card.
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Add to stack: Ai(2)-Gen4_Deck25 activated Mazemind Tome (110)
+Resolve stack: Ai(2)-Gen4_Deck25 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen4_Deck25 scries 1.
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Mana: Secluded Courtyard (22) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck12 cast Knight of Grace (21)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Add to stack: Ai(2)-Gen4_Deck25 activated Mazemind Tome (110)
+Add to stack: Ai(2)-Gen4_Deck25 triggered Mazemind Tome (110)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen4_Deck25 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen4_Deck25 scries 1.
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Plains (91)
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Rogue's Passage (62) targeting [Squad Rallier (77)]
+Resolve stack: Rogue's Passage (62) - Squad Rallier (77) can't be blocked this turn.
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Squad Rallier (77) to attack Ai(1)-Gen4_Deck12.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck12 didn't block Squad Rallier (77).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Squad Rallier (77) deals 3 combat damage to Ai(1)-Gen4_Deck12.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Plains (31)
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck12 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen4_Deck12 draws a card.
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 assigned Mystic Archaeologist (7), Mystic Archaeologist (5) and Knight of Grace (21) to attack Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (5).
+Ai(2)-Gen4_Deck25 didn't block Knight of Grace (21).
+Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (7).
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Damage: Knight of Grace (21) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Damage: Mystic Archaeologist (7) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Mystic Archaeologist (5) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Rogue's Passage (62) targeting [Squad Rallier (77)]
+Resolve stack: Rogue's Passage (62) - Squad Rallier (77) can't be blocked this turn.
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Plains (88)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Squad Rallier (77) and Burnished Hart (82) to attack Ai(1)-Gen4_Deck12.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck12 didn't block Burnished Hart (82).
+Ai(1)-Gen4_Deck12 didn't block Squad Rallier (77).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Squad Rallier (77) deals 3 combat damage to Ai(1)-Gen4_Deck12.
+Damage: Burnished Hart (82) deals 2 combat damage to Ai(1)-Gen4_Deck12.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Healer's Hawk (119)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Plains (30)
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 assigned Knight of Grace (21), Dog Token (125), Dog Token (126), Dog Token (127) and Dog Token (128) to attack Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Dog Token (128).
+Ai(2)-Gen4_Deck25 didn't block Knight of Grace (21).
+Ai(2)-Gen4_Deck25 didn't block Dog Token (125).
+Ai(2)-Gen4_Deck25 didn't block Dog Token (126).
+Ai(2)-Gen4_Deck25 didn't block Dog Token (127).
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Damage: Knight of Grace (21) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Damage: Dog Token (125) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Dog Token (126) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Dog Token (127) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Rogue's Passage (62) targeting [Squad Rallier (77)]
+Resolve stack: Rogue's Passage (62) - Squad Rallier (77) can't be blocked this turn.
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Plains (101)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck25's End step
+Mana: Island (38) - {T}: Add {U}.
+Mana: Secluded Courtyard (22) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck12 activated Mystic Archaeologist (7)
+Resolve stack: Mystic Archaeologist (7) - Ai(1)-Gen4_Deck12 draws two cards.
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Plains (25)
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck12's End of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Main phase, postcombat
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck12 cast Cat Collector (14)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen4_Deck12 triggered Cat Collector (14)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (14)]
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Secluded Courtyard (22) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck12 cast Giada, Font of Hope (58)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck12's End step
+Phase: Ai(1)-Gen4_Deck12's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Rogue's Passage (62) targeting [Squad Rallier (77)]
+Resolve stack: Rogue's Passage (62) - Squad Rallier (77) can't be blocked this turn.
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Swamp (73)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen4_Deck12)
+Phase: Ai(1)-Gen4_Deck12's Untap step
+Phase: Ai(1)-Gen4_Deck12's Upkeep step
+Phase: Ai(1)-Gen4_Deck12's Draw step
+Phase: Ai(1)-Gen4_Deck12's Main phase, precombat
+Land: Ai(1)-Gen4_Deck12 played Mountain (52)
+Phase: Ai(1)-Gen4_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck12 assigned Cat Collector (14), Mystic Archaeologist (7), Mystic Archaeologist (5), Knight of Grace (21), Giada, Font of Hope (58), Dog Token (125), Dog Token (126), Dog Token (127) and Dog Token (128) to attack Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Dog Token (128).
+Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (5).
+Ai(2)-Gen4_Deck25 assigned Burnished Hart (82) to block Knight of Grace (21).
+Ai(2)-Gen4_Deck25 assigned Squad Rallier (77) to block Mystic Archaeologist (7).
+Ai(2)-Gen4_Deck25 didn't block Giada, Font of Hope (58).
+Ai(2)-Gen4_Deck25 didn't block Dog Token (125).
+Ai(2)-Gen4_Deck25 assigned Healer's Hawk (119) to block Cat Collector (14).
+Ai(2)-Gen4_Deck25 didn't block Dog Token (126).
+Ai(2)-Gen4_Deck25 didn't block Dog Token (127).
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck12 cast Moment of Triumph (19) targeting [Giada, Font of Hope (58)]
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Burnished Hart (82)
+Resolve stack: Burnished Hart (82) - Ai(2)-Gen4_Deck25 searches their library for two Land.Basic cards, puts them onto the battlefield tapped, then shuffles.
+Resolve stack: Moment of Triumph (19) - Giada, Font of Hope (58) gets +2/+2  until end of turn. Ai(1)-Gen4_Deck12 gains 2 life.
+Add to stack: Ai(1)-Gen4_Deck12 triggered Cat Collector (14)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen4_Deck12, Gained Amount: 2]
+Phase: Ai(1)-Gen4_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck12's Combat Damage Step
+Damage: Cat Collector (14) deals 3 damage () to Healer's Hawk (119).
+Damage: Mystic Archaeologist (7) deals 2 damage () to Squad Rallier (77).
+Damage: Mystic Archaeologist (5) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Giada, Font of Hope (58) deals 4 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Dog Token (125) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Dog Token (126) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Dog Token (127) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen4_Deck25.
+Damage: Healer's Hawk (119) deals 1 damage () to Cat Collector (14).
+Damage: Squad Rallier (77) deals 3 damage () to Mystic Archaeologist (7).
+Player control: Ai(1)-Gen4_Deck12 is controlled by Ai(1)-Gen4_Deck12
+Player control: Ai(2)-Gen4_Deck25 is controlled by Ai(2)-Gen4_Deck25
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen4_Deck12 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck25 has lost because life total reached 0
+Match result: Ai(1)-Gen4_Deck12: 1 Ai(2)-Gen4_Deck25: 0 
+
+Game Result: Game 1 ended in 40775 ms. Ai(1)-Gen4_Deck12 has won!
+
+
+=== STDERR ===

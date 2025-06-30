@@ -1,0 +1,427 @@
+=== COMBATE PARALELO: Gen2_Deck0 vs Gen2_Deck5 ===
+Worker ID: 2227705
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck0 Gen2_Deck5 -n 1
+Duración: 49.60 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2892 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 154 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck0 vs Ai(2)-Gen2_Deck5 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck5 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck0 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen2_Deck5 played Tranquil Cove (72)
+Add to stack: Ai(2)-Gen2_Deck5 triggered Tranquil Cove (72)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (72)]
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Land: Ai(1)-Gen2_Deck0 played Swamp (20)
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck0 cast Diregraf Ghoul (41)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Land: Ai(2)-Gen2_Deck5 played Swamp (84)
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Tranquil Cove (72) - {T}: Add {W} or {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Giada, Font of Hope (118)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen2_Deck0 played Uncharted Haven (45)
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen2_Deck5 played Secluded Courtyard (91)
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck0 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Tranquil Cove (72) - {T}: Add {W} or {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Ajani's Pridemate (102)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen2_Deck0 played Uncharted Haven (46)
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Uncharted Haven (45) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen2_Deck0 cast Zul Ashur, Lich Lord (36)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Land: Ai(2)-Gen2_Deck5 played Island (106)
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck0 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Fog Bank (73)
+Resolve stack: Fog Bank - Creature 0 / 2
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Land: Ai(1)-Gen2_Deck0 played Swamp (22)
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck0 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck5 played Plains (95)
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Land: Ai(1)-Gen2_Deck0 played Soulstone Sanctuary (54)
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Uncharted Haven (45) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck0 cast High-Society Hunter (6)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Land: Ai(2)-Gen2_Deck5 played Island (105)
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Tranquil Cove (72) - {T}: Add {W} or {U}.
+Mana: Secluded Courtyard (91) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Self-Reflection (117) targeting [Ajani's Pridemate (102)]
+Resolve stack: Self-Reflection (117) - Ai(2)-Gen2_Deck5 creates a token that's a copy of Ajani's Pridemate (102).
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Uncharted Haven (45) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck0 activated Soulstone Sanctuary (54)
+Resolve stack: Soulstone Sanctuary (54) - Soulstone Sanctuary (54) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 assigned High-Society Hunter (6) to attack Ai(2)-Gen2_Deck5.
+Add to stack: Ai(1)-Gen2_Deck0 triggered High-Society Hunter (6)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (6)]
+Add to stack: Ai(1)-Gen2_Deck0 triggered High-Society Hunter (6)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Diregraf Ghoul (41)]
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Fog Bank (73) to block High-Society Hunter (6).
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Self-Reflection (117) targeting [Ajani's Pridemate (102)]
+Resolve stack: Self-Reflection (117) - Ai(2)-Gen2_Deck5 creates a token that's a copy of Ajani's Pridemate (102).
+Replacement Effect: Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Land: Ai(2)-Gen2_Deck5 played Island (107)
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck0 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Tranquil Cove (72) - {T}: Add {W} or {U}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Secluded Courtyard (91) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Cat Collector (77)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen2_Deck5 triggered Cat Collector (77)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (77)]
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 assigned High-Society Hunter (6) to attack Ai(2)-Gen2_Deck5.
+Add to stack: Ai(1)-Gen2_Deck0 triggered High-Society Hunter (6)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (6)]
+Add to stack: Ai(1)-Gen2_Deck0 triggered High-Society Hunter (6)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Zul Ashur, Lich Lord (36)]
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Fog Bank (73) to block High-Society Hunter (6).
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Uncharted Haven (45) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck0 cast High-Society Hunter (5)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Cat Collector (77) to attack Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck0 didn't block Cat Collector (77).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Cat Collector (77) deals 3 combat damage to Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Ajani's Pridemate (100)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Mana: Tranquil Cove (72) - {T}: Add {W} or {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Release the Dogs (112)
+Resolve stack: Release the Dogs (112) - Ai(2)-Gen2_Deck5 creates four 1/1 white Dog creature tokens.
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck0)
+Phase: Ai(1)-Gen2_Deck0's Untap step
+Phase: Ai(1)-Gen2_Deck0's Upkeep step
+Phase: Ai(1)-Gen2_Deck0's Draw step
+Phase: Ai(1)-Gen2_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck0's End of Combat Step
+Phase: Ai(1)-Gen2_Deck0's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen2_Deck0 played Maze's End (1)
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Uncharted Haven (45) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck0 cast Painful Quandary (50)
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen2_Deck0's End step
+Phase: Ai(1)-Gen2_Deck0's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Cat Collector (77), Giada, Font of Hope (118), Ajani's Pridemate (102), Ajani's Pridemate (122), Ajani's Pridemate (125), Ajani's Pridemate (100), Dog Token (136), Dog Token (137), Dog Token (138) and Dog Token (139) to attack Ai(1)-Gen2_Deck0.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck0 didn't block Ajani's Pridemate (100).
+Ai(1)-Gen2_Deck0 assigned High-Society Hunter (6) to block Giada, Font of Hope (118).
+Ai(1)-Gen2_Deck0 didn't block Ajani's Pridemate (102).
+Ai(1)-Gen2_Deck0 didn't block Dog Token (136).
+Ai(1)-Gen2_Deck0 didn't block Dog Token (137).
+Ai(1)-Gen2_Deck0 didn't block Ajani's Pridemate (122).
+Ai(1)-Gen2_Deck0 didn't block Dog Token (138).
+Ai(1)-Gen2_Deck0 didn't block Dog Token (139).
+Ai(1)-Gen2_Deck0 assigned High-Society Hunter (5) to block Cat Collector (77).
+Ai(1)-Gen2_Deck0 didn't block Ajani's Pridemate (125).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Cat Collector (77) deals 3 damage () to High-Society Hunter (5).
+Damage: Giada, Font of Hope (118) deals 2 damage () to High-Society Hunter (6).
+Damage: Ajani's Pridemate (102) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Damage: Ajani's Pridemate (122) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Damage: Ajani's Pridemate (125) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Damage: Ajani's Pridemate (100) deals 2 combat damage to Ai(1)-Gen2_Deck0.
+Damage: Dog Token (136) deals 1 combat damage to Ai(1)-Gen2_Deck0.
+Damage: Dog Token (137) deals 1 combat damage to Ai(1)-Gen2_Deck0.
+Damage: Dog Token (138) deals 1 combat damage to Ai(1)-Gen2_Deck0.
+Damage: Dog Token (139) deals 1 combat damage to Ai(1)-Gen2_Deck0.
+Damage: High-Society Hunter (5) deals 5 damage () to Cat Collector (77).
+Damage: High-Society Hunter (6) deals 7 damage () to Giada, Font of Hope (118).
+Player control: Ai(1)-Gen2_Deck0 is controlled by Ai(1)-Gen2_Deck0
+Player control: Ai(2)-Gen2_Deck5 is controlled by Ai(2)-Gen2_Deck5
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen2_Deck0 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck5 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck0: 0 Ai(2)-Gen2_Deck5: 1 
+
+Game Result: Game 1 ended in 31979 ms. Ai(2)-Gen2_Deck5 has won!
+
+
+=== STDERR ===

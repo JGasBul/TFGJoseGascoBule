@@ -1,0 +1,658 @@
+=== COMBATE PARALELO: Gen0_Deck12 vs Gen0_Deck21 ===
+Worker ID: 1832526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck12 Gen0_Deck21 -n 1
+Duración: 89.81 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2713 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 194 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck12 vs Ai(2)-Gen0_Deck21 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck21 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck12 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen0_Deck21 played Maze's End (63)
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck12 played Maze's End (7)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Land: Ai(2)-Gen0_Deck21 played Plains (103)
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Maze's End (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Ajani's Pridemate (105)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Plains (39)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Land: Ai(2)-Gen0_Deck21 played Swamp (81)
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Ajani's Pridemate (105) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Ajani's Pridemate (105).
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Damage: Ajani's Pridemate (105) deals 2 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Maze's End (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Cat Collector (75)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck21 triggered Cat Collector (75)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (75)]
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck12 played Maze's End (4)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Land: Ai(2)-Gen0_Deck21 played Island (114)
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Cat Collector (75) and Ajani's Pridemate (105) to attack Ai(1)-Gen0_Deck12.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Elspeth's Smite (9) targeting [Cat Collector (75)]
+Damage: Elspeth's Smite (9) deals 3 damage () to Cat Collector (75).
+Resolve stack: Elspeth's Smite (9) - Elspeth's Smite (9) deals 3 damage to Cat Collector (75).  If that creature would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Ajani's Pridemate (105).
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Damage: Ajani's Pridemate (105) deals 2 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Helpful Hunter (87)
+Resolve stack: Helpful Hunter - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck21 triggered Helpful Hunter (87)
+Resolve stack: When this creature enters, draw a card. [Zone Changer: Helpful Hunter (87)]
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Crawling Barrens (55)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Ajani's Pridemate (105) and Helpful Hunter (87) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Helpful Hunter (87).
+Ai(1)-Gen0_Deck12 didn't block Ajani's Pridemate (105).
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Damage: Ajani's Pridemate (105) deals 2 combat damage to Ai(1)-Gen0_Deck12.
+Damage: Helpful Hunter (87) deals 1 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen0_Deck21 played Maze's End (61)
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Evolving Wilds (35)
+Add to stack: Ai(1)-Gen0_Deck12 activated Evolving Wilds (35)
+Resolve stack: Evolving Wilds (35) - Ai(1)-Gen0_Deck12 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Ajani's Pridemate (105) and Helpful Hunter (87) to attack Ai(1)-Gen0_Deck12.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Elspeth's Smite (10) targeting [Ajani's Pridemate (105)]
+Damage: Elspeth's Smite (10) deals 3 damage () to Ajani's Pridemate (105).
+Resolve stack: Elspeth's Smite (10) - Elspeth's Smite (10) deals 3 damage to Ajani's Pridemate (105).  If that creature would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Helpful Hunter (87).
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Damage: Helpful Hunter (87) deals 1 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen0_Deck21 played Maze's End (62)
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Forest (28)
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Maze's End (7) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 activated Crawling Barrens (55)
+Resolve stack: Crawling Barrens (55) - Ai(1)-Gen0_Deck12 puts two +1/+1 counters on Crawling Barrens (55). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Crawling Barrens (55) to attack Ai(2)-Gen0_Deck21.
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Joust Through (111) targeting [Crawling Barrens (55)]
+Damage: Joust Through (111) deals 3 damage () to Crawling Barrens (55).
+Resolve stack: Joust Through (111) - Joust Through (111) deals 3 damage to Crawling Barrens (55). Ai(2)-Gen0_Deck21 gains 1 life.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Helpful Hunter (87) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Helpful Hunter (87).
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Damage: Helpful Hunter (87) deals 1 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Helpful Hunter (89)
+Resolve stack: Helpful Hunter - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck21 triggered Helpful Hunter (89)
+Resolve stack: When this creature enters, draw a card. [Zone Changer: Helpful Hunter (89)]
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Maze's End (7) - {T}: Add {C}.
+Mana: Maze's End (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Needletooth Pack (2)
+Resolve stack: Needletooth Pack - Creature 4 / 5
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Island (114) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Cat Collector (73)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck21 triggered Cat Collector (73)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (73)]
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Maze's End (7) - {T}: Add {C}.
+Mana: Maze's End (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Angelic Edict (52) targeting [Cat Collector (73)]
+Resolve stack: Angelic Edict (52) - Exile Cat Collector (73).
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Needletooth Pack (2) to attack Ai(2)-Gen0_Deck21.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck21 didn't block Needletooth Pack (2).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Needletooth Pack (2) deals 4 combat damage to Ai(2)-Gen0_Deck21.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Land: Ai(2)-Gen0_Deck21 played Island (112)
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Helpful Hunter (87) and Helpful Hunter (89) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Helpful Hunter (87).
+Ai(1)-Gen0_Deck12 didn't block Helpful Hunter (89).
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Damage: Helpful Hunter (87) deals 1 combat damage to Ai(1)-Gen0_Deck12.
+Damage: Helpful Hunter (89) deals 1 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Island (114) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Cat Collector (76)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck21 triggered Cat Collector (76)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (76)]
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Evolving Wilds (36)
+Add to stack: Ai(1)-Gen0_Deck12 activated Evolving Wilds (36)
+Resolve stack: Evolving Wilds (36) - Ai(1)-Gen0_Deck12 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Needletooth Pack (2) to attack Ai(2)-Gen0_Deck21.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck21 didn't block Needletooth Pack (2).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Needletooth Pack (2) deals 4 combat damage to Ai(2)-Gen0_Deck21.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Maze's End (7) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Surrak, the Hunt Caller (32)
+Resolve stack: Surrak, the Hunt Caller - Creature 5 / 4
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Surrak, the Hunt Caller (32) targeting [Needletooth Pack (2)]
+Resolve stack: Formidable — At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn. (Targeting: [[Needletooth Pack (2)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Surrak, the Hunt Caller (32) and Needletooth Pack (2) to attack Ai(2)-Gen0_Deck21.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck21 didn't block Surrak, the Hunt Caller (32).
+Ai(2)-Gen0_Deck21 didn't block Needletooth Pack (2).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Surrak, the Hunt Caller (32) deals 5 combat damage to Ai(2)-Gen0_Deck21.
+Damage: Needletooth Pack (2) deals 4 combat damage to Ai(2)-Gen0_Deck21.
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck21 activated Food Token (124)
+Resolve stack: Food Token (124) - Ai(2)-Gen0_Deck21 gains 3 life.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Maze's End (7) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Syr Alin, the Lion's Claw (59)
+Resolve stack: Syr Alin, the Lion's Claw - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Surrak, the Hunt Caller (32) targeting [Syr Alin, the Lion's Claw (59)]
+Resolve stack: Formidable — At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn. (Targeting: [[Syr Alin, the Lion's Claw (59)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Syr Alin, the Lion's Claw (59), Surrak, the Hunt Caller (32) and Needletooth Pack (2) to attack Ai(2)-Gen0_Deck21.
+Add to stack: Ai(1)-Gen0_Deck12 triggered Syr Alin, the Lion's Claw (59)
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck21 activated Food Token (130)
+Resolve stack: Food Token (130) - Ai(2)-Gen0_Deck21 gains 3 life.
+Mana: Island (114) - {T}: Add {U}.
+Mana: Island (112) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck21 activated Food Token (134)
+Resolve stack: Food Token (134) - Ai(2)-Gen0_Deck21 gains 3 life.
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (59)]
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Helpful Hunter (87) to block Surrak, the Hunt Caller (32).
+Ai(2)-Gen0_Deck21 didn't block Needletooth Pack (2).
+Ai(2)-Gen0_Deck21 didn't block Syr Alin, the Lion's Claw (59).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (59) deals 4 combat damage to Ai(2)-Gen0_Deck21.
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Surrak, the Hunt Caller (32) deals 6 damage () to Helpful Hunter (87).
+Damage: Needletooth Pack (2) deals 5 combat damage to Ai(2)-Gen0_Deck21.
+Damage: Helpful Hunter (87) deals 1 damage () to Surrak, the Hunt Caller (32).
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (44) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Solemn Simulacrum (12)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck12 triggered Solemn Simulacrum (12)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (12)]
+Phase: Ai(1)-Gen0_Deck12's End step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Needletooth Pack (2) targeting [Needletooth Pack (2)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Needletooth Pack (2)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen0_Deck21 played Tranquil Cove (72)
+Add to stack: Ai(2)-Gen0_Deck21 triggered Tranquil Cove (72)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (72)]
+Add to stack: Ai(2)-Gen0_Deck21 triggered Cat Collector (76)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck21, Gained Amount: 1]
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Macabre Waltz (120) targeting [Helpful Hunter (87)]
+Discard: Ai(2)-Gen0_Deck21 discards Helpful Hunter (87).
+Resolve stack: Macabre Waltz (120) - Return Helpful Hunter (87) from the graveyard to its owner's hand. Ai(2)-Gen0_Deck21 discards a card.
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Surrak, the Hunt Caller (32) targeting [Needletooth Pack (2)]
+Resolve stack: Formidable — At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn. (Targeting: [[Needletooth Pack (2)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Syr Alin, the Lion's Claw (59), Needletooth Pack (2), Surrak, the Hunt Caller (32) and Solemn Simulacrum (12) to attack Ai(2)-Gen0_Deck21.
+Add to stack: Ai(1)-Gen0_Deck12 triggered Syr Alin, the Lion's Claw (59)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (59)]
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck21 assigned Helpful Hunter (89) to block Surrak, the Hunt Caller (32).
+Ai(2)-Gen0_Deck21 assigned Cat Token (137) to block Needletooth Pack (2).
+Ai(2)-Gen0_Deck21 didn't block Syr Alin, the Lion's Claw (59).
+Ai(2)-Gen0_Deck21 assigned Cat Collector (76) to block Solemn Simulacrum (12).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (59) deals 4 combat damage to Ai(2)-Gen0_Deck21.
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Needletooth Pack (2) deals 7 damage () to Cat Token (137).
+Damage: Surrak, the Hunt Caller (32) deals 6 damage () to Helpful Hunter (89).
+Damage: Solemn Simulacrum (12) deals 3 damage () to Cat Collector (76).
+Damage: Cat Collector (76) deals 3 damage () to Solemn Simulacrum (12).
+Damage: Cat Token (137) deals 1 damage () to Needletooth Pack (2).
+Damage: Helpful Hunter (89) deals 1 damage () to Surrak, the Hunt Caller (32).
+Add to stack: Ai(1)-Gen0_Deck12 triggered Solemn Simulacrum (12)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (12)]
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck12 played Crawling Barrens (54)
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Dauntless Veteran (60)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (45) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Fynn, the Fangbearer (15)
+Resolve stack: Fynn, the Fangbearer - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck12's End step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Needletooth Pack (2) targeting [Needletooth Pack (2)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Needletooth Pack (2)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen0_Deck21)
+Phase: Ai(2)-Gen0_Deck21's Untap step
+Phase: Ai(2)-Gen0_Deck21's Upkeep step
+Phase: Ai(2)-Gen0_Deck21's Draw step
+Phase: Ai(2)-Gen0_Deck21's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen0_Deck21 played Tranquil Cove (71)
+Add to stack: Ai(2)-Gen0_Deck21 triggered Tranquil Cove (71)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (71)]
+Phase: Ai(2)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck21's End of Combat Step
+Phase: Ai(2)-Gen0_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck21's End step
+Phase: Ai(2)-Gen0_Deck21's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Forest (30)
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (44) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 activated Crawling Barrens (54)
+Resolve stack: Crawling Barrens (54) - Ai(1)-Gen0_Deck12 puts two +1/+1 counters on Crawling Barrens (54). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Maze's End (7) - {T}: Add {C}.
+Mana: Maze's End (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 activated Crawling Barrens (54)
+Resolve stack: Crawling Barrens (54) - Ai(1)-Gen0_Deck12 puts two +1/+1 counters on Crawling Barrens (54). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Surrak, the Hunt Caller (32) targeting [Needletooth Pack (2)]
+Resolve stack: Formidable — At the beginning of combat on your turn, if creatures you control have total power 8 or greater, target creature you control gains haste until end of turn. (Targeting: [[Needletooth Pack (2)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Needletooth Pack (2), Surrak, the Hunt Caller (32), Syr Alin, the Lion's Claw (59), Crawling Barrens (54), Dauntless Veteran (60) and Fynn, the Fangbearer (15) to attack Ai(2)-Gen0_Deck21.
+Add to stack: Ai(1)-Gen0_Deck12 triggered Syr Alin, the Lion's Claw (59)
+Add to stack: Ai(1)-Gen0_Deck12 triggered Dauntless Veteran (60)
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Joust Through (108) targeting [Fynn, the Fangbearer (15)]
+Damage: Joust Through (108) deals 3 damage () to Fynn, the Fangbearer (15).
+Resolve stack: Joust Through (108) - Joust Through (108) deals 3 damage to Fynn, the Fangbearer (15). Ai(2)-Gen0_Deck21 gains 1 life.
+Mana: Tranquil Cove (72) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen0_Deck21 cast Joust Through (110) targeting [Dauntless Veteran (60)]
+Damage: Joust Through (110) deals 3 damage () to Dauntless Veteran (60).
+Resolve stack: Joust Through (110) - Joust Through (110) deals 3 damage to Dauntless Veteran (60). Ai(2)-Gen0_Deck21 gains 1 life.
+Resolve stack: Whenever Dauntless Veteran attacks, creatures you control get +1/+1 until end of turn. [Attacker: Dauntless Veteran (60)]
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (59)]
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck21 didn't block Surrak, the Hunt Caller (32).
+Ai(2)-Gen0_Deck21 didn't block Needletooth Pack (2).
+Ai(2)-Gen0_Deck21 didn't block Crawling Barrens (54).
+Ai(2)-Gen0_Deck21 didn't block Syr Alin, the Lion's Claw (59).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (59) deals 5 combat damage to Ai(2)-Gen0_Deck21.
+Player control: Ai(1)-Gen0_Deck12 is controlled by Ai(1)-Gen0_Deck12
+Player control: Ai(2)-Gen0_Deck21 is controlled by Ai(2)-Gen0_Deck21
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen0_Deck12 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck21 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck12: 1 Ai(2)-Gen0_Deck21: 0 
+
+Game Result: Game 1 ended in 70612 ms. Ai(1)-Gen0_Deck12 has won!
+
+
+=== STDERR ===

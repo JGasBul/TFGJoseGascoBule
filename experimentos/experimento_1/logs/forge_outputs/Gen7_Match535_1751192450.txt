@@ -1,0 +1,420 @@
+=== COMBATE PARALELO: Gen7_Deck11 vs Gen7_Deck15 ===
+Worker ID: 3209162
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck11 Gen7_Deck15 -n 1
+Duración: 41.95 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3390 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 98 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck11 vs Ai(2)-Gen7_Deck15 - one game of Constructed
+Mulligan: Ai(2)-Gen7_Deck15 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen7_Deck11 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Land: Ai(2)-Gen7_Deck15 played Plains (88)
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Land: Ai(1)-Gen7_Deck11 played Plains (22)
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck11's End of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck11 cast Healer's Hawk (55)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen7_Deck11's End step
+Phase: Ai(1)-Gen7_Deck11's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen7_Deck15 played Uncharted Haven (104)
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Land: Ai(1)-Gen7_Deck11 played Plains (31)
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 assigned Healer's Hawk (55) to attack Ai(2)-Gen7_Deck15.
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck15 didn't block Healer's Hawk (55).
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen7_Deck15.
+Phase: Ai(1)-Gen7_Deck11's End of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck11 cast Ajani's Pridemate (40)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck11's End step
+Phase: Ai(1)-Gen7_Deck11's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen7_Deck15 played Uncharted Haven (103)
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Mana: Plains (88) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck15 cast Zul Ashur, Lich Lord (69)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 assigned Ajani's Pridemate (40) and Healer's Hawk (55) to attack Ai(2)-Gen7_Deck15.
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck15 didn't block Healer's Hawk (55).
+Ai(2)-Gen7_Deck15 didn't block Ajani's Pridemate (40).
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Damage: Ajani's Pridemate (40) deals 2 combat damage to Ai(2)-Gen7_Deck15.
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen7_Deck15.
+Add to stack: Ai(1)-Gen7_Deck11 triggered Ajani's Pridemate (40)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen7_Deck11, Gained Amount: 1]
+Phase: Ai(1)-Gen7_Deck11's End of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen7_Deck11 played Tranquil Cove (5)
+Add to stack: Ai(1)-Gen7_Deck11 triggered Tranquil Cove (5)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (5)]
+Add to stack: Ai(1)-Gen7_Deck11 triggered Ajani's Pridemate (40)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen7_Deck11, Gained Amount: 1]
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck11 cast Ajani's Pridemate (39)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck11's End step
+Phase: Ai(1)-Gen7_Deck11's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Land: Ai(2)-Gen7_Deck15 played Rogue's Passage (65)
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen7_Deck15 cast Eaten Alive (61) targeting [Ajani's Pridemate (40)]
+Resolve stack: Eaten Alive (61) - Exile Ajani's Pridemate (40).
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Rogue's Passage (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck15 cast Inspiring Overseer (77)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(2)-Gen7_Deck15 triggered Inspiring Overseer (77)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (77)]
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Land: Ai(1)-Gen7_Deck11 played Plains (24)
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 assigned Ajani's Pridemate (39) and Healer's Hawk (55) to attack Ai(2)-Gen7_Deck15.
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck15 didn't block Ajani's Pridemate (39).
+Ai(2)-Gen7_Deck15 didn't block Healer's Hawk (55).
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Damage: Ajani's Pridemate (39) deals 2 combat damage to Ai(2)-Gen7_Deck15.
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen7_Deck15.
+Add to stack: Ai(1)-Gen7_Deck11 triggered Ajani's Pridemate (39)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen7_Deck11, Gained Amount: 1]
+Phase: Ai(1)-Gen7_Deck11's End of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck11's End step
+Phase: Ai(1)-Gen7_Deck11's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 assigned Inspiring Overseer (77) to attack Ai(1)-Gen7_Deck11.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck11 didn't block Inspiring Overseer (77).
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Damage: Inspiring Overseer (77) deals 2 combat damage to Ai(1)-Gen7_Deck11.
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Rogue's Passage (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck15 cast Squad Rallier (82)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Land: Ai(1)-Gen7_Deck11 played Plains (35)
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 assigned Healer's Hawk (55) to attack Ai(2)-Gen7_Deck15.
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck15 didn't block Healer's Hawk (55).
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen7_Deck15.
+Add to stack: Ai(1)-Gen7_Deck11 triggered Ajani's Pridemate (39)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen7_Deck11, Gained Amount: 1]
+Phase: Ai(1)-Gen7_Deck11's End of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Tranquil Cove (5) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen7_Deck11 cast Syr Alin, the Lion's Claw (60)
+Resolve stack: Syr Alin, the Lion's Claw - Creature 4 / 4
+Phase: Ai(1)-Gen7_Deck11's End step
+Phase: Ai(1)-Gen7_Deck11's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 assigned Inspiring Overseer (77) to attack Ai(1)-Gen7_Deck11.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck11 didn't block Inspiring Overseer (77).
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Damage: Inspiring Overseer (77) deals 2 combat damage to Ai(1)-Gen7_Deck11.
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen7_Deck15 played Uncharted Haven (105)
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Mana: Plains (88) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck15 cast Burglar Rat (114)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen7_Deck15 triggered Burglar Rat (114)
+Discard: Ai(1)-Gen7_Deck11 discards Syr Alin, the Lion's Claw (58).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (114)]
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Rogue's Passage (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck15 cast Burglar Rat (113)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen7_Deck15 triggered Burglar Rat (113)
+Discard: Ai(1)-Gen7_Deck11 discards High-Society Hunter (4).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (113)]
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 assigned Syr Alin, the Lion's Claw (60), Ajani's Pridemate (39) and Healer's Hawk (55) to attack Ai(2)-Gen7_Deck15.
+Add to stack: Ai(1)-Gen7_Deck11 triggered Syr Alin, the Lion's Claw (60)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (60)]
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck15 assigned Burglar Rat (114) to block Ajani's Pridemate (39).
+Ai(2)-Gen7_Deck15 didn't block Healer's Hawk (55).
+Ai(2)-Gen7_Deck15 didn't block Syr Alin, the Lion's Claw (60).
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (60) deals 4 combat damage to Ai(2)-Gen7_Deck15.
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Damage: Ajani's Pridemate (39) deals 5 damage () to Burglar Rat (114).
+Damage: Healer's Hawk (55) deals 2 combat damage to Ai(2)-Gen7_Deck15.
+Damage: Burglar Rat (114) deals 1 damage () to Ajani's Pridemate (39).
+Add to stack: Ai(1)-Gen7_Deck11 triggered Ajani's Pridemate (39)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen7_Deck11, Gained Amount: 2]
+Phase: Ai(1)-Gen7_Deck11's End of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Main phase, postcombat
+Land: Ai(1)-Gen7_Deck11 played Swamp (12)
+Phase: Ai(1)-Gen7_Deck11's End step
+Phase: Ai(1)-Gen7_Deck11's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (105) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen7_Deck15 activated Rogue's Passage (65) targeting [Squad Rallier (82)]
+Resolve stack: Rogue's Passage (65) - Squad Rallier (82) can't be blocked this turn.
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Land: Ai(2)-Gen7_Deck15 played Plains (94)
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 assigned Squad Rallier (82) and Inspiring Overseer (77) to attack Ai(1)-Gen7_Deck11.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck11 didn't block Squad Rallier (82).
+Ai(1)-Gen7_Deck11 didn't block Inspiring Overseer (77).
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Damage: Squad Rallier (82) deals 3 combat damage to Ai(1)-Gen7_Deck11.
+Damage: Inspiring Overseer (77) deals 2 combat damage to Ai(1)-Gen7_Deck11.
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 assigned Syr Alin, the Lion's Claw (60), Ajani's Pridemate (39) and Healer's Hawk (55) to attack Ai(2)-Gen7_Deck15.
+Add to stack: Ai(1)-Gen7_Deck11 triggered Syr Alin, the Lion's Claw (60)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (60)]
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck15 assigned Burglar Rat (113) to block Ajani's Pridemate (39).
+Ai(2)-Gen7_Deck15 didn't block Healer's Hawk (55).
+Ai(2)-Gen7_Deck15 didn't block Syr Alin, the Lion's Claw (60).
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (60) deals 4 combat damage to Ai(2)-Gen7_Deck15.
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Damage: Ajani's Pridemate (39) deals 6 damage () to Burglar Rat (113).
+Damage: Healer's Hawk (55) deals 2 combat damage to Ai(2)-Gen7_Deck15.
+Damage: Burglar Rat (113) deals 1 damage () to Ajani's Pridemate (39).
+Add to stack: Ai(1)-Gen7_Deck11 triggered Ajani's Pridemate (39)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen7_Deck11, Gained Amount: 2]
+Phase: Ai(1)-Gen7_Deck11's End of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Main phase, postcombat
+Land: Ai(1)-Gen7_Deck11 played Plains (27)
+Phase: Ai(1)-Gen7_Deck11's End step
+Phase: Ai(1)-Gen7_Deck11's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen7_Deck15)
+Phase: Ai(2)-Gen7_Deck15's Untap step
+Phase: Ai(2)-Gen7_Deck15's Upkeep step
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (105) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen7_Deck15 activated Rogue's Passage (65) targeting [Squad Rallier (82)]
+Resolve stack: Rogue's Passage (65) - Squad Rallier (82) can't be blocked this turn.
+Phase: Ai(2)-Gen7_Deck15's Draw step
+Phase: Ai(2)-Gen7_Deck15's Main phase, precombat
+Land: Ai(2)-Gen7_Deck15 played Plains (93)
+Phase: Ai(2)-Gen7_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck15's End of Combat Step
+Phase: Ai(2)-Gen7_Deck15's Main phase, postcombat
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck15 cast Mazemind Tome (106)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen7_Deck15's End step
+Phase: Ai(2)-Gen7_Deck15's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen7_Deck11)
+Phase: Ai(1)-Gen7_Deck11's Untap step
+Phase: Ai(1)-Gen7_Deck11's Upkeep step
+Phase: Ai(1)-Gen7_Deck11's Draw step
+Phase: Ai(1)-Gen7_Deck11's Main phase, precombat
+Add to stack: Ai(2)-Gen7_Deck15 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen7_Deck15 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen7_Deck15 scries 1.
+Phase: Ai(1)-Gen7_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck11 assigned Ajani's Pridemate (39), Syr Alin, the Lion's Claw (60) and Healer's Hawk (55) to attack Ai(2)-Gen7_Deck15.
+Add to stack: Ai(1)-Gen7_Deck11 triggered Syr Alin, the Lion's Claw (60)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (60)]
+Phase: Ai(1)-Gen7_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck15 assigned Inspiring Overseer (77) to block Ajani's Pridemate (39).
+Ai(2)-Gen7_Deck15 didn't block Healer's Hawk (55).
+Ai(2)-Gen7_Deck15 assigned Squad Rallier (82) to block Syr Alin, the Lion's Claw (60).
+Phase: Ai(1)-Gen7_Deck11's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (60) deals 4 damage () to Squad Rallier (82).
+Phase: Ai(1)-Gen7_Deck11's Combat Damage Step
+Damage: Ajani's Pridemate (39) deals 7 damage () to Inspiring Overseer (77).
+Damage: Healer's Hawk (55) deals 2 combat damage to Ai(2)-Gen7_Deck15.
+Damage: Inspiring Overseer (77) deals 2 damage () to Ajani's Pridemate (39).
+Player control: Ai(1)-Gen7_Deck11 is controlled by Ai(1)-Gen7_Deck11
+Player control: Ai(2)-Gen7_Deck15 is controlled by Ai(2)-Gen7_Deck15
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen7_Deck11 has won because all opponents have lost
+Game outcome: Ai(2)-Gen7_Deck15 has lost because life total reached 0
+Match result: Ai(1)-Gen7_Deck11: 1 Ai(2)-Gen7_Deck15: 0 
+
+Game Result: Game 1 ended in 22524 ms. Ai(1)-Gen7_Deck11 has won!
+
+
+=== STDERR ===

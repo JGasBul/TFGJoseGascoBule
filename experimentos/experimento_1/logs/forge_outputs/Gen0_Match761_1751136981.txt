@@ -1,0 +1,423 @@
+=== COMBATE PARALELO: Gen0_Deck19 vs Gen0_Deck20 ===
+Worker ID: 1832526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck19 Gen0_Deck20 -n 1
+Duración: 39.37 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3199 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 40 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck19 vs Ai(2)-Gen0_Deck20 - one game of Constructed
+Correcting zone for Wildwood Scourge (6)
+Correcting zone for Wildwood Scourge (6)
+Mulligan: Ai(2)-Gen0_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck19 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Mountain (112)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Forest (36)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Forest (93)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Venom Connoisseur (71)
+Resolve stack: Venom Connoisseur - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Swamp (21)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Wildwood Scourge (6)
+Replacement Effect: Wildwood Scourge enters with X +1/+1 counters on it.
+Resolve stack: Wildwood Scourge - Creature 0 / 0 (X=1)
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Mountain (118)
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Dropkick Bomber (73)
+Resolve stack: Dropkick Bomber - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck20 triggered Venom Connoisseur (71)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Dropkick Bomber (73)]
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Venom Connoisseur (71) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 didn't block Venom Connoisseur (71).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Damage: Venom Connoisseur (71) deals 2 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Swiftfoot Boots (42)
+Resolve stack: Swiftfoot Boots
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck19 played Maze's End (3)
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Mountain (114)
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Involuntary Employment (78) targeting [Wildwood Scourge (6)]
+Resolve stack: Involuntary Employment (78) - Ai(2)-Gen0_Deck20 gains control of Wildwood Scourge (6) until end of turn. Untap it. It gains haste until end of turn. Ai(2)-Gen0_Deck20 creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Venom Connoisseur (71), Dropkick Bomber (73) and Wildwood Scourge (6) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 didn't block Wildwood Scourge (6).
+Ai(1)-Gen0_Deck19 didn't block Venom Connoisseur (71).
+Ai(1)-Gen0_Deck19 didn't block Dropkick Bomber (73).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Damage: Venom Connoisseur (71) deals 2 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Dropkick Bomber (73) deals 2 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Wildwood Scourge (6) deals 1 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Maze's End (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Beast-Kin Ranger (41)
+Resolve stack: Beast-Kin Ranger - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Wildwood Scourge (6) to attack Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Wildwood Scourge (6).
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Damage: Wildwood Scourge (6) deals 1 combat damage to Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Treasure Token (122) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(2)-Gen0_Deck20 cast Gratuitous Violence (70)
+Resolve stack: Gratuitous Violence
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Venom Connoisseur (71) and Dropkick Bomber (73) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 didn't block Venom Connoisseur (71).
+Ai(1)-Gen0_Deck19 didn't block Dropkick Bomber (73).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Damage: Venom Connoisseur (71) deals 4 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Dropkick Bomber (73) deals 4 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Maze's End (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Crow of Dark Tidings (54)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck19 triggered Crow of Dark Tidings (54)
+Add to stack: Ai(1)-Gen0_Deck19 triggered Beast-Kin Ranger (41)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Crow of Dark Tidings (54)]
+Zone Change: Ai(1)-Gen0_Deck19 milled Swamp (19) and Secluded Courtyard (27).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (54)]
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Beast-Kin Ranger (41) and Wildwood Scourge (6) to attack Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Wildwood Scourge (6).
+Ai(2)-Gen0_Deck20 didn't block Beast-Kin Ranger (41).
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Damage: Beast-Kin Ranger (41) deals 4 combat damage to Ai(2)-Gen0_Deck20.
+Damage: Wildwood Scourge (6) deals 1 combat damage to Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Crackling Cyclops (98)
+Resolve stack: Crackling Cyclops - Creature 0 / 4
+Add to stack: Ai(2)-Gen0_Deck20 triggered Venom Connoisseur (71)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Crackling Cyclops (98)]
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen0_Deck20 played Maze's End (64)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Venom Connoisseur (71) and Dropkick Bomber (73) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Crow of Dark Tidings (54) to block Venom Connoisseur (71).
+Ai(1)-Gen0_Deck19 didn't block Dropkick Bomber (73).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Damage: Venom Connoisseur (71) deals 4 damage (Deathtouch) to Crow of Dark Tidings (54).
+Damage: Dropkick Bomber (73) deals 4 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Crow of Dark Tidings (54) deals 2 damage () to Venom Connoisseur (71).
+Add to stack: Ai(1)-Gen0_Deck19 triggered Crow of Dark Tidings (54)
+Zone Change: Ai(1)-Gen0_Deck19 milled Maze's End (1) and Three Tree Mascot (30).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (54)]
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Evolving Wilds (38)
+Add to stack: Ai(1)-Gen0_Deck19 activated Evolving Wilds (38)
+Resolve stack: Evolving Wilds (38) - Ai(1)-Gen0_Deck19 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Maze's End (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Crow of Dark Tidings (57)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck19 triggered Crow of Dark Tidings (57)
+Add to stack: Ai(1)-Gen0_Deck19 triggered Beast-Kin Ranger (41)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Crow of Dark Tidings (57)]
+Zone Change: Ai(1)-Gen0_Deck19 milled Forest (33) and Fake Your Own Death (48).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (57)]
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Beast-Kin Ranger (41) to attack Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Beast-Kin Ranger (41).
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Damage: Beast-Kin Ranger (41) deals 4 combat damage to Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Dropkick Bomber (75)
+Resolve stack: Dropkick Bomber - Creature 2 / 3
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Maze's End (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Goldvein Pick (76)
+Add to stack: Ai(2)-Gen0_Deck20 triggered Crackling Cyclops (98)
+Resolve stack: Whenever you cast a noncreature spell, this creature gets +3/+0 until end of turn. [Card: Goldvein Pick (76), Activator: Ai(2)-Gen0_Deck20, SpellAbility: Goldvein Pick]
+Resolve stack: Goldvein Pick
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Dropkick Bomber (73) and Crackling Cyclops (98) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Crow of Dark Tidings (57) to block Crackling Cyclops (98).
+Ai(1)-Gen0_Deck19 assigned Wildwood Scourge (6) to block Dropkick Bomber (73).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Damage: Dropkick Bomber (73) deals 6 damage () to Wildwood Scourge (6).
+Damage: Crackling Cyclops (98) deals 6 damage () to Crow of Dark Tidings (57).
+Damage: Wildwood Scourge (6) deals 1 damage () to Dropkick Bomber (73).
+Damage: Crow of Dark Tidings (57) deals 2 damage () to Crackling Cyclops (98).
+Add to stack: Ai(1)-Gen0_Deck19 triggered Crow of Dark Tidings (57)
+Zone Change: Ai(1)-Gen0_Deck19 milled Liliana, Dreadhorde General (13) and Rogue's Passage (16).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (57)]
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck19 played Secluded Courtyard (28)
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Secluded Courtyard (28) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Skeleton Archer (51)
+Resolve stack: Skeleton Archer - Creature 3 / 3
+Add to stack: Ai(1)-Gen0_Deck19 triggered Skeleton Archer (51) targeting [Ai(2)-Gen0_Deck20]
+Add to stack: Ai(1)-Gen0_Deck19 triggered Beast-Kin Ranger (41)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Skeleton Archer (51)]
+Damage: Skeleton Archer (51) deals 1 non-combat damage to Ai(2)-Gen0_Deck20.
+Resolve stack: When Skeleton Archer enters, it deals 1 damage to any target. (Targeting: [[Ai(2)-Gen0_Deck20]]) [Zone Changer: Skeleton Archer (51)]
+Mana: Maze's End (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 activated Swiftfoot Boots (42) targeting [Beast-Kin Ranger (41)]
+Resolve stack: Swiftfoot Boots (42) -  Attach to Beast-Kin Ranger (41)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Forest (93) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Obliterating Bolt (119) targeting [Skeleton Archer (51)]
+Add to stack: Ai(2)-Gen0_Deck20 triggered Crackling Cyclops (98)
+Resolve stack: Whenever you cast a noncreature spell, this creature gets +3/+0 until end of turn. [Card: Obliterating Bolt (119), Activator: Ai(2)-Gen0_Deck20, SpellAbility: Obliterating Bolt deals 4 damage to target creature or planeswalker. If that creature or planeswalker would die this turn, exile it instead.]
+Damage: Obliterating Bolt (119) deals 4 damage () to Skeleton Archer (51).
+Resolve stack: Obliterating Bolt (119) - Obliterating Bolt (119) deals 4 damage to Skeleton Archer (51).  If that creature or planeswalker would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 activated Goldvein Pick (76) targeting [Dropkick Bomber (73)]
+Resolve stack: Goldvein Pick (76) -  Attach to Dropkick Bomber (73)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Dropkick Bomber (73), Crackling Cyclops (98) and Dropkick Bomber (75) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 didn't block Crackling Cyclops (98).
+Ai(1)-Gen0_Deck19 assigned Beast-Kin Ranger (41) to block Dropkick Bomber (73).
+Ai(1)-Gen0_Deck19 didn't block Dropkick Bomber (75).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Replacement Effect: If a creature you control would deal damage to a permanent or player, it deals double that damage to that permanent or player instead.
+Damage: Dropkick Bomber (73) deals 8 damage () to Beast-Kin Ranger (41).
+Damage: Crackling Cyclops (98) deals 6 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Dropkick Bomber (75) deals 6 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Beast-Kin Ranger (41) deals 3 damage () to Dropkick Bomber (73).
+Player control: Ai(1)-Gen0_Deck19 is controlled by Ai(1)-Gen0_Deck19
+Player control: Ai(2)-Gen0_Deck20 is controlled by Ai(2)-Gen0_Deck20
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck19 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck20 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck19: 0 Ai(2)-Gen0_Deck20: 1 
+
+Game Result: Game 1 ended in 21757 ms. Ai(2)-Gen0_Deck20 has won!
+
+
+=== STDERR ===

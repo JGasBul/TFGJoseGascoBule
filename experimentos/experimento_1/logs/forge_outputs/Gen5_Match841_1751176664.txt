@@ -1,0 +1,277 @@
+=== COMBATE PARALELO: Gen5_Deck24 vs Gen5_Deck25 ===
+Worker ID: 2818998
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck24 Gen5_Deck25 -n 1
+Duración: 37.76 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3318 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 102 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck24 vs Ai(2)-Gen5_Deck25 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck25 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck24 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck25)
+Phase: Ai(2)-Gen5_Deck25's Untap step
+Phase: Ai(2)-Gen5_Deck25's Upkeep step
+Phase: Ai(2)-Gen5_Deck25's Draw step
+Phase: Ai(2)-Gen5_Deck25's Main phase, precombat
+Land: Ai(2)-Gen5_Deck25 played Plains (102)
+Phase: Ai(2)-Gen5_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck25's End of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Main phase, postcombat
+Mana: Plains (102) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck25 cast Healer's Hawk (115)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen5_Deck25's End step
+Phase: Ai(2)-Gen5_Deck25's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Island (23)
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck25)
+Phase: Ai(2)-Gen5_Deck25's Untap step
+Phase: Ai(2)-Gen5_Deck25's Upkeep step
+Phase: Ai(2)-Gen5_Deck25's Draw step
+Phase: Ai(2)-Gen5_Deck25's Main phase, precombat
+Land: Ai(2)-Gen5_Deck25 played Swamp (70)
+Phase: Ai(2)-Gen5_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck25 assigned Healer's Hawk (115) to attack Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 didn't block Healer's Hawk (115).
+Phase: Ai(2)-Gen5_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck25's Combat Damage Step
+Damage: Healer's Hawk (115) deals 1 combat damage to Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's End of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Main phase, postcombat
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck25 cast Charming Prince (114)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck25 triggered Charming Prince (114)
+Resolve stack: Ai(2)-Gen5_Deck25 scried 1 card(s) to the top of the library and 1 card(s) to the bottom of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (114)]
+Phase: Ai(2)-Gen5_Deck25's End step
+Phase: Ai(2)-Gen5_Deck25's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Plains (18)
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck25)
+Phase: Ai(2)-Gen5_Deck25's Untap step
+Phase: Ai(2)-Gen5_Deck25's Upkeep step
+Phase: Ai(2)-Gen5_Deck25's Draw step
+Phase: Ai(2)-Gen5_Deck25's Main phase, precombat
+Land: Ai(2)-Gen5_Deck25 played Soulstone Sanctuary (118)
+Phase: Ai(2)-Gen5_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck25 assigned Charming Prince (114) and Healer's Hawk (115) to attack Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 didn't block Charming Prince (114).
+Ai(1)-Gen5_Deck24 didn't block Healer's Hawk (115).
+Phase: Ai(2)-Gen5_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck25's Combat Damage Step
+Damage: Charming Prince (114) deals 2 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Healer's Hawk (115) deals 1 combat damage to Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's End of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Main phase, postcombat
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck25 cast Felidar Cub (64)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck25's End step
+Phase: Ai(2)-Gen5_Deck25's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Swamp (41)
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Island (23) - {T}: Add {U}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Swamp (41) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Burnished Hart (13)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck25)
+Phase: Ai(2)-Gen5_Deck25's Untap step
+Phase: Ai(2)-Gen5_Deck25's Upkeep step
+Phase: Ai(2)-Gen5_Deck25's Draw step
+Phase: Ai(2)-Gen5_Deck25's Main phase, precombat
+Land: Ai(2)-Gen5_Deck25 played Plains (90)
+Phase: Ai(2)-Gen5_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck25 assigned Charming Prince (114), Felidar Cub (64) and Healer's Hawk (115) to attack Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 didn't block Felidar Cub (64).
+Ai(1)-Gen5_Deck24 didn't block Charming Prince (114).
+Ai(1)-Gen5_Deck24 didn't block Healer's Hawk (115).
+Phase: Ai(2)-Gen5_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck25's Combat Damage Step
+Damage: Charming Prince (114) deals 2 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Felidar Cub (64) deals 2 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Healer's Hawk (115) deals 1 combat damage to Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's End of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Main phase, postcombat
+Mana: Plains (102) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck25 cast Healer's Hawk (117)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen5_Deck25's End step
+Phase: Ai(2)-Gen5_Deck25's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Crawling Barrens (28)
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 assigned Burnished Hart (13) to attack Ai(2)-Gen5_Deck25.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck25 didn't block Burnished Hart (13).
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Damage: Burnished Hart (13) deals 2 combat damage to Ai(2)-Gen5_Deck25.
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Island (23) - {T}: Add {U}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Swamp (41) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Burnished Hart (10)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck25)
+Phase: Ai(2)-Gen5_Deck25's Untap step
+Phase: Ai(2)-Gen5_Deck25's Upkeep step
+Phase: Ai(2)-Gen5_Deck25's Draw step
+Phase: Ai(2)-Gen5_Deck25's Main phase, precombat
+Land: Ai(2)-Gen5_Deck25 played Swamp (68)
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Swamp (68) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck25 activated Soulstone Sanctuary (118)
+Resolve stack: Soulstone Sanctuary (118) - Soulstone Sanctuary (118) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen5_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck25 assigned Charming Prince (114), Felidar Cub (64), Healer's Hawk (115), Healer's Hawk (117) and Soulstone Sanctuary (118) to attack Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 didn't block Felidar Cub (64).
+Ai(1)-Gen5_Deck24 assigned Burnished Hart (10) to block Charming Prince (114).
+Ai(1)-Gen5_Deck24 didn't block Healer's Hawk (115).
+Ai(1)-Gen5_Deck24 didn't block Healer's Hawk (117).
+Ai(1)-Gen5_Deck24 didn't block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen5_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck25's Combat Damage Step
+Damage: Charming Prince (114) deals 2 damage () to Burnished Hart (10).
+Damage: Felidar Cub (64) deals 2 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Healer's Hawk (115) deals 1 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Soulstone Sanctuary (118) deals 3 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Burnished Hart (10) deals 2 damage () to Charming Prince (114).
+Phase: Ai(2)-Gen5_Deck25's End of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck25's End step
+Phase: Ai(2)-Gen5_Deck25's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Pilfer (5) targeting [Ai(2)-Gen5_Deck25]
+Discard: Ai(2)-Gen5_Deck25 discards Knight of Grace (81).
+Resolve stack: Pilfer (5) - Ai(2)-Gen5_Deck25 reveals their hand. Ai(1)-Gen5_Deck24 chooses a nonland card from it. Ai(2)-Gen5_Deck25 discards that card.
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen5_Deck25)
+Phase: Ai(2)-Gen5_Deck25's Untap step
+Phase: Ai(2)-Gen5_Deck25's Upkeep step
+Phase: Ai(2)-Gen5_Deck25's Draw step
+Phase: Ai(2)-Gen5_Deck25's Main phase, precombat
+Land: Ai(2)-Gen5_Deck25 played Plains (97)
+Phase: Ai(2)-Gen5_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck25 assigned Soulstone Sanctuary (118), Felidar Cub (64), Healer's Hawk (115) and Healer's Hawk (117) to attack Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 didn't block Felidar Cub (64).
+Ai(1)-Gen5_Deck24 didn't block Healer's Hawk (115).
+Ai(1)-Gen5_Deck24 didn't block Healer's Hawk (117).
+Ai(1)-Gen5_Deck24 assigned Burnished Hart (13) to block Soulstone Sanctuary (118).
+Mana: Plains (18) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Divine Resilience (49) targeting [Burnished Hart (13)]
+Resolve stack: Divine Resilience (49) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Burnished Hart (13))
+Phase: Ai(2)-Gen5_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck25's Combat Damage Step
+Damage: Soulstone Sanctuary (118) deals 3 damage () to Burnished Hart (13).
+Damage: Felidar Cub (64) deals 2 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Healer's Hawk (115) deals 1 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Burnished Hart (13) deals 2 damage () to Soulstone Sanctuary (118).
+Player control: Ai(1)-Gen5_Deck24 is controlled by Ai(1)-Gen5_Deck24
+Player control: Ai(2)-Gen5_Deck25 is controlled by Ai(2)-Gen5_Deck25
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen5_Deck24 has lost because life total reached 0
+Game outcome: Ai(2)-Gen5_Deck25 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck24: 0 Ai(2)-Gen5_Deck25: 1 
+
+Game Result: Game 1 ended in 19524 ms. Ai(2)-Gen5_Deck25 has won!
+
+
+=== STDERR ===

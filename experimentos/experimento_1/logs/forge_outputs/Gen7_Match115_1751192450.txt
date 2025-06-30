@@ -1,0 +1,400 @@
+=== COMBATE PARALELO: Gen7_Deck2 vs Gen7_Deck3 ===
+Worker ID: 3209162
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck2 Gen7_Deck3 -n 1
+Duración: 35.66 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2792 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 75 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck2 vs Ai(2)-Gen7_Deck3 - one game of Constructed
+Mulligan: Ai(2)-Gen7_Deck3 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen7_Deck2 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Land: Ai(2)-Gen7_Deck3 played Plains (93)
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Land: Ai(1)-Gen7_Deck2 played Plains (27)
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck2 cast Expedition Map (50)
+Resolve stack: Expedition Map
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Land: Ai(2)-Gen7_Deck3 played Swamp (71)
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Mana: Swamp (71) - {T}: Add {B}.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck3 cast Burglar Rat (120)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen7_Deck3 triggered Burglar Rat (120)
+Discard: Ai(1)-Gen7_Deck2 discards Icewind Elemental (52).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (120)]
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Land: Ai(1)-Gen7_Deck2 played Plains (17)
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck2 activated Expedition Map (50)
+Resolve stack: Expedition Map (50) - Ai(1)-Gen7_Deck2 searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 assigned Burglar Rat (120) to attack Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck2 didn't block Burglar Rat (120).
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Damage: Burglar Rat (120) deals 1 combat damage to Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Land: Ai(2)-Gen7_Deck3 played Swamp (81)
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck3 cast Healer's Hawk (117)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Land: Ai(1)-Gen7_Deck2 played Demolition Field (59)
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck2 cast Inspiring Overseer (11)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen7_Deck2 triggered Inspiring Overseer (11)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (11)]
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 assigned Burglar Rat (120) and Healer's Hawk (117) to attack Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck2 didn't block Healer's Hawk (117).
+Ai(1)-Gen7_Deck2 didn't block Burglar Rat (120).
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Damage: Burglar Rat (120) deals 1 combat damage to Ai(1)-Gen7_Deck2.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Land: Ai(2)-Gen7_Deck3 played Plains (91)
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Land: Ai(1)-Gen7_Deck2 played Plains (24)
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 assigned Inspiring Overseer (11) to attack Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (11).
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Damage: Inspiring Overseer (11) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck2 cast Inspiring Overseer (10)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen7_Deck2 triggered Inspiring Overseer (10)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (10)]
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Land: Ai(2)-Gen7_Deck3 played Plains (97)
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Land: Ai(1)-Gen7_Deck2 played Plains (13)
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (13) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck2 cast Claws Out (57)
+Resolve stack: Claws Out (57) - Creatures you control get +2/+2 until end of turn.
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 assigned Inspiring Overseer (11) and Inspiring Overseer (10) to attack Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (10).
+Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (11).
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Damage: Inspiring Overseer (11) deals 4 combat damage to Ai(2)-Gen7_Deck3.
+Damage: Inspiring Overseer (10) deals 4 combat damage to Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Land: Ai(2)-Gen7_Deck3 played Swamp (73)
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 assigned Burglar Rat (120) and Healer's Hawk (117) to attack Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck2 didn't block Healer's Hawk (117).
+Ai(1)-Gen7_Deck2 didn't block Burglar Rat (120).
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Damage: Burglar Rat (120) deals 1 combat damage to Ai(1)-Gen7_Deck2.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Land: Ai(1)-Gen7_Deck2 played Plains (16)
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 assigned Inspiring Overseer (11) and Inspiring Overseer (10) to attack Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (10).
+Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (11).
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Damage: Inspiring Overseer (11) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Damage: Inspiring Overseer (10) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Land: Ai(2)-Gen7_Deck3 played Plains (102)
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 assigned Burglar Rat (120) and Healer's Hawk (117) to attack Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck2 didn't block Healer's Hawk (117).
+Ai(1)-Gen7_Deck2 didn't block Burglar Rat (120).
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Damage: Burglar Rat (120) deals 1 combat damage to Ai(1)-Gen7_Deck2.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck2.
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 assigned Inspiring Overseer (11) and Inspiring Overseer (10) to attack Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (10).
+Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (11).
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Damage: Inspiring Overseer (11) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Damage: Inspiring Overseer (10) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck2 cast Ajani's Pridemate (30)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Land: Ai(2)-Gen7_Deck3 played Swamp (69)
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 assigned Inspiring Overseer (11), Inspiring Overseer (10) and Ajani's Pridemate (30) to attack Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (10).
+Ai(2)-Gen7_Deck3 assigned Healer's Hawk (117) to block Inspiring Overseer (11).
+Ai(2)-Gen7_Deck3 assigned Burglar Rat (120) to block Ajani's Pridemate (30).
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Damage: Inspiring Overseer (11) deals 2 damage () to Healer's Hawk (117).
+Damage: Inspiring Overseer (10) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Damage: Ajani's Pridemate (30) deals 2 damage () to Burglar Rat (120).
+Damage: Healer's Hawk (117) deals 1 damage () to Inspiring Overseer (11).
+Damage: Burglar Rat (120) deals 1 damage () to Ajani's Pridemate (30).
+Phase: Ai(1)-Gen7_Deck2's End of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck2 cast Ajani's Pridemate (31)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck2's End step
+Phase: Ai(1)-Gen7_Deck2's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen7_Deck3)
+Phase: Ai(2)-Gen7_Deck3's Untap step
+Phase: Ai(2)-Gen7_Deck3's Upkeep step
+Phase: Ai(2)-Gen7_Deck3's Draw step
+Phase: Ai(2)-Gen7_Deck3's Main phase, precombat
+Land: Ai(2)-Gen7_Deck3 played Plains (95)
+Phase: Ai(2)-Gen7_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck3's End of Combat Step
+Phase: Ai(2)-Gen7_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck3's End step
+Phase: Ai(2)-Gen7_Deck3's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen7_Deck2)
+Phase: Ai(1)-Gen7_Deck2's Untap step
+Phase: Ai(1)-Gen7_Deck2's Upkeep step
+Phase: Ai(1)-Gen7_Deck2's Draw step
+Phase: Ai(1)-Gen7_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck2 assigned Inspiring Overseer (10), Ajani's Pridemate (30) and Ajani's Pridemate (31) to attack Ai(2)-Gen7_Deck3.
+Phase: Ai(1)-Gen7_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck3 didn't block Inspiring Overseer (10).
+Ai(2)-Gen7_Deck3 didn't block Ajani's Pridemate (30).
+Ai(2)-Gen7_Deck3 didn't block Ajani's Pridemate (31).
+Phase: Ai(1)-Gen7_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck2's Combat Damage Step
+Damage: Inspiring Overseer (10) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Damage: Ajani's Pridemate (30) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Damage: Ajani's Pridemate (31) deals 2 combat damage to Ai(2)-Gen7_Deck3.
+Player control: Ai(1)-Gen7_Deck2 is controlled by Ai(1)-Gen7_Deck2
+Player control: Ai(2)-Gen7_Deck3 is controlled by Ai(2)-Gen7_Deck3
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen7_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen7_Deck3 has lost because life total reached 0
+Match result: Ai(1)-Gen7_Deck2: 1 Ai(2)-Gen7_Deck3: 0 
+
+Game Result: Game 1 ended in 18513 ms. Ai(1)-Gen7_Deck2 has won!
+
+
+=== STDERR ===

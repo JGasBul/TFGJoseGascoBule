@@ -1,0 +1,494 @@
+=== COMBATE PARALELO: Gen7_Deck10 vs Gen7_Deck29 ===
+Worker ID: 3209160
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck10 Gen7_Deck29 -n 1
+Duración: 51.83 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3301 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 107 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck10 vs Ai(2)-Gen7_Deck29 - one game of Constructed
+Mulligan: Ai(2)-Gen7_Deck29 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen7_Deck10 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Land: Ai(2)-Gen7_Deck29 played Plains (92)
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen7_Deck29's End step
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Land: Ai(1)-Gen7_Deck10 played Plains (19)
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck10's End of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Main phase, postcombat
+Mana: Plains (19) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck10 cast Healer's Hawk (58)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen7_Deck10's End step
+Phase: Ai(1)-Gen7_Deck10's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Land: Ai(2)-Gen7_Deck29 played Plains (100)
+Add to stack: Ai(2)-Gen7_Deck29 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (100)]
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 cast Charming Prince (106)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (106)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (106)]
+Phase: Ai(2)-Gen7_Deck29's End step
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Land: Ai(1)-Gen7_Deck10 played Swamp (52)
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 assigned Healer's Hawk (58) to attack Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck29 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's End of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Main phase, postcombat
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Swamp (52) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck10 cast Knight of Grace (16)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck10's End step
+Phase: Ai(1)-Gen7_Deck10's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Land: Ai(2)-Gen7_Deck29 played Plains (89)
+Add to stack: Ai(2)-Gen7_Deck29 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (89)]
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 activated Adventuring Gear (61) targeting [Charming Prince (106)]
+Resolve stack: Adventuring Gear (61) -  Attach to Charming Prince (106)
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 cast Charming Prince (105)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (106)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (105)]
+Phase: Ai(2)-Gen7_Deck29's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (106)]) [Phase: Ai(2)-Gen7_Deck29]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (106)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (105)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (106)]
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Land: Ai(1)-Gen7_Deck10 played Plains (33)
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 assigned Knight of Grace (16) and Healer's Hawk (58) to attack Ai(2)-Gen7_Deck29.
+Mana: Swamp (52) - {T}: Add {B}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck10 cast Mortify (10) targeting [Charming Prince (106)]
+Resolve stack: Mortify (10) - Destroy Charming Prince (106).
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck29 didn't block Knight of Grace (16).
+Ai(2)-Gen7_Deck29 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Damage: Knight of Grace (16) deals 2 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's End of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck10's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (106)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (105)]) [Phase: Ai(1)-Gen7_Deck10]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (105)]
+Phase: Ai(1)-Gen7_Deck10's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Land: Ai(2)-Gen7_Deck29 played Plains (94)
+Add to stack: Ai(2)-Gen7_Deck29 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (94)]
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 activated Adventuring Gear (61) targeting [Charming Prince (105)]
+Resolve stack: Adventuring Gear (61) -  Attach to Charming Prince (105)
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 assigned Charming Prince (105) to attack Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck10 didn't block Charming Prince (105).
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Damage: Charming Prince (105) deals 2 combat damage to Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 cast Charming Prince (104)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (105)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (104)]
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 cast Healer's Hawk (114)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen7_Deck29's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (105)]) [Phase: Ai(2)-Gen7_Deck29]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (104)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (105)]
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Land: Ai(1)-Gen7_Deck10 played Plains (31)
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 assigned Knight of Grace (16) to attack Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck29 didn't block Knight of Grace (16).
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Damage: Knight of Grace (16) deals 2 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck10's End of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Main phase, postcombat
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Swamp (52) - {T}: Add {B}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck10 cast Release the Dogs (42)
+Resolve stack: Release the Dogs (42) - Ai(1)-Gen7_Deck10 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen7_Deck10's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (104)]) [Phase: Ai(1)-Gen7_Deck10]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (105)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (104)]
+Phase: Ai(1)-Gen7_Deck10's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Land: Ai(2)-Gen7_Deck29 played Plains (86)
+Add to stack: Ai(2)-Gen7_Deck29 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (86)]
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 activated Adventuring Gear (61) targeting [Charming Prince (104)]
+Resolve stack: Adventuring Gear (61) -  Attach to Charming Prince (104)
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 assigned Charming Prince (104) to attack Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck10 didn't block Charming Prince (104).
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Damage: Charming Prince (104) deals 2 combat damage to Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 cast Healer's Hawk (113)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen7_Deck29's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (105)]) [Phase: Ai(2)-Gen7_Deck29]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (104)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (105)]
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 assigned Knight of Grace (16) and Healer's Hawk (58) to attack Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck29 didn't block Knight of Grace (16).
+Ai(2)-Gen7_Deck29 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Damage: Knight of Grace (16) deals 2 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's End of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Main phase, postcombat
+Mana: Swamp (52) - {T}: Add {B}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck10 cast Vampire Spawn (44)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(1)-Gen7_Deck10 triggered Vampire Spawn (44)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (44)]
+Phase: Ai(1)-Gen7_Deck10's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (104)]) [Phase: Ai(1)-Gen7_Deck10]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (105)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (104)]
+Phase: Ai(1)-Gen7_Deck10's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 activated Adventuring Gear (61) targeting [Charming Prince (104)]
+Resolve stack: Adventuring Gear (61) -  Attach to Charming Prince (104)
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 assigned Healer's Hawk (114) and Healer's Hawk (113) to attack Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck10 didn't block Healer's Hawk (113).
+Ai(1)-Gen7_Deck10 didn't block Healer's Hawk (114).
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Damage: Healer's Hawk (114) deals 1 combat damage to Ai(1)-Gen7_Deck10.
+Damage: Healer's Hawk (113) deals 1 combat damage to Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck29's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (105)]) [Phase: Ai(2)-Gen7_Deck29]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (104)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (105)]
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Land: Ai(1)-Gen7_Deck10 played Plains (28)
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 assigned Knight of Grace (16), Vampire Spawn (44) and Healer's Hawk (58) to attack Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck29 didn't block Knight of Grace (16).
+Ai(2)-Gen7_Deck29 didn't block Healer's Hawk (58).
+Ai(2)-Gen7_Deck29 didn't block Vampire Spawn (44).
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Damage: Knight of Grace (16) deals 3 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Damage: Vampire Spawn (44) deals 2 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's End of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Main phase, postcombat
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Swamp (52) - {T}: Add {B}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck10 cast Release the Dogs (41)
+Resolve stack: Release the Dogs (41) - Ai(1)-Gen7_Deck10 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen7_Deck10's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (104)]) [Phase: Ai(1)-Gen7_Deck10]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (105)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (104)]
+Phase: Ai(1)-Gen7_Deck10's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Land: Ai(2)-Gen7_Deck29 played Plains (90)
+Add to stack: Ai(2)-Gen7_Deck29 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (90)]
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 activated Adventuring Gear (61) targeting [Charming Prince (104)]
+Resolve stack: Adventuring Gear (61) -  Attach to Charming Prince (104)
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 assigned Charming Prince (104) to attack Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck10 didn't block Charming Prince (104).
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Damage: Charming Prince (104) deals 2 combat damage to Ai(1)-Gen7_Deck10.
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck29's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (105)]) [Phase: Ai(2)-Gen7_Deck29]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (104)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (105)]
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 assigned Knight of Grace (16), Vampire Spawn (44), Healer's Hawk (58), Dog Token (125), Dog Token (126), Dog Token (127), Dog Token (128), Dog Token (134), Dog Token (135), Dog Token (136) and Dog Token (137) to attack Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck29 assigned Healer's Hawk (114) to block Knight of Grace (16).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (128).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (134).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (135).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (136).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (137).
+Ai(2)-Gen7_Deck29 didn't block Healer's Hawk (58).
+Ai(2)-Gen7_Deck29 assigned Healer's Hawk (113) to block Vampire Spawn (44).
+Ai(2)-Gen7_Deck29 assigned Charming Prince (105) to block Dog Token (125).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (126).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (127).
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Damage: Knight of Grace (16) deals 3 damage () to Healer's Hawk (114).
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Damage: Vampire Spawn (44) deals 2 damage () to Healer's Hawk (113).
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (125) deals 1 damage () to Charming Prince (105).
+Damage: Dog Token (126) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (127) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (134) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (135) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (136) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (137) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Charming Prince (105) deals 2 damage () to Dog Token (125).
+Damage: Healer's Hawk (113) deals 1 damage () to Vampire Spawn (44).
+Phase: Ai(1)-Gen7_Deck10's End of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Main phase, postcombat
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Swamp (52) - {T}: Add {B}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck10 cast Release the Dogs (43)
+Resolve stack: Release the Dogs (43) - Ai(1)-Gen7_Deck10 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen7_Deck10's End step
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (105)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (104)]) [Phase: Ai(1)-Gen7_Deck10]
+Add to stack: Ai(2)-Gen7_Deck29 triggered Charming Prince (104)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (104)]
+Phase: Ai(1)-Gen7_Deck10's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen7_Deck29)
+Phase: Ai(2)-Gen7_Deck29's Untap step
+Phase: Ai(2)-Gen7_Deck29's Upkeep step
+Phase: Ai(2)-Gen7_Deck29's Draw step
+Phase: Ai(2)-Gen7_Deck29's Main phase, precombat
+Land: Ai(2)-Gen7_Deck29 played Plains (91)
+Add to stack: Ai(2)-Gen7_Deck29 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (91)]
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck29 activated Adventuring Gear (61) targeting [Charming Prince (105)]
+Resolve stack: Adventuring Gear (61) -  Attach to Charming Prince (105)
+Phase: Ai(2)-Gen7_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck29's End of Combat Step
+Phase: Ai(2)-Gen7_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck29's End step
+Phase: Ai(2)-Gen7_Deck29's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen7_Deck10)
+Phase: Ai(1)-Gen7_Deck10's Untap step
+Phase: Ai(1)-Gen7_Deck10's Upkeep step
+Phase: Ai(1)-Gen7_Deck10's Draw step
+Phase: Ai(1)-Gen7_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck10 assigned Knight of Grace (16), Vampire Spawn (44), Healer's Hawk (58), Dog Token (126), Dog Token (127), Dog Token (128), Dog Token (134), Dog Token (135), Dog Token (136), Dog Token (137), Dog Token (142), Dog Token (143), Dog Token (144) and Dog Token (145) to attack Ai(2)-Gen7_Deck29.
+Phase: Ai(1)-Gen7_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck29 didn't block Dog Token (128).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (134).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (135).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (136).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (137).
+Ai(2)-Gen7_Deck29 assigned Charming Prince (104) to block Vampire Spawn (44).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (142).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (143).
+Ai(2)-Gen7_Deck29 assigned Charming Prince (105) to block Knight of Grace (16).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (144).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (145).
+Ai(2)-Gen7_Deck29 didn't block Healer's Hawk (58).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (126).
+Ai(2)-Gen7_Deck29 didn't block Dog Token (127).
+Phase: Ai(1)-Gen7_Deck10's First Strike Damage Step
+Damage: Knight of Grace (16) deals 3 damage () to Charming Prince (105).
+Phase: Ai(1)-Gen7_Deck10's Combat Damage Step
+Damage: Vampire Spawn (44) deals 2 damage () to Charming Prince (104).
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (126) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (127) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (134) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (135) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (136) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (137) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (142) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (143) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (144) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Dog Token (145) deals 1 combat damage to Ai(2)-Gen7_Deck29.
+Damage: Charming Prince (104) deals 2 damage () to Vampire Spawn (44).
+Player control: Ai(1)-Gen7_Deck10 is controlled by Ai(1)-Gen7_Deck10
+Player control: Ai(2)-Gen7_Deck29 is controlled by Ai(2)-Gen7_Deck29
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen7_Deck10 has won because all opponents have lost
+Game outcome: Ai(2)-Gen7_Deck29 has lost because life total reached 0
+Match result: Ai(1)-Gen7_Deck10: 1 Ai(2)-Gen7_Deck29: 0 
+
+Game Result: Game 1 ended in 33585 ms. Ai(1)-Gen7_Deck10 has won!
+
+
+=== STDERR ===
