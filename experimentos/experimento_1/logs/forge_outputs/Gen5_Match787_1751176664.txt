@@ -1,0 +1,473 @@
+=== COMBATE PARALELO: Gen5_Deck20 vs Gen5_Deck24 ===
+Worker ID: 2818998
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck20 Gen5_Deck24 -n 1
+Duración: 44.14 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2310 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 99 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck20 vs Ai(2)-Gen5_Deck24 - one game of Constructed
+Mulligan: Ai(1)-Gen5_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen5_Deck24 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen5_Deck20 played Secluded Courtyard (47)
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Mana: Secluded Courtyard (47) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Add to stack: Ai(1)-Gen5_Deck20 cast Diregraf Ghoul (45)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck20's End step
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Land: Ai(2)-Gen5_Deck24 played Island (82)
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck24 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 assigned Diregraf Ghoul (45) to attack Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck24 didn't block Diregraf Ghoul (45).
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Damage: Diregraf Ghoul (45) deals 2 combat damage to Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck20 played Forest (11)
+Phase: Ai(1)-Gen5_Deck20's End step
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Land: Ai(2)-Gen5_Deck24 played Rogue's Passage (100)
+Add to stack: Ai(2)-Gen5_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Rogue's Passage (100)]
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Mana: Island (82) - {T}: Add {U}.
+Mana: Rogue's Passage (100) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck24 cast Mazemind Tome (111)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Land: Ai(1)-Gen5_Deck20 played Swamp (39)
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (111)
+Resolve stack: Ai(2)-Gen5_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen5_Deck24 scries 1.
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 assigned Diregraf Ghoul (45) to attack Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck24 didn't block Diregraf Ghoul (45).
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Damage: Diregraf Ghoul (45) deals 2 combat damage to Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Forest (11) - {T}: Add {G}.
+Mana: Secluded Courtyard (47) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck20 cast Seeker's Folly (54)
+Discard: Ai(2)-Gen5_Deck24 discards Archway Angel (98).
+Discard: Ai(2)-Gen5_Deck24 discards Syr Alin, the Lion's Claw (95).
+Resolve stack: Seeker's Folly (54) -  Target opponent discards two cards. (Targeting: Ai(2)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck20's End step
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (111)
+Resolve stack: Ai(2)-Gen5_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen5_Deck24 scries 1.
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen5_Deck24 played Uncharted Haven (86)
+Add to stack: Ai(2)-Gen5_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Uncharted Haven (86)]
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Land: Ai(1)-Gen5_Deck20 played Swamp (37)
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 assigned Diregraf Ghoul (45) to attack Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck24 didn't block Diregraf Ghoul (45).
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Damage: Diregraf Ghoul (45) deals 2 combat damage to Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Forest (11) - {T}: Add {G}.
+Mana: Swamp (37) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck20 cast Seeker's Folly (53)
+Discard: Ai(2)-Gen5_Deck24 discards Healer's Hawk (114).
+Discard: Ai(2)-Gen5_Deck24 discards Charming Prince (89).
+Resolve stack: Seeker's Folly (53) -  Target opponent discards two cards. (Targeting: Ai(2)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck20's End step
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (111)
+Resolve stack: Ai(2)-Gen5_Deck24 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen5_Deck24 scries 1.
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Land: Ai(2)-Gen5_Deck24 played Mountain (117)
+Add to stack: Ai(2)-Gen5_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (117)]
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Mana: Uncharted Haven (86) - {T}: Add one mana of the chosen color.
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck24 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck24 activated Adventuring Gear (61) targeting [Giada, Font of Hope (119)]
+Resolve stack: Adventuring Gear (61) -  Attach to Giada, Font of Hope (119)
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Land: Ai(1)-Gen5_Deck20 played Swamp (38)
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Forest (11) - {T}: Add {G}.
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Secluded Courtyard (47) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck20 cast High-Society Hunter (1)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(1)-Gen5_Deck20's End step
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (111)
+Add to stack: Ai(2)-Gen5_Deck24 triggered Mazemind Tome (111)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen5_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen5_Deck24 scries 1.
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Mana: Island (82) - {T}: Add {U}.
+Mana: Uncharted Haven (86) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen5_Deck24 cast Mazemind Tome (112)
+Resolve stack: Mazemind Tome
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Rogue's Passage (100) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (112)
+Resolve stack: Mazemind Tome (112) - Ai(2)-Gen5_Deck24 draws a card.
+Land: Ai(2)-Gen5_Deck24 played Plains (81)
+Add to stack: Ai(2)-Gen5_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (81)]
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 assigned High-Society Hunter (1) and Diregraf Ghoul (45) to attack Ai(2)-Gen5_Deck24.
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (1)]
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Diregraf Ghoul (45)]
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck24 didn't block High-Society Hunter (1).
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Damage: High-Society Hunter (1) deals 6 combat damage to Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Mana: Forest (11) - {T}: Add {G}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Swamp (38) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck20 cast Cackling Prowler (13)
+Resolve stack: Cackling Prowler - Creature 4 / 3
+Phase: Ai(1)-Gen5_Deck20's End step
+Add to stack: Ai(1)-Gen5_Deck20 triggered Cackling Prowler (13)
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature. [Phase: Ai(1)-Gen5_Deck20]
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Mana: Island (82) - {T}: Add {U}.
+Mana: Uncharted Haven (86) - {T}: Add one mana of the chosen color.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (81) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck24 activated Rogue's Passage (100) targeting [Giada, Font of Hope (119)]
+Resolve stack: Rogue's Passage (100) - Giada, Font of Hope (119) can't be blocked this turn.
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 assigned Giada, Font of Hope (119) to attack Ai(1)-Gen5_Deck20.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck20 didn't block Giada, Font of Hope (119).
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen5_Deck20.
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (112)
+Resolve stack: Ai(2)-Gen5_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (112) - Ai(2)-Gen5_Deck24 scries 1.
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 assigned High-Society Hunter (1) and Cackling Prowler (13) to attack Ai(2)-Gen5_Deck24.
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (1)]
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Cackling Prowler (13)]
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck24 didn't block High-Society Hunter (1).
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Damage: High-Society Hunter (1) deals 7 combat damage to Ai(2)-Gen5_Deck24.
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Forest (11) - {T}: Add {G}.
+Mana: Swamp (37) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck20 cast Marauding Blight-Priest (22)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Secluded Courtyard (47) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck20 cast Burglar Rat (58)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen5_Deck20 triggered Burglar Rat (58)
+Discard: Ai(2)-Gen5_Deck24 discards Heroic Reinforcements (63).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (58)]
+Phase: Ai(1)-Gen5_Deck20's End step
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (112)
+Resolve stack: Ai(2)-Gen5_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (112) - Ai(2)-Gen5_Deck24 scries 1.
+Mana: Island (82) - {T}: Add {U}.
+Mana: Uncharted Haven (86) - {T}: Add one mana of the chosen color.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (81) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck24 activated Rogue's Passage (100) targeting [Giada, Font of Hope (119)]
+Resolve stack: Rogue's Passage (100) - Giada, Font of Hope (119) can't be blocked this turn.
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 assigned Giada, Font of Hope (119) to attack Ai(1)-Gen5_Deck20.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck20 didn't block Giada, Font of Hope (119).
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen5_Deck20.
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 assigned High-Society Hunter (1), Marauding Blight-Priest (22) and Burglar Rat (58) to attack Ai(2)-Gen5_Deck24.
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (1)]
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Burglar Rat (58)]
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck24 assigned Giada, Font of Hope (119) to block High-Society Hunter (1).
+Ai(2)-Gen5_Deck24 didn't block Marauding Blight-Priest (22).
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Damage: High-Society Hunter (1) deals 8 damage () to Giada, Font of Hope (119).
+Damage: Marauding Blight-Priest (22) deals 3 combat damage to Ai(2)-Gen5_Deck24.
+Damage: Giada, Font of Hope (119) deals 2 damage () to High-Society Hunter (1).
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Giada, Font of Hope (119)]
+Phase: Ai(1)-Gen5_Deck20's End of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck20 played Swamp (34)
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Forest (11) - {T}: Add {G}.
+Mana: Swamp (37) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck20 cast Marauding Blight-Priest (23)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Swamp (34) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck20 cast Zul Ashur, Lich Lord (7)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck20's End step
+Phase: Ai(1)-Gen5_Deck20's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen5_Deck24)
+Phase: Ai(2)-Gen5_Deck24's Untap step
+Phase: Ai(2)-Gen5_Deck24's Upkeep step
+Phase: Ai(2)-Gen5_Deck24's Draw step
+Phase: Ai(2)-Gen5_Deck24's Main phase, precombat
+Land: Ai(2)-Gen5_Deck24 played Plains (75)
+Add to stack: Ai(2)-Gen5_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (75)]
+Phase: Ai(2)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck24's End of Combat Step
+Phase: Ai(2)-Gen5_Deck24's Main phase, postcombat
+Mana: Island (82) - {T}: Add {U}.
+Mana: Uncharted Haven (86) - {T}: Add one mana of the chosen color.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck24 cast Burnished Hart (72)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck24 activated Mazemind Tome (112)
+Add to stack: Ai(2)-Gen5_Deck24 triggered Mazemind Tome (112)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (112) - Ai(2)-Gen5_Deck24 draws a card.
+Mana: Rogue's Passage (100) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck24 activated Adventuring Gear (61) targeting [Burnished Hart (72)]
+Resolve stack: Adventuring Gear (61) -  Attach to Burnished Hart (72)
+Phase: Ai(2)-Gen5_Deck24's End step
+Phase: Ai(2)-Gen5_Deck24's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen5_Deck20)
+Phase: Ai(1)-Gen5_Deck20's Untap step
+Phase: Ai(1)-Gen5_Deck20's Upkeep step
+Phase: Ai(1)-Gen5_Deck20's Draw step
+Phase: Ai(1)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck20 assigned High-Society Hunter (1), Marauding Blight-Priest (22), Marauding Blight-Priest (23) and Zul Ashur, Lich Lord (7) to attack Ai(2)-Gen5_Deck24.
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (1)]
+Add to stack: Ai(1)-Gen5_Deck20 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Marauding Blight-Priest (22)]
+Phase: Ai(1)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck24 didn't block High-Society Hunter (1).
+Ai(2)-Gen5_Deck24 assigned Burnished Hart (72) to block Marauding Blight-Priest (23).
+Ai(2)-Gen5_Deck24 didn't block Zul Ashur, Lich Lord (7).
+Phase: Ai(1)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck20's Combat Damage Step
+Damage: High-Society Hunter (1) deals 9 combat damage to Ai(2)-Gen5_Deck24.
+Damage: Marauding Blight-Priest (23) deals 3 damage () to Burnished Hart (72).
+Damage: Zul Ashur, Lich Lord (7) deals 2 combat damage to Ai(2)-Gen5_Deck24.
+Damage: Burnished Hart (72) deals 2 damage () to Marauding Blight-Priest (23).
+Player control: Ai(1)-Gen5_Deck20 is controlled by Ai(1)-Gen5_Deck20
+Player control: Ai(2)-Gen5_Deck24 is controlled by Ai(2)-Gen5_Deck24
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen5_Deck20 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck24 has lost because life total reached 0
+Match result: Ai(1)-Gen5_Deck20: 1 Ai(2)-Gen5_Deck24: 0 
+
+Game Result: Game 1 ended in 26950 ms. Ai(1)-Gen5_Deck20 has won!
+
+
+=== STDERR ===

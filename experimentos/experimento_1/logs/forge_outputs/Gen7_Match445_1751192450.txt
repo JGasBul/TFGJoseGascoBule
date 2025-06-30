@@ -1,0 +1,425 @@
+=== COMBATE PARALELO: Gen7_Deck8 vs Gen7_Deck27 ===
+Worker ID: 3209161
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck8 Gen7_Deck27 -n 1
+Duración: 45.13 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2673 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 66 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck8 vs Ai(2)-Gen7_Deck27 - one game of Constructed
+Player - trying to gain negative or 0 life
+Mulligan: Ai(1)-Gen7_Deck8 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen7_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Land: Ai(1)-Gen7_Deck8 played Plains (26)
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck8 cast Healer's Hawk (58)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen7_Deck27 played Maze's End (61)
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck27's End of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck27's End step
+Phase: Ai(2)-Gen7_Deck27's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 assigned Healer's Hawk (58) to attack Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck27 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen7_Deck8 played Maze's End (2)
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck8 cast Healer's Hawk (57)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Land: Ai(2)-Gen7_Deck27 played Plains (88)
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck27's End of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck27 cast Charming Prince (110)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck27 triggered Charming Prince (110)
+Resolve stack: Ai(2)-Gen7_Deck27 scried 2 card(s) to the top of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (110)]
+Phase: Ai(2)-Gen7_Deck27's End step
+Phase: Ai(2)-Gen7_Deck27's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Land: Ai(1)-Gen7_Deck8 played Crawling Barrens (37)
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 assigned Healer's Hawk (58) and Healer's Hawk (57) to attack Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck27 didn't block Healer's Hawk (57).
+Ai(2)-Gen7_Deck27 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck27.
+Damage: Healer's Hawk (57) deals 1 combat damage to Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Land: Ai(2)-Gen7_Deck27 played Swamp (73)
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 assigned Charming Prince (110) to attack Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck8 didn't block Charming Prince (110).
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Damage: Charming Prince (110) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's End of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Main phase, postcombat
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (88) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck27 cast Zul Ashur, Lich Lord (75)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen7_Deck27's End step
+Phase: Ai(2)-Gen7_Deck27's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Land: Ai(1)-Gen7_Deck8 played Plains (23)
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 assigned Healer's Hawk (58) and Healer's Hawk (57) to attack Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck27 didn't block Healer's Hawk (57).
+Ai(2)-Gen7_Deck27 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck27.
+Damage: Healer's Hawk (57) deals 1 combat damage to Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Land: Ai(2)-Gen7_Deck27 played Plains (99)
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 assigned Charming Prince (110) and Zul Ashur, Lich Lord (75) to attack Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck8 didn't block Zul Ashur, Lich Lord (75).
+Ai(1)-Gen7_Deck8 didn't block Charming Prince (110).
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Damage: Charming Prince (110) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Zul Ashur, Lich Lord (75) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's End of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck27 cast Ajani's Pridemate (104)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck27 cast Healer's Hawk (118)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen7_Deck27's End step
+Phase: Ai(2)-Gen7_Deck27's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Land: Ai(1)-Gen7_Deck8 played Plains (25)
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Maze's End (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck8 activated Crawling Barrens (37)
+Resolve stack: Crawling Barrens (37) - Ai(1)-Gen7_Deck8 puts two +1/+1 counters on Crawling Barrens (37). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 assigned Charming Prince (110), Zul Ashur, Lich Lord (75), Ajani's Pridemate (104) and Healer's Hawk (118) to attack Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck8 didn't block Healer's Hawk (118).
+Ai(1)-Gen7_Deck8 didn't block Ajani's Pridemate (104).
+Ai(1)-Gen7_Deck8 didn't block Zul Ashur, Lich Lord (75).
+Ai(1)-Gen7_Deck8 didn't block Charming Prince (110).
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Damage: Charming Prince (110) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Zul Ashur, Lich Lord (75) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Ajani's Pridemate (104) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Healer's Hawk (118) deals 1 combat damage to Ai(1)-Gen7_Deck8.
+Add to stack: Ai(2)-Gen7_Deck27 triggered Ajani's Pridemate (104)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen7_Deck27, Gained Amount: 1]
+Phase: Ai(2)-Gen7_Deck27's End of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Main phase, postcombat
+Land: Ai(2)-Gen7_Deck27 played Plains (102)
+Phase: Ai(2)-Gen7_Deck27's End step
+Phase: Ai(2)-Gen7_Deck27's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Maze's End (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck8 activated Crawling Barrens (37)
+Resolve stack: Crawling Barrens (37) - Ai(1)-Gen7_Deck8 puts two +1/+1 counters on Crawling Barrens (37). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 assigned Crawling Barrens (37), Healer's Hawk (58) and Healer's Hawk (57) to attack Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck27 didn't block Crawling Barrens (37).
+Ai(2)-Gen7_Deck27 didn't block Healer's Hawk (57).
+Ai(2)-Gen7_Deck27 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Damage: Crawling Barrens (37) deals 4 combat damage to Ai(2)-Gen7_Deck27.
+Damage: Healer's Hawk (58) deals 1 combat damage to Ai(2)-Gen7_Deck27.
+Damage: Healer's Hawk (57) deals 1 combat damage to Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Land: Ai(2)-Gen7_Deck27 played Plains (89)
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 assigned Ajani's Pridemate (104), Charming Prince (110), Zul Ashur, Lich Lord (75) and Healer's Hawk (118) to attack Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck8 didn't block Healer's Hawk (118).
+Ai(1)-Gen7_Deck8 didn't block Ajani's Pridemate (104).
+Ai(1)-Gen7_Deck8 didn't block Zul Ashur, Lich Lord (75).
+Ai(1)-Gen7_Deck8 didn't block Charming Prince (110).
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Damage: Ajani's Pridemate (104) deals 3 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Charming Prince (110) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Zul Ashur, Lich Lord (75) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Healer's Hawk (118) deals 1 combat damage to Ai(1)-Gen7_Deck8.
+Add to stack: Ai(2)-Gen7_Deck27 triggered Ajani's Pridemate (104)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen7_Deck27, Gained Amount: 1]
+Phase: Ai(2)-Gen7_Deck27's End of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck27 cast Steel Hellkite (103)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(2)-Gen7_Deck27's End step
+Phase: Ai(2)-Gen7_Deck27's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Maze's End (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck8 activated Crawling Barrens (37)
+Resolve stack: Crawling Barrens (37) - Ai(1)-Gen7_Deck8 puts two +1/+1 counters on Crawling Barrens (37). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 assigned Crawling Barrens (37) to attack Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck27 didn't block Crawling Barrens (37).
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Damage: Crawling Barrens (37) deals 6 combat damage to Ai(2)-Gen7_Deck27.
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 assigned Steel Hellkite (103), Ajani's Pridemate (104), Charming Prince (110), Zul Ashur, Lich Lord (75) and Healer's Hawk (118) to attack Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck8 didn't block Healer's Hawk (118).
+Ai(1)-Gen7_Deck8 assigned Healer's Hawk (58) to block Steel Hellkite (103).
+Ai(1)-Gen7_Deck8 assigned Healer's Hawk (57) to block Ajani's Pridemate (104).
+Ai(1)-Gen7_Deck8 didn't block Zul Ashur, Lich Lord (75).
+Ai(1)-Gen7_Deck8 didn't block Charming Prince (110).
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Damage: Steel Hellkite (103) deals 5 damage () to Healer's Hawk (58).
+Damage: Ajani's Pridemate (104) deals 4 damage () to Healer's Hawk (57).
+Damage: Charming Prince (110) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Zul Ashur, Lich Lord (75) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Healer's Hawk (118) deals 1 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Healer's Hawk (58) deals 1 damage () to Steel Hellkite (103).
+Damage: Healer's Hawk (57) deals 1 damage () to Ajani's Pridemate (104).
+Add to stack: Ai(2)-Gen7_Deck27 triggered Ajani's Pridemate (104)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen7_Deck27, Gained Amount: 1]
+Phase: Ai(2)-Gen7_Deck27's End of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck27 cast Scrawling Crawler (119)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Phase: Ai(2)-Gen7_Deck27's End step
+Phase: Ai(2)-Gen7_Deck27's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen7_Deck8)
+Phase: Ai(1)-Gen7_Deck8's Untap step
+Phase: Ai(1)-Gen7_Deck8's Upkeep step
+Phase: Ai(1)-Gen7_Deck8's Draw step
+Add to stack: Ai(2)-Gen7_Deck27 triggered Scrawling Crawler (119)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen7_Deck8]
+Phase: Ai(1)-Gen7_Deck8's Main phase, precombat
+Land: Ai(1)-Gen7_Deck8 played Plains (16)
+Phase: Ai(1)-Gen7_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck8's End of Combat Step
+Phase: Ai(1)-Gen7_Deck8's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Maze's End (2) - {T}: Add {C}.
+Mana: Crawling Barrens (37) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck8 cast Archway Angel (42)
+Resolve stack: Archway Angel - Creature 3 / 4
+Add to stack: Ai(1)-Gen7_Deck8 triggered Archway Angel (42)
+Resolve stack: When Archway Angel enters, you gain 2 life for each Gate you control. [Zone Changer: Archway Angel (42)]
+Phase: Ai(1)-Gen7_Deck8's End step
+Phase: Ai(1)-Gen7_Deck8's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen7_Deck27)
+Phase: Ai(2)-Gen7_Deck27's Untap step
+Phase: Ai(2)-Gen7_Deck27's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck27 triggered Scrawling Crawler (119)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(2)-Gen7_Deck27]
+Add to stack: Ai(2)-Gen7_Deck27 triggered Scrawling Crawler (119)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen7_Deck8]
+Phase: Ai(2)-Gen7_Deck27's Draw step
+Phase: Ai(2)-Gen7_Deck27's Main phase, precombat
+Land: Ai(2)-Gen7_Deck27 played Plains (100)
+Phase: Ai(2)-Gen7_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck27 assigned Ajani's Pridemate (104), Steel Hellkite (103), Scrawling Crawler (119), Charming Prince (110), Zul Ashur, Lich Lord (75) and Healer's Hawk (118) to attack Ai(1)-Gen7_Deck8.
+Phase: Ai(2)-Gen7_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck8 didn't block Healer's Hawk (118).
+Ai(1)-Gen7_Deck8 assigned Archway Angel (42) to block Steel Hellkite (103).
+Ai(1)-Gen7_Deck8 didn't block Scrawling Crawler (119).
+Ai(1)-Gen7_Deck8 didn't block Ajani's Pridemate (104).
+Ai(1)-Gen7_Deck8 didn't block Zul Ashur, Lich Lord (75).
+Ai(1)-Gen7_Deck8 didn't block Charming Prince (110).
+Phase: Ai(2)-Gen7_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck27's Combat Damage Step
+Damage: Ajani's Pridemate (104) deals 5 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Steel Hellkite (103) deals 5 damage () to Archway Angel (42).
+Damage: Scrawling Crawler (119) deals 3 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Charming Prince (110) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Zul Ashur, Lich Lord (75) deals 2 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Healer's Hawk (118) deals 1 combat damage to Ai(1)-Gen7_Deck8.
+Damage: Archway Angel (42) deals 3 damage () to Steel Hellkite (103).
+Player control: Ai(1)-Gen7_Deck8 is controlled by Ai(1)-Gen7_Deck8
+Player control: Ai(2)-Gen7_Deck27 is controlled by Ai(2)-Gen7_Deck27
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen7_Deck8 has lost because life total reached 0
+Game outcome: Ai(2)-Gen7_Deck27 has won because all opponents have lost
+Match result: Ai(1)-Gen7_Deck8: 0 Ai(2)-Gen7_Deck27: 1 
+
+Game Result: Game 1 ended in 28812 ms. Ai(2)-Gen7_Deck27 has won!
+
+
+=== STDERR ===

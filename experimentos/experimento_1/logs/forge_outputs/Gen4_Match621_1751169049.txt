@@ -1,0 +1,569 @@
+=== COMBATE PARALELO: Gen4_Deck13 vs Gen4_Deck25 ===
+Worker ID: 2621218
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck13 Gen4_Deck25 -n 1
+Duración: 131.67 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1838 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 31 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck13 vs Ai(2)-Gen4_Deck25 - one game of Constructed
+Stopping slow match as draw
+Mulligan: Ai(1)-Gen4_Deck13 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen4_Deck25 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Mountain (55)
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Plains (90)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Healer's Hawk (120)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Island (36)
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Mystic Archaeologist (6)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Land: Ai(2)-Gen4_Deck25 played Plains (95)
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Plains (26)
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 assigned Mystic Archaeologist (6) to attack Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (6).
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Damage: Mystic Archaeologist (6) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Evolving Wilds (85)
+Add to stack: Ai(2)-Gen4_Deck25 activated Evolving Wilds (85)
+Resolve stack: Evolving Wilds (85) - Ai(2)-Gen4_Deck25 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Cryptic Caves (2)
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 assigned Mystic Archaeologist (6) to attack Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Mystic Archaeologist (6).
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Damage: Mystic Archaeologist (6) deals 2 combat damage to Ai(2)-Gen4_Deck25.
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Evolving Wilds (84)
+Add to stack: Ai(2)-Gen4_Deck25 activated Evolving Wilds (84)
+Resolve stack: Evolving Wilds (84) - Ai(2)-Gen4_Deck25 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Burnished Hart (82)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Mountain (57)
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen4_Deck13 draws a card.
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Cat Collector (12)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen4_Deck13 triggered Cat Collector (12)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (12)]
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Evolving Wilds (86)
+Add to stack: Ai(2)-Gen4_Deck25 activated Evolving Wilds (86)
+Resolve stack: Evolving Wilds (86) - Ai(2)-Gen4_Deck25 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Swamp (69) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Squad Rallier (78)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Island (41)
+Mana: Island (36) - {T}: Add {U}.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Rite of Replication (20) targeting [Squad Rallier (78)]
+Resolve stack: Rite of Replication (20) - Ai(1)-Gen4_Deck13 creates a token that's a copy of Squad Rallier (78).
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Swamp (69) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Squad Rallier (79)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Plains (31)
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Release the Dogs (46)
+Resolve stack: Release the Dogs (46) - Ai(1)-Gen4_Deck13 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Ajani, Caller of the Pride (75)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen4_Deck25 activated Ajani, Caller of the Pride (75) targeting [Squad Rallier (78)]
+Resolve stack: Ajani, Caller of the Pride (75) - Ai(2)-Gen4_Deck25 puts a +1/+1 counter on Squad Rallier (78).
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Leonin Vanguard (111)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Mountain (53)
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Release the Dogs (45)
+Resolve stack: Release the Dogs (45) - Ai(1)-Gen4_Deck13 creates four 1/1 white Dog creature tokens.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Gleaming Barrier (15)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen4_Deck13's End step
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Plains (94)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Add to stack: Ai(2)-Gen4_Deck25 triggered Leonin Vanguard (111)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(2)-Gen4_Deck25]
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Squad Rallier (78) and Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Ai(1)-Gen4_Deck13 didn't block Squad Rallier (78).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Squad Rallier (78) deals 4 combat damage to Ai(1)-Gen4_Deck13.
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Add to stack: Ai(2)-Gen4_Deck25 activated Ajani, Caller of the Pride (75) targeting [Squad Rallier (78)]
+Resolve stack: Ajani, Caller of the Pride (75) - Ai(2)-Gen4_Deck25 puts a +1/+1 counter on Squad Rallier (78).
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Mountain (54)
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (36) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck13 activated Squad Rallier (130)
+Resolve stack: Squad Rallier (130) - Ai(1)-Gen4_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (41) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck13 activated Squad Rallier (130)
+Resolve stack: Squad Rallier (130) - Ai(1)-Gen4_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck13's End step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Squad Rallier (78)
+Resolve stack: Squad Rallier (78) - Ai(2)-Gen4_Deck25 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (69) - {T}: Add {B}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Squad Rallier (78)
+Resolve stack: Squad Rallier (78) - Ai(2)-Gen4_Deck25 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Land: Ai(2)-Gen4_Deck25 played Crawling Barrens (117)
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Add to stack: Ai(2)-Gen4_Deck25 triggered Leonin Vanguard (111)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(2)-Gen4_Deck25]
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Squad Rallier (78) and Healer's Hawk (120) to attack Ai(1)-Gen4_Deck13.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 activated Food Token (128)
+Resolve stack: Food Token (128) - Ai(1)-Gen4_Deck13 gains 3 life.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 didn't block Healer's Hawk (120).
+Ai(1)-Gen4_Deck13 didn't block Squad Rallier (78).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Squad Rallier (78) deals 5 combat damage to Ai(1)-Gen4_Deck13.
+Damage: Healer's Hawk (120) deals 1 combat damage to Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Add to stack: Ai(2)-Gen4_Deck25 activated Ajani, Caller of the Pride (75) targeting [Squad Rallier (78)]
+Resolve stack: Ajani, Caller of the Pride (75) - Ai(2)-Gen4_Deck25 puts a +1/+1 counter on Squad Rallier (78).
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Charming Prince (113)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen4_Deck25 triggered Charming Prince (113)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (113)]
+Phase: Ai(2)-Gen4_Deck25's End step
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Land: Ai(1)-Gen4_Deck13 played Plains (29)
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Giada, Font of Hope (59)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 activated Squad Rallier (130)
+Resolve stack: Squad Rallier (130) - Ai(1)-Gen4_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 activated Squad Rallier (130)
+Resolve stack: Squad Rallier (130) - Ai(1)-Gen4_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen4_Deck13's End step
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Swamp (69) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Squad Rallier (78)
+Resolve stack: Squad Rallier (78) - Ai(2)-Gen4_Deck25 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck25's Beginning of Combat Step
+Add to stack: Ai(2)-Gen4_Deck25 triggered Leonin Vanguard (111)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(2)-Gen4_Deck25]
+Phase: Ai(2)-Gen4_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck25 assigned Squad Rallier (78) to attack Ai(1)-Gen4_Deck13.
+Phase: Ai(2)-Gen4_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck13 assigned Dog Token (135) to block Squad Rallier (78).
+Phase: Ai(2)-Gen4_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck25's Combat Damage Step
+Damage: Squad Rallier (78) deals 6 damage () to Dog Token (135).
+Damage: Dog Token (135) deals 1 damage () to Squad Rallier (78).
+Phase: Ai(2)-Gen4_Deck25's End of Combat Step
+Phase: Ai(2)-Gen4_Deck25's Main phase, postcombat
+Add to stack: Ai(2)-Gen4_Deck25 activated Ajani, Caller of the Pride (75) targeting [Squad Rallier (78)]
+Resolve stack: Ajani, Caller of the Pride (75) - Ai(2)-Gen4_Deck25 puts a +1/+1 counter on Squad Rallier (78).
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Charming Prince (112)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen4_Deck25 triggered Charming Prince (112)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (113)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (112)]
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck25 cast Healer's Hawk (119)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen4_Deck25's End step
+Add to stack: Ai(2)-Gen4_Deck25 triggered Charming Prince (112)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (113)]) [Phase: Ai(2)-Gen4_Deck25]
+Add to stack: Ai(2)-Gen4_Deck25 triggered Charming Prince (113)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (112)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (113)]
+Phase: Ai(2)-Gen4_Deck25's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen4_Deck13)
+Phase: Ai(1)-Gen4_Deck13's Untap step
+Phase: Ai(1)-Gen4_Deck13's Upkeep step
+Phase: Ai(1)-Gen4_Deck13's Draw step
+Phase: Ai(1)-Gen4_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck13 assigned Giada, Font of Hope (59) to attack Ajani, Caller of the Pride (75).
+Phase: Ai(1)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck25 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck13's End of Combat Step
+Phase: Ai(1)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (36) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Cat Collector (13)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen4_Deck13 triggered Cat Collector (13)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (13)]
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 cast Ajani's Pridemate (33)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck13 activated Squad Rallier (130)
+Resolve stack: Squad Rallier (130) - Ai(1)-Gen4_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen4_Deck13's End step
+Add to stack: Ai(2)-Gen4_Deck25 triggered Charming Prince (113)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (112)]) [Phase: Ai(1)-Gen4_Deck13]
+Add to stack: Ai(2)-Gen4_Deck25 triggered Charming Prince (112)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (112)]
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Swamp (69) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck25 activated Squad Rallier (78)
+Resolve stack: Squad Rallier (78) - Ai(2)-Gen4_Deck25 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen4_Deck13's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen4_Deck25)
+Phase: Ai(2)-Gen4_Deck25's Untap step
+Phase: Ai(2)-Gen4_Deck25's Upkeep step
+Phase: Ai(2)-Gen4_Deck25's Draw step
+Phase: Ai(2)-Gen4_Deck25's Main phase, precombat
+Player control: Ai(1)-Gen4_Deck13 is controlled by Ai(1)-Gen4_Deck13
+Player control: Ai(2)-Gen4_Deck25 is controlled by Ai(2)-Gen4_Deck25
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen4_Deck13 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck25 has won because all opponents have lost
+Match result: Ai(1)-Gen4_Deck13: 1 Ai(2)-Gen4_Deck25: 0 
+
+Game Result: Game 1 ended in 120226 ms. Ai(1)-Gen4_Deck13 has won!
+
+
+=== STDERR ===

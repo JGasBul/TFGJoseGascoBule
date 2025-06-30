@@ -1,0 +1,383 @@
+=== COMBATE PARALELO: Gen0_Deck7 vs Gen0_Deck27 ===
+Worker ID: 1832525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck7 Gen0_Deck27 -n 1
+Duración: 40.87 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3055 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 63 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck7 vs Ai(2)-Gen0_Deck27 - one game of Constructed
+Vampire Interloper Did not have activator set in SpellAbilityRestriction.canPlay()
+Mulligan: Ai(1)-Gen0_Deck7 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Rogue's Passage (7)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Land: Ai(2)-Gen0_Deck27 played Forest (75)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Rogue's Passage (6)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen0_Deck27 played Temple of Epiphany (119)
+Add to stack: Ai(2)-Gen0_Deck27 triggered Temple of Epiphany (119)
+Resolve stack: Ai(2)-Gen0_Deck27 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (119)]
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Plains (26)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Rogue's Passage (7) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Hare Apparent (17)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck7 triggered Hare Apparent (17)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (17)]
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Replacement Effect: Simic Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck27 played Simic Guildgate (86)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Forest (75) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Kitesail Corsair (93)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Swamp (12)
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Hare Apparent (18)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck7 triggered Hare Apparent (18)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (18)]
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Land: Ai(2)-Gen0_Deck27 played Forest (73)
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Simic Guildgate (86) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Bigfin Bouncer (114)
+Resolve stack: Bigfin Bouncer - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck27 triggered Bigfin Bouncer (114) targeting [Rabbit Token (127)]
+Resolve stack: When this creature enters, return target creature an opponent controls to its owner's hand. (Targeting: [[Rabbit Token (127)]]) [Zone Changer: Bigfin Bouncer (114)]
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Soulstone Sanctuary (43)
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Rogue's Passage (6) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Rogue's Passage (7) targeting [Hare Apparent (17)]
+Resolve stack: Rogue's Passage (7) - Hare Apparent (17) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Hare Apparent (17) to attack Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Hare Apparent (17).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Hare Apparent (17) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 assigned Kitesail Corsair (93) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Kitesail Corsair (93).
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Damage: Kitesail Corsair (93) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Simic Guildgate (86) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Bigfin Bouncer (113)
+Resolve stack: Bigfin Bouncer - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck27 triggered Bigfin Bouncer (113) targeting [Hare Apparent (18)]
+Resolve stack: When this creature enters, return target creature an opponent controls to its owner's hand. (Targeting: [[Hare Apparent (18)]]) [Zone Changer: Bigfin Bouncer (113)]
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Rogue's Passage (6) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Rogue's Passage (7) targeting [Hare Apparent (17)]
+Resolve stack: Rogue's Passage (7) - Hare Apparent (17) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Plains (32)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Hare Apparent (17) to attack Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck27 didn't block Hare Apparent (17).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Hare Apparent (17) deals 2 combat damage to Ai(2)-Gen0_Deck27.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Imperious Perfect (91)
+Resolve stack: Imperious Perfect - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 assigned Bigfin Bouncer (114), Bigfin Bouncer (113) and Kitesail Corsair (93) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Bigfin Bouncer (113).
+Ai(1)-Gen0_Deck7 didn't block Bigfin Bouncer (114).
+Ai(1)-Gen0_Deck7 didn't block Kitesail Corsair (93).
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Damage: Bigfin Bouncer (114) deals 3 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Bigfin Bouncer (113) deals 3 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Kitesail Corsair (93) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Rogue's Passage (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Rogue's Passage (7) targeting [Hare Apparent (17)]
+Resolve stack: Rogue's Passage (7) - Hare Apparent (17) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Demolition Field (51)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Land: Ai(2)-Gen0_Deck27 played Cryptic Caves (61)
+Mana: Forest (75) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck27 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen0_Deck27 draws a card.
+Phase: Ai(2)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck27 assigned Bigfin Bouncer (114), Bigfin Bouncer (113), Kitesail Corsair (93) and Imperious Perfect (91) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Bigfin Bouncer (113).
+Ai(1)-Gen0_Deck7 assigned Hare Apparent (17) to block Bigfin Bouncer (114).
+Ai(1)-Gen0_Deck7 didn't block Imperious Perfect (91).
+Ai(1)-Gen0_Deck7 didn't block Kitesail Corsair (93).
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Forest (73) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Sure Strike (67) targeting [Bigfin Bouncer (114)]
+Resolve stack: Sure Strike (67) - Bigfin Bouncer (114) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen0_Deck27's First Strike Damage Step
+Damage: Bigfin Bouncer (114) deals 6 damage () to Hare Apparent (17).
+Phase: Ai(2)-Gen0_Deck27's Combat Damage Step
+Damage: Bigfin Bouncer (113) deals 3 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Kitesail Corsair (93) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Imperious Perfect (91) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck27's End of Combat Step
+Phase: Ai(2)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck27's End step
+Phase: Ai(2)-Gen0_Deck27's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Rogue's Passage (7) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Soulstone Sanctuary (43)
+Resolve stack: Soulstone Sanctuary (43) - Soulstone Sanctuary (43) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Mana: Rogue's Passage (6) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Demolition Field (51) targeting [Temple of Epiphany (119)]
+Resolve stack: Demolition Field (51) - Destroy Temple of Epiphany (119). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck7 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Plains (31)
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Swamp (8) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Hare Apparent (18)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck7 triggered Hare Apparent (18)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (18)]
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck27)
+Phase: Ai(2)-Gen0_Deck27's Untap step
+Phase: Ai(2)-Gen0_Deck27's Upkeep step
+Phase: Ai(2)-Gen0_Deck27's Draw step
+Phase: Ai(2)-Gen0_Deck27's Main phase, precombat
+Land: Ai(2)-Gen0_Deck27 played Mountain (117)
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck27 cast Boltwave (92)
+Damage: Boltwave (92) deals 3 non-combat damage to Ai(1)-Gen0_Deck7.
+Resolve stack: Boltwave (92) - Boltwave (92) deals 3 damage to Ai(1)-Gen0_Deck7.
+Player control: Ai(1)-Gen0_Deck7 is controlled by Ai(1)-Gen0_Deck7
+Player control: Ai(2)-Gen0_Deck27 is controlled by Ai(2)-Gen0_Deck27
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck7 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck27 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck7: 0 Ai(2)-Gen0_Deck27: 1 
+
+Game Result: Game 1 ended in 21961 ms. Ai(2)-Gen0_Deck27 has won!
+
+
+=== STDERR ===

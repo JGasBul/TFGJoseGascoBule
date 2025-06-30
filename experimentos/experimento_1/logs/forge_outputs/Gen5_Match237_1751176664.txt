@@ -1,0 +1,635 @@
+=== COMBATE PARALELO: Gen5_Deck4 vs Gen5_Deck13 ===
+Worker ID: 2818999
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck4 Gen5_Deck13 -n 1
+Duración: 95.39 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2819 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 96 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck4 vs Ai(2)-Gen5_Deck13 - one game of Constructed
+Mulligan: Ai(1)-Gen5_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen5_Deck13 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Swamp (23)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Island (80)
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Island (44)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck4 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Island (81)
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Mazemind Tome (109)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck13 activated Mazemind Tome (109)
+Resolve stack: Ai(2)-Gen5_Deck13 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (109) - Ai(2)-Gen5_Deck13 scries 1.
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Soulstone Sanctuary (58)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck4 cast Seeker's Folly (56)
+Discard: Ai(2)-Gen5_Deck13 discards Archway Angel (92).
+Discard: Ai(2)-Gen5_Deck13 discards Painful Quandary (110).
+Resolve stack: Seeker's Folly (56) -  Target opponent discards two cards. (Targeting: Ai(2)-Gen5_Deck13)
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Evolving Wilds (98)
+Add to stack: Ai(2)-Gen5_Deck13 activated Evolving Wilds (98)
+Resolve stack: Evolving Wilds (98) - Ai(2)-Gen5_Deck13 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck13 activated Mazemind Tome (109)
+Resolve stack: Mazemind Tome (109) - Ai(2)-Gen5_Deck13 draws a card.
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Swamp (33)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck4 cast Reassembling Skeleton (55)
+Resolve stack: Reassembling Skeleton - Creature 1 / 1
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Mountain (119)
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Burnished Hart (73)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Island (45)
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck4 activated Soulstone Sanctuary (58)
+Resolve stack: Soulstone Sanctuary (58) - Soulstone Sanctuary (58) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Add to stack: Ai(2)-Gen5_Deck13 activated Mazemind Tome (109)
+Resolve stack: Ai(2)-Gen5_Deck13 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (109) - Ai(2)-Gen5_Deck13 scries 1.
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 assigned Soulstone Sanctuary (58) to attack Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck13 didn't block Soulstone Sanctuary (58).
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Damage: Soulstone Sanctuary (58) deals 3 combat damage to Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck13 activated Mazemind Tome (109)
+Add to stack: Ai(2)-Gen5_Deck13 triggered Mazemind Tome (109)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen5_Deck13 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (109) - Ai(2)-Gen5_Deck13 scries 1.
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Plains (74)
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Healer's Hawk (116)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Swamp (22)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 assigned Soulstone Sanctuary (58) to attack Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck13 didn't block Soulstone Sanctuary (58).
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Damage: Soulstone Sanctuary (58) deals 3 combat damage to Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck4's End step
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Disenchant (61) targeting [Gleaming Barrier (18)]
+Resolve stack: Disenchant (61) - Destroy Gleaming Barrier (18).
+Add to stack: Ai(1)-Gen5_Deck4 triggered Gleaming Barrier (18)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (18)]
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Evolving Wilds (101)
+Add to stack: Ai(2)-Gen5_Deck13 activated Evolving Wilds (101)
+Resolve stack: Evolving Wilds (101) - Ai(2)-Gen5_Deck13 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Healer's Hawk (116) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 didn't block Healer's Hawk (116).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Healer's Hawk (116) deals 1 combat damage to Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Swamp (28)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 assigned Soulstone Sanctuary (58) to attack Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck13 didn't block Soulstone Sanctuary (58).
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Damage: Soulstone Sanctuary (58) deals 3 combat damage to Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (33) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck4 cast Marauding Blight-Priest (17)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Healer's Hawk (116) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 didn't block Healer's Hawk (116).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Healer's Hawk (116) deals 1 combat damage to Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Swamp (94) - {T}: Add {B}.
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Seeker's Folly (115)
+Discard: Ai(1)-Gen5_Deck4 discards Uncharted Haven (50).
+Discard: Ai(1)-Gen5_Deck4 discards Swamp (21).
+Resolve stack: Seeker's Folly (115) -  Target opponent discards two cards. (Targeting: Ai(1)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Swamp (27)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 assigned Marauding Blight-Priest (17) and Soulstone Sanctuary (58) to attack Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck13 didn't block Marauding Blight-Priest (17).
+Ai(2)-Gen5_Deck13 didn't block Soulstone Sanctuary (58).
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Damage: Marauding Blight-Priest (17) deals 3 combat damage to Ai(2)-Gen5_Deck13.
+Damage: Soulstone Sanctuary (58) deals 3 combat damage to Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Healer's Hawk (116) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 didn't block Healer's Hawk (116).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Healer's Hawk (116) deals 1 combat damage to Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Squad Rallier (95)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck4 cast Painful Quandary (52)
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Squad Rallier (95) and Healer's Hawk (116) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 didn't block Healer's Hawk (116).
+Ai(1)-Gen5_Deck4 didn't block Squad Rallier (95).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Squad Rallier (95) deals 3 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Healer's Hawk (116) deals 1 combat damage to Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Squad Rallier (97)
+Add to stack: Ai(1)-Gen5_Deck4 triggered Painful Quandary (52)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Squad Rallier (97), Activator: Ai(2)-Gen5_Deck13, SpellAbility: Squad Rallier - Creature 3 / 4]
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Swamp (30)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Squad Rallier (95), Squad Rallier (97) and Healer's Hawk (116) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 didn't block Squad Rallier (97).
+Ai(1)-Gen5_Deck4 didn't block Healer's Hawk (116).
+Ai(1)-Gen5_Deck4 didn't block Squad Rallier (95).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Squad Rallier (95) deals 3 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Squad Rallier (97) deals 3 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Healer's Hawk (116) deals 1 combat damage to Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Land: Ai(1)-Gen5_Deck4 played Swamp (20)
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 assigned Soulstone Sanctuary (58) to attack Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck13 didn't block Soulstone Sanctuary (58).
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Damage: Soulstone Sanctuary (58) deals 3 combat damage to Ai(2)-Gen5_Deck13.
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck4's End step
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck13 activated Squad Rallier (95)
+Resolve stack: Squad Rallier (95) - Ai(2)-Gen5_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Swamp (94) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck13 activated Squad Rallier (95)
+Resolve stack: Squad Rallier (95) - Ai(2)-Gen5_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Soulstone Sanctuary (89)
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Squad Rallier (95) and Squad Rallier (97) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 assigned Marauding Blight-Priest (17) to block Squad Rallier (97).
+Ai(1)-Gen5_Deck4 assigned Reassembling Skeleton (55) to block Squad Rallier (95).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Squad Rallier (95) deals 3 damage () to Reassembling Skeleton (55).
+Damage: Squad Rallier (97) deals 3 damage () to Marauding Blight-Priest (17).
+Damage: Reassembling Skeleton (55) deals 1 damage () to Squad Rallier (95).
+Damage: Marauding Blight-Priest (17) deals 3 damage () to Squad Rallier (97).
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck4 activated Reassembling Skeleton (55)
+Resolve stack: Reassembling Skeleton (55) - Return Reassembling Skeleton (55) from the graveyard to the battlefield tapped.
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck13 cast Charming Prince (87)
+Add to stack: Ai(1)-Gen5_Deck4 triggered Painful Quandary (52)
+Discard: Ai(2)-Gen5_Deck13 discards Painful Quandary (112).
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Charming Prince (87), Activator: Ai(2)-Gen5_Deck13, SpellAbility: Charming Prince - Creature 2 / 2]
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck13 triggered Charming Prince (87)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (87)]
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Swamp (94) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck13 activated Soulstone Sanctuary (89)
+Resolve stack: Soulstone Sanctuary (89) - Soulstone Sanctuary (89) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Island (44) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck4 cast Zul Ashur, Lich Lord (36)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck4's End step
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Evolving Wilds (99)
+Add to stack: Ai(2)-Gen5_Deck13 activated Evolving Wilds (99)
+Resolve stack: Evolving Wilds (99) - Ai(2)-Gen5_Deck13 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Squad Rallier (95), Squad Rallier (97), Healer's Hawk (116) and Soulstone Sanctuary (89) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 assigned Zul Ashur, Lich Lord (36) to block Squad Rallier (97).
+Ai(1)-Gen5_Deck4 didn't block Healer's Hawk (116).
+Ai(1)-Gen5_Deck4 assigned Soulstone Sanctuary (58) to block Soulstone Sanctuary (89).
+Ai(1)-Gen5_Deck4 assigned Reassembling Skeleton (55) to block Squad Rallier (95).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Squad Rallier (95) deals 3 damage () to Reassembling Skeleton (55).
+Damage: Squad Rallier (97) deals 3 damage () to Zul Ashur, Lich Lord (36).
+Damage: Healer's Hawk (116) deals 1 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Soulstone Sanctuary (89) deals 3 damage () to Soulstone Sanctuary (58).
+Damage: Soulstone Sanctuary (58) deals 3 damage () to Soulstone Sanctuary (89).
+Damage: Reassembling Skeleton (55) deals 1 damage () to Squad Rallier (95).
+Damage: Zul Ashur, Lich Lord (36) deals 2 damage () to Squad Rallier (97).
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck4 activated Reassembling Skeleton (55)
+Resolve stack: Reassembling Skeleton (55) - Return Reassembling Skeleton (55) from the graveyard to the battlefield tapped.
+Phase: Ai(2)-Gen5_Deck13's End of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck13's End step
+Phase: Ai(2)-Gen5_Deck13's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen5_Deck4)
+Phase: Ai(1)-Gen5_Deck4's Untap step
+Phase: Ai(1)-Gen5_Deck4's Upkeep step
+Phase: Ai(1)-Gen5_Deck4's Draw step
+Phase: Ai(1)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck4's End of Combat Step
+Phase: Ai(1)-Gen5_Deck4's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen5_Deck4 played Uncharted Haven (51)
+Phase: Ai(1)-Gen5_Deck4's End step
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (80) - {T}: Add {U}.
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck13 activated Squad Rallier (95)
+Resolve stack: Squad Rallier (95) - Ai(2)-Gen5_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Swamp (94) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck13 activated Squad Rallier (95)
+Resolve stack: Squad Rallier (95) - Ai(2)-Gen5_Deck13 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen5_Deck4's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen5_Deck13)
+Phase: Ai(2)-Gen5_Deck13's Untap step
+Phase: Ai(2)-Gen5_Deck13's Upkeep step
+Phase: Ai(2)-Gen5_Deck13's Draw step
+Phase: Ai(2)-Gen5_Deck13's Main phase, precombat
+Land: Ai(2)-Gen5_Deck13 played Island (79)
+Phase: Ai(2)-Gen5_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck13 assigned Squad Rallier (95), Squad Rallier (97), Burnished Hart (73), Charming Prince (87) and Healer's Hawk (116) to attack Ai(1)-Gen5_Deck4.
+Phase: Ai(2)-Gen5_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck4 didn't block Squad Rallier (97).
+Ai(1)-Gen5_Deck4 didn't block Healer's Hawk (116).
+Ai(1)-Gen5_Deck4 didn't block Charming Prince (87).
+Ai(1)-Gen5_Deck4 didn't block Burnished Hart (73).
+Ai(1)-Gen5_Deck4 assigned Reassembling Skeleton (55) to block Squad Rallier (95).
+Phase: Ai(2)-Gen5_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck13's Combat Damage Step
+Damage: Squad Rallier (95) deals 3 damage () to Reassembling Skeleton (55).
+Damage: Squad Rallier (97) deals 3 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Burnished Hart (73) deals 2 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Charming Prince (87) deals 2 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Healer's Hawk (116) deals 1 combat damage to Ai(1)-Gen5_Deck4.
+Damage: Reassembling Skeleton (55) deals 1 damage () to Squad Rallier (95).
+Player control: Ai(1)-Gen5_Deck4 is controlled by Ai(1)-Gen5_Deck4
+Player control: Ai(2)-Gen5_Deck13 is controlled by Ai(2)-Gen5_Deck13
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen5_Deck4 has lost because life total reached 0
+Game outcome: Ai(2)-Gen5_Deck13 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck4: 0 Ai(2)-Gen5_Deck13: 1 
+
+Game Result: Game 1 ended in 81270 ms. Ai(2)-Gen5_Deck13 has won!
+
+
+=== STDERR ===

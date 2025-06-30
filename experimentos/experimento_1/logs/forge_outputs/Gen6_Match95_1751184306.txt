@@ -1,0 +1,622 @@
+=== COMBATE PARALELO: Gen6_Deck1 vs Gen6_Deck20 ===
+Worker ID: 3014462
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck1 Gen6_Deck20 -n 1
+Duración: 57.21 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3073 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 93 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck1 vs Ai(2)-Gen6_Deck20 - one game of Constructed
+Mulligan: Ai(2)-Gen6_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen6_Deck1 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Land: Ai(2)-Gen6_Deck20 played Island (88)
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Land: Ai(1)-Gen6_Deck1 played Plains (25)
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Healer's Hawk (56)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Land: Ai(2)-Gen6_Deck20 played Crawling Barrens (94)
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Land: Ai(1)-Gen6_Deck1 played Plains (31)
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Healer's Hawk (56) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Land: Ai(2)-Gen6_Deck20 played Swamp (105)
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (88) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen6_Deck20 cast Zul Ashur, Lich Lord (78)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Healer's Hawk (56) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Land: Ai(2)-Gen6_Deck20 played Island (87)
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Zul Ashur, Lich Lord (78) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 didn't block Zul Ashur, Lich Lord (78).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Zul Ashur, Lich Lord (78) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 cast Diregraf Ghoul (109)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Healer's Hawk (56) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Discard: Ai(1)-Gen6_Deck1 discards Archway Angel (3).
+Turn: Turn 9 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Land: Ai(2)-Gen6_Deck20 played Swamp (104)
+Mana: Island (88) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 activated Crawling Barrens (94)
+Resolve stack: Crawling Barrens (94) - Ai(2)-Gen6_Deck20 puts two +1/+1 counters on Crawling Barrens (94). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Crawling Barrens (94), Zul Ashur, Lich Lord (78) and Diregraf Ghoul (109) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 didn't block Diregraf Ghoul (109).
+Ai(1)-Gen6_Deck1 didn't block Crawling Barrens (94).
+Ai(1)-Gen6_Deck1 didn't block Zul Ashur, Lich Lord (78).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Crawling Barrens (94) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Zul Ashur, Lich Lord (78) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Diregraf Ghoul (109) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Land: Ai(1)-Gen6_Deck1 played Plains (26)
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Healer's Hawk (56) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Inspiring Overseer (8)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen6_Deck1 triggered Inspiring Overseer (8)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (8)]
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Mana: Island (88) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 activated Crawling Barrens (94)
+Resolve stack: Crawling Barrens (94) - Ai(2)-Gen6_Deck20 puts two +1/+1 counters on Crawling Barrens (94). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Crawling Barrens (94), Zul Ashur, Lich Lord (78) and Diregraf Ghoul (109) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 didn't block Diregraf Ghoul (109).
+Ai(1)-Gen6_Deck1 didn't block Crawling Barrens (94).
+Ai(1)-Gen6_Deck1 didn't block Zul Ashur, Lich Lord (78).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Crawling Barrens (94) deals 4 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Zul Ashur, Lich Lord (78) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Diregraf Ghoul (109) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen6_Deck20 played Maze's End (61)
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Inspiring Overseer (8) and Healer's Hawk (56) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Inspiring Overseer (8).
+Ai(2)-Gen6_Deck20 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Inspiring Overseer (8) deals 2 combat damage to Ai(2)-Gen6_Deck20.
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Burnished Hart (15)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Mana: Island (88) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 activated Crawling Barrens (94)
+Resolve stack: Crawling Barrens (94) - Ai(2)-Gen6_Deck20 puts two +1/+1 counters on Crawling Barrens (94). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Crawling Barrens (94), Zul Ashur, Lich Lord (78) and Diregraf Ghoul (109) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 didn't block Diregraf Ghoul (109).
+Ai(1)-Gen6_Deck1 didn't block Crawling Barrens (94).
+Ai(1)-Gen6_Deck1 assigned Burnished Hart (15) to block Zul Ashur, Lich Lord (78).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Crawling Barrens (94) deals 6 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Zul Ashur, Lich Lord (78) deals 2 damage () to Burnished Hart (15).
+Damage: Diregraf Ghoul (109) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Burnished Hart (15) deals 2 damage () to Zul Ashur, Lich Lord (78).
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Inspiring Overseer (8) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Inspiring Overseer (8).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Inspiring Overseer (8) deals 2 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Burnished Hart (17)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Mana: Island (88) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 activated Crawling Barrens (94)
+Resolve stack: Crawling Barrens (94) - Ai(2)-Gen6_Deck20 puts two +1/+1 counters on Crawling Barrens (94). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Crawling Barrens (94) and Diregraf Ghoul (109) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Burnished Hart (17) to block Diregraf Ghoul (109).
+Ai(1)-Gen6_Deck1 assigned Healer's Hawk (56) to block Crawling Barrens (94).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Crawling Barrens (94) deals 8 damage () to Healer's Hawk (56).
+Damage: Diregraf Ghoul (109) deals 2 damage () to Burnished Hart (17).
+Damage: Burnished Hart (17) deals 2 damage () to Diregraf Ghoul (109).
+Damage: Healer's Hawk (56) deals 1 damage () to Crawling Barrens (94).
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Land: Ai(1)-Gen6_Deck1 played Rogue's Passage (5)
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Inspiring Overseer (8) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Inspiring Overseer (8).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Inspiring Overseer (8) deals 2 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Scrawling Crawler (59)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Add to stack: Ai(1)-Gen6_Deck1 triggered Scrawling Crawler (59)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen6_Deck20]
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Mana: Island (88) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 activated Crawling Barrens (94)
+Resolve stack: Crawling Barrens (94) - Ai(2)-Gen6_Deck20 puts two +1/+1 counters on Crawling Barrens (94). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Crawling Barrens (94) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Scrawling Crawler (59) to block Crawling Barrens (94).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Crawling Barrens (94) deals 10 damage () to Scrawling Crawler (59).
+Damage: Scrawling Crawler (59) deals 3 damage () to Crawling Barrens (94).
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Inspiring Overseer (8) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Inspiring Overseer (8).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Inspiring Overseer (8) deals 2 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Charming Prince (49)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen6_Deck1 triggered Charming Prince (49)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Inspiring Overseer (8)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (49)]
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Charming Prince (51)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen6_Deck1 triggered Charming Prince (51)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (51)]
+Phase: Ai(1)-Gen6_Deck1's End step
+Add to stack: Ai(1)-Gen6_Deck1 triggered Charming Prince (49)
+Resolve stack: Return exiled card to the battlefield. ([Inspiring Overseer (8)]) [Phase: Ai(1)-Gen6_Deck1]
+Add to stack: Ai(1)-Gen6_Deck1 triggered Inspiring Overseer (8)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (8)]
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (88) - {T}: Add {U}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 cast Soul-Shackled Zombie (101)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(2)-Gen6_Deck20 triggered Soul-Shackled Zombie (101) targeting [Archway Angel (3), Scrawling Crawler (59)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Archway Angel (3), Scrawling Crawler (59)]]) [Zone Changer: Soul-Shackled Zombie (101)]
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Land: Ai(1)-Gen6_Deck1 played Crawling Barrens (53)
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck1 activated Rogue's Passage (5) targeting [Inspiring Overseer (8)]
+Resolve stack: Rogue's Passage (5) - Inspiring Overseer (8) can't be blocked this turn.
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Inspiring Overseer (8) to attack Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck20 didn't block Inspiring Overseer (8).
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Damage: Inspiring Overseer (8) deals 2 combat damage to Ai(2)-Gen6_Deck20.
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (88) - {T}: Add {U}.
+Mana: Island (87) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen6_Deck20 cast Vampire Spawn (97)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen6_Deck20 triggered Vampire Spawn (97)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (97)]
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Crawling Barrens (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck20 cast Zul Ashur, Lich Lord (77)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Claws Out (40)
+Resolve stack: Claws Out (40) - Creatures you control get +2/+2 until end of turn.
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Land: Ai(2)-Gen6_Deck20 played Mountain (120)
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Island (88) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen6_Deck20 cast Battle-Rattle Shaman (99)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Add to stack: Ai(2)-Gen6_Deck20 triggered Battle-Rattle Shaman (99) targeting [Soul-Shackled Zombie (101)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Soul-Shackled Zombie (101)]]) [Phase: Ai(2)-Gen6_Deck20]
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Soul-Shackled Zombie (101), Vampire Spawn (97) and Zul Ashur, Lich Lord (77) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 assigned Inspiring Overseer (8) to block Vampire Spawn (97).
+Ai(1)-Gen6_Deck1 assigned Charming Prince (49) to block Soul-Shackled Zombie (101).
+Ai(1)-Gen6_Deck1 assigned Charming Prince (51) to block Zul Ashur, Lich Lord (77).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Soul-Shackled Zombie (101) deals 6 damage () to Charming Prince (49).
+Damage: Vampire Spawn (97) deals 2 damage () to Inspiring Overseer (8).
+Damage: Zul Ashur, Lich Lord (77) deals 2 damage () to Charming Prince (51).
+Damage: Charming Prince (49) deals 2 damage () to Soul-Shackled Zombie (101).
+Damage: Charming Prince (51) deals 2 damage () to Zul Ashur, Lich Lord (77).
+Damage: Inspiring Overseer (8) deals 2 damage () to Vampire Spawn (97).
+Phase: Ai(2)-Gen6_Deck20's End of Combat Step
+Phase: Ai(2)-Gen6_Deck20's Main phase, postcombat
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 cast Diregraf Ghoul (108)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck20's End step
+Phase: Ai(2)-Gen6_Deck20's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen6_Deck1)
+Phase: Ai(1)-Gen6_Deck1's Untap step
+Phase: Ai(1)-Gen6_Deck1's Upkeep step
+Phase: Ai(1)-Gen6_Deck1's Draw step
+Phase: Ai(1)-Gen6_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck1's Beginning of Combat Step
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck1 cast Divine Resilience (42) targeting []
+Resolve stack: Divine Resilience (42) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead.
+Phase: Ai(1)-Gen6_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck1's End of Combat Step
+Phase: Ai(1)-Gen6_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck1's End step
+Phase: Ai(1)-Gen6_Deck1's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen6_Deck20)
+Phase: Ai(2)-Gen6_Deck20's Untap step
+Phase: Ai(2)-Gen6_Deck20's Upkeep step
+Phase: Ai(2)-Gen6_Deck20's Draw step
+Phase: Ai(2)-Gen6_Deck20's Main phase, precombat
+Mana: Island (88) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck20 activated Crawling Barrens (94)
+Resolve stack: Crawling Barrens (94) - Ai(2)-Gen6_Deck20 puts two +1/+1 counters on Crawling Barrens (94). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck20's Beginning of Combat Step
+Add to stack: Ai(2)-Gen6_Deck20 triggered Battle-Rattle Shaman (99) targeting [Crawling Barrens (94)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Crawling Barrens (94)]]) [Phase: Ai(2)-Gen6_Deck20]
+Phase: Ai(2)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck20 assigned Crawling Barrens (94), Vampire Spawn (97), Battle-Rattle Shaman (99) and Diregraf Ghoul (108) to attack Ai(1)-Gen6_Deck1.
+Phase: Ai(2)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck1 didn't block Vampire Spawn (97).
+Ai(1)-Gen6_Deck1 didn't block Battle-Rattle Shaman (99).
+Ai(1)-Gen6_Deck1 didn't block Diregraf Ghoul (108).
+Ai(1)-Gen6_Deck1 didn't block Crawling Barrens (94).
+Phase: Ai(2)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck20's Combat Damage Step
+Damage: Crawling Barrens (94) deals 14 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Vampire Spawn (97) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Battle-Rattle Shaman (99) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Damage: Diregraf Ghoul (108) deals 2 combat damage to Ai(1)-Gen6_Deck1.
+Player control: Ai(1)-Gen6_Deck1 is controlled by Ai(1)-Gen6_Deck1
+Player control: Ai(2)-Gen6_Deck20 is controlled by Ai(2)-Gen6_Deck20
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen6_Deck1 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck20 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck1: 0 Ai(2)-Gen6_Deck20: 1 
+
+Game Result: Game 1 ended in 38910 ms. Ai(2)-Gen6_Deck20 has won!
+
+
+=== STDERR ===

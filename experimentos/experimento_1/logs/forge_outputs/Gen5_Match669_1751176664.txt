@@ -1,0 +1,440 @@
+=== COMBATE PARALELO: Gen5_Deck15 vs Gen5_Deck20 ===
+Worker ID: 2818998
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck15 Gen5_Deck20 -n 1
+Duración: 45.03 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3143 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 124 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck15 vs Ai(2)-Gen5_Deck20 - one game of Constructed
+Mulligan: Ai(1)-Gen5_Deck15 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen5_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck15 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Land: Ai(2)-Gen5_Deck20 played Swamp (95)
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck20 cast Diregraf Ghoul (104)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Land: Ai(1)-Gen5_Deck15 played Island (35)
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck15 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Land: Ai(2)-Gen5_Deck20 played Demolition Field (119)
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 assigned Diregraf Ghoul (104) to attack Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck15 didn't block Diregraf Ghoul (104).
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Damage: Diregraf Ghoul (104) deals 2 combat damage to Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck20 cast Zul Ashur, Lich Lord (68)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Land: Ai(1)-Gen5_Deck15 played Plains (23)
+Add to stack: Ai(1)-Gen5_Deck15 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (23)]
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck15 cast Mystic Archaeologist (6)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Land: Ai(2)-Gen5_Deck20 played Swamp (88)
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 assigned Diregraf Ghoul (104) and Zul Ashur, Lich Lord (68) to attack Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck15 didn't block Zul Ashur, Lich Lord (68).
+Ai(1)-Gen5_Deck15 didn't block Diregraf Ghoul (104).
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Damage: Diregraf Ghoul (104) deals 2 combat damage to Ai(1)-Gen5_Deck15.
+Damage: Zul Ashur, Lich Lord (68) deals 2 combat damage to Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (88) - {T}: Add {B}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck20 cast Marauding Blight-Priest (81)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Land: Ai(1)-Gen5_Deck15 played Island (33)
+Add to stack: Ai(1)-Gen5_Deck15 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (33)]
+Mana: Island (35) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck15 activated Adventuring Gear (1) targeting [Mystic Archaeologist (6)]
+Resolve stack: Adventuring Gear (1) -  Attach to Mystic Archaeologist (6)
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 assigned Marauding Blight-Priest (81), Diregraf Ghoul (104) and Zul Ashur, Lich Lord (68) to attack Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck15 didn't block Marauding Blight-Priest (81).
+Ai(1)-Gen5_Deck15 didn't block Zul Ashur, Lich Lord (68).
+Ai(1)-Gen5_Deck15 didn't block Diregraf Ghoul (104).
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Damage: Marauding Blight-Priest (81) deals 3 combat damage to Ai(1)-Gen5_Deck15.
+Damage: Diregraf Ghoul (104) deals 2 combat damage to Ai(1)-Gen5_Deck15.
+Damage: Zul Ashur, Lich Lord (68) deals 2 combat damage to Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (88) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck20 cast Gleaming Barrier (84)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Land: Ai(1)-Gen5_Deck15 played Plains (19)
+Add to stack: Ai(1)-Gen5_Deck15 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (19)]
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (33) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck15 cast Exemplar of Light (43)
+Resolve stack: Exemplar of Light - Creature 3 / 3
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 assigned Marauding Blight-Priest (81) to attack Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck15 assigned Mystic Archaeologist (6) to block Marauding Blight-Priest (81).
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Damage: Marauding Blight-Priest (81) deals 3 damage () to Mystic Archaeologist (6).
+Damage: Mystic Archaeologist (6) deals 2 damage () to Marauding Blight-Priest (81).
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (88) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck20 cast Burglar Rat (116)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen5_Deck20 triggered Burglar Rat (116)
+Discard: Ai(1)-Gen5_Deck15 discards Giada, Font of Hope (56).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (116)]
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Land: Ai(1)-Gen5_Deck15 played Plains (17)
+Add to stack: Ai(1)-Gen5_Deck15 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (17)]
+Mana: Island (35) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck15 activated Adventuring Gear (1) targeting [Exemplar of Light (43)]
+Resolve stack: Adventuring Gear (1) -  Attach to Exemplar of Light (43)
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 assigned Exemplar of Light (43) to attack Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck20 didn't block Exemplar of Light (43).
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Damage: Exemplar of Light (43) deals 3 combat damage to Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Island (33) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck15 cast Ajani, Caller of the Pride (11)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen5_Deck15 activated Ajani, Caller of the Pride (11) targeting [Exemplar of Light (43)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen5_Deck15 puts a +1/+1 counter on Exemplar of Light (43).
+Add to stack: Ai(1)-Gen5_Deck15 triggered Exemplar of Light (43)
+Resolve stack: Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn. [Added once: Exemplar of Light (43) Amount: 1]
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Land: Ai(2)-Gen5_Deck20 played Island (74)
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 assigned Diregraf Ghoul (104), Zul Ashur, Lich Lord (68) and Burglar Rat (116) to attack Ajani, Caller of the Pride (11).
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck15 didn't block Zul Ashur, Lich Lord (68).
+Ai(1)-Gen5_Deck15 didn't block Burglar Rat (116).
+Ai(1)-Gen5_Deck15 didn't block Diregraf Ghoul (104).
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (88) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck20 cast Seeker's Folly (114)
+Discard: Ai(1)-Gen5_Deck15 discards Syr Alin, the Lion's Claw (39).
+Discard: Ai(1)-Gen5_Deck15 discards Scrawling Crawler (60).
+Resolve stack: Seeker's Folly (114) -  Target opponent discards two cards. (Targeting: Ai(1)-Gen5_Deck15)
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 assigned Exemplar of Light (43) to attack Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck20 didn't block Exemplar of Light (43).
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Damage: Exemplar of Light (43) deals 4 combat damage to Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck15 cast Mystic Archaeologist (4)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Land: Ai(2)-Gen5_Deck20 played Swamp (99)
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 assigned Diregraf Ghoul (104) and Burglar Rat (116) to attack Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck15 didn't block Burglar Rat (116).
+Ai(1)-Gen5_Deck15 didn't block Diregraf Ghoul (104).
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Damage: Diregraf Ghoul (104) deals 2 combat damage to Ai(1)-Gen5_Deck15.
+Damage: Burglar Rat (116) deals 1 combat damage to Ai(1)-Gen5_Deck15.
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 assigned Exemplar of Light (43) to attack Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck20 didn't block Exemplar of Light (43).
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Damage: Exemplar of Light (43) deals 4 combat damage to Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck15 cast Felidar Cub (8)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (88) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck20 cast Midnight Snack (63)
+Resolve stack: Midnight Snack
+Phase: Ai(2)-Gen5_Deck20's End step
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Land: Ai(1)-Gen5_Deck15 played Plains (20)
+Add to stack: Ai(1)-Gen5_Deck15 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (20)]
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 assigned Exemplar of Light (43) to attack Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck20 didn't block Exemplar of Light (43).
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Damage: Exemplar of Light (43) deals 6 combat damage to Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's End of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck15's End step
+Phase: Ai(1)-Gen5_Deck15's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen5_Deck20)
+Phase: Ai(2)-Gen5_Deck20's Untap step
+Phase: Ai(2)-Gen5_Deck20's Upkeep step
+Phase: Ai(2)-Gen5_Deck20's Draw step
+Phase: Ai(2)-Gen5_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck20's End of Combat Step
+Phase: Ai(2)-Gen5_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck20's End step
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (33) - {T}: Add {U}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck15 activated Mystic Archaeologist (4)
+Resolve stack: Mystic Archaeologist (4) - Ai(1)-Gen5_Deck15 draws two cards.
+Phase: Ai(2)-Gen5_Deck20's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen5_Deck15)
+Phase: Ai(1)-Gen5_Deck15's Untap step
+Phase: Ai(1)-Gen5_Deck15's Upkeep step
+Phase: Ai(1)-Gen5_Deck15's Draw step
+Phase: Ai(1)-Gen5_Deck15's Main phase, precombat
+Land: Ai(1)-Gen5_Deck15 played Plains (21)
+Add to stack: Ai(1)-Gen5_Deck15 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (21)]
+Phase: Ai(1)-Gen5_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck15 assigned Exemplar of Light (43), Mystic Archaeologist (4) and Felidar Cub (8) to attack Ai(2)-Gen5_Deck20.
+Phase: Ai(1)-Gen5_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck20 assigned Gleaming Barrier (84) and Diregraf Ghoul (104) to block Mystic Archaeologist (4).
+Ai(2)-Gen5_Deck20 assigned Burglar Rat (116) to block Felidar Cub (8).
+Ai(2)-Gen5_Deck20 didn't block Exemplar of Light (43).
+Phase: Ai(1)-Gen5_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck15's Combat Damage Step
+Damage: Exemplar of Light (43) deals 6 combat damage to Ai(2)-Gen5_Deck20.
+Damage: Mystic Archaeologist (4) deals 2 damage () to Gleaming Barrier (84).
+Damage: Felidar Cub (8) deals 2 damage () to Burglar Rat (116).
+Damage: Diregraf Ghoul (104) deals 2 damage () to Mystic Archaeologist (4).
+Damage: Burglar Rat (116) deals 1 damage () to Felidar Cub (8).
+Player control: Ai(1)-Gen5_Deck15 is controlled by Ai(1)-Gen5_Deck15
+Player control: Ai(2)-Gen5_Deck20 is controlled by Ai(2)-Gen5_Deck20
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen5_Deck15 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck20 has lost because life total reached 0
+Match result: Ai(1)-Gen5_Deck15: 1 Ai(2)-Gen5_Deck20: 0 
+
+Game Result: Game 1 ended in 27374 ms. Ai(1)-Gen5_Deck15 has won!
+
+
+=== STDERR ===

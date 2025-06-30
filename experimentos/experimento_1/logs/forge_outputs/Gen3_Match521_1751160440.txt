@@ -1,0 +1,390 @@
+=== COMBATE PARALELO: Gen3_Deck10 vs Gen3_Deck26 ===
+Worker ID: 2418660
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck10 Gen3_Deck26 -n 1
+Duración: 39.57 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2516 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 93 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck10 vs Ai(2)-Gen3_Deck26 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck10 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck26 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen3_Deck10 played Secluded Courtyard (23)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Swamp (100)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Plains (32)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Secluded Courtyard (23) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Ajani's Pridemate (35)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Island (89)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck26 cast Burglar Rat (113)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen3_Deck26 triggered Burglar Rat (113)
+Discard: Ai(1)-Gen3_Deck10 discards Plains (28).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (113)]
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Soulstone Sanctuary (51)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Ajani's Pridemate (35) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 didn't block Ajani's Pridemate (35).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Ajani's Pridemate (35) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Plains (82)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 assigned Burglar Rat (113) to attack Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck10 didn't block Burglar Rat (113).
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Damage: Burglar Rat (113) deals 1 combat damage to Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Island (89) - {T}: Add {U}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck26 cast Midnight Snack (66)
+Resolve stack: Midnight Snack
+Phase: Ai(2)-Gen3_Deck26's End step
+Add to stack: Ai(2)-Gen3_Deck26 triggered Midnight Snack (66)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen3_Deck26]
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Plains (27)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Ajani's Pridemate (35) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 didn't block Ajani's Pridemate (35).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Ajani's Pridemate (35) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Secluded Courtyard (23) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Release the Dogs (46)
+Resolve stack: Release the Dogs (46) - Ai(1)-Gen3_Deck10 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Mountain (120)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Mana: Swamp (100) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck26 cast Soul-Guide Lantern (87)
+Resolve stack: Soul-Guide Lantern
+Add to stack: Ai(2)-Gen3_Deck26 triggered Soul-Guide Lantern (87) targeting [Release the Dogs (46)]
+Resolve stack: When Soul-Guide Lantern enters, exile target card from a graveyard. (Targeting: [[Release the Dogs (46)]]) [Zone Changer: Soul-Guide Lantern (87)]
+Add to stack: Ai(2)-Gen3_Deck26 activated Soul-Guide Lantern (87)
+Resolve stack: Soul-Guide Lantern (87) -  Exile each opponent's graveyard.
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Cryptic Caves (3)
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Secluded Courtyard (23) - {T}: Add {C}.
+Mana: Cryptic Caves (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck10 activated Soulstone Sanctuary (51)
+Resolve stack: Soulstone Sanctuary (51) - Soulstone Sanctuary (51) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Ajani's Pridemate (35), Dog Token (128), Dog Token (129), Dog Token (130), Dog Token (131) and Soulstone Sanctuary (51) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 didn't block Dog Token (128).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (129).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (130).
+Ai(2)-Gen3_Deck26 didn't block Ajani's Pridemate (35).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (131).
+Ai(2)-Gen3_Deck26 didn't block Soulstone Sanctuary (51).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Ajani's Pridemate (35) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (129) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (130) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (131) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Soulstone Sanctuary (51) deals 3 combat damage to Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Forest (79)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Island (89) - {T}: Add {U}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck26 cast Cackling Prowler (88)
+Resolve stack: Cackling Prowler - Creature 4 / 3
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck10 activated Cryptic Caves (3)
+Resolve stack: Cryptic Caves (3) - Ai(1)-Gen3_Deck10 draws a card.
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Cryptic Caves (4)
+Mana: Plains (27) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck10 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen3_Deck10 draws a card.
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Soulstone Sanctuary (51) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 assigned Cackling Prowler (88) to block Soulstone Sanctuary (51).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Soulstone Sanctuary (51) deals 3 damage () to Cackling Prowler (88).
+Damage: Cackling Prowler (88) deals 4 damage () to Soulstone Sanctuary (51).
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Demolition Field (116)
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck26 activated Demolition Field (116) targeting [Secluded Courtyard (23)]
+Resolve stack: Demolition Field (116) - Destroy Secluded Courtyard (23). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen3_Deck26 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Mountain (52)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Ajani's Pridemate (35), Dog Token (128), Dog Token (129), Dog Token (130) and Dog Token (131) to attack Ai(2)-Gen3_Deck26.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck26 activated Food Token (123)
+Resolve stack: Food Token (123) - Ai(2)-Gen3_Deck26 gains 3 life.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 didn't block Dog Token (128).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (129).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (130).
+Ai(2)-Gen3_Deck26 didn't block Ajani's Pridemate (35).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (131).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Ajani's Pridemate (35) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (129) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (130) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (131) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Release the Dogs (45)
+Resolve stack: Release the Dogs (45) - Ai(1)-Gen3_Deck10 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Swamp (101)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Island (89) - {T}: Add {U}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck26 cast High-Society Hunter (64)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen3_Deck10 played Secluded Courtyard (22)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Ajani's Pridemate (35), Dog Token (128), Dog Token (129), Dog Token (130), Dog Token (131), Dog Token (137), Dog Token (138), Dog Token (139) and Dog Token (140) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 assigned High-Society Hunter (64) to block Dog Token (128).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (129).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (130).
+Ai(2)-Gen3_Deck26 assigned Burglar Rat (113) to block Ajani's Pridemate (35).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (131).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (137).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (138).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (139).
+Ai(2)-Gen3_Deck26 didn't block Dog Token (140).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Ajani's Pridemate (35) deals 2 damage () to Burglar Rat (113).
+Damage: Dog Token (128) deals 1 damage () to High-Society Hunter (64).
+Damage: Dog Token (129) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (130) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (131) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (137) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (138) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (139) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Dog Token (140) deals 1 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Burglar Rat (113) deals 1 damage () to Ajani's Pridemate (35).
+Damage: High-Society Hunter (64) deals 5 damage () to Dog Token (128).
+Player control: Ai(1)-Gen3_Deck10 is controlled by Ai(1)-Gen3_Deck10
+Player control: Ai(2)-Gen3_Deck26 is controlled by Ai(2)-Gen3_Deck26
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen3_Deck10 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck26 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck10: 1 Ai(2)-Gen3_Deck26: 0 
+
+Game Result: Game 1 ended in 23317 ms. Ai(1)-Gen3_Deck10 has won!
+
+
+=== STDERR ===

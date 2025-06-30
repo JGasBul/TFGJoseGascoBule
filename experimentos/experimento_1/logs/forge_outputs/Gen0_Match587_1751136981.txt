@@ -1,0 +1,401 @@
+=== COMBATE PARALELO: Gen0_Deck12 vs Gen0_Deck24 ===
+Worker ID: 1832524
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck12 Gen0_Deck24 -n 1
+Duración: 47.91 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3159 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 59 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck12 vs Ai(2)-Gen0_Deck24 - one game of Constructed
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+Mulligan: Ai(1)-Gen0_Deck12 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck24 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck12 played Maze's End (4)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Plains (102)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (102) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck24 cast Dryad Militant (112)
+Resolve stack: Dryad Militant - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Plains (45)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Forest (91)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Dryad Militant (112) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Dryad Militant (112).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Dryad Militant (112) deals 2 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck12 played Maze's End (6)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Plains (100)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Dryad Militant (112) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Dryad Militant (112).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Dryad Militant (112) deals 2 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Forest (26)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Maze's End (4) - {T}: Add {C}.
+Mana: Maze's End (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Solemn Simulacrum (12)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck12 triggered Solemn Simulacrum (12)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (12)]
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Forest (89)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck24 cast Exemplar of Light (66)
+Resolve stack: Exemplar of Light - Creature 3 / 3
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Plains (39)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Maze's End (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Needletooth Pack (2)
+Resolve stack: Needletooth Pack - Creature 4 / 5
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Exemplar of Light (66) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Exemplar of Light (66).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Exemplar of Light (66) deals 3 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Ai(2)-Gen0_Deck24 played Rugged Highlands (86)
+Add to stack: Ai(2)-Gen0_Deck24 triggered Rugged Highlands (86)
+Resolve stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (86)]
+Add to stack: Ai(2)-Gen0_Deck24 triggered Exemplar of Light (66)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen0_Deck24, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck24 triggered Exemplar of Light (66)
+Resolve stack: Whenever you put one or more +1/+1 counters on this creature, draw a card. This ability triggers only once each turn. [Added once: Exemplar of Light (66) Amount: 1]
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Plains (42)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Needletooth Pack (2) to attack Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck24 didn't block Needletooth Pack (2).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Needletooth Pack (2) deals 4 combat damage to Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Heroes' Bane (23)
+Replacement Effect: Heroes' Bane enters with four +1/+1 counters on it.
+Resolve stack: Heroes' Bane - Creature 0 / 0
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Mountain (119)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Exemplar of Light (66) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Exemplar of Light (66).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Exemplar of Light (66) deals 4 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Rugged Highlands (86) - {T}: Add {R} or {G}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Forest (89) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck24 cast Etali, Primal Storm (81)
+Resolve stack: Etali, Primal Storm - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Bushwhack (56)
+Damage: Needletooth Pack (2) deals 4 damage () to Dryad Militant (112).
+Damage: Dryad Militant (112) deals 2 damage () to Needletooth Pack (2).
+Resolve stack: Bushwhack (56) -  Target creature you control fights target creature you don't control. (Targeting: Needletooth Pack (2)) Needletooth Pack (2) fights Dryad Militant (112).
+Replacement Effect: If an instant or sorcery would be put in a graveyard from anywhere, exile it instead.
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Solemn Simulacrum (13)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck12 triggered Solemn Simulacrum (13)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (13)]
+Phase: Ai(1)-Gen0_Deck12's End step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Needletooth Pack (2) targeting [Needletooth Pack (2)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Needletooth Pack (2)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (102) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck24 cast Bulk Up (77) targeting [Exemplar of Light (66)]
+Resolve stack: Bulk Up (77) - Double Exemplar of Light (66)'s power until end of turn.
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Exemplar of Light (66) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Exemplar of Light (66).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Exemplar of Light (66) deals 8 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Temple of Plenty enters tapped.
+Land: Ai(2)-Gen0_Deck24 played Temple of Plenty (76)
+Add to stack: Ai(2)-Gen0_Deck24 triggered Temple of Plenty (76)
+Resolve stack: Ai(2)-Gen0_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Plenty enters, scry 1. [Zone Changer: Temple of Plenty (76)]
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Plains (46)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Surrak, the Hunt Caller (32)
+Resolve stack: Surrak, the Hunt Caller - Creature 5 / 4
+Mana: Forest (24) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Fynn, the Fangbearer (14)
+Resolve stack: Fynn, the Fangbearer - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Etali, Primal Storm (81) and Exemplar of Light (66) to attack Ai(1)-Gen0_Deck12.
+Add to stack: Ai(2)-Gen0_Deck24 triggered Etali, Primal Storm (81)
+Add to stack: Ai(2)-Gen0_Deck24 cast Gigantosaurus (16)
+Resolve stack: Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs. [Attacker: Etali, Primal Storm (81)]
+Resolve stack: Gigantosaurus - Creature 10 / 10
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Solemn Simulacrum (12) and Needletooth Pack (2) to block Etali, Primal Storm (81).
+Ai(1)-Gen0_Deck12 didn't block Exemplar of Light (66).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Etali, Primal Storm (81) deals 4 damage () to Needletooth Pack (2).
+Damage: Etali, Primal Storm (81) deals 2 damage () to Solemn Simulacrum (12).
+Damage: Exemplar of Light (66) deals 4 combat damage to Ai(1)-Gen0_Deck12.
+Damage: Solemn Simulacrum (12) deals 2 damage () to Etali, Primal Storm (81).
+Damage: Needletooth Pack (2) deals 6 damage () to Etali, Primal Storm (81).
+Player control: Ai(1)-Gen0_Deck12 is controlled by Ai(1)-Gen0_Deck12
+Player control: Ai(2)-Gen0_Deck24 is controlled by Ai(2)-Gen0_Deck24
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck12 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck24 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck12: 0 Ai(2)-Gen0_Deck24: 1 
+
+Game Result: Game 1 ended in 30576 ms. Ai(2)-Gen0_Deck24 has won!
+
+
+=== STDERR ===

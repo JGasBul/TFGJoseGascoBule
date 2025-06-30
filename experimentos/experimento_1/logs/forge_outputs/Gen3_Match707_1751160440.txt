@@ -1,0 +1,351 @@
+=== COMBATE PARALELO: Gen3_Deck16 vs Gen3_Deck26 ===
+Worker ID: 2418660
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck16 Gen3_Deck26 -n 1
+Duración: 38.92 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2666 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 115 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck16 vs Ai(2)-Gen3_Deck26 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck16 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck26 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Island (46)
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck16's End of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck16's End step
+Phase: Ai(1)-Gen3_Deck16's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Forest (79)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Plains (35)
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck16's End of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck16 cast Hare Apparent (21)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(1)-Gen3_Deck16 triggered Hare Apparent (21)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (21)]
+Phase: Ai(1)-Gen3_Deck16's End step
+Phase: Ai(1)-Gen3_Deck16's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Land: Ai(2)-Gen3_Deck26 played Plains (81)
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Forest (79) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen3_Deck26 cast Ajani's Pridemate (84)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Swamp (19)
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck16's End of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck16's End step
+Phase: Ai(1)-Gen3_Deck16's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Island (40)
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck16's End of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Main phase, postcombat
+Mana: Island (46) - {T}: Add {U}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck16 cast Kaito, Cunning Infiltrator (12)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(1)-Gen3_Deck16 activated Kaito, Cunning Infiltrator (12)
+Resolve stack: Kaito, Cunning Infiltrator (12) - Ai(1)-Gen3_Deck16 creates a 2/1 blue Ninja creature token.
+Phase: Ai(1)-Gen3_Deck16's End step
+Phase: Ai(1)-Gen3_Deck16's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Discard: Ai(2)-Gen3_Deck26 discards Wilt-Leaf Liege (73).
+Turn: Turn 9 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Plains (32)
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 assigned Hare Apparent (21) and Ninja Token (127) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 assigned Ajani's Pridemate (84) to block Hare Apparent (21).
+Ai(2)-Gen3_Deck26 didn't block Ninja Token (127).
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck16 cast Mischievous Pup (39)
+Resolve stack: Mischievous Pup - Creature 3 / 1
+Add to stack: Ai(1)-Gen3_Deck16 triggered Mischievous Pup (39) targeting [Hare Apparent (21)]
+Resolve stack: When Mischievous Pup enters, return up to one other target permanent you control to its owner's hand. (Targeting: [[Hare Apparent (21)]]) [Zone Changer: Mischievous Pup (39)]
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Damage: Ninja Token (127) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Add to stack: Ai(1)-Gen3_Deck16 triggered Kaito, Cunning Infiltrator (12)
+Resolve stack: Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito. [Damage Source: Ninja Token (127), Damaged: Ai(2)-Gen3_Deck26, Amount: 2]
+Phase: Ai(1)-Gen3_Deck16's End of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Main phase, postcombat
+Add to stack: Ai(1)-Gen3_Deck16 activated Kaito, Cunning Infiltrator (12)
+Resolve stack: Kaito, Cunning Infiltrator (12) - Ai(1)-Gen3_Deck16 creates a 2/1 blue Ninja creature token.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (40) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck16 cast Hare Apparent (21)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(1)-Gen3_Deck16 triggered Hare Apparent (21)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (21)]
+Phase: Ai(1)-Gen3_Deck16's End step
+Phase: Ai(1)-Gen3_Deck16's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Discard: Ai(2)-Gen3_Deck26 discards Billowing Shriekmass (106).
+Turn: Turn 11 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Swamp (16)
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 assigned Mischievous Pup (39), Ninja Token (127), Ninja Token (131) and Hare Apparent (21) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 didn't block Ninja Token (131).
+Ai(2)-Gen3_Deck26 didn't block Hare Apparent (21).
+Ai(2)-Gen3_Deck26 didn't block Mischievous Pup (39).
+Ai(2)-Gen3_Deck26 didn't block Ninja Token (127).
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Damage: Mischievous Pup (39) deals 3 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Ninja Token (127) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Ninja Token (131) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Hare Apparent (21) deals 2 combat damage to Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck16's End of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck16 cast Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen3_Deck16's End step
+Phase: Ai(1)-Gen3_Deck16's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Forest (79) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen3_Deck26 cast Knight of Grace (76)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Island (41)
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 assigned Jazal Goldmane (25) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 didn't block Jazal Goldmane (25).
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Damage: Jazal Goldmane (25) deals 4 combat damage to Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck16's End of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck16 cast Ajani, Caller of the Pride (24)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen3_Deck16 activated Ajani, Caller of the Pride (24) targeting [Jazal Goldmane (25)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen3_Deck16 puts a +1/+1 counter on Jazal Goldmane (25).
+Phase: Ai(1)-Gen3_Deck16's End step
+Phase: Ai(1)-Gen3_Deck16's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen3_Deck26)
+Phase: Ai(2)-Gen3_Deck26's Untap step
+Phase: Ai(2)-Gen3_Deck26's Upkeep step
+Phase: Ai(2)-Gen3_Deck26's Draw step
+Phase: Ai(2)-Gen3_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck26's End of Combat Step
+Phase: Ai(2)-Gen3_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck26's End step
+Phase: Ai(2)-Gen3_Deck26's Cleanup step
+Discard: Ai(2)-Gen3_Deck26 discards Storm Fleet Spy (68).
+Turn: Turn 15 (Ai(1)-Gen3_Deck16)
+Phase: Ai(1)-Gen3_Deck16's Untap step
+Phase: Ai(1)-Gen3_Deck16's Upkeep step
+Phase: Ai(1)-Gen3_Deck16's Draw step
+Phase: Ai(1)-Gen3_Deck16's Main phase, precombat
+Land: Ai(1)-Gen3_Deck16 played Island (42)
+Add to stack: Ai(1)-Gen3_Deck16 activated Ajani, Caller of the Pride (24) targeting [Jazal Goldmane (25)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen3_Deck16 puts a +1/+1 counter on Jazal Goldmane (25).
+Phase: Ai(1)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck16 assigned Jazal Goldmane (25), Mischievous Pup (39), Ninja Token (127), Ninja Token (131) and Hare Apparent (21) to attack Ai(2)-Gen3_Deck26.
+Phase: Ai(1)-Gen3_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck26 didn't block Ninja Token (131).
+Ai(2)-Gen3_Deck26 didn't block Hare Apparent (21).
+Ai(2)-Gen3_Deck26 assigned Knight of Grace (76) to block Mischievous Pup (39).
+Ai(2)-Gen3_Deck26 assigned Ajani's Pridemate (84) to block Jazal Goldmane (25).
+Ai(2)-Gen3_Deck26 didn't block Ninja Token (127).
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck16 activated Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane (25) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(1)-Gen3_Deck16's First Strike Damage Step
+Damage: Jazal Goldmane (25) deals 11 damage () to Ajani's Pridemate (84).
+Damage: Knight of Grace (76) deals 2 damage () to Mischievous Pup (39).
+Phase: Ai(1)-Gen3_Deck16's Combat Damage Step
+Damage: Mischievous Pup (39) deals 8 damage () to Knight of Grace (76).
+Damage: Ninja Token (127) deals 7 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Ninja Token (131) deals 7 combat damage to Ai(2)-Gen3_Deck26.
+Damage: Hare Apparent (21) deals 7 combat damage to Ai(2)-Gen3_Deck26.
+Player control: Ai(1)-Gen3_Deck16 is controlled by Ai(1)-Gen3_Deck16
+Player control: Ai(2)-Gen3_Deck26 is controlled by Ai(2)-Gen3_Deck26
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen3_Deck16 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck26 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck16: 1 Ai(2)-Gen3_Deck26: 0 
+
+Game Result: Game 1 ended in 19987 ms. Ai(1)-Gen3_Deck16 has won!
+
+
+=== STDERR ===

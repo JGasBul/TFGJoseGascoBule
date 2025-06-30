@@ -1,0 +1,556 @@
+=== COMBATE PARALELO: Gen4_Deck8 vs Gen4_Deck13 ===
+Worker ID: 2621219
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck8 Gen4_Deck13 -n 1
+Duración: 59.02 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2639 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 99 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck8 vs Ai(2)-Gen4_Deck13 - one game of Constructed
+Mulligan: Ai(2)-Gen4_Deck13 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen4_Deck8 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Plains (89)
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Land: Ai(1)-Gen4_Deck8 played Plains (26)
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 cast Healer's Hawk (56)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Cryptic Caves (64)
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Ajani's Pridemate (94)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Land: Ai(1)-Gen4_Deck8 played Rogue's Passage (5)
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Healer's Hawk (56) to attack Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck13 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Island (98)
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Ajani's Pridemate (94) to attack Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck8 didn't block Ajani's Pridemate (94).
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 2 combat damage to Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Island (98) - {T}: Add {U}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Cat Collector (71)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen4_Deck13 triggered Cat Collector (71)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (71)]
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Land: Ai(1)-Gen4_Deck8 played Plains (28)
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Healer's Hawk (56) to attack Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck13 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck8 cast Burnished Hart (14)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Mountain (116)
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Island (98) - {T}: Add {U}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Release the Dogs (106)
+Resolve stack: Release the Dogs (106) - Ai(2)-Gen4_Deck13 creates four 1/1 white Dog creature tokens.
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Land: Ai(1)-Gen4_Deck8 played Plains (32)
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Healer's Hawk (56) to attack Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck13 didn't block Healer's Hawk (56).
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Damage: Healer's Hawk (56) deals 1 combat damage to Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 cast Inspiring Overseer (9)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen4_Deck8 triggered Inspiring Overseer (9)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (9)]
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Cryptic Caves (61)
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck13 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen4_Deck13 draws a card.
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Mana: Island (98) - {T}: Add {U}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Fog Bank (70)
+Resolve stack: Fog Bank - Creature 0 / 2
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Land: Ai(1)-Gen4_Deck8 played Plains (25)
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 activated Rogue's Passage (5) targeting [Inspiring Overseer (9)]
+Resolve stack: Rogue's Passage (5) - Inspiring Overseer (9) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Inspiring Overseer (9) and Healer's Hawk (56) to attack Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Fog Bank (70) to block Healer's Hawk (56).
+Ai(2)-Gen4_Deck13 didn't block Inspiring Overseer (9).
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Damage: Inspiring Overseer (9) deals 2 combat damage to Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Mountain (114)
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck13 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen4_Deck13 draws a card.
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 activated Rogue's Passage (5) targeting [Inspiring Overseer (9)]
+Resolve stack: Rogue's Passage (5) - Inspiring Overseer (9) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Land: Ai(1)-Gen4_Deck8 played Plains (35)
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Inspiring Overseer (9) and Healer's Hawk (56) to attack Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Fog Bank (70) to block Healer's Hawk (56).
+Ai(2)-Gen4_Deck13 didn't block Inspiring Overseer (9).
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Damage: Inspiring Overseer (9) deals 2 combat damage to Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Moment of Triumph (79) targeting [Cat Collector (71)]
+Resolve stack: Moment of Triumph (79) - Cat Collector (71) gets +2/+2  until end of turn. Ai(2)-Gen4_Deck13 gains 2 life.
+Add to stack: Ai(2)-Gen4_Deck13 triggered Ajani's Pridemate (94)
+Add to stack: Ai(2)-Gen4_Deck13 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen4_Deck13, Gained Amount: 2]
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen4_Deck13, Gained Amount: 2]
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Cat Collector (71) and Ajani's Pridemate (94) to attack Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck8 didn't block Cat Collector (71).
+Ai(1)-Gen4_Deck8 didn't block Ajani's Pridemate (94).
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Damage: Cat Collector (71) deals 5 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Ajani's Pridemate (94) deals 3 combat damage to Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen4_Deck13 played Uncharted Haven (104)
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 activated Rogue's Passage (5) targeting [Inspiring Overseer (9)]
+Resolve stack: Rogue's Passage (5) - Inspiring Overseer (9) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Inspiring Overseer (9) and Healer's Hawk (56) to attack Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Fog Bank (70) to block Healer's Hawk (56).
+Ai(2)-Gen4_Deck13 didn't block Inspiring Overseer (9).
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Damage: Inspiring Overseer (9) deals 2 combat damage to Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Mountain (117)
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Ajani's Pridemate (94) and Cat Collector (71) to attack Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Burnished Hart (14) to block Cat Collector (71).
+Ai(1)-Gen4_Deck8 didn't block Ajani's Pridemate (94).
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 cast Divine Resilience (43) targeting [Burnished Hart (14)]
+Resolve stack: Divine Resilience (43) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Burnished Hart (14))
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 3 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Cat Collector (71) deals 3 damage () to Burnished Hart (14).
+Damage: Burnished Hart (14) deals 2 damage () to Cat Collector (71).
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Island (98) - {T}: Add {U}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Cat Collector (72)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen4_Deck13 triggered Cat Collector (72)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (72)]
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 activated Rogue's Passage (5) targeting [Inspiring Overseer (9)]
+Resolve stack: Rogue's Passage (5) - Inspiring Overseer (9) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Land: Ai(1)-Gen4_Deck8 played Plains (31)
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Inspiring Overseer (9) to attack Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck13 didn't block Inspiring Overseer (9).
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Damage: Inspiring Overseer (9) deals 2 combat damage to Ai(2)-Gen4_Deck13.
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 cast Mazemind Tome (47)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Add to stack: Ai(1)-Gen4_Deck8 activated Mazemind Tome (47)
+Resolve stack: Ai(1)-Gen4_Deck8 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (47) - Ai(1)-Gen4_Deck8 scries 1.
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Island (101)
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Ajani's Pridemate (94), Cat Collector (72) and Giada, Font of Hope (119) to attack Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck8 didn't block Giada, Font of Hope (119).
+Ai(1)-Gen4_Deck8 assigned Burnished Hart (14) to block Cat Collector (72).
+Ai(1)-Gen4_Deck8 didn't block Ajani's Pridemate (94).
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 3 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Cat Collector (72) deals 3 damage () to Burnished Hart (14).
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Burnished Hart (14) deals 2 damage () to Cat Collector (72).
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Add to stack: Ai(1)-Gen4_Deck8 activated Mazemind Tome (47)
+Resolve stack: Ai(1)-Gen4_Deck8 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (47) - Ai(1)-Gen4_Deck8 scries 1.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 activated Rogue's Passage (5) targeting [Inspiring Overseer (9)]
+Resolve stack: Rogue's Passage (5) - Inspiring Overseer (9) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 cast Healer's Hawk (55)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Cryptic Caves (62)
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck13 activated Cryptic Caves (62)
+Resolve stack: Cryptic Caves (62) - Ai(2)-Gen4_Deck13 draws a card.
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Ajani's Pridemate (94), Dog Token (129), Dog Token (130), Dog Token (131), Dog Token (132), Cat Token (137) and Giada, Font of Hope (119) to attack Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck8 assigned Inspiring Overseer (9) to block Dog Token (129).
+Ai(1)-Gen4_Deck8 didn't block Dog Token (130).
+Ai(1)-Gen4_Deck8 didn't block Dog Token (131).
+Ai(1)-Gen4_Deck8 didn't block Dog Token (132).
+Ai(1)-Gen4_Deck8 assigned Healer's Hawk (55) to block Giada, Font of Hope (119).
+Ai(1)-Gen4_Deck8 didn't block Cat Token (137).
+Ai(1)-Gen4_Deck8 assigned Healer's Hawk (56) to block Ajani's Pridemate (94).
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 3 damage () to Healer's Hawk (56).
+Damage: Dog Token (129) deals 1 damage () to Inspiring Overseer (9).
+Damage: Dog Token (130) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Dog Token (131) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Dog Token (132) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Cat Token (137) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Giada, Font of Hope (119) deals 2 damage () to Healer's Hawk (55).
+Damage: Healer's Hawk (56) deals 1 damage () to Ajani's Pridemate (94).
+Damage: Healer's Hawk (55) deals 1 damage () to Giada, Font of Hope (119).
+Damage: Inspiring Overseer (9) deals 2 damage () to Dog Token (129).
+Phase: Ai(2)-Gen4_Deck13's End of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Main phase, postcombat
+Mana: Uncharted Haven (104) - {T}: Add one mana of the chosen color.
+Mana: Island (98) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck13 cast Ajani's Pridemate (93)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck13's End step
+Phase: Ai(2)-Gen4_Deck13's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen4_Deck8)
+Phase: Ai(1)-Gen4_Deck8's Untap step
+Phase: Ai(1)-Gen4_Deck8's Upkeep step
+Phase: Ai(1)-Gen4_Deck8's Draw step
+Phase: Ai(1)-Gen4_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck8's End of Combat Step
+Phase: Ai(1)-Gen4_Deck8's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck8 cast Steel Hellkite (39)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(1)-Gen4_Deck8's End step
+Phase: Ai(1)-Gen4_Deck8's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen4_Deck13)
+Phase: Ai(2)-Gen4_Deck13's Untap step
+Phase: Ai(2)-Gen4_Deck13's Upkeep step
+Add to stack: Ai(1)-Gen4_Deck8 activated Mazemind Tome (47)
+Resolve stack: Ai(1)-Gen4_Deck8 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (47) - Ai(1)-Gen4_Deck8 scries 1.
+Phase: Ai(2)-Gen4_Deck13's Draw step
+Phase: Ai(2)-Gen4_Deck13's Main phase, precombat
+Land: Ai(2)-Gen4_Deck13 played Plains (87)
+Phase: Ai(2)-Gen4_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck13 assigned Ajani's Pridemate (94), Giada, Font of Hope (119), Ajani's Pridemate (93), Dog Token (130), Dog Token (131), Dog Token (132) and Cat Token (137) to attack Ai(1)-Gen4_Deck8.
+Phase: Ai(2)-Gen4_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck8 didn't block Dog Token (130).
+Ai(1)-Gen4_Deck8 didn't block Dog Token (131).
+Ai(1)-Gen4_Deck8 didn't block Dog Token (132).
+Ai(1)-Gen4_Deck8 didn't block Giada, Font of Hope (119).
+Ai(1)-Gen4_Deck8 didn't block Cat Token (137).
+Ai(1)-Gen4_Deck8 didn't block Ajani's Pridemate (93).
+Ai(1)-Gen4_Deck8 assigned Steel Hellkite (39) to block Ajani's Pridemate (94).
+Phase: Ai(2)-Gen4_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck13's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 3 damage () to Steel Hellkite (39).
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Ajani's Pridemate (93) deals 2 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Dog Token (130) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Dog Token (131) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Dog Token (132) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Cat Token (137) deals 1 combat damage to Ai(1)-Gen4_Deck8.
+Damage: Steel Hellkite (39) deals 5 damage () to Ajani's Pridemate (94).
+Player control: Ai(1)-Gen4_Deck8 is controlled by Ai(1)-Gen4_Deck8
+Player control: Ai(2)-Gen4_Deck13 is controlled by Ai(2)-Gen4_Deck13
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen4_Deck8 has lost because life total reached 0
+Game outcome: Ai(2)-Gen4_Deck13 has won because all opponents have lost
+Match result: Ai(1)-Gen4_Deck8: 0 Ai(2)-Gen4_Deck13: 1 
+
+Game Result: Game 1 ended in 43706 ms. Ai(2)-Gen4_Deck13 has won!
+
+
+=== STDERR ===

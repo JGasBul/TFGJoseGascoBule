@@ -1,0 +1,361 @@
+=== COMBATE PARALELO: Gen2_Deck20 vs Gen2_Deck26 ===
+Worker ID: 2227703
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck20 Gen2_Deck26 -n 1
+Duración: 45.73 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2896 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 114 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck20 vs Ai(2)-Gen2_Deck26 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck26 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen2_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck26 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen2_Deck20 played Secluded Courtyard (23)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Secluded Courtyard (23) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Add to stack: Ai(1)-Gen2_Deck20 cast Dragonmaster Outcast (40)
+Resolve stack: Dragonmaster Outcast - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen2_Deck26 played Tranquil Cove (71)
+Add to stack: Ai(2)-Gen2_Deck26 triggered Tranquil Cove (71)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (71)]
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck26's End of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck26's End step
+Phase: Ai(2)-Gen2_Deck26's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Plains (26)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Dragonmaster Outcast (40) to attack Ai(2)-Gen2_Deck26.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck26 didn't block Dragonmaster Outcast (40).
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Damage: Dragonmaster Outcast (40) deals 1 combat damage to Ai(2)-Gen2_Deck26.
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Land: Ai(2)-Gen2_Deck26 played Plains (88)
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck26's End of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Main phase, postcombat
+Mana: Tranquil Cove (71) - {T}: Add {W} or {U}.
+Mana: Plains (88) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck26 cast Mystic Archaeologist (68)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck26's End step
+Phase: Ai(2)-Gen2_Deck26's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen2_Deck20 played Secluded Courtyard (20)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Land: Ai(2)-Gen2_Deck26 played Island (99)
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck26's End of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck26 cast Ajani's Pridemate (94)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck26's End step
+Phase: Ai(2)-Gen2_Deck26's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen2_Deck20 played Secluded Courtyard (21)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 assigned Mystic Archaeologist (68) and Ajani's Pridemate (94) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Dragonmaster Outcast (40) to block Mystic Archaeologist (68).
+Ai(1)-Gen2_Deck20 didn't block Ajani's Pridemate (94).
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck26's Combat Damage Step
+Damage: Mystic Archaeologist (68) deals 2 damage () to Dragonmaster Outcast (40).
+Damage: Ajani's Pridemate (94) deals 2 combat damage to Ai(1)-Gen2_Deck20.
+Damage: Dragonmaster Outcast (40) deals 1 damage () to Mystic Archaeologist (68).
+Phase: Ai(2)-Gen2_Deck26's End of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck26 cast Knight of Grace (79)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck26's End step
+Phase: Ai(2)-Gen2_Deck26's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Cryptic Caves (4)
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck20 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen2_Deck20 draws a card.
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 assigned Ajani's Pridemate (94) and Knight of Grace (79) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Ajani's Pridemate (94).
+Ai(1)-Gen2_Deck20 didn't block Knight of Grace (79).
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Damage: Knight of Grace (79) deals 2 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 2 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's End of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Tranquil Cove (71) - {T}: Add {W} or {U}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck26 cast Ajani, Caller of the Pride (78)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen2_Deck26 activated Ajani, Caller of the Pride (78) targeting [Knight of Grace (79)]
+Resolve stack: Ajani, Caller of the Pride (78) - Ai(2)-Gen2_Deck26 puts a +1/+1 counter on Knight of Grace (79).
+Phase: Ai(2)-Gen2_Deck26's End step
+Phase: Ai(2)-Gen2_Deck26's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Add to stack: Ai(2)-Gen2_Deck26 activated Ajani, Caller of the Pride (78) targeting [Knight of Grace (79)]
+Resolve stack: Ajani, Caller of the Pride (78) - Ai(2)-Gen2_Deck26 puts a +1/+1 counter on Knight of Grace (79).
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 assigned Knight of Grace (79) and Ajani's Pridemate (94) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Ajani's Pridemate (94).
+Ai(1)-Gen2_Deck20 didn't block Knight of Grace (79).
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Damage: Knight of Grace (79) deals 4 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 2 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's End of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck26's End step
+Phase: Ai(2)-Gen2_Deck26's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Secluded Courtyard (20) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Viashino Pyromancer (9)
+Resolve stack: Viashino Pyromancer - Creature 2 / 1
+Add to stack: Ai(1)-Gen2_Deck20 triggered Viashino Pyromancer (9) targeting [Ajani, Caller of the Pride (78)]
+Resolve stack: When Viashino Pyromancer enters, it deals 2 damage to target player or planeswalker. (Targeting: [[Ajani, Caller of the Pride (78)]]) [Zone Changer: Viashino Pyromancer (9)]
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Land: Ai(2)-Gen2_Deck26 played Demolition Field (113)
+Add to stack: Ai(2)-Gen2_Deck26 activated Ajani, Caller of the Pride (78) targeting [Knight of Grace (79)]
+Resolve stack: Ajani, Caller of the Pride (78) - Ai(2)-Gen2_Deck26 puts a +1/+1 counter on Knight of Grace (79).
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 assigned Knight of Grace (79) and Ajani's Pridemate (94) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Ajani's Pridemate (94).
+Ai(1)-Gen2_Deck20 assigned Viashino Pyromancer (9) to block Knight of Grace (79).
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Damage: Knight of Grace (79) deals 5 damage () to Viashino Pyromancer (9).
+Phase: Ai(2)-Gen2_Deck26's Combat Damage Step
+Damage: Ajani's Pridemate (94) deals 2 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's End of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Main phase, postcombat
+Mana: Plains (88) - {T}: Add {W}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Tranquil Cove (71) - {T}: Add {W} or {U}.
+Mana: Demolition Field (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck26 cast Release the Dogs (104)
+Resolve stack: Release the Dogs (104) - Ai(2)-Gen2_Deck26 creates four 1/1 white Dog creature tokens.
+Phase: Ai(2)-Gen2_Deck26's End step
+Phase: Ai(2)-Gen2_Deck26's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Plains (31)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Secluded Courtyard (23) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Ajani, Caller of the Pride (15)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen2_Deck20 activated Ajani, Caller of the Pride (15) targeting []
+Resolve stack: Ajani, Caller of the Pride (15) - Ai(1)-Gen2_Deck20 
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck26)
+Phase: Ai(2)-Gen2_Deck26's Untap step
+Phase: Ai(2)-Gen2_Deck26's Upkeep step
+Phase: Ai(2)-Gen2_Deck26's Draw step
+Phase: Ai(2)-Gen2_Deck26's Main phase, precombat
+Add to stack: Ai(2)-Gen2_Deck26 activated Ajani, Caller of the Pride (78) targeting [Knight of Grace (79)]
+Resolve stack: Ajani, Caller of the Pride (78) - Ai(2)-Gen2_Deck26 puts a +1/+1 counter on Knight of Grace (79).
+Phase: Ai(2)-Gen2_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck26 assigned Knight of Grace (79), Ajani's Pridemate (94), Dog Token (125), Dog Token (126), Dog Token (127) and Dog Token (128) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Dog Token (128).
+Ai(1)-Gen2_Deck20 didn't block Dog Token (125).
+Ai(1)-Gen2_Deck20 didn't block Ajani's Pridemate (94).
+Ai(1)-Gen2_Deck20 didn't block Dog Token (126).
+Ai(1)-Gen2_Deck20 didn't block Knight of Grace (79).
+Ai(1)-Gen2_Deck20 didn't block Dog Token (127).
+Phase: Ai(2)-Gen2_Deck26's First Strike Damage Step
+Damage: Knight of Grace (79) deals 6 combat damage to Ai(1)-Gen2_Deck20.
+Player control: Ai(1)-Gen2_Deck20 is controlled by Ai(1)-Gen2_Deck20
+Player control: Ai(2)-Gen2_Deck26 is controlled by Ai(2)-Gen2_Deck26
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck20 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck26 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck20: 0 Ai(2)-Gen2_Deck26: 1 
+
+Game Result: Game 1 ended in 26781 ms. Ai(2)-Gen2_Deck26 has won!
+
+
+=== STDERR ===

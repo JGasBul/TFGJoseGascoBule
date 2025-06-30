@@ -1,0 +1,965 @@
+=== COMBATE PARALELO: Gen5_Deck14 vs Gen5_Deck21 ===
+Worker ID: 2818999
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck14 Gen5_Deck21 -n 1
+Duración: 137.74 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2733 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 91 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck14 vs Ai(2)-Gen5_Deck21 - one game of Constructed
+Stopping slow match as draw
+Mulligan: Ai(1)-Gen5_Deck14 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen5_Deck21 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (33)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Mountain (116)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (29)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Mazemind Tome (43)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Swamp (105)
+Add to stack: Ai(1)-Gen5_Deck14 activated Mazemind Tome (43)
+Resolve stack: Ai(1)-Gen5_Deck14 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (43) - Ai(1)-Gen5_Deck14 scries 1.
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Diamond Mare (96)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (24)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Burnished Hart (13)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Forest (78)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Add to stack: Ai(1)-Gen5_Deck14 activated Mazemind Tome (43)
+Resolve stack: Ai(1)-Gen5_Deck14 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (43) - Ai(1)-Gen5_Deck14 scries 1.
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Midnight Snack (69)
+Add to stack: Ai(2)-Gen5_Deck21 triggered Diamond Mare (96)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Midnight Snack (69), Activator: Ai(2)-Gen5_Deck21, SpellAbility: Midnight Snack]
+Resolve stack: Midnight Snack
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Burnished Hart (12)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Add to stack: Ai(1)-Gen5_Deck14 activated Mazemind Tome (43)
+Resolve stack: Ai(1)-Gen5_Deck14 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (43) - Ai(1)-Gen5_Deck14 scries 1.
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Zul Ashur, Lich Lord (73)
+Add to stack: Ai(2)-Gen5_Deck21 triggered Diamond Mare (96)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Zul Ashur, Lich Lord (73), Activator: Ai(2)-Gen5_Deck21, SpellAbility: Zul Ashur, Lich Lord - Creature 2 / 2]
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Add to stack: Ai(1)-Gen5_Deck14 activated Mazemind Tome (43)
+Add to stack: Ai(1)-Gen5_Deck14 triggered Mazemind Tome (43)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen5_Deck14 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (43) - Ai(1)-Gen5_Deck14 scries 1.
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen5_Deck14 played Secluded Courtyard (9)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Secluded Courtyard (9) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Release the Dogs (53)
+Resolve stack: Release the Dogs (53) - Ai(1)-Gen5_Deck14 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Marauding Blight-Priest (102)
+Add to stack: Ai(2)-Gen5_Deck21 triggered Diamond Mare (96)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Marauding Blight-Priest (102), Activator: Ai(2)-Gen5_Deck21, SpellAbility: Marauding Blight-Priest - Creature 3 / 2]
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Charming Prince (46)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (46)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (46)]
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Swamp (108)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Burglar Rat (119)
+Add to stack: Ai(2)-Gen5_Deck21 triggered Diamond Mare (96)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Burglar Rat (119), Activator: Ai(2)-Gen5_Deck21, SpellAbility: Burglar Rat - Creature 1 / 1]
+Add to stack: Ai(2)-Gen5_Deck21 triggered Marauding Blight-Priest (102)
+Resolve stack: Whenever you gain life, each opponent loses 1 life. [Player: Ai(2)-Gen5_Deck21, Gained Amount: 1]
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen5_Deck21 triggered Burglar Rat (119)
+Discard: Ai(1)-Gen5_Deck14 discards Claws Out (36).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (119)]
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Secluded Courtyard (9) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Release the Dogs (52)
+Resolve stack: Release the Dogs (52) - Ai(1)-Gen5_Deck14 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Secluded Courtyard (9) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Release the Dogs (51)
+Resolve stack: Release the Dogs (51) - Ai(1)-Gen5_Deck14 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Demolition Field (117)
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Blasphemous Edict (70)
+Add to stack: Ai(2)-Gen5_Deck21 triggered Diamond Mare (96)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Blasphemous Edict (70), Activator: Ai(2)-Gen5_Deck21, SpellAbility: Each player sacrifices thirteen creatures of their choice. (You may pay {B} rather than pay this spell's mana cost if there are thirteen or more creatures on the battlefield.) ]
+Add to stack: Ai(2)-Gen5_Deck21 triggered Marauding Blight-Priest (102)
+Resolve stack: Whenever you gain life, each opponent loses 1 life. [Player: Ai(2)-Gen5_Deck21, Gained Amount: 1]
+Resolve stack: Blasphemous Edict (70) - Ai(2)-Gen5_Deck21 and Ai(1)-Gen5_Deck14 sacrifice thirteen creatures.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck21 activated Demolition Field (117) targeting [Secluded Courtyard (9)]
+Resolve stack: Demolition Field (117) - Destroy Secluded Courtyard (9). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen5_Deck21 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (108) - {T}: Add {B}.
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Zul Ashur, Lich Lord (72)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Burnished Hart (12) and Charming Prince (46) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Burnished Hart (12).
+Ai(2)-Gen5_Deck21 didn't block Charming Prince (46).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Burnished Hart (12) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Damage: Charming Prince (46) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Healer's Hawk (59)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Zul Ashur, Lich Lord (72) to attack Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block Zul Ashur, Lich Lord (72).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Zul Ashur, Lich Lord (72) deals 2 combat damage to Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen5_Deck21 played Maze's End (62)
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Swamp (108) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 cast High-Society Hunter (67)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Charming Prince (48)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (48)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (46)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (48)]
+Phase: Ai(1)-Gen5_Deck14's End step
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (48)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (46)]) [Phase: Ai(1)-Gen5_Deck14]
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (46)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (48)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (46)]
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned High-Society Hunter (67) to attack Ai(1)-Gen5_Deck14.
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (67)]
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Zul Ashur, Lich Lord (72)]
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block High-Society Hunter (67).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: High-Society Hunter (67) deals 6 combat damage to Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Diamond Mare (97)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (46)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (48)]) [Phase: Ai(2)-Gen5_Deck21]
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (48)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (48)]
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (27)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Healer's Hawk (59) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Healer's Hawk (59).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Healer's Hawk (59) deals 1 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Swamp (108) - {T}: Add {B}.
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 activated Maze's End (62)
+Replacement Effect: Simic Guildgate enters tapped.
+Resolve stack: Maze's End (62) - Ai(2)-Gen5_Deck21 searches their library for a Gate card, puts it onto the battlefield, then shuffles. 
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Plains (80)
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Wilt-Leaf Liege (76)
+Resolve stack: Wilt-Leaf Liege - Creature 4 / 4
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned High-Society Hunter (67) to attack Ai(1)-Gen5_Deck14.
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (67)]
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Diamond Mare (97)]
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block High-Society Hunter (67).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: High-Society Hunter (67) deals 7 combat damage to Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Swamp (108) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Zul Ashur, Lich Lord (74)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Healer's Hawk (59) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Healer's Hawk (59).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Healer's Hawk (59) deals 1 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Charming Prince (45)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (45)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (46)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (45)]
+Phase: Ai(1)-Gen5_Deck14's End step
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (45)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (46)]) [Phase: Ai(1)-Gen5_Deck14]
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (46)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (48)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (46)]
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Eaten Alive (65) targeting [Charming Prince (45)]
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Zul Ashur, Lich Lord (74)]
+Resolve stack: Eaten Alive (65) - Exile Charming Prince (45).
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned High-Society Hunter (67) and Wilt-Leaf Liege (76) to attack Ai(1)-Gen5_Deck14.
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (67)]
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Wilt-Leaf Liege (76)]
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block High-Society Hunter (67).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: High-Society Hunter (67) deals 8 combat damage to Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen5_Deck21 played Maze's End (62)
+Mana: Swamp (108) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Soul-Shackled Zombie (98)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(2)-Gen5_Deck21 triggered Soul-Shackled Zombie (98) targeting [Claws Out (36), Release the Dogs (51)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Claws Out (36), Release the Dogs (51)]]) [Zone Changer: Soul-Shackled Zombie (98)]
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (46)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (48)]) [Phase: Ai(2)-Gen5_Deck21]
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (48)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (48)]
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Burnished Hart (11)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned High-Society Hunter (67) and Soul-Shackled Zombie (98) to attack Ai(1)-Gen5_Deck14.
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (67)]
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Soul-Shackled Zombie (98)]
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Healer's Hawk (59) to block High-Society Hunter (67).
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Divine Resilience (41) targeting [Healer's Hawk (59)]
+Resolve stack: Divine Resilience (41) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Healer's Hawk (59))
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: High-Society Hunter (67) deals 9 damage () to Healer's Hawk (59).
+Damage: Healer's Hawk (59) deals 1 damage () to High-Society Hunter (67).
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Swamp (108) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 cast High-Society Hunter (68)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (35)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned High-Society Hunter (67) and High-Society Hunter (68) to attack Ai(1)-Gen5_Deck14.
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (67)
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (68)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (68)]
+Add to stack: Ai(2)-Gen5_Deck21 triggered High-Society Hunter (68)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: High-Society Hunter (67)]
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (67)]
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Vampire Spawn (94)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen5_Deck21 triggered Vampire Spawn (94)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (94)]
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Swamp (108) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Ajani's Pridemate (85)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (30)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Healer's Hawk (59) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Healer's Hawk (59).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Healer's Hawk (59) deals 1 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Marauding Blight-Priest (101)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Mana: Swamp (108) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Diregraf Ghoul (112)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 31 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (25)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Healer's Hawk (59) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Healer's Hawk (59).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Healer's Hawk (59) deals 1 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 32 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Vampire Spawn (94) to attack Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Burnished Hart (11) and Burnished Hart (12) to block Vampire Spawn (94).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Vampire Spawn (94) deals 2 damage () to Burnished Hart (11).
+Damage: Burnished Hart (11) deals 2 damage () to Vampire Spawn (94).
+Damage: Burnished Hart (12) deals 2 damage () to Vampire Spawn (94).
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (78) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Marauding Blight-Priest (100)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 33 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Healer's Hawk (59) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Healer's Hawk (59).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Healer's Hawk (59) deals 1 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 34 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Marauding Blight-Priest (101), Marauding Blight-Priest (100), Ajani's Pridemate (85) and Diregraf Ghoul (112) to attack Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block Diregraf Ghoul (112).
+Ai(1)-Gen5_Deck14 didn't block Marauding Blight-Priest (100).
+Ai(1)-Gen5_Deck14 assigned Burnished Hart (12) to block Marauding Blight-Priest (101).
+Ai(1)-Gen5_Deck14 didn't block Ajani's Pridemate (85).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Marauding Blight-Priest (101) deals 3 damage () to Burnished Hart (12).
+Damage: Marauding Blight-Priest (100) deals 3 combat damage to Ai(1)-Gen5_Deck14.
+Damage: Ajani's Pridemate (85) deals 2 combat damage to Ai(1)-Gen5_Deck14.
+Damage: Diregraf Ghoul (112) deals 2 combat damage to Ai(1)-Gen5_Deck14.
+Damage: Burnished Hart (12) deals 2 damage () to Marauding Blight-Priest (101).
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 35 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Charming Prince (46) and Charming Prince (48) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Charming Prince (48).
+Ai(2)-Gen5_Deck21 didn't block Charming Prince (46).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Charming Prince (46) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Damage: Charming Prince (48) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Inspiring Overseer (8)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen5_Deck14 triggered Inspiring Overseer (8)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (8)]
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 36 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Swamp (103)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Marauding Blight-Priest (100), Ajani's Pridemate (85) and Diregraf Ghoul (112) to attack Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block Diregraf Ghoul (112).
+Ai(1)-Gen5_Deck14 assigned Inspiring Overseer (8) to block Marauding Blight-Priest (100).
+Ai(1)-Gen5_Deck14 assigned Healer's Hawk (59) to block Ajani's Pridemate (85).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Marauding Blight-Priest (100) deals 3 damage () to Inspiring Overseer (8).
+Damage: Ajani's Pridemate (85) deals 2 damage () to Healer's Hawk (59).
+Damage: Diregraf Ghoul (112) deals 2 combat damage to Ai(1)-Gen5_Deck14.
+Damage: Inspiring Overseer (8) deals 2 damage () to Marauding Blight-Priest (100).
+Damage: Healer's Hawk (59) deals 1 damage () to Ajani's Pridemate (85).
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 37 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (21)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Charming Prince (46) and Charming Prince (48) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Charming Prince (48).
+Ai(2)-Gen5_Deck21 didn't block Charming Prince (46).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Charming Prince (46) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Damage: Charming Prince (48) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 38 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Mountain (114)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Ajani's Pridemate (85) and Diregraf Ghoul (112) to attack Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block Diregraf Ghoul (112).
+Ai(1)-Gen5_Deck14 didn't block Ajani's Pridemate (85).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Ajani's Pridemate (85) deals 2 combat damage to Ai(1)-Gen5_Deck14.
+Damage: Diregraf Ghoul (112) deals 2 combat damage to Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Add to stack: Ai(2)-Gen5_Deck21 triggered Midnight Snack (69)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this token: You gain 3 life.") [Phase: Ai(2)-Gen5_Deck21]
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 39 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (22)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 40 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Player control: Ai(1)-Gen5_Deck14 is controlled by Ai(1)-Gen5_Deck14
+Player control: Ai(2)-Gen5_Deck21 is controlled by Ai(2)-Gen5_Deck21
+Game outcome: Turn 20
+Game outcome: Ai(1)-Gen5_Deck14 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck21 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck14: 1 Ai(2)-Gen5_Deck21: 0 
+
+Game Result: Game 1 ended in 120229 ms. Ai(1)-Gen5_Deck14 has won!
+
+
+=== STDERR ===

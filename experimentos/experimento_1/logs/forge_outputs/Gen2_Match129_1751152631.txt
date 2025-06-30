@@ -1,0 +1,319 @@
+=== COMBATE PARALELO: Gen2_Deck2 vs Gen2_Deck10 ===
+Worker ID: 2227705
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck2 Gen2_Deck10 -n 1
+Duración: 35.24 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2548 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 190 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck2 vs Ai(2)-Gen2_Deck10 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck2 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck10 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen2_Deck2 has mulliganed down to 5 cards.
+Mulligan: Ai(1)-Gen2_Deck2 has kept a hand of 5 cards
+Mulligan: Ai(2)-Gen2_Deck10 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Land: Ai(1)-Gen2_Deck2 played Mountain (59)
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen2_Deck10 played Maze's End (61)
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Land: Ai(1)-Gen2_Deck2 played Swamp (45)
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Vengeful Bloodwitch (5)
+Resolve stack: Vengeful Bloodwitch - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Land: Ai(2)-Gen2_Deck10 played Island (87)
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Island (87) - {T}: Add {U}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Chart a Course (102)
+Discard: Ai(2)-Gen2_Deck10 discards Island (92).
+Resolve stack: Chart a Course (102) - Ai(2)-Gen2_Deck10 draws two cards. Ai(2)-Gen2_Deck10 discards a card.
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 assigned Vengeful Bloodwitch (5) to attack Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck10 didn't block Vengeful Bloodwitch (5).
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Damage: Vengeful Bloodwitch (5) deals 1 combat damage to Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Pilfer (11) targeting [Ai(2)-Gen2_Deck10]
+Discard: Ai(2)-Gen2_Deck10 discards Release the Dogs (96).
+Resolve stack: Pilfer (11) - Ai(2)-Gen2_Deck10 reveals their hand. Ai(1)-Gen2_Deck2 chooses a nonland card from it. Ai(2)-Gen2_Deck10 discards that card.
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Land: Ai(2)-Gen2_Deck10 played Swamp (109)
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (109) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Vampire Spawn (99)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen2_Deck10 triggered Vampire Spawn (99)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (99)]
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Land: Ai(2)-Gen2_Deck10 played Swamp (111)
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Vampire Spawn (99) to attack Ai(1)-Gen2_Deck2.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck2 didn't block Vampire Spawn (99).
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Damage: Vampire Spawn (99) deals 2 combat damage to Ai(1)-Gen2_Deck2.
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (109) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (111) - {T}: Add {B}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Soul-Shackled Zombie (107)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(2)-Gen2_Deck10 triggered Soul-Shackled Zombie (107) targeting [Pilfer (11)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Pilfer (11)]]) [Zone Changer: Soul-Shackled Zombie (107)]
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Soul-Shackled Zombie (107) and Vampire Spawn (99) to attack Ai(1)-Gen2_Deck2.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck2 didn't block Vampire Spawn (99).
+Ai(1)-Gen2_Deck2 didn't block Soul-Shackled Zombie (107).
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Damage: Soul-Shackled Zombie (107) deals 4 combat damage to Ai(1)-Gen2_Deck2.
+Damage: Vampire Spawn (99) deals 2 combat damage to Ai(1)-Gen2_Deck2.
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (109) - {T}: Add {B}.
+Mana: Island (87) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Zul Ashur, Lich Lord (73)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Mana: Swamp (111) - {T}: Add {B}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Burglar Rat (119)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen2_Deck10 triggered Burglar Rat (119)
+Discard: Ai(1)-Gen2_Deck2 discards Hero's Downfall (54).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (119)]
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Soul-Shackled Zombie (107), Vampire Spawn (99), Zul Ashur, Lich Lord (73) and Burglar Rat (119) to attack Ai(1)-Gen2_Deck2.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck2 didn't block Vampire Spawn (99).
+Ai(1)-Gen2_Deck2 assigned Vengeful Bloodwitch (5) to block Burglar Rat (119).
+Ai(1)-Gen2_Deck2 didn't block Zul Ashur, Lich Lord (73).
+Ai(1)-Gen2_Deck2 didn't block Soul-Shackled Zombie (107).
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Damage: Soul-Shackled Zombie (107) deals 4 combat damage to Ai(1)-Gen2_Deck2.
+Damage: Vampire Spawn (99) deals 2 combat damage to Ai(1)-Gen2_Deck2.
+Damage: Zul Ashur, Lich Lord (73) deals 2 combat damage to Ai(1)-Gen2_Deck2.
+Damage: Burglar Rat (119) deals 1 damage () to Vengeful Bloodwitch (5).
+Damage: Vengeful Bloodwitch (5) deals 1 damage () to Burglar Rat (119).
+Add to stack: Ai(1)-Gen2_Deck2 triggered Vengeful Bloodwitch (5) targeting [Ai(2)-Gen2_Deck10]
+Resolve stack: Whenever this creature or another creature you control dies, target opponent loses 1 life and you gain 1 life. (Targeting: [[Ai(2)-Gen2_Deck10]]) [Zone Changer: Vengeful Bloodwitch (5)]
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (109) - {T}: Add {B}.
+Mana: Swamp (111) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Burnished Hart (77)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Soul-Shackled Zombie (107), Vampire Spawn (99), Zul Ashur, Lich Lord (73) and Burnished Hart (77) to attack Ai(1)-Gen2_Deck2.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck2 didn't block Vampire Spawn (99).
+Ai(1)-Gen2_Deck2 didn't block Zul Ashur, Lich Lord (73).
+Ai(1)-Gen2_Deck2 didn't block Soul-Shackled Zombie (107).
+Ai(1)-Gen2_Deck2 didn't block Burnished Hart (77).
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Damage: Soul-Shackled Zombie (107) deals 4 combat damage to Ai(1)-Gen2_Deck2.
+Damage: Vampire Spawn (99) deals 2 combat damage to Ai(1)-Gen2_Deck2.
+Damage: Zul Ashur, Lich Lord (73) deals 2 combat damage to Ai(1)-Gen2_Deck2.
+Damage: Burnished Hart (77) deals 2 combat damage to Ai(1)-Gen2_Deck2.
+Player control: Ai(1)-Gen2_Deck2 is controlled by Ai(1)-Gen2_Deck2
+Player control: Ai(2)-Gen2_Deck10 is controlled by Ai(2)-Gen2_Deck10
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen2_Deck2 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck10 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck2: 0 Ai(2)-Gen2_Deck10: 1 
+
+Game Result: Game 1 ended in 17946 ms. Ai(2)-Gen2_Deck10 has won!
+
+
+=== STDERR ===

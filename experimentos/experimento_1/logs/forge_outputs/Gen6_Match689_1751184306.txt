@@ -1,0 +1,245 @@
+=== COMBATE PARALELO: Gen6_Deck16 vs Gen6_Deck17 ===
+Worker ID: 3014461
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck16 Gen6_Deck17 -n 1
+Duración: 28.01 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3056 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 109 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck16 vs Ai(2)-Gen6_Deck17 - one game of Constructed
+Mulligan: Ai(1)-Gen6_Deck16 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen6_Deck17 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen6_Deck16)
+Phase: Ai(1)-Gen6_Deck16's Untap step
+Phase: Ai(1)-Gen6_Deck16's Upkeep step
+Phase: Ai(1)-Gen6_Deck16's Draw step
+Phase: Ai(1)-Gen6_Deck16's Main phase, precombat
+Land: Ai(1)-Gen6_Deck16 played Plains (23)
+Phase: Ai(1)-Gen6_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck16's End of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck16's End step
+Phase: Ai(1)-Gen6_Deck16's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen6_Deck17)
+Phase: Ai(2)-Gen6_Deck17's Untap step
+Phase: Ai(2)-Gen6_Deck17's Upkeep step
+Phase: Ai(2)-Gen6_Deck17's Draw step
+Phase: Ai(2)-Gen6_Deck17's Main phase, precombat
+Land: Ai(2)-Gen6_Deck17 played Plains (80)
+Phase: Ai(2)-Gen6_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck17's End of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Main phase, postcombat
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck17 cast Healer's Hawk (114)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen6_Deck17's End step
+Phase: Ai(2)-Gen6_Deck17's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen6_Deck16)
+Phase: Ai(1)-Gen6_Deck16's Untap step
+Phase: Ai(1)-Gen6_Deck16's Upkeep step
+Phase: Ai(1)-Gen6_Deck16's Draw step
+Phase: Ai(1)-Gen6_Deck16's Main phase, precombat
+Land: Ai(1)-Gen6_Deck16 played Mountain (60)
+Phase: Ai(1)-Gen6_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck16's End of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck16's End step
+Phase: Ai(1)-Gen6_Deck16's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen6_Deck17)
+Phase: Ai(2)-Gen6_Deck17's Untap step
+Phase: Ai(2)-Gen6_Deck17's Upkeep step
+Phase: Ai(2)-Gen6_Deck17's Draw step
+Phase: Ai(2)-Gen6_Deck17's Main phase, precombat
+Land: Ai(2)-Gen6_Deck17 played Swamp (106)
+Phase: Ai(2)-Gen6_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck17 assigned Healer's Hawk (114) to attack Ai(1)-Gen6_Deck16.
+Phase: Ai(2)-Gen6_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck16 didn't block Healer's Hawk (114).
+Phase: Ai(2)-Gen6_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck17's Combat Damage Step
+Damage: Healer's Hawk (114) deals 1 combat damage to Ai(1)-Gen6_Deck16.
+Phase: Ai(2)-Gen6_Deck17's End of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Main phase, postcombat
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Swamp (106) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck17 cast Ajani's Pridemate (84)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck17's End step
+Phase: Ai(2)-Gen6_Deck17's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen6_Deck16)
+Phase: Ai(1)-Gen6_Deck16's Untap step
+Phase: Ai(1)-Gen6_Deck16's Upkeep step
+Phase: Ai(1)-Gen6_Deck16's Draw step
+Phase: Ai(1)-Gen6_Deck16's Main phase, precombat
+Land: Ai(1)-Gen6_Deck16 played Forest (16)
+Phase: Ai(1)-Gen6_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck16's End of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck16's End step
+Phase: Ai(1)-Gen6_Deck16's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen6_Deck17)
+Phase: Ai(2)-Gen6_Deck17's Untap step
+Phase: Ai(2)-Gen6_Deck17's Upkeep step
+Phase: Ai(2)-Gen6_Deck17's Draw step
+Phase: Ai(2)-Gen6_Deck17's Main phase, precombat
+Land: Ai(2)-Gen6_Deck17 played Crawling Barrens (86)
+Phase: Ai(2)-Gen6_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck17 assigned Ajani's Pridemate (84) and Healer's Hawk (114) to attack Ai(1)-Gen6_Deck16.
+Phase: Ai(2)-Gen6_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck16 didn't block Healer's Hawk (114).
+Ai(1)-Gen6_Deck16 didn't block Ajani's Pridemate (84).
+Phase: Ai(2)-Gen6_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck17's Combat Damage Step
+Damage: Ajani's Pridemate (84) deals 2 combat damage to Ai(1)-Gen6_Deck16.
+Damage: Healer's Hawk (114) deals 1 combat damage to Ai(1)-Gen6_Deck16.
+Add to stack: Ai(2)-Gen6_Deck17 triggered Ajani's Pridemate (84)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen6_Deck17, Gained Amount: 1]
+Phase: Ai(2)-Gen6_Deck17's End of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Main phase, postcombat
+Mana: Swamp (106) - {T}: Add {B}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Crawling Barrens (86) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck17 cast Vampire Spawn (96)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen6_Deck17 triggered Vampire Spawn (96)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (96)]
+Add to stack: Ai(2)-Gen6_Deck17 triggered Ajani's Pridemate (84)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen6_Deck17, Gained Amount: 2]
+Phase: Ai(2)-Gen6_Deck17's End step
+Phase: Ai(2)-Gen6_Deck17's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen6_Deck16)
+Phase: Ai(1)-Gen6_Deck16's Untap step
+Phase: Ai(1)-Gen6_Deck16's Upkeep step
+Phase: Ai(1)-Gen6_Deck16's Draw step
+Phase: Ai(1)-Gen6_Deck16's Main phase, precombat
+Land: Ai(1)-Gen6_Deck16 played Crawling Barrens (29)
+Phase: Ai(1)-Gen6_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck16's End of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck16's End step
+Phase: Ai(1)-Gen6_Deck16's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen6_Deck17)
+Phase: Ai(2)-Gen6_Deck17's Untap step
+Phase: Ai(2)-Gen6_Deck17's Upkeep step
+Phase: Ai(2)-Gen6_Deck17's Draw step
+Phase: Ai(2)-Gen6_Deck17's Main phase, precombat
+Land: Ai(2)-Gen6_Deck17 played Swamp (105)
+Phase: Ai(2)-Gen6_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck17 assigned Ajani's Pridemate (84), Vampire Spawn (96) and Healer's Hawk (114) to attack Ai(1)-Gen6_Deck16.
+Phase: Ai(2)-Gen6_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck16 didn't block Vampire Spawn (96).
+Ai(1)-Gen6_Deck16 didn't block Healer's Hawk (114).
+Ai(1)-Gen6_Deck16 didn't block Ajani's Pridemate (84).
+Phase: Ai(2)-Gen6_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck17's Combat Damage Step
+Damage: Ajani's Pridemate (84) deals 4 combat damage to Ai(1)-Gen6_Deck16.
+Damage: Vampire Spawn (96) deals 2 combat damage to Ai(1)-Gen6_Deck16.
+Damage: Healer's Hawk (114) deals 1 combat damage to Ai(1)-Gen6_Deck16.
+Add to stack: Ai(2)-Gen6_Deck17 triggered Ajani's Pridemate (84)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen6_Deck17, Gained Amount: 1]
+Phase: Ai(2)-Gen6_Deck17's End of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Main phase, postcombat
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Swamp (106) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck17 cast Charming Prince (90)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen6_Deck17 triggered Charming Prince (90)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Vampire Spawn (96)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (90)]
+Phase: Ai(2)-Gen6_Deck17's End step
+Add to stack: Ai(2)-Gen6_Deck17 triggered Charming Prince (90)
+Resolve stack: Return exiled card to the battlefield. ([Vampire Spawn (96)]) [Phase: Ai(2)-Gen6_Deck17]
+Add to stack: Ai(2)-Gen6_Deck17 triggered Vampire Spawn (96)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (96)]
+Add to stack: Ai(2)-Gen6_Deck17 triggered Ajani's Pridemate (84)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen6_Deck17, Gained Amount: 2]
+Phase: Ai(2)-Gen6_Deck17's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen6_Deck16)
+Phase: Ai(1)-Gen6_Deck16's Untap step
+Phase: Ai(1)-Gen6_Deck16's Upkeep step
+Phase: Ai(1)-Gen6_Deck16's Draw step
+Phase: Ai(1)-Gen6_Deck16's Main phase, precombat
+Land: Ai(1)-Gen6_Deck16 played Soulstone Sanctuary (31)
+Phase: Ai(1)-Gen6_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck16's End of Combat Step
+Phase: Ai(1)-Gen6_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck16's End step
+Phase: Ai(1)-Gen6_Deck16's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen6_Deck17)
+Phase: Ai(2)-Gen6_Deck17's Untap step
+Phase: Ai(2)-Gen6_Deck17's Upkeep step
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Crawling Barrens (29) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck16 activated Soulstone Sanctuary (31)
+Resolve stack: Soulstone Sanctuary (31) - Soulstone Sanctuary (31) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen6_Deck17's Draw step
+Phase: Ai(2)-Gen6_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck17 assigned Ajani's Pridemate (84), Charming Prince (90), Vampire Spawn (96) and Healer's Hawk (114) to attack Ai(1)-Gen6_Deck16.
+Phase: Ai(2)-Gen6_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck16 didn't block Vampire Spawn (96).
+Ai(1)-Gen6_Deck16 didn't block Healer's Hawk (114).
+Ai(1)-Gen6_Deck16 assigned Soulstone Sanctuary (31) to block Ajani's Pridemate (84).
+Ai(1)-Gen6_Deck16 didn't block Charming Prince (90).
+Phase: Ai(2)-Gen6_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck17's Combat Damage Step
+Damage: Ajani's Pridemate (84) deals 6 damage () to Soulstone Sanctuary (31).
+Damage: Charming Prince (90) deals 2 combat damage to Ai(1)-Gen6_Deck16.
+Damage: Vampire Spawn (96) deals 2 combat damage to Ai(1)-Gen6_Deck16.
+Damage: Healer's Hawk (114) deals 1 combat damage to Ai(1)-Gen6_Deck16.
+Damage: Soulstone Sanctuary (31) deals 3 damage () to Ajani's Pridemate (84).
+Player control: Ai(1)-Gen6_Deck16 is controlled by Ai(1)-Gen6_Deck16
+Player control: Ai(2)-Gen6_Deck17 is controlled by Ai(2)-Gen6_Deck17
+Game outcome: Turn 5
+Game outcome: Ai(1)-Gen6_Deck16 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck17 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck16: 0 Ai(2)-Gen6_Deck17: 1 
+
+Game Result: Game 1 ended in 11661 ms. Ai(2)-Gen6_Deck17 has won!
+
+
+=== STDERR ===

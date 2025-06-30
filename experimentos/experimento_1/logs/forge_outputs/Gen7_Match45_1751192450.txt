@@ -1,0 +1,600 @@
+=== COMBATE PARALELO: Gen7_Deck0 vs Gen7_Deck23 ===
+Worker ID: 3209161
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck0 Gen7_Deck23 -n 1
+Duración: 55.82 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2915 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 93 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck0 vs Ai(2)-Gen7_Deck23 - one game of Constructed
+Player - trying to gain negative or 0 life
+Player - trying to gain negative or 0 life
+Mulligan: Ai(2)-Gen7_Deck23 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen7_Deck0 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen7_Deck23 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Land: Ai(1)-Gen7_Deck0 played Swamp (31)
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Diregraf Ghoul (40)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Land: Ai(2)-Gen7_Deck23 played Plains (84)
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 cast Healer's Hawk (117)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 assigned Diregraf Ghoul (40) to attack Ai(2)-Gen7_Deck23.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck23 didn't block Diregraf Ghoul (40).
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Damage: Diregraf Ghoul (40) deals 2 combat damage to Ai(2)-Gen7_Deck23.
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Land: Ai(1)-Gen7_Deck0 played Swamp (25)
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Land: Ai(2)-Gen7_Deck23 played Plains (82)
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Healer's Hawk (117) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Healer's Hawk (117).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 cast Diamond Mare (99)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Land: Ai(1)-Gen7_Deck0 played Swamp (28)
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Vampire Spawn (60)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(1)-Gen7_Deck0 triggered Vampire Spawn (60)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (60)]
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Healer's Hawk (117) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Healer's Hawk (117).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Replacement Effect: Jungle Hollow enters tapped.
+Land: Ai(2)-Gen7_Deck23 played Jungle Hollow (104)
+Add to stack: Ai(2)-Gen7_Deck23 triggered Jungle Hollow (104)
+Resolve stack: When Jungle Hollow enters, you gain 1 life. [Zone Changer: Jungle Hollow (104)]
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 cast Mazemind Tome (113)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck23 activated Mazemind Tome (113)
+Resolve stack: Ai(2)-Gen7_Deck23 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (113) - Ai(2)-Gen7_Deck23 scries 1.
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen7_Deck0 played Uncharted Haven (46)
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck23 activated Mazemind Tome (113)
+Resolve stack: Ai(2)-Gen7_Deck23 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (113) - Ai(2)-Gen7_Deck23 scries 1.
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Land: Ai(2)-Gen7_Deck23 played Plains (74)
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Healer's Hawk (117) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Healer's Hawk (117).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Diregraf Ghoul (43)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck23 activated Mazemind Tome (113)
+Resolve stack: Ai(2)-Gen7_Deck23 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (113) - Ai(2)-Gen7_Deck23 scries 1.
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Land: Ai(2)-Gen7_Deck23 played Plains (75)
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Healer's Hawk (117) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Healer's Hawk (117).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Seeker's Folly (53)
+Discard: Ai(2)-Gen7_Deck23 discards Steel Hellkite (86).
+Discard: Ai(2)-Gen7_Deck23 discards Archway Angel (96).
+Resolve stack: Seeker's Folly (53) -  Target opponent discards two cards. (Targeting: Ai(2)-Gen7_Deck23)
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Land: Ai(2)-Gen7_Deck23 played Plains (72)
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Healer's Hawk (117) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Healer's Hawk (117).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 activated Mazemind Tome (113)
+Add to stack: Ai(2)-Gen7_Deck23 triggered Mazemind Tome (113)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (113) - Ai(2)-Gen7_Deck23 draws a card.
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Land: Ai(1)-Gen7_Deck0 played Swamp (29)
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Painful Quandary (49)
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Healer's Hawk (117) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Healer's Hawk (117).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Land: Ai(2)-Gen7_Deck23 played Rogue's Passage (103)
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Jungle Hollow (104) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen7_Deck23 cast Archway Angel (95)
+Add to stack: Ai(2)-Gen7_Deck23 triggered Diamond Mare (99)
+Add to stack: Ai(1)-Gen7_Deck0 triggered Painful Quandary (49)
+Discard: Ai(2)-Gen7_Deck23 discards Evolving Wilds (110).
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Archway Angel (95), Activator: Ai(2)-Gen7_Deck23, SpellAbility: Archway Angel - Creature 3 / 4]
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Archway Angel (95), Activator: Ai(2)-Gen7_Deck23, SpellAbility: Archway Angel - Creature 3 / 4]
+Resolve stack: Archway Angel - Creature 3 / 4
+Add to stack: Ai(2)-Gen7_Deck23 triggered Archway Angel (95)
+Resolve stack: When Archway Angel enters, you gain 2 life for each Gate you control. [Zone Changer: Archway Angel (95)]
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Painful Quandary (50)
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 activated Rogue's Passage (103) targeting [Archway Angel (95)]
+Resolve stack: Rogue's Passage (103) - Archway Angel (95) can't be blocked this turn.
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Archway Angel (95) and Healer's Hawk (117) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Healer's Hawk (117).
+Ai(1)-Gen7_Deck0 didn't block Archway Angel (95).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Archway Angel (95) deals 3 combat damage to Ai(1)-Gen7_Deck0.
+Damage: Healer's Hawk (117) deals 1 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Jungle Hollow (104) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen7_Deck23 cast Charming Prince (88)
+Add to stack: Ai(2)-Gen7_Deck23 triggered Diamond Mare (99)
+Add to stack: Ai(1)-Gen7_Deck0 triggered Painful Quandary (50)
+Add to stack: Ai(1)-Gen7_Deck0 triggered Painful Quandary (49)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Charming Prince (88), Activator: Ai(2)-Gen7_Deck23, SpellAbility: Charming Prince - Creature 2 / 2]
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Charming Prince (88), Activator: Ai(2)-Gen7_Deck23, SpellAbility: Charming Prince - Creature 2 / 2]
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Charming Prince (88), Activator: Ai(2)-Gen7_Deck23, SpellAbility: Charming Prince - Creature 2 / 2]
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck23 triggered Charming Prince (88)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Archway Angel (95)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (88)]
+Phase: Ai(2)-Gen7_Deck23's End step
+Add to stack: Ai(2)-Gen7_Deck23 triggered Charming Prince (88)
+Resolve stack: Return exiled card to the battlefield. ([Archway Angel (95)]) [Phase: Ai(2)-Gen7_Deck23]
+Add to stack: Ai(2)-Gen7_Deck23 triggered Archway Angel (95)
+Resolve stack: When Archway Angel enters, you gain 2 life for each Gate you control. [Zone Changer: Archway Angel (95)]
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Land: Ai(1)-Gen7_Deck0 played Demolition Field (59)
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Liliana, Dreadhorde General (7)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(1)-Gen7_Deck0 activated Liliana, Dreadhorde General (7)
+Resolve stack: Liliana, Dreadhorde General (7) - Ai(1)-Gen7_Deck0 and Ai(2)-Gen7_Deck23 sacrifice two creatures.
+Add to stack: Ai(1)-Gen7_Deck0 triggered Liliana, Dreadhorde General (7)
+Add to stack: Ai(1)-Gen7_Deck0 triggered Liliana, Dreadhorde General (7)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Diregraf Ghoul (43)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Diregraf Ghoul (40)]
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 activated Rogue's Passage (103) targeting [Archway Angel (95)]
+Resolve stack: Rogue's Passage (103) - Archway Angel (95) can't be blocked this turn.
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Land: Ai(2)-Gen7_Deck23 played Plains (69)
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Archway Angel (95) to attack Liliana, Dreadhorde General (7).
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Archway Angel (95).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Land: Ai(1)-Gen7_Deck0 played Soulstone Sanctuary (54)
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 assigned Vampire Spawn (60) to attack Ai(2)-Gen7_Deck23.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck23 didn't block Vampire Spawn (60).
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Damage: Vampire Spawn (60) deals 2 combat damage to Ai(2)-Gen7_Deck23.
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Diamond Mare (9)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Mana: Swamp (28) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck0 cast Diregraf Ghoul (42)
+Add to stack: Ai(1)-Gen7_Deck0 triggered Diamond Mare (9)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Diregraf Ghoul (42), Activator: Ai(1)-Gen7_Deck0, SpellAbility: Diregraf Ghoul - Creature 2 / 2]
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 activated Rogue's Passage (103) targeting [Archway Angel (95)]
+Resolve stack: Rogue's Passage (103) - Archway Angel (95) can't be blocked this turn.
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Land: Ai(2)-Gen7_Deck23 played Soulstone Sanctuary (92)
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Archway Angel (95) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Archway Angel (95).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Archway Angel (95) deals 3 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen7_Deck0 activated Soulstone Sanctuary (54)
+Resolve stack: Soulstone Sanctuary (54) - Soulstone Sanctuary (54) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Land: Ai(1)-Gen7_Deck0 played Swamp (26)
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 assigned Vampire Spawn (60) and Soulstone Sanctuary (54) to attack Ai(2)-Gen7_Deck23.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck23 didn't block Soulstone Sanctuary (54).
+Ai(2)-Gen7_Deck23 didn't block Vampire Spawn (60).
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Damage: Vampire Spawn (60) deals 2 combat damage to Ai(2)-Gen7_Deck23.
+Damage: Soulstone Sanctuary (54) deals 3 combat damage to Ai(2)-Gen7_Deck23.
+Phase: Ai(1)-Gen7_Deck0's End of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck0's End step
+Phase: Ai(1)-Gen7_Deck0's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen7_Deck23)
+Phase: Ai(2)-Gen7_Deck23's Untap step
+Phase: Ai(2)-Gen7_Deck23's Upkeep step
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck23 activated Rogue's Passage (103) targeting [Archway Angel (95)]
+Resolve stack: Rogue's Passage (103) - Archway Angel (95) can't be blocked this turn.
+Phase: Ai(2)-Gen7_Deck23's Draw step
+Phase: Ai(2)-Gen7_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Archway Angel (95) to attack Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck0 didn't block Archway Angel (95).
+Phase: Ai(2)-Gen7_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck23's Combat Damage Step
+Damage: Archway Angel (95) deals 3 combat damage to Ai(1)-Gen7_Deck0.
+Phase: Ai(2)-Gen7_Deck23's End of Combat Step
+Phase: Ai(2)-Gen7_Deck23's Main phase, postcombat
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Jungle Hollow (104) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen7_Deck23 cast Ajani, Caller of the Pride (65)
+Add to stack: Ai(1)-Gen7_Deck0 triggered Painful Quandary (50)
+Add to stack: Ai(1)-Gen7_Deck0 triggered Painful Quandary (49)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Ajani, Caller of the Pride (65), Activator: Ai(2)-Gen7_Deck23, SpellAbility: Ajani, Caller of the Pride]
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Ajani, Caller of the Pride (65), Activator: Ai(2)-Gen7_Deck23, SpellAbility: Ajani, Caller of the Pride]
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen7_Deck23 activated Ajani, Caller of the Pride (65) targeting [Archway Angel (95)]
+Resolve stack: Ajani, Caller of the Pride (65) - Ai(2)-Gen7_Deck23 puts a +1/+1 counter on Archway Angel (95).
+Phase: Ai(2)-Gen7_Deck23's End step
+Phase: Ai(2)-Gen7_Deck23's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen7_Deck0)
+Phase: Ai(1)-Gen7_Deck0's Untap step
+Phase: Ai(1)-Gen7_Deck0's Upkeep step
+Phase: Ai(1)-Gen7_Deck0's Draw step
+Phase: Ai(1)-Gen7_Deck0's Main phase, precombat
+Land: Ai(1)-Gen7_Deck0 played Evolving Wilds (44)
+Add to stack: Ai(1)-Gen7_Deck0 activated Evolving Wilds (44)
+Resolve stack: Evolving Wilds (44) - Ai(1)-Gen7_Deck0 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen7_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck0 assigned Soulstone Sanctuary (54), Vampire Spawn (60), Diregraf Ghoul (42) and Diamond Mare (9) to attack Ai(2)-Gen7_Deck23.
+Phase: Ai(1)-Gen7_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck23 assigned Charming Prince (88) to block Soulstone Sanctuary (54).
+Ai(2)-Gen7_Deck23 didn't block Diamond Mare (9).
+Ai(2)-Gen7_Deck23 didn't block Diregraf Ghoul (42).
+Ai(2)-Gen7_Deck23 didn't block Vampire Spawn (60).
+Phase: Ai(1)-Gen7_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck0's Combat Damage Step
+Damage: Soulstone Sanctuary (54) deals 3 damage () to Charming Prince (88).
+Damage: Vampire Spawn (60) deals 2 combat damage to Ai(2)-Gen7_Deck23.
+Damage: Diregraf Ghoul (42) deals 2 combat damage to Ai(2)-Gen7_Deck23.
+Damage: Diamond Mare (9) deals 1 combat damage to Ai(2)-Gen7_Deck23.
+Damage: Charming Prince (88) deals 2 damage () to Soulstone Sanctuary (54).
+Player control: Ai(1)-Gen7_Deck0 is controlled by Ai(1)-Gen7_Deck0
+Player control: Ai(2)-Gen7_Deck23 is controlled by Ai(2)-Gen7_Deck23
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen7_Deck0 has won because all opponents have lost
+Game outcome: Ai(2)-Gen7_Deck23 has lost because life total reached 0
+Match result: Ai(1)-Gen7_Deck0: 1 Ai(2)-Gen7_Deck23: 0 
+
+Game Result: Game 1 ended in 38246 ms. Ai(1)-Gen7_Deck0 has won!
+
+
+=== STDERR ===

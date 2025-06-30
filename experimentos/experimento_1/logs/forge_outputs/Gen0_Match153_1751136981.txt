@@ -1,0 +1,555 @@
+=== COMBATE PARALELO: Gen0_Deck2 vs Gen0_Deck22 ===
+Worker ID: 1832525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck2 Gen0_Deck22 -n 1
+Duración: 56.64 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2862 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 100 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck2 vs Ai(2)-Gen0_Deck22 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck22 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck2 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Mountain (114)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Stromkirk Noble (66)
+Resolve stack: Stromkirk Noble - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (25)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Diregraf Ghoul (43)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Island (75)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Stromkirk Noble (66) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Stromkirk Noble (66).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Stromkirk Noble (66) deals 1 combat damage to Ai(1)-Gen0_Deck2.
+Add to stack: Ai(2)-Gen0_Deck22 triggered Stromkirk Noble (66)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (66), Damaged: Ai(1)-Gen0_Deck2, Amount: 1]
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (31)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Diregraf Ghoul (43) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 didn't block Diregraf Ghoul (43).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Diregraf Ghoul (43) deals 2 combat damage to Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Burglar Rat (57)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck2 triggered Burglar Rat (57)
+Discard: Ai(2)-Gen0_Deck22 discards Sphinx of Forgotten Lore (71).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (57)]
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Swamp (107)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Stromkirk Noble (66) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Stromkirk Noble (66).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Stromkirk Noble (66) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Add to stack: Ai(2)-Gen0_Deck22 triggered Stromkirk Noble (66)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (66), Damaged: Ai(1)-Gen0_Deck2, Amount: 2]
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Swamp (107) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Island (75) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Crow of Dark Tidings (120)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck22 triggered Crow of Dark Tidings (120)
+Zone Change: Ai(2)-Gen0_Deck22 milled Incinerating Blast (84) and Island (77).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (120)]
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (19)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Marauding Blight-Priest (17)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Crow of Dark Tidings (120) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Crow of Dark Tidings (120).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Crow of Dark Tidings (120) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(2)-Gen0_Deck22 played Temple of Deceit (68)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Temple of Deceit (68)
+Resolve stack: Ai(2)-Gen0_Deck22 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (68)]
+Mana: Swamp (107) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Island (75) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Crow of Dark Tidings (119)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck22 triggered Crow of Dark Tidings (119)
+Zone Change: Ai(2)-Gen0_Deck22 milled Brineborn Cutthroat (82) and Gleaming Barrier (103).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (119)]
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (33)
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Crow of Dark Tidings (120) and Crow of Dark Tidings (119) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Crow of Dark Tidings (119).
+Ai(1)-Gen0_Deck2 didn't block Crow of Dark Tidings (120).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Crow of Dark Tidings (120) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Crow of Dark Tidings (119) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck22 played Island (74)
+Mana: Swamp (107) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Vampire Gourmand (89)
+Resolve stack: Vampire Gourmand - Creature 2 / 2
+Mana: Island (75) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Gleaming Barrier (102)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (29)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast High-Society Hunter (5)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck22 played Swamp (108)
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (21)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned High-Society Hunter (5) to attack Ai(2)-Gen0_Deck22.
+Add to stack: Ai(1)-Gen0_Deck2 triggered High-Society Hunter (5)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (5)]
+Add to stack: Ai(1)-Gen0_Deck2 triggered High-Society Hunter (5)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Burglar Rat (57)]
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Crow of Dark Tidings (119) and Crow of Dark Tidings (120) to block High-Society Hunter (5).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: High-Society Hunter (5) deals 1 damage () to Crow of Dark Tidings (119).
+Damage: High-Society Hunter (5) deals 5 damage () to Crow of Dark Tidings (120).
+Damage: Crow of Dark Tidings (119) deals 2 damage () to High-Society Hunter (5).
+Damage: Crow of Dark Tidings (120) deals 2 damage () to High-Society Hunter (5).
+Add to stack: Ai(1)-Gen0_Deck2 triggered High-Society Hunter (5)
+Add to stack: Ai(1)-Gen0_Deck2 triggered High-Society Hunter (5)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Crow of Dark Tidings (120)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Crow of Dark Tidings (119)
+Zone Change: Ai(2)-Gen0_Deck22 milled Skeleton Archer (118) and Midnight Snack (65).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (119)]
+Zone Change: Ai(2)-Gen0_Deck22 milled Vampire Spawn (92) and Brineborn Cutthroat (81).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (120)]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Crow of Dark Tidings (119)]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Crow of Dark Tidings (120)]
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Painful Quandary (48)
+Resolve stack: Painful Quandary
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Diregraf Ghoul (40)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Island (75) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Diamond Mare (99)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Painful Quandary (48)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Diamond Mare (99), Activator: Ai(2)-Gen0_Deck22, SpellAbility: Diamond Mare - Creature 1 / 3]
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Eaten Alive (3) targeting [Stromkirk Noble (66)]
+Resolve stack: Eaten Alive (3) - Exile Stromkirk Noble (66).
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck2 played Uncharted Haven (45)
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Painful Quandary (50)
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck2 played Soulstone Sanctuary (55)
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Diamond Mare (9)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Seeker's Folly (53)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Diamond Mare (9)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Seeker's Folly (53), Activator: Ai(1)-Gen0_Deck2, SpellAbility: Choose one —
+• Target opponent discards two cards.
+• Creatures your opponents control get -1/-1 until end of turn.
+
+ Target opponent discards two cards.]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Marauding Blight-Priest (17)
+Resolve stack: Whenever you gain life, each opponent loses 1 life. [Player: Ai(1)-Gen0_Deck2, Gained Amount: 1]
+Discard: Ai(2)-Gen0_Deck22 discards Sphinx of Forgotten Lore (72).
+Resolve stack: Seeker's Folly (53) -  Target opponent discards two cards. (Targeting: Ai(2)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck22 played Swamp (106)
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Soulstone Sanctuary (55)
+Resolve stack: Soulstone Sanctuary (55) - Soulstone Sanctuary (55) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (28)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Swamp (107) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Island (75) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Midnight Snack (64)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Diamond Mare (99)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Painful Quandary (48)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Painful Quandary (50)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Midnight Snack (64), Activator: Ai(2)-Gen0_Deck22, SpellAbility: Midnight Snack]
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Midnight Snack (64), Activator: Ai(2)-Gen0_Deck22, SpellAbility: Midnight Snack]
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Midnight Snack (64), Activator: Ai(2)-Gen0_Deck22, SpellAbility: Midnight Snack]
+Resolve stack: Midnight Snack
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Marauding Blight-Priest (17), Diregraf Ghoul (40), Diamond Mare (9) and Soulstone Sanctuary (55) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Vampire Gourmand (89) to block Marauding Blight-Priest (17).
+Ai(2)-Gen0_Deck22 assigned Gleaming Barrier (102) to block Soulstone Sanctuary (55).
+Ai(2)-Gen0_Deck22 assigned Diamond Mare (99) to block Diregraf Ghoul (40).
+Ai(2)-Gen0_Deck22 didn't block Diamond Mare (9).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Marauding Blight-Priest (17) deals 3 damage () to Vampire Gourmand (89).
+Damage: Diregraf Ghoul (40) deals 2 damage () to Diamond Mare (99).
+Damage: Diamond Mare (9) deals 1 combat damage to Ai(2)-Gen0_Deck22.
+Damage: Soulstone Sanctuary (55) deals 3 damage () to Gleaming Barrier (102).
+Damage: Vampire Gourmand (89) deals 2 damage () to Marauding Blight-Priest (17).
+Damage: Diamond Mare (99) deals 1 damage () to Diregraf Ghoul (40).
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Burglar Rat (58)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Diamond Mare (9)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Burglar Rat (58), Activator: Ai(1)-Gen0_Deck2, SpellAbility: Burglar Rat - Creature 1 / 1]
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck2 triggered Burglar Rat (58)
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (58)]
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Soulstone Sanctuary (55), Diregraf Ghoul (40), Diamond Mare (9) and Burglar Rat (58) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Gleaming Barrier (102) to block Soulstone Sanctuary (55).
+Ai(2)-Gen0_Deck22 assigned Diamond Mare (99) to block Diregraf Ghoul (40).
+Ai(2)-Gen0_Deck22 didn't block Diamond Mare (9).
+Ai(2)-Gen0_Deck22 didn't block Burglar Rat (58).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Soulstone Sanctuary (55) deals 3 damage () to Gleaming Barrier (102).
+Damage: Diregraf Ghoul (40) deals 2 damage () to Diamond Mare (99).
+Damage: Diamond Mare (9) deals 1 combat damage to Ai(2)-Gen0_Deck22.
+Damage: Burglar Rat (58) deals 1 combat damage to Ai(2)-Gen0_Deck22.
+Damage: Diamond Mare (99) deals 1 damage () to Diregraf Ghoul (40).
+Player control: Ai(1)-Gen0_Deck2 is controlled by Ai(1)-Gen0_Deck2
+Player control: Ai(2)-Gen0_Deck22 is controlled by Ai(2)-Gen0_Deck22
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck22 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck2: 1 Ai(2)-Gen0_Deck22: 0 
+
+Game Result: Game 1 ended in 40513 ms. Ai(1)-Gen0_Deck2 has won!
+
+
+=== STDERR ===

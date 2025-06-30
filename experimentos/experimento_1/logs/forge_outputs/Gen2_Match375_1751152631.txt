@@ -1,0 +1,314 @@
+=== COMBATE PARALELO: Gen2_Deck7 vs Gen2_Deck13 ===
+Worker ID: 2227703
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck7 Gen2_Deck13 -n 1
+Duración: 29.94 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2923 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 79 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck7 vs Ai(2)-Gen2_Deck13 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck13 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Swamp (91)
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck7)
+Phase: Ai(1)-Gen2_Deck7's Untap step
+Phase: Ai(1)-Gen2_Deck7's Upkeep step
+Phase: Ai(1)-Gen2_Deck7's Draw step
+Phase: Ai(1)-Gen2_Deck7's Main phase, precombat
+Land: Ai(1)-Gen2_Deck7 played Swamp (48)
+Phase: Ai(1)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck7's End of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Main phase, postcombat
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck7 cast Diregraf Ghoul (53)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck7's End step
+Phase: Ai(1)-Gen2_Deck7's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen2_Deck13 played Uncharted Haven (103)
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck7)
+Phase: Ai(1)-Gen2_Deck7's Untap step
+Phase: Ai(1)-Gen2_Deck7's Upkeep step
+Phase: Ai(1)-Gen2_Deck7's Draw step
+Phase: Ai(1)-Gen2_Deck7's Main phase, precombat
+Land: Ai(1)-Gen2_Deck7 played Plains (18)
+Phase: Ai(1)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck7 assigned Diregraf Ghoul (53) to attack Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck13 didn't block Diregraf Ghoul (53).
+Phase: Ai(1)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck7's Combat Damage Step
+Damage: Diregraf Ghoul (53) deals 2 combat damage to Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's End of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck7's End step
+Phase: Ai(1)-Gen2_Deck7's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Swamp (83)
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Mana: Swamp (91) - {T}: Add {B}.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Swamp (83) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Seeker's Folly (107)
+Discard: Ai(1)-Gen2_Deck7 discards Swamp (49).
+Discard: Ai(1)-Gen2_Deck7 discards Demolition Field (60).
+Resolve stack: Seeker's Folly (107) -  Target opponent discards two cards. (Targeting: Ai(1)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck7)
+Phase: Ai(1)-Gen2_Deck7's Untap step
+Phase: Ai(1)-Gen2_Deck7's Upkeep step
+Phase: Ai(1)-Gen2_Deck7's Draw step
+Phase: Ai(1)-Gen2_Deck7's Main phase, precombat
+Land: Ai(1)-Gen2_Deck7 played Swamp (46)
+Phase: Ai(1)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck7 assigned Diregraf Ghoul (53) to attack Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck13 didn't block Diregraf Ghoul (53).
+Phase: Ai(1)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck7's Combat Damage Step
+Damage: Diregraf Ghoul (53) deals 2 combat damage to Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's End of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck7's End step
+Phase: Ai(1)-Gen2_Deck7's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck7)
+Phase: Ai(1)-Gen2_Deck7's Untap step
+Phase: Ai(1)-Gen2_Deck7's Upkeep step
+Phase: Ai(1)-Gen2_Deck7's Draw step
+Phase: Ai(1)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck7 assigned Diregraf Ghoul (53) to attack Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck13 didn't block Diregraf Ghoul (53).
+Phase: Ai(1)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck7's Combat Damage Step
+Damage: Diregraf Ghoul (53) deals 2 combat damage to Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's End of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen2_Deck7 played Tranquil Cove (40)
+Add to stack: Ai(1)-Gen2_Deck7 triggered Tranquil Cove (40)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (40)]
+Phase: Ai(1)-Gen2_Deck7's End step
+Phase: Ai(1)-Gen2_Deck7's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck7)
+Phase: Ai(1)-Gen2_Deck7's Untap step
+Phase: Ai(1)-Gen2_Deck7's Upkeep step
+Phase: Ai(1)-Gen2_Deck7's Draw step
+Phase: Ai(1)-Gen2_Deck7's Main phase, precombat
+Land: Ai(1)-Gen2_Deck7 played Swamp (47)
+Phase: Ai(1)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck7 assigned Diregraf Ghoul (53) to attack Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck13 didn't block Diregraf Ghoul (53).
+Phase: Ai(1)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck7's Combat Damage Step
+Damage: Diregraf Ghoul (53) deals 2 combat damage to Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's End of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Main phase, postcombat
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Swamp (47) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck7 cast Release the Dogs (30)
+Resolve stack: Release the Dogs (30) - Ai(1)-Gen2_Deck7 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen2_Deck7's End step
+Phase: Ai(1)-Gen2_Deck7's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Swamp (88)
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck7)
+Phase: Ai(1)-Gen2_Deck7's Untap step
+Phase: Ai(1)-Gen2_Deck7's Upkeep step
+Phase: Ai(1)-Gen2_Deck7's Draw step
+Phase: Ai(1)-Gen2_Deck7's Main phase, precombat
+Land: Ai(1)-Gen2_Deck7 played Plains (16)
+Phase: Ai(1)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck7 assigned Diregraf Ghoul (53), Dog Token (125), Dog Token (126), Dog Token (127) and Dog Token (128) to attack Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck13 didn't block Dog Token (128).
+Ai(2)-Gen2_Deck13 didn't block Diregraf Ghoul (53).
+Ai(2)-Gen2_Deck13 didn't block Dog Token (125).
+Ai(2)-Gen2_Deck13 didn't block Dog Token (126).
+Ai(2)-Gen2_Deck13 didn't block Dog Token (127).
+Phase: Ai(1)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck7's Combat Damage Step
+Damage: Diregraf Ghoul (53) deals 2 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (125) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (126) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (127) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's End of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Main phase, postcombat
+Mana: Tranquil Cove (40) - {T}: Add {W} or {U}.
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck7 cast Mystic Archaeologist (2)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck7 cast Diregraf Ghoul (50)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck7's End step
+Phase: Ai(1)-Gen2_Deck7's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Swamp (91) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck7)
+Phase: Ai(1)-Gen2_Deck7's Untap step
+Phase: Ai(1)-Gen2_Deck7's Upkeep step
+Phase: Ai(1)-Gen2_Deck7's Draw step
+Phase: Ai(1)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck7 assigned Diregraf Ghoul (53), Mystic Archaeologist (2), Diregraf Ghoul (50), Dog Token (125), Dog Token (126), Dog Token (127) and Dog Token (128) to attack Ai(2)-Gen2_Deck13.
+Phase: Ai(1)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck13 didn't block Dog Token (128).
+Ai(2)-Gen2_Deck13 assigned Giada, Font of Hope (119) to block Mystic Archaeologist (2).
+Ai(2)-Gen2_Deck13 didn't block Diregraf Ghoul (50).
+Ai(2)-Gen2_Deck13 didn't block Diregraf Ghoul (53).
+Ai(2)-Gen2_Deck13 didn't block Dog Token (125).
+Ai(2)-Gen2_Deck13 didn't block Dog Token (126).
+Ai(2)-Gen2_Deck13 didn't block Dog Token (127).
+Phase: Ai(1)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck7's Combat Damage Step
+Damage: Diregraf Ghoul (53) deals 2 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Mystic Archaeologist (2) deals 2 damage () to Giada, Font of Hope (119).
+Damage: Diregraf Ghoul (50) deals 2 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (125) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (126) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (127) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Dog Token (128) deals 1 combat damage to Ai(2)-Gen2_Deck13.
+Damage: Giada, Font of Hope (119) deals 2 damage () to Mystic Archaeologist (2).
+Player control: Ai(1)-Gen2_Deck7 is controlled by Ai(1)-Gen2_Deck7
+Player control: Ai(2)-Gen2_Deck13 is controlled by Ai(2)-Gen2_Deck13
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen2_Deck7 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck13 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck7: 1 Ai(2)-Gen2_Deck13: 0 
+
+Game Result: Game 1 ended in 13188 ms. Ai(1)-Gen2_Deck7 has won!
+
+
+=== STDERR ===

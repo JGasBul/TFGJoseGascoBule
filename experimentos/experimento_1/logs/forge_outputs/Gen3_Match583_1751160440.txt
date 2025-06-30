@@ -1,0 +1,328 @@
+=== COMBATE PARALELO: Gen3_Deck12 vs Gen3_Deck22 ===
+Worker ID: 2418662
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck12 Gen3_Deck22 -n 1
+Duración: 43.16 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3151 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 119 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck12 vs Ai(2)-Gen3_Deck22 - one game of Constructed
+Mulligan: Ai(2)-Gen3_Deck22 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen3_Deck12 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck22)
+Phase: Ai(2)-Gen3_Deck22's Untap step
+Phase: Ai(2)-Gen3_Deck22's Upkeep step
+Phase: Ai(2)-Gen3_Deck22's Draw step
+Phase: Ai(2)-Gen3_Deck22's Main phase, precombat
+Land: Ai(2)-Gen3_Deck22 played Swamp (99)
+Phase: Ai(2)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck22's End of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Main phase, postcombat
+Mana: Swamp (99) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck22 cast Diregraf Ghoul (105)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck22's End step
+Phase: Ai(2)-Gen3_Deck22's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck12)
+Phase: Ai(1)-Gen3_Deck12's Untap step
+Phase: Ai(1)-Gen3_Deck12's Upkeep step
+Phase: Ai(1)-Gen3_Deck12's Draw step
+Phase: Ai(1)-Gen3_Deck12's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen3_Deck12 played Tranquil Cove (37)
+Add to stack: Ai(1)-Gen3_Deck12 triggered Tranquil Cove (37)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (37)]
+Phase: Ai(1)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck12's End of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck12's End step
+Phase: Ai(1)-Gen3_Deck12's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck22)
+Phase: Ai(2)-Gen3_Deck22's Untap step
+Phase: Ai(2)-Gen3_Deck22's Upkeep step
+Phase: Ai(2)-Gen3_Deck22's Draw step
+Phase: Ai(2)-Gen3_Deck22's Main phase, precombat
+Land: Ai(2)-Gen3_Deck22 played Plains (74)
+Phase: Ai(2)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck22 assigned Diregraf Ghoul (105) to attack Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck12 didn't block Diregraf Ghoul (105).
+Phase: Ai(2)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck22's Combat Damage Step
+Damage: Diregraf Ghoul (105) deals 2 combat damage to Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's End of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Main phase, postcombat
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Swamp (99) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck22 cast Knight of Grace (69)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck22's End step
+Phase: Ai(2)-Gen3_Deck22's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck12)
+Phase: Ai(1)-Gen3_Deck12's Untap step
+Phase: Ai(1)-Gen3_Deck12's Upkeep step
+Phase: Ai(1)-Gen3_Deck12's Draw step
+Phase: Ai(1)-Gen3_Deck12's Main phase, precombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen3_Deck12 played Dismal Backwater (10)
+Add to stack: Ai(1)-Gen3_Deck12 triggered Dismal Backwater (10)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (10)]
+Phase: Ai(1)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck12's End of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck12's End step
+Phase: Ai(1)-Gen3_Deck12's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck22)
+Phase: Ai(2)-Gen3_Deck22's Untap step
+Phase: Ai(2)-Gen3_Deck22's Upkeep step
+Phase: Ai(2)-Gen3_Deck22's Draw step
+Phase: Ai(2)-Gen3_Deck22's Main phase, precombat
+Land: Ai(2)-Gen3_Deck22 played Rogue's Passage (95)
+Mana: Swamp (99) - {T}: Add {B}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Rogue's Passage (95) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen3_Deck22 cast Adaptive Automaton (90)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck22 assigned Knight of Grace (69) and Diregraf Ghoul (105) to attack Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck12 didn't block Knight of Grace (69).
+Ai(1)-Gen3_Deck12 didn't block Diregraf Ghoul (105).
+Phase: Ai(2)-Gen3_Deck22's First Strike Damage Step
+Damage: Knight of Grace (69) deals 4 combat damage to Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Combat Damage Step
+Damage: Diregraf Ghoul (105) deals 2 combat damage to Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's End of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck22's End step
+Phase: Ai(2)-Gen3_Deck22's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck12)
+Phase: Ai(1)-Gen3_Deck12's Untap step
+Phase: Ai(1)-Gen3_Deck12's Upkeep step
+Phase: Ai(1)-Gen3_Deck12's Draw step
+Phase: Ai(1)-Gen3_Deck12's Main phase, precombat
+Land: Ai(1)-Gen3_Deck12 played Plains (13)
+Phase: Ai(1)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck12's End of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Main phase, postcombat
+Mana: Plains (13) - {T}: Add {W}.
+Mana: Tranquil Cove (37) - {T}: Add {W} or {U}.
+Mana: Dismal Backwater (10) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen3_Deck12 cast Cat Collector (41)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen3_Deck12 triggered Cat Collector (41)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (41)]
+Phase: Ai(1)-Gen3_Deck12's End step
+Phase: Ai(1)-Gen3_Deck12's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck22)
+Phase: Ai(2)-Gen3_Deck22's Untap step
+Phase: Ai(2)-Gen3_Deck22's Upkeep step
+Phase: Ai(2)-Gen3_Deck22's Draw step
+Phase: Ai(2)-Gen3_Deck22's Main phase, precombat
+Land: Ai(2)-Gen3_Deck22 played Demolition Field (119)
+Mana: Swamp (99) - {T}: Add {B}.
+Mana: Plains (74) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck22 activated Demolition Field (119) targeting [Dismal Backwater (10)]
+Resolve stack: Demolition Field (119) - Destroy Dismal Backwater (10). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen3_Deck22 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck22 assigned Knight of Grace (69), Diregraf Ghoul (105) and Adaptive Automaton (90) to attack Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck12 didn't block Knight of Grace (69).
+Ai(1)-Gen3_Deck12 didn't block Diregraf Ghoul (105).
+Ai(1)-Gen3_Deck12 didn't block Adaptive Automaton (90).
+Phase: Ai(2)-Gen3_Deck22's First Strike Damage Step
+Damage: Knight of Grace (69) deals 4 combat damage to Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Combat Damage Step
+Damage: Diregraf Ghoul (105) deals 2 combat damage to Ai(1)-Gen3_Deck12.
+Damage: Adaptive Automaton (90) deals 2 combat damage to Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's End of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck22's End step
+Phase: Ai(2)-Gen3_Deck22's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck12)
+Phase: Ai(1)-Gen3_Deck12's Untap step
+Phase: Ai(1)-Gen3_Deck12's Upkeep step
+Phase: Ai(1)-Gen3_Deck12's Draw step
+Phase: Ai(1)-Gen3_Deck12's Main phase, precombat
+Land: Ai(1)-Gen3_Deck12 played Plains (18)
+Phase: Ai(1)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck12's End of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Main phase, postcombat
+Mana: Plains (13) - {T}: Add {W}.
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck12 cast Ajani's Pridemate (23)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck12's End step
+Phase: Ai(1)-Gen3_Deck12's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck22)
+Phase: Ai(2)-Gen3_Deck22's Untap step
+Phase: Ai(2)-Gen3_Deck22's Upkeep step
+Phase: Ai(2)-Gen3_Deck22's Draw step
+Phase: Ai(2)-Gen3_Deck22's Main phase, precombat
+Land: Ai(2)-Gen3_Deck22 played Swamp (101)
+Mana: Swamp (99) - {T}: Add {B}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (101) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck22 activated Rogue's Passage (95) targeting [Knight of Grace (69)]
+Resolve stack: Rogue's Passage (95) - Knight of Grace (69) can't be blocked this turn.
+Phase: Ai(2)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck22 assigned Knight of Grace (69), Diregraf Ghoul (105) and Adaptive Automaton (90) to attack Ai(1)-Gen3_Deck12.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Tranquil Cove (37) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen3_Deck12 activated Food Token (124)
+Resolve stack: Food Token (124) - Ai(1)-Gen3_Deck12 gains 3 life.
+Add to stack: Ai(1)-Gen3_Deck12 triggered Ajani's Pridemate (23)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen3_Deck12, Gained Amount: 3]
+Phase: Ai(2)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck12 didn't block Knight of Grace (69).
+Ai(1)-Gen3_Deck12 assigned Cat Collector (41) to block Diregraf Ghoul (105).
+Ai(1)-Gen3_Deck12 assigned Ajani's Pridemate (23) to block Adaptive Automaton (90).
+Phase: Ai(2)-Gen3_Deck22's First Strike Damage Step
+Damage: Knight of Grace (69) deals 4 combat damage to Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Combat Damage Step
+Damage: Diregraf Ghoul (105) deals 2 damage () to Cat Collector (41).
+Damage: Adaptive Automaton (90) deals 2 damage () to Ajani's Pridemate (23).
+Damage: Ajani's Pridemate (23) deals 3 damage () to Adaptive Automaton (90).
+Damage: Cat Collector (41) deals 3 damage () to Diregraf Ghoul (105).
+Phase: Ai(2)-Gen3_Deck22's End of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck22's End step
+Phase: Ai(2)-Gen3_Deck22's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck12)
+Phase: Ai(1)-Gen3_Deck12's Untap step
+Phase: Ai(1)-Gen3_Deck12's Upkeep step
+Phase: Ai(1)-Gen3_Deck12's Draw step
+Phase: Ai(1)-Gen3_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck12 assigned Ajani's Pridemate (23) to attack Ai(2)-Gen3_Deck22.
+Phase: Ai(1)-Gen3_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck22 didn't block Ajani's Pridemate (23).
+Phase: Ai(1)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck12's Combat Damage Step
+Damage: Ajani's Pridemate (23) deals 3 combat damage to Ai(2)-Gen3_Deck22.
+Phase: Ai(1)-Gen3_Deck12's End of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen3_Deck12 played Uncharted Haven (27)
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Plains (13) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck12 cast Burglar Rat (58)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen3_Deck12 triggered Burglar Rat (58)
+Discard: Ai(2)-Gen3_Deck22 discards Burglar Rat (116).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (58)]
+Phase: Ai(1)-Gen3_Deck12's End step
+Phase: Ai(1)-Gen3_Deck12's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck22)
+Phase: Ai(2)-Gen3_Deck22's Untap step
+Phase: Ai(2)-Gen3_Deck22's Upkeep step
+Mana: Swamp (99) - {T}: Add {B}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (101) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck22 activated Rogue's Passage (95) targeting [Knight of Grace (69)]
+Resolve stack: Rogue's Passage (95) - Knight of Grace (69) can't be blocked this turn.
+Phase: Ai(2)-Gen3_Deck22's Draw step
+Phase: Ai(2)-Gen3_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck22 assigned Knight of Grace (69) to attack Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck12 didn't block Knight of Grace (69).
+Phase: Ai(2)-Gen3_Deck22's First Strike Damage Step
+Damage: Knight of Grace (69) deals 3 combat damage to Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck22's End of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck22's End step
+Phase: Ai(2)-Gen3_Deck22's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen3_Deck12)
+Phase: Ai(1)-Gen3_Deck12's Untap step
+Phase: Ai(1)-Gen3_Deck12's Upkeep step
+Phase: Ai(1)-Gen3_Deck12's Draw step
+Phase: Ai(1)-Gen3_Deck12's Main phase, precombat
+Land: Ai(1)-Gen3_Deck12 played Plains (16)
+Phase: Ai(1)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck12 assigned Ajani's Pridemate (23) to attack Ai(2)-Gen3_Deck22.
+Phase: Ai(1)-Gen3_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck22 didn't block Ajani's Pridemate (23).
+Phase: Ai(1)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck12's Combat Damage Step
+Damage: Ajani's Pridemate (23) deals 3 combat damage to Ai(2)-Gen3_Deck22.
+Phase: Ai(1)-Gen3_Deck12's End of Combat Step
+Phase: Ai(1)-Gen3_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck12's End step
+Phase: Ai(1)-Gen3_Deck12's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen3_Deck22)
+Phase: Ai(2)-Gen3_Deck22's Untap step
+Phase: Ai(2)-Gen3_Deck22's Upkeep step
+Mana: Swamp (99) - {T}: Add {B}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (101) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck22 activated Rogue's Passage (95) targeting [Knight of Grace (69)]
+Resolve stack: Rogue's Passage (95) - Knight of Grace (69) can't be blocked this turn.
+Phase: Ai(2)-Gen3_Deck22's Draw step
+Phase: Ai(2)-Gen3_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck22 assigned Knight of Grace (69) to attack Ai(1)-Gen3_Deck12.
+Phase: Ai(2)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck12 didn't block Knight of Grace (69).
+Phase: Ai(2)-Gen3_Deck22's First Strike Damage Step
+Damage: Knight of Grace (69) deals 3 combat damage to Ai(1)-Gen3_Deck12.
+Player control: Ai(1)-Gen3_Deck12 is controlled by Ai(1)-Gen3_Deck12
+Player control: Ai(2)-Gen3_Deck22 is controlled by Ai(2)-Gen3_Deck22
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen3_Deck12 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck22 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck12: 0 Ai(2)-Gen3_Deck22: 1 
+
+Game Result: Game 1 ended in 22876 ms. Ai(2)-Gen3_Deck22 has won!
+
+
+=== STDERR ===

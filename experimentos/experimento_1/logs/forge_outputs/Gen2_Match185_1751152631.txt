@@ -1,0 +1,470 @@
+=== COMBATE PARALELO: Gen2_Deck3 vs Gen2_Deck12 ===
+Worker ID: 2227703
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck3 Gen2_Deck12 -n 1
+Duración: 42.78 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2782 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 71 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck3 vs Ai(2)-Gen2_Deck12 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck12 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck12 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen2_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Plains (75)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Plains (7)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Mana: Plains (7) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Leonin Vanguard (54)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Island (89)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Knight of Grace (72)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Land: Ai(1)-Gen2_Deck3 played Island (13)
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 assigned Knight of Grace (72) to attack Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Knight of Grace (72).
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Damage: Knight of Grace (72) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Ajani's Pridemate (85)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Swamp (39)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Plains (79)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 assigned Knight of Grace (72) and Ajani's Pridemate (85) to attack Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Ajani's Pridemate (85).
+Ai(1)-Gen2_Deck3 didn't block Knight of Grace (72).
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Damage: Knight of Grace (72) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Damage: Ajani's Pridemate (85) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Demolition Field (57)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Leonin Vanguard (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Leonin Vanguard (54).
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Damage: Leonin Vanguard (54) deals 1 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Demolition Field (118)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 assigned Knight of Grace (72) and Ajani's Pridemate (85) to attack Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Ajani's Pridemate (85).
+Ai(1)-Gen2_Deck3 didn't block Knight of Grace (72).
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Damage: Knight of Grace (72) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Damage: Ajani's Pridemate (85) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Island (14)
+Mana: Plains (7) - {T}: Add {W}.
+Mana: Island (13) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Hare Apparent (5)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck3 triggered Hare Apparent (5)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (5)]
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Leonin Vanguard (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Leonin Vanguard (54).
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Damage: Leonin Vanguard (54) deals 1 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 assigned Knight of Grace (72) to attack Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Knight of Grace (72).
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Damage: Knight of Grace (72) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Island (16)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Mana: Island (13) - {T}: Add {U}.
+Mana: Island (14) - {T}: Add {U}.
+Mana: Plains (7) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Kaito, Cunning Infiltrator (3)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(1)-Gen2_Deck3 activated Kaito, Cunning Infiltrator (3)
+Resolve stack: Kaito, Cunning Infiltrator (3) - Ai(1)-Gen2_Deck3 creates a 2/1 blue Ninja creature token.
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 assigned Knight of Grace (72) to attack Kaito, Cunning Infiltrator (3).
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Ninja Token (127) to block Knight of Grace (72).
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Damage: Knight of Grace (72) deals 2 damage () to Ninja Token (127).
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Ajani's Pridemate (82)
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Island (16) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck3 activated Demolition Field (57) targeting [Demolition Field (118)]
+Resolve stack: Demolition Field (57) - Destroy Demolition Field (118). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen2_Deck3 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Soul-Guide Lantern (86)
+Resolve stack: Soul-Guide Lantern
+Add to stack: Ai(2)-Gen2_Deck12 triggered Soul-Guide Lantern (86) targeting [Demolition Field (57)]
+Resolve stack: When Soul-Guide Lantern enters, exile target card from a graveyard. (Targeting: [[Demolition Field (57)]]) [Zone Changer: Soul-Guide Lantern (86)]
+Add to stack: Ai(2)-Gen2_Deck12 activated Soul-Guide Lantern (86)
+Resolve stack: Soul-Guide Lantern (86) -  Exile each opponent's graveyard.
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Island (17)
+Mana: Plains (7) - {T}: Add {W}.
+Mana: Island (13) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Hare Apparent (4)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck3 triggered Hare Apparent (4)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (4)]
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck3 triggered Leonin Vanguard (54)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen2_Deck3]
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 assigned Knight of Grace (72), Ajani's Pridemate (85) and Ajani's Pridemate (82) to attack Kaito, Cunning Infiltrator (3).
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Hare Apparent (4) to block Ajani's Pridemate (82).
+Ai(1)-Gen2_Deck3 assigned Hare Apparent (5) to block Ajani's Pridemate (85).
+Ai(1)-Gen2_Deck3 assigned Rabbit Token (131) to block Knight of Grace (72).
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Damage: Knight of Grace (72) deals 2 damage () to Rabbit Token (131).
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Damage: Ajani's Pridemate (85) deals 2 damage () to Hare Apparent (5).
+Damage: Ajani's Pridemate (82) deals 2 damage () to Hare Apparent (4).
+Damage: Hare Apparent (5) deals 2 damage () to Ajani's Pridemate (85).
+Damage: Hare Apparent (4) deals 2 damage () to Ajani's Pridemate (82).
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Island (89) - {T}: Add {U}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Release the Dogs (101)
+Mana: Island (14) - {T}: Add {U}.
+Mana: Island (16) - {T}: Add {U}.
+Mana: Swamp (39) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Cancel (50) targeting [Create four 1/1 white Dog creature tokens.]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: Cancel (50) - Counter Release the Dogs (101).
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Leonin Vanguard (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Leonin Vanguard (54).
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Damage: Leonin Vanguard (54) deals 1 combat damage to Ai(2)-Gen2_Deck12.
+Add to stack: Ai(1)-Gen2_Deck3 triggered Kaito, Cunning Infiltrator (3)
+Resolve stack: Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito. [Damage Source: Leonin Vanguard (54), Damaged: Ai(2)-Gen2_Deck12, Amount: 1]
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Mana: Plains (7) - {T}: Add {W}.
+Mana: Plains (8) - {T}: Add {W}.
+Mana: Island (13) - {T}: Add {U}.
+Mana: Swamp (39) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Jazal Goldmane (46)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(1)-Gen2_Deck3 activated Kaito, Cunning Infiltrator (3)
+Resolve stack: Kaito, Cunning Infiltrator (3) - Ai(1)-Gen2_Deck3 creates a 2/1 blue Ninja creature token.
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Swamp (42)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck3 triggered Leonin Vanguard (54)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen2_Deck3]
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Jazal Goldmane (46) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Jazal Goldmane (46).
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Damage: Jazal Goldmane (46) deals 4 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (42) - {T}: Add {B}.
+Mana: Plains (7) - {T}: Add {W}.
+Mana: Island (13) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Desecration Demon (31)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Plains (74)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck3 triggered Desecration Demon (31)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen2_Deck12]
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck3 triggered Desecration Demon (31)
+Add to stack: Ai(1)-Gen2_Deck3 triggered Leonin Vanguard (54)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen2_Deck3]
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen2_Deck3]
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Desecration Demon (31), Jazal Goldmane (46), Leonin Vanguard (54) and Ninja Token (138) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 assigned Knight of Grace (72) to block Leonin Vanguard (54).
+Ai(2)-Gen2_Deck12 didn't block Ninja Token (138).
+Ai(2)-Gen2_Deck12 didn't block Jazal Goldmane (46).
+Ai(2)-Gen2_Deck12 didn't block Desecration Demon (31).
+Mana: Plains (7) - {T}: Add {W}.
+Mana: Plains (8) - {T}: Add {W}.
+Mana: Island (13) - {T}: Add {U}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Island (14) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck3 activated Jazal Goldmane (46)
+Resolve stack: Jazal Goldmane (46) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Damage: Jazal Goldmane (46) deals 8 combat damage to Ai(2)-Gen2_Deck12.
+Damage: Knight of Grace (72) deals 3 damage () to Leonin Vanguard (54).
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Damage: Desecration Demon (31) deals 10 combat damage to Ai(2)-Gen2_Deck12.
+Damage: Leonin Vanguard (54) deals 6 damage () to Knight of Grace (72).
+Damage: Ninja Token (138) deals 6 combat damage to Ai(2)-Gen2_Deck12.
+Player control: Ai(1)-Gen2_Deck3 is controlled by Ai(1)-Gen2_Deck3
+Player control: Ai(2)-Gen2_Deck12 is controlled by Ai(2)-Gen2_Deck12
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen2_Deck3 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck12 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck3: 1 Ai(2)-Gen2_Deck12: 0 
+
+Game Result: Game 1 ended in 25060 ms. Ai(1)-Gen2_Deck3 has won!
+
+
+=== STDERR ===

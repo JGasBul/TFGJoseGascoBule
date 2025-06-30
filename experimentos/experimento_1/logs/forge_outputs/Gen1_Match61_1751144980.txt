@@ -1,0 +1,315 @@
+=== COMBATE PARALELO: Gen1_Deck1 vs Gen1_Deck3 ===
+Worker ID: 2031306
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck1 Gen1_Deck3 -n 1
+Duración: 37.22 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3267 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 90 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck1 vs Ai(2)-Gen1_Deck3 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck1 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck1)
+Phase: Ai(1)-Gen1_Deck1's Untap step
+Phase: Ai(1)-Gen1_Deck1's Upkeep step
+Phase: Ai(1)-Gen1_Deck1's Draw step
+Phase: Ai(1)-Gen1_Deck1's Main phase, precombat
+Land: Ai(1)-Gen1_Deck1 played Plains (34)
+Phase: Ai(1)-Gen1_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck1's End of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck1 cast Healer's Hawk (55)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck1's End step
+Phase: Ai(1)-Gen1_Deck1's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Soulstone Sanctuary (70)
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Mana: Soulstone Sanctuary (70) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck3 cast Goblin Firebomb (77)
+Resolve stack: Goblin Firebomb
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck1)
+Phase: Ai(1)-Gen1_Deck1's Untap step
+Phase: Ai(1)-Gen1_Deck1's Upkeep step
+Phase: Ai(1)-Gen1_Deck1's Draw step
+Phase: Ai(1)-Gen1_Deck1's Main phase, precombat
+Land: Ai(1)-Gen1_Deck1 played Evolving Wilds (21)
+Add to stack: Ai(1)-Gen1_Deck1 activated Evolving Wilds (21)
+Resolve stack: Evolving Wilds (21) - Ai(1)-Gen1_Deck1 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck1 assigned Healer's Hawk (55) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Healer's Hawk (55).
+Phase: Ai(1)-Gen1_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck1's Combat Damage Step
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's End of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck1's End step
+Phase: Ai(1)-Gen1_Deck1's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Soulstone Sanctuary (71)
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck1)
+Phase: Ai(1)-Gen1_Deck1's Untap step
+Phase: Ai(1)-Gen1_Deck1's Upkeep step
+Phase: Ai(1)-Gen1_Deck1's Draw step
+Phase: Ai(1)-Gen1_Deck1's Main phase, precombat
+Land: Ai(1)-Gen1_Deck1 played Evolving Wilds (19)
+Add to stack: Ai(1)-Gen1_Deck1 activated Evolving Wilds (19)
+Resolve stack: Evolving Wilds (19) - Ai(1)-Gen1_Deck1 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck1 assigned Healer's Hawk (55) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Healer's Hawk (55).
+Phase: Ai(1)-Gen1_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck1's Combat Damage Step
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's End of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck1's End step
+Phase: Ai(1)-Gen1_Deck1's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck1)
+Phase: Ai(1)-Gen1_Deck1's Untap step
+Phase: Ai(1)-Gen1_Deck1's Upkeep step
+Phase: Ai(1)-Gen1_Deck1's Draw step
+Phase: Ai(1)-Gen1_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck1 assigned Healer's Hawk (55) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Healer's Hawk (55).
+Phase: Ai(1)-Gen1_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck1's Combat Damage Step
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's End of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck1 cast Scrawling Crawler (60)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Phase: Ai(1)-Gen1_Deck1's End step
+Phase: Ai(1)-Gen1_Deck1's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen1_Deck3]
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Discard: Ai(2)-Gen1_Deck3 discards High Fae Trickster (89).
+Turn: Turn 9 (Ai(1)-Gen1_Deck1)
+Phase: Ai(1)-Gen1_Deck1's Untap step
+Phase: Ai(1)-Gen1_Deck1's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(1)-Gen1_Deck1]
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen1_Deck3]
+Phase: Ai(1)-Gen1_Deck1's Draw step
+Phase: Ai(1)-Gen1_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck1 assigned Scrawling Crawler (60) and Healer's Hawk (55) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Healer's Hawk (55).
+Ai(2)-Gen1_Deck3 didn't block Scrawling Crawler (60).
+Phase: Ai(1)-Gen1_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck1's Combat Damage Step
+Damage: Scrawling Crawler (60) deals 3 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's End of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck1 cast Inspiring Overseer (8)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen1_Deck1 triggered Inspiring Overseer (8)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (8)]
+Phase: Ai(1)-Gen1_Deck1's End step
+Phase: Ai(1)-Gen1_Deck1's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen1_Deck3]
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Discard: Ai(2)-Gen1_Deck3 discards Leyline Axe (61).
+Discard: Ai(2)-Gen1_Deck3 discards Mocking Sprite (91).
+Turn: Turn 11 (Ai(1)-Gen1_Deck1)
+Phase: Ai(1)-Gen1_Deck1's Untap step
+Phase: Ai(1)-Gen1_Deck1's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(1)-Gen1_Deck1]
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen1_Deck3]
+Phase: Ai(1)-Gen1_Deck1's Draw step
+Phase: Ai(1)-Gen1_Deck1's Main phase, precombat
+Land: Ai(1)-Gen1_Deck1 played Plains (36)
+Phase: Ai(1)-Gen1_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck1 assigned Scrawling Crawler (60), Inspiring Overseer (8) and Healer's Hawk (55) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Healer's Hawk (55).
+Ai(2)-Gen1_Deck3 didn't block Inspiring Overseer (8).
+Ai(2)-Gen1_Deck3 didn't block Scrawling Crawler (60).
+Phase: Ai(1)-Gen1_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck1's Combat Damage Step
+Damage: Scrawling Crawler (60) deals 3 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Inspiring Overseer (8) deals 2 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Healer's Hawk (55) deals 1 combat damage to Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's End of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck1 cast Burnished Hart (14)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck1 cast Healer's Hawk (54)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck1's End step
+Phase: Ai(1)-Gen1_Deck1's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen1_Deck3]
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Discard: Ai(2)-Gen1_Deck3 discards Sphinx of Forgotten Lore (67).
+Discard: Ai(2)-Gen1_Deck3 discards Grow from the Ashes (78).
+Turn: Turn 13 (Ai(1)-Gen1_Deck1)
+Phase: Ai(1)-Gen1_Deck1's Untap step
+Phase: Ai(1)-Gen1_Deck1's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(1)-Gen1_Deck1]
+Add to stack: Ai(1)-Gen1_Deck1 triggered Scrawling Crawler (60)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen1_Deck3]
+Phase: Ai(1)-Gen1_Deck1's Draw step
+Phase: Ai(1)-Gen1_Deck1's Main phase, precombat
+Land: Ai(1)-Gen1_Deck1 played Crawling Barrens (53)
+Phase: Ai(1)-Gen1_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck1 assigned Scrawling Crawler (60), Inspiring Overseer (8), Burnished Hart (14), Healer's Hawk (55) and Healer's Hawk (54) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Healer's Hawk (54).
+Ai(2)-Gen1_Deck3 didn't block Healer's Hawk (55).
+Ai(2)-Gen1_Deck3 didn't block Inspiring Overseer (8).
+Ai(2)-Gen1_Deck3 didn't block Scrawling Crawler (60).
+Ai(2)-Gen1_Deck3 didn't block Burnished Hart (14).
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck1 cast Claws Out (40)
+Resolve stack: Claws Out (40) - Creatures you control get +2/+2 until end of turn.
+Phase: Ai(1)-Gen1_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck1's Combat Damage Step
+Damage: Scrawling Crawler (60) deals 5 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Inspiring Overseer (8) deals 4 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Burnished Hart (14) deals 4 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Healer's Hawk (55) deals 3 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Healer's Hawk (54) deals 3 combat damage to Ai(2)-Gen1_Deck3.
+Player control: Ai(1)-Gen1_Deck1 is controlled by Ai(1)-Gen1_Deck1
+Player control: Ai(2)-Gen1_Deck3 is controlled by Ai(2)-Gen1_Deck3
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen1_Deck1 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck3 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck1: 1 Ai(2)-Gen1_Deck3: 0 
+
+Game Result: Game 1 ended in 19955 ms. Ai(1)-Gen1_Deck1 has won!
+
+
+=== STDERR ===

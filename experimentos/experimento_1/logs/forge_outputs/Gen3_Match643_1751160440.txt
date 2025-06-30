@@ -1,0 +1,302 @@
+=== COMBATE PARALELO: Gen3_Deck14 vs Gen3_Deck21 ===
+Worker ID: 2418660
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck14 Gen3_Deck21 -n 1
+Duración: 38.00 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2956 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 81 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck14 vs Ai(2)-Gen3_Deck21 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck14 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck21 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck14)
+Phase: Ai(1)-Gen3_Deck14's Untap step
+Phase: Ai(1)-Gen3_Deck14's Upkeep step
+Phase: Ai(1)-Gen3_Deck14's Draw step
+Phase: Ai(1)-Gen3_Deck14's Main phase, precombat
+Land: Ai(1)-Gen3_Deck14 played Plains (31)
+Phase: Ai(1)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck14's End of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck14's End step
+Phase: Ai(1)-Gen3_Deck14's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Land: Ai(2)-Gen3_Deck21 played Plains (90)
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Healer's Hawk (113)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck14)
+Phase: Ai(1)-Gen3_Deck14's Untap step
+Phase: Ai(1)-Gen3_Deck14's Upkeep step
+Phase: Ai(1)-Gen3_Deck14's Draw step
+Phase: Ai(1)-Gen3_Deck14's Main phase, precombat
+Land: Ai(1)-Gen3_Deck14 played Plains (38)
+Phase: Ai(1)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck14's End of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck14's End step
+Phase: Ai(1)-Gen3_Deck14's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Land: Ai(2)-Gen3_Deck21 played Plains (91)
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Healer's Hawk (113) to attack Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck14 didn't block Healer's Hawk (113).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Healer's Hawk (113) deals 1 combat damage to Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Knight of Grace (82)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck14)
+Phase: Ai(1)-Gen3_Deck14's Untap step
+Phase: Ai(1)-Gen3_Deck14's Upkeep step
+Phase: Ai(1)-Gen3_Deck14's Draw step
+Phase: Ai(1)-Gen3_Deck14's Main phase, precombat
+Land: Ai(1)-Gen3_Deck14 played Soulstone Sanctuary (58)
+Phase: Ai(1)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck14's End of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck14 cast Burnished Hart (15)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck14's End step
+Phase: Ai(1)-Gen3_Deck14's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Knight of Grace (82) and Healer's Hawk (113) to attack Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck14 didn't block Healer's Hawk (113).
+Ai(1)-Gen3_Deck14 didn't block Knight of Grace (82).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Damage: Knight of Grace (82) deals 2 combat damage to Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Healer's Hawk (113) deals 1 combat damage to Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck14)
+Phase: Ai(1)-Gen3_Deck14's Untap step
+Phase: Ai(1)-Gen3_Deck14's Upkeep step
+Phase: Ai(1)-Gen3_Deck14's Draw step
+Phase: Ai(1)-Gen3_Deck14's Main phase, precombat
+Land: Ai(1)-Gen3_Deck14 played Rogue's Passage (5)
+Phase: Ai(1)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck14's End of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck14 cast Squad Rallier (13)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(1)-Gen3_Deck14's End step
+Phase: Ai(1)-Gen3_Deck14's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Healer's Hawk (113) and Giada, Font of Hope (119) to attack Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck14 didn't block Healer's Hawk (113).
+Ai(1)-Gen3_Deck14 didn't block Giada, Font of Hope (119).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Healer's Hawk (113) deals 1 combat damage to Ai(1)-Gen3_Deck14.
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Giada, Font of Hope (119) - {T}: Add {W}. Spend this mana only to cast an Angel spell.
+Add to stack: Ai(2)-Gen3_Deck21 cast Inspiring Overseer (78)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(2)-Gen3_Deck21 triggered Inspiring Overseer (78)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (78)]
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck14)
+Phase: Ai(1)-Gen3_Deck14's Untap step
+Phase: Ai(1)-Gen3_Deck14's Upkeep step
+Phase: Ai(1)-Gen3_Deck14's Draw step
+Phase: Ai(1)-Gen3_Deck14's Main phase, precombat
+Land: Ai(1)-Gen3_Deck14 played Plains (27)
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck14 activated Soulstone Sanctuary (58)
+Resolve stack: Soulstone Sanctuary (58) - Soulstone Sanctuary (58) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck14 assigned Squad Rallier (13) to attack Ai(2)-Gen3_Deck21.
+Phase: Ai(1)-Gen3_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck21 didn't block Squad Rallier (13).
+Phase: Ai(1)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck14's Combat Damage Step
+Damage: Squad Rallier (13) deals 3 combat damage to Ai(2)-Gen3_Deck21.
+Phase: Ai(1)-Gen3_Deck14's End of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck14's End step
+Phase: Ai(1)-Gen3_Deck14's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Inspiring Overseer (78), Healer's Hawk (113) and Giada, Font of Hope (119) to attack Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck14 didn't block Healer's Hawk (113).
+Ai(1)-Gen3_Deck14 didn't block Giada, Font of Hope (119).
+Ai(1)-Gen3_Deck14 didn't block Inspiring Overseer (78).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Inspiring Overseer (78) deals 3 combat damage to Ai(1)-Gen3_Deck14.
+Damage: Healer's Hawk (113) deals 1 combat damage to Ai(1)-Gen3_Deck14.
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen3_Deck21 played Tranquil Cove (67)
+Add to stack: Ai(2)-Gen3_Deck21 triggered Tranquil Cove (67)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (67)]
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Giada, Font of Hope (119) - {T}: Add {W}. Spend this mana only to cast an Angel spell.
+Add to stack: Ai(2)-Gen3_Deck21 cast Inspiring Overseer (77)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(2)-Gen3_Deck21 triggered Inspiring Overseer (77)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (77)]
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck14)
+Phase: Ai(1)-Gen3_Deck14's Untap step
+Phase: Ai(1)-Gen3_Deck14's Upkeep step
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck14 activated Rogue's Passage (5) targeting [Soulstone Sanctuary (58)]
+Resolve stack: Rogue's Passage (5) - Soulstone Sanctuary (58) can't be blocked this turn.
+Phase: Ai(1)-Gen3_Deck14's Draw step
+Phase: Ai(1)-Gen3_Deck14's Main phase, precombat
+Land: Ai(1)-Gen3_Deck14 played Plains (24)
+Phase: Ai(1)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck14's End of Combat Step
+Phase: Ai(1)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck14's End step
+Phase: Ai(1)-Gen3_Deck14's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Land: Ai(2)-Gen3_Deck21 played Plains (88)
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Inspiring Overseer (77), Inspiring Overseer (78), Knight of Grace (82), Giada, Font of Hope (119) and Healer's Hawk (113) to attack Ai(1)-Gen3_Deck14.
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck14 didn't block Healer's Hawk (113).
+Ai(1)-Gen3_Deck14 assigned Burnished Hart (15) to block Knight of Grace (82).
+Ai(1)-Gen3_Deck14 didn't block Giada, Font of Hope (119).
+Ai(1)-Gen3_Deck14 didn't block Inspiring Overseer (77).
+Ai(1)-Gen3_Deck14 didn't block Inspiring Overseer (78).
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck14 cast Divine Resilience (44) targeting [Burnished Hart (15)]
+Resolve stack: Divine Resilience (44) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Burnished Hart (15))
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Damage: Knight of Grace (82) deals 2 damage () to Burnished Hart (15).
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Inspiring Overseer (77) deals 4 combat damage to Ai(1)-Gen3_Deck14.
+Damage: Inspiring Overseer (78) deals 3 combat damage to Ai(1)-Gen3_Deck14.
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen3_Deck14.
+Damage: Healer's Hawk (113) deals 1 combat damage to Ai(1)-Gen3_Deck14.
+Damage: Burnished Hart (15) deals 2 damage () to Knight of Grace (82).
+Player control: Ai(1)-Gen3_Deck14 is controlled by Ai(1)-Gen3_Deck14
+Player control: Ai(2)-Gen3_Deck21 is controlled by Ai(2)-Gen3_Deck21
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen3_Deck14 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck21 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck14: 0 Ai(2)-Gen3_Deck21: 1 
+
+Game Result: Game 1 ended in 21987 ms. Ai(2)-Gen3_Deck21 has won!
+
+
+=== STDERR ===

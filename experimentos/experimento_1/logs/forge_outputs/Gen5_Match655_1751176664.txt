@@ -1,0 +1,373 @@
+=== COMBATE PARALELO: Gen5_Deck14 vs Gen5_Deck27 ===
+Worker ID: 2818999
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck14 Gen5_Deck27 -n 1
+Duración: 48.24 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2830 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 93 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck14 vs Ai(2)-Gen5_Deck27 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck27 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck14 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck27)
+Phase: Ai(2)-Gen5_Deck27's Untap step
+Phase: Ai(2)-Gen5_Deck27's Upkeep step
+Phase: Ai(2)-Gen5_Deck27's Draw step
+Phase: Ai(2)-Gen5_Deck27's Main phase, precombat
+Land: Ai(2)-Gen5_Deck27 played Plains (83)
+Phase: Ai(2)-Gen5_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck27's End of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck27's End step
+Phase: Ai(2)-Gen5_Deck27's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (23)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Healer's Hawk (60)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck27)
+Phase: Ai(2)-Gen5_Deck27's Untap step
+Phase: Ai(2)-Gen5_Deck27's Upkeep step
+Phase: Ai(2)-Gen5_Deck27's Draw step
+Phase: Ai(2)-Gen5_Deck27's Main phase, precombat
+Land: Ai(2)-Gen5_Deck27 played Swamp (100)
+Phase: Ai(2)-Gen5_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck27's End of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Main phase, postcombat
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (100) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck27 cast Mazemind Tome (115)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen5_Deck27's End step
+Phase: Ai(2)-Gen5_Deck27's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck27 activated Mazemind Tome (115)
+Resolve stack: Ai(2)-Gen5_Deck27 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck27 scries 1.
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (24)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Healer's Hawk (60) to attack Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck27 didn't block Healer's Hawk (60).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Healer's Hawk (60) deals 1 combat damage to Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Charming Prince (47)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck14 triggered Charming Prince (47)
+Resolve stack: Ai(1)-Gen5_Deck14 scried 2 card(s) to the top of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (47)]
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck27)
+Phase: Ai(2)-Gen5_Deck27's Untap step
+Phase: Ai(2)-Gen5_Deck27's Upkeep step
+Phase: Ai(2)-Gen5_Deck27's Draw step
+Phase: Ai(2)-Gen5_Deck27's Main phase, precombat
+Land: Ai(2)-Gen5_Deck27 played Rogue's Passage (99)
+Phase: Ai(2)-Gen5_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck27's End of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Main phase, postcombat
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Rogue's Passage (99) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck27 cast Burnished Hart (75)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck27's End step
+Phase: Ai(2)-Gen5_Deck27's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (31)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Add to stack: Ai(2)-Gen5_Deck27 activated Mazemind Tome (115)
+Resolve stack: Ai(2)-Gen5_Deck27 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck27 scries 1.
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Charming Prince (47) and Healer's Hawk (60) to attack Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck27 didn't block Healer's Hawk (60).
+Ai(2)-Gen5_Deck27 didn't block Charming Prince (47).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Charming Prince (47) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Healer's Hawk (60) deals 1 combat damage to Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Burnished Hart (14)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck27)
+Phase: Ai(2)-Gen5_Deck27's Untap step
+Phase: Ai(2)-Gen5_Deck27's Upkeep step
+Phase: Ai(2)-Gen5_Deck27's Draw step
+Phase: Ai(2)-Gen5_Deck27's Main phase, precombat
+Land: Ai(2)-Gen5_Deck27 played Crawling Barrens (90)
+Phase: Ai(2)-Gen5_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck27's End of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Main phase, postcombat
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (100) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck27 activated Mazemind Tome (115)
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck27 draws a card.
+Phase: Ai(2)-Gen5_Deck27's End step
+Phase: Ai(2)-Gen5_Deck27's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Charming Prince (47), Burnished Hart (14) and Healer's Hawk (60) to attack Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck27 didn't block Healer's Hawk (60).
+Ai(2)-Gen5_Deck27 didn't block Burnished Hart (14).
+Ai(2)-Gen5_Deck27 didn't block Charming Prince (47).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Charming Prince (47) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (14) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Healer's Hawk (60) deals 1 combat damage to Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Burnished Hart (12)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck27)
+Phase: Ai(2)-Gen5_Deck27's Untap step
+Phase: Ai(2)-Gen5_Deck27's Upkeep step
+Phase: Ai(2)-Gen5_Deck27's Draw step
+Phase: Ai(2)-Gen5_Deck27's Main phase, precombat
+Land: Ai(2)-Gen5_Deck27 played Soulstone Sanctuary (92)
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Crawling Barrens (90) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck27 activated Rogue's Passage (99) targeting [Burnished Hart (75)]
+Resolve stack: Rogue's Passage (99) - Burnished Hart (75) can't be blocked this turn.
+Phase: Ai(2)-Gen5_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck27 assigned Burnished Hart (75) to attack Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck14 didn't block Burnished Hart (75).
+Phase: Ai(2)-Gen5_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck27's Combat Damage Step
+Damage: Burnished Hart (75) deals 2 combat damage to Ai(1)-Gen5_Deck14.
+Phase: Ai(2)-Gen5_Deck27's End of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck27's End step
+Phase: Ai(2)-Gen5_Deck27's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck27 activated Mazemind Tome (115)
+Add to stack: Ai(2)-Gen5_Deck27 triggered Mazemind Tome (115)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen5_Deck27 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck27 scries 1.
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Evolving Wilds (15)
+Add to stack: Ai(1)-Gen5_Deck14 activated Evolving Wilds (15)
+Resolve stack: Evolving Wilds (15) - Ai(1)-Gen5_Deck14 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Charming Prince (47), Burnished Hart (14), Burnished Hart (12) and Healer's Hawk (60) to attack Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck27 didn't block Burnished Hart (12).
+Ai(2)-Gen5_Deck27 didn't block Healer's Hawk (60).
+Ai(2)-Gen5_Deck27 didn't block Burnished Hart (14).
+Ai(2)-Gen5_Deck27 didn't block Charming Prince (47).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Charming Prince (47) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (14) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (12) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Healer's Hawk (60) deals 1 combat damage to Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Burnished Hart (11)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen5_Deck27)
+Phase: Ai(2)-Gen5_Deck27's Untap step
+Phase: Ai(2)-Gen5_Deck27's Upkeep step
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Crawling Barrens (90) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck27 activated Rogue's Passage (99) targeting [Burnished Hart (75)]
+Resolve stack: Rogue's Passage (99) - Burnished Hart (75) can't be blocked this turn.
+Phase: Ai(2)-Gen5_Deck27's Draw step
+Phase: Ai(2)-Gen5_Deck27's Main phase, precombat
+Land: Ai(2)-Gen5_Deck27 played Plains (79)
+Phase: Ai(2)-Gen5_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck27's End of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck27's End step
+Phase: Ai(2)-Gen5_Deck27's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (33)
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Charming Prince (47), Burnished Hart (14), Burnished Hart (12), Burnished Hart (11) and Healer's Hawk (60) to attack Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck27 didn't block Burnished Hart (11).
+Ai(2)-Gen5_Deck27 didn't block Burnished Hart (12).
+Ai(2)-Gen5_Deck27 didn't block Healer's Hawk (60).
+Ai(2)-Gen5_Deck27 didn't block Burnished Hart (14).
+Ai(2)-Gen5_Deck27 assigned Burnished Hart (75) to block Charming Prince (47).
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck27 cast Divine Resilience (112) targeting [Burnished Hart (75)]
+Resolve stack: Divine Resilience (112) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Burnished Hart (75))
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Charming Prince (47) deals 2 damage () to Burnished Hart (75).
+Damage: Burnished Hart (14) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (12) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (11) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Healer's Hawk (60) deals 1 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (75) deals 2 damage () to Charming Prince (47).
+Phase: Ai(1)-Gen5_Deck14's End of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck14 cast Ajani, Caller of the Pride (6)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen5_Deck14 activated Ajani, Caller of the Pride (6) targeting [Burnished Hart (14)]
+Resolve stack: Ajani, Caller of the Pride (6) - Ai(1)-Gen5_Deck14 puts a +1/+1 counter on Burnished Hart (14).
+Phase: Ai(1)-Gen5_Deck14's End step
+Phase: Ai(1)-Gen5_Deck14's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen5_Deck27)
+Phase: Ai(2)-Gen5_Deck27's Untap step
+Phase: Ai(2)-Gen5_Deck27's Upkeep step
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Crawling Barrens (90) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck27 activated Rogue's Passage (99) targeting [Burnished Hart (75)]
+Resolve stack: Rogue's Passage (99) - Burnished Hart (75) can't be blocked this turn.
+Phase: Ai(2)-Gen5_Deck27's Draw step
+Phase: Ai(2)-Gen5_Deck27's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck27's End of Combat Step
+Phase: Ai(2)-Gen5_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck27's End step
+Phase: Ai(2)-Gen5_Deck27's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen5_Deck14)
+Phase: Ai(1)-Gen5_Deck14's Untap step
+Phase: Ai(1)-Gen5_Deck14's Upkeep step
+Phase: Ai(1)-Gen5_Deck14's Draw step
+Phase: Ai(1)-Gen5_Deck14's Main phase, precombat
+Land: Ai(1)-Gen5_Deck14 played Plains (25)
+Add to stack: Ai(1)-Gen5_Deck14 activated Ajani, Caller of the Pride (6) targeting [Burnished Hart (14)]
+Resolve stack: Ajani, Caller of the Pride (6) - Ai(1)-Gen5_Deck14 puts a +1/+1 counter on Burnished Hart (14).
+Phase: Ai(1)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck14 assigned Burnished Hart (14), Burnished Hart (12), Burnished Hart (11) and Healer's Hawk (60) to attack Ai(2)-Gen5_Deck27.
+Phase: Ai(1)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck27 didn't block Burnished Hart (11).
+Ai(2)-Gen5_Deck27 didn't block Burnished Hart (12).
+Ai(2)-Gen5_Deck27 didn't block Healer's Hawk (60).
+Ai(2)-Gen5_Deck27 assigned Burnished Hart (75) to block Burnished Hart (14).
+Phase: Ai(1)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck14's Combat Damage Step
+Damage: Burnished Hart (14) deals 4 damage () to Burnished Hart (75).
+Damage: Burnished Hart (12) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (11) deals 2 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Healer's Hawk (60) deals 1 combat damage to Ai(2)-Gen5_Deck27.
+Damage: Burnished Hart (75) deals 2 damage () to Burnished Hart (14).
+Player control: Ai(1)-Gen5_Deck14 is controlled by Ai(1)-Gen5_Deck14
+Player control: Ai(2)-Gen5_Deck27 is controlled by Ai(2)-Gen5_Deck27
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen5_Deck14 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck27 has lost because life total reached 0
+Match result: Ai(1)-Gen5_Deck14: 1 Ai(2)-Gen5_Deck27: 0 
+
+Game Result: Game 1 ended in 29910 ms. Ai(1)-Gen5_Deck14 has won!
+
+
+=== STDERR ===

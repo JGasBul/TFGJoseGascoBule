@@ -1,0 +1,333 @@
+=== COMBATE PARALELO: Gen4_Deck14 vs Gen4_Deck26 ===
+Worker ID: 2621218
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck14 Gen4_Deck26 -n 1
+Duración: 25.13 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2310 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 204 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck14 vs Ai(2)-Gen4_Deck26 - one game of Constructed
+Mulligan: Ai(2)-Gen4_Deck26 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen4_Deck14 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen4_Deck26)
+Phase: Ai(2)-Gen4_Deck26's Untap step
+Phase: Ai(2)-Gen4_Deck26's Upkeep step
+Phase: Ai(2)-Gen4_Deck26's Draw step
+Phase: Ai(2)-Gen4_Deck26's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen4_Deck26 played Maze's End (63)
+Phase: Ai(2)-Gen4_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck26's End of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck26's End step
+Phase: Ai(2)-Gen4_Deck26's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen4_Deck14)
+Phase: Ai(1)-Gen4_Deck14's Untap step
+Phase: Ai(1)-Gen4_Deck14's Upkeep step
+Phase: Ai(1)-Gen4_Deck14's Draw step
+Phase: Ai(1)-Gen4_Deck14's Main phase, precombat
+Land: Ai(1)-Gen4_Deck14 played Mountain (60)
+Phase: Ai(1)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck14's End of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck14 cast Stromkirk Noble (9)
+Resolve stack: Stromkirk Noble - Creature 1 / 1
+Phase: Ai(1)-Gen4_Deck14's End step
+Phase: Ai(1)-Gen4_Deck14's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen4_Deck26)
+Phase: Ai(2)-Gen4_Deck26's Untap step
+Phase: Ai(2)-Gen4_Deck26's Upkeep step
+Phase: Ai(2)-Gen4_Deck26's Draw step
+Phase: Ai(2)-Gen4_Deck26's Main phase, precombat
+Land: Ai(2)-Gen4_Deck26 played Swamp (80)
+Phase: Ai(2)-Gen4_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck26's End of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck26's End step
+Phase: Ai(2)-Gen4_Deck26's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen4_Deck14)
+Phase: Ai(1)-Gen4_Deck14's Untap step
+Phase: Ai(1)-Gen4_Deck14's Upkeep step
+Phase: Ai(1)-Gen4_Deck14's Draw step
+Phase: Ai(1)-Gen4_Deck14's Main phase, precombat
+Land: Ai(1)-Gen4_Deck14 played Plains (20)
+Phase: Ai(1)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck14 assigned Stromkirk Noble (9) to attack Ai(2)-Gen4_Deck26.
+Phase: Ai(1)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck26 didn't block Stromkirk Noble (9).
+Phase: Ai(1)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck14's Combat Damage Step
+Damage: Stromkirk Noble (9) deals 1 combat damage to Ai(2)-Gen4_Deck26.
+Add to stack: Ai(1)-Gen4_Deck14 triggered Stromkirk Noble (9)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (9), Damaged: Ai(2)-Gen4_Deck26, Amount: 1]
+Phase: Ai(1)-Gen4_Deck14's End of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Main phase, postcombat
+Mana: Plains (20) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck14 cast Felidar Cub (11)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck14's End step
+Phase: Ai(1)-Gen4_Deck14's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen4_Deck26)
+Phase: Ai(2)-Gen4_Deck26's Untap step
+Phase: Ai(2)-Gen4_Deck26's Upkeep step
+Phase: Ai(2)-Gen4_Deck26's Draw step
+Phase: Ai(2)-Gen4_Deck26's Main phase, precombat
+Land: Ai(2)-Gen4_Deck26 played Swamp (81)
+Phase: Ai(2)-Gen4_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck26's End of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Main phase, postcombat
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Maze's End (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck26 cast Vampire Spawn (120)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen4_Deck26 triggered Vampire Spawn (120)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (120)]
+Phase: Ai(2)-Gen4_Deck26's End step
+Phase: Ai(2)-Gen4_Deck26's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen4_Deck14)
+Phase: Ai(1)-Gen4_Deck14's Untap step
+Phase: Ai(1)-Gen4_Deck14's Upkeep step
+Phase: Ai(1)-Gen4_Deck14's Draw step
+Phase: Ai(1)-Gen4_Deck14's Main phase, precombat
+Land: Ai(1)-Gen4_Deck14 played Plains (21)
+Phase: Ai(1)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck14's End of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Main phase, postcombat
+Mana: Plains (20) - {T}: Add {W}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck14 cast Ajani, Caller of the Pride (14)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen4_Deck14 activated Ajani, Caller of the Pride (14) targeting [Stromkirk Noble (9)]
+Resolve stack: Ajani, Caller of the Pride (14) - Ai(1)-Gen4_Deck14 puts a +1/+1 counter on Stromkirk Noble (9).
+Phase: Ai(1)-Gen4_Deck14's End step
+Phase: Ai(1)-Gen4_Deck14's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen4_Deck26)
+Phase: Ai(2)-Gen4_Deck26's Untap step
+Phase: Ai(2)-Gen4_Deck26's Upkeep step
+Phase: Ai(2)-Gen4_Deck26's Draw step
+Phase: Ai(2)-Gen4_Deck26's Main phase, precombat
+Land: Ai(2)-Gen4_Deck26 played Swamp (79)
+Phase: Ai(2)-Gen4_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck26's End of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Main phase, postcombat
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck26 cast Zul Ashur, Lich Lord (96)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck26's End step
+Phase: Ai(2)-Gen4_Deck26's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen4_Deck14)
+Phase: Ai(1)-Gen4_Deck14's Untap step
+Phase: Ai(1)-Gen4_Deck14's Upkeep step
+Phase: Ai(1)-Gen4_Deck14's Draw step
+Phase: Ai(1)-Gen4_Deck14's Main phase, precombat
+Add to stack: Ai(1)-Gen4_Deck14 activated Ajani, Caller of the Pride (14) targeting [Stromkirk Noble (9)]
+Resolve stack: Ajani, Caller of the Pride (14) - Ai(1)-Gen4_Deck14 puts a +1/+1 counter on Stromkirk Noble (9).
+Phase: Ai(1)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck14 assigned Stromkirk Noble (9) to attack Ai(2)-Gen4_Deck26.
+Phase: Ai(1)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck26 didn't block Stromkirk Noble (9).
+Phase: Ai(1)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck14's Combat Damage Step
+Damage: Stromkirk Noble (9) deals 4 combat damage to Ai(2)-Gen4_Deck26.
+Add to stack: Ai(1)-Gen4_Deck14 triggered Stromkirk Noble (9)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (9), Damaged: Ai(2)-Gen4_Deck26, Amount: 4]
+Phase: Ai(1)-Gen4_Deck14's End of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen4_Deck14 played Tranquil Cove (33)
+Add to stack: Ai(1)-Gen4_Deck14 triggered Tranquil Cove (33)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (33)]
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (20) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck14 cast Gleaming Barrier (39)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen4_Deck14's End step
+Phase: Ai(1)-Gen4_Deck14's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen4_Deck26)
+Phase: Ai(2)-Gen4_Deck26's Untap step
+Phase: Ai(2)-Gen4_Deck26's Upkeep step
+Phase: Ai(2)-Gen4_Deck26's Draw step
+Phase: Ai(2)-Gen4_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck26's End of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen4_Deck26 played Uncharted Haven (102)
+Phase: Ai(2)-Gen4_Deck26's End step
+Phase: Ai(2)-Gen4_Deck26's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen4_Deck14)
+Phase: Ai(1)-Gen4_Deck14's Untap step
+Phase: Ai(1)-Gen4_Deck14's Upkeep step
+Phase: Ai(1)-Gen4_Deck14's Draw step
+Phase: Ai(1)-Gen4_Deck14's Main phase, precombat
+Add to stack: Ai(1)-Gen4_Deck14 activated Ajani, Caller of the Pride (14) targeting [Stromkirk Noble (9)]
+Resolve stack: Ajani, Caller of the Pride (14) - Ai(1)-Gen4_Deck14 puts a +1/+1 counter on Stromkirk Noble (9).
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (20) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck14 cast Goblin Oriflamme (45)
+Resolve stack: Goblin Oriflamme
+Phase: Ai(1)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck14 assigned Stromkirk Noble (9) and Felidar Cub (11) to attack Ai(2)-Gen4_Deck26.
+Phase: Ai(1)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck26 didn't block Stromkirk Noble (9).
+Ai(2)-Gen4_Deck26 didn't block Felidar Cub (11).
+Phase: Ai(1)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck14's Combat Damage Step
+Damage: Stromkirk Noble (9) deals 7 combat damage to Ai(2)-Gen4_Deck26.
+Damage: Felidar Cub (11) deals 3 combat damage to Ai(2)-Gen4_Deck26.
+Add to stack: Ai(1)-Gen4_Deck14 triggered Stromkirk Noble (9)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (9), Damaged: Ai(2)-Gen4_Deck26, Amount: 7]
+Phase: Ai(1)-Gen4_Deck14's End of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Main phase, postcombat
+Mana: Tranquil Cove (33) - {T}: Add {W} or {U}.
+Mana: Plains (21) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck14 cast Mystic Archaeologist (5)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck14's End step
+Phase: Ai(1)-Gen4_Deck14's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen4_Deck26)
+Phase: Ai(2)-Gen4_Deck26's Untap step
+Phase: Ai(2)-Gen4_Deck26's Upkeep step
+Phase: Ai(2)-Gen4_Deck26's Draw step
+Phase: Ai(2)-Gen4_Deck26's Main phase, precombat
+Land: Ai(2)-Gen4_Deck26 played Swamp (90)
+Phase: Ai(2)-Gen4_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck26's End of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck26's End step
+Phase: Ai(2)-Gen4_Deck26's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen4_Deck14)
+Phase: Ai(1)-Gen4_Deck14's Untap step
+Phase: Ai(1)-Gen4_Deck14's Upkeep step
+Phase: Ai(1)-Gen4_Deck14's Draw step
+Phase: Ai(1)-Gen4_Deck14's Main phase, precombat
+Land: Ai(1)-Gen4_Deck14 played Forest (16)
+Add to stack: Ai(1)-Gen4_Deck14 activated Ajani, Caller of the Pride (14) targeting [Stromkirk Noble (9)]
+Resolve stack: Ajani, Caller of the Pride (14) - Ai(1)-Gen4_Deck14 puts a +1/+1 counter on Stromkirk Noble (9).
+Phase: Ai(1)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck14 assigned Stromkirk Noble (9), Felidar Cub (11) and Mystic Archaeologist (5) to attack Ai(2)-Gen4_Deck26.
+Phase: Ai(1)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck26 assigned Zul Ashur, Lich Lord (96) to block Mystic Archaeologist (5).
+Ai(2)-Gen4_Deck26 assigned Vampire Spawn (120) to block Stromkirk Noble (9).
+Ai(2)-Gen4_Deck26 didn't block Felidar Cub (11).
+Phase: Ai(1)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck14's Combat Damage Step
+Damage: Stromkirk Noble (9) deals 9 damage () to Vampire Spawn (120).
+Damage: Felidar Cub (11) deals 3 combat damage to Ai(2)-Gen4_Deck26.
+Damage: Mystic Archaeologist (5) deals 3 damage () to Zul Ashur, Lich Lord (96).
+Damage: Vampire Spawn (120) deals 2 damage () to Stromkirk Noble (9).
+Damage: Zul Ashur, Lich Lord (96) deals 2 damage () to Mystic Archaeologist (5).
+Phase: Ai(1)-Gen4_Deck14's End of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Main phase, postcombat
+Mana: Tranquil Cove (33) - {T}: Add {W} or {U}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck14 cast Mystic Archaeologist (4)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck14's End step
+Phase: Ai(1)-Gen4_Deck14's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen4_Deck26)
+Phase: Ai(2)-Gen4_Deck26's Untap step
+Phase: Ai(2)-Gen4_Deck26's Upkeep step
+Phase: Ai(2)-Gen4_Deck26's Draw step
+Phase: Ai(2)-Gen4_Deck26's Main phase, precombat
+Land: Ai(2)-Gen4_Deck26 played Swamp (87)
+Phase: Ai(2)-Gen4_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck26's End of Combat Step
+Phase: Ai(2)-Gen4_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck26's End step
+Phase: Ai(2)-Gen4_Deck26's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen4_Deck14)
+Phase: Ai(1)-Gen4_Deck14's Untap step
+Phase: Ai(1)-Gen4_Deck14's Upkeep step
+Phase: Ai(1)-Gen4_Deck14's Draw step
+Phase: Ai(1)-Gen4_Deck14's Main phase, precombat
+Add to stack: Ai(1)-Gen4_Deck14 activated Ajani, Caller of the Pride (14) targeting [Stromkirk Noble (9)]
+Resolve stack: Ajani, Caller of the Pride (14) - Ai(1)-Gen4_Deck14 puts a +1/+1 counter on Stromkirk Noble (9).
+Phase: Ai(1)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck14 assigned Stromkirk Noble (9), Felidar Cub (11) and Mystic Archaeologist (4) to attack Ai(2)-Gen4_Deck26.
+Phase: Ai(1)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck26 didn't block Mystic Archaeologist (4).
+Ai(2)-Gen4_Deck26 didn't block Stromkirk Noble (9).
+Ai(2)-Gen4_Deck26 didn't block Felidar Cub (11).
+Phase: Ai(1)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck14's Combat Damage Step
+Damage: Stromkirk Noble (9) deals 10 combat damage to Ai(2)-Gen4_Deck26.
+Damage: Felidar Cub (11) deals 3 combat damage to Ai(2)-Gen4_Deck26.
+Damage: Mystic Archaeologist (4) deals 3 combat damage to Ai(2)-Gen4_Deck26.
+Player control: Ai(1)-Gen4_Deck14 is controlled by Ai(1)-Gen4_Deck14
+Player control: Ai(2)-Gen4_Deck26 is controlled by Ai(2)-Gen4_Deck26
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen4_Deck14 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck26 has lost because life total reached 0
+Match result: Ai(1)-Gen4_Deck14: 1 Ai(2)-Gen4_Deck26: 0 
+
+Game Result: Game 1 ended in 12783 ms. Ai(1)-Gen4_Deck14 has won!
+
+
+=== STDERR ===

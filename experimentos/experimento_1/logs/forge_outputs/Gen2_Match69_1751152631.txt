@@ -1,0 +1,386 @@
+=== COMBATE PARALELO: Gen2_Deck1 vs Gen2_Deck7 ===
+Worker ID: 2227704
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck1 Gen2_Deck7 -n 1
+Duración: 43.49 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3001 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 108 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck1 vs Ai(2)-Gen2_Deck7 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck1 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck7 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck1 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Plains (82)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (22)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Plains (80)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Knight of Grace (73)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Crawling Barrens (52)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Crawling Barrens (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Mazemind Tome (47)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Add to stack: Ai(1)-Gen2_Deck1 activated Mazemind Tome (47)
+Resolve stack: Ai(1)-Gen2_Deck1 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (47) - Ai(1)-Gen2_Deck1 scries 1.
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Plains (76)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Knight of Grace (73) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Knight of Grace (73).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Damage: Knight of Grace (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Ajani's Pridemate (85)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (30)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Crawling Barrens (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Burnished Hart (17)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Knight of Grace (73) and Ajani's Pridemate (85) to attack Ai(1)-Gen2_Deck1.
+Add to stack: Ai(1)-Gen2_Deck1 activated Mazemind Tome (47)
+Resolve stack: Ai(1)-Gen2_Deck1 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (47) - Ai(1)-Gen2_Deck1 scries 1.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Burnished Hart (17) to block Ajani's Pridemate (85).
+Ai(1)-Gen2_Deck1 didn't block Knight of Grace (73).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Damage: Knight of Grace (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Ajani's Pridemate (85) deals 2 damage () to Burnished Hart (17).
+Damage: Burnished Hart (17) deals 2 damage () to Ajani's Pridemate (85).
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Ajani's Pridemate (87)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Add to stack: Ai(1)-Gen2_Deck1 activated Mazemind Tome (47)
+Resolve stack: Ai(1)-Gen2_Deck1 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (47) - Ai(1)-Gen2_Deck1 scries 1.
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Rogue's Passage (5)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Crawling Barrens (52) - {T}: Add {C}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Divine Resilience (44) targeting []
+Resolve stack: Divine Resilience (44) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead.
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen2_Deck7 played Secluded Courtyard (114)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Knight of Grace (73) and Ajani's Pridemate (87) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Ajani's Pridemate (87).
+Ai(1)-Gen2_Deck1 didn't block Knight of Grace (73).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Damage: Knight of Grace (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Ajani's Pridemate (87) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Secluded Courtyard (114) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Mystic Archaeologist (64)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Add to stack: Ai(1)-Gen2_Deck1 activated Mazemind Tome (47)
+Add to stack: Ai(1)-Gen2_Deck1 triggered Mazemind Tome (47)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen2_Deck1 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (47) - Ai(1)-Gen2_Deck1 scries 1.
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (28)
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Rogue's Passage (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck1 activated Crawling Barrens (52)
+Resolve stack: Crawling Barrens (52) - Ai(1)-Gen2_Deck1 puts two +1/+1 counters on Crawling Barrens (52). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Knight of Grace (73), Ajani's Pridemate (87) and Mystic Archaeologist (64) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Mystic Archaeologist (64).
+Ai(1)-Gen2_Deck1 didn't block Ajani's Pridemate (87).
+Ai(1)-Gen2_Deck1 didn't block Knight of Grace (73).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Damage: Knight of Grace (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Ajani's Pridemate (87) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Mystic Archaeologist (64) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Mana: Secluded Courtyard (114) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Release the Dogs (89)
+Resolve stack: Release the Dogs (89) - Ai(2)-Gen2_Deck7 creates four 1/1 white Dog creature tokens.
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (32)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Burnished Hart (15)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Knight of Grace (73), Ajani's Pridemate (87), Mystic Archaeologist (64), Dog Token (125), Dog Token (126), Dog Token (127) and Dog Token (128) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Mystic Archaeologist (64).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (128).
+Ai(1)-Gen2_Deck1 assigned Burnished Hart (15) to block Ajani's Pridemate (87).
+Ai(1)-Gen2_Deck1 didn't block Knight of Grace (73).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (125).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (126).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (127).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Damage: Knight of Grace (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Ajani's Pridemate (87) deals 2 damage () to Burnished Hart (15).
+Damage: Mystic Archaeologist (64) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (125) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (126) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (127) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (128) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Burnished Hart (15) deals 2 damage () to Ajani's Pridemate (87).
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Secluded Courtyard (114) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Mystic Archaeologist (62)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Gleaming Barrier (104)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Charming Prince (51)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck1 triggered Charming Prince (51)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (51)]
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Knight of Grace (73), Mystic Archaeologist (64), Mystic Archaeologist (62), Dog Token (125), Dog Token (126), Dog Token (127) and Dog Token (128) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Mystic Archaeologist (64).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (128).
+Ai(1)-Gen2_Deck1 assigned Charming Prince (51) to block Knight of Grace (73).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (125).
+Ai(1)-Gen2_Deck1 didn't block Mystic Archaeologist (62).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (126).
+Ai(1)-Gen2_Deck1 didn't block Dog Token (127).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Damage: Knight of Grace (73) deals 2 damage () to Charming Prince (51).
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Mystic Archaeologist (64) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Mystic Archaeologist (62) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (125) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (126) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (127) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Dog Token (128) deals 1 combat damage to Ai(1)-Gen2_Deck1.
+Player control: Ai(1)-Gen2_Deck1 is controlled by Ai(1)-Gen2_Deck1
+Player control: Ai(2)-Gen2_Deck7 is controlled by Ai(2)-Gen2_Deck7
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck1 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck7 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck1: 0 Ai(2)-Gen2_Deck7: 1 
+
+Game Result: Game 1 ended in 26041 ms. Ai(2)-Gen2_Deck7 has won!
+
+
+=== STDERR ===
