@@ -26,7 +26,7 @@ class MTGGeneticAlgorithm:
                  catalog_path="mtg_data/card_catalog.json",
                  indices_path="mtg_data/card_indices.json",
                  output_dir="mtg_evolved_decks",
-                 forge_jar_path="./forge-gui-desktop-2.0.03-jar-with-dependencies.jar",
+                 forge_jar_path="./forge-gui-desktop-2.0.04-jar-with-dependencies.jar",
                  max_generations=200,
                  population_size=50,
                  mutation_rate=0.05,
@@ -555,6 +555,150 @@ class MTGGeneticAlgorithm:
         
         return mutated
     
+    def mutate_add_remove(self, deck_array):
+        """Mutación por adición/remoción: puede añadir cartas NUEVAS o quitar existentes"""
+        if random.random() > self.mutation_rate:
+            return deck_array.copy()
+
+        mutated = deck_array.copy()
+        num_changes = random.randint(1, 3)
+
+        for _ in range(num_changes):
+            if random.random() < 0.5:
+                # AÑADIR carta nueva - clave para exploración
+                valid_positions = np.where(mutated < 4)[0]
+                if len(valid_positions) > 0:
+                    pos = random.choice(valid_positions)
+                    mutated[pos] += 1
+            else:
+                # QUITAR carta existente
+                nonzero_positions = np.where(mutated > 0)[0]
+                if len(nonzero_positions) > 0:
+                    pos = random.choice(nonzero_positions)
+                    mutated[pos] -= 1
+
+        return self.adjust_deck_size(mutated)
+    
+    def mutate_categorical(self, deck_array):
+        """Mutación por categorías: intercambia cartas dentro del mismo tipo"""
+        if random.random() > self.mutation_rate:
+            return deck_array.copy()
+
+        mutated = deck_array.copy()
+
+        # Seleccionar una categoría aleatoria para mutar
+        available_categories = []
+
+        # Verificar qué categorías están disponibles en los índices
+        if hasattr(self, 'type_indices'):
+            for category, indices in self.type_indices.items():
+                if len(indices) > 1:  # Solo categorías con múltiples cartas
+                    available_categories.append(('type', category, indices))
+
+        if hasattr(self, 'color_indices'):
+            for color, indices in self.color_indices.items():
+                if len(indices) > 1:  # Solo colores con múltiples cartas
+                    available_categories.append(('color', color, indices))
+
+        if not available_categories:
+            # Si no hay categorías, hacer mutación simple
+            return self.mutate_add_remove(mutated)
+
+        # Elegir categoría aleatoria
+        category_type, category_name, category_indices = random.choice(available_categories)
+
+        num_swaps = random.randint(1, 2)
+        for _ in range(num_swaps):
+            # Encontrar cartas de esta categoría que están en el mazo
+            current_cards = [i for i in category_indices if mutated[i] > 0]
+            # Encontrar cartas de esta categoría que NO están al máximo
+            available_cards = [i for i in category_indices if mutated[i] < 4]
+
+            if len(current_cards) > 0 and len(available_cards) > 0:
+                # Estrategia 1: Reemplazar una carta por otra (70% del tiempo)
+                if random.random() < 0.7 and len(current_cards) > 0:
+                    remove_from = random.choice(current_cards)
+                    add_to = random.choice([i for i in available_cards if i != remove_from])
+
+                    if add_to:  # Verificar que encontramos una carta válida
+                        mutated[remove_from] -= 1
+                        mutated[add_to] += 1
+
+                # Estrategia 2: Solo añadir carta nueva de la categoría (30% del tiempo)
+                else:
+                    add_to = random.choice(available_cards)
+                    mutated[add_to] += 1
+
+        return self.adjust_deck_size(mutated)
+    
+    def mutate_hybrid(self, deck_array):
+        """Mutación híbrida que combina las tres estrategias"""
+        if random.random() > self.mutation_rate:
+            return deck_array.copy()
+
+        # Elegir estrategia de mutación aleatoriamente con pesos
+        strategies = ['swap', 'add_remove', 'categorical']
+        weights = [0.3, 0.5, 0.2]  # Favorecer add_remove para más exploración
+
+        strategy = random.choices(strategies, weights=weights)[0]
+
+        if strategy == 'swap':
+            return self.mutate_swap(deck_array)
+        elif strategy == 'add_remove':
+            return self.mutate_add_remove(deck_array)
+        else:  # categorical
+            return self.mutate_categorical(deck_array)
+        
+    def mutate_adaptive(self, deck_array, generation=0, stagnation_counter=0):
+        """Mutación adaptiva que cambia estrategia según el progreso del algoritmo"""
+        if random.random() > self.mutation_rate:
+            return deck_array.copy()
+
+        # Adaptar estrategia según el estado del algoritmo
+        if stagnation_counter > 10:
+            # Si hay mucho estancamiento, favorecer exploración agresiva
+            strategies = ['add_remove', 'categorical', 'swap']
+            weights = [0.6, 0.3, 0.1]
+        elif stagnation_counter > 5:
+            # Estancamiento moderado, aumentar exploración
+            strategies = ['add_remove', 'swap', 'categorical']
+            weights = [0.5, 0.3, 0.2]
+        elif generation > 50:
+            # Generaciones avanzadas, equilibrar exploración y explotación
+            strategies = ['swap', 'add_remove', 'categorical']
+            weights = [0.4, 0.4, 0.2]
+        else:
+            # Generaciones iniciales, favorecer exploración
+            strategies = ['add_remove', 'categorical', 'swap']
+            weights = [0.5, 0.3, 0.2]
+
+        strategy = random.choices(strategies, weights=weights)[0]
+
+        if strategy == 'swap':
+            return self.mutate_swap(deck_array)
+        elif strategy == 'add_remove':
+            return self.mutate_add_remove(deck_array)
+        else:  # categorical
+            return self.mutate_categorical(deck_array)
+
+    def mutate(self, deck_array, generation=0, stagnation_counter=0):
+        """
+        Función de mutación principal
+        Args:
+            deck_array: Array del mazo a mutar
+            generation: Generación actual (opcional)
+            stagnation_counter: Contador de estancamiento (opcional)
+
+        Returns:
+            Array mutado
+        """
+        # Usar mutación adaptiva si se proporcionan parámetros de control
+        if generation > 0 or stagnation_counter > 0:
+            return self.mutate_adaptive(deck_array, generation, stagnation_counter)
+        else:
+            # Usar mutación híbrida estándar
+            return self.mutate_hybrid(deck_array)
+    
     def adjust_deck_size(self, deck_array):
         """Ajusta el array para que tenga exactamente 60 cartas"""
         total = np.sum(deck_array)
@@ -763,10 +907,9 @@ class MTGGeneticAlgorithm:
                     
                     # Mutación
                     if random.random() < current_mutation_rate:
-                        child1 = self.mutate_swap(child1)
-                    
+                        child1 = self.mutate(child1, generation, self.stagnation_counter)                    
                     if random.random() < current_mutation_rate:
-                        child2 = self.mutate_swap(child2)
+                        child2 = self.mutate(child2, generation, self.stagnation_counter)
                     
                     new_population.append(child1)
                     if len(new_population) < self.population_size:
