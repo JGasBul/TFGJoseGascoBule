@@ -9,7 +9,9 @@ import sys
 import time
 import numpy as np
 import pandas as pd
+import matplotlib
 import matplotlib.pyplot as plt
+matplotlib.use('Agg')  # Para evitar problemas con GUI en servidores
 from multiprocessing import Pool, cpu_count, Manager
 from collections import defaultdict
 import re
@@ -122,7 +124,7 @@ class MTGGeneticAlgorithm:
         }
         
         # Mejores individuos históricos
-        self.hall_of_fame = []
+        self.hall_of_fame_arrays = []
         
         # Contador de estancamiento
         self.stagnation_counter = 0
@@ -1013,6 +1015,9 @@ class MTGGeneticAlgorithm:
 
             # Variables de control mejoradas
             best_fitness_ever = max(fitness_values)
+            self.best_fitness_ever = best_fitness_ever 
+            self.update_statistics(0, fitness_values)  # <-- NUEVA LÍNEA
+            
             self.stagnation_counter = 0
             generations_since_intervention = 0
             self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
@@ -1074,7 +1079,9 @@ class MTGGeneticAlgorithm:
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, generation)
                 self.save_population_arrays(generation)  # ← NUEVA LÍNEA
                 self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
-
+                
+                self.update_statistics(generation, fitness_values)  # <-- NUEVA LÍNEA
+                
                 # Actualizar Hall of Fame
                 self.update_hall_of_fame(fitness_values, self.population_arrays)
 
@@ -1083,10 +1090,10 @@ class MTGGeneticAlgorithm:
 
                 if current_best > best_fitness_ever:
                     best_fitness_ever = current_best
-                    self.best_fitness_ever = current_best
+                    self.best_fitness_ever = best_fitness_ever
                     self.stagnation_counter = 0
-                    self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f}")
-
+                    self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
+                    
                     # Restaurar tasa de mutación si había intervención
                     if generations_since_intervention > 0:
                         self.restore_mutation_rate()
@@ -1349,77 +1356,176 @@ class MTGGeneticAlgorithm:
             self.logger.info(f"   🎉 Posible mejora o mantenimiento")    
     
     def save_statistics(self):
-        """Guarda estadísticas de evolución"""
-        # Crear DataFrame
-        stats_df = pd.DataFrame({
-            'generation': range(len(self.stats['best_fitness'])),
-            'best_fitness': self.stats['best_fitness'],
-            'avg_fitness': self.stats['avg_fitness'],
-            'diversity': self.stats['diversity'],
-            'mutation_rate': self.stats['mutation_rate']
-        })
-        
-        # Guardar CSV
-        csv_file = os.path.join(self.output_dir, "parallel_evolution_stats.csv")
-        stats_df.to_csv(csv_file, index=False)
-        
-        # Crear gráficos
-        fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 10))
-        
-        # Fitness
-        ax1.plot(stats_df['generation'], stats_df['best_fitness'], 'b-', linewidth=2, label='Mejor')
-        ax1.plot(stats_df['generation'], stats_df['avg_fitness'], 'r--', linewidth=2, label='Promedio')
-        ax1.set_xlabel('Generación')
-        ax1.set_ylabel('Fitness')
-        ax1.set_title('Evolución del Fitness (Paralelo)')
-        ax1.legend()
-        ax1.grid(True, alpha=0.3)
-        
-        # Diversidad
-        ax2.plot(stats_df['generation'], stats_df['diversity'], 'g-', linewidth=2)
-        ax2.set_xlabel('Generación')
-        ax2.set_ylabel('Diversidad')
-        ax2.set_title('Evolución de la Diversidad')
-        ax2.grid(True, alpha=0.3)
-        
-        # Tasa de mutación
-        ax3.plot(stats_df['generation'], stats_df['mutation_rate'], 'm-', linewidth=2)
-        ax3.set_xlabel('Generación')
-        ax3.set_ylabel('Tasa de Mutación')
-        ax3.set_title('Tasa de Mutación Adaptativa')
-        ax3.grid(True, alpha=0.3)
-        
-        # Hall of Fame
-        if self.hall_of_fame:
-            hof_gens = [x[0] for x in self.hall_of_fame]
-            hof_fitness = [x[1] for x in self.hall_of_fame]
-            ax4.scatter(hof_gens, hof_fitness, c='red', s=100, marker='*')
-            ax4.set_xlabel('Generación')
-            ax4.set_ylabel('Fitness')
-            ax4.set_title(f'Hall of Fame (Workers: {self.max_workers})')
-            ax4.grid(True, alpha=0.3)
-        
-        plt.tight_layout()
-        plt.savefig(os.path.join(self.output_dir, "parallel_evolution_stats.png"), dpi=150)
-        plt.close()
-        
-        # Guardar Hall of Fame
-        hof_file = os.path.join(self.output_dir, "parallel_hall_of_fame.json")
-        hof_data = []
-        for gen, fitness, deck in self.hall_of_fame:
-            hof_data.append({
-                'generation': gen,
-                'fitness': fitness,
-                'deck_name': deck['name'],
-                'colors': deck['colors'],
-                'stats': deck['stats'],
-                'parallel_workers': self.max_workers
+        """Guarda estadísticas de evolución con verificación de datos"""
+        try:
+            # Verificar que hay datos
+            if not self.stats['best_fitness']:
+                self.logger.warning("⚠️ No hay estadísticas para guardar - creando estadísticas de emergencia")
+
+                # Crear estadísticas básicas si no existen
+                if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
+                    self.stats['best_fitness'] = [max(self.current_fitness_values)]
+                    self.stats['avg_fitness'] = [np.mean(self.current_fitness_values)]
+                    self.stats['diversity'] = [self.calculate_diversity(self.population_arrays)]
+                    self.stats['mutation_rate'] = [getattr(self, 'mutation_rate', 0.05)]
+                else:
+                    # Estadísticas de fallback absoluto
+                    self.stats['best_fitness'] = [0.0]
+                    self.stats['avg_fitness'] = [0.0] 
+                    self.stats['diversity'] = [0.0]
+                    self.stats['mutation_rate'] = [0.05]
+
+            # Verificar longitudes consistentes
+            lengths = [len(self.stats[key]) for key in self.stats.keys()]
+            if len(set(lengths)) > 1:
+                self.logger.warning(f"⚠️ Longitudes inconsistentes en estadísticas: {dict(zip(self.stats.keys(), lengths))}")
+
+                # Truncar a la longitud mínima
+                min_length = min(lengths)
+                for key in self.stats.keys():
+                    self.stats[key] = self.stats[key][:min_length]
+
+            # Crear DataFrame
+            stats_df = pd.DataFrame({
+                'generation': range(len(self.stats['best_fitness'])),
+                'best_fitness': self.stats['best_fitness'],
+                'avg_fitness': self.stats['avg_fitness'],
+                'diversity': self.stats['diversity'],
+                'mutation_rate': self.stats['mutation_rate']
             })
+
+            self.logger.info(f"📊 Guardando estadísticas: {len(stats_df)} generaciones")
+
+            # Guardar CSV
+            csv_file = os.path.join(self.output_dir, "parallel_evolution_stats.csv")
+            stats_df.to_csv(csv_file, index=False)
+            self.logger.info(f"✅ CSV guardado: {csv_file}")
+
+            # Crear gráficos solo si hay datos suficientes
+            if len(stats_df) > 0:
+                self.create_evolution_plots(stats_df)
+            else:
+                self.logger.warning("⚠️ No hay suficientes datos para crear gráficos")
+
+            # Guardar Hall of Fame
+            self.save_hall_of_fame_data()
+
+            self.logger.info(f"✅ Estadísticas paralelas guardadas en {self.output_dir}")
+
+        except Exception as e:
+            self.logger.error(f"❌ Error en save_statistics(): {e}")
+            import traceback
+            self.logger.error(f"Traceback: {traceback.format_exc()}")
         
-        with open(hof_file, 'w', encoding='utf-8') as f:
-            json.dump(hof_data, f, ensure_ascii=False, indent=2)
-        
-        self.logger.info(f"Estadísticas paralelas guardadas en {self.output_dir}")
+    def create_evolution_plots(self, stats_df):
+        """
+        Crea gráficos de evolución con manejo de errores
+        """
+        try:
+            fig, ((ax1, ax2), (ax3, ax4)) = plt.subplots(2, 2, figsize=(15, 10))
+
+            # Gráfico 1: Fitness
+            if len(stats_df) > 1:  # Solo si hay múltiples puntos
+                ax1.plot(stats_df['generation'], stats_df['best_fitness'], 'b-', linewidth=2, label='Mejor')
+                ax1.plot(stats_df['generation'], stats_df['avg_fitness'], 'r--', linewidth=2, label='Promedio')
+            else:
+                # Para un solo punto, usar scatter
+                ax1.scatter(stats_df['generation'], stats_df['best_fitness'], c='blue', s=100, label='Mejor')
+                ax1.scatter(stats_df['generation'], stats_df['avg_fitness'], c='red', s=100, label='Promedio')
+
+            ax1.set_xlabel('Generación')
+            ax1.set_ylabel('Fitness')
+            ax1.set_title('Evolución del Fitness (Paralelo)')
+            ax1.legend()
+            ax1.grid(True, alpha=0.3)
+
+            # Gráfico 2: Diversidad
+            if len(stats_df) > 1:
+                ax2.plot(stats_df['generation'], stats_df['diversity'], 'g-', linewidth=2)
+            else:
+                ax2.scatter(stats_df['generation'], stats_df['diversity'], c='green', s=100)
+
+            ax2.set_xlabel('Generación')
+            ax2.set_ylabel('Diversidad')
+            ax2.set_title('Evolución de la Diversidad')
+            ax2.grid(True, alpha=0.3)
+
+            # Gráfico 3: Tasa de mutación
+            if len(stats_df) > 1:
+                ax3.plot(stats_df['generation'], stats_df['mutation_rate'], 'm-', linewidth=2)
+            else:
+                ax3.scatter(stats_df['generation'], stats_df['mutation_rate'], c='magenta', s=100)
+
+            ax3.set_xlabel('Generación')
+            ax3.set_ylabel('Tasa de Mutación')
+            ax3.set_title('Tasa de Mutación Adaptativa')
+            ax3.grid(True, alpha=0.3)
+
+            # Gráfico 4: Hall of Fame
+            if hasattr(self, 'hall_of_fame_arrays') and self.hall_of_fame_arrays:
+                # Crear datos de Hall of Fame por generación
+                hof_generations = list(range(len(stats_df)))
+                hof_fitness = [max(stats_df['best_fitness'][:i+1]) for i in range(len(stats_df))]
+
+                ax4.plot(hof_generations, hof_fitness, 'r*-', markersize=8, linewidth=2)
+                ax4.set_xlabel('Generación')
+                ax4.set_ylabel('Mejor Fitness Histórico')
+                ax4.set_title(f'Hall of Fame (Workers: {self.max_workers})')
+                ax4.grid(True, alpha=0.3)
+            else:
+                ax4.text(0.5, 0.5, 'Hall of Fame\nno disponible', 
+                        ha='center', va='center', transform=ax4.transAxes)
+                ax4.set_title('Hall of Fame')
+
+            plt.tight_layout()
+
+            # Guardar gráfico
+            plot_file = os.path.join(self.output_dir, "parallel_evolution_stats.png")
+            plt.savefig(plot_file, dpi=150, bbox_inches='tight')
+            plt.close()
+
+            self.logger.info(f"✅ Gráficos guardados: {plot_file}")
+
+        except Exception as e:
+            self.logger.error(f"❌ Error creando gráficos: {e}")
+            # Cerrar figura si existe para evitar warnings
+            try:
+                plt.close('all')
+            except:
+                pass    
+            
+    def save_hall_of_fame_data(self):
+        """
+        Guarda datos del Hall of Fame con verificación
+        """
+        try:
+            hof_file = os.path.join(self.output_dir, "parallel_hall_of_fame.json")
+            hof_data = []
+
+            for i, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5]):  # Top 5
+                deck = self.array_to_deck(array, f"HOF_Deck_{i}")
+                hof_data.append({
+                    'rank': i + 1,
+                    'fitness': float(fitness),
+                    'deck_name': deck['name'],
+                    'colors': deck.get('colors', []),
+                    'stats': deck.get('stats', {}),
+                    'parallel_workers': self.max_workers,
+                    'total_cards': int(np.sum(array)),
+                    'unique_cards': int(np.count_nonzero(array))
+                })
+
+            # Guardar datos
+            with open(hof_file, 'w', encoding='utf-8') as f:
+                json.dump(hof_data, f, ensure_ascii=False, indent=2)
+
+            if hof_data:
+                self.logger.info(f"✅ Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
+            else:
+                self.logger.warning(f"⚠️ Hall of Fame vacío guardado en {hof_file}")
+
+        except Exception as e:
+            self.logger.error(f"❌ Error guardando Hall of Fame: {e}")        
         
     def get_starting_player(self, i, j, generation):
         """
@@ -1632,8 +1738,8 @@ class MTGGeneticAlgorithm:
                 if best_fitness < 0.01:  # Si el fitness es sospechosamente bajo
                     self.logger.warning(f"⚠️ Fitness sospechosamente bajo: {best_fitness:.4f}")
                     # Buscar en hall_of_fame alternativo
-                    if hasattr(self, 'hall_of_fame') and self.hall_of_fame:
-                        _, alt_fitness, alt_deck = max(self.hall_of_fame, key=lambda x: x[1])
+                    if hasattr(self, 'hall_of_fame') and self.hall_of_fame_arrays:
+                        _, alt_fitness, alt_deck = max(self.hall_of_fame_arrays, key=lambda x: x[1])
                         if alt_fitness > best_fitness:
                             self.logger.info(f"🔄 Usando hall_of_fame alternativo: {alt_fitness:.4f}")
                             return alt_deck, alt_fitness
@@ -1641,8 +1747,8 @@ class MTGGeneticAlgorithm:
                 return best_deck, best_fitness
 
             # OPCIÓN 2: Usar hall_of_fame estándar
-            elif hasattr(self, 'hall_of_fame') and self.hall_of_fame:
-                _, best_fitness, best_deck = max(self.hall_of_fame, key=lambda x: x[1])
+            elif hasattr(self, 'hall_of_fame') and self.hall_of_fame_arrays:
+                _, best_fitness, best_deck = max(self.hall_of_fame_arrays, key=lambda x: x[1])
 
                 self.logger.info(f"✅ Mejor resultado obtenido del Hall of Fame estándar:")
                 self.logger.info(f"   Fitness: {best_fitness:.4f}")
@@ -1670,6 +1776,64 @@ class MTGGeneticAlgorithm:
             self.logger.error(f"Error obteniendo resultado final: {e}")
             best_deck = self.array_to_deck(self.population_arrays[0], "Error_Recovery_Deck")
             return best_deck, 0.0
+        
+    def update_statistics(self, generation, fitness_values):
+        """
+        Actualiza las estadísticas de evolución en cada generación
+
+        Args:
+            generation (int): Número de generación actual
+            fitness_values (list): Lista de fitness de todos los individuos
+        """
+        try:
+            # Calcular estadísticas básicas
+            best_fitness = max(fitness_values)
+            avg_fitness = np.mean(fitness_values)
+            diversity = self.calculate_diversity(self.population_arrays)
+
+            # Obtener tasa de mutación actual
+            current_mutation_rate = getattr(self, 'mutation_rate', 0.05)
+
+            # Actualizar listas de estadísticas
+            self.stats['best_fitness'].append(best_fitness)
+            self.stats['avg_fitness'].append(avg_fitness)
+            self.stats['diversity'].append(diversity)
+            self.stats['mutation_rate'].append(current_mutation_rate)
+
+            # Log debug cada 5 generaciones
+            if generation % 5 == 0:
+                self.logger.debug(f"Stats Gen {generation}: Best={best_fitness:.4f}, "
+                                f"Avg={avg_fitness:.4f}, Div={diversity:.4f}")
+
+            # Guardar estadísticas incrementales cada 10 generaciones
+            if generation % 10 == 0:
+                self.save_incremental_statistics(generation)
+
+        except Exception as e:
+            self.logger.error(f"Error actualizando estadísticas en generación {generation}: {e}")
+            
+    def save_incremental_statistics(self, generation):
+        """
+        Guarda estadísticas incrementales para no perder datos si hay interrupción
+        """
+        try:
+            # Crear DataFrame con datos actuales
+            stats_df = pd.DataFrame({
+                'generation': range(len(self.stats['best_fitness'])),
+                'best_fitness': self.stats['best_fitness'],
+                'avg_fitness': self.stats['avg_fitness'],
+                'diversity': self.stats['diversity'],
+                'mutation_rate': self.stats['mutation_rate']
+            })
+
+            # Guardar CSV incremental
+            incremental_file = os.path.join(self.output_dir, f"evolution_stats_gen_{generation}.csv")
+            stats_df.to_csv(incremental_file, index=False)
+
+            self.logger.debug(f"Estadísticas incrementales guardadas: {incremental_file}")
+
+        except Exception as e:
+            self.logger.error(f"Error guardando estadísticas incrementales: {e}")
 
 # FUNCIÓN WORKER PARA PARALELIZACIÓN (debe estar fuera de la clase)
 def parallel_forge_combat_worker(combat_info):
