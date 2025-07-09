@@ -1,0 +1,510 @@
+=== COMBATE PARALELO: Gen0_Deck8 vs Gen0_Deck20 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck8 Gen0_Deck20 -n 1
+Duración: 32.51 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2096 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 50 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck8 vs Ai(2)-Gen0_Deck20 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck8 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck20 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Replacement Effect: Temple of Silence enters tapped.
+Land: Ai(1)-Gen0_Deck8 played Temple of Silence (52)
+Add to stack: Ai(1)-Gen0_Deck8 triggered Temple of Silence (52)
+Resolve stack: Ai(1)-Gen0_Deck8 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Silence enters, scry 1. [Zone Changer: Temple of Silence (52)]
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Mountain (113)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (45)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Island (87)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (19)
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Temple of Silence (52) - {T}: Add {W} or {B}.
+Mana: Plains (45) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Dread Summons (5)
+Zone Change: Ai(1)-Gen0_Deck8 milled Plains (44).
+Zone Change: Ai(2)-Gen0_Deck20 milled Feldon's Cane (66).
+Resolve stack: Dread Summons (5) - Each player mills a card.   (X=1)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Mountain (115)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Temple of Silence (52) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Burnished Hart (39)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Mountain (112)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burnished Hart (39) to attack Ai(2)-Gen0_Deck20.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Burrog Befuddler (101)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck20 triggered Burrog Befuddler (101) targeting [Burnished Hart (39)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Burnished Hart (39)]]) [Zone Changer: Burrog Befuddler (101)]
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Burnished Hart (39).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burnished Hart (39) deals 1 combat damage to Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Temple of Silence (52) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Burnished Hart (41)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Burrog Befuddler (101) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Burrog Befuddler (101).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Damage: Burrog Befuddler (101) deals 2 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Island (87) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Three Tree Mascot (82)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (49)
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (49) - {T}: Add {W}.
+Mana: Temple of Silence (52) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Deadly Plot (27)
+Resolve stack: Deadly Plot (27) -  Destroy target creature or planeswalker. (Targeting: Three Tree Mascot (82))
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burnished Hart (39) and Burnished Hart (41) to attack Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Burnished Hart (39).
+Ai(2)-Gen0_Deck20 didn't block Burnished Hart (41).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burnished Hart (39) deals 2 combat damage to Ai(2)-Gen0_Deck20.
+Damage: Burnished Hart (41) deals 2 combat damage to Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Island (92)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Burrog Befuddler (101) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Burrog Befuddler (101).
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Damage: Burrog Befuddler (101) deals 2 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Evolving Wilds (38)
+Add to stack: Ai(1)-Gen0_Deck8 activated Evolving Wilds (38)
+Resolve stack: Evolving Wilds (38) - Ai(1)-Gen0_Deck8 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burnished Hart (39) and Burnished Hart (41) to attack Ai(2)-Gen0_Deck20.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Burrog Befuddler (100)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck20 triggered Burrog Befuddler (100) targeting [Burnished Hart (39)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Burnished Hart (39)]]) [Zone Changer: Burrog Befuddler (100)]
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Burnished Hart (39).
+Ai(2)-Gen0_Deck20 didn't block Burnished Hart (41).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burnished Hart (39) deals 1 combat damage to Ai(2)-Gen0_Deck20.
+Damage: Burnished Hart (41) deals 2 combat damage to Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (49) - {T}: Add {W}.
+Mana: Temple of Silence (52) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Billowing Shriekmass (21)
+Resolve stack: Billowing Shriekmass - Creature 2 / 3
+Add to stack: Ai(1)-Gen0_Deck8 triggered Billowing Shriekmass (21)
+Zone Change: Ai(1)-Gen0_Deck8 milled Linden, the Steadfast Queen (32), Crypt Feaster (23) and Dread Summons (7).
+Resolve stack: When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.) [Zone Changer: Billowing Shriekmass (21)]
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Mountain (111)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Island (87) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Sure Strike (74) targeting [Burrog Befuddler (101)]
+Resolve stack: Sure Strike (74) - Burrog Befuddler (101) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Burrog Befuddler (100) and Burrog Befuddler (101) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Billowing Shriekmass (21) to block Burrog Befuddler (100).
+Ai(1)-Gen0_Deck8 didn't block Burrog Befuddler (101).
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Sure Strike (75) targeting [Burrog Befuddler (100)]
+Resolve stack: Sure Strike (75) - Burrog Befuddler (100) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Damage: Burrog Befuddler (100) deals 5 damage () to Billowing Shriekmass (21).
+Damage: Burrog Befuddler (101) deals 5 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Luminous Rebuke (56) targeting [Burrog Befuddler (101)]
+Resolve stack: Luminous Rebuke (56) - Destroy Burrog Befuddler (101).
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burnished Hart (39) and Burnished Hart (41) to attack Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Burnished Hart (39).
+Ai(2)-Gen0_Deck20 didn't block Burnished Hart (41).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burnished Hart (39) deals 2 combat damage to Ai(2)-Gen0_Deck20.
+Damage: Burnished Hart (41) deals 2 combat damage to Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (49) - {T}: Add {W}.
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Temple of Silence (52) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Burnished Hart (40)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Battle-Rattle Shaman (62)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck20 triggered Battle-Rattle Shaman (62) targeting [Burrog Befuddler (100)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Burrog Befuddler (100)]]) [Phase: Ai(2)-Gen0_Deck20]
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burnished Hart (39), Burnished Hart (41) and Burnished Hart (40) to attack Ai(2)-Gen0_Deck20.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 assigned Burrog Befuddler (100) to block Burnished Hart (39).
+Ai(2)-Gen0_Deck20 didn't block Burnished Hart (40).
+Ai(2)-Gen0_Deck20 didn't block Burnished Hart (41).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burnished Hart (39) deals 2 damage () to Burrog Befuddler (100).
+Damage: Burnished Hart (41) deals 2 combat damage to Ai(2)-Gen0_Deck20.
+Damage: Burnished Hart (40) deals 2 combat damage to Ai(2)-Gen0_Deck20.
+Damage: Burrog Befuddler (100) deals 2 damage () to Burnished Hart (39).
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (49) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Temple of Silence (52) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Syr Alin, the Lion's Claw (60)
+Resolve stack: Syr Alin, the Lion's Claw - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Land: Ai(2)-Gen0_Deck20 played Crawling Barrens (99)
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck20 triggered Battle-Rattle Shaman (62) targeting [Battle-Rattle Shaman (62)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Battle-Rattle Shaman (62)]]) [Phase: Ai(2)-Gen0_Deck20]
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Mana: Island (87) - {T}: Add {U}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Crawling Barrens (99) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Ovika, Enigma Goliath (73)
+Resolve stack: Ovika, Enigma Goliath - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (49) - {T}: Add {W}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Deadly Plot (28)
+Resolve stack: Deadly Plot (28) -  Return target Zombie creature card from your graveyard to the battlefield tapped. (Targeting: Crypt Feaster (23))
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck20)
+Phase: Ai(2)-Gen0_Deck20's Untap step
+Phase: Ai(2)-Gen0_Deck20's Upkeep step
+Phase: Ai(2)-Gen0_Deck20's Draw step
+Phase: Ai(2)-Gen0_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck20's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck20 triggered Battle-Rattle Shaman (62) targeting [Ovika, Enigma Goliath (73)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Ovika, Enigma Goliath (73)]]) [Phase: Ai(2)-Gen0_Deck20]
+Phase: Ai(2)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck20's End of Combat Step
+Phase: Ai(2)-Gen0_Deck20's Main phase, postcombat
+Mana: Island (87) - {T}: Add {U}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck20 cast Erudite Wizard (78)
+Resolve stack: Erudite Wizard - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck20's End step
+Phase: Ai(2)-Gen0_Deck20's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Syr Alin, the Lion's Claw (60), Crypt Feaster (23), Burnished Hart (41) and Burnished Hart (40) to attack Ai(2)-Gen0_Deck20.
+Add to stack: Ai(1)-Gen0_Deck8 triggered Syr Alin, the Lion's Claw (60)
+Add to stack: Ai(1)-Gen0_Deck8 triggered Crypt Feaster (23)
+Resolve stack: Threshold — Whenever this creature attacks, if there are seven or more cards in your graveyard, this creature gets +2/+0 until end of turn. [Attacker: Crypt Feaster (23)]
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (60)]
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck20 didn't block Crypt Feaster (23).
+Ai(2)-Gen0_Deck20 assigned Ovika, Enigma Goliath (73) to block Burnished Hart (40).
+Ai(2)-Gen0_Deck20 assigned Erudite Wizard (78) to block Burnished Hart (41).
+Ai(2)-Gen0_Deck20 assigned Battle-Rattle Shaman (62) to block Syr Alin, the Lion's Claw (60).
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Plains (49) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Burnished Hart (40)
+Resolve stack: Burnished Hart (40) - Ai(1)-Gen0_Deck8 searches their library for two Land.Basic cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (60) deals 4 damage () to Battle-Rattle Shaman (62).
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Crypt Feaster (23) deals 6 combat damage to Ai(2)-Gen0_Deck20.
+Damage: Burnished Hart (41) deals 3 damage () to Erudite Wizard (78).
+Damage: Erudite Wizard (78) deals 2 damage () to Burnished Hart (41).
+Player control: Ai(1)-Gen0_Deck8 is controlled by Ai(1)-Gen0_Deck8
+Player control: Ai(2)-Gen0_Deck20 is controlled by Ai(2)-Gen0_Deck20
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck8 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck20 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck8: 1 Ai(2)-Gen0_Deck20: 0 
+
+Game Result: Game 1 ended in 21848 ms. Ai(1)-Gen0_Deck8 has won!
+
+
+=== STDERR ===

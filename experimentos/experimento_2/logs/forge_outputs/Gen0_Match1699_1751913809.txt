@@ -1,0 +1,510 @@
+=== COMBATE PARALELO: Gen0_Deck22 vs Gen0_Deck25 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck22 Gen0_Deck25 -n 1
+Duración: 41.41 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2241 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 116 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck22 vs Ai(2)-Gen0_Deck25 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck25 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck22 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Mountain (109)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Ghitu Lavarunner (91)
+Resolve stack: Ghitu Lavarunner - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Replacement Effect: Swiftwater Cliffs enters tapped.
+Land: Ai(1)-Gen0_Deck22 played Swiftwater Cliffs (8)
+Add to stack: Ai(1)-Gen0_Deck22 triggered Swiftwater Cliffs (8)
+Resolve stack: When Swiftwater Cliffs enters, you gain 1 life. [Zone Changer: Swiftwater Cliffs (8)]
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Swamp (76)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Ghitu Lavarunner (91) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Ghitu Lavarunner (91).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Ghitu Lavarunner (91) deals 1 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Zul Ashur, Lich Lord (84)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Soulstone Sanctuary (47)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Demolition Field (100)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Zul Ashur, Lich Lord (84) and Ghitu Lavarunner (91) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Zul Ashur, Lich Lord (84).
+Ai(1)-Gen0_Deck22 didn't block Ghitu Lavarunner (91).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Zul Ashur, Lich Lord (84) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Damage: Ghitu Lavarunner (91) deals 1 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Mountain (53)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Mana: Swiftwater Cliffs (8) - {T}: Add {U} or {R}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (47) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Gateway Sneak (28)
+Resolve stack: Gateway Sneak - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Demolition Field (100) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Taurean Mauler (68)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Island (43)
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Island (43) - {T}: Add {U}.
+Mana: Swiftwater Cliffs (8) - {T}: Add {U} or {R}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Electroduplicate (25) targeting [Gateway Sneak (28)]
+Add to stack: Ai(2)-Gen0_Deck25 triggered Taurean Mauler (68)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Electroduplicate (25), Activator: Ai(1)-Gen0_Deck22, SpellAbility: Create a token that's a copy of target creature you control, except it has haste and "At the beginning of the end step, sacrifice this token."]
+Resolve stack: Electroduplicate (25) - Ai(1)-Gen0_Deck22 creates a token that's a copy of Gateway Sneak (28), except it has haste.
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Gateway Sneak (122) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Taurean Mauler (68) to block Gateway Sneak (122).
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Damage: Gateway Sneak (122) deals 1 damage () to Taurean Mauler (68).
+Damage: Taurean Mauler (68) deals 3 damage () to Gateway Sneak (122).
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Taurean Mauler (68) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Taurean Mauler (68).
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Fake Your Own Death (105) targeting [Taurean Mauler (68)]
+Resolve stack: Fake Your Own Death (105) - Taurean Mauler (68) gets +2/+0  until end of turn. Taurean Mauler (68) .
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Taurean Mauler (68) deals 5 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Island (42)
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Swiftwater Cliffs (8) - {T}: Add {U} or {R}.
+Mana: Island (43) - {T}: Add {U}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Electroduplicate (25) targeting [Gateway Sneak (28)]
+Add to stack: Ai(2)-Gen0_Deck25 triggered Taurean Mauler (68)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Electroduplicate (25), Activator: Ai(1)-Gen0_Deck22, SpellAbility: Create a token that's a copy of target creature you control, except it has haste and "At the beginning of the end step, sacrifice this token."]
+Resolve stack: Electroduplicate (25) - Ai(1)-Gen0_Deck22 creates a token that's a copy of Gateway Sneak (28), except it has haste.
+Replacement Effect: Flashback {2}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Gateway Sneak (124) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Ghitu Lavarunner (91) and Zul Ashur, Lich Lord (84) to block Gateway Sneak (124).
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Damage: Gateway Sneak (124) deals 1 damage () to Ghitu Lavarunner (91).
+Damage: Ghitu Lavarunner (91) deals 1 damage () to Gateway Sneak (124).
+Damage: Zul Ashur, Lich Lord (84) deals 2 damage () to Gateway Sneak (124).
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Demolition Field (101)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Taurean Mauler (68) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Taurean Mauler (68).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Taurean Mauler (68) deals 4 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Island (43) - {T}: Add {U}.
+Mana: Island (42) - {T}: Add {U}.
+Mana: Swiftwater Cliffs (8) - {T}: Add {U} or {R}.
+Add to stack: Ai(1)-Gen0_Deck22 activated Soulstone Sanctuary (47)
+Resolve stack: Soulstone Sanctuary (47) - Soulstone Sanctuary (47) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck22 played Uncharted Haven (46)
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Swamp (78)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Taurean Mauler (68) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Taurean Mauler (68).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Taurean Mauler (68) deals 4 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Island (38)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Island (43) - {T}: Add {U}.
+Mana: Island (42) - {T}: Add {U}.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Rapacious Dragon (11)
+Add to stack: Ai(2)-Gen0_Deck25 triggered Taurean Mauler (68)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Rapacious Dragon (11), Activator: Ai(1)-Gen0_Deck22, SpellAbility: Rapacious Dragon - Creature 3 / 3]
+Resolve stack: Rapacious Dragon - Creature 3 / 3
+Add to stack: Ai(1)-Gen0_Deck22 triggered Rapacious Dragon (11)
+Resolve stack: When Rapacious Dragon enters, create two Treasure tokens. [Zone Changer: Rapacious Dragon (11)]
+Mana: Swiftwater Cliffs (8) - {T}: Add {U} or {R}.
+Mana: Soulstone Sanctuary (47) - {T}: Add {C}.
+Mana: Treasure Token (129) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Treasure Token (128) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck22 cast Lightshell Duo (9)
+Add to stack: Ai(2)-Gen0_Deck25 triggered Taurean Mauler (68)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Lightshell Duo (9), Activator: Ai(1)-Gen0_Deck22, SpellAbility: Lightshell Duo - Creature 3 / 4]
+Resolve stack: Lightshell Duo - Creature 3 / 4
+Add to stack: Ai(1)-Gen0_Deck22 triggered Lightshell Duo (9)
+Resolve stack: Ai(1)-Gen0_Deck22 surveiled 2 card(s) to the top of the library
+Resolve stack: When Lightshell Duo enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.) [Zone Changer: Lightshell Duo (9)]
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Taurean Mauler (68) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Lightshell Duo (9) and Rapacious Dragon (11) to block Taurean Mauler (68).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Taurean Mauler (68) deals 4 damage () to Lightshell Duo (9).
+Damage: Taurean Mauler (68) deals 2 damage () to Rapacious Dragon (11).
+Damage: Lightshell Duo (9) deals 3 damage () to Taurean Mauler (68).
+Damage: Rapacious Dragon (11) deals 3 damage () to Taurean Mauler (68).
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Demolition Field (100) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Driver of the Dead (103)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Rapacious Dragon (11) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Rapacious Dragon (11).
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Damage: Rapacious Dragon (11) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Island (43) - {T}: Add {U}.
+Mana: Island (42) - {T}: Add {U}.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Rapacious Dragon (13)
+Resolve stack: Rapacious Dragon - Creature 3 / 3
+Add to stack: Ai(1)-Gen0_Deck22 triggered Rapacious Dragon (13)
+Resolve stack: When Rapacious Dragon enters, create two Treasure tokens. [Zone Changer: Rapacious Dragon (13)]
+Mana: Swiftwater Cliffs (8) - {T}: Add {U} or {R}.
+Mana: Soulstone Sanctuary (47) - {T}: Add {C}.
+Mana: Treasure Token (134) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck22 cast Gateway Sneak (27)
+Resolve stack: Gateway Sneak - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Mountain (110)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Driver of the Dead (103) to attack Ai(1)-Gen0_Deck22.
+Mana: Treasure Token (133) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck22 cast Fleeting Distraction (20) targeting [Driver of the Dead (103)]
+Resolve stack: Fleeting Distraction (20) - Driver of the Dead (103) gets -1/-0  until end of turn. Ai(1)-Gen0_Deck22 draws a card.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Rapacious Dragon (13) to block Driver of the Dead (103).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Driver of the Dead (103) deals 2 damage () to Rapacious Dragon (13).
+Damage: Rapacious Dragon (13) deals 3 damage () to Driver of the Dead (103).
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Ravenous Giant (93)
+Resolve stack: Ravenous Giant - Creature 5 / 5
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Rapacious Dragon (11) and Rapacious Dragon (13) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Rapacious Dragon (11).
+Ai(2)-Gen0_Deck25 didn't block Rapacious Dragon (13).
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Damage: Rapacious Dragon (11) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Rapacious Dragon (13) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Island (43) - {T}: Add {U}.
+Mana: Island (42) - {T}: Add {U}.
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Banner of Kinship (34)
+Replacement Effect: As this artifact enters, choose a creature type. This artifact enters with a fellowship counter on it for each creature you control of the chosen type.
+Resolve stack: Banner of Kinship
+Mana: Swiftwater Cliffs (8) - {T}: Add {U} or {R}.
+Mana: Soulstone Sanctuary (47) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Courageous Goblin (3)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck25 triggered Ravenous Giant (93)
+Damage: Ravenous Giant (93) deals 1 non-combat damage to Ai(2)-Gen0_Deck25.
+Resolve stack: At the beginning of your upkeep, Ravenous Giant deals 1 damage to you. [Phase: Ai(2)-Gen0_Deck25]
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Ravenous Giant (93) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Gateway Sneak (27), Gateway Sneak (28) and Courageous Goblin (3) to block Ravenous Giant (93).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Ravenous Giant (93) deals 3 damage () to Gateway Sneak (27).
+Damage: Ravenous Giant (93) deals 2 damage () to Gateway Sneak (28).
+Damage: Gateway Sneak (27) deals 1 damage () to Ravenous Giant (93).
+Damage: Gateway Sneak (28) deals 1 damage () to Ravenous Giant (93).
+Damage: Courageous Goblin (3) deals 3 damage () to Ravenous Giant (93).
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Soulstone Sanctuary (48)
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Island (43) - {T}: Add {U}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Taurean Mauler (16)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Courageous Goblin (3), Rapacious Dragon (11), Rapacious Dragon (13) and Soulstone Sanctuary (47) to attack Ai(2)-Gen0_Deck25.
+Add to stack: Ai(1)-Gen0_Deck22 triggered Courageous Goblin (3)
+Resolve stack: Whenever this creature attacks while you control a creature with power 4 or greater, this creature gets +1/+0 and gains menace until end of turn. [Attacker: Courageous Goblin (3)]
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Courageous Goblin (3).
+Ai(2)-Gen0_Deck25 didn't block Rapacious Dragon (11).
+Ai(2)-Gen0_Deck25 didn't block Rapacious Dragon (13).
+Ai(2)-Gen0_Deck25 assigned Ghitu Lavarunner (91) to block Soulstone Sanctuary (47).
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Damage: Courageous Goblin (3) deals 4 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Rapacious Dragon (11) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Rapacious Dragon (13) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Soulstone Sanctuary (47) deals 4 damage () to Ghitu Lavarunner (91).
+Damage: Ghitu Lavarunner (91) deals 1 damage () to Soulstone Sanctuary (47).
+Player control: Ai(1)-Gen0_Deck22 is controlled by Ai(1)-Gen0_Deck22
+Player control: Ai(2)-Gen0_Deck25 is controlled by Ai(2)-Gen0_Deck25
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen0_Deck22 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck25 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck22: 1 Ai(2)-Gen0_Deck25: 0 
+
+Game Result: Game 1 ended in 27537 ms. Ai(1)-Gen0_Deck22 has won!
+
+
+=== STDERR ===

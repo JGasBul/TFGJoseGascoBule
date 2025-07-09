@@ -1,0 +1,534 @@
+=== COMBATE PARALELO: Gen3_Deck43 vs Gen3_Deck49 ===
+Worker ID: 909535
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck43 Gen3_Deck49 -n 1
+Duración: 36.78 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1923 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 57 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck43 vs Ai(2)-Gen3_Deck49 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck43 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck49 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Land: Ai(1)-Gen3_Deck43 played Forest (33)
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck43 cast Adventuring Gear (3)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Land: Ai(2)-Gen3_Deck49 played Forest (67)
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Land: Ai(1)-Gen3_Deck43 played Evolving Wilds (44)
+Add to stack: Ai(1)-Gen3_Deck43 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Evolving Wilds (44)]
+Add to stack: Ai(1)-Gen3_Deck43 activated Evolving Wilds (44)
+Resolve stack: Evolving Wilds (44) - Ai(1)-Gen3_Deck43 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Add to stack: Ai(1)-Gen3_Deck43 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (23)]
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(2)-Gen3_Deck49 played Gruul Guildgate (64)
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Discard: Ai(2)-Gen3_Deck49 discards Aggressive Mammoth (114).
+Turn: Turn 7 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Land: Ai(1)-Gen3_Deck43 played Forest (32)
+Add to stack: Ai(1)-Gen3_Deck43 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (32)]
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Discard: Ai(2)-Gen3_Deck49 discards Claws Out (110).
+Turn: Turn 9 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck43 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Discard: Ai(2)-Gen3_Deck49 discards Elvish Archdruid (87).
+Turn: Turn 11 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Discard: Ai(2)-Gen3_Deck49 discards Hoarding Dragon (99).
+Turn: Turn 13 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Discard: Ai(1)-Gen3_Deck43 discards Biogenic Upgrade (15).
+Turn: Turn 14 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Land: Ai(2)-Gen3_Deck49 played Forest (68)
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Land: Ai(1)-Gen3_Deck43 played Swamp (24)
+Add to stack: Ai(1)-Gen3_Deck43 triggered Adventuring Gear (1)
+Add to stack: Ai(1)-Gen3_Deck43 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (24)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (24)]
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck43 cast Vampire Nighthawk (49)
+Resolve stack: Vampire Nighthawk - Creature 2 / 3
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck43 activated Adventuring Gear (3) targeting [Vampire Nighthawk (49)]
+Resolve stack: Adventuring Gear (3) -  Attach to Vampire Nighthawk (49)
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen3_Deck49 played Uncharted Haven (79)
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck43 activated Adventuring Gear (1) targeting [Vampire Nighthawk (49)]
+Resolve stack: Adventuring Gear (1) -  Attach to Vampire Nighthawk (49)
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 assigned Vampire Nighthawk (49) to attack Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck49 didn't block Vampire Nighthawk (49).
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Damage: Vampire Nighthawk (49) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck43 cast Vampire Nighthawk (50)
+Resolve stack: Vampire Nighthawk - Creature 2 / 3
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Mana: Uncharted Haven (79) - {T}: Add one mana of the chosen color.
+Mana: Forest (67) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen3_Deck49 cast Knight of Grace (65)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 assigned Vampire Nighthawk (49) and Vampire Nighthawk (50) to attack Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck49 didn't block Vampire Nighthawk (49).
+Ai(2)-Gen3_Deck49 didn't block Vampire Nighthawk (50).
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Damage: Vampire Nighthawk (49) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Damage: Vampire Nighthawk (50) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck43 cast Campus Guide (19)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen3_Deck43 triggered Campus Guide (19)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (19)]
+Phase: Ai(1)-Gen3_Deck43's End step
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Land: Ai(2)-Gen3_Deck49 played Swamp (103)
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 assigned Knight of Grace (65) to attack Ai(1)-Gen3_Deck43.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck43 didn't block Knight of Grace (65).
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Damage: Knight of Grace (65) deals 3 combat damage to Ai(1)-Gen3_Deck43.
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Mana: Uncharted Haven (79) - {T}: Add one mana of the chosen color.
+Mana: Forest (67) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen3_Deck49 cast Dawnwing Marshal (108)
+Resolve stack: Dawnwing Marshal - Creature 2 / 2
+Mana: Swamp (103) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck49 cast Infestation Sage (90)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Land: Ai(1)-Gen3_Deck43 played Mountain (56)
+Add to stack: Ai(1)-Gen3_Deck43 triggered Adventuring Gear (1)
+Add to stack: Ai(1)-Gen3_Deck43 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (56)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (56)]
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 assigned Vampire Nighthawk (49), Vampire Nighthawk (50) and Campus Guide (19) to attack Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck49 didn't block Vampire Nighthawk (49).
+Ai(2)-Gen3_Deck49 didn't block Vampire Nighthawk (50).
+Ai(2)-Gen3_Deck49 didn't block Campus Guide (19).
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Damage: Vampire Nighthawk (49) deals 6 combat damage to Ai(2)-Gen3_Deck49.
+Damage: Vampire Nighthawk (50) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Damage: Campus Guide (19) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck43 cast Perforating Artist (51)
+Resolve stack: Perforating Artist - Creature 3 / 2
+Phase: Ai(1)-Gen3_Deck43's End step
+Add to stack: Ai(1)-Gen3_Deck43 triggered Perforating Artist (51)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card. [Phase: Ai(1)-Gen3_Deck43]
+Add to stack: Ai(2)-Gen3_Deck49 triggered Infestation Sage (90)
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (90)]
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Land: Ai(2)-Gen3_Deck49 played Crawling Barrens (82)
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Mana: Uncharted Haven (79) - {T}: Add one mana of the chosen color.
+Mana: Forest (67) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen3_Deck49 cast Knight of Grace (66)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 assigned Vampire Nighthawk (49) and Vampire Nighthawk (50) to attack Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck49 assigned Insect Token (123) to block Vampire Nighthawk (49).
+Ai(2)-Gen3_Deck49 assigned Dawnwing Marshal (108) to block Vampire Nighthawk (50).
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Damage: Vampire Nighthawk (49) deals 2 damage (Deathtouch) to Insect Token (123).
+Damage: Vampire Nighthawk (50) deals 2 damage (Deathtouch) to Dawnwing Marshal (108).
+Damage: Insect Token (123) deals 1 damage () to Vampire Nighthawk (49).
+Damage: Dawnwing Marshal (108) deals 2 damage () to Vampire Nighthawk (50).
+Phase: Ai(1)-Gen3_Deck43's End of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck43 cast Goblin Boarders (43)
+Replacement Effect: Raid — Goblin Boarders enters with a +1/+1 counter on it if you attacked this turn.
+Resolve stack: Goblin Boarders - Creature 3 / 2
+Phase: Ai(1)-Gen3_Deck43's End step
+Add to stack: Ai(1)-Gen3_Deck43 triggered Perforating Artist (51)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, each opponent loses 3 life unless that player sacrifices a nonland permanent of their choice or discards a card. [Phase: Ai(1)-Gen3_Deck43]
+Phase: Ai(1)-Gen3_Deck43's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen3_Deck49)
+Phase: Ai(2)-Gen3_Deck49's Untap step
+Phase: Ai(2)-Gen3_Deck49's Upkeep step
+Phase: Ai(2)-Gen3_Deck49's Draw step
+Phase: Ai(2)-Gen3_Deck49's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck49's End of Combat Step
+Phase: Ai(2)-Gen3_Deck49's Main phase, postcombat
+Mana: Swamp (103) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck49 cast Infestation Sage (91)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Mana: Uncharted Haven (79) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen3_Deck49 cast Authority of the Consuls (118)
+Resolve stack: Authority of the Consuls
+Phase: Ai(2)-Gen3_Deck49's End step
+Phase: Ai(2)-Gen3_Deck49's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen3_Deck43)
+Phase: Ai(1)-Gen3_Deck43's Untap step
+Phase: Ai(1)-Gen3_Deck43's Upkeep step
+Phase: Ai(1)-Gen3_Deck43's Draw step
+Phase: Ai(1)-Gen3_Deck43's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck43's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck43's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck43 assigned Goblin Boarders (43), Perforating Artist (51), Vampire Nighthawk (49), Vampire Nighthawk (50) and Campus Guide (19) to attack Ai(2)-Gen3_Deck49.
+Phase: Ai(1)-Gen3_Deck43's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck49 didn't block Vampire Nighthawk (49).
+Ai(2)-Gen3_Deck49 didn't block Vampire Nighthawk (50).
+Ai(2)-Gen3_Deck49 assigned Knight of Grace (66) to block Perforating Artist (51).
+Ai(2)-Gen3_Deck49 didn't block Campus Guide (19).
+Ai(2)-Gen3_Deck49 assigned Infestation Sage (91) to block Goblin Boarders (43).
+Phase: Ai(1)-Gen3_Deck43's First Strike Damage Step
+Damage: Knight of Grace (66) deals 3 damage () to Perforating Artist (51).
+Phase: Ai(1)-Gen3_Deck43's Combat Damage Step
+Damage: Goblin Boarders (43) deals 4 damage () to Infestation Sage (91).
+Damage: Vampire Nighthawk (49) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Damage: Vampire Nighthawk (50) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Damage: Campus Guide (19) deals 2 combat damage to Ai(2)-Gen3_Deck49.
+Damage: Infestation Sage (91) deals 1 damage () to Goblin Boarders (43).
+Player control: Ai(1)-Gen3_Deck43 is controlled by Ai(1)-Gen3_Deck43
+Player control: Ai(2)-Gen3_Deck49 is controlled by Ai(2)-Gen3_Deck49
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen3_Deck43 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck49 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck43: 1 Ai(2)-Gen3_Deck49: 0 
+
+Game Result: Game 1 ended in 23641 ms. Ai(1)-Gen3_Deck43 has won!
+
+
+=== STDERR ===

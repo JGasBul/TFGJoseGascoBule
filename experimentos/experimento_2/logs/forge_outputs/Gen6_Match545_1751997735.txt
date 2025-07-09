@@ -1,0 +1,309 @@
+=== COMBATE PARALELO: Gen6_Deck5 vs Gen6_Deck43 ===
+Worker ID: 2514424
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck5 Gen6_Deck43 -n 1
+Duración: 22.76 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1975 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 48 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck5 vs Ai(2)-Gen6_Deck43 - one game of Constructed
+Mulligan: Ai(2)-Gen6_Deck43 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen6_Deck5 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen6_Deck43)
+Phase: Ai(2)-Gen6_Deck43's Untap step
+Phase: Ai(2)-Gen6_Deck43's Upkeep step
+Phase: Ai(2)-Gen6_Deck43's Draw step
+Phase: Ai(2)-Gen6_Deck43's Main phase, precombat
+Land: Ai(2)-Gen6_Deck43 played Forest (99)
+Phase: Ai(2)-Gen6_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck43's End of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck43's End step
+Phase: Ai(2)-Gen6_Deck43's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen6_Deck5)
+Phase: Ai(1)-Gen6_Deck5's Untap step
+Phase: Ai(1)-Gen6_Deck5's Upkeep step
+Phase: Ai(1)-Gen6_Deck5's Draw step
+Phase: Ai(1)-Gen6_Deck5's Main phase, precombat
+Land: Ai(1)-Gen6_Deck5 played Forest (15)
+Phase: Ai(1)-Gen6_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck5's End of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck5 cast Mild-Mannered Librarian (4)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen6_Deck5's End step
+Phase: Ai(1)-Gen6_Deck5's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen6_Deck43)
+Phase: Ai(2)-Gen6_Deck43's Untap step
+Phase: Ai(2)-Gen6_Deck43's Upkeep step
+Phase: Ai(2)-Gen6_Deck43's Draw step
+Phase: Ai(2)-Gen6_Deck43's Main phase, precombat
+Land: Ai(2)-Gen6_Deck43 played Swamp (75)
+Phase: Ai(2)-Gen6_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck43's End of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck43's End step
+Phase: Ai(2)-Gen6_Deck43's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen6_Deck5)
+Phase: Ai(1)-Gen6_Deck5's Untap step
+Phase: Ai(1)-Gen6_Deck5's Upkeep step
+Phase: Ai(1)-Gen6_Deck5's Draw step
+Phase: Ai(1)-Gen6_Deck5's Main phase, precombat
+Land: Ai(1)-Gen6_Deck5 played Forest (25)
+Phase: Ai(1)-Gen6_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck5 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen6_Deck43.
+Phase: Ai(1)-Gen6_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck43 didn't block Mild-Mannered Librarian (4).
+Phase: Ai(1)-Gen6_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck5's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen6_Deck43.
+Phase: Ai(1)-Gen6_Deck5's End of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck5 cast Three Tree Mascot (49)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen6_Deck5's End step
+Phase: Ai(1)-Gen6_Deck5's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen6_Deck43)
+Phase: Ai(2)-Gen6_Deck43's Untap step
+Phase: Ai(2)-Gen6_Deck43's Upkeep step
+Phase: Ai(2)-Gen6_Deck43's Draw step
+Phase: Ai(2)-Gen6_Deck43's Main phase, precombat
+Land: Ai(2)-Gen6_Deck43 played Forest (103)
+Phase: Ai(2)-Gen6_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck43's End of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Main phase, postcombat
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Swamp (75) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck43 cast Nessian Hornbeetle (110)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck43's End step
+Phase: Ai(2)-Gen6_Deck43's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen6_Deck5)
+Phase: Ai(1)-Gen6_Deck5's Untap step
+Phase: Ai(1)-Gen6_Deck5's Upkeep step
+Phase: Ai(1)-Gen6_Deck5's Draw step
+Phase: Ai(1)-Gen6_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck5 assigned Three Tree Mascot (49) to attack Ai(2)-Gen6_Deck43.
+Phase: Ai(1)-Gen6_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck43 assigned Nessian Hornbeetle (110) to block Three Tree Mascot (49).
+Mana: Forest (103) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck43 cast Giant Growth (63) targeting [Nessian Hornbeetle (110)]
+Resolve stack: Giant Growth (63) - Nessian Hornbeetle (110) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen6_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck5's Combat Damage Step
+Damage: Three Tree Mascot (49) deals 2 damage () to Nessian Hornbeetle (110).
+Damage: Nessian Hornbeetle (110) deals 5 damage () to Three Tree Mascot (49).
+Phase: Ai(1)-Gen6_Deck5's End of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen6_Deck5 played Dismal Backwater (5)
+Add to stack: Ai(1)-Gen6_Deck5 triggered Dismal Backwater (5)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (5)]
+Phase: Ai(1)-Gen6_Deck5's End step
+Phase: Ai(1)-Gen6_Deck5's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen6_Deck43)
+Phase: Ai(2)-Gen6_Deck43's Untap step
+Phase: Ai(2)-Gen6_Deck43's Upkeep step
+Phase: Ai(2)-Gen6_Deck43's Draw step
+Phase: Ai(2)-Gen6_Deck43's Main phase, precombat
+Land: Ai(2)-Gen6_Deck43 played Forest (97)
+Phase: Ai(2)-Gen6_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck43 assigned Nessian Hornbeetle (110) to attack Ai(1)-Gen6_Deck5.
+Phase: Ai(2)-Gen6_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck5 didn't block Nessian Hornbeetle (110).
+Phase: Ai(2)-Gen6_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck43's Combat Damage Step
+Damage: Nessian Hornbeetle (110) deals 2 combat damage to Ai(1)-Gen6_Deck5.
+Phase: Ai(2)-Gen6_Deck43's End of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck43's End step
+Phase: Ai(2)-Gen6_Deck43's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen6_Deck5)
+Phase: Ai(1)-Gen6_Deck5's Untap step
+Phase: Ai(1)-Gen6_Deck5's Upkeep step
+Phase: Ai(1)-Gen6_Deck5's Draw step
+Phase: Ai(1)-Gen6_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck5 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen6_Deck43.
+Phase: Ai(1)-Gen6_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck43 didn't block Mild-Mannered Librarian (4).
+Phase: Ai(1)-Gen6_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck5's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen6_Deck43.
+Phase: Ai(1)-Gen6_Deck5's End of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Main phase, postcombat
+Mana: Dismal Backwater (5) - {T}: Add {U} or {B}.
+Mana: Forest (15) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck5 cast Pilfer (10) targeting [Ai(2)-Gen6_Deck43]
+Discard: Ai(2)-Gen6_Deck43 discards Pelakka Wurm (105).
+Resolve stack: Pilfer (10) - Ai(2)-Gen6_Deck43 reveals their hand. Ai(1)-Gen6_Deck5 chooses a nonland card from it. Ai(2)-Gen6_Deck43 discards that card.
+Phase: Ai(1)-Gen6_Deck5's End step
+Phase: Ai(1)-Gen6_Deck5's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen6_Deck43)
+Phase: Ai(2)-Gen6_Deck43's Untap step
+Phase: Ai(2)-Gen6_Deck43's Upkeep step
+Phase: Ai(2)-Gen6_Deck43's Draw step
+Phase: Ai(2)-Gen6_Deck43's Main phase, precombat
+Land: Ai(2)-Gen6_Deck43 played Forest (93)
+Mana: Swamp (75) - {T}: Add {B}.
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Forest (103) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck43 cast Zombify (104) targeting [Pelakka Wurm (105)]
+Resolve stack: Zombify (104) - Return Pelakka Wurm (105) from the graveyard to the battlefield.
+Add to stack: Ai(2)-Gen6_Deck43 triggered Pelakka Wurm (105)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (105)]
+Phase: Ai(2)-Gen6_Deck43's Beginning of Combat Step
+Add to stack: Ai(2)-Gen6_Deck43 triggered Nessian Hornbeetle (110)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen6_Deck43]
+Phase: Ai(2)-Gen6_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck43 assigned Nessian Hornbeetle (110) to attack Ai(1)-Gen6_Deck5.
+Phase: Ai(2)-Gen6_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck5 didn't block Nessian Hornbeetle (110).
+Phase: Ai(2)-Gen6_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck43's Combat Damage Step
+Damage: Nessian Hornbeetle (110) deals 3 combat damage to Ai(1)-Gen6_Deck5.
+Phase: Ai(2)-Gen6_Deck43's End of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck43's End step
+Phase: Ai(2)-Gen6_Deck43's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen6_Deck5)
+Phase: Ai(1)-Gen6_Deck5's Untap step
+Phase: Ai(1)-Gen6_Deck5's Upkeep step
+Phase: Ai(1)-Gen6_Deck5's Draw step
+Phase: Ai(1)-Gen6_Deck5's Main phase, precombat
+Land: Ai(1)-Gen6_Deck5 played Crawling Barrens (29)
+Phase: Ai(1)-Gen6_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck5's End of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck5's End step
+Phase: Ai(1)-Gen6_Deck5's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen6_Deck43)
+Phase: Ai(2)-Gen6_Deck43's Untap step
+Phase: Ai(2)-Gen6_Deck43's Upkeep step
+Phase: Ai(2)-Gen6_Deck43's Draw step
+Phase: Ai(2)-Gen6_Deck43's Main phase, precombat
+Land: Ai(2)-Gen6_Deck43 played Forest (92)
+Phase: Ai(2)-Gen6_Deck43's Beginning of Combat Step
+Add to stack: Ai(2)-Gen6_Deck43 triggered Nessian Hornbeetle (110)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen6_Deck43]
+Phase: Ai(2)-Gen6_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck43 assigned Pelakka Wurm (105) and Nessian Hornbeetle (110) to attack Ai(1)-Gen6_Deck5.
+Phase: Ai(2)-Gen6_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck5 didn't block Pelakka Wurm (105).
+Ai(1)-Gen6_Deck5 didn't block Nessian Hornbeetle (110).
+Phase: Ai(2)-Gen6_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck43's Combat Damage Step
+Damage: Pelakka Wurm (105) deals 7 combat damage to Ai(1)-Gen6_Deck5.
+Damage: Nessian Hornbeetle (110) deals 4 combat damage to Ai(1)-Gen6_Deck5.
+Phase: Ai(2)-Gen6_Deck43's End of Combat Step
+Phase: Ai(2)-Gen6_Deck43's Main phase, postcombat
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Forest (103) - {T}: Add {G}.
+Mana: Swamp (75) - {T}: Add {B}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Forest (93) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck43 cast Elfsworn Giant (114)
+Resolve stack: Elfsworn Giant - Creature 5 / 3
+Phase: Ai(2)-Gen6_Deck43's End step
+Phase: Ai(2)-Gen6_Deck43's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen6_Deck5)
+Phase: Ai(1)-Gen6_Deck5's Untap step
+Phase: Ai(1)-Gen6_Deck5's Upkeep step
+Phase: Ai(1)-Gen6_Deck5's Draw step
+Phase: Ai(1)-Gen6_Deck5's Main phase, precombat
+Land: Ai(1)-Gen6_Deck5 played Crawling Barrens (31)
+Phase: Ai(1)-Gen6_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck5's End of Combat Step
+Phase: Ai(1)-Gen6_Deck5's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Dismal Backwater (5) - {T}: Add {U} or {B}.
+Mana: Crawling Barrens (29) - {T}: Add {C}.
+Mana: Crawling Barrens (31) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck5 cast Elfsworn Giant (54)
+Resolve stack: Elfsworn Giant - Creature 5 / 3
+Phase: Ai(1)-Gen6_Deck5's End step
+Phase: Ai(1)-Gen6_Deck5's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen6_Deck43)
+Phase: Ai(2)-Gen6_Deck43's Untap step
+Phase: Ai(2)-Gen6_Deck43's Upkeep step
+Phase: Ai(2)-Gen6_Deck43's Draw step
+Phase: Ai(2)-Gen6_Deck43's Main phase, precombat
+Land: Ai(2)-Gen6_Deck43 played Forest (91)
+Add to stack: Ai(2)-Gen6_Deck43 triggered Elfsworn Giant (114)
+Resolve stack: Landfall — Whenever a land you control enters, create a 1/1 green Elf Warrior creature token. [Zone Changer: Forest (91)]
+Phase: Ai(2)-Gen6_Deck43's Beginning of Combat Step
+Add to stack: Ai(2)-Gen6_Deck43 triggered Nessian Hornbeetle (110)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen6_Deck43]
+Phase: Ai(2)-Gen6_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck43 assigned Pelakka Wurm (105), Nessian Hornbeetle (110) and Elfsworn Giant (114) to attack Ai(1)-Gen6_Deck5.
+Phase: Ai(2)-Gen6_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck5 assigned Elfsworn Giant (54) to block Elfsworn Giant (114).
+Ai(1)-Gen6_Deck5 didn't block Pelakka Wurm (105).
+Ai(1)-Gen6_Deck5 assigned Mild-Mannered Librarian (4) to block Nessian Hornbeetle (110).
+Phase: Ai(2)-Gen6_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck43's Combat Damage Step
+Damage: Pelakka Wurm (105) deals 7 combat damage to Ai(1)-Gen6_Deck5.
+Damage: Nessian Hornbeetle (110) deals 5 damage () to Mild-Mannered Librarian (4).
+Damage: Elfsworn Giant (114) deals 5 damage () to Elfsworn Giant (54).
+Damage: Mild-Mannered Librarian (4) deals 1 damage () to Nessian Hornbeetle (110).
+Damage: Elfsworn Giant (54) deals 5 damage () to Elfsworn Giant (114).
+Player control: Ai(1)-Gen6_Deck5 is controlled by Ai(1)-Gen6_Deck5
+Player control: Ai(2)-Gen6_Deck43 is controlled by Ai(2)-Gen6_Deck43
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen6_Deck5 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck43 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck5: 0 Ai(2)-Gen6_Deck43: 1 
+
+Game Result: Game 1 ended in 10893 ms. Ai(2)-Gen6_Deck43 has won!
+
+
+=== STDERR ===

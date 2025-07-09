@@ -1,0 +1,430 @@
+=== COMBATE PARALELO: Gen3_Deck25 vs Gen3_Deck44 ===
+Worker ID: 909537
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck25 Gen3_Deck44 -n 1
+Duración: 29.41 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2065 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 124 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck25 vs Ai(2)-Gen3_Deck44 - one game of Constructed
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+Mulligan: Ai(1)-Gen3_Deck25 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen3_Deck25 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen3_Deck44 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Land: Ai(1)-Gen3_Deck25 played Swamp (35)
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Mana: Swamp (35) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck25 cast Duress (37) targeting [Ai(2)-Gen3_Deck44]
+Discard: Ai(2)-Gen3_Deck44 discards Bulk Up (71).
+Resolve stack: Duress (37) - Ai(2)-Gen3_Deck44 reveals their hand. Ai(1)-Gen3_Deck25 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen3_Deck44 discards that card.
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Island (91)
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Land: Ai(1)-Gen3_Deck25 played Plains (18)
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Soulstone Sanctuary (103)
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Mana: Island (91) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (103) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen3_Deck44 cast Three Tree Mascot (80)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Land: Ai(1)-Gen3_Deck25 played Cryptic Caves (2)
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Mountain (108)
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Three Tree Mascot (80) to attack Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck25 didn't block Three Tree Mascot (80).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Three Tree Mascot (80) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Crawling Barrens (96)
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Three Tree Mascot (80) to attack Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck25 didn't block Three Tree Mascot (80).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Three Tree Mascot (80) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Land: Ai(1)-Gen3_Deck25 played Crawling Barrens (23)
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Mana: Crawling Barrens (23) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck25 cast Fiendish Panda (1)
+Resolve stack: Fiendish Panda - Creature 3 / 2
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen3_Deck44 played Maze's End (62)
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Land: Ai(1)-Gen3_Deck25 played Evolving Wilds (39)
+Add to stack: Ai(1)-Gen3_Deck25 activated Evolving Wilds (39)
+Resolve stack: Evolving Wilds (39) - Ai(1)-Gen3_Deck25 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Mana: Swamp (35) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck25 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen3_Deck25 draws a card.
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Mana: Island (91) - {T}: Add {U}.
+Mana: Mountain (108) - {T}: Add {R}.
+Mana: Crawling Barrens (96) - {T}: Add {C}.
+Mana: Maze's End (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen3_Deck44 activated Soulstone Sanctuary (103)
+Resolve stack: Soulstone Sanctuary (103) - Soulstone Sanctuary (103) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Three Tree Mascot (80) and Soulstone Sanctuary (103) to attack Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck25 didn't block Three Tree Mascot (80).
+Ai(1)-Gen3_Deck25 assigned Fiendish Panda (1) to block Soulstone Sanctuary (103).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Three Tree Mascot (80) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Damage: Soulstone Sanctuary (103) deals 3 damage () to Fiendish Panda (1).
+Damage: Fiendish Panda (1) deals 3 damage () to Soulstone Sanctuary (103).
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Land: Ai(1)-Gen3_Deck25 played Mountain (56)
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Island (20) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck25 activated Crawling Barrens (23)
+Resolve stack: Crawling Barrens (23) - Ai(1)-Gen3_Deck25 puts two +1/+1 counters on Crawling Barrens (23). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 assigned Crawling Barrens (23) to attack Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck44 didn't block Crawling Barrens (23).
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Damage: Crawling Barrens (23) deals 2 combat damage to Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Mountain (106)
+Mana: Mountain (108) - {T}: Add {R}.
+Mana: Mountain (106) - {T}: Add {R}.
+Mana: Island (91) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck44 cast Flamewake Phoenix (67)
+Resolve stack: Flamewake Phoenix - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Flamewake Phoenix (67) and Three Tree Mascot (80) to attack Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck25 didn't block Three Tree Mascot (80).
+Ai(1)-Gen3_Deck25 didn't block Flamewake Phoenix (67).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Flamewake Phoenix (67) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Damage: Three Tree Mascot (80) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Island (20) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck25 activated Crawling Barrens (23)
+Resolve stack: Crawling Barrens (23) - Ai(1)-Gen3_Deck25 puts two +1/+1 counters on Crawling Barrens (23). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 assigned Crawling Barrens (23) to attack Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck44 didn't block Crawling Barrens (23).
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Damage: Crawling Barrens (23) deals 4 combat damage to Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Mana: Mountain (108) - {T}: Add {R}.
+Mana: Mountain (106) - {T}: Add {R}.
+Mana: Island (91) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck44 cast Flamewake Phoenix (64)
+Resolve stack: Flamewake Phoenix - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Flamewake Phoenix (64), Flamewake Phoenix (67) and Three Tree Mascot (80) to attack Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck25 didn't block Flamewake Phoenix (64).
+Ai(1)-Gen3_Deck25 didn't block Three Tree Mascot (80).
+Ai(1)-Gen3_Deck25 didn't block Flamewake Phoenix (67).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Flamewake Phoenix (64) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Damage: Flamewake Phoenix (67) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Damage: Three Tree Mascot (80) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen3_Deck25)
+Phase: Ai(1)-Gen3_Deck25's Untap step
+Phase: Ai(1)-Gen3_Deck25's Upkeep step
+Phase: Ai(1)-Gen3_Deck25's Draw step
+Phase: Ai(1)-Gen3_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck25's End of Combat Step
+Phase: Ai(1)-Gen3_Deck25's Main phase, postcombat
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Island (20) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck25 cast Driver of the Dead (52)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen3_Deck25's End step
+Phase: Ai(1)-Gen3_Deck25's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Mana: Island (91) - {T}: Add {U}.
+Mana: Mountain (108) - {T}: Add {R}.
+Mana: Mountain (106) - {T}: Add {R}.
+Mana: Maze's End (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen3_Deck44 activated Crawling Barrens (96)
+Resolve stack: Crawling Barrens (96) - Ai(2)-Gen3_Deck44 puts two +1/+1 counters on Crawling Barrens (96). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Flamewake Phoenix (67), Flamewake Phoenix (64), Three Tree Mascot (80) and Crawling Barrens (96) to attack Ai(1)-Gen3_Deck25.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck25 didn't block Flamewake Phoenix (64).
+Ai(1)-Gen3_Deck25 didn't block Three Tree Mascot (80).
+Ai(1)-Gen3_Deck25 assigned Driver of the Dead (52) to block Crawling Barrens (96).
+Ai(1)-Gen3_Deck25 didn't block Flamewake Phoenix (67).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Flamewake Phoenix (67) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Damage: Flamewake Phoenix (64) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Damage: Three Tree Mascot (80) deals 2 combat damage to Ai(1)-Gen3_Deck25.
+Damage: Crawling Barrens (96) deals 2 damage () to Driver of the Dead (52).
+Damage: Driver of the Dead (52) deals 3 damage () to Crawling Barrens (96).
+Player control: Ai(1)-Gen3_Deck25 is controlled by Ai(1)-Gen3_Deck25
+Player control: Ai(2)-Gen3_Deck44 is controlled by Ai(2)-Gen3_Deck44
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen3_Deck25 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck44 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck25: 0 Ai(2)-Gen3_Deck44: 1 
+
+Game Result: Game 1 ended in 16996 ms. Ai(2)-Gen3_Deck44 has won!
+
+
+=== STDERR ===

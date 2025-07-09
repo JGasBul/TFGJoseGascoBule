@@ -1,0 +1,376 @@
+=== COMBATE PARALELO: Gen0_Deck2 vs Gen0_Deck5 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck2 Gen0_Deck5 -n 1
+Duración: 26.52 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2120 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 156 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck2 vs Ai(2)-Gen0_Deck5 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck5 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck2 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Rogue's Passage (75)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (29)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Island (113)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck2 played Secluded Courtyard (42)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Island (114)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Mana: Island (113) - {T}: Add {U}.
+Mana: Island (114) - {T}: Add {U}.
+Mana: Rogue's Passage (75) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Kaito, Cunning Infiltrator (80)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(2)-Gen0_Deck5 activated Kaito, Cunning Infiltrator (80)
+Resolve stack: Kaito, Cunning Infiltrator (80) - Ai(2)-Gen0_Deck5 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Cryptic Caves (4)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Secluded Courtyard (42) - {T}: Add {C}.
+Mana: Cryptic Caves (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Crow of Dark Tidings (58)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck2 triggered Crow of Dark Tidings (58)
+Zone Change: Ai(1)-Gen0_Deck2 milled Quick-Draw Katana (15) and Highborn Vampire (51).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (58)]
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (22)
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Secluded Courtyard (42) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Hero's Downfall (43) targeting [Kaito, Cunning Infiltrator (80)]
+Resolve stack: Hero's Downfall (43) - Destroy Kaito, Cunning Infiltrator (80).
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Crow of Dark Tidings (58) to attack Ai(2)-Gen0_Deck5.
+Mana: Island (113) - {T}: Add {U}.
+Mana: Island (114) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Burrog Befuddler (119)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck5 triggered Burrog Befuddler (119) targeting [Crow of Dark Tidings (58)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Crow of Dark Tidings (58)]]) [Zone Changer: Burrog Befuddler (119)]
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Crow of Dark Tidings (58).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Crow of Dark Tidings (58) deals 1 combat damage to Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Ninja Token (124) and Burrog Befuddler (119) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Burrog Befuddler (119).
+Ai(1)-Gen0_Deck2 didn't block Ninja Token (124).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Damage: Ninja Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Burrog Befuddler (119) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Mana: Island (113) - {T}: Add {U}.
+Mana: Island (114) - {T}: Add {U}.
+Mana: Rogue's Passage (75) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Kaito, Cunning Infiltrator (78)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(2)-Gen0_Deck5 activated Kaito, Cunning Infiltrator (78)
+Resolve stack: Kaito, Cunning Infiltrator (78) - Ai(2)-Gen0_Deck5 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (25)
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen0_Deck2 draws a card.
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Crow of Dark Tidings (58) to attack Kaito, Cunning Infiltrator (78).
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Crow of Dark Tidings (58).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Cemetery Recruitment (10) targeting [Highborn Vampire (51)]
+Resolve stack: Cemetery Recruitment (10) - Return Highborn Vampire (51) from the graveyard to its owner's hand. Ai(1)-Gen0_Deck2 draws a card. 
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Ninja Token (124), Burrog Befuddler (119) and Ninja Token (128) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Ninja Token (128).
+Ai(1)-Gen0_Deck2 didn't block Burrog Befuddler (119).
+Ai(1)-Gen0_Deck2 didn't block Ninja Token (124).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Damage: Ninja Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Burrog Befuddler (119) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Ninja Token (128) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck2 played Secluded Courtyard (41)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Crow of Dark Tidings (58) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Crow of Dark Tidings (58).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Crow of Dark Tidings (58) deals 2 combat damage to Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Secluded Courtyard (42) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Driver of the Dead (55)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Plains (97)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Ninja Token (124), Burrog Befuddler (119) and Ninja Token (128) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Ninja Token (128).
+Ai(1)-Gen0_Deck2 didn't block Burrog Befuddler (119).
+Ai(1)-Gen0_Deck2 didn't block Ninja Token (124).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Damage: Ninja Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Burrog Befuddler (119) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Ninja Token (128) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Mana: Island (113) - {T}: Add {U}.
+Mana: Island (114) - {T}: Add {U}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Rogue's Passage (75) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Lightshell Duo (72)
+Resolve stack: Lightshell Duo - Creature 3 / 4
+Add to stack: Ai(2)-Gen0_Deck5 triggered Lightshell Duo (72)
+Resolve stack: Ai(2)-Gen0_Deck5 surveiled 2 card(s) to the top of the library
+Resolve stack: When Lightshell Duo enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.) [Zone Changer: Lightshell Duo (72)]
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (30)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Highborn Vampire (51)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Mana: Secluded Courtyard (42) - {T}: Add {C}.
+Mana: Secluded Courtyard (41) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Mazemind Tome (50)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (50)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (50) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Plains (92)
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Island (113) - {T}: Add {U}.
+Mana: Island (114) - {T}: Add {U}.
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Rogue's Passage (75) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Angelic Edict (106) targeting [Highborn Vampire (51)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Lightshell Duo (72)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Angelic Edict (106), Activator: Ai(2)-Gen0_Deck5, SpellAbility: Exile target creature or enchantment.]
+Resolve stack: Angelic Edict (106) - Exile Highborn Vampire (51).
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Lightshell Duo (72), Ninja Token (124), Burrog Befuddler (119) and Ninja Token (128) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Ninja Token (128).
+Ai(1)-Gen0_Deck2 assigned Driver of the Dead (55) to block Burrog Befuddler (119).
+Ai(1)-Gen0_Deck2 assigned Crow of Dark Tidings (58) to block Lightshell Duo (72).
+Ai(1)-Gen0_Deck2 didn't block Ninja Token (124).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Damage: Lightshell Duo (72) deals 4 damage () to Crow of Dark Tidings (58).
+Damage: Ninja Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Burrog Befuddler (119) deals 2 damage () to Driver of the Dead (55).
+Damage: Ninja Token (128) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Crow of Dark Tidings (58) deals 2 damage () to Lightshell Duo (72).
+Damage: Driver of the Dead (55) deals 3 damage () to Burrog Befuddler (119).
+Player control: Ai(1)-Gen0_Deck2 is controlled by Ai(1)-Gen0_Deck2
+Player control: Ai(2)-Gen0_Deck5 is controlled by Ai(2)-Gen0_Deck5
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck2 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck5 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck2: 0 Ai(2)-Gen0_Deck5: 1 
+
+Game Result: Game 1 ended in 12894 ms. Ai(2)-Gen0_Deck5 has won!
+
+
+=== STDERR ===

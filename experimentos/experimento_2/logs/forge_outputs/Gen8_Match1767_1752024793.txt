@@ -1,0 +1,304 @@
+=== COMBATE PARALELO: Gen8_Deck23 vs Gen8_Deck33 ===
+Worker ID: 3561598
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen8_Deck23 Gen8_Deck33 -n 1
+Duración: 19.12 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1645 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 54 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen8_Deck23 vs Ai(2)-Gen8_Deck33 - one game of Constructed
+Mulligan: Ai(2)-Gen8_Deck33 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen8_Deck33 has mulliganed down to 5 cards.
+Mulligan: Ai(2)-Gen8_Deck33 has kept a hand of 5 cards
+Mulligan: Ai(1)-Gen8_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen8_Deck33)
+Phase: Ai(2)-Gen8_Deck33's Untap step
+Phase: Ai(2)-Gen8_Deck33's Upkeep step
+Phase: Ai(2)-Gen8_Deck33's Draw step
+Phase: Ai(2)-Gen8_Deck33's Main phase, precombat
+Land: Ai(2)-Gen8_Deck33 played Cryptic Caves (61)
+Phase: Ai(2)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck33's End of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck33's End step
+Phase: Ai(2)-Gen8_Deck33's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen8_Deck23)
+Phase: Ai(1)-Gen8_Deck23's Untap step
+Phase: Ai(1)-Gen8_Deck23's Upkeep step
+Phase: Ai(1)-Gen8_Deck23's Draw step
+Phase: Ai(1)-Gen8_Deck23's Main phase, precombat
+Land: Ai(1)-Gen8_Deck23 played Plains (27)
+Phase: Ai(1)-Gen8_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck23's End of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen8_Deck23 cast Hinterland Sanctifier (15)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen8_Deck23's End step
+Phase: Ai(1)-Gen8_Deck23's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen8_Deck33)
+Phase: Ai(2)-Gen8_Deck33's Untap step
+Phase: Ai(2)-Gen8_Deck33's Upkeep step
+Phase: Ai(2)-Gen8_Deck33's Draw step
+Phase: Ai(2)-Gen8_Deck33's Main phase, precombat
+Land: Ai(2)-Gen8_Deck33 played Cryptic Caves (64)
+Phase: Ai(2)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck33's End of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck33's End step
+Phase: Ai(2)-Gen8_Deck33's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen8_Deck23)
+Phase: Ai(1)-Gen8_Deck23's Untap step
+Phase: Ai(1)-Gen8_Deck23's Upkeep step
+Phase: Ai(1)-Gen8_Deck23's Draw step
+Phase: Ai(1)-Gen8_Deck23's Main phase, precombat
+Land: Ai(1)-Gen8_Deck23 played Island (45)
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck23 cast Youthful Valkyrie (9)
+Resolve stack: Youthful Valkyrie - Creature 1 / 3
+Add to stack: Ai(1)-Gen8_Deck23 triggered Hinterland Sanctifier (15)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Youthful Valkyrie (9)]
+Phase: Ai(1)-Gen8_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck23 assigned Hinterland Sanctifier (15) to attack Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck33 didn't block Hinterland Sanctifier (15).
+Phase: Ai(1)-Gen8_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck23's Combat Damage Step
+Damage: Hinterland Sanctifier (15) deals 1 combat damage to Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's End of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck23's End step
+Phase: Ai(1)-Gen8_Deck23's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen8_Deck33)
+Phase: Ai(2)-Gen8_Deck33's Untap step
+Phase: Ai(2)-Gen8_Deck33's Upkeep step
+Phase: Ai(2)-Gen8_Deck33's Draw step
+Phase: Ai(2)-Gen8_Deck33's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen8_Deck33 played Orzhov Guildgate (67)
+Phase: Ai(2)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck33's End of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck33's End step
+Phase: Ai(2)-Gen8_Deck33's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen8_Deck23)
+Phase: Ai(1)-Gen8_Deck23's Untap step
+Phase: Ai(1)-Gen8_Deck23's Upkeep step
+Phase: Ai(1)-Gen8_Deck23's Draw step
+Phase: Ai(1)-Gen8_Deck23's Main phase, precombat
+Land: Ai(1)-Gen8_Deck23 played Demolition Field (58)
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck23 cast Youthful Valkyrie (11)
+Resolve stack: Youthful Valkyrie - Creature 1 / 3
+Add to stack: Ai(1)-Gen8_Deck23 triggered Hinterland Sanctifier (15)
+Add to stack: Ai(1)-Gen8_Deck23 triggered Youthful Valkyrie (9)
+Resolve stack: Whenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie. [Zone Changer: Youthful Valkyrie (11)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Youthful Valkyrie (11)]
+Phase: Ai(1)-Gen8_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck23 assigned Youthful Valkyrie (9) and Hinterland Sanctifier (15) to attack Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck33 didn't block Youthful Valkyrie (9).
+Ai(2)-Gen8_Deck33 didn't block Hinterland Sanctifier (15).
+Phase: Ai(1)-Gen8_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck23's Combat Damage Step
+Damage: Youthful Valkyrie (9) deals 2 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Hinterland Sanctifier (15) deals 1 combat damage to Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's End of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck23's End step
+Phase: Ai(1)-Gen8_Deck23's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen8_Deck33)
+Phase: Ai(2)-Gen8_Deck33's Untap step
+Phase: Ai(2)-Gen8_Deck33's Upkeep step
+Phase: Ai(2)-Gen8_Deck33's Draw step
+Phase: Ai(2)-Gen8_Deck33's Main phase, precombat
+Land: Ai(2)-Gen8_Deck33 played Swamp (95)
+Phase: Ai(2)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck33's End of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Orzhov Guildgate (67) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen8_Deck33 cast Reassembling Skeleton (107)
+Resolve stack: Reassembling Skeleton - Creature 1 / 1
+Phase: Ai(2)-Gen8_Deck33's End step
+Phase: Ai(2)-Gen8_Deck33's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen8_Deck23)
+Phase: Ai(1)-Gen8_Deck23's Untap step
+Phase: Ai(1)-Gen8_Deck23's Upkeep step
+Phase: Ai(1)-Gen8_Deck23's Draw step
+Phase: Ai(1)-Gen8_Deck23's Main phase, precombat
+Land: Ai(1)-Gen8_Deck23 played Plains (22)
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck23 activated Demolition Field (58) targeting [Orzhov Guildgate (67)]
+Resolve stack: Demolition Field (58) - Destroy Orzhov Guildgate (67). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen8_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen8_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck23 assigned Youthful Valkyrie (9), Hinterland Sanctifier (15) and Youthful Valkyrie (11) to attack Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck33 didn't block Youthful Valkyrie (9).
+Ai(2)-Gen8_Deck33 didn't block Youthful Valkyrie (11).
+Ai(2)-Gen8_Deck33 didn't block Hinterland Sanctifier (15).
+Phase: Ai(1)-Gen8_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck23's Combat Damage Step
+Damage: Youthful Valkyrie (9) deals 2 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Hinterland Sanctifier (15) deals 1 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Youthful Valkyrie (11) deals 1 combat damage to Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's End of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck23's End step
+Phase: Ai(1)-Gen8_Deck23's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen8_Deck33)
+Phase: Ai(2)-Gen8_Deck33's Untap step
+Phase: Ai(2)-Gen8_Deck33's Upkeep step
+Phase: Ai(2)-Gen8_Deck33's Draw step
+Phase: Ai(2)-Gen8_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck33 assigned Reassembling Skeleton (107) to attack Ai(1)-Gen8_Deck23.
+Phase: Ai(2)-Gen8_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck23 didn't block Reassembling Skeleton (107).
+Phase: Ai(2)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck33's Combat Damage Step
+Damage: Reassembling Skeleton (107) deals 1 combat damage to Ai(1)-Gen8_Deck23.
+Phase: Ai(2)-Gen8_Deck33's End of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck33's End step
+Phase: Ai(2)-Gen8_Deck33's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen8_Deck23)
+Phase: Ai(1)-Gen8_Deck23's Untap step
+Phase: Ai(1)-Gen8_Deck23's Upkeep step
+Phase: Ai(1)-Gen8_Deck23's Draw step
+Phase: Ai(1)-Gen8_Deck23's Main phase, precombat
+Land: Ai(1)-Gen8_Deck23 played Plains (23)
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Forest (19) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen8_Deck23 cast Angel of Finality (8)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen8_Deck23 triggered Angel of Finality (8) targeting [Ai(2)-Gen8_Deck33]
+Add to stack: Ai(1)-Gen8_Deck23 triggered Hinterland Sanctifier (15)
+Add to stack: Ai(1)-Gen8_Deck23 triggered Youthful Valkyrie (11)
+Add to stack: Ai(1)-Gen8_Deck23 triggered Youthful Valkyrie (9)
+Resolve stack: Whenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie. [Zone Changer: Angel of Finality (8)]
+Resolve stack: Whenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie. [Zone Changer: Angel of Finality (8)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Finality (8)]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen8_Deck33]]) [Zone Changer: Angel of Finality (8)]
+Phase: Ai(1)-Gen8_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck23 assigned Youthful Valkyrie (9), Youthful Valkyrie (11) and Hinterland Sanctifier (15) to attack Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck33 didn't block Youthful Valkyrie (9).
+Ai(2)-Gen8_Deck33 didn't block Youthful Valkyrie (11).
+Ai(2)-Gen8_Deck33 didn't block Hinterland Sanctifier (15).
+Phase: Ai(1)-Gen8_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck23's Combat Damage Step
+Damage: Youthful Valkyrie (9) deals 3 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Youthful Valkyrie (11) deals 2 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Hinterland Sanctifier (15) deals 1 combat damage to Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's End of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck23's End step
+Phase: Ai(1)-Gen8_Deck23's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen8_Deck33)
+Phase: Ai(2)-Gen8_Deck33's Untap step
+Phase: Ai(2)-Gen8_Deck33's Upkeep step
+Phase: Ai(2)-Gen8_Deck33's Draw step
+Phase: Ai(2)-Gen8_Deck33's Main phase, precombat
+Land: Ai(2)-Gen8_Deck33 played Island (86)
+Mana: Swamp (95) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen8_Deck33 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen8_Deck33 draws a card.
+Mana: Island (86) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen8_Deck33 cast Witness Protection (92) targeting [Angel of Finality (8)]
+Resolve stack: Witness Protection (92) -  Attach to Legitimate Businessperson (8)
+Phase: Ai(2)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck33's End of Combat Step
+Phase: Ai(2)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck33's End step
+Phase: Ai(2)-Gen8_Deck33's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen8_Deck23)
+Phase: Ai(1)-Gen8_Deck23's Untap step
+Phase: Ai(1)-Gen8_Deck23's Upkeep step
+Phase: Ai(1)-Gen8_Deck23's Draw step
+Phase: Ai(1)-Gen8_Deck23's Main phase, precombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Forest (19) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen8_Deck23 cast Solemn Simulacrum (2)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen8_Deck23 triggered Solemn Simulacrum (2)
+Add to stack: Ai(1)-Gen8_Deck23 triggered Hinterland Sanctifier (15)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Solemn Simulacrum (2)]
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (2)]
+Phase: Ai(1)-Gen8_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck23 assigned Youthful Valkyrie (9), Youthful Valkyrie (11), Hinterland Sanctifier (15) and Legitimate Businessperson (8) to attack Ai(2)-Gen8_Deck33.
+Phase: Ai(1)-Gen8_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck33 assigned Reassembling Skeleton (107) to block Legitimate Businessperson (8).
+Ai(2)-Gen8_Deck33 didn't block Youthful Valkyrie (9).
+Ai(2)-Gen8_Deck33 didn't block Youthful Valkyrie (11).
+Ai(2)-Gen8_Deck33 didn't block Hinterland Sanctifier (15).
+Phase: Ai(1)-Gen8_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck23's Combat Damage Step
+Damage: Youthful Valkyrie (9) deals 3 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Youthful Valkyrie (11) deals 2 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Hinterland Sanctifier (15) deals 1 combat damage to Ai(2)-Gen8_Deck33.
+Damage: Legitimate Businessperson (8) deals 1 damage () to Reassembling Skeleton (107).
+Damage: Reassembling Skeleton (107) deals 1 damage () to Legitimate Businessperson (8).
+Player control: Ai(1)-Gen8_Deck23 is controlled by Ai(1)-Gen8_Deck23
+Player control: Ai(2)-Gen8_Deck33 is controlled by Ai(2)-Gen8_Deck33
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen8_Deck23 has won because all opponents have lost
+Game outcome: Ai(2)-Gen8_Deck33 has lost because life total reached 0
+Match result: Ai(1)-Gen8_Deck23: 1 Ai(2)-Gen8_Deck33: 0 
+
+Game Result: Game 1 ended in 9032 ms. Ai(1)-Gen8_Deck23 has won!
+
+
+=== STDERR ===

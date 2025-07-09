@@ -1,0 +1,356 @@
+=== COMBATE PARALELO: Gen3_Deck11 vs Gen3_Deck33 ===
+Worker ID: 909536
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck11 Gen3_Deck33 -n 1
+Duración: 26.81 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2001 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 202 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck11 vs Ai(2)-Gen3_Deck33 - one game of Constructed
+Mulligan: Ai(2)-Gen3_Deck33 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen3_Deck11 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Swamp (82)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck33's End of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck33's End step
+Phase: Ai(2)-Gen3_Deck33's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck11)
+Phase: Ai(1)-Gen3_Deck11's Untap step
+Phase: Ai(1)-Gen3_Deck11's Upkeep step
+Phase: Ai(1)-Gen3_Deck11's Draw step
+Phase: Ai(1)-Gen3_Deck11's Main phase, precombat
+Land: Ai(1)-Gen3_Deck11 played Forest (13)
+Phase: Ai(1)-Gen3_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck11 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck11's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck11's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck11's End of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Main phase, postcombat
+Mana: Forest (13) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck11 cast Mild-Mannered Librarian (8)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen3_Deck11's End step
+Phase: Ai(1)-Gen3_Deck11's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Plains (100)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck33's End of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Main phase, postcombat
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck33 cast Mazemind Tome (106)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen3_Deck33's End step
+Phase: Ai(2)-Gen3_Deck33's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck11)
+Phase: Ai(1)-Gen3_Deck11's Untap step
+Phase: Ai(1)-Gen3_Deck11's Upkeep step
+Add to stack: Ai(2)-Gen3_Deck33 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen3_Deck33 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen3_Deck33 scries 1.
+Phase: Ai(1)-Gen3_Deck11's Draw step
+Phase: Ai(1)-Gen3_Deck11's Main phase, precombat
+Land: Ai(1)-Gen3_Deck11 played Demolition Field (59)
+Phase: Ai(1)-Gen3_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck11 assigned Mild-Mannered Librarian (8) to attack Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck33 didn't block Mild-Mannered Librarian (8).
+Phase: Ai(1)-Gen3_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck11's Combat Damage Step
+Damage: Mild-Mannered Librarian (8) deals 1 combat damage to Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's End of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck11's End step
+Phase: Ai(1)-Gen3_Deck11's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Mountain (116)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck33's End of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Main phase, postcombat
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck33 activated Mazemind Tome (106)
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen3_Deck33 draws a card.
+Phase: Ai(2)-Gen3_Deck33's End step
+Phase: Ai(2)-Gen3_Deck33's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck11)
+Phase: Ai(1)-Gen3_Deck11's Untap step
+Phase: Ai(1)-Gen3_Deck11's Upkeep step
+Phase: Ai(1)-Gen3_Deck11's Draw step
+Phase: Ai(1)-Gen3_Deck11's Main phase, precombat
+Land: Ai(1)-Gen3_Deck11 played Demolition Field (60)
+Phase: Ai(1)-Gen3_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck11 assigned Mild-Mannered Librarian (8) to attack Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck33 didn't block Mild-Mannered Librarian (8).
+Phase: Ai(1)-Gen3_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck11's Combat Damage Step
+Damage: Mild-Mannered Librarian (8) deals 1 combat damage to Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's End of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck11's End step
+Phase: Ai(1)-Gen3_Deck11's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Mountain (117)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck33's End of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Main phase, postcombat
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck33 cast Juggernaut (64)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(2)-Gen3_Deck33's End step
+Phase: Ai(2)-Gen3_Deck33's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck11)
+Phase: Ai(1)-Gen3_Deck11's Untap step
+Phase: Ai(1)-Gen3_Deck11's Upkeep step
+Phase: Ai(1)-Gen3_Deck11's Draw step
+Phase: Ai(1)-Gen3_Deck11's Main phase, precombat
+Land: Ai(1)-Gen3_Deck11 played Rogue's Passage (44)
+Phase: Ai(1)-Gen3_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck11 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck11's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck11's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck11's End of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck11's End step
+Add to stack: Ai(2)-Gen3_Deck33 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen3_Deck33 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen3_Deck33 scries 1.
+Phase: Ai(1)-Gen3_Deck11's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Swamp (77)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 assigned Juggernaut (64) to attack Ai(1)-Gen3_Deck11.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck11 didn't block Juggernaut (64).
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Damage: Juggernaut (64) deals 5 combat damage to Ai(1)-Gen3_Deck11.
+Phase: Ai(2)-Gen3_Deck33's End of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Main phase, postcombat
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck33 activated Mazemind Tome (106)
+Add to stack: Ai(2)-Gen3_Deck33 triggered Mazemind Tome (106)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen3_Deck33 draws a card.
+Phase: Ai(2)-Gen3_Deck33's End step
+Phase: Ai(2)-Gen3_Deck33's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck11)
+Phase: Ai(1)-Gen3_Deck11's Untap step
+Phase: Ai(1)-Gen3_Deck11's Upkeep step
+Phase: Ai(1)-Gen3_Deck11's Draw step
+Phase: Ai(1)-Gen3_Deck11's Main phase, precombat
+Land: Ai(1)-Gen3_Deck11 played Forest (16)
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Mana: Demolition Field (60) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck11 activated Rogue's Passage (44) targeting [Mild-Mannered Librarian (8)]
+Resolve stack: Rogue's Passage (44) - Mild-Mannered Librarian (8) can't be blocked this turn.
+Phase: Ai(1)-Gen3_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck11 assigned Mild-Mannered Librarian (8) to attack Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck33 didn't block Mild-Mannered Librarian (8).
+Phase: Ai(1)-Gen3_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck11's Combat Damage Step
+Damage: Mild-Mannered Librarian (8) deals 1 combat damage to Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's End of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck11's End step
+Phase: Ai(1)-Gen3_Deck11's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Swamp (74)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 assigned Juggernaut (64) to attack Ai(1)-Gen3_Deck11.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck11 didn't block Juggernaut (64).
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Damage: Juggernaut (64) deals 5 combat damage to Ai(1)-Gen3_Deck11.
+Phase: Ai(2)-Gen3_Deck33's End of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Main phase, postcombat
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck33 cast Suspicious Shambler (61)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Swamp (74) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck33 cast Mazemind Tome (107)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen3_Deck33's End step
+Phase: Ai(2)-Gen3_Deck33's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen3_Deck11)
+Phase: Ai(1)-Gen3_Deck11's Untap step
+Phase: Ai(1)-Gen3_Deck11's Upkeep step
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Mana: Demolition Field (60) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck11 activated Rogue's Passage (44) targeting [Mild-Mannered Librarian (8)]
+Add to stack: Ai(2)-Gen3_Deck33 activated Mazemind Tome (107)
+Resolve stack: Ai(2)-Gen3_Deck33 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (107) - Ai(2)-Gen3_Deck33 scries 1.
+Resolve stack: Rogue's Passage (44) - Mild-Mannered Librarian (8) can't be blocked this turn.
+Phase: Ai(1)-Gen3_Deck11's Draw step
+Phase: Ai(1)-Gen3_Deck11's Main phase, precombat
+Land: Ai(1)-Gen3_Deck11 played Forest (11)
+Phase: Ai(1)-Gen3_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck11 assigned Mild-Mannered Librarian (8) to attack Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck33 didn't block Mild-Mannered Librarian (8).
+Phase: Ai(1)-Gen3_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck11's Combat Damage Step
+Damage: Mild-Mannered Librarian (8) deals 1 combat damage to Ai(2)-Gen3_Deck33.
+Phase: Ai(1)-Gen3_Deck11's End of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck11's End step
+Phase: Ai(1)-Gen3_Deck11's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Swamp (73)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 assigned Juggernaut (64) and Suspicious Shambler (61) to attack Ai(1)-Gen3_Deck11.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck11 didn't block Juggernaut (64).
+Ai(1)-Gen3_Deck11 didn't block Suspicious Shambler (61).
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Damage: Juggernaut (64) deals 5 combat damage to Ai(1)-Gen3_Deck11.
+Damage: Suspicious Shambler (61) deals 4 combat damage to Ai(1)-Gen3_Deck11.
+Phase: Ai(2)-Gen3_Deck33's End of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Main phase, postcombat
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck33 cast Pilfer (84) targeting [Ai(1)-Gen3_Deck11]
+Discard: Ai(1)-Gen3_Deck11 discards Corsair Captain (48).
+Resolve stack: Pilfer (84) - Ai(1)-Gen3_Deck11 reveals their hand. Ai(2)-Gen3_Deck33 chooses a nonland card from it. Ai(1)-Gen3_Deck11 discards that card.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck33 activated Mazemind Tome (107)
+Resolve stack: Mazemind Tome (107) - Ai(2)-Gen3_Deck33 draws a card.
+Phase: Ai(2)-Gen3_Deck33's End step
+Phase: Ai(2)-Gen3_Deck33's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen3_Deck11)
+Phase: Ai(1)-Gen3_Deck11's Untap step
+Phase: Ai(1)-Gen3_Deck11's Upkeep step
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Forest (11) - {T}: Add {G}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck11 activated Rogue's Passage (44) targeting [Mild-Mannered Librarian (8)]
+Resolve stack: Rogue's Passage (44) - Mild-Mannered Librarian (8) can't be blocked this turn.
+Phase: Ai(1)-Gen3_Deck11's Draw step
+Phase: Ai(1)-Gen3_Deck11's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck11's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck11 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck11's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck11's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck11's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck11's End of Combat Step
+Phase: Ai(1)-Gen3_Deck11's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck11's End step
+Phase: Ai(1)-Gen3_Deck11's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen3_Deck33)
+Phase: Ai(2)-Gen3_Deck33's Untap step
+Phase: Ai(2)-Gen3_Deck33's Upkeep step
+Phase: Ai(2)-Gen3_Deck33's Draw step
+Phase: Ai(2)-Gen3_Deck33's Main phase, precombat
+Land: Ai(2)-Gen3_Deck33 played Soulstone Sanctuary (115)
+Phase: Ai(2)-Gen3_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck33 assigned Juggernaut (64) and Suspicious Shambler (61) to attack Ai(1)-Gen3_Deck11.
+Phase: Ai(2)-Gen3_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck11 assigned Mild-Mannered Librarian (8) to block Juggernaut (64).
+Ai(1)-Gen3_Deck11 didn't block Suspicious Shambler (61).
+Phase: Ai(2)-Gen3_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck33's Combat Damage Step
+Damage: Juggernaut (64) deals 5 damage () to Mild-Mannered Librarian (8).
+Damage: Suspicious Shambler (61) deals 4 combat damage to Ai(1)-Gen3_Deck11.
+Damage: Mild-Mannered Librarian (8) deals 1 damage () to Juggernaut (64).
+Player control: Ai(1)-Gen3_Deck11 is controlled by Ai(1)-Gen3_Deck11
+Player control: Ai(2)-Gen3_Deck33 is controlled by Ai(2)-Gen3_Deck33
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen3_Deck11 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck33 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck11: 0 Ai(2)-Gen3_Deck33: 1 
+
+Game Result: Game 1 ended in 12898 ms. Ai(2)-Gen3_Deck33 has won!
+
+
+=== STDERR ===

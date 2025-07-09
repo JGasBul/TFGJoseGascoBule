@@ -1,0 +1,611 @@
+=== COMBATE PARALELO: Gen1_Deck36 vs Gen1_Deck42 ===
+Worker ID: 3987561
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck36 Gen1_Deck42 -n 1
+Duración: 38.50 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1822 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 135 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck36 vs Ai(2)-Gen1_Deck42 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck36 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck42 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Land: Ai(1)-Gen1_Deck36 played Swamp (25)
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen1_Deck42 played Maze's End (61)
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Land: Ai(1)-Gen1_Deck36 played Cryptic Caves (1)
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Cryptic Caves (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Mazemind Tome (46)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (46)
+Resolve stack: Ai(1)-Gen1_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (46) - Ai(1)-Gen1_Deck36 scries 1.
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Land: Ai(2)-Gen1_Deck42 played Plains (78)
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Ravenous Amulet (72)
+Resolve stack: Ravenous Amulet
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Land: Ai(1)-Gen1_Deck36 played Swamp (26)
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Pilfer (31) targeting [Ai(2)-Gen1_Deck42]
+Discard: Ai(2)-Gen1_Deck42 discards Soul-Shackled Zombie (99).
+Resolve stack: Pilfer (31) - Ai(2)-Gen1_Deck42 reveals their hand. Ai(1)-Gen1_Deck36 chooses a nonland card from it. Ai(2)-Gen1_Deck42 discards that card.
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (46)
+Resolve stack: Ai(1)-Gen1_Deck36 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (46) - Ai(1)-Gen1_Deck36 scries 1.
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Land: Ai(2)-Gen1_Deck42 played Swamp (104)
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (46)
+Resolve stack: Mazemind Tome (46) - Ai(1)-Gen1_Deck36 draws a card.
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Land: Ai(2)-Gen1_Deck42 played Swamp (100)
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Land: Ai(1)-Gen1_Deck36 played Swamp (21)
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (46)
+Add to stack: Ai(1)-Gen1_Deck36 triggered Mazemind Tome (46)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (46) - Ai(1)-Gen1_Deck36 draws a card.
+Phase: Ai(1)-Gen1_Deck36's End step
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck42 activated Maze's End (61)
+Replacement Effect: Boros Guildgate enters tapped.
+Resolve stack: Maze's End (61) - Ai(2)-Gen1_Deck42 searches their library for a Gate card, puts it onto the battlefield, then shuffles. 
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen1_Deck42 played Maze's End (61)
+Mana: Boros Guildgate (98) - {T}: Add {R} or {W}.
+Mana: Plains (78) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Dragon Fodder (109)
+Resolve stack: Dragon Fodder (109) - Ai(2)-Gen1_Deck42 creates two 1/1 red Goblin creature tokens.
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Tribute to Hunger (37) targeting [Ai(2)-Gen1_Deck42]
+Resolve stack: Tribute to Hunger (37) - Ai(2)-Gen1_Deck42 sacrifices a creature. Ai(1)-Gen1_Deck36 gains life equal to that creature's toughness. 
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Land: Ai(2)-Gen1_Deck42 played Plains (75)
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Token (126) to attack Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Boros Guildgate (98) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Linden, the Steadfast Queen (116)
+Resolve stack: Linden, the Steadfast Queen - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Land: Ai(1)-Gen1_Deck36 played Swamp (16)
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Bake into a Pie (49) targeting [Linden, the Steadfast Queen (116)]
+Resolve stack: Bake into a Pie (49) - Destroy Linden, the Steadfast Queen (116). 
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Land: Ai(2)-Gen1_Deck42 played Swamp (102)
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Token (126) to attack Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen1_Deck36 draws a card.
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Mazemind Tome (44)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (44)
+Resolve stack: Ai(1)-Gen1_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (44) - Ai(1)-Gen1_Deck36 scries 1.
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Token (126) to attack Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen1_Deck42 played Maze's End (62)
+Mana: Boros Guildgate (98) - {T}: Add {R} or {W}.
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Swamp (104) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Goblin Boarders (118)
+Replacement Effect: Raid — Goblin Boarders enters with a +1/+1 counter on it if you attacked this turn.
+Resolve stack: Goblin Boarders - Creature 3 / 2
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (44)
+Resolve stack: Ai(1)-Gen1_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (44) - Ai(1)-Gen1_Deck36 scries 1.
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Driver of the Dead (55)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Swamp (102) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Luminous Rebuke (92) targeting [Driver of the Dead (55)]
+Resolve stack: Luminous Rebuke (92) - Destroy Driver of the Dead (55).
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Boarders (118) and Goblin Token (126) to attack Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Goblin Boarders (118).
+Ai(1)-Gen1_Deck36 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Boarders (118) deals 4 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Goblin Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Mana: Boros Guildgate (98) - {T}: Add {R} or {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Mana: Maze's End (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Burnished Hart (74)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (44)
+Resolve stack: Ai(1)-Gen1_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (44) - Ai(1)-Gen1_Deck36 scries 1.
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Highborn Vampire (51)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Deadly Plot (110)
+Resolve stack: Deadly Plot (110) -  Destroy target creature or planeswalker. (Targeting: Highborn Vampire (51))
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Boarders (118), Burnished Hart (74) and Goblin Token (126) to attack Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Goblin Boarders (118).
+Ai(1)-Gen1_Deck36 didn't block Burnished Hart (74).
+Ai(1)-Gen1_Deck36 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Boarders (118) deals 4 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Burnished Hart (74) deals 2 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Goblin Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Suspicious Shambler (5)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Swamp (102) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Angelic Edict (85) targeting [Suspicious Shambler (5)]
+Resolve stack: Angelic Edict (85) - Exile Suspicious Shambler (5).
+Add to stack: Ai(1)-Gen1_Deck36 activated Mazemind Tome (44)
+Add to stack: Ai(1)-Gen1_Deck36 triggered Mazemind Tome (44)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen1_Deck36 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (44) - Ai(1)-Gen1_Deck36 scries 1.
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Boarders (118), Burnished Hart (74) and Goblin Token (126) to attack Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Goblin Boarders (118).
+Ai(1)-Gen1_Deck36 didn't block Burnished Hart (74).
+Ai(1)-Gen1_Deck36 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Boarders (118) deals 4 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Burnished Hart (74) deals 2 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Goblin Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Tribute to Hunger (38) targeting [Ai(2)-Gen1_Deck42]
+Resolve stack: Tribute to Hunger (38) - Ai(2)-Gen1_Deck42 sacrifices a creature. Ai(1)-Gen1_Deck36 gains life equal to that creature's toughness. 
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 cast Duress (33) targeting [Ai(2)-Gen1_Deck42]
+Discard: Ai(2)-Gen1_Deck42 discards Adamant Will (96).
+Resolve stack: Duress (33) - Ai(2)-Gen1_Deck42 reveals their hand. Ai(1)-Gen1_Deck36 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen1_Deck42 discards that card.
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Boarders (118) and Burnished Hart (74) to attack Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Goblin Boarders (118).
+Ai(1)-Gen1_Deck36 didn't block Burnished Hart (74).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Boarders (118) deals 4 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Burnished Hart (74) deals 2 combat damage to Ai(1)-Gen1_Deck36.
+Phase: Ai(2)-Gen1_Deck42's End of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Main phase, postcombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Boros Guildgate (98) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen1_Deck42 cast Linden, the Steadfast Queen (117)
+Resolve stack: Linden, the Steadfast Queen - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck42's End step
+Phase: Ai(2)-Gen1_Deck42's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen1_Deck36)
+Phase: Ai(1)-Gen1_Deck36's Untap step
+Phase: Ai(1)-Gen1_Deck36's Upkeep step
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck36 activated Food Token (128)
+Resolve stack: Food Token (128) - Ai(1)-Gen1_Deck36 gains 3 life.
+Phase: Ai(1)-Gen1_Deck36's Draw step
+Phase: Ai(1)-Gen1_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck36's End of Combat Step
+Phase: Ai(1)-Gen1_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck36's End step
+Phase: Ai(1)-Gen1_Deck36's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen1_Deck42)
+Phase: Ai(2)-Gen1_Deck42's Untap step
+Phase: Ai(2)-Gen1_Deck42's Upkeep step
+Phase: Ai(2)-Gen1_Deck42's Draw step
+Phase: Ai(2)-Gen1_Deck42's Main phase, precombat
+Land: Ai(2)-Gen1_Deck42 played Plains (79)
+Phase: Ai(2)-Gen1_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck42 assigned Goblin Boarders (118), Linden, the Steadfast Queen (117) and Burnished Hart (74) to attack Ai(1)-Gen1_Deck36.
+Add to stack: Ai(2)-Gen1_Deck42 triggered Linden, the Steadfast Queen (117)
+Resolve stack: Whenever a white creature you control attacks, you gain 1 life. [Attacker: Linden, the Steadfast Queen (117)]
+Phase: Ai(2)-Gen1_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck36 didn't block Linden, the Steadfast Queen (117).
+Ai(1)-Gen1_Deck36 didn't block Goblin Boarders (118).
+Ai(1)-Gen1_Deck36 didn't block Burnished Hart (74).
+Phase: Ai(2)-Gen1_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck42's Combat Damage Step
+Damage: Goblin Boarders (118) deals 4 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Linden, the Steadfast Queen (117) deals 3 combat damage to Ai(1)-Gen1_Deck36.
+Damage: Burnished Hart (74) deals 2 combat damage to Ai(1)-Gen1_Deck36.
+Player control: Ai(1)-Gen1_Deck36 is controlled by Ai(1)-Gen1_Deck36
+Player control: Ai(2)-Gen1_Deck42 is controlled by Ai(2)-Gen1_Deck42
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen1_Deck36 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck42 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck36: 0 Ai(2)-Gen1_Deck42: 1 
+
+Game Result: Game 1 ended in 24246 ms. Ai(2)-Gen1_Deck42 has won!
+
+
+=== STDERR ===

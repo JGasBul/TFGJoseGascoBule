@@ -1,0 +1,434 @@
+=== COMBATE PARALELO: Gen8_Deck18 vs Gen8_Deck35 ===
+Worker ID: 3561598
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen8_Deck18 Gen8_Deck35 -n 1
+Duración: 28.95 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1693 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 110 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen8_Deck18 vs Ai(2)-Gen8_Deck35 - one game of Constructed
+Mulligan: Ai(1)-Gen8_Deck18 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen8_Deck18 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen8_Deck35 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Land: Ai(1)-Gen8_Deck18 played Forest (15)
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen8_Deck18 cast Mild-Mannered Librarian (4)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Land: Ai(2)-Gen8_Deck35 played Plains (89)
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck35 didn't block Mild-Mannered Librarian (4).
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen8_Deck18 played Dismal Backwater (7)
+Add to stack: Ai(1)-Gen8_Deck18 triggered Dismal Backwater (7)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (7)]
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Land: Ai(2)-Gen8_Deck35 played Demolition Field (119)
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Land: Ai(1)-Gen8_Deck18 played Forest (16)
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck35 didn't block Mild-Mannered Librarian (4).
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Land: Ai(2)-Gen8_Deck35 played Plains (80)
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck35 activated Demolition Field (119) targeting [Dismal Backwater (7)]
+Resolve stack: Demolition Field (119) - Destroy Dismal Backwater (7). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen8_Deck35 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck35 didn't block Mild-Mannered Librarian (4).
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen8_Deck18 played Uncharted Haven (31)
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Land: Ai(2)-Gen8_Deck35 played Plains (86)
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck35 cast Skyknight Squire (71)
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Mana: Uncharted Haven (31) - {T}: Add one mana of the chosen color.
+Mana: Forest (15) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen8_Deck18 cast Moment of Craving (36) targeting [Skyknight Squire (71)]
+Resolve stack: Moment of Craving (36) - Skyknight Squire (71) gets -2/-2  until end of turn. Ai(1)-Gen8_Deck18 gains 2 life.
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Land: Ai(1)-Gen8_Deck18 played Crawling Barrens (32)
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck35 didn't block Mild-Mannered Librarian (4).
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Land: Ai(2)-Gen8_Deck35 played Plains (84)
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Swamp (106) - {T}: Add {B}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck35 cast Serra Angel (95)
+Resolve stack: Serra Angel - Creature 4 / 4
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Uncharted Haven (31) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen8_Deck18 cast Solemn Simulacrum (2)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen8_Deck18 triggered Solemn Simulacrum (2)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (2)]
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Land: Ai(2)-Gen8_Deck35 played Evolving Wilds (110)
+Add to stack: Ai(2)-Gen8_Deck35 activated Evolving Wilds (110)
+Resolve stack: Evolving Wilds (110) - Ai(2)-Gen8_Deck35 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 assigned Serra Angel (95) to attack Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck18 didn't block Serra Angel (95).
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Damage: Serra Angel (95) deals 4 combat damage to Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Mana: Uncharted Haven (31) - {T}: Add one mana of the chosen color.
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen8_Deck18 cast Highborn Vampire (52)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Land: Ai(2)-Gen8_Deck35 played Rogue's Passage (104)
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Swamp (106) - {T}: Add {B}.
+Mana: Plains (86) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck35 activated Rogue's Passage (104) targeting [Serra Angel (95)]
+Resolve stack: Rogue's Passage (104) - Serra Angel (95) can't be blocked this turn.
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 assigned Serra Angel (95) to attack Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck18 didn't block Serra Angel (95).
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Damage: Serra Angel (95) deals 4 combat damage to Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 assigned Highborn Vampire (52) to attack Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck35 didn't block Highborn Vampire (52).
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Damage: Highborn Vampire (52) deals 4 combat damage to Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Mana: Uncharted Haven (31) - {T}: Add one mana of the chosen color.
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen8_Deck18 cast Highborn Vampire (51)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Swamp (106) - {T}: Add {B}.
+Mana: Plains (86) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck35 activated Rogue's Passage (104) targeting [Serra Angel (95)]
+Resolve stack: Rogue's Passage (104) - Serra Angel (95) can't be blocked this turn.
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 assigned Serra Angel (95) to attack Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck18 didn't block Serra Angel (95).
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Damage: Serra Angel (95) deals 4 combat damage to Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Land: Ai(1)-Gen8_Deck18 played Forest (23)
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 assigned Highborn Vampire (52) and Highborn Vampire (51) to attack Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck35 didn't block Highborn Vampire (51).
+Ai(2)-Gen8_Deck35 didn't block Highborn Vampire (52).
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Damage: Highborn Vampire (52) deals 4 combat damage to Ai(2)-Gen8_Deck35.
+Damage: Highborn Vampire (51) deals 4 combat damage to Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's End of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Main phase, postcombat
+Mana: Uncharted Haven (31) - {T}: Add one mana of the chosen color.
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (16) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen8_Deck18 cast Crow of Dark Tidings (56)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(1)-Gen8_Deck18 triggered Crow of Dark Tidings (56)
+Zone Change: Ai(1)-Gen8_Deck18 milled Billowing Shriekmass (40) and Forest (25).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (56)]
+Phase: Ai(1)-Gen8_Deck18's End step
+Phase: Ai(1)-Gen8_Deck18's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen8_Deck35)
+Phase: Ai(2)-Gen8_Deck35's Untap step
+Phase: Ai(2)-Gen8_Deck35's Upkeep step
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Swamp (106) - {T}: Add {B}.
+Mana: Plains (86) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck35 activated Rogue's Passage (104) targeting [Serra Angel (95)]
+Resolve stack: Rogue's Passage (104) - Serra Angel (95) can't be blocked this turn.
+Phase: Ai(2)-Gen8_Deck35's Draw step
+Phase: Ai(2)-Gen8_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck35 assigned Serra Angel (95) to attack Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck18 didn't block Serra Angel (95).
+Phase: Ai(2)-Gen8_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck35's Combat Damage Step
+Damage: Serra Angel (95) deals 4 combat damage to Ai(1)-Gen8_Deck18.
+Phase: Ai(2)-Gen8_Deck35's End of Combat Step
+Phase: Ai(2)-Gen8_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck35's End step
+Phase: Ai(2)-Gen8_Deck35's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen8_Deck18)
+Phase: Ai(1)-Gen8_Deck18's Untap step
+Phase: Ai(1)-Gen8_Deck18's Upkeep step
+Phase: Ai(1)-Gen8_Deck18's Draw step
+Phase: Ai(1)-Gen8_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck18 assigned Highborn Vampire (52), Highborn Vampire (51), Solemn Simulacrum (2), Crow of Dark Tidings (56) and Mild-Mannered Librarian (4) to attack Ai(2)-Gen8_Deck35.
+Phase: Ai(1)-Gen8_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck35 didn't block Solemn Simulacrum (2).
+Ai(2)-Gen8_Deck35 didn't block Highborn Vampire (51).
+Ai(2)-Gen8_Deck35 assigned Serra Angel (95) to block Highborn Vampire (52).
+Ai(2)-Gen8_Deck35 didn't block Mild-Mannered Librarian (4).
+Ai(2)-Gen8_Deck35 didn't block Crow of Dark Tidings (56).
+Phase: Ai(1)-Gen8_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck18's Combat Damage Step
+Damage: Highborn Vampire (52) deals 4 damage () to Serra Angel (95).
+Damage: Highborn Vampire (51) deals 4 combat damage to Ai(2)-Gen8_Deck35.
+Damage: Solemn Simulacrum (2) deals 2 combat damage to Ai(2)-Gen8_Deck35.
+Damage: Crow of Dark Tidings (56) deals 2 combat damage to Ai(2)-Gen8_Deck35.
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen8_Deck35.
+Damage: Serra Angel (95) deals 4 damage () to Highborn Vampire (52).
+Player control: Ai(1)-Gen8_Deck18 is controlled by Ai(1)-Gen8_Deck18
+Player control: Ai(2)-Gen8_Deck35 is controlled by Ai(2)-Gen8_Deck35
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen8_Deck18 has won because all opponents have lost
+Game outcome: Ai(2)-Gen8_Deck35 has lost because life total reached 0
+Match result: Ai(1)-Gen8_Deck18: 1 Ai(2)-Gen8_Deck35: 0 
+
+Game Result: Game 1 ended in 15784 ms. Ai(1)-Gen8_Deck18 has won!
+
+
+=== STDERR ===

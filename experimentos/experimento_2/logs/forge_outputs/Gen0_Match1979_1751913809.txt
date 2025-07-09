@@ -1,0 +1,448 @@
+=== COMBATE PARALELO: Gen0_Deck27 vs Gen0_Deck45 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck27 Gen0_Deck45 -n 1
+Duración: 35.90 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1964 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 171 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck27 vs Ai(2)-Gen0_Deck45 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck45 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck27 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck45 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Swamp (12)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen0_Deck45 played Secluded Courtyard (81)
+Mana: Secluded Courtyard (81) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Add to stack: Ai(2)-Gen0_Deck45 cast Dragonmaster Outcast (108)
+Resolve stack: Dragonmaster Outcast - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Forest (43)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Land: Ai(2)-Gen0_Deck45 played Mountain (114)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Secluded Courtyard (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck45 cast Axgard Cavalry (78)
+Resolve stack: Axgard Cavalry - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Dragonmaster Outcast (108) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Dragonmaster Outcast (108).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Dragonmaster Outcast (108) deals 1 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen0_Deck45 played Secluded Courtyard (80)
+Mana: Secluded Courtyard (81) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck45 cast Drake Hatcher (113)
+Resolve stack: Drake Hatcher - Creature 1 / 3
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck45 activated Axgard Cavalry (78) targeting [Drake Hatcher (113)]
+Resolve stack: Axgard Cavalry (78) - Drake Hatcher (113) gains haste until end of turn.
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Dragonmaster Outcast (108) and Drake Hatcher (113) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Drake Hatcher (113).
+Ai(1)-Gen0_Deck27 didn't block Dragonmaster Outcast (108).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Dragonmaster Outcast (108) deals 1 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Drake Hatcher (113) deals 1 combat damage to Ai(1)-Gen0_Deck27.
+Add to stack: Ai(2)-Gen0_Deck45 triggered Drake Hatcher (113)
+Resolve stack: Whenever this creature deals combat damage to a player, put that many incubation counters on it. [Damage Source: Drake Hatcher (113), Damaged: Ai(1)-Gen0_Deck27, Amount: 1]
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Forest (40)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Forest (40) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Burnished Hart (50)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Land: Ai(2)-Gen0_Deck45 played Mountain (118)
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Axgard Cavalry (78) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Axgard Cavalry (78).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Axgard Cavalry (78) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Forest (40) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Pirate's Cutlass (55)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck27 played Maze's End (2)
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Axgard Cavalry (78) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Axgard Cavalry (78).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Axgard Cavalry (78) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Mana: Secluded Courtyard (81) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck45 cast Storm Fleet Spy (65)
+Resolve stack: Storm Fleet Spy - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck45 triggered Storm Fleet Spy (65)
+Resolve stack: Raid — When Storm Fleet Spy enters, if you attacked this turn, draw a card. [Zone Changer: Storm Fleet Spy (65)]
+Mana: Secluded Courtyard (80) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck45 cast Expedition Map (74)
+Add to stack: Ai(2)-Gen0_Deck45 triggered Drake Hatcher (113)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Expedition Map (74), Activator: Ai(2)-Gen0_Deck45, SpellAbility: Expedition Map]
+Resolve stack: Expedition Map
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Forest (40) - {T}: Add {G}.
+Mana: Maze's End (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Deadly Plot (14)
+Resolve stack: Deadly Plot (14) -  Destroy target creature or planeswalker. (Targeting: Drake Hatcher (113))
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Axgard Cavalry (78) and Storm Fleet Spy (65) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Storm Fleet Spy (65).
+Ai(1)-Gen0_Deck27 didn't block Axgard Cavalry (78).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Axgard Cavalry (78) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Storm Fleet Spy (65) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck45 activated Expedition Map (74)
+Resolve stack: Expedition Map (74) - Ai(2)-Gen0_Deck45 searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Izzet Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck45 played Izzet Guildgate (91)
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (40) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Ambush Wolf (46)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(1)-Gen0_Deck27 triggered Ambush Wolf (46) targeting [Drake Hatcher (113)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Drake Hatcher (113)]]) [Zone Changer: Ambush Wolf (46)]
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Burnished Hart (50) to attack Ai(2)-Gen0_Deck45.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck45 didn't block Burnished Hart (50).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Burnished Hart (50) deals 2 combat damage to Ai(2)-Gen0_Deck45.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Mana: Izzet Guildgate (91) - {T}: Add {U} or {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Secluded Courtyard (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck45 cast Clinquant Skymage (86)
+Resolve stack: Clinquant Skymage - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck45 activated Axgard Cavalry (78) targeting [Clinquant Skymage (86)]
+Resolve stack: Axgard Cavalry (78) - Clinquant Skymage (86) gains haste until end of turn.
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Storm Fleet Spy (65) and Clinquant Skymage (86) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Storm Fleet Spy (65).
+Ai(1)-Gen0_Deck27 didn't block Clinquant Skymage (86).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Storm Fleet Spy (65) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Clinquant Skymage (86) deals 1 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (40) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Ambush Wolf (47)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(1)-Gen0_Deck27 triggered Ambush Wolf (47) targeting [Expedition Map (74)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Expedition Map (74)]]) [Zone Changer: Ambush Wolf (47)]
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Ambush Wolf (46) and Burnished Hart (50) to attack Ai(2)-Gen0_Deck45.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck45 didn't block Burnished Hart (50).
+Ai(2)-Gen0_Deck45 didn't block Ambush Wolf (46).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Ambush Wolf (46) deals 4 combat damage to Ai(2)-Gen0_Deck45.
+Damage: Burnished Hart (50) deals 2 combat damage to Ai(2)-Gen0_Deck45.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Add to stack: Ai(2)-Gen0_Deck45 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen0_Deck45]
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Land: Ai(2)-Gen0_Deck45 played Island (94)
+Mana: Island (94) - {T}: Add {U}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck45 cast Brineborn Cutthroat (107)
+Resolve stack: Brineborn Cutthroat - Creature 2 / 1
+Mana: Izzet Guildgate (91) - {T}: Add {U} or {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck45 cast Brineborn Cutthroat (106)
+Resolve stack: Brineborn Cutthroat - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Axgard Cavalry (78), Storm Fleet Spy (65) and Clinquant Skymage (86) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Storm Fleet Spy (65).
+Ai(1)-Gen0_Deck27 didn't block Clinquant Skymage (86).
+Ai(1)-Gen0_Deck27 assigned Ambush Wolf (47) to block Axgard Cavalry (78).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Axgard Cavalry (78) deals 2 damage () to Ambush Wolf (47).
+Damage: Storm Fleet Spy (65) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Clinquant Skymage (86) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Ambush Wolf (47) deals 4 damage () to Axgard Cavalry (78).
+Phase: Ai(2)-Gen0_Deck45's End of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck45's End step
+Phase: Ai(2)-Gen0_Deck45's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Swamp (8)
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (43) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 activated Pirate's Cutlass (55) targeting [Ambush Wolf (46)]
+Resolve stack: Pirate's Cutlass (55) -  Attach to Ambush Wolf (46)
+Mana: Forest (40) - {T}: Add {G}.
+Mana: Swamp (8) - {T}: Add {B}.
+Mana: Maze's End (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Pirate's Cutlass (57)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck45)
+Phase: Ai(2)-Gen0_Deck45's Untap step
+Phase: Ai(2)-Gen0_Deck45's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck45 triggered Dragonmaster Outcast (108)
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen0_Deck45]
+Phase: Ai(2)-Gen0_Deck45's Draw step
+Add to stack: Ai(2)-Gen0_Deck45 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen0_Deck45]
+Phase: Ai(2)-Gen0_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck45 assigned Clinquant Skymage (86), Storm Fleet Spy (65), Brineborn Cutthroat (107), Brineborn Cutthroat (106) and Dragonmaster Outcast (108) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Burnished Hart (50) to block Storm Fleet Spy (65).
+Ai(1)-Gen0_Deck27 didn't block Clinquant Skymage (86).
+Ai(1)-Gen0_Deck27 didn't block Brineborn Cutthroat (106).
+Ai(1)-Gen0_Deck27 assigned Ambush Wolf (46) to block Brineborn Cutthroat (107).
+Ai(1)-Gen0_Deck27 didn't block Dragonmaster Outcast (108).
+Phase: Ai(2)-Gen0_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck45's Combat Damage Step
+Damage: Clinquant Skymage (86) deals 3 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Storm Fleet Spy (65) deals 2 damage () to Burnished Hart (50).
+Damage: Brineborn Cutthroat (107) deals 2 damage () to Ambush Wolf (46).
+Damage: Brineborn Cutthroat (106) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Dragonmaster Outcast (108) deals 1 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Burnished Hart (50) deals 2 damage () to Storm Fleet Spy (65).
+Damage: Ambush Wolf (46) deals 6 damage () to Brineborn Cutthroat (107).
+Player control: Ai(1)-Gen0_Deck27 is controlled by Ai(1)-Gen0_Deck27
+Player control: Ai(2)-Gen0_Deck45 is controlled by Ai(2)-Gen0_Deck45
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck27 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck45 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck27: 0 Ai(2)-Gen0_Deck45: 1 
+
+Game Result: Game 1 ended in 22510 ms. Ai(2)-Gen0_Deck45 has won!
+
+
+=== STDERR ===

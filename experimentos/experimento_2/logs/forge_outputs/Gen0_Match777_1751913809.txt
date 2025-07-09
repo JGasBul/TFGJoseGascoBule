@@ -1,0 +1,367 @@
+=== COMBATE PARALELO: Gen0_Deck8 vs Gen0_Deck33 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck8 Gen0_Deck33 -n 1
+Duración: 25.25 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2114 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 58 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck8 vs Ai(2)-Gen0_Deck33 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck33 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck8 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck33 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (17)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Swamp (105)
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Infestation Sage (92)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (46)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Infestation Sage (92) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Infestation Sage (92).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Infestation Sage (92) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck33 played Mountain (115)
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (49)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Forest (65)
+Mana: Forest (65) - {T}: Add {G}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Imperious Perfect (83)
+Resolve stack: Imperious Perfect - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Infestation Sage (92) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Infestation Sage (92).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Infestation Sage (92) deals 2 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (18)
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Plains (49) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Dread Summons (8)
+Zone Change: Ai(1)-Gen0_Deck8 milled Plains (45) and Swamp (19).
+Zone Change: Ai(2)-Gen0_Deck33 milled Infestation Sage (89) and Campus Guide (64).
+Resolve stack: Dread Summons (8) - Each player mills two cards.   (X=2)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Infestation Sage (92) and Imperious Perfect (83) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Imperious Perfect (83).
+Ai(1)-Gen0_Deck8 didn't block Infestation Sage (92).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Infestation Sage (92) deals 2 combat damage to Ai(1)-Gen0_Deck8.
+Damage: Imperious Perfect (83) deals 2 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (43)
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Luminous Rebuke (55) targeting [Imperious Perfect (83)]
+Resolve stack: Luminous Rebuke (55) - Destroy Imperious Perfect (83).
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Zombie Token (122) and Zombie Token (123) to attack Ai(2)-Gen0_Deck33.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck33 didn't block Zombie Token (122).
+Ai(2)-Gen0_Deck33 didn't block Zombie Token (123).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Zombie Token (122) deals 2 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Zombie Token (123) deals 2 combat damage to Ai(2)-Gen0_Deck33.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (49) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Vampire Interloper (12)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Demolition Field (118)
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Forest (65) - {T}: Add {G}.
+Mana: Demolition Field (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Battle-Rattle Shaman (87)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck33 triggered Battle-Rattle Shaman (87) targeting [Infestation Sage (92)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Infestation Sage (92)]]) [Phase: Ai(2)-Gen0_Deck33]
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Infestation Sage (92) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Infestation Sage (92).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Infestation Sage (92) deals 3 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck8 played Secluded Courtyard (34)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Vampire Interloper (12), Zombie Token (122) and Zombie Token (123) to attack Ai(2)-Gen0_Deck33.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck33 didn't block Zombie Token (122).
+Ai(2)-Gen0_Deck33 didn't block Zombie Token (123).
+Ai(2)-Gen0_Deck33 didn't block Vampire Interloper (12).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Vampire Interloper (12) deals 2 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Zombie Token (122) deals 2 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Zombie Token (123) deals 2 combat damage to Ai(2)-Gen0_Deck33.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Plains (49) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Syr Alin, the Lion's Claw (60)
+Resolve stack: Syr Alin, the Lion's Claw - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck33 triggered Battle-Rattle Shaman (87) targeting [Battle-Rattle Shaman (87)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Battle-Rattle Shaman (87)]]) [Phase: Ai(2)-Gen0_Deck33]
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Syr Alin, the Lion's Claw (60), Vampire Interloper (12), Zombie Token (122) and Zombie Token (123) to attack Ai(2)-Gen0_Deck33.
+Add to stack: Ai(1)-Gen0_Deck8 triggered Syr Alin, the Lion's Claw (60)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (60)]
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Battle-Rattle Shaman (87) to block Zombie Token (122).
+Ai(2)-Gen0_Deck33 didn't block Zombie Token (123).
+Ai(2)-Gen0_Deck33 assigned Infestation Sage (92) to block Syr Alin, the Lion's Claw (60).
+Ai(2)-Gen0_Deck33 didn't block Vampire Interloper (12).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (60) deals 4 damage () to Infestation Sage (92).
+Add to stack: Ai(2)-Gen0_Deck33 triggered Infestation Sage (92)
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (92)]
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Vampire Interloper (12) deals 3 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Zombie Token (122) deals 3 damage () to Battle-Rattle Shaman (87).
+Damage: Zombie Token (123) deals 3 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Battle-Rattle Shaman (87) deals 2 damage () to Zombie Token (122).
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck8 played Plains (48)
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Plains (49) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Linden, the Steadfast Queen (30)
+Resolve stack: Linden, the Steadfast Queen - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Forest (66)
+Mana: Forest (65) - {T}: Add {G}.
+Mana: Forest (66) - {T}: Add {G}.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Elvish Archdruid (77)
+Resolve stack: Elvish Archdruid - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Syr Alin, the Lion's Claw (60), Linden, the Steadfast Queen (30), Zombie Token (122), Zombie Token (123) and Vampire Interloper (12) to attack Ai(2)-Gen0_Deck33.
+Add to stack: Ai(1)-Gen0_Deck8 triggered Linden, the Steadfast Queen (30)
+Add to stack: Ai(1)-Gen0_Deck8 triggered Linden, the Steadfast Queen (30)
+Add to stack: Ai(1)-Gen0_Deck8 triggered Syr Alin, the Lion's Claw (60)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (60)]
+Resolve stack: Whenever a white creature you control attacks, you gain 1 life. [Attacker: Linden, the Steadfast Queen (30)]
+Resolve stack: Whenever a white creature you control attacks, you gain 1 life. [Attacker: Syr Alin, the Lion's Claw (60)]
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck33 didn't block Zombie Token (122).
+Ai(2)-Gen0_Deck33 didn't block Zombie Token (123).
+Ai(2)-Gen0_Deck33 assigned Elvish Archdruid (77) to block Syr Alin, the Lion's Claw (60).
+Ai(2)-Gen0_Deck33 didn't block Vampire Interloper (12).
+Ai(2)-Gen0_Deck33 assigned Insect Token (130) to block Linden, the Steadfast Queen (30).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (60) deals 4 damage () to Elvish Archdruid (77).
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Linden, the Steadfast Queen (30) deals 4 damage () to Insect Token (130).
+Damage: Zombie Token (122) deals 3 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Zombie Token (123) deals 3 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Vampire Interloper (12) deals 3 combat damage to Ai(2)-Gen0_Deck33.
+Damage: Insect Token (130) deals 1 damage () to Linden, the Steadfast Queen (30).
+Player control: Ai(1)-Gen0_Deck8 is controlled by Ai(1)-Gen0_Deck8
+Player control: Ai(2)-Gen0_Deck33 is controlled by Ai(2)-Gen0_Deck33
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck8 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck33 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck8: 1 Ai(2)-Gen0_Deck33: 0 
+
+Game Result: Game 1 ended in 12372 ms. Ai(1)-Gen0_Deck8 has won!
+
+
+=== STDERR ===

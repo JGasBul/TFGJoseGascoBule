@@ -1,0 +1,421 @@
+=== COMBATE PARALELO: Gen6_Deck25 vs Gen6_Deck31 ===
+Worker ID: 2514423
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck25 Gen6_Deck31 -n 1
+Duración: 21.78 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2172 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 98 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck25 vs Ai(2)-Gen6_Deck31 - one game of Constructed
+Mulligan: Ai(1)-Gen6_Deck25 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen6_Deck31 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Land: Ai(1)-Gen6_Deck25 played Forest (30)
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Mana: Forest (30) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 cast Adventuring Gear (3)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Land: Ai(2)-Gen6_Deck31 played Swamp (94)
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Land: Ai(1)-Gen6_Deck25 played Crawling Barrens (52)
+Add to stack: Ai(1)-Gen6_Deck25 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (52)]
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Land: Ai(2)-Gen6_Deck31 played Cryptic Caves (62)
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Mana: Swamp (94) - {T}: Add {B}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck31 cast Pilfer (100) targeting [Ai(1)-Gen6_Deck25]
+Discard: Ai(1)-Gen6_Deck25 discards Pelakka Wurm (43).
+Resolve stack: Pilfer (100) - Ai(1)-Gen6_Deck25 reveals their hand. Ai(2)-Gen6_Deck31 chooses a nonland card from it. Ai(1)-Gen6_Deck25 discards that card.
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Land: Ai(1)-Gen6_Deck25 played Forest (39)
+Add to stack: Ai(1)-Gen6_Deck25 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (39)]
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Land: Ai(2)-Gen6_Deck31 played Cryptic Caves (63)
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Mana: Swamp (94) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck31 cast Duress (103) targeting [Ai(1)-Gen6_Deck25]
+Discard: Ai(1)-Gen6_Deck25 discards Giant Growth (6).
+Resolve stack: Duress (103) - Ai(1)-Gen6_Deck25 reveals their hand. Ai(2)-Gen6_Deck31 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen6_Deck25 discards that card.
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Land: Ai(1)-Gen6_Deck25 played Forest (41)
+Add to stack: Ai(1)-Gen6_Deck25 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (41)]
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Crawling Barrens (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck25 cast Solemn Simulacrum (7)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen6_Deck25 triggered Solemn Simulacrum (7)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (7)]
+Add to stack: Ai(1)-Gen6_Deck25 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (33)]
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Land: Ai(1)-Gen6_Deck25 played Forest (31)
+Add to stack: Ai(1)-Gen6_Deck25 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (31)]
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Crawling Barrens (52)
+Resolve stack: Crawling Barrens (52) - Ai(1)-Gen6_Deck25 puts two +1/+1 counters on Crawling Barrens (52). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Adventuring Gear (3) targeting [Crawling Barrens (52)]
+Resolve stack: Adventuring Gear (3) -  Attach to Crawling Barrens (52)
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 assigned Crawling Barrens (52) and Solemn Simulacrum (7) to attack Ai(2)-Gen6_Deck31.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck31 didn't block Crawling Barrens (52).
+Ai(2)-Gen6_Deck31 didn't block Solemn Simulacrum (7).
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Damage: Crawling Barrens (52) deals 2 combat damage to Ai(2)-Gen6_Deck31.
+Damage: Solemn Simulacrum (7) deals 2 combat damage to Ai(2)-Gen6_Deck31.
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Phase: RepeatAi(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Crawling Barrens (52)
+Resolve stack: Crawling Barrens (52) - Ai(1)-Gen6_Deck25 puts two +1/+1 counters on Crawling Barrens (52). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Adventuring Gear (3) targeting [Crawling Barrens (52)]
+Resolve stack: Adventuring Gear (3) -  Attach to Crawling Barrens (52)
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 assigned Crawling Barrens (52) and Solemn Simulacrum (7) to attack Ai(2)-Gen6_Deck31.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck31 didn't block Crawling Barrens (52).
+Ai(2)-Gen6_Deck31 didn't block Solemn Simulacrum (7).
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Damage: Crawling Barrens (52) deals 4 combat damage to Ai(2)-Gen6_Deck31.
+Damage: Solemn Simulacrum (7) deals 2 combat damage to Ai(2)-Gen6_Deck31.
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Phase: RepeatAi(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Land: Ai(2)-Gen6_Deck31 played Swamp (90)
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Mana: Swamp (94) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck31 cast Driver of the Dead (113)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Crawling Barrens (52)
+Resolve stack: Crawling Barrens (52) - Ai(1)-Gen6_Deck25 puts two +1/+1 counters on Crawling Barrens (52). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Adventuring Gear (3) targeting [Crawling Barrens (52)]
+Resolve stack: Adventuring Gear (3) -  Attach to Crawling Barrens (52)
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 assigned Crawling Barrens (52) and Solemn Simulacrum (7) to attack Ai(2)-Gen6_Deck31.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck31 didn't block Crawling Barrens (52).
+Ai(2)-Gen6_Deck31 assigned Driver of the Dead (113) to block Solemn Simulacrum (7).
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Damage: Crawling Barrens (52) deals 6 combat damage to Ai(2)-Gen6_Deck31.
+Damage: Solemn Simulacrum (7) deals 2 damage () to Driver of the Dead (113).
+Damage: Driver of the Dead (113) deals 3 damage () to Solemn Simulacrum (7).
+Add to stack: Ai(1)-Gen6_Deck25 triggered Solemn Simulacrum (7)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (7)]
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Phase: RepeatAi(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(2)-Gen6_Deck31 played Gruul Guildgate (77)
+Mana: Swamp (94) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck31 cast Zombify (107) targeting [Driver of the Dead (113)]
+Resolve stack: Zombify (107) - Return Driver of the Dead (113) from the graveyard to the battlefield.
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Land: Ai(1)-Gen6_Deck25 played Forest (38)
+Add to stack: Ai(1)-Gen6_Deck25 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (38)]
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Crawling Barrens (52)
+Resolve stack: Crawling Barrens (52) - Ai(1)-Gen6_Deck25 puts two +1/+1 counters on Crawling Barrens (52). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Adventuring Gear (3) targeting [Crawling Barrens (52)]
+Resolve stack: Adventuring Gear (3) -  Attach to Crawling Barrens (52)
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 assigned Crawling Barrens (52) to attack Ai(2)-Gen6_Deck31.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck31 assigned Driver of the Dead (113) to block Crawling Barrens (52).
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Damage: Crawling Barrens (52) deals 8 damage () to Driver of the Dead (113).
+Damage: Driver of the Dead (113) deals 3 damage () to Crawling Barrens (52).
+Phase: Ai(1)-Gen6_Deck25's End of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck25's End step
+Phase: Ai(1)-Gen6_Deck25's Cleanup step
+Phase: RepeatAi(1)-Gen6_Deck25's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen6_Deck31)
+Phase: Ai(2)-Gen6_Deck31's Untap step
+Phase: Ai(2)-Gen6_Deck31's Upkeep step
+Mana: Swamp (94) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck31 activated Cryptic Caves (62)
+Resolve stack: Cryptic Caves (62) - Ai(2)-Gen6_Deck31 draws a card.
+Phase: Ai(2)-Gen6_Deck31's Draw step
+Phase: Ai(2)-Gen6_Deck31's Main phase, precombat
+Land: Ai(2)-Gen6_Deck31 played Swamp (86)
+Mana: Swamp (90) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck31 activated Cryptic Caves (63)
+Resolve stack: Cryptic Caves (63) - Ai(2)-Gen6_Deck31 draws a card.
+Phase: Ai(2)-Gen6_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck31's End of Combat Step
+Phase: Ai(2)-Gen6_Deck31's Main phase, postcombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Gruul Guildgate (77) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen6_Deck31 cast Mazemind Tome (111)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen6_Deck31's End step
+Phase: Ai(2)-Gen6_Deck31's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen6_Deck25)
+Phase: Ai(1)-Gen6_Deck25's Untap step
+Phase: Ai(1)-Gen6_Deck25's Upkeep step
+Phase: Ai(1)-Gen6_Deck25's Draw step
+Phase: Ai(1)-Gen6_Deck25's Main phase, precombat
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Crawling Barrens (52)
+Resolve stack: Crawling Barrens (52) - Ai(1)-Gen6_Deck25 puts two +1/+1 counters on Crawling Barrens (52). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck25 activated Adventuring Gear (3) targeting [Crawling Barrens (52)]
+Add to stack: Ai(2)-Gen6_Deck31 activated Mazemind Tome (111)
+Resolve stack: Ai(2)-Gen6_Deck31 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen6_Deck31 scries 1.
+Resolve stack: Adventuring Gear (3) -  Attach to Crawling Barrens (52)
+Phase: Ai(1)-Gen6_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck25 assigned Crawling Barrens (52) to attack Ai(2)-Gen6_Deck31.
+Phase: Ai(1)-Gen6_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck31 didn't block Crawling Barrens (52).
+Phase: Ai(1)-Gen6_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck25's Combat Damage Step
+Damage: Crawling Barrens (52) deals 10 combat damage to Ai(2)-Gen6_Deck31.
+Player control: Ai(1)-Gen6_Deck25 is controlled by Ai(1)-Gen6_Deck25
+Player control: Ai(2)-Gen6_Deck31 is controlled by Ai(2)-Gen6_Deck31
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen6_Deck25 has won because all opponents have lost
+Game outcome: Ai(2)-Gen6_Deck31 has lost because life total reached 0
+Match result: Ai(1)-Gen6_Deck25: 1 Ai(2)-Gen6_Deck31: 0 
+
+Game Result: Game 1 ended in 9661 ms. Ai(1)-Gen6_Deck25 has won!
+
+
+=== STDERR ===

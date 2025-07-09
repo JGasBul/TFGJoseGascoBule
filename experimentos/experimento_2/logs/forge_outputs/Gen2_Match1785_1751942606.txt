@@ -1,0 +1,317 @@
+=== COMBATE PARALELO: Gen2_Deck23 vs Gen2_Deck42 ===
+Worker ID: 352526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck23 Gen2_Deck42 -n 1
+Duración: 25.68 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2091 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 50 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck23 vs Ai(2)-Gen2_Deck42 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck23 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck42 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck23 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Forest (96)
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Land: Ai(1)-Gen2_Deck23 played Mountain (57)
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Frenzied Goblin (29)
+Resolve stack: Frenzied Goblin - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Plains (105)
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Land: Ai(1)-Gen2_Deck23 played Plains (24)
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Frenzied Goblin (29) to attack Ai(2)-Gen2_Deck42.
+Add to stack: Ai(1)-Gen2_Deck23 triggered Frenzied Goblin (29) targeting [Frenzied Goblin (29)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (29)]]) [Attacker: Frenzied Goblin (29)]
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck42 didn't block Frenzied Goblin (29).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Frenzied Goblin (29) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Searslicer Goblin (55)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck23's End step
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (55)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen2_Deck23]
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Demolition Field (120)
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Frenzied Goblin (29), Searslicer Goblin (55) and Goblin Token (123) to attack Ai(2)-Gen2_Deck42.
+Add to stack: Ai(1)-Gen2_Deck23 triggered Frenzied Goblin (29) targeting [Goblin Token (123)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Goblin Token (123)]]) [Attacker: Frenzied Goblin (29)]
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck42 didn't block Searslicer Goblin (55).
+Ai(2)-Gen2_Deck42 didn't block Goblin Token (123).
+Ai(2)-Gen2_Deck42 didn't block Frenzied Goblin (29).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Frenzied Goblin (29) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Searslicer Goblin (55) deals 2 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (123) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Campus Guide (13)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen2_Deck23 triggered Campus Guide (13)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (13)]
+Phase: Ai(1)-Gen2_Deck23's End step
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (55)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen2_Deck23]
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Forest (94)
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Plains (105) - {T}: Add {W}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck42 cast Vizier of the Menagerie (66)
+Resolve stack: Vizier of the Menagerie - Creature 3 / 4
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Land: Ai(1)-Gen2_Deck23 played Plains (23)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Electroduplicate (8) targeting [Searslicer Goblin (55)]
+Resolve stack: Electroduplicate (8) - Ai(1)-Gen2_Deck23 creates a token that's a copy of Searslicer Goblin (55), except it has haste.
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Searslicer Goblin (128), Frenzied Goblin (29), Searslicer Goblin (55), Campus Guide (13), Goblin Token (123) and Goblin Token (126) to attack Ai(2)-Gen2_Deck42.
+Add to stack: Ai(1)-Gen2_Deck23 triggered Frenzied Goblin (29) targeting [Vizier of the Menagerie (66)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Vizier of the Menagerie (66)]]) [Attacker: Frenzied Goblin (29)]
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck42 didn't block Searslicer Goblin (128).
+Ai(2)-Gen2_Deck42 assigned Vizier of the Menagerie (66) to block Searslicer Goblin (55).
+Ai(2)-Gen2_Deck42 didn't block Goblin Token (123).
+Ai(2)-Gen2_Deck42 didn't block Frenzied Goblin (29).
+Ai(2)-Gen2_Deck42 didn't block Campus Guide (13).
+Ai(2)-Gen2_Deck42 didn't block Goblin Token (126).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Searslicer Goblin (128) deals 2 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Frenzied Goblin (29) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Searslicer Goblin (55) deals 2 damage () to Vizier of the Menagerie (66).
+Damage: Campus Guide (13) deals 2 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (123) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (126) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Vizier of the Menagerie (66) deals 3 damage () to Searslicer Goblin (55).
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck23's End step
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (128)
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (128)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen2_Deck23]
+Resolve stack: At the beginning of the end step, sacrifice Searslicer Goblin. [Phase: Ai(1)-Gen2_Deck23]
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Forest (91)
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Vizier of the Menagerie (66) to attack Ai(1)-Gen2_Deck23.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck23 didn't block Vizier of the Menagerie (66).
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck42 cast Giant Growth (65) targeting [Vizier of the Menagerie (66)]
+Resolve stack: Giant Growth (65) - Vizier of the Menagerie (66) gets +3/+3  until end of turn.
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Vizier of the Menagerie (66) deals 6 combat damage to Ai(1)-Gen2_Deck23.
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Frenzied Goblin (29), Campus Guide (13), Goblin Token (123), Goblin Token (126) and Goblin Token (131) to attack Ai(2)-Gen2_Deck42.
+Add to stack: Ai(1)-Gen2_Deck23 triggered Frenzied Goblin (29) targeting [Vizier of the Menagerie (66)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Vizier of the Menagerie (66)]]) [Attacker: Frenzied Goblin (29)]
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck42 didn't block Goblin Token (131).
+Ai(2)-Gen2_Deck42 didn't block Goblin Token (123).
+Ai(2)-Gen2_Deck42 didn't block Frenzied Goblin (29).
+Ai(2)-Gen2_Deck42 didn't block Campus Guide (13).
+Ai(2)-Gen2_Deck42 didn't block Goblin Token (126).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Frenzied Goblin (29) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Campus Guide (13) deals 2 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (123) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (126) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (131) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Land: Ai(1)-Gen2_Deck23 played Mountain (58)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Electroduplicate (8) targeting [Campus Guide (13)]
+Resolve stack: Electroduplicate (8) - Ai(1)-Gen2_Deck23 creates a token that's a copy of Campus Guide (13), except it has haste.
+Replacement Effect: Flashback {2}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Add to stack: Ai(1)-Gen2_Deck23 triggered Campus Guide (133)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (133)]
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Campus Guide (133), Campus Guide (13), Frenzied Goblin (29), Goblin Token (123), Goblin Token (126) and Goblin Token (131) to attack Ai(2)-Gen2_Deck42.
+Add to stack: Ai(1)-Gen2_Deck23 triggered Frenzied Goblin (29) targeting [Vizier of the Menagerie (66)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Vizier of the Menagerie (66)]]) [Attacker: Frenzied Goblin (29)]
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck42 didn't block Goblin Token (131).
+Ai(2)-Gen2_Deck42 didn't block Campus Guide (133).
+Ai(2)-Gen2_Deck42 didn't block Goblin Token (123).
+Ai(2)-Gen2_Deck42 assigned Vizier of the Menagerie (66) to block Campus Guide (13).
+Ai(2)-Gen2_Deck42 didn't block Frenzied Goblin (29).
+Ai(2)-Gen2_Deck42 didn't block Goblin Token (126).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Campus Guide (133) deals 2 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Campus Guide (13) deals 2 damage () to Vizier of the Menagerie (66).
+Damage: Frenzied Goblin (29) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (123) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (126) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Goblin Token (131) deals 1 combat damage to Ai(2)-Gen2_Deck42.
+Damage: Vizier of the Menagerie (66) deals 3 damage () to Campus Guide (13).
+Player control: Ai(1)-Gen2_Deck23 is controlled by Ai(1)-Gen2_Deck23
+Player control: Ai(2)-Gen2_Deck42 is controlled by Ai(2)-Gen2_Deck42
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen2_Deck23 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck42 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck23: 1 Ai(2)-Gen2_Deck42: 0 
+
+Game Result: Game 1 ended in 13742 ms. Ai(1)-Gen2_Deck23 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,462 @@
+=== COMBATE PARALELO: Gen1_Deck2 vs Gen1_Deck10 ===
+Worker ID: 3987559
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck2 Gen1_Deck10 -n 1
+Duración: 25.06 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1970 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 41 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck2 vs Ai(2)-Gen1_Deck10 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck2 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck10 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Swamp (31)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Duress (38) targeting [Ai(2)-Gen1_Deck10]
+Discard: Ai(2)-Gen1_Deck10 discards Refute (71).
+Resolve stack: Duress (38) - Ai(2)-Gen1_Deck10 reveals their hand. Ai(1)-Gen1_Deck2 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen1_Deck10 discards that card.
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Land: Ai(2)-Gen1_Deck10 played Island (107)
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck2 played Secluded Courtyard (41)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Secluded Courtyard (41) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Mazemind Tome (50)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Add to stack: Ai(1)-Gen1_Deck2 activated Mazemind Tome (50)
+Resolve stack: Ai(1)-Gen1_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (50) - Ai(1)-Gen1_Deck2 scries 1.
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Land: Ai(2)-Gen1_Deck10 played Plains (92)
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Resolute Reinforcements (110)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen1_Deck10 triggered Resolute Reinforcements (110)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (110)]
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck2 played Secluded Courtyard (40)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Secluded Courtyard (41) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Mazemind Tome (50)
+Resolve stack: Mazemind Tome (50) - Ai(1)-Gen1_Deck2 draws a card.
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Land: Ai(2)-Gen1_Deck10 played Demolition Field (120)
+Mana: Island (107) - {T}: Add {U}.
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck10 activated Demolition Field (120) targeting [Secluded Courtyard (40)]
+Resolve stack: Demolition Field (120) - Destroy Secluded Courtyard (40). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen1_Deck10 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 assigned Resolute Reinforcements (110) and Soldier Token (124) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Soldier Token (124).
+Ai(1)-Gen1_Deck2 didn't block Resolute Reinforcements (110).
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Damage: Resolute Reinforcements (110) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck2 activated Mazemind Tome (50)
+Resolve stack: Ai(1)-Gen1_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (50) - Ai(1)-Gen1_Deck2 scries 1.
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Cryptic Caves (2)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Secluded Courtyard (41) - {T}: Add {C}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Highborn Vampire (52)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Stroke of Midnight (100) targeting [Highborn Vampire (52)]
+Resolve stack: Stroke of Midnight (100) - Destroy Highborn Vampire (52). 
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 assigned Resolute Reinforcements (110) and Soldier Token (124) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Soldier Token (124).
+Ai(1)-Gen1_Deck2 assigned Human Token (126) to block Resolute Reinforcements (110).
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Damage: Resolute Reinforcements (110) deals 1 damage () to Human Token (126).
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Human Token (126) deals 1 damage () to Resolute Reinforcements (110).
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Land: Ai(2)-Gen1_Deck10 played Plains (94)
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Swamp (28)
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen1_Deck2 draws a card.
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Mazemind Tome (50)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Mazemind Tome (50)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (50) - Ai(1)-Gen1_Deck2 draws a card.
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck10 activated Adventuring Gear (62) targeting [Soldier Token (124)]
+Resolve stack: Adventuring Gear (62) -  Attach to Soldier Token (124)
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 assigned Soldier Token (124) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Soldier Token (124).
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Kitesail Corsair (64)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Swamp (21)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Suspicious Shambler (6)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Mana: Island (107) - {T}: Add {U}.
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Juggernaut (65)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Quick-Draw Katana (15)
+Resolve stack: Quick-Draw Katana
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Quick-Draw Katana (15) targeting [Suspicious Shambler (6)]
+Resolve stack: Quick-Draw Katana (15) -  Attach to Suspicious Shambler (6)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Suspicious Shambler (6) to attack Ai(2)-Gen1_Deck10.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck10 didn't block Suspicious Shambler (6).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Damage: Suspicious Shambler (6) deals 6 combat damage to Ai(2)-Gen1_Deck10.
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 assigned Juggernaut (65), Kitesail Corsair (64) and Soldier Token (124) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Kitesail Corsair (64).
+Ai(1)-Gen1_Deck2 didn't block Juggernaut (65).
+Ai(1)-Gen1_Deck2 didn't block Soldier Token (124).
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Damage: Juggernaut (65) deals 5 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Kitesail Corsair (64) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Mana: Island (107) - {T}: Add {U}.
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Micromancer (79)
+Resolve stack: Micromancer - Creature 3 / 3
+Add to stack: Ai(2)-Gen1_Deck10 triggered Micromancer (79)
+Resolve stack: When Micromancer enters, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle. [Zone Changer: Micromancer (79)]
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Suspicious Shambler (6) to attack Ai(2)-Gen1_Deck10.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck10 didn't block Suspicious Shambler (6).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Damage: Suspicious Shambler (6) deals 6 combat damage to Ai(2)-Gen1_Deck10.
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Kalastria Highborn (44)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Cemetery Recruitment (10) targeting [Highborn Vampire (52)]
+Resolve stack: Cemetery Recruitment (10) - Return Highborn Vampire (52) from the graveyard to its owner's hand. Ai(1)-Gen1_Deck2 draws a card. 
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Unsummon (81) targeting [Suspicious Shambler (6)]
+Resolve stack: Unsummon (81) - Return Suspicious Shambler (6) to its owner's hand.
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Land: Ai(2)-Gen1_Deck10 played Crawling Barrens (116)
+Add to stack: Ai(2)-Gen1_Deck10 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (116)]
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 assigned Juggernaut (65), Soldier Token (124), Micromancer (79) and Kitesail Corsair (64) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Kitesail Corsair (64).
+Ai(1)-Gen1_Deck2 assigned Kalastria Highborn (44) to block Juggernaut (65).
+Ai(1)-Gen1_Deck2 didn't block Soldier Token (124).
+Ai(1)-Gen1_Deck2 didn't block Micromancer (79).
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Damage: Juggernaut (65) deals 5 damage () to Kalastria Highborn (44).
+Damage: Soldier Token (124) deals 3 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Micromancer (79) deals 3 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Kitesail Corsair (64) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Kalastria Highborn (44) deals 2 damage () to Juggernaut (65).
+Add to stack: Ai(1)-Gen1_Deck2 triggered Kalastria Highborn (44) targeting [Ai(2)-Gen1_Deck10]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen1_Deck10]]) [Zone Changer: Kalastria Highborn (44)]
+Phase: Ai(2)-Gen1_Deck10's End of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Main phase, postcombat
+Mana: Plains (92) - {T}: Add {W}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck10 cast Felidar Cub (82)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck10's End step
+Phase: Ai(2)-Gen1_Deck10's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Highborn Vampire (52)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck10)
+Phase: Ai(2)-Gen1_Deck10's Untap step
+Phase: Ai(2)-Gen1_Deck10's Upkeep step
+Phase: Ai(2)-Gen1_Deck10's Draw step
+Phase: Ai(2)-Gen1_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck10 assigned Juggernaut (65), Micromancer (79), Kitesail Corsair (64), Felidar Cub (82) and Soldier Token (124) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Kitesail Corsair (64).
+Ai(1)-Gen1_Deck2 assigned Highborn Vampire (52) to block Juggernaut (65).
+Ai(1)-Gen1_Deck2 didn't block Felidar Cub (82).
+Ai(1)-Gen1_Deck2 didn't block Soldier Token (124).
+Ai(1)-Gen1_Deck2 didn't block Micromancer (79).
+Phase: Ai(2)-Gen1_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck10's Combat Damage Step
+Damage: Juggernaut (65) deals 5 damage () to Highborn Vampire (52).
+Damage: Micromancer (79) deals 3 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Kitesail Corsair (64) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Felidar Cub (82) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Highborn Vampire (52) deals 4 damage () to Juggernaut (65).
+Player control: Ai(1)-Gen1_Deck2 is controlled by Ai(1)-Gen1_Deck2
+Player control: Ai(2)-Gen1_Deck10 is controlled by Ai(2)-Gen1_Deck10
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck2 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck10 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck2: 0 Ai(2)-Gen1_Deck10: 1 
+
+Game Result: Game 1 ended in 14386 ms. Ai(2)-Gen1_Deck10 has won!
+
+
+=== STDERR ===

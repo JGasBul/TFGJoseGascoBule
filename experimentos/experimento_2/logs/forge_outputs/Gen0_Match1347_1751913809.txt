@@ -1,0 +1,385 @@
+=== COMBATE PARALELO: Gen0_Deck16 vs Gen0_Deck26 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck16 Gen0_Deck26 -n 1
+Duración: 28.36 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2226 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 60 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck16 vs Ai(2)-Gen0_Deck26 - one game of Constructed
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+Mulligan: Ai(1)-Gen0_Deck16 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck16 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen0_Deck26 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Land: Ai(1)-Gen0_Deck16 played Rogue's Passage (20)
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck16's End of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck16's End step
+Phase: Ai(1)-Gen0_Deck16's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Mountain (111)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck26 cast Ghitu Lavarunner (104)
+Resolve stack: Ghitu Lavarunner - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Land: Ai(1)-Gen0_Deck16 played Forest (34)
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck16's End of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Main phase, postcombat
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Rogue's Passage (20) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck16 cast Campus Guide (25)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck16 triggered Campus Guide (25)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (25)]
+Phase: Ai(1)-Gen0_Deck16's End step
+Phase: Ai(1)-Gen0_Deck16's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Rogue's Passage (75)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Land: Ai(1)-Gen0_Deck16 played Plains (42)
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck16's End of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Main phase, postcombat
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Rogue's Passage (20) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck16 cast Spinner of Souls (50)
+Resolve stack: Spinner of Souls - Creature 4 / 3
+Phase: Ai(1)-Gen0_Deck16's End step
+Phase: Ai(1)-Gen0_Deck16's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Mountain (109)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Rogue's Passage (75) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck26 cast Taurean Mauler (64)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Land: Ai(1)-Gen0_Deck16 played Plains (46)
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 assigned Spinner of Souls (50) to attack Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck26 didn't block Spinner of Souls (50).
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Damage: Spinner of Souls (50) deals 4 combat damage to Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's End of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck16's End step
+Phase: Ai(1)-Gen0_Deck16's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Swamp (90)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (90) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck26 cast Taurean Mauler (67)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck26's End step
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Forest (34) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck16 cast Cathar Commando (8)
+Add to stack: Ai(2)-Gen0_Deck26 triggered Taurean Mauler (67)
+Add to stack: Ai(2)-Gen0_Deck26 triggered Taurean Mauler (64)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Cathar Commando (8), Activator: Ai(1)-Gen0_Deck16, SpellAbility: Cathar Commando - Creature 3 / 1]
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Cathar Commando (8), Activator: Ai(1)-Gen0_Deck16, SpellAbility: Cathar Commando - Creature 3 / 1]
+Resolve stack: Cathar Commando - Creature 3 / 1
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Land: Ai(1)-Gen0_Deck16 played Forest (32)
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck16 activated Rogue's Passage (20) targeting [Spinner of Souls (50)]
+Resolve stack: Rogue's Passage (20) - Spinner of Souls (50) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 assigned Spinner of Souls (50) and Cathar Commando (8) to attack Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck26 didn't block Spinner of Souls (50).
+Ai(2)-Gen0_Deck26 assigned Ghitu Lavarunner (104) to block Cathar Commando (8).
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Damage: Spinner of Souls (50) deals 4 combat damage to Ai(2)-Gen0_Deck26.
+Damage: Cathar Commando (8) deals 3 damage () to Ghitu Lavarunner (104).
+Damage: Ghitu Lavarunner (104) deals 1 damage () to Cathar Commando (8).
+Add to stack: Ai(1)-Gen0_Deck16 triggered Spinner of Souls (50)
+Resolve stack: Whenever another nontoken creature you control dies, you may reveal cards from the top of your library until you reveal a creature card. Put that card into your hand and the rest on the bottom of your library in a random order. [Zone Changer: Cathar Commando (8)]
+Phase: Ai(1)-Gen0_Deck16's End of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck16's End step
+Phase: Ai(1)-Gen0_Deck16's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Mountain (108)
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck26 activated Rogue's Passage (75) targeting [Taurean Mauler (64)]
+Resolve stack: Rogue's Passage (75) - Taurean Mauler (64) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 assigned Taurean Mauler (64) and Taurean Mauler (67) to attack Ai(1)-Gen0_Deck16.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck16 didn't block Taurean Mauler (64).
+Ai(1)-Gen0_Deck16 didn't block Taurean Mauler (67).
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Damage: Taurean Mauler (64) deals 3 combat damage to Ai(1)-Gen0_Deck16.
+Damage: Taurean Mauler (67) deals 3 combat damage to Ai(1)-Gen0_Deck16.
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck16 activated Rogue's Passage (20) targeting [Spinner of Souls (50)]
+Resolve stack: Rogue's Passage (20) - Spinner of Souls (50) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 assigned Spinner of Souls (50) and Campus Guide (25) to attack Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck26 didn't block Spinner of Souls (50).
+Ai(2)-Gen0_Deck26 didn't block Campus Guide (25).
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Damage: Spinner of Souls (50) deals 4 combat damage to Ai(2)-Gen0_Deck26.
+Damage: Campus Guide (25) deals 2 combat damage to Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's End of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck16's End step
+Phase: Ai(1)-Gen0_Deck16's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck26 activated Rogue's Passage (75) targeting [Taurean Mauler (64)]
+Resolve stack: Rogue's Passage (75) - Taurean Mauler (64) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 assigned Taurean Mauler (64) to attack Ai(1)-Gen0_Deck16.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck16 didn't block Taurean Mauler (64).
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Damage: Taurean Mauler (64) deals 3 combat damage to Ai(1)-Gen0_Deck16.
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck16 activated Rogue's Passage (20) targeting [Spinner of Souls (50)]
+Resolve stack: Rogue's Passage (20) - Spinner of Souls (50) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Land: Ai(1)-Gen0_Deck16 played Cryptic Caves (5)
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 assigned Spinner of Souls (50) to attack Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck26 didn't block Spinner of Souls (50).
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Damage: Spinner of Souls (50) deals 4 combat damage to Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's End of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck16's End step
+Phase: Ai(1)-Gen0_Deck16's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck26 activated Rogue's Passage (75) targeting [Taurean Mauler (64)]
+Resolve stack: Rogue's Passage (75) - Taurean Mauler (64) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Swamp (88)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck16)
+Phase: Ai(1)-Gen0_Deck16's Untap step
+Phase: Ai(1)-Gen0_Deck16's Upkeep step
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (46) - {T}: Add {W}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck16 activated Rogue's Passage (20) targeting [Spinner of Souls (50)]
+Resolve stack: Rogue's Passage (20) - Spinner of Souls (50) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck16's Draw step
+Phase: Ai(1)-Gen0_Deck16's Main phase, precombat
+Land: Ai(1)-Gen0_Deck16 played Forest (35)
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck16 activated Cryptic Caves (5)
+Resolve stack: Cryptic Caves (5) - Ai(1)-Gen0_Deck16 draws a card.
+Phase: Ai(1)-Gen0_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck16 assigned Spinner of Souls (50) and Campus Guide (25) to attack Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck26 didn't block Spinner of Souls (50).
+Ai(2)-Gen0_Deck26 assigned Taurean Mauler (64) to block Campus Guide (25).
+Phase: Ai(1)-Gen0_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck16's Combat Damage Step
+Damage: Spinner of Souls (50) deals 4 combat damage to Ai(2)-Gen0_Deck26.
+Damage: Campus Guide (25) deals 2 damage () to Taurean Mauler (64).
+Damage: Taurean Mauler (64) deals 3 damage () to Campus Guide (25).
+Player control: Ai(1)-Gen0_Deck16 is controlled by Ai(1)-Gen0_Deck16
+Player control: Ai(2)-Gen0_Deck26 is controlled by Ai(2)-Gen0_Deck26
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck16 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck26 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck16: 1 Ai(2)-Gen0_Deck26: 0 
+
+Game Result: Game 1 ended in 15012 ms. Ai(1)-Gen0_Deck16 has won!
+
+
+=== STDERR ===

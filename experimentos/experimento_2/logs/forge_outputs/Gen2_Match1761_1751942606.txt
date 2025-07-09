@@ -1,0 +1,520 @@
+=== COMBATE PARALELO: Gen2_Deck23 vs Gen2_Deck30 ===
+Worker ID: 352525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck23 Gen2_Deck30 -n 1
+Duración: 36.91 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1890 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 94 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck23 vs Ai(2)-Gen2_Deck30 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck30 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Forest (79)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Ai(1)-Gen2_Deck23 played Temple of Malice (16)
+Add to stack: Ai(1)-Gen2_Deck23 triggered Temple of Malice (16)
+Resolve stack: Ai(1)-Gen2_Deck23 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Malice enters, scry 1. [Zone Changer: Temple of Malice (16)]
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Forest (82)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Land: Ai(1)-Gen2_Deck23 played Mountain (56)
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Temple of Malice (16) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Searslicer Goblin (55)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Replacement Effect: Temple of Malady enters tapped.
+Land: Ai(2)-Gen2_Deck30 played Temple of Malady (68)
+Add to stack: Ai(2)-Gen2_Deck30 triggered Temple of Malady (68)
+Resolve stack: Ai(2)-Gen2_Deck30 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Malady enters, scry 1. [Zone Changer: Temple of Malady (68)]
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Searslicer Goblin (55) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Searslicer Goblin (55).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Searslicer Goblin (55) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Temple of Malice (16) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Campus Guide (13)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen2_Deck23 triggered Campus Guide (13)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (13)]
+Phase: Ai(1)-Gen2_Deck23's End step
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (55)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen2_Deck23]
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Temple of Malady (68) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Thrashing Brontodon (87)
+Resolve stack: Thrashing Brontodon - Creature 3 / 4
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Land: Ai(1)-Gen2_Deck23 played Plains (20)
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Mana: Plains (20) - {T}: Add {W}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Adamant Will (33) targeting [Searslicer Goblin (55)]
+Resolve stack: Adamant Will (33) - Searslicer Goblin (55) gets +2/+2 and gains indestructible until end of turn.
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Searslicer Goblin (55) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Searslicer Goblin (55).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Searslicer Goblin (55) deals 4 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck23's End step
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (55)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen2_Deck23]
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 assigned Thrashing Brontodon (87) to attack Ai(1)-Gen2_Deck23.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck23 didn't block Thrashing Brontodon (87).
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Damage: Thrashing Brontodon (87) deals 3 combat damage to Ai(1)-Gen2_Deck23.
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Replacement Effect: Temple of Malady enters tapped.
+Land: Ai(2)-Gen2_Deck30 played Temple of Malady (69)
+Add to stack: Ai(2)-Gen2_Deck30 triggered Temple of Malady (69)
+Resolve stack: Ai(2)-Gen2_Deck30 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Malady enters, scry 1. [Zone Changer: Temple of Malady (69)]
+Mana: Temple of Malady (68) - {T}: Add {B} or {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Gutless Plunderer (71)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Add to stack: Ai(2)-Gen2_Deck30 triggered Gutless Plunderer (71)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard. [Zone Changer: Gutless Plunderer (71)]
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Searslicer Goblin (55) and Campus Guide (13) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Searslicer Goblin (55).
+Ai(2)-Gen2_Deck30 didn't block Campus Guide (13).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Searslicer Goblin (55) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Campus Guide (13) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (20) - {T}: Add {W}.
+Mana: Temple of Malice (16) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Raging Redcap (18)
+Resolve stack: Raging Redcap - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck23's End step
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (55)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen2_Deck23]
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 assigned Thrashing Brontodon (87) to attack Ai(1)-Gen2_Deck23.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck23 didn't block Thrashing Brontodon (87).
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Damage: Thrashing Brontodon (87) deals 3 combat damage to Ai(1)-Gen2_Deck23.
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Mana: Temple of Malady (68) - {T}: Add {B} or {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Gutless Plunderer (73)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Add to stack: Ai(2)-Gen2_Deck30 triggered Gutless Plunderer (73)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard. [Zone Changer: Gutless Plunderer (73)]
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Searslicer Goblin (55), Campus Guide (13) and Raging Redcap (18) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Raging Redcap (18).
+Ai(2)-Gen2_Deck30 didn't block Searslicer Goblin (55).
+Ai(2)-Gen2_Deck30 didn't block Campus Guide (13).
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Damage: Raging Redcap (18) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Searslicer Goblin (55) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Campus Guide (13) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Raging Redcap (18) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck23's End step
+Add to stack: Ai(1)-Gen2_Deck23 triggered Searslicer Goblin (55)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen2_Deck23]
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Temple of Malady (68) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Mossborn Hydra (88)
+Replacement Effect: Mossborn Hydra enters with a +1/+1 counter on it.
+Resolve stack: Mossborn Hydra - Creature 0 / 0
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Searslicer Goblin (55), Campus Guide (13), Goblin Token (123), Goblin Token (126), Raging Redcap (18), Goblin Token (129) and Goblin Token (132) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Goblin Token (129).
+Ai(2)-Gen2_Deck30 assigned Gutless Plunderer (71) to block Raging Redcap (18).
+Ai(2)-Gen2_Deck30 didn't block Goblin Token (132).
+Ai(2)-Gen2_Deck30 assigned Mossborn Hydra (88) to block Searslicer Goblin (55).
+Ai(2)-Gen2_Deck30 assigned Gutless Plunderer (73) to block Goblin Token (123).
+Ai(2)-Gen2_Deck30 assigned Thrashing Brontodon (87) to block Campus Guide (13).
+Ai(2)-Gen2_Deck30 didn't block Goblin Token (126).
+Mana: Plains (20) - {T}: Add {W}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Temple of Malice (16) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Mischievous Pup (50)
+Resolve stack: Mischievous Pup - Creature 3 / 1
+Add to stack: Ai(1)-Gen2_Deck23 triggered Mischievous Pup (50) targeting [Raging Redcap (18)]
+Resolve stack: When Mischievous Pup enters, return up to one other target permanent you control to its owner's hand. (Targeting: [[Raging Redcap (18)]]) [Zone Changer: Mischievous Pup (50)]
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Searslicer Goblin (55) deals 2 damage () to Mossborn Hydra (88).
+Damage: Campus Guide (13) deals 2 damage () to Thrashing Brontodon (87).
+Damage: Goblin Token (123) deals 1 damage () to Gutless Plunderer (73).
+Damage: Goblin Token (126) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Goblin Token (129) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Goblin Token (132) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Mossborn Hydra (88) deals 1 damage () to Searslicer Goblin (55).
+Damage: Thrashing Brontodon (87) deals 3 damage () to Campus Guide (13).
+Damage: Gutless Plunderer (73) deals 2 damage (Deathtouch) to Goblin Token (123).
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Temple of Malady (68) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Mossborn Hydra (89)
+Replacement Effect: Mossborn Hydra enters with a +1/+1 counter on it.
+Resolve stack: Mossborn Hydra - Creature 0 / 0
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (20) - {T}: Add {W}.
+Mana: Temple of Malice (16) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Raging Redcap (18)
+Resolve stack: Raging Redcap - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Three Tree Mascot (109)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (20) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Searslicer Goblin (53)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Three Tree Mascot (110)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck23's End of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck23 cast Frenzied Goblin (29)
+Resolve stack: Frenzied Goblin - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck23's End step
+Phase: Ai(1)-Gen2_Deck23's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen2_Deck23)
+Phase: Ai(1)-Gen2_Deck23's Untap step
+Phase: Ai(1)-Gen2_Deck23's Upkeep step
+Phase: Ai(1)-Gen2_Deck23's Draw step
+Phase: Ai(1)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck23 assigned Mischievous Pup (50), Searslicer Goblin (53), Goblin Token (126), Goblin Token (129), Goblin Token (132), Raging Redcap (18) and Frenzied Goblin (29) to attack Ai(2)-Gen2_Deck30.
+Add to stack: Ai(1)-Gen2_Deck23 triggered Frenzied Goblin (29) targeting [Thrashing Brontodon (87)]
+Mana: Mountain (56) - {T}: Add {R}.
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Thrashing Brontodon (87)]]) [Attacker: Frenzied Goblin (29)]
+Phase: Ai(1)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Goblin Token (129).
+Ai(2)-Gen2_Deck30 assigned Mossborn Hydra (89) to block Mischievous Pup (50).
+Ai(2)-Gen2_Deck30 assigned Three Tree Mascot (110) to block Raging Redcap (18).
+Ai(2)-Gen2_Deck30 didn't block Goblin Token (132).
+Ai(2)-Gen2_Deck30 assigned Three Tree Mascot (109) to block Searslicer Goblin (53).
+Ai(2)-Gen2_Deck30 assigned Gutless Plunderer (71) to block Frenzied Goblin (29).
+Ai(2)-Gen2_Deck30 assigned Gutless Plunderer (73) to block Goblin Token (126).
+Mana: Forest (79) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Giant Growth (94) targeting [Three Tree Mascot (109)]
+Resolve stack: Giant Growth (94) - Three Tree Mascot (109) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen2_Deck23's First Strike Damage Step
+Damage: Raging Redcap (18) deals 1 damage () to Three Tree Mascot (110).
+Phase: Ai(1)-Gen2_Deck23's Combat Damage Step
+Damage: Mischievous Pup (50) deals 3 damage () to Mossborn Hydra (89).
+Damage: Searslicer Goblin (53) deals 2 damage () to Three Tree Mascot (109).
+Damage: Goblin Token (126) deals 1 damage () to Gutless Plunderer (73).
+Damage: Goblin Token (129) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Goblin Token (132) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Frenzied Goblin (29) deals 1 damage () to Gutless Plunderer (71).
+Damage: Mossborn Hydra (89) deals 1 damage () to Mischievous Pup (50).
+Damage: Three Tree Mascot (109) deals 5 damage () to Searslicer Goblin (53).
+Damage: Gutless Plunderer (73) deals 2 damage (Deathtouch) to Goblin Token (126).
+Damage: Gutless Plunderer (71) deals 2 damage (Deathtouch) to Frenzied Goblin (29).
+Player control: Ai(1)-Gen2_Deck23 is controlled by Ai(1)-Gen2_Deck23
+Player control: Ai(2)-Gen2_Deck30 is controlled by Ai(2)-Gen2_Deck30
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen2_Deck23 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck30 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck23: 1 Ai(2)-Gen2_Deck30: 0 
+
+Game Result: Game 1 ended in 26045 ms. Ai(1)-Gen2_Deck23 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,378 @@
+=== COMBATE PARALELO: Gen2_Deck40 vs Gen2_Deck42 ===
+Worker ID: 352527
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck40 Gen2_Deck42 -n 1
+Duración: 28.80 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1724 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 139 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck40 vs Ai(2)-Gen2_Deck42 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck42 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck40 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Forest (96)
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck42 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Land: Ai(1)-Gen2_Deck40 played Plains (51)
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Plains (108)
+Add to stack: Ai(2)-Gen2_Deck42 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (108)]
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Plains (108) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck42 cast Druid of the Cowl (81)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen2_Deck40 played Maze's End (3)
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Forest (101)
+Add to stack: Ai(2)-Gen2_Deck42 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (101)]
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck42 activated Adventuring Gear (61) targeting [Druid of the Cowl (81)]
+Resolve stack: Adventuring Gear (61) -  Attach to Druid of the Cowl (81)
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Druid of the Cowl (81) to attack Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck40 didn't block Druid of the Cowl (81).
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Druid of the Cowl (81) deals 1 combat damage to Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Mana: Plains (108) - {T}: Add {W}.
+Mana: Forest (101) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck42 cast Three Tree Mascot (88)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Land: Ai(1)-Gen2_Deck40 played Crawling Barrens (56)
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Three Tree Mascot (88) and Druid of the Cowl (81) to attack Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck40 didn't block Druid of the Cowl (81).
+Ai(1)-Gen2_Deck40 didn't block Three Tree Mascot (88).
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Three Tree Mascot (88) deals 2 combat damage to Ai(1)-Gen2_Deck40.
+Damage: Druid of the Cowl (81) deals 1 combat damage to Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Discard: Ai(1)-Gen2_Deck40 discards Pelakka Wurm (43).
+Turn: Turn 9 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Demolition Field (120)
+Add to stack: Ai(2)-Gen2_Deck42 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (120)]
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Plains (108) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck42 activated Demolition Field (120) targeting [Maze's End (3)]
+Resolve stack: Demolition Field (120) - Destroy Maze's End (3). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen2_Deck42 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen2_Deck42 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (105)]
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Druid of the Cowl (81) and Three Tree Mascot (88) to attack Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck40 didn't block Druid of the Cowl (81).
+Ai(1)-Gen2_Deck40 didn't block Three Tree Mascot (88).
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Druid of the Cowl (81) deals 5 combat damage to Ai(1)-Gen2_Deck40.
+Damage: Three Tree Mascot (88) deals 2 combat damage to Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen2_Deck40 played Maze's End (1)
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Plains (109)
+Add to stack: Ai(2)-Gen2_Deck42 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (109)]
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (101) - {T}: Add {G}.
+Mana: Plains (108) - {T}: Add {W}.
+Mana: Plains (105) - {T}: Add {W}.
+Mana: Plains (109) - {T}: Add {W}.
+Mana: Druid of the Cowl (81) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck42 cast Biogenic Upgrade (69) targeting [Druid of the Cowl (81)]
+Resolve stack: Biogenic Upgrade (69) - Ai(2)-Gen2_Deck42 distributes three +1/+1 counters among Druid of the Cowl (81) (3 counters). Double the number of +1/+1 counters on Druid of the Cowl (81).
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Three Tree Mascot (88) to attack Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck40 didn't block Three Tree Mascot (88).
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Three Tree Mascot (88) deals 2 combat damage to Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Mana: Plains (51) - {T}: Add {W}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Crawling Barrens (56) - {T}: Add {C}.
+Mana: Maze's End (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck40 cast Solemn Simulacrum (6)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck40 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Druid of the Cowl (81) and Three Tree Mascot (88) to attack Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck40 assigned Solemn Simulacrum (6) to block Druid of the Cowl (81).
+Ai(1)-Gen2_Deck40 didn't block Three Tree Mascot (88).
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Druid of the Cowl (81) deals 7 damage () to Solemn Simulacrum (6).
+Damage: Three Tree Mascot (88) deals 2 combat damage to Ai(1)-Gen2_Deck40.
+Damage: Solemn Simulacrum (6) deals 2 damage () to Druid of the Cowl (81).
+Add to stack: Ai(1)-Gen2_Deck40 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Land: Ai(1)-Gen2_Deck40 played Demolition Field (58)
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Discard: Ai(1)-Gen2_Deck40 discards Raging Redcap (24).
+Turn: Turn 15 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Land: Ai(2)-Gen2_Deck42 played Forest (98)
+Add to stack: Ai(2)-Gen2_Deck42 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (98)]
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Druid of the Cowl (81) and Three Tree Mascot (88) to attack Ai(1)-Gen2_Deck40.
+Mana: Plains (51) - {T}: Add {W}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Plains (47) - {T}: Add {W}.
+Mana: Maze's End (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck40 activated Crawling Barrens (56)
+Resolve stack: Crawling Barrens (56) - Ai(1)-Gen2_Deck40 puts two +1/+1 counters on Crawling Barrens (56). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck40 assigned Crawling Barrens (56) to block Druid of the Cowl (81).
+Ai(1)-Gen2_Deck40 didn't block Three Tree Mascot (88).
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Druid of the Cowl (81) deals 9 damage () to Crawling Barrens (56).
+Damage: Three Tree Mascot (88) deals 2 combat damage to Ai(1)-Gen2_Deck40.
+Damage: Crawling Barrens (56) deals 2 damage () to Druid of the Cowl (81).
+Phase: Ai(2)-Gen2_Deck42's End of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck42's End step
+Phase: Ai(2)-Gen2_Deck42's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck40)
+Phase: Ai(1)-Gen2_Deck40's Untap step
+Phase: Ai(1)-Gen2_Deck40's Upkeep step
+Phase: Ai(1)-Gen2_Deck40's Draw step
+Phase: Ai(1)-Gen2_Deck40's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck40's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck40 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck40's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck40's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck40's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck40's End of Combat Step
+Phase: Ai(1)-Gen2_Deck40's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck40's End step
+Phase: Ai(1)-Gen2_Deck40's Cleanup step
+Discard: Ai(1)-Gen2_Deck40 discards Pelakka Wurm (44).
+Turn: Turn 17 (Ai(2)-Gen2_Deck42)
+Phase: Ai(2)-Gen2_Deck42's Untap step
+Phase: Ai(2)-Gen2_Deck42's Upkeep step
+Phase: Ai(2)-Gen2_Deck42's Draw step
+Phase: Ai(2)-Gen2_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck42 assigned Druid of the Cowl (81) and Three Tree Mascot (88) to attack Ai(1)-Gen2_Deck40.
+Phase: Ai(2)-Gen2_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck40 didn't block Druid of the Cowl (81).
+Ai(1)-Gen2_Deck40 didn't block Three Tree Mascot (88).
+Phase: Ai(2)-Gen2_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck42's Combat Damage Step
+Damage: Druid of the Cowl (81) deals 7 combat damage to Ai(1)-Gen2_Deck40.
+Damage: Three Tree Mascot (88) deals 2 combat damage to Ai(1)-Gen2_Deck40.
+Player control: Ai(1)-Gen2_Deck40 is controlled by Ai(1)-Gen2_Deck40
+Player control: Ai(2)-Gen2_Deck42 is controlled by Ai(2)-Gen2_Deck42
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen2_Deck40 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck42 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck40: 0 Ai(2)-Gen2_Deck42: 1 
+
+Game Result: Game 1 ended in 15838 ms. Ai(2)-Gen2_Deck42 has won!
+
+
+=== STDERR ===

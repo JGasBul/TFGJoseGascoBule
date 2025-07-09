@@ -1,0 +1,552 @@
+=== COMBATE PARALELO: Gen2_Deck19 vs Gen2_Deck23 ===
+Worker ID: 352526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck19 Gen2_Deck23 -n 1
+Duración: 95.02 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1980 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 269 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck19 vs Ai(2)-Gen2_Deck23 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck19 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen2_Deck19 has mulliganed down to 5 cards.
+Mulligan: Ai(1)-Gen2_Deck19 has kept a hand of 5 cards
+Mulligan: Ai(2)-Gen2_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Soulstone Sanctuary (51)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Land: Ai(2)-Gen2_Deck23 played Mountain (119)
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Mountain (53)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck19 cast Three Tree Mascot (20)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Land: Ai(2)-Gen2_Deck23 played Plains (84)
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Campus Guide (73)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen2_Deck23 triggered Campus Guide (73)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (73)]
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Forest (23)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (23) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck19 cast Three Tree Mascot (19)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Land: Ai(2)-Gen2_Deck23 played Mountain (117)
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Campus Guide (74)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen2_Deck23 triggered Campus Guide (74)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (74)]
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Soulstone Sanctuary (52)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Mana: Forest (23) - {T}: Add {G}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck19 cast Nessian Hornbeetle (40)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Land: Ai(2)-Gen2_Deck23 played Plains (80)
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Dragon Fodder (103)
+Resolve stack: Dragon Fodder (103) - Ai(2)-Gen2_Deck23 creates two 1/1 red Goblin creature tokens.
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Replacement Effect: Golgari Guildgate enters tapped.
+Land: Ai(1)-Gen2_Deck19 played Golgari Guildgate (36)
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Land: Ai(2)-Gen2_Deck23 played Plains (81)
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Campus Guide (73) and Campus Guide (74) to attack Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck19 didn't block Campus Guide (73).
+Ai(1)-Gen2_Deck19 didn't block Campus Guide (74).
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Damage: Campus Guide (73) deals 2 combat damage to Ai(1)-Gen2_Deck19.
+Damage: Campus Guide (74) deals 2 combat damage to Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (23) - {T}: Add {G}.
+Mana: Golgari Guildgate (36) - {T}: Add {B} or {G}.
+Mana: Soulstone Sanctuary (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Soulstone Sanctuary (51)
+Resolve stack: Soulstone Sanctuary (51) - Soulstone Sanctuary (51) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Crawling Barrens (48)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 assigned Nessian Hornbeetle (40) and Soulstone Sanctuary (51) to attack Ai(2)-Gen2_Deck23.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck23 didn't block Soulstone Sanctuary (51).
+Ai(2)-Gen2_Deck23 didn't block Nessian Hornbeetle (40).
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Damage: Nessian Hornbeetle (40) deals 2 combat damage to Ai(2)-Gen2_Deck23.
+Damage: Soulstone Sanctuary (51) deals 3 combat damage to Ai(2)-Gen2_Deck23.
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Ai(2)-Gen2_Deck23 played Temple of Malice (76)
+Add to stack: Ai(2)-Gen2_Deck23 triggered Temple of Malice (76)
+Resolve stack: Ai(2)-Gen2_Deck23 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Malice enters, scry 1. [Zone Changer: Temple of Malice (76)]
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (23) - {T}: Add {G}.
+Mana: Golgari Guildgate (36) - {T}: Add {B} or {G}.
+Mana: Crawling Barrens (48) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Soulstone Sanctuary (52)
+Resolve stack: Soulstone Sanctuary (52) - Soulstone Sanctuary (52) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Mountain (56)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 assigned Three Tree Mascot (20), Three Tree Mascot (19), Nessian Hornbeetle (40), Soulstone Sanctuary (51) and Soulstone Sanctuary (52) to attack Ai(2)-Gen2_Deck23.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Goblin Token (128) to block Three Tree Mascot (19).
+Ai(2)-Gen2_Deck23 didn't block Soulstone Sanctuary (51).
+Ai(2)-Gen2_Deck23 assigned Goblin Token (127) to block Three Tree Mascot (20).
+Ai(2)-Gen2_Deck23 didn't block Soulstone Sanctuary (52).
+Ai(2)-Gen2_Deck23 didn't block Nessian Hornbeetle (40).
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Damage: Three Tree Mascot (20) deals 2 damage () to Goblin Token (127).
+Damage: Three Tree Mascot (19) deals 2 damage () to Goblin Token (128).
+Damage: Nessian Hornbeetle (40) deals 2 combat damage to Ai(2)-Gen2_Deck23.
+Damage: Soulstone Sanctuary (51) deals 3 combat damage to Ai(2)-Gen2_Deck23.
+Damage: Soulstone Sanctuary (52) deals 3 combat damage to Ai(2)-Gen2_Deck23.
+Damage: Goblin Token (127) deals 1 damage () to Three Tree Mascot (20).
+Damage: Goblin Token (128) deals 1 damage () to Three Tree Mascot (19).
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Land: Ai(2)-Gen2_Deck23 played Plains (79)
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Temple of Malice (76) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Ball Lightning (64)
+Resolve stack: Ball Lightning - Creature 6 / 1
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Ball Lightning (64) to attack Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck19 didn't block Ball Lightning (64).
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Damage: Ball Lightning (64) deals 6 combat damage to Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Plains (81) - {T}: Add {W}.
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Angel of Finality (102)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(2)-Gen2_Deck23 triggered Angel of Finality (102) targeting [Ai(1)-Gen2_Deck19]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(1)-Gen2_Deck19]]) [Zone Changer: Angel of Finality (102)]
+Phase: Ai(2)-Gen2_Deck23's End step
+Add to stack: Ai(2)-Gen2_Deck23 triggered Ball Lightning (64)
+Resolve stack: At the beginning of the end step, sacrifice Ball Lightning. [Phase: Ai(2)-Gen2_Deck23]
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Forest (26)
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (23) - {T}: Add {G}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Crawling Barrens (48)
+Resolve stack: Crawling Barrens (48) - Ai(1)-Gen2_Deck19 puts two +1/+1 counters on Crawling Barrens (48). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Angel of Finality (102) to attack Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck19 didn't block Angel of Finality (102).
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Damage: Angel of Finality (102) deals 3 combat damage to Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck23 played Mountain (118)
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Forest (30)
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (23) - {T}: Add {G}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Crawling Barrens (48)
+Resolve stack: Crawling Barrens (48) - Ai(1)-Gen2_Deck19 puts two +1/+1 counters on Crawling Barrens (48). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Golgari Guildgate (36) - {T}: Add {B} or {G}.
+Mana: Soulstone Sanctuary (52) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Crawling Barrens (48)
+Resolve stack: Crawling Barrens (48) - Ai(1)-Gen2_Deck19 puts two +1/+1 counters on Crawling Barrens (48). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck19 triggered Nessian Hornbeetle (40)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen2_Deck19]
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 assigned Crawling Barrens (48) to attack Ai(2)-Gen2_Deck23.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Campus Guide (73) to block Crawling Barrens (48).
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Mischievous Pup (108)
+Resolve stack: Mischievous Pup - Creature 3 / 1
+Add to stack: Ai(2)-Gen2_Deck23 triggered Mischievous Pup (108) targeting [Campus Guide (73)]
+Resolve stack: When Mischievous Pup enters, return up to one other target permanent you control to its owner's hand. (Targeting: [[Campus Guide (73)]]) [Zone Changer: Mischievous Pup (108)]
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Angel of Finality (102) to attack Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck19 didn't block Angel of Finality (102).
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Damage: Angel of Finality (102) deals 3 combat damage to Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Campus Guide (73)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen2_Deck23 triggered Campus Guide (73)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (73)]
+Phase: Ai(2)-Gen2_Deck23's End step
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Forest (27)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Mana: Golgari Guildgate (36) - {T}: Add {B} or {G}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (23) - {T}: Add {G}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck19 cast Soul-Shackled Zombie (9)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(1)-Gen2_Deck19 triggered Soul-Shackled Zombie (9) targeting [Ball Lightning (64), Dragon Fodder (103)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Ball Lightning (64), Dragon Fodder (103)]]) [Zone Changer: Soul-Shackled Zombie (9)]
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Angel of Finality (102) to attack Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck19 didn't block Angel of Finality (102).
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Damage: Angel of Finality (102) deals 3 combat damage to Ai(1)-Gen2_Deck19.
+Phase: Ai(2)-Gen2_Deck23's End of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck23 played Mountain (116)
+Phase: Ai(2)-Gen2_Deck23's End step
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (27) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Crawling Barrens (48)
+Resolve stack: Crawling Barrens (48) - Ai(1)-Gen2_Deck19 puts two +1/+1 counters on Crawling Barrens (48). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck23's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen2_Deck19)
+Phase: Ai(1)-Gen2_Deck19's Untap step
+Phase: Ai(1)-Gen2_Deck19's Upkeep step
+Phase: Ai(1)-Gen2_Deck19's Draw step
+Phase: Ai(1)-Gen2_Deck19's Main phase, precombat
+Land: Ai(1)-Gen2_Deck19 played Crawling Barrens (49)
+Phase: Ai(1)-Gen2_Deck19's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck19 triggered Nessian Hornbeetle (40)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen2_Deck19]
+Phase: Ai(1)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck19's End of Combat Step
+Phase: Ai(1)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck19's End step
+Phase: Ai(1)-Gen2_Deck19's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen2_Deck23)
+Phase: Ai(2)-Gen2_Deck23's Untap step
+Phase: Ai(2)-Gen2_Deck23's Upkeep step
+Phase: Ai(2)-Gen2_Deck23's Draw step
+Phase: Ai(2)-Gen2_Deck23's Main phase, precombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (81) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Lyra Dawnbringer (96)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(2)-Gen2_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck23 assigned Angel of Finality (102), Mischievous Pup (108), Campus Guide (74) and Campus Guide (73) to attack Ai(1)-Gen2_Deck19.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (23) - {T}: Add {G}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Crawling Barrens (49)
+Resolve stack: Crawling Barrens (49) - Ai(1)-Gen2_Deck19 puts two +1/+1 counters on Crawling Barrens (49). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Forest (27) - {T}: Add {G}.
+Mana: Golgari Guildgate (36) - {T}: Add {B} or {G}.
+Mana: Crawling Barrens (48) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck19 activated Crawling Barrens (49)
+Resolve stack: Crawling Barrens (49) - Ai(1)-Gen2_Deck19 puts two +1/+1 counters on Crawling Barrens (49). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck19 didn't block Angel of Finality (102).
+Ai(1)-Gen2_Deck19 assigned Crawling Barrens (49) to block Campus Guide (73).
+Ai(1)-Gen2_Deck19 assigned Nessian Hornbeetle (40) to block Campus Guide (74).
+Ai(1)-Gen2_Deck19 assigned Soul-Shackled Zombie (9) to block Mischievous Pup (108).
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck23 cast Mischievous Pup (111)
+Resolve stack: Mischievous Pup - Creature 3 / 1
+Add to stack: Ai(2)-Gen2_Deck23 triggered Mischievous Pup (111) targeting [Mischievous Pup (108)]
+Resolve stack: When Mischievous Pup enters, return up to one other target permanent you control to its owner's hand. (Targeting: [[Mischievous Pup (108)]]) [Zone Changer: Mischievous Pup (111)]
+Phase: Ai(2)-Gen2_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck23's Combat Damage Step
+Damage: Angel of Finality (102) deals 4 combat damage to Ai(1)-Gen2_Deck19.
+Damage: Campus Guide (74) deals 2 damage () to Nessian Hornbeetle (40).
+Damage: Campus Guide (73) deals 2 damage () to Crawling Barrens (49).
+Damage: Nessian Hornbeetle (40) deals 4 damage () to Campus Guide (74).
+Damage: Crawling Barrens (49) deals 4 damage () to Campus Guide (73).
+Player control: Ai(1)-Gen2_Deck19 is controlled by Ai(1)-Gen2_Deck19
+Player control: Ai(2)-Gen2_Deck23 is controlled by Ai(2)-Gen2_Deck23
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen2_Deck19 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck23 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck19: 0 Ai(2)-Gen2_Deck23: 1 
+
+Game Result: Game 1 ended in 82748 ms. Ai(2)-Gen2_Deck23 has won!
+
+
+=== STDERR ===

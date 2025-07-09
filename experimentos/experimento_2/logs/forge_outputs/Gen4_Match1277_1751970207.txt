@@ -1,0 +1,644 @@
+=== COMBATE PARALELO: Gen4_Deck15 vs Gen4_Deck24 ===
+Worker ID: 1454004
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck15 Gen4_Deck24 -n 1
+Duración: 64.75 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2297 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 43 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck15 vs Ai(2)-Gen4_Deck24 - one game of Constructed
+Mulligan: Ai(2)-Gen4_Deck24 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen4_Deck24 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen4_Deck15 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Land: Ai(2)-Gen4_Deck24 played Forest (96)
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Soulstone Sanctuary (29)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Land: Ai(2)-Gen4_Deck24 played Plains (106)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (106)]
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Mountain (57)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (29) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Three Tree Mascot (39)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Land: Ai(2)-Gen4_Deck24 played Forest (99)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (63)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (99)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (99)]
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Soulstone Sanctuary (28)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 assigned Three Tree Mascot (39) to attack Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck24 didn't block Three Tree Mascot (39).
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Damage: Three Tree Mascot (39) deals 2 combat damage to Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Land: Ai(2)-Gen4_Deck24 played Forest (97)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (63)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (97)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (97)]
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Dwynen, Gilt-Leaf Daen (86)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Cryptic Caves (1)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (29) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (28) - {T}: Add {C}.
+Mana: Cryptic Caves (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Solemn Simulacrum (5)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen4_Deck15 triggered Solemn Simulacrum (5)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (5)]
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 activated Adventuring Gear (61) targeting [Dwynen, Gilt-Leaf Daen (86)]
+Resolve stack: Adventuring Gear (61) -  Attach to Dwynen, Gilt-Leaf Daen (86)
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck24 activated Adventuring Gear (63) targeting [Dwynen, Gilt-Leaf Daen (86)]
+Resolve stack: Adventuring Gear (63) -  Attach to Dwynen, Gilt-Leaf Daen (86)
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 assigned Dwynen, Gilt-Leaf Daen (86) to attack Ai(1)-Gen4_Deck15.
+Add to stack: Ai(2)-Gen4_Deck24 triggered Dwynen, Gilt-Leaf Daen (86)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (86)]
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck15 didn't block Dwynen, Gilt-Leaf Daen (86).
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Damage: Dwynen, Gilt-Leaf Daen (86) deals 3 combat damage to Ai(1)-Gen4_Deck15.
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Nessian Hornbeetle (108)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (26) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (28) - {T}: Add {C}.
+Mana: Cryptic Caves (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck15 activated Soulstone Sanctuary (29)
+Resolve stack: Soulstone Sanctuary (29) - Soulstone Sanctuary (29) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Mountain (56)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 assigned Solemn Simulacrum (5) and Soulstone Sanctuary (29) to attack Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck24 didn't block Solemn Simulacrum (5).
+Ai(2)-Gen4_Deck24 didn't block Soulstone Sanctuary (29).
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Damage: Solemn Simulacrum (5) deals 2 combat damage to Ai(2)-Gen4_Deck24.
+Damage: Soulstone Sanctuary (29) deals 3 combat damage to Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Land: Ai(2)-Gen4_Deck24 played Demolition Field (119)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (63)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (119)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (119)]
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Add to stack: Ai(2)-Gen4_Deck24 triggered Nessian Hornbeetle (108)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen4_Deck24]
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 assigned Dwynen, Gilt-Leaf Daen (86) and Nessian Hornbeetle (108) to attack Ai(1)-Gen4_Deck15.
+Add to stack: Ai(2)-Gen4_Deck24 triggered Dwynen, Gilt-Leaf Daen (86)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (86)]
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck15 didn't block Dwynen, Gilt-Leaf Daen (86).
+Ai(1)-Gen4_Deck15 didn't block Nessian Hornbeetle (108).
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Damage: Dwynen, Gilt-Leaf Daen (86) deals 7 combat damage to Ai(1)-Gen4_Deck15.
+Damage: Nessian Hornbeetle (108) deals 3 combat damage to Ai(1)-Gen4_Deck15.
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (26) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Cryptic Caves (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck15 activated Soulstone Sanctuary (28)
+Resolve stack: Soulstone Sanctuary (28) - Soulstone Sanctuary (28) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Island (23)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 assigned Three Tree Mascot (39), Solemn Simulacrum (5), Soulstone Sanctuary (29) and Soulstone Sanctuary (28) to attack Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck24 didn't block Solemn Simulacrum (5).
+Ai(2)-Gen4_Deck24 didn't block Three Tree Mascot (39).
+Ai(2)-Gen4_Deck24 didn't block Soulstone Sanctuary (28).
+Ai(2)-Gen4_Deck24 didn't block Soulstone Sanctuary (29).
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Damage: Three Tree Mascot (39) deals 2 combat damage to Ai(2)-Gen4_Deck24.
+Damage: Solemn Simulacrum (5) deals 2 combat damage to Ai(2)-Gen4_Deck24.
+Damage: Soulstone Sanctuary (29) deals 3 combat damage to Ai(2)-Gen4_Deck24.
+Damage: Soulstone Sanctuary (28) deals 3 combat damage to Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck15 activated Cryptic Caves (1)
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck24 activated Demolition Field (119) targeting [Soulstone Sanctuary (29)]
+Resolve stack: Demolition Field (119) - Destroy Soulstone Sanctuary (29). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen4_Deck24 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (63)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (82)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (82)]
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen4_Deck15 draws a card.
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Cryptic Caves (4)
+Mana: Island (26) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck15 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen4_Deck15 draws a card.
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (26) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Solemn Simulacrum (7)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen4_Deck15 triggered Solemn Simulacrum (7)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (7)]
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Mild-Mannered Librarian (72)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Island (25)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Nessian Hornbeetle (45)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Swamp (82) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Elfsworn Giant (112)
+Resolve stack: Elfsworn Giant - Creature 5 / 3
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Land: Ai(1)-Gen4_Deck15 played Swamp (31)
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (26) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (23) - {T}: Add {U}.
+Mana: Forest (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Rune-Scarred Demon (15)
+Resolve stack: Rune-Scarred Demon - Creature 6 / 6
+Add to stack: Ai(1)-Gen4_Deck15 triggered Rune-Scarred Demon (15)
+Resolve stack: When Rune-Scarred Demon enters, you may search your library for a card, put it into your hand, then shuffle. [Zone Changer: Rune-Scarred Demon (15)]
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Add to stack: Ai(2)-Gen4_Deck24 triggered Nessian Hornbeetle (108)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen4_Deck24]
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Druid of the Cowl (85)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Add to stack: Ai(1)-Gen4_Deck15 triggered Nessian Hornbeetle (45)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen4_Deck15]
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 assigned Rune-Scarred Demon (15) to attack Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck24 assigned Dwynen, Gilt-Leaf Daen (86) and Elfsworn Giant (112) to block Rune-Scarred Demon (15).
+Mana: Forest (99) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Giant Growth (64) targeting [Dwynen, Gilt-Leaf Daen (86)]
+Resolve stack: Giant Growth (64) - Dwynen, Gilt-Leaf Daen (86) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Damage: Rune-Scarred Demon (15) deals 6 damage () to Dwynen, Gilt-Leaf Daen (86).
+Damage: Dwynen, Gilt-Leaf Daen (86) deals 6 damage () to Rune-Scarred Demon (15).
+Damage: Elfsworn Giant (112) deals 5 damage () to Rune-Scarred Demon (15).
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (26) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (23) - {T}: Add {U}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Island (25) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Sire of Seven Deaths (36)
+Resolve stack: Sire of Seven Deaths - Creature 7 / 7
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (28) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Cemetery Recruitment (10) targeting [Rune-Scarred Demon (15)]
+Resolve stack: Cemetery Recruitment (10) - Return Rune-Scarred Demon (15) from the graveyard to its owner's hand. Ai(1)-Gen4_Deck15 draws a card. 
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Add to stack: Ai(2)-Gen4_Deck24 triggered Nessian Hornbeetle (108)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen4_Deck24]
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Druid of the Cowl (83)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Add to stack: Ai(1)-Gen4_Deck15 triggered Nessian Hornbeetle (45)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen4_Deck15]
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 assigned Sire of Seven Deaths (36) to attack Ai(2)-Gen4_Deck24.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck24 assigned Mild-Mannered Librarian (72), Druid of the Cowl (85) and Druid of the Cowl (83) to block Sire of Seven Deaths (36).
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Damage: Sire of Seven Deaths (36) deals 2 damage () to Druid of the Cowl (83).
+Damage: Sire of Seven Deaths (36) deals 4 damage () to Druid of the Cowl (85).
+Damage: Sire of Seven Deaths (36) deals 1 damage () to Mild-Mannered Librarian (72).
+Phase: Ai(1)-Gen4_Deck15's Combat Damage Step
+Damage: Druid of the Cowl (83) deals 2 damage () to Sire of Seven Deaths (36).
+Phase: Ai(1)-Gen4_Deck15's End of Combat Step
+Phase: Ai(1)-Gen4_Deck15's Main phase, postcombat
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (26) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (23) - {T}: Add {U}.
+Mana: Forest (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck15 cast Rune-Scarred Demon (15)
+Resolve stack: Rune-Scarred Demon - Creature 6 / 6
+Add to stack: Ai(1)-Gen4_Deck15 triggered Rune-Scarred Demon (15)
+Resolve stack: When Rune-Scarred Demon enters, you may search your library for a card, put it into your hand, then shuffle. [Zone Changer: Rune-Scarred Demon (15)]
+Phase: Ai(1)-Gen4_Deck15's End step
+Phase: Ai(1)-Gen4_Deck15's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen4_Deck24)
+Phase: Ai(2)-Gen4_Deck24's Untap step
+Phase: Ai(2)-Gen4_Deck24's Upkeep step
+Phase: Ai(2)-Gen4_Deck24's Draw step
+Phase: Ai(2)-Gen4_Deck24's Main phase, precombat
+Land: Ai(2)-Gen4_Deck24 played Crawling Barrens (114)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (63)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Adventuring Gear (61)
+Add to stack: Ai(2)-Gen4_Deck24 triggered Elfsworn Giant (112)
+Resolve stack: Landfall — Whenever a land you control enters, create a 1/1 green Elf Warrior creature token. [Zone Changer: Crawling Barrens (114)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (114)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (114)]
+Phase: Ai(2)-Gen4_Deck24's Beginning of Combat Step
+Add to stack: Ai(2)-Gen4_Deck24 triggered Nessian Hornbeetle (108)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen4_Deck24]
+Phase: Ai(2)-Gen4_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck24's End of Combat Step
+Phase: Ai(2)-Gen4_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck24's End step
+Phase: Ai(2)-Gen4_Deck24's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen4_Deck15)
+Phase: Ai(1)-Gen4_Deck15's Untap step
+Phase: Ai(1)-Gen4_Deck15's Upkeep step
+Phase: Ai(1)-Gen4_Deck15's Draw step
+Phase: Ai(1)-Gen4_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck15's Beginning of Combat Step
+Add to stack: Ai(1)-Gen4_Deck15 triggered Nessian Hornbeetle (45)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen4_Deck15]
+Phase: Ai(1)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck15 assigned Sire of Seven Deaths (36), Rune-Scarred Demon (15), Nessian Hornbeetle (45), Soulstone Sanctuary (28), Three Tree Mascot (39), Solemn Simulacrum (5) and Solemn Simulacrum (7) to attack Ai(2)-Gen4_Deck24.
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 activated Crawling Barrens (114)
+Resolve stack: Crawling Barrens (114) - Ai(2)-Gen4_Deck24 puts two +1/+1 counters on Crawling Barrens (114). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck24 didn't block Sire of Seven Deaths (36).
+Ai(2)-Gen4_Deck24 assigned Elfsworn Giant (112) to block Solemn Simulacrum (5).
+Ai(2)-Gen4_Deck24 assigned Druid of the Cowl (83) to block Three Tree Mascot (39).
+Ai(2)-Gen4_Deck24 assigned Nessian Hornbeetle (108) to block Solemn Simulacrum (7).
+Ai(2)-Gen4_Deck24 assigned Crawling Barrens (114) to block Soulstone Sanctuary (28).
+Ai(2)-Gen4_Deck24 assigned Elf Warrior Token (123) to block Nessian Hornbeetle (45).
+Ai(2)-Gen4_Deck24 assigned Dwynen, Gilt-Leaf Daen (86) to block Rune-Scarred Demon (15).
+Mana: Druid of the Cowl (83) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen4_Deck24 cast Giant Growth (65) targeting [Dwynen, Gilt-Leaf Daen (86)]
+Resolve stack: Giant Growth (65) - Dwynen, Gilt-Leaf Daen (86) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen4_Deck15's First Strike Damage Step
+Damage: Sire of Seven Deaths (36) deals 7 combat damage to Ai(2)-Gen4_Deck24.
+Player control: Ai(1)-Gen4_Deck15 is controlled by Ai(1)-Gen4_Deck15
+Player control: Ai(2)-Gen4_Deck24 is controlled by Ai(2)-Gen4_Deck24
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen4_Deck15 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck24 has lost because life total reached 0
+Match result: Ai(1)-Gen4_Deck15: 1 Ai(2)-Gen4_Deck24: 0 
+
+Game Result: Game 1 ended in 52340 ms. Ai(1)-Gen4_Deck15 has won!
+
+
+=== STDERR ===

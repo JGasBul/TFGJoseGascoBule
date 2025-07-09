@@ -1,0 +1,311 @@
+=== COMBATE PARALELO: Gen7_Deck21 vs Gen7_Deck45 ===
+Worker ID: 3043956
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck21 Gen7_Deck45 -n 1
+Duración: 23.16 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1694 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 52 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck21 vs Ai(2)-Gen7_Deck45 - one game of Constructed
+Mulligan: Ai(1)-Gen7_Deck21 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen7_Deck45 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen7_Deck21)
+Phase: Ai(1)-Gen7_Deck21's Untap step
+Phase: Ai(1)-Gen7_Deck21's Upkeep step
+Phase: Ai(1)-Gen7_Deck21's Draw step
+Phase: Ai(1)-Gen7_Deck21's Main phase, precombat
+Land: Ai(1)-Gen7_Deck21 played Plains (31)
+Phase: Ai(1)-Gen7_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck21's End of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck21's End step
+Phase: Ai(1)-Gen7_Deck21's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (92)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Duress (94) targeting [Ai(1)-Gen7_Deck21]
+Discard: Ai(1)-Gen7_Deck21 discards Stroke of Midnight (40).
+Resolve stack: Duress (94) - Ai(1)-Gen7_Deck21 reveals their hand. Ai(2)-Gen7_Deck45 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen7_Deck21 discards that card.
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen7_Deck21)
+Phase: Ai(1)-Gen7_Deck21's Untap step
+Phase: Ai(1)-Gen7_Deck21's Upkeep step
+Phase: Ai(1)-Gen7_Deck21's Draw step
+Phase: Ai(1)-Gen7_Deck21's Main phase, precombat
+Land: Ai(1)-Gen7_Deck21 played Plains (30)
+Phase: Ai(1)-Gen7_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck21's End of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck21 cast Knight of Grace (18)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck21's End step
+Phase: Ai(1)-Gen7_Deck21's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (87)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen7_Deck21)
+Phase: Ai(1)-Gen7_Deck21's Untap step
+Phase: Ai(1)-Gen7_Deck21's Upkeep step
+Phase: Ai(1)-Gen7_Deck21's Draw step
+Phase: Ai(1)-Gen7_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck21 assigned Knight of Grace (18) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Knight of Grace (18).
+Phase: Ai(1)-Gen7_Deck21's First Strike Damage Step
+Damage: Knight of Grace (18) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck21's End of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen7_Deck21 played Uncharted Haven (51)
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck21 cast Dawnwing Marshal (39)
+Resolve stack: Dawnwing Marshal - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck21's End step
+Phase: Ai(1)-Gen7_Deck21's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen7_Deck45 played Maze's End (69)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen7_Deck21)
+Phase: Ai(1)-Gen7_Deck21's Untap step
+Phase: Ai(1)-Gen7_Deck21's Upkeep step
+Phase: Ai(1)-Gen7_Deck21's Draw step
+Phase: Ai(1)-Gen7_Deck21's Main phase, precombat
+Land: Ai(1)-Gen7_Deck21 played Evolving Wilds (20)
+Add to stack: Ai(1)-Gen7_Deck21 activated Evolving Wilds (20)
+Resolve stack: Evolving Wilds (20) - Ai(1)-Gen7_Deck21 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen7_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck21 assigned Knight of Grace (18) and Dawnwing Marshal (39) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Knight of Grace (18).
+Ai(2)-Gen7_Deck45 didn't block Dawnwing Marshal (39).
+Phase: Ai(1)-Gen7_Deck21's First Strike Damage Step
+Damage: Knight of Grace (18) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Combat Damage Step
+Damage: Dawnwing Marshal (39) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's End of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck21's End step
+Phase: Ai(1)-Gen7_Deck21's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (86)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Maze's End (69) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Highborn Vampire (112)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen7_Deck21)
+Phase: Ai(1)-Gen7_Deck21's Untap step
+Phase: Ai(1)-Gen7_Deck21's Upkeep step
+Phase: Ai(1)-Gen7_Deck21's Draw step
+Phase: Ai(1)-Gen7_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck21 assigned Knight of Grace (18) and Dawnwing Marshal (39) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Knight of Grace (18).
+Ai(2)-Gen7_Deck45 didn't block Dawnwing Marshal (39).
+Phase: Ai(1)-Gen7_Deck21's First Strike Damage Step
+Damage: Knight of Grace (18) deals 3 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Combat Damage Step
+Damage: Dawnwing Marshal (39) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's End of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Uncharted Haven (51) - {T}: Add one mana of the chosen color.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck21 cast Angel of Finality (9)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen7_Deck21 triggered Angel of Finality (9) targeting [Ai(2)-Gen7_Deck45]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen7_Deck45]]) [Zone Changer: Angel of Finality (9)]
+Phase: Ai(1)-Gen7_Deck21's End step
+Phase: Ai(1)-Gen7_Deck21's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (84)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen7_Deck21)
+Phase: Ai(1)-Gen7_Deck21's Untap step
+Phase: Ai(1)-Gen7_Deck21's Upkeep step
+Phase: Ai(1)-Gen7_Deck21's Draw step
+Phase: Ai(1)-Gen7_Deck21's Main phase, precombat
+Land: Ai(1)-Gen7_Deck21 played Plains (32)
+Phase: Ai(1)-Gen7_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck21 assigned Knight of Grace (18), Angel of Finality (9) and Dawnwing Marshal (39) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 assigned Highborn Vampire (112) to block Knight of Grace (18).
+Ai(2)-Gen7_Deck45 didn't block Dawnwing Marshal (39).
+Ai(2)-Gen7_Deck45 didn't block Angel of Finality (9).
+Phase: Ai(1)-Gen7_Deck21's First Strike Damage Step
+Damage: Knight of Grace (18) deals 3 damage () to Highborn Vampire (112).
+Phase: Ai(1)-Gen7_Deck21's Combat Damage Step
+Damage: Angel of Finality (9) deals 3 combat damage to Ai(2)-Gen7_Deck45.
+Damage: Dawnwing Marshal (39) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's End of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Uncharted Haven (51) - {T}: Add one mana of the chosen color.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck21 cast Angel of Finality (10)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen7_Deck21 triggered Angel of Finality (10) targeting [Ai(2)-Gen7_Deck45]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen7_Deck45]]) [Zone Changer: Angel of Finality (10)]
+Phase: Ai(1)-Gen7_Deck21's End step
+Phase: Ai(1)-Gen7_Deck21's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (78)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Maze's End (69) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Liliana, Dreadhorde General (71)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(2)-Gen7_Deck45 activated Liliana, Dreadhorde General (71)
+Resolve stack: Liliana, Dreadhorde General (71) - Ai(2)-Gen7_Deck45 and Ai(1)-Gen7_Deck21 sacrifice two creatures.
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen7_Deck21)
+Phase: Ai(1)-Gen7_Deck21's Untap step
+Phase: Ai(1)-Gen7_Deck21's Upkeep step
+Phase: Ai(1)-Gen7_Deck21's Draw step
+Phase: Ai(1)-Gen7_Deck21's Main phase, precombat
+Land: Ai(1)-Gen7_Deck21 played Plains (22)
+Phase: Ai(1)-Gen7_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck21 assigned Angel of Finality (9) and Angel of Finality (10) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Angel of Finality (9).
+Ai(2)-Gen7_Deck45 didn't block Angel of Finality (10).
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Uncharted Haven (51) - {T}: Add one mana of the chosen color.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck21 cast Claws Out (44)
+Resolve stack: Claws Out (44) - Creatures you control get +2/+2 until end of turn.
+Phase: Ai(1)-Gen7_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck21's Combat Damage Step
+Damage: Angel of Finality (9) deals 5 combat damage to Ai(2)-Gen7_Deck45.
+Damage: Angel of Finality (10) deals 5 combat damage to Ai(2)-Gen7_Deck45.
+Player control: Ai(1)-Gen7_Deck21 is controlled by Ai(1)-Gen7_Deck21
+Player control: Ai(2)-Gen7_Deck45 is controlled by Ai(2)-Gen7_Deck45
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen7_Deck21 has won because all opponents have lost
+Game outcome: Ai(2)-Gen7_Deck45 has lost because life total reached 0
+Match result: Ai(1)-Gen7_Deck21: 1 Ai(2)-Gen7_Deck45: 0 
+
+Game Result: Game 1 ended in 11361 ms. Ai(1)-Gen7_Deck21 has won!
+
+
+=== STDERR ===

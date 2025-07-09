@@ -1,0 +1,592 @@
+=== COMBATE PARALELO: Gen0_Deck34 vs Gen0_Deck39 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck34 Gen0_Deck39 -n 1
+Duración: 35.49 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1984 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 80 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck34 vs Ai(2)-Gen0_Deck39 - one game of Constructed
+Arcane Epiphany Did not have activator set in SpellAbilityRestriction.canPlay()
+Mulligan: Ai(1)-Gen0_Deck34 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck39 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Plains (21)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Savannah Lions (22)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen0_Deck39 played Temple of Epiphany (118)
+Add to stack: Ai(2)-Gen0_Deck39 triggered Temple of Epiphany (118)
+Resolve stack: Ai(2)-Gen0_Deck39 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (118)]
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Savannah Lions (22) to attack Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck39 didn't block Savannah Lions (22).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Damage: Savannah Lions (22) deals 2 combat damage to Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck34 played Gruul Guildgate (5)
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Land: Ai(2)-Gen0_Deck39 played Rogue's Passage (73)
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Mana: Rogue's Passage (73) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck39 cast Scorching Dragonfire (80) targeting [Savannah Lions (22)]
+Damage: Scorching Dragonfire (80) deals 3 damage () to Savannah Lions (22).
+Resolve stack: Scorching Dragonfire (80) - Scorching Dragonfire (80) deals 3 damage to Savannah Lions (22).  If that creature or planeswalker would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Demolition Field (53)
+Mana: Gruul Guildgate (5) - {T}: Add {R} or {G}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Demolition Field (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Ambush Wolf (47)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(1)-Gen0_Deck34 triggered Ambush Wolf (47) targeting [Scorching Dragonfire (80)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Scorching Dragonfire (80)]]) [Zone Changer: Ambush Wolf (47)]
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Land: Ai(2)-Gen0_Deck39 played Plains (90)
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck39 cast Fanatical Firebrand (111)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Ambush Wolf (47) to attack Ai(2)-Gen0_Deck39.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Rogue's Passage (73) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck39 cast Deadly Riposte (107) targeting [Ambush Wolf (47)]
+Damage: Deadly Riposte (107) deals 3 damage () to Ambush Wolf (47).
+Resolve stack: Deadly Riposte (107) - Deadly Riposte (107) deals 3 damage to Ambush Wolf (47). Ai(2)-Gen0_Deck39 gains 2 life.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Mana: Gruul Guildgate (5) - {T}: Add {R} or {G}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Demolition Field (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Raging Redcap (10)
+Resolve stack: Raging Redcap - Creature 1 / 2
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Land: Ai(2)-Gen0_Deck39 played Mountain (112)
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck39 cast Banishing Light (79)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen0_Deck39 triggered Banishing Light (79) targeting [Raging Redcap (10)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Raging Redcap (10)]]) [Zone Changer: Banishing Light (79)]
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Cryptic Caves (1)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Land: Ai(2)-Gen0_Deck39 played Island (97)
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Plains (17)
+Mana: Plains (21) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck34 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen0_Deck34 draws a card.
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Land: Ai(2)-Gen0_Deck39 played Plains (94)
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Forest (13)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Gruul Guildgate (5) - {T}: Add {R} or {G}.
+Mana: Demolition Field (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Lyra Dawnbringer (38)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Land: Ai(2)-Gen0_Deck39 played Plains (91)
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck39 cast Fanatical Firebrand (109)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Forest (14)
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Three Tree Mascot (42)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Lyra Dawnbringer (38) to attack Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck39 didn't block Lyra Dawnbringer (38).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Damage: Lyra Dawnbringer (38) deals 5 combat damage to Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Land: Ai(2)-Gen0_Deck39 played Island (99)
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck39 cast Erudite Wizard (85)
+Resolve stack: Erudite Wizard - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Lyra Dawnbringer (38) and Three Tree Mascot (42) to attack Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck39 didn't block Lyra Dawnbringer (38).
+Ai(2)-Gen0_Deck39 assigned Erudite Wizard (85) to block Three Tree Mascot (42).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Damage: Lyra Dawnbringer (38) deals 5 combat damage to Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Damage: Three Tree Mascot (42) deals 3 damage () to Erudite Wizard (85).
+Damage: Erudite Wizard (85) deals 2 damage () to Three Tree Mascot (42).
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) and Fanatical Firebrand (109) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (109).
+Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Damage: Fanatical Firebrand (109) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Lyra Dawnbringer (38) to attack Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck39 didn't block Lyra Dawnbringer (38).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Damage: Lyra Dawnbringer (38) deals 5 combat damage to Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Fierce Empath (7)
+Resolve stack: Fierce Empath - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck34 triggered Fierce Empath (7)
+Resolve stack: When Fierce Empath enters, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle. [Zone Changer: Fierce Empath (7)]
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck39 cast Banishing Light (78)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen0_Deck39 triggered Banishing Light (78) targeting [Lyra Dawnbringer (38)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Lyra Dawnbringer (38)]]) [Zone Changer: Banishing Light (78)]
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Forest (14) - {T}: Add {G}.
+Mana: Gruul Guildgate (5) - {T}: Add {R} or {G}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Lyra Dawnbringer (37)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Add to stack: Ai(2)-Gen0_Deck39 activated Fanatical Firebrand (109) targeting [Fierce Empath (7)]
+Damage: Fanatical Firebrand (109) deals 1 damage () to Fierce Empath (7).
+Resolve stack: Fanatical Firebrand (109) - Fanatical Firebrand (109) deals 1 damage to Fierce Empath (7).
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen0_Deck39 played Tranquil Cove (72)
+Add to stack: Ai(2)-Gen0_Deck39 triggered Tranquil Cove (72)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (72)]
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Lyra Dawnbringer (37) to attack Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck39 didn't block Lyra Dawnbringer (37).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Damage: Lyra Dawnbringer (37) deals 5 combat damage to Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen0_Deck39)
+Phase: Ai(2)-Gen0_Deck39's Untap step
+Phase: Ai(2)-Gen0_Deck39's Upkeep step
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck39 activated Rogue's Passage (73) targeting [Fanatical Firebrand (111)]
+Resolve stack: Rogue's Passage (73) - Fanatical Firebrand (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck39's Draw step
+Phase: Ai(2)-Gen0_Deck39's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck39 assigned Fanatical Firebrand (111) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Fanatical Firebrand (111).
+Phase: Ai(2)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (111) deals 1 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck39's End of Combat Step
+Phase: Ai(2)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck39's End step
+Phase: Ai(2)-Gen0_Deck39's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Plains (19)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Lyra Dawnbringer (37) to attack Ai(2)-Gen0_Deck39.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck39 didn't block Lyra Dawnbringer (37).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Damage: Lyra Dawnbringer (37) deals 5 combat damage to Ai(2)-Gen0_Deck39.
+Player control: Ai(1)-Gen0_Deck34 is controlled by Ai(1)-Gen0_Deck34
+Player control: Ai(2)-Gen0_Deck39 is controlled by Ai(2)-Gen0_Deck39
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen0_Deck34 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck39 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck34: 1 Ai(2)-Gen0_Deck39: 0 
+
+Game Result: Game 1 ended in 22482 ms. Ai(1)-Gen0_Deck34 has won!
+
+
+=== STDERR ===

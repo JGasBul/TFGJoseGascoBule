@@ -1,0 +1,645 @@
+=== COMBATE PARALELO: Gen1_Deck8 vs Gen1_Deck34 ===
+Worker ID: 3987559
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck8 Gen1_Deck34 -n 1
+Duración: 36.75 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2044 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 89 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck8 vs Ai(2)-Gen1_Deck34 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck34 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck8 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Swamp (89)
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Duress (97) targeting [Ai(1)-Gen1_Deck8]
+Discard: Ai(1)-Gen1_Deck8 discards Seismic Rupture (26).
+Resolve stack: Duress (97) - Ai(1)-Gen1_Deck8 reveals their hand. Ai(2)-Gen1_Deck34 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen1_Deck8 discards that card.
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen1_Deck8 played Dismal Backwater (6)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dismal Backwater (6)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (6)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Forest (110)
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Mana: Forest (110) - {T}: Add {G}.
+Mana: Swamp (89) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Druid of the Cowl (95)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(1)-Gen1_Deck8 played Gruul Guildgate (4)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Druid of the Cowl (95) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Druid of the Cowl (95).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Damage: Druid of the Cowl (95) deals 1 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Land: Ai(2)-Gen1_Deck34 played Soulstone Sanctuary (118)
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Replacement Effect: Golgari Guildgate enters tapped.
+Land: Ai(1)-Gen1_Deck8 played Golgari Guildgate (51)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Forest (107)
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Forest (110) - {T}: Add {G}.
+Mana: Forest (107) - {T}: Add {G}.
+Mana: Druid of the Cowl (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck34 activated Soulstone Sanctuary (118)
+Resolve stack: Soulstone Sanctuary (118) - Soulstone Sanctuary (118) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Soulstone Sanctuary (118) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Damage: Soulstone Sanctuary (118) deals 3 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Swamp (49)
+Mana: Gruul Guildgate (4) - {T}: Add {R} or {G}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Grow from the Ashes (36)
+Resolve stack: Grow from the Ashes (36) - Ai(1)-Gen1_Deck8 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Forest (108)
+Mana: Forest (110) - {T}: Add {G}.
+Mana: Forest (107) - {T}: Add {G}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Forest (108) - {T}: Add {G}.
+Mana: Druid of the Cowl (95) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Biogenic Upgrade (71) targeting [Soulstone Sanctuary (118)]
+Resolve stack: Biogenic Upgrade (71) - Ai(2)-Gen1_Deck34 distributes three +1/+1 counters among Soulstone Sanctuary (118) (3 counters). Double the number of +1/+1 counters on Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (9)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Forest (9) - {T}: Add {G}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Imperious Perfect (29)
+Resolve stack: Imperious Perfect - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Swamp (79)
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Forest (110) - {T}: Add {G}.
+Mana: Forest (107) - {T}: Add {G}.
+Mana: Forest (108) - {T}: Add {G}.
+Mana: Druid of the Cowl (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Liliana, Dreadhorde General (66)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Soulstone Sanctuary (118) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Damage: Soulstone Sanctuary (118) deals 9 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Add to stack: Ai(2)-Gen1_Deck34 activated Liliana, Dreadhorde General (66)
+Resolve stack: Liliana, Dreadhorde General (66) - Ai(2)-Gen1_Deck34 creates a 2/2 black Zombie creature token.
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Swamp (48)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Swamp (49) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Infestation Sage (34)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Add to stack: Ai(2)-Gen1_Deck34 activated Liliana, Dreadhorde General (66)
+Resolve stack: Liliana, Dreadhorde General (66) - Ai(2)-Gen1_Deck34 and Ai(1)-Gen1_Deck8 sacrifice two creatures.
+Add to stack: Ai(2)-Gen1_Deck34 triggered Liliana, Dreadhorde General (66)
+Add to stack: Ai(2)-Gen1_Deck34 triggered Liliana, Dreadhorde General (66)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Infestation Sage (34)
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (34)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Druid of the Cowl (95)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Zombie Token (125)]
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Forest (110) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Quick-Draw Katana (75)
+Resolve stack: Quick-Draw Katana
+Mana: Forest (107) - {T}: Add {G}.
+Mana: Forest (108) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck34 activated Quick-Draw Katana (75) targeting [Soulstone Sanctuary (118)]
+Resolve stack: Quick-Draw Katana (75) -  Attach to Soulstone Sanctuary (118)
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Soulstone Sanctuary (118) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Insect Token (139) to block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Damage: Soulstone Sanctuary (118) deals 11 damage () to Insect Token (139).
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Forest (9) - {T}: Add {G}.
+Mana: Gruul Guildgate (4) - {T}: Add {R} or {G}.
+Mana: Golgari Guildgate (51) - {T}: Add {B} or {G}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Pelakka Wurm (52)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(1)-Gen1_Deck8 triggered Pelakka Wurm (52)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (52)]
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Soulstone Sanctuary (118) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Damage: Soulstone Sanctuary (118) deals 11 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Add to stack: Ai(2)-Gen1_Deck34 activated Liliana, Dreadhorde General (66)
+Resolve stack: Liliana, Dreadhorde General (66) - Ai(2)-Gen1_Deck34 creates a 2/2 black Zombie creature token.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Forest (110) - {T}: Add {G}.
+Mana: Forest (107) - {T}: Add {G}.
+Mana: Forest (108) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Suspicious Shambler (63)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Forest (9) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Seismic Rupture (27)
+Damage: Seismic Rupture (27) deals 2 damage () to Pelakka Wurm (52).
+Damage: Seismic Rupture (27) deals 2 damage () to Soulstone Sanctuary (118).
+Damage: Seismic Rupture (27) deals 2 damage () to Zombie Token (144).
+Damage: Seismic Rupture (27) deals 2 damage () to Suspicious Shambler (63).
+Resolve stack: Seismic Rupture (27) - Deals 2 damage to each creature without flying.
+Add to stack: Ai(2)-Gen1_Deck34 triggered Liliana, Dreadhorde General (66)
+Add to stack: Ai(2)-Gen1_Deck34 triggered Liliana, Dreadhorde General (66)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Suspicious Shambler (63)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Zombie Token (144)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Mana: Gruul Guildgate (4) - {T}: Add {R} or {G}.
+Mana: Golgari Guildgate (51) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Soul-Shackled Zombie (42)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(1)-Gen1_Deck8 triggered Soul-Shackled Zombie (42) targeting [Biogenic Upgrade (71), Suspicious Shambler (63)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Biogenic Upgrade (71), Suspicious Shambler (63)]]) [Zone Changer: Soul-Shackled Zombie (42)]
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Swamp (90)
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Soulstone Sanctuary (118) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Soul-Shackled Zombie (42) to block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Damage: Soulstone Sanctuary (118) deals 11 damage () to Soul-Shackled Zombie (42).
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Add to stack: Ai(2)-Gen1_Deck34 activated Liliana, Dreadhorde General (66)
+Resolve stack: Liliana, Dreadhorde General (66) - Ai(2)-Gen1_Deck34 creates a 2/2 black Zombie creature token.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Kalastria Highborn (115)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Forest (9) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Seismic Rupture (25)
+Damage: Seismic Rupture (25) deals 2 damage () to Pelakka Wurm (52).
+Damage: Seismic Rupture (25) deals 2 damage () to Soulstone Sanctuary (118).
+Damage: Seismic Rupture (25) deals 2 damage () to Zombie Token (149).
+Damage: Seismic Rupture (25) deals 2 damage () to Kalastria Highborn (115).
+Resolve stack: Seismic Rupture (25) - Deals 2 damage to each creature without flying.
+Add to stack: Ai(2)-Gen1_Deck34 triggered Kalastria Highborn (115) targeting [Ai(1)-Gen1_Deck8]
+Add to stack: Ai(2)-Gen1_Deck34 triggered Liliana, Dreadhorde General (66)
+Add to stack: Ai(2)-Gen1_Deck34 triggered Liliana, Dreadhorde General (66)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Kalastria Highborn (115)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Zombie Token (149)]
+Mana: Swamp (90) - {T}: Add {B}.
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(1)-Gen1_Deck8]]) [Zone Changer: Kalastria Highborn (115)]
+Mana: Gruul Guildgate (4) - {T}: Add {R} or {G}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Grow from the Ashes (35)
+Resolve stack: Grow from the Ashes (35) - Ai(1)-Gen1_Deck8 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Forest (109)
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Soulstone Sanctuary (118) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Pelakka Wurm (52) to block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Damage: Soulstone Sanctuary (118) deals 11 damage () to Pelakka Wurm (52).
+Add to stack: Ai(1)-Gen1_Deck8 triggered Pelakka Wurm (52)
+Resolve stack: When Pelakka Wurm dies, draw a card. [Zone Changer: Pelakka Wurm (52)]
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Add to stack: Ai(2)-Gen1_Deck34 activated Liliana, Dreadhorde General (66)
+Resolve stack: Liliana, Dreadhorde General (66) - Ai(2)-Gen1_Deck34 creates a 2/2 black Zombie creature token.
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Forest (9) - {T}: Add {G}.
+Mana: Gruul Guildgate (4) - {T}: Add {R} or {G}.
+Mana: Golgari Guildgate (51) - {T}: Add {B} or {G}.
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Aggressive Mammoth (54)
+Resolve stack: Aggressive Mammoth - Creature 8 / 8
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Swamp (81)
+Mana: Forest (110) - {T}: Add {G}.
+Mana: Forest (107) - {T}: Add {G}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Forest (108) - {T}: Add {G}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Biogenic Upgrade (70) targeting [Soulstone Sanctuary (118)]
+Resolve stack: Biogenic Upgrade (70) - Ai(2)-Gen1_Deck34 distributes three +1/+1 counters among Soulstone Sanctuary (118) (3 counters). Double the number of +1/+1 counters on Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Soulstone Sanctuary (118) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Aggressive Mammoth (54) to block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Damage: Soulstone Sanctuary (118) deals 23 damage () to Aggressive Mammoth (54).
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Add to stack: Ai(2)-Gen1_Deck34 activated Liliana, Dreadhorde General (66)
+Resolve stack: Liliana, Dreadhorde General (66) - Ai(2)-Gen1_Deck34 creates a 2/2 black Zombie creature token.
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Forest (9) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Bake into a Pie (55) targeting [Soulstone Sanctuary (118)]
+Resolve stack: Bake into a Pie (55) - Destroy Soulstone Sanctuary (118). 
+Add to stack: Ai(2)-Gen1_Deck34 triggered Liliana, Dreadhorde General (66)
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck8 activated Food Token (162)
+Resolve stack: Food Token (162) - Ai(1)-Gen1_Deck8 gains 3 life.
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Soulstone Sanctuary (118)]
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Forest (102)
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Forest (110) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck34 activated Quick-Draw Katana (75) targeting [Zombie Token (154)]
+Resolve stack: Quick-Draw Katana (75) -  Attach to Zombie Token (154)
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Zombie Token (154) and Zombie Token (160) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Zombie Token (160).
+Ai(1)-Gen1_Deck8 didn't block Zombie Token (154).
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Damage: Zombie Token (154) deals 4 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Damage: Zombie Token (160) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's End of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Main phase, postcombat
+Add to stack: Ai(2)-Gen1_Deck34 activated Liliana, Dreadhorde General (66)
+Resolve stack: Liliana, Dreadhorde General (66) - Ai(2)-Gen1_Deck34 creates a 2/2 black Zombie creature token.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Forest (107) - {T}: Add {G}.
+Mana: Forest (108) - {T}: Add {G}.
+Mana: Forest (109) - {T}: Add {G}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Forest (102) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck34 cast Rune-Scarred Demon (77)
+Resolve stack: Rune-Scarred Demon - Creature 6 / 6
+Add to stack: Ai(2)-Gen1_Deck34 triggered Rune-Scarred Demon (77)
+Resolve stack: When Rune-Scarred Demon enters, you may search your library for a card, put it into your hand, then shuffle. [Zone Changer: Rune-Scarred Demon (77)]
+Phase: Ai(2)-Gen1_Deck34's End step
+Phase: Ai(2)-Gen1_Deck34's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Mountain (60)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Forest (9) - {T}: Add {G}.
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Soul-Shackled Zombie (41)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(1)-Gen1_Deck8 triggered Soul-Shackled Zombie (41) targeting [Biogenic Upgrade (70), Kalastria Highborn (115)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Biogenic Upgrade (70), Kalastria Highborn (115)]]) [Zone Changer: Soul-Shackled Zombie (41)]
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen1_Deck34)
+Phase: Ai(2)-Gen1_Deck34's Untap step
+Phase: Ai(2)-Gen1_Deck34's Upkeep step
+Phase: Ai(2)-Gen1_Deck34's Draw step
+Phase: Ai(2)-Gen1_Deck34's Main phase, precombat
+Land: Ai(2)-Gen1_Deck34 played Swamp (86)
+Phase: Ai(2)-Gen1_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck34 assigned Rune-Scarred Demon (77), Zombie Token (154), Zombie Token (160) and Zombie Token (168) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Zombie Token (160).
+Ai(1)-Gen1_Deck8 didn't block Zombie Token (168).
+Ai(1)-Gen1_Deck8 assigned Soul-Shackled Zombie (41) to block Zombie Token (154).
+Ai(1)-Gen1_Deck8 didn't block Rune-Scarred Demon (77).
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Dive Down (18) targeting [Soul-Shackled Zombie (41)]
+Resolve stack: Dive Down (18) - Soul-Shackled Zombie (41) gets +0/+3 and gains hexproof until end of turn.
+Phase: Ai(2)-Gen1_Deck34's First Strike Damage Step
+Damage: Zombie Token (154) deals 4 damage () to Soul-Shackled Zombie (41).
+Phase: Ai(2)-Gen1_Deck34's Combat Damage Step
+Damage: Rune-Scarred Demon (77) deals 6 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Zombie Token (160) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Zombie Token (168) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Soul-Shackled Zombie (41) deals 4 damage () to Zombie Token (154).
+Player control: Ai(1)-Gen1_Deck8 is controlled by Ai(1)-Gen1_Deck8
+Player control: Ai(2)-Gen1_Deck34 is controlled by Ai(2)-Gen1_Deck34
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen1_Deck8 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck34 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck8: 0 Ai(2)-Gen1_Deck34: 1 
+
+Game Result: Game 1 ended in 23779 ms. Ai(2)-Gen1_Deck34 has won!
+
+
+=== STDERR ===

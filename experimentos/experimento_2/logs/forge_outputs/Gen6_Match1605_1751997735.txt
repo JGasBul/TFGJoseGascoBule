@@ -1,0 +1,357 @@
+=== COMBATE PARALELO: Gen6_Deck20 vs Gen6_Deck33 ===
+Worker ID: 2514425
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck20 Gen6_Deck33 -n 1
+Duración: 25.24 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1965 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 97 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck20 vs Ai(2)-Gen6_Deck33 - one game of Constructed
+Mulligan: Ai(1)-Gen6_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen6_Deck33 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen6_Deck20)
+Phase: Ai(1)-Gen6_Deck20's Untap step
+Phase: Ai(1)-Gen6_Deck20's Upkeep step
+Phase: Ai(1)-Gen6_Deck20's Draw step
+Phase: Ai(1)-Gen6_Deck20's Main phase, precombat
+Land: Ai(1)-Gen6_Deck20 played Forest (15)
+Phase: Ai(1)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck20's End of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck20's End step
+Phase: Ai(1)-Gen6_Deck20's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen6_Deck33)
+Phase: Ai(2)-Gen6_Deck33's Untap step
+Phase: Ai(2)-Gen6_Deck33's Upkeep step
+Phase: Ai(2)-Gen6_Deck33's Draw step
+Phase: Ai(2)-Gen6_Deck33's Main phase, precombat
+Land: Ai(2)-Gen6_Deck33 played Plains (70)
+Phase: Ai(2)-Gen6_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck33's End of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Main phase, postcombat
+Mana: Plains (70) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck33 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen6_Deck33's End step
+Phase: Ai(2)-Gen6_Deck33's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen6_Deck20)
+Phase: Ai(1)-Gen6_Deck20's Untap step
+Phase: Ai(1)-Gen6_Deck20's Upkeep step
+Phase: Ai(1)-Gen6_Deck20's Draw step
+Phase: Ai(1)-Gen6_Deck20's Main phase, precombat
+Land: Ai(1)-Gen6_Deck20 played Swamp (40)
+Phase: Ai(1)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck20's End of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Swamp (40) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen6_Deck20 cast Wary Thespian (24)
+Resolve stack: Wary Thespian - Creature 3 / 1
+Add to stack: Ai(1)-Gen6_Deck20 triggered Wary Thespian (24)
+Resolve stack: Ai(1)-Gen6_Deck20 surveiled 1 card(s) to the top of the library
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (24)]
+Phase: Ai(1)-Gen6_Deck20's End step
+Phase: Ai(1)-Gen6_Deck20's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen6_Deck33)
+Phase: Ai(2)-Gen6_Deck33's Untap step
+Phase: Ai(2)-Gen6_Deck33's Upkeep step
+Phase: Ai(2)-Gen6_Deck33's Draw step
+Phase: Ai(2)-Gen6_Deck33's Main phase, precombat
+Land: Ai(2)-Gen6_Deck33 played Mountain (116)
+Add to stack: Ai(2)-Gen6_Deck33 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (116)]
+Phase: Ai(2)-Gen6_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck33's End of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Main phase, postcombat
+Mana: Plains (70) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen6_Deck33 cast Dawnwing Marshal (109)
+Resolve stack: Dawnwing Marshal - Creature 2 / 2
+Phase: Ai(2)-Gen6_Deck33's End step
+Phase: Ai(2)-Gen6_Deck33's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen6_Deck20)
+Phase: Ai(1)-Gen6_Deck20's Untap step
+Phase: Ai(1)-Gen6_Deck20's Upkeep step
+Phase: Ai(1)-Gen6_Deck20's Draw step
+Phase: Ai(1)-Gen6_Deck20's Main phase, precombat
+Land: Ai(1)-Gen6_Deck20 played Forest (20)
+Phase: Ai(1)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck20's End of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck20's End step
+Phase: Ai(1)-Gen6_Deck20's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen6_Deck33)
+Phase: Ai(2)-Gen6_Deck33's Untap step
+Phase: Ai(2)-Gen6_Deck33's Upkeep step
+Phase: Ai(2)-Gen6_Deck33's Draw step
+Phase: Ai(2)-Gen6_Deck33's Main phase, precombat
+Land: Ai(2)-Gen6_Deck33 played Plains (71)
+Add to stack: Ai(2)-Gen6_Deck33 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (71)]
+Mana: Plains (70) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck33 activated Adventuring Gear (61) targeting [Dawnwing Marshal (109)]
+Resolve stack: Adventuring Gear (61) -  Attach to Dawnwing Marshal (109)
+Phase: Ai(2)-Gen6_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck33 assigned Dawnwing Marshal (109) to attack Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck20 didn't block Dawnwing Marshal (109).
+Phase: Ai(2)-Gen6_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck33's Combat Damage Step
+Damage: Dawnwing Marshal (109) deals 2 combat damage to Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's End of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck33's End step
+Phase: Ai(2)-Gen6_Deck33's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen6_Deck20)
+Phase: Ai(1)-Gen6_Deck20's Untap step
+Phase: Ai(1)-Gen6_Deck20's Upkeep step
+Phase: Ai(1)-Gen6_Deck20's Draw step
+Phase: Ai(1)-Gen6_Deck20's Main phase, precombat
+Land: Ai(1)-Gen6_Deck20 played Cryptic Caves (1)
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Cryptic Caves (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck20 cast Dwynen, Gilt-Leaf Daen (11)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(1)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck20 assigned Wary Thespian (24) to attack Ai(2)-Gen6_Deck33.
+Phase: Ai(1)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck33 didn't block Wary Thespian (24).
+Phase: Ai(1)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck20's Combat Damage Step
+Damage: Wary Thespian (24) deals 3 combat damage to Ai(2)-Gen6_Deck33.
+Phase: Ai(1)-Gen6_Deck20's End of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck20's End step
+Phase: Ai(1)-Gen6_Deck20's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen6_Deck33)
+Phase: Ai(2)-Gen6_Deck33's Untap step
+Phase: Ai(2)-Gen6_Deck33's Upkeep step
+Phase: Ai(2)-Gen6_Deck33's Draw step
+Phase: Ai(2)-Gen6_Deck33's Main phase, precombat
+Land: Ai(2)-Gen6_Deck33 played Swamp (92)
+Add to stack: Ai(2)-Gen6_Deck33 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (92)]
+Phase: Ai(2)-Gen6_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck33 assigned Dawnwing Marshal (109) to attack Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck20 didn't block Dawnwing Marshal (109).
+Phase: Ai(2)-Gen6_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck33's Combat Damage Step
+Damage: Dawnwing Marshal (109) deals 4 combat damage to Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's End of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Main phase, postcombat
+Mana: Plains (70) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (92) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck33 cast Juggernaut (64)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(2)-Gen6_Deck33's End step
+Phase: Ai(2)-Gen6_Deck33's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen6_Deck20)
+Phase: Ai(1)-Gen6_Deck20's Untap step
+Phase: Ai(1)-Gen6_Deck20's Upkeep step
+Phase: Ai(1)-Gen6_Deck20's Draw step
+Phase: Ai(1)-Gen6_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck20's Beginning of Combat Step
+Mana: Forest (15) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck20 cast Giant Growth (36) targeting [Dwynen, Gilt-Leaf Daen (11)]
+Resolve stack: Giant Growth (36) - Dwynen, Gilt-Leaf Daen (11) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck20 assigned Dwynen, Gilt-Leaf Daen (11) and Wary Thespian (24) to attack Ai(2)-Gen6_Deck33.
+Add to stack: Ai(1)-Gen6_Deck20 triggered Dwynen, Gilt-Leaf Daen (11)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (11)]
+Phase: Ai(1)-Gen6_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck33 didn't block Wary Thespian (24).
+Ai(2)-Gen6_Deck33 didn't block Dwynen, Gilt-Leaf Daen (11).
+Phase: Ai(1)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck20's Combat Damage Step
+Damage: Dwynen, Gilt-Leaf Daen (11) deals 6 combat damage to Ai(2)-Gen6_Deck33.
+Damage: Wary Thespian (24) deals 3 combat damage to Ai(2)-Gen6_Deck33.
+Phase: Ai(1)-Gen6_Deck20's End of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck20's End step
+Phase: Ai(1)-Gen6_Deck20's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen6_Deck33)
+Phase: Ai(2)-Gen6_Deck33's Untap step
+Phase: Ai(2)-Gen6_Deck33's Upkeep step
+Phase: Ai(2)-Gen6_Deck33's Draw step
+Phase: Ai(2)-Gen6_Deck33's Main phase, precombat
+Land: Ai(2)-Gen6_Deck33 played Evolving Wilds (101)
+Add to stack: Ai(2)-Gen6_Deck33 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Evolving Wilds (101)]
+Add to stack: Ai(2)-Gen6_Deck33 activated Evolving Wilds (101)
+Resolve stack: Evolving Wilds (101) - Ai(2)-Gen6_Deck33 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Add to stack: Ai(2)-Gen6_Deck33 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (77)]
+Phase: Ai(2)-Gen6_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck33 assigned Juggernaut (64) and Dawnwing Marshal (109) to attack Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck20 didn't block Juggernaut (64).
+Ai(1)-Gen6_Deck20 didn't block Dawnwing Marshal (109).
+Phase: Ai(2)-Gen6_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck33's Combat Damage Step
+Damage: Juggernaut (64) deals 5 combat damage to Ai(1)-Gen6_Deck20.
+Damage: Dawnwing Marshal (109) deals 6 combat damage to Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's End of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Main phase, postcombat
+Mana: Plains (70) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (92) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck33 cast Angel of Finality (90)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(2)-Gen6_Deck33 triggered Angel of Finality (90) targeting [Ai(1)-Gen6_Deck20]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(1)-Gen6_Deck20]]) [Zone Changer: Angel of Finality (90)]
+Phase: Ai(2)-Gen6_Deck33's End step
+Phase: Ai(2)-Gen6_Deck33's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen6_Deck20)
+Phase: Ai(1)-Gen6_Deck20's Untap step
+Phase: Ai(1)-Gen6_Deck20's Upkeep step
+Phase: Ai(1)-Gen6_Deck20's Draw step
+Phase: Ai(1)-Gen6_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck20's End of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Swamp (40) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen6_Deck20 cast Nessian Hornbeetle (51)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen6_Deck20's End step
+Phase: Ai(1)-Gen6_Deck20's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen6_Deck33)
+Phase: Ai(2)-Gen6_Deck33's Untap step
+Phase: Ai(2)-Gen6_Deck33's Upkeep step
+Mana: Plains (70) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Island (77) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen6_Deck33 activated Dawnwing Marshal (109)
+Resolve stack: Dawnwing Marshal (109) - Creatures you control get +1/+1 until end of turn.
+Phase: Ai(2)-Gen6_Deck33's Draw step
+Phase: Ai(2)-Gen6_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck33 assigned Juggernaut (64) and Angel of Finality (90) to attack Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck20 assigned Nessian Hornbeetle (51) and Wary Thespian (24) to block Juggernaut (64).
+Ai(1)-Gen6_Deck20 assigned Dwynen, Gilt-Leaf Daen (11) to block Angel of Finality (90).
+Phase: Ai(2)-Gen6_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck33's Combat Damage Step
+Damage: Juggernaut (64) deals 2 damage () to Nessian Hornbeetle (51).
+Damage: Juggernaut (64) deals 4 damage () to Wary Thespian (24).
+Damage: Angel of Finality (90) deals 4 damage () to Dwynen, Gilt-Leaf Daen (11).
+Damage: Nessian Hornbeetle (51) deals 2 damage () to Juggernaut (64).
+Damage: Wary Thespian (24) deals 3 damage () to Juggernaut (64).
+Damage: Dwynen, Gilt-Leaf Daen (11) deals 3 damage () to Angel of Finality (90).
+Add to stack: Ai(1)-Gen6_Deck20 triggered Wary Thespian (24)
+Resolve stack: Ai(1)-Gen6_Deck20 surveiled 1 card(s) to the top of the library
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (24)]
+Phase: Ai(2)-Gen6_Deck33's End of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck33's End step
+Phase: Ai(2)-Gen6_Deck33's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen6_Deck20)
+Phase: Ai(1)-Gen6_Deck20's Untap step
+Phase: Ai(1)-Gen6_Deck20's Upkeep step
+Phase: Ai(1)-Gen6_Deck20's Draw step
+Phase: Ai(1)-Gen6_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck20's End of Combat Step
+Phase: Ai(1)-Gen6_Deck20's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Cryptic Caves (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck20 cast Dwynen, Gilt-Leaf Daen (10)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(1)-Gen6_Deck20's End step
+Phase: Ai(1)-Gen6_Deck20's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen6_Deck33)
+Phase: Ai(2)-Gen6_Deck33's Untap step
+Phase: Ai(2)-Gen6_Deck33's Upkeep step
+Mana: Plains (70) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Island (77) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen6_Deck33 activated Dawnwing Marshal (109)
+Resolve stack: Dawnwing Marshal (109) - Creatures you control get +1/+1 until end of turn.
+Phase: Ai(2)-Gen6_Deck33's Draw step
+Phase: Ai(2)-Gen6_Deck33's Main phase, precombat
+Land: Ai(2)-Gen6_Deck33 played Swamp (93)
+Add to stack: Ai(2)-Gen6_Deck33 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (93)]
+Phase: Ai(2)-Gen6_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck33 assigned Dawnwing Marshal (109) and Angel of Finality (90) to attack Ai(1)-Gen6_Deck20.
+Phase: Ai(2)-Gen6_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck20 didn't block Angel of Finality (90).
+Ai(1)-Gen6_Deck20 assigned Dwynen, Gilt-Leaf Daen (10) to block Dawnwing Marshal (109).
+Phase: Ai(2)-Gen6_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck33's Combat Damage Step
+Damage: Dawnwing Marshal (109) deals 5 damage () to Dwynen, Gilt-Leaf Daen (10).
+Damage: Angel of Finality (90) deals 4 combat damage to Ai(1)-Gen6_Deck20.
+Damage: Dwynen, Gilt-Leaf Daen (10) deals 3 damage () to Dawnwing Marshal (109).
+Player control: Ai(1)-Gen6_Deck20 is controlled by Ai(1)-Gen6_Deck20
+Player control: Ai(2)-Gen6_Deck33 is controlled by Ai(2)-Gen6_Deck33
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen6_Deck20 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck33 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck20: 0 Ai(2)-Gen6_Deck33: 1 
+
+Game Result: Game 1 ended in 12740 ms. Ai(2)-Gen6_Deck33 has won!
+
+
+=== STDERR ===

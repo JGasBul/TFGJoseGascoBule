@@ -1,0 +1,632 @@
+=== COMBATE PARALELO: Gen0_Deck34 vs Gen0_Deck38 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck34 Gen0_Deck38 -n 1
+Duración: 50.06 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1944 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 54 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck34 vs Ai(2)-Gen0_Deck38 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck38 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck34 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Plains (96)
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Savannah Lions (104)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Soulstone Sanctuary (30)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Forest (92)
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Savannah Lions (104) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Savannah Lions (104).
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Damage: Savannah Lions (104) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Forest (13)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Swamp (88)
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Savannah Lions (104) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Savannah Lions (104).
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Damage: Savannah Lions (104) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Soulstone Sanctuary (32)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Cryptic Caves (65)
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Savannah Lions (104) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Savannah Lions (104).
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Damage: Savannah Lions (104) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Mountain (57)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Cryptic Caves (64)
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck38 activated Cryptic Caves (65)
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (30) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Ambush Wolf (49)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(1)-Gen0_Deck34 triggered Ambush Wolf (49) targeting [Cryptic Caves (65)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Cryptic Caves (65)]]) [Zone Changer: Ambush Wolf (49)]
+Resolve stack: Cryptic Caves (65) - Ai(2)-Gen0_Deck38 draws a card.
+Mana: Swamp (88) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Deathmark (118) targeting [Ambush Wolf (49)]
+Resolve stack: Deathmark (118) - Destroy Ambush Wolf (49).
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Savannah Lions (104) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Savannah Lions (104).
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Damage: Savannah Lions (104) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Soulstone Sanctuary (31)
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (32) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (31) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 activated Soulstone Sanctuary (30)
+Resolve stack: Soulstone Sanctuary (30) - Soulstone Sanctuary (30) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Soulstone Sanctuary (30) to attack Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck38 didn't block Soulstone Sanctuary (30).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Damage: Soulstone Sanctuary (30) deals 3 combat damage to Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Cryptic Caves (63)
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck38 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen0_Deck38 draws a card.
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (31) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (30) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 activated Soulstone Sanctuary (32)
+Resolve stack: Soulstone Sanctuary (32) - Soulstone Sanctuary (32) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Forest (14)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Soulstone Sanctuary (32) to attack Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck38 didn't block Soulstone Sanctuary (32).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Damage: Soulstone Sanctuary (32) deals 3 combat damage to Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Plains (98)
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck38 activated Cryptic Caves (63)
+Resolve stack: Cryptic Caves (63) - Ai(2)-Gen0_Deck38 draws a card.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (92) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Deadly Riposte (111) targeting [Soulstone Sanctuary (30)]
+Damage: Deadly Riposte (111) deals 3 damage () to Soulstone Sanctuary (30).
+Resolve stack: Deadly Riposte (111) - Deadly Riposte (111) deals 3 damage to Soulstone Sanctuary (30). Ai(2)-Gen0_Deck38 gains 2 life.
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Forest (14) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (32) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 activated Soulstone Sanctuary (31)
+Resolve stack: Soulstone Sanctuary (31) - Soulstone Sanctuary (31) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Demolition Field (55)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Soulstone Sanctuary (31) to attack Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck38 didn't block Soulstone Sanctuary (31).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Damage: Soulstone Sanctuary (31) deals 3 combat damage to Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Swamp (85)
+Mana: Swamp (88) - {T}: Add {B}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Death Baron (70)
+Resolve stack: Death Baron - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Dwynen's Elite (61)
+Resolve stack: Dwynen's Elite - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck34 played Gruul Guildgate (5)
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Forest (14) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Ambush Wolf (46)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(1)-Gen0_Deck34 triggered Ambush Wolf (46) targeting [Deadly Riposte (111)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Deadly Riposte (111)]]) [Zone Changer: Ambush Wolf (46)]
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Soulstone Sanctuary (32) and Soulstone Sanctuary (31) to attack Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Dwynen's Elite (61) and Death Baron (70) to block Soulstone Sanctuary (32).
+Ai(2)-Gen0_Deck38 didn't block Soulstone Sanctuary (31).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Damage: Soulstone Sanctuary (32) deals 1 damage () to Death Baron (70).
+Damage: Soulstone Sanctuary (32) deals 2 damage () to Dwynen's Elite (61).
+Damage: Soulstone Sanctuary (31) deals 3 combat damage to Ai(2)-Gen0_Deck38.
+Damage: Dwynen's Elite (61) deals 2 damage () to Soulstone Sanctuary (32).
+Damage: Death Baron (70) deals 2 damage () to Soulstone Sanctuary (32).
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Land: Ai(2)-Gen0_Deck38 played Swamp (87)
+Mana: Swamp (88) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Deathmark (119) targeting [Ambush Wolf (46)]
+Resolve stack: Deathmark (119) - Destroy Ambush Wolf (46).
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Forest (92) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Skyknight Squire (72)
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Demolition Field (53)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 assigned Soulstone Sanctuary (31) to attack Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck38 didn't block Soulstone Sanctuary (31).
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Damage: Soulstone Sanctuary (31) deals 3 combat damage to Ai(2)-Gen0_Deck38.
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Gruul Guildgate (5) - {T}: Add {R} or {G}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Forest (14) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Strongbox Raider (52)
+Resolve stack: Strongbox Raider - Creature 5 / 2
+Add to stack: Ai(1)-Gen0_Deck34 triggered Strongbox Raider (52)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card. [Zone Changer: Strongbox Raider (52)]
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Swamp (88) - {T}: Add {B}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Ancestor Dragon (109)
+Resolve stack: Ancestor Dragon - Creature 5 / 6
+Add to stack: Ai(2)-Gen0_Deck38 triggered Skyknight Squire (72)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Ancestor Dragon (109)]
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Mountain (56)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Forest (14) - {T}: Add {G}.
+Mana: Gruul Guildgate (5) - {T}: Add {R} or {G}.
+Mana: Demolition Field (55) - {T}: Add {C}.
+Mana: Demolition Field (53) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (31) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Goblin Negotiation (4) targeting [Ancestor Dragon (109)]
+Damage: Goblin Negotiation (4) deals 6 damage () to Ancestor Dragon (109).
+Resolve stack: Goblin Negotiation (4) - Goblin Negotiation (4) deals 6 damage to Ancestor Dragon (109).  (X=6)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Forest (92) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Deadly Riposte (112) targeting [Soulstone Sanctuary (31)]
+Damage: Deadly Riposte (112) deals 3 damage () to Soulstone Sanctuary (31).
+Resolve stack: Deadly Riposte (112) - Deadly Riposte (112) deals 3 damage to Soulstone Sanctuary (31). Ai(2)-Gen0_Deck38 gains 2 life.
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Swamp (88) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Giada, Font of Hope (116)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck38 triggered Skyknight Squire (72)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Giada, Font of Hope (116)]
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Plains (17)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Forest (14) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Vivien Reid (35)
+Replacement Effect: Vivien Reid enters with five loyalty counters on it.
+Resolve stack: Vivien Reid
+Add to stack: Ai(1)-Gen0_Deck34 activated Vivien Reid (35) targeting [Giada, Font of Hope (116)]
+Resolve stack: Vivien Reid (35) - Destroy Giada, Font of Hope (116).
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Death Baron (70) to attack Ai(1)-Gen0_Deck34.
+Ai(2)-Gen0_Deck38 assigned Skyknight Squire (72) and Savannah Lions (104) to attack Vivien Reid (35).
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Death Baron (70).
+Ai(1)-Gen0_Deck34 didn't block Skyknight Squire (72).
+Ai(1)-Gen0_Deck34 didn't block Savannah Lions (104).
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Damage: Death Baron (70) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Thornweald Archer (106)
+Resolve stack: Thornweald Archer - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck38 triggered Skyknight Squire (72)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Thornweald Archer (106)]
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Land: Ai(1)-Gen0_Deck34 played Mountain (60)
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck34 cast Three Tree Mascot (42)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Swamp (88) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck38 cast Banishing Light (83)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen0_Deck38 triggered Banishing Light (83) targeting [Strongbox Raider (52)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Strongbox Raider (52)]]) [Zone Changer: Banishing Light (83)]
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Skyknight Squire (72), Savannah Lions (104), Death Baron (70) and Thornweald Archer (106) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Death Baron (70).
+Ai(1)-Gen0_Deck34 didn't block Skyknight Squire (72).
+Ai(1)-Gen0_Deck34 didn't block Savannah Lions (104).
+Ai(1)-Gen0_Deck34 assigned Three Tree Mascot (42) to block Thornweald Archer (106).
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Damage: Skyknight Squire (72) deals 4 combat damage to Ai(1)-Gen0_Deck34.
+Damage: Savannah Lions (104) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Damage: Death Baron (70) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Damage: Thornweald Archer (106) deals 2 damage (Deathtouch) to Three Tree Mascot (42).
+Damage: Three Tree Mascot (42) deals 2 damage () to Thornweald Archer (106).
+Phase: Ai(2)-Gen0_Deck38's End of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck38's End step
+Phase: Ai(2)-Gen0_Deck38's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen0_Deck34)
+Phase: Ai(1)-Gen0_Deck34's Untap step
+Phase: Ai(1)-Gen0_Deck34's Upkeep step
+Phase: Ai(1)-Gen0_Deck34's Draw step
+Phase: Ai(1)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck34's End of Combat Step
+Phase: Ai(1)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck34's End step
+Phase: Ai(1)-Gen0_Deck34's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen0_Deck38)
+Phase: Ai(2)-Gen0_Deck38's Untap step
+Phase: Ai(2)-Gen0_Deck38's Upkeep step
+Phase: Ai(2)-Gen0_Deck38's Draw step
+Phase: Ai(2)-Gen0_Deck38's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck38 assigned Skyknight Squire (72), Savannah Lions (104) and Death Baron (70) to attack Ai(1)-Gen0_Deck34.
+Phase: Ai(2)-Gen0_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck34 didn't block Death Baron (70).
+Ai(1)-Gen0_Deck34 didn't block Skyknight Squire (72).
+Ai(1)-Gen0_Deck34 didn't block Savannah Lions (104).
+Phase: Ai(2)-Gen0_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck38's Combat Damage Step
+Damage: Skyknight Squire (72) deals 4 combat damage to Ai(1)-Gen0_Deck34.
+Damage: Savannah Lions (104) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Damage: Death Baron (70) deals 2 combat damage to Ai(1)-Gen0_Deck34.
+Player control: Ai(1)-Gen0_Deck34 is controlled by Ai(1)-Gen0_Deck34
+Player control: Ai(2)-Gen0_Deck38 is controlled by Ai(2)-Gen0_Deck38
+Game outcome: Turn 14
+Game outcome: Ai(1)-Gen0_Deck34 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck38 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck34: 0 Ai(2)-Gen0_Deck38: 1 
+
+Game Result: Game 1 ended in 37976 ms. Ai(2)-Gen0_Deck38 has won!
+
+
+=== STDERR ===

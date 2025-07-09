@@ -1,0 +1,291 @@
+=== COMBATE PARALELO: Gen0_Deck18 vs Gen0_Deck34 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck18 Gen0_Deck34 -n 1
+Duración: 25.58 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1865 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 96 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck18 vs Ai(2)-Gen0_Deck34 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck34 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck18 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Plains (80)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Savannah Lions (82)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Replacement Effect: Dimir Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck18 played Dimir Guildgate (37)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 assigned Savannah Lions (82) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 didn't block Savannah Lions (82).
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Damage: Savannah Lions (82) deals 2 combat damage to Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck34 played Forest (74)
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Island (28)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Dimir Guildgate (37) - {T}: Add {U} or {B}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Vampire Interloper (2)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Mountain (118)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 assigned Savannah Lions (82) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 didn't block Savannah Lions (82).
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Damage: Savannah Lions (82) deals 2 combat damage to Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Fierce Empath (67)
+Resolve stack: Fierce Empath - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck34 triggered Fierce Empath (67)
+Resolve stack: When Fierce Empath enters, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle. [Zone Changer: Fierce Empath (67)]
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Swamp (11)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Vampire Interloper (2) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 didn't block Vampire Interloper (2).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Vampire Interloper (2) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Dimir Guildgate (37) - {T}: Add {U} or {B}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Vampire Nighthawk (35)
+Resolve stack: Vampire Nighthawk - Creature 2 / 3
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Demolition Field (113)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Island (29)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Vampire Interloper (2) and Vampire Nighthawk (35) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 didn't block Vampire Interloper (2).
+Ai(2)-Gen0_Deck34 didn't block Vampire Nighthawk (35).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Vampire Interloper (2) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Vampire Nighthawk (35) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Dimir Guildgate (37) - {T}: Add {U} or {B}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Island (29) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Desecration Demon (5)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck18 triggered Desecration Demon (5)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen0_Deck34]
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Fierce Empath (68)
+Resolve stack: Fierce Empath - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck34 triggered Fierce Empath (68)
+Resolve stack: When Fierce Empath enters, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle. [Zone Changer: Fierce Empath (68)]
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Swamp (16)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck18 triggered Desecration Demon (5)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen0_Deck18]
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Vampire Interloper (2), Desecration Demon (5) and Vampire Nighthawk (35) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 didn't block Vampire Interloper (2).
+Ai(2)-Gen0_Deck34 didn't block Vampire Nighthawk (35).
+Ai(2)-Gen0_Deck34 didn't block Desecration Demon (5).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Vampire Interloper (2) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Desecration Demon (5) deals 6 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Vampire Nighthawk (35) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Island (28) - {T}: Add {U}.
+Mana: Island (29) - {T}: Add {U}.
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Dimir Guildgate (37) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Archmage of Runes (32)
+Resolve stack: Archmage of Runes - Creature 3 / 6
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Stroke of Midnight (84) targeting [Desecration Demon (5)]
+Resolve stack: Stroke of Midnight (84) - Destroy Desecration Demon (5). 
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Archmage of Runes (32), Vampire Interloper (2), Vampire Nighthawk (35) and Human Token (122) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 assigned Fierce Empath (67) to block Archmage of Runes (32).
+Ai(2)-Gen0_Deck34 didn't block Vampire Interloper (2).
+Ai(2)-Gen0_Deck34 didn't block Vampire Nighthawk (35).
+Ai(2)-Gen0_Deck34 assigned Fierce Empath (68) to block Human Token (122).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Archmage of Runes (32) deals 3 damage () to Fierce Empath (67).
+Damage: Vampire Interloper (2) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Vampire Nighthawk (35) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Human Token (122) deals 1 damage () to Fierce Empath (68).
+Damage: Fierce Empath (67) deals 1 damage () to Archmage of Runes (32).
+Damage: Fierce Empath (68) deals 1 damage () to Human Token (122).
+Player control: Ai(1)-Gen0_Deck18 is controlled by Ai(1)-Gen0_Deck18
+Player control: Ai(2)-Gen0_Deck34 is controlled by Ai(2)-Gen0_Deck34
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen0_Deck18 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck34 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck18: 1 Ai(2)-Gen0_Deck34: 0 
+
+Game Result: Game 1 ended in 12768 ms. Ai(1)-Gen0_Deck18 has won!
+
+
+=== STDERR ===

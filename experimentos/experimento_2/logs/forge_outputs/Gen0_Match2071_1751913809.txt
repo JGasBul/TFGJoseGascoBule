@@ -1,0 +1,518 @@
+=== COMBATE PARALELO: Gen0_Deck30 vs Gen0_Deck31 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck30 Gen0_Deck31 -n 1
+Duración: 41.59 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2046 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 76 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck30 vs Ai(2)-Gen0_Deck31 - one game of Constructed
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Mulligan: Ai(2)-Gen0_Deck31 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck31 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen0_Deck30 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Replacement Effect: Dimir Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck31 played Dimir Guildgate (118)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Soulstone Sanctuary (50)
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Plains (100)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Mountain (54)
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (50) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck30 cast Three Tree Mascot (30)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Island (106)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Quick Study (93)
+Resolve stack: Quick Study (93) - Ai(2)-Gen0_Deck31 draws two cards.
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Cryptic Caves (2)
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 assigned Three Tree Mascot (30) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Three Tree Mascot (30).
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Damage: Three Tree Mascot (30) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Swamp (87)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Kalastria Highborn (97)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Forest (33)
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Plains (99)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Kalastria Highborn (96)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Mountain (57)
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck30 activated Soulstone Sanctuary (50)
+Resolve stack: Soulstone Sanctuary (50) - Soulstone Sanctuary (50) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 assigned Soulstone Sanctuary (50) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Kalastria Highborn (96) and Kalastria Highborn (97) to block Soulstone Sanctuary (50).
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Divine Resilience (105) targeting [Kalastria Highborn (97)]
+Resolve stack: Divine Resilience (105) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Kalastria Highborn (97))
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Damage: Soulstone Sanctuary (50) deals 2 damage () to Kalastria Highborn (96).
+Damage: Soulstone Sanctuary (50) deals 1 damage () to Kalastria Highborn (97).
+Damage: Kalastria Highborn (96) deals 2 damage () to Soulstone Sanctuary (50).
+Damage: Kalastria Highborn (97) deals 2 damage () to Soulstone Sanctuary (50).
+Add to stack: Ai(2)-Gen0_Deck31 triggered Kalastria Highborn (97) targeting [Ai(1)-Gen0_Deck30]
+Add to stack: Ai(2)-Gen0_Deck31 triggered Kalastria Highborn (96) targeting [Ai(1)-Gen0_Deck30]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(1)-Gen0_Deck30]]) [Zone Changer: Kalastria Highborn (96)]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(1)-Gen0_Deck30]]) [Zone Changer: Kalastria Highborn (96)]
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Kalastria Highborn (95)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck30 cast Three Tree Mascot (32)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck30 cast Courageous Goblin (5)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Quick Study (94)
+Resolve stack: Quick Study (94) - Ai(2)-Gen0_Deck31 draws two cards.
+Land: Ai(2)-Gen0_Deck31 played Island (110)
+Mana: Island (110) - {T}: Add {U}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Storm Fleet Spy (79)
+Resolve stack: Storm Fleet Spy - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Discard: Ai(1)-Gen0_Deck30 discards Chandra, Flameshaper (45).
+Add to stack: Ai(1)-Gen0_Deck30 cast Seize the Spoils (11)
+Resolve stack: Seize the Spoils (11) - Draw two cards and create a Treasure token. 
+Land: Ai(1)-Gen0_Deck30 played Soulstone Sanctuary (49)
+Mana: Soulstone Sanctuary (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck30 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen0_Deck30 draws a card.
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (110) - {T}: Add {U}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Curator of Destinies (112)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck31 triggered Curator of Destinies (112)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (112)]
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen0_Deck31 played Scoured Barrens (92)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Scoured Barrens (92)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (92)]
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Treasure Token (122) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck30 activated Soulstone Sanctuary (49)
+Resolve stack: Soulstone Sanctuary (49) - Soulstone Sanctuary (49) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Cryptic Caves (1)
+Mana: Soulstone Sanctuary (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck30 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen0_Deck30 draws a card.
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Curator of Destinies (112) to attack Ai(1)-Gen0_Deck30.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck30 didn't block Curator of Destinies (112).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Curator of Destinies (112) deals 5 combat damage to Ai(1)-Gen0_Deck30.
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Bloodthirsty Conqueror (70)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Soulstone Sanctuary (51)
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck30 cast Dragon Trainer (43)
+Resolve stack: Dragon Trainer - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck30 triggered Dragon Trainer (43)
+Resolve stack: When this creature enters, create a 4/4 red Dragon creature token with flying. [Zone Changer: Dragon Trainer (43)]
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Plains (98)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Curator of Destinies (112) and Bloodthirsty Conqueror (70) to attack Ai(1)-Gen0_Deck30.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck30 didn't block Curator of Destinies (112).
+Ai(1)-Gen0_Deck30 didn't block Bloodthirsty Conqueror (70).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Curator of Destinies (112) deals 5 combat damage to Ai(1)-Gen0_Deck30.
+Damage: Bloodthirsty Conqueror (70) deals 5 combat damage to Ai(1)-Gen0_Deck30.
+Add to stack: Ai(2)-Gen0_Deck31 triggered Bloodthirsty Conqueror (70)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen0_Deck30, Lost Amount: 10]
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Felidar Savior (73)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck31 triggered Felidar Savior (73) targeting [Bloodthirsty Conqueror (70), Curator of Destinies (112)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Bloodthirsty Conqueror (70), Curator of Destinies (112)]]) [Zone Changer: Felidar Savior (73)]
+Mana: Island (110) - {T}: Add {U}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Storm Fleet Spy (80)
+Resolve stack: Storm Fleet Spy - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck31 triggered Storm Fleet Spy (80)
+Resolve stack: Raid — When Storm Fleet Spy enters, if you attacked this turn, draw a card. [Zone Changer: Storm Fleet Spy (80)]
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck30)
+Phase: Ai(1)-Gen0_Deck30's Untap step
+Phase: Ai(1)-Gen0_Deck30's Upkeep step
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck30 activated Soulstone Sanctuary (51)
+Resolve stack: Soulstone Sanctuary (51) - Soulstone Sanctuary (51) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck30's Draw step
+Phase: Ai(1)-Gen0_Deck30's Main phase, precombat
+Land: Ai(1)-Gen0_Deck30 played Forest (39)
+Phase: Ai(1)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck30's End of Combat Step
+Phase: Ai(1)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck30's End step
+Phase: Ai(1)-Gen0_Deck30's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Curator of Destinies (112), Bloodthirsty Conqueror (70), Kalastria Highborn (97), Kalastria Highborn (95), Storm Fleet Spy (79), Felidar Savior (73) and Storm Fleet Spy (80) to attack Ai(1)-Gen0_Deck30.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck30 didn't block Curator of Destinies (112).
+Ai(1)-Gen0_Deck30 assigned Three Tree Mascot (30) to block Storm Fleet Spy (80).
+Ai(1)-Gen0_Deck30 assigned Three Tree Mascot (32) to block Kalastria Highborn (97).
+Ai(1)-Gen0_Deck30 assigned Dragon Token (126) to block Bloodthirsty Conqueror (70).
+Ai(1)-Gen0_Deck30 assigned Dragon Trainer (43) to block Felidar Savior (73).
+Ai(1)-Gen0_Deck30 assigned Soulstone Sanctuary (51) to block Kalastria Highborn (95).
+Ai(1)-Gen0_Deck30 assigned Courageous Goblin (5) to block Storm Fleet Spy (79).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Curator of Destinies (112) deals 6 combat damage to Ai(1)-Gen0_Deck30.
+Damage: Bloodthirsty Conqueror (70) deals 6 damage (Deathtouch) to Dragon Token (126).
+Damage: Kalastria Highborn (97) deals 2 damage () to Three Tree Mascot (32).
+Damage: Kalastria Highborn (95) deals 2 damage () to Soulstone Sanctuary (51).
+Damage: Storm Fleet Spy (79) deals 2 damage () to Courageous Goblin (5).
+Damage: Felidar Savior (73) deals 2 damage () to Dragon Trainer (43).
+Damage: Storm Fleet Spy (80) deals 2 damage () to Three Tree Mascot (30).
+Damage: Dragon Token (126) deals 4 damage () to Bloodthirsty Conqueror (70).
+Damage: Dragon Trainer (43) deals 1 damage () to Felidar Savior (73).
+Damage: Courageous Goblin (5) deals 2 damage () to Storm Fleet Spy (79).
+Damage: Three Tree Mascot (30) deals 2 damage () to Storm Fleet Spy (80).
+Damage: Three Tree Mascot (32) deals 2 damage () to Kalastria Highborn (97).
+Damage: Soulstone Sanctuary (51) deals 3 damage () to Kalastria Highborn (95).
+Player control: Ai(1)-Gen0_Deck30 is controlled by Ai(1)-Gen0_Deck30
+Player control: Ai(2)-Gen0_Deck31 is controlled by Ai(2)-Gen0_Deck31
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck30 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck31 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck30: 0 Ai(2)-Gen0_Deck31: 1 
+
+Game Result: Game 1 ended in 29207 ms. Ai(2)-Gen0_Deck31 has won!
+
+
+=== STDERR ===

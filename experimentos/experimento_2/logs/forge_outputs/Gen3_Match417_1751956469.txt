@@ -1,0 +1,518 @@
+=== COMBATE PARALELO: Gen3_Deck4 vs Gen3_Deck23 ===
+Worker ID: 909535
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck4 Gen3_Deck23 -n 1
+Duración: 32.86 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1897 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 113 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck4 vs Ai(2)-Gen3_Deck23 - one game of Constructed
+Mulligan: Ai(2)-Gen3_Deck23 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen3_Deck4 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Land: Ai(2)-Gen3_Deck23 played Island (81)
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (33)
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Authority of the Consuls (45)
+Resolve stack: Authority of the Consuls
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Land: Ai(2)-Gen3_Deck23 played Mountain (120)
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (120)]
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Three Tree Mascot (100)
+Replacement Effect: Creatures your opponents control enter tapped.
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Add to stack: Ai(1)-Gen3_Deck4 triggered Authority of the Consuls (45)
+Resolve stack: Whenever a creature an opponent controls enters, you gain 1 life. [Zone Changer: Three Tree Mascot (100)]
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Crawling Barrens (47)
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Land: Ai(2)-Gen3_Deck23 played Demolition Field (116)
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (116)]
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck23 activated Adventuring Gear (63) targeting [Three Tree Mascot (100)]
+Resolve stack: Adventuring Gear (63) -  Attach to Three Tree Mascot (100)
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 2 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Swamp (22)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (22)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck23 activated Demolition Field (116) targeting [Crawling Barrens (47)]
+Resolve stack: Demolition Field (116) - Destroy Crawling Barrens (47). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen3_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (54)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (77)]
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Land: Ai(2)-Gen3_Deck23 played Island (82)
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (82)]
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 6 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Crawling Barrens (46)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (46)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 2 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Quick Study (76)
+Resolve stack: Quick Study (76) - Ai(2)-Gen3_Deck23 draws two cards.
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (34)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (34)]
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen3_Deck4 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Crawling Barrens (46) to attack Ai(2)-Gen3_Deck23.
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Fleeting Distraction (94) targeting [Crawling Barrens (46)]
+Resolve stack: Fleeting Distraction (94) - Crawling Barrens (46) gets -1/-0  until end of turn. Ai(2)-Gen3_Deck23 draws a card.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck23 didn't block Crawling Barrens (46).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Damage: Crawling Barrens (46) deals 1 combat damage to Ai(2)-Gen3_Deck23.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Land: Ai(2)-Gen3_Deck23 played Demolition Field (117)
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (117)]
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 4 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Swamp (23)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (23)]
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen3_Deck4 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Adventuring Gear (1) targeting [Crawling Barrens (46)]
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck23 activated Demolition Field (117) targeting [Crawling Barrens (46)]
+Resolve stack: Demolition Field (117) - Destroy Crawling Barrens (46). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen3_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (99)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (50)]
+Resolve stack: Adventuring Gear (1) ability fizzles.
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Land: Ai(2)-Gen3_Deck23 played Island (79)
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (79)]
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 4 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Mountain (51)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (51)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 2 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Solemn Simulacrum (65)
+Replacement Effect: Creatures your opponents control enter tapped.
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen3_Deck23 triggered Solemn Simulacrum (65)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Authority of the Consuls (45)
+Resolve stack: Whenever a creature an opponent controls enters, you gain 1 life. [Zone Changer: Solemn Simulacrum (65)]
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (65)]
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (98)]
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Swamp (20)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (20)]
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Seismic Rupture (56)
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Unsummon (96) targeting [Three Tree Mascot (100)]
+Resolve stack: Unsummon (96) - Return Three Tree Mascot (100) to its owner's hand.
+Damage: Seismic Rupture (56) deals 2 damage () to Solemn Simulacrum (65).
+Resolve stack: Seismic Rupture (56) - Deals 2 damage to each creature without flying.
+Add to stack: Ai(2)-Gen3_Deck23 triggered Solemn Simulacrum (65)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (65)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Land: Ai(2)-Gen3_Deck23 played Island (83)
+Add to stack: Ai(2)-Gen3_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (83)]
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Three Tree Mascot (100)
+Replacement Effect: Creatures your opponents control enter tapped.
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Add to stack: Ai(1)-Gen3_Deck4 triggered Authority of the Consuls (45)
+Resolve stack: Whenever a creature an opponent controls enters, you gain 1 life. [Zone Changer: Three Tree Mascot (100)]
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Leonin Vanguard (111)
+Replacement Effect: Creatures your opponents control enter tapped.
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Add to stack: Ai(1)-Gen3_Deck4 triggered Authority of the Consuls (45)
+Resolve stack: Whenever a creature an opponent controls enters, you gain 1 life. [Zone Changer: Leonin Vanguard (111)]
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck23 activated Adventuring Gear (63) targeting [Three Tree Mascot (100)]
+Resolve stack: Adventuring Gear (63) -  Attach to Three Tree Mascot (100)
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (38)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (38)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) and Leonin Vanguard (111) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Ai(1)-Gen3_Deck4 didn't block Leonin Vanguard (111).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 2 combat damage to Ai(1)-Gen3_Deck4.
+Damage: Leonin Vanguard (111) deals 1 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's End of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Main phase, postcombat
+Mana: Island (81) - {T}: Add {U}.
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Quick Study (75)
+Resolve stack: Quick Study (75) - Ai(2)-Gen3_Deck23 draws two cards.
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck23 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Mana: Swamp (99) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck23 activated Adventuring Gear (62) targeting [Three Tree Mascot (100)]
+Resolve stack: Adventuring Gear (62) -  Attach to Three Tree Mascot (100)
+Phase: Ai(2)-Gen3_Deck23's End step
+Phase: Ai(2)-Gen3_Deck23's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Mountain (52)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (52)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen3_Deck23)
+Phase: Ai(2)-Gen3_Deck23's Untap step
+Phase: Ai(2)-Gen3_Deck23's Upkeep step
+Phase: Ai(2)-Gen3_Deck23's Draw step
+Phase: Ai(2)-Gen3_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck23 assigned Three Tree Mascot (100) and Leonin Vanguard (111) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (100).
+Ai(1)-Gen3_Deck4 didn't block Leonin Vanguard (111).
+Phase: Ai(2)-Gen3_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck23's Combat Damage Step
+Damage: Three Tree Mascot (100) deals 2 combat damage to Ai(1)-Gen3_Deck4.
+Damage: Leonin Vanguard (111) deals 1 combat damage to Ai(1)-Gen3_Deck4.
+Player control: Ai(1)-Gen3_Deck4 is controlled by Ai(1)-Gen3_Deck4
+Player control: Ai(2)-Gen3_Deck23 is controlled by Ai(2)-Gen3_Deck23
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen3_Deck4 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck23 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck4: 0 Ai(2)-Gen3_Deck23: 1 
+
+Game Result: Game 1 ended in 18865 ms. Ai(2)-Gen3_Deck23 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,371 @@
+=== COMBATE PARALELO: Gen6_Deck36 vs Gen6_Deck48 ===
+Worker ID: 2514423
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck36 Gen6_Deck48 -n 1
+Duración: 26.23 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2152 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 76 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck36 vs Ai(2)-Gen6_Deck48 - one game of Constructed
+Mulligan: Ai(1)-Gen6_Deck36 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen6_Deck48 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen6_Deck36)
+Phase: Ai(1)-Gen6_Deck36's Untap step
+Phase: Ai(1)-Gen6_Deck36's Upkeep step
+Phase: Ai(1)-Gen6_Deck36's Draw step
+Phase: Ai(1)-Gen6_Deck36's Main phase, precombat
+Land: Ai(1)-Gen6_Deck36 played Island (28)
+Phase: Ai(1)-Gen6_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck36's End of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Main phase, postcombat
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck36 cast Adventuring Gear (2)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen6_Deck36's End step
+Phase: Ai(1)-Gen6_Deck36's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen6_Deck48)
+Phase: Ai(2)-Gen6_Deck48's Untap step
+Phase: Ai(2)-Gen6_Deck48's Upkeep step
+Phase: Ai(2)-Gen6_Deck48's Draw step
+Phase: Ai(2)-Gen6_Deck48's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen6_Deck48 played Maze's End (61)
+Phase: Ai(2)-Gen6_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck48's End of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck48's End step
+Phase: Ai(2)-Gen6_Deck48's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen6_Deck36)
+Phase: Ai(1)-Gen6_Deck36's Untap step
+Phase: Ai(1)-Gen6_Deck36's Upkeep step
+Phase: Ai(1)-Gen6_Deck36's Draw step
+Phase: Ai(1)-Gen6_Deck36's Main phase, precombat
+Land: Ai(1)-Gen6_Deck36 played Island (27)
+Add to stack: Ai(1)-Gen6_Deck36 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (27)]
+Phase: Ai(1)-Gen6_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck36's End of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Main phase, postcombat
+Mana: Island (28) - {T}: Add {U}.
+Mana: Island (27) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck36 cast Mazemind Tome (49)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen6_Deck36's End step
+Phase: Ai(1)-Gen6_Deck36's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen6_Deck48)
+Phase: Ai(2)-Gen6_Deck48's Untap step
+Phase: Ai(2)-Gen6_Deck48's Upkeep step
+Add to stack: Ai(1)-Gen6_Deck36 activated Mazemind Tome (49)
+Resolve stack: Ai(1)-Gen6_Deck36 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen6_Deck36 scries 1.
+Phase: Ai(2)-Gen6_Deck48's Draw step
+Phase: Ai(2)-Gen6_Deck48's Main phase, precombat
+Land: Ai(2)-Gen6_Deck48 played Plains (78)
+Phase: Ai(2)-Gen6_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck48's End of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Main phase, postcombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck48 cast Youthful Valkyrie (65)
+Resolve stack: Youthful Valkyrie - Creature 1 / 3
+Phase: Ai(2)-Gen6_Deck48's End step
+Phase: Ai(2)-Gen6_Deck48's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen6_Deck36)
+Phase: Ai(1)-Gen6_Deck36's Untap step
+Phase: Ai(1)-Gen6_Deck36's Upkeep step
+Phase: Ai(1)-Gen6_Deck36's Draw step
+Phase: Ai(1)-Gen6_Deck36's Main phase, precombat
+Land: Ai(1)-Gen6_Deck36 played Island (24)
+Add to stack: Ai(1)-Gen6_Deck36 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (24)]
+Phase: Ai(1)-Gen6_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck36's End of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Main phase, postcombat
+Mana: Island (28) - {T}: Add {U}.
+Mana: Island (27) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck36 activated Mazemind Tome (49)
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen6_Deck36 draws a card.
+Phase: Ai(1)-Gen6_Deck36's End step
+Phase: Ai(1)-Gen6_Deck36's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen6_Deck48)
+Phase: Ai(2)-Gen6_Deck48's Untap step
+Phase: Ai(2)-Gen6_Deck48's Upkeep step
+Phase: Ai(2)-Gen6_Deck48's Draw step
+Phase: Ai(2)-Gen6_Deck48's Main phase, precombat
+Land: Ai(2)-Gen6_Deck48 played Demolition Field (120)
+Phase: Ai(2)-Gen6_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck48 assigned Youthful Valkyrie (65) to attack Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (65).
+Phase: Ai(2)-Gen6_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck48's Combat Damage Step
+Damage: Youthful Valkyrie (65) deals 1 combat damage to Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's End of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Main phase, postcombat
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck48 cast Dazzling Angel (103)
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Add to stack: Ai(2)-Gen6_Deck48 triggered Youthful Valkyrie (65)
+Resolve stack: Whenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie. [Zone Changer: Dazzling Angel (103)]
+Phase: Ai(2)-Gen6_Deck48's End step
+Phase: Ai(2)-Gen6_Deck48's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen6_Deck36)
+Phase: Ai(1)-Gen6_Deck36's Untap step
+Phase: Ai(1)-Gen6_Deck36's Upkeep step
+Add to stack: Ai(1)-Gen6_Deck36 activated Mazemind Tome (49)
+Resolve stack: Ai(1)-Gen6_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen6_Deck36 scries 1.
+Phase: Ai(1)-Gen6_Deck36's Draw step
+Phase: Ai(1)-Gen6_Deck36's Main phase, precombat
+Land: Ai(1)-Gen6_Deck36 played Plains (20)
+Add to stack: Ai(1)-Gen6_Deck36 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (20)]
+Phase: Ai(1)-Gen6_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck36's End of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck36's End step
+Phase: Ai(1)-Gen6_Deck36's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen6_Deck48)
+Phase: Ai(2)-Gen6_Deck48's Untap step
+Phase: Ai(2)-Gen6_Deck48's Upkeep step
+Phase: Ai(2)-Gen6_Deck48's Draw step
+Phase: Ai(2)-Gen6_Deck48's Main phase, precombat
+Land: Ai(2)-Gen6_Deck48 played Soulstone Sanctuary (92)
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck48 cast Youthful Valkyrie (64)
+Resolve stack: Youthful Valkyrie - Creature 1 / 3
+Add to stack: Ai(2)-Gen6_Deck48 triggered Dazzling Angel (103)
+Add to stack: Ai(2)-Gen6_Deck48 triggered Youthful Valkyrie (65)
+Resolve stack: Whenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie. [Zone Changer: Youthful Valkyrie (64)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Youthful Valkyrie (64)]
+Phase: Ai(2)-Gen6_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck48 assigned Youthful Valkyrie (65) and Dazzling Angel (103) to attack Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (65).
+Ai(1)-Gen6_Deck36 didn't block Dazzling Angel (103).
+Phase: Ai(2)-Gen6_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck48's Combat Damage Step
+Damage: Youthful Valkyrie (65) deals 3 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Dazzling Angel (103) deals 2 combat damage to Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's End of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck48's End step
+Phase: Ai(2)-Gen6_Deck48's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen6_Deck36)
+Phase: Ai(1)-Gen6_Deck36's Untap step
+Phase: Ai(1)-Gen6_Deck36's Upkeep step
+Add to stack: Ai(1)-Gen6_Deck36 activated Mazemind Tome (49)
+Add to stack: Ai(1)-Gen6_Deck36 triggered Mazemind Tome (49)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen6_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen6_Deck36 scries 1.
+Phase: Ai(1)-Gen6_Deck36's Draw step
+Phase: Ai(1)-Gen6_Deck36's Main phase, precombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen6_Deck36 played Dismal Backwater (12)
+Add to stack: Ai(1)-Gen6_Deck36 triggered Dismal Backwater (12)
+Add to stack: Ai(1)-Gen6_Deck36 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Dismal Backwater (12)]
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (12)]
+Phase: Ai(1)-Gen6_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck36's End of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Main phase, postcombat
+Mana: Island (28) - {T}: Add {U}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Island (24) - {T}: Add {U}.
+Mana: Plains (20) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck36 cast Juggernaut (6)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen6_Deck36's End step
+Phase: Ai(1)-Gen6_Deck36's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen6_Deck48)
+Phase: Ai(2)-Gen6_Deck48's Untap step
+Phase: Ai(2)-Gen6_Deck48's Upkeep step
+Phase: Ai(2)-Gen6_Deck48's Draw step
+Phase: Ai(2)-Gen6_Deck48's Main phase, precombat
+Land: Ai(2)-Gen6_Deck48 played Plains (84)
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck48 activated Soulstone Sanctuary (92)
+Resolve stack: Soulstone Sanctuary (92) - Soulstone Sanctuary (92) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen6_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck48 assigned Soulstone Sanctuary (92), Youthful Valkyrie (65), Dazzling Angel (103) and Youthful Valkyrie (64) to attack Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (64).
+Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (65).
+Ai(1)-Gen6_Deck36 didn't block Dazzling Angel (103).
+Ai(1)-Gen6_Deck36 didn't block Soulstone Sanctuary (92).
+Phase: Ai(2)-Gen6_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck48's Combat Damage Step
+Damage: Soulstone Sanctuary (92) deals 3 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Youthful Valkyrie (65) deals 3 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Dazzling Angel (103) deals 2 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Youthful Valkyrie (64) deals 1 combat damage to Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's End of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck48's End step
+Phase: Ai(2)-Gen6_Deck48's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen6_Deck36)
+Phase: Ai(1)-Gen6_Deck36's Untap step
+Phase: Ai(1)-Gen6_Deck36's Upkeep step
+Phase: Ai(1)-Gen6_Deck36's Draw step
+Phase: Ai(1)-Gen6_Deck36's Main phase, precombat
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck36 activated Adventuring Gear (2) targeting [Juggernaut (6)]
+Resolve stack: Adventuring Gear (2) -  Attach to Juggernaut (6)
+Phase: Ai(1)-Gen6_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck36 assigned Juggernaut (6) to attack Ai(2)-Gen6_Deck48.
+Phase: Ai(1)-Gen6_Deck36's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck48 didn't block Juggernaut (6).
+Phase: Ai(1)-Gen6_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck36's Combat Damage Step
+Damage: Juggernaut (6) deals 5 combat damage to Ai(2)-Gen6_Deck48.
+Phase: Ai(1)-Gen6_Deck36's End of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Main phase, postcombat
+Mana: Dismal Backwater (12) - {T}: Add {U} or {B}.
+Mana: Island (27) - {T}: Add {U}.
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck36 cast Crow of Dark Tidings (60)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(1)-Gen6_Deck36 triggered Crow of Dark Tidings (60)
+Zone Change: Ai(1)-Gen6_Deck36 milled Mountain (58) and Imprisoned in the Moon (37).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (60)]
+Phase: Ai(1)-Gen6_Deck36's End step
+Phase: Ai(1)-Gen6_Deck36's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen6_Deck48)
+Phase: Ai(2)-Gen6_Deck48's Untap step
+Phase: Ai(2)-Gen6_Deck48's Upkeep step
+Phase: Ai(2)-Gen6_Deck48's Draw step
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen6_Deck48 activated Demolition Field (120) targeting [Dismal Backwater (12)]
+Resolve stack: Demolition Field (120) - Destroy Dismal Backwater (12). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen6_Deck48 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(1)-Gen6_Deck36 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (57)]
+Phase: Ai(2)-Gen6_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck48 assigned Soulstone Sanctuary (92), Youthful Valkyrie (65), Dazzling Angel (103) and Youthful Valkyrie (64) to attack Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (64).
+Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (65).
+Ai(1)-Gen6_Deck36 didn't block Dazzling Angel (103).
+Ai(1)-Gen6_Deck36 assigned Crow of Dark Tidings (60) to block Soulstone Sanctuary (92).
+Phase: Ai(2)-Gen6_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck48's Combat Damage Step
+Damage: Soulstone Sanctuary (92) deals 3 damage () to Crow of Dark Tidings (60).
+Damage: Youthful Valkyrie (65) deals 3 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Dazzling Angel (103) deals 2 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Youthful Valkyrie (64) deals 1 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Crow of Dark Tidings (60) deals 2 damage () to Soulstone Sanctuary (92).
+Add to stack: Ai(1)-Gen6_Deck36 triggered Crow of Dark Tidings (60)
+Zone Change: Ai(1)-Gen6_Deck36 milled Leonin Vanguard (52) and Juggernaut (9).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (60)]
+Phase: Ai(2)-Gen6_Deck48's End of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen6_Deck48 played Uncharted Haven (86)
+Phase: Ai(2)-Gen6_Deck48's End step
+Phase: Ai(2)-Gen6_Deck48's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen6_Deck36)
+Phase: Ai(1)-Gen6_Deck36's Untap step
+Phase: Ai(1)-Gen6_Deck36's Upkeep step
+Phase: Ai(1)-Gen6_Deck36's Draw step
+Phase: Ai(1)-Gen6_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck36 assigned Juggernaut (6) to attack Ai(2)-Gen6_Deck48.
+Phase: Ai(1)-Gen6_Deck36's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck48 didn't block Juggernaut (6).
+Phase: Ai(1)-Gen6_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck36's Combat Damage Step
+Damage: Juggernaut (6) deals 5 combat damage to Ai(2)-Gen6_Deck48.
+Phase: Ai(1)-Gen6_Deck36's End of Combat Step
+Phase: Ai(1)-Gen6_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck36's End step
+Phase: Ai(1)-Gen6_Deck36's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen6_Deck48)
+Phase: Ai(2)-Gen6_Deck48's Untap step
+Phase: Ai(2)-Gen6_Deck48's Upkeep step
+Phase: Ai(2)-Gen6_Deck48's Draw step
+Phase: Ai(2)-Gen6_Deck48's Main phase, precombat
+Land: Ai(2)-Gen6_Deck48 played Demolition Field (119)
+Phase: Ai(2)-Gen6_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck48 assigned Youthful Valkyrie (65), Soulstone Sanctuary (92), Dazzling Angel (103) and Youthful Valkyrie (64) to attack Ai(1)-Gen6_Deck36.
+Phase: Ai(2)-Gen6_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (64).
+Ai(1)-Gen6_Deck36 didn't block Youthful Valkyrie (65).
+Ai(1)-Gen6_Deck36 didn't block Dazzling Angel (103).
+Ai(1)-Gen6_Deck36 didn't block Soulstone Sanctuary (92).
+Phase: Ai(2)-Gen6_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck48's Combat Damage Step
+Damage: Youthful Valkyrie (65) deals 3 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Soulstone Sanctuary (92) deals 3 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Dazzling Angel (103) deals 2 combat damage to Ai(1)-Gen6_Deck36.
+Damage: Youthful Valkyrie (64) deals 1 combat damage to Ai(1)-Gen6_Deck36.
+Player control: Ai(1)-Gen6_Deck36 is controlled by Ai(1)-Gen6_Deck36
+Player control: Ai(2)-Gen6_Deck48 is controlled by Ai(2)-Gen6_Deck48
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen6_Deck36 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck48 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck36: 0 Ai(2)-Gen6_Deck48: 1 
+
+Game Result: Game 1 ended in 12681 ms. Ai(2)-Gen6_Deck48 has won!
+
+
+=== STDERR ===

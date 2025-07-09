@@ -1,0 +1,408 @@
+=== COMBATE PARALELO: Gen1_Deck4 vs Gen1_Deck18 ===
+Worker ID: 3987561
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck4 Gen1_Deck18 -n 1
+Duración: 27.96 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2113 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 165 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck4 vs Ai(2)-Gen1_Deck18 - one game of Constructed
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (48)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (48)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (48)
+Mulligan: Ai(2)-Gen1_Deck18 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck4 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Forest (97)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Swamp (44)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Plains (105)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (105) - {T}: Add {W}.
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Charming Prince (114)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (114)
+Resolve stack: Ai(2)-Gen1_Deck18 scried 1 card(s) to the top of the library and 1 card(s) to the bottom of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (114)]
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Island (20)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Island (20) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Wishclaw Talisman (48)
+Replacement Effect: Wishclaw Talisman enters with three wish counters on it.
+Resolve stack: Wishclaw Talisman
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen1_Deck18 played Secluded Courtyard (93)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Charming Prince (114) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Charming Prince (114).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Charming Prince (114) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck4 activated Wishclaw Talisman (48)
+Resolve stack: Wishclaw Talisman (48) - Ai(1)-Gen1_Deck4 searches Ai(2)-Gen1_Deck18 library for a card, reveals it, puts it into their hand, then shuffles. Ai(1)-Gen1_Deck4 chooses a player. Ai(1)-Gen1_Deck4 gains control of Wishclaw Talisman (48). 
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Discard: Ai(1)-Gen1_Deck4 discards Sire of Seven Deaths (49).
+Turn: Turn 7 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Cryptic Caves (61)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Charming Prince (114) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Charming Prince (114).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Charming Prince (114) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck18 activated Wishclaw Talisman (48)
+Resolve stack: Wishclaw Talisman (48) - Ai(2)-Gen1_Deck18 searches Ai(1)-Gen1_Deck4 library for a card, reveals it, puts it into their hand, then shuffles. Ai(2)-Gen1_Deck18 chooses a player. Ai(2)-Gen1_Deck18 gains control of Wishclaw Talisman (48). 
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck4 activated Wishclaw Talisman (48)
+Resolve stack: Wishclaw Talisman (48) - Ai(1)-Gen1_Deck4 searches Ai(2)-Gen1_Deck18 library for a card, reveals it, puts it into their hand, then shuffles. Ai(1)-Gen1_Deck4 chooses a player. Ai(1)-Gen1_Deck4 gains control of Wishclaw Talisman (48). 
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Discard: Ai(1)-Gen1_Deck4 discards Sire of Seven Deaths (50).
+Discard: Ai(1)-Gen1_Deck4 discards Hoarding Dragon (37).
+Turn: Turn 9 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Charming Prince (114) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Charming Prince (114).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Charming Prince (114) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (105) - {T}: Add {W}.
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Charming Prince (115)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (115)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (114)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (115)]
+Phase: Ai(2)-Gen1_Deck18's End step
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (115)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (114)]) [Phase: Ai(2)-Gen1_Deck18]
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (114)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (115)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (114)]
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (114)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (115)]) [Phase: Ai(1)-Gen1_Deck4]
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (115)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (114)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (115)]
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Discard: Ai(1)-Gen1_Deck4 discards Bloodthirsty Conqueror (1).
+Turn: Turn 11 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Charming Prince (115) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Charming Prince (115).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Charming Prince (115) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Plains (105) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Campus Guide (71)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen1_Deck18 triggered Campus Guide (71)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (71)]
+Phase: Ai(2)-Gen1_Deck18's End step
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (115)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (114)]) [Phase: Ai(2)-Gen1_Deck18]
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (114)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (115)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (114)]
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen1_Deck4 played Uncharted Haven (25)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (114)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (115)]) [Phase: Ai(1)-Gen1_Deck4]
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (115)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (114)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (115)]
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Swamp (79)
+Mana: Forest (97) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck18 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen1_Deck18 draws a card.
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Campus Guide (71) and Charming Prince (115) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Charming Prince (115).
+Ai(1)-Gen1_Deck4 didn't block Campus Guide (71).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Campus Guide (71) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Charming Prince (115) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck18's End step
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (115)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (114)]) [Phase: Ai(2)-Gen1_Deck18]
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (114)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (115)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (114)]
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Uncharted Haven (25) - {T}: Add one mana of the chosen color.
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Island (20) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Firespitter Whelp (58)
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck4's End step
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (114)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (115)]) [Phase: Ai(1)-Gen1_Deck4]
+Add to stack: Ai(2)-Gen1_Deck18 triggered Charming Prince (115)
+Resolve stack: Ai(2)-Gen1_Deck18 scried 2 card(s) to the top of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (115)]
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Campus Guide (71), Charming Prince (114) and Charming Prince (115) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Firespitter Whelp (58) to block Charming Prince (114).
+Ai(1)-Gen1_Deck4 didn't block Charming Prince (115).
+Ai(1)-Gen1_Deck4 didn't block Campus Guide (71).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Campus Guide (71) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Charming Prince (114) deals 2 damage () to Firespitter Whelp (58).
+Damage: Charming Prince (115) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Firespitter Whelp (58) deals 2 damage () to Charming Prince (114).
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Plains (105) - {T}: Add {W}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Secluded Courtyard (93) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Solemn Simulacrum (63)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck18 triggered Solemn Simulacrum (63)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (63)]
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Island (20) - {T}: Add {U}.
+Mana: Uncharted Haven (25) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck4 cast Marauding Blight-Priest (40)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Campus Guide (71), Charming Prince (115) and Solemn Simulacrum (63) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Charming Prince (115).
+Ai(1)-Gen1_Deck4 didn't block Campus Guide (71).
+Ai(1)-Gen1_Deck4 assigned Marauding Blight-Priest (40) to block Solemn Simulacrum (63).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Campus Guide (71) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Charming Prince (115) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Solemn Simulacrum (63) deals 2 damage () to Marauding Blight-Priest (40).
+Damage: Marauding Blight-Priest (40) deals 3 damage () to Solemn Simulacrum (63).
+Player control: Ai(1)-Gen1_Deck4 is controlled by Ai(1)-Gen1_Deck4
+Player control: Ai(2)-Gen1_Deck18 is controlled by Ai(2)-Gen1_Deck18
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck4 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck18 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck4: 0 Ai(2)-Gen1_Deck18: 1 
+
+Game Result: Game 1 ended in 14385 ms. Ai(2)-Gen1_Deck18 has won!
+
+
+=== STDERR ===

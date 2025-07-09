@@ -1,0 +1,425 @@
+=== COMBATE PARALELO: Gen6_Deck12 vs Gen6_Deck15 ===
+Worker ID: 2514425
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck12 Gen6_Deck15 -n 1
+Duración: 30.51 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2205 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 151 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck12 vs Ai(2)-Gen6_Deck15 - one game of Constructed
+Mulligan: Ai(1)-Gen6_Deck12 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen6_Deck15 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Land: Ai(1)-Gen6_Deck12 played Island (21)
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (102)
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (102) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Land: Ai(1)-Gen6_Deck12 played Plains (11)
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Demolition Field (118)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (118)]
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (102) - {T}: Add {G}.
+Mana: Demolition Field (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Druid of the Cowl (79)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Land: Ai(1)-Gen6_Deck12 played Plains (16)
+Mana: Plains (11) - {T}: Add {W}.
+Mana: Island (21) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck12 cast Resolute Reinforcements (56)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen6_Deck12 triggered Resolute Reinforcements (56)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (56)]
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (90)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (90)]
+Mana: Forest (102) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Adventuring Gear (61) targeting [Druid of the Cowl (79)]
+Resolve stack: Adventuring Gear (61) -  Attach to Druid of the Cowl (79)
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Druid of the Cowl (79) to attack Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck12 didn't block Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Druid of the Cowl (79) deals 1 combat damage to Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (90) - {T}: Add {G}.
+Mana: Demolition Field (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Three Tree Mascot (87)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (101)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (101)]
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Druid of the Cowl (79) to attack Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck12 didn't block Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Druid of the Cowl (79) deals 3 combat damage to Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (98)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (98)]
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Druid of the Cowl (79) to attack Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck12 didn't block Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Druid of the Cowl (79) deals 3 combat damage to Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Discard: Ai(1)-Gen6_Deck12 discards Lyra Dawnbringer (28).
+Turn: Turn 12 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (95)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (95)]
+Mana: Forest (102) - {T}: Add {G}.
+Mana: Forest (90) - {T}: Add {G}.
+Mana: Forest (101) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Demolition Field (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Biogenic Upgrade (71) targeting [Druid of the Cowl (79)]
+Resolve stack: Biogenic Upgrade (71) - Ai(2)-Gen6_Deck15 distributes three +1/+1 counters among Druid of the Cowl (79) (3 counters). Double the number of +1/+1 counters on Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Druid of the Cowl (79) and Three Tree Mascot (87) to attack Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck12 assigned Soldier Token (124) to block Three Tree Mascot (87).
+Ai(1)-Gen6_Deck12 didn't block Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Druid of the Cowl (79) deals 9 combat damage to Ai(1)-Gen6_Deck12.
+Damage: Three Tree Mascot (87) deals 2 damage () to Soldier Token (124).
+Damage: Soldier Token (124) deals 1 damage () to Three Tree Mascot (87).
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Discard: Ai(1)-Gen6_Deck12 discards Claws Out (49).
+Turn: Turn 14 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (93)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (93)]
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Druid of the Cowl (79) to attack Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck12 assigned Resolute Reinforcements (56) to block Druid of the Cowl (79).
+Mana: Plains (11) - {T}: Add {W}.
+Mana: Island (21) - {T}: Add {U}.
+Mana: Plains (16) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck12 cast Mischievous Pup (54)
+Resolve stack: Mischievous Pup - Creature 3 / 1
+Add to stack: Ai(1)-Gen6_Deck12 triggered Mischievous Pup (54) targeting [Resolute Reinforcements (56)]
+Resolve stack: When Mischievous Pup enters, return up to one other target permanent you control to its owner's hand. (Targeting: [[Resolute Reinforcements (56)]]) [Zone Changer: Mischievous Pup (54)]
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (102) - {T}: Add {G}.
+Mana: Forest (90) - {T}: Add {G}.
+Mana: Forest (101) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Demolition Field (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Pelakka Wurm (103)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(2)-Gen6_Deck15 triggered Pelakka Wurm (103)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (103)]
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Mana: Plains (11) - {T}: Add {W}.
+Mana: Island (21) - {T}: Add {U}.
+Mana: Plains (16) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck12 cast Stroke of Midnight (19) targeting [Pelakka Wurm (103)]
+Resolve stack: Stroke of Midnight (19) - Destroy Pelakka Wurm (103). 
+Add to stack: Ai(2)-Gen6_Deck15 triggered Pelakka Wurm (103)
+Resolve stack: When Pelakka Wurm dies, draw a card. [Zone Changer: Pelakka Wurm (103)]
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Land: Ai(1)-Gen6_Deck12 played Mountain (59)
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (100)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (100)]
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Druid of the Cowl (79) and Human Token (126) to attack Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck12 didn't block Human Token (126).
+Ai(1)-Gen6_Deck12 assigned Mischievous Pup (54) to block Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Druid of the Cowl (79) deals 9 damage () to Mischievous Pup (54).
+Damage: Human Token (126) deals 1 combat damage to Ai(1)-Gen6_Deck12.
+Damage: Mischievous Pup (54) deals 3 damage () to Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (102) - {T}: Add {G}.
+Mana: Forest (90) - {T}: Add {G}.
+Mana: Forest (101) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Vivien Reid (120)
+Replacement Effect: Vivien Reid enters with five loyalty counters on it.
+Resolve stack: Vivien Reid
+Add to stack: Ai(2)-Gen6_Deck15 activated Vivien Reid (120)
+Resolve stack: Vivien Reid (120) - Ai(2)-Gen6_Deck15 looks at the top four cards of their library. They may put a Creature,Land card from among them into their hand and put the rest on the bottom of their library in any order.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Forest (100) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Three Tree Mascot (85)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen6_Deck12)
+Phase: Ai(1)-Gen6_Deck12's Untap step
+Phase: Ai(1)-Gen6_Deck12's Upkeep step
+Mana: Plains (11) - {T}: Add {W}.
+Mana: Island (21) - {T}: Add {U}.
+Mana: Plains (16) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck12 cast Stroke of Midnight (18) targeting [Vivien Reid (120)]
+Resolve stack: Stroke of Midnight (18) - Destroy Vivien Reid (120). 
+Phase: Ai(1)-Gen6_Deck12's Draw step
+Phase: Ai(1)-Gen6_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck12's End of Combat Step
+Phase: Ai(1)-Gen6_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck12's End step
+Phase: Ai(1)-Gen6_Deck12's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Demolition Field (119)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (119)]
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Druid of the Cowl (79), Three Tree Mascot (85), Human Token (126) and Human Token (128) to attack Ai(1)-Gen6_Deck12.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck12 didn't block Human Token (128).
+Ai(1)-Gen6_Deck12 didn't block Three Tree Mascot (85).
+Ai(1)-Gen6_Deck12 didn't block Human Token (126).
+Ai(1)-Gen6_Deck12 didn't block Druid of the Cowl (79).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Druid of the Cowl (79) deals 9 combat damage to Ai(1)-Gen6_Deck12.
+Damage: Three Tree Mascot (85) deals 2 combat damage to Ai(1)-Gen6_Deck12.
+Damage: Human Token (126) deals 1 combat damage to Ai(1)-Gen6_Deck12.
+Damage: Human Token (128) deals 1 combat damage to Ai(1)-Gen6_Deck12.
+Player control: Ai(1)-Gen6_Deck12 is controlled by Ai(1)-Gen6_Deck12
+Player control: Ai(2)-Gen6_Deck15 is controlled by Ai(2)-Gen6_Deck15
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen6_Deck12 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck15 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck12: 0 Ai(2)-Gen6_Deck15: 1 
+
+Game Result: Game 1 ended in 18278 ms. Ai(2)-Gen6_Deck15 has won!
+
+
+=== STDERR ===

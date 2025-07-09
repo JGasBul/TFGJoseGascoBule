@@ -1,0 +1,407 @@
+=== COMBATE PARALELO: Gen6_Deck7 vs Gen6_Deck15 ===
+Worker ID: 2514425
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck7 Gen6_Deck15 -n 1
+Duración: 29.05 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2453 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 120 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck7 vs Ai(2)-Gen6_Deck15 - one game of Constructed
+Mulligan: Ai(2)-Gen6_Deck15 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen6_Deck7 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen6_Deck15 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Land: Ai(1)-Gen6_Deck7 played Island (23)
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Crawling Barrens (113)
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Land: Ai(1)-Gen6_Deck7 played Soulstone Sanctuary (26)
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Mana: Island (23) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (26) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck7 cast Mazemind Tome (48)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Add to stack: Ai(1)-Gen6_Deck7 activated Mazemind Tome (48)
+Resolve stack: Ai(1)-Gen6_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen6_Deck7 scries 1.
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (88)
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Three Tree Mascot (85)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Land: Ai(1)-Gen6_Deck7 played Island (16)
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Mana: Island (23) - {T}: Add {U}.
+Mana: Island (16) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck7 activated Mazemind Tome (48)
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen6_Deck7 draws a card.
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Crawling Barrens (112)
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Three Tree Mascot (85) to attack Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck7 didn't block Three Tree Mascot (85).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Three Tree Mascot (85) deals 2 combat damage to Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Druid of the Cowl (80)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Add to stack: Ai(1)-Gen6_Deck7 activated Mazemind Tome (48)
+Resolve stack: Ai(1)-Gen6_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen6_Deck7 scries 1.
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen6_Deck7 played Dismal Backwater (11)
+Add to stack: Ai(1)-Gen6_Deck7 triggered Dismal Backwater (11)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (11)]
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck7 cast Unsummon (36) targeting [Druid of the Cowl (80)]
+Resolve stack: Unsummon (36) - Return Druid of the Cowl (80) to its owner's hand.
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Demolition Field (119)
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Adventuring Gear (62) targeting [Three Tree Mascot (85)]
+Resolve stack: Adventuring Gear (62) -  Attach to Three Tree Mascot (85)
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Three Tree Mascot (85) to attack Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck7 didn't block Three Tree Mascot (85).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Three Tree Mascot (85) deals 2 combat damage to Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Add to stack: Ai(1)-Gen6_Deck7 activated Mazemind Tome (48)
+Add to stack: Ai(1)-Gen6_Deck7 triggered Mazemind Tome (48)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen6_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen6_Deck7 scries 1.
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Land: Ai(1)-Gen6_Deck7 played Demolition Field (59)
+Mana: Island (23) - {T}: Add {U}.
+Mana: Island (16) - {T}: Add {U}.
+Mana: Dismal Backwater (11) - {T}: Add {U} or {B}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen6_Deck7 activated Soulstone Sanctuary (26)
+Resolve stack: Soulstone Sanctuary (26) - Soulstone Sanctuary (26) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 assigned Soulstone Sanctuary (26) to attack Ai(2)-Gen6_Deck15.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck15 didn't block Soulstone Sanctuary (26).
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Damage: Soulstone Sanctuary (26) deals 3 combat damage to Ai(2)-Gen6_Deck15.
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (89)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (89)]
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Mana: Crawling Barrens (112) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Dwynen, Gilt-Leaf Daen (84)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Three Tree Mascot (85) to attack Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck7 didn't block Three Tree Mascot (85).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Three Tree Mascot (85) deals 5 combat damage to Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Mana: Island (23) - {T}: Add {U}.
+Mana: Island (16) - {T}: Add {U}.
+Mana: Dismal Backwater (11) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen6_Deck7 cast Imprisoned in the Moon (30) targeting [Dwynen, Gilt-Leaf Daen (84)]
+Resolve stack: Imprisoned in the Moon (30) -  Attach to Dwynen, Gilt-Leaf Daen (84)
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 assigned Soulstone Sanctuary (26) to attack Ai(2)-Gen6_Deck15.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck15 didn't block Soulstone Sanctuary (26).
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Damage: Soulstone Sanctuary (26) deals 3 combat damage to Ai(2)-Gen6_Deck15.
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Mana: Dwynen, Gilt-Leaf Daen (84) - {T}: Add {C}.
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Demolition Field (119) targeting [Dismal Backwater (11)]
+Resolve stack: Demolition Field (119) - Destroy Dismal Backwater (11). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen6_Deck15 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (93)]
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (90)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (90)]
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (93) - {T}: Add {G}.
+Mana: Forest (90) - {T}: Add {G}.
+Mana: Crawling Barrens (112) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Crawling Barrens (113)
+Resolve stack: Crawling Barrens (113) - Ai(2)-Gen6_Deck15 puts two +1/+1 counters on Crawling Barrens (113). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Three Tree Mascot (85) to attack Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck7 didn't block Three Tree Mascot (85).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Three Tree Mascot (85) deals 6 combat damage to Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Land: Ai(1)-Gen6_Deck7 played Demolition Field (58)
+Mana: Swamp (38) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen6_Deck7 cast Eaten Alive (6) targeting [Three Tree Mascot (85)]
+Resolve stack: Eaten Alive (6) - Exile Three Tree Mascot (85).
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (92)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (92)]
+Mana: Dwynen, Gilt-Leaf Daen (84) - {T}: Add {C}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (93) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Crawling Barrens (113)
+Resolve stack: Crawling Barrens (113) - Ai(2)-Gen6_Deck15 puts two +1/+1 counters on Crawling Barrens (113). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (90) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Adventuring Gear (62) targeting [Crawling Barrens (113)]
+Resolve stack: Adventuring Gear (62) -  Attach to Crawling Barrens (113)
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Crawling Barrens (113) to attack Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck7 didn't block Crawling Barrens (113).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Crawling Barrens (113) deals 4 combat damage to Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's End of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Main phase, postcombat
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Crawling Barrens (112) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 cast Druid of the Cowl (80)
+Mana: Island (23) - {T}: Add {U}.
+Mana: Island (16) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen6_Deck7 cast Flashfreeze (49) targeting [Druid of the Cowl - Creature 1 / 3]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: Flashfreeze (49) - Counter Druid of the Cowl (80).
+Phase: Ai(2)-Gen6_Deck15's End step
+Phase: Ai(2)-Gen6_Deck15's Cleanup step
+Phase: RepeatAi(2)-Gen6_Deck15's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen6_Deck7)
+Phase: Ai(1)-Gen6_Deck7's Untap step
+Phase: Ai(1)-Gen6_Deck7's Upkeep step
+Phase: Ai(1)-Gen6_Deck7's Draw step
+Phase: Ai(1)-Gen6_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck7's End of Combat Step
+Phase: Ai(1)-Gen6_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck7's End step
+Phase: Ai(1)-Gen6_Deck7's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen6_Deck15)
+Phase: Ai(2)-Gen6_Deck15's Untap step
+Phase: Ai(2)-Gen6_Deck15's Upkeep step
+Phase: Ai(2)-Gen6_Deck15's Draw step
+Phase: Ai(2)-Gen6_Deck15's Main phase, precombat
+Land: Ai(2)-Gen6_Deck15 played Forest (101)
+Add to stack: Ai(2)-Gen6_Deck15 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (101)]
+Mana: Dwynen, Gilt-Leaf Daen (84) - {T}: Add {C}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (93) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Crawling Barrens (113)
+Resolve stack: Crawling Barrens (113) - Ai(2)-Gen6_Deck15 puts two +1/+1 counters on Crawling Barrens (113). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (90) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Forest (101) - {T}: Add {G}.
+Mana: Crawling Barrens (112) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen6_Deck15 activated Crawling Barrens (113)
+Resolve stack: Crawling Barrens (113) - Ai(2)-Gen6_Deck15 puts two +1/+1 counters on Crawling Barrens (113). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen6_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck15 assigned Crawling Barrens (113) to attack Ai(1)-Gen6_Deck7.
+Phase: Ai(2)-Gen6_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen6_Deck7 didn't block Crawling Barrens (113).
+Phase: Ai(2)-Gen6_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck15's Combat Damage Step
+Damage: Crawling Barrens (113) deals 8 combat damage to Ai(1)-Gen6_Deck7.
+Player control: Ai(1)-Gen6_Deck7 is controlled by Ai(1)-Gen6_Deck7
+Player control: Ai(2)-Gen6_Deck15 is controlled by Ai(2)-Gen6_Deck15
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen6_Deck7 has lost because life total reached 0
+Game outcome: Ai(2)-Gen6_Deck15 has won because all opponents have lost
+Match result: Ai(1)-Gen6_Deck7: 0 Ai(2)-Gen6_Deck15: 1 
+
+Game Result: Game 1 ended in 15514 ms. Ai(2)-Gen6_Deck15 has won!
+
+
+=== STDERR ===

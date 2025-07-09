@@ -1,0 +1,483 @@
+=== COMBATE PARALELO: Gen10_Deck5 vs Gen10_Deck36 ===
+Worker ID: 395712
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen10_Deck5 Gen10_Deck36 -n 1
+Duración: 39.33 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1998 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 76 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen10_Deck5 vs Ai(2)-Gen10_Deck36 - one game of Constructed
+Mulligan: Ai(1)-Gen10_Deck5 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen10_Deck36 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen10_Deck5 played Orzhov Guildgate (2)
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Land: Ai(2)-Gen10_Deck36 played Plains (77)
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Land: Ai(1)-Gen10_Deck5 played Crawling Barrens (34)
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (34) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen10_Deck5 cast Charming Prince (33)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen10_Deck5 triggered Charming Prince (33)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (33)]
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Land: Ai(2)-Gen10_Deck36 played Plains (74)
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen10_Deck36 cast Dawnwing Marshal (109)
+Resolve stack: Dawnwing Marshal - Creature 2 / 2
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Land: Ai(1)-Gen10_Deck5 played Plains (25)
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen10_Deck5 cast Adamant Will (37) targeting [Charming Prince (33)]
+Resolve stack: Adamant Will (37) - Charming Prince (33) gets +2/+2 and gains indestructible until end of turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 assigned Charming Prince (33) to attack Ai(2)-Gen10_Deck36.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen10_Deck36 didn't block Charming Prince (33).
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Damage: Charming Prince (33) deals 4 combat damage to Ai(2)-Gen10_Deck36.
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Land: Ai(2)-Gen10_Deck36 played Crawling Barrens (94)
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 assigned Dawnwing Marshal (109) to attack Ai(1)-Gen10_Deck5.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen10_Deck5 didn't block Dawnwing Marshal (109).
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Damage: Dawnwing Marshal (109) deals 2 combat damage to Ai(1)-Gen10_Deck5.
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Crawling Barrens (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen10_Deck36 cast Dazzling Angel (104)
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen10_Deck5 cast Dawnwing Marshal (51)
+Resolve stack: Dawnwing Marshal - Creature 2 / 2
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 assigned Dazzling Angel (104) to attack Ai(1)-Gen10_Deck5.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen10_Deck5 didn't block Dazzling Angel (104).
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Damage: Dazzling Angel (104) deals 2 combat damage to Ai(1)-Gen10_Deck5.
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Land: Ai(1)-Gen10_Deck5 played Plains (17)
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 assigned Charming Prince (33) to attack Ai(2)-Gen10_Deck36.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen10_Deck36 didn't block Charming Prince (33).
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Damage: Charming Prince (33) deals 2 combat damage to Ai(2)-Gen10_Deck36.
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen10_Deck5 cast Youthful Valkyrie (8)
+Resolve stack: Youthful Valkyrie - Creature 1 / 3
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Discard: Ai(2)-Gen10_Deck36 discards Meteor Golem (69).
+Turn: Turn 13 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (34) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen10_Deck5 cast Angel of Finality (42)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen10_Deck5 triggered Angel of Finality (42) targeting [Ai(2)-Gen10_Deck36]
+Add to stack: Ai(1)-Gen10_Deck5 triggered Youthful Valkyrie (8)
+Resolve stack: Whenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie. [Zone Changer: Angel of Finality (42)]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen10_Deck36]]) [Zone Changer: Angel of Finality (42)]
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Crawling Barrens (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen10_Deck36 cast Stroke of Midnight (86) targeting [Angel of Finality (42)]
+Resolve stack: Stroke of Midnight (86) - Destroy Angel of Finality (42). 
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Land: Ai(2)-Gen10_Deck36 played Plains (85)
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Crawling Barrens (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen10_Deck36 cast Vanguard Seraph (91)
+Resolve stack: Vanguard Seraph - Creature 3 / 3
+Add to stack: Ai(2)-Gen10_Deck36 triggered Dazzling Angel (104)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Vanguard Seraph (91)]
+Add to stack: Ai(2)-Gen10_Deck36 triggered Vanguard Seraph (91)
+Resolve stack: Ai(2)-Gen10_Deck36 surveiled 1 card(s) to the top of the library
+Resolve stack: Whenever you gain life for the first time each turn, surveil 1. (Look at the top card of your library. You may put it into your graveyard.) [Player: Ai(2)-Gen10_Deck36, Gained Amount: 1]
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen10_Deck5 cast Stroke of Midnight (28) targeting [Vanguard Seraph (91)]
+Resolve stack: Stroke of Midnight (28) - Destroy Vanguard Seraph (91). 
+Add to stack: Ai(2)-Gen10_Deck36 triggered Dazzling Angel (104)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Human Token (124)]
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (34) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen10_Deck5 cast Angel of Finality (40)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen10_Deck5 triggered Angel of Finality (40) targeting [Ai(2)-Gen10_Deck36]
+Add to stack: Ai(1)-Gen10_Deck5 triggered Youthful Valkyrie (8)
+Resolve stack: Whenever another Angel you control enters, put a +1/+1 counter on Youthful Valkyrie. [Zone Changer: Angel of Finality (40)]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen10_Deck36]]) [Zone Changer: Angel of Finality (40)]
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Crawling Barrens (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen10_Deck36 cast Juggernaut (64)
+Resolve stack: Juggernaut - Creature 5 / 3
+Add to stack: Ai(2)-Gen10_Deck36 triggered Dazzling Angel (104)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Juggernaut (64)]
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen10_Deck36 played Orzhov Guildgate (62)
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Land: Ai(1)-Gen10_Deck5 played Plains (22)
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 assigned Youthful Valkyrie (8) and Angel of Finality (40) to attack Ai(2)-Gen10_Deck36.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen10_Deck36 didn't block Youthful Valkyrie (8).
+Ai(2)-Gen10_Deck36 assigned Dawnwing Marshal (109) and Dazzling Angel (104) to block Angel of Finality (40).
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (34) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen10_Deck5 activated Dawnwing Marshal (51)
+Resolve stack: Dawnwing Marshal (51) - Creatures you control get +1/+1 until end of turn.
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Damage: Youthful Valkyrie (8) deals 4 combat damage to Ai(2)-Gen10_Deck36.
+Damage: Angel of Finality (40) deals 2 damage () to Dazzling Angel (104).
+Damage: Angel of Finality (40) deals 2 damage () to Dawnwing Marshal (109).
+Damage: Dawnwing Marshal (109) deals 2 damage () to Angel of Finality (40).
+Damage: Dazzling Angel (104) deals 2 damage () to Angel of Finality (40).
+Phase: Ai(1)-Gen10_Deck5's End of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen10_Deck5's End step
+Phase: Ai(1)-Gen10_Deck5's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen10_Deck36)
+Phase: Ai(2)-Gen10_Deck36's Untap step
+Phase: Ai(2)-Gen10_Deck36's Upkeep step
+Phase: Ai(2)-Gen10_Deck36's Draw step
+Phase: Ai(2)-Gen10_Deck36's Main phase, precombat
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Orzhov Guildgate (62) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen10_Deck36 activated Crawling Barrens (94)
+Resolve stack: Crawling Barrens (94) - Ai(2)-Gen10_Deck36 puts two +1/+1 counters on Crawling Barrens (94). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen10_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen10_Deck36 assigned Juggernaut (64) and Dazzling Angel (104) to attack Ai(1)-Gen10_Deck5.
+Phase: Ai(2)-Gen10_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen10_Deck5 didn't block Juggernaut (64).
+Ai(1)-Gen10_Deck5 didn't block Dazzling Angel (104).
+Phase: Ai(2)-Gen10_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen10_Deck36's Combat Damage Step
+Damage: Juggernaut (64) deals 5 combat damage to Ai(1)-Gen10_Deck5.
+Damage: Dazzling Angel (104) deals 2 combat damage to Ai(1)-Gen10_Deck5.
+Phase: Ai(2)-Gen10_Deck36's End of Combat Step
+Phase: Ai(2)-Gen10_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen10_Deck36's End step
+Phase: Ai(2)-Gen10_Deck36's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen10_Deck5)
+Phase: Ai(1)-Gen10_Deck5's Untap step
+Phase: Ai(1)-Gen10_Deck5's Upkeep step
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (34) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen10_Deck5 activated Dawnwing Marshal (51)
+Resolve stack: Dawnwing Marshal (51) - Creatures you control get +1/+1 until end of turn.
+Phase: Ai(1)-Gen10_Deck5's Draw step
+Phase: Ai(1)-Gen10_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen10_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen10_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen10_Deck5 assigned Youthful Valkyrie (8), Angel of Finality (40), Charming Prince (33), Dawnwing Marshal (51) and Human Token (122) to attack Ai(2)-Gen10_Deck36.
+Phase: Ai(1)-Gen10_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen10_Deck36 assigned Human Token (124) to block Charming Prince (33).
+Ai(2)-Gen10_Deck36 didn't block Dawnwing Marshal (51).
+Ai(2)-Gen10_Deck36 didn't block Youthful Valkyrie (8).
+Ai(2)-Gen10_Deck36 didn't block Angel of Finality (40).
+Ai(2)-Gen10_Deck36 didn't block Human Token (122).
+Phase: Ai(1)-Gen10_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen10_Deck5's Combat Damage Step
+Damage: Youthful Valkyrie (8) deals 4 combat damage to Ai(2)-Gen10_Deck36.
+Damage: Angel of Finality (40) deals 4 combat damage to Ai(2)-Gen10_Deck36.
+Damage: Charming Prince (33) deals 3 damage () to Human Token (124).
+Damage: Dawnwing Marshal (51) deals 3 combat damage to Ai(2)-Gen10_Deck36.
+Damage: Human Token (122) deals 2 combat damage to Ai(2)-Gen10_Deck36.
+Damage: Human Token (124) deals 1 damage () to Charming Prince (33).
+Player control: Ai(1)-Gen10_Deck5 is controlled by Ai(1)-Gen10_Deck5
+Player control: Ai(2)-Gen10_Deck36 is controlled by Ai(2)-Gen10_Deck36
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen10_Deck5 has won because all opponents have lost
+Game outcome: Ai(2)-Gen10_Deck36 has lost because life total reached 0
+Match result: Ai(1)-Gen10_Deck5: 1 Ai(2)-Gen10_Deck36: 0 
+
+Game Result: Game 1 ended in 25692 ms. Ai(1)-Gen10_Deck5 has won!
+
+
+=== STDERR ===

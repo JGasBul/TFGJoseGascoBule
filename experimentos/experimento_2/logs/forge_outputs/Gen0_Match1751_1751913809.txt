@@ -1,0 +1,369 @@
+=== COMBATE PARALELO: Gen0_Deck23 vs Gen0_Deck25 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck23 Gen0_Deck25 -n 1
+Duración: 30.55 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2038 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 192 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck23 vs Ai(2)-Gen0_Deck25 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck25 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Mountain (111)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (47)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Adventuring Gear (4)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Mountain (107)
+Add to stack: Ai(2)-Gen0_Deck25 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (107)]
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (107) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Heartfire Immolator (118)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Forest (35)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (4)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (35)]
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Mild-Mannered Librarian (17)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Adventuring Gear (2)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Swamp (77)
+Add to stack: Ai(2)-Gen0_Deck25 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (77)]
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 activated Adventuring Gear (61) targeting [Heartfire Immolator (118)]
+Resolve stack: Adventuring Gear (61) -  Attach to Heartfire Immolator (118)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Heartfire Immolator (118) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Heartfire Immolator (118).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Heartfire Immolator (118) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Mountain (107) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Heartfire Immolator (120)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Cryptic Caves (11)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (4)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Cryptic Caves (11)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Cryptic Caves (11)]
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Adventuring Gear (4) targeting [Mild-Mannered Librarian (17)]
+Resolve stack: Adventuring Gear (4) -  Attach to Mild-Mannered Librarian (17)
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Adventuring Gear (2) targeting [Mild-Mannered Librarian (17)]
+Resolve stack: Adventuring Gear (2) -  Attach to Mild-Mannered Librarian (17)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Ghitu Lavarunner (91)
+Resolve stack: Ghitu Lavarunner - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Heartfire Immolator (118) and Heartfire Immolator (120) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Heartfire Immolator (118).
+Ai(1)-Gen0_Deck23 didn't block Heartfire Immolator (120).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Heartfire Immolator (118) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Heartfire Immolator (120) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (107) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Burglar Rat (98)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck25 triggered Burglar Rat (98)
+Discard: Ai(1)-Gen0_Deck23 discards Needletooth Pack (6).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (98)]
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Demolition Field (59)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (4)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (59)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (59)]
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Mild-Mannered Librarian (17) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Mild-Mannered Librarian (17).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Mild-Mannered Librarian (17) deals 5 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Mild-Mannered Librarian (15)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Heartfire Immolator (118), Heartfire Immolator (120), Ghitu Lavarunner (91) and Burglar Rat (98) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Burglar Rat (98).
+Ai(1)-Gen0_Deck23 didn't block Heartfire Immolator (118).
+Ai(1)-Gen0_Deck23 didn't block Heartfire Immolator (120).
+Ai(1)-Gen0_Deck23 didn't block Ghitu Lavarunner (91).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Heartfire Immolator (118) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Heartfire Immolator (120) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Ghitu Lavarunner (91) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Burglar Rat (98) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Evolving Wilds (38)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (4)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Evolving Wilds (38)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Evolving Wilds (38)]
+Add to stack: Ai(1)-Gen0_Deck23 activated Evolving Wilds (38)
+Resolve stack: Evolving Wilds (38) - Ai(1)-Gen0_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (4)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (52)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (52)]
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Cryptic Caves (11)
+Resolve stack: Cryptic Caves (11) - Ai(1)-Gen0_Deck23 draws a card.
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Mild-Mannered Librarian (17) and Mild-Mannered Librarian (15) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Mild-Mannered Librarian (17).
+Ai(2)-Gen0_Deck25 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Mild-Mannered Librarian (17) deals 9 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Heartfire Immolator (118), Heartfire Immolator (120), Ghitu Lavarunner (91) and Burglar Rat (98) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Burglar Rat (98).
+Ai(1)-Gen0_Deck23 didn't block Heartfire Immolator (118).
+Ai(1)-Gen0_Deck23 didn't block Heartfire Immolator (120).
+Ai(1)-Gen0_Deck23 didn't block Ghitu Lavarunner (91).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Heartfire Immolator (118) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Heartfire Immolator (120) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Ghitu Lavarunner (91) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Burglar Rat (98) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (107) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Firespitter Whelp (94)
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Evolving Wilds (40)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (4)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Evolving Wilds (40)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Evolving Wilds (40)]
+Add to stack: Ai(1)-Gen0_Deck23 activated Evolving Wilds (40)
+Resolve stack: Evolving Wilds (40) - Ai(1)-Gen0_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Adventuring Gear (4)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (37)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (37)]
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Mild-Mannered Librarian (16)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Demolition Field (101)
+Add to stack: Ai(2)-Gen0_Deck25 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (101)]
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Heartfire Immolator (118), Heartfire Immolator (120), Firespitter Whelp (94), Ghitu Lavarunner (91) and Burglar Rat (98) to attack Ai(1)-Gen0_Deck23.
+Mana: Island (47) - {T}: Add {U}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Burrog Befuddler (54)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck23 triggered Burrog Befuddler (54) targeting [Heartfire Immolator (118)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Heartfire Immolator (118)]]) [Zone Changer: Burrog Befuddler (54)]
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Burrog Befuddler (54) to block Burglar Rat (98).
+Ai(1)-Gen0_Deck23 assigned Mild-Mannered Librarian (17) to block Heartfire Immolator (118).
+Ai(1)-Gen0_Deck23 assigned Mild-Mannered Librarian (15) to block Heartfire Immolator (120).
+Ai(1)-Gen0_Deck23 assigned Mild-Mannered Librarian (16) to block Ghitu Lavarunner (91).
+Ai(1)-Gen0_Deck23 didn't block Firespitter Whelp (94).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Heartfire Immolator (118) deals 3 damage () to Mild-Mannered Librarian (17).
+Damage: Heartfire Immolator (120) deals 2 damage () to Mild-Mannered Librarian (15).
+Damage: Firespitter Whelp (94) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Ghitu Lavarunner (91) deals 1 damage () to Mild-Mannered Librarian (16).
+Damage: Burglar Rat (98) deals 1 damage () to Burrog Befuddler (54).
+Damage: Mild-Mannered Librarian (17) deals 1 damage () to Heartfire Immolator (118).
+Damage: Mild-Mannered Librarian (15) deals 1 damage () to Heartfire Immolator (120).
+Damage: Mild-Mannered Librarian (16) deals 1 damage () to Ghitu Lavarunner (91).
+Damage: Burrog Befuddler (54) deals 2 damage () to Burglar Rat (98).
+Player control: Ai(1)-Gen0_Deck23 is controlled by Ai(1)-Gen0_Deck23
+Player control: Ai(2)-Gen0_Deck25 is controlled by Ai(2)-Gen0_Deck25
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen0_Deck23 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck25 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck23: 0 Ai(2)-Gen0_Deck25: 1 
+
+Game Result: Game 1 ended in 16698 ms. Ai(2)-Gen0_Deck25 has won!
+
+
+=== STDERR ===

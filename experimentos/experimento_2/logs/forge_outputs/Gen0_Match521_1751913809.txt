@@ -1,0 +1,360 @@
+=== COMBATE PARALELO: Gen0_Deck5 vs Gen0_Deck31 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck5 Gen0_Deck31 -n 1
+Duración: 24.97 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1822 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 202 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck5 vs Ai(2)-Gen0_Deck31 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck31 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck5 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Cryptic Caves (67)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck5's Untap step
+Phase: Ai(1)-Gen0_Deck5's Upkeep step
+Phase: Ai(1)-Gen0_Deck5's Draw step
+Phase: Ai(1)-Gen0_Deck5's Main phase, precombat
+Land: Ai(1)-Gen0_Deck5 played Plains (39)
+Phase: Ai(1)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck5's End of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck5's End step
+Phase: Ai(1)-Gen0_Deck5's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Replacement Effect: Dimir Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck31 played Dimir Guildgate (118)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck5's Untap step
+Phase: Ai(1)-Gen0_Deck5's Upkeep step
+Phase: Ai(1)-Gen0_Deck5's Draw step
+Phase: Ai(1)-Gen0_Deck5's Main phase, precombat
+Land: Ai(1)-Gen0_Deck5 played Island (48)
+Phase: Ai(1)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck5's End of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (48) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck5 cast Ajani's Pridemate (41)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck5's End step
+Phase: Ai(1)-Gen0_Deck5's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Stab (82) targeting [Ajani's Pridemate (41)]
+Resolve stack: Stab (82) - Ajani's Pridemate (41) gets -2/-2  until end of turn.
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Replacement Effect: Dimir Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck31 played Dimir Guildgate (117)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck5's Untap step
+Phase: Ai(1)-Gen0_Deck5's Upkeep step
+Phase: Ai(1)-Gen0_Deck5's Draw step
+Phase: Ai(1)-Gen0_Deck5's Main phase, precombat
+Land: Ai(1)-Gen0_Deck5 played Island (53)
+Phase: Ai(1)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck5's End of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Main phase, postcombat
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (53) - {T}: Add {U}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck5 cast Kaito, Cunning Infiltrator (18)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(1)-Gen0_Deck5 activated Kaito, Cunning Infiltrator (18)
+Resolve stack: Kaito, Cunning Infiltrator (18) - Ai(1)-Gen0_Deck5 creates a 2/1 blue Ninja creature token.
+Phase: Ai(1)-Gen0_Deck5's End step
+Phase: Ai(1)-Gen0_Deck5's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Mana: Dimir Guildgate (117) - {T}: Add {U} or {B}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Dread Summons (76)
+Zone Change: Ai(2)-Gen0_Deck31 milled Plains (102).
+Zone Change: Ai(1)-Gen0_Deck5 milled Kaito, Cunning Infiltrator (19).
+Resolve stack: Dread Summons (76) - Each player mills a card.   (X=1)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck5's Untap step
+Phase: Ai(1)-Gen0_Deck5's Upkeep step
+Phase: Ai(1)-Gen0_Deck5's Draw step
+Phase: Ai(1)-Gen0_Deck5's Main phase, precombat
+Land: Ai(1)-Gen0_Deck5 played Island (50)
+Phase: Ai(1)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck5 assigned Ninja Token (124) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Ninja Token (124).
+Phase: Ai(1)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck5's Combat Damage Step
+Damage: Ninja Token (124) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Add to stack: Ai(1)-Gen0_Deck5 triggered Kaito, Cunning Infiltrator (18)
+Resolve stack: Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito. [Damage Source: Ninja Token (124), Damaged: Ai(2)-Gen0_Deck31, Amount: 2]
+Phase: Ai(1)-Gen0_Deck5's End of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (53) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck5 cast Felidar Savior (9)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen0_Deck5 triggered Felidar Savior (9) targeting [Ninja Token (124)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Ninja Token (124)]]) [Zone Changer: Felidar Savior (9)]
+Phase: Ai(1)-Gen0_Deck5's End step
+Phase: Ai(1)-Gen0_Deck5's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Mana: Dimir Guildgate (117) - {T}: Add {U} or {B}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Abyssal Harvester (111)
+Resolve stack: Abyssal Harvester - Creature 3 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck5's Untap step
+Phase: Ai(1)-Gen0_Deck5's Upkeep step
+Phase: Ai(1)-Gen0_Deck5's Draw step
+Phase: Ai(1)-Gen0_Deck5's Main phase, precombat
+Land: Ai(1)-Gen0_Deck5 played Island (52)
+Phase: Ai(1)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck5 assigned Ninja Token (124) and Felidar Savior (9) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Felidar Savior (9).
+Ai(2)-Gen0_Deck31 didn't block Ninja Token (124).
+Phase: Ai(1)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck5's Combat Damage Step
+Damage: Ninja Token (124) deals 3 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Felidar Savior (9) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Add to stack: Ai(1)-Gen0_Deck5 triggered Kaito, Cunning Infiltrator (18)
+Add to stack: Ai(1)-Gen0_Deck5 triggered Kaito, Cunning Infiltrator (18)
+Resolve stack: Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito. [Damage Source: Felidar Savior (9), Damaged: Ai(2)-Gen0_Deck31, Amount: 2]
+Resolve stack: Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito. [Damage Source: Ninja Token (124), Damaged: Ai(2)-Gen0_Deck31, Amount: 3]
+Phase: Ai(1)-Gen0_Deck5's End of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Main phase, postcombat
+Add to stack: Ai(1)-Gen0_Deck5 activated Kaito, Cunning Infiltrator (18)
+Resolve stack: Kaito, Cunning Infiltrator (18) - Ai(1)-Gen0_Deck5 creates a 2/1 blue Ninja creature token.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (53) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck5 cast Vanguard Seraph (57)
+Resolve stack: Vanguard Seraph - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck5's End step
+Phase: Ai(1)-Gen0_Deck5's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Cryptic Caves (66)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck5's Untap step
+Phase: Ai(1)-Gen0_Deck5's Upkeep step
+Phase: Ai(1)-Gen0_Deck5's Draw step
+Phase: Ai(1)-Gen0_Deck5's Main phase, precombat
+Land: Ai(1)-Gen0_Deck5 played Plains (37)
+Add to stack: Ai(1)-Gen0_Deck5 activated Kaito, Cunning Infiltrator (18)
+Resolve stack: Kaito, Cunning Infiltrator (18) - Ai(1)-Gen0_Deck5 creates a 2/1 blue Ninja creature token.
+Phase: Ai(1)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck5 assigned Ninja Token (124), Vanguard Seraph (57), Felidar Savior (9) and Ninja Token (129) to attack Ai(2)-Gen0_Deck31.
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Fleeting Distraction (78) targeting [Vanguard Seraph (57)]
+Resolve stack: Fleeting Distraction (78) - Vanguard Seraph (57) gets -1/-0  until end of turn. Ai(2)-Gen0_Deck31 draws a card.
+Phase: Ai(1)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Ninja Token (129).
+Ai(2)-Gen0_Deck31 didn't block Vanguard Seraph (57).
+Ai(2)-Gen0_Deck31 didn't block Felidar Savior (9).
+Ai(2)-Gen0_Deck31 didn't block Ninja Token (124).
+Phase: Ai(1)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck5's Combat Damage Step
+Damage: Ninja Token (124) deals 3 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Vanguard Seraph (57) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Felidar Savior (9) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Ninja Token (129) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Add to stack: Ai(1)-Gen0_Deck5 triggered Vanguard Seraph (57)
+Resolve stack: Ai(1)-Gen0_Deck5 surveiled 1 card(s) to the graveyard
+Resolve stack: Whenever you gain life for the first time each turn, surveil 1. (Look at the top card of your library. You may put it into your graveyard.) [Player: Ai(1)-Gen0_Deck5, Gained Amount: 2]
+Phase: Ai(1)-Gen0_Deck5's End of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (48) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck5 cast Gleaming Barrier (21)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Mana: Island (53) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck5 cast Kaito, Cunning Infiltrator (20)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(1)-Gen0_Deck5 activated Kaito, Cunning Infiltrator (20)
+Resolve stack: Kaito, Cunning Infiltrator (20) - Ai(1)-Gen0_Deck5 creates a 2/1 blue Ninja creature token.
+Phase: Ai(1)-Gen0_Deck5's End step
+Add to stack: Ai(2)-Gen0_Deck31 activated Abyssal Harvester (111) targeting [Burrog Befuddler (59)]
+Resolve stack: Abyssal Harvester (111) - Exile Burrog Befuddler (59) from the graveyard. Ai(2)-Gen0_Deck31 creates a token that's a copy of .  
+Add to stack: Ai(2)-Gen0_Deck31 triggered Burrog Befuddler (139) targeting [Felidar Savior (9)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Felidar Savior (9)]]) [Zone Changer: Burrog Befuddler (139)]
+Phase: Ai(1)-Gen0_Deck5's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Island (109)
+Mana: Dimir Guildgate (118) - {T}: Add {U} or {B}.
+Mana: Dimir Guildgate (117) - {T}: Add {U} or {B}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Mana: Cryptic Caves (66) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Dread Summons (74)
+Zone Change: Ai(2)-Gen0_Deck31 milled Tempest Djinn (88), Curator of Destinies (112) and Quick Study (93).
+Zone Change: Ai(1)-Gen0_Deck5 milled Imprisoned in the Moon (11), Lightshell Duo (14) and Sun-Blessed Healer (8).
+Resolve stack: Dread Summons (74) - Each player mills three cards.   (X=3)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck5's Untap step
+Phase: Ai(1)-Gen0_Deck5's Upkeep step
+Phase: Ai(1)-Gen0_Deck5's Draw step
+Phase: Ai(1)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck5 assigned Ninja Token (124), Vanguard Seraph (57), Felidar Savior (9), Ninja Token (129), Ninja Token (133) and Ninja Token (137) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Ninja Token (129).
+Ai(2)-Gen0_Deck31 didn't block Ninja Token (133).
+Ai(2)-Gen0_Deck31 didn't block Vanguard Seraph (57).
+Ai(2)-Gen0_Deck31 assigned Abyssal Harvester (111) to block Felidar Savior (9).
+Ai(2)-Gen0_Deck31 didn't block Ninja Token (137).
+Ai(2)-Gen0_Deck31 assigned Burrog Befuddler (139) to block Ninja Token (124).
+Phase: Ai(1)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck5's Combat Damage Step
+Damage: Ninja Token (124) deals 3 damage () to Burrog Befuddler (139).
+Damage: Vanguard Seraph (57) deals 3 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Felidar Savior (9) deals 2 damage () to Abyssal Harvester (111).
+Damage: Ninja Token (129) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Ninja Token (133) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Ninja Token (137) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Burrog Befuddler (139) deals 2 damage () to Ninja Token (124).
+Damage: Abyssal Harvester (111) deals 3 damage () to Felidar Savior (9).
+Player control: Ai(1)-Gen0_Deck5 is controlled by Ai(1)-Gen0_Deck5
+Player control: Ai(2)-Gen0_Deck31 is controlled by Ai(2)-Gen0_Deck31
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen0_Deck5 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck31 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck5: 1 Ai(2)-Gen0_Deck31: 0 
+
+Game Result: Game 1 ended in 13741 ms. Ai(1)-Gen0_Deck5 has won!
+
+
+=== STDERR ===

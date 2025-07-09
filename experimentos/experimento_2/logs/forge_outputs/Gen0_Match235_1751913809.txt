@@ -1,0 +1,1098 @@
+=== COMBATE PARALELO: Gen0_Deck2 vs Gen0_Deck23 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck2 Gen0_Deck23 -n 1
+Duración: 134.33 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1848 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 104 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck2 vs Ai(2)-Gen0_Deck23 - one game of Constructed
+Stopping slow match as draw
+Mulligan: Ai(1)-Gen0_Deck2 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (31)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Duress (37) targeting [Ai(2)-Gen0_Deck23]
+Discard: Ai(2)-Gen0_Deck23 discards Inspiring Call (103).
+Resolve stack: Duress (37) - Ai(2)-Gen0_Deck23 reveals their hand. Ai(1)-Gen0_Deck2 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen0_Deck23 discards that card.
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (91)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Mild-Mannered Librarian (76)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (32)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Island (111)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Mild-Mannered Librarian (76) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Mild-Mannered Librarian (76).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Mild-Mannered Librarian (76) deals 1 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Campus Guide (80)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck23 triggered Campus Guide (80)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (80)]
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (30)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Demolition Field (120)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Campus Guide (80) and Mild-Mannered Librarian (76) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Campus Guide (80).
+Ai(1)-Gen0_Deck2 didn't block Mild-Mannered Librarian (76).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Campus Guide (80) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Mild-Mannered Librarian (76) deals 1 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (27)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Driver of the Dead (57)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Demolition Field (119)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Campus Guide (80) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Campus Guide (80).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Campus Guide (80) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Mild-Mannered Librarian (77)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Driver of the Dead (57) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 didn't block Driver of the Dead (57).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Driver of the Dead (57) deals 3 combat damage to Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Driver of the Dead (54)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (97)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Island (106)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Campus Guide (79)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck23 triggered Campus Guide (79)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (79)]
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Suspicious Shambler (5)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Island (110)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Cryptic Caves (4)
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen0_Deck2 draws a card.
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Suspicious Shambler (5) to attack Ai(2)-Gen0_Deck23.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Campus Guide (80) to block Suspicious Shambler (5).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Suspicious Shambler (5) deals 4 damage () to Campus Guide (80).
+Damage: Campus Guide (80) deals 2 damage () to Suspicious Shambler (5).
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Evolving Wilds (98)
+Add to stack: Ai(2)-Gen0_Deck23 activated Evolving Wilds (98)
+Resolve stack: Evolving Wilds (98) - Ai(2)-Gen0_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Cryptic Caves (2)
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen0_Deck2 draws a card.
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (32) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Duress (39) targeting [Ai(2)-Gen0_Deck23]
+Resolve stack: Duress (39) - Ai(2)-Gen0_Deck23 reveals their hand. Ai(1)-Gen0_Deck2 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen0_Deck23 discards that card.
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Evolving Wilds (101)
+Add to stack: Ai(2)-Gen0_Deck23 activated Evolving Wilds (101)
+Resolve stack: Evolving Wilds (101) - Ai(2)-Gen0_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Campus Guide (81)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck23 triggered Campus Guide (81)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (81)]
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Driver of the Dead (55)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (95)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (33)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Kalastria Highborn (45)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Evolving Wilds (99)
+Add to stack: Ai(2)-Gen0_Deck23 activated Evolving Wilds (99)
+Resolve stack: Evolving Wilds (99) - Ai(2)-Gen0_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Mild-Mannered Librarian (78)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (23)
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Liliana, Dreadhorde General (9)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(1)-Gen0_Deck2 activated Liliana, Dreadhorde General (9)
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (110) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Mild-Mannered Librarian (76)
+Resolve stack: Mild-Mannered Librarian (76) - Mild-Mannered Librarian (76) becomes a Werewolf . Ai(2)-Gen0_Deck23 puts two +1/+1 counters on Mild-Mannered Librarian (76). Ai(2)-Gen0_Deck23 draws a card.
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Mild-Mannered Librarian (77)
+Resolve stack: Mild-Mannered Librarian (77) - Mild-Mannered Librarian (77) becomes a Werewolf . Ai(2)-Gen0_Deck23 puts two +1/+1 counters on Mild-Mannered Librarian (77). Ai(2)-Gen0_Deck23 draws a card.
+Resolve stack: Liliana, Dreadhorde General (9) - Ai(1)-Gen0_Deck2 and Ai(2)-Gen0_Deck23 sacrifice two creatures.
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Driver of the Dead (57) targeting [Kalastria Highborn (45)]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Liliana, Dreadhorde General (9)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Liliana, Dreadhorde General (9)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Driver of the Dead (57)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Kalastria Highborn (45)]
+Resolve stack: When Driver of the Dead dies, return target creature with mana value 2 or less from your graveyard to the battlefield. (Targeting: [[Kalastria Highborn (45)]]) [Zone Changer: Driver of the Dead (57)]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Driver of the Dead (57)]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Kalastria Highborn (45)]
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Mana: Forest (91) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Mana: Island (111) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Adventuring Gear (63) targeting [Mild-Mannered Librarian (76)]
+Resolve stack: Adventuring Gear (63) -  Attach to Mild-Mannered Librarian (76)
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Campus Guide (81) to attack Liliana, Dreadhorde General (9).
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Campus Guide (81).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (110) - {T}: Add {U}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Heroes' Bane (87)
+Replacement Effect: Heroes' Bane enters with four +1/+1 counters on it.
+Resolve stack: Heroes' Bane - Creature 0 / 0
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Zombify (46) targeting [Driver of the Dead (57)]
+Resolve stack: Zombify (46) - Return Driver of the Dead (57) from the graveyard to the battlefield.
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Cemetery Recruitment (10) targeting [Suspicious Shambler (5)]
+Resolve stack: Cemetery Recruitment (10) - Return Suspicious Shambler (5) from the graveyard to its owner's hand. Ai(1)-Gen0_Deck2 draws a card. 
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (94)
+Add to stack: Ai(2)-Gen0_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (94)]
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Mild-Mannered Librarian (76), Heroes' Bane (87) and Campus Guide (81) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to block Campus Guide (81).
+Ai(1)-Gen0_Deck2 didn't block Heroes' Bane (87).
+Ai(1)-Gen0_Deck2 assigned Driver of the Dead (54) and Driver of the Dead (55) to block Mild-Mannered Librarian (76).
+Mana: Island (111) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Dive Down (117) targeting [Mild-Mannered Librarian (76)]
+Resolve stack: Dive Down (117) - Mild-Mannered Librarian (76) gets +0/+3 and gains hexproof until end of turn.
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Mild-Mannered Librarian (76) deals 2 damage () to Driver of the Dead (54).
+Damage: Mild-Mannered Librarian (76) deals 3 damage () to Driver of the Dead (55).
+Damage: Heroes' Bane (87) deals 4 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Campus Guide (81) deals 2 damage () to Kalastria Highborn (45).
+Damage: Kalastria Highborn (45) deals 2 damage () to Campus Guide (81).
+Damage: Driver of the Dead (54) deals 3 damage () to Mild-Mannered Librarian (76).
+Damage: Driver of the Dead (55) deals 3 damage () to Mild-Mannered Librarian (76).
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Driver of the Dead (54) targeting [Kalastria Highborn (45)]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Driver of the Dead (55) targeting [Kalastria Highborn (45)]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Kalastria Highborn (45)]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Driver of the Dead (55)]
+Resolve stack: When Driver of the Dead dies, return target creature with mana value 2 or less from your graveyard to the battlefield. (Targeting: [[Kalastria Highborn (45)]]) [Zone Changer: Driver of the Dead (55)]
+Resolve stack: Driver of the Dead (54) ability fizzles.
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Driver of the Dead (54)]
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Highborn Vampire (53)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Mazemind Tome (48)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen0_Deck2's End step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (110) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts eight +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Island (112) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts sixteen +1/+1 counters on Heroes' Bane (87).
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (87), Mild-Mannered Librarian (76) and Mild-Mannered Librarian (77) to attack Ai(1)-Gen0_Deck2.
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to block Heroes' Bane (87).
+Ai(1)-Gen0_Deck2 assigned Driver of the Dead (57) to block Mild-Mannered Librarian (76).
+Ai(1)-Gen0_Deck2 assigned Highborn Vampire (53) to block Mild-Mannered Librarian (77).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (87) deals 16 damage () to Kalastria Highborn (45).
+Damage: Mild-Mannered Librarian (76) deals 3 damage () to Driver of the Dead (57).
+Damage: Mild-Mannered Librarian (77) deals 3 damage () to Highborn Vampire (53).
+Damage: Driver of the Dead (57) deals 3 damage () to Mild-Mannered Librarian (76).
+Damage: Highborn Vampire (53) deals 4 damage () to Mild-Mannered Librarian (77).
+Damage: Kalastria Highborn (45) deals 2 damage () to Heroes' Bane (87).
+Add to stack: Ai(1)-Gen0_Deck2 triggered Driver of the Dead (57) targeting [Kalastria Highborn (45)]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Highborn Vampire (53)]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Kalastria Highborn (45)]
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Driver of the Dead (57)]
+Resolve stack: When Driver of the Dead dies, return target creature with mana value 2 or less from your graveyard to the battlefield. (Targeting: [[Kalastria Highborn (45)]]) [Zone Changer: Driver of the Dead (57)]
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (110) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Needletooth Pack (66)
+Resolve stack: Needletooth Pack - Creature 4 / 5
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Adventuring Gear (63) targeting [Heroes' Bane (87)]
+Resolve stack: Adventuring Gear (63) -  Attach to Heroes' Bane (87)
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Needletooth Pack (66) targeting [Heroes' Bane (87)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (87)]]) [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Cryptic Caves (3)
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Cryptic Caves (3)
+Resolve stack: Cryptic Caves (3) - Ai(1)-Gen0_Deck2 draws a card.
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Suspicious Shambler (5)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Island (112) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts thirty six +1/+1 counters on Heroes' Bane (87).
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (92)
+Add to stack: Ai(2)-Gen0_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (92)]
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (87) and Needletooth Pack (66) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Needletooth Pack (66).
+Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to block Heroes' Bane (87).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (87) deals 38 damage () to Kalastria Highborn (45).
+Damage: Needletooth Pack (66) deals 4 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Kalastria Highborn (45) deals 2 damage () to Heroes' Bane (87).
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck23]
+Mana: Swamp (23) - {T}: Add {B}.
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck23]]) [Zone Changer: Kalastria Highborn (45)]
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Needletooth Pack (66) targeting [Heroes' Bane (87)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (87)]]) [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 31 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Mazemind Tome (49)
+Resolve stack: Mazemind Tome
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Macabre Waltz (59) targeting [Highborn Vampire (53), Driver of the Dead (54)]
+Replacement Effect: If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead.
+Discard: Ai(1)-Gen0_Deck2 discards Darksteel Colossus (12).
+Resolve stack: Macabre Waltz (59) - Return Highborn Vampire (53) and Driver of the Dead (54) from the graveyard to their owner's hand. Ai(1)-Gen0_Deck2 discards a card.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 draws a card.
+Phase: Ai(1)-Gen0_Deck2's End step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts seventy six +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Island (110) - {T}: Add {U}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 152 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Island (112) - {T}: Add {U}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 304 +1/+1 counters on Heroes' Bane (87).
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 32 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (87) and Needletooth Pack (66) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Needletooth Pack (66).
+Ai(1)-Gen0_Deck2 assigned Suspicious Shambler (5) to block Heroes' Bane (87).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (87) deals 304 damage () to Suspicious Shambler (5).
+Damage: Needletooth Pack (66) deals 4 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Suspicious Shambler (5) deals 4 damage () to Heroes' Bane (87).
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Needletooth Pack (66) targeting [Heroes' Bane (87)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (87)]]) [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 33 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Suspicious Shambler (5)
+Resolve stack: Suspicious Shambler (5) - Ai(1)-Gen0_Deck2 creates two 2/2 black Zombie creature token. Activate only as a sorcery.
+Phase: Ai(1)-Gen0_Deck2's End step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 612 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Island (110) - {T}: Add {U}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 1224 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Island (112) - {T}: Add {U}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 2448 +1/+1 counters on Heroes' Bane (87).
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Discard: Ai(1)-Gen0_Deck2 discards Rune-Scarred Demon (17).
+Turn: Turn 34 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Mazemind Tome (48)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (87) and Needletooth Pack (66) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Needletooth Pack (66).
+Ai(1)-Gen0_Deck2 assigned Zombie Token (127) to block Heroes' Bane (87).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (87) deals 2448 damage () to Zombie Token (127).
+Damage: Needletooth Pack (66) deals 4 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Zombie Token (127) deals 2 damage () to Heroes' Bane (87).
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Needletooth Pack (66) targeting [Heroes' Bane (87)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (87)]]) [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 35 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Highborn Vampire (53)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Pilfer (36) targeting [Ai(2)-Gen0_Deck23]
+Mana: Island (111) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast An Offer You Can't Refuse (102) targeting [Target opponent reveals their hand. You choose a nonland card from it. That player discards that card.]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: An Offer You Can't Refuse (102) - Counter Pilfer (36). Its controller creates two Treasure tokens.
+Mana: Treasure Token (131) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Treasure Token (130) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck2 cast Cemetery Recruitment (11) targeting [Rune-Scarred Demon (17)]
+Resolve stack: Cemetery Recruitment (11) - Return Rune-Scarred Demon (17) from the graveyard to its owner's hand. Ai(1)-Gen0_Deck2 draws a card. 
+Phase: Ai(1)-Gen0_Deck2's End step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (110) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 4900 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Island (112) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 9800 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 19600 +1/+1 counters on Heroes' Bane (87).
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 36 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (87) and Needletooth Pack (66) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Highborn Vampire (53) to block Needletooth Pack (66).
+Ai(1)-Gen0_Deck2 assigned Zombie Token (128) to block Heroes' Bane (87).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (87) deals 19600 damage () to Zombie Token (128).
+Damage: Needletooth Pack (66) deals 4 damage () to Highborn Vampire (53).
+Damage: Zombie Token (128) deals 2 damage () to Heroes' Bane (87).
+Damage: Highborn Vampire (53) deals 4 damage () to Needletooth Pack (66).
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 cast Vizier of the Menagerie (74)
+Resolve stack: Vizier of the Menagerie - Creature 3 / 4
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Needletooth Pack (66) targeting [Heroes' Bane (87)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (87)]]) [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 37 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (26)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Rune-Scarred Demon (18)
+Resolve stack: Rune-Scarred Demon - Creature 6 / 6
+Add to stack: Ai(1)-Gen0_Deck2 triggered Rune-Scarred Demon (18)
+Resolve stack: When Rune-Scarred Demon enters, you may search your library for a card, put it into your hand, then shuffle. [Zone Changer: Rune-Scarred Demon (18)]
+Phase: Ai(1)-Gen0_Deck2's End step
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Island (110) - {T}: Add {U}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 39204 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Island (112) - {T}: Add {U}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 78408 +1/+1 counters on Heroes' Bane (87).
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 38 (Ai(2)-Gen0_Deck23)
+Phase: Ai(2)-Gen0_Deck23's Untap step
+Phase: Ai(2)-Gen0_Deck23's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Mazemind Tome (49)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck23's Draw step
+Phase: Ai(2)-Gen0_Deck23's Main phase, precombat
+Land: Ai(2)-Gen0_Deck23 played Forest (93)
+Add to stack: Ai(2)-Gen0_Deck23 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (93)]
+Phase: Ai(2)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck23 assigned Heroes' Bane (87), Needletooth Pack (66) and Vizier of the Menagerie (74) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Needletooth Pack (66).
+Ai(1)-Gen0_Deck2 assigned Rune-Scarred Demon (18) to block Heroes' Bane (87).
+Ai(1)-Gen0_Deck2 didn't block Vizier of the Menagerie (74).
+Phase: Ai(2)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (87) deals 78410 damage () to Rune-Scarred Demon (18).
+Damage: Needletooth Pack (66) deals 4 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Vizier of the Menagerie (74) deals 3 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Rune-Scarred Demon (18) deals 6 damage () to Heroes' Bane (87).
+Phase: Ai(2)-Gen0_Deck23's End of Combat Step
+Phase: Ai(2)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck23's End step
+Add to stack: Ai(2)-Gen0_Deck23 triggered Needletooth Pack (66) targeting [Heroes' Bane (87)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (87)]]) [Phase: Ai(2)-Gen0_Deck23]
+Phase: Ai(2)-Gen0_Deck23's Cleanup step
+Turn: Turn 39 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Rune-Scarred Demon (17)
+Resolve stack: Rune-Scarred Demon - Creature 6 / 6
+Add to stack: Ai(1)-Gen0_Deck2 triggered Rune-Scarred Demon (17)
+Resolve stack: When Rune-Scarred Demon enters, you may search your library for a card, put it into your hand, then shuffle. [Zone Changer: Rune-Scarred Demon (17)]
+Phase: Ai(1)-Gen0_Deck2's End step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 156820 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Island (110) - {T}: Add {U}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 313640 +1/+1 counters on Heroes' Bane (87).
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Island (112) - {T}: Add {U}.
+Mana: Forest (93) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck23 activated Heroes' Bane (87)
+Resolve stack: Heroes' Bane (87) - Ai(2)-Gen0_Deck23 puts 627280 +1/+1 counters on Heroes' Bane (87).
+Player control: Ai(1)-Gen0_Deck2 is controlled by Ai(1)-Gen0_Deck2
+Player control: Ai(2)-Gen0_Deck23 is controlled by Ai(2)-Gen0_Deck23
+Game outcome: Turn 20
+Game outcome: Ai(1)-Gen0_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck23 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck2: 1 Ai(2)-Gen0_Deck23: 0 
+
+Game Result: Game 1 ended in 120239 ms. Ai(1)-Gen0_Deck2 has won!
+
+
+=== STDERR ===

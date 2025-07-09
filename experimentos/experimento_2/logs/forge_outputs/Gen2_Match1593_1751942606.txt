@@ -1,0 +1,328 @@
+=== COMBATE PARALELO: Gen2_Deck20 vs Gen2_Deck27 ===
+Worker ID: 352527
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck20 Gen2_Deck27 -n 1
+Duración: 23.43 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1906 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 109 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck20 vs Ai(2)-Gen2_Deck27 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Forest (15)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck27)
+Phase: Ai(2)-Gen2_Deck27's Untap step
+Phase: Ai(2)-Gen2_Deck27's Upkeep step
+Phase: Ai(2)-Gen2_Deck27's Draw step
+Phase: Ai(2)-Gen2_Deck27's Main phase, precombat
+Land: Ai(2)-Gen2_Deck27 played Swamp (79)
+Phase: Ai(2)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck27's End of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Main phase, postcombat
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck27 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen2_Deck27's End step
+Phase: Ai(2)-Gen2_Deck27's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Replacement Effect: Temple of Abandon enters tapped.
+Land: Ai(1)-Gen2_Deck20 played Temple of Abandon (24)
+Add to stack: Ai(1)-Gen2_Deck20 triggered Temple of Abandon (24)
+Resolve stack: Ai(1)-Gen2_Deck20 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Abandon enters, scry 1. [Zone Changer: Temple of Abandon (24)]
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck27)
+Phase: Ai(2)-Gen2_Deck27's Untap step
+Phase: Ai(2)-Gen2_Deck27's Upkeep step
+Phase: Ai(2)-Gen2_Deck27's Draw step
+Phase: Ai(2)-Gen2_Deck27's Main phase, precombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(2)-Gen2_Deck27 played Temple of Deceit (104)
+Add to stack: Ai(2)-Gen2_Deck27 triggered Temple of Deceit (104)
+Add to stack: Ai(2)-Gen2_Deck27 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Temple of Deceit (104)]
+Resolve stack: Ai(2)-Gen2_Deck27 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (104)]
+Phase: Ai(2)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck27's End of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck27's End step
+Phase: Ai(2)-Gen2_Deck27's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Soulstone Sanctuary (21)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Temple of Abandon (24) - {T}: Add {R} or {G}.
+Mana: Soulstone Sanctuary (21) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Elvish Archdruid (23)
+Resolve stack: Elvish Archdruid - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck27)
+Phase: Ai(2)-Gen2_Deck27's Untap step
+Phase: Ai(2)-Gen2_Deck27's Upkeep step
+Phase: Ai(2)-Gen2_Deck27's Draw step
+Phase: Ai(2)-Gen2_Deck27's Main phase, precombat
+Land: Ai(2)-Gen2_Deck27 played Forest (95)
+Add to stack: Ai(2)-Gen2_Deck27 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (95)]
+Phase: Ai(2)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck27's End of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck27's End step
+Phase: Ai(2)-Gen2_Deck27's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Forest (13)
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Temple of Abandon (24) - {T}: Add {R} or {G}.
+Mana: Elvish Archdruid (23) - {T}: Add {G} for each Elf you control.
+Add to stack: Ai(1)-Gen2_Deck20 activated Soulstone Sanctuary (21)
+Resolve stack: Soulstone Sanctuary (21) - Soulstone Sanctuary (21) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Soulstone Sanctuary (21) to attack Ai(2)-Gen2_Deck27.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck27 didn't block Soulstone Sanctuary (21).
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Damage: Soulstone Sanctuary (21) deals 4 combat damage to Ai(2)-Gen2_Deck27.
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck27)
+Phase: Ai(2)-Gen2_Deck27's Untap step
+Phase: Ai(2)-Gen2_Deck27's Upkeep step
+Phase: Ai(2)-Gen2_Deck27's Draw step
+Phase: Ai(2)-Gen2_Deck27's Main phase, precombat
+Land: Ai(2)-Gen2_Deck27 played Island (112)
+Add to stack: Ai(2)-Gen2_Deck27 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (112)]
+Phase: Ai(2)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck27's End of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Main phase, postcombat
+Mana: Island (112) - {T}: Add {U}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Temple of Deceit (104) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen2_Deck27 cast Homunculus Horde (67)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck27's End step
+Phase: Ai(2)-Gen2_Deck27's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Crawling Barrens (20)
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Temple of Abandon (24) - {T}: Add {R} or {G}.
+Mana: Crawling Barrens (20) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (21) - {T}: Add {C}.
+Mana: Elvish Archdruid (23) - {T}: Add {G} for each Elf you control.
+Add to stack: Ai(1)-Gen2_Deck20 cast Aggressive Mammoth (52)
+Resolve stack: Aggressive Mammoth - Creature 8 / 8
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck27)
+Phase: Ai(2)-Gen2_Deck27's Untap step
+Phase: Ai(2)-Gen2_Deck27's Upkeep step
+Phase: Ai(2)-Gen2_Deck27's Draw step
+Phase: Ai(2)-Gen2_Deck27's Main phase, precombat
+Land: Ai(2)-Gen2_Deck27 played Demolition Field (120)
+Add to stack: Ai(2)-Gen2_Deck27 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (120)]
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Forest (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck27 activated Demolition Field (120) targeting [Temple of Abandon (24)]
+Resolve stack: Demolition Field (120) - Destroy Temple of Abandon (24). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen2_Deck27 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen2_Deck27 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (110)]
+Mana: Island (112) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck27 activated Adventuring Gear (63) targeting [Homunculus Horde (67)]
+Resolve stack: Adventuring Gear (63) -  Attach to Homunculus Horde (67)
+Phase: Ai(2)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck27's End of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck27's End step
+Phase: Ai(2)-Gen2_Deck27's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Mountain (59)
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Elvish Archdruid (23) - {T}: Add {G} for each Elf you control.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Aggressive Mammoth (51)
+Resolve stack: Aggressive Mammoth - Creature 8 / 8
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Aggressive Mammoth (52) and Soulstone Sanctuary (21) to attack Ai(2)-Gen2_Deck27.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck27 didn't block Aggressive Mammoth (52).
+Ai(2)-Gen2_Deck27 didn't block Soulstone Sanctuary (21).
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Damage: Aggressive Mammoth (52) deals 8 combat damage to Ai(2)-Gen2_Deck27.
+Damage: Soulstone Sanctuary (21) deals 4 combat damage to Ai(2)-Gen2_Deck27.
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck27)
+Phase: Ai(2)-Gen2_Deck27's Untap step
+Phase: Ai(2)-Gen2_Deck27's Upkeep step
+Phase: Ai(2)-Gen2_Deck27's Draw step
+Phase: Ai(2)-Gen2_Deck27's Main phase, precombat
+Land: Ai(2)-Gen2_Deck27 played Forest (88)
+Add to stack: Ai(2)-Gen2_Deck27 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (88)]
+Mana: Island (112) - {T}: Add {U}.
+Mana: Island (110) - {T}: Add {U}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Forest (95) - {T}: Add {G}.
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck27 cast Voracious Greatshark (83)
+Resolve stack: Voracious Greatshark - Creature 5 / 4
+Phase: Ai(2)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck27's End of Combat Step
+Phase: Ai(2)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck27's End step
+Phase: Ai(2)-Gen2_Deck27's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Mana: Forest (15) - {T}: Add {G}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Crawling Barrens (20) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Grow from the Ashes (38)
+Resolve stack: Grow from the Ashes (38) - Ai(1)-Gen2_Deck20 searches their library for two Land.Basic cards, puts them onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Aggressive Mammoth (52), Aggressive Mammoth (51), Soulstone Sanctuary (21) and Elvish Archdruid (23) to attack Ai(2)-Gen2_Deck27.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck27 assigned Voracious Greatshark (83) to block Aggressive Mammoth (51).
+Ai(2)-Gen2_Deck27 assigned Homunculus Horde (67) to block Aggressive Mammoth (52).
+Ai(2)-Gen2_Deck27 didn't block Soulstone Sanctuary (21).
+Ai(2)-Gen2_Deck27 didn't block Elvish Archdruid (23).
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Damage: Aggressive Mammoth (52) deals 6 combat damage to Ai(2)-Gen2_Deck27.
+Damage: Aggressive Mammoth (52) deals 2 damage () to Homunculus Horde (67).
+Damage: Aggressive Mammoth (51) deals 4 combat damage to Ai(2)-Gen2_Deck27.
+Damage: Aggressive Mammoth (51) deals 4 damage () to Voracious Greatshark (83).
+Damage: Soulstone Sanctuary (21) deals 4 combat damage to Ai(2)-Gen2_Deck27.
+Damage: Elvish Archdruid (23) deals 2 combat damage to Ai(2)-Gen2_Deck27.
+Damage: Homunculus Horde (67) deals 2 damage () to Aggressive Mammoth (52).
+Damage: Voracious Greatshark (83) deals 5 damage () to Aggressive Mammoth (51).
+Player control: Ai(1)-Gen2_Deck20 is controlled by Ai(1)-Gen2_Deck20
+Player control: Ai(2)-Gen2_Deck27 is controlled by Ai(2)-Gen2_Deck27
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen2_Deck20 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck27 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck20: 1 Ai(2)-Gen2_Deck27: 0 
+
+Game Result: Game 1 ended in 12556 ms. Ai(1)-Gen2_Deck20 has won!
+
+
+=== STDERR ===

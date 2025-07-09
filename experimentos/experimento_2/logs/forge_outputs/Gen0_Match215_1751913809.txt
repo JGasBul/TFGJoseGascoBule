@@ -1,0 +1,526 @@
+=== COMBATE PARALELO: Gen0_Deck2 vs Gen0_Deck13 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck2 Gen0_Deck13 -n 1
+Duración: 27.89 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1746 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 194 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck2 vs Ai(2)-Gen0_Deck13 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck2 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck13 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (27)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(2)-Gen0_Deck13 played Temple of Triumph (74)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Temple of Triumph (74)
+Resolve stack: Ai(2)-Gen0_Deck13 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (74)]
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (30)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Kalastria Highborn (45)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(2)-Gen0_Deck13 played Temple of Triumph (71)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Temple of Triumph (71)
+Resolve stack: Ai(2)-Gen0_Deck13 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (71)]
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (23)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Mazemind Tome (48)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Mountain (114)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Mana: Temple of Triumph (74) - {T}: Add {R} or {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Felidar Cub (70)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (32)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Pilfer (35) targeting [Ai(2)-Gen0_Deck13]
+Discard: Ai(2)-Gen0_Deck13 discards Pirate's Cutlass (108).
+Resolve stack: Pilfer (35) - Ai(2)-Gen0_Deck13 reveals their hand. Ai(1)-Gen0_Deck2 chooses a nonland card from it. Ai(2)-Gen0_Deck13 discards that card.
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Plains (87)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Temple of Triumph (74) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Electroduplicate (66) targeting [Felidar Cub (70)]
+Resolve stack: Electroduplicate (66) - Ai(2)-Gen0_Deck13 creates a token that's a copy of Felidar Cub (70), except it has haste.
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Felidar Cub (123) and Felidar Cub (70) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Felidar Cub (70).
+Ai(1)-Gen0_Deck2 didn't block Felidar Cub (123).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Felidar Cub (123) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Felidar Cub (70) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Add to stack: Ai(2)-Gen0_Deck13 triggered Felidar Cub (123)
+Resolve stack: At the beginning of the end step, sacrifice Felidar Cub. [Phase: Ai(2)-Gen0_Deck13]
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Land: Ai(1)-Gen0_Deck2 played Swamp (26)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Temple of Triumph (74) - {T}: Add {R} or {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Temple of Triumph (71) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Electroduplicate (66) targeting [Felidar Cub (70)]
+Resolve stack: Electroduplicate (66) - Ai(2)-Gen0_Deck13 creates a token that's a copy of Felidar Cub (70), except it has haste.
+Replacement Effect: Flashback {2}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Felidar Cub (125) and Felidar Cub (70) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Felidar Cub (70).
+Ai(1)-Gen0_Deck2 didn't block Felidar Cub (125).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Felidar Cub (125) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Damage: Felidar Cub (70) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Wind-Scarred Crag enters tapped.
+Land: Ai(2)-Gen0_Deck13 played Wind-Scarred Crag (80)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Wind-Scarred Crag (80)
+Resolve stack: When Wind-Scarred Crag enters, you gain 1 life. [Zone Changer: Wind-Scarred Crag (80)]
+Phase: Ai(2)-Gen0_Deck13's End step
+Add to stack: Ai(2)-Gen0_Deck13 triggered Felidar Cub (125)
+Resolve stack: At the beginning of the end step, sacrifice Felidar Cub. [Phase: Ai(2)-Gen0_Deck13]
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck2 played Secluded Courtyard (41)
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (48)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Mazemind Tome (48)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (48) - Ai(1)-Gen0_Deck2 draws a card.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Duress (38) targeting [Ai(2)-Gen0_Deck13]
+Discard: Ai(2)-Gen0_Deck13 discards Dragon Fodder (75).
+Resolve stack: Duress (38) - Ai(2)-Gen0_Deck13 reveals their hand. Ai(1)-Gen0_Deck2 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen0_Deck13 discards that card.
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Felidar Cub (70) to attack Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Felidar Cub (70).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Felidar Cub (70) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck13 played Plains (89)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Temple of Triumph (74) - {T}: Add {R} or {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Ravenous Giant (94)
+Resolve stack: Ravenous Giant - Creature 5 / 5
+Mana: Temple of Triumph (71) - {T}: Add {R} or {W}.
+Mana: Wind-Scarred Crag (80) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Ravenous Amulet (79)
+Resolve stack: Ravenous Amulet
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Hero's Downfall (43) targeting [Ravenous Giant (94)]
+Resolve stack: Hero's Downfall (43) - Destroy Ravenous Giant (94).
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Mazemind Tome (49)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Felidar Cub (70) to attack Ai(1)-Gen0_Deck2.
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck2 didn't block Felidar Cub (70).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Felidar Cub (70) deals 2 combat damage to Ai(1)-Gen0_Deck2.
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Boros Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck13 played Boros Guildgate (65)
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Secluded Courtyard (41) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Liliana, Dreadhorde General (7)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Add to stack: Ai(1)-Gen0_Deck2 activated Liliana, Dreadhorde General (7)
+Resolve stack: Liliana, Dreadhorde General (7) - Ai(1)-Gen0_Deck2 creates a 2/2 black Zombie creature token.
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Kalastria Highborn (45) and Zombie Token (130) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Zombie Token (130).
+Ai(2)-Gen0_Deck13 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Damage: Zombie Token (130) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Add to stack: Ai(1)-Gen0_Deck2 activated Liliana, Dreadhorde General (7)
+Resolve stack: Liliana, Dreadhorde General (7) - Ai(1)-Gen0_Deck2 creates a 2/2 black Zombie creature token.
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 draws a card.
+Land: Ai(1)-Gen0_Deck2 played Swamp (28)
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Plains (84)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (87) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Dragon Fodder (76)
+Resolve stack: Dragon Fodder (76) - Ai(2)-Gen0_Deck13 creates two 1/1 red Goblin creature tokens.
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck2 activated Liliana, Dreadhorde General (7)
+Resolve stack: Liliana, Dreadhorde General (7) - Ai(1)-Gen0_Deck2 and Ai(2)-Gen0_Deck13 sacrifice two creatures.
+Add to stack: Ai(1)-Gen0_Deck2 triggered Liliana, Dreadhorde General (7)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Liliana, Dreadhorde General (7)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Zombie Token (138)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Zombie Token (130)]
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck2's End of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (32) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (28) - {T}: Add {B}.
+Mana: Secluded Courtyard (41) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck2 cast Rune-Scarred Demon (16)
+Resolve stack: Rune-Scarred Demon - Creature 6 / 6
+Add to stack: Ai(1)-Gen0_Deck2 triggered Rune-Scarred Demon (16)
+Resolve stack: When Rune-Scarred Demon enters, you may search your library for a card, put it into your hand, then shuffle. [Zone Changer: Rune-Scarred Demon (16)]
+Phase: Ai(1)-Gen0_Deck2's End step
+Phase: Ai(1)-Gen0_Deck2's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Add to stack: Ai(1)-Gen0_Deck2 activated Mazemind Tome (49)
+Add to stack: Ai(1)-Gen0_Deck2 triggered Mazemind Tome (49)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen0_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (49) - Ai(1)-Gen0_Deck2 scries 1.
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck2)
+Phase: Ai(1)-Gen0_Deck2's Untap step
+Phase: Ai(1)-Gen0_Deck2's Upkeep step
+Phase: Ai(1)-Gen0_Deck2's Draw step
+Phase: Ai(1)-Gen0_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck2 assigned Rune-Scarred Demon (16) and Kalastria Highborn (45) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Rune-Scarred Demon (16).
+Ai(2)-Gen0_Deck13 assigned Felidar Cub (70) to block Kalastria Highborn (45).
+Phase: Ai(1)-Gen0_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck2's Combat Damage Step
+Damage: Rune-Scarred Demon (16) deals 6 combat damage to Ai(2)-Gen0_Deck13.
+Damage: Kalastria Highborn (45) deals 2 damage () to Felidar Cub (70).
+Damage: Felidar Cub (70) deals 2 damage () to Kalastria Highborn (45).
+Add to stack: Ai(1)-Gen0_Deck2 triggered Kalastria Highborn (45) targeting [Ai(2)-Gen0_Deck13]
+Add to stack: Ai(1)-Gen0_Deck2 triggered Liliana, Dreadhorde General (7)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Kalastria Highborn (45)]
+Mana: Swamp (27) - {T}: Add {B}.
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(2)-Gen0_Deck13]]) [Zone Changer: Kalastria Highborn (45)]
+Player control: Ai(1)-Gen0_Deck2 is controlled by Ai(1)-Gen0_Deck2
+Player control: Ai(2)-Gen0_Deck13 is controlled by Ai(2)-Gen0_Deck13
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck13 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck2: 1 Ai(2)-Gen0_Deck13: 0 
+
+Game Result: Game 1 ended in 16902 ms. Ai(1)-Gen0_Deck2 has won!
+
+
+=== STDERR ===

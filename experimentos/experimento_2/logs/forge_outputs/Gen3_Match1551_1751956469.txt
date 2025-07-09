@@ -1,0 +1,374 @@
+=== COMBATE PARALELO: Gen3_Deck19 vs Gen3_Deck35 ===
+Worker ID: 909536
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck19 Gen3_Deck35 -n 1
+Duración: 27.77 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2053 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 98 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck19 vs Ai(2)-Gen3_Deck35 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck19 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen3_Deck19 has mulliganed down to 5 cards.
+Mulligan: Ai(2)-Gen3_Deck35 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen3_Deck19 has kept a hand of 5 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Land: Ai(2)-Gen3_Deck35 played Mountain (119)
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck35 cast Frenzied Goblin (82)
+Resolve stack: Frenzied Goblin - Creature 1 / 1
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Land: Ai(1)-Gen3_Deck19 played Crawling Barrens (32)
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Land: Ai(2)-Gen3_Deck35 played Crawling Barrens (89)
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 assigned Frenzied Goblin (82) to attack Ai(1)-Gen3_Deck19.
+Add to stack: Ai(2)-Gen3_Deck35 triggered Frenzied Goblin (82) targeting [Frenzied Goblin (82)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (82)]]) [Attacker: Frenzied Goblin (82)]
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck19 didn't block Frenzied Goblin (82).
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Damage: Frenzied Goblin (82) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Land: Ai(2)-Gen3_Deck35 played Plains (78)
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 assigned Frenzied Goblin (82) to attack Ai(1)-Gen3_Deck19.
+Add to stack: Ai(2)-Gen3_Deck35 triggered Frenzied Goblin (82) targeting [Frenzied Goblin (82)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (82)]]) [Attacker: Frenzied Goblin (82)]
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck19 didn't block Frenzied Goblin (82).
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Damage: Frenzied Goblin (82) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (78) - {T}: Add {W}.
+Mana: Crawling Barrens (89) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen3_Deck35 cast Raging Redcap (71)
+Resolve stack: Raging Redcap - Creature 1 / 2
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 assigned Frenzied Goblin (82) and Raging Redcap (71) to attack Ai(1)-Gen3_Deck19.
+Add to stack: Ai(2)-Gen3_Deck35 triggered Frenzied Goblin (82) targeting [Frenzied Goblin (82)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (82)]]) [Attacker: Frenzied Goblin (82)]
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck19 didn't block Frenzied Goblin (82).
+Ai(1)-Gen3_Deck19 didn't block Raging Redcap (71).
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Damage: Frenzied Goblin (82) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Plains (78) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck35 cast Three Tree Mascot (109)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Land: Ai(1)-Gen3_Deck19 played Forest (20)
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 assigned Frenzied Goblin (82), Three Tree Mascot (109) and Raging Redcap (71) to attack Ai(1)-Gen3_Deck19.
+Add to stack: Ai(2)-Gen3_Deck35 triggered Frenzied Goblin (82) targeting [Frenzied Goblin (82)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (82)]]) [Attacker: Frenzied Goblin (82)]
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck19 didn't block Frenzied Goblin (82).
+Ai(1)-Gen3_Deck19 didn't block Raging Redcap (71).
+Ai(1)-Gen3_Deck19 didn't block Three Tree Mascot (109).
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Damage: Frenzied Goblin (82) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Damage: Three Tree Mascot (109) deals 2 combat damage to Ai(1)-Gen3_Deck19.
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Land: Ai(1)-Gen3_Deck19 played Island (28)
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 assigned Frenzied Goblin (82), Three Tree Mascot (109) and Raging Redcap (71) to attack Ai(1)-Gen3_Deck19.
+Add to stack: Ai(2)-Gen3_Deck35 triggered Frenzied Goblin (82) targeting [Frenzied Goblin (82)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (82)]]) [Attacker: Frenzied Goblin (82)]
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck19 didn't block Frenzied Goblin (82).
+Ai(1)-Gen3_Deck19 didn't block Raging Redcap (71).
+Ai(1)-Gen3_Deck19 didn't block Three Tree Mascot (109).
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Damage: Frenzied Goblin (82) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Damage: Three Tree Mascot (109) deals 2 combat damage to Ai(1)-Gen3_Deck19.
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Land: Ai(1)-Gen3_Deck19 played Forest (16)
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Crawling Barrens (32) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck19 cast Juggernaut (3)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 assigned Juggernaut (3) to attack Ai(2)-Gen3_Deck35.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck35 didn't block Juggernaut (3).
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Damage: Juggernaut (3) deals 5 combat damage to Ai(2)-Gen3_Deck35.
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Crawling Barrens (32) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck19 cast Juggernaut (2)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck35's End of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck35's End step
+Phase: Ai(2)-Gen3_Deck35's Cleanup step
+Discard: Ai(2)-Gen3_Deck35 discards Biogenic Upgrade (101).
+Turn: Turn 16 (Ai(1)-Gen3_Deck19)
+Phase: Ai(1)-Gen3_Deck19's Untap step
+Phase: Ai(1)-Gen3_Deck19's Upkeep step
+Phase: Ai(1)-Gen3_Deck19's Draw step
+Phase: Ai(1)-Gen3_Deck19's Main phase, precombat
+Land: Ai(1)-Gen3_Deck19 played Soulstone Sanctuary (34)
+Phase: Ai(1)-Gen3_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck19 assigned Juggernaut (2) and Juggernaut (3) to attack Ai(2)-Gen3_Deck35.
+Phase: Ai(1)-Gen3_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck35 didn't block Juggernaut (2).
+Ai(2)-Gen3_Deck35 didn't block Juggernaut (3).
+Phase: Ai(1)-Gen3_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck19's Combat Damage Step
+Damage: Juggernaut (2) deals 5 combat damage to Ai(2)-Gen3_Deck35.
+Damage: Juggernaut (3) deals 5 combat damage to Ai(2)-Gen3_Deck35.
+Phase: Ai(1)-Gen3_Deck19's End of Combat Step
+Phase: Ai(1)-Gen3_Deck19's Main phase, postcombat
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Crawling Barrens (32) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (34) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck19 cast Banner of Kinship (57)
+Replacement Effect: As this artifact enters, choose a creature type. This artifact enters with a fellowship counter on it for each creature you control of the chosen type.
+Resolve stack: Banner of Kinship
+Phase: Ai(1)-Gen3_Deck19's End step
+Phase: Ai(1)-Gen3_Deck19's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen3_Deck35)
+Phase: Ai(2)-Gen3_Deck35's Untap step
+Phase: Ai(2)-Gen3_Deck35's Upkeep step
+Phase: Ai(2)-Gen3_Deck35's Draw step
+Phase: Ai(2)-Gen3_Deck35's Main phase, precombat
+Land: Ai(2)-Gen3_Deck35 played Soulstone Sanctuary (91)
+Phase: Ai(2)-Gen3_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck35 assigned Three Tree Mascot (109), Frenzied Goblin (82) and Raging Redcap (71) to attack Ai(1)-Gen3_Deck19.
+Add to stack: Ai(2)-Gen3_Deck35 triggered Frenzied Goblin (82) targeting [Juggernaut (3)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Juggernaut (3)]]) [Attacker: Frenzied Goblin (82)]
+Phase: Ai(2)-Gen3_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck19 didn't block Frenzied Goblin (82).
+Ai(1)-Gen3_Deck19 didn't block Raging Redcap (71).
+Ai(1)-Gen3_Deck19 didn't block Three Tree Mascot (109).
+Phase: Ai(2)-Gen3_Deck35's First Strike Damage Step
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Phase: Ai(2)-Gen3_Deck35's Combat Damage Step
+Damage: Three Tree Mascot (109) deals 2 combat damage to Ai(1)-Gen3_Deck19.
+Damage: Frenzied Goblin (82) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Damage: Raging Redcap (71) deals 1 combat damage to Ai(1)-Gen3_Deck19.
+Player control: Ai(1)-Gen3_Deck19 is controlled by Ai(1)-Gen3_Deck19
+Player control: Ai(2)-Gen3_Deck35 is controlled by Ai(2)-Gen3_Deck35
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen3_Deck19 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck35 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck19: 0 Ai(2)-Gen3_Deck35: 1 
+
+Game Result: Game 1 ended in 15614 ms. Ai(2)-Gen3_Deck35 has won!
+
+
+=== STDERR ===

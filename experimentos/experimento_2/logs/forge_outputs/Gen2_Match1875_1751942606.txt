@@ -1,0 +1,465 @@
+=== COMBATE PARALELO: Gen2_Deck25 vs Gen2_Deck38 ===
+Worker ID: 352527
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck25 Gen2_Deck38 -n 1
+Duración: 29.67 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2038 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 78 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck25 vs Ai(2)-Gen2_Deck38 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck38 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck25 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Land: Ai(2)-Gen2_Deck38 played Crawling Barrens (108)
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck38's End step
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Land: Ai(1)-Gen2_Deck25 played Swamp (35)
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Mana: Swamp (35) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck25 cast Infestation Sage (24)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Land: Ai(2)-Gen2_Deck38 played Mountain (117)
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck38's End step
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Land: Ai(1)-Gen2_Deck25 played Mountain (54)
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Infestation Sage (24) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Damage: Infestation Sage (24) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Land: Ai(2)-Gen2_Deck38 played Island (96)
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck38 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen2_Deck38's End step
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Infestation Sage (24) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Damage: Infestation Sage (24) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen2_Deck25 played Maze's End (4)
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Land: Ai(2)-Gen2_Deck38 played Soulstone Sanctuary (110)
+Add to stack: Ai(2)-Gen2_Deck38 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Soulstone Sanctuary (110)]
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck38's End step
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Land: Ai(1)-Gen2_Deck25 played Swamp (31)
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Infestation Sage (24) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Damage: Infestation Sage (24) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Land: Ai(2)-Gen2_Deck38 played Mountain (115)
+Add to stack: Ai(2)-Gen2_Deck38 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (115)]
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Island (96) - {T}: Add {U}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (110) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck38 activated Crawling Barrens (108)
+Resolve stack: Crawling Barrens (108) - Ai(2)-Gen2_Deck38 puts two +1/+1 counters on Crawling Barrens (108). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 assigned Crawling Barrens (108) to attack Ai(1)-Gen2_Deck25.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck25 didn't block Crawling Barrens (108).
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Damage: Crawling Barrens (108) deals 2 combat damage to Ai(1)-Gen2_Deck25.
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck38's End step
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck25 activated Maze's End (4)
+Replacement Effect: Golgari Guildgate enters tapped.
+Resolve stack: Maze's End (4) - Ai(1)-Gen2_Deck25 searches their library for a Gate card, puts it onto the battlefield, then shuffles. 
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Infestation Sage (24) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Damage: Infestation Sage (24) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen2_Deck25 played Maze's End (4)
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Island (96) - {T}: Add {U}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck38 activated Soulstone Sanctuary (110)
+Resolve stack: Soulstone Sanctuary (110) - Soulstone Sanctuary (110) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Land: Ai(2)-Gen2_Deck38 played Island (99)
+Add to stack: Ai(2)-Gen2_Deck38 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (99)]
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck38 activated Adventuring Gear (61) targeting [Soulstone Sanctuary (110)]
+Resolve stack: Adventuring Gear (61) -  Attach to Soulstone Sanctuary (110)
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Golgari Guildgate (38) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen2_Deck25 cast Bake into a Pie (44) targeting [Soulstone Sanctuary (110)]
+Resolve stack: Bake into a Pie (44) - Destroy Soulstone Sanctuary (110). 
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck38's End step
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Land: Ai(1)-Gen2_Deck25 played Mountain (57)
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Infestation Sage (24) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Damage: Infestation Sage (24) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck25 cast Strongbox Raider (43)
+Resolve stack: Strongbox Raider - Creature 5 / 2
+Add to stack: Ai(1)-Gen2_Deck25 triggered Strongbox Raider (43)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card. [Zone Changer: Strongbox Raider (43)]
+Mana: Golgari Guildgate (38) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen2_Deck25 cast Infestation Sage (26)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Island (96) - {T}: Add {U}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck38 activated Crawling Barrens (108)
+Resolve stack: Crawling Barrens (108) - Ai(2)-Gen2_Deck38 puts two +1/+1 counters on Crawling Barrens (108). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck38 activated Adventuring Gear (61) targeting [Crawling Barrens (108)]
+Resolve stack: Adventuring Gear (61) -  Attach to Crawling Barrens (108)
+Phase: Ai(2)-Gen2_Deck38's End step
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Phase: RepeatAi(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Land: Ai(1)-Gen2_Deck25 played Mountain (53)
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Strongbox Raider (43), Infestation Sage (24) and Infestation Sage (26) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Ai(2)-Gen2_Deck38 didn't block Infestation Sage (26).
+Ai(2)-Gen2_Deck38 didn't block Strongbox Raider (43).
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Damage: Strongbox Raider (43) deals 5 combat damage to Ai(2)-Gen2_Deck38.
+Damage: Infestation Sage (24) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Damage: Infestation Sage (26) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Discard: Ai(1)-Gen2_Deck25 discards Mountain (51).
+Add to stack: Ai(1)-Gen2_Deck25 cast Seize the Spoils (7)
+Resolve stack: Seize the Spoils (7) - Draw two cards and create a Treasure token. 
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Golgari Guildgate (38) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen2_Deck25 cast Raging Redcap (10)
+Resolve stack: Raging Redcap - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Land: Ai(2)-Gen2_Deck38 played Mountain (120)
+Add to stack: Ai(2)-Gen2_Deck38 triggered Adventuring Gear (61)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (120)]
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Mana: Island (96) - {T}: Add {U}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck38 cast Micromancer (74)
+Resolve stack: Micromancer - Creature 3 / 3
+Add to stack: Ai(2)-Gen2_Deck38 triggered Micromancer (74)
+Resolve stack: When Micromancer enters, you may search your library for an instant or sorcery card with mana value 1, reveal it, put it into your hand, then shuffle. [Zone Changer: Micromancer (74)]
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck38 activated Adventuring Gear (61) targeting [Micromancer (74)]
+Resolve stack: Adventuring Gear (61) -  Attach to Micromancer (74)
+Phase: Ai(2)-Gen2_Deck38's End step
+Mana: Treasure Token (125) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Maze's End (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck25 cast Elementalist Adept (29)
+Resolve stack: Elementalist Adept - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Land: Ai(1)-Gen2_Deck25 played Mountain (58)
+Mana: Golgari Guildgate (38) - {T}: Add {B} or {G}.
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck25 cast Grow from the Ashes (27)
+Add to stack: Ai(1)-Gen2_Deck25 triggered Elementalist Adept (29)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Grow from the Ashes (27), Activator: Ai(1)-Gen2_Deck25, SpellAbility: Search your library for a basic land card, put it onto the battlefield, then shuffle. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle.]
+Resolve stack: Grow from the Ashes (27) - Ai(1)-Gen2_Deck25 searches their library for two Land.Basic cards, puts them onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Strongbox Raider (43), Elementalist Adept (29), Infestation Sage (24), Infestation Sage (26) and Raging Redcap (10) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Ai(2)-Gen2_Deck38 didn't block Infestation Sage (26).
+Ai(2)-Gen2_Deck38 didn't block Raging Redcap (10).
+Ai(2)-Gen2_Deck38 assigned Micromancer (74) to block Strongbox Raider (43).
+Ai(2)-Gen2_Deck38 didn't block Elementalist Adept (29).
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Damage: Raging Redcap (10) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Combat Damage Step
+Damage: Strongbox Raider (43) deals 5 damage () to Micromancer (74).
+Damage: Elementalist Adept (29) deals 3 combat damage to Ai(2)-Gen2_Deck38.
+Damage: Infestation Sage (24) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Damage: Infestation Sage (26) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Damage: Raging Redcap (10) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Damage: Micromancer (74) deals 3 damage () to Strongbox Raider (43).
+Phase: Ai(1)-Gen2_Deck25's End of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck25's End step
+Phase: Ai(1)-Gen2_Deck25's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck38)
+Phase: Ai(2)-Gen2_Deck38's Untap step
+Phase: Ai(2)-Gen2_Deck38's Upkeep step
+Phase: Ai(2)-Gen2_Deck38's Draw step
+Phase: Ai(2)-Gen2_Deck38's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck38's End of Combat Step
+Phase: Ai(2)-Gen2_Deck38's Main phase, postcombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Island (96) - {T}: Add {U}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck38 cast Burnished Hart (91)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck38 activated Adventuring Gear (61) targeting [Burnished Hart (91)]
+Resolve stack: Adventuring Gear (61) -  Attach to Burnished Hart (91)
+Phase: Ai(2)-Gen2_Deck38's End step
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (14) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck25 activated Maze's End (4)
+Replacement Effect: Golgari Guildgate enters tapped.
+Resolve stack: Maze's End (4) - Ai(1)-Gen2_Deck25 searches their library for a Gate card, puts it onto the battlefield, then shuffles. 
+Phase: Ai(2)-Gen2_Deck38's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen2_Deck25)
+Phase: Ai(1)-Gen2_Deck25's Untap step
+Phase: Ai(1)-Gen2_Deck25's Upkeep step
+Phase: Ai(1)-Gen2_Deck25's Draw step
+Phase: Ai(1)-Gen2_Deck25's Main phase, precombat
+Land: Ai(1)-Gen2_Deck25 played Mountain (49)
+Phase: Ai(1)-Gen2_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck25 assigned Elementalist Adept (29), Infestation Sage (24), Infestation Sage (26) and Raging Redcap (10) to attack Ai(2)-Gen2_Deck38.
+Phase: Ai(1)-Gen2_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck38 didn't block Infestation Sage (24).
+Ai(2)-Gen2_Deck38 didn't block Infestation Sage (26).
+Ai(2)-Gen2_Deck38 didn't block Raging Redcap (10).
+Ai(2)-Gen2_Deck38 assigned Burnished Hart (91) to block Elementalist Adept (29).
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck38 cast Sure Strike (76) targeting [Burnished Hart (91)]
+Resolve stack: Sure Strike (76) - Burnished Hart (91) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(1)-Gen2_Deck25's First Strike Damage Step
+Damage: Raging Redcap (10) deals 1 combat damage to Ai(2)-Gen2_Deck38.
+Damage: Burnished Hart (91) deals 5 damage () to Elementalist Adept (29).
+Player control: Ai(1)-Gen2_Deck25 is controlled by Ai(1)-Gen2_Deck25
+Player control: Ai(2)-Gen2_Deck38 is controlled by Ai(2)-Gen2_Deck38
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen2_Deck25 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck38 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck25: 1 Ai(2)-Gen2_Deck38: 0 
+
+Game Result: Game 1 ended in 17567 ms. Ai(1)-Gen2_Deck25 has won!
+
+
+=== STDERR ===

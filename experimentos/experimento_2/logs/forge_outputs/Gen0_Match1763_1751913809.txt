@@ -1,0 +1,745 @@
+=== COMBATE PARALELO: Gen0_Deck23 vs Gen0_Deck31 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck23 Gen0_Deck31 -n 1
+Duración: 76.08 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1767 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 66 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck23 vs Ai(2)-Gen0_Deck31 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck23 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck31 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck23 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Swamp (86)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (46)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Replacement Effect: Dimir Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck31 played Dimir Guildgate (116)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Dimir Guildgate (116)]
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Forest (37)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Island (46) - {T}: Add {U}.
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Campus Guide (19)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck23 triggered Campus Guide (19)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (19)]
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Cryptic Caves (66)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Cryptic Caves (66)]
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Campus Guide (19) to attack Ai(2)-Gen0_Deck31.
+Mana: Dimir Guildgate (116) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Fleeting Distraction (78) targeting [Campus Guide (19)]
+Resolve stack: Fleeting Distraction (78) - Campus Guide (19) gets -1/-0  until end of turn. Ai(2)-Gen0_Deck31 draws a card.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Campus Guide (19).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Campus Guide (19) deals 1 combat damage to Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck23 played Demolition Field (60)
+Mana: Island (46) - {T}: Add {U}.
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Demolition Field (60) targeting [Dimir Guildgate (116)]
+Resolve stack: Demolition Field (60) - Destroy Dimir Guildgate (116). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (100)]
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Land: Ai(2)-Gen0_Deck31 played Swamp (87)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (87)]
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Cryptic Caves (66) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Felidar Savior (72)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck31 triggered Felidar Savior (72) targeting []
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[]]) [Zone Changer: Felidar Savior (72)]
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck23 played Cryptic Caves (11)
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 activated Adventuring Gear (62) targeting [Felidar Savior (72)]
+Resolve stack: Adventuring Gear (62) -  Attach to Felidar Savior (72)
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Adventuring Gear (61)
+Resolve stack: Adventuring Gear
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 activated Adventuring Gear (61) targeting [Felidar Savior (72)]
+Resolve stack: Adventuring Gear (61) -  Attach to Felidar Savior (72)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Felidar Savior (72) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Felidar Savior (72).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Felidar Savior (72) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Cryptic Caves (9)
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Cryptic Caves (11)
+Resolve stack: Cryptic Caves (11) - Ai(1)-Gen0_Deck23 draws a card.
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Campus Guide (19) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Campus Guide (19).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Campus Guide (19) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Felidar Savior (72) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Felidar Savior (72).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Felidar Savior (72) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Cryptic Caves (66) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Felidar Savior (73)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck31 triggered Felidar Savior (73) targeting [Felidar Savior (72)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Felidar Savior (72)]]) [Zone Changer: Felidar Savior (73)]
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (50)
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Cryptic Caves (9)
+Resolve stack: Cryptic Caves (9) - Ai(1)-Gen0_Deck23 draws a card.
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Felidar Savior (72) and Felidar Savior (73) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Felidar Savior (72).
+Ai(1)-Gen0_Deck23 didn't block Felidar Savior (73).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Felidar Savior (72) deals 3 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Felidar Savior (73) deals 2 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Forest (32)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Campus Guide (19) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Campus Guide (19).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Campus Guide (19) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Heroes' Bane (29)
+Replacement Effect: Heroes' Bane enters with four +1/+1 counters on it.
+Resolve stack: Heroes' Bane - Creature 0 / 0
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Kalastria Highborn (96)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (52)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Heroes' Bane (29) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Heroes' Bane (29).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (29) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Heroes' Bane (28)
+Replacement Effect: Heroes' Bane enters with four +1/+1 counters on it.
+Resolve stack: Heroes' Bane - Creature 0 / 0
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Replacement Effect: Dimir Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck31 played Dimir Guildgate (117)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (61)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Dimir Guildgate (117)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Dimir Guildgate (117)]
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 activated Cryptic Caves (66)
+Resolve stack: Cryptic Caves (66) - Ai(2)-Gen0_Deck31 draws a card.
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Felidar Savior (72) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Felidar Savior (72).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Felidar Savior (72) deals 7 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (49)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Heroes' Bane (29) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Heroes' Bane (29).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (29) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Island (46) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Island (52) - {T}: Add {U}.
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Arcanis the Omnipotent (12)
+Resolve stack: Arcanis the Omnipotent - Creature 3 / 4
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck31 activated Adventuring Gear (63) targeting [Felidar Savior (72)]
+Resolve stack: Adventuring Gear (63) -  Attach to Felidar Savior (72)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Cryptic Caves (10)
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Cryptic Caves (10)
+Resolve stack: Cryptic Caves (10) - Ai(1)-Gen0_Deck23 draws a card.
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Heroes' Bane (29) and Heroes' Bane (28) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Heroes' Bane (28).
+Ai(2)-Gen0_Deck31 didn't block Heroes' Bane (29).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (29) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Heroes' Bane (28) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Needletooth Pack (7)
+Resolve stack: Needletooth Pack - Creature 4 / 5
+Add to stack: Ai(1)-Gen0_Deck23 activated Arcanis the Omnipotent (12)
+Resolve stack: Arcanis the Omnipotent (12) - Ai(1)-Gen0_Deck23 draws three cards.
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Dimir Guildgate (117) - {T}: Add {U} or {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Storm Fleet Spy (80)
+Resolve stack: Storm Fleet Spy - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (45)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Heroes' Bane (29) and Heroes' Bane (28) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Heroes' Bane (28).
+Ai(2)-Gen0_Deck31 assigned Kalastria Highborn (96) to block Heroes' Bane (29).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (29) deals 4 damage () to Kalastria Highborn (96).
+Damage: Heroes' Bane (28) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Kalastria Highborn (96) deals 2 damage () to Heroes' Bane (29).
+Add to stack: Ai(2)-Gen0_Deck31 triggered Kalastria Highborn (96) targeting [Ai(1)-Gen0_Deck23]
+Mana: Swamp (87) - {T}: Add {B}.
+Resolve stack: Whenever Kalastria Highborn or another Vampire you control dies, you may pay {B}. If you do, target player loses 2 life and you gain 2 life. (Targeting: [[Ai(1)-Gen0_Deck23]]) [Zone Changer: Kalastria Highborn (96)]
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Heroes' Bane (27)
+Replacement Effect: Heroes' Bane enters with four +1/+1 counters on it.
+Resolve stack: Heroes' Bane - Creature 0 / 0
+Phase: Ai(1)-Gen0_Deck23's End step
+Add to stack: Ai(1)-Gen0_Deck23 triggered Needletooth Pack (7) targeting [Arcanis the Omnipotent (12)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Arcanis the Omnipotent (12)]]) [Phase: Ai(1)-Gen0_Deck23]
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Stab (82) targeting [Campus Guide (19)]
+Resolve stack: Stab (82) - Campus Guide (19) gets -2/-2  until end of turn.
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Dimir Guildgate (117) - {T}: Add {U} or {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Storm Fleet Spy (81)
+Add to stack: Ai(1)-Gen0_Deck23 activated Arcanis the Omnipotent (12)
+Resolve stack: Arcanis the Omnipotent (12) - Ai(1)-Gen0_Deck23 draws three cards.
+Resolve stack: Storm Fleet Spy - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Demolition Field (59)
+Mana: Island (46) - {T}: Add {U}.
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Demolition Field (59) targeting [Dimir Guildgate (117)]
+Resolve stack: Demolition Field (59) - Destroy Dimir Guildgate (117). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck23 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (61)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (62)
+Add to stack: Ai(2)-Gen0_Deck31 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (109)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (109)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (109)]
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (34) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Mild-Mannered Librarian (17)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Mild-Mannered Librarian (16)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Inspiring Call (44)
+Resolve stack: Inspiring Call (44) - Ai(1)-Gen0_Deck23 draws four cards. 
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck31's End step
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Forest (31)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Arcanis the Omnipotent (12), Heroes' Bane (29) and Heroes' Bane (28) to attack Ai(2)-Gen0_Deck31.
+Mana: Island (109) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Fleeting Distraction (77) targeting [Arcanis the Omnipotent (12)]
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast An Offer You Can't Refuse (42) targeting [Target creature gets -1/-0 until end of turn. Draw a card.]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: An Offer You Can't Refuse (42) - Counter Fleeting Distraction (77). Its controller creates two Treasure tokens.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Storm Fleet Spy (80) to block Arcanis the Omnipotent (12).
+Ai(2)-Gen0_Deck31 didn't block Heroes' Bane (28).
+Ai(2)-Gen0_Deck31 assigned Storm Fleet Spy (81) to block Heroes' Bane (29).
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Treasure Token (123) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 cast Claws Out (103)
+Resolve stack: Claws Out (103) - Creatures you control get +2/+2 until end of turn.
+Mana: Island (50) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Dive Down (56) targeting [Heroes' Bane (29)]
+Resolve stack: Dive Down (56) - Heroes' Bane (29) gets +0/+3 and gains hexproof until end of turn.
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Arcanis the Omnipotent (12) deals 5 damage () to Storm Fleet Spy (80).
+Damage: Heroes' Bane (29) deals 4 damage () to Storm Fleet Spy (81).
+Damage: Heroes' Bane (28) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Storm Fleet Spy (80) deals 4 damage () to Arcanis the Omnipotent (12).
+Damage: Storm Fleet Spy (81) deals 4 damage () to Heroes' Bane (29).
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Campus Guide (21)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck23 triggered Campus Guide (21)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (21)]
+Phase: Ai(1)-Gen0_Deck23's End step
+Add to stack: Ai(1)-Gen0_Deck23 triggered Needletooth Pack (7) targeting [Heroes' Bane (29)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (29)]]) [Phase: Ai(1)-Gen0_Deck23]
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck31's End of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Main phase, postcombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Treasure Token (122) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(2)-Gen0_Deck31 cast Bloodthirsty Conqueror (69)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Phase: Ai(2)-Gen0_Deck31's End step
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Island (52) - {T}: Add {U}.
+Mana: Island (49) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 activated Heroes' Bane (29)
+Resolve stack: Heroes' Bane (29) - Ai(1)-Gen0_Deck23 puts twelve +1/+1 counters on Heroes' Bane (29).
+Phase: Ai(2)-Gen0_Deck31's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (48)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Heroes' Bane (29), Arcanis the Omnipotent (12), Heroes' Bane (28), Needletooth Pack (7), Heroes' Bane (27), Campus Guide (21), Mild-Mannered Librarian (17) and Mild-Mannered Librarian (16) to attack Ai(2)-Gen0_Deck31.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck31 didn't block Mild-Mannered Librarian (16).
+Ai(2)-Gen0_Deck31 didn't block Mild-Mannered Librarian (17).
+Ai(2)-Gen0_Deck31 didn't block Campus Guide (21).
+Ai(2)-Gen0_Deck31 didn't block Needletooth Pack (7).
+Ai(2)-Gen0_Deck31 didn't block Heroes' Bane (27).
+Ai(2)-Gen0_Deck31 assigned Felidar Savior (72) to block Arcanis the Omnipotent (12).
+Ai(2)-Gen0_Deck31 assigned Bloodthirsty Conqueror (69) to block Heroes' Bane (28).
+Ai(2)-Gen0_Deck31 assigned Felidar Savior (73) to block Heroes' Bane (29).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Heroes' Bane (29) deals 12 damage () to Felidar Savior (73).
+Damage: Arcanis the Omnipotent (12) deals 5 damage () to Felidar Savior (72).
+Damage: Heroes' Bane (28) deals 4 damage () to Bloodthirsty Conqueror (69).
+Damage: Needletooth Pack (7) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Heroes' Bane (27) deals 4 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Campus Guide (21) deals 2 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Mild-Mannered Librarian (17) deals 1 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Mild-Mannered Librarian (16) deals 1 combat damage to Ai(2)-Gen0_Deck31.
+Damage: Felidar Savior (73) deals 2 damage () to Heroes' Bane (29).
+Damage: Felidar Savior (72) deals 3 damage () to Arcanis the Omnipotent (12).
+Damage: Bloodthirsty Conqueror (69) deals 5 damage (Deathtouch) to Heroes' Bane (28).
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck23's End step
+Add to stack: Ai(1)-Gen0_Deck23 triggered Needletooth Pack (7) targeting [Heroes' Bane (29)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Heroes' Bane (29)]]) [Phase: Ai(1)-Gen0_Deck23]
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen0_Deck31)
+Phase: Ai(2)-Gen0_Deck31's Untap step
+Phase: Ai(2)-Gen0_Deck31's Upkeep step
+Phase: Ai(2)-Gen0_Deck31's Draw step
+Phase: Ai(2)-Gen0_Deck31's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 activated Adventuring Gear (62) targeting [Bloodthirsty Conqueror (69)]
+Resolve stack: Adventuring Gear (62) -  Attach to Bloodthirsty Conqueror (69)
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck31 activated Adventuring Gear (61) targeting [Bloodthirsty Conqueror (69)]
+Resolve stack: Adventuring Gear (61) -  Attach to Bloodthirsty Conqueror (69)
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck31 activated Adventuring Gear (63) targeting [Bloodthirsty Conqueror (69)]
+Resolve stack: Adventuring Gear (63) -  Attach to Bloodthirsty Conqueror (69)
+Phase: Ai(2)-Gen0_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck31 assigned Bloodthirsty Conqueror (69) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck31's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Bloodthirsty Conqueror (69).
+Phase: Ai(2)-Gen0_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck31's Combat Damage Step
+Damage: Bloodthirsty Conqueror (69) deals 5 combat damage to Ai(1)-Gen0_Deck23.
+Player control: Ai(1)-Gen0_Deck23 is controlled by Ai(1)-Gen0_Deck23
+Player control: Ai(2)-Gen0_Deck31 is controlled by Ai(2)-Gen0_Deck31
+Game outcome: Turn 15
+Game outcome: Ai(1)-Gen0_Deck23 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck31 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck23: 0 Ai(2)-Gen0_Deck31: 1 
+
+Game Result: Game 1 ended in 64496 ms. Ai(2)-Gen0_Deck31 has won!
+
+
+=== STDERR ===

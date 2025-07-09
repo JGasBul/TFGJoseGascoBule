@@ -1,0 +1,398 @@
+=== COMBATE PARALELO: Gen4_Deck6 vs Gen4_Deck15 ===
+Worker ID: 1454003
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck6 Gen4_Deck15 -n 1
+Duración: 30.27 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2082 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 224 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck6 vs Ai(2)-Gen4_Deck15 - one game of Constructed
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+Mulligan: Ai(1)-Gen4_Deck6 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen4_Deck15 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen4_Deck6 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen4_Deck15 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Land: Ai(1)-Gen4_Deck6 played Forest (41)
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck6's End of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Main phase, postcombat
+Mana: Forest (41) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck6 cast Mild-Mannered Librarian (15)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen4_Deck6's End step
+Phase: Ai(1)-Gen4_Deck6's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen4_Deck15)
+Phase: Ai(2)-Gen4_Deck15's Untap step
+Phase: Ai(2)-Gen4_Deck15's Upkeep step
+Phase: Ai(2)-Gen4_Deck15's Draw step
+Phase: Ai(2)-Gen4_Deck15's Main phase, precombat
+Land: Ai(2)-Gen4_Deck15 played Island (82)
+Phase: Ai(2)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck15's End of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck15's End step
+Phase: Ai(2)-Gen4_Deck15's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Land: Ai(1)-Gen4_Deck6 played Forest (33)
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 assigned Mild-Mannered Librarian (15) to attack Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck15 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's End of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Main phase, postcombat
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck6 cast Nessian Hornbeetle (47)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck6's End step
+Phase: Ai(1)-Gen4_Deck6's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen4_Deck15)
+Phase: Ai(2)-Gen4_Deck15's Untap step
+Phase: Ai(2)-Gen4_Deck15's Upkeep step
+Phase: Ai(2)-Gen4_Deck15's Draw step
+Phase: Ai(2)-Gen4_Deck15's Main phase, precombat
+Land: Ai(2)-Gen4_Deck15 played Cryptic Caves (64)
+Phase: Ai(2)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck15's End of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck15's End step
+Phase: Ai(2)-Gen4_Deck15's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Land: Ai(1)-Gen4_Deck6 played Forest (31)
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 assigned Nessian Hornbeetle (47) and Mild-Mannered Librarian (15) to attack Ai(2)-Gen4_Deck15.
+Mana: Island (82) - {T}: Add {U}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck15 cast Brineborn Cutthroat (87)
+Resolve stack: Brineborn Cutthroat - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck15 didn't block Nessian Hornbeetle (47).
+Ai(2)-Gen4_Deck15 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Damage: Nessian Hornbeetle (47) deals 2 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's End of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Main phase, postcombat
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck6 cast Three Tree Mascot (25)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck6's End step
+Phase: Ai(1)-Gen4_Deck6's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen4_Deck15)
+Phase: Ai(2)-Gen4_Deck15's Untap step
+Phase: Ai(2)-Gen4_Deck15's Upkeep step
+Phase: Ai(2)-Gen4_Deck15's Draw step
+Phase: Ai(2)-Gen4_Deck15's Main phase, precombat
+Land: Ai(2)-Gen4_Deck15 played Island (84)
+Phase: Ai(2)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck15's End of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck15's End step
+Phase: Ai(2)-Gen4_Deck15's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Land: Ai(1)-Gen4_Deck6 played Forest (42)
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 assigned Nessian Hornbeetle (47), Three Tree Mascot (25) and Mild-Mannered Librarian (15) to attack Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck15 didn't block Three Tree Mascot (25).
+Ai(2)-Gen4_Deck15 didn't block Nessian Hornbeetle (47).
+Ai(2)-Gen4_Deck15 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Damage: Nessian Hornbeetle (47) deals 2 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Three Tree Mascot (25) deals 2 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's End of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck6's End step
+Phase: Ai(1)-Gen4_Deck6's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen4_Deck15)
+Phase: Ai(2)-Gen4_Deck15's Untap step
+Phase: Ai(2)-Gen4_Deck15's Upkeep step
+Phase: Ai(2)-Gen4_Deck15's Draw step
+Phase: Ai(2)-Gen4_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck15 assigned Brineborn Cutthroat (87) to attack Ai(1)-Gen4_Deck6.
+Phase: Ai(2)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck6 didn't block Brineborn Cutthroat (87).
+Phase: Ai(2)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck15's Combat Damage Step
+Damage: Brineborn Cutthroat (87) deals 2 combat damage to Ai(1)-Gen4_Deck6.
+Phase: Ai(2)-Gen4_Deck15's End of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck15's End step
+Phase: Ai(2)-Gen4_Deck15's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Land: Ai(1)-Gen4_Deck6 played Forest (36)
+Mana: Forest (41) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck6 cast Adventuring Gear (2)
+Resolve stack: Adventuring Gear
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck6 activated Adventuring Gear (2) targeting [Three Tree Mascot (25)]
+Resolve stack: Adventuring Gear (2) -  Attach to Three Tree Mascot (25)
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 assigned Nessian Hornbeetle (47), Three Tree Mascot (25) and Mild-Mannered Librarian (15) to attack Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck15 didn't block Three Tree Mascot (25).
+Ai(2)-Gen4_Deck15 didn't block Nessian Hornbeetle (47).
+Ai(2)-Gen4_Deck15 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Damage: Nessian Hornbeetle (47) deals 2 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Three Tree Mascot (25) deals 2 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's End of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck6's End step
+Phase: Ai(1)-Gen4_Deck6's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen4_Deck15)
+Phase: Ai(2)-Gen4_Deck15's Untap step
+Phase: Ai(2)-Gen4_Deck15's Upkeep step
+Phase: Ai(2)-Gen4_Deck15's Draw step
+Phase: Ai(2)-Gen4_Deck15's Main phase, precombat
+Land: Ai(2)-Gen4_Deck15 played Cryptic Caves (62)
+Phase: Ai(2)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck15 assigned Brineborn Cutthroat (87) to attack Ai(1)-Gen4_Deck6.
+Phase: Ai(2)-Gen4_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck6 didn't block Brineborn Cutthroat (87).
+Phase: Ai(2)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck15's Combat Damage Step
+Damage: Brineborn Cutthroat (87) deals 2 combat damage to Ai(1)-Gen4_Deck6.
+Phase: Ai(2)-Gen4_Deck15's End of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Main phase, postcombat
+Mana: Island (82) - {T}: Add {U}.
+Mana: Island (84) - {T}: Add {U}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck15 cast Solemn Simulacrum (66)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen4_Deck15 triggered Solemn Simulacrum (66)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (66)]
+Phase: Ai(2)-Gen4_Deck15's End step
+Phase: Ai(2)-Gen4_Deck15's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Land: Ai(1)-Gen4_Deck6 played Forest (38)
+Add to stack: Ai(1)-Gen4_Deck6 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (38)]
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen4_Deck6 triggered Nessian Hornbeetle (47)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen4_Deck6]
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 assigned Three Tree Mascot (25) and Nessian Hornbeetle (47) to attack Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck15 assigned Solemn Simulacrum (66) to block Three Tree Mascot (25).
+Ai(2)-Gen4_Deck15 didn't block Nessian Hornbeetle (47).
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Damage: Three Tree Mascot (25) deals 4 damage () to Solemn Simulacrum (66).
+Damage: Nessian Hornbeetle (47) deals 3 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Solemn Simulacrum (66) deals 2 damage () to Three Tree Mascot (25).
+Add to stack: Ai(2)-Gen4_Deck15 triggered Solemn Simulacrum (66)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (66)]
+Phase: Ai(1)-Gen4_Deck6's End of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck6's End step
+Phase: Ai(1)-Gen4_Deck6's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen4_Deck15)
+Phase: Ai(2)-Gen4_Deck15's Untap step
+Phase: Ai(2)-Gen4_Deck15's Upkeep step
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck15 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen4_Deck15 draws a card.
+Phase: Ai(2)-Gen4_Deck15's Draw step
+Phase: Ai(2)-Gen4_Deck15's Main phase, precombat
+Land: Ai(2)-Gen4_Deck15 played Mountain (119)
+Phase: Ai(2)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck15's End of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Main phase, postcombat
+Mana: Swamp (91) - {T}: Add {B}.
+Mana: Island (84) - {T}: Add {U}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck15 cast Driver of the Dead (113)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen4_Deck15's End step
+Phase: Ai(2)-Gen4_Deck15's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Land: Ai(1)-Gen4_Deck6 played Crawling Barrens (51)
+Add to stack: Ai(1)-Gen4_Deck6 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (51)]
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen4_Deck6 triggered Nessian Hornbeetle (47)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen4_Deck6]
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 assigned Nessian Hornbeetle (47) and Three Tree Mascot (25) to attack Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck15 assigned Driver of the Dead (113) to block Three Tree Mascot (25).
+Ai(2)-Gen4_Deck15 assigned Brineborn Cutthroat (87) to block Nessian Hornbeetle (47).
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Damage: Nessian Hornbeetle (47) deals 4 damage () to Brineborn Cutthroat (87).
+Damage: Three Tree Mascot (25) deals 4 damage () to Driver of the Dead (113).
+Damage: Driver of the Dead (113) deals 3 damage () to Three Tree Mascot (25).
+Damage: Brineborn Cutthroat (87) deals 2 damage () to Nessian Hornbeetle (47).
+Add to stack: Ai(2)-Gen4_Deck15 triggered Driver of the Dead (113) targeting [Brineborn Cutthroat (87)]
+Resolve stack: When Driver of the Dead dies, return target creature with mana value 2 or less from your graveyard to the battlefield. (Targeting: [[Brineborn Cutthroat (87)]]) [Zone Changer: Driver of the Dead (113)]
+Phase: Ai(1)-Gen4_Deck6's End of Combat Step
+Phase: Ai(1)-Gen4_Deck6's Main phase, postcombat
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (42) - {T}: Add {G}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Crawling Barrens (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck6 cast Pelakka Wurm (43)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(1)-Gen4_Deck6 triggered Pelakka Wurm (43)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (43)]
+Phase: Ai(1)-Gen4_Deck6's End step
+Phase: Ai(1)-Gen4_Deck6's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen4_Deck15)
+Phase: Ai(2)-Gen4_Deck15's Untap step
+Phase: Ai(2)-Gen4_Deck15's Upkeep step
+Mana: Island (82) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck15 activated Cryptic Caves (62)
+Resolve stack: Cryptic Caves (62) - Ai(2)-Gen4_Deck15 draws a card.
+Phase: Ai(2)-Gen4_Deck15's Draw step
+Phase: Ai(2)-Gen4_Deck15's Main phase, precombat
+Land: Ai(2)-Gen4_Deck15 played Mountain (117)
+Phase: Ai(2)-Gen4_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck15's End of Combat Step
+Phase: Ai(2)-Gen4_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck15's End step
+Phase: Ai(2)-Gen4_Deck15's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen4_Deck6)
+Phase: Ai(1)-Gen4_Deck6's Untap step
+Phase: Ai(1)-Gen4_Deck6's Upkeep step
+Phase: Ai(1)-Gen4_Deck6's Draw step
+Phase: Ai(1)-Gen4_Deck6's Main phase, precombat
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (42) - {T}: Add {G}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck6 cast Biogenic Upgrade (13) targeting [Pelakka Wurm (43)]
+Resolve stack: Biogenic Upgrade (13) - Ai(1)-Gen4_Deck6 distributes three +1/+1 counters among Pelakka Wurm (43) (3 counters). Double the number of +1/+1 counters on Pelakka Wurm (43).
+Mana: Crawling Barrens (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck6 activated Adventuring Gear (2) targeting [Pelakka Wurm (43)]
+Resolve stack: Adventuring Gear (2) -  Attach to Pelakka Wurm (43)
+Phase: Ai(1)-Gen4_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen4_Deck6 triggered Nessian Hornbeetle (47)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen4_Deck6]
+Phase: Ai(1)-Gen4_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck6 assigned Pelakka Wurm (43), Nessian Hornbeetle (47) and Mild-Mannered Librarian (15) to attack Ai(2)-Gen4_Deck15.
+Phase: Ai(1)-Gen4_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck15 didn't block Pelakka Wurm (43).
+Ai(2)-Gen4_Deck15 assigned Brineborn Cutthroat (87) to block Nessian Hornbeetle (47).
+Ai(2)-Gen4_Deck15 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen4_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck6's Combat Damage Step
+Damage: Pelakka Wurm (43) deals 13 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Nessian Hornbeetle (47) deals 5 damage () to Brineborn Cutthroat (87).
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen4_Deck15.
+Damage: Brineborn Cutthroat (87) deals 2 damage () to Nessian Hornbeetle (47).
+Player control: Ai(1)-Gen4_Deck6 is controlled by Ai(1)-Gen4_Deck6
+Player control: Ai(2)-Gen4_Deck15 is controlled by Ai(2)-Gen4_Deck15
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen4_Deck6 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck15 has lost because life total reached 0
+Match result: Ai(1)-Gen4_Deck6: 1 Ai(2)-Gen4_Deck15: 0 
+
+Game Result: Game 1 ended in 17339 ms. Ai(1)-Gen4_Deck6 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,705 @@
+=== COMBATE PARALELO: Gen7_Deck30 vs Gen7_Deck45 ===
+Worker ID: 3043954
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck30 Gen7_Deck45 -n 1
+Duración: 39.03 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1717 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 97 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck30 vs Ai(2)-Gen7_Deck45 - one game of Constructed
+Mulligan: Ai(1)-Gen7_Deck30 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen7_Deck30 has mulliganed down to 5 cards.
+Mulligan: Ai(1)-Gen7_Deck30 has kept a hand of 5 cards
+Mulligan: Ai(2)-Gen7_Deck45 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Land: Ai(1)-Gen7_Deck30 played Swamp (54)
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Mana: Swamp (54) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck30 cast Duress (57) targeting [Ai(2)-Gen7_Deck45]
+Discard: Ai(2)-Gen7_Deck45 discards Cemetery Recruitment (75).
+Resolve stack: Duress (57) - Ai(2)-Gen7_Deck45 reveals their hand. Ai(1)-Gen7_Deck30 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen7_Deck45 discards that card.
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (87)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Duress (94) targeting [Ai(1)-Gen7_Deck30]
+Resolve stack: Duress (94) - Ai(1)-Gen7_Deck30 reveals their hand. Ai(2)-Gen7_Deck45 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen7_Deck30 discards that card.
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Land: Ai(1)-Gen7_Deck30 played Swamp (53)
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (80)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Duress (95) targeting [Ai(1)-Gen7_Deck30]
+Resolve stack: Duress (95) - Ai(1)-Gen7_Deck30 reveals their hand. Ai(2)-Gen7_Deck45 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen7_Deck30 discards that card.
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Land: Ai(1)-Gen7_Deck30 played Swamp (45)
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Discard: Ai(2)-Gen7_Deck45 discards Liliana, Dreadhorde General (72).
+Turn: Turn 13 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Discard: Ai(2)-Gen7_Deck45 discards Blasphemous Edict (76).
+Turn: Turn 15 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Discard: Ai(1)-Gen7_Deck30 discards Suspicious Shambler (8).
+Turn: Turn 16 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Swamp (92)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Discard: Ai(1)-Gen7_Deck30 discards Suspicious Shambler (9).
+Turn: Turn 18 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Cryptic Caves (61)
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Cryptic Caves (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Highborn Vampire (112)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Discard: Ai(1)-Gen7_Deck30 discards Herald of Faith (38).
+Turn: Turn 20 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 assigned Highborn Vampire (112) to attack Ai(1)-Gen7_Deck30.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck30 didn't block Highborn Vampire (112).
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Damage: Highborn Vampire (112) deals 4 combat damage to Ai(1)-Gen7_Deck30.
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Cryptic Caves (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Driver of the Dead (114)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Land: Ai(1)-Gen7_Deck30 played Cryptic Caves (2)
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck30 cast Solemn Simulacrum (6)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen7_Deck30 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 assigned Highborn Vampire (112) and Driver of the Dead (114) to attack Ai(1)-Gen7_Deck30.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck30 didn't block Highborn Vampire (112).
+Ai(1)-Gen7_Deck30 assigned Solemn Simulacrum (6) to block Driver of the Dead (114).
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Damage: Highborn Vampire (112) deals 4 combat damage to Ai(1)-Gen7_Deck30.
+Damage: Driver of the Dead (114) deals 3 damage () to Solemn Simulacrum (6).
+Damage: Solemn Simulacrum (6) deals 2 damage () to Driver of the Dead (114).
+Add to stack: Ai(1)-Gen7_Deck30 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen7_Deck45 played Maze's End (69)
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck45 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen7_Deck45 draws a card.
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Land: Ai(1)-Gen7_Deck30 played Swamp (48)
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Island (22) - {T}: Add {U}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck30 activated Suspicious Shambler (8)
+Resolve stack: Suspicious Shambler (8) - Ai(1)-Gen7_Deck30 creates two 2/2 black Zombie creature token. Activate only as a sorcery.
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 assigned Highborn Vampire (112) to attack Ai(1)-Gen7_Deck30.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck30 didn't block Highborn Vampire (112).
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Damage: Highborn Vampire (112) deals 4 combat damage to Ai(1)-Gen7_Deck30.
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Maze's End (69) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Driver of the Dead (116)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Island (22) - {T}: Add {U}.
+Mana: Swamp (48) - {T}: Add {B}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen7_Deck30 activated Suspicious Shambler (9)
+Resolve stack: Suspicious Shambler (9) - Ai(1)-Gen7_Deck30 creates two 2/2 black Zombie creature token. Activate only as a sorcery.
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Discard: Ai(1)-Gen7_Deck30 discards Sylvan Scavenging (17).
+Turn: Turn 26 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Land: Ai(2)-Gen7_Deck45 played Evolving Wilds (98)
+Add to stack: Ai(2)-Gen7_Deck45 activated Evolving Wilds (98)
+Resolve stack: Evolving Wilds (98) - Ai(2)-Gen7_Deck45 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 assigned Highborn Vampire (112) and Driver of the Dead (116) to attack Ai(1)-Gen7_Deck30.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck30 didn't block Highborn Vampire (112).
+Ai(1)-Gen7_Deck30 assigned Zombie Token (126) to block Driver of the Dead (116).
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Damage: Highborn Vampire (112) deals 4 combat damage to Ai(1)-Gen7_Deck30.
+Damage: Driver of the Dead (116) deals 3 damage () to Zombie Token (126).
+Damage: Zombie Token (126) deals 2 damage () to Driver of the Dead (116).
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 assigned Zombie Token (127) and Zombie Token (132) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Zombie Token (132).
+Ai(2)-Gen7_Deck45 didn't block Zombie Token (127).
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Damage: Zombie Token (127) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Damage: Zombie Token (132) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Island (22) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen7_Deck30 cast Billowing Shriekmass (55)
+Resolve stack: Billowing Shriekmass - Creature 2 / 3
+Add to stack: Ai(1)-Gen7_Deck30 triggered Billowing Shriekmass (55)
+Zone Change: Ai(1)-Gen7_Deck30 milled Temple of Abandon (27), Genesis Wave (36) and Raging Redcap (19).
+Resolve stack: When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.) [Zone Changer: Billowing Shriekmass (55)]
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck30 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen7_Deck30 draws a card.
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Mazemind Tome (107)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck45 activated Mazemind Tome (107)
+Resolve stack: Ai(2)-Gen7_Deck45 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (107) - Ai(2)-Gen7_Deck45 scries 1.
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Land: Ai(1)-Gen7_Deck30 played Swamp (43)
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 assigned Billowing Shriekmass (55) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Billowing Shriekmass (55).
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Damage: Billowing Shriekmass (55) deals 4 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Island (22) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen7_Deck30 cast Solemn Simulacrum (5)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen7_Deck30 triggered Solemn Simulacrum (5)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (5)]
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Highborn Vampire (113)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 31 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck45 activated Mazemind Tome (107)
+Resolve stack: Ai(2)-Gen7_Deck45 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (107) - Ai(2)-Gen7_Deck45 scries 1.
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Land: Ai(1)-Gen7_Deck30 played Cryptic Caves (4)
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 assigned Billowing Shriekmass (55) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Billowing Shriekmass (55).
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Damage: Billowing Shriekmass (55) deals 4 combat damage to Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck30's End of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Main phase, postcombat
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Swamp (45) - {T}: Add {B}.
+Mana: Island (22) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen7_Deck30 cast Billowing Shriekmass (56)
+Resolve stack: Billowing Shriekmass - Creature 2 / 3
+Add to stack: Ai(1)-Gen7_Deck30 triggered Billowing Shriekmass (56)
+Zone Change: Ai(1)-Gen7_Deck30 milled Swamp (49), Swamp (47) and Swamp (52).
+Resolve stack: When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.) [Zone Changer: Billowing Shriekmass (56)]
+Mana: Swamp (48) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck30 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen7_Deck30 draws a card.
+Mana: Swamp (43) - {T}: Add {B}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen7_Deck30 cast Pilfer (14) targeting [Ai(2)-Gen7_Deck45]
+Discard: Ai(2)-Gen7_Deck45 discards Lyra Dawnbringer (68).
+Resolve stack: Pilfer (14) - Ai(2)-Gen7_Deck45 reveals their hand. Ai(1)-Gen7_Deck30 chooses a nonland card from it. Ai(2)-Gen7_Deck45 discards that card.
+Phase: Ai(1)-Gen7_Deck30's End step
+Phase: Ai(1)-Gen7_Deck30's Cleanup step
+Turn: Turn 32 (Ai(2)-Gen7_Deck45)
+Phase: Ai(2)-Gen7_Deck45's Untap step
+Phase: Ai(2)-Gen7_Deck45's Upkeep step
+Phase: Ai(2)-Gen7_Deck45's Draw step
+Phase: Ai(2)-Gen7_Deck45's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck45's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck45 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck45's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck45's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck45's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck45's End of Combat Step
+Phase: Ai(2)-Gen7_Deck45's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (92) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck45 cast Crow of Dark Tidings (120)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(2)-Gen7_Deck45 triggered Crow of Dark Tidings (120)
+Zone Change: Ai(2)-Gen7_Deck45 milled Mazemind Tome (108) and Swamp (79).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (120)]
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Maze's End (69) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck45 activated Mazemind Tome (107)
+Resolve stack: Mazemind Tome (107) - Ai(2)-Gen7_Deck45 draws a card.
+Phase: Ai(2)-Gen7_Deck45's End step
+Phase: Ai(2)-Gen7_Deck45's Cleanup step
+Turn: Turn 33 (Ai(1)-Gen7_Deck30)
+Phase: Ai(1)-Gen7_Deck30's Untap step
+Phase: Ai(1)-Gen7_Deck30's Upkeep step
+Phase: Ai(1)-Gen7_Deck30's Draw step
+Phase: Ai(1)-Gen7_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck30 assigned Billowing Shriekmass (55), Billowing Shriekmass (56), Zombie Token (127), Zombie Token (132), Zombie Token (133) and Solemn Simulacrum (5) to attack Ai(2)-Gen7_Deck45.
+Phase: Ai(1)-Gen7_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck45 didn't block Zombie Token (132).
+Ai(2)-Gen7_Deck45 didn't block Zombie Token (133).
+Ai(2)-Gen7_Deck45 assigned Highborn Vampire (112) to block Solemn Simulacrum (5).
+Ai(2)-Gen7_Deck45 assigned Crow of Dark Tidings (120) to block Billowing Shriekmass (55).
+Ai(2)-Gen7_Deck45 didn't block Billowing Shriekmass (56).
+Ai(2)-Gen7_Deck45 assigned Highborn Vampire (113) to block Zombie Token (127).
+Phase: Ai(1)-Gen7_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck30's Combat Damage Step
+Damage: Billowing Shriekmass (55) deals 4 damage () to Crow of Dark Tidings (120).
+Damage: Billowing Shriekmass (56) deals 4 combat damage to Ai(2)-Gen7_Deck45.
+Damage: Zombie Token (127) deals 2 damage () to Highborn Vampire (113).
+Damage: Zombie Token (132) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Damage: Zombie Token (133) deals 2 combat damage to Ai(2)-Gen7_Deck45.
+Damage: Solemn Simulacrum (5) deals 2 damage () to Highborn Vampire (112).
+Damage: Crow of Dark Tidings (120) deals 2 damage () to Billowing Shriekmass (55).
+Damage: Highborn Vampire (112) deals 4 damage () to Solemn Simulacrum (5).
+Damage: Highborn Vampire (113) deals 4 damage () to Zombie Token (127).
+Player control: Ai(1)-Gen7_Deck30 is controlled by Ai(1)-Gen7_Deck30
+Player control: Ai(2)-Gen7_Deck45 is controlled by Ai(2)-Gen7_Deck45
+Game outcome: Turn 17
+Game outcome: Ai(1)-Gen7_Deck30 has won because all opponents have lost
+Game outcome: Ai(2)-Gen7_Deck45 has lost because life total reached 0
+Match result: Ai(1)-Gen7_Deck30: 1 Ai(2)-Gen7_Deck45: 0 
+
+Game Result: Game 1 ended in 26184 ms. Ai(1)-Gen7_Deck30 has won!
+
+
+=== STDERR ===

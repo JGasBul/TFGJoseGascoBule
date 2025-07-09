@@ -1,0 +1,463 @@
+=== COMBATE PARALELO: Gen0_Deck35 vs Gen0_Deck42 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck35 Gen0_Deck42 -n 1
+Duración: 38.06 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2211 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 93 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck35 vs Ai(2)-Gen0_Deck42 - one game of Constructed
+Player - trying to gain negative or 0 life
+Mulligan: Ai(2)-Gen0_Deck42 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck35 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Land: Ai(2)-Gen0_Deck42 played Mountain (115)
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Land: Ai(1)-Gen0_Deck35 played Forest (18)
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Mana: Forest (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Mold Adder (43)
+Resolve stack: Mold Adder - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Land: Ai(2)-Gen0_Deck42 played Soulstone Sanctuary (84)
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 assigned Mold Adder (43) to attack Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck42 didn't block Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Damage: Mold Adder (43) deals 1 combat damage to Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(1)-Gen0_Deck35 played Thornwood Falls (40)
+Add to stack: Ai(1)-Gen0_Deck35 triggered Thornwood Falls (40)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (40)]
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Land: Ai(2)-Gen0_Deck42 played Island (81)
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Land: Ai(1)-Gen0_Deck35 played Plains (22)
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 assigned Mold Adder (43) to attack Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck42 didn't block Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Damage: Mold Adder (43) deals 1 combat damage to Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Thornwood Falls (40) - {T}: Add {G} or {U}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Cat Collector (56)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen0_Deck35 triggered Cat Collector (56)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (56)]
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Land: Ai(2)-Gen0_Deck42 played Plains (74)
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (81) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck42 cast Prideful Parent (99)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck42 triggered Prideful Parent (99)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (99)]
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Land: Ai(1)-Gen0_Deck35 played Plains (21)
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 assigned Cat Collector (56) to attack Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck42 didn't block Cat Collector (56).
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Damage: Cat Collector (56) deals 3 combat damage to Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Mana: Thornwood Falls (40) - {T}: Add {G} or {U}.
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Lunar Insight (38)
+Resolve stack: Lunar Insight (38) - Ai(1)-Gen0_Deck35 draws three cards.
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Land: Ai(2)-Gen0_Deck42 played Swamp (107)
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Swamp (107) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (84) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck42 cast Angelic Edict (78) targeting [Cat Collector (56)]
+Resolve stack: Angelic Edict (78) - Exile Cat Collector (56).
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 assigned Cat Token (128) and Prideful Parent (99) to attack Ai(1)-Gen0_Deck35.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck35 didn't block Cat Token (128).
+Ai(1)-Gen0_Deck35 didn't block Prideful Parent (99).
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Damage: Cat Token (128) deals 1 combat damage to Ai(1)-Gen0_Deck35.
+Damage: Prideful Parent (99) deals 2 combat damage to Ai(1)-Gen0_Deck35.
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Replacement Effect: Blossoming Sands enters tapped.
+Land: Ai(1)-Gen0_Deck35 played Blossoming Sands (48)
+Add to stack: Ai(1)-Gen0_Deck35 triggered Blossoming Sands (48)
+Resolve stack: When Blossoming Sands enters, you gain 1 life. [Zone Changer: Blossoming Sands (48)]
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Forest (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Ajani, Caller of the Pride (9)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen0_Deck35 activated Ajani, Caller of the Pride (9) targeting [Mold Adder (43)]
+Resolve stack: Ajani, Caller of the Pride (9) - Ai(1)-Gen0_Deck35 puts a +1/+1 counter on Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Swamp (107) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck42 activated Soulstone Sanctuary (84)
+Resolve stack: Soulstone Sanctuary (84) - Soulstone Sanctuary (84) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Land: Ai(2)-Gen0_Deck42 played Island (80)
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 assigned Soulstone Sanctuary (84) to attack Ajani, Caller of the Pride (9).
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck35 didn't block Soulstone Sanctuary (84).
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Mana: Island (80) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (84) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck42 cast Strix Lookout (94)
+Add to stack: Ai(1)-Gen0_Deck35 triggered Mold Adder (43)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Strix Lookout (94), Activator: Ai(2)-Gen0_Deck42, SpellAbility: Strix Lookout - Creature 1 / 2]
+Resolve stack: Strix Lookout - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck35 activated Ajani, Caller of the Pride (9) targeting [Mold Adder (43)]
+Resolve stack: Ajani, Caller of the Pride (9) - Ai(1)-Gen0_Deck35 puts a +1/+1 counter on Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 assigned Mold Adder (43) to attack Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck42 didn't block Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Damage: Mold Adder (43) deals 4 combat damage to Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Thornwood Falls (40) - {T}: Add {G} or {U}.
+Mana: Blossoming Sands (48) - {T}: Add {G} or {W}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Herald of Faith (52)
+Resolve stack: Herald of Faith - Creature 4 / 3
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Land: Ai(2)-Gen0_Deck42 played Soulstone Sanctuary (87)
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Swamp (107) - {T}: Add {B}.
+Mana: Island (80) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck42 cast Archway Angel (92)
+Resolve stack: Archway Angel - Creature 3 / 4
+Add to stack: Ai(2)-Gen0_Deck42 triggered Archway Angel (92)
+Resolve stack: When Archway Angel enters, you gain 2 life for each Gate you control. [Zone Changer: Archway Angel (92)]
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Land: Ai(1)-Gen0_Deck35 played Plains (25)
+Add to stack: Ai(1)-Gen0_Deck35 activated Ajani, Caller of the Pride (9) targeting [Herald of Faith (52)]
+Resolve stack: Ajani, Caller of the Pride (9) - Herald of Faith (52) gains flying and double strike until end of turn.
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 assigned Herald of Faith (52) and Mold Adder (43) to attack Ai(2)-Gen0_Deck42.
+Add to stack: Ai(1)-Gen0_Deck35 triggered Herald of Faith (52)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (52)]
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck42 assigned Strix Lookout (94) to block Herald of Faith (52).
+Ai(2)-Gen0_Deck42 didn't block Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Damage: Herald of Faith (52) deals 4 damage () to Strix Lookout (94).
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Damage: Mold Adder (43) deals 4 combat damage to Ai(2)-Gen0_Deck42.
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Thornwood Falls (40) - {T}: Add {G} or {U}.
+Mana: Blossoming Sands (48) - {T}: Add {G} or {W}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Steel Hellkite (26)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Plains (74) - {T}: Add {W}.
+Mana: Swamp (107) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck42 activated Soulstone Sanctuary (87)
+Resolve stack: Soulstone Sanctuary (87) - Soulstone Sanctuary (87) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 assigned Herald of Faith (52), Steel Hellkite (26) and Mold Adder (43) to attack Ai(2)-Gen0_Deck42.
+Add to stack: Ai(1)-Gen0_Deck35 triggered Herald of Faith (52)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (52)]
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck42 assigned Archway Angel (92) to block Herald of Faith (52).
+Ai(2)-Gen0_Deck42 didn't block Steel Hellkite (26).
+Ai(2)-Gen0_Deck42 assigned Cat Token (128) to block Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Damage: Herald of Faith (52) deals 4 damage () to Archway Angel (92).
+Damage: Steel Hellkite (26) deals 5 combat damage to Ai(2)-Gen0_Deck42.
+Damage: Mold Adder (43) deals 4 damage () to Cat Token (128).
+Damage: Archway Angel (92) deals 3 damage () to Herald of Faith (52).
+Damage: Cat Token (128) deals 1 damage () to Mold Adder (43).
+Phase: Ai(1)-Gen0_Deck35's End of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Thornwood Falls (40) - {T}: Add {G} or {U}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Herald of Faith (54)
+Resolve stack: Herald of Faith - Creature 4 / 3
+Mana: Blossoming Sands (48) - {T}: Add {G} or {W}.
+Add to stack: Ai(1)-Gen0_Deck35 cast Mild-Mannered Librarian (6)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck35's End step
+Phase: Ai(1)-Gen0_Deck35's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck42)
+Phase: Ai(2)-Gen0_Deck42's Untap step
+Phase: Ai(2)-Gen0_Deck42's Upkeep step
+Phase: Ai(2)-Gen0_Deck42's Draw step
+Phase: Ai(2)-Gen0_Deck42's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck42's End of Combat Step
+Phase: Ai(2)-Gen0_Deck42's Main phase, postcombat
+Mana: Swamp (107) - {T}: Add {B}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (81) - {T}: Add {U}.
+Mana: Plains (74) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck42 cast Immersturm Predator (117)
+Add to stack: Ai(1)-Gen0_Deck35 triggered Mold Adder (43)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Immersturm Predator (117), Activator: Ai(2)-Gen0_Deck42, SpellAbility: Immersturm Predator - Creature 3 / 3]
+Resolve stack: Immersturm Predator - Creature 3 / 3
+Phase: Ai(2)-Gen0_Deck42's End step
+Phase: Ai(2)-Gen0_Deck42's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck35)
+Phase: Ai(1)-Gen0_Deck35's Untap step
+Phase: Ai(1)-Gen0_Deck35's Upkeep step
+Phase: Ai(1)-Gen0_Deck35's Draw step
+Phase: Ai(1)-Gen0_Deck35's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck35's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck35's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck35 assigned Mold Adder (43), Steel Hellkite (26), Herald of Faith (54) and Mild-Mannered Librarian (6) to attack Ai(2)-Gen0_Deck42.
+Add to stack: Ai(1)-Gen0_Deck35 triggered Herald of Faith (54)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (54)]
+Phase: Ai(1)-Gen0_Deck35's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck42 didn't block Herald of Faith (54).
+Ai(2)-Gen0_Deck42 assigned Soulstone Sanctuary (84) to block Mild-Mannered Librarian (6).
+Ai(2)-Gen0_Deck42 assigned Immersturm Predator (117) to block Steel Hellkite (26).
+Ai(2)-Gen0_Deck42 assigned Prideful Parent (99) to block Mold Adder (43).
+Add to stack: Ai(2)-Gen0_Deck42 activated Immersturm Predator (117)
+Resolve stack: Immersturm Predator (117) - Immersturm Predator (117) gains indestructible until end of turn. Tap Immersturm Predator (117).
+Add to stack: Ai(2)-Gen0_Deck42 triggered Immersturm Predator (117) targeting [Herald of Faith (52)]
+Resolve stack: Whenever Immersturm Predator becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on Immersturm Predator. (Targeting: [[Herald of Faith (52)]]) [Tapped: Immersturm Predator (117)]
+Phase: Ai(1)-Gen0_Deck35's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck35's Combat Damage Step
+Damage: Steel Hellkite (26) deals 5 damage () to Immersturm Predator (117).
+Damage: Herald of Faith (54) deals 4 combat damage to Ai(2)-Gen0_Deck42.
+Damage: Mild-Mannered Librarian (6) deals 1 damage () to Soulstone Sanctuary (84).
+Damage: Immersturm Predator (117) deals 4 damage () to Steel Hellkite (26).
+Damage: Soulstone Sanctuary (84) deals 3 damage () to Mild-Mannered Librarian (6).
+Player control: Ai(1)-Gen0_Deck35 is controlled by Ai(1)-Gen0_Deck35
+Player control: Ai(2)-Gen0_Deck42 is controlled by Ai(2)-Gen0_Deck42
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck35 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck42 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck35: 1 Ai(2)-Gen0_Deck42: 0 
+
+Game Result: Game 1 ended in 25625 ms. Ai(1)-Gen0_Deck35 has won!
+
+
+=== STDERR ===

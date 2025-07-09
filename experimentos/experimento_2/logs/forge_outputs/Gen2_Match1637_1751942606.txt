@@ -1,0 +1,396 @@
+=== COMBATE PARALELO: Gen2_Deck20 vs Gen2_Deck49 ===
+Worker ID: 352526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck20 Gen2_Deck49 -n 1
+Duración: 27.00 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2213 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 44 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck20 vs Ai(2)-Gen2_Deck49 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck49 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Mountain (60)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Plains (96)
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Leonin Vanguard (113)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen2_Deck20 played Dismal Backwater (9)
+Add to stack: Ai(1)-Gen2_Deck20 triggered Dismal Backwater (9)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (9)]
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Soulstone Sanctuary (118)
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck49 activated Adventuring Gear (63) targeting [Leonin Vanguard (113)]
+Resolve stack: Adventuring Gear (63) -  Attach to Leonin Vanguard (113)
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Leonin Vanguard (113) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Leonin Vanguard (113).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Leonin Vanguard (113) deals 1 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Mountain (59)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Dismal Backwater (9) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Infestation Sage (31)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Island (107)
+Add to stack: Ai(2)-Gen2_Deck49 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (107)]
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Leonin Vanguard (113) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Leonin Vanguard (113).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Leonin Vanguard (113) deals 3 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Infestation Sage (31) to attack Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck49 didn't block Infestation Sage (31).
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Damage: Infestation Sage (31) deals 1 combat damage to Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Dismal Backwater (9) - {T}: Add {U} or {B}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Enigma Drake (43)
+Resolve stack: Enigma Drake - Creature * / 4
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Plains (95)
+Add to stack: Ai(2)-Gen2_Deck49 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (95)]
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Juggernaut (68)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Island (102)
+Add to stack: Ai(2)-Gen2_Deck49 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (102)]
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck49 activated Soulstone Sanctuary (118)
+Resolve stack: Soulstone Sanctuary (118) - Soulstone Sanctuary (118) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Add to stack: Ai(2)-Gen2_Deck49 triggered Leonin Vanguard (113)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(2)-Gen2_Deck49]
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Juggernaut (68) and Leonin Vanguard (113) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Leonin Vanguard (113).
+Ai(1)-Gen2_Deck20 didn't block Juggernaut (68).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Juggernaut (68) deals 5 combat damage to Ai(1)-Gen2_Deck20.
+Damage: Leonin Vanguard (113) deals 4 combat damage to Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Demolition Field (57)
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck20 activated Demolition Field (57) targeting [Soulstone Sanctuary (118)]
+Resolve stack: Demolition Field (57) - Destroy Soulstone Sanctuary (118). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen2_Deck20 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(2)-Gen2_Deck49 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (103)]
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Infestation Sage (31) to attack Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck49 didn't block Infestation Sage (31).
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Damage: Infestation Sage (31) deals 1 combat damage to Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Plains (99)
+Add to stack: Ai(2)-Gen2_Deck49 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (99)]
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Juggernaut (68) and Leonin Vanguard (113) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Enigma Drake (43) to block Leonin Vanguard (113).
+Ai(1)-Gen2_Deck20 didn't block Juggernaut (68).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Juggernaut (68) deals 5 combat damage to Ai(1)-Gen2_Deck20.
+Damage: Leonin Vanguard (113) deals 3 damage () to Enigma Drake (43).
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Juggernaut (66)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Dismal Backwater (9) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Solemn Simulacrum (3)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck20 triggered Solemn Simulacrum (3)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (3)]
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen2_Deck49 played Uncharted Haven (109)
+Add to stack: Ai(2)-Gen2_Deck49 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Uncharted Haven (109)]
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Add to stack: Ai(2)-Gen2_Deck49 triggered Leonin Vanguard (113)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(2)-Gen2_Deck49]
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Juggernaut (68), Juggernaut (66) and Leonin Vanguard (113) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 assigned Solemn Simulacrum (3) to block Leonin Vanguard (113).
+Ai(1)-Gen2_Deck20 assigned Enigma Drake (43) to block Juggernaut (66).
+Ai(1)-Gen2_Deck20 assigned Infestation Sage (31) to block Juggernaut (68).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Juggernaut (68) deals 5 damage () to Infestation Sage (31).
+Damage: Juggernaut (66) deals 5 damage () to Enigma Drake (43).
+Damage: Leonin Vanguard (113) deals 4 damage () to Solemn Simulacrum (3).
+Damage: Infestation Sage (31) deals 1 damage () to Juggernaut (68).
+Damage: Solemn Simulacrum (3) deals 2 damage () to Leonin Vanguard (113).
+Add to stack: Ai(1)-Gen2_Deck20 triggered Solemn Simulacrum (3)
+Add to stack: Ai(1)-Gen2_Deck20 triggered Infestation Sage (31)
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (31)]
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (3)]
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck20)
+Phase: Ai(1)-Gen2_Deck20's Untap step
+Phase: Ai(1)-Gen2_Deck20's Upkeep step
+Phase: Ai(1)-Gen2_Deck20's Draw step
+Phase: Ai(1)-Gen2_Deck20's Main phase, precombat
+Land: Ai(1)-Gen2_Deck20 played Demolition Field (56)
+Phase: Ai(1)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck20's End of Combat Step
+Phase: Ai(1)-Gen2_Deck20's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Island (18) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck20 cast Solemn Simulacrum (4)
+Mana: Island (107) - {T}: Add {U}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Refute (70) targeting [Solemn Simulacrum - Creature 2 / 2]
+Zone Change: Send countered spell to Graveyard
+Discard: Ai(2)-Gen2_Deck49 discards Crawling Barrens (114).
+Resolve stack: Refute (70) - Counter Solemn Simulacrum (4). Ai(2)-Gen2_Deck49 draws a card. Ai(2)-Gen2_Deck49 discards a card.
+Phase: Ai(1)-Gen2_Deck20's End step
+Phase: Ai(1)-Gen2_Deck20's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Add to stack: Ai(2)-Gen2_Deck49 triggered Leonin Vanguard (113)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(2)-Gen2_Deck49]
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Juggernaut (68), Juggernaut (66) and Leonin Vanguard (113) to attack Ai(1)-Gen2_Deck20.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck20 didn't block Leonin Vanguard (113).
+Ai(1)-Gen2_Deck20 didn't block Juggernaut (66).
+Ai(1)-Gen2_Deck20 assigned Insect Token (128) to block Juggernaut (68).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Juggernaut (68) deals 5 damage () to Insect Token (128).
+Damage: Juggernaut (66) deals 5 combat damage to Ai(1)-Gen2_Deck20.
+Damage: Leonin Vanguard (113) deals 2 combat damage to Ai(1)-Gen2_Deck20.
+Damage: Insect Token (128) deals 1 damage () to Juggernaut (68).
+Player control: Ai(1)-Gen2_Deck20 is controlled by Ai(1)-Gen2_Deck20
+Player control: Ai(2)-Gen2_Deck49 is controlled by Ai(2)-Gen2_Deck49
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck20 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck49 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck20: 0 Ai(2)-Gen2_Deck49: 1 
+
+Game Result: Game 1 ended in 13982 ms. Ai(2)-Gen2_Deck49 has won!
+
+
+=== STDERR ===

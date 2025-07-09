@@ -1,0 +1,480 @@
+=== COMBATE PARALELO: Gen8_Deck33 vs Gen8_Deck44 ===
+Worker ID: 3561598
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen8_Deck33 Gen8_Deck44 -n 1
+Duración: 28.28 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2314 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 63 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen8_Deck33 vs Ai(2)-Gen8_Deck44 - one game of Constructed
+Mulligan: Ai(2)-Gen8_Deck44 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen8_Deck44 has mulliganed down to 5 cards.
+Mulligan: Ai(1)-Gen8_Deck33 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen8_Deck44 has kept a hand of 5 cards
+Turn: Turn 1 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Land: Ai(1)-Gen8_Deck33 played Island (23)
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Land: Ai(2)-Gen8_Deck44 played Forest (77)
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Mana: Forest (77) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Mild-Mannered Librarian (68)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Land: Ai(1)-Gen8_Deck33 played Mountain (55)
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Land: Ai(2)-Gen8_Deck44 played Forest (80)
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Mild-Mannered Librarian (68) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 didn't block Mild-Mannered Librarian (68).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Mild-Mannered Librarian (68) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Mana: Forest (77) - {T}: Add {G}.
+Mana: Forest (80) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Druid of the Cowl (105)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Land: Ai(1)-Gen8_Deck33 played Cryptic Caves (1)
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Land: Ai(2)-Gen8_Deck44 played Forest (79)
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Mild-Mannered Librarian (68) and Druid of the Cowl (105) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 didn't block Mild-Mannered Librarian (68).
+Ai(1)-Gen8_Deck33 didn't block Druid of the Cowl (105).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Mild-Mannered Librarian (68) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Druid of the Cowl (105) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Land: Ai(1)-Gen8_Deck33 played Island (24)
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Land: Ai(2)-Gen8_Deck44 played Island (88)
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Mild-Mannered Librarian (68) and Druid of the Cowl (105) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 didn't block Mild-Mannered Librarian (68).
+Ai(1)-Gen8_Deck33 didn't block Druid of the Cowl (105).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Mild-Mannered Librarian (68) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Druid of the Cowl (105) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Mild-Mannered Librarian (68) and Druid of the Cowl (105) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 didn't block Mild-Mannered Librarian (68).
+Ai(1)-Gen8_Deck33 didn't block Druid of the Cowl (105).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Mild-Mannered Librarian (68) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Druid of the Cowl (105) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen8_Deck33 played Orzhov Guildgate (7)
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck33 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen8_Deck33 draws a card.
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Mild-Mannered Librarian (68) and Druid of the Cowl (105) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 didn't block Mild-Mannered Librarian (68).
+Ai(1)-Gen8_Deck33 didn't block Druid of the Cowl (105).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Mild-Mannered Librarian (68) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Druid of the Cowl (105) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Mana: Forest (77) - {T}: Add {G}.
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Island (88) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Solemn Simulacrum (63)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck44 triggered Solemn Simulacrum (63)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (63)]
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen8_Deck33 played Secluded Courtyard (41)
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Mana: Orzhov Guildgate (7) - {T}: Add {W} or {B}.
+Mana: Island (23) - {T}: Add {U}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck33 cast Driver of the Dead (52)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Mana: Secluded Courtyard (41) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Add to stack: Ai(1)-Gen8_Deck33 cast Pulse Tracker (17)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Forest (77) - {T}: Add {G}.
+Mana: Forest (80) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Stroke of Midnight (85) targeting [Driver of the Dead (52)]
+Resolve stack: Stroke of Midnight (85) - Destroy Driver of the Dead (52). 
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Solemn Simulacrum (63), Mild-Mannered Librarian (68) and Druid of the Cowl (105) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 assigned Human Token (122) to block Mild-Mannered Librarian (68).
+Ai(1)-Gen8_Deck33 didn't block Druid of the Cowl (105).
+Ai(1)-Gen8_Deck33 didn't block Solemn Simulacrum (63).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Solemn Simulacrum (63) deals 2 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Mild-Mannered Librarian (68) deals 1 damage () to Human Token (122).
+Damage: Druid of the Cowl (105) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Human Token (122) deals 1 damage () to Mild-Mannered Librarian (68).
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen8_Deck33 played Secluded Courtyard (40)
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 assigned Pulse Tracker (17) to attack Ai(2)-Gen8_Deck44.
+Add to stack: Ai(1)-Gen8_Deck33 triggered Pulse Tracker (17)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (17)]
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck44 didn't block Pulse Tracker (17).
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Damage: Pulse Tracker (17) deals 1 combat damage to Ai(2)-Gen8_Deck44.
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Mana: Orzhov Guildgate (7) - {T}: Add {W} or {B}.
+Mana: Island (23) - {T}: Add {U}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck33 cast Highborn Vampire (48)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Forest (77) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Adamant Will (96) targeting [Solemn Simulacrum (63)]
+Resolve stack: Adamant Will (96) - Solemn Simulacrum (63) gets +2/+2 and gains indestructible until end of turn.
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Solemn Simulacrum (63) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 didn't block Solemn Simulacrum (63).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Solemn Simulacrum (63) deals 4 combat damage to Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Island (88) - {T}: Add {U}.
+Mana: Druid of the Cowl (105) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Solemn Simulacrum (65)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck44 triggered Solemn Simulacrum (65)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (65)]
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 assigned Highborn Vampire (48) to attack Ai(2)-Gen8_Deck44.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck44 didn't block Highborn Vampire (48).
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Damage: Highborn Vampire (48) deals 4 combat damage to Ai(2)-Gen8_Deck44.
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Mana: Orzhov Guildgate (7) - {T}: Add {W} or {B}.
+Mana: Island (23) - {T}: Add {U}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck33 cast Suspicious Shambler (9)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Land: Ai(2)-Gen8_Deck44 played Crawling Barrens (94)
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Solemn Simulacrum (63) and Solemn Simulacrum (65) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 assigned Pulse Tracker (17) to block Solemn Simulacrum (65).
+Ai(1)-Gen8_Deck33 assigned Suspicious Shambler (9) to block Solemn Simulacrum (63).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Solemn Simulacrum (63) deals 2 damage () to Suspicious Shambler (9).
+Damage: Solemn Simulacrum (65) deals 2 damage () to Pulse Tracker (17).
+Damage: Suspicious Shambler (9) deals 4 damage () to Solemn Simulacrum (63).
+Damage: Pulse Tracker (17) deals 1 damage () to Solemn Simulacrum (65).
+Add to stack: Ai(2)-Gen8_Deck44 triggered Solemn Simulacrum (63)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (63)]
+Phase: Ai(2)-Gen8_Deck44's End of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Main phase, postcombat
+Mana: Forest (77) - {T}: Add {G}.
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Island (88) - {T}: Add {U}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (102) - {T}: Add {B}.
+Mana: Crawling Barrens (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Pelakka Wurm (112)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(2)-Gen8_Deck44 triggered Pelakka Wurm (112)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (112)]
+Phase: Ai(2)-Gen8_Deck44's End step
+Phase: Ai(2)-Gen8_Deck44's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen8_Deck33)
+Phase: Ai(1)-Gen8_Deck33's Untap step
+Phase: Ai(1)-Gen8_Deck33's Upkeep step
+Phase: Ai(1)-Gen8_Deck33's Draw step
+Phase: Ai(1)-Gen8_Deck33's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck33's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck33 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck33's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck33's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck33's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck33's End of Combat Step
+Phase: Ai(1)-Gen8_Deck33's Main phase, postcombat
+Mana: Island (23) - {T}: Add {U}.
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen8_Deck33 cast Teach by Example (45)
+Resolve stack: Teach by Example (45) - When you cast your next instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.
+Mana: Orzhov Guildgate (7) - {T}: Add {W} or {B}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Secluded Courtyard (41) - {T}: Add {C}.
+Mana: Secluded Courtyard (40) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck33 cast Driver of the Dead (51)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen8_Deck33's End step
+Phase: Ai(1)-Gen8_Deck33's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen8_Deck44)
+Phase: Ai(2)-Gen8_Deck44's Untap step
+Phase: Ai(2)-Gen8_Deck44's Upkeep step
+Phase: Ai(2)-Gen8_Deck44's Draw step
+Phase: Ai(2)-Gen8_Deck44's Main phase, precombat
+Land: Ai(2)-Gen8_Deck44 played Forest (81)
+Mana: Forest (77) - {T}: Add {G}.
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Island (88) - {T}: Add {U}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Swamp (102) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen8_Deck44 cast Biogenic Upgrade (99) targeting [Pelakka Wurm (112)]
+Resolve stack: Biogenic Upgrade (99) - Ai(2)-Gen8_Deck44 distributes three +1/+1 counters among Pelakka Wurm (112) (3 counters). Double the number of +1/+1 counters on Pelakka Wurm (112).
+Phase: Ai(2)-Gen8_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck44 assigned Pelakka Wurm (112), Solemn Simulacrum (65) and Druid of the Cowl (105) to attack Ai(1)-Gen8_Deck33.
+Phase: Ai(2)-Gen8_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck33 assigned Highborn Vampire (48) to block Pelakka Wurm (112).
+Ai(1)-Gen8_Deck33 assigned Driver of the Dead (51) to block Solemn Simulacrum (65).
+Ai(1)-Gen8_Deck33 didn't block Druid of the Cowl (105).
+Phase: Ai(2)-Gen8_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck44's Combat Damage Step
+Damage: Pelakka Wurm (112) deals 10 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Pelakka Wurm (112) deals 3 damage () to Highborn Vampire (48).
+Damage: Solemn Simulacrum (65) deals 2 damage () to Driver of the Dead (51).
+Damage: Druid of the Cowl (105) deals 1 combat damage to Ai(1)-Gen8_Deck33.
+Damage: Driver of the Dead (51) deals 3 damage () to Solemn Simulacrum (65).
+Damage: Highborn Vampire (48) deals 4 damage () to Pelakka Wurm (112).
+Player control: Ai(1)-Gen8_Deck33 is controlled by Ai(1)-Gen8_Deck33
+Player control: Ai(2)-Gen8_Deck44 is controlled by Ai(2)-Gen8_Deck44
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen8_Deck33 has lost because life total reached 0
+Game outcome: Ai(2)-Gen8_Deck44 has won because all opponents have lost
+Match result: Ai(1)-Gen8_Deck33: 0 Ai(2)-Gen8_Deck44: 1 
+
+Game Result: Game 1 ended in 15978 ms. Ai(2)-Gen8_Deck44 has won!
+
+
+=== STDERR ===

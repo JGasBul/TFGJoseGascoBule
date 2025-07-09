@@ -1,0 +1,349 @@
+=== COMBATE PARALELO: Gen6_Deck24 vs Gen6_Deck30 ===
+Worker ID: 2514423
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen6_Deck24 Gen6_Deck30 -n 1
+Duración: 22.42 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2274 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 199 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen6_Deck24 vs Ai(2)-Gen6_Deck30 - one game of Constructed
+Mulligan: Ai(1)-Gen6_Deck24 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen6_Deck24 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen6_Deck30 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen6_Deck24)
+Phase: Ai(1)-Gen6_Deck24's Untap step
+Phase: Ai(1)-Gen6_Deck24's Upkeep step
+Phase: Ai(1)-Gen6_Deck24's Draw step
+Phase: Ai(1)-Gen6_Deck24's Main phase, precombat
+Land: Ai(1)-Gen6_Deck24 played Forest (22)
+Phase: Ai(1)-Gen6_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck24's End of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen6_Deck24's End step
+Phase: Ai(1)-Gen6_Deck24's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen6_Deck30)
+Phase: Ai(2)-Gen6_Deck30's Untap step
+Phase: Ai(2)-Gen6_Deck30's Upkeep step
+Phase: Ai(2)-Gen6_Deck30's Draw step
+Phase: Ai(2)-Gen6_Deck30's Main phase, precombat
+Land: Ai(2)-Gen6_Deck30 played Swamp (89)
+Phase: Ai(2)-Gen6_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck30's End of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck30's End step
+Phase: Ai(2)-Gen6_Deck30's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen6_Deck24)
+Phase: Ai(1)-Gen6_Deck24's Untap step
+Phase: Ai(1)-Gen6_Deck24's Upkeep step
+Phase: Ai(1)-Gen6_Deck24's Draw step
+Phase: Ai(1)-Gen6_Deck24's Main phase, precombat
+Land: Ai(1)-Gen6_Deck24 played Forest (17)
+Phase: Ai(1)-Gen6_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen6_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen6_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen6_Deck24's End of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (17) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck24 cast Wary Thespian (29)
+Resolve stack: Wary Thespian - Creature 3 / 1
+Add to stack: Ai(1)-Gen6_Deck24 triggered Wary Thespian (29)
+Resolve stack: Ai(1)-Gen6_Deck24 surveiled 1 card(s) to the top of the library
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (29)]
+Phase: Ai(1)-Gen6_Deck24's End step
+Phase: Ai(1)-Gen6_Deck24's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen6_Deck30)
+Phase: Ai(2)-Gen6_Deck30's Untap step
+Phase: Ai(2)-Gen6_Deck30's Upkeep step
+Phase: Ai(2)-Gen6_Deck30's Draw step
+Phase: Ai(2)-Gen6_Deck30's Main phase, precombat
+Land: Ai(2)-Gen6_Deck30 played Swamp (82)
+Phase: Ai(2)-Gen6_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck30's End of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (82) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck30 cast Mazemind Tome (106)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen6_Deck30's End step
+Phase: Ai(2)-Gen6_Deck30's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen6_Deck24)
+Phase: Ai(1)-Gen6_Deck24's Untap step
+Phase: Ai(1)-Gen6_Deck24's Upkeep step
+Add to stack: Ai(2)-Gen6_Deck30 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen6_Deck30 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen6_Deck30 scries 1.
+Phase: Ai(1)-Gen6_Deck24's Draw step
+Phase: Ai(1)-Gen6_Deck24's Main phase, precombat
+Land: Ai(1)-Gen6_Deck24 played Forest (20)
+Phase: Ai(1)-Gen6_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck24 assigned Wary Thespian (29) to attack Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck30 didn't block Wary Thespian (29).
+Phase: Ai(1)-Gen6_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck24's Combat Damage Step
+Damage: Wary Thespian (29) deals 3 combat damage to Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's End of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (17) - {T}: Add {G}.
+Mana: Forest (20) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck24 cast Burnished Hart (24)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen6_Deck24's End step
+Phase: Ai(1)-Gen6_Deck24's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen6_Deck30)
+Phase: Ai(2)-Gen6_Deck30's Untap step
+Phase: Ai(2)-Gen6_Deck30's Upkeep step
+Add to stack: Ai(2)-Gen6_Deck30 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen6_Deck30 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen6_Deck30 scries 1.
+Phase: Ai(2)-Gen6_Deck30's Draw step
+Phase: Ai(2)-Gen6_Deck30's Main phase, precombat
+Land: Ai(2)-Gen6_Deck30 played Swamp (88)
+Phase: Ai(2)-Gen6_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck30's End of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen6_Deck30's End step
+Phase: Ai(2)-Gen6_Deck30's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen6_Deck24)
+Phase: Ai(1)-Gen6_Deck24's Untap step
+Phase: Ai(1)-Gen6_Deck24's Upkeep step
+Phase: Ai(1)-Gen6_Deck24's Draw step
+Phase: Ai(1)-Gen6_Deck24's Main phase, precombat
+Land: Ai(1)-Gen6_Deck24 played Plains (26)
+Phase: Ai(1)-Gen6_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck24 assigned Wary Thespian (29) and Burnished Hart (24) to attack Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck30 didn't block Burnished Hart (24).
+Ai(2)-Gen6_Deck30 didn't block Wary Thespian (29).
+Phase: Ai(1)-Gen6_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck24's Combat Damage Step
+Damage: Wary Thespian (29) deals 3 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Burnished Hart (24) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's End of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (17) - {T}: Add {G}.
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck24 cast Solemn Simulacrum (3)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen6_Deck24 triggered Solemn Simulacrum (3)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (3)]
+Phase: Ai(1)-Gen6_Deck24's End step
+Phase: Ai(1)-Gen6_Deck24's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen6_Deck30)
+Phase: Ai(2)-Gen6_Deck30's Untap step
+Phase: Ai(2)-Gen6_Deck30's Upkeep step
+Phase: Ai(2)-Gen6_Deck30's Draw step
+Phase: Ai(2)-Gen6_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck30's End of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen6_Deck30 played Uncharted Haven (105)
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (82) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen6_Deck30 activated Mazemind Tome (106)
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen6_Deck30 draws a card.
+Phase: Ai(2)-Gen6_Deck30's End step
+Phase: Ai(2)-Gen6_Deck30's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen6_Deck24)
+Phase: Ai(1)-Gen6_Deck24's Untap step
+Phase: Ai(1)-Gen6_Deck24's Upkeep step
+Phase: Ai(1)-Gen6_Deck24's Draw step
+Phase: Ai(1)-Gen6_Deck24's Main phase, precombat
+Land: Ai(1)-Gen6_Deck24 played Forest (9)
+Phase: Ai(1)-Gen6_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck24 assigned Wary Thespian (29), Burnished Hart (24) and Solemn Simulacrum (3) to attack Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck30 didn't block Solemn Simulacrum (3).
+Ai(2)-Gen6_Deck30 didn't block Burnished Hart (24).
+Ai(2)-Gen6_Deck30 didn't block Wary Thespian (29).
+Phase: Ai(1)-Gen6_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck24's Combat Damage Step
+Damage: Wary Thespian (29) deals 3 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Burnished Hart (24) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Solemn Simulacrum (3) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's End of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (17) - {T}: Add {G}.
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Forest (9) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen6_Deck24 cast Ramos, Dragon Engine (47)
+Resolve stack: Ramos, Dragon Engine - Creature 4 / 4
+Phase: Ai(1)-Gen6_Deck24's End step
+Phase: Ai(1)-Gen6_Deck24's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen6_Deck30)
+Phase: Ai(2)-Gen6_Deck30's Untap step
+Phase: Ai(2)-Gen6_Deck30's Upkeep step
+Phase: Ai(2)-Gen6_Deck30's Draw step
+Phase: Ai(2)-Gen6_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen6_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck30's End of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Swamp (88) - {T}: Add {B}.
+Mana: Uncharted Haven (105) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen6_Deck30 cast Highborn Vampire (111)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen6_Deck30's End step
+Phase: Ai(2)-Gen6_Deck30's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen6_Deck24)
+Phase: Ai(1)-Gen6_Deck24's Untap step
+Phase: Ai(1)-Gen6_Deck24's Upkeep step
+Phase: Ai(1)-Gen6_Deck24's Draw step
+Add to stack: Ai(2)-Gen6_Deck30 activated Mazemind Tome (106)
+Add to stack: Ai(2)-Gen6_Deck30 triggered Mazemind Tome (106)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen6_Deck30 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen6_Deck30 scries 1.
+Phase: Ai(1)-Gen6_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen6_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck24 assigned Ramos, Dragon Engine (47), Wary Thespian (29), Burnished Hart (24) and Solemn Simulacrum (3) to attack Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck30 didn't block Solemn Simulacrum (3).
+Ai(2)-Gen6_Deck30 didn't block Burnished Hart (24).
+Ai(2)-Gen6_Deck30 assigned Highborn Vampire (111) to block Wary Thespian (29).
+Ai(2)-Gen6_Deck30 didn't block Ramos, Dragon Engine (47).
+Phase: Ai(1)-Gen6_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck24's Combat Damage Step
+Damage: Ramos, Dragon Engine (47) deals 4 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Wary Thespian (29) deals 3 damage () to Highborn Vampire (111).
+Damage: Burnished Hart (24) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Solemn Simulacrum (3) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Highborn Vampire (111) deals 4 damage () to Wary Thespian (29).
+Add to stack: Ai(1)-Gen6_Deck24 triggered Wary Thespian (29)
+Resolve stack: Ai(1)-Gen6_Deck24 surveiled 1 card(s) to the graveyard
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (29)]
+Phase: Ai(1)-Gen6_Deck24's End of Combat Step
+Phase: Ai(1)-Gen6_Deck24's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (17) - {T}: Add {G}.
+Mana: Forest (20) - {T}: Add {G}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen6_Deck24 cast Solemn Simulacrum (2)
+Add to stack: Ai(1)-Gen6_Deck24 triggered Ramos, Dragon Engine (47)
+Resolve stack: Whenever you cast a spell, put a +1/+1 counter on Ramos, Dragon Engine for each of that spell's colors. [Card: Solemn Simulacrum (2), Activator: Ai(1)-Gen6_Deck24, SpellAbility: Solemn Simulacrum - Creature 2 / 2]
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen6_Deck24 triggered Solemn Simulacrum (2)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (2)]
+Mana: Forest (9) - {T}: Add {G}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen6_Deck24 cast Nessian Hornbeetle (59)
+Add to stack: Ai(1)-Gen6_Deck24 triggered Ramos, Dragon Engine (47)
+Resolve stack: Whenever you cast a spell, put a +1/+1 counter on Ramos, Dragon Engine for each of that spell's colors. [Card: Nessian Hornbeetle (59), Activator: Ai(1)-Gen6_Deck24, SpellAbility: Nessian Hornbeetle - Creature 2 / 2]
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen6_Deck24's End step
+Phase: Ai(1)-Gen6_Deck24's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen6_Deck30)
+Phase: Ai(2)-Gen6_Deck30's Untap step
+Phase: Ai(2)-Gen6_Deck30's Upkeep step
+Phase: Ai(2)-Gen6_Deck30's Draw step
+Phase: Ai(2)-Gen6_Deck30's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen6_Deck30 played Secluded Courtyard (100)
+Phase: Ai(2)-Gen6_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen6_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen6_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen6_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen6_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen6_Deck30's End of Combat Step
+Phase: Ai(2)-Gen6_Deck30's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Swamp (88) - {T}: Add {B}.
+Mana: Uncharted Haven (105) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen6_Deck30 cast Driver of the Dead (116)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen6_Deck30's End step
+Phase: Ai(2)-Gen6_Deck30's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen6_Deck24)
+Phase: Ai(1)-Gen6_Deck24's Untap step
+Phase: Ai(1)-Gen6_Deck24's Upkeep step
+Phase: Ai(1)-Gen6_Deck24's Draw step
+Phase: Ai(1)-Gen6_Deck24's Main phase, precombat
+Land: Ai(1)-Gen6_Deck24 played Crawling Barrens (34)
+Phase: Ai(1)-Gen6_Deck24's Beginning of Combat Step
+Add to stack: Ai(1)-Gen6_Deck24 triggered Nessian Hornbeetle (59)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen6_Deck24]
+Phase: Ai(1)-Gen6_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen6_Deck24 assigned Ramos, Dragon Engine (47), Nessian Hornbeetle (59), Burnished Hart (24), Solemn Simulacrum (3) and Solemn Simulacrum (2) to attack Ai(2)-Gen6_Deck30.
+Phase: Ai(1)-Gen6_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen6_Deck30 didn't block Solemn Simulacrum (2).
+Ai(2)-Gen6_Deck30 didn't block Solemn Simulacrum (3).
+Ai(2)-Gen6_Deck30 didn't block Burnished Hart (24).
+Ai(2)-Gen6_Deck30 assigned Driver of the Dead (116) to block Nessian Hornbeetle (59).
+Ai(2)-Gen6_Deck30 didn't block Ramos, Dragon Engine (47).
+Phase: Ai(1)-Gen6_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen6_Deck24's Combat Damage Step
+Damage: Ramos, Dragon Engine (47) deals 5 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Nessian Hornbeetle (59) deals 3 damage () to Driver of the Dead (116).
+Damage: Burnished Hart (24) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Solemn Simulacrum (3) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Solemn Simulacrum (2) deals 2 combat damage to Ai(2)-Gen6_Deck30.
+Damage: Driver of the Dead (116) deals 3 damage () to Nessian Hornbeetle (59).
+Player control: Ai(1)-Gen6_Deck24 is controlled by Ai(1)-Gen6_Deck24
+Player control: Ai(2)-Gen6_Deck30 is controlled by Ai(2)-Gen6_Deck30
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen6_Deck24 has won because all opponents have lost
+Game outcome: Ai(2)-Gen6_Deck30 has lost because life total reached 0
+Match result: Ai(1)-Gen6_Deck24: 1 Ai(2)-Gen6_Deck30: 0 
+
+Game Result: Game 1 ended in 9549 ms. Ai(1)-Gen6_Deck24 has won!
+
+
+=== STDERR ===

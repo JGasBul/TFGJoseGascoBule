@@ -1,0 +1,571 @@
+=== COMBATE PARALELO: Gen2_Deck6 vs Gen2_Deck7 ===
+Worker ID: 352527
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck6 Gen2_Deck7 -n 1
+Duración: 31.47 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1962 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 215 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck6 vs Ai(2)-Gen2_Deck7 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck6 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck7 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck6 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Swamp (92)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Duress (98) targeting [Ai(1)-Gen2_Deck6]
+Discard: Ai(1)-Gen2_Deck6 discards Zombify (20).
+Resolve stack: Duress (98) - Ai(1)-Gen2_Deck6 reveals their hand. Ai(2)-Gen2_Deck7 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen2_Deck6 discards that card.
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Land: Ai(1)-Gen2_Deck6 played Soulstone Sanctuary (35)
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Swamp (90)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Mazemind Tome (105)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (105)
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen2_Deck7 scries 1.
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Land: Ai(1)-Gen2_Deck6 played Swamp (41)
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (105)
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen2_Deck7 scries 1.
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Swamp (79)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Mazemind Tome (106)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen2_Deck7 scries 1.
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Land: Ai(1)-Gen2_Deck6 played Island (24)
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen2_Deck7 scries 1.
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (105)
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen2_Deck7 scries 1.
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Soulstone Sanctuary (113)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Driver of the Dead (116)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Land: Ai(1)-Gen2_Deck6 played Island (28)
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Island (24) - {T}: Add {U}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (35) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck6 cast Juggernaut (6)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (106)
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen2_Deck7 scries 1.
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (105)
+Add to stack: Ai(2)-Gen2_Deck7 triggered Mazemind Tome (105)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen2_Deck7 scries 1.
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Solemn Simulacrum (67)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen2_Deck7 triggered Solemn Simulacrum (67)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (67)]
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Mana: Swamp (41) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck6 cast Adventuring Gear (3)
+Resolve stack: Adventuring Gear
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck6 activated Adventuring Gear (3) targeting [Juggernaut (6)]
+Resolve stack: Adventuring Gear (3) -  Attach to Juggernaut (6)
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 assigned Juggernaut (6) to attack Ai(2)-Gen2_Deck7.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Driver of the Dead (116) to block Juggernaut (6).
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Damage: Juggernaut (6) deals 5 damage () to Driver of the Dead (116).
+Damage: Driver of the Dead (116) deals 3 damage () to Juggernaut (6).
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Add to stack: Ai(2)-Gen2_Deck7 activated Mazemind Tome (106)
+Add to stack: Ai(2)-Gen2_Deck7 triggered Mazemind Tome (106)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen2_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (106) - Ai(2)-Gen2_Deck7 scries 1.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 activated Soulstone Sanctuary (113)
+Resolve stack: Soulstone Sanctuary (113) - Soulstone Sanctuary (113) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Cryptic Caves (61)
+Mana: Soulstone Sanctuary (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck7 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen2_Deck7 draws a card.
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Solemn Simulacrum (67) to attack Ai(1)-Gen2_Deck6.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck6 didn't block Solemn Simulacrum (67).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Solemn Simulacrum (67) deals 2 combat damage to Ai(1)-Gen2_Deck6.
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Land: Ai(1)-Gen2_Deck6 played Island (23)
+Add to stack: Ai(1)-Gen2_Deck6 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (23)]
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Island (24) - {T}: Add {U}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck6 activated Soulstone Sanctuary (35)
+Resolve stack: Soulstone Sanctuary (35) - Soulstone Sanctuary (35) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Mana: Soulstone Sanctuary (35) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck6 activated Adventuring Gear (3) targeting [Soulstone Sanctuary (35)]
+Resolve stack: Adventuring Gear (3) -  Attach to Soulstone Sanctuary (35)
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Solemn Simulacrum (67) and Soulstone Sanctuary (113) to attack Ai(1)-Gen2_Deck6.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck6 didn't block Soulstone Sanctuary (113).
+Ai(1)-Gen2_Deck6 didn't block Solemn Simulacrum (67).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Solemn Simulacrum (67) deals 2 combat damage to Ai(1)-Gen2_Deck6.
+Damage: Soulstone Sanctuary (113) deals 3 combat damage to Ai(1)-Gen2_Deck6.
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Crow of Dark Tidings (118)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(2)-Gen2_Deck7 triggered Crow of Dark Tidings (118)
+Zone Change: Ai(2)-Gen2_Deck7 milled Blasphemous Edict (76) and Suspicious Shambler (69).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (118)]
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Pilfer (95) targeting [Ai(1)-Gen2_Deck6]
+Replacement Effect: If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead.
+Discard: Ai(1)-Gen2_Deck6 discards Darksteel Colossus (10).
+Resolve stack: Pilfer (95) - Ai(1)-Gen2_Deck6 reveals their hand. Ai(2)-Gen2_Deck7 chooses a nonland card from it. Ai(1)-Gen2_Deck6 discards that card.
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 assigned Soulstone Sanctuary (35) to attack Ai(2)-Gen2_Deck7.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck7 didn't block Soulstone Sanctuary (35).
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Damage: Soulstone Sanctuary (35) deals 3 combat damage to Ai(2)-Gen2_Deck7.
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Island (24) - {T}: Add {U}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck6 cast Juggernaut (9)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Cryptic Caves (64)
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Liliana, Dreadhorde General (72)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(2)-Gen2_Deck7 activated Liliana, Dreadhorde General (72)
+Resolve stack: Liliana, Dreadhorde General (72) - Ai(2)-Gen2_Deck7 and Ai(1)-Gen2_Deck6 sacrifice two creatures.
+Add to stack: Ai(2)-Gen2_Deck7 triggered Crow of Dark Tidings (118)
+Add to stack: Ai(2)-Gen2_Deck7 triggered Solemn Simulacrum (67)
+Add to stack: Ai(2)-Gen2_Deck7 triggered Liliana, Dreadhorde General (72)
+Add to stack: Ai(2)-Gen2_Deck7 triggered Liliana, Dreadhorde General (72)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Crow of Dark Tidings (118)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Solemn Simulacrum (67)]
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (67)]
+Zone Change: Ai(2)-Gen2_Deck7 milled Solemn Simulacrum (66) and Hero's Downfall (101).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (118)]
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Land: Ai(1)-Gen2_Deck6 played Plains (21)
+Add to stack: Ai(1)-Gen2_Deck6 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (21)]
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Island (24) - {T}: Add {U}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck6 cast Twinblade Paladin (19)
+Resolve stack: Twinblade Paladin - Creature 3 / 3
+Mana: Island (23) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck6 activated Adventuring Gear (3) targeting [Twinblade Paladin (19)]
+Resolve stack: Adventuring Gear (3) -  Attach to Twinblade Paladin (19)
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Mana: Swamp (92) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen2_Deck7 draws a card.
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Swamp (89)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Add to stack: Ai(2)-Gen2_Deck7 activated Liliana, Dreadhorde General (72)
+Resolve stack: Liliana, Dreadhorde General (72) - Ai(2)-Gen2_Deck7 creates a 2/2 black Zombie creature token.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 cast Suspicious Shambler (68)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck6 cast Leonin Vanguard (54)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Mana: Swamp (41) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck6 cast Duress (43) targeting [Ai(2)-Gen2_Deck7]
+Discard: Ai(2)-Gen2_Deck7 discards Duress (96).
+Resolve stack: Duress (43) - Ai(2)-Gen2_Deck7 reveals their hand. Ai(1)-Gen2_Deck6 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen2_Deck7 discards that card.
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Soulstone Sanctuary (112)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Suspicious Shambler (68) and Soulstone Sanctuary (113) to attack Ai(1)-Gen2_Deck6.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck6 assigned Twinblade Paladin (19) to block Soulstone Sanctuary (113).
+Ai(1)-Gen2_Deck6 didn't block Suspicious Shambler (68).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Suspicious Shambler (68) deals 4 combat damage to Ai(1)-Gen2_Deck6.
+Damage: Soulstone Sanctuary (113) deals 3 damage () to Twinblade Paladin (19).
+Damage: Twinblade Paladin (19) deals 3 damage () to Soulstone Sanctuary (113).
+Add to stack: Ai(2)-Gen2_Deck7 triggered Liliana, Dreadhorde General (72)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Soulstone Sanctuary (113)]
+Phase: Ai(2)-Gen2_Deck7's End of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Main phase, postcombat
+Add to stack: Ai(2)-Gen2_Deck7 activated Liliana, Dreadhorde General (72)
+Resolve stack: Liliana, Dreadhorde General (72) - Ai(2)-Gen2_Deck7 creates a 2/2 black Zombie creature token.
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (112) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck7 activated Suspicious Shambler (69)
+Resolve stack: Suspicious Shambler (69) - Ai(2)-Gen2_Deck7 creates two 2/2 black Zombie creature token. Activate only as a sorcery.
+Phase: Ai(2)-Gen2_Deck7's End step
+Phase: Ai(2)-Gen2_Deck7's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen2_Deck6)
+Phase: Ai(1)-Gen2_Deck6's Untap step
+Phase: Ai(1)-Gen2_Deck6's Upkeep step
+Phase: Ai(1)-Gen2_Deck6's Draw step
+Phase: Ai(1)-Gen2_Deck6's Main phase, precombat
+Mana: Swamp (41) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck6 activated Adventuring Gear (3) targeting [Leonin Vanguard (54)]
+Resolve stack: Adventuring Gear (3) -  Attach to Leonin Vanguard (54)
+Mana: Island (24) - {T}: Add {U}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck6 cast Quick-Draw Katana (40)
+Resolve stack: Quick-Draw Katana
+Mana: Island (23) - {T}: Add {U}.
+Mana: Plains (21) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck6 activated Quick-Draw Katana (40) targeting [Leonin Vanguard (54)]
+Resolve stack: Quick-Draw Katana (40) -  Attach to Leonin Vanguard (54)
+Phase: Ai(1)-Gen2_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck6's End of Combat Step
+Phase: Ai(1)-Gen2_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck6's End step
+Phase: Ai(1)-Gen2_Deck6's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen2_Deck7)
+Phase: Ai(2)-Gen2_Deck7's Untap step
+Phase: Ai(2)-Gen2_Deck7's Upkeep step
+Mana: Swamp (92) - {T}: Add {B}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck7 activated Soulstone Sanctuary (112)
+Resolve stack: Soulstone Sanctuary (112) - Soulstone Sanctuary (112) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck7's Draw step
+Phase: Ai(2)-Gen2_Deck7's Main phase, precombat
+Land: Ai(2)-Gen2_Deck7 played Swamp (93)
+Phase: Ai(2)-Gen2_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck7 assigned Suspicious Shambler (68), Soulstone Sanctuary (112), Zombie Token (126), Zombie Token (132), Zombie Token (136) and Zombie Token (137) to attack Ai(1)-Gen2_Deck6.
+Phase: Ai(2)-Gen2_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck6 didn't block Soulstone Sanctuary (112).
+Ai(1)-Gen2_Deck6 assigned Leonin Vanguard (54) to block Suspicious Shambler (68).
+Ai(1)-Gen2_Deck6 didn't block Zombie Token (132).
+Ai(1)-Gen2_Deck6 didn't block Zombie Token (136).
+Ai(1)-Gen2_Deck6 didn't block Zombie Token (137).
+Ai(1)-Gen2_Deck6 didn't block Zombie Token (126).
+Phase: Ai(2)-Gen2_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck7's Combat Damage Step
+Damage: Suspicious Shambler (68) deals 4 damage () to Leonin Vanguard (54).
+Damage: Soulstone Sanctuary (112) deals 3 combat damage to Ai(1)-Gen2_Deck6.
+Damage: Zombie Token (126) deals 2 combat damage to Ai(1)-Gen2_Deck6.
+Damage: Zombie Token (132) deals 2 combat damage to Ai(1)-Gen2_Deck6.
+Damage: Zombie Token (136) deals 2 combat damage to Ai(1)-Gen2_Deck6.
+Damage: Zombie Token (137) deals 2 combat damage to Ai(1)-Gen2_Deck6.
+Damage: Leonin Vanguard (54) deals 1 damage () to Suspicious Shambler (68).
+Player control: Ai(1)-Gen2_Deck6 is controlled by Ai(1)-Gen2_Deck6
+Player control: Ai(2)-Gen2_Deck7 is controlled by Ai(2)-Gen2_Deck7
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen2_Deck6 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck7 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck6: 0 Ai(2)-Gen2_Deck7: 1 
+
+Game Result: Game 1 ended in 18422 ms. Ai(2)-Gen2_Deck7 has won!
+
+
+=== STDERR ===

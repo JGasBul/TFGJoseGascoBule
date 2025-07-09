@@ -1,0 +1,482 @@
+=== COMBATE PARALELO: Gen0_Deck12 vs Gen0_Deck36 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck12 Gen0_Deck36 -n 1
+Duración: 28.21 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1969 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 49 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck12 vs Ai(2)-Gen0_Deck36 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck12 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck12 has mulliganed down to 5 cards.
+Mulligan: Ai(1)-Gen0_Deck12 has kept a hand of 5 cards
+Mulligan: Ai(2)-Gen0_Deck36 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(1)-Gen0_Deck12 played Temple of Triumph (18)
+Add to stack: Ai(1)-Gen0_Deck12 triggered Temple of Triumph (18)
+Resolve stack: Ai(1)-Gen0_Deck12 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (18)]
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Mountain (113)
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Mountain (55)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Temple of Triumph (18) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Kargan Dragonrider (48)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Swamp (67)
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Kargan Dragonrider (48) to attack Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Kargan Dragonrider (48).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Kargan Dragonrider (48) deals 2 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Temple of Triumph (18) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Kargan Dragonrider (47)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Plains (90)
+Mana: Swamp (67) - {T}: Add {B}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mortify (76) targeting [Kargan Dragonrider (47)]
+Resolve stack: Mortify (76) - Destroy Kargan Dragonrider (47).
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Kargan Dragonrider (48) to attack Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Kargan Dragonrider (48).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Kargan Dragonrider (48) deals 2 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Mana: Swamp (67) - {T}: Add {B}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mortify (78) targeting [Kargan Dragonrider (48)]
+Resolve stack: Mortify (78) - Destroy Kargan Dragonrider (48).
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Mountain (109)
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Replacement Effect: Boros Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck12 played Boros Guildgate (15)
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(2)-Gen0_Deck36 played Temple of Triumph (72)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Temple of Triumph (72)
+Resolve stack: Ai(2)-Gen0_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (72)]
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Resolute Reinforcements (103)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck36 triggered Resolute Reinforcements (103)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (103)]
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Temple of Triumph (18) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Kargan Dragonrider (46)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Resolute Reinforcements (102)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck36 triggered Resolute Reinforcements (102)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (102)]
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Mountain (58)
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Temple of Triumph (18) - {T}: Add {R} or {W}.
+Mana: Boros Guildgate (15) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Battlesong Berserker (12)
+Resolve stack: Battlesong Berserker - Creature 3 / 4
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Kargan Dragonrider (46) to attack Ai(2)-Gen0_Deck36.
+Add to stack: Ai(1)-Gen0_Deck12 triggered Battlesong Berserker (12) targeting [Kargan Dragonrider (46)]
+Resolve stack: Whenever you attack, target creature you control gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.) (Targeting: [[Kargan Dragonrider (46)]]) [Number Attackers: [Kargan Dragonrider (46)]]
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Kargan Dragonrider (46).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Kargan Dragonrider (46) deals 3 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Plains (86)
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (67) - {T}: Add {B}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Dragon Trainer (98)
+Resolve stack: Dragon Trainer - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck36 triggered Dragon Trainer (98)
+Resolve stack: When this creature enters, create a 4/4 red Dragon creature token with flying. [Zone Changer: Dragon Trainer (98)]
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Land: Ai(1)-Gen0_Deck12 played Mountain (54)
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Temple of Triumph (18) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Battle-Rattle Shaman (1)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Battle-Rattle Shaman (1) targeting [Battlesong Berserker (12)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Battlesong Berserker (12)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Dragon Token (132) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Dragon Token (132).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Dragon Token (132) deals 4 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen0_Deck36 played Scoured Barrens (80)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Scoured Barrens (80)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (80)]
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (67) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Jazal Goldmane (82)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Mana: Temple of Triumph (18) - {T}: Add {R} or {W}.
+Mana: Boros Guildgate (15) - {T}: Add {R} or {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Claws Out (38)
+Resolve stack: Claws Out (38) - Creatures you control get +2/+2 until end of turn.
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Battle-Rattle Shaman (1) targeting [Battlesong Berserker (12)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Battlesong Berserker (12)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 assigned Battlesong Berserker (12) to attack Ai(2)-Gen0_Deck36.
+Add to stack: Ai(1)-Gen0_Deck12 triggered Battlesong Berserker (12) targeting [Battlesong Berserker (12)]
+Resolve stack: Whenever you attack, target creature you control gets +1/+0 and gains menace until end of turn. (It can't be blocked except by two or more creatures.) (Targeting: [[Battlesong Berserker (12)]]) [Number Attackers: [Battlesong Berserker (12)]]
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Battlesong Berserker (12).
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Damage: Battlesong Berserker (12) deals 8 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Dragon Token (132) and Jazal Goldmane (82) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Jazal Goldmane (82).
+Ai(1)-Gen0_Deck12 didn't block Dragon Token (132).
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (67) - {T}: Add {B}.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 activated Jazal Goldmane (82)
+Resolve stack: Jazal Goldmane (82) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (82) deals 6 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Dragon Token (132) deals 6 combat damage to Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck12)
+Phase: Ai(1)-Gen0_Deck12's Untap step
+Phase: Ai(1)-Gen0_Deck12's Upkeep step
+Phase: Ai(1)-Gen0_Deck12's Draw step
+Phase: Ai(1)-Gen0_Deck12's Main phase, precombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Temple of Triumph (18) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck12 cast Battlesong Berserker (9)
+Resolve stack: Battlesong Berserker - Creature 3 / 4
+Phase: Ai(1)-Gen0_Deck12's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck12 triggered Battle-Rattle Shaman (1) targeting [Battlesong Berserker (12)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Battlesong Berserker (12)]]) [Phase: Ai(1)-Gen0_Deck12]
+Phase: Ai(1)-Gen0_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck12's End of Combat Step
+Phase: Ai(1)-Gen0_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck12's End step
+Phase: Ai(1)-Gen0_Deck12's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Dragon Token (132), Jazal Goldmane (82), Resolute Reinforcements (103), Soldier Token (124), Resolute Reinforcements (102), Soldier Token (128) and Dragon Trainer (98) to attack Ai(1)-Gen0_Deck12.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck12 didn't block Soldier Token (128).
+Ai(1)-Gen0_Deck12 assigned Kargan Dragonrider (46) to block Jazal Goldmane (82).
+Ai(1)-Gen0_Deck12 assigned Battle-Rattle Shaman (1) to block Dragon Trainer (98).
+Ai(1)-Gen0_Deck12 didn't block Dragon Token (132).
+Ai(1)-Gen0_Deck12 assigned Battlesong Berserker (9) to block Resolute Reinforcements (102).
+Ai(1)-Gen0_Deck12 assigned Battlesong Berserker (12) to block Resolute Reinforcements (103).
+Ai(1)-Gen0_Deck12 didn't block Soldier Token (124).
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (67) - {T}: Add {B}.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 activated Jazal Goldmane (82)
+Resolve stack: Jazal Goldmane (82) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (82) deals 11 damage () to Kargan Dragonrider (46).
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Dragon Token (132) deals 11 combat damage to Ai(1)-Gen0_Deck12.
+Damage: Resolute Reinforcements (103) deals 8 damage () to Battlesong Berserker (12).
+Damage: Soldier Token (124) deals 8 combat damage to Ai(1)-Gen0_Deck12.
+Damage: Resolute Reinforcements (102) deals 8 damage () to Battlesong Berserker (9).
+Damage: Soldier Token (128) deals 8 combat damage to Ai(1)-Gen0_Deck12.
+Damage: Dragon Trainer (98) deals 8 damage () to Battle-Rattle Shaman (1).
+Damage: Battlesong Berserker (9) deals 3 damage () to Resolute Reinforcements (102).
+Damage: Battle-Rattle Shaman (1) deals 2 damage () to Dragon Trainer (98).
+Damage: Battlesong Berserker (12) deals 3 damage () to Resolute Reinforcements (103).
+Player control: Ai(1)-Gen0_Deck12 is controlled by Ai(1)-Gen0_Deck12
+Player control: Ai(2)-Gen0_Deck36 is controlled by Ai(2)-Gen0_Deck36
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen0_Deck12 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck36 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck12: 0 Ai(2)-Gen0_Deck36: 1 
+
+Game Result: Game 1 ended in 16171 ms. Ai(2)-Gen0_Deck36 has won!
+
+
+=== STDERR ===

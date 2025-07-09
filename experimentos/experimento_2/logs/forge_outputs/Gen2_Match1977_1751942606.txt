@@ -1,0 +1,349 @@
+=== COMBATE PARALELO: Gen2_Deck27 vs Gen2_Deck44 ===
+Worker ID: 352526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck27 Gen2_Deck44 -n 1
+Duración: 27.90 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1921 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 114 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck27 vs Ai(2)-Gen2_Deck44 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck44 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck44 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen2_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck44)
+Phase: Ai(2)-Gen2_Deck44's Untap step
+Phase: Ai(2)-Gen2_Deck44's Upkeep step
+Phase: Ai(2)-Gen2_Deck44's Draw step
+Phase: Ai(2)-Gen2_Deck44's Main phase, precombat
+Land: Ai(2)-Gen2_Deck44 played Plains (100)
+Phase: Ai(2)-Gen2_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck44's End of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck44's End step
+Phase: Ai(2)-Gen2_Deck44's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Forest (38)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck44)
+Phase: Ai(2)-Gen2_Deck44's Untap step
+Phase: Ai(2)-Gen2_Deck44's Upkeep step
+Phase: Ai(2)-Gen2_Deck44's Draw step
+Phase: Ai(2)-Gen2_Deck44's Main phase, precombat
+Land: Ai(2)-Gen2_Deck44 played Demolition Field (117)
+Phase: Ai(2)-Gen2_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck44's End of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck44's End step
+Phase: Ai(2)-Gen2_Deck44's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Island (45)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (45)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Three Tree Mascot (26)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck44)
+Phase: Ai(2)-Gen2_Deck44's Untap step
+Phase: Ai(2)-Gen2_Deck44's Upkeep step
+Phase: Ai(2)-Gen2_Deck44's Draw step
+Phase: Ai(2)-Gen2_Deck44's Main phase, precombat
+Land: Ai(2)-Gen2_Deck44 played Plains (95)
+Phase: Ai(2)-Gen2_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck44's End of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck44's End step
+Phase: Ai(2)-Gen2_Deck44's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(1)-Gen2_Deck27 played Temple of Deceit (44)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Temple of Deceit (44)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Temple of Deceit (44)]
+Resolve stack: Ai(1)-Gen2_Deck27 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (44)]
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 activated Adventuring Gear (1) targeting [Three Tree Mascot (26)]
+Resolve stack: Adventuring Gear (1) -  Attach to Three Tree Mascot (26)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Three Tree Mascot (26) to attack Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck44 didn't block Three Tree Mascot (26).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Three Tree Mascot (26) deals 2 combat damage to Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck44)
+Phase: Ai(2)-Gen2_Deck44's Untap step
+Phase: Ai(2)-Gen2_Deck44's Upkeep step
+Phase: Ai(2)-Gen2_Deck44's Draw step
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck44 activated Demolition Field (117) targeting [Temple of Deceit (44)]
+Resolve stack: Demolition Field (117) - Destroy Temple of Deceit (44). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen2_Deck44 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (18)]
+Phase: Ai(2)-Gen2_Deck44's Main phase, precombat
+Land: Ai(2)-Gen2_Deck44 played Plains (87)
+Phase: Ai(2)-Gen2_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck44's End of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck44's End step
+Phase: Ai(2)-Gen2_Deck44's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Forest (27)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (27)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Three Tree Mascot (26) to attack Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck44 didn't block Three Tree Mascot (26).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Three Tree Mascot (26) deals 4 combat damage to Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Vampire Interloper (8)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Mana: Island (45) - {T}: Add {U}.
+Mana: Forest (27) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Three Tree Mascot (24)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck44)
+Phase: Ai(2)-Gen2_Deck44's Untap step
+Phase: Ai(2)-Gen2_Deck44's Upkeep step
+Phase: Ai(2)-Gen2_Deck44's Draw step
+Phase: Ai(2)-Gen2_Deck44's Main phase, precombat
+Land: Ai(2)-Gen2_Deck44 played Plains (91)
+Phase: Ai(2)-Gen2_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck44's End of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck44 cast Serra Angel (111)
+Resolve stack: Serra Angel - Creature 4 / 4
+Phase: Ai(2)-Gen2_Deck44's End step
+Phase: Ai(2)-Gen2_Deck44's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Island (47)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (47)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Three Tree Mascot (26) to attack Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck44 didn't block Three Tree Mascot (26).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Three Tree Mascot (26) deals 4 combat damage to Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Island (45) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Forest (27) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Skyship Buccaneer (55)
+Resolve stack: Skyship Buccaneer - Creature 4 / 3
+Add to stack: Ai(1)-Gen2_Deck27 triggered Skyship Buccaneer (55)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, draw a card. [Zone Changer: Skyship Buccaneer (55)]
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck44)
+Phase: Ai(2)-Gen2_Deck44's Untap step
+Phase: Ai(2)-Gen2_Deck44's Upkeep step
+Phase: Ai(2)-Gen2_Deck44's Draw step
+Phase: Ai(2)-Gen2_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck44's End of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck44 cast Angel of Finality (74)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(2)-Gen2_Deck44 triggered Angel of Finality (74) targeting [Ai(1)-Gen2_Deck27]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(1)-Gen2_Deck27]]) [Zone Changer: Angel of Finality (74)]
+Phase: Ai(2)-Gen2_Deck44's End step
+Phase: Ai(2)-Gen2_Deck44's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Forest (37)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (37)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Three Tree Mascot (26) and Skyship Buccaneer (55) to attack Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck44 assigned Angel of Finality (74) to block Skyship Buccaneer (55).
+Ai(2)-Gen2_Deck44 didn't block Three Tree Mascot (26).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Three Tree Mascot (26) deals 4 combat damage to Ai(2)-Gen2_Deck44.
+Damage: Skyship Buccaneer (55) deals 4 damage () to Angel of Finality (74).
+Damage: Angel of Finality (74) deals 3 damage () to Skyship Buccaneer (55).
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Island (45) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Forest (27) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Skyship Buccaneer (54)
+Resolve stack: Skyship Buccaneer - Creature 4 / 3
+Add to stack: Ai(1)-Gen2_Deck27 triggered Skyship Buccaneer (54)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, draw a card. [Zone Changer: Skyship Buccaneer (54)]
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Mild-Mannered Librarian (10)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck44)
+Phase: Ai(2)-Gen2_Deck44's Untap step
+Phase: Ai(2)-Gen2_Deck44's Upkeep step
+Phase: Ai(2)-Gen2_Deck44's Draw step
+Phase: Ai(2)-Gen2_Deck44's Main phase, precombat
+Land: Ai(2)-Gen2_Deck44 played Plains (97)
+Phase: Ai(2)-Gen2_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck44's End of Combat Step
+Phase: Ai(2)-Gen2_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck44's End step
+Phase: Ai(2)-Gen2_Deck44's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Swamp (16)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (16)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Three Tree Mascot (26), Skyship Buccaneer (54), Vampire Interloper (8), Three Tree Mascot (24) and Mild-Mannered Librarian (10) to attack Ai(2)-Gen2_Deck44.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck44 assigned Serra Angel (111) to block Skyship Buccaneer (54).
+Ai(2)-Gen2_Deck44 didn't block Vampire Interloper (8).
+Ai(2)-Gen2_Deck44 didn't block Three Tree Mascot (24).
+Ai(2)-Gen2_Deck44 didn't block Three Tree Mascot (26).
+Ai(2)-Gen2_Deck44 didn't block Mild-Mannered Librarian (10).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Three Tree Mascot (26) deals 4 combat damage to Ai(2)-Gen2_Deck44.
+Damage: Skyship Buccaneer (54) deals 4 damage () to Serra Angel (111).
+Damage: Vampire Interloper (8) deals 2 combat damage to Ai(2)-Gen2_Deck44.
+Damage: Three Tree Mascot (24) deals 2 combat damage to Ai(2)-Gen2_Deck44.
+Damage: Mild-Mannered Librarian (10) deals 1 combat damage to Ai(2)-Gen2_Deck44.
+Damage: Serra Angel (111) deals 4 damage () to Skyship Buccaneer (54).
+Player control: Ai(1)-Gen2_Deck27 is controlled by Ai(1)-Gen2_Deck27
+Player control: Ai(2)-Gen2_Deck44 is controlled by Ai(2)-Gen2_Deck44
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen2_Deck27 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck44 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck27: 1 Ai(2)-Gen2_Deck44: 0 
+
+Game Result: Game 1 ended in 14933 ms. Ai(1)-Gen2_Deck27 has won!
+
+
+=== STDERR ===

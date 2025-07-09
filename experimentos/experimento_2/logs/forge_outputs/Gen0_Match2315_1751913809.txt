@@ -1,0 +1,670 @@
+=== COMBATE PARALELO: Gen0_Deck37 vs Gen0_Deck48 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck37 Gen0_Deck48 -n 1
+Duración: 34.51 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2001 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 127 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck37 vs Ai(2)-Gen0_Deck48 - one game of Constructed
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Mulligan: Ai(2)-Gen0_Deck48 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck37 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(2)-Gen0_Deck48 played Dismal Backwater (77)
+Add to stack: Ai(2)-Gen0_Deck48 triggered Dismal Backwater (77)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (77)]
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Ai(1)-Gen0_Deck37 played Rugged Highlands (26)
+Add to stack: Ai(1)-Gen0_Deck37 triggered Rugged Highlands (26)
+Resolve stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (26)]
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Island (103)
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Land: Ai(1)-Gen0_Deck37 played Island (37)
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Swamp (84)
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Stromkirk Bloodthief (75)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Land: Ai(1)-Gen0_Deck37 played Mountain (53)
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Loot, Exuberant Explorer (11)
+Resolve stack: Loot, Exuberant Explorer - Creature 1 / 4
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Island (100)
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Hero's Downfall (93) targeting [Loot, Exuberant Explorer (11)]
+Resolve stack: Hero's Downfall (93) - Destroy Loot, Exuberant Explorer (11).
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Stromkirk Bloodthief (75) to attack Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck37 didn't block Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Stromkirk Bloodthief (75) deals 2 combat damage to Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Add to stack: Ai(2)-Gen0_Deck48 triggered Stromkirk Bloodthief (75) targeting [Stromkirk Bloodthief (75)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (75)]]) [Phase: Ai(2)-Gen0_Deck48]
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Stromkirk Bloodthief (75) to attack Ai(1)-Gen0_Deck37.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Burrog Befuddler (42)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck37 triggered Burrog Befuddler (42) targeting [Stromkirk Bloodthief (75)]
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Hero's Downfall (95) targeting [Burrog Befuddler (42)]
+Resolve stack: Hero's Downfall (95) - Destroy Burrog Befuddler (42).
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Stromkirk Bloodthief (75)]]) [Zone Changer: Burrog Befuddler (42)]
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck37 didn't block Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Stromkirk Bloodthief (75) deals 2 combat damage to Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Aegis Turtle (112)
+Resolve stack: Aegis Turtle - Creature 0 / 5
+Phase: Ai(2)-Gen0_Deck48's End step
+Add to stack: Ai(2)-Gen0_Deck48 triggered Stromkirk Bloodthief (75) targeting [Stromkirk Bloodthief (75)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (75)]]) [Phase: Ai(2)-Gen0_Deck48]
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Land: Ai(1)-Gen0_Deck37 played Forest (29)
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Thrashing Brontodon (49)
+Resolve stack: Thrashing Brontodon - Creature 3 / 4
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Stromkirk Bloodthief (75) to attack Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck37 didn't block Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Stromkirk Bloodthief (75) deals 4 combat damage to Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Erudite Wizard (87)
+Resolve stack: Erudite Wizard - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck48's End step
+Add to stack: Ai(2)-Gen0_Deck48 triggered Stromkirk Bloodthief (75) targeting [Stromkirk Bloodthief (75)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (75)]]) [Phase: Ai(2)-Gen0_Deck48]
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Land: Ai(1)-Gen0_Deck37 played Forest (30)
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Fire Elemental (33)
+Resolve stack: Fire Elemental - Creature 5 / 4
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Bake into a Pie (115) targeting [Fire Elemental (33)]
+Resolve stack: Bake into a Pie (115) - Destroy Fire Elemental (33). 
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Stromkirk Bloodthief (75) to attack Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck37 didn't block Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Stromkirk Bloodthief (75) deals 5 combat damage to Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Add to stack: Ai(2)-Gen0_Deck48 triggered Stromkirk Bloodthief (75) targeting [Stromkirk Bloodthief (75)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (75)]]) [Phase: Ai(2)-Gen0_Deck48]
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Replacement Effect: Simic Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck37 played Simic Guildgate (58)
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Stromkirk Bloodthief (75) to attack Ai(1)-Gen0_Deck37.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Burrog Befuddler (44)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck37 triggered Burrog Befuddler (44) targeting [Stromkirk Bloodthief (75)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Stromkirk Bloodthief (75)]]) [Zone Changer: Burrog Befuddler (44)]
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck37 assigned Burrog Befuddler (44) to block Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Stromkirk Bloodthief (75) deals 5 damage () to Burrog Befuddler (44).
+Damage: Burrog Befuddler (44) deals 2 damage () to Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Land: Ai(1)-Gen0_Deck37 played Mountain (57)
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Quakestrider Ceratops (17)
+Resolve stack: Quakestrider Ceratops - Creature 12 / 8
+Phase: Ai(1)-Gen0_Deck37's End step
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Hero's Downfall (92) targeting [Quakestrider Ceratops (17)]
+Resolve stack: Hero's Downfall (92) - Destroy Quakestrider Ceratops (17).
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Stromkirk Bloodthief (75) to attack Ai(1)-Gen0_Deck37.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck37 assigned Thrashing Brontodon (49) to block Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Stromkirk Bloodthief (75) deals 6 damage () to Thrashing Brontodon (49).
+Damage: Thrashing Brontodon (49) deals 3 damage () to Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Quakestrider Ceratops (15)
+Resolve stack: Quakestrider Ceratops - Creature 12 / 8
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Feed the Swarm (61) targeting [Quakestrider Ceratops (15)]
+Mana: Simic Guildgate (58) - {T}: Add {U} or {G}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Dive Down (47) targeting [Quakestrider Ceratops (15)]
+Resolve stack: Dive Down (47) - Quakestrider Ceratops (15) gets +0/+3 and gains hexproof until end of turn.
+Resolve stack: Feed the Swarm (61) ability fizzles.
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Quakestrider Ceratops (18)
+Resolve stack: Quakestrider Ceratops - Creature 12 / 8
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Evolving Wilds (98)
+Add to stack: Ai(2)-Gen0_Deck48 activated Evolving Wilds (98)
+Resolve stack: Evolving Wilds (98) - Ai(2)-Gen0_Deck48 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Grow from the Ashes (1)
+Resolve stack: Grow from the Ashes (1) - Ai(1)-Gen0_Deck37 searches their library for two Land.Basic cards, puts them onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 assigned Quakestrider Ceratops (15) to attack Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 didn't block Quakestrider Ceratops (15).
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Damage: Quakestrider Ceratops (15) deals 12 combat damage to Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Evolving Wilds (97)
+Add to stack: Ai(2)-Gen0_Deck48 activated Evolving Wilds (97)
+Resolve stack: Evolving Wilds (97) - Ai(2)-Gen0_Deck48 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 assigned Quakestrider Ceratops (15) to attack Ai(2)-Gen0_Deck48.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck48 activated Food Token (122)
+Resolve stack: Food Token (122) - Ai(2)-Gen0_Deck48 gains 3 life.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Aegis Turtle (112) to block Quakestrider Ceratops (15).
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Damage: Quakestrider Ceratops (15) deals 12 damage () to Aegis Turtle (112).
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Mystic Archaeologist (2)
+Resolve stack: Mystic Archaeologist - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Curator of Destinies (110)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck48 triggered Curator of Destinies (110)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (110)]
+Phase: Ai(2)-Gen0_Deck48's End step
+Mana: Island (38) - {T}: Add {U}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck37 activated Mystic Archaeologist (2)
+Resolve stack: Mystic Archaeologist (2) - Ai(1)-Gen0_Deck37 draws two cards.
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Mana: Island (37) - {T}: Add {U}.
+Mana: Island (38) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Rugged Highlands (26) - {T}: Add {R} or {G}.
+Mana: Simic Guildgate (58) - {T}: Add {U} or {G}.
+Add to stack: Ai(1)-Gen0_Deck37 cast Rite of Replication (22) targeting [Quakestrider Ceratops (15)]
+Resolve stack: Rite of Replication (22) - Ai(1)-Gen0_Deck37 creates five tokens that are copies of Quakestrider Ceratops (15).
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 assigned Quakestrider Ceratops (15) and Quakestrider Ceratops (18) to attack Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Stromkirk Bloodthief (75) and Curator of Destinies (110) to block Quakestrider Ceratops (18).
+Ai(2)-Gen0_Deck48 assigned Erudite Wizard (87) to block Quakestrider Ceratops (15).
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Damage: Quakestrider Ceratops (15) deals 12 damage () to Erudite Wizard (87).
+Damage: Quakestrider Ceratops (18) deals 6 damage () to Stromkirk Bloodthief (75).
+Damage: Quakestrider Ceratops (18) deals 6 damage () to Curator of Destinies (110).
+Damage: Erudite Wizard (87) deals 2 damage () to Quakestrider Ceratops (15).
+Damage: Stromkirk Bloodthief (75) deals 6 damage () to Quakestrider Ceratops (18).
+Damage: Curator of Destinies (110) deals 5 damage () to Quakestrider Ceratops (18).
+Phase: Ai(1)-Gen0_Deck37's End of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck37's End step
+Phase: Ai(1)-Gen0_Deck37's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Vampire Soulcaller (70)
+Resolve stack: Vampire Soulcaller - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck48 triggered Vampire Soulcaller (70) targeting [Curator of Destinies (111)]
+Resolve stack: When this creature enters, return target creature card from your graveyard to your hand. (Targeting: [[Curator of Destinies (111)]]) [Zone Changer: Vampire Soulcaller (70)]
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Aegis Turtle (114)
+Resolve stack: Aegis Turtle - Creature 0 / 5
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen0_Deck37)
+Phase: Ai(1)-Gen0_Deck37's Untap step
+Phase: Ai(1)-Gen0_Deck37's Upkeep step
+Phase: Ai(1)-Gen0_Deck37's Draw step
+Phase: Ai(1)-Gen0_Deck37's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck37's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck37's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck37 assigned Quakestrider Ceratops (15), Quakestrider Ceratops (124), Quakestrider Ceratops (125), Quakestrider Ceratops (126), Quakestrider Ceratops (127), Quakestrider Ceratops (128) and Mystic Archaeologist (2) to attack Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck37's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 didn't block Quakestrider Ceratops (128).
+Ai(2)-Gen0_Deck48 didn't block Mystic Archaeologist (2).
+Ai(2)-Gen0_Deck48 didn't block Quakestrider Ceratops (124).
+Ai(2)-Gen0_Deck48 didn't block Quakestrider Ceratops (125).
+Ai(2)-Gen0_Deck48 didn't block Quakestrider Ceratops (126).
+Ai(2)-Gen0_Deck48 assigned Aegis Turtle (114) to block Quakestrider Ceratops (15).
+Ai(2)-Gen0_Deck48 didn't block Quakestrider Ceratops (127).
+Phase: Ai(1)-Gen0_Deck37's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck37's Combat Damage Step
+Damage: Quakestrider Ceratops (15) deals 12 damage () to Aegis Turtle (114).
+Damage: Quakestrider Ceratops (124) deals 12 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Quakestrider Ceratops (125) deals 12 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Quakestrider Ceratops (126) deals 12 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Quakestrider Ceratops (127) deals 12 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Quakestrider Ceratops (128) deals 12 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Mystic Archaeologist (2) deals 2 combat damage to Ai(2)-Gen0_Deck48.
+Player control: Ai(1)-Gen0_Deck37 is controlled by Ai(1)-Gen0_Deck37
+Player control: Ai(2)-Gen0_Deck48 is controlled by Ai(2)-Gen0_Deck48
+Game outcome: Turn 14
+Game outcome: Ai(1)-Gen0_Deck37 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck48 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck37: 1 Ai(2)-Gen0_Deck48: 0 
+
+Game Result: Game 1 ended in 21798 ms. Ai(1)-Gen0_Deck37 has won!
+
+
+=== STDERR ===

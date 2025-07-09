@@ -1,0 +1,532 @@
+=== COMBATE PARALELO: Gen0_Deck13 vs Gen0_Deck48 ===
+Worker ID: 3431564
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck13 Gen0_Deck48 -n 1
+Duración: 29.12 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1768 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 111 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck13 vs Ai(2)-Gen0_Deck48 - one game of Constructed
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Mulligan: Ai(1)-Gen0_Deck13 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck48 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Mountain (58)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Swamp (83)
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Swamp (83) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Pulse Tracker (89)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Plains (24)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Leonin Vanguard (44)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(2)-Gen0_Deck48 played Dismal Backwater (77)
+Add to stack: Ai(2)-Gen0_Deck48 triggered Dismal Backwater (77)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (77)]
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Mountain (57)
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Pirate's Cutlass (49)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Island (105)
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Hero's Downfall (94) targeting [Leonin Vanguard (44)]
+Resolve stack: Hero's Downfall (94) - Destroy Leonin Vanguard (44).
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Pulse Tracker (89) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck48 triggered Pulse Tracker (89)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (89)]
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Pulse Tracker (89).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Pulse Tracker (89) deals 1 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck13 played Maze's End (2)
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Dragon Fodder (17)
+Resolve stack: Dragon Fodder (17) - Ai(1)-Gen0_Deck13 creates two 1/1 red Goblin creature tokens.
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Evolving Wilds (97)
+Add to stack: Ai(2)-Gen0_Deck48 activated Evolving Wilds (97)
+Resolve stack: Evolving Wilds (97) - Ai(2)-Gen0_Deck48 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Island (105) - {T}: Add {U}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Erudite Wizard (87)
+Resolve stack: Erudite Wizard - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Pirate's Cutlass (49) targeting [Goblin Token (125)]
+Resolve stack: Pirate's Cutlass (49) -  Attach to Goblin Token (125)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Goblin Token (125) to attack Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 didn't block Goblin Token (125).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Goblin Token (125) deals 3 combat damage to Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(1)-Gen0_Deck13 played Temple of Triumph (13)
+Add to stack: Ai(1)-Gen0_Deck13 triggered Temple of Triumph (13)
+Resolve stack: Ai(1)-Gen0_Deck13 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (13)]
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Maze's End (2) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Dragon Fodder (16)
+Resolve stack: Dragon Fodder (16) - Ai(1)-Gen0_Deck13 creates two 1/1 red Goblin creature tokens.
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Bake into a Pie (116) targeting [Goblin Token (125)]
+Resolve stack: Bake into a Pie (116) - Destroy Goblin Token (125). 
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Erudite Wizard (87) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Erudite Wizard (87).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Erudite Wizard (87) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Pirate's Cutlass (49) targeting [Goblin Token (126)]
+Resolve stack: Pirate's Cutlass (49) -  Attach to Goblin Token (126)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Goblin Token (126), Goblin Token (132) and Goblin Token (133) to attack Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 didn't block Goblin Token (132).
+Ai(2)-Gen0_Deck48 didn't block Goblin Token (133).
+Ai(2)-Gen0_Deck48 didn't block Goblin Token (126).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Goblin Token (126) deals 3 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Goblin Token (132) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Goblin Token (133) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Swamp (86)
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Pulse Tracker (89) and Erudite Wizard (87) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck48 triggered Pulse Tracker (89)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (89)]
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Erudite Wizard (87).
+Ai(1)-Gen0_Deck13 didn't block Pulse Tracker (89).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Pulse Tracker (89) deals 1 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Erudite Wizard (87) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Aegis Turtle (114)
+Resolve stack: Aegis Turtle - Creature 0 / 5
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Electroduplicate (6) targeting [Goblin Token (126)]
+Resolve stack: Electroduplicate (6) - Ai(1)-Gen0_Deck13 creates a token that's a copy of Goblin Token (126), except it has haste.
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Goblin Token (137), Goblin Token (126), Goblin Token (132) and Goblin Token (133) to attack Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 didn't block Goblin Token (132).
+Ai(2)-Gen0_Deck48 didn't block Goblin Token (133).
+Ai(2)-Gen0_Deck48 didn't block Goblin Token (137).
+Ai(2)-Gen0_Deck48 assigned Aegis Turtle (114) to block Goblin Token (126).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Goblin Token (137) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Goblin Token (126) deals 3 damage () to Aegis Turtle (114).
+Damage: Goblin Token (132) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Goblin Token (133) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Add to stack: Ai(1)-Gen0_Deck13 triggered Goblin Token (137)
+Resolve stack: At the beginning of the end step, sacrifice Goblin Token. [Phase: Ai(1)-Gen0_Deck13]
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Pulse Tracker (89), Erudite Wizard (87) and Aegis Turtle (114) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck48 triggered Pulse Tracker (89)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (89)]
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Aegis Turtle (114).
+Ai(1)-Gen0_Deck13 didn't block Erudite Wizard (87).
+Ai(1)-Gen0_Deck13 didn't block Pulse Tracker (89).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Pulse Tracker (89) deals 1 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Erudite Wizard (87) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(2)-Gen0_Deck48 played Dismal Backwater (76)
+Add to stack: Ai(2)-Gen0_Deck48 triggered Dismal Backwater (76)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (76)]
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Temple of Triumph (13) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Electroduplicate (6) targeting [Goblin Token (126)]
+Resolve stack: Electroduplicate (6) - Ai(1)-Gen0_Deck13 creates a token that's a copy of Goblin Token (126), except it has haste.
+Replacement Effect: Flashback {2}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Goblin Token (139), Goblin Token (126), Goblin Token (132) and Goblin Token (133) to attack Ai(2)-Gen0_Deck48.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck48 didn't block Goblin Token (132).
+Ai(2)-Gen0_Deck48 didn't block Goblin Token (133).
+Ai(2)-Gen0_Deck48 didn't block Goblin Token (139).
+Ai(2)-Gen0_Deck48 didn't block Goblin Token (126).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Goblin Token (139) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Goblin Token (126) deals 3 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Goblin Token (132) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Damage: Goblin Token (133) deals 1 combat damage to Ai(2)-Gen0_Deck48.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 activated Food Token (135)
+Resolve stack: Food Token (135) - Ai(2)-Gen0_Deck48 gains 3 life.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Add to stack: Ai(1)-Gen0_Deck13 triggered Goblin Token (139)
+Resolve stack: At the beginning of the end step, sacrifice Goblin Token. [Phase: Ai(1)-Gen0_Deck13]
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Pulse Tracker (89), Erudite Wizard (87) and Aegis Turtle (114) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck48 triggered Pulse Tracker (89)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (89)]
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Aegis Turtle (114).
+Ai(1)-Gen0_Deck13 didn't block Erudite Wizard (87).
+Ai(1)-Gen0_Deck13 didn't block Pulse Tracker (89).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Pulse Tracker (89) deals 1 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Erudite Wizard (87) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Dismal Backwater (77) - {T}: Add {U} or {B}.
+Mana: Dismal Backwater (76) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Curator of Destinies (111)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck48 triggered Curator of Destinies (111)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (111)]
+Land: Ai(2)-Gen0_Deck48 played Island (101)
+Mana: Island (101) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Aegis Turtle (112)
+Resolve stack: Aegis Turtle - Creature 0 / 5
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Plains (29)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Temple of Triumph (13) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Serra Angel (38)
+Resolve stack: Serra Angel - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Swamp (82)
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Curator of Destinies (111) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Serra Angel (38) to block Curator of Destinies (111).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Curator of Destinies (111) deals 5 damage () to Serra Angel (38).
+Damage: Serra Angel (38) deals 4 damage () to Curator of Destinies (111).
+Phase: Ai(2)-Gen0_Deck48's End of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Main phase, postcombat
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Island (101) - {T}: Add {U}.
+Mana: Swamp (82) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Curator of Destinies (109)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck48 triggered Curator of Destinies (109)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (109)]
+Phase: Ai(2)-Gen0_Deck48's End step
+Phase: Ai(2)-Gen0_Deck48's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Temple of Triumph (13) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Angelic Edict (31) targeting [Curator of Destinies (109)]
+Resolve stack: Angelic Edict (31) - Exile Curator of Destinies (109).
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck48)
+Phase: Ai(2)-Gen0_Deck48's Untap step
+Phase: Ai(2)-Gen0_Deck48's Upkeep step
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck48 cast Hero's Downfall (95) targeting [Goblin Token (126)]
+Resolve stack: Hero's Downfall (95) - Destroy Goblin Token (126).
+Phase: Ai(2)-Gen0_Deck48's Draw step
+Phase: Ai(2)-Gen0_Deck48's Main phase, precombat
+Land: Ai(2)-Gen0_Deck48 played Island (102)
+Phase: Ai(2)-Gen0_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck48 assigned Curator of Destinies (111), Erudite Wizard (87), Pulse Tracker (89), Aegis Turtle (114) and Aegis Turtle (112) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck48 triggered Pulse Tracker (89)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (89)]
+Phase: Ai(2)-Gen0_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Aegis Turtle (112).
+Ai(1)-Gen0_Deck13 didn't block Aegis Turtle (114).
+Ai(1)-Gen0_Deck13 assigned Goblin Token (132) to block Erudite Wizard (87).
+Ai(1)-Gen0_Deck13 assigned Goblin Token (133) to block Pulse Tracker (89).
+Ai(1)-Gen0_Deck13 didn't block Curator of Destinies (111).
+Phase: Ai(2)-Gen0_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck48's Combat Damage Step
+Damage: Curator of Destinies (111) deals 5 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Erudite Wizard (87) deals 2 damage () to Goblin Token (132).
+Damage: Pulse Tracker (89) deals 1 damage () to Goblin Token (133).
+Damage: Goblin Token (132) deals 1 damage () to Erudite Wizard (87).
+Damage: Goblin Token (133) deals 1 damage () to Pulse Tracker (89).
+Player control: Ai(1)-Gen0_Deck13 is controlled by Ai(1)-Gen0_Deck13
+Player control: Ai(2)-Gen0_Deck48 is controlled by Ai(2)-Gen0_Deck48
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen0_Deck13 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck48 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck13: 0 Ai(2)-Gen0_Deck48: 1 
+
+Game Result: Game 1 ended in 19008 ms. Ai(2)-Gen0_Deck48 has won!
+
+
+=== STDERR ===

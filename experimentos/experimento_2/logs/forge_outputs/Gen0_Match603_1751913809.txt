@@ -1,0 +1,511 @@
+=== COMBATE PARALELO: Gen0_Deck6 vs Gen0_Deck29 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck6 Gen0_Deck29 -n 1
+Duración: 44.83 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2163 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 92 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck6 vs Ai(2)-Gen0_Deck29 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck6 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck29 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck6 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Land: Ai(2)-Gen0_Deck29 played Mountain (117)
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Plains (32)
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Leonin Vanguard (50)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Land: Ai(2)-Gen0_Deck29 played Mountain (119)
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Plains (34)
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 assigned Leonin Vanguard (50) to attack Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck29 didn't block Leonin Vanguard (50).
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Damage: Leonin Vanguard (50) deals 1 combat damage to Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Crystal Barricade (14)
+Resolve stack: Crystal Barricade - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 assigned Leonin Vanguard (50) to attack Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck29 didn't block Leonin Vanguard (50).
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Damage: Leonin Vanguard (50) deals 1 combat damage to Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Leonin Vanguard (48)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Land: Ai(2)-Gen0_Deck29 played Soulstone Sanctuary (108)
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck29 cast Dropkick Bomber (79)
+Resolve stack: Dropkick Bomber - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Plains (35)
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck29 cast Dropkick Bomber (80)
+Resolve stack: Dropkick Bomber - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Demolition Field (60)
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck6 activated Demolition Field (60) targeting [Soulstone Sanctuary (108)]
+Resolve stack: Demolition Field (60) - Destroy Soulstone Sanctuary (108). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck6 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck29 cast Fierce Empath (83)
+Resolve stack: Fierce Empath - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck29 triggered Fierce Empath (83)
+Resolve stack: When Fierce Empath enters, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle. [Zone Changer: Fierce Empath (83)]
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Plains (31)
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Juggernaut (3)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Land: Ai(2)-Gen0_Deck29 played Mountain (114)
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck29 cast Ashroot Animist (78)
+Resolve stack: Ashroot Animist - Creature 4 / 4
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 assigned Juggernaut (3) to attack Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck29 didn't block Juggernaut (3).
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Stroke of Midnight (37) targeting [Ashroot Animist (78)]
+Resolve stack: Stroke of Midnight (37) - Destroy Ashroot Animist (78). 
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Damage: Juggernaut (3) deals 5 combat damage to Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Crawling Barrens (51)
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 assigned Juggernaut (3) to attack Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck29 assigned Dropkick Bomber (79) to block Juggernaut (3).
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Damage: Juggernaut (3) deals 5 damage () to Dropkick Bomber (79).
+Damage: Dropkick Bomber (79) deals 3 damage () to Juggernaut (3).
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Juggernaut (4)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Discard: Ai(2)-Gen0_Deck29 discards Savage Ventmaw (90).
+Turn: Turn 18 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck6 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen0_Deck6 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 assigned Juggernaut (4) to attack Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck29 didn't block Juggernaut (4).
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Damage: Juggernaut (4) deals 5 combat damage to Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Crawling Barrens (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Crystal Barricade (16)
+Resolve stack: Crystal Barricade - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Discard: Ai(2)-Gen0_Deck29 discards Savage Ventmaw (89).
+Turn: Turn 20 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck6 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen0_Deck6 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 assigned Juggernaut (4) and Crawling Barrens (51) to attack Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck29 didn't block Crawling Barrens (51).
+Ai(2)-Gen0_Deck29 assigned Human Token (123) and Dropkick Bomber (80) to block Juggernaut (4).
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Damage: Juggernaut (4) deals 4 damage () to Dropkick Bomber (80).
+Damage: Juggernaut (4) deals 1 damage () to Human Token (123).
+Damage: Crawling Barrens (51) deals 4 combat damage to Ai(2)-Gen0_Deck29.
+Damage: Human Token (123) deals 1 damage () to Juggernaut (4).
+Damage: Dropkick Bomber (80) deals 2 damage () to Juggernaut (4).
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck29)
+Phase: Ai(2)-Gen0_Deck29's Untap step
+Phase: Ai(2)-Gen0_Deck29's Upkeep step
+Phase: Ai(2)-Gen0_Deck29's Draw step
+Phase: Ai(2)-Gen0_Deck29's Main phase, precombat
+Land: Ai(2)-Gen0_Deck29 played Rogue's Passage (72)
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck29 activated Rogue's Passage (72) targeting [Fierce Empath (83)]
+Resolve stack: Rogue's Passage (72) - Fierce Empath (83) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck29 assigned Fierce Empath (83) to attack Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck29's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck6 didn't block Fierce Empath (83).
+Phase: Ai(2)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck29's Combat Damage Step
+Damage: Fierce Empath (83) deals 1 combat damage to Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck29's End of Combat Step
+Phase: Ai(2)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck29's End step
+Phase: Ai(2)-Gen0_Deck29's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck6 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen0_Deck6 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (50)
+Add to stack: Ai(1)-Gen0_Deck6 triggered Leonin Vanguard (48)
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Resolve stack: At the beginning of combat on your turn, if you control three or more creatures, Leonin Vanguard gets +1/+1 until end of turn and you gain 1 life. [Phase: Ai(1)-Gen0_Deck6]
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 assigned Crawling Barrens (51), Leonin Vanguard (50) and Leonin Vanguard (48) to attack Ai(2)-Gen0_Deck29.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck29 didn't block Leonin Vanguard (48).
+Ai(2)-Gen0_Deck29 didn't block Leonin Vanguard (50).
+Ai(2)-Gen0_Deck29 didn't block Crawling Barrens (51).
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Damage: Crawling Barrens (51) deals 6 combat damage to Ai(2)-Gen0_Deck29.
+Damage: Leonin Vanguard (50) deals 2 combat damage to Ai(2)-Gen0_Deck29.
+Damage: Leonin Vanguard (48) deals 2 combat damage to Ai(2)-Gen0_Deck29.
+Player control: Ai(1)-Gen0_Deck6 is controlled by Ai(1)-Gen0_Deck6
+Player control: Ai(2)-Gen0_Deck29 is controlled by Ai(2)-Gen0_Deck29
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck6 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck29 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck6: 1 Ai(2)-Gen0_Deck29: 0 
+
+Game Result: Game 1 ended in 31886 ms. Ai(1)-Gen0_Deck6 has won!
+
+
+=== STDERR ===

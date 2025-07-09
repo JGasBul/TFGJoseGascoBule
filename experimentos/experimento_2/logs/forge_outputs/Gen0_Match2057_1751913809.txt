@@ -1,0 +1,424 @@
+=== COMBATE PARALELO: Gen0_Deck29 vs Gen0_Deck43 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck29 Gen0_Deck43 -n 1
+Duración: 28.52 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2121 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 222 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck29 vs Ai(2)-Gen0_Deck43 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck29 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck43 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Land: Ai(1)-Gen0_Deck29 played Mountain (58)
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen0_Deck43 played Maze's End (63)
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Land: Ai(1)-Gen0_Deck29 played Demolition Field (50)
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Land: Ai(2)-Gen0_Deck43 played Plains (100)
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Land: Ai(1)-Gen0_Deck29 played Mountain (52)
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck29 activated Demolition Field (50) targeting [Maze's End (63)]
+Resolve stack: Demolition Field (50) - Destroy Maze's End (63). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck29 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Land: Ai(2)-Gen0_Deck43 played Plains (99)
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck43 cast Feldon's Cane (61)
+Resolve stack: Feldon's Cane
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Land: Ai(1)-Gen0_Deck29 played Mountain (57)
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Land: Ai(2)-Gen0_Deck43 played Plains (102)
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Land: Ai(1)-Gen0_Deck29 played Rogue's Passage (11)
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Rogue's Passage (11) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck29 cast Dragon Trainer (42)
+Resolve stack: Dragon Trainer - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck29 triggered Dragon Trainer (42)
+Resolve stack: When this creature enters, create a 4/4 red Dragon creature token with flying. [Zone Changer: Dragon Trainer (42)]
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Land: Ai(2)-Gen0_Deck43 played Evolving Wilds (97)
+Add to stack: Ai(2)-Gen0_Deck43 activated Evolving Wilds (97)
+Resolve stack: Evolving Wilds (97) - Ai(2)-Gen0_Deck43 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Plains (102) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck43 cast Day of Judgment (110)
+Resolve stack: Day of Judgment (110) - Destroy all creatures.
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Rogue's Passage (11) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck29 cast Dragon Trainer (43)
+Resolve stack: Dragon Trainer - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck29 triggered Dragon Trainer (43)
+Resolve stack: When this creature enters, create a 4/4 red Dragon creature token with flying. [Zone Changer: Dragon Trainer (43)]
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Swamp (84) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck43 cast Herald of Faith (79)
+Resolve stack: Herald of Faith - Creature 4 / 3
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck29 activated Rogue's Passage (11) targeting [Dragon Token (128)]
+Resolve stack: Rogue's Passage (11) - Dragon Token (128) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 assigned Dragon Token (128) to attack Ai(2)-Gen0_Deck43.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck43 didn't block Dragon Token (128).
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Damage: Dragon Token (128) deals 4 combat damage to Ai(2)-Gen0_Deck43.
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Land: Ai(2)-Gen0_Deck43 played Plains (98)
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 assigned Herald of Faith (79) to attack Ai(1)-Gen0_Deck29.
+Add to stack: Ai(2)-Gen0_Deck43 triggered Herald of Faith (79)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (79)]
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck29 didn't block Herald of Faith (79).
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Damage: Herald of Faith (79) deals 4 combat damage to Ai(1)-Gen0_Deck29.
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck43 cast Steel Hellkite (107)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck29 activated Rogue's Passage (11) targeting [Dragon Token (128)]
+Resolve stack: Rogue's Passage (11) - Dragon Token (128) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Land: Ai(1)-Gen0_Deck29 played Mountain (53)
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 assigned Dragon Token (128) to attack Ai(2)-Gen0_Deck43.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck43 didn't block Dragon Token (128).
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Damage: Dragon Token (128) deals 4 combat damage to Ai(2)-Gen0_Deck43.
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 assigned Herald of Faith (79) and Steel Hellkite (107) to attack Ai(1)-Gen0_Deck29.
+Add to stack: Ai(2)-Gen0_Deck43 triggered Herald of Faith (79)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (79)]
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck29 didn't block Steel Hellkite (107).
+Ai(1)-Gen0_Deck29 didn't block Herald of Faith (79).
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Damage: Herald of Faith (79) deals 4 combat damage to Ai(1)-Gen0_Deck29.
+Damage: Steel Hellkite (107) deals 5 combat damage to Ai(1)-Gen0_Deck29.
+Phase: Ai(2)-Gen0_Deck43's End of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck43 cast Steel Hellkite (105)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck43 activated Steel Hellkite (107)
+Resolve stack: Steel Hellkite (107) - Destroy each nonland permanent with mana value X whose controller was dealt combat damage by Steel Hellkite this turn. Activate only once each turn. (X=0)
+Phase: Ai(2)-Gen0_Deck43's End step
+Phase: Ai(2)-Gen0_Deck43's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck29)
+Phase: Ai(1)-Gen0_Deck29's Untap step
+Phase: Ai(1)-Gen0_Deck29's Upkeep step
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck29 activated Rogue's Passage (11) targeting [Dragon Trainer (43)]
+Resolve stack: Rogue's Passage (11) - Dragon Trainer (43) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck29's Draw step
+Phase: Ai(1)-Gen0_Deck29's Main phase, precombat
+Land: Ai(1)-Gen0_Deck29 played Mountain (56)
+Phase: Ai(1)-Gen0_Deck29's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck29 assigned Dragon Trainer (43) to attack Ai(2)-Gen0_Deck43.
+Phase: Ai(1)-Gen0_Deck29's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck43 didn't block Dragon Trainer (43).
+Phase: Ai(1)-Gen0_Deck29's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck29's Combat Damage Step
+Damage: Dragon Trainer (43) deals 1 combat damage to Ai(2)-Gen0_Deck43.
+Phase: Ai(1)-Gen0_Deck29's End of Combat Step
+Phase: Ai(1)-Gen0_Deck29's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck29's End step
+Phase: Ai(1)-Gen0_Deck29's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck43)
+Phase: Ai(2)-Gen0_Deck43's Untap step
+Phase: Ai(2)-Gen0_Deck43's Upkeep step
+Phase: Ai(2)-Gen0_Deck43's Draw step
+Phase: Ai(2)-Gen0_Deck43's Main phase, precombat
+Land: Ai(2)-Gen0_Deck43 played Soulstone Sanctuary (116)
+Phase: Ai(2)-Gen0_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck43 assigned Steel Hellkite (107), Steel Hellkite (105) and Herald of Faith (79) to attack Ai(1)-Gen0_Deck29.
+Add to stack: Ai(2)-Gen0_Deck43 triggered Herald of Faith (79)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (79)]
+Phase: Ai(2)-Gen0_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck29 didn't block Steel Hellkite (105).
+Ai(1)-Gen0_Deck29 didn't block Steel Hellkite (107).
+Ai(1)-Gen0_Deck29 didn't block Herald of Faith (79).
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck43 activated Steel Hellkite (107)
+Resolve stack: Steel Hellkite (107) - Steel Hellkite (107) gets +1/+0  until end of turn.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck43 activated Steel Hellkite (107)
+Resolve stack: Steel Hellkite (107) - Steel Hellkite (107) gets +1/+0  until end of turn.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck43 activated Steel Hellkite (107)
+Resolve stack: Steel Hellkite (107) - Steel Hellkite (107) gets +1/+0  until end of turn.
+Phase: Ai(2)-Gen0_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck43's Combat Damage Step
+Damage: Steel Hellkite (107) deals 8 combat damage to Ai(1)-Gen0_Deck29.
+Damage: Steel Hellkite (105) deals 5 combat damage to Ai(1)-Gen0_Deck29.
+Damage: Herald of Faith (79) deals 4 combat damage to Ai(1)-Gen0_Deck29.
+Player control: Ai(1)-Gen0_Deck29 is controlled by Ai(1)-Gen0_Deck29
+Player control: Ai(2)-Gen0_Deck43 is controlled by Ai(2)-Gen0_Deck43
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck29 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck43 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck29: 0 Ai(2)-Gen0_Deck43: 1 
+
+Game Result: Game 1 ended in 14889 ms. Ai(2)-Gen0_Deck43 has won!
+
+
+=== STDERR ===

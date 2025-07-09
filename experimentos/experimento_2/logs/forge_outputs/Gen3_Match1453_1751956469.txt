@@ -1,0 +1,431 @@
+=== COMBATE PARALELO: Gen3_Deck17 vs Gen3_Deck47 ===
+Worker ID: 909536
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck17 Gen3_Deck47 -n 1
+Duración: 29.54 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1755 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 82 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck17 vs Ai(2)-Gen3_Deck47 - one game of Constructed
+Overriding AI confirmAction decision for ChangeZoneToAltDestination, defaulting to true.
+Mulligan: Ai(1)-Gen3_Deck17 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck47 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Land: Ai(1)-Gen3_Deck17 played Forest (18)
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Mana: Forest (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck17 cast Mild-Mannered Librarian (11)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Plains (72)
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Land: Ai(1)-Gen3_Deck17 played Soulstone Sanctuary (31)
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Mild-Mannered Librarian (11) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Mild-Mannered Librarian (11).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Mild-Mannered Librarian (11) deals 1 combat damage to Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (31) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck17 cast Nessian Hornbeetle (57)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Island (87)
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Land: Ai(1)-Gen3_Deck17 played Forest (14)
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Nessian Hornbeetle (57) and Mild-Mannered Librarian (11) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Nessian Hornbeetle (57).
+Ai(2)-Gen3_Deck47 didn't block Mild-Mannered Librarian (11).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Nessian Hornbeetle (57) deals 2 combat damage to Ai(2)-Gen3_Deck47.
+Damage: Mild-Mannered Librarian (11) deals 1 combat damage to Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Forest (14) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (31) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck17 cast Garruk's Uprising (4)
+Resolve stack: Garruk's Uprising
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Swamp (105)
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Nessian Hornbeetle (57) and Mild-Mannered Librarian (11) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Nessian Hornbeetle (57).
+Ai(2)-Gen3_Deck47 didn't block Mild-Mannered Librarian (11).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Nessian Hornbeetle (57) deals 2 combat damage to Ai(2)-Gen3_Deck47.
+Damage: Mild-Mannered Librarian (11) deals 1 combat damage to Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Crawling Barrens (91)
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Crawling Barrens (91) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen3_Deck47 cast Juggernaut (63)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Mild-Mannered Librarian (11) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 assigned Juggernaut (63) to block Mild-Mannered Librarian (11).
+Mana: Forest (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck17 cast Giant Growth (37) targeting [Mild-Mannered Librarian (11)]
+Resolve stack: Giant Growth (37) - Mild-Mannered Librarian (11) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Mild-Mannered Librarian (11) deals 1 combat damage to Ai(2)-Gen3_Deck47.
+Damage: Mild-Mannered Librarian (11) deals 3 damage () to Juggernaut (63).
+Damage: Juggernaut (63) deals 5 damage () to Mild-Mannered Librarian (11).
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Island (86)
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (86) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck47 activated Crawling Barrens (91)
+Resolve stack: Crawling Barrens (91) - Ai(2)-Gen3_Deck47 puts two +1/+1 counters on Crawling Barrens (91). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Land: Ai(1)-Gen3_Deck17 played Forest (26)
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Nessian Hornbeetle (57) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Nessian Hornbeetle (57).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Nessian Hornbeetle (57) deals 2 combat damage to Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Plains (70)
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (86) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck47 activated Crawling Barrens (91)
+Resolve stack: Crawling Barrens (91) - Ai(2)-Gen3_Deck47 puts two +1/+1 counters on Crawling Barrens (91). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 assigned Crawling Barrens (91) to attack Ai(1)-Gen3_Deck17.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck17 didn't block Crawling Barrens (91).
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Damage: Crawling Barrens (91) deals 4 combat damage to Ai(1)-Gen3_Deck17.
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Nessian Hornbeetle (57) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Nessian Hornbeetle (57).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Nessian Hornbeetle (57) deals 2 combat damage to Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Swamp (110)
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (86) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck47 activated Crawling Barrens (91)
+Resolve stack: Crawling Barrens (91) - Ai(2)-Gen3_Deck47 puts two +1/+1 counters on Crawling Barrens (91). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 assigned Crawling Barrens (91) to attack Ai(1)-Gen3_Deck17.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck17 didn't block Crawling Barrens (91).
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Damage: Crawling Barrens (91) deals 6 combat damage to Ai(1)-Gen3_Deck17.
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Nessian Hornbeetle (57) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Nessian Hornbeetle (57).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Nessian Hornbeetle (57) deals 2 combat damage to Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Forest (14) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (31) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck17 cast Vizier of the Menagerie (40)
+Resolve stack: Vizier of the Menagerie - Creature 3 / 4
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Plains (69)
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (86) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck47 activated Crawling Barrens (91)
+Resolve stack: Crawling Barrens (91) - Ai(2)-Gen3_Deck47 puts two +1/+1 counters on Crawling Barrens (91). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 assigned Crawling Barrens (91) to attack Ai(1)-Gen3_Deck17.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Vizier of the Menagerie (40) to block Crawling Barrens (91).
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Damage: Crawling Barrens (91) deals 8 damage () to Vizier of the Menagerie (40).
+Damage: Vizier of the Menagerie (40) deals 3 damage () to Crawling Barrens (91).
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck47's End step
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Land: Ai(1)-Gen3_Deck17 played Island (30)
+Mana: Forest (18) - {T}: Add {G}.
+Mana: Forest (14) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Island (30) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck17 activated Soulstone Sanctuary (31)
+Resolve stack: Soulstone Sanctuary (31) - Soulstone Sanctuary (31) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Soulstone Sanctuary (31) and Nessian Hornbeetle (57) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Nessian Hornbeetle (57).
+Ai(2)-Gen3_Deck47 didn't block Soulstone Sanctuary (31).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Soulstone Sanctuary (31) deals 3 combat damage to Ai(2)-Gen3_Deck47.
+Damage: Nessian Hornbeetle (57) deals 2 combat damage to Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's End of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck17's End step
+Phase: Ai(1)-Gen3_Deck17's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen3_Deck47)
+Phase: Ai(2)-Gen3_Deck47's Untap step
+Phase: Ai(2)-Gen3_Deck47's Upkeep step
+Phase: Ai(2)-Gen3_Deck47's Draw step
+Phase: Ai(2)-Gen3_Deck47's Main phase, precombat
+Land: Ai(2)-Gen3_Deck47 played Swamp (106)
+Phase: Ai(2)-Gen3_Deck47's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck47 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck47's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck47's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck47's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck47's End of Combat Step
+Phase: Ai(2)-Gen3_Deck47's Main phase, postcombat
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck47 cast Savannah Lions (78)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(2)-Gen3_Deck47's End step
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (86) - {T}: Add {U}.
+Mana: Plains (70) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck47 cast Uncharted Voyage (88) targeting [Soulstone Sanctuary (31)]
+Resolve stack: Ai(2)-Gen3_Deck47 surveiled 1 card(s) to the graveyard
+Resolve stack: Uncharted Voyage (88) - Ai(1)-Gen3_Deck17 puts Soulstone Sanctuary (31) on the top or bottom of their library. Ai(2)-Gen3_Deck47 surveils (1).
+Phase: Ai(2)-Gen3_Deck47's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen3_Deck17)
+Phase: Ai(1)-Gen3_Deck17's Untap step
+Phase: Ai(1)-Gen3_Deck17's Upkeep step
+Phase: Ai(1)-Gen3_Deck17's Draw step
+Phase: Ai(1)-Gen3_Deck17's Main phase, precombat
+Land: Ai(1)-Gen3_Deck17 played Soulstone Sanctuary (31)
+Mana: Island (30) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck17 cast Unsummon (42) targeting [Savannah Lions (78)]
+Resolve stack: Unsummon (42) - Return Savannah Lions (78) to its owner's hand.
+Phase: Ai(1)-Gen3_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck17 assigned Nessian Hornbeetle (57) to attack Ai(2)-Gen3_Deck47.
+Phase: Ai(1)-Gen3_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck47 didn't block Nessian Hornbeetle (57).
+Phase: Ai(1)-Gen3_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck17's Combat Damage Step
+Damage: Nessian Hornbeetle (57) deals 2 combat damage to Ai(2)-Gen3_Deck47.
+Player control: Ai(1)-Gen3_Deck17 is controlled by Ai(1)-Gen3_Deck17
+Player control: Ai(2)-Gen3_Deck47 is controlled by Ai(2)-Gen3_Deck47
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen3_Deck17 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck47 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck17: 1 Ai(2)-Gen3_Deck47: 0 
+
+Game Result: Game 1 ended in 16917 ms. Ai(1)-Gen3_Deck17 has won!
+
+
+=== STDERR ===

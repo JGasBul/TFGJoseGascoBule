@@ -1,0 +1,474 @@
+=== COMBATE PARALELO: Gen7_Deck9 vs Gen7_Deck33 ===
+Worker ID: 3043955
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck9 Gen7_Deck33 -n 1
+Duración: 33.37 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2160 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 51 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck9 vs Ai(2)-Gen7_Deck33 - one game of Constructed
+Mulligan: Ai(1)-Gen7_Deck9 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen7_Deck33 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Land: Ai(1)-Gen7_Deck9 played Forest (22)
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Land: Ai(2)-Gen7_Deck33 played Swamp (89)
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Duress (95) targeting [Ai(1)-Gen7_Deck9]
+Discard: Ai(1)-Gen7_Deck9 discards Genesis Wave (43).
+Resolve stack: Duress (95) - Ai(1)-Gen7_Deck9 reveals their hand. Ai(2)-Gen7_Deck33 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen7_Deck9 discards that card.
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Land: Ai(1)-Gen7_Deck9 played Forest (31)
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Land: Ai(2)-Gen7_Deck33 played Island (74)
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Mazemind Tome (105)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (105)
+Resolve stack: Ai(2)-Gen7_Deck33 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen7_Deck33 scries 1.
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Land: Ai(1)-Gen7_Deck9 played Plains (32)
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Land: Ai(2)-Gen7_Deck33 played Mountain (118)
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (105)
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen7_Deck33 draws a card.
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Land: Ai(1)-Gen7_Deck9 played Forest (20)
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Forest (20) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen7_Deck9 cast Dwynen, Gilt-Leaf Daen (15)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Land: Ai(2)-Gen7_Deck33 played Plains (73)
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Plains (73) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Solemn Simulacrum (64)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck33 triggered Solemn Simulacrum (64)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (64)]
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (105)
+Resolve stack: Ai(2)-Gen7_Deck33 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen7_Deck33 scries 1.
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Land: Ai(1)-Gen7_Deck9 played Forest (25)
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 assigned Dwynen, Gilt-Leaf Daen (15) to attack Ai(2)-Gen7_Deck33.
+Add to stack: Ai(1)-Gen7_Deck9 triggered Dwynen, Gilt-Leaf Daen (15)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (15)]
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck33 didn't block Dwynen, Gilt-Leaf Daen (15).
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Damage: Dwynen, Gilt-Leaf Daen (15) deals 3 combat damage to Ai(2)-Gen7_Deck33.
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Forest (20) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen7_Deck9 cast Solemn Simulacrum (5)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen7_Deck9 triggered Solemn Simulacrum (5)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (5)]
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Quick-Draw Katana (88)
+Resolve stack: Quick-Draw Katana
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Plains (73) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck33 activated Quick-Draw Katana (88) targeting [Solemn Simulacrum (64)]
+Resolve stack: Quick-Draw Katana (88) -  Attach to Solemn Simulacrum (64)
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 assigned Solemn Simulacrum (64) to attack Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck9 didn't block Solemn Simulacrum (64).
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Damage: Solemn Simulacrum (64) deals 4 combat damage to Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (105)
+Add to stack: Ai(2)-Gen7_Deck33 triggered Mazemind Tome (105)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen7_Deck33 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (105) - Ai(2)-Gen7_Deck33 scries 1.
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 assigned Dwynen, Gilt-Leaf Daen (15) and Solemn Simulacrum (5) to attack Ai(2)-Gen7_Deck33.
+Add to stack: Ai(1)-Gen7_Deck9 triggered Dwynen, Gilt-Leaf Daen (15)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (15)]
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck33 didn't block Solemn Simulacrum (5).
+Ai(2)-Gen7_Deck33 didn't block Dwynen, Gilt-Leaf Daen (15).
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Damage: Dwynen, Gilt-Leaf Daen (15) deals 3 combat damage to Ai(2)-Gen7_Deck33.
+Damage: Solemn Simulacrum (5) deals 2 combat damage to Ai(2)-Gen7_Deck33.
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Mana: Forest (22) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Forest (20) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen7_Deck9 cast Solemn Simulacrum (6)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen7_Deck9 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Land: Ai(2)-Gen7_Deck33 played Island (76)
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 assigned Solemn Simulacrum (64) to attack Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck9 didn't block Solemn Simulacrum (64).
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Damage: Solemn Simulacrum (64) deals 4 combat damage to Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Plains (73) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Driver of the Dead (112)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (76) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Mazemind Tome (104)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (104)
+Resolve stack: Ai(2)-Gen7_Deck33 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (104) - Ai(2)-Gen7_Deck33 scries 1.
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen7_Deck9 played Secluded Courtyard (51)
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 assigned Dwynen, Gilt-Leaf Daen (15), Solemn Simulacrum (5) and Solemn Simulacrum (6) to attack Ai(2)-Gen7_Deck33.
+Add to stack: Ai(1)-Gen7_Deck9 triggered Dwynen, Gilt-Leaf Daen (15)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (15)]
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck33 didn't block Solemn Simulacrum (5).
+Ai(2)-Gen7_Deck33 didn't block Solemn Simulacrum (6).
+Ai(2)-Gen7_Deck33 didn't block Dwynen, Gilt-Leaf Daen (15).
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Damage: Dwynen, Gilt-Leaf Daen (15) deals 3 combat damage to Ai(2)-Gen7_Deck33.
+Damage: Solemn Simulacrum (5) deals 2 combat damage to Ai(2)-Gen7_Deck33.
+Damage: Solemn Simulacrum (6) deals 2 combat damage to Ai(2)-Gen7_Deck33.
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 assigned Solemn Simulacrum (64) and Driver of the Dead (112) to attack Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck9 didn't block Solemn Simulacrum (64).
+Ai(1)-Gen7_Deck9 didn't block Driver of the Dead (112).
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Damage: Solemn Simulacrum (64) deals 4 combat damage to Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Damage: Driver of the Dead (112) deals 3 combat damage to Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Plains (73) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Driver of the Dead (115)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (76) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (104)
+Resolve stack: Mazemind Tome (104) - Ai(2)-Gen7_Deck33 draws a card.
+Land: Ai(2)-Gen7_Deck33 played Soulstone Sanctuary (79)
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 assigned Dwynen, Gilt-Leaf Daen (15) to attack Ai(2)-Gen7_Deck33.
+Add to stack: Ai(1)-Gen7_Deck9 triggered Dwynen, Gilt-Leaf Daen (15)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (15)]
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck33 didn't block Dwynen, Gilt-Leaf Daen (15).
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Damage: Dwynen, Gilt-Leaf Daen (15) deals 3 combat damage to Ai(2)-Gen7_Deck33.
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen7_Deck9 played Dismal Backwater (8)
+Add to stack: Ai(1)-Gen7_Deck9 triggered Dismal Backwater (8)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (8)]
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Island (74) - {T}: Add {U}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Plains (73) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck33 activated Soulstone Sanctuary (79)
+Resolve stack: Soulstone Sanctuary (79) - Soulstone Sanctuary (79) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 assigned Solemn Simulacrum (64) and Soulstone Sanctuary (79) to attack Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck9 assigned Solemn Simulacrum (5) to block Solemn Simulacrum (64).
+Ai(1)-Gen7_Deck9 didn't block Soulstone Sanctuary (79).
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Damage: Solemn Simulacrum (64) deals 4 damage () to Solemn Simulacrum (5).
+Add to stack: Ai(1)-Gen7_Deck9 triggered Solemn Simulacrum (5)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (5)]
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Damage: Soulstone Sanctuary (79) deals 3 combat damage to Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's End of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Main phase, postcombat
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (76) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (104)
+Resolve stack: Mazemind Tome (104) - Ai(2)-Gen7_Deck33 draws a card.
+Phase: Ai(2)-Gen7_Deck33's End step
+Phase: Ai(2)-Gen7_Deck33's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen7_Deck9)
+Phase: Ai(1)-Gen7_Deck9's Untap step
+Phase: Ai(1)-Gen7_Deck9's Upkeep step
+Phase: Ai(1)-Gen7_Deck9's Draw step
+Phase: Ai(1)-Gen7_Deck9's Main phase, precombat
+Mana: Dismal Backwater (8) - {T}: Add {U} or {B}.
+Mana: Secluded Courtyard (51) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Add to stack: Ai(1)-Gen7_Deck9 cast Gatekeeper of Malakir (4)
+Resolve stack: Gatekeeper of Malakir - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck9's End of Combat Step
+Phase: Ai(1)-Gen7_Deck9's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen7_Deck9 played Uncharted Haven (34)
+Phase: Ai(1)-Gen7_Deck9's End step
+Phase: Ai(1)-Gen7_Deck9's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen7_Deck33)
+Phase: Ai(2)-Gen7_Deck33's Untap step
+Phase: Ai(2)-Gen7_Deck33's Upkeep step
+Add to stack: Ai(2)-Gen7_Deck33 activated Mazemind Tome (104)
+Add to stack: Ai(2)-Gen7_Deck33 triggered Mazemind Tome (104)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen7_Deck33 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (104) - Ai(2)-Gen7_Deck33 scries 1.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Plains (73) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck33 cast Boros Charm (87)
+Damage: Boros Charm (87) deals 4 non-combat damage to Ai(1)-Gen7_Deck9.
+Resolve stack: Boros Charm (87) -  Boros Charm deals 4 damage to target player or planeswalker. (Targeting: Ai(1)-Gen7_Deck9)
+Phase: Ai(2)-Gen7_Deck33's Draw step
+Phase: Ai(2)-Gen7_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck33 assigned Solemn Simulacrum (64), Driver of the Dead (112), Driver of the Dead (115) and Soulstone Sanctuary (79) to attack Ai(1)-Gen7_Deck9.
+Phase: Ai(2)-Gen7_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck9 assigned Gatekeeper of Malakir (4) to block Solemn Simulacrum (64).
+Ai(1)-Gen7_Deck9 assigned Dwynen, Gilt-Leaf Daen (15) to block Driver of the Dead (112).
+Ai(1)-Gen7_Deck9 didn't block Driver of the Dead (115).
+Ai(1)-Gen7_Deck9 assigned Solemn Simulacrum (6) to block Soulstone Sanctuary (79).
+Mana: Forest (22) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen7_Deck9 cast Giant Growth (40) targeting [Solemn Simulacrum (6)]
+Resolve stack: Giant Growth (40) - Solemn Simulacrum (6) gets +3/+3  until end of turn.
+Phase: Ai(2)-Gen7_Deck33's First Strike Damage Step
+Damage: Solemn Simulacrum (64) deals 4 damage () to Gatekeeper of Malakir (4).
+Phase: Ai(2)-Gen7_Deck33's Combat Damage Step
+Damage: Driver of the Dead (112) deals 3 damage () to Dwynen, Gilt-Leaf Daen (15).
+Damage: Driver of the Dead (115) deals 3 combat damage to Ai(1)-Gen7_Deck9.
+Damage: Soulstone Sanctuary (79) deals 3 damage () to Solemn Simulacrum (6).
+Damage: Dwynen, Gilt-Leaf Daen (15) deals 3 damage () to Driver of the Dead (112).
+Damage: Solemn Simulacrum (6) deals 5 damage () to Soulstone Sanctuary (79).
+Player control: Ai(1)-Gen7_Deck9 is controlled by Ai(1)-Gen7_Deck9
+Player control: Ai(2)-Gen7_Deck33 is controlled by Ai(2)-Gen7_Deck33
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen7_Deck9 has lost because life total reached 0
+Game outcome: Ai(2)-Gen7_Deck33 has won because all opponents have lost
+Match result: Ai(1)-Gen7_Deck9: 0 Ai(2)-Gen7_Deck33: 1 
+
+Game Result: Game 1 ended in 21397 ms. Ai(2)-Gen7_Deck33 has won!
+
+
+=== STDERR ===

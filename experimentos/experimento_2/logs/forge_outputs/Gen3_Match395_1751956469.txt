@@ -1,0 +1,514 @@
+=== COMBATE PARALELO: Gen3_Deck4 vs Gen3_Deck12 ===
+Worker ID: 909535
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck4 Gen3_Deck12 -n 1
+Duración: 43.36 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1972 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 163 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck4 vs Ai(2)-Gen3_Deck12 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck12 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Swamp (21)
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Adventuring Gear (3)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(2)-Gen3_Deck12 played Dismal Backwater (64)
+Add to stack: Ai(2)-Gen3_Deck12 triggered Dismal Backwater (64)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (64)]
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Mountain (51)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (51)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(2)-Gen3_Deck12 played Gruul Guildgate (62)
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Soulstone Sanctuary (49)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Soulstone Sanctuary (49)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Land: Ai(2)-Gen3_Deck12 played Forest (72)
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Dismal Backwater (64) - {T}: Add {U} or {B}.
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Eager Trufflesnout (65)
+Resolve stack: Eager Trufflesnout - Creature 4 / 2
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (32)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (32)]
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Seismic Rupture (56)
+Damage: Seismic Rupture (56) deals 2 damage () to Eager Trufflesnout (65).
+Resolve stack: Seismic Rupture (56) - Deals 2 damage to each creature without flying.
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Land: Ai(2)-Gen3_Deck12 played Mountain (115)
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Elvish Archdruid (81)
+Resolve stack: Elvish Archdruid - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Mountain (50)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (50)]
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (50) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Soulstone Sanctuary (49)
+Resolve stack: Soulstone Sanctuary (49) - Soulstone Sanctuary (49) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Mana: Soulstone Sanctuary (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Adventuring Gear (3) targeting [Soulstone Sanctuary (49)]
+Resolve stack: Adventuring Gear (3) -  Attach to Soulstone Sanctuary (49)
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Land: Ai(2)-Gen3_Deck12 played Soulstone Sanctuary (79)
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 assigned Elvish Archdruid (81) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Elvish Archdruid (81).
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Damage: Elvish Archdruid (81) deals 2 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Three Tree Mascot (99)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (50) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Solemn Simulacrum (6)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen3_Deck4 triggered Solemn Simulacrum (6)
+Mana: Dismal Backwater (64) - {T}: Add {U} or {B}.
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Moment of Craving (90) targeting [Solemn Simulacrum (6)]
+Resolve stack: Moment of Craving (90) - Solemn Simulacrum (6) gets -2/-2  until end of turn. Ai(2)-Gen3_Deck12 gains 2 life.
+Add to stack: Ai(1)-Gen3_Deck4 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (6)]
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (6)]
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (35)]
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Dismal Backwater (64) - {T}: Add {U} or {B}.
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen3_Deck12 activated Soulstone Sanctuary (79)
+Resolve stack: Soulstone Sanctuary (79) - Soulstone Sanctuary (79) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Land: Ai(2)-Gen3_Deck12 played Forest (74)
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 assigned Three Tree Mascot (99) and Soulstone Sanctuary (79) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Three Tree Mascot (99).
+Ai(1)-Gen3_Deck4 didn't block Soulstone Sanctuary (79).
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Damage: Three Tree Mascot (99) deals 3 combat damage to Ai(1)-Gen3_Deck4.
+Damage: Soulstone Sanctuary (79) deals 4 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Seismic Rupture (55)
+Damage: Seismic Rupture (55) deals 2 damage () to Soulstone Sanctuary (49).
+Damage: Seismic Rupture (55) deals 2 damage () to Elvish Archdruid (81).
+Damage: Seismic Rupture (55) deals 2 damage () to Soulstone Sanctuary (79).
+Damage: Seismic Rupture (55) deals 2 damage () to Three Tree Mascot (99).
+Resolve stack: Seismic Rupture (55) - Deals 2 damage to each creature without flying.
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Authority of the Consuls (43)
+Resolve stack: Authority of the Consuls
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Dismal Backwater (64) - {T}: Add {U} or {B}.
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Grow from the Ashes (88)
+Resolve stack: Grow from the Ashes (88) - Ai(2)-Gen3_Deck12 searches their library for two Land.Basic cards, puts them onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (50) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Soul-Shackled Zombie (14)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(1)-Gen3_Deck4 triggered Soul-Shackled Zombie (14) targeting [Grow from the Ashes (88), Elvish Archdruid (81)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Grow from the Ashes (88), Elvish Archdruid (81)]]) [Zone Changer: Soul-Shackled Zombie (14)]
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Dismal Backwater (64) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Pelakka Wurm (102)
+Replacement Effect: Creatures your opponents control enter tapped.
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(2)-Gen3_Deck12 triggered Pelakka Wurm (102)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Authority of the Consuls (43)
+Resolve stack: Whenever a creature an opponent controls enters, you gain 1 life. [Zone Changer: Pelakka Wurm (102)]
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (102)]
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Crawling Barrens (46)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (46)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Soulstone Sanctuary (49) to attack Ai(2)-Gen3_Deck12.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck12 didn't block Soulstone Sanctuary (49).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Damage: Soulstone Sanctuary (49) deals 5 combat damage to Ai(2)-Gen3_Deck12.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (50) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Soul-Shackled Zombie (13)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(1)-Gen3_Deck4 triggered Soul-Shackled Zombie (13) targeting [Eager Trufflesnout (65), Three Tree Mascot (99)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Eager Trufflesnout (65), Three Tree Mascot (99)]]) [Zone Changer: Soul-Shackled Zombie (13)]
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 assigned Pelakka Wurm (102) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 didn't block Pelakka Wurm (102).
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Damage: Pelakka Wurm (102) deals 7 combat damage to Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck12's End of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Main phase, postcombat
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Dismal Backwater (64) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Pelakka Wurm (101)
+Replacement Effect: Creatures your opponents control enter tapped.
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(2)-Gen3_Deck12 triggered Pelakka Wurm (101)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Authority of the Consuls (43)
+Resolve stack: Whenever a creature an opponent controls enters, you gain 1 life. [Zone Changer: Pelakka Wurm (101)]
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (101)]
+Phase: Ai(2)-Gen3_Deck12's End step
+Phase: Ai(2)-Gen3_Deck12's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Swamp (17)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (17)]
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (50) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen3_Deck4 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Soulstone Sanctuary (49) to attack Ai(2)-Gen3_Deck12.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck12 didn't block Soulstone Sanctuary (49).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Damage: Soulstone Sanctuary (49) deals 5 combat damage to Ai(2)-Gen3_Deck12.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen3_Deck12)
+Phase: Ai(2)-Gen3_Deck12's Untap step
+Phase: Ai(2)-Gen3_Deck12's Upkeep step
+Phase: Ai(2)-Gen3_Deck12's Draw step
+Phase: Ai(2)-Gen3_Deck12's Main phase, precombat
+Mana: Forest (72) - {T}: Add {G}.
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Dwynen, Gilt-Leaf Daen (68)
+Replacement Effect: Creatures your opponents control enter tapped.
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Add to stack: Ai(1)-Gen3_Deck4 triggered Authority of the Consuls (43)
+Resolve stack: Whenever a creature an opponent controls enters, you gain 1 life. [Zone Changer: Dwynen, Gilt-Leaf Daen (68)]
+Phase: Ai(2)-Gen3_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck12 assigned Pelakka Wurm (102), Pelakka Wurm (101) and Soulstone Sanctuary (79) to attack Ai(1)-Gen3_Deck4.
+Phase: Ai(2)-Gen3_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Soulstone Sanctuary (49) to block Pelakka Wurm (101).
+Ai(1)-Gen3_Deck4 assigned Soul-Shackled Zombie (13) to block Pelakka Wurm (102).
+Ai(1)-Gen3_Deck4 assigned Soul-Shackled Zombie (14) to block Soulstone Sanctuary (79).
+Mana: Gruul Guildgate (62) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen3_Deck12 cast Giant Growth (84) targeting [Pelakka Wurm (102)]
+Resolve stack: Giant Growth (84) - Pelakka Wurm (102) gets +3/+3  until end of turn.
+Phase: Ai(2)-Gen3_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck12's Combat Damage Step
+Damage: Pelakka Wurm (102) deals 8 combat damage to Ai(1)-Gen3_Deck4.
+Damage: Pelakka Wurm (102) deals 2 damage () to Soul-Shackled Zombie (13).
+Damage: Pelakka Wurm (101) deals 4 combat damage to Ai(1)-Gen3_Deck4.
+Damage: Pelakka Wurm (101) deals 3 damage () to Soulstone Sanctuary (49).
+Damage: Soulstone Sanctuary (79) deals 4 damage () to Soul-Shackled Zombie (14).
+Damage: Soul-Shackled Zombie (14) deals 4 damage () to Soulstone Sanctuary (79).
+Damage: Soul-Shackled Zombie (13) deals 4 damage () to Pelakka Wurm (102).
+Damage: Soulstone Sanctuary (49) deals 3 damage () to Pelakka Wurm (101).
+Player control: Ai(1)-Gen3_Deck4 is controlled by Ai(1)-Gen3_Deck4
+Player control: Ai(2)-Gen3_Deck12 is controlled by Ai(2)-Gen3_Deck12
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen3_Deck4 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck12 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck4: 0 Ai(2)-Gen3_Deck12: 1 
+
+Game Result: Game 1 ended in 30453 ms. Ai(2)-Gen3_Deck12 has won!
+
+
+=== STDERR ===

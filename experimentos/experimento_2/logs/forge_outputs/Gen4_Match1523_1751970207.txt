@@ -1,0 +1,657 @@
+=== COMBATE PARALELO: Gen4_Deck19 vs Gen4_Deck21 ===
+Worker ID: 1454002
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck19 Gen4_Deck21 -n 1
+Duración: 49.80 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1848 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 116 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck19 vs Ai(2)-Gen4_Deck21 - one game of Constructed
+Mulligan: Ai(1)-Gen4_Deck19 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen4_Deck21 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen4_Deck19 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Land: Ai(2)-Gen4_Deck21 played Swamp (90)
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Forest (33)
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Mild-Mannered Librarian (15)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen4_Deck21 played Secluded Courtyard (97)
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Soulstone Sanctuary (55)
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Mild-Mannered Librarian (15) to attack Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck21 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Land: Ai(2)-Gen4_Deck21 played Cryptic Caves (62)
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Pilfer (69) targeting [Ai(1)-Gen4_Deck19]
+Discard: Ai(1)-Gen4_Deck19 discards Biogenic Upgrade (14).
+Resolve stack: Pilfer (69) - Ai(1)-Gen4_Deck19 reveals their hand. Ai(2)-Gen4_Deck21 chooses a nonland card from it. Ai(1)-Gen4_Deck19 discards that card.
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Soulstone Sanctuary (56)
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Mild-Mannered Librarian (15) to attack Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck21 didn't block Mild-Mannered Librarian (15).
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Damage: Mild-Mannered Librarian (15) deals 1 combat damage to Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Land: Ai(2)-Gen4_Deck21 played Island (73)
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Island (73) - {T}: Add {U}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Highborn Vampire (115)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Demolition Field (59)
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (55) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck19 activated Demolition Field (59) targeting [Cryptic Caves (62)]
+Resolve stack: Demolition Field (59) - Destroy Cryptic Caves (62). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen4_Deck19 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Highborn Vampire (115) to attack Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck19 didn't block Highborn Vampire (115).
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Damage: Highborn Vampire (115) deals 4 combat damage to Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Island (73) - {T}: Add {U}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Felidar Savior (83)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen4_Deck21 triggered Felidar Savior (83) targeting [Highborn Vampire (115)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Highborn Vampire (115)]]) [Zone Changer: Felidar Savior (83)]
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Forest (28)
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (56) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck19 activated Soulstone Sanctuary (55)
+Resolve stack: Soulstone Sanctuary (55) - Soulstone Sanctuary (55) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Soulstone Sanctuary (55) to attack Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck21 didn't block Soulstone Sanctuary (55).
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Damage: Soulstone Sanctuary (55) deals 3 combat damage to Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Highborn Vampire (115) to attack Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck19 didn't block Highborn Vampire (115).
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Damage: Highborn Vampire (115) deals 5 combat damage to Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Island (73) - {T}: Add {U}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Lightshell Duo (84)
+Resolve stack: Lightshell Duo - Creature 3 / 4
+Add to stack: Ai(2)-Gen4_Deck21 triggered Lightshell Duo (84)
+Resolve stack: Ai(2)-Gen4_Deck21 surveiled 2 card(s) to the top of the library
+Resolve stack: When Lightshell Duo enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.) [Zone Changer: Lightshell Duo (84)]
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (55) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck19 activated Soulstone Sanctuary (56)
+Resolve stack: Soulstone Sanctuary (56) - Soulstone Sanctuary (56) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Forest (35)
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Highborn Vampire (115) and Lightshell Duo (84) to attack Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Mild-Mannered Librarian (15) to block Highborn Vampire (115).
+Ai(1)-Gen4_Deck19 didn't block Lightshell Duo (84).
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Damage: Highborn Vampire (115) deals 5 damage () to Mild-Mannered Librarian (15).
+Damage: Lightshell Duo (84) deals 3 combat damage to Ai(1)-Gen4_Deck19.
+Damage: Mild-Mannered Librarian (15) deals 1 damage () to Highborn Vampire (115).
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Island (73) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Three Tree Mascot (100)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (56) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Elfsworn Giant (50)
+Resolve stack: Elfsworn Giant - Creature 5 / 3
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Lightshell Duo (84) to attack Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck19 didn't block Lightshell Duo (84).
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Damage: Lightshell Duo (84) deals 3 combat damage to Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Island (73) - {T}: Add {U}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Highborn Vampire (114)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Solemn Simulacrum (9)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen4_Deck19 triggered Solemn Simulacrum (9)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (9)]
+Add to stack: Ai(1)-Gen4_Deck19 triggered Elfsworn Giant (50)
+Resolve stack: Landfall — Whenever a land you control enters, create a 1/1 green Elf Warrior creature token. [Zone Changer: Forest (32)]
+Mana: Soulstone Sanctuary (56) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (55) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Three Tree Mascot (27)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Highborn Vampire (114) and Lightshell Duo (84) to attack Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Elfsworn Giant (50) to block Highborn Vampire (114).
+Ai(1)-Gen4_Deck19 assigned Elf Warrior Token (123) to block Lightshell Duo (84).
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Damage: Highborn Vampire (114) deals 4 damage () to Elfsworn Giant (50).
+Damage: Lightshell Duo (84) deals 3 damage () to Elf Warrior Token (123).
+Damage: Elfsworn Giant (50) deals 5 damage () to Highborn Vampire (114).
+Damage: Elf Warrior Token (123) deals 1 damage () to Lightshell Duo (84).
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Island (73) - {T}: Add {U}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Zombify (71) targeting [Highborn Vampire (114)]
+Add to stack: Ai(2)-Gen4_Deck21 triggered Lightshell Duo (84)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Zombify (71), Activator: Ai(2)-Gen4_Deck21, SpellAbility: Return target creature card from your graveyard to the battlefield.]
+Resolve stack: Zombify (71) - Return Highborn Vampire (114) from the graveyard to the battlefield.
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 activated Adventuring Gear (1) targeting [Soulstone Sanctuary (55)]
+Resolve stack: Adventuring Gear (1) -  Attach to Soulstone Sanctuary (55)
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (56) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Solemn Simulacrum (7)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen4_Deck19 triggered Solemn Simulacrum (7)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (7)]
+Add to stack: Ai(1)-Gen4_Deck19 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (29)]
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Land: Ai(2)-Gen4_Deck21 played Cryptic Caves (63)
+Mana: Swamp (90) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen4_Deck21 activated Cryptic Caves (63)
+Resolve stack: Cryptic Caves (63) - Ai(2)-Gen4_Deck21 draws a card.
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Highborn Vampire (115), Highborn Vampire (114) and Lightshell Duo (84) to attack Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Soulstone Sanctuary (55) to block Highborn Vampire (114).
+Ai(1)-Gen4_Deck19 assigned Three Tree Mascot (27) to block Highborn Vampire (115).
+Ai(1)-Gen4_Deck19 assigned Solemn Simulacrum (7) and Solemn Simulacrum (9) to block Lightshell Duo (84).
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Damage: Highborn Vampire (115) deals 5 damage () to Three Tree Mascot (27).
+Damage: Highborn Vampire (114) deals 4 damage () to Soulstone Sanctuary (55).
+Damage: Lightshell Duo (84) deals 2 damage () to Solemn Simulacrum (7).
+Damage: Lightshell Duo (84) deals 1 damage () to Solemn Simulacrum (9).
+Damage: Solemn Simulacrum (7) deals 2 damage () to Lightshell Duo (84).
+Damage: Solemn Simulacrum (9) deals 2 damage () to Lightshell Duo (84).
+Damage: Soulstone Sanctuary (55) deals 3 damage () to Highborn Vampire (114).
+Damage: Three Tree Mascot (27) deals 2 damage () to Highborn Vampire (115).
+Add to stack: Ai(1)-Gen4_Deck19 triggered Solemn Simulacrum (7)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (7)]
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 activated Adventuring Gear (1) targeting [Soulstone Sanctuary (56)]
+Resolve stack: Adventuring Gear (1) -  Attach to Soulstone Sanctuary (56)
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Nessian Hornbeetle (49)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Highborn Vampire (115) to attack Ai(1)-Gen4_Deck19.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Nessian Hornbeetle (49) and Solemn Simulacrum (9) to block Highborn Vampire (115).
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Damage: Highborn Vampire (115) deals 2 damage () to Nessian Hornbeetle (49).
+Damage: Highborn Vampire (115) deals 3 damage () to Solemn Simulacrum (9).
+Damage: Nessian Hornbeetle (49) deals 2 damage () to Highborn Vampire (115).
+Damage: Solemn Simulacrum (9) deals 2 damage () to Highborn Vampire (115).
+Add to stack: Ai(1)-Gen4_Deck19 triggered Solemn Simulacrum (9)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (9)]
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Island (73) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Macabre Waltz (119) targeting [Lightshell Duo (84), Highborn Vampire (114)]
+Discard: Ai(2)-Gen4_Deck21 discards Pelakka Wurm (105).
+Resolve stack: Macabre Waltz (119) - Return Lightshell Duo (84) and Highborn Vampire (114) from the graveyard to their owner's hand. Ai(2)-Gen4_Deck21 discards a card.
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Forest (37)
+Add to stack: Ai(1)-Gen4_Deck19 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (37)]
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Soulstone Sanctuary (56) to attack Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck21 didn't block Soulstone Sanctuary (56).
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Damage: Soulstone Sanctuary (56) deals 5 combat damage to Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Pelakka Wurm (43)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(1)-Gen4_Deck19 triggered Pelakka Wurm (43)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (43)]
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen4_Deck21 played Maze's End (66)
+Mana: Island (73) - {T}: Add {U}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Lightshell Duo (84)
+Resolve stack: Lightshell Duo - Creature 3 / 4
+Add to stack: Ai(2)-Gen4_Deck21 triggered Lightshell Duo (84)
+Resolve stack: Ai(2)-Gen4_Deck21 surveiled 2 card(s) to the top of the library
+Resolve stack: When Lightshell Duo enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.) [Zone Changer: Lightshell Duo (84)]
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Land: Ai(1)-Gen4_Deck19 played Forest (40)
+Add to stack: Ai(1)-Gen4_Deck19 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (40)]
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Pelakka Wurm (43) and Soulstone Sanctuary (56) to attack Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Felidar Savior (83) and Lightshell Duo (84) to block Soulstone Sanctuary (56).
+Ai(2)-Gen4_Deck21 assigned Three Tree Mascot (100) to block Pelakka Wurm (43).
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Damage: Pelakka Wurm (43) deals 6 combat damage to Ai(2)-Gen4_Deck21.
+Damage: Pelakka Wurm (43) deals 1 damage () to Three Tree Mascot (100).
+Damage: Soulstone Sanctuary (56) deals 3 damage () to Felidar Savior (83).
+Damage: Soulstone Sanctuary (56) deals 2 damage () to Lightshell Duo (84).
+Damage: Felidar Savior (83) deals 2 damage () to Soulstone Sanctuary (56).
+Damage: Lightshell Duo (84) deals 3 damage () to Soulstone Sanctuary (56).
+Damage: Three Tree Mascot (100) deals 2 damage () to Pelakka Wurm (43).
+Phase: Ai(1)-Gen4_Deck19's End of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Main phase, postcombat
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 cast Pelakka Wurm (45)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(1)-Gen4_Deck19 triggered Pelakka Wurm (45)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (45)]
+Mana: Forest (40) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen4_Deck19 activated Adventuring Gear (1) targeting [Pelakka Wurm (45)]
+Resolve stack: Adventuring Gear (1) -  Attach to Pelakka Wurm (45)
+Phase: Ai(1)-Gen4_Deck19's End step
+Phase: Ai(1)-Gen4_Deck19's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen4_Deck21)
+Phase: Ai(2)-Gen4_Deck21's Untap step
+Phase: Ai(2)-Gen4_Deck21's Upkeep step
+Phase: Ai(2)-Gen4_Deck21's Draw step
+Phase: Ai(2)-Gen4_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck21's End of Combat Step
+Phase: Ai(2)-Gen4_Deck21's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Island (73) - {T}: Add {U}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck21 cast Highborn Vampire (114)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen4_Deck21's End step
+Phase: Ai(2)-Gen4_Deck21's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen4_Deck19)
+Phase: Ai(1)-Gen4_Deck19's Untap step
+Phase: Ai(1)-Gen4_Deck19's Upkeep step
+Phase: Ai(1)-Gen4_Deck19's Draw step
+Phase: Ai(1)-Gen4_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck19 assigned Pelakka Wurm (43) and Pelakka Wurm (45) to attack Ai(2)-Gen4_Deck21.
+Phase: Ai(1)-Gen4_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck21 assigned Lightshell Duo (84) to block Pelakka Wurm (43).
+Ai(2)-Gen4_Deck21 assigned Highborn Vampire (114) to block Pelakka Wurm (45).
+Phase: Ai(1)-Gen4_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck19's Combat Damage Step
+Damage: Pelakka Wurm (43) deals 3 combat damage to Ai(2)-Gen4_Deck21.
+Damage: Pelakka Wurm (43) deals 4 damage () to Lightshell Duo (84).
+Damage: Pelakka Wurm (45) deals 4 combat damage to Ai(2)-Gen4_Deck21.
+Damage: Pelakka Wurm (45) deals 3 damage () to Highborn Vampire (114).
+Damage: Lightshell Duo (84) deals 3 damage () to Pelakka Wurm (43).
+Damage: Highborn Vampire (114) deals 4 damage () to Pelakka Wurm (45).
+Player control: Ai(1)-Gen4_Deck19 is controlled by Ai(1)-Gen4_Deck19
+Player control: Ai(2)-Gen4_Deck21 is controlled by Ai(2)-Gen4_Deck21
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen4_Deck19 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck21 has lost because life total reached 0
+Match result: Ai(1)-Gen4_Deck19: 1 Ai(2)-Gen4_Deck21: 0 
+
+Game Result: Game 1 ended in 36949 ms. Ai(1)-Gen4_Deck19 has won!
+
+
+=== STDERR ===

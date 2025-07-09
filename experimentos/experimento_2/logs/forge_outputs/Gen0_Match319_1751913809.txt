@@ -1,0 +1,500 @@
+=== COMBATE PARALELO: Gen0_Deck3 vs Gen0_Deck19 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck3 Gen0_Deck19 -n 1
+Duración: 29.05 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1527 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 200 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck3 vs Ai(2)-Gen0_Deck19 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck19 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck19 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen0_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(2)-Gen0_Deck19 played Temple of Deceit (98)
+Add to stack: Ai(2)-Gen0_Deck19 triggered Temple of Deceit (98)
+Resolve stack: Ai(2)-Gen0_Deck19 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (98)]
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (57)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Island (103)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (60)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Campus Guide (22)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck3 triggered Campus Guide (22)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (22)]
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (78)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (52)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Ball Lightning (12)
+Resolve stack: Ball Lightning - Creature 6 / 1
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Ball Lightning (12) and Campus Guide (22) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 didn't block Campus Guide (22).
+Ai(2)-Gen0_Deck19 didn't block Ball Lightning (12).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Ball Lightning (12) deals 6 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Campus Guide (22) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Add to stack: Ai(1)-Gen0_Deck3 triggered Ball Lightning (12)
+Resolve stack: At the beginning of the end step, sacrifice Ball Lightning. [Phase: Ai(1)-Gen0_Deck3]
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (83)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Electroduplicate (18) targeting [Campus Guide (22)]
+Resolve stack: Electroduplicate (18) - Ai(1)-Gen0_Deck3 creates a token that's a copy of Campus Guide (22), except it has haste.
+Add to stack: Ai(1)-Gen0_Deck3 triggered Campus Guide (122)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (122)]
+Land: Ai(1)-Gen0_Deck3 played Mountain (53)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Campus Guide (122) and Campus Guide (22) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 didn't block Campus Guide (22).
+Ai(2)-Gen0_Deck19 didn't block Campus Guide (122).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Campus Guide (122) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Campus Guide (22) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Add to stack: Ai(1)-Gen0_Deck3 triggered Campus Guide (122)
+Resolve stack: At the beginning of the end step, sacrifice Campus Guide. [Phase: Ai(1)-Gen0_Deck3]
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen0_Deck19 played Uncharted Haven (111)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Burst Lightning (8) targeting [Ai(2)-Gen0_Deck19]
+Damage: Burst Lightning (8) deals 2 non-combat damage to Ai(2)-Gen0_Deck19.
+Resolve stack: Burst Lightning (8) - Burst Lightning (8) deals 2 damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Electroduplicate (18) targeting [Campus Guide (22)]
+Resolve stack: Electroduplicate (18) - Ai(1)-Gen0_Deck3 creates a token that's a copy of Campus Guide (22), except it has haste.
+Replacement Effect: Flashback {2}{R}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Campus Guide (124)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (124)]
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Campus Guide (124) and Campus Guide (22) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 didn't block Campus Guide (22).
+Ai(2)-Gen0_Deck19 didn't block Campus Guide (124).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Campus Guide (124) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Campus Guide (22) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck3 played Maze's End (2)
+Phase: Ai(1)-Gen0_Deck3's End step
+Add to stack: Ai(1)-Gen0_Deck3 triggered Campus Guide (124)
+Resolve stack: At the beginning of the end step, sacrifice Campus Guide. [Phase: Ai(1)-Gen0_Deck3]
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Crawling Barrens (113)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Campus Guide (22) to attack Ai(2)-Gen0_Deck19.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Uncharted Haven (111) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen0_Deck19 activated Crawling Barrens (113)
+Resolve stack: Crawling Barrens (113) - Ai(2)-Gen0_Deck19 puts two +1/+1 counters on Crawling Barrens (113). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Crawling Barrens (113) to block Campus Guide (22).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Campus Guide (22) deals 2 damage () to Crawling Barrens (113).
+Damage: Crawling Barrens (113) deals 2 damage () to Campus Guide (22).
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck3 played Maze's End (3)
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Evolving Wilds (97)
+Add to stack: Ai(2)-Gen0_Deck19 activated Evolving Wilds (97)
+Resolve stack: Evolving Wilds (97) - Ai(2)-Gen0_Deck19 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Vampire Interloper (63)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (59)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Vampire Interloper (63) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Vampire Interloper (63).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Vampire Interloper (63) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Uncharted Haven (111) - {T}: Add one mana of the chosen color.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Temple of Deceit (98) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Extravagant Replication (88)
+Resolve stack: Extravagant Replication
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (56)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Extravagant Replication (88) targeting [Vampire Interloper (63)]
+Resolve stack: At the beginning of your upkeep, create a token that's a copy of another target nonland permanent you control. (Targeting: [[Vampire Interloper (63)]]) [Phase: Ai(2)-Gen0_Deck19]
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Vampire Interloper (63) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Vampire Interloper (63).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Vampire Interloper (63) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (46)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Raging Redcap (25)
+Mana: Island (103) - {T}: Add {U}.
+Mana: Uncharted Haven (111) - {T}: Add one mana of the chosen color.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Island (109) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Voracious Greatshark (87)
+Resolve stack: Voracious Greatshark - Creature 5 / 4
+Add to stack: Ai(2)-Gen0_Deck19 triggered Voracious Greatshark (87) targeting [Raging Redcap - Creature 1 / 2]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: When Voracious Greatshark enters, counter target artifact or creature spell. (Targeting: [[Raging Redcap - Creature 1 / 2]]) [Zone Changer: Voracious Greatshark (87)]
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Extravagant Replication (88) targeting [Voracious Greatshark (87)]
+Resolve stack: At the beginning of your upkeep, create a token that's a copy of another target nonland permanent you control. (Targeting: [[Voracious Greatshark (87)]]) [Phase: Ai(2)-Gen0_Deck19]
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Voracious Greatshark (87), Vampire Interloper (63) and Vampire Interloper (126) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Voracious Greatshark (87).
+Ai(1)-Gen0_Deck3 didn't block Vampire Interloper (126).
+Ai(1)-Gen0_Deck3 didn't block Vampire Interloper (63).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Voracious Greatshark (87) deals 5 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Vampire Interloper (63) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Vampire Interloper (126) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Uncharted Haven (111) - {T}: Add one mana of the chosen color.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Island (109) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Skyship Buccaneer (117)
+Resolve stack: Skyship Buccaneer - Creature 4 / 3
+Add to stack: Ai(2)-Gen0_Deck19 triggered Skyship Buccaneer (117)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, draw a card. [Zone Changer: Skyship Buccaneer (117)]
+Land: Ai(2)-Gen0_Deck19 played Island (104)
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (48)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (46) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Chandra, Flameshaper (39)
+Replacement Effect: Chandra, Flameshaper enters with six loyalty counters on it.
+Resolve stack: Chandra, Flameshaper
+Add to stack: Ai(1)-Gen0_Deck3 activated Chandra, Flameshaper (39) targeting [Skyship Buccaneer (117), Voracious Greatshark (87), Vampire Interloper (63)]
+Damage: Chandra, Flameshaper (39) deals 3 damage () to Skyship Buccaneer (117).
+Damage: Chandra, Flameshaper (39) deals 4 damage () to Voracious Greatshark (87).
+Damage: Chandra, Flameshaper (39) deals 1 damage () to Vampire Interloper (63).
+Resolve stack: Chandra, Flameshaper (39) - Chandra, Flameshaper (39) deals 8 damage divided to 
+Skyship Buccaneer (117) (3 damage), Voracious Greatshark (87) (4 damage) and Vampire Interloper (63) (1 damage).
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Extravagant Replication (88) targeting [Voracious Greatshark (128)]
+Resolve stack: At the beginning of your upkeep, create a token that's a copy of another target nonland permanent you control. (Targeting: [[Voracious Greatshark (128)]]) [Phase: Ai(2)-Gen0_Deck19]
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Voracious Greatshark (128) and Vampire Interloper (126) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Voracious Greatshark (128).
+Ai(1)-Gen0_Deck3 didn't block Vampire Interloper (126).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Voracious Greatshark (128) deals 5 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Vampire Interloper (126) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Player control: Ai(1)-Gen0_Deck3 is controlled by Ai(1)-Gen0_Deck3
+Player control: Ai(2)-Gen0_Deck19 is controlled by Ai(2)-Gen0_Deck19
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck3 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck19 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck3: 0 Ai(2)-Gen0_Deck19: 1 
+
+Game Result: Game 1 ended in 18140 ms. Ai(2)-Gen0_Deck19 has won!
+
+
+=== STDERR ===

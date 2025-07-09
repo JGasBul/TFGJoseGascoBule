@@ -1,0 +1,321 @@
+=== COMBATE PARALELO: Gen2_Deck17 vs Gen2_Deck22 ===
+Worker ID: 352527
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck17 Gen2_Deck22 -n 1
+Duración: 21.41 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1950 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 182 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck17 vs Ai(2)-Gen2_Deck22 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck17 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck22 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Plains (42)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck22)
+Phase: Ai(2)-Gen2_Deck22's Untap step
+Phase: Ai(2)-Gen2_Deck22's Upkeep step
+Phase: Ai(2)-Gen2_Deck22's Draw step
+Phase: Ai(2)-Gen2_Deck22's Main phase, precombat
+Land: Ai(2)-Gen2_Deck22 played Plains (97)
+Phase: Ai(2)-Gen2_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck22's End of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Main phase, postcombat
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck22 cast Leonin Vanguard (105)
+Resolve stack: Leonin Vanguard - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck22's End step
+Phase: Ai(2)-Gen2_Deck22's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Swamp (23)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck22)
+Phase: Ai(2)-Gen2_Deck22's Untap step
+Phase: Ai(2)-Gen2_Deck22's Upkeep step
+Phase: Ai(2)-Gen2_Deck22's Draw step
+Phase: Ai(2)-Gen2_Deck22's Main phase, precombat
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck22 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(2)-Gen2_Deck22 played Temple of Triumph (80)
+Add to stack: Ai(2)-Gen2_Deck22 triggered Temple of Triumph (80)
+Add to stack: Ai(2)-Gen2_Deck22 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Temple of Triumph (80)]
+Resolve stack: Ai(2)-Gen2_Deck22 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (80)]
+Phase: Ai(2)-Gen2_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck22 assigned Leonin Vanguard (105) to attack Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Leonin Vanguard (105).
+Phase: Ai(2)-Gen2_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck22's Combat Damage Step
+Damage: Leonin Vanguard (105) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck22's End of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck22's End step
+Phase: Ai(2)-Gen2_Deck22's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Plains (34)
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Tribute to Hunger (32) targeting [Ai(2)-Gen2_Deck22]
+Resolve stack: Tribute to Hunger (32) - Ai(2)-Gen2_Deck22 sacrifices a creature. Ai(1)-Gen2_Deck17 gains life equal to that creature's toughness. 
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck22)
+Phase: Ai(2)-Gen2_Deck22's Untap step
+Phase: Ai(2)-Gen2_Deck22's Upkeep step
+Phase: Ai(2)-Gen2_Deck22's Draw step
+Phase: Ai(2)-Gen2_Deck22's Main phase, precombat
+Land: Ai(2)-Gen2_Deck22 played Mountain (114)
+Add to stack: Ai(2)-Gen2_Deck22 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (114)]
+Phase: Ai(2)-Gen2_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck22's End of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck22's End step
+Phase: Ai(2)-Gen2_Deck22's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Plains (39)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Juggernaut (8)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck22)
+Phase: Ai(2)-Gen2_Deck22's Untap step
+Phase: Ai(2)-Gen2_Deck22's Upkeep step
+Phase: Ai(2)-Gen2_Deck22's Draw step
+Phase: Ai(2)-Gen2_Deck22's Main phase, precombat
+Land: Ai(2)-Gen2_Deck22 played Mountain (117)
+Add to stack: Ai(2)-Gen2_Deck22 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (117)]
+Phase: Ai(2)-Gen2_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck22's End of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck22's End step
+Phase: Ai(2)-Gen2_Deck22's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Plains (48)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 assigned Juggernaut (8) to attack Ai(2)-Gen2_Deck22.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck22 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen2_Deck22.
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Duress (28) targeting [Ai(2)-Gen2_Deck22]
+Discard: Ai(2)-Gen2_Deck22 discards Refute (67).
+Resolve stack: Duress (28) - Ai(2)-Gen2_Deck22 reveals their hand. Ai(1)-Gen2_Deck17 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen2_Deck22 discards that card.
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck22)
+Phase: Ai(2)-Gen2_Deck22's Untap step
+Phase: Ai(2)-Gen2_Deck22's Upkeep step
+Phase: Ai(2)-Gen2_Deck22's Draw step
+Phase: Ai(2)-Gen2_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck22's End of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Main phase, postcombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Temple of Triumph (80) - {T}: Add {R} or {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck22 cast Dauntless Veteran (118)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck22 activated Adventuring Gear (63) targeting [Dauntless Veteran (118)]
+Resolve stack: Adventuring Gear (63) -  Attach to Dauntless Veteran (118)
+Phase: Ai(2)-Gen2_Deck22's End step
+Phase: Ai(2)-Gen2_Deck22's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Tribute to Hunger (30) targeting [Ai(2)-Gen2_Deck22]
+Resolve stack: Tribute to Hunger (30) - Ai(2)-Gen2_Deck22 sacrifices a creature. Ai(1)-Gen2_Deck17 gains life equal to that creature's toughness. 
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Cryptic Caves (1)
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen2_Deck17 draws a card.
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 assigned Juggernaut (8) to attack Ai(2)-Gen2_Deck22.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck22 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen2_Deck22.
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck22)
+Phase: Ai(2)-Gen2_Deck22's Untap step
+Phase: Ai(2)-Gen2_Deck22's Upkeep step
+Phase: Ai(2)-Gen2_Deck22's Draw step
+Phase: Ai(2)-Gen2_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck22's End of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck22's End step
+Phase: Ai(2)-Gen2_Deck22's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Swamp (22)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 assigned Juggernaut (8) to attack Ai(2)-Gen2_Deck22.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck22 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen2_Deck22.
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck22)
+Phase: Ai(2)-Gen2_Deck22's Untap step
+Phase: Ai(2)-Gen2_Deck22's Upkeep step
+Phase: Ai(2)-Gen2_Deck22's Draw step
+Phase: Ai(2)-Gen2_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck22's End of Combat Step
+Phase: Ai(2)-Gen2_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck22's End step
+Phase: Ai(2)-Gen2_Deck22's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Swamp (19)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 assigned Juggernaut (8) to attack Ai(2)-Gen2_Deck22.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck22 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen2_Deck22.
+Player control: Ai(1)-Gen2_Deck17 is controlled by Ai(1)-Gen2_Deck17
+Player control: Ai(2)-Gen2_Deck22 is controlled by Ai(2)-Gen2_Deck22
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck17 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck22 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck17: 1 Ai(2)-Gen2_Deck22: 0 
+
+Game Result: Game 1 ended in 9997 ms. Ai(1)-Gen2_Deck17 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,799 @@
+=== COMBATE PARALELO: Gen0_Deck18 vs Gen0_Deck36 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck18 Gen0_Deck36 -n 1
+Duración: 62.23 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1910 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 86 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck18 vs Ai(2)-Gen0_Deck36 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck36 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck18 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck36 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen0_Deck18 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen0_Deck36 played Scoured Barrens (79)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Scoured Barrens (79)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (79)]
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Replacement Effect: Dimir Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck18 played Dimir Guildgate (38)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(2)-Gen0_Deck36 played Temple of Triumph (73)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Temple of Triumph (73)
+Resolve stack: Ai(2)-Gen0_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (73)]
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Swamp (11)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Dimir Guildgate (38) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Diamond Mare (7)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Mountain (112)
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Resolute Reinforcements (103)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck36 triggered Resolute Reinforcements (103)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (103)]
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Island (30)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Diamond Mare (7) to attack Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Diamond Mare (7).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Diamond Mare (7) deals 1 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Island (30) - {T}: Add {U}.
+Mana: Dimir Guildgate (38) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Infernal Vessel (51)
+Add to stack: Ai(1)-Gen0_Deck18 triggered Diamond Mare (7)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Infernal Vessel (51), Activator: Ai(1)-Gen0_Deck18, SpellAbility: Infernal Vessel - Creature 2 / 1]
+Resolve stack: Infernal Vessel - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Plains (89)
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mentor of the Meek (62)
+Resolve stack: Mentor of the Meek - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Resolute Reinforcements (103) and Soldier Token (124) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 didn't block Resolute Reinforcements (103).
+Ai(1)-Gen0_Deck18 didn't block Soldier Token (124).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Resolute Reinforcements (103) deals 1 combat damage to Ai(1)-Gen0_Deck18.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Swamp (12)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Island (30) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Nine-Lives Familiar (57)
+Add to stack: Ai(1)-Gen0_Deck18 triggered Diamond Mare (7)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Nine-Lives Familiar (57), Activator: Ai(1)-Gen0_Deck18, SpellAbility: Nine-Lives Familiar - Creature 1 / 1]
+Replacement Effect: This creature enters with eight revival counters on it if you cast it.
+Resolve stack: Nine-Lives Familiar - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mentor of the Meek (64)
+Resolve stack: Mentor of the Meek - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (62)
+Mana: Temple of Triumph (73) - {T}: Add {R} or {W}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Mentor of the Meek (64)]
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck36 played Mountain (111)
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Swamp (10)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Island (30) - {T}: Add {U}.
+Mana: Dimir Guildgate (38) - {T}: Add {U} or {B}.
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Swamp (10) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Archmage of Runes (32)
+Resolve stack: Archmage of Runes - Creature 3 / 6
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mortify (76) targeting [Archmage of Runes (32)]
+Resolve stack: Mortify (76) - Destroy Archmage of Runes (32).
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Demolition Field (108)
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Temple of Triumph (73) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen0_Deck36 activated Demolition Field (108) targeting [Dimir Guildgate (38)]
+Resolve stack: Demolition Field (108) - Destroy Dimir Guildgate (38). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck36 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Island (30) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Vampire Interloper (2)
+Add to stack: Ai(1)-Gen0_Deck18 triggered Diamond Mare (7)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Vampire Interloper (2), Activator: Ai(1)-Gen0_Deck18, SpellAbility: Vampire Interloper - Creature 2 / 1]
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Claws Out (92)
+Resolve stack: Claws Out (92) - Creatures you control get +2/+2 until end of turn.
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Mentor of the Meek (62), Mentor of the Meek (64), Resolute Reinforcements (103) and Soldier Token (124) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 didn't block Mentor of the Meek (64).
+Ai(1)-Gen0_Deck18 didn't block Resolute Reinforcements (103).
+Ai(1)-Gen0_Deck18 assigned Infernal Vessel (51) and Diamond Mare (7) to block Soldier Token (124).
+Ai(1)-Gen0_Deck18 didn't block Mentor of the Meek (62).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Mentor of the Meek (62) deals 4 combat damage to Ai(1)-Gen0_Deck18.
+Damage: Mentor of the Meek (64) deals 4 combat damage to Ai(1)-Gen0_Deck18.
+Damage: Resolute Reinforcements (103) deals 3 combat damage to Ai(1)-Gen0_Deck18.
+Damage: Soldier Token (124) deals 1 damage () to Infernal Vessel (51).
+Damage: Soldier Token (124) deals 2 damage () to Diamond Mare (7).
+Damage: Infernal Vessel (51) deals 2 damage () to Soldier Token (124).
+Damage: Diamond Mare (7) deals 1 damage () to Soldier Token (124).
+Add to stack: Ai(1)-Gen0_Deck18 triggered Infernal Vessel (51)
+Resolve stack: When this creature dies, if it wasn't a Demon, return it to the battlefield under its owner's control with two +1/+1 counters on it. It's a Demon in addition to its other types. [Zone Changer: Infernal Vessel (51)]
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Vampire Interloper (2), Infernal Vessel (51), Diamond Mare (7) and Nine-Lives Familiar (57) to attack Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Vampire Interloper (2).
+Ai(2)-Gen0_Deck36 didn't block Infernal Vessel (51).
+Ai(2)-Gen0_Deck36 didn't block Diamond Mare (7).
+Ai(2)-Gen0_Deck36 didn't block Nine-Lives Familiar (57).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Vampire Interloper (2) deals 2 combat damage to Ai(2)-Gen0_Deck36.
+Damage: Infernal Vessel (51) deals 4 combat damage to Ai(2)-Gen0_Deck36.
+Damage: Diamond Mare (7) deals 1 combat damage to Ai(2)-Gen0_Deck36.
+Damage: Nine-Lives Familiar (57) deals 1 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Mentor of the Meek (62), Mentor of the Meek (64) and Resolute Reinforcements (103) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 didn't block Mentor of the Meek (64).
+Ai(1)-Gen0_Deck18 didn't block Resolute Reinforcements (103).
+Ai(1)-Gen0_Deck18 didn't block Mentor of the Meek (62).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Mentor of the Meek (62) deals 2 combat damage to Ai(1)-Gen0_Deck18.
+Damage: Mentor of the Meek (64) deals 2 combat damage to Ai(1)-Gen0_Deck18.
+Damage: Resolute Reinforcements (103) deals 1 combat damage to Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(2)-Gen0_Deck36 played Temple of Triumph (72)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Temple of Triumph (72)
+Resolve stack: Ai(2)-Gen0_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (72)]
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Jazal Goldmane (83)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Vampire Interloper (2) to attack Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Vampire Interloper (2).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Vampire Interloper (2) deals 2 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Island (30) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Diamond Mare (6)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Jazal Goldmane (83) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Nine-Lives Familiar (57) to block Jazal Goldmane (83).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (83) deals 4 damage () to Nine-Lives Familiar (57).
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: When this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step. [Zone Changer: Nine-Lives Familiar (57)]
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Temple of Triumph (73) - {T}: Add {R} or {W}.
+Mana: Temple of Triumph (72) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Chandra, Flameshaper (104)
+Mana: Island (25) - {T}: Add {U}.
+Mana: Swamp (12) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Flashfreeze (33) targeting [Chandra, Flameshaper]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: Flashfreeze (33) - Counter Chandra, Flameshaper (104).
+Phase: Ai(2)-Gen0_Deck36's End step
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: Return this creature to the battlefield with one fewer revival counter on it at the beginning of the next end step. ([Nine-Lives Familiar (57)]) [Phase: Ai(2)-Gen0_Deck36]
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Vampire Interloper (2) and Infernal Vessel (51) to attack Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 didn't block Vampire Interloper (2).
+Ai(2)-Gen0_Deck36 didn't block Infernal Vessel (51).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Vampire Interloper (2) deals 2 combat damage to Ai(2)-Gen0_Deck36.
+Damage: Infernal Vessel (51) deals 4 combat damage to Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mortify (78) targeting [Vampire Interloper (2)]
+Resolve stack: Mortify (78) - Destroy Vampire Interloper (2).
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Temple of Triumph (73) - {T}: Add {R} or {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Temple of Triumph (72) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Claws Out (93)
+Resolve stack: Claws Out (93) - Creatures you control get +2/+2 until end of turn.
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Jazal Goldmane (83), Mentor of the Meek (62) and Mentor of the Meek (64) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Diamond Mare (6) to block Mentor of the Meek (64).
+Ai(1)-Gen0_Deck18 assigned Nine-Lives Familiar (57) to block Jazal Goldmane (83).
+Ai(1)-Gen0_Deck18 assigned Diamond Mare (7) to block Mentor of the Meek (62).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (83) deals 6 damage () to Nine-Lives Familiar (57).
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: When this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step. [Zone Changer: Nine-Lives Familiar (57)]
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Mentor of the Meek (62) deals 4 damage () to Diamond Mare (7).
+Damage: Mentor of the Meek (64) deals 4 damage () to Diamond Mare (6).
+Damage: Diamond Mare (6) deals 1 damage () to Mentor of the Meek (64).
+Damage: Diamond Mare (7) deals 1 damage () to Mentor of the Meek (62).
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: Return this creature to the battlefield with one fewer revival counter on it at the beginning of the next end step. ([Nine-Lives Familiar (57)]) [Phase: Ai(2)-Gen0_Deck36]
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Land: Ai(1)-Gen0_Deck18 played Island (24)
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Island (30) - {T}: Add {U}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Swamp (10) - {T}: Add {B}.
+Mana: Island (25) - {T}: Add {U}.
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Maalfeld Twins (56)
+Resolve stack: Maalfeld Twins - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Resolute Reinforcements (103) and Jazal Goldmane (83) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Nine-Lives Familiar (57) to block Jazal Goldmane (83).
+Ai(1)-Gen0_Deck18 assigned Infernal Vessel (51) to block Resolute Reinforcements (103).
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck36 activated Jazal Goldmane (83)
+Resolve stack: Jazal Goldmane (83) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Mana: Temple of Triumph (73) - {T}: Add {R} or {W}.
+Mana: Temple of Triumph (72) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Sure Strike (65) targeting [Resolute Reinforcements (103)]
+Resolve stack: Sure Strike (65) - Resolute Reinforcements (103) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Resolute Reinforcements (103) deals 6 damage () to Infernal Vessel (51).
+Damage: Jazal Goldmane (83) deals 6 damage () to Nine-Lives Familiar (57).
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: When this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step. [Zone Changer: Nine-Lives Familiar (57)]
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: Return this creature to the battlefield with one fewer revival counter on it at the beginning of the next end step. ([Nine-Lives Familiar (57)]) [Phase: Ai(2)-Gen0_Deck36]
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Island (30) - {T}: Add {U}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Swamp (10) - {T}: Add {B}.
+Mana: Island (25) - {T}: Add {U}.
+Mana: Island (24) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Maalfeld Twins (54)
+Resolve stack: Maalfeld Twins - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mentor of the Meek (63)
+Resolve stack: Mentor of the Meek - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (62)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (64)
+Mana: Swamp (70) - {T}: Add {B}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Mentor of the Meek (63)]
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Mentor of the Meek (63)]
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Jazal Goldmane (83) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Nine-Lives Familiar (57) to block Jazal Goldmane (83).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (83) deals 4 damage () to Nine-Lives Familiar (57).
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: When this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step. [Zone Changer: Nine-Lives Familiar (57)]
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck36's End step
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: Return this creature to the battlefield with one fewer revival counter on it at the beginning of the next end step. ([Nine-Lives Familiar (57)]) [Phase: Ai(2)-Gen0_Deck36]
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Island (30) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Vampire Nighthawk (35)
+Resolve stack: Vampire Nighthawk - Creature 2 / 3
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Plains (90)
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Jazal Goldmane (83) to attack Ai(1)-Gen0_Deck18.
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Nine-Lives Familiar (57) to block Jazal Goldmane (83).
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (83) deals 4 damage () to Nine-Lives Familiar (57).
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: When this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step. [Zone Changer: Nine-Lives Familiar (57)]
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Dauntless Veteran (116)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (62)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (63)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (64)
+Mana: Mountain (111) - {T}: Add {R}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Dauntless Veteran (116)]
+Mana: Swamp (70) - {T}: Add {B}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Dauntless Veteran (116)]
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Dauntless Veteran (116)]
+Phase: Ai(2)-Gen0_Deck36's End step
+Add to stack: Ai(1)-Gen0_Deck18 triggered Nine-Lives Familiar (57)
+Resolve stack: Return this creature to the battlefield with one fewer revival counter on it at the beginning of the next end step. ([Nine-Lives Familiar (57)]) [Phase: Ai(2)-Gen0_Deck36]
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Mountain (113)
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Jazal Goldmane (83) to attack Ai(1)-Gen0_Deck18.
+Mana: Island (30) - {T}: Add {U}.
+Mana: Swamp (11) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Burrog Befuddler (41)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck18 triggered Burrog Befuddler (41) targeting [Jazal Goldmane (83)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Jazal Goldmane (83)]]) [Zone Changer: Burrog Befuddler (41)]
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Maalfeld Twins (56) to block Jazal Goldmane (83).
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (70) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck36 activated Jazal Goldmane (83)
+Resolve stack: Jazal Goldmane (83) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (83) deals 4 damage () to Maalfeld Twins (56).
+Add to stack: Ai(1)-Gen0_Deck18 triggered Maalfeld Twins (56)
+Resolve stack: When Maalfeld Twins dies, create two 2/2 black Zombie creature tokens. [Zone Changer: Maalfeld Twins (56)]
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck36's End of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Main phase, postcombat
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Temple of Triumph (73) - {T}: Add {R} or {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Dauntless Veteran (115)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (62)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (63)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Mentor of the Meek (64)
+Mana: Temple of Triumph (72) - {T}: Add {R} or {W}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Dauntless Veteran (115)]
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Dauntless Veteran (115)]
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Dauntless Veteran (115)]
+Phase: Ai(2)-Gen0_Deck36's End step
+Phase: Ai(2)-Gen0_Deck36's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen0_Deck18)
+Phase: Ai(1)-Gen0_Deck18's Untap step
+Phase: Ai(1)-Gen0_Deck18's Upkeep step
+Phase: Ai(1)-Gen0_Deck18's Draw step
+Phase: Ai(1)-Gen0_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Maalfeld Twins (54) to attack Ai(2)-Gen0_Deck36.
+Phase: Ai(1)-Gen0_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Resolute Reinforcements (103) to block Maalfeld Twins (54).
+Phase: Ai(1)-Gen0_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck18's Combat Damage Step
+Damage: Maalfeld Twins (54) deals 4 damage () to Resolute Reinforcements (103).
+Damage: Resolute Reinforcements (103) deals 1 damage () to Maalfeld Twins (54).
+Phase: Ai(1)-Gen0_Deck18's End of Combat Step
+Phase: Ai(1)-Gen0_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck18's End step
+Phase: Ai(1)-Gen0_Deck18's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen0_Deck36)
+Phase: Ai(2)-Gen0_Deck36's Untap step
+Phase: Ai(2)-Gen0_Deck36's Upkeep step
+Phase: Ai(2)-Gen0_Deck36's Draw step
+Mana: Swamp (70) - {T}: Add {B}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck36 cast Mortify (75) targeting [Vampire Nighthawk (35)]
+Resolve stack: Mortify (75) - Destroy Vampire Nighthawk (35).
+Phase: Ai(2)-Gen0_Deck36's Main phase, precombat
+Land: Ai(2)-Gen0_Deck36 played Plains (87)
+Phase: Ai(2)-Gen0_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck36 assigned Jazal Goldmane (83), Mentor of the Meek (62), Mentor of the Meek (64), Mentor of the Meek (63), Dauntless Veteran (116) and Dauntless Veteran (115) to attack Ai(1)-Gen0_Deck18.
+Add to stack: Ai(2)-Gen0_Deck36 triggered Dauntless Veteran (116)
+Add to stack: Ai(2)-Gen0_Deck36 triggered Dauntless Veteran (115)
+Mana: Island (30) - {T}: Add {U}.
+Mana: Swamp (11) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck18 cast Burrog Befuddler (42)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck18 triggered Burrog Befuddler (42) targeting [Jazal Goldmane (83)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Jazal Goldmane (83)]]) [Zone Changer: Burrog Befuddler (42)]
+Resolve stack: Whenever Dauntless Veteran attacks, creatures you control get +1/+1 until end of turn. [Attacker: Dauntless Veteran (115)]
+Resolve stack: Whenever Dauntless Veteran attacks, creatures you control get +1/+1 until end of turn. [Attacker: Dauntless Veteran (116)]
+Phase: Ai(2)-Gen0_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck18 assigned Nine-Lives Familiar (57) to block Mentor of the Meek (64).
+Ai(1)-Gen0_Deck18 assigned Zombie Token (128) to block Jazal Goldmane (83).
+Ai(1)-Gen0_Deck18 didn't block Dauntless Veteran (115).
+Ai(1)-Gen0_Deck18 assigned Burrog Befuddler (42) to block Dauntless Veteran (116).
+Ai(1)-Gen0_Deck18 assigned Zombie Token (129) to block Mentor of the Meek (62).
+Ai(1)-Gen0_Deck18 assigned Burrog Befuddler (41) to block Mentor of the Meek (63).
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen0_Deck36 activated Jazal Goldmane (83)
+Resolve stack: Jazal Goldmane (83) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(2)-Gen0_Deck36's First Strike Damage Step
+Damage: Jazal Goldmane (83) deals 11 damage () to Zombie Token (128).
+Phase: Ai(2)-Gen0_Deck36's Combat Damage Step
+Damage: Mentor of the Meek (62) deals 10 damage () to Zombie Token (129).
+Damage: Mentor of the Meek (64) deals 10 damage () to Nine-Lives Familiar (57).
+Damage: Mentor of the Meek (63) deals 10 damage () to Burrog Befuddler (41).
+Damage: Dauntless Veteran (116) deals 10 damage () to Burrog Befuddler (42).
+Damage: Dauntless Veteran (115) deals 10 combat damage to Ai(1)-Gen0_Deck18.
+Damage: Burrog Befuddler (42) deals 2 damage () to Dauntless Veteran (116).
+Damage: Zombie Token (129) deals 2 damage () to Mentor of the Meek (62).
+Damage: Nine-Lives Familiar (57) deals 1 damage () to Mentor of the Meek (64).
+Damage: Burrog Befuddler (41) deals 2 damage () to Mentor of the Meek (63).
+Player control: Ai(1)-Gen0_Deck18 is controlled by Ai(1)-Gen0_Deck18
+Player control: Ai(2)-Gen0_Deck36 is controlled by Ai(2)-Gen0_Deck36
+Game outcome: Turn 15
+Game outcome: Ai(1)-Gen0_Deck18 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck36 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck18: 0 Ai(2)-Gen0_Deck36: 1 
+
+Game Result: Game 1 ended in 49479 ms. Ai(2)-Gen0_Deck36 has won!
+
+
+=== STDERR ===

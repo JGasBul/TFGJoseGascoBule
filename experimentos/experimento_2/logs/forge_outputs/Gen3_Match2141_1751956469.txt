@@ -1,0 +1,456 @@
+=== COMBATE PARALELO: Gen3_Deck31 vs Gen3_Deck48 ===
+Worker ID: 909535
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck31 Gen3_Deck48 -n 1
+Duración: 24.56 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1884 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 91 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck31 vs Ai(2)-Gen3_Deck48 - one game of Constructed
+Mulligan: Ai(2)-Gen3_Deck48 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen3_Deck31 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen3_Deck48 played Scoured Barrens (74)
+Add to stack: Ai(2)-Gen3_Deck48 triggered Scoured Barrens (74)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (74)]
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Land: Ai(1)-Gen3_Deck31 played Forest (37)
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Land: Ai(2)-Gen3_Deck48 played Forest (88)
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Scoured Barrens (74) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen3_Deck48 cast Gleaming Barrier (71)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Land: Ai(1)-Gen3_Deck31 played Mountain (53)
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck31 cast Campus Guide (15)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen3_Deck31 triggered Campus Guide (15)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (15)]
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen3_Deck48 played Scoured Barrens (76)
+Add to stack: Ai(2)-Gen3_Deck48 triggered Scoured Barrens (76)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (76)]
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Land: Ai(1)-Gen3_Deck31 played Forest (35)
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck31 cast Giant Growth (7) targeting [Campus Guide (15)]
+Resolve stack: Giant Growth (7) - Campus Guide (15) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 assigned Campus Guide (15) to attack Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck48 didn't block Campus Guide (15).
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Damage: Campus Guide (15) deals 5 combat damage to Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck31 cast Courageous Goblin (4)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Land: Ai(2)-Gen3_Deck48 played Plains (99)
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Scoured Barrens (74) - {T}: Add {W} or {B}.
+Mana: Scoured Barrens (76) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen3_Deck48 cast Vanguard Seraph (117)
+Resolve stack: Vanguard Seraph - Creature 3 / 3
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Land: Ai(1)-Gen3_Deck31 played Mountain (51)
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 assigned Campus Guide (15) to attack Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Vanguard Seraph (117) to block Campus Guide (15).
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck31 cast Giant Growth (8) targeting [Campus Guide (15)]
+Resolve stack: Giant Growth (8) - Campus Guide (15) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Damage: Campus Guide (15) deals 5 damage () to Vanguard Seraph (117).
+Damage: Vanguard Seraph (117) deals 3 damage () to Campus Guide (15).
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Land: Ai(2)-Gen3_Deck48 played Forest (87)
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Land: Ai(1)-Gen3_Deck31 played Forest (31)
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 assigned Courageous Goblin (4) and Campus Guide (15) to attack Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Gleaming Barrier (71) to block Courageous Goblin (4).
+Ai(2)-Gen3_Deck48 didn't block Campus Guide (15).
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Damage: Courageous Goblin (4) deals 2 damage () to Gleaming Barrier (71).
+Damage: Campus Guide (15) deals 2 combat damage to Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck31 cast Elfsworn Giant (39)
+Resolve stack: Elfsworn Giant - Creature 5 / 3
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Land: Ai(2)-Gen3_Deck48 played Island (111)
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Mana: Island (111) - {T}: Add {U}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (87) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen3_Deck48 cast Kykar, Zephyr Awakener (94)
+Resolve stack: Kykar, Zephyr Awakener - Creature 3 / 4
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Land: Ai(1)-Gen3_Deck31 played Mountain (52)
+Add to stack: Ai(1)-Gen3_Deck31 triggered Elfsworn Giant (39)
+Resolve stack: Landfall — Whenever a land you control enters, create a 1/1 green Elf Warrior creature token. [Zone Changer: Mountain (52)]
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 assigned Elfsworn Giant (39) to attack Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck48 didn't block Elfsworn Giant (39).
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Damage: Elfsworn Giant (39) deals 5 combat damage to Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Land: Ai(2)-Gen3_Deck48 played Forest (86)
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Kykar, Zephyr Awakener (94) to attack Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck31 didn't block Kykar, Zephyr Awakener (94).
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (94) deals 3 combat damage to Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Island (111) - {T}: Add {U}.
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Scoured Barrens (74) - {T}: Add {W} or {B}.
+Mana: Scoured Barrens (76) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen3_Deck48 cast Meteor Golem (72)
+Resolve stack: Meteor Golem - Creature 3 / 3
+Add to stack: Ai(2)-Gen3_Deck48 triggered Meteor Golem (72) targeting [Elfsworn Giant (39)]
+Resolve stack: When Meteor Golem enters, destroy target nonland permanent an opponent controls. (Targeting: [[Elfsworn Giant (39)]]) [Zone Changer: Meteor Golem (72)]
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Land: Ai(1)-Gen3_Deck31 played Mountain (54)
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Kykar, Zephyr Awakener (94) and Meteor Golem (72) to attack Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck31 didn't block Meteor Golem (72).
+Ai(1)-Gen3_Deck31 didn't block Kykar, Zephyr Awakener (94).
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (94) deals 3 combat damage to Ai(1)-Gen3_Deck31.
+Damage: Meteor Golem (72) deals 3 combat damage to Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Land: Ai(2)-Gen3_Deck48 played Cryptic Caves (64)
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen3_Deck48 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen3_Deck48 draws a card.
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 assigned Courageous Goblin (4) to attack Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Gleaming Barrier (71) to block Courageous Goblin (4).
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Damage: Courageous Goblin (4) deals 2 damage () to Gleaming Barrier (71).
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Land: Ai(1)-Gen3_Deck31 played Forest (36)
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Kykar, Zephyr Awakener (94) and Meteor Golem (72) to attack Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck31 didn't block Meteor Golem (72).
+Ai(1)-Gen3_Deck31 didn't block Kykar, Zephyr Awakener (94).
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (94) deals 3 combat damage to Ai(1)-Gen3_Deck31.
+Damage: Meteor Golem (72) deals 3 combat damage to Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Land: Ai(2)-Gen3_Deck48 played Forest (83)
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 assigned Courageous Goblin (4) to attack Ai(2)-Gen3_Deck48.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Gleaming Barrier (71) to block Courageous Goblin (4).
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Damage: Courageous Goblin (4) deals 2 damage () to Gleaming Barrier (71).
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Kykar, Zephyr Awakener (94) and Meteor Golem (72) to attack Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck31 assigned Elf Warrior Token (123) and Campus Guide (15) to block Meteor Golem (72).
+Ai(1)-Gen3_Deck31 didn't block Kykar, Zephyr Awakener (94).
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (94) deals 3 combat damage to Ai(1)-Gen3_Deck31.
+Damage: Meteor Golem (72) deals 1 damage () to Elf Warrior Token (123).
+Damage: Meteor Golem (72) deals 2 damage () to Campus Guide (15).
+Damage: Elf Warrior Token (123) deals 1 damage () to Meteor Golem (72).
+Damage: Campus Guide (15) deals 2 damage () to Meteor Golem (72).
+Phase: Ai(2)-Gen3_Deck48's End of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Main phase, postcombat
+Land: Ai(2)-Gen3_Deck48 played Plains (103)
+Phase: Ai(2)-Gen3_Deck48's End step
+Phase: Ai(2)-Gen3_Deck48's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen3_Deck31)
+Phase: Ai(1)-Gen3_Deck31's Untap step
+Phase: Ai(1)-Gen3_Deck31's Upkeep step
+Phase: Ai(1)-Gen3_Deck31's Draw step
+Phase: Ai(1)-Gen3_Deck31's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck31 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck31's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck31's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck31's End of Combat Step
+Phase: Ai(1)-Gen3_Deck31's Main phase, postcombat
+Land: Ai(1)-Gen3_Deck31 played Mountain (50)
+Phase: Ai(1)-Gen3_Deck31's End step
+Phase: Ai(1)-Gen3_Deck31's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen3_Deck48)
+Phase: Ai(2)-Gen3_Deck48's Untap step
+Phase: Ai(2)-Gen3_Deck48's Upkeep step
+Phase: Ai(2)-Gen3_Deck48's Draw step
+Phase: Ai(2)-Gen3_Deck48's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck48's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck48's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck48 assigned Kykar, Zephyr Awakener (94) to attack Ai(1)-Gen3_Deck31.
+Phase: Ai(2)-Gen3_Deck48's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck31 didn't block Kykar, Zephyr Awakener (94).
+Phase: Ai(2)-Gen3_Deck48's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck48's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (94) deals 3 combat damage to Ai(1)-Gen3_Deck31.
+Player control: Ai(1)-Gen3_Deck31 is controlled by Ai(1)-Gen3_Deck31
+Player control: Ai(2)-Gen3_Deck48 is controlled by Ai(2)-Gen3_Deck48
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen3_Deck31 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck48 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck31: 0 Ai(2)-Gen3_Deck48: 1 
+
+Game Result: Game 1 ended in 12961 ms. Ai(2)-Gen3_Deck48 has won!
+
+
+=== STDERR ===

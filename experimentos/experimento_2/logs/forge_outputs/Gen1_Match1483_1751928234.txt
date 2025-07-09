@@ -1,0 +1,326 @@
+=== COMBATE PARALELO: Gen1_Deck18 vs Gen1_Deck31 ===
+Worker ID: 3987559
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck18 Gen1_Deck31 -n 1
+Duración: 20.20 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1787 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 64 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck18 vs Ai(2)-Gen1_Deck31 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck31 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck18 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck31)
+Phase: Ai(2)-Gen1_Deck31's Untap step
+Phase: Ai(2)-Gen1_Deck31's Upkeep step
+Phase: Ai(2)-Gen1_Deck31's Draw step
+Phase: Ai(2)-Gen1_Deck31's Main phase, precombat
+Land: Ai(2)-Gen1_Deck31 played Swamp (84)
+Phase: Ai(2)-Gen1_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck31's End of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck31's End step
+Phase: Ai(2)-Gen1_Deck31's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck18)
+Phase: Ai(1)-Gen1_Deck18's Untap step
+Phase: Ai(1)-Gen1_Deck18's Upkeep step
+Phase: Ai(1)-Gen1_Deck18's Draw step
+Phase: Ai(1)-Gen1_Deck18's Main phase, precombat
+Land: Ai(1)-Gen1_Deck18 played Plains (48)
+Phase: Ai(1)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck18's End of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck18's End step
+Phase: Ai(1)-Gen1_Deck18's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck31)
+Phase: Ai(2)-Gen1_Deck31's Untap step
+Phase: Ai(2)-Gen1_Deck31's Upkeep step
+Phase: Ai(2)-Gen1_Deck31's Draw step
+Phase: Ai(2)-Gen1_Deck31's Main phase, precombat
+Land: Ai(2)-Gen1_Deck31 played Rogue's Passage (69)
+Phase: Ai(2)-Gen1_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck31's End of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Main phase, postcombat
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Rogue's Passage (69) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck31 cast Gleaming Barrier (78)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen1_Deck31's End step
+Phase: Ai(2)-Gen1_Deck31's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck18)
+Phase: Ai(1)-Gen1_Deck18's Untap step
+Phase: Ai(1)-Gen1_Deck18's Upkeep step
+Phase: Ai(1)-Gen1_Deck18's Draw step
+Phase: Ai(1)-Gen1_Deck18's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck18 played Secluded Courtyard (32)
+Phase: Ai(1)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck18's End of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (48) - {T}: Add {W}.
+Mana: Secluded Courtyard (32) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck18 cast Campus Guide (11)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen1_Deck18 triggered Campus Guide (11)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (11)]
+Phase: Ai(1)-Gen1_Deck18's End step
+Phase: Ai(1)-Gen1_Deck18's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck31)
+Phase: Ai(2)-Gen1_Deck31's Untap step
+Phase: Ai(2)-Gen1_Deck31's Upkeep step
+Phase: Ai(2)-Gen1_Deck31's Draw step
+Phase: Ai(2)-Gen1_Deck31's Main phase, precombat
+Land: Ai(2)-Gen1_Deck31 played Rogue's Passage (71)
+Phase: Ai(2)-Gen1_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck31's End of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Main phase, postcombat
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Rogue's Passage (69) - {T}: Add {C}.
+Mana: Rogue's Passage (71) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck31 cast Burnished Hart (91)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck31's End step
+Phase: Ai(2)-Gen1_Deck31's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck18)
+Phase: Ai(1)-Gen1_Deck18's Untap step
+Phase: Ai(1)-Gen1_Deck18's Upkeep step
+Phase: Ai(1)-Gen1_Deck18's Draw step
+Phase: Ai(1)-Gen1_Deck18's Main phase, precombat
+Land: Ai(1)-Gen1_Deck18 played Swamp (17)
+Phase: Ai(1)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck18 didn't attack this turn.
+Mana: Plains (48) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Secluded Courtyard (32) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck18 cast Make Your Move (10) targeting [Burnished Hart (91)]
+Resolve stack: Make Your Move (10) - Destroy Burnished Hart (91).
+Phase: Ai(1)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck18's End of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck18's End step
+Phase: Ai(1)-Gen1_Deck18's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck31)
+Phase: Ai(2)-Gen1_Deck31's Untap step
+Phase: Ai(2)-Gen1_Deck31's Upkeep step
+Phase: Ai(2)-Gen1_Deck31's Draw step
+Phase: Ai(2)-Gen1_Deck31's Main phase, precombat
+Land: Ai(2)-Gen1_Deck31 played Plains (99)
+Phase: Ai(2)-Gen1_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck31's End of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck31's End step
+Phase: Ai(2)-Gen1_Deck31's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck18)
+Phase: Ai(1)-Gen1_Deck18's Untap step
+Phase: Ai(1)-Gen1_Deck18's Upkeep step
+Phase: Ai(1)-Gen1_Deck18's Draw step
+Phase: Ai(1)-Gen1_Deck18's Main phase, precombat
+Land: Ai(1)-Gen1_Deck18 played Plains (43)
+Phase: Ai(1)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck18's End of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (48) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Secluded Courtyard (32) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck18 cast Crypt Feaster (24)
+Resolve stack: Crypt Feaster - Creature 3 / 4
+Phase: Ai(1)-Gen1_Deck18's End step
+Phase: Ai(1)-Gen1_Deck18's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck31)
+Phase: Ai(2)-Gen1_Deck31's Untap step
+Phase: Ai(2)-Gen1_Deck31's Upkeep step
+Phase: Ai(2)-Gen1_Deck31's Draw step
+Phase: Ai(2)-Gen1_Deck31's Main phase, precombat
+Land: Ai(2)-Gen1_Deck31 played Plains (98)
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Rogue's Passage (71) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck31 activated Rogue's Passage (69) targeting [Gleaming Barrier (78)]
+Resolve stack: Rogue's Passage (69) - Gleaming Barrier (78) can't be blocked this turn.
+Phase: Ai(2)-Gen1_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck31's End of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck31's End step
+Phase: Ai(2)-Gen1_Deck31's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck18)
+Phase: Ai(1)-Gen1_Deck18's Untap step
+Phase: Ai(1)-Gen1_Deck18's Upkeep step
+Phase: Ai(1)-Gen1_Deck18's Draw step
+Phase: Ai(1)-Gen1_Deck18's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck18 played Secluded Courtyard (34)
+Phase: Ai(1)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck18 assigned Crypt Feaster (24) and Campus Guide (11) to attack Ai(2)-Gen1_Deck31.
+Phase: Ai(1)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck31 didn't block Crypt Feaster (24).
+Ai(2)-Gen1_Deck31 assigned Gleaming Barrier (78) to block Campus Guide (11).
+Phase: Ai(1)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck18's Combat Damage Step
+Damage: Crypt Feaster (24) deals 3 combat damage to Ai(2)-Gen1_Deck31.
+Damage: Campus Guide (11) deals 2 damage () to Gleaming Barrier (78).
+Phase: Ai(1)-Gen1_Deck18's End of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (48) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Secluded Courtyard (32) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck18 cast Juggernaut (8)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen1_Deck18's End step
+Phase: Ai(1)-Gen1_Deck18's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck31)
+Phase: Ai(2)-Gen1_Deck31's Untap step
+Phase: Ai(2)-Gen1_Deck31's Upkeep step
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Rogue's Passage (71) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck31 activated Rogue's Passage (69) targeting [Gleaming Barrier (78)]
+Resolve stack: Rogue's Passage (69) - Gleaming Barrier (78) can't be blocked this turn.
+Phase: Ai(2)-Gen1_Deck31's Draw step
+Phase: Ai(2)-Gen1_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck31's End of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck31's End step
+Phase: Ai(2)-Gen1_Deck31's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck18)
+Phase: Ai(1)-Gen1_Deck18's Untap step
+Phase: Ai(1)-Gen1_Deck18's Upkeep step
+Phase: Ai(1)-Gen1_Deck18's Draw step
+Phase: Ai(1)-Gen1_Deck18's Main phase, precombat
+Land: Ai(1)-Gen1_Deck18 played Plains (45)
+Phase: Ai(1)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck18 assigned Juggernaut (8), Crypt Feaster (24) and Campus Guide (11) to attack Ai(2)-Gen1_Deck31.
+Phase: Ai(1)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck31 didn't block Juggernaut (8).
+Ai(2)-Gen1_Deck31 didn't block Crypt Feaster (24).
+Ai(2)-Gen1_Deck31 assigned Gleaming Barrier (78) to block Campus Guide (11).
+Phase: Ai(1)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck18's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen1_Deck31.
+Damage: Crypt Feaster (24) deals 3 combat damage to Ai(2)-Gen1_Deck31.
+Damage: Campus Guide (11) deals 2 damage () to Gleaming Barrier (78).
+Phase: Ai(1)-Gen1_Deck18's End of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (48) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck18 cast Ajani, Caller of the Pride (27)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen1_Deck18 activated Ajani, Caller of the Pride (27) targeting [Crypt Feaster (24)]
+Resolve stack: Ajani, Caller of the Pride (27) - Ai(1)-Gen1_Deck18 puts a +1/+1 counter on Crypt Feaster (24).
+Phase: Ai(1)-Gen1_Deck18's End step
+Phase: Ai(1)-Gen1_Deck18's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck31)
+Phase: Ai(2)-Gen1_Deck31's Untap step
+Phase: Ai(2)-Gen1_Deck31's Upkeep step
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Rogue's Passage (71) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck31 activated Rogue's Passage (69) targeting [Gleaming Barrier (78)]
+Resolve stack: Rogue's Passage (69) - Gleaming Barrier (78) can't be blocked this turn.
+Phase: Ai(2)-Gen1_Deck31's Draw step
+Phase: Ai(2)-Gen1_Deck31's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck31's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck31 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck31's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck31's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck31's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck31's End of Combat Step
+Phase: Ai(2)-Gen1_Deck31's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck31's End step
+Phase: Ai(2)-Gen1_Deck31's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck18)
+Phase: Ai(1)-Gen1_Deck18's Untap step
+Phase: Ai(1)-Gen1_Deck18's Upkeep step
+Phase: Ai(1)-Gen1_Deck18's Draw step
+Phase: Ai(1)-Gen1_Deck18's Main phase, precombat
+Add to stack: Ai(1)-Gen1_Deck18 activated Ajani, Caller of the Pride (27) targeting [Crypt Feaster (24)]
+Resolve stack: Ajani, Caller of the Pride (27) - Ai(1)-Gen1_Deck18 puts a +1/+1 counter on Crypt Feaster (24).
+Phase: Ai(1)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck18 assigned Juggernaut (8), Crypt Feaster (24) and Campus Guide (11) to attack Ai(2)-Gen1_Deck31.
+Phase: Ai(1)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck31 didn't block Juggernaut (8).
+Ai(2)-Gen1_Deck31 didn't block Crypt Feaster (24).
+Ai(2)-Gen1_Deck31 assigned Gleaming Barrier (78) to block Campus Guide (11).
+Phase: Ai(1)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck18's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen1_Deck31.
+Damage: Crypt Feaster (24) deals 5 combat damage to Ai(2)-Gen1_Deck31.
+Damage: Campus Guide (11) deals 2 damage () to Gleaming Barrier (78).
+Player control: Ai(1)-Gen1_Deck18 is controlled by Ai(1)-Gen1_Deck18
+Player control: Ai(2)-Gen1_Deck31 is controlled by Ai(2)-Gen1_Deck31
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen1_Deck18 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck31 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck18: 1 Ai(2)-Gen1_Deck31: 0 
+
+Game Result: Game 1 ended in 9685 ms. Ai(1)-Gen1_Deck18 has won!
+
+
+=== STDERR ===

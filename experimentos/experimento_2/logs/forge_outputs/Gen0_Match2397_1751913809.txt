@@ -1,0 +1,846 @@
+=== COMBATE PARALELO: Gen0_Deck42 vs Gen0_Deck44 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck42 Gen0_Deck44 -n 1
+Duración: 132.66 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1673 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 201 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck42 vs Ai(2)-Gen0_Deck44 - one game of Constructed
+Stopping slow match as draw
+Mulligan: Ai(1)-Gen0_Deck42 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck44 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Replacement Effect: Golgari Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck42 played Golgari Guildgate (51)
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Forest (85)
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Bushwhack (119)
+Resolve stack: Bushwhack (119) -  Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Land: Ai(1)-Gen0_Deck42 played Plains (12)
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Replacement Effect: Temple of Plenty enters tapped.
+Land: Ai(2)-Gen0_Deck44 played Temple of Plenty (74)
+Add to stack: Ai(2)-Gen0_Deck44 triggered Temple of Plenty (74)
+Resolve stack: Ai(2)-Gen0_Deck44 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Plenty enters, scry 1. [Zone Changer: Temple of Plenty (74)]
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Bushwhack (117)
+Resolve stack: Bushwhack (117) -  Search your library for a basic land card, reveal it, put it into your hand, then shuffle.
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Replacement Effect: Rakdos Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck42 played Rakdos Guildgate (44)
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Cryptic Caves (62)
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Land: Ai(1)-Gen0_Deck42 played Island (20)
+Mana: Rakdos Guildgate (44) - {T}: Add {B} or {R}.
+Mana: Golgari Guildgate (51) - {T}: Add {B} or {G}.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Island (20) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Immersturm Predator (57)
+Resolve stack: Immersturm Predator - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Plains (98)
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Temple of Plenty (74) - {T}: Add {G} or {W}.
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Cryptic Caves (62) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Day of Judgment (112)
+Resolve stack: Day of Judgment (112) - Destroy all creatures.
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Land: Ai(1)-Gen0_Deck42 played Forest (8)
+Mana: Rakdos Guildgate (44) - {T}: Add {B} or {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Axgard Cavalry (5)
+Resolve stack: Axgard Cavalry - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Plains (99)
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Cryptic Caves (62)
+Resolve stack: Cryptic Caves (62) - Ai(2)-Gen0_Deck44 draws a card.
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 assigned Axgard Cavalry (5) to attack Ai(2)-Gen0_Deck44.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck44 didn't block Axgard Cavalry (5).
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Damage: Axgard Cavalry (5) deals 2 combat damage to Ai(2)-Gen0_Deck44.
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck42 played Mountain (54)
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Cryptic Caves (63)
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Temple of Plenty (74) - {T}: Add {G} or {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Wildheart Invoker (71)
+Resolve stack: Wildheart Invoker - Creature 4 / 3
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Island (20) - {T}: Add {U}.
+Mana: Forest (8) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Golgari Guildgate (51) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Angelic Edict (18) targeting [Wildheart Invoker (71)]
+Resolve stack: Angelic Edict (18) - Exile Wildheart Invoker (71).
+Land: Ai(1)-Gen0_Deck42 played Plains (14)
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 assigned Axgard Cavalry (5) to attack Ai(2)-Gen0_Deck44.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck44 didn't block Axgard Cavalry (5).
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Damage: Axgard Cavalry (5) deals 2 combat damage to Ai(2)-Gen0_Deck44.
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Cryptic Caves (63)
+Resolve stack: Cryptic Caves (63) - Ai(2)-Gen0_Deck44 draws a card.
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Forest (86)
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Temple of Plenty (74) - {T}: Add {G} or {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Dwynen, Gilt-Leaf Daen (78)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Land: Ai(1)-Gen0_Deck42 played Mountain (55)
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Island (20) - {T}: Add {U}.
+Mana: Forest (8) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Golgari Guildgate (51) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Sire of Seven Deaths (48)
+Resolve stack: Sire of Seven Deaths - Creature 7 / 7
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck42 activated Axgard Cavalry (5) targeting [Sire of Seven Deaths (48)]
+Resolve stack: Axgard Cavalry (5) - Sire of Seven Deaths (48) gains haste until end of turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 assigned Sire of Seven Deaths (48) to attack Ai(2)-Gen0_Deck44.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck44 didn't block Sire of Seven Deaths (48).
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Damage: Sire of Seven Deaths (48) deals 7 combat damage to Ai(2)-Gen0_Deck44.
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Plains (93)
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Temple of Plenty (74) - {T}: Add {G} or {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Aggressive Mammoth (110)
+Resolve stack: Aggressive Mammoth - Creature 8 / 8
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Courageous Goblin (1)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Replacement Effect: Golgari Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck42 played Golgari Guildgate (50)
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck44 played Forest (88)
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck44 played Forest (83)
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Swab Goblin (42)
+Resolve stack: Swab Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Forest (89)
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Apothecary Stomper (102)
+Resolve stack: Apothecary Stomper - Creature 4 / 4
+Add to stack: Ai(2)-Gen0_Deck44 triggered Apothecary Stomper (102)
+Resolve stack: When this creature enters, put two +1/+1 counters on target creature you control. (Targeting: Aggressive Mammoth (110)) [Zone Changer: Apothecary Stomper (102)]
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Golgari Guildgate (51) - {T}: Add {B} or {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Island (20) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Immersturm Predator (60)
+Resolve stack: Immersturm Predator - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck44 played Forest (84)
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Mossborn Hydra (120)
+Replacement Effect: Mossborn Hydra enters with a +1/+1 counter on it.
+Resolve stack: Mossborn Hydra - Creature 0 / 0
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(1)-Gen0_Deck42 played Thornwood Falls (22)
+Add to stack: Ai(1)-Gen0_Deck42 triggered Thornwood Falls (22)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (22)]
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Rogue's Passage (67)
+Add to stack: Ai(2)-Gen0_Deck44 triggered Mossborn Hydra (120)
+Resolve stack: Landfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature. [Zone Changer: Rogue's Passage (67)]
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Rogue's Passage (67) targeting [Aggressive Mammoth (110)]
+Resolve stack: Rogue's Passage (67) - Aggressive Mammoth (110) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Island (20) - {T}: Add {U}.
+Mana: Thornwood Falls (22) - {T}: Add {G} or {U}.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Forest (8) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Sphinx of Forgotten Lore (16)
+Resolve stack: Sphinx of Forgotten Lore - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(1)-Gen0_Deck42 played Thornwood Falls (23)
+Add to stack: Ai(1)-Gen0_Deck42 triggered Thornwood Falls (23)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (23)]
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Rogue's Passage (67) targeting [Aggressive Mammoth (110)]
+Resolve stack: Rogue's Passage (67) - Aggressive Mammoth (110) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Cryptic Caves (64)
+Add to stack: Ai(2)-Gen0_Deck44 triggered Mossborn Hydra (120)
+Resolve stack: Landfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature. [Zone Changer: Cryptic Caves (64)]
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen0_Deck44 draws a card.
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Replacement Effect: Rakdos Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck42 played Rakdos Guildgate (43)
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Rogue's Passage (67) targeting [Aggressive Mammoth (110)]
+Resolve stack: Rogue's Passage (67) - Aggressive Mammoth (110) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Land: Ai(2)-Gen0_Deck44 played Plains (95)
+Add to stack: Ai(2)-Gen0_Deck44 triggered Mossborn Hydra (120)
+Resolve stack: Landfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature. [Zone Changer: Plains (95)]
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Forest (84) - {T}: Add {G}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Aggressive Mammoth (108)
+Resolve stack: Aggressive Mammoth - Creature 8 / 8
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 31 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Island (20) - {T}: Add {U}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Kitesail Corsair (38)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 32 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Rogue's Passage (67) targeting [Aggressive Mammoth (110)]
+Resolve stack: Rogue's Passage (67) - Aggressive Mammoth (110) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Twinblade Paladin (81)
+Resolve stack: Twinblade Paladin - Creature 3 / 3
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 33 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 34 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Rogue's Passage (67) targeting [Aggressive Mammoth (110)]
+Resolve stack: Rogue's Passage (67) - Aggressive Mammoth (110) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 35 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Axgard Cavalry (6)
+Resolve stack: Axgard Cavalry - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 36 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Rogue's Passage (67) targeting [Aggressive Mammoth (110)]
+Resolve stack: Rogue's Passage (67) - Aggressive Mammoth (110) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck44's End of Combat Step
+Phase: Ai(2)-Gen0_Deck44's Main phase, postcombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (83) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Dazzling Angel (77)
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck44's End step
+Phase: Ai(2)-Gen0_Deck44's Cleanup step
+Turn: Turn 37 (Ai(1)-Gen0_Deck42)
+Phase: Ai(1)-Gen0_Deck42's Untap step
+Phase: Ai(1)-Gen0_Deck42's Upkeep step
+Phase: Ai(1)-Gen0_Deck42's Draw step
+Phase: Ai(1)-Gen0_Deck42's Main phase, precombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck42 cast Courageous Goblin (4)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck42's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck42 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck42's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck42's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck42's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck42's End of Combat Step
+Phase: Ai(1)-Gen0_Deck42's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck42's End step
+Phase: Ai(1)-Gen0_Deck42's Cleanup step
+Turn: Turn 38 (Ai(2)-Gen0_Deck44)
+Phase: Ai(2)-Gen0_Deck44's Untap step
+Phase: Ai(2)-Gen0_Deck44's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck44 activated Rogue's Passage (67) targeting [Aggressive Mammoth (110)]
+Resolve stack: Rogue's Passage (67) - Aggressive Mammoth (110) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck44's Draw step
+Phase: Ai(2)-Gen0_Deck44's Main phase, precombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (84) - {T}: Add {G}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck44 cast Guarded Heir (90)
+Resolve stack: Guarded Heir - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck44 triggered Dazzling Angel (77)
+Add to stack: Ai(2)-Gen0_Deck44 triggered Guarded Heir (90)
+Resolve stack: When this creature enters, create two 3/3 white Knight creature tokens. [Zone Changer: Guarded Heir (90)]
+Add to stack: Ai(2)-Gen0_Deck44 triggered Dazzling Angel (77)
+Add to stack: Ai(2)-Gen0_Deck44 triggered Dazzling Angel (77)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Knight Token (132)]
+Add to stack: Ai(2)-Gen0_Deck44 triggered Twinblade Paladin (81)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Twinblade Paladin. [Player: Ai(2)-Gen0_Deck44, Gained Amount: 1]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Knight Token (131)]
+Add to stack: Ai(2)-Gen0_Deck44 triggered Twinblade Paladin (81)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Twinblade Paladin. [Player: Ai(2)-Gen0_Deck44, Gained Amount: 1]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Guarded Heir (90)]
+Add to stack: Ai(2)-Gen0_Deck44 triggered Twinblade Paladin (81)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Twinblade Paladin. [Player: Ai(2)-Gen0_Deck44, Gained Amount: 1]
+Phase: Ai(2)-Gen0_Deck44's Beginning of Combat Step
+Player control: Ai(1)-Gen0_Deck42 is controlled by Ai(1)-Gen0_Deck42
+Player control: Ai(2)-Gen0_Deck44 is controlled by Ai(2)-Gen0_Deck44
+Game outcome: Turn 19
+Game outcome: Ai(1)-Gen0_Deck42 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck44 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck42: 1 Ai(2)-Gen0_Deck44: 0 
+
+Game Result: Game 1 ended in 120272 ms. Ai(1)-Gen0_Deck42 has won!
+
+
+=== STDERR ===

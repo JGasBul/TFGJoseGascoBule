@@ -1,0 +1,383 @@
+=== COMBATE PARALELO: Gen1_Deck8 vs Gen1_Deck33 ===
+Worker ID: 3987560
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck8 Gen1_Deck33 -n 1
+Duración: 24.70 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1879 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 65 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck8 vs Ai(2)-Gen1_Deck33 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck33 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck8 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen1_Deck33 played Secluded Courtyard (95)
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Mana: Secluded Courtyard (95) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck33 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (7)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Land: Ai(2)-Gen1_Deck33 played Cryptic Caves (67)
+Add to stack: Ai(2)-Gen1_Deck33 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Cryptic Caves (67)]
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Mountain (58)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Forest (7) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Heartfire Immolator (30)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Swamp (49)
+Mana: Forest (7) - {T}: Add {G}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Swamp (49) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Grow from the Ashes (37)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Heartfire Immolator (30)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Grow from the Ashes (37), Activator: Ai(1)-Gen1_Deck8, SpellAbility: Search your library for a basic land card, put it onto the battlefield, then shuffle. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle.]
+Resolve stack: Grow from the Ashes (37) - Ai(1)-Gen1_Deck8 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Heartfire Immolator (30) to attack Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck33 didn't block Heartfire Immolator (30).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Heartfire Immolator (30) deals 3 combat damage to Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Land: Ai(2)-Gen1_Deck33 played Island (76)
+Add to stack: Ai(2)-Gen1_Deck33 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (76)]
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Heartfire Immolator (30) to attack Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck33 didn't block Heartfire Immolator (30).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Heartfire Immolator (30) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(1)-Gen1_Deck8 played Dismal Backwater (6)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dismal Backwater (6)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (6)]
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Forest (7) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Vampire Nighthawk (13)
+Resolve stack: Vampire Nighthawk - Creature 2 / 3
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (10)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Heartfire Immolator (30) and Vampire Nighthawk (13) to attack Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck33 didn't block Vampire Nighthawk (13).
+Ai(2)-Gen1_Deck33 didn't block Heartfire Immolator (30).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Heartfire Immolator (30) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Vampire Nighthawk (13) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Forest (7) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Vampire Nighthawk (15)
+Resolve stack: Vampire Nighthawk - Creature 2 / 3
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Discard: Ai(2)-Gen1_Deck33 discards Pelakka Wurm (102).
+Turn: Turn 12 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Heartfire Immolator (30), Vampire Nighthawk (13) and Vampire Nighthawk (15) to attack Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck33 didn't block Vampire Nighthawk (13).
+Ai(2)-Gen1_Deck33 didn't block Heartfire Immolator (30).
+Ai(2)-Gen1_Deck33 didn't block Vampire Nighthawk (15).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Heartfire Immolator (30) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Vampire Nighthawk (13) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Vampire Nighthawk (15) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Land: Ai(2)-Gen1_Deck33 played Crawling Barrens (81)
+Add to stack: Ai(2)-Gen1_Deck33 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (81)]
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Mana: Secluded Courtyard (95) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Island (76) - {T}: Add {U}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Mana: Crawling Barrens (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck33 cast Driver of the Dead (114)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Heartfire Immolator (30), Vampire Nighthawk (13) and Vampire Nighthawk (15) to attack Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck33 didn't block Vampire Nighthawk (13).
+Ai(2)-Gen1_Deck33 assigned Driver of the Dead (114) to block Heartfire Immolator (30).
+Ai(2)-Gen1_Deck33 didn't block Vampire Nighthawk (15).
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Dive Down (19) targeting [Heartfire Immolator (30)]
+Add to stack: Ai(1)-Gen1_Deck8 triggered Heartfire Immolator (30)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Dive Down (19), Activator: Ai(1)-Gen1_Deck8, SpellAbility: Target creature you control gets +0/+3 and gains hexproof until end of turn. (It can't be the target of spells or abilities your opponents control.)]
+Resolve stack: Dive Down (19) - Heartfire Immolator (30) gets +0/+3 and gains hexproof until end of turn.
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Heartfire Immolator (30) deals 3 damage () to Driver of the Dead (114).
+Damage: Vampire Nighthawk (13) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Vampire Nighthawk (15) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Driver of the Dead (114) deals 3 damage () to Heartfire Immolator (30).
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Forest (7) - {T}: Add {G}.
+Mana: Swamp (49) - {T}: Add {B}.
+Discard: Ai(1)-Gen1_Deck8 discards Infestation Sage (34).
+Add to stack: Ai(1)-Gen1_Deck8 cast Seize the Spoils (1)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Heartfire Immolator (30)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Seize the Spoils (1), Activator: Ai(1)-Gen1_Deck8, SpellAbility: As an additional cost to cast this spell, discard a card. Draw two cards and create a Treasure token. ]
+Resolve stack: Seize the Spoils (1) - Draw two cards and create a Treasure token. 
+Mana: Swamp (47) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Infestation Sage (31)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck33)
+Phase: Ai(2)-Gen1_Deck33's Untap step
+Phase: Ai(2)-Gen1_Deck33's Upkeep step
+Phase: Ai(2)-Gen1_Deck33's Draw step
+Phase: Ai(2)-Gen1_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck33's End of Combat Step
+Phase: Ai(2)-Gen1_Deck33's Main phase, postcombat
+Mana: Secluded Courtyard (95) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Island (76) - {T}: Add {U}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Mana: Crawling Barrens (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck33 cast Highborn Vampire (111)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen1_Deck33's End step
+Phase: Ai(2)-Gen1_Deck33's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Mana: Swamp (49) - {T}: Add {B}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Forest (7) - {T}: Add {G}.
+Mana: Mountain (58) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Bake into a Pie (55) targeting [Highborn Vampire (111)]
+Add to stack: Ai(1)-Gen1_Deck8 triggered Heartfire Immolator (30)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Bake into a Pie (55), Activator: Ai(1)-Gen1_Deck8, SpellAbility: Destroy target creature. Create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this artifact: You gain 3 life.") ]
+Resolve stack: Bake into a Pie (55) - Destroy Highborn Vampire (111). 
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Mana: Forest (10) - {T}: Add {G}.
+Mana: Dismal Backwater (6) - {T}: Add {U} or {B}.
+Mana: Treasure Token (122) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen1_Deck8 cast Grow from the Ashes (35)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Heartfire Immolator (30)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Grow from the Ashes (35), Activator: Ai(1)-Gen1_Deck8, SpellAbility: Search your library for a basic land card, put it onto the battlefield, then shuffle. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield, then shuffle.]
+Resolve stack: Grow from the Ashes (35) - Ai(1)-Gen1_Deck8 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Heartfire Immolator (30), Vampire Nighthawk (13), Vampire Nighthawk (15) and Infestation Sage (31) to attack Ai(2)-Gen1_Deck33.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck33 didn't block Vampire Nighthawk (13).
+Ai(2)-Gen1_Deck33 didn't block Heartfire Immolator (30).
+Ai(2)-Gen1_Deck33 didn't block Vampire Nighthawk (15).
+Ai(2)-Gen1_Deck33 didn't block Infestation Sage (31).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Heartfire Immolator (30) deals 4 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Vampire Nighthawk (13) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Vampire Nighthawk (15) deals 2 combat damage to Ai(2)-Gen1_Deck33.
+Damage: Infestation Sage (31) deals 1 combat damage to Ai(2)-Gen1_Deck33.
+Player control: Ai(1)-Gen1_Deck8 is controlled by Ai(1)-Gen1_Deck8
+Player control: Ai(2)-Gen1_Deck33 is controlled by Ai(2)-Gen1_Deck33
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen1_Deck8 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck33 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck8: 1 Ai(2)-Gen1_Deck33: 0 
+
+Game Result: Game 1 ended in 13195 ms. Ai(1)-Gen1_Deck8 has won!
+
+
+=== STDERR ===

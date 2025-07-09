@@ -1,0 +1,646 @@
+=== COMBATE PARALELO: Gen2_Deck16 vs Gen2_Deck19 ===
+Worker ID: 352527
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck16 Gen2_Deck19 -n 1
+Duración: 50.28 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2373 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 268 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck16 vs Ai(2)-Gen2_Deck19 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck19 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck19 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen2_Deck16 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Forest (88)
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(1)-Gen2_Deck16 played Scoured Barrens (21)
+Add to stack: Ai(1)-Gen2_Deck16 triggered Scoured Barrens (21)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (21)]
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Swamp (72)
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Swamp (72) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck19 cast Three Tree Mascot (80)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Crawling Barrens (46)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (46) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Gleaming Barrier (12)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Replacement Effect: Golgari Guildgate enters tapped.
+Land: Ai(2)-Gen2_Deck19 played Golgari Guildgate (96)
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Plains (32)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (46) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Dauntless Veteran (50)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Mountain (114)
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Crawling Barrens (46) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Tribute to Hunger (25) targeting [Ai(2)-Gen2_Deck19]
+Resolve stack: Tribute to Hunger (25) - Ai(2)-Gen2_Deck19 sacrifices a creature. Ai(1)-Gen2_Deck16 gains life equal to that creature's toughness. 
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Crawling Barrens (44)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Dauntless Veteran (50) to attack Ai(2)-Gen2_Deck19.
+Add to stack: Ai(1)-Gen2_Deck16 triggered Dauntless Veteran (50)
+Resolve stack: Whenever Dauntless Veteran attacks, creatures you control get +1/+1 until end of turn. [Attacker: Dauntless Veteran (50)]
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck19 didn't block Dauntless Veteran (50).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Dauntless Veteran (50) deals 3 combat damage to Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Forest (91)
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Forest (91) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck19 cast Soul-Shackled Zombie (67)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(2)-Gen2_Deck19 triggered Soul-Shackled Zombie (67) targeting [Tribute to Hunger (25)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Tribute to Hunger (25)]]) [Zone Changer: Soul-Shackled Zombie (67)]
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Demolition Field (48)
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Demolition Field (48) targeting [Golgari Guildgate (96)]
+Resolve stack: Demolition Field (48) - Destroy Golgari Guildgate (96). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen2_Deck16 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Crawling Barrens (46) - {T}: Add {C}.
+Mana: Crawling Barrens (44) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Gutless Plunderer (28)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Forest (89)
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Swamp (72) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck19 cast Three Tree Mascot (78)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Plains (35)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Dauntless Veteran (50) and Gutless Plunderer (28) to attack Ai(2)-Gen2_Deck19.
+Add to stack: Ai(1)-Gen2_Deck16 triggered Dauntless Veteran (50)
+Resolve stack: Whenever Dauntless Veteran attacks, creatures you control get +1/+1 until end of turn. [Attacker: Dauntless Veteran (50)]
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck19 didn't block Dauntless Veteran (50).
+Ai(2)-Gen2_Deck19 didn't block Gutless Plunderer (28).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Dauntless Veteran (50) deals 3 combat damage to Ai(2)-Gen2_Deck19.
+Damage: Gutless Plunderer (28) deals 3 combat damage to Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Forest (90)
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 assigned Soul-Shackled Zombie (67) to attack Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck16 didn't block Soul-Shackled Zombie (67).
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Damage: Soul-Shackled Zombie (67) deals 4 combat damage to Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (71) - {T}: Add {B}.
+Mana: Forest (90) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck19 cast Pelakka Wurm (98)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(2)-Gen2_Deck19 triggered Pelakka Wurm (98)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (98)]
+Phase: Ai(2)-Gen2_Deck19's End step
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen2_Deck16 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Plains (30)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck19 cast Adventuring Gear (63)
+Resolve stack: Adventuring Gear
+Mana: Swamp (72) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck19 activated Adventuring Gear (63) targeting [Pelakka Wurm (98)]
+Resolve stack: Adventuring Gear (63) -  Attach to Pelakka Wurm (98)
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 assigned Pelakka Wurm (98) and Soul-Shackled Zombie (67) to attack Ai(1)-Gen2_Deck16.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen2_Deck16 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Gutless Plunderer (28) to block Pelakka Wurm (98).
+Ai(1)-Gen2_Deck16 assigned Dauntless Veteran (50) to block Soul-Shackled Zombie (67).
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Damage: Pelakka Wurm (98) deals 5 combat damage to Ai(1)-Gen2_Deck16.
+Damage: Pelakka Wurm (98) deals 2 damage () to Gutless Plunderer (28).
+Damage: Soul-Shackled Zombie (67) deals 4 damage () to Dauntless Veteran (50).
+Damage: Gutless Plunderer (28) deals 2 damage (Deathtouch) to Pelakka Wurm (98).
+Damage: Dauntless Veteran (50) deals 2 damage () to Soul-Shackled Zombie (67).
+Add to stack: Ai(2)-Gen2_Deck19 triggered Pelakka Wurm (98)
+Resolve stack: When Pelakka Wurm dies, draw a card. [Zone Changer: Pelakka Wurm (98)]
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck19 played Forest (95)
+Add to stack: Ai(2)-Gen2_Deck19 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (95)]
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck19 activated Adventuring Gear (63) targeting [Three Tree Mascot (78)]
+Resolve stack: Adventuring Gear (63) -  Attach to Three Tree Mascot (78)
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen2_Deck16 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Crawling Barrens (46) to attack Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck19 didn't block Crawling Barrens (46).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Crawling Barrens (46) deals 6 combat damage to Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Swamp (72) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (71) - {T}: Add {B}.
+Mana: Forest (90) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck19 cast Pelakka Wurm (99)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(2)-Gen2_Deck19 triggered Pelakka Wurm (99)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (99)]
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen2_Deck16 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Crawling Barrens (46) to attack Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck19 didn't block Crawling Barrens (46).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Crawling Barrens (46) deals 8 combat damage to Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (44) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Vampire Gourmand (57)
+Resolve stack: Vampire Gourmand - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Soulstone Sanctuary (111)
+Add to stack: Ai(2)-Gen2_Deck19 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Soulstone Sanctuary (111)]
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 assigned Pelakka Wurm (99) and Three Tree Mascot (78) to attack Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck16 didn't block Pelakka Wurm (99).
+Ai(1)-Gen2_Deck16 assigned Gleaming Barrier (12) to block Three Tree Mascot (78).
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Damage: Pelakka Wurm (99) deals 7 combat damage to Ai(1)-Gen2_Deck16.
+Damage: Three Tree Mascot (78) deals 4 damage () to Gleaming Barrier (12).
+Add to stack: Ai(1)-Gen2_Deck16 triggered Gleaming Barrier (12)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (12)]
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Swamp (72) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck19 cast Druid of the Cowl (76)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Swamp (71) - {T}: Add {B}.
+Mana: Forest (89) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck19 activated Soulstone Sanctuary (111)
+Resolve stack: Soulstone Sanctuary (111) - Soulstone Sanctuary (111) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Treasure Token (123) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Vizier of the Menagerie (5)
+Resolve stack: Vizier of the Menagerie - Creature 3 / 4
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (46) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Dauntless Veteran (51)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 assigned Pelakka Wurm (99) to attack Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Gourmand (57), Dauntless Veteran (51) and Vizier of the Menagerie (5) to block Pelakka Wurm (99).
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Damage: Pelakka Wurm (99) deals 2 damage () to Dauntless Veteran (51).
+Damage: Pelakka Wurm (99) deals 3 damage () to Vizier of the Menagerie (5).
+Damage: Pelakka Wurm (99) deals 2 damage () to Vampire Gourmand (57).
+Damage: Vampire Gourmand (57) deals 2 damage () to Pelakka Wurm (99).
+Damage: Dauntless Veteran (51) deals 2 damage () to Pelakka Wurm (99).
+Damage: Vizier of the Menagerie (5) deals 3 damage () to Pelakka Wurm (99).
+Add to stack: Ai(2)-Gen2_Deck19 triggered Pelakka Wurm (99)
+Resolve stack: When Pelakka Wurm dies, draw a card. [Zone Changer: Pelakka Wurm (99)]
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck19 played Forest (83)
+Add to stack: Ai(2)-Gen2_Deck19 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (83)]
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Scoured Barrens (21) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (46) - {T}: Add {C}.
+Mana: Crawling Barrens (44) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Meteor Golem (14)
+Resolve stack: Meteor Golem - Creature 3 / 3
+Add to stack: Ai(1)-Gen2_Deck16 triggered Meteor Golem (14) targeting [Druid of the Cowl (76)]
+Mana: Druid of the Cowl (76) - {T}: Add {G}.
+Resolve stack: When Meteor Golem enters, destroy target nonland permanent an opponent controls. (Targeting: [[Druid of the Cowl (76)]]) [Zone Changer: Meteor Golem (14)]
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Mountain (117)
+Add to stack: Ai(2)-Gen2_Deck19 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (117)]
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen2_Deck16 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Crawling Barrens (46), Vizier of the Menagerie (5) and Meteor Golem (14) to attack Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck19 didn't block Vizier of the Menagerie (5).
+Ai(2)-Gen2_Deck19 assigned Three Tree Mascot (78) to block Crawling Barrens (46).
+Ai(2)-Gen2_Deck19 assigned Soulstone Sanctuary (111) to block Meteor Golem (14).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Crawling Barrens (46) deals 10 damage () to Three Tree Mascot (78).
+Damage: Vizier of the Menagerie (5) deals 3 combat damage to Ai(2)-Gen2_Deck19.
+Damage: Meteor Golem (14) deals 3 damage () to Soulstone Sanctuary (111).
+Damage: Soulstone Sanctuary (111) deals 3 damage () to Meteor Golem (14).
+Damage: Three Tree Mascot (78) deals 2 damage () to Crawling Barrens (46).
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen2_Deck19)
+Phase: Ai(2)-Gen2_Deck19's Untap step
+Phase: Ai(2)-Gen2_Deck19's Upkeep step
+Phase: Ai(2)-Gen2_Deck19's Draw step
+Phase: Ai(2)-Gen2_Deck19's Main phase, precombat
+Land: Ai(2)-Gen2_Deck19 played Forest (82)
+Add to stack: Ai(2)-Gen2_Deck19 triggered Adventuring Gear (63)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (82)]
+Phase: Ai(2)-Gen2_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck19's End of Combat Step
+Phase: Ai(2)-Gen2_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck19's End step
+Phase: Ai(2)-Gen2_Deck19's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Crawling Barrens (46)
+Resolve stack: Crawling Barrens (46) - Ai(1)-Gen2_Deck16 puts two +1/+1 counters on Crawling Barrens (46). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Crawling Barrens (46) and Vizier of the Menagerie (5) to attack Ai(2)-Gen2_Deck19.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck19 didn't block Vizier of the Menagerie (5).
+Ai(2)-Gen2_Deck19 didn't block Crawling Barrens (46).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Crawling Barrens (46) deals 12 combat damage to Ai(2)-Gen2_Deck19.
+Damage: Vizier of the Menagerie (5) deals 3 combat damage to Ai(2)-Gen2_Deck19.
+Player control: Ai(1)-Gen2_Deck16 is controlled by Ai(1)-Gen2_Deck16
+Player control: Ai(2)-Gen2_Deck19 is controlled by Ai(2)-Gen2_Deck19
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen2_Deck16 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck19 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck16: 1 Ai(2)-Gen2_Deck19: 0 
+
+Game Result: Game 1 ended in 38340 ms. Ai(1)-Gen2_Deck16 has won!
+
+
+=== STDERR ===

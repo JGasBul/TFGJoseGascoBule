@@ -1,0 +1,554 @@
+=== COMBATE PARALELO: Gen0_Deck27 vs Gen0_Deck34 ===
+Worker ID: 3431565
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck27 Gen0_Deck34 -n 1
+Duración: 49.51 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1987 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 227 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck27 vs Ai(2)-Gen0_Deck34 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck34 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Mountain (117)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Replacement Effect: Temple of Malady enters tapped.
+Land: Ai(1)-Gen0_Deck27 played Temple of Malady (26)
+Add to stack: Ai(1)-Gen0_Deck27 triggered Temple of Malady (26)
+Resolve stack: Ai(1)-Gen0_Deck27 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Malady enters, scry 1. [Zone Changer: Temple of Malady (26)]
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Demolition Field (115)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Demolition Field (115) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Three Tree Mascot (101)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck27 played Secluded Courtyard (33)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Temple of Malady (26) - {T}: Add {B} or {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Druid of the Cowl (18)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Soulstone Sanctuary (90)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Demolition Field (115) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (90) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Raging Redcap (69)
+Resolve stack: Raging Redcap - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Swamp (12)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Temple of Malady (26) - {T}: Add {B} or {G}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Mana: Druid of the Cowl (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Treetop Snarespinner (4)
+Resolve stack: Treetop Snarespinner - Creature 1 / 4
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (90) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck34 activated Demolition Field (115) targeting [Temple of Malady (26)]
+Resolve stack: Demolition Field (115) - Destroy Temple of Malady (26). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck34 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck34 played Gruul Guildgate (65)
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Ambush Wolf (48)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(1)-Gen0_Deck27 triggered Ambush Wolf (48) targeting [Demolition Field (115)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Demolition Field (115)]]) [Zone Changer: Ambush Wolf (48)]
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Treetop Snarespinner (4) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 assigned Three Tree Mascot (101) and Raging Redcap (69) to block Treetop Snarespinner (4).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Damage: Raging Redcap (69) deals 1 damage () to Treetop Snarespinner (4).
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Treetop Snarespinner (4) deals 1 damage (Deathtouch) to Three Tree Mascot (101).
+Damage: Three Tree Mascot (101) deals 2 damage () to Treetop Snarespinner (4).
+Damage: Raging Redcap (69) deals 1 damage () to Treetop Snarespinner (4).
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Soulstone Sanctuary (92)
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Gruul Guildgate (65) - {T}: Add {R} or {G}.
+Mana: Soulstone Sanctuary (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck34 activated Soulstone Sanctuary (90)
+Resolve stack: Soulstone Sanctuary (90) - Soulstone Sanctuary (90) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Burnished Hart (50)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Gruul Guildgate (65) - {T}: Add {R} or {G}.
+Mana: Soulstone Sanctuary (90) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck34 activated Soulstone Sanctuary (92)
+Resolve stack: Soulstone Sanctuary (92) - Soulstone Sanctuary (92) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Replacement Effect: Temple of Malady enters tapped.
+Land: Ai(1)-Gen0_Deck27 played Temple of Malady (24)
+Add to stack: Ai(1)-Gen0_Deck27 triggered Temple of Malady (24)
+Resolve stack: Ai(1)-Gen0_Deck27 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Malady enters, scry 1. [Zone Changer: Temple of Malady (24)]
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Gutless Plunderer (30)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Cryptic Caves (61)
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck34 activated Cryptic Caves (61)
+Resolve stack: Cryptic Caves (61) - Ai(2)-Gen0_Deck34 draws a card.
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Mana: Gruul Guildgate (65) - {T}: Add {R} or {G}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Fierce Empath (67)
+Resolve stack: Fierce Empath - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck34 triggered Fierce Empath (67)
+Resolve stack: When Fierce Empath enters, you may search your library for a creature card with mana value 6 or greater, reveal it, put it into your hand, then shuffle. [Zone Changer: Fierce Empath (67)]
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Forest (39)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Temple of Malady (24) - {T}: Add {B} or {G}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Mana: Druid of the Cowl (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Arbiter of Woe (53)
+Resolve stack: Arbiter of Woe - Creature 5 / 4
+Add to stack: Ai(1)-Gen0_Deck27 triggered Arbiter of Woe (53)
+Discard: Ai(2)-Gen0_Deck34 discards Pelakka Wurm (105).
+Resolve stack: When this creature enters, each opponent discards a card and loses 2 life. You draw a card and gain 2 life. [Zone Changer: Arbiter of Woe (53)]
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Gruul Guildgate (65) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Stroke of Midnight (84) targeting [Arbiter of Woe (53)]
+Resolve stack: Stroke of Midnight (84) - Destroy Arbiter of Woe (53). 
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Soulstone Sanctuary (91)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (39) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Ambush Wolf (46)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(1)-Gen0_Deck27 triggered Ambush Wolf (46) targeting [Pelakka Wurm (105)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Pelakka Wurm (105)]]) [Zone Changer: Ambush Wolf (46)]
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Ambush Wolf (48) and Gutless Plunderer (30) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 didn't block Ambush Wolf (48).
+Ai(2)-Gen0_Deck34 didn't block Gutless Plunderer (30).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Ambush Wolf (48) deals 4 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Gutless Plunderer (30) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Temple of Malady (24) - {T}: Add {B} or {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Mana: Druid of the Cowl (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Gutless Plunderer (28)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck27 triggered Gutless Plunderer (28)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard. [Zone Changer: Gutless Plunderer (28)]
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Gruul Guildgate (65) - {T}: Add {R} or {G}.
+Mana: Soulstone Sanctuary (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck34 activated Soulstone Sanctuary (91)
+Resolve stack: Soulstone Sanctuary (91) - Soulstone Sanctuary (91) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Ambush Wolf (48), Ambush Wolf (46), Gutless Plunderer (30) and Gutless Plunderer (28) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 assigned Raging Redcap (69) to block Ambush Wolf (48).
+Ai(2)-Gen0_Deck34 didn't block Gutless Plunderer (28).
+Ai(2)-Gen0_Deck34 didn't block Ambush Wolf (46).
+Ai(2)-Gen0_Deck34 didn't block Gutless Plunderer (30).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Damage: Raging Redcap (69) deals 1 damage () to Ambush Wolf (48).
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Ambush Wolf (48) deals 4 damage () to Raging Redcap (69).
+Damage: Ambush Wolf (46) deals 4 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Gutless Plunderer (30) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Gutless Plunderer (28) deals 2 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Raging Redcap (69) deals 1 damage () to Ambush Wolf (48).
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Temple of Malady (24) - {T}: Add {B} or {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Vivien Reid (60)
+Replacement Effect: Vivien Reid enters with five loyalty counters on it.
+Resolve stack: Vivien Reid
+Add to stack: Ai(1)-Gen0_Deck27 activated Vivien Reid (60)
+Resolve stack: Vivien Reid (60) - Ai(1)-Gen0_Deck27 looks at the top four cards of their library. They may put a Creature,Land card from among them into their hand and put the rest on the bottom of their library in any order.
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Gruul Guildgate (65) - {T}: Add {R} or {G}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Stroke of Midnight (83) targeting [Vivien Reid (60)]
+Resolve stack: Stroke of Midnight (83) - Destroy Vivien Reid (60). 
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Forest (73)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Ambush Wolf (46), Gutless Plunderer (30) and Gutless Plunderer (28) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 assigned Soulstone Sanctuary (91) to block Gutless Plunderer (28).
+Ai(2)-Gen0_Deck34 assigned Soulstone Sanctuary (90) to block Ambush Wolf (46).
+Ai(2)-Gen0_Deck34 assigned Soulstone Sanctuary (92) to block Gutless Plunderer (30).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Ambush Wolf (46) deals 4 damage () to Soulstone Sanctuary (90).
+Damage: Gutless Plunderer (30) deals 2 damage (Deathtouch) to Soulstone Sanctuary (92).
+Damage: Gutless Plunderer (28) deals 2 damage (Deathtouch) to Soulstone Sanctuary (91).
+Damage: Soulstone Sanctuary (90) deals 3 damage () to Ambush Wolf (46).
+Damage: Soulstone Sanctuary (92) deals 3 damage () to Gutless Plunderer (30).
+Damage: Soulstone Sanctuary (91) deals 3 damage () to Gutless Plunderer (28).
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Temple of Malady (24) - {T}: Add {B} or {G}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Mana: Druid of the Cowl (18) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Arbiter of Woe (51)
+Resolve stack: Arbiter of Woe - Creature 5 / 4
+Add to stack: Ai(1)-Gen0_Deck27 triggered Arbiter of Woe (51)
+Discard: Ai(2)-Gen0_Deck34 discards Vivien Reid (96).
+Resolve stack: When this creature enters, each opponent discards a card and loses 2 life. You draw a card and gain 2 life. [Zone Changer: Arbiter of Woe (51)]
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck34)
+Phase: Ai(2)-Gen0_Deck34's Untap step
+Phase: Ai(2)-Gen0_Deck34's Upkeep step
+Mana: Plains (79) - {T}: Add {W}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Forest (73) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck34 cast Stroke of Midnight (85) targeting [Arbiter of Woe (51)]
+Resolve stack: Stroke of Midnight (85) - Destroy Arbiter of Woe (51). 
+Phase: Ai(2)-Gen0_Deck34's Draw step
+Phase: Ai(2)-Gen0_Deck34's Main phase, precombat
+Land: Ai(2)-Gen0_Deck34 played Demolition Field (113)
+Phase: Ai(2)-Gen0_Deck34's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck34 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck34's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck34's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck34's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck34's End of Combat Step
+Phase: Ai(2)-Gen0_Deck34's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck34's End step
+Phase: Ai(2)-Gen0_Deck34's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Forest (43) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Pirate's Cutlass (57)
+Resolve stack: Pirate's Cutlass
+Mana: Temple of Malady (24) - {T}: Add {B} or {G}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck27 activated Pirate's Cutlass (57) targeting [Druid of the Cowl (18)]
+Resolve stack: Pirate's Cutlass (57) -  Attach to Druid of the Cowl (18)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Druid of the Cowl (18), Human Token (124) and Human Token (126) to attack Ai(2)-Gen0_Deck34.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck34 assigned Fierce Empath (67) to block Druid of the Cowl (18).
+Ai(2)-Gen0_Deck34 didn't block Human Token (124).
+Ai(2)-Gen0_Deck34 didn't block Human Token (126).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Druid of the Cowl (18) deals 3 damage () to Fierce Empath (67).
+Damage: Human Token (124) deals 1 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Human Token (126) deals 1 combat damage to Ai(2)-Gen0_Deck34.
+Damage: Fierce Empath (67) deals 1 damage () to Druid of the Cowl (18).
+Player control: Ai(1)-Gen0_Deck27 is controlled by Ai(1)-Gen0_Deck27
+Player control: Ai(2)-Gen0_Deck34 is controlled by Ai(2)-Gen0_Deck34
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck27 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck34 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck27: 1 Ai(2)-Gen0_Deck34: 0 
+
+Game Result: Game 1 ended in 36701 ms. Ai(1)-Gen0_Deck27 has won!
+
+
+=== STDERR ===

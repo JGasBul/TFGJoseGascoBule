@@ -1,0 +1,381 @@
+=== COMBATE PARALELO: Gen1_Deck14 vs Gen1_Deck46 ===
+Worker ID: 3987560
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck14 Gen1_Deck46 -n 1
+Duración: 21.06 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1725 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 173 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck14 vs Ai(2)-Gen1_Deck46 - one game of Constructed
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Mulligan: Ai(1)-Gen1_Deck14 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck46 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Land: Ai(1)-Gen1_Deck14 played Island (54)
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck14's End of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck14's End step
+Phase: Ai(1)-Gen1_Deck14's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Replacement Effect: Swiftwater Cliffs enters tapped.
+Land: Ai(2)-Gen1_Deck46 played Swiftwater Cliffs (68)
+Add to stack: Ai(2)-Gen1_Deck46 triggered Swiftwater Cliffs (68)
+Resolve stack: When Swiftwater Cliffs enters, you gain 1 life. [Zone Changer: Swiftwater Cliffs (68)]
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Land: Ai(1)-Gen1_Deck14 played Plains (37)
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck14's End of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Island (54) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck14 cast Bishop's Soldier (26)
+Resolve stack: Bishop's Soldier - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck14's End step
+Phase: Ai(1)-Gen1_Deck14's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Island (91)
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Land: Ai(1)-Gen1_Deck14 played Cryptic Caves (2)
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 assigned Bishop's Soldier (26) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Bishop's Soldier (26).
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Damage: Bishop's Soldier (26) deals 2 combat damage to Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's End of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Main phase, postcombat
+Mana: Island (54) - {T}: Add {U}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck14 cast Gleaming Barrier (21)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen1_Deck14's End step
+Phase: Ai(1)-Gen1_Deck14's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Mountain (115)
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Land: Ai(1)-Gen1_Deck14 played Cryptic Caves (4)
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 assigned Bishop's Soldier (26) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Bishop's Soldier (26).
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Damage: Bishop's Soldier (26) deals 2 combat damage to Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's End of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Island (54) - {T}: Add {U}.
+Mana: Cryptic Caves (2) - {T}: Add {C}.
+Mana: Cryptic Caves (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck14 cast Felidar Savior (9)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen1_Deck14 triggered Felidar Savior (9) targeting [Bishop's Soldier (26), Gleaming Barrier (21)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Bishop's Soldier (26), Gleaming Barrier (21)]]) [Zone Changer: Felidar Savior (9)]
+Phase: Ai(1)-Gen1_Deck14's End step
+Phase: Ai(1)-Gen1_Deck14's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Mountain (112)
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Swiftwater Cliffs (68) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Battle-Rattle Shaman (63)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Land: Ai(1)-Gen1_Deck14 played Island (49)
+Mana: Island (54) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck14 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen1_Deck14 draws a card.
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 assigned Bishop's Soldier (26) and Felidar Savior (9) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Felidar Savior (9).
+Ai(2)-Gen1_Deck46 didn't block Bishop's Soldier (26).
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Damage: Bishop's Soldier (26) deals 3 combat damage to Ai(2)-Gen1_Deck46.
+Damage: Felidar Savior (9) deals 2 combat damage to Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's End of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck14's End step
+Phase: Ai(1)-Gen1_Deck14's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Plains (87)
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck46 triggered Battle-Rattle Shaman (63) targeting [Battle-Rattle Shaman (63)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Battle-Rattle Shaman (63)]]) [Phase: Ai(2)-Gen1_Deck46]
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 assigned Battle-Rattle Shaman (63) to attack Ai(1)-Gen1_Deck14.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck14 assigned Gleaming Barrier (21) to block Battle-Rattle Shaman (63).
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (91) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Sure Strike (76) targeting [Battle-Rattle Shaman (63)]
+Resolve stack: Sure Strike (76) - Battle-Rattle Shaman (63) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Damage: Battle-Rattle Shaman (63) deals 7 damage () to Gleaming Barrier (21).
+Add to stack: Ai(1)-Gen1_Deck14 triggered Gleaming Barrier (21)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (21)]
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Land: Ai(1)-Gen1_Deck14 played Island (48)
+Mana: Island (54) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck14 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen1_Deck14 draws a card.
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 assigned Bishop's Soldier (26) and Felidar Savior (9) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Felidar Savior (9).
+Ai(2)-Gen1_Deck46 didn't block Bishop's Soldier (26).
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Damage: Bishop's Soldier (26) deals 3 combat damage to Ai(2)-Gen1_Deck46.
+Damage: Felidar Savior (9) deals 2 combat damage to Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's End of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Island (49) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Treasure Token (123) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen1_Deck14 cast Vanguard Seraph (57)
+Resolve stack: Vanguard Seraph - Creature 3 / 3
+Phase: Ai(1)-Gen1_Deck14's End step
+Phase: Ai(1)-Gen1_Deck14's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Fanatical Firebrand (108)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck46 triggered Battle-Rattle Shaman (63) targeting [Battle-Rattle Shaman (63)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Battle-Rattle Shaman (63)]]) [Phase: Ai(2)-Gen1_Deck46]
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen1_Deck46 played Temple of Epiphany (120)
+Add to stack: Ai(2)-Gen1_Deck46 triggered Temple of Epiphany (120)
+Resolve stack: Ai(2)-Gen1_Deck46 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (120)]
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 assigned Bishop's Soldier (26), Vanguard Seraph (57) and Felidar Savior (9) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Vanguard Seraph (57).
+Ai(2)-Gen1_Deck46 assigned Battle-Rattle Shaman (63) to block Felidar Savior (9).
+Ai(2)-Gen1_Deck46 assigned Fanatical Firebrand (108) to block Bishop's Soldier (26).
+Add to stack: Ai(2)-Gen1_Deck46 activated Fanatical Firebrand (108) targeting [Ai(1)-Gen1_Deck14]
+Damage: Fanatical Firebrand (108) deals 1 non-combat damage to Ai(1)-Gen1_Deck14.
+Resolve stack: Fanatical Firebrand (108) - Fanatical Firebrand (108) deals 1 damage to Ai(1)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Damage: Vanguard Seraph (57) deals 3 combat damage to Ai(2)-Gen1_Deck46.
+Damage: Felidar Savior (9) deals 2 damage () to Battle-Rattle Shaman (63).
+Damage: Battle-Rattle Shaman (63) deals 2 damage () to Felidar Savior (9).
+Add to stack: Ai(1)-Gen1_Deck14 triggered Vanguard Seraph (57)
+Resolve stack: Ai(1)-Gen1_Deck14 surveiled 1 card(s) to the top of the library
+Resolve stack: Whenever you gain life for the first time each turn, surveil 1. (Look at the top card of your library. You may put it into your graveyard.) [Player: Ai(1)-Gen1_Deck14, Gained Amount: 2]
+Phase: Ai(1)-Gen1_Deck14's End of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Main phase, postcombat
+Mana: Island (54) - {T}: Add {U}.
+Mana: Island (49) - {T}: Add {U}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck14 cast Kaito, Cunning Infiltrator (20)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(1)-Gen1_Deck14 activated Kaito, Cunning Infiltrator (20)
+Resolve stack: Kaito, Cunning Infiltrator (20) - Ai(1)-Gen1_Deck14 creates a 2/1 blue Ninja creature token.
+Phase: Ai(1)-Gen1_Deck14's End step
+Phase: Ai(1)-Gen1_Deck14's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Mana: Island (91) - {T}: Add {U}.
+Mana: Swiftwater Cliffs (68) - {T}: Add {U} or {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Temple of Epiphany (120) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Curator of Destinies (101)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen1_Deck46 triggered Curator of Destinies (101)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (101)]
+Land: Ai(2)-Gen1_Deck46 played Plains (89)
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck14)
+Phase: Ai(1)-Gen1_Deck14's Untap step
+Phase: Ai(1)-Gen1_Deck14's Upkeep step
+Phase: Ai(1)-Gen1_Deck14's Draw step
+Phase: Ai(1)-Gen1_Deck14's Main phase, precombat
+Land: Ai(1)-Gen1_Deck14 played Island (52)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Island (54) - {T}: Add {U}.
+Mana: Island (49) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck14 cast Angelic Edict (46) targeting [Curator of Destinies (101)]
+Resolve stack: Angelic Edict (46) - Exile Curator of Destinies (101).
+Phase: Ai(1)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck14 assigned Bishop's Soldier (26), Vanguard Seraph (57), Felidar Savior (9) and Ninja Token (127) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Vanguard Seraph (57).
+Ai(2)-Gen1_Deck46 didn't block Felidar Savior (9).
+Ai(2)-Gen1_Deck46 didn't block Bishop's Soldier (26).
+Ai(2)-Gen1_Deck46 didn't block Ninja Token (127).
+Phase: Ai(1)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck14's Combat Damage Step
+Damage: Bishop's Soldier (26) deals 3 combat damage to Ai(2)-Gen1_Deck46.
+Damage: Vanguard Seraph (57) deals 3 combat damage to Ai(2)-Gen1_Deck46.
+Damage: Felidar Savior (9) deals 2 combat damage to Ai(2)-Gen1_Deck46.
+Damage: Ninja Token (127) deals 2 combat damage to Ai(2)-Gen1_Deck46.
+Player control: Ai(1)-Gen1_Deck14 is controlled by Ai(1)-Gen1_Deck14
+Player control: Ai(2)-Gen1_Deck46 is controlled by Ai(2)-Gen1_Deck46
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen1_Deck14 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck46 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck14: 1 Ai(2)-Gen1_Deck46: 0 
+
+Game Result: Game 1 ended in 9532 ms. Ai(1)-Gen1_Deck14 has won!
+
+
+=== STDERR ===

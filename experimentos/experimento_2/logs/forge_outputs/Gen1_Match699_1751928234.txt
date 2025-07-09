@@ -1,0 +1,433 @@
+=== COMBATE PARALELO: Gen1_Deck7 vs Gen1_Deck35 ===
+Worker ID: 3987559
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck7 Gen1_Deck35 -n 1
+Duración: 44.52 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1991 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 60 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck7 vs Ai(2)-Gen1_Deck35 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck7 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck35 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(1)-Gen1_Deck7 played Temple of Deceit (40)
+Add to stack: Ai(1)-Gen1_Deck7 triggered Temple of Deceit (40)
+Resolve stack: Ai(1)-Gen1_Deck7 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (40)]
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Land: Ai(2)-Gen1_Deck35 played Plains (75)
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Swamp (25)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Temple of Deceit (40) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Campus Guide (13)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen1_Deck7 triggered Campus Guide (13)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (13)]
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Land: Ai(2)-Gen1_Deck35 played Swamp (95)
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Swamp (95) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck35 cast Gleaming Barrier (92)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (52)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Land: Ai(2)-Gen1_Deck35 played Evolving Wilds (111)
+Add to stack: Ai(2)-Gen1_Deck35 activated Evolving Wilds (111)
+Resolve stack: Evolving Wilds (111) - Ai(2)-Gen1_Deck35 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (50)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (52) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Gutless Plunderer (34)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck35 cast Infernal Vessel (80)
+Resolve stack: Infernal Vessel - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Swamp (20)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Gutless Plunderer (34) to attack Ai(2)-Gen1_Deck35.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck35 didn't block Gutless Plunderer (34).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Gutless Plunderer (34) deals 2 combat damage to Ai(2)-Gen1_Deck35.
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck35 cast Gutless Plunderer (65)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Swamp (24)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Offer Immortality (43) targeting [Gutless Plunderer (34)]
+Resolve stack: Offer Immortality (43) - Gutless Plunderer (34) gains indestructible and deathtouch until end of turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Gutless Plunderer (34) to attack Ai(2)-Gen1_Deck35.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck35 didn't block Gutless Plunderer (34).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Gutless Plunderer (34) deals 2 combat damage to Ai(2)-Gen1_Deck35.
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck35 cast Soul-Guide Lantern (78)
+Resolve stack: Soul-Guide Lantern
+Add to stack: Ai(2)-Gen1_Deck35 triggered Soul-Guide Lantern (78) targeting [Offer Immortality (43)]
+Resolve stack: When Soul-Guide Lantern enters, exile target card from a graveyard. (Targeting: [[Offer Immortality (43)]]) [Zone Changer: Soul-Guide Lantern (78)]
+Add to stack: Ai(2)-Gen1_Deck35 activated Soul-Guide Lantern (78)
+Resolve stack: Soul-Guide Lantern (78) -  Exile each opponent's graveyard.
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Island (52) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Temple of Deceit (40) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Exsanguinate (5)
+Resolve stack: Exsanguinate (5) - Ai(2)-Gen1_Deck35 loses life equal to the life lost this way. You gain life equal to the life lost this way. (X=4)
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck35 cast Midnight Reaper (88)
+Resolve stack: Midnight Reaper - Creature 3 / 2
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Soulstone Sanctuary (57)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Island (52) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Temple of Deceit (40) - {T}: Add {U} or {B}.
+Mana: Soulstone Sanctuary (57) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Sphinx of the Final Word (10)
+Resolve stack: Sphinx of the Final Word - Creature 5 / 5
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck35 cast Infernal Vessel (83)
+Resolve stack: Infernal Vessel - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (52) - {T}: Add {U}.
+Mana: Island (50) - {T}: Add {U}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck7 activated Soulstone Sanctuary (57)
+Resolve stack: Soulstone Sanctuary (57) - Soulstone Sanctuary (57) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (51)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Sphinx of the Final Word (10) and Gutless Plunderer (34) to attack Ai(2)-Gen1_Deck35.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck35 assigned Infernal Vessel (80) to block Gutless Plunderer (34).
+Ai(2)-Gen1_Deck35 didn't block Sphinx of the Final Word (10).
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Island (51) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Offer Immortality (44) targeting [Gutless Plunderer (34)]
+Resolve stack: Offer Immortality (44) - Gutless Plunderer (34) gains indestructible and deathtouch until end of turn.
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Sphinx of the Final Word (10) deals 5 combat damage to Ai(2)-Gen1_Deck35.
+Damage: Gutless Plunderer (34) deals 2 damage (Deathtouch) to Infernal Vessel (80).
+Damage: Infernal Vessel (80) deals 2 damage () to Gutless Plunderer (34).
+Add to stack: Ai(2)-Gen1_Deck35 triggered Midnight Reaper (88)
+Add to stack: Ai(2)-Gen1_Deck35 triggered Infernal Vessel (80)
+Resolve stack: When this creature dies, if it wasn't a Demon, return it to the battlefield under its owner's control with two +1/+1 counters on it. It's a Demon in addition to its other types. [Zone Changer: Infernal Vessel (80)]
+Damage: Midnight Reaper (88) deals 1 non-combat damage to Ai(2)-Gen1_Deck35.
+Resolve stack: Whenever a nontoken creature you control dies, Midnight Reaper deals 1 damage to you and you draw a card. [Zone Changer: Infernal Vessel (80)]
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck35)
+Phase: Ai(2)-Gen1_Deck35's Untap step
+Phase: Ai(2)-Gen1_Deck35's Upkeep step
+Phase: Ai(2)-Gen1_Deck35's Draw step
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck35 cast Celestial Armor (79)
+Resolve stack: Celestial Armor
+Add to stack: Ai(2)-Gen1_Deck35 triggered Celestial Armor (79) targeting [Gleaming Barrier (92)]
+Resolve stack: When this Equipment enters, attach it to target creature you control. That creature gains hexproof and indestructible until end of turn. (Targeting: [[Gleaming Barrier (92)]]) [Zone Changer: Celestial Armor (79)]
+Phase: Ai(2)-Gen1_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck35's End of Combat Step
+Phase: Ai(2)-Gen1_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck35's End step
+Phase: Ai(2)-Gen1_Deck35's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Sphinx of the Final Word (10) and Gutless Plunderer (34) to attack Ai(2)-Gen1_Deck35.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck35 assigned Gleaming Barrier (92) to block Gutless Plunderer (34).
+Ai(2)-Gen1_Deck35 didn't block Sphinx of the Final Word (10).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Sphinx of the Final Word (10) deals 5 combat damage to Ai(2)-Gen1_Deck35.
+Damage: Gutless Plunderer (34) deals 2 damage (Deathtouch) to Gleaming Barrier (92).
+Damage: Gleaming Barrier (92) deals 2 damage () to Gutless Plunderer (34).
+Add to stack: Ai(2)-Gen1_Deck35 triggered Midnight Reaper (88)
+Add to stack: Ai(2)-Gen1_Deck35 triggered Gleaming Barrier (92)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (92)]
+Damage: Midnight Reaper (88) deals 1 non-combat damage to Ai(2)-Gen1_Deck35.
+Resolve stack: Whenever a nontoken creature you control dies, Midnight Reaper deals 1 damage to you and you draw a card. [Zone Changer: Gleaming Barrier (92)]
+Player control: Ai(1)-Gen1_Deck7 is controlled by Ai(1)-Gen1_Deck7
+Player control: Ai(2)-Gen1_Deck35 is controlled by Ai(2)-Gen1_Deck35
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen1_Deck7 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck35 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck7: 1 Ai(2)-Gen1_Deck35: 0 
+
+Game Result: Game 1 ended in 33490 ms. Ai(1)-Gen1_Deck7 has won!
+
+
+=== STDERR ===

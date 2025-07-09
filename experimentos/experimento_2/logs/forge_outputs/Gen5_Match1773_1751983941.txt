@@ -1,0 +1,327 @@
+=== COMBATE PARALELO: Gen5_Deck23 vs Gen5_Deck36 ===
+Worker ID: 1994853
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck23 Gen5_Deck36 -n 1
+Duración: 25.05 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1886 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 99 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck23 vs Ai(2)-Gen5_Deck36 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck36 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen5_Deck23 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen5_Deck36 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen5_Deck23)
+Phase: Ai(1)-Gen5_Deck23's Untap step
+Phase: Ai(1)-Gen5_Deck23's Upkeep step
+Phase: Ai(1)-Gen5_Deck23's Draw step
+Phase: Ai(1)-Gen5_Deck23's Main phase, precombat
+Land: Ai(1)-Gen5_Deck23 played Forest (16)
+Phase: Ai(1)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck23's End of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Main phase, postcombat
+Mana: Forest (16) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen5_Deck23 cast Mild-Mannered Librarian (4)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen5_Deck23's End step
+Phase: Ai(1)-Gen5_Deck23's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen5_Deck36)
+Phase: Ai(2)-Gen5_Deck36's Untap step
+Phase: Ai(2)-Gen5_Deck36's Upkeep step
+Phase: Ai(2)-Gen5_Deck36's Draw step
+Phase: Ai(2)-Gen5_Deck36's Main phase, precombat
+Land: Ai(2)-Gen5_Deck36 played Crawling Barrens (91)
+Phase: Ai(2)-Gen5_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck36's End of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck36's End step
+Phase: Ai(2)-Gen5_Deck36's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen5_Deck23)
+Phase: Ai(1)-Gen5_Deck23's Untap step
+Phase: Ai(1)-Gen5_Deck23's Upkeep step
+Phase: Ai(1)-Gen5_Deck23's Draw step
+Phase: Ai(1)-Gen5_Deck23's Main phase, precombat
+Land: Ai(1)-Gen5_Deck23 played Swamp (46)
+Phase: Ai(1)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck23 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck36 didn't block Mild-Mannered Librarian (4).
+Phase: Ai(1)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck23's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's End of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck23's End step
+Phase: Ai(1)-Gen5_Deck23's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen5_Deck36)
+Phase: Ai(2)-Gen5_Deck36's Untap step
+Phase: Ai(2)-Gen5_Deck36's Upkeep step
+Phase: Ai(2)-Gen5_Deck36's Draw step
+Phase: Ai(2)-Gen5_Deck36's Main phase, precombat
+Land: Ai(2)-Gen5_Deck36 played Forest (83)
+Phase: Ai(2)-Gen5_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck36's End of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Main phase, postcombat
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Crawling Barrens (91) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck36 cast Mazemind Tome (115)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen5_Deck36's End step
+Phase: Ai(2)-Gen5_Deck36's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen5_Deck23)
+Phase: Ai(1)-Gen5_Deck23's Untap step
+Phase: Ai(1)-Gen5_Deck23's Upkeep step
+Phase: Ai(1)-Gen5_Deck23's Draw step
+Add to stack: Ai(2)-Gen5_Deck36 activated Mazemind Tome (115)
+Resolve stack: Ai(2)-Gen5_Deck36 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck36 scries 1.
+Phase: Ai(1)-Gen5_Deck23's Main phase, precombat
+Land: Ai(1)-Gen5_Deck23 played Crawling Barrens (35)
+Phase: Ai(1)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck23 assigned Mild-Mannered Librarian (4) to attack Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck36 didn't block Mild-Mannered Librarian (4).
+Mana: Forest (16) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen5_Deck23 cast Giant Growth (39) targeting [Mild-Mannered Librarian (4)]
+Resolve stack: Giant Growth (39) - Mild-Mannered Librarian (4) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck23's Combat Damage Step
+Damage: Mild-Mannered Librarian (4) deals 4 combat damage to Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's End of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck23's End step
+Phase: Ai(1)-Gen5_Deck23's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen5_Deck36)
+Phase: Ai(2)-Gen5_Deck36's Untap step
+Phase: Ai(2)-Gen5_Deck36's Upkeep step
+Phase: Ai(2)-Gen5_Deck36's Draw step
+Phase: Ai(2)-Gen5_Deck36's Main phase, precombat
+Land: Ai(2)-Gen5_Deck36 played Soulstone Sanctuary (93)
+Phase: Ai(2)-Gen5_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck36's End of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Main phase, postcombat
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Crawling Barrens (91) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (93) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck36 cast Adaptive Automaton (94)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck36's End step
+Phase: Ai(2)-Gen5_Deck36's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen5_Deck23)
+Phase: Ai(1)-Gen5_Deck23's Untap step
+Phase: Ai(1)-Gen5_Deck23's Upkeep step
+Phase: Ai(1)-Gen5_Deck23's Draw step
+Phase: Ai(1)-Gen5_Deck23's Main phase, precombat
+Land: Ai(1)-Gen5_Deck23 played Forest (13)
+Add to stack: Ai(2)-Gen5_Deck36 activated Mazemind Tome (115)
+Resolve stack: Ai(2)-Gen5_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck36 scries 1.
+Phase: Ai(1)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck23's End of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Main phase, postcombat
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen5_Deck23 cast Thrashing Brontodon (37)
+Resolve stack: Thrashing Brontodon - Creature 3 / 4
+Phase: Ai(1)-Gen5_Deck23's End step
+Phase: Ai(1)-Gen5_Deck23's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen5_Deck36)
+Phase: Ai(2)-Gen5_Deck36's Untap step
+Phase: Ai(2)-Gen5_Deck36's Upkeep step
+Phase: Ai(2)-Gen5_Deck36's Draw step
+Phase: Ai(2)-Gen5_Deck36's Main phase, precombat
+Land: Ai(2)-Gen5_Deck36 played Forest (75)
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Forest (75) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck36 cast Swiftfoot Boots (112)
+Resolve stack: Swiftfoot Boots
+Mana: Crawling Barrens (91) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck36 activated Swiftfoot Boots (112) targeting [Adaptive Automaton (94)]
+Resolve stack: Swiftfoot Boots (112) -  Attach to Adaptive Automaton (94)
+Phase: Ai(2)-Gen5_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck36 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck36's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck36's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck36's End of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck36's End step
+Phase: Ai(2)-Gen5_Deck36's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen5_Deck23)
+Phase: Ai(1)-Gen5_Deck23's Untap step
+Phase: Ai(1)-Gen5_Deck23's Upkeep step
+Phase: Ai(1)-Gen5_Deck23's Draw step
+Add to stack: Ai(2)-Gen5_Deck36 activated Mazemind Tome (115)
+Resolve stack: Ai(2)-Gen5_Deck36 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck36 scries 1.
+Phase: Ai(1)-Gen5_Deck23's Main phase, precombat
+Land: Ai(1)-Gen5_Deck23 played Plains (26)
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck23 activated Crawling Barrens (35)
+Resolve stack: Crawling Barrens (35) - Ai(1)-Gen5_Deck23 puts two +1/+1 counters on Crawling Barrens (35). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck23 assigned Thrashing Brontodon (37) and Crawling Barrens (35) to attack Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck36 didn't block Crawling Barrens (35).
+Ai(2)-Gen5_Deck36 didn't block Thrashing Brontodon (37).
+Phase: Ai(1)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck23's Combat Damage Step
+Damage: Thrashing Brontodon (37) deals 3 combat damage to Ai(2)-Gen5_Deck36.
+Damage: Crawling Barrens (35) deals 2 combat damage to Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's End of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck23's End step
+Phase: Ai(1)-Gen5_Deck23's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen5_Deck36)
+Phase: Ai(2)-Gen5_Deck36's Untap step
+Phase: Ai(2)-Gen5_Deck36's Upkeep step
+Phase: Ai(2)-Gen5_Deck36's Draw step
+Phase: Ai(2)-Gen5_Deck36's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck36 assigned Adaptive Automaton (94) to attack Ai(1)-Gen5_Deck23.
+Phase: Ai(2)-Gen5_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck23 didn't block Adaptive Automaton (94).
+Phase: Ai(2)-Gen5_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck36's Combat Damage Step
+Damage: Adaptive Automaton (94) deals 2 combat damage to Ai(1)-Gen5_Deck23.
+Phase: Ai(2)-Gen5_Deck36's End of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Main phase, postcombat
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Forest (75) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen5_Deck36 activated Mazemind Tome (115)
+Add to stack: Ai(2)-Gen5_Deck36 triggered Mazemind Tome (115)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (115) - Ai(2)-Gen5_Deck36 draws a card.
+Phase: Ai(2)-Gen5_Deck36's End step
+Phase: Ai(2)-Gen5_Deck36's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen5_Deck23)
+Phase: Ai(1)-Gen5_Deck23's Untap step
+Phase: Ai(1)-Gen5_Deck23's Upkeep step
+Phase: Ai(1)-Gen5_Deck23's Draw step
+Phase: Ai(1)-Gen5_Deck23's Main phase, precombat
+Land: Ai(1)-Gen5_Deck23 played Forest (9)
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Forest (9) - {T}: Add {G}.
+Mana: Crawling Barrens (35) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck23 cast Biogenic Upgrade (42) targeting [Thrashing Brontodon (37)]
+Resolve stack: Biogenic Upgrade (42) - Ai(1)-Gen5_Deck23 distributes three +1/+1 counters among Thrashing Brontodon (37) (3 counters). Double the number of +1/+1 counters on Thrashing Brontodon (37).
+Phase: Ai(1)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck23 assigned Thrashing Brontodon (37) and Mild-Mannered Librarian (4) to attack Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck36 didn't block Mild-Mannered Librarian (4).
+Ai(2)-Gen5_Deck36 didn't block Thrashing Brontodon (37).
+Phase: Ai(1)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck23's Combat Damage Step
+Damage: Thrashing Brontodon (37) deals 9 combat damage to Ai(2)-Gen5_Deck36.
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's End of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck23's End step
+Phase: Ai(1)-Gen5_Deck23's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen5_Deck36)
+Phase: Ai(2)-Gen5_Deck36's Untap step
+Phase: Ai(2)-Gen5_Deck36's Upkeep step
+Phase: Ai(2)-Gen5_Deck36's Draw step
+Phase: Ai(2)-Gen5_Deck36's Main phase, precombat
+Land: Ai(2)-Gen5_Deck36 played Forest (82)
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Forest (75) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Soulstone Sanctuary (93) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck36 activated Crawling Barrens (91)
+Resolve stack: Crawling Barrens (91) - Ai(2)-Gen5_Deck36 puts two +1/+1 counters on Crawling Barrens (91). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen5_Deck36's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck36 assigned Crawling Barrens (91) to attack Ai(1)-Gen5_Deck23.
+Phase: Ai(2)-Gen5_Deck36's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck23 didn't block Crawling Barrens (91).
+Phase: Ai(2)-Gen5_Deck36's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck36's Combat Damage Step
+Damage: Crawling Barrens (91) deals 2 combat damage to Ai(1)-Gen5_Deck23.
+Phase: Ai(2)-Gen5_Deck36's End of Combat Step
+Phase: Ai(2)-Gen5_Deck36's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck36's End step
+Phase: Ai(2)-Gen5_Deck36's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen5_Deck23)
+Phase: Ai(1)-Gen5_Deck23's Untap step
+Phase: Ai(1)-Gen5_Deck23's Upkeep step
+Phase: Ai(1)-Gen5_Deck23's Draw step
+Phase: Ai(1)-Gen5_Deck23's Main phase, precombat
+Land: Ai(1)-Gen5_Deck23 played Forest (20)
+Mana: Forest (16) - {T}: Add {G}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck23 activated Crawling Barrens (35)
+Resolve stack: Crawling Barrens (35) - Ai(1)-Gen5_Deck23 puts two +1/+1 counters on Crawling Barrens (35). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen5_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck23 assigned Thrashing Brontodon (37), Crawling Barrens (35) and Mild-Mannered Librarian (4) to attack Ai(2)-Gen5_Deck36.
+Phase: Ai(1)-Gen5_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck36 didn't block Crawling Barrens (35).
+Ai(2)-Gen5_Deck36 didn't block Mild-Mannered Librarian (4).
+Ai(2)-Gen5_Deck36 assigned Adaptive Automaton (94) to block Thrashing Brontodon (37).
+Phase: Ai(1)-Gen5_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck23's Combat Damage Step
+Damage: Thrashing Brontodon (37) deals 9 damage () to Adaptive Automaton (94).
+Damage: Crawling Barrens (35) deals 4 combat damage to Ai(2)-Gen5_Deck36.
+Damage: Mild-Mannered Librarian (4) deals 1 combat damage to Ai(2)-Gen5_Deck36.
+Damage: Adaptive Automaton (94) deals 2 damage () to Thrashing Brontodon (37).
+Player control: Ai(1)-Gen5_Deck23 is controlled by Ai(1)-Gen5_Deck23
+Player control: Ai(2)-Gen5_Deck36 is controlled by Ai(2)-Gen5_Deck36
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen5_Deck23 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck36 has lost because life total reached 0
+Match result: Ai(1)-Gen5_Deck23: 1 Ai(2)-Gen5_Deck36: 0 
+
+Game Result: Game 1 ended in 13020 ms. Ai(1)-Gen5_Deck23 has won!
+
+
+=== STDERR ===

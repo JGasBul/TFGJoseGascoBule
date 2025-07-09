@@ -1,0 +1,554 @@
+=== COMBATE PARALELO: Gen8_Deck28 vs Gen8_Deck43 ===
+Worker ID: 3561599
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen8_Deck28 Gen8_Deck43 -n 1
+Duración: 31.50 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1970 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 127 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen8_Deck28 vs Ai(2)-Gen8_Deck43 - one game of Constructed
+Mulligan: Ai(1)-Gen8_Deck28 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen8_Deck43 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen8_Deck28 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Forest (81)
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Swamp (34)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (34) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Duress (43) targeting [Ai(2)-Gen8_Deck43]
+Discard: Ai(2)-Gen8_Deck43 discards Biogenic Upgrade (102).
+Resolve stack: Duress (43) - Ai(2)-Gen8_Deck43 reveals their hand. Ai(1)-Gen8_Deck28 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen8_Deck43 discards that card.
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Plains (84)
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Druid of the Cowl (109)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Cryptic Caves (4)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Cryptic Caves (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Mazemind Tome (55)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (55)
+Resolve stack: Ai(1)-Gen8_Deck28 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (55) - Ai(1)-Gen8_Deck28 scries 1.
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Forest (79)
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Druid of the Cowl (109) to attack Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 didn't block Druid of the Cowl (109).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Damage: Druid of the Cowl (109) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (55)
+Resolve stack: Ai(1)-Gen8_Deck28 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (55) - Ai(1)-Gen8_Deck28 scries 1.
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Swamp (39)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Forest (70)
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Druid of the Cowl (109) to attack Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 didn't block Druid of the Cowl (109).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Damage: Druid of the Cowl (109) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Mana: Forest (81) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Mild-Mannered Librarian (64)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (55)
+Resolve stack: Ai(1)-Gen8_Deck28 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (55) - Ai(1)-Gen8_Deck28 scries 1.
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Swamp (35)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Cryptic Caves (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Suspicious Shambler (8)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Forest (82)
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Elfsworn Giant (116)
+Resolve stack: Elfsworn Giant - Creature 5 / 3
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (55)
+Add to stack: Ai(1)-Gen8_Deck28 triggered Mazemind Tome (55)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(1)-Gen8_Deck28 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (55) - Ai(1)-Gen8_Deck28 scries 1.
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen8_Deck28 played Secluded Courtyard (46)
+Mana: Swamp (34) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen8_Deck28 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen8_Deck28 draws a card.
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (35) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Mazemind Tome (56)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Forest (73)
+Add to stack: Ai(2)-Gen8_Deck43 triggered Elfsworn Giant (116)
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (56)
+Resolve stack: Ai(1)-Gen8_Deck28 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (56) - Ai(1)-Gen8_Deck28 scries 1.
+Resolve stack: Landfall — Whenever a land you control enters, create a 1/1 green Elf Warrior creature token. [Zone Changer: Forest (73)]
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Elfsworn Giant (116) to attack Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 assigned Suspicious Shambler (8) to block Elfsworn Giant (116).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Damage: Elfsworn Giant (116) deals 5 damage () to Suspicious Shambler (8).
+Damage: Suspicious Shambler (8) deals 4 damage () to Elfsworn Giant (116).
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen8_Deck28 played Secluded Courtyard (47)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (39) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Cemetery Recruitment (14) targeting [Suspicious Shambler (8)]
+Resolve stack: Cemetery Recruitment (14) - Return Suspicious Shambler (8) from the graveyard to its owner's hand. Ai(1)-Gen8_Deck28 draws a card. 
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Secluded Courtyard (46) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (56)
+Resolve stack: Mazemind Tome (56) - Ai(1)-Gen8_Deck28 draws a card.
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Druid of the Cowl (109), Mild-Mannered Librarian (64) and Elf Warrior Token (123) to attack Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 didn't block Mild-Mannered Librarian (64).
+Ai(1)-Gen8_Deck28 didn't block Elf Warrior Token (123).
+Ai(1)-Gen8_Deck28 didn't block Druid of the Cowl (109).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Damage: Druid of the Cowl (109) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Mild-Mannered Librarian (64) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Elf Warrior Token (123) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (70) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Solemn Simulacrum (62)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck43 triggered Solemn Simulacrum (62)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (62)]
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (56)
+Resolve stack: Ai(1)-Gen8_Deck28 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (56) - Ai(1)-Gen8_Deck28 scries 1.
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Swamp (36)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Swamp (36) - {T}: Add {B}.
+Mana: Secluded Courtyard (46) - {T}: Add {C}.
+Mana: Secluded Courtyard (47) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Liliana, Dreadhorde General (12)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(1)-Gen8_Deck28 activated Liliana, Dreadhorde General (12)
+Resolve stack: Liliana, Dreadhorde General (12) - Ai(1)-Gen8_Deck28 and Ai(2)-Gen8_Deck43 sacrifice two creatures.
+Add to stack: Ai(2)-Gen8_Deck43 triggered Solemn Simulacrum (62)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (62)]
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Druid of the Cowl (109) and Mild-Mannered Librarian (64) to attack Liliana, Dreadhorde General (12).
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 didn't block Mild-Mannered Librarian (64).
+Ai(1)-Gen8_Deck28 didn't block Druid of the Cowl (109).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Forest (73) - {T}: Add {G}.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Pelakka Wurm (110)
+Resolve stack: Pelakka Wurm - Creature 7 / 7
+Add to stack: Ai(2)-Gen8_Deck43 triggered Pelakka Wurm (110)
+Resolve stack: When Pelakka Wurm enters, you gain 7 life. [Zone Changer: Pelakka Wurm (110)]
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Swamp (37)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Swamp (36) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Suspicious Shambler (8)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Secluded Courtyard (46) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck28 activated Mazemind Tome (56)
+Add to stack: Ai(1)-Gen8_Deck28 triggered Mazemind Tome (56)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (56) - Ai(1)-Gen8_Deck28 draws a card.
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Forest (83)
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Pelakka Wurm (110) to attack Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 didn't block Pelakka Wurm (110).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Damage: Pelakka Wurm (110) deals 7 combat damage to Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Forest (79) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Soul-Shackled Zombie (104)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(2)-Gen8_Deck43 triggered Soul-Shackled Zombie (104) targeting [Liliana, Dreadhorde General (12), Cemetery Recruitment (14)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Liliana, Dreadhorde General (12), Cemetery Recruitment (14)]]) [Zone Changer: Soul-Shackled Zombie (104)]
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Forest (73) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Thrashing Brontodon (94)
+Resolve stack: Thrashing Brontodon - Creature 3 / 4
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Cryptic Caves (2)
+Mana: Swamp (34) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen8_Deck28 activated Cryptic Caves (2)
+Resolve stack: Cryptic Caves (2) - Ai(1)-Gen8_Deck28 draws a card.
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Dwynen, Gilt-Leaf Daen (68)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Pelakka Wurm (110), Soul-Shackled Zombie (104), Thrashing Brontodon (94), Druid of the Cowl (109) and Mild-Mannered Librarian (64) to attack Ai(1)-Gen8_Deck28.
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 didn't block Mild-Mannered Librarian (64).
+Ai(1)-Gen8_Deck28 assigned Suspicious Shambler (8) to block Soul-Shackled Zombie (104).
+Ai(1)-Gen8_Deck28 didn't block Druid of the Cowl (109).
+Ai(1)-Gen8_Deck28 didn't block Pelakka Wurm (110).
+Ai(1)-Gen8_Deck28 didn't block Thrashing Brontodon (94).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Damage: Pelakka Wurm (110) deals 7 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Soul-Shackled Zombie (104) deals 4 damage () to Suspicious Shambler (8).
+Damage: Thrashing Brontodon (94) deals 3 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Druid of the Cowl (109) deals 2 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Mild-Mannered Librarian (64) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Suspicious Shambler (8) deals 4 damage () to Soul-Shackled Zombie (104).
+Phase: Ai(2)-Gen8_Deck43's End of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck43's End step
+Phase: Ai(2)-Gen8_Deck43's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen8_Deck28)
+Phase: Ai(1)-Gen8_Deck28's Untap step
+Phase: Ai(1)-Gen8_Deck28's Upkeep step
+Phase: Ai(1)-Gen8_Deck28's Draw step
+Phase: Ai(1)-Gen8_Deck28's Main phase, precombat
+Land: Ai(1)-Gen8_Deck28 played Swamp (33)
+Phase: Ai(1)-Gen8_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck28's End of Combat Step
+Phase: Ai(1)-Gen8_Deck28's Main phase, postcombat
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (35) - {T}: Add {B}.
+Mana: Swamp (36) - {T}: Add {B}.
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Secluded Courtyard (46) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck28 cast Rune-Scarred Demon (24)
+Resolve stack: Rune-Scarred Demon - Creature 6 / 6
+Add to stack: Ai(1)-Gen8_Deck28 triggered Rune-Scarred Demon (24)
+Resolve stack: When Rune-Scarred Demon enters, you may search your library for a card, put it into your hand, then shuffle. [Zone Changer: Rune-Scarred Demon (24)]
+Phase: Ai(1)-Gen8_Deck28's End step
+Phase: Ai(1)-Gen8_Deck28's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen8_Deck43)
+Phase: Ai(2)-Gen8_Deck43's Untap step
+Phase: Ai(2)-Gen8_Deck43's Upkeep step
+Phase: Ai(2)-Gen8_Deck43's Draw step
+Phase: Ai(2)-Gen8_Deck43's Main phase, precombat
+Land: Ai(2)-Gen8_Deck43 played Plains (85)
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (85) - {T}: Add {W}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (70) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen8_Deck43 cast Lyra Dawnbringer (95)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(2)-Gen8_Deck43's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck43's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck43 assigned Pelakka Wurm (110), Thrashing Brontodon (94), Dwynen, Gilt-Leaf Daen (68), Druid of the Cowl (109) and Mild-Mannered Librarian (64) to attack Ai(1)-Gen8_Deck28.
+Add to stack: Ai(2)-Gen8_Deck43 triggered Dwynen, Gilt-Leaf Daen (68)
+Resolve stack: Whenever Dwynen, Gilt-Leaf Daen attacks, you gain 1 life for each attacking Elf you control. [Attacker: Dwynen, Gilt-Leaf Daen (68)]
+Phase: Ai(2)-Gen8_Deck43's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck28 didn't block Mild-Mannered Librarian (64).
+Ai(1)-Gen8_Deck28 didn't block Dwynen, Gilt-Leaf Daen (68).
+Ai(1)-Gen8_Deck28 didn't block Druid of the Cowl (109).
+Ai(1)-Gen8_Deck28 assigned Rune-Scarred Demon (24) to block Pelakka Wurm (110).
+Ai(1)-Gen8_Deck28 didn't block Thrashing Brontodon (94).
+Phase: Ai(2)-Gen8_Deck43's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck43's Combat Damage Step
+Damage: Pelakka Wurm (110) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Pelakka Wurm (110) deals 6 damage () to Rune-Scarred Demon (24).
+Damage: Thrashing Brontodon (94) deals 3 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Dwynen, Gilt-Leaf Daen (68) deals 3 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Druid of the Cowl (109) deals 2 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Mild-Mannered Librarian (64) deals 1 combat damage to Ai(1)-Gen8_Deck28.
+Damage: Rune-Scarred Demon (24) deals 6 damage () to Pelakka Wurm (110).
+Player control: Ai(1)-Gen8_Deck28 is controlled by Ai(1)-Gen8_Deck28
+Player control: Ai(2)-Gen8_Deck43 is controlled by Ai(2)-Gen8_Deck43
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen8_Deck28 has lost because life total reached 0
+Game outcome: Ai(2)-Gen8_Deck43 has won because all opponents have lost
+Match result: Ai(1)-Gen8_Deck28: 0 Ai(2)-Gen8_Deck43: 1 
+
+Game Result: Game 1 ended in 19379 ms. Ai(2)-Gen8_Deck43 has won!
+
+
+=== STDERR ===

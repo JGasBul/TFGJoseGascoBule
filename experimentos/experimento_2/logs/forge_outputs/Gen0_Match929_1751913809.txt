@@ -1,0 +1,420 @@
+=== COMBATE PARALELO: Gen0_Deck10 vs Gen0_Deck30 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck10 Gen0_Deck30 -n 1
+Duración: 25.88 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1773 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 77 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck10 vs Ai(2)-Gen0_Deck30 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck30 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck30 has mulliganed down to 5 cards.
+Mulligan: Ai(2)-Gen0_Deck30 has kept a hand of 5 cards
+Mulligan: Ai(1)-Gen0_Deck10 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Land: Ai(2)-Gen0_Deck30 played Forest (99)
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(1)-Gen0_Deck10 played Scoured Barrens (44)
+Add to stack: Ai(1)-Gen0_Deck10 triggered Scoured Barrens (44)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (44)]
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Land: Ai(2)-Gen0_Deck30 played Mountain (118)
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Forest (99) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck30 cast Courageous Goblin (65)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Swamp (37)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Scoured Barrens (44) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Vampire Gourmand (27)
+Resolve stack: Vampire Gourmand - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Land: Ai(2)-Gen0_Deck30 played Mountain (116)
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(1)-Gen0_Deck10 played Scoured Barrens (42)
+Add to stack: Ai(1)-Gen0_Deck10 triggered Scoured Barrens (42)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (42)]
+Mana: Scoured Barrens (44) - {T}: Add {W} or {B}.
+Mana: Swamp (37) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Ajani's Pridemate (19)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Mountain (116) - {T}: Add {R}.
+Discard: Ai(2)-Gen0_Deck30 discards Chandra, Flameshaper (104).
+Add to stack: Ai(2)-Gen0_Deck30 cast Seize the Spoils (70)
+Resolve stack: Seize the Spoils (70) - Draw two cards and create a Treasure token. 
+Land: Ai(2)-Gen0_Deck30 played Forest (96)
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Scoured Barrens (44) - {T}: Add {W} or {B}.
+Mana: Scoured Barrens (42) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Tribute to Hunger (7) targeting [Ai(2)-Gen0_Deck30]
+Resolve stack: Tribute to Hunger (7) - Ai(2)-Gen0_Deck30 sacrifices a creature. Ai(1)-Gen0_Deck10 gains life equal to that creature's toughness. 
+Add to stack: Ai(1)-Gen0_Deck10 triggered Ajani's Pridemate (19)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen0_Deck10, Gained Amount: 2]
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 assigned Vampire Gourmand (27) and Ajani's Pridemate (19) to attack Ai(2)-Gen0_Deck30.
+Add to stack: Ai(1)-Gen0_Deck10 triggered Vampire Gourmand (27)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn. [Attacker: Vampire Gourmand (27)]
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck30 didn't block Ajani's Pridemate (19).
+Ai(2)-Gen0_Deck30 didn't block Vampire Gourmand (27).
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Damage: Vampire Gourmand (27) deals 2 combat damage to Ai(2)-Gen0_Deck30.
+Damage: Ajani's Pridemate (19) deals 3 combat damage to Ai(2)-Gen0_Deck30.
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck10 played Evolving Wilds (47)
+Add to stack: Ai(1)-Gen0_Deck10 activated Evolving Wilds (47)
+Resolve stack: Evolving Wilds (47) - Ai(1)-Gen0_Deck10 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Land: Ai(2)-Gen0_Deck30 played Soulstone Sanctuary (111)
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck30 cast Skyraker Giant (79)
+Resolve stack: Skyraker Giant - Creature 4 / 3
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Scoured Barrens (44) - {T}: Add {W} or {B}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Scoured Barrens (42) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Bake into a Pie (56) targeting [Skyraker Giant (79)]
+Resolve stack: Bake into a Pie (56) - Destroy Skyraker Giant (79). 
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 assigned Vampire Gourmand (27) and Ajani's Pridemate (19) to attack Ai(2)-Gen0_Deck30.
+Add to stack: Ai(1)-Gen0_Deck10 triggered Vampire Gourmand (27)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn. [Attacker: Vampire Gourmand (27)]
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck30 didn't block Ajani's Pridemate (19).
+Ai(2)-Gen0_Deck30 didn't block Vampire Gourmand (27).
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Damage: Vampire Gourmand (27) deals 2 combat damage to Ai(2)-Gen0_Deck30.
+Damage: Ajani's Pridemate (19) deals 3 combat damage to Ai(2)-Gen0_Deck30.
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck30 activated Soulstone Sanctuary (111)
+Resolve stack: Soulstone Sanctuary (111) - Soulstone Sanctuary (111) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 assigned Soulstone Sanctuary (111) to attack Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck10 didn't block Soulstone Sanctuary (111).
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Damage: Soulstone Sanctuary (111) deals 3 combat damage to Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Mana: Treasure Token (122) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Soulstone Sanctuary (111) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck30 cast Courageous Goblin (67)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Plains (12)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 assigned Ajani's Pridemate (19) to attack Ai(2)-Gen0_Deck30.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck30 didn't block Ajani's Pridemate (19).
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Damage: Ajani's Pridemate (19) deals 3 combat damage to Ai(2)-Gen0_Deck30.
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Scoured Barrens (44) - {T}: Add {W} or {B}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Scoured Barrens (42) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck10 cast High-Society Hunter (1)
+Resolve stack: High-Society Hunter - Creature 5 / 3
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Land: Ai(2)-Gen0_Deck30 played Soulstone Sanctuary (109)
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Forest (96) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck30 cast Dwynen, Gilt-Leaf Daen (86)
+Resolve stack: Dwynen, Gilt-Leaf Daen - Creature 3 / 4
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Tribute to Hunger (8) targeting [Ai(2)-Gen0_Deck30]
+Resolve stack: Tribute to Hunger (8) - Ai(2)-Gen0_Deck30 sacrifices a creature. Ai(1)-Gen0_Deck10 gains life equal to that creature's toughness. 
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Add to stack: Ai(1)-Gen0_Deck10 triggered Ajani's Pridemate (19)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(1)-Gen0_Deck10, Gained Amount: 2]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Courageous Goblin (67)]
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Swamp (38)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 assigned High-Society Hunter (1) and Ajani's Pridemate (19) to attack Ai(2)-Gen0_Deck30.
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (1)]
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Vampire Gourmand (27)]
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck30 assigned Dwynen, Gilt-Leaf Daen (86) to block High-Society Hunter (1).
+Ai(2)-Gen0_Deck30 assigned Soulstone Sanctuary (111) to block Ajani's Pridemate (19).
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Damage: High-Society Hunter (1) deals 6 damage () to Dwynen, Gilt-Leaf Daen (86).
+Damage: Ajani's Pridemate (19) deals 4 damage () to Soulstone Sanctuary (111).
+Damage: Soulstone Sanctuary (111) deals 4 damage () to Ajani's Pridemate (19).
+Damage: Dwynen, Gilt-Leaf Daen (86) deals 3 damage () to High-Society Hunter (1).
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Dwynen, Gilt-Leaf Daen (86)]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Soulstone Sanctuary (111)]
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Ajani's Pridemate (19)]
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Scoured Barrens (44) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Zul Ashur, Lich Lord (3)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck30)
+Phase: Ai(2)-Gen0_Deck30's Untap step
+Phase: Ai(2)-Gen0_Deck30's Upkeep step
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (96) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck30 activated Soulstone Sanctuary (109)
+Resolve stack: Soulstone Sanctuary (109) - Soulstone Sanctuary (109) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck30's Draw step
+Phase: Ai(2)-Gen0_Deck30's Main phase, precombat
+Land: Ai(2)-Gen0_Deck30 played Evolving Wilds (100)
+Add to stack: Ai(2)-Gen0_Deck30 activated Evolving Wilds (100)
+Resolve stack: Evolving Wilds (100) - Ai(2)-Gen0_Deck30 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck30 assigned Soulstone Sanctuary (109) to attack Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck30's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck10 didn't block Soulstone Sanctuary (109).
+Phase: Ai(2)-Gen0_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck30's Combat Damage Step
+Damage: Soulstone Sanctuary (109) deals 3 combat damage to Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck30's End of Combat Step
+Phase: Ai(2)-Gen0_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck30's End step
+Phase: Ai(2)-Gen0_Deck30's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Swamp (38) - {T}: Add {B}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Bake into a Pie (55) targeting [Soulstone Sanctuary (109)]
+Resolve stack: Bake into a Pie (55) - Destroy Soulstone Sanctuary (109). 
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Soulstone Sanctuary (109)]
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Plains (14)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 assigned High-Society Hunter (1) and Zul Ashur, Lich Lord (3) to attack Ai(2)-Gen0_Deck30.
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, put a +1/+1 counter on this creature. [Attacker: High-Society Hunter (1)]
+Add to stack: Ai(1)-Gen0_Deck10 triggered High-Society Hunter (1)
+Resolve stack: Whenever another nontoken creature dies, draw a card. [Zone Changer: Zul Ashur, Lich Lord (3)]
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck30 didn't block High-Society Hunter (1).
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Damage: High-Society Hunter (1) deals 7 combat damage to Ai(2)-Gen0_Deck30.
+Player control: Ai(1)-Gen0_Deck10 is controlled by Ai(1)-Gen0_Deck10
+Player control: Ai(2)-Gen0_Deck30 is controlled by Ai(2)-Gen0_Deck30
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck10 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck30 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck10: 1 Ai(2)-Gen0_Deck30: 0 
+
+Game Result: Game 1 ended in 15549 ms. Ai(1)-Gen0_Deck10 has won!
+
+
+=== STDERR ===

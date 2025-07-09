@@ -1,0 +1,384 @@
+=== COMBATE PARALELO: Gen0_Deck39 vs Gen0_Deck41 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck39 Gen0_Deck41 -n 1
+Duración: 26.25 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1920 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 152 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck39 vs Ai(2)-Gen0_Deck41 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck39 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck39 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen0_Deck41 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(1)-Gen0_Deck39 played Temple of Epiphany (58)
+Add to stack: Ai(1)-Gen0_Deck39 triggered Temple of Epiphany (58)
+Resolve stack: Ai(1)-Gen0_Deck39 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (58)]
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck39's End of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck39's End step
+Phase: Ai(1)-Gen0_Deck39's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck41)
+Phase: Ai(2)-Gen0_Deck41's Untap step
+Phase: Ai(2)-Gen0_Deck41's Upkeep step
+Phase: Ai(2)-Gen0_Deck41's Draw step
+Phase: Ai(2)-Gen0_Deck41's Main phase, precombat
+Land: Ai(2)-Gen0_Deck41 played Island (93)
+Phase: Ai(2)-Gen0_Deck41's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck41 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck41's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck41's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck41's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck41's End of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck41's End step
+Phase: Ai(2)-Gen0_Deck41's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Land: Ai(1)-Gen0_Deck39 played Rogue's Passage (13)
+Mana: Temple of Epiphany (58) - {T}: Add {U} or {R}.
+Add to stack: Ai(1)-Gen0_Deck39 cast Fanatical Firebrand (48)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 assigned Fanatical Firebrand (48) to attack Ai(2)-Gen0_Deck41.
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck41 cast Opt (97)
+Resolve stack: Ai(2)-Gen0_Deck41 scried 1 card(s) to the top of the library
+Resolve stack: Opt (97) - Ai(2)-Gen0_Deck41 scries 1. Ai(2)-Gen0_Deck41 draws a card.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck41 didn't block Fanatical Firebrand (48).
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (48) deals 1 combat damage to Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's End of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck39's End step
+Phase: Ai(1)-Gen0_Deck39's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck41)
+Phase: Ai(2)-Gen0_Deck41's Untap step
+Phase: Ai(2)-Gen0_Deck41's Upkeep step
+Phase: Ai(2)-Gen0_Deck41's Draw step
+Phase: Ai(2)-Gen0_Deck41's Main phase, precombat
+Land: Ai(2)-Gen0_Deck41 played Forest (83)
+Phase: Ai(2)-Gen0_Deck41's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck41 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck41's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck41's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck41's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck41's End of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Main phase, postcombat
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck41 cast Gnarlid Colony (61)
+Resolve stack: Gnarlid Colony - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck41's End step
+Phase: Ai(2)-Gen0_Deck41's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Mana: Temple of Epiphany (58) - {T}: Add {U} or {R}.
+Mana: Rogue's Passage (13) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck39 cast Scorching Dragonfire (21) targeting [Gnarlid Colony (61)]
+Damage: Scorching Dragonfire (21) deals 3 damage () to Gnarlid Colony (61).
+Resolve stack: Scorching Dragonfire (21) - Scorching Dragonfire (21) deals 3 damage to Gnarlid Colony (61).  If that creature or planeswalker would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Land: Ai(1)-Gen0_Deck39 played Plains (34)
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 assigned Fanatical Firebrand (48) to attack Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck41 didn't block Fanatical Firebrand (48).
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Damage: Fanatical Firebrand (48) deals 1 combat damage to Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's End of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck39's End step
+Phase: Ai(1)-Gen0_Deck39's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck41)
+Phase: Ai(2)-Gen0_Deck41's Untap step
+Phase: Ai(2)-Gen0_Deck41's Upkeep step
+Phase: Ai(2)-Gen0_Deck41's Draw step
+Phase: Ai(2)-Gen0_Deck41's Main phase, precombat
+Land: Ai(2)-Gen0_Deck41 played Swamp (77)
+Phase: Ai(2)-Gen0_Deck41's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck41 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck41's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck41's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck41's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck41's End of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Main phase, postcombat
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Forest (83) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck41 cast Gutless Plunderer (82)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck41's End step
+Phase: Ai(2)-Gen0_Deck41's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Land: Ai(1)-Gen0_Deck39 played Mountain (54)
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Temple of Epiphany (58) - {T}: Add {U} or {R}.
+Add to stack: Ai(1)-Gen0_Deck39 cast Angel of Vitality (42)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck39's End of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck39's End step
+Phase: Ai(1)-Gen0_Deck39's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck41)
+Phase: Ai(2)-Gen0_Deck41's Untap step
+Phase: Ai(2)-Gen0_Deck41's Upkeep step
+Phase: Ai(2)-Gen0_Deck41's Draw step
+Phase: Ai(2)-Gen0_Deck41's Main phase, precombat
+Land: Ai(2)-Gen0_Deck41 played Demolition Field (112)
+Mana: Island (93) - {T}: Add {U}.
+Mana: Forest (83) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck41 activated Demolition Field (112) targeting [Rogue's Passage (13)]
+Resolve stack: Demolition Field (112) - Destroy Rogue's Passage (13). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck41 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen0_Deck41's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck41 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck41's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck41's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck41's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck41's End of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck41's End step
+Phase: Ai(2)-Gen0_Deck41's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Land: Ai(1)-Gen0_Deck39 played Mountain (56)
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 assigned Angel of Vitality (42) to attack Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck41 didn't block Angel of Vitality (42).
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Damage: Angel of Vitality (42) deals 2 combat damage to Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's End of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck39 cast Redcap Gutter-Dweller (7)
+Resolve stack: Redcap Gutter-Dweller - Creature 3 / 3
+Add to stack: Ai(1)-Gen0_Deck39 triggered Redcap Gutter-Dweller (7)
+Resolve stack: When Redcap Gutter-Dweller enters, create two 1/1 black Rat creature tokens with "This creature can't block." [Zone Changer: Redcap Gutter-Dweller (7)]
+Phase: Ai(1)-Gen0_Deck39's End step
+Phase: Ai(1)-Gen0_Deck39's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck41)
+Phase: Ai(2)-Gen0_Deck41's Untap step
+Phase: Ai(2)-Gen0_Deck41's Upkeep step
+Phase: Ai(2)-Gen0_Deck41's Draw step
+Phase: Ai(2)-Gen0_Deck41's Main phase, precombat
+Land: Ai(2)-Gen0_Deck41 played Island (96)
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Swamp (77) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck41 cast Imperious Perfect (118)
+Resolve stack: Imperious Perfect - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck41's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck41 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck41's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck41's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck41's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck41's End of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck41's End step
+Phase: Ai(2)-Gen0_Deck41's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck39 triggered Redcap Gutter-Dweller (7)
+Resolve stack: At the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on Redcap Gutter-Dweller and exile the top card of your library. You may play that card this turn. [Phase: Ai(1)-Gen0_Deck39]
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 assigned Redcap Gutter-Dweller (7) and Angel of Vitality (42) to attack Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck41 didn't block Redcap Gutter-Dweller (7).
+Ai(2)-Gen0_Deck41 didn't block Angel of Vitality (42).
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Damage: Redcap Gutter-Dweller (7) deals 4 combat damage to Ai(2)-Gen0_Deck41.
+Damage: Angel of Vitality (42) deals 2 combat damage to Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's End of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck39 played Mountain (53)
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck39 cast Krenko, Mob Boss (40)
+Resolve stack: Krenko, Mob Boss - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck39's End step
+Phase: Ai(1)-Gen0_Deck39's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck41)
+Phase: Ai(2)-Gen0_Deck41's Untap step
+Phase: Ai(2)-Gen0_Deck41's Upkeep step
+Phase: Ai(2)-Gen0_Deck41's Draw step
+Phase: Ai(2)-Gen0_Deck41's Main phase, precombat
+Land: Ai(2)-Gen0_Deck41 played Evolving Wilds (90)
+Add to stack: Ai(2)-Gen0_Deck41 activated Evolving Wilds (90)
+Resolve stack: Evolving Wilds (90) - Ai(2)-Gen0_Deck41 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck41's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck41 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck41's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck41's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck41's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck41's End of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck41's End step
+Phase: Ai(2)-Gen0_Deck41's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck39 triggered Redcap Gutter-Dweller (7)
+Resolve stack: At the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on Redcap Gutter-Dweller and exile the top card of your library. You may play that card this turn. [Phase: Ai(1)-Gen0_Deck39]
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck39 cast Angel of Vitality (44)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 assigned Redcap Gutter-Dweller (7), Krenko, Mob Boss (40) and Angel of Vitality (42) to attack Ai(2)-Gen0_Deck41.
+Mana: Forest (83) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck41 activated Imperious Perfect (118)
+Resolve stack: Imperious Perfect (118) - Ai(2)-Gen0_Deck41 creates a 1/1 green Elf Warrior creature token.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck41 didn't block Redcap Gutter-Dweller (7).
+Ai(2)-Gen0_Deck41 assigned Gutless Plunderer (82) to block Krenko, Mob Boss (40).
+Ai(2)-Gen0_Deck41 didn't block Angel of Vitality (42).
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Damage: Redcap Gutter-Dweller (7) deals 5 combat damage to Ai(2)-Gen0_Deck41.
+Damage: Krenko, Mob Boss (40) deals 3 damage () to Gutless Plunderer (82).
+Damage: Angel of Vitality (42) deals 2 combat damage to Ai(2)-Gen0_Deck41.
+Damage: Gutless Plunderer (82) deals 2 damage (Deathtouch) to Krenko, Mob Boss (40).
+Phase: Ai(1)-Gen0_Deck39's End of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Main phase, postcombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(1)-Gen0_Deck39 played Temple of Epiphany (57)
+Add to stack: Ai(1)-Gen0_Deck39 triggered Temple of Epiphany (57)
+Resolve stack: Ai(1)-Gen0_Deck39 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (57)]
+Phase: Ai(1)-Gen0_Deck39's End step
+Phase: Ai(1)-Gen0_Deck39's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck41)
+Phase: Ai(2)-Gen0_Deck41's Untap step
+Phase: Ai(2)-Gen0_Deck41's Upkeep step
+Phase: Ai(2)-Gen0_Deck41's Draw step
+Phase: Ai(2)-Gen0_Deck41's Main phase, precombat
+Land: Ai(2)-Gen0_Deck41 played Evolving Wilds (89)
+Add to stack: Ai(2)-Gen0_Deck41 activated Evolving Wilds (89)
+Resolve stack: Evolving Wilds (89) - Ai(2)-Gen0_Deck41 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck41's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck41 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck41's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck41's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck41's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck41's End of Combat Step
+Phase: Ai(2)-Gen0_Deck41's Main phase, postcombat
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck41 cast Bloodthirsty Conqueror (69)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Phase: Ai(2)-Gen0_Deck41's End step
+Add to stack: Ai(1)-Gen0_Deck39 activated Fanatical Firebrand (48) targeting [Ai(2)-Gen0_Deck41]
+Damage: Fanatical Firebrand (48) deals 1 non-combat damage to Ai(2)-Gen0_Deck41.
+Resolve stack: Fanatical Firebrand (48) - Fanatical Firebrand (48) deals 1 damage to Ai(2)-Gen0_Deck41.
+Phase: Ai(2)-Gen0_Deck41's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck39)
+Phase: Ai(1)-Gen0_Deck39's Untap step
+Phase: Ai(1)-Gen0_Deck39's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck39 triggered Redcap Gutter-Dweller (7)
+Resolve stack: At the beginning of your upkeep, you may sacrifice another creature. If you do, put a +1/+1 counter on Redcap Gutter-Dweller and exile the top card of your library. You may play that card this turn. [Phase: Ai(1)-Gen0_Deck39]
+Phase: Ai(1)-Gen0_Deck39's Draw step
+Phase: Ai(1)-Gen0_Deck39's Main phase, precombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck39 cast Banishing Light (18)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen0_Deck39 triggered Banishing Light (18) targeting [Bloodthirsty Conqueror (69)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Bloodthirsty Conqueror (69)]]) [Zone Changer: Banishing Light (18)]
+Phase: Ai(1)-Gen0_Deck39's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck39's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck39 assigned Redcap Gutter-Dweller (7) and Angel of Vitality (44) to attack Ai(2)-Gen0_Deck41.
+Phase: Ai(1)-Gen0_Deck39's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck41 assigned Imperious Perfect (118) and Elf Warrior Token (151) to block Redcap Gutter-Dweller (7).
+Ai(2)-Gen0_Deck41 didn't block Angel of Vitality (44).
+Phase: Ai(1)-Gen0_Deck39's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck39's Combat Damage Step
+Damage: Redcap Gutter-Dweller (7) deals 2 damage () to Imperious Perfect (118).
+Damage: Redcap Gutter-Dweller (7) deals 4 damage () to Elf Warrior Token (151).
+Damage: Angel of Vitality (44) deals 2 combat damage to Ai(2)-Gen0_Deck41.
+Damage: Imperious Perfect (118) deals 2 damage () to Redcap Gutter-Dweller (7).
+Damage: Elf Warrior Token (151) deals 2 damage () to Redcap Gutter-Dweller (7).
+Player control: Ai(1)-Gen0_Deck39 is controlled by Ai(1)-Gen0_Deck39
+Player control: Ai(2)-Gen0_Deck41 is controlled by Ai(2)-Gen0_Deck41
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck39 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck41 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck39: 1 Ai(2)-Gen0_Deck41: 0 
+
+Game Result: Game 1 ended in 14550 ms. Ai(1)-Gen0_Deck39 has won!
+
+
+=== STDERR ===

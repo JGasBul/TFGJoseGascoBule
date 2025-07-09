@@ -1,0 +1,405 @@
+=== COMBATE PARALELO: Gen1_Deck21 vs Gen1_Deck46 ===
+Worker ID: 3987559
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck21 Gen1_Deck46 -n 1
+Duración: 27.88 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2029 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 42 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck21 vs Ai(2)-Gen1_Deck46 - one game of Constructed
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Mulligan: Ai(1)-Gen1_Deck21 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen1_Deck21 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen1_Deck46 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Land: Ai(1)-Gen1_Deck21 played Plains (44)
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck21's End step
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Mountain (113)
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Fanatical Firebrand (108)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 assigned Fanatical Firebrand (108) to attack Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck21 didn't block Fanatical Firebrand (108).
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Damage: Fanatical Firebrand (108) deals 1 combat damage to Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Land: Ai(1)-Gen1_Deck21 played Plains (40)
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck21's End step
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Swamp (81)
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 assigned Fanatical Firebrand (108) to attack Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck21 didn't block Fanatical Firebrand (108).
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Damage: Fanatical Firebrand (108) deals 1 combat damage to Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Land: Ai(1)-Gen1_Deck21 played Plains (32)
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck21's End step
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 assigned Fanatical Firebrand (108) to attack Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck21 didn't block Fanatical Firebrand (108).
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Damage: Fanatical Firebrand (108) deals 1 combat damage to Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen1_Deck46 played Temple of Epiphany (119)
+Add to stack: Ai(2)-Gen1_Deck46 triggered Temple of Epiphany (119)
+Resolve stack: Ai(2)-Gen1_Deck46 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (119)]
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Land: Ai(1)-Gen1_Deck21 played Evolving Wilds (29)
+Add to stack: Ai(1)-Gen1_Deck21 activated Evolving Wilds (29)
+Resolve stack: Evolving Wilds (29) - Ai(1)-Gen1_Deck21 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck21's End step
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Island (90)
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 assigned Fanatical Firebrand (108) to attack Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck21 didn't block Fanatical Firebrand (108).
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Damage: Fanatical Firebrand (108) deals 1 combat damage to Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen1_Deck21 played Uncharted Haven (52)
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck21's End step
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 assigned Fanatical Firebrand (108) to attack Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck21 didn't block Fanatical Firebrand (108).
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Damage: Fanatical Firebrand (108) deals 1 combat damage to Ai(1)-Gen1_Deck21.
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen1_Deck46 played Temple of Epiphany (120)
+Add to stack: Ai(2)-Gen1_Deck46 triggered Temple of Epiphany (120)
+Resolve stack: Ai(2)-Gen1_Deck46 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (120)]
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Replacement Effect: Temple of Malice enters tapped.
+Land: Ai(1)-Gen1_Deck21 played Temple of Malice (23)
+Add to stack: Ai(1)-Gen1_Deck21 triggered Temple of Malice (23)
+Resolve stack: Ai(1)-Gen1_Deck21 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Malice enters, scry 1. [Zone Changer: Temple of Malice (23)]
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Uncharted Haven (52) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck21 cast Lyra Dawnbringer (3)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen1_Deck21's End step
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Swamp (80)
+Mana: Island (90) - {T}: Add {U}.
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Temple of Epiphany (120) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Self-Reflection (105) targeting [Fanatical Firebrand (108)]
+Resolve stack: Self-Reflection (105) - Ai(2)-Gen1_Deck46 creates a token that's a copy of Fanatical Firebrand (108).
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Uncharted Haven (52) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck21 cast Serra Angel (54)
+Resolve stack: Serra Angel - Creature 4 / 4
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 assigned Lyra Dawnbringer (3) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Lyra Dawnbringer (3).
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Damage: Lyra Dawnbringer (3) deals 5 combat damage to Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck21's End step
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Swamp (78)
+Mana: Island (90) - {T}: Add {U}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Self-Reflection (105) targeting [Fanatical Firebrand (108)]
+Resolve stack: Self-Reflection (105) - Ai(2)-Gen1_Deck46 creates a token that's a copy of Fanatical Firebrand (108).
+Replacement Effect: Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Fanatical Firebrand (111)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck46's End step
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 assigned Lyra Dawnbringer (3) and Serra Angel (54) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Lyra Dawnbringer (3).
+Ai(2)-Gen1_Deck46 didn't block Serra Angel (54).
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Damage: Lyra Dawnbringer (3) deals 5 combat damage to Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck21's Combat Damage Step
+Damage: Serra Angel (54) deals 5 combat damage to Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck21's End of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Main phase, postcombat
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck21 cast Knight of Grace (24)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck21's End step
+Add to stack: Ai(2)-Gen1_Deck46 activated Fanatical Firebrand (108) targeting [Knight of Grace (24)]
+Damage: Fanatical Firebrand (108) deals 1 damage () to Knight of Grace (24).
+Resolve stack: Fanatical Firebrand (108) - Fanatical Firebrand (108) deals 1 damage to Knight of Grace (24).
+Add to stack: Ai(2)-Gen1_Deck46 activated Fanatical Firebrand (122) targeting [Knight of Grace (24)]
+Damage: Fanatical Firebrand (122) deals 1 damage () to Knight of Grace (24).
+Resolve stack: Fanatical Firebrand (122) - Fanatical Firebrand (122) deals 1 damage to Knight of Grace (24).
+Phase: Ai(1)-Gen1_Deck21's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck46)
+Phase: Ai(2)-Gen1_Deck46's Untap step
+Phase: Ai(2)-Gen1_Deck46's Upkeep step
+Phase: Ai(2)-Gen1_Deck46's Draw step
+Phase: Ai(2)-Gen1_Deck46's Main phase, precombat
+Land: Ai(2)-Gen1_Deck46 played Plains (87)
+Phase: Ai(2)-Gen1_Deck46's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck46 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck46's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck46's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck46's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck46's End of Combat Step
+Phase: Ai(2)-Gen1_Deck46's Main phase, postcombat
+Mana: Island (90) - {T}: Add {U}.
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck46 cast Curator of Destinies (103)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen1_Deck46 triggered Curator of Destinies (103)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (103)]
+Phase: Ai(2)-Gen1_Deck46's End step
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Uncharted Haven (52) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck21 cast Stroke of Midnight (46) targeting [Curator of Destinies (103)]
+Resolve stack: Stroke of Midnight (46) - Destroy Curator of Destinies (103). 
+Phase: Ai(2)-Gen1_Deck46's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck21)
+Phase: Ai(1)-Gen1_Deck21's Untap step
+Phase: Ai(1)-Gen1_Deck21's Upkeep step
+Phase: Ai(1)-Gen1_Deck21's Draw step
+Phase: Ai(1)-Gen1_Deck21's Main phase, precombat
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck21 cast Angel of Finality (14)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen1_Deck21 triggered Angel of Finality (14) targeting [Ai(2)-Gen1_Deck46]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen1_Deck46]]) [Zone Changer: Angel of Finality (14)]
+Mana: Uncharted Haven (52) - {T}: Add one mana of the chosen color.
+Mana: Temple of Malice (23) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen1_Deck21 cast Youthful Valkyrie (17)
+Resolve stack: Youthful Valkyrie - Creature 1 / 3
+Phase: Ai(1)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck21 assigned Lyra Dawnbringer (3) and Serra Angel (54) to attack Ai(2)-Gen1_Deck46.
+Phase: Ai(1)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck46 didn't block Lyra Dawnbringer (3).
+Ai(2)-Gen1_Deck46 didn't block Serra Angel (54).
+Phase: Ai(1)-Gen1_Deck21's First Strike Damage Step
+Damage: Lyra Dawnbringer (3) deals 5 combat damage to Ai(2)-Gen1_Deck46.
+Player control: Ai(1)-Gen1_Deck21 is controlled by Ai(1)-Gen1_Deck21
+Player control: Ai(2)-Gen1_Deck46 is controlled by Ai(2)-Gen1_Deck46
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck21 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck46 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck21: 1 Ai(2)-Gen1_Deck46: 0 
+
+Game Result: Game 1 ended in 15527 ms. Ai(1)-Gen1_Deck21 has won!
+
+
+=== STDERR ===

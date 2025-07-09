@@ -1,0 +1,366 @@
+=== COMBATE PARALELO: Gen0_Deck15 vs Gen0_Deck22 ===
+Worker ID: 3431566
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck15 Gen0_Deck22 -n 1
+Duración: 26.91 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1844 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 70 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck15 vs Ai(2)-Gen0_Deck22 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck22 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck15 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen0_Deck22 played Temple of Epiphany (119)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Temple of Epiphany (119)
+Resolve stack: Ai(2)-Gen0_Deck22 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (119)]
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck15)
+Phase: Ai(1)-Gen0_Deck15's Untap step
+Phase: Ai(1)-Gen0_Deck15's Upkeep step
+Phase: Ai(1)-Gen0_Deck15's Draw step
+Phase: Ai(1)-Gen0_Deck15's Main phase, precombat
+Land: Ai(1)-Gen0_Deck15 played Forest (32)
+Phase: Ai(1)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck15's End of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck15's End step
+Phase: Ai(1)-Gen0_Deck15's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Soulstone Sanctuary (107)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Soulstone Sanctuary (107) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Courageous Goblin (66)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck15)
+Phase: Ai(1)-Gen0_Deck15's Untap step
+Phase: Ai(1)-Gen0_Deck15's Upkeep step
+Phase: Ai(1)-Gen0_Deck15's Draw step
+Phase: Ai(1)-Gen0_Deck15's Main phase, precombat
+Land: Ai(1)-Gen0_Deck15 played Plains (42)
+Phase: Ai(1)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck15's End of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck15 cast Gnarlid Colony (4)
+Resolve stack: Gnarlid Colony - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck15's End step
+Phase: Ai(1)-Gen0_Deck15's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Island (103)
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (107) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Goblin Smuggler (90)
+Resolve stack: Goblin Smuggler - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck22 activated Goblin Smuggler (90) targeting [Courageous Goblin (66)]
+Resolve stack: Goblin Smuggler (90) - Courageous Goblin (66) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Courageous Goblin (66) to attack Ai(1)-Gen0_Deck15.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck15 didn't block Courageous Goblin (66).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Courageous Goblin (66) deals 2 combat damage to Ai(1)-Gen0_Deck15.
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck15)
+Phase: Ai(1)-Gen0_Deck15's Untap step
+Phase: Ai(1)-Gen0_Deck15's Upkeep step
+Phase: Ai(1)-Gen0_Deck15's Draw step
+Phase: Ai(1)-Gen0_Deck15's Main phase, precombat
+Land: Ai(1)-Gen0_Deck15 played Plains (38)
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck15 cast Grow from the Ashes (12)
+Resolve stack: Grow from the Ashes (12) - Ai(1)-Gen0_Deck15 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck15 assigned Gnarlid Colony (4) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 didn't block Gnarlid Colony (4).
+Phase: Ai(1)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck15's Combat Damage Step
+Damage: Gnarlid Colony (4) deals 2 combat damage to Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck15's End of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck15's End step
+Phase: Ai(1)-Gen0_Deck15's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck22 activated Goblin Smuggler (90) targeting [Courageous Goblin (66)]
+Resolve stack: Goblin Smuggler (90) - Courageous Goblin (66) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Courageous Goblin (66) to attack Ai(1)-Gen0_Deck15.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck15 didn't block Courageous Goblin (66).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Courageous Goblin (66) deals 2 combat damage to Ai(1)-Gen0_Deck15.
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen0_Deck22 played Temple of Epiphany (118)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Temple of Epiphany (118)
+Resolve stack: Ai(2)-Gen0_Deck22 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (118)]
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (107) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Taurean Mauler (77)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck15)
+Phase: Ai(1)-Gen0_Deck15's Untap step
+Phase: Ai(1)-Gen0_Deck15's Upkeep step
+Phase: Ai(1)-Gen0_Deck15's Draw step
+Phase: Ai(1)-Gen0_Deck15's Main phase, precombat
+Land: Ai(1)-Gen0_Deck15 played Plains (43)
+Phase: Ai(1)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck15's End of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck15 cast Mazemind Tome (53)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Taurean Mauler (77)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Mazemind Tome (53), Activator: Ai(1)-Gen0_Deck15, SpellAbility: Mazemind Tome]
+Resolve stack: Mazemind Tome
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck15 activated Mazemind Tome (53)
+Resolve stack: Mazemind Tome (53) - Ai(1)-Gen0_Deck15 draws a card.
+Phase: Ai(1)-Gen0_Deck15's End step
+Phase: Ai(1)-Gen0_Deck15's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck22 activated Goblin Smuggler (90) targeting [Courageous Goblin (66)]
+Resolve stack: Goblin Smuggler (90) - Courageous Goblin (66) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Mountain (116)
+Mana: Island (103) - {T}: Add {U}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Temple of Epiphany (119) - {T}: Add {U} or {R}.
+Mana: Temple of Epiphany (118) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen0_Deck22 activated Soulstone Sanctuary (107)
+Resolve stack: Soulstone Sanctuary (107) - Soulstone Sanctuary (107) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Courageous Goblin (66), Taurean Mauler (77) and Soulstone Sanctuary (107) to attack Ai(1)-Gen0_Deck15.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck15 didn't block Courageous Goblin (66).
+Ai(1)-Gen0_Deck15 didn't block Soulstone Sanctuary (107).
+Ai(1)-Gen0_Deck15 didn't block Taurean Mauler (77).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Courageous Goblin (66) deals 2 combat damage to Ai(1)-Gen0_Deck15.
+Damage: Taurean Mauler (77) deals 3 combat damage to Ai(1)-Gen0_Deck15.
+Damage: Soulstone Sanctuary (107) deals 3 combat damage to Ai(1)-Gen0_Deck15.
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck15)
+Phase: Ai(1)-Gen0_Deck15's Untap step
+Phase: Ai(1)-Gen0_Deck15's Upkeep step
+Phase: Ai(1)-Gen0_Deck15's Draw step
+Phase: Ai(1)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck15's End of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck15 played Uncharted Haven (51)
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (31) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck15 cast Juggernaut (14)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Taurean Mauler (77)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Juggernaut (14), Activator: Ai(1)-Gen0_Deck15, SpellAbility: Juggernaut - Creature 5 / 3]
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen0_Deck15's End step
+Phase: Ai(1)-Gen0_Deck15's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck22 activated Goblin Smuggler (90) targeting [Courageous Goblin (66)]
+Resolve stack: Goblin Smuggler (90) - Courageous Goblin (66) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Add to stack: Ai(1)-Gen0_Deck15 activated Mazemind Tome (53)
+Resolve stack: Ai(1)-Gen0_Deck15 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (53) - Ai(1)-Gen0_Deck15 scries 1.
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Island (98)
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (98) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Goblin Smuggler (91)
+Resolve stack: Goblin Smuggler - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck22 activated Goblin Smuggler (91) targeting [Goblin Smuggler (90)]
+Resolve stack: Goblin Smuggler (91) - Goblin Smuggler (90) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Courageous Goblin (66), Taurean Mauler (77) and Soulstone Sanctuary (107) to attack Ai(1)-Gen0_Deck15.
+Add to stack: Ai(2)-Gen0_Deck22 triggered Courageous Goblin (66)
+Resolve stack: Whenever this creature attacks while you control a creature with power 4 or greater, this creature gets +1/+0 and gains menace until end of turn. [Attacker: Courageous Goblin (66)]
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck15 didn't block Courageous Goblin (66).
+Ai(1)-Gen0_Deck15 assigned Juggernaut (14) to block Soulstone Sanctuary (107).
+Ai(1)-Gen0_Deck15 assigned Gnarlid Colony (4) to block Taurean Mauler (77).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Courageous Goblin (66) deals 3 combat damage to Ai(1)-Gen0_Deck15.
+Damage: Taurean Mauler (77) deals 4 damage () to Gnarlid Colony (4).
+Damage: Soulstone Sanctuary (107) deals 3 damage () to Juggernaut (14).
+Damage: Juggernaut (14) deals 5 damage () to Soulstone Sanctuary (107).
+Damage: Gnarlid Colony (4) deals 2 damage () to Taurean Mauler (77).
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck15)
+Phase: Ai(1)-Gen0_Deck15's Untap step
+Phase: Ai(1)-Gen0_Deck15's Upkeep step
+Phase: Ai(1)-Gen0_Deck15's Draw step
+Phase: Ai(1)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck15's End of Combat Step
+Phase: Ai(1)-Gen0_Deck15's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck15 played Uncharted Haven (49)
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck15 cast Ajani, Caller of the Pride (28)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Taurean Mauler (77)
+Mana: Forest (31) - {T}: Add {G}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck15 activated Mazemind Tome (53)
+Resolve stack: Mazemind Tome (53) - Ai(1)-Gen0_Deck15 draws a card.
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Ajani, Caller of the Pride (28), Activator: Ai(1)-Gen0_Deck15, SpellAbility: Ajani, Caller of the Pride]
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen0_Deck15 activated Ajani, Caller of the Pride (28) targeting []
+Resolve stack: Ajani, Caller of the Pride (28) - Ai(1)-Gen0_Deck15 
+Mana: Uncharted Haven (51) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen0_Deck15 cast Soul-Guide Lantern (48)
+Add to stack: Ai(2)-Gen0_Deck22 triggered Taurean Mauler (77)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Soul-Guide Lantern (48), Activator: Ai(1)-Gen0_Deck15, SpellAbility: Soul-Guide Lantern]
+Resolve stack: Soul-Guide Lantern
+Add to stack: Ai(1)-Gen0_Deck15 triggered Soul-Guide Lantern (48) targeting [Soulstone Sanctuary (107)]
+Resolve stack: When Soul-Guide Lantern enters, exile target card from a graveyard. (Targeting: [[Soulstone Sanctuary (107)]]) [Zone Changer: Soul-Guide Lantern (48)]
+Add to stack: Ai(1)-Gen0_Deck15 activated Soul-Guide Lantern (48)
+Resolve stack: Soul-Guide Lantern (48) -  Exile each opponent's graveyard.
+Phase: Ai(1)-Gen0_Deck15's End step
+Phase: Ai(1)-Gen0_Deck15's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck22 activated Goblin Smuggler (90) targeting [Goblin Smuggler (91)]
+Resolve stack: Goblin Smuggler (90) - Goblin Smuggler (91) can't be blocked this turn.
+Add to stack: Ai(2)-Gen0_Deck22 activated Goblin Smuggler (91) targeting [Goblin Smuggler (90)]
+Resolve stack: Goblin Smuggler (91) - Goblin Smuggler (90) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Taurean Mauler (77) and Courageous Goblin (66) to attack Ai(1)-Gen0_Deck15.
+Add to stack: Ai(2)-Gen0_Deck22 triggered Courageous Goblin (66)
+Resolve stack: Whenever this creature attacks while you control a creature with power 4 or greater, this creature gets +1/+0 and gains menace until end of turn. [Attacker: Courageous Goblin (66)]
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck15 didn't block Courageous Goblin (66).
+Ai(1)-Gen0_Deck15 didn't block Taurean Mauler (77).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Taurean Mauler (77) deals 6 combat damage to Ai(1)-Gen0_Deck15.
+Damage: Courageous Goblin (66) deals 3 combat damage to Ai(1)-Gen0_Deck15.
+Player control: Ai(1)-Gen0_Deck15 is controlled by Ai(1)-Gen0_Deck15
+Player control: Ai(2)-Gen0_Deck22 is controlled by Ai(2)-Gen0_Deck22
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen0_Deck15 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck22 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck15: 0 Ai(2)-Gen0_Deck22: 1 
+
+Game Result: Game 1 ended in 14678 ms. Ai(2)-Gen0_Deck22 has won!
+
+
+=== STDERR ===

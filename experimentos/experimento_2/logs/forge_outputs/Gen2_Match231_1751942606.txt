@@ -1,0 +1,346 @@
+=== COMBATE PARALELO: Gen2_Deck2 vs Gen2_Deck21 ===
+Worker ID: 352525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck2 Gen2_Deck21 -n 1
+Duración: 24.93 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1932 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 129 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck2 vs Ai(2)-Gen2_Deck21 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck21 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck2 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck21)
+Phase: Ai(2)-Gen2_Deck21's Untap step
+Phase: Ai(2)-Gen2_Deck21's Upkeep step
+Phase: Ai(2)-Gen2_Deck21's Draw step
+Phase: Ai(2)-Gen2_Deck21's Main phase, precombat
+Land: Ai(2)-Gen2_Deck21 played Swamp (113)
+Phase: Ai(2)-Gen2_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck21's End of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Main phase, postcombat
+Mana: Swamp (113) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck21 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Phase: Ai(2)-Gen2_Deck21's End step
+Phase: Ai(2)-Gen2_Deck21's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Land: Ai(1)-Gen2_Deck2 played Swamp (20)
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Duress (39) targeting [Ai(2)-Gen2_Deck21]
+Discard: Ai(2)-Gen2_Deck21 discards Biogenic Upgrade (101).
+Resolve stack: Duress (39) - Ai(2)-Gen2_Deck21 reveals their hand. Ai(1)-Gen2_Deck2 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen2_Deck21 discards that card.
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck21)
+Phase: Ai(2)-Gen2_Deck21's Untap step
+Phase: Ai(2)-Gen2_Deck21's Upkeep step
+Phase: Ai(2)-Gen2_Deck21's Draw step
+Phase: Ai(2)-Gen2_Deck21's Main phase, precombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen2_Deck21 played Scoured Barrens (115)
+Add to stack: Ai(2)-Gen2_Deck21 triggered Scoured Barrens (115)
+Add to stack: Ai(2)-Gen2_Deck21 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Scoured Barrens (115)]
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (115)]
+Phase: Ai(2)-Gen2_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck21's End of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck21's End step
+Phase: Ai(2)-Gen2_Deck21's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Land: Ai(1)-Gen2_Deck2 played Swamp (33)
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Kalastria Highborn (45)
+Resolve stack: Kalastria Highborn - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck21)
+Phase: Ai(2)-Gen2_Deck21's Untap step
+Phase: Ai(2)-Gen2_Deck21's Upkeep step
+Phase: Ai(2)-Gen2_Deck21's Draw step
+Phase: Ai(2)-Gen2_Deck21's Main phase, precombat
+Land: Ai(2)-Gen2_Deck21 played Crawling Barrens (92)
+Add to stack: Ai(2)-Gen2_Deck21 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (92)]
+Phase: Ai(2)-Gen2_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck21's End of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck21's End step
+Phase: Ai(2)-Gen2_Deck21's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Land: Ai(1)-Gen2_Deck2 played Swamp (21)
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 assigned Kalastria Highborn (45) to attack Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck21 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Pilfer (36) targeting [Ai(2)-Gen2_Deck21]
+Discard: Ai(2)-Gen2_Deck21 discards Fleeting Distraction (105).
+Resolve stack: Pilfer (36) - Ai(2)-Gen2_Deck21 reveals their hand. Ai(1)-Gen2_Deck2 chooses a nonland card from it. Ai(2)-Gen2_Deck21 discards that card.
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck21)
+Phase: Ai(2)-Gen2_Deck21's Untap step
+Phase: Ai(2)-Gen2_Deck21's Upkeep step
+Phase: Ai(2)-Gen2_Deck21's Draw step
+Phase: Ai(2)-Gen2_Deck21's Main phase, precombat
+Land: Ai(2)-Gen2_Deck21 played Soulstone Sanctuary (96)
+Add to stack: Ai(2)-Gen2_Deck21 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Soulstone Sanctuary (96)]
+Phase: Ai(2)-Gen2_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck21's End of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck21's End step
+Phase: Ai(2)-Gen2_Deck21's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Land: Ai(1)-Gen2_Deck2 played Swamp (31)
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 assigned Kalastria Highborn (45) to attack Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck21 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Driver of the Dead (54)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck21)
+Phase: Ai(2)-Gen2_Deck21's Untap step
+Phase: Ai(2)-Gen2_Deck21's Upkeep step
+Phase: Ai(2)-Gen2_Deck21's Draw step
+Phase: Ai(2)-Gen2_Deck21's Main phase, precombat
+Land: Ai(2)-Gen2_Deck21 played Island (85)
+Add to stack: Ai(2)-Gen2_Deck21 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (85)]
+Mana: Swamp (113) - {T}: Add {B}.
+Mana: Island (85) - {T}: Add {U}.
+Mana: Scoured Barrens (115) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (96) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck21 activated Crawling Barrens (92)
+Resolve stack: Crawling Barrens (92) - Ai(2)-Gen2_Deck21 puts two +1/+1 counters on Crawling Barrens (92). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck21's End of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Main phase, postcombat
+Mana: Crawling Barrens (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck21 activated Adventuring Gear (62) targeting [Crawling Barrens (92)]
+Resolve stack: Adventuring Gear (62) -  Attach to Crawling Barrens (92)
+Phase: Ai(2)-Gen2_Deck21's End step
+Phase: Ai(2)-Gen2_Deck21's Cleanup step
+Phase: RepeatAi(2)-Gen2_Deck21's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 assigned Driver of the Dead (54) and Kalastria Highborn (45) to attack Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck21 didn't block Driver of the Dead (54).
+Ai(2)-Gen2_Deck21 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Damage: Driver of the Dead (54) deals 3 combat damage to Ai(2)-Gen2_Deck21.
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Suspicious Shambler (5)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck21)
+Phase: Ai(2)-Gen2_Deck21's Untap step
+Phase: Ai(2)-Gen2_Deck21's Upkeep step
+Mana: Swamp (113) - {T}: Add {B}.
+Mana: Island (85) - {T}: Add {U}.
+Mana: Scoured Barrens (115) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck21 activated Soulstone Sanctuary (96)
+Resolve stack: Soulstone Sanctuary (96) - Soulstone Sanctuary (96) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck21's Draw step
+Phase: Ai(2)-Gen2_Deck21's Main phase, precombat
+Land: Ai(2)-Gen2_Deck21 played Demolition Field (119)
+Add to stack: Ai(2)-Gen2_Deck21 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (119)]
+Mana: Demolition Field (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck21 activated Adventuring Gear (62) targeting [Soulstone Sanctuary (96)]
+Resolve stack: Adventuring Gear (62) -  Attach to Soulstone Sanctuary (96)
+Phase: Ai(2)-Gen2_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck21's End of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck21's End step
+Phase: Ai(2)-Gen2_Deck21's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 assigned Suspicious Shambler (5) and Driver of the Dead (54) to attack Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck21 didn't block Suspicious Shambler (5).
+Ai(2)-Gen2_Deck21 didn't block Driver of the Dead (54).
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Damage: Suspicious Shambler (5) deals 4 combat damage to Ai(2)-Gen2_Deck21.
+Damage: Driver of the Dead (54) deals 3 combat damage to Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's End of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (33) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck2 cast Driver of the Dead (57)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(1)-Gen2_Deck2's End step
+Phase: Ai(1)-Gen2_Deck2's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck21)
+Phase: Ai(2)-Gen2_Deck21's Untap step
+Phase: Ai(2)-Gen2_Deck21's Upkeep step
+Phase: Ai(2)-Gen2_Deck21's Draw step
+Phase: Ai(2)-Gen2_Deck21's Main phase, precombat
+Land: Ai(2)-Gen2_Deck21 played Island (86)
+Add to stack: Ai(2)-Gen2_Deck21 triggered Adventuring Gear (62)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (86)]
+Phase: Ai(2)-Gen2_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck21's End of Combat Step
+Phase: Ai(2)-Gen2_Deck21's Main phase, postcombat
+Mana: Swamp (113) - {T}: Add {B}.
+Mana: Island (85) - {T}: Add {U}.
+Mana: Island (86) - {T}: Add {U}.
+Mana: Scoured Barrens (115) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (92) - {T}: Add {C}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (96) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck21 cast Meteor Golem (68)
+Resolve stack: Meteor Golem - Creature 3 / 3
+Add to stack: Ai(2)-Gen2_Deck21 triggered Meteor Golem (68) targeting [Suspicious Shambler (5)]
+Resolve stack: When Meteor Golem enters, destroy target nonland permanent an opponent controls. (Targeting: [[Suspicious Shambler (5)]]) [Zone Changer: Meteor Golem (68)]
+Phase: Ai(2)-Gen2_Deck21's End step
+Phase: Ai(2)-Gen2_Deck21's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck2)
+Phase: Ai(1)-Gen2_Deck2's Untap step
+Phase: Ai(1)-Gen2_Deck2's Upkeep step
+Phase: Ai(1)-Gen2_Deck2's Draw step
+Phase: Ai(1)-Gen2_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck2 assigned Driver of the Dead (54), Driver of the Dead (57) and Kalastria Highborn (45) to attack Ai(2)-Gen2_Deck21.
+Phase: Ai(1)-Gen2_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck21 assigned Meteor Golem (68) to block Driver of the Dead (54).
+Ai(2)-Gen2_Deck21 didn't block Driver of the Dead (57).
+Ai(2)-Gen2_Deck21 didn't block Kalastria Highborn (45).
+Phase: Ai(1)-Gen2_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck2's Combat Damage Step
+Damage: Driver of the Dead (54) deals 3 damage () to Meteor Golem (68).
+Damage: Driver of the Dead (57) deals 3 combat damage to Ai(2)-Gen2_Deck21.
+Damage: Kalastria Highborn (45) deals 2 combat damage to Ai(2)-Gen2_Deck21.
+Damage: Meteor Golem (68) deals 3 damage () to Driver of the Dead (54).
+Player control: Ai(1)-Gen2_Deck2 is controlled by Ai(1)-Gen2_Deck2
+Player control: Ai(2)-Gen2_Deck21 is controlled by Ai(2)-Gen2_Deck21
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen2_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck21 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck2: 1 Ai(2)-Gen2_Deck21: 0 
+
+Game Result: Game 1 ended in 11029 ms. Ai(1)-Gen2_Deck2 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,392 @@
+=== COMBATE PARALELO: Gen2_Deck1 vs Gen2_Deck35 ===
+Worker ID: 352525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck1 Gen2_Deck35 -n 1
+Duración: 26.44 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2304 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 91 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck1 vs Ai(2)-Gen2_Deck35 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck1 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck35 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (27)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Land: Ai(2)-Gen2_Deck35 played Plains (101)
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck35's End step
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (25)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Knight of Grace (19)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Land: Ai(2)-Gen2_Deck35 played Forest (95)
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck35 cast Campus Guide (73)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen2_Deck35 triggered Campus Guide (73)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (73)]
+Phase: Ai(2)-Gen2_Deck35's End step
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Knight of Grace (19) to attack Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck35 didn't block Knight of Grace (19).
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Damage: Knight of Grace (19) deals 2 combat damage to Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Land: Ai(1)-Gen2_Deck1 played Plains (26)
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Land: Ai(2)-Gen2_Deck35 played Island (111)
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 assigned Campus Guide (73) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Campus Guide (73).
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Damage: Campus Guide (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck35 cast Ajani's Pridemate (107)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck35's End step
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (23)
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Knight of Grace (19) to attack Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck35 didn't block Knight of Grace (19).
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Damage: Knight of Grace (19) deals 2 combat damage to Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Land: Ai(2)-Gen2_Deck35 played Swamp (77)
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 assigned Campus Guide (73) and Ajani's Pridemate (107) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Campus Guide (73).
+Ai(1)-Gen2_Deck1 didn't block Ajani's Pridemate (107).
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Damage: Campus Guide (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Ajani's Pridemate (107) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck35 cast Campus Guide (71)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen2_Deck35 triggered Campus Guide (71)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (71)]
+Phase: Ai(2)-Gen2_Deck35's End step
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Knight of Grace (19) to attack Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck35 didn't block Knight of Grace (19).
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Damage: Knight of Grace (19) deals 2 combat damage to Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Juggernaut (6)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Land: Ai(2)-Gen2_Deck35 played Forest (94)
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck35 cast Ajani's Pridemate (108)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck35's End step
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Juggernaut (6) and Knight of Grace (19) to attack Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck35 didn't block Knight of Grace (19).
+Ai(2)-Gen2_Deck35 didn't block Juggernaut (6).
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Damage: Knight of Grace (19) deals 2 combat damage to Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Damage: Juggernaut (6) deals 5 combat damage to Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 assigned Campus Guide (73), Ajani's Pridemate (107) and Campus Guide (71) to attack Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck1 didn't block Campus Guide (71).
+Ai(1)-Gen2_Deck1 didn't block Campus Guide (73).
+Ai(1)-Gen2_Deck1 didn't block Ajani's Pridemate (107).
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Damage: Campus Guide (73) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Ajani's Pridemate (107) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Damage: Campus Guide (71) deals 2 combat damage to Ai(1)-Gen2_Deck1.
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck35 played Island (109)
+Phase: Ai(2)-Gen2_Deck35's End step
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Juggernaut (6) to attack Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck35 assigned Ajani's Pridemate (108) to block Juggernaut (6).
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Damage: Juggernaut (6) deals 5 damage () to Ajani's Pridemate (108).
+Damage: Ajani's Pridemate (108) deals 2 damage () to Juggernaut (6).
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Angel of Finality (11)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen2_Deck1 triggered Angel of Finality (11) targeting [Ai(2)-Gen2_Deck35]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen2_Deck35]]) [Zone Changer: Angel of Finality (11)]
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Land: Ai(2)-Gen2_Deck35 played Plains (103)
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (95) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck35 cast Charming Prince (119)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen2_Deck35 triggered Charming Prince (119)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Campus Guide (73)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (119)]
+Phase: Ai(2)-Gen2_Deck35's End step
+Add to stack: Ai(2)-Gen2_Deck35 triggered Charming Prince (119)
+Resolve stack: Return exiled card to the battlefield. ([Campus Guide (73)]) [Phase: Ai(2)-Gen2_Deck35]
+Add to stack: Ai(2)-Gen2_Deck35 triggered Campus Guide (73)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (73)]
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Juggernaut (6) and Angel of Finality (11) to attack Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck35 assigned Campus Guide (71) and Ajani's Pridemate (107) to block Juggernaut (6).
+Ai(2)-Gen2_Deck35 didn't block Angel of Finality (11).
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Mischievous Pup (52)
+Resolve stack: Mischievous Pup - Creature 3 / 1
+Add to stack: Ai(1)-Gen2_Deck1 triggered Mischievous Pup (52) targeting [Juggernaut (6)]
+Resolve stack: When Mischievous Pup enters, return up to one other target permanent you control to its owner's hand. (Targeting: [[Juggernaut (6)]]) [Zone Changer: Mischievous Pup (52)]
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Damage: Angel of Finality (11) deals 3 combat damage to Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's End of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck1's End step
+Phase: Ai(1)-Gen2_Deck1's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck35)
+Phase: Ai(2)-Gen2_Deck35's Untap step
+Phase: Ai(2)-Gen2_Deck35's Upkeep step
+Phase: Ai(2)-Gen2_Deck35's Draw step
+Phase: Ai(2)-Gen2_Deck35's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck35's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck35 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck35's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck35's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck35's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck35's End of Combat Step
+Phase: Ai(2)-Gen2_Deck35's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck35 played Swamp (78)
+Phase: Ai(2)-Gen2_Deck35's End step
+Phase: Ai(2)-Gen2_Deck35's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen2_Deck1)
+Phase: Ai(1)-Gen2_Deck1's Untap step
+Phase: Ai(1)-Gen2_Deck1's Upkeep step
+Phase: Ai(1)-Gen2_Deck1's Draw step
+Phase: Ai(1)-Gen2_Deck1's Main phase, precombat
+Land: Ai(1)-Gen2_Deck1 played Plains (28)
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck1 cast Lyra Dawnbringer (3)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen2_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck1 assigned Angel of Finality (11), Mischievous Pup (52) and Knight of Grace (19) to attack Ai(2)-Gen2_Deck35.
+Phase: Ai(1)-Gen2_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck35 assigned Campus Guide (73) to block Knight of Grace (19).
+Ai(2)-Gen2_Deck35 assigned Campus Guide (71) to block Mischievous Pup (52).
+Ai(2)-Gen2_Deck35 didn't block Angel of Finality (11).
+Phase: Ai(1)-Gen2_Deck1's First Strike Damage Step
+Damage: Knight of Grace (19) deals 2 damage () to Campus Guide (73).
+Phase: Ai(1)-Gen2_Deck1's Combat Damage Step
+Damage: Angel of Finality (11) deals 4 combat damage to Ai(2)-Gen2_Deck35.
+Damage: Mischievous Pup (52) deals 3 damage () to Campus Guide (71).
+Damage: Campus Guide (71) deals 2 damage () to Mischievous Pup (52).
+Player control: Ai(1)-Gen2_Deck1 is controlled by Ai(1)-Gen2_Deck1
+Player control: Ai(2)-Gen2_Deck35 is controlled by Ai(2)-Gen2_Deck35
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen2_Deck1 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck35 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck1: 1 Ai(2)-Gen2_Deck35: 0 
+
+Game Result: Game 1 ended in 14401 ms. Ai(1)-Gen2_Deck1 has won!
+
+
+=== STDERR ===

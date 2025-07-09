@@ -1,0 +1,335 @@
+=== COMBATE PARALELO: Gen3_Deck22 vs Gen3_Deck44 ===
+Worker ID: 909536
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck22 Gen3_Deck44 -n 1
+Duración: 24.32 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2130 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 77 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck22 vs Ai(2)-Gen3_Deck44 - one game of Constructed
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+Mulligan: Ai(1)-Gen3_Deck22 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck44 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Forest (41)
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Mana: Forest (41) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck22 cast Adventuring Gear (3)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Replacement Effect: Temple of Epiphany enters tapped.
+Land: Ai(2)-Gen3_Deck44 played Temple of Epiphany (116)
+Add to stack: Ai(2)-Gen3_Deck44 triggered Temple of Epiphany (116)
+Resolve stack: Ai(2)-Gen3_Deck44 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Epiphany enters, scry 1. [Zone Changer: Temple of Epiphany (116)]
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Mountain (59)
+Add to stack: Ai(1)-Gen3_Deck22 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (59)]
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Soulstone Sanctuary (102)
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Swamp (24)
+Add to stack: Ai(1)-Gen3_Deck22 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (24)]
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Island (92)
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Mountain (57)
+Add to stack: Ai(1)-Gen3_Deck22 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (57)]
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Forest (41) - {T}: Add {G}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck22 cast Suspicious Shambler (4)
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Mountain (107)
+Mana: Mountain (107) - {T}: Add {R}.
+Mana: Temple of Epiphany (116) - {T}: Add {U} or {R}.
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck44 cast Flamewake Phoenix (64)
+Resolve stack: Flamewake Phoenix - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Flamewake Phoenix (64) to attack Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Flamewake Phoenix (64).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Flamewake Phoenix (64) deals 2 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Mountain (58)
+Add to stack: Ai(1)-Gen3_Deck22 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (58)]
+Mana: Forest (41) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck22 activated Adventuring Gear (3) targeting [Suspicious Shambler (4)]
+Resolve stack: Adventuring Gear (3) -  Attach to Suspicious Shambler (4)
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 assigned Suspicious Shambler (4) to attack Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck44 didn't block Suspicious Shambler (4).
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Damage: Suspicious Shambler (4) deals 4 combat damage to Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck22 cast Juggernaut (8)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Island (90)
+Mana: Island (92) - {T}: Add {U}.
+Mana: Mountain (107) - {T}: Add {R}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Temple of Epiphany (116) - {T}: Add {U} or {R}.
+Add to stack: Ai(2)-Gen3_Deck44 activated Soulstone Sanctuary (102)
+Resolve stack: Soulstone Sanctuary (102) - Soulstone Sanctuary (102) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Flamewake Phoenix (64) to attack Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Flamewake Phoenix (64).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Flamewake Phoenix (64) deals 2 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Forest (34)
+Add to stack: Ai(1)-Gen3_Deck22 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (34)]
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 assigned Juggernaut (8) and Suspicious Shambler (4) to attack Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck44 didn't block Suspicious Shambler (4).
+Ai(2)-Gen3_Deck44 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen3_Deck44.
+Damage: Suspicious Shambler (4) deals 6 combat damage to Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck44)
+Phase: Ai(2)-Gen3_Deck44's Untap step
+Phase: Ai(2)-Gen3_Deck44's Upkeep step
+Phase: Ai(2)-Gen3_Deck44's Draw step
+Phase: Ai(2)-Gen3_Deck44's Main phase, precombat
+Land: Ai(2)-Gen3_Deck44 played Mountain (105)
+Mana: Mountain (107) - {T}: Add {R}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck44 cast Seismic Rupture (112)
+Damage: Seismic Rupture (112) deals 2 damage () to Suspicious Shambler (4).
+Damage: Seismic Rupture (112) deals 2 damage () to Juggernaut (8).
+Damage: Seismic Rupture (112) deals 2 damage () to Soulstone Sanctuary (102).
+Resolve stack: Seismic Rupture (112) - Deals 2 damage to each creature without flying.
+Phase: Ai(2)-Gen3_Deck44's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck44 assigned Flamewake Phoenix (64) and Soulstone Sanctuary (102) to attack Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck44's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Flamewake Phoenix (64).
+Ai(1)-Gen3_Deck22 didn't block Soulstone Sanctuary (102).
+Phase: Ai(2)-Gen3_Deck44's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck44's Combat Damage Step
+Damage: Flamewake Phoenix (64) deals 2 combat damage to Ai(1)-Gen3_Deck22.
+Damage: Soulstone Sanctuary (102) deals 3 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck44's End of Combat Step
+Phase: Ai(2)-Gen3_Deck44's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck44's End step
+Phase: Ai(2)-Gen3_Deck44's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Forest (32)
+Add to stack: Ai(1)-Gen3_Deck22 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (32)]
+Mana: Forest (41) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck22 activated Adventuring Gear (3) targeting [Juggernaut (8)]
+Resolve stack: Adventuring Gear (3) -  Attach to Juggernaut (8)
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 assigned Juggernaut (8) to attack Ai(2)-Gen3_Deck44.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck44 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen3_Deck44.
+Player control: Ai(1)-Gen3_Deck22 is controlled by Ai(1)-Gen3_Deck22
+Player control: Ai(2)-Gen3_Deck44 is controlled by Ai(2)-Gen3_Deck44
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen3_Deck22 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck44 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck22: 1 Ai(2)-Gen3_Deck44: 0 
+
+Game Result: Game 1 ended in 11673 ms. Ai(1)-Gen3_Deck22 has won!
+
+
+=== STDERR ===

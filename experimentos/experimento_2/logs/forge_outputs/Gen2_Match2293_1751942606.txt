@@ -1,0 +1,378 @@
+=== COMBATE PARALELO: Gen2_Deck36 vs Gen2_Deck49 ===
+Worker ID: 352526
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck36 Gen2_Deck49 -n 1
+Duración: 29.49 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2036 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 50 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck36 vs Ai(2)-Gen2_Deck49 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck49 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen2_Deck49 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen2_Deck36 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Island (104)
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck36)
+Phase: Ai(1)-Gen2_Deck36's Untap step
+Phase: Ai(1)-Gen2_Deck36's Upkeep step
+Phase: Ai(1)-Gen2_Deck36's Draw step
+Phase: Ai(1)-Gen2_Deck36's Main phase, precombat
+Land: Ai(1)-Gen2_Deck36 played Rogue's Passage (36)
+Phase: Ai(1)-Gen2_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck36's End of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck36's End step
+Phase: Ai(1)-Gen2_Deck36's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Plains (98)
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Resolute Reinforcements (110)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen2_Deck49 triggered Resolute Reinforcements (110)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (110)]
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck36)
+Phase: Ai(1)-Gen2_Deck36's Untap step
+Phase: Ai(1)-Gen2_Deck36's Upkeep step
+Phase: Ai(1)-Gen2_Deck36's Draw step
+Phase: Ai(1)-Gen2_Deck36's Main phase, precombat
+Land: Ai(1)-Gen2_Deck36 played Plains (17)
+Phase: Ai(1)-Gen2_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck36's End of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Main phase, postcombat
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Rogue's Passage (36) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck36 cast Bishop's Soldier (8)
+Resolve stack: Bishop's Soldier - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck36's End step
+Phase: Ai(1)-Gen2_Deck36's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Island (102)
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Mana: Island (104) - {T}: Add {U}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Quick Study (87)
+Resolve stack: Quick Study (87) - Ai(2)-Gen2_Deck49 draws two cards.
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck36)
+Phase: Ai(1)-Gen2_Deck36's Untap step
+Phase: Ai(1)-Gen2_Deck36's Upkeep step
+Phase: Ai(1)-Gen2_Deck36's Draw step
+Phase: Ai(1)-Gen2_Deck36's Main phase, precombat
+Land: Ai(1)-Gen2_Deck36 played Rogue's Passage (37)
+Phase: Ai(1)-Gen2_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck36 assigned Bishop's Soldier (8) to attack Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck36's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck49 didn't block Bishop's Soldier (8).
+Phase: Ai(1)-Gen2_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck36's Combat Damage Step
+Damage: Bishop's Soldier (8) deals 2 combat damage to Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck36's End of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck36's End step
+Phase: Ai(1)-Gen2_Deck36's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Soulstone Sanctuary (118)
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Resolute Reinforcements (110) and Soldier Token (124) to attack Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck36 didn't block Soldier Token (124).
+Ai(1)-Gen2_Deck36 didn't block Resolute Reinforcements (110).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Resolute Reinforcements (110) deals 1 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck49 cast Kykar, Zephyr Awakener (89)
+Resolve stack: Kykar, Zephyr Awakener - Creature 3 / 4
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck36)
+Phase: Ai(1)-Gen2_Deck36's Untap step
+Phase: Ai(1)-Gen2_Deck36's Upkeep step
+Phase: Ai(1)-Gen2_Deck36's Draw step
+Phase: Ai(1)-Gen2_Deck36's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen2_Deck36 played Secluded Courtyard (47)
+Phase: Ai(1)-Gen2_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck36's End of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Main phase, postcombat
+Mana: Secluded Courtyard (47) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck36 cast Swiftblade Vindicator (46)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Mana: Rogue's Passage (36) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck36 cast Feldon's Cane (1)
+Resolve stack: Feldon's Cane
+Phase: Ai(1)-Gen2_Deck36's End step
+Phase: Ai(1)-Gen2_Deck36's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Plains (96)
+Mana: Island (104) - {T}: Add {U}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck49 activated Soulstone Sanctuary (118)
+Resolve stack: Soulstone Sanctuary (118) - Soulstone Sanctuary (118) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Kykar, Zephyr Awakener (89) and Soulstone Sanctuary (118) to attack Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck36 didn't block Soulstone Sanctuary (118).
+Ai(1)-Gen2_Deck36 didn't block Kykar, Zephyr Awakener (89).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (89) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Soulstone Sanctuary (118) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck36)
+Phase: Ai(1)-Gen2_Deck36's Untap step
+Phase: Ai(1)-Gen2_Deck36's Upkeep step
+Phase: Ai(1)-Gen2_Deck36's Draw step
+Phase: Ai(1)-Gen2_Deck36's Main phase, precombat
+Land: Ai(1)-Gen2_Deck36 played Swamp (39)
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Secluded Courtyard (47) - {T}: Add {C}.
+Mana: Rogue's Passage (37) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck36 activated Rogue's Passage (36) targeting [Bishop's Soldier (8)]
+Resolve stack: Rogue's Passage (36) - Bishop's Soldier (8) can't be blocked this turn.
+Phase: Ai(1)-Gen2_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck36 assigned Bishop's Soldier (8) to attack Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck36's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck49 didn't block Bishop's Soldier (8).
+Phase: Ai(1)-Gen2_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck36's Combat Damage Step
+Damage: Bishop's Soldier (8) deals 2 combat damage to Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck36's End of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck36's End step
+Phase: Ai(1)-Gen2_Deck36's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Soulstone Sanctuary (119)
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Kykar, Zephyr Awakener (89) and Soulstone Sanctuary (118) to attack Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck36 didn't block Soulstone Sanctuary (118).
+Ai(1)-Gen2_Deck36 didn't block Kykar, Zephyr Awakener (89).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (89) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Soulstone Sanctuary (118) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck36)
+Phase: Ai(1)-Gen2_Deck36's Untap step
+Phase: Ai(1)-Gen2_Deck36's Upkeep step
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Secluded Courtyard (47) - {T}: Add {C}.
+Mana: Rogue's Passage (37) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck36 activated Rogue's Passage (36) targeting [Bishop's Soldier (8)]
+Mana: Island (104) - {T}: Add {U}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck49 activated Soulstone Sanctuary (119)
+Resolve stack: Soulstone Sanctuary (119) - Soulstone Sanctuary (119) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Resolve stack: Rogue's Passage (36) - Bishop's Soldier (8) can't be blocked this turn.
+Phase: Ai(1)-Gen2_Deck36's Draw step
+Phase: Ai(1)-Gen2_Deck36's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen2_Deck36 played Secluded Courtyard (49)
+Phase: Ai(1)-Gen2_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck36 assigned Bishop's Soldier (8) to attack Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck36's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck49 didn't block Bishop's Soldier (8).
+Phase: Ai(1)-Gen2_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck36's Combat Damage Step
+Damage: Bishop's Soldier (8) deals 2 combat damage to Ai(2)-Gen2_Deck49.
+Phase: Ai(1)-Gen2_Deck36's End of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck36's End step
+Phase: Ai(1)-Gen2_Deck36's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Crawling Barrens (115)
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Kykar, Zephyr Awakener (89), Soulstone Sanctuary (118) and Soulstone Sanctuary (119) to attack Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck36 assigned Swiftblade Vindicator (46) to block Soulstone Sanctuary (118).
+Ai(1)-Gen2_Deck36 didn't block Soulstone Sanctuary (119).
+Ai(1)-Gen2_Deck36 didn't block Kykar, Zephyr Awakener (89).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Damage: Swiftblade Vindicator (46) deals 1 damage () to Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Kykar, Zephyr Awakener (89) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Soulstone Sanctuary (118) deals 3 damage () to Swiftblade Vindicator (46).
+Damage: Soulstone Sanctuary (119) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Swiftblade Vindicator (46) deals 1 damage () to Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen2_Deck49's End of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck49's End step
+Phase: Ai(2)-Gen2_Deck49's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck36)
+Phase: Ai(1)-Gen2_Deck36's Untap step
+Phase: Ai(1)-Gen2_Deck36's Upkeep step
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Secluded Courtyard (47) - {T}: Add {C}.
+Mana: Secluded Courtyard (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck36 activated Rogue's Passage (36) targeting [Bishop's Soldier (8)]
+Resolve stack: Rogue's Passage (36) - Bishop's Soldier (8) can't be blocked this turn.
+Phase: Ai(1)-Gen2_Deck36's Draw step
+Phase: Ai(1)-Gen2_Deck36's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck36's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck36 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck36's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck36's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck36's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck36's End of Combat Step
+Phase: Ai(1)-Gen2_Deck36's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck36's End step
+Mana: Island (104) - {T}: Add {U}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck49 activated Crawling Barrens (115)
+Resolve stack: Crawling Barrens (115) - Ai(2)-Gen2_Deck49 puts two +1/+1 counters on Crawling Barrens (115). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck36's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck49)
+Phase: Ai(2)-Gen2_Deck49's Untap step
+Phase: Ai(2)-Gen2_Deck49's Upkeep step
+Phase: Ai(2)-Gen2_Deck49's Draw step
+Phase: Ai(2)-Gen2_Deck49's Main phase, precombat
+Land: Ai(2)-Gen2_Deck49 played Island (107)
+Mana: Island (104) - {T}: Add {U}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck49 activated Crawling Barrens (115)
+Resolve stack: Crawling Barrens (115) - Ai(2)-Gen2_Deck49 puts two +1/+1 counters on Crawling Barrens (115). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck49's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck49's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck49 assigned Crawling Barrens (115), Soulstone Sanctuary (118), Kykar, Zephyr Awakener (89), Soulstone Sanctuary (119), Resolute Reinforcements (110) and Soldier Token (124) to attack Ai(1)-Gen2_Deck36.
+Phase: Ai(2)-Gen2_Deck49's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck36 assigned Bishop's Soldier (8) to block Crawling Barrens (115).
+Ai(1)-Gen2_Deck36 didn't block Soulstone Sanctuary (118).
+Ai(1)-Gen2_Deck36 didn't block Soulstone Sanctuary (119).
+Ai(1)-Gen2_Deck36 didn't block Kykar, Zephyr Awakener (89).
+Ai(1)-Gen2_Deck36 didn't block Soldier Token (124).
+Ai(1)-Gen2_Deck36 didn't block Resolute Reinforcements (110).
+Phase: Ai(2)-Gen2_Deck49's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck49's Combat Damage Step
+Damage: Crawling Barrens (115) deals 4 damage () to Bishop's Soldier (8).
+Damage: Soulstone Sanctuary (118) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Kykar, Zephyr Awakener (89) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Soulstone Sanctuary (119) deals 3 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Resolute Reinforcements (110) deals 1 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen2_Deck36.
+Damage: Bishop's Soldier (8) deals 2 damage () to Crawling Barrens (115).
+Player control: Ai(1)-Gen2_Deck36 is controlled by Ai(1)-Gen2_Deck36
+Player control: Ai(2)-Gen2_Deck49 is controlled by Ai(2)-Gen2_Deck49
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck36 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck49 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck36: 0 Ai(2)-Gen2_Deck49: 1 
+
+Game Result: Game 1 ended in 16954 ms. Ai(2)-Gen2_Deck49 has won!
+
+
+=== STDERR ===

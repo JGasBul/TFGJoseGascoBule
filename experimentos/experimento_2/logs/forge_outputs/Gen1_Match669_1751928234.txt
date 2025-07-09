@@ -1,0 +1,395 @@
+=== COMBATE PARALELO: Gen1_Deck7 vs Gen1_Deck20 ===
+Worker ID: 3987559
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck7 Gen1_Deck20 -n 1
+Duración: 26.98 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1725 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 56 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck7 vs Ai(2)-Gen1_Deck20 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Land: Ai(2)-Gen1_Deck20 played Plains (93)
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Swamp (25)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Land: Ai(2)-Gen1_Deck20 played Swamp (73)
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck20 cast Gleaming Barrier (68)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (52)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Vampire Interloper (8)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Land: Ai(2)-Gen1_Deck20 played Crawling Barrens (108)
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck20 cast Tribute to Hunger (81) targeting [Ai(1)-Gen1_Deck7]
+Resolve stack: Tribute to Hunger (81) - Ai(1)-Gen1_Deck7 sacrifices a creature. Ai(2)-Gen1_Deck20 gains life equal to that creature's toughness. 
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Swamp (24)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen1_Deck20 played Scoured Barrens (79)
+Add to stack: Ai(2)-Gen1_Deck20 triggered Scoured Barrens (79)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (79)]
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck20 cast Crystal Barricade (66)
+Resolve stack: Crystal Barricade - Creature 0 / 4
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Swamp (19)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Land: Ai(2)-Gen1_Deck20 played Plains (95)
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen1_Deck20 activated Crawling Barrens (108)
+Resolve stack: Crawling Barrens (108) - Ai(2)-Gen1_Deck20 puts two +1/+1 counters on Crawling Barrens (108). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 assigned Crawling Barrens (108) to attack Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Crawling Barrens (108).
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Damage: Crawling Barrens (108) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (45)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Island (52) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Skyship Buccaneer (54)
+Resolve stack: Skyship Buccaneer - Creature 4 / 3
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck20 cast Tribute to Hunger (82) targeting [Ai(1)-Gen1_Deck7]
+Resolve stack: Tribute to Hunger (82) - Ai(1)-Gen1_Deck7 sacrifices a creature. Ai(2)-Gen1_Deck20 gains life equal to that creature's toughness. 
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Replacement Effect: Azorius Guildgate enters tapped.
+Land: Ai(2)-Gen1_Deck20 played Azorius Guildgate (109)
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck20 cast Vampire Gourmand (120)
+Resolve stack: Vampire Gourmand - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen1_Deck7 played Uncharted Haven (53)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Land: Ai(2)-Gen1_Deck20 played Plains (99)
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck20 activated Crawling Barrens (108)
+Resolve stack: Crawling Barrens (108) - Ai(2)-Gen1_Deck20 puts two +1/+1 counters on Crawling Barrens (108). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 assigned Vampire Gourmand (120) and Crawling Barrens (108) to attack Ai(1)-Gen1_Deck7.
+Add to stack: Ai(2)-Gen1_Deck20 triggered Vampire Gourmand (120)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn. [Attacker: Vampire Gourmand (120)]
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Vampire Gourmand (120).
+Ai(1)-Gen1_Deck7 didn't block Crawling Barrens (108).
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Damage: Vampire Gourmand (120) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Crawling Barrens (108) deals 4 combat damage to Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Island (52) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Skyship Buccaneer (55)
+Resolve stack: Skyship Buccaneer - Creature 4 / 3
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck20 activated Crawling Barrens (108)
+Resolve stack: Crawling Barrens (108) - Ai(2)-Gen1_Deck20 puts two +1/+1 counters on Crawling Barrens (108). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 assigned Crawling Barrens (108) to attack Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Crawling Barrens (108).
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Damage: Crawling Barrens (108) deals 6 combat damage to Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck20's End of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Main phase, postcombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen1_Deck20 played Scoured Barrens (78)
+Add to stack: Ai(2)-Gen1_Deck20 triggered Scoured Barrens (78)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (78)]
+Phase: Ai(2)-Gen1_Deck20's End step
+Phase: Ai(2)-Gen1_Deck20's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Skyship Buccaneer (55) to attack Ai(2)-Gen1_Deck20.
+Mana: Scoured Barrens (79) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen1_Deck20 cast Joust Through (102) targeting [Skyship Buccaneer (55)]
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (52) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Offer Immortality (43) targeting [Skyship Buccaneer (55)]
+Resolve stack: Offer Immortality (43) - Skyship Buccaneer (55) gains indestructible and deathtouch until end of turn.
+Damage: Joust Through (102) deals 3 damage () to Skyship Buccaneer (55).
+Resolve stack: Joust Through (102) - Joust Through (102) deals 3 damage to Skyship Buccaneer (55). Ai(2)-Gen1_Deck20 gains 1 life.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck20 didn't block Skyship Buccaneer (55).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Skyship Buccaneer (55) deals 4 combat damage to Ai(2)-Gen1_Deck20.
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck20)
+Phase: Ai(2)-Gen1_Deck20's Untap step
+Phase: Ai(2)-Gen1_Deck20's Upkeep step
+Phase: Ai(2)-Gen1_Deck20's Draw step
+Phase: Ai(2)-Gen1_Deck20's Main phase, precombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck20 activated Crawling Barrens (108)
+Resolve stack: Crawling Barrens (108) - Ai(2)-Gen1_Deck20 puts two +1/+1 counters on Crawling Barrens (108). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck20 assigned Crawling Barrens (108) and Vampire Gourmand (120) to attack Ai(1)-Gen1_Deck7.
+Add to stack: Ai(2)-Gen1_Deck20 triggered Vampire Gourmand (120)
+Resolve stack: Whenever this creature attacks, you may sacrifice another creature. If you do, draw a card and this creature can't be blocked this turn. [Attacker: Vampire Gourmand (120)]
+Phase: Ai(2)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Vampire Gourmand (120).
+Ai(1)-Gen1_Deck7 didn't block Crawling Barrens (108).
+Phase: Ai(2)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck20's Combat Damage Step
+Damage: Crawling Barrens (108) deals 8 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Vampire Gourmand (120) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Player control: Ai(1)-Gen1_Deck7 is controlled by Ai(1)-Gen1_Deck7
+Player control: Ai(2)-Gen1_Deck20 is controlled by Ai(2)-Gen1_Deck20
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck7 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck20 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck7: 0 Ai(2)-Gen1_Deck20: 1 
+
+Game Result: Game 1 ended in 14744 ms. Ai(2)-Gen1_Deck20 has won!
+
+
+=== STDERR ===

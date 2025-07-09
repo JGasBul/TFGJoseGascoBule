@@ -1,0 +1,321 @@
+=== COMBATE PARALELO: Gen1_Deck7 vs Gen1_Deck14 ===
+Worker ID: 3987560
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck7 Gen1_Deck14 -n 1
+Duración: 25.58 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1896 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 68 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck7 vs Ai(2)-Gen1_Deck14 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck7 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen1_Deck14 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck7 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Island (113)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (48)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Cryptic Caves (64)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Mana: Island (113) - {T}: Add {U}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Kitesail Corsair (66)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Swamp (25)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (48) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Vampire Interloper (8)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Evolving Wilds (90)
+Add to stack: Ai(2)-Gen1_Deck14 activated Evolving Wilds (90)
+Resolve stack: Evolving Wilds (90) - Ai(2)-Gen1_Deck14 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Kitesail Corsair (66) to attack Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (66).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Kitesail Corsair (66) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Mana: Island (113) - {T}: Add {U}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Kitesail Corsair (67)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (51)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Vampire Interloper (8) to attack Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck14 didn't block Vampire Interloper (8).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Vampire Interloper (8) deals 2 combat damage to Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (51) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Gutless Plunderer (32)
+Resolve stack: Gutless Plunderer - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck7 triggered Gutless Plunderer (32)
+Resolve stack: Raid — When this creature enters, if you attacked this turn, look at the top three cards of your library. You may put one of those cards back on top of your library. Put the rest into your graveyard. [Zone Changer: Gutless Plunderer (32)]
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Kitesail Corsair (66) and Kitesail Corsair (67) to attack Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (66).
+Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (67).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Kitesail Corsair (66) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Kitesail Corsair (67) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (113) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Ajani's Pridemate (101)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Vampire Interloper (8) to attack Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck14 didn't block Vampire Interloper (8).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Vampire Interloper (8) deals 2 combat damage to Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(1)-Gen1_Deck7 played Temple of Deceit (41)
+Add to stack: Ai(1)-Gen1_Deck7 triggered Temple of Deceit (41)
+Resolve stack: Ai(1)-Gen1_Deck7 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (41)]
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Kitesail Corsair (66), Kitesail Corsair (67) and Ajani's Pridemate (101) to attack Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (66).
+Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (67).
+Ai(1)-Gen1_Deck7 didn't block Ajani's Pridemate (101).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Kitesail Corsair (66) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Kitesail Corsair (67) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Ajani's Pridemate (101) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (113) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Ajani's Pridemate (103)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Land: Ai(1)-Gen1_Deck7 played Island (49)
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Vampire Interloper (8) to attack Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck14 didn't block Vampire Interloper (8).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Vampire Interloper (8) deals 2 combat damage to Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Temple of Deceit (41) - {T}: Add {U} or {B}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (51) - {T}: Add {U}.
+Mana: Island (49) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Exsanguinate (5)
+Resolve stack: Exsanguinate (5) - Ai(2)-Gen1_Deck14 loses life equal to the life lost this way. You gain life equal to the life lost this way. (X=3)
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Kitesail Corsair (66), Kitesail Corsair (67), Ajani's Pridemate (101) and Ajani's Pridemate (103) to attack Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (66).
+Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (67).
+Ai(1)-Gen1_Deck7 assigned Gutless Plunderer (32) to block Ajani's Pridemate (101).
+Ai(1)-Gen1_Deck7 didn't block Ajani's Pridemate (103).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Kitesail Corsair (66) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Kitesail Corsair (67) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Ajani's Pridemate (101) deals 2 damage () to Gutless Plunderer (32).
+Damage: Ajani's Pridemate (103) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Gutless Plunderer (32) deals 2 damage (Deathtouch) to Ajani's Pridemate (101).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (113) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Sun-Blessed Healer (68)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck7)
+Phase: Ai(1)-Gen1_Deck7's Untap step
+Phase: Ai(1)-Gen1_Deck7's Upkeep step
+Phase: Ai(1)-Gen1_Deck7's Draw step
+Phase: Ai(1)-Gen1_Deck7's Main phase, precombat
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (51) - {T}: Add {U}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Island (49) - {T}: Add {U}.
+Mana: Temple of Deceit (41) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen1_Deck7 cast Voracious Greatshark (28)
+Resolve stack: Voracious Greatshark - Creature 5 / 4
+Phase: Ai(1)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck7 assigned Vampire Interloper (8) to attack Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck14 didn't block Vampire Interloper (8).
+Phase: Ai(1)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck7's Combat Damage Step
+Damage: Vampire Interloper (8) deals 2 combat damage to Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck7's End of Combat Step
+Phase: Ai(1)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck7's End step
+Phase: Ai(1)-Gen1_Deck7's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Plains (96)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Sun-Blessed Healer (68), Kitesail Corsair (66), Kitesail Corsair (67) and Ajani's Pridemate (103) to attack Ai(1)-Gen1_Deck7.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (66).
+Ai(1)-Gen1_Deck7 didn't block Kitesail Corsair (67).
+Ai(1)-Gen1_Deck7 assigned Voracious Greatshark (28) to block Sun-Blessed Healer (68).
+Ai(1)-Gen1_Deck7 didn't block Ajani's Pridemate (103).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Sun-Blessed Healer (68) deals 3 damage () to Voracious Greatshark (28).
+Damage: Kitesail Corsair (66) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Kitesail Corsair (67) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Ajani's Pridemate (103) deals 2 combat damage to Ai(1)-Gen1_Deck7.
+Damage: Voracious Greatshark (28) deals 5 damage () to Sun-Blessed Healer (68).
+Player control: Ai(1)-Gen1_Deck7 is controlled by Ai(1)-Gen1_Deck7
+Player control: Ai(2)-Gen1_Deck14 is controlled by Ai(2)-Gen1_Deck14
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen1_Deck7 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck14 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck7: 0 Ai(2)-Gen1_Deck14: 1 
+
+Game Result: Game 1 ended in 12166 ms. Ai(2)-Gen1_Deck14 has won!
+
+
+=== STDERR ===

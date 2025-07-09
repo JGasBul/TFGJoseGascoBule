@@ -1,0 +1,426 @@
+=== COMBATE PARALELO: Gen2_Deck27 vs Gen2_Deck32 ===
+Worker ID: 352525
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck27 Gen2_Deck32 -n 1
+Duración: 28.34 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1746 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 93 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck27 vs Ai(2)-Gen2_Deck32 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck27 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck32 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Forest (32)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Mild-Mannered Librarian (10)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Plains (99)
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(1)-Gen2_Deck27 played Temple of Deceit (43)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Temple of Deceit (43)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Temple of Deceit (43)]
+Resolve stack: Ai(1)-Gen2_Deck27 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (43)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Mild-Mannered Librarian (10) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Mild-Mannered Librarian (10).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Mild-Mannered Librarian (10) deals 1 combat damage to Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Plains (92)
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Island (49)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (49)]
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 activated Adventuring Gear (1) targeting [Mild-Mannered Librarian (10)]
+Resolve stack: Adventuring Gear (1) -  Attach to Mild-Mannered Librarian (10)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Mild-Mannered Librarian (10) to attack Ai(2)-Gen2_Deck32.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck32 cast Joust Through (102) targeting [Mild-Mannered Librarian (10)]
+Damage: Joust Through (102) deals 3 damage () to Mild-Mannered Librarian (10).
+Resolve stack: Joust Through (102) - Joust Through (102) deals 3 damage to Mild-Mannered Librarian (10). Ai(2)-Gen2_Deck32 gains 1 life.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Crawling Barrens (107)
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Swamp (18)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (18)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Island (49) - {T}: Add {U}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Temple of Deceit (43) - {T}: Add {U} or {B}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Homunculus Horde (7)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck32 cast Sun-Blessed Healer (61)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Demolition Field (58)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Demolition Field (58)]
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Island (49) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck27 activated Demolition Field (58) targeting [Crawling Barrens (107)]
+Resolve stack: Demolition Field (58) - Destroy Crawling Barrens (107). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen2_Deck27 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (45)]
+Mana: Swamp (18) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck27 activated Adventuring Gear (1) targeting [Homunculus Horde (7)]
+Resolve stack: Adventuring Gear (1) -  Attach to Homunculus Horde (7)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Forest (37)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (37)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Homunculus Horde (7) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Homunculus Horde (7).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Homunculus Horde (7) deals 4 combat damage to Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 assigned Sun-Blessed Healer (61) to attack Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck27 didn't block Sun-Blessed Healer (61).
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Damage: Sun-Blessed Healer (61) deals 3 combat damage to Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Discard: Ai(2)-Gen2_Deck32 discards Serra Angel (105).
+Turn: Turn 13 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Forest (38)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (38)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Homunculus Horde (7) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Homunculus Horde (7).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Homunculus Horde (7) deals 4 combat damage to Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 assigned Sun-Blessed Healer (61) to attack Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck27 didn't block Sun-Blessed Healer (61).
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Damage: Sun-Blessed Healer (61) deals 3 combat damage to Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (92) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck32 cast Gleaming Barrier (72)
+Mana: Island (49) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Forest (37) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Voracious Greatshark (21)
+Resolve stack: Voracious Greatshark - Creature 5 / 4
+Add to stack: Ai(1)-Gen2_Deck27 triggered Voracious Greatshark (21) targeting [Gleaming Barrier - Creature 0 / 4]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: When Voracious Greatshark enters, counter target artifact or creature spell. (Targeting: [[Gleaming Barrier - Creature 0 / 4]]) [Zone Changer: Voracious Greatshark (21)]
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Forest (28)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Forest (28)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Voracious Greatshark (21) and Homunculus Horde (7) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Voracious Greatshark (21).
+Ai(2)-Gen2_Deck32 didn't block Homunculus Horde (7).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Voracious Greatshark (21) deals 5 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Homunculus Horde (7) deals 4 combat damage to Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Island (49) - {T}: Add {U}.
+Mana: Swamp (18) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Eager Trufflesnout (12)
+Resolve stack: Eager Trufflesnout - Creature 4 / 2
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Plains (95)
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Swamp (17)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Swamp (17)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Voracious Greatshark (21), Homunculus Horde (7) and Eager Trufflesnout (12) to attack Ai(2)-Gen2_Deck32.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck32 cast Joust Through (101) targeting [Eager Trufflesnout (12)]
+Damage: Joust Through (101) deals 3 damage () to Eager Trufflesnout (12).
+Resolve stack: Joust Through (101) - Joust Through (101) deals 3 damage to Eager Trufflesnout (12). Ai(2)-Gen2_Deck32 gains 1 life.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 assigned Sun-Blessed Healer (61) to block Voracious Greatshark (21).
+Ai(2)-Gen2_Deck32 didn't block Homunculus Horde (7).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Voracious Greatshark (21) deals 5 damage () to Sun-Blessed Healer (61).
+Damage: Homunculus Horde (7) deals 4 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Sun-Blessed Healer (61) deals 3 damage () to Voracious Greatshark (21).
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Island (46)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (46)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Voracious Greatshark (21) and Homunculus Horde (7) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Voracious Greatshark (21).
+Ai(2)-Gen2_Deck32 didn't block Homunculus Horde (7).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Voracious Greatshark (21) deals 5 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Homunculus Horde (7) deals 4 combat damage to Ai(2)-Gen2_Deck32.
+Player control: Ai(1)-Gen2_Deck27 is controlled by Ai(1)-Gen2_Deck27
+Player control: Ai(2)-Gen2_Deck32 is controlled by Ai(2)-Gen2_Deck32
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen2_Deck27 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck32 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck27: 1 Ai(2)-Gen2_Deck32: 0 
+
+Game Result: Game 1 ended in 16935 ms. Ai(1)-Gen2_Deck27 has won!
+
+
+=== STDERR ===

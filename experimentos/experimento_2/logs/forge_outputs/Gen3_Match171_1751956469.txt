@@ -1,0 +1,316 @@
+=== COMBATE PARALELO: Gen3_Deck1 vs Gen3_Deck38 ===
+Worker ID: 909537
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck1 Gen3_Deck38 -n 1
+Duración: 21.67 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-97-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1736 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 44 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck1 vs Ai(2)-Gen3_Deck38 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck1 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck38 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck1)
+Phase: Ai(1)-Gen3_Deck1's Untap step
+Phase: Ai(1)-Gen3_Deck1's Upkeep step
+Phase: Ai(1)-Gen3_Deck1's Draw step
+Phase: Ai(1)-Gen3_Deck1's Main phase, precombat
+Land: Ai(1)-Gen3_Deck1 played Forest (37)
+Phase: Ai(1)-Gen3_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck1's End of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck1's End step
+Phase: Ai(1)-Gen3_Deck1's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck38)
+Phase: Ai(2)-Gen3_Deck38's Untap step
+Phase: Ai(2)-Gen3_Deck38's Upkeep step
+Phase: Ai(2)-Gen3_Deck38's Draw step
+Phase: Ai(2)-Gen3_Deck38's Main phase, precombat
+Land: Ai(2)-Gen3_Deck38 played Swamp (79)
+Phase: Ai(2)-Gen3_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck38's End of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Main phase, postcombat
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck38 cast Duress (90) targeting [Ai(1)-Gen3_Deck1]
+Discard: Ai(1)-Gen3_Deck1 discards Vivien Reid (60).
+Resolve stack: Duress (90) - Ai(1)-Gen3_Deck1 reveals their hand. Ai(2)-Gen3_Deck38 chooses a Card.nonCreature+nonLand card from it. Ai(1)-Gen3_Deck1 discards that card.
+Phase: Ai(2)-Gen3_Deck38's End step
+Phase: Ai(2)-Gen3_Deck38's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck1)
+Phase: Ai(1)-Gen3_Deck1's Untap step
+Phase: Ai(1)-Gen3_Deck1's Upkeep step
+Phase: Ai(1)-Gen3_Deck1's Draw step
+Phase: Ai(1)-Gen3_Deck1's Main phase, precombat
+Land: Ai(1)-Gen3_Deck1 played Crawling Barrens (53)
+Phase: Ai(1)-Gen3_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck1's End of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck1 cast Three Tree Mascot (27)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen3_Deck1's End step
+Phase: Ai(1)-Gen3_Deck1's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck38)
+Phase: Ai(2)-Gen3_Deck38's Untap step
+Phase: Ai(2)-Gen3_Deck38's Upkeep step
+Phase: Ai(2)-Gen3_Deck38's Draw step
+Phase: Ai(2)-Gen3_Deck38's Main phase, precombat
+Land: Ai(2)-Gen3_Deck38 played Plains (97)
+Phase: Ai(2)-Gen3_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck38's End of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Main phase, postcombat
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck38 cast Mazemind Tome (111)
+Resolve stack: Mazemind Tome
+Phase: Ai(2)-Gen3_Deck38's End step
+Phase: Ai(2)-Gen3_Deck38's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck1)
+Phase: Ai(1)-Gen3_Deck1's Untap step
+Phase: Ai(1)-Gen3_Deck1's Upkeep step
+Add to stack: Ai(2)-Gen3_Deck38 activated Mazemind Tome (111)
+Resolve stack: Ai(2)-Gen3_Deck38 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen3_Deck38 scries 1.
+Phase: Ai(1)-Gen3_Deck1's Draw step
+Phase: Ai(1)-Gen3_Deck1's Main phase, precombat
+Land: Ai(1)-Gen3_Deck1 played Crawling Barrens (54)
+Phase: Ai(1)-Gen3_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck1 assigned Three Tree Mascot (27) to attack Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck38 didn't block Three Tree Mascot (27).
+Phase: Ai(1)-Gen3_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck1's Combat Damage Step
+Damage: Three Tree Mascot (27) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's End of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck1 cast Nessian Hornbeetle (47)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck1's End step
+Phase: Ai(1)-Gen3_Deck1's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck38)
+Phase: Ai(2)-Gen3_Deck38's Untap step
+Phase: Ai(2)-Gen3_Deck38's Upkeep step
+Add to stack: Ai(2)-Gen3_Deck38 activated Mazemind Tome (111)
+Resolve stack: Ai(2)-Gen3_Deck38 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen3_Deck38 scries 1.
+Phase: Ai(2)-Gen3_Deck38's Draw step
+Phase: Ai(2)-Gen3_Deck38's Main phase, precombat
+Land: Ai(2)-Gen3_Deck38 played Swamp (82)
+Phase: Ai(2)-Gen3_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck38's End of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck38's End step
+Phase: Ai(2)-Gen3_Deck38's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck1)
+Phase: Ai(1)-Gen3_Deck1's Untap step
+Phase: Ai(1)-Gen3_Deck1's Upkeep step
+Phase: Ai(1)-Gen3_Deck1's Draw step
+Phase: Ai(1)-Gen3_Deck1's Main phase, precombat
+Land: Ai(1)-Gen3_Deck1 played Forest (33)
+Phase: Ai(1)-Gen3_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck1 assigned Three Tree Mascot (27) and Nessian Hornbeetle (47) to attack Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck38 didn't block Three Tree Mascot (27).
+Ai(2)-Gen3_Deck38 didn't block Nessian Hornbeetle (47).
+Phase: Ai(1)-Gen3_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck1's Combat Damage Step
+Damage: Three Tree Mascot (27) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Damage: Nessian Hornbeetle (47) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's End of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck1's End step
+Phase: Ai(1)-Gen3_Deck1's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck38)
+Phase: Ai(2)-Gen3_Deck38's Untap step
+Phase: Ai(2)-Gen3_Deck38's Upkeep step
+Phase: Ai(2)-Gen3_Deck38's Draw step
+Phase: Ai(2)-Gen3_Deck38's Main phase, precombat
+Land: Ai(2)-Gen3_Deck38 played Plains (98)
+Phase: Ai(2)-Gen3_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck38's End of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Main phase, postcombat
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck38 activated Mazemind Tome (111)
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen3_Deck38 draws a card.
+Phase: Ai(2)-Gen3_Deck38's End step
+Phase: Ai(2)-Gen3_Deck38's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck1)
+Phase: Ai(1)-Gen3_Deck1's Untap step
+Phase: Ai(1)-Gen3_Deck1's Upkeep step
+Phase: Ai(1)-Gen3_Deck1's Draw step
+Phase: Ai(1)-Gen3_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck1 assigned Three Tree Mascot (27) and Nessian Hornbeetle (47) to attack Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck38 didn't block Three Tree Mascot (27).
+Ai(2)-Gen3_Deck38 didn't block Nessian Hornbeetle (47).
+Phase: Ai(1)-Gen3_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck1's Combat Damage Step
+Damage: Three Tree Mascot (27) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Damage: Nessian Hornbeetle (47) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's End of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Main phase, postcombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck1 cast Druid of the Cowl (20)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(1)-Gen3_Deck1's End step
+Phase: Ai(1)-Gen3_Deck1's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck38)
+Phase: Ai(2)-Gen3_Deck38's Untap step
+Phase: Ai(2)-Gen3_Deck38's Upkeep step
+Phase: Ai(2)-Gen3_Deck38's Draw step
+Phase: Ai(2)-Gen3_Deck38's Main phase, precombat
+Land: Ai(2)-Gen3_Deck38 played Cryptic Caves (64)
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck38 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen3_Deck38 draws a card.
+Phase: Ai(2)-Gen3_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck38 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck38's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck38's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck38's End of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Main phase, postcombat
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck38 cast Crow of Dark Tidings (118)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(2)-Gen3_Deck38 triggered Crow of Dark Tidings (118)
+Zone Change: Ai(2)-Gen3_Deck38 milled Plains (104) and Plains (103).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (118)]
+Phase: Ai(2)-Gen3_Deck38's End step
+Phase: Ai(2)-Gen3_Deck38's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck1)
+Phase: Ai(1)-Gen3_Deck1's Untap step
+Phase: Ai(1)-Gen3_Deck1's Upkeep step
+Add to stack: Ai(2)-Gen3_Deck38 activated Mazemind Tome (111)
+Add to stack: Ai(2)-Gen3_Deck38 triggered Mazemind Tome (111)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Ai(2)-Gen3_Deck38 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (111) - Ai(2)-Gen3_Deck38 scries 1.
+Phase: Ai(1)-Gen3_Deck1's Draw step
+Phase: Ai(1)-Gen3_Deck1's Main phase, precombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Crawling Barrens (54) - {T}: Add {C}.
+Mana: Druid of the Cowl (20) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck1 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen3_Deck1 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen3_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck1 assigned Crawling Barrens (53), Three Tree Mascot (27) and Nessian Hornbeetle (47) to attack Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck38 didn't block Crawling Barrens (53).
+Ai(2)-Gen3_Deck38 didn't block Three Tree Mascot (27).
+Ai(2)-Gen3_Deck38 didn't block Nessian Hornbeetle (47).
+Phase: Ai(1)-Gen3_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck1's Combat Damage Step
+Damage: Crawling Barrens (53) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Damage: Three Tree Mascot (27) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Damage: Nessian Hornbeetle (47) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's End of Combat Step
+Phase: Ai(1)-Gen3_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck1's End step
+Phase: Ai(1)-Gen3_Deck1's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck38)
+Phase: Ai(2)-Gen3_Deck38's Untap step
+Phase: Ai(2)-Gen3_Deck38's Upkeep step
+Phase: Ai(2)-Gen3_Deck38's Draw step
+Phase: Ai(2)-Gen3_Deck38's Main phase, precombat
+Land: Ai(2)-Gen3_Deck38 played Swamp (76)
+Phase: Ai(2)-Gen3_Deck38's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck38 assigned Crow of Dark Tidings (118) to attack Ai(1)-Gen3_Deck1.
+Phase: Ai(2)-Gen3_Deck38's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck1 didn't block Crow of Dark Tidings (118).
+Phase: Ai(2)-Gen3_Deck38's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck38's Combat Damage Step
+Damage: Crow of Dark Tidings (118) deals 2 combat damage to Ai(1)-Gen3_Deck1.
+Phase: Ai(2)-Gen3_Deck38's End of Combat Step
+Phase: Ai(2)-Gen3_Deck38's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck38's End step
+Phase: Ai(2)-Gen3_Deck38's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck1)
+Phase: Ai(1)-Gen3_Deck1's Untap step
+Phase: Ai(1)-Gen3_Deck1's Upkeep step
+Phase: Ai(1)-Gen3_Deck1's Draw step
+Phase: Ai(1)-Gen3_Deck1's Main phase, precombat
+Mana: Forest (37) - {T}: Add {G}.
+Mana: Forest (33) - {T}: Add {G}.
+Mana: Crawling Barrens (54) - {T}: Add {C}.
+Mana: Druid of the Cowl (20) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen3_Deck1 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen3_Deck1 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen3_Deck1's Beginning of Combat Step
+Add to stack: Ai(1)-Gen3_Deck1 triggered Nessian Hornbeetle (47)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(1)-Gen3_Deck1]
+Phase: Ai(1)-Gen3_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck1 assigned Crawling Barrens (53), Nessian Hornbeetle (47) and Three Tree Mascot (27) to attack Ai(2)-Gen3_Deck38.
+Phase: Ai(1)-Gen3_Deck1's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck38 didn't block Crawling Barrens (53).
+Ai(2)-Gen3_Deck38 didn't block Three Tree Mascot (27).
+Ai(2)-Gen3_Deck38 didn't block Nessian Hornbeetle (47).
+Phase: Ai(1)-Gen3_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck1's Combat Damage Step
+Damage: Crawling Barrens (53) deals 4 combat damage to Ai(2)-Gen3_Deck38.
+Damage: Nessian Hornbeetle (47) deals 3 combat damage to Ai(2)-Gen3_Deck38.
+Damage: Three Tree Mascot (27) deals 2 combat damage to Ai(2)-Gen3_Deck38.
+Player control: Ai(1)-Gen3_Deck1 is controlled by Ai(1)-Gen3_Deck1
+Player control: Ai(2)-Gen3_Deck38 is controlled by Ai(2)-Gen3_Deck38
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen3_Deck1 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck38 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck1: 1 Ai(2)-Gen3_Deck38: 0 
+
+Game Result: Game 1 ended in 11374 ms. Ai(1)-Gen3_Deck1 has won!
+
+
+=== STDERR ===
