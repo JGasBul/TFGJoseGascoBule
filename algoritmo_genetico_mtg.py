@@ -19,6 +19,10 @@ import csv
 from datetime import datetime
 from concurrent.futures import ProcessPoolExecutor, as_completed
 import threading
+import json
+import time
+import pickle
+from datetime import datetime
 
 class MTGGeneticAlgorithm:
     def __init__(self, 
@@ -55,6 +59,9 @@ class MTGGeneticAlgorithm:
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
         
+        self.catalog_path = catalog_path      
+        self.indices_path = indices_path      
+        self.population_file = population_file 
         self.forge_jar_path = forge_jar_path
         self.max_generations = max_generations
         self.population_size = population_size
@@ -241,6 +248,169 @@ class MTGGeneticAlgorithm:
                 'avg_cmc': avg_cmc
             }
         }
+        
+    def save_population_arrays(self, generation):
+        """
+        Guarda la población actual en formato de arrays para análisis y debugging.
+        Este método era crítico y estaba faltando, causando errores.
+
+        Args:
+            generation (int): Número de generación actual
+        """
+        try:
+            # Preparar datos para guardar
+            population_data = {
+                'generation': generation,
+                'timestamp': time.time(),
+                'population_size': len(self.population_arrays),
+                'arrays': [],
+                'fitness_values': getattr(self, 'current_fitness_values', []),
+                'hall_of_fame_size': len(getattr(self, 'hall_of_fame_arrays', [])),
+                'stagnation_counter': getattr(self, 'stagnation_counter', 0)
+            }
+
+            # Convertir arrays numpy a listas para JSON
+            for i, array in enumerate(self.population_arrays):
+                array_data = {
+                    'index': i,
+                    'array': array.tolist(),
+                    'sum': int(np.sum(array)),
+                    'non_zero_count': int(np.count_nonzero(array)),
+                    'max_value': int(np.max(array)),
+                    'min_value': int(np.min(array))
+                }
+                population_data['arrays'].append(array_data)
+
+            # Agregar información del Hall of Fame si existe
+            if hasattr(self, 'hall_of_fame_arrays') and self.hall_of_fame_arrays:
+                population_data['hall_of_fame'] = []
+                for fitness, hof_array in self.hall_of_fame_arrays[:5]:  # Solo los top 5
+                    hof_data = {
+                        'fitness': float(fitness),
+                        'array': hof_array.tolist(),
+                        'sum': int(np.sum(hof_array)),
+                        'non_zero_count': int(np.count_nonzero(hof_array))
+                    }
+                    population_data['hall_of_fame'].append(hof_data)
+
+            # Crear nombres de archivo con timestamp
+            timestamp_str = datetime.now().strftime("%Y%m%d_%H%M%S")
+
+            # Guardar archivo detallado (solo cada 5 generaciones para evitar sobrecarga)
+            if generation % 5 == 0 or generation == 1:
+                detailed_filename = os.path.join(
+                    self.output_dir, 
+                    f"population_arrays_detailed_gen_{generation:03d}_{timestamp_str}.json"
+                )
+                with open(detailed_filename, 'w', encoding='utf-8') as f:
+                    json.dump(population_data, f, indent=2, ensure_ascii=False)
+                self.logger.info(f"Población detallada guardada: {detailed_filename}")
+
+            # Guardar archivo compacto (solo estadísticas básicas) cada generación
+            compact_data = {
+                'generation': generation,
+                'timestamp': time.time(),
+                'population_size': len(self.population_arrays),
+                'fitness_stats': {
+                    'count': len(population_data['fitness_values']),
+                    'max': float(max(population_data['fitness_values'])) if population_data['fitness_values'] else 0.0,
+                    'min': float(min(population_data['fitness_values'])) if population_data['fitness_values'] else 0.0,
+                    'avg': float(np.mean(population_data['fitness_values'])) if population_data['fitness_values'] else 0.0
+                },
+                'array_stats': {
+                    'total_arrays': len(self.population_arrays),
+                    'avg_sum': float(np.mean([np.sum(arr) for arr in self.population_arrays])),
+                    'avg_non_zero': float(np.mean([np.count_nonzero(arr) for arr in self.population_arrays]))
+                },
+                'hall_of_fame_size': len(getattr(self, 'hall_of_fame_arrays', [])),
+                'stagnation_counter': getattr(self, 'stagnation_counter', 0)
+            }
+
+            compact_filename = os.path.join(
+                self.output_dir, 
+                f"population_summary_gen_{generation:03d}.json"
+            )
+            with open(compact_filename, 'w', encoding='utf-8') as f:
+                json.dump(compact_data, f, indent=2, ensure_ascii=False)
+
+            # Guardar también un archivo histórico que acumule todas las generaciones
+            history_filename = os.path.join(self.output_dir, "evolution_history.json")
+            if os.path.exists(history_filename):
+                with open(history_filename, 'r', encoding='utf-8') as f:
+                    history = json.load(f)
+            else:
+                history = {'generations': []}
+
+            history['generations'].append(compact_data)
+
+            with open(history_filename, 'w', encoding='utf-8') as f:
+                json.dump(history, f, indent=2, ensure_ascii=False)
+
+            self.logger.debug(f"✅ save_population_arrays completado para generación {generation}")
+
+        except Exception as e:
+            self.logger.error(f"❌ Error en save_population_arrays: {e}")
+            # No reraiseamos el error para evitar que el algoritmo se detenga
+            # Solo loggeamos el error y continuamos
+            import traceback
+            self.logger.error(f"Traceback completo: {traceback.format_exc()}")
+
+
+    def save_final_population(self):
+        """
+        Guarda la población final con información completa.
+        Método complementario para al final del algoritmo.
+        """
+        try:
+            final_data = {
+                'final_generation': self.current_generation,
+                'timestamp': time.time(),
+                'total_runtime': getattr(self, 'total_runtime', 0),
+                'final_population': [],
+                'hall_of_fame': [],
+                'evolution_summary': {
+                    'max_fitness_achieved': float(max(getattr(self, 'current_fitness_values', [0]))),
+                    'generations_completed': self.current_generation,
+                    'stagnation_final': getattr(self, 'stagnation_counter', 0)
+                }
+            }
+
+            # Convertir población final a formato completo (arrays + mazos)
+            for i, array in enumerate(self.population_arrays):
+                deck = self.array_to_deck(array, f"Final_Deck_{i:03d}")
+                deck_data = {
+                    'index': i,
+                    'array': array.tolist(),
+                    'deck': deck,
+                    'fitness': float(self.current_fitness_values[i]) if i < len(getattr(self, 'current_fitness_values', [])) else 0.0
+                }
+                final_data['final_population'].append(deck_data)
+
+            # Hall of Fame completo
+            if hasattr(self, 'hall_of_fame_arrays'):
+                for fitness, hof_array in self.hall_of_fame_arrays:
+                    hof_deck = self.array_to_deck(hof_array, f"HOF_Deck_{len(final_data['hall_of_fame'])}")
+                    hof_data = {
+                        'fitness': float(fitness),
+                        'array': hof_array.tolist(),
+                        'deck': hof_deck
+                    }
+                    final_data['hall_of_fame'].append(hof_data)
+
+            # Guardar resultado final
+            final_filename = os.path.join(
+                self.output_dir, 
+                f"final_population_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+            )
+            with open(final_filename, 'w', encoding='utf-8') as f:
+                json.dump(final_data, f, indent=2, ensure_ascii=False)
+
+            self.logger.info(f"✅ Población final guardada: {final_filename}")
+            return final_filename
+
+        except Exception as e:
+            self.logger.error(f"❌ Error guardando población final: {e}")
+            return None
     
     def setup_forge(self):
         """Configura Forge"""
@@ -346,49 +516,41 @@ class MTGGeneticAlgorithm:
             deck_file = os.path.join(self.forge_decks_dir, f"{deck_name}.dck")
             self.save_forge_deck(deck, deck_file)
         
-        # Crear lista de todos los combates
+        # Crear lista de todos los combates - OPTIMIZADO
         combat_tasks = []
         match_count = 0
         
         for i in range(n_decks):
             for j in range(i + 1, n_decks):
-                # Combate 1: i vs j
+                # SOLO UN COMBATE por enfrentamiento único
                 match_count += 1
-                match_id_1 = f"Gen{generation}_Match{match_count}_{int(time.time())}"
+                match_id = f"Gen{generation}_Match{match_count}_{int(time.time())}"
+                
+                # Alternancia determinística del starter
+                if self.get_starting_player(i, j, generation):
+                    deck1_name, deck2_name = deck_names[i], deck_names[j]
+                    deck1_idx, deck2_idx = i, j
+                else:
+                    deck1_name, deck2_name = deck_names[j], deck_names[i]
+                    deck1_idx, deck2_idx = j, i
+                
                 combat_tasks.append({
-                    'deck1_name': deck_names[i],
-                    'deck2_name': deck_names[j],
+                    'deck1_name': deck1_name,
+                    'deck2_name': deck2_name,
                     'forge_jar_path': self.forge_jar_path,
                     'forge_root': self.forge_root,
                     'timeout': self.adaptive_timeout,
-                    'match_id': match_id_1,
+                    'match_id': match_id,
                     'generation': generation,
                     'forge_output_dir': self.forge_output_dir,
-                    'deck1_idx': i,
-                    'deck2_idx': j,
+                    'deck1_idx': deck1_idx,
+                    'deck2_idx': deck2_idx,
                     'reverse': False,
                     'headless_mode': self.headless_mode
                 })
-                
-                # Combate 2: j vs i (orden invertido)
-                match_count += 1
-                match_id_2 = f"Gen{generation}_Match{match_count}_{int(time.time())}"
-                combat_tasks.append({
-                    'deck1_name': deck_names[j],
-                    'deck2_name': deck_names[i],
-                    'forge_jar_path': self.forge_jar_path,
-                    'forge_root': self.forge_root,
-                    'timeout': self.adaptive_timeout,
-                    'match_id': match_id_2,
-                    'generation': generation,
-                    'forge_output_dir': self.forge_output_dir,
-                    'deck1_idx': j,
-                    'deck2_idx': i,
-                    'reverse': True
-                })
         
         total_combats = len(combat_tasks)
-        self.logger.info(f"Ejecutando {total_combats} combates en paralelo...")
+        self.logger.info(f"Ejecutando {total_combats} combates en paralelo... (OPTIMIZADO: 50% menos)")
         
         # EJECUCIÓN PARALELA
         successful_combats = 0
@@ -835,271 +997,185 @@ class MTGGeneticAlgorithm:
             self.logger.debug(f"Hall of Fame: Mejor={best_fitness:.4f}, Peor={worst_fitness:.4f}")
     
     def evolve(self):
-        """Ejecuta el algoritmo genético completo con paralelización - CORREGIDO"""
-        self.logger.info("=== INICIANDO ALGORITMO GENÉTICO PARALELO ===")
+        """Ejecuta el algoritmo genético completo con paralelización y anti-estancamiento"""
+        self.logger.info("=== INICIANDO ALGORITMO GENÉTICO CON ANTI-ESTANCAMIENTO ===")
         self.logger.info(f"Configuración: {self.population_size} mazos, {self.max_generations} generaciones")
         self.logger.info(f"Paralelización: {self.max_workers} workers, timeout {self.base_timeout}s")
+
+        termination_reason = "max_generations_reached"
+        best_deck = None
 
         try:
             # Evaluación inicial mediante torneo paralelo
             self.logger.info("Evaluando población inicial con procesamiento paralelo...")
             fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
-            
-            # 🔧 DEBUG POST-EVALUACIÓN
-            max_current = max(fitness_values)
-            max_historical = self.hall_of_fame_arrays[0][0] if self.hall_of_fame_arrays else 0
-            print(f"FITNESS_CHECK: actual={max_current:.4f}, historico={max_historical:.4f}")
-            
-            # NUEVO: Inicializar Hall of Fame
+            self.save_population_arrays(0)  # ← NUEVA LÍNEA
+
+            # Variables de control mejoradas
+            best_fitness_ever = max(fitness_values)
+            self.stagnation_counter = 0
+            generations_since_intervention = 0
+            self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
+
+            # Actualizar Hall of Fame inicial
             self.update_hall_of_fame(fitness_values, self.population_arrays)
-            self.logger.info(f"🏆 Hall of Fame inicializado con {len(self.hall_of_fame_arrays)} individuos")
 
-            # Estadísticas iniciales
-            best_idx = np.argmax(fitness_values)
-            best_fitness = fitness_values[best_idx]
-            avg_fitness = np.mean(fitness_values)
-            diversity = self.calculate_diversity(self.population_arrays)
-
-            self.stats['best_fitness'].append(best_fitness)
-            self.stats['avg_fitness'].append(avg_fitness)
-            self.stats['diversity'].append(diversity)
-            self.stats['mutation_rate'].append(self.mutation_rate)
-
-            self.logger.info(f"Gen 0: Mejor={best_fitness:.4f}, Promedio={avg_fitness:.4f}, Diversidad={diversity:.4f}")
-
-            # Guardar mejor inicial
-            best_deck = self.array_to_deck(self.population_arrays[best_idx], "Best_Gen_0")
-            self.hall_of_fame.append((0, best_fitness, best_deck))
-            self.best_fitness_ever = best_fitness
-
-            # Evolución con paralelización
+            # BUCLE PRINCIPAL CON CONTROL DE TERMINACIÓN MEJORADO
             for generation in range(1, self.max_generations + 1):
-                self.logger.info(f"\n===== Generación {generation} =====")
-                
-                # Ajustar tasa de mutación
-                current_mutation_rate = self.adaptive_mutation_rate(generation, self.stagnation_counter)
-                
-                # Nueva población
+                self.current_generation = generation
+                self.logger.info(f"\n=== GENERACIÓN {generation} ===")
+
+                # === CREAR NUEVA GENERACIÓN (código existente) ===
                 new_population = []
 
-                # 🏆 ELITISMO GLOBAL: Preservar del Hall of Fame
+                # Preservar elite del Hall of Fame
                 hof_preserved = 0
-                for fitness, elite_array in self.hall_of_fame_arrays:
-                    if hof_preserved < self.elite_size:
-                        new_population.append(elite_array.copy())
-                        hof_preserved += 1
-                        
-                        # 🔧 DEBUG CRÍTICO
-                        print(f"ELITE: fitness={fitness:.4f}, array_sum={np.sum(elite_array)}")
-                        
-                print(f"ELITE_TOTAL: {hof_preserved} preservados")                
+                if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+                    elite_to_preserve = min(self.elite_size, len(self.hall_of_fame_arrays))
+                    for i in range(elite_to_preserve):
+                        if hof_preserved < self.elite_size:
+                            fitness, elite_array = self.hall_of_fame_arrays[i]
+                            new_population.append(elite_array.copy())
+                            hof_preserved += 1
+
+                # Calcular tasa de mutación adaptiva
+                current_mutation_rate = self.adaptive_mutation_rate(generation, self.stagnation_counter)
+
                 # Generar el resto de la población
                 while len(new_population) < self.population_size:
                     # Selección
                     parent1 = self.tournament_selection(self.population_arrays, fitness_values)
                     parent2 = self.tournament_selection(self.population_arrays, fitness_values)
-                    
+
                     # Cruce
-                    if random.random() < 0.5:
-                        child1, child2 = self.crossover_uniform(parent1, parent2)
+                    if random.random() < self.crossover_rate:
+                        if random.random() < 0.5:
+                            child1, child2 = self.crossover_uniform(parent1, parent2)
+                        else:
+                            child1, child2 = self.crossover_two_point(parent1, parent2)
                     else:
-                        child1, child2 = self.crossover_two_point(parent1, parent2)
-                    
+                        child1, child2 = parent1.copy(), parent2.copy()
+
                     # Mutación
                     if random.random() < current_mutation_rate:
-                        child1 = self.mutate(child1, generation, self.stagnation_counter)                    
+                        child1 = self.mutate(child1, generation, self.stagnation_counter)
+
                     if random.random() < current_mutation_rate:
                         child2 = self.mutate(child2, generation, self.stagnation_counter)
-                    
+
                     new_population.append(child1)
                     if len(new_population) < self.population_size:
                         new_population.append(child2)
-                
-                print(f"🔍 POBLACIÓN ANTES DE EVALUAR:")
-                print(f"    Size: {len(new_population)}")
-                if len(self.hall_of_fame_arrays) > 0:
-                    elite_array = self.hall_of_fame_arrays[0][1]
-                    elite_sum = np.sum(elite_array)
-                    print(f"    Elite esperado sum: {elite_sum}")
 
-                    # Buscar elite en población
-                    for i, pop_array in enumerate(new_population):
-                        if np.array_equal(elite_array, pop_array):
-                            print(f"    ✅ Elite encontrado en posición {i}")
-                            break
-                    else:
-                        print(f"    🚨 Elite NO encontrado en nueva población!")
-                        
-                # Reemplazar población
+                # Actualizar población
                 self.population_arrays = new_population
-                
-                # 🔧 DEBUG: Verificar que elite sigue en posición 0
-                print(f"🔍 VERIFICACIÓN POSICIONES:")
-                print(f"    new_population size: {len(new_population)}")
-                print(f"    population_arrays size: {len(self.population_arrays)}")
-                
-                if len(self.hall_of_fame_arrays) > 0:
-                    elite_original = self.hall_of_fame_arrays[0][1]
-                    
-                    # Verificar cada posición
-                    for i in range(min(5, len(self.population_arrays))):
-                        is_elite = np.array_equal(elite_original, self.population_arrays[i])
-                        array_sum = np.sum(self.population_arrays[i])
-                        print(f"    Posición {i}: sum={array_sum}, es_elite={is_elite}")
-                
-                # Después de preservar elite, antes de evaluar:
-                if len(self.hall_of_fame_arrays) > 0:
-                    original_elite = self.hall_of_fame_arrays[0][1]
-                    copied_elite = self.population_arrays[0]
 
-                    print(f"🔍 VERIFICACIÓN ELITE COPY:")
-                    print(f"    Original sum: {np.sum(original_elite)}")
-                    print(f"    Copia sum: {np.sum(copied_elite)}")
-                    print(f"    Arrays iguales: {np.array_equal(original_elite, copied_elite)}")
-
-                    # Verificar primeras 10 cartas
-                    print(f"    Original[0:10]: {original_elite[0:10]}")
-                    print(f"    Copia[0:10]: {copied_elite[0:10]}")
-
-                    if not np.array_equal(original_elite, copied_elite):
-                        print(f"🚨 ELITE CORROMPIDO DURANTE COPIA!")
-
-                        # Encontrar diferencias
-                        diff_positions = np.where(original_elite != copied_elite)[0]
-                        print(f"    Diferencias en posiciones: {diff_positions[:5]}...")  # Primeras 5
-                
-                # Después de: self.population_arrays = new_population
-                print(f"🔍 POBLACIÓN ASIGNADA:")
-                if len(self.hall_of_fame_arrays) > 0:
-                    elite_array = self.hall_of_fame_arrays[0][1]
-
-                    for i, pop_array in enumerate(self.population_arrays):
-                        if np.array_equal(elite_array, pop_array):
-                            print(f"    ✅ Elite en population_arrays posición {i}")
-                            break
-                    else:
-                        print(f"    🚨 Elite perdido en population_arrays!")
-                
-                # Evaluar nueva población CON PARALELIZACIÓN
-                self.logger.info(f"Evaluando generación {generation} con {self.max_workers} workers...")
+                # === EVALUAR NUEVA GENERACIÓN ===
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, generation)
-                
-                # Después de evaluate_population_tournament_parallel:
-                max_current = max(fitness_values)
-                max_historical = self.hall_of_fame_arrays[0][0] if self.hall_of_fame_arrays else 0
-                print(f"FITNESS_CHECK: actual={max_current:.4f}, historico={max_historical:.4f}")
+                self.save_population_arrays(generation)  # ← NUEVA LÍNEA
+                self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
 
-                if max_current < max_historical - 0.05:
-                    print(f"🚨 BUG CONFIRMADO: Elite perdido entre preservación y evaluación")
-                
-                # 🏆 ACTUALIZAR HALL OF FAME
+                # Actualizar Hall of Fame
                 self.update_hall_of_fame(fitness_values, self.population_arrays)
-                
-                # 🔧 DEBUG:
-                self.analyze_generation_debug(generation, fitness_values)
-                
-                # Estadísticas
-                best_idx = np.argmax(fitness_values)
-                current_best_fitness = fitness_values[best_idx]
-                avg_fitness = np.mean(fitness_values)
-                diversity = self.calculate_diversity(self.population_arrays)
-                
-                self.stats['best_fitness'].append(current_best_fitness)
-                self.stats['avg_fitness'].append(avg_fitness)
-                self.stats['diversity'].append(diversity)
-                self.stats['mutation_rate'].append(current_mutation_rate)
-                
-                self.logger.info(f"Mejor={current_best_fitness:.4f}, Promedio={avg_fitness:.4f}, Diversidad={diversity:.4f}")
-                self.logger.info(f"Tasa de mutación actual: {current_mutation_rate:.4f}")
-                
-                # Verificar mejora usando Hall of Fame
-                hall_of_fame_best = self.hall_of_fame_arrays[0][0] if self.hall_of_fame_arrays else 0
-                current_best_fitness = max(fitness_values)
 
-                if hall_of_fame_best > self.best_fitness_ever:
-                    self.best_fitness_ever = hall_of_fame_best
+                # === ACTUALIZAR ESTADÍSTICAS ===
+                current_best = max(fitness_values)
+
+                if current_best > best_fitness_ever:
+                    best_fitness_ever = current_best
+                    self.best_fitness_ever = current_best
                     self.stagnation_counter = 0
+                    self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f}")
 
-                    # Encontrar el mejor mazo actual en el Hall of Fame
-                    best_fitness, best_array = self.hall_of_fame_arrays[0]
-                    best_deck = self.array_to_deck(best_array, f"HallOfFame_Gen_{generation}")
-                    self.hall_of_fame.append((generation, best_fitness, best_deck))
-
-                    self.logger.info(f"🎉 Nuevo récord en Hall of Fame: {best_fitness:.4f}")
-                    self.save_best_deck(best_deck, generation)
+                    # Restaurar tasa de mutación si había intervención
+                    if generations_since_intervention > 0:
+                        self.restore_mutation_rate()
+                        generations_since_intervention = 0
                 else:
                     self.stagnation_counter += 1
-                    self.logger.info(f"Sin mejora durante {self.stagnation_counter} generaciones")
+                    self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter}/{self.stagnation_limit}")
+
+                # === VERIFICAR CONDICIONES DE TERMINACIÓN ===
+                should_continue, reason, apply_intervention = self.handle_termination_conditions(
+                    generation, current_best, self.stagnation_counter
+                )
+
+                if apply_intervention:
+                    # Aplicar intervención anti-estancamiento
+                    self.apply_anti_stagnation_intervention(generation)
+                    generations_since_intervention = 1
+                    # Continuar después de la intervención
+                    continue
                 
-                # Guardar población cada 10 generaciones
-                if generation % 10 == 0:
-                    self.save_population_arrays(generation)
-                
-                # Criterios de parada
-                if self.stagnation_counter >= self.stagnation_limit:
-                    self.logger.info(f"Terminando por estancamiento ({self.stagnation_limit} generaciones sin mejora)")
+                if not should_continue:
+                    termination_reason = reason
+                    self.logger.info(f"🏁 TERMINACIÓN CONTROLADA: {termination_reason}")
                     break
                 
-                if current_best_fitness >= 0.95:
-                    self.logger.info("Terminando por alcanzar fitness objetivo (95% win rate)")
-                    break
-                
-                self.debug_hall_of_fame(generation, fitness_values)
-                
-            if self.hall_of_fame:
-                final_generation, final_fitness, final_best_deck = max(self.hall_of_fame, key=lambda x: x[1])
+                # Incrementar contador de generaciones desde intervención
+                if generations_since_intervention > 0:
+                    generations_since_intervention += 1
+                    # Restaurar mutación después de 3 generaciones
+                    if generations_since_intervention >= 3:
+                        self.restore_mutation_rate()
+                        generations_since_intervention = 0
 
-                # Guardar como ganador final
-                final_json = os.path.join(self.output_dir, "WINNER_FINAL.json")
-                final_dck = os.path.join(self.output_dir, "WINNER_FINAL.dck")
+            # === OBTENER MEJOR RESULTADO CON VERIFICACIÓN ===
+            best_deck, final_fitness = self.get_final_best_result()
 
-                with open(final_json, 'w', encoding='utf-8') as f:
-                    json.dump(final_best_deck, f, ensure_ascii=False, indent=2)
+            # VERIFICACIÓN ADICIONAL: Comparar con best_fitness_ever
+            if hasattr(self, 'best_fitness_ever'):
+                if final_fitness != self.best_fitness_ever:
+                    self.logger.warning(f"⚠️ Discrepancia en fitness final:")
+                    self.logger.warning(f"   Hall of Fame: {final_fitness:.4f}")
+                    self.logger.warning(f"   Best Ever: {self.best_fitness_ever:.4f}")
 
-                self.save_forge_deck(final_best_deck, final_dck)
+                    # Usar el mayor de los dos
+                    if self.best_fitness_ever > final_fitness:
+                        final_fitness = self.best_fitness_ever
+                        self.logger.info(f"✅ Usando best_fitness_ever: {final_fitness:.4f}")
 
-                self.logger.info(f"🏆 GANADOR FINAL guardado:")
-                self.logger.info(f"   JSON: {final_json}")
-                self.logger.info(f"   DCK: {final_dck}")
-                self.logger.info(f"   Fitness: {final_fitness:.4f}")
-                self.logger.info(f"   Generación: {final_generation}")    
-            
-            # Guardar estadísticas finales
-            self.save_statistics()
-            self.save_final_logs()
-            
-            # Retornar el mejor mazo encontrado
-            if self.hall_of_fame:
-                _, _, best_deck = max(self.hall_of_fame, key=lambda x: x[1])
-                return best_deck
-            else:
-                return self.array_to_deck(self.population_arrays[0], "Final_Deck")
-        
+            self.logger.info(f"🏆 MEJOR FITNESS ALCANZADO: {final_fitness:.4f}")
+            self.logger.info(f"🎯 RAZÓN DE TERMINACIÓN: {termination_reason}")
+
         except KeyboardInterrupt:
             self.logger.info("=== EJECUCIÓN INTERRUMPIDA POR EL USUARIO ===")
-            # GUARDAR MEJOR ENCONTRADO HASTA AHORA
-            if self.hall_of_fame:
-                interrupt_generation, interrupt_fitness, interrupt_best_deck = max(self.hall_of_fame, key=lambda x: x[1])
+            termination_reason = "user_interrupt"
+            # Crear un deck básico si no hay mejor disponible
+            if best_deck is None and len(self.population_arrays) > 0:
+                best_deck = self.array_to_deck(self.population_arrays[0], "Interrupted_Deck")
 
-                interrupt_json = os.path.join(self.output_dir, "INTERRUPTED_BEST.json")
-                interrupt_dck = os.path.join(self.output_dir, "INTERRUPTED_BEST.dck")
-
-                with open(interrupt_json, 'w', encoding='utf-8') as f:
-                    json.dump(interrupt_best_deck, f, ensure_ascii=False, indent=2)
-
-                self.save_forge_deck(interrupt_best_deck, interrupt_dck)
-
-                self.logger.info(f"💾 MEJOR MAZO HASTA INTERRUPCIÓN guardado:")
-                self.logger.info(f"   JSON: {interrupt_json}")
-                self.logger.info(f"   DCK: {interrupt_dck}")
-                self.logger.info(f"   Fitness: {interrupt_fitness:.4f}")
-
-            self.save_final_logs()
-            raise
         except Exception as e:
-            self.logger.error(f"Error durante la evolución paralela: {e}")
-            self.save_final_logs()
-            raise
+            self.logger.error(f"Error durante la evolución: {e}")
+            termination_reason = f"error: {str(e)}"
+            # Crear un deck básico si no hay mejor disponible
+            if best_deck is None and len(self.population_arrays) > 0:
+                best_deck = self.array_to_deck(self.population_arrays[0], "Error_Recovery_Deck")
+
+        finally:
+            # === GARANTIZAR EJECUCIÓN DE MÉTODOS FINALES ===
+            self.logger.info("🔄 Ejecutando métodos de finalización...")
+
+            try:
+                self.save_statistics()
+                self.logger.info("✅ save_statistics() ejecutado correctamente")
+            except Exception as e:
+                self.logger.error(f"Error en save_statistics(): {e}")
+
+            try:
+                self.save_final_logs()
+                self.logger.info("✅ save_final_logs() ejecutado correctamente")
+            except Exception as e:
+                self.logger.error(f"Error en save_final_logs(): {e}")
+
+            try:
+                final_file = self.save_final_population()
+                if final_file:
+                    self.logger.info(f"✅ save_final_population() ejecutado: {final_file}")
+            except Exception as e:
+                self.logger.error(f"Error en save_final_population(): {e}")
+
+        return best_deck
     
     def save_final_logs(self):
         """Guarda logs finales de la ejecución paralela"""
@@ -1344,7 +1420,256 @@ class MTGGeneticAlgorithm:
             json.dump(hof_data, f, ensure_ascii=False, indent=2)
         
         self.logger.info(f"Estadísticas paralelas guardadas en {self.output_dir}")
+        
+    def get_starting_player(self, i, j, generation):
+        """
+        Determina quién empieza de manera determinística pero balanceada
+        """
+        seed = hash((i, j, generation)) % 2
+        return seed == 0    
+    
+    def handle_termination_conditions(self, generation, current_best_fitness, stagnation_counter):
+        """
+        Maneja las condiciones de terminación y anti-estancamiento de forma inteligente.
+        Reemplaza los break problemáticos por return controlado.
 
+        Returns:
+            tuple: (should_continue, termination_reason, apply_intervention)
+        """
+        # Verificar condición de fitness objetivo alcanzado
+        if current_best_fitness >= 0.95:
+            reason = f"Terminando por alcanzar fitness objetivo (95% win rate): {current_best_fitness:.4f}"
+            self.logger.info(reason)
+            return False, "fitness_target_reached", False
+
+        # Verificar estancamiento crítico
+        if stagnation_counter >= self.stagnation_limit:
+            if generation < self.max_generations // 2:
+                # Si estamos en la primera mitad, aplicar intervención agresiva
+                reason = f"Aplicando intervención anti-estancamiento en generación {generation}"
+                self.logger.warning(reason)
+                return True, "stagnation_intervention", True
+            else:
+                # Si estamos en la segunda mitad, terminar
+                reason = f"Terminando por estancamiento tras {stagnation_counter} generaciones sin mejora"
+                self.logger.info(reason)
+                return False, "stagnation_limit_reached", False
+
+        # Continuar normalmente
+        return True, "continue", False
+
+
+    def apply_anti_stagnation_intervention(self, generation):
+        """
+        Sistema Anti-Estancamiento Agresivo 
+        Aplica múltiples estrategias para escapar de óptimos locales.
+        """
+        self.logger.warning(f"🚨 APLICANDO INTERVENCIÓN ANTI-ESTANCAMIENTO en generación {generation}")
+
+        intervention_applied = False
+
+        # ESTRATEGIA 1: IMMIGRATION (30% de la población)
+        immigration_size = max(3, self.population_size // 3)
+        self.logger.info(f"🌍 Immigration: Inyectando {immigration_size} mazos completamente nuevos")
+
+        # Generar mazos nuevos usando el generador original
+        try:
+            from generador_mazos_mtg import MTGDeckGenerator
+
+            generator = MTGDeckGenerator(
+                cards_csv_path=os.path.join(os.path.dirname(self.catalog_path), "..", "processed_standard_cards.csv"),
+                catalog_path=self.catalog_path,
+                indices_path=self.indices_path,
+                output_dir=self.output_dir
+            )
+
+            # Generar mazos frescos con diversidad forzada
+            new_decks = generator.generate_population_exact_size(immigration_size)
+            new_arrays = []
+
+            for deck in new_decks:
+                if 'array' in deck:
+                    new_arrays.append(np.array(deck['array'], dtype=int))
+                else:
+                    new_arrays.append(self.deck_to_array(deck))
+
+            # Reemplazar los peores individuos
+            if hasattr(self, 'current_fitness_values') and len(self.current_fitness_values) == len(self.population_arrays):
+                # Encontrar los índices de los peores
+                sorted_indices = np.argsort(self.current_fitness_values)
+                worst_indices = sorted_indices[:immigration_size]
+
+                for i, worst_idx in enumerate(worst_indices):
+                    if i < len(new_arrays):
+                        self.population_arrays[worst_idx] = new_arrays[i].copy()
+                        self.logger.debug(f"Mazo {worst_idx} reemplazado por inmigrante {i}")
+
+                intervention_applied = True
+                self.logger.info(f"✅ Immigration completada: {len(worst_indices)} mazos reemplazados")
+
+        except Exception as e:
+            self.logger.error(f"Error en immigration: {e}")
+
+        # ESTRATEGIA 2: MUTATION BOOST (Incrementar mutación temporalmente)
+        if hasattr(self, 'original_mutation_rate'):
+            self.mutation_rate = self.original_mutation_rate * 3.0
+        else:
+            self.original_mutation_rate = self.mutation_rate
+            self.mutation_rate = min(0.4, self.mutation_rate * 3.0)
+
+        self.logger.info(f"🧬 Mutation Boost: Tasa de mutación incrementada a {self.mutation_rate:.3f}")
+        intervention_applied = True
+
+        # ESTRATEGIA 3: DIVERSITY INJECTION (Forzar diversidad en Hall of Fame)
+        if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 3:
+            # Seleccionar individuos diversos del Hall of Fame
+            diverse_elite = self.select_diverse_elite()
+
+            if len(diverse_elite) > 0:
+                # Reemplazar algunos individuos mediocres con elite diverso
+                elite_injection_size = min(len(diverse_elite), self.population_size // 4)
+
+                if hasattr(self, 'current_fitness_values'):
+                    # Encontrar individuos mediocres (no los mejores ni los peores)
+                    fitness_array = np.array(self.current_fitness_values)
+                    median_fitness = np.median(fitness_array)
+
+                    # Buscar individuos cerca de la mediana
+                    median_tolerance = np.std(fitness_array) * 0.5
+                    mediocre_mask = np.abs(fitness_array - median_fitness) <= median_tolerance
+                    mediocre_indices = np.where(mediocre_mask)[0]
+
+                    if len(mediocre_indices) >= elite_injection_size:
+                        selected_mediocre = np.random.choice(mediocre_indices, elite_injection_size, replace=False)
+
+                        for i, mediocre_idx in enumerate(selected_mediocre):
+                            if i < len(diverse_elite):
+                                self.population_arrays[mediocre_idx] = diverse_elite[i].copy()
+                                self.logger.debug(f"Individuo mediocre {mediocre_idx} reemplazado por elite diverso")
+
+                        intervention_applied = True
+                        self.logger.info(f"✅ Diversity Injection: {len(selected_mediocre)} individuos reemplazados")
+
+        # ESTRATEGIA 4: RESET STAGNATION COUNTER (Dar otra oportunidad)
+        self.stagnation_counter = 0
+        self.logger.info(f"🔄 Stagnation counter reseteado")
+
+        # Marcar que se aplicó intervención
+        if intervention_applied:
+            # Agregar marca temporal en logs
+            if not hasattr(self, 'interventions_applied'):
+                self.interventions_applied = []
+
+            self.interventions_applied.append({
+                'generation': generation,
+                'strategies': ['immigration', 'mutation_boost', 'diversity_injection'],
+                'timestamp': time.time()
+            })
+
+            self.logger.warning(f"🚀 INTERVENCIÓN ANTI-ESTANCAMIENTO COMPLETADA en generación {generation}")
+
+        return intervention_applied
+
+
+    def select_diverse_elite(self):
+        """
+        Selecciona individuos diversos del Hall of Fame basado en distancia genética.
+        """
+        if not hasattr(self, 'hall_of_fame_arrays') or len(self.hall_of_fame_arrays) < 2:
+            return []
+
+        # Extraer solo los arrays del Hall of Fame
+        hof_arrays = [hof_array for _, hof_array in self.hall_of_fame_arrays]
+
+        if len(hof_arrays) <= 3:
+            return hof_arrays
+
+        # Selección por diversidad usando distancia hamming
+        selected = [hof_arrays[0]]  # Siempre incluir el mejor
+
+        for candidate in hof_arrays[1:]:
+            # Calcular distancia mínima a los ya seleccionados
+            min_distance = float('inf')
+
+            for selected_array in selected:
+                # Distancia basada en cartas diferentes
+                different_cards = np.sum(candidate != selected_array)
+                min_distance = min(min_distance, different_cards)
+
+            # Si es suficientemente diferente, agregarlo
+            diversity_threshold = len(candidate) * 0.1  # Al menos 10% de cartas diferentes
+            if min_distance >= diversity_threshold and len(selected) < 4:
+                selected.append(candidate)
+
+        self.logger.debug(f"Elite diverso seleccionado: {len(selected)} individuos de {len(hof_arrays)} disponibles")
+        return selected
+
+
+    def restore_mutation_rate(self):
+        """
+        Restaura la tasa de mutación original después de la intervención.
+        """
+        if hasattr(self, 'original_mutation_rate'):
+            old_rate = self.mutation_rate
+            self.mutation_rate = self.original_mutation_rate
+            self.logger.info(f"🔄 Tasa de mutación restaurada: {old_rate:.3f} → {self.mutation_rate:.3f}")
+
+    def get_final_best_result(self):
+        """
+        Obtiene el mejor resultado final de forma correcta
+        """
+        try:
+            # OPCIÓN 1: Usar Hall of Fame arrays (más confiable)
+            if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+                best_fitness, best_array = self.hall_of_fame_arrays[0]
+                best_deck = self.array_to_deck(best_array, "Champion_Deck")
+
+                self.logger.info(f"✅ Mejor resultado obtenido del Hall of Fame:")
+                self.logger.info(f"   Fitness: {best_fitness:.4f}")
+                self.logger.info(f"   Array sum: {np.sum(best_array)}")
+
+                # VERIFICAR que el fitness es correcto
+                if best_fitness < 0.01:  # Si el fitness es sospechosamente bajo
+                    self.logger.warning(f"⚠️ Fitness sospechosamente bajo: {best_fitness:.4f}")
+                    # Buscar en hall_of_fame alternativo
+                    if hasattr(self, 'hall_of_fame') and self.hall_of_fame:
+                        _, alt_fitness, alt_deck = max(self.hall_of_fame, key=lambda x: x[1])
+                        if alt_fitness > best_fitness:
+                            self.logger.info(f"🔄 Usando hall_of_fame alternativo: {alt_fitness:.4f}")
+                            return alt_deck, alt_fitness
+
+                return best_deck, best_fitness
+
+            # OPCIÓN 2: Usar hall_of_fame estándar
+            elif hasattr(self, 'hall_of_fame') and self.hall_of_fame:
+                _, best_fitness, best_deck = max(self.hall_of_fame, key=lambda x: x[1])
+
+                self.logger.info(f"✅ Mejor resultado obtenido del Hall of Fame estándar:")
+                self.logger.info(f"   Fitness: {best_fitness:.4f}")
+
+                return best_deck, best_fitness
+
+            # OPCIÓN 3: Usar población actual (último recurso)
+            else:
+                if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
+                    best_idx = np.argmax(self.current_fitness_values)
+                    best_fitness = self.current_fitness_values[best_idx]
+                    best_deck = self.array_to_deck(self.population_arrays[best_idx], "Final_Best_Deck")
+
+                    self.logger.info(f"✅ Mejor resultado obtenido de población actual:")
+                    self.logger.info(f"   Fitness: {best_fitness:.4f}")
+
+                    return best_deck, best_fitness
+                else:
+                    # Fallback absoluto
+                    best_deck = self.array_to_deck(self.population_arrays[0], "Fallback_Deck")
+                    self.logger.warning("⚠️ Usando deck de fallback")
+                    return best_deck, 0.0
+
+        except Exception as e:
+            self.logger.error(f"Error obteniendo resultado final: {e}")
+            best_deck = self.array_to_deck(self.population_arrays[0], "Error_Recovery_Deck")
+            return best_deck, 0.0
 
 # FUNCIÓN WORKER PARA PARALELIZACIÓN (debe estar fuera de la clase)
 def parallel_forge_combat_worker(combat_info):
