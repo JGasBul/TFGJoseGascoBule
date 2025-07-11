@@ -1,0 +1,673 @@
+=== COMBATE PARALELO: Gen16_Deck8 vs Gen16_Deck9 ===
+Worker ID: 2265468
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen16_Deck8 Gen16_Deck9 -n 1
+Duración: 62.39 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2005 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 86 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen16_Deck8 vs Ai(2)-Gen16_Deck9 - one game of Constructed
+Mulligan: Ai(1)-Gen16_Deck8 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen16_Deck9 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Plains (29)
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Hinterland Sanctifier (22)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Land: Ai(2)-Gen16_Deck9 played Plains (89)
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Cryptic Caves (5)
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Cryptic Caves (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Gleaming Barrier (19)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (19)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Hinterland Sanctifier (22) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 didn't block Hinterland Sanctifier (22).
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Hinterland Sanctifier (22) deals 1 combat damage to Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Land: Ai(2)-Gen16_Deck9 played Cryptic Caves (67)
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Gleaming Barrier (77)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Cryptic Caves (4)
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Valorous Stance (61)
+Resolve stack: Valorous Stance (61) -  Destroy target creature with toughness 4 or greater. (Targeting: Gleaming Barrier (19))
+Add to stack: Ai(1)-Gen16_Deck8 triggered Gleaming Barrier (19)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (19)]
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Land: Ai(2)-Gen16_Deck9 played Plains (95)
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Cryptic Caves (7)
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Adaptive Automaton (116)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Plains (35)
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Cryptic Caves (5) - {T}: Add {C}.
+Mana: Cryptic Caves (4) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Felidar Savior (8)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen16_Deck8 triggered Felidar Savior (8) targeting [Hinterland Sanctifier (22)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Hinterland Sanctifier (22)]]) [Zone Changer: Felidar Savior (8)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (8)]
+Mana: Treasure Token (123) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen16_Deck8 activated Cryptic Caves (7)
+Resolve stack: Cryptic Caves (7) - Ai(1)-Gen16_Deck8 draws a card.
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Arahbo, the First Fang (109)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen16_Deck9 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (109)]
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Plains (30)
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Cryptic Caves (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Felidar Savior (10)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen16_Deck8 triggered Felidar Savior (10) targeting [Felidar Savior (8), Hinterland Sanctifier (22)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Felidar Savior (8), Hinterland Sanctifier (22)]]) [Zone Changer: Felidar Savior (10)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (10)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Felidar Savior (8) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 assigned Gleaming Barrier (77) to block Felidar Savior (8).
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Felidar Savior (8) deals 3 damage () to Gleaming Barrier (77).
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Angel of Vitality (115)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 activated Cryptic Caves (5)
+Resolve stack: Cryptic Caves (5) - Ai(1)-Gen16_Deck8 draws a card.
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Plains (38)
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Angel of Vitality (54)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Vitality (54)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Felidar Savior (8) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 assigned Gleaming Barrier (77) to block Felidar Savior (8).
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Felidar Savior (8) deals 3 damage () to Gleaming Barrier (77).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Prideful Parent (72)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen16_Deck9 triggered Prideful Parent (72)
+Add to stack: Ai(2)-Gen16_Deck9 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (72)]
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (72)]
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 activated Cryptic Caves (4)
+Resolve stack: Cryptic Caves (4) - Ai(1)-Gen16_Deck8 draws a card.
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Plains (33)
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Jazal Goldmane (25)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Land: Ai(2)-Gen16_Deck9 played Plains (100)
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 assigned Angel of Vitality (115) to attack Ai(1)-Gen16_Deck8.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen16_Deck8 didn't block Angel of Vitality (115).
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Damage: Angel of Vitality (115) deals 2 combat damage to Ai(1)-Gen16_Deck8.
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Felidar Savior (68)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen16_Deck9 triggered Felidar Savior (68) targeting [Prideful Parent (72), Adaptive Automaton (116)]
+Add to stack: Ai(2)-Gen16_Deck9 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Felidar Savior (68)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Prideful Parent (72), Adaptive Automaton (116)]]) [Zone Changer: Felidar Savior (68)]
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Valorous Stance (2)
+Resolve stack: Valorous Stance (2) -  Destroy target creature with toughness 4 or greater. (Targeting: Prideful Parent (72))
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Plains (34)
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Burnished Hart (27)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Burnished Hart (27)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Land: Ai(2)-Gen16_Deck9 played Plains (97)
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen16_Deck9 activated Cryptic Caves (67)
+Resolve stack: Cryptic Caves (67) - Ai(2)-Gen16_Deck9 draws a card.
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Burnished Hart (87)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Land: Ai(1)-Gen16_Deck8 played Plains (43)
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Hinterland Sanctifier (23)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (23)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 didn't block Angel of Vitality (54).
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 activated Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane (25) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 5 combat damage to Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Burnished Hart (88)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Hinterland Sanctifier (83)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Banishing Light (13)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen16_Deck8 triggered Banishing Light (13) targeting [Felidar Savior (68)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Felidar Savior (68)]]) [Zone Changer: Banishing Light (13)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Angel of Vitality (54) and Jazal Goldmane (25) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 assigned Angel of Vitality (115) to block Angel of Vitality (54).
+Ai(2)-Gen16_Deck9 assigned Gleaming Barrier (77) to block Jazal Goldmane (25).
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Damage: Jazal Goldmane (25) deals 4 damage () to Gleaming Barrier (77).
+Add to stack: Ai(2)-Gen16_Deck9 triggered Gleaming Barrier (77)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (77)]
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 damage () to Angel of Vitality (115).
+Damage: Angel of Vitality (115) deals 2 damage () to Angel of Vitality (54).
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Banishing Light (73)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen16_Deck9 triggered Banishing Light (73) targeting [Jazal Goldmane (25)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Jazal Goldmane (25)]]) [Zone Changer: Banishing Light (73)]
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Hinterland Sanctifier (82)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(2)-Gen16_Deck9 triggered Hinterland Sanctifier (83)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (82)]
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 assigned Adaptive Automaton (116) to attack Ai(1)-Gen16_Deck8.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen16_Deck8 didn't block Adaptive Automaton (116).
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Damage: Adaptive Automaton (116) deals 4 combat damage to Ai(1)-Gen16_Deck8.
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Prideful Parent (11)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (23)
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen16_Deck8 triggered Prideful Parent (11)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (11)]
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (23)
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (22)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (144)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (144)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Prideful Parent (11)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Prideful Parent (11)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Angel of Vitality (54), Hinterland Sanctifier (22) and Felidar Savior (8) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 didn't block Angel of Vitality (54).
+Ai(2)-Gen16_Deck9 assigned Hinterland Sanctifier (82) and Cat Token (127) to block Hinterland Sanctifier (22).
+Ai(2)-Gen16_Deck9 assigned Hinterland Sanctifier (83) and Arahbo, the First Fang (109) to block Felidar Savior (8).
+Mana: Treasure Token (140) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(2)-Gen16_Deck9 cast Divine Resilience (106) targeting [Arahbo, the First Fang (109)]
+Resolve stack: Divine Resilience (106) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Arahbo, the First Fang (109))
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen16_Deck9.
+Damage: Hinterland Sanctifier (22) deals 2 damage () to Hinterland Sanctifier (82).
+Damage: Hinterland Sanctifier (22) deals 1 damage () to Cat Token (127).
+Damage: Felidar Savior (8) deals 2 damage () to Hinterland Sanctifier (83).
+Damage: Felidar Savior (8) deals 1 damage () to Arahbo, the First Fang (109).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Damage: Hinterland Sanctifier (83) deals 1 damage () to Felidar Savior (8).
+Damage: Arahbo, the First Fang (109) deals 3 damage () to Felidar Savior (8).
+Damage: Hinterland Sanctifier (82) deals 1 damage () to Hinterland Sanctifier (22).
+Damage: Cat Token (127) deals 3 damage () to Hinterland Sanctifier (22).
+Phase: Ai(1)-Gen16_Deck8's End of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen16_Deck8's End step
+Phase: Ai(1)-Gen16_Deck8's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen16_Deck9)
+Phase: Ai(2)-Gen16_Deck9's Untap step
+Phase: Ai(2)-Gen16_Deck9's Upkeep step
+Phase: Ai(2)-Gen16_Deck9's Draw step
+Phase: Ai(2)-Gen16_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen16_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen16_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen16_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen16_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen16_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen16_Deck9's End of Combat Step
+Phase: Ai(2)-Gen16_Deck9's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen16_Deck9 cast Jazal Goldmane (86)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(2)-Gen16_Deck9 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Jazal Goldmane (86)]
+Phase: Ai(2)-Gen16_Deck9's End step
+Phase: Ai(2)-Gen16_Deck9's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen16_Deck8)
+Phase: Ai(1)-Gen16_Deck8's Untap step
+Phase: Ai(1)-Gen16_Deck8's Upkeep step
+Phase: Ai(1)-Gen16_Deck8's Draw step
+Phase: Ai(1)-Gen16_Deck8's Main phase, precombat
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 cast Hinterland Sanctifier (24)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen16_Deck8 triggered Hinterland Sanctifier (23)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (24)]
+Phase: Ai(1)-Gen16_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen16_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen16_Deck8 assigned Angel of Vitality (54), Felidar Savior (10), Burnished Hart (27), Prideful Parent (11), Hinterland Sanctifier (23) and Cat Token (144) to attack Ai(2)-Gen16_Deck9.
+Phase: Ai(1)-Gen16_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen16_Deck9 assigned Burnished Hart (87) to block Cat Token (144).
+Ai(2)-Gen16_Deck9 didn't block Angel of Vitality (54).
+Ai(2)-Gen16_Deck9 assigned Cat Token (137) to block Hinterland Sanctifier (23).
+Ai(2)-Gen16_Deck9 assigned Cat Token (127) to block Felidar Savior (10).
+Ai(2)-Gen16_Deck9 assigned Cat Token (134) to block Burnished Hart (27).
+Ai(2)-Gen16_Deck9 assigned Cat Token (132) to block Prideful Parent (11).
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen16_Deck8 activated Burnished Hart (27)
+Resolve stack: Burnished Hart (27) - Ai(1)-Gen16_Deck8 searches their library for two Land.Basic cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen16_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen16_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen16_Deck9.
+Damage: Felidar Savior (10) deals 2 damage () to Cat Token (127).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Damage: Prideful Parent (11) deals 2 damage () to Cat Token (132).
+Damage: Hinterland Sanctifier (23) deals 1 damage () to Cat Token (137).
+Damage: Cat Token (144) deals 1 damage () to Burnished Hart (87).
+Damage: Cat Token (127) deals 3 damage () to Felidar Savior (10).
+Damage: Cat Token (132) deals 3 damage () to Prideful Parent (11).
+Damage: Cat Token (137) deals 3 damage () to Hinterland Sanctifier (23).
+Damage: Burnished Hart (87) deals 2 damage () to Cat Token (144).
+Player control: Ai(1)-Gen16_Deck8 is controlled by Ai(1)-Gen16_Deck8
+Player control: Ai(2)-Gen16_Deck9 is controlled by Ai(2)-Gen16_Deck9
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen16_Deck8 has won because all opponents have lost
+Game outcome: Ai(2)-Gen16_Deck9 has lost because life total reached 0
+Match result: Ai(1)-Gen16_Deck8: 1 Ai(2)-Gen16_Deck9: 0 
+
+Game Result: Game 1 ended in 49696 ms. Ai(1)-Gen16_Deck8 has won!
+
+
+=== STDERR ===

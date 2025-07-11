@@ -1,0 +1,455 @@
+2025-07-11 00:29:17,987 - MainProcess - INFO - === ALGORITMO GENÉTICO PARALELO INICIADO ===
+2025-07-11 00:29:17,988 - MainProcess - INFO - Cargando catálogo de cartas...
+2025-07-11 00:29:18,004 - MainProcess - INFO - Población inicial: 15 mazos
+2025-07-11 00:29:18,004 - MainProcess - INFO - Configuración paralela: 3 workers, timeout 300s
+2025-07-11 00:29:18,006 - MainProcess - INFO - Forge configurado. Directorio de mazos: ./user/decks/constructed
+2025-07-11 00:29:18,007 - MainProcess - INFO - Modo: Headless (xvfb-run)
+2025-07-11 00:29:18,007 - MainProcess - INFO - Hall of Fame configurado: 5 mejores históricos
+2025-07-11 00:29:18,007 - MainProcess - INFO - === INICIANDO ALGORITMO GENÉTICO CON ANTI-ESTANCAMIENTO ===
+2025-07-11 00:29:18,007 - MainProcess - INFO - Configuración: 15 mazos, 25 generaciones
+2025-07-11 00:29:18,007 - MainProcess - INFO - Paralelización: 3 workers, timeout 300s
+2025-07-11 00:29:18,007 - MainProcess - INFO - Evaluando población inicial con procesamiento paralelo...
+2025-07-11 00:29:18,007 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 0 ===
+2025-07-11 00:29:18,007 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 00:29:18,007 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 00:29:18,007 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 00:29:18,010 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 00:48:16,352 - MainProcess - INFO - === RESULTADOS GENERACIÓN 0 ===
+2025-07-11 00:48:16,353 - MainProcess - INFO - Duración total: 19.0 minutos
+2025-07-11 00:48:16,353 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 00:48:16,353 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 00:48:16,353 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 00:48:16,353 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 00:48:16,353 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 00:48:16,353 - MainProcess - INFO -   1. Gen0_Deck0: 0.7857 (11/14)
+2025-07-11 00:48:16,353 - MainProcess - INFO -   2. Gen0_Deck4: 0.7857 (11/14)
+2025-07-11 00:48:16,353 - MainProcess - INFO -   3. Gen0_Deck2: 0.6429 (9/14)
+2025-07-11 00:48:16,353 - MainProcess - INFO -   4. Gen0_Deck6: 0.6429 (9/14)
+2025-07-11 00:48:16,354 - MainProcess - INFO -   5. Gen0_Deck10: 0.6429 (9/14)
+2025-07-11 00:48:16,359 - MainProcess - INFO - Población detallada guardada: mtg_evolved_decks/population_arrays_detailed_gen_000_20250711_004816.json
+2025-07-11 00:48:16,364 - MainProcess - INFO - 🏆 Hall of Fame expandido: 0 → 5
+2025-07-11 00:48:16,364 - MainProcess - INFO - 
+=== GENERACIÓN 1 ===
+2025-07-11 00:48:16,369 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 1 ===
+2025-07-11 00:48:16,369 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 00:48:16,369 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 00:48:16,369 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 00:48:16,369 - MainProcess - INFO - Manteniendo mazos existentes para generación 1
+2025-07-11 00:48:16,372 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 01:08:58,118 - MainProcess - INFO - === RESULTADOS GENERACIÓN 1 ===
+2025-07-11 01:08:58,118 - MainProcess - INFO - Duración total: 20.7 minutos
+2025-07-11 01:08:58,118 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 01:08:58,118 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 01:08:58,118 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 01:08:58,119 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 01:08:58,119 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 01:08:58,119 - MainProcess - INFO -   1. Gen1_Deck0: 0.7857 (11/14)
+2025-07-11 01:08:58,119 - MainProcess - INFO -   2. Gen1_Deck2: 0.7143 (10/14)
+2025-07-11 01:08:58,119 - MainProcess - INFO -   3. Gen1_Deck9: 0.7143 (10/14)
+2025-07-11 01:08:58,119 - MainProcess - INFO -   4. Gen1_Deck1: 0.6429 (9/14)
+2025-07-11 01:08:58,119 - MainProcess - INFO -   5. Gen1_Deck7: 0.6429 (9/14)
+2025-07-11 01:08:58,126 - MainProcess - INFO - Población detallada guardada: mtg_evolved_decks/population_arrays_detailed_gen_001_20250711_010858.json
+2025-07-11 01:08:58,127 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 1/6
+2025-07-11 01:08:58,127 - MainProcess - INFO - 
+=== GENERACIÓN 2 ===
+2025-07-11 01:08:58,131 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 2 ===
+2025-07-11 01:08:58,132 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 01:08:58,132 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 01:08:58,132 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 01:08:58,132 - MainProcess - INFO - Manteniendo mazos existentes para generación 2
+2025-07-11 01:08:58,135 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 01:31:49,033 - MainProcess - INFO - === RESULTADOS GENERACIÓN 2 ===
+2025-07-11 01:31:49,034 - MainProcess - INFO - Duración total: 22.8 minutos
+2025-07-11 01:31:49,034 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 01:31:49,034 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 01:31:49,034 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 01:31:49,034 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 01:31:49,034 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 01:31:49,034 - MainProcess - INFO -   1. Gen2_Deck4: 0.7857 (11/14)
+2025-07-11 01:31:49,034 - MainProcess - INFO -   2. Gen2_Deck3: 0.7143 (10/14)
+2025-07-11 01:31:49,034 - MainProcess - INFO -   3. Gen2_Deck8: 0.7143 (10/14)
+2025-07-11 01:31:49,034 - MainProcess - INFO -   4. Gen2_Deck9: 0.7143 (10/14)
+2025-07-11 01:31:49,034 - MainProcess - INFO -   5. Gen2_Deck1: 0.6429 (9/14)
+2025-07-11 01:31:49,037 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 2/6
+2025-07-11 01:31:49,037 - MainProcess - INFO - 
+=== GENERACIÓN 3 ===
+2025-07-11 01:31:49,040 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 3 ===
+2025-07-11 01:31:49,040 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 01:31:49,040 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 01:31:49,041 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 01:31:49,041 - MainProcess - INFO - Manteniendo mazos existentes para generación 3
+2025-07-11 01:31:49,043 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 01:56:13,259 - MainProcess - INFO - === RESULTADOS GENERACIÓN 3 ===
+2025-07-11 01:56:13,259 - MainProcess - INFO - Duración total: 24.4 minutos
+2025-07-11 01:56:13,259 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 01:56:13,259 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 01:56:13,259 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 01:56:13,259 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 01:56:13,259 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 01:56:13,259 - MainProcess - INFO -   1. Gen3_Deck2: 0.7857 (11/14)
+2025-07-11 01:56:13,259 - MainProcess - INFO -   2. Gen3_Deck12: 0.7857 (11/14)
+2025-07-11 01:56:13,260 - MainProcess - INFO -   3. Gen3_Deck0: 0.6429 (9/14)
+2025-07-11 01:56:13,260 - MainProcess - INFO -   4. Gen3_Deck3: 0.6429 (9/14)
+2025-07-11 01:56:13,260 - MainProcess - INFO -   5. Gen3_Deck5: 0.6429 (9/14)
+2025-07-11 01:56:13,262 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 3/6
+2025-07-11 01:56:13,262 - MainProcess - INFO - 
+=== GENERACIÓN 4 ===
+2025-07-11 01:56:13,264 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 4 ===
+2025-07-11 01:56:13,264 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 01:56:13,264 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 01:56:13,265 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 01:56:13,265 - MainProcess - INFO - Manteniendo mazos existentes para generación 4
+2025-07-11 01:56:13,267 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 02:23:21,201 - MainProcess - INFO - === RESULTADOS GENERACIÓN 4 ===
+2025-07-11 02:23:21,201 - MainProcess - INFO - Duración total: 27.1 minutos
+2025-07-11 02:23:21,201 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 02:23:21,201 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 02:23:21,201 - MainProcess - INFO - Mejor fitness: 0.8571
+2025-07-11 02:23:21,201 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 02:23:21,202 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 02:23:21,202 - MainProcess - INFO -   1. Gen4_Deck9: 0.8571 (12/14)
+2025-07-11 02:23:21,202 - MainProcess - INFO -   2. Gen4_Deck12: 0.6429 (9/14)
+2025-07-11 02:23:21,202 - MainProcess - INFO -   3. Gen4_Deck13: 0.6429 (9/14)
+2025-07-11 02:23:21,202 - MainProcess - INFO -   4. Gen4_Deck0: 0.5714 (8/14)
+2025-07-11 02:23:21,202 - MainProcess - INFO -   5. Gen4_Deck6: 0.5714 (8/14)
+2025-07-11 02:23:21,204 - MainProcess - INFO - 🎉 NUEVO MEJOR FITNESS: 0.8571 (Gen 4)
+2025-07-11 02:23:21,204 - MainProcess - INFO - 
+=== GENERACIÓN 5 ===
+2025-07-11 02:23:21,208 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 5 ===
+2025-07-11 02:23:21,208 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 02:23:21,208 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 02:23:21,208 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 02:23:21,208 - MainProcess - INFO - Manteniendo mazos existentes para generación 5
+2025-07-11 02:23:21,211 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 02:47:58,547 - MainProcess - INFO - === RESULTADOS GENERACIÓN 5 ===
+2025-07-11 02:47:58,547 - MainProcess - INFO - Duración total: 24.6 minutos
+2025-07-11 02:47:58,547 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 02:47:58,547 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 02:47:58,547 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 02:47:58,547 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 02:47:58,548 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 02:47:58,548 - MainProcess - INFO -   1. Gen5_Deck7: 0.7857 (11/14)
+2025-07-11 02:47:58,548 - MainProcess - INFO -   2. Gen5_Deck1: 0.6429 (9/14)
+2025-07-11 02:47:58,548 - MainProcess - INFO -   3. Gen5_Deck5: 0.6429 (9/14)
+2025-07-11 02:47:58,548 - MainProcess - INFO -   4. Gen5_Deck8: 0.6429 (9/14)
+2025-07-11 02:47:58,548 - MainProcess - INFO -   5. Gen5_Deck9: 0.6429 (9/14)
+2025-07-11 02:47:58,555 - MainProcess - INFO - Población detallada guardada: mtg_evolved_decks/population_arrays_detailed_gen_005_20250711_024758.json
+2025-07-11 02:47:58,556 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 1/6
+2025-07-11 02:47:58,556 - MainProcess - INFO - 
+=== GENERACIÓN 6 ===
+2025-07-11 02:47:58,557 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 6 ===
+2025-07-11 02:47:58,557 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 02:47:58,557 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 02:47:58,557 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 02:47:58,557 - MainProcess - INFO - Manteniendo mazos existentes para generación 6
+2025-07-11 02:47:58,560 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 03:15:22,016 - MainProcess - INFO - === RESULTADOS GENERACIÓN 6 ===
+2025-07-11 03:15:22,016 - MainProcess - INFO - Duración total: 27.4 minutos
+2025-07-11 03:15:22,016 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 03:15:22,016 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 03:15:22,016 - MainProcess - INFO - Mejor fitness: 0.8571
+2025-07-11 03:15:22,016 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 03:15:22,017 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 03:15:22,017 - MainProcess - INFO -   1. Gen6_Deck10: 0.8571 (12/14)
+2025-07-11 03:15:22,017 - MainProcess - INFO -   2. Gen6_Deck2: 0.6429 (9/14)
+2025-07-11 03:15:22,017 - MainProcess - INFO -   3. Gen6_Deck4: 0.6429 (9/14)
+2025-07-11 03:15:22,017 - MainProcess - INFO -   4. Gen6_Deck12: 0.6429 (9/14)
+2025-07-11 03:15:22,017 - MainProcess - INFO -   5. Gen6_Deck8: 0.5714 (8/14)
+2025-07-11 03:15:22,019 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 2/6
+2025-07-11 03:15:22,020 - MainProcess - INFO - 
+=== GENERACIÓN 7 ===
+2025-07-11 03:15:22,021 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 7 ===
+2025-07-11 03:15:22,021 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 03:15:22,021 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 03:15:22,021 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 03:15:22,021 - MainProcess - INFO - Manteniendo mazos existentes para generación 7
+2025-07-11 03:15:22,024 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 03:46:13,492 - MainProcess - INFO - === RESULTADOS GENERACIÓN 7 ===
+2025-07-11 03:46:13,492 - MainProcess - INFO - Duración total: 30.9 minutos
+2025-07-11 03:46:13,492 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 03:46:13,492 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 03:46:13,492 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 03:46:13,492 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 03:46:13,492 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 03:46:13,492 - MainProcess - INFO -   1. Gen7_Deck7: 0.7857 (11/14)
+2025-07-11 03:46:13,492 - MainProcess - INFO -   2. Gen7_Deck10: 0.7857 (11/14)
+2025-07-11 03:46:13,493 - MainProcess - INFO -   3. Gen7_Deck6: 0.6429 (9/14)
+2025-07-11 03:46:13,493 - MainProcess - INFO -   4. Gen7_Deck8: 0.6429 (9/14)
+2025-07-11 03:46:13,493 - MainProcess - INFO -   5. Gen7_Deck9: 0.6429 (9/14)
+2025-07-11 03:46:13,495 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 3/6
+2025-07-11 03:46:13,495 - MainProcess - INFO - 
+=== GENERACIÓN 8 ===
+2025-07-11 03:46:13,497 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 8 ===
+2025-07-11 03:46:13,497 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 03:46:13,497 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 03:46:13,497 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 03:46:13,497 - MainProcess - INFO - Manteniendo mazos existentes para generación 8
+2025-07-11 03:46:13,500 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 04:18:28,481 - MainProcess - INFO - === RESULTADOS GENERACIÓN 8 ===
+2025-07-11 04:18:28,481 - MainProcess - INFO - Duración total: 32.2 minutos
+2025-07-11 04:18:28,481 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 04:18:28,481 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 04:18:28,481 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 04:18:28,482 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 04:18:28,482 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 04:18:28,482 - MainProcess - INFO -   1. Gen8_Deck12: 0.7857 (11/14)
+2025-07-11 04:18:28,482 - MainProcess - INFO -   2. Gen8_Deck9: 0.7143 (10/14)
+2025-07-11 04:18:28,482 - MainProcess - INFO -   3. Gen8_Deck5: 0.6429 (9/14)
+2025-07-11 04:18:28,482 - MainProcess - INFO -   4. Gen8_Deck8: 0.6429 (9/14)
+2025-07-11 04:18:28,482 - MainProcess - INFO -   5. Gen8_Deck6: 0.5714 (8/14)
+2025-07-11 04:18:28,485 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 4/6
+2025-07-11 04:18:28,485 - MainProcess - INFO - 
+=== GENERACIÓN 9 ===
+2025-07-11 04:18:28,486 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 9 ===
+2025-07-11 04:18:28,486 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 04:18:28,486 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 04:18:28,486 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 04:18:28,486 - MainProcess - INFO - Manteniendo mazos existentes para generación 9
+2025-07-11 04:18:28,489 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 04:51:22,965 - MainProcess - INFO - === RESULTADOS GENERACIÓN 9 ===
+2025-07-11 04:51:22,966 - MainProcess - INFO - Duración total: 32.9 minutos
+2025-07-11 04:51:22,966 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 04:51:22,966 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 04:51:22,966 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 04:51:22,966 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 04:51:22,967 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 04:51:22,967 - MainProcess - INFO -   1. Gen9_Deck8: 0.7857 (11/14)
+2025-07-11 04:51:22,967 - MainProcess - INFO -   2. Gen9_Deck9: 0.7143 (10/14)
+2025-07-11 04:51:22,967 - MainProcess - INFO -   3. Gen9_Deck14: 0.6429 (9/14)
+2025-07-11 04:51:22,967 - MainProcess - INFO -   4. Gen9_Deck2: 0.5714 (8/14)
+2025-07-11 04:51:22,967 - MainProcess - INFO -   5. Gen9_Deck3: 0.5714 (8/14)
+2025-07-11 04:51:22,970 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 5/6
+2025-07-11 04:51:22,970 - MainProcess - INFO - 
+=== GENERACIÓN 10 ===
+2025-07-11 04:51:22,971 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 10 ===
+2025-07-11 04:51:22,971 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 04:51:22,971 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 04:51:22,971 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 04:51:22,971 - MainProcess - INFO - Manteniendo mazos existentes para generación 10
+2025-07-11 04:51:22,975 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 05:22:17,942 - MainProcess - INFO - === RESULTADOS GENERACIÓN 10 ===
+2025-07-11 05:22:17,943 - MainProcess - INFO - Duración total: 30.9 minutos
+2025-07-11 05:22:17,943 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 05:22:17,943 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 05:22:17,943 - MainProcess - INFO - Mejor fitness: 0.7143
+2025-07-11 05:22:17,943 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 05:22:17,943 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 05:22:17,944 - MainProcess - INFO -   1. Gen10_Deck2: 0.7143 (10/14)
+2025-07-11 05:22:17,944 - MainProcess - INFO -   2. Gen10_Deck8: 0.6429 (9/14)
+2025-07-11 05:22:17,944 - MainProcess - INFO -   3. Gen10_Deck6: 0.5714 (8/14)
+2025-07-11 05:22:17,944 - MainProcess - INFO -   4. Gen10_Deck12: 0.5714 (8/14)
+2025-07-11 05:22:17,944 - MainProcess - INFO -   5. Gen10_Deck13: 0.5714 (8/14)
+2025-07-11 05:22:17,952 - MainProcess - INFO - Población detallada guardada: mtg_evolved_decks/population_arrays_detailed_gen_010_20250711_052217.json
+2025-07-11 05:22:17,956 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 6/6
+2025-07-11 05:22:17,957 - MainProcess - WARNING - Aplicando intervención anti-estancamiento en generación 10
+2025-07-11 05:22:17,957 - MainProcess - WARNING - 🚨 APLICANDO INTERVENCIÓN ANTI-ESTANCAMIENTO en generación 10
+2025-07-11 05:22:17,957 - MainProcess - INFO - 🌍 Immigration: Inyectando 5 mazos completamente nuevos
+2025-07-11 05:22:21,360 - MainProcess - INFO - ✅ Immigration completada: 5 mazos reemplazados
+2025-07-11 05:22:21,360 - MainProcess - INFO - 🧬 Mutation Boost: Tasa de mutación incrementada a 0.360
+2025-07-11 05:22:21,457 - MainProcess - INFO - ✅ Diversity Injection: 1 individuos reemplazados
+2025-07-11 05:22:21,457 - MainProcess - INFO - 🔄 Stagnation counter reseteado
+2025-07-11 05:22:21,457 - MainProcess - WARNING - 🚀 INTERVENCIÓN ANTI-ESTANCAMIENTO COMPLETADA en generación 10
+2025-07-11 05:22:21,459 - MainProcess - INFO - 
+=== GENERACIÓN 11 ===
+2025-07-11 05:22:21,460 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 11 ===
+2025-07-11 05:22:21,461 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 05:22:21,461 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 05:22:21,461 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 05:22:21,461 - MainProcess - INFO - Manteniendo mazos existentes para generación 11
+2025-07-11 05:22:21,468 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 05:54:31,194 - MainProcess - INFO - === RESULTADOS GENERACIÓN 11 ===
+2025-07-11 05:54:31,195 - MainProcess - INFO - Duración total: 32.2 minutos
+2025-07-11 05:54:31,195 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 05:54:31,195 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 05:54:31,195 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 05:54:31,195 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 05:54:31,195 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 05:54:31,195 - MainProcess - INFO -   1. Gen11_Deck8: 0.7857 (11/14)
+2025-07-11 05:54:31,195 - MainProcess - INFO -   2. Gen11_Deck3: 0.6429 (9/14)
+2025-07-11 05:54:31,195 - MainProcess - INFO -   3. Gen11_Deck5: 0.6429 (9/14)
+2025-07-11 05:54:31,195 - MainProcess - INFO -   4. Gen11_Deck14: 0.6429 (9/14)
+2025-07-11 05:54:31,195 - MainProcess - INFO -   5. Gen11_Deck6: 0.5714 (8/14)
+2025-07-11 05:54:31,198 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 1/6
+2025-07-11 05:54:31,198 - MainProcess - INFO - 
+=== GENERACIÓN 12 ===
+2025-07-11 05:54:31,199 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 12 ===
+2025-07-11 05:54:31,199 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 05:54:31,199 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 05:54:31,199 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 05:54:31,199 - MainProcess - INFO - Manteniendo mazos existentes para generación 12
+2025-07-11 05:54:31,202 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 06:26:26,440 - MainProcess - INFO - === RESULTADOS GENERACIÓN 12 ===
+2025-07-11 06:26:26,440 - MainProcess - INFO - Duración total: 31.9 minutos
+2025-07-11 06:26:26,441 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 06:26:26,441 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 06:26:26,441 - MainProcess - INFO - Mejor fitness: 0.7143
+2025-07-11 06:26:26,441 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 06:26:26,441 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 06:26:26,441 - MainProcess - INFO -   1. Gen12_Deck3: 0.7143 (10/14)
+2025-07-11 06:26:26,441 - MainProcess - INFO -   2. Gen12_Deck12: 0.7143 (10/14)
+2025-07-11 06:26:26,441 - MainProcess - INFO -   3. Gen12_Deck9: 0.6429 (9/14)
+2025-07-11 06:26:26,441 - MainProcess - INFO -   4. Gen12_Deck13: 0.5714 (8/14)
+2025-07-11 06:26:26,441 - MainProcess - INFO -   5. Gen12_Deck0: 0.5000 (7/14)
+2025-07-11 06:26:26,445 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 2/6
+2025-07-11 06:26:26,445 - MainProcess - INFO - 🔄 Tasa de mutación restaurada: 0.360 → 0.120
+2025-07-11 06:26:26,445 - MainProcess - INFO - 
+=== GENERACIÓN 13 ===
+2025-07-11 06:26:26,446 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 13 ===
+2025-07-11 06:26:26,446 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 06:26:26,446 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 06:26:26,446 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 06:26:26,446 - MainProcess - INFO - Manteniendo mazos existentes para generación 13
+2025-07-11 06:26:26,449 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 06:56:32,339 - MainProcess - INFO - === RESULTADOS GENERACIÓN 13 ===
+2025-07-11 06:56:32,339 - MainProcess - INFO - Duración total: 30.1 minutos
+2025-07-11 06:56:32,339 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 06:56:32,339 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 06:56:32,340 - MainProcess - INFO - Mejor fitness: 0.6429
+2025-07-11 06:56:32,340 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 06:56:32,340 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 06:56:32,340 - MainProcess - INFO -   1. Gen13_Deck10: 0.6429 (9/14)
+2025-07-11 06:56:32,340 - MainProcess - INFO -   2. Gen13_Deck13: 0.6429 (9/14)
+2025-07-11 06:56:32,340 - MainProcess - INFO -   3. Gen13_Deck2: 0.5714 (8/14)
+2025-07-11 06:56:32,340 - MainProcess - INFO -   4. Gen13_Deck4: 0.5714 (8/14)
+2025-07-11 06:56:32,340 - MainProcess - INFO -   5. Gen13_Deck7: 0.5714 (8/14)
+2025-07-11 06:56:32,344 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 3/6
+2025-07-11 06:56:32,344 - MainProcess - INFO - 
+=== GENERACIÓN 14 ===
+2025-07-11 06:56:32,346 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 14 ===
+2025-07-11 06:56:32,347 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 06:56:32,347 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 06:56:32,347 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 06:56:32,347 - MainProcess - INFO - Manteniendo mazos existentes para generación 14
+2025-07-11 06:56:32,349 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 07:24:48,262 - MainProcess - INFO - === RESULTADOS GENERACIÓN 14 ===
+2025-07-11 07:24:48,262 - MainProcess - INFO - Duración total: 28.3 minutos
+2025-07-11 07:24:48,262 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 07:24:48,263 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 07:24:48,263 - MainProcess - INFO - Mejor fitness: 0.7143
+2025-07-11 07:24:48,263 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 07:24:48,263 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 07:24:48,263 - MainProcess - INFO -   1. Gen14_Deck5: 0.7143 (10/14)
+2025-07-11 07:24:48,263 - MainProcess - INFO -   2. Gen14_Deck10: 0.7143 (10/14)
+2025-07-11 07:24:48,263 - MainProcess - INFO -   3. Gen14_Deck0: 0.6429 (9/14)
+2025-07-11 07:24:48,263 - MainProcess - INFO -   4. Gen14_Deck6: 0.6429 (9/14)
+2025-07-11 07:24:48,263 - MainProcess - INFO -   5. Gen14_Deck4: 0.5714 (8/14)
+2025-07-11 07:24:48,267 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 4/6
+2025-07-11 07:24:48,267 - MainProcess - INFO - 
+=== GENERACIÓN 15 ===
+2025-07-11 07:24:48,269 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 15 ===
+2025-07-11 07:24:48,269 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 07:24:48,269 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 07:24:48,269 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 07:24:48,269 - MainProcess - INFO - Manteniendo mazos existentes para generación 15
+2025-07-11 07:24:48,272 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 07:53:14,717 - MainProcess - INFO - === RESULTADOS GENERACIÓN 15 ===
+2025-07-11 07:53:14,718 - MainProcess - INFO - Duración total: 28.4 minutos
+2025-07-11 07:53:14,718 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 07:53:14,718 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 07:53:14,718 - MainProcess - INFO - Mejor fitness: 0.7857
+2025-07-11 07:53:14,718 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 07:53:14,718 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 07:53:14,719 - MainProcess - INFO -   1. Gen15_Deck2: 0.7857 (11/14)
+2025-07-11 07:53:14,719 - MainProcess - INFO -   2. Gen15_Deck9: 0.7857 (11/14)
+2025-07-11 07:53:14,719 - MainProcess - INFO -   3. Gen15_Deck6: 0.6429 (9/14)
+2025-07-11 07:53:14,719 - MainProcess - INFO -   4. Gen15_Deck0: 0.5714 (8/14)
+2025-07-11 07:53:14,719 - MainProcess - INFO -   5. Gen15_Deck7: 0.5714 (8/14)
+2025-07-11 07:53:14,726 - MainProcess - INFO - Población detallada guardada: mtg_evolved_decks/population_arrays_detailed_gen_015_20250711_075314.json
+2025-07-11 07:53:14,728 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 5/6
+2025-07-11 07:53:14,728 - MainProcess - INFO - 
+=== GENERACIÓN 16 ===
+2025-07-11 07:53:14,728 - MainProcess - INFO - === EVALUACIÓN PARALELA GENERACIÓN 16 ===
+2025-07-11 07:53:14,728 - MainProcess - INFO - Población: 15 mazos
+2025-07-11 07:53:14,729 - MainProcess - INFO - Workers paralelos: 3
+2025-07-11 07:53:14,729 - MainProcess - INFO - Total de enfrentamientos: 105
+2025-07-11 07:53:14,729 - MainProcess - INFO - Manteniendo mazos existentes para generación 16
+2025-07-11 07:53:14,731 - MainProcess - INFO - Ejecutando 105 combates en paralelo... (OPTIMIZADO: 50% menos)
+2025-07-11 08:25:02,136 - MainProcess - INFO - === RESULTADOS GENERACIÓN 16 ===
+2025-07-11 08:25:02,136 - MainProcess - INFO - Duración total: 31.8 minutos
+2025-07-11 08:25:02,136 - MainProcess - INFO - Combates exitosos: 105/105
+2025-07-11 08:25:02,136 - MainProcess - INFO - Combates fallidos: 0
+2025-07-11 08:25:02,136 - MainProcess - INFO - Mejor fitness: 0.6429
+2025-07-11 08:25:02,136 - MainProcess - INFO - Fitness promedio: 0.5000
+2025-07-11 08:25:02,137 - MainProcess - INFO - Top 5 mazos:
+2025-07-11 08:25:02,137 - MainProcess - INFO -   1. Gen16_Deck7: 0.6429 (9/14)
+2025-07-11 08:25:02,137 - MainProcess - INFO -   2. Gen16_Deck14: 0.6429 (9/14)
+2025-07-11 08:25:02,137 - MainProcess - INFO -   3. Gen16_Deck4: 0.5714 (8/14)
+2025-07-11 08:25:02,137 - MainProcess - INFO -   4. Gen16_Deck5: 0.5714 (8/14)
+2025-07-11 08:25:02,137 - MainProcess - INFO -   5. Gen16_Deck8: 0.5714 (8/14)
+2025-07-11 08:25:02,140 - MainProcess - INFO - 📊 Sin mejora. Estancamiento: 6/6
+2025-07-11 08:25:02,140 - MainProcess - INFO - Terminando por estancamiento tras 6 generaciones sin mejora
+2025-07-11 08:25:02,140 - MainProcess - INFO - 🏁 TERMINACIÓN CONTROLADA: stagnation_limit_reached
+2025-07-11 08:25:02,140 - MainProcess - INFO - ✅ Mejor resultado obtenido del Hall of Fame:
+2025-07-11 08:25:02,140 - MainProcess - INFO -    Fitness: 0.8571
+2025-07-11 08:25:02,140 - MainProcess - INFO -    Array sum: 60
+2025-07-11 08:25:02,140 - MainProcess - INFO - 🏆 MEJOR FITNESS ALCANZADO: 0.8571
+2025-07-11 08:25:02,140 - MainProcess - INFO - 🎯 RAZÓN DE TERMINACIÓN: stagnation_limit_reached
+2025-07-11 08:25:02,140 - MainProcess - INFO - 🔄 Ejecutando métodos de finalización...
+2025-07-11 08:25:02,141 - MainProcess - INFO - 📊 Guardando estadísticas: 17 generaciones
+2025-07-11 08:25:02,143 - MainProcess - INFO - ✅ CSV guardado: mtg_evolved_decks/parallel_evolution_stats.csv
+2025-07-11 08:25:03,189 - MainProcess - INFO - ✅ Gráficos guardados: mtg_evolved_decks/parallel_evolution_stats.png
+2025-07-11 08:25:03,190 - MainProcess - INFO - ✅ Hall of Fame guardado: 5 entradas en mtg_evolved_decks/parallel_hall_of_fame.json
+2025-07-11 08:25:03,190 - MainProcess - INFO - ✅ Estadísticas paralelas guardadas en mtg_evolved_decks
+2025-07-11 08:25:03,190 - MainProcess - INFO - ✅ save_statistics() ejecutado correctamente
+2025-07-11 08:25:03,190 - MainProcess - INFO - Guardando logs finales paralelos...
+2025-07-11 08:25:03,232 - MainProcess - INFO - === ESTADÍSTICAS FINALES PARALELAS ===
+2025-07-11 08:25:03,232 - MainProcess - INFO - Workers utilizados: 3
+2025-07-11 08:25:03,232 - MainProcess - INFO - Total de combates: 1785
+2025-07-11 08:25:03,232 - MainProcess - INFO - Combates exitosos: 1785
+2025-07-11 08:25:03,233 - MainProcess - INFO - Tasa de éxito global: 100.0%
+2025-07-11 08:25:03,233 - MainProcess - INFO - Rendimiento por worker:
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1446655: 33/33 (100.0%) - Promedio: 34.5s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1446654: 35/35 (100.0%) - Promedio: 31.9s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1446656: 37/37 (100.0%) - Promedio: 30.8s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1490367: 37/37 (100.0%) - Promedio: 33.3s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1490366: 31/31 (100.0%) - Promedio: 39.9s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1490365: 37/37 (100.0%) - Promedio: 33.6s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1538231: 32/32 (100.0%) - Promedio: 42.3s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1538233: 32/32 (100.0%) - Promedio: 42.7s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1538232: 41/41 (100.0%) - Promedio: 33.4s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1585653: 34/34 (100.0%) - Promedio: 42.8s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1585655: 38/38 (100.0%) - Promedio: 38.5s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1585654: 33/33 (100.0%) - Promedio: 43.7s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1636827: 38/38 (100.0%) - Promedio: 42.8s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1636829: 41/41 (100.0%) - Promedio: 38.3s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1636828: 26/26 (100.0%) - Promedio: 60.5s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1689216: 37/37 (100.0%) - Promedio: 39.6s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1689213: 34/34 (100.0%) - Promedio: 43.4s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1689215: 34/34 (100.0%) - Promedio: 43.2s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1736150: 35/35 (100.0%) - Promedio: 46.2s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1736151: 42/42 (100.0%) - Promedio: 39.1s
+2025-07-11 08:25:03,233 - MainProcess - INFO -   Worker 1736152: 28/28 (100.0%) - Promedio: 58.1s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1786990: 34/34 (100.0%) - Promedio: 54.4s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1786991: 33/33 (100.0%) - Promedio: 56.1s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1786989: 38/38 (100.0%) - Promedio: 48.6s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1840612: 35/35 (100.0%) - Promedio: 54.8s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1840616: 36/36 (100.0%) - Promedio: 53.3s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1840615: 34/34 (100.0%) - Promedio: 56.9s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1893572: 34/34 (100.0%) - Promedio: 55.9s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1893574: 28/28 (100.0%) - Promedio: 70.5s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1893573: 43/43 (100.0%) - Promedio: 44.0s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1947963: 33/33 (100.0%) - Promedio: 56.2s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1947964: 38/38 (100.0%) - Promedio: 48.7s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 1947965: 34/34 (100.0%) - Promedio: 54.0s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2001844: 36/36 (100.0%) - Promedio: 52.9s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2001845: 32/32 (100.0%) - Promedio: 60.3s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2001843: 37/37 (100.0%) - Promedio: 50.9s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2056442: 32/32 (100.0%) - Promedio: 59.8s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2056441: 38/38 (100.0%) - Promedio: 50.0s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2056443: 35/35 (100.0%) - Promedio: 53.6s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2109656: 40/40 (100.0%) - Promedio: 45.1s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2109658: 37/37 (100.0%) - Promedio: 48.4s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2109660: 28/28 (100.0%) - Promedio: 64.4s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2162726: 32/32 (100.0%) - Promedio: 52.0s
+2025-07-11 08:25:03,234 - MainProcess - INFO -   Worker 2162728: 36/36 (100.0%) - Promedio: 46.6s
+2025-07-11 08:25:03,235 - MainProcess - INFO -   Worker 2162727: 37/37 (100.0%) - Promedio: 45.8s
+2025-07-11 08:25:03,235 - MainProcess - INFO -   Worker 2214767: 35/35 (100.0%) - Promedio: 48.8s
+2025-07-11 08:25:03,235 - MainProcess - INFO -   Worker 2214766: 33/33 (100.0%) - Promedio: 51.3s
+2025-07-11 08:25:03,235 - MainProcess - INFO -   Worker 2214768: 37/37 (100.0%) - Promedio: 45.7s
+2025-07-11 08:25:03,235 - MainProcess - INFO -   Worker 2265467: 38/38 (100.0%) - Promedio: 50.2s
+2025-07-11 08:25:03,235 - MainProcess - INFO -   Worker 2265469: 31/31 (100.0%) - Promedio: 58.3s
+2025-07-11 08:25:03,235 - MainProcess - INFO -   Worker 2265468: 36/36 (100.0%) - Promedio: 49.8s
+2025-07-11 08:25:03,235 - MainProcess - INFO - Logs guardados en: mtg_evolved_decks/logs
+2025-07-11 08:25:03,235 - MainProcess - INFO - ✅ save_final_logs() ejecutado correctamente
+2025-07-11 08:25:03,267 - MainProcess - INFO - ✅ Población final guardada: mtg_evolved_decks/final_population_20250711_082503.json
+2025-07-11 08:25:03,267 - MainProcess - INFO - ✅ save_final_population() ejecutado: mtg_evolved_decks/final_population_20250711_082503.json

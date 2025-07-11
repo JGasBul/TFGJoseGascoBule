@@ -1,0 +1,543 @@
+=== COMBATE PARALELO: Gen8_Deck8 vs Gen8_Deck1 ===
+Worker ID: 1840615
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen8_Deck8 Gen8_Deck1 -n 1
+Duración: 36.52 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1917 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 161 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen8_Deck8 vs Ai(2)-Gen8_Deck1 - one game of Constructed
+Mulligan: Ai(1)-Gen8_Deck8 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen8_Deck1 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen8_Deck8 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Land: Ai(2)-Gen8_Deck1 played Plains (101)
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Hinterland Sanctifier (92)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Land: Ai(1)-Gen8_Deck8 played Plains (37)
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Hinterland Sanctifier (24)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Land: Ai(2)-Gen8_Deck1 played Plains (99)
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Ajani's Pridemate (109)
+Resolve stack: Ajani's Pridemate - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Ajani's Pridemate (109)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Land: Ai(1)-Gen8_Deck8 played Cryptic Caves (6)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Cryptic Caves (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Gleaming Barrier (17)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (17)]
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Felidar Cub (84)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Cub (84)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 didn't block Ajani's Pridemate (109).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 4 combat damage to Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen8_Deck1 played Orzhov Guildgate (70)
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Land: Ai(1)-Gen8_Deck8 played Plains (42)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Cryptic Caves (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Burnished Hart (28)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Burnished Hart (28)]
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Mana: Orzhov Guildgate (70) - {T}: Add {W} or {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Knight of Malice (111)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Knight of Malice (111)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 didn't block Ajani's Pridemate (109).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 5 combat damage to Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Cryptic Caves (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Arahbo, the First Fang (51)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen8_Deck8 triggered Arahbo, the First Fang (51)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (51)]
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (124)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Arahbo, the First Fang (51)]
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Land: Ai(2)-Gen8_Deck1 played Swamp (89)
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Orzhov Guildgate (70) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Driver of the Dead (113)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Driver of the Dead (113)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 didn't block Ajani's Pridemate (109).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 6 combat damage to Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (18)]
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Land: Ai(2)-Gen8_Deck1 played Plains (103)
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Orzhov Guildgate (70) - {T}: Add {W} or {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Bloodthirsty Conqueror (67)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Bloodthirsty Conqueror (67)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 assigned Gleaming Barrier (17) to block Ajani's Pridemate (109).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 7 damage () to Gleaming Barrier (17).
+Add to stack: Ai(1)-Gen8_Deck8 triggered Gleaming Barrier (17)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (17)]
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Land: Ai(1)-Gen8_Deck8 played Cryptic Caves (7)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Cryptic Caves (6) - {T}: Add {C}.
+Mana: Cryptic Caves (7) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Jazal Goldmane (26)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen8_Deck8 triggered Arahbo, the First Fang (51)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Jazal Goldmane (26)]
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (130)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Jazal Goldmane (26)]
+Mana: Treasure Token (127) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen8_Deck8 cast Savannah Lions (44)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen8_Deck8 triggered Arahbo, the First Fang (51)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Savannah Lions (44)]
+Add to stack: Ai(1)-Gen8_Deck8 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (133)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Savannah Lions (44)]
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Orzhov Guildgate (70) - {T}: Add {W} or {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Bloodthirsty Conqueror (66)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Bloodthirsty Conqueror (66)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109) and Bloodthirsty Conqueror (67) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 didn't block Bloodthirsty Conqueror (67).
+Ai(1)-Gen8_Deck8 assigned Gleaming Barrier (18) to block Ajani's Pridemate (109).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 8 damage () to Gleaming Barrier (18).
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(1)-Gen8_Deck8.
+Add to stack: Ai(2)-Gen8_Deck1 triggered Bloodthirsty Conqueror (67)
+Add to stack: Ai(2)-Gen8_Deck1 triggered Bloodthirsty Conqueror (66)
+Add to stack: Ai(1)-Gen8_Deck8 triggered Gleaming Barrier (18)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (18)]
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen8_Deck8, Lost Amount: 5]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 5]
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen8_Deck8, Lost Amount: 5]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 5]
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Cryptic Caves (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Banishing Light (14)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen8_Deck8 triggered Banishing Light (14) targeting [Bloodthirsty Conqueror (66)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Bloodthirsty Conqueror (66)]]) [Zone Changer: Banishing Light (14)]
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 assigned Jazal Goldmane (26) to attack Ai(2)-Gen8_Deck1.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen8_Deck1 didn't block Jazal Goldmane (26).
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 5 combat damage to Ai(2)-Gen8_Deck1.
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Driver of the Dead (116)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Driver of the Dead (116)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109), Bloodthirsty Conqueror (67), Knight of Malice (111), Driver of the Dead (113) and Felidar Cub (84) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 assigned Cat Token (124) to block Driver of the Dead (113).
+Ai(1)-Gen8_Deck8 didn't block Bloodthirsty Conqueror (67).
+Ai(1)-Gen8_Deck8 assigned Cat Token (130) to block Felidar Cub (84).
+Ai(1)-Gen8_Deck8 assigned Cat Token (133) to block Ajani's Pridemate (109).
+Ai(1)-Gen8_Deck8 assigned Hinterland Sanctifier (24) to block Knight of Malice (111).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Damage: Knight of Malice (111) deals 3 damage () to Hinterland Sanctifier (24).
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 11 damage () to Cat Token (133).
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(1)-Gen8_Deck8.
+Damage: Driver of the Dead (113) deals 3 damage () to Cat Token (124).
+Damage: Felidar Cub (84) deals 2 damage () to Cat Token (130).
+Damage: Cat Token (124) deals 2 damage () to Driver of the Dead (113).
+Damage: Cat Token (130) deals 2 damage () to Felidar Cub (84).
+Damage: Cat Token (133) deals 2 damage () to Ajani's Pridemate (109).
+Add to stack: Ai(2)-Gen8_Deck1 triggered Bloodthirsty Conqueror (67)
+Add to stack: Ai(2)-Gen8_Deck1 triggered Driver of the Dead (113) targeting [Felidar Cub (84)]
+Resolve stack: When Driver of the Dead dies, return target creature with mana value 2 or less from your graveyard to the battlefield. (Targeting: [[Felidar Cub (84)]]) [Zone Changer: Driver of the Dead (113)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Cub (84)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen8_Deck8, Lost Amount: 5]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 5]
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen8_Deck1 played Orzhov Guildgate (71)
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Land: Ai(1)-Gen8_Deck8 played Plains (32)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen8_Deck8 cast Banishing Light (15)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen8_Deck8 triggered Banishing Light (15) targeting [Bloodthirsty Conqueror (67)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Bloodthirsty Conqueror (67)]]) [Zone Changer: Banishing Light (15)]
+Mana: Cryptic Caves (7) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck8 activated Cryptic Caves (6)
+Resolve stack: Cryptic Caves (6) - Ai(1)-Gen8_Deck8 draws a card.
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck1 cast Felidar Cub (82)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Cub (82)]
+Add to stack: Ai(2)-Gen8_Deck1 triggered Ajani's Pridemate (109)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Ajani's Pridemate. [Player: Ai(2)-Gen8_Deck1, Gained Amount: 1]
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 assigned Burnished Hart (28) to block Ajani's Pridemate (109).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 14 damage () to Burnished Hart (28).
+Damage: Burnished Hart (28) deals 2 damage () to Ajani's Pridemate (109).
+Phase: Ai(2)-Gen8_Deck1's End of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck1's End step
+Phase: Ai(2)-Gen8_Deck1's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen8_Deck8)
+Phase: Ai(1)-Gen8_Deck8's Untap step
+Phase: Ai(1)-Gen8_Deck8's Upkeep step
+Phase: Ai(1)-Gen8_Deck8's Draw step
+Phase: Ai(1)-Gen8_Deck8's Main phase, precombat
+Land: Ai(1)-Gen8_Deck8 played Demolition Field (59)
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen8_Deck8 activated Cryptic Caves (7)
+Resolve stack: Cryptic Caves (7) - Ai(1)-Gen8_Deck8 draws a card.
+Phase: Ai(1)-Gen8_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck8's End of Combat Step
+Phase: Ai(1)-Gen8_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck8's End step
+Phase: Ai(1)-Gen8_Deck8's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen8_Deck1)
+Phase: Ai(2)-Gen8_Deck1's Untap step
+Phase: Ai(2)-Gen8_Deck1's Upkeep step
+Phase: Ai(2)-Gen8_Deck1's Draw step
+Phase: Ai(2)-Gen8_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck1 assigned Ajani's Pridemate (109), Knight of Malice (111), Driver of the Dead (116), Felidar Cub (84), Felidar Cub (82) and Hinterland Sanctifier (92) to attack Ai(1)-Gen8_Deck8.
+Phase: Ai(2)-Gen8_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck8 didn't block Felidar Cub (82).
+Ai(1)-Gen8_Deck8 assigned Jazal Goldmane (26) to block Driver of the Dead (116).
+Ai(1)-Gen8_Deck8 didn't block Felidar Cub (84).
+Ai(1)-Gen8_Deck8 didn't block Hinterland Sanctifier (92).
+Ai(1)-Gen8_Deck8 assigned Arahbo, the First Fang (51) to block Ajani's Pridemate (109).
+Ai(1)-Gen8_Deck8 assigned Savannah Lions (44) to block Knight of Malice (111).
+Phase: Ai(2)-Gen8_Deck1's First Strike Damage Step
+Damage: Knight of Malice (111) deals 3 damage () to Savannah Lions (44).
+Damage: Jazal Goldmane (26) deals 5 damage () to Driver of the Dead (116).
+Phase: Ai(2)-Gen8_Deck1's Combat Damage Step
+Damage: Ajani's Pridemate (109) deals 14 damage () to Arahbo, the First Fang (51).
+Damage: Felidar Cub (84) deals 2 combat damage to Ai(1)-Gen8_Deck8.
+Damage: Felidar Cub (82) deals 2 combat damage to Ai(1)-Gen8_Deck8.
+Damage: Hinterland Sanctifier (92) deals 1 combat damage to Ai(1)-Gen8_Deck8.
+Damage: Arahbo, the First Fang (51) deals 2 damage () to Ajani's Pridemate (109).
+Player control: Ai(1)-Gen8_Deck8 is controlled by Ai(1)-Gen8_Deck8
+Player control: Ai(2)-Gen8_Deck1 is controlled by Ai(2)-Gen8_Deck1
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen8_Deck8 has lost because life total reached 0
+Game outcome: Ai(2)-Gen8_Deck1 has won because all opponents have lost
+Match result: Ai(1)-Gen8_Deck8: 0 Ai(2)-Gen8_Deck1: 1 
+
+Game Result: Game 1 ended in 25961 ms. Ai(2)-Gen8_Deck1 has won!
+
+
+=== STDERR ===

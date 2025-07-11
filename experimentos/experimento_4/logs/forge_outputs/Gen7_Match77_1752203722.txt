@@ -1,0 +1,661 @@
+=== COMBATE PARALELO: Gen7_Deck6 vs Gen7_Deck14 ===
+Worker ID: 1786990
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen7_Deck6 Gen7_Deck14 -n 1
+Duración: 44.48 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2018 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 55 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen7_Deck6 vs Ai(2)-Gen7_Deck14 - one game of Constructed
+Mulligan: Ai(2)-Gen7_Deck14 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen7_Deck6 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Land: Ai(2)-Gen7_Deck14 played Plains (94)
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Land: Ai(1)-Gen7_Deck6 played Plains (34)
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Land: Ai(2)-Gen7_Deck14 played Cryptic Caves (67)
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Gleaming Barrier (77)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Land: Ai(1)-Gen7_Deck6 played Plains (43)
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Gleaming Barrier (19)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Cryptic Caves (67) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Valorous Stance (63)
+Resolve stack: Valorous Stance (63) -  Destroy target creature with toughness 4 or greater. (Targeting: Gleaming Barrier (19))
+Add to stack: Ai(1)-Gen7_Deck6 triggered Gleaming Barrier (19)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (19)]
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Land: Ai(2)-Gen7_Deck14 played Plains (91)
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Land: Ai(1)-Gen7_Deck6 played Plains (42)
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Treasure Token (123) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen7_Deck6 cast Felidar Savior (8)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen7_Deck6 triggered Felidar Savior (8) targeting []
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[]]) [Zone Changer: Felidar Savior (8)]
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Land: Ai(2)-Gen7_Deck14 played Plains (96)
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Angel of Vitality (115)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Land: Ai(1)-Gen7_Deck6 played Plains (30)
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Gleaming Barrier (77) to block Felidar Savior (8).
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 2 damage () to Gleaming Barrier (77).
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Land: Ai(2)-Gen7_Deck14 played Plains (103)
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Banishing Light (73)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen7_Deck14 triggered Banishing Light (73) targeting [Jazal Goldmane (25)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Jazal Goldmane (25)]]) [Zone Changer: Banishing Light (73)]
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 activated Cryptic Caves (67)
+Resolve stack: Cryptic Caves (67) - Ai(2)-Gen7_Deck14 draws a card.
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) to attack Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Damage: Angel of Vitality (115) deals 2 combat damage to Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Land: Ai(1)-Gen7_Deck6 played Plains (38)
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Gleaming Barrier (77) to block Felidar Savior (8).
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 2 damage () to Gleaming Barrier (77).
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Felidar Savior (10)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen7_Deck6 triggered Felidar Savior (10) targeting [Felidar Savior (8)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Felidar Savior (8)]]) [Zone Changer: Felidar Savior (10)]
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) to attack Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Damage: Angel of Vitality (115) deals 2 combat damage to Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Burnished Hart (88)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) and Felidar Savior (10) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Gleaming Barrier (77) to block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 didn't block Felidar Savior (10).
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 3 damage () to Gleaming Barrier (77).
+Damage: Felidar Savior (10) deals 2 combat damage to Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Land: Ai(1)-Gen7_Deck6 played Cryptic Caves (5)
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Ajani, Caller of the Pride (20)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen7_Deck6 activated Ajani, Caller of the Pride (20) targeting [Felidar Savior (8)]
+Resolve stack: Ajani, Caller of the Pride (20) - Ai(1)-Gen7_Deck6 puts a +1/+1 counter on Felidar Savior (8).
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 activated Cryptic Caves (5)
+Resolve stack: Cryptic Caves (5) - Ai(1)-Gen7_Deck6 draws a card.
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Land: Ai(2)-Gen7_Deck14 played Plains (93)
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) and Burnished Hart (88) to attack Ajani, Caller of the Pride (20).
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Ai(1)-Gen7_Deck6 didn't block Burnished Hart (88).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Arahbo, the First Fang (111)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck14 triggered Arahbo, the First Fang (111)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (111)]
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Land: Ai(1)-Gen7_Deck6 played Plains (40)
+Add to stack: Ai(1)-Gen7_Deck6 activated Ajani, Caller of the Pride (20) targeting [Felidar Savior (8)]
+Resolve stack: Ajani, Caller of the Pride (20) - Ai(1)-Gen7_Deck6 puts a +1/+1 counter on Felidar Savior (8).
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) and Felidar Savior (10) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 didn't block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 assigned Gleaming Barrier (77) to block Felidar Savior (10).
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 5 combat damage to Ai(2)-Gen7_Deck14.
+Damage: Felidar Savior (10) deals 2 damage () to Gleaming Barrier (77).
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Jazal Goldmane (26)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) to attack Ajani, Caller of the Pride (20).
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Ajani, Caller of the Pride (81)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen7_Deck14 activated Ajani, Caller of the Pride (81) targeting [Angel of Vitality (115)]
+Resolve stack: Ajani, Caller of the Pride (81) - Ai(2)-Gen7_Deck14 puts a +1/+1 counter on Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Land: Ai(1)-Gen7_Deck6 played Plains (36)
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) and Jazal Goldmane (26) to attack Ajani, Caller of the Pride (81).
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Gleaming Barrier (77) to block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 assigned Cat Token (127) and Arahbo, the First Fang (111) to block Jazal Goldmane (26).
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Divine Resilience (108) targeting [Arahbo, the First Fang (111)]
+Resolve stack: Divine Resilience (108) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Arahbo, the First Fang (111))
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Divine Resilience (106) targeting [Cat Token (127)]
+Resolve stack: Divine Resilience (106) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Cat Token (127))
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 2 damage () to Cat Token (127).
+Damage: Jazal Goldmane (26) deals 2 damage () to Arahbo, the First Fang (111).
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 5 damage () to Gleaming Barrier (77).
+Damage: Cat Token (127) deals 2 damage () to Jazal Goldmane (26).
+Damage: Arahbo, the First Fang (111) deals 2 damage () to Jazal Goldmane (26).
+Add to stack: Ai(2)-Gen7_Deck14 triggered Gleaming Barrier (77)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (77)]
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Add to stack: Ai(2)-Gen7_Deck14 activated Ajani, Caller of the Pride (81) targeting [Angel of Vitality (115)]
+Resolve stack: Ajani, Caller of the Pride (81) - Ai(2)-Gen7_Deck14 puts a +1/+1 counter on Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) to attack Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Damage: Angel of Vitality (115) deals 4 combat damage to Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Banishing Light (14)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen7_Deck6 triggered Banishing Light (14) targeting [Ajani, Caller of the Pride (81)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Ajani, Caller of the Pride (81)]]) [Zone Changer: Banishing Light (14)]
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) and Felidar Savior (10) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 didn't block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 assigned Burnished Hart (88) and Arahbo, the First Fang (111) to block Felidar Savior (10).
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Divine Resilience (48) targeting [Felidar Savior (10)]
+Resolve stack: Divine Resilience (48) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Felidar Savior (10))
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 activated Burnished Hart (88)
+Resolve stack: Burnished Hart (88) - Ai(2)-Gen7_Deck14 searches their library for two Land.Basic cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 5 combat damage to Ai(2)-Gen7_Deck14.
+Damage: Felidar Savior (10) deals 2 damage () to Arahbo, the First Fang (111).
+Damage: Arahbo, the First Fang (111) deals 2 damage () to Felidar Savior (10).
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Land: Ai(1)-Gen7_Deck6 played Plains (35)
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) and Cat Token (127) to attack Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Ai(1)-Gen7_Deck6 didn't block Cat Token (127).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Damage: Angel of Vitality (115) deals 4 combat damage to Ai(1)-Gen7_Deck6.
+Damage: Cat Token (127) deals 1 combat damage to Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Land: Ai(2)-Gen7_Deck14 played Cryptic Caves (64)
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Arahbo, the First Fang (109)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen7_Deck14 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (109)]
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen7_Deck14 draws a card.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Hinterland Sanctifier (82)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) and Felidar Savior (10) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Cat Token (134) to block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 assigned Hinterland Sanctifier (82) and Arahbo, the First Fang (109) to block Felidar Savior (10).
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 5 damage () to Cat Token (134).
+Damage: Felidar Savior (10) deals 2 damage () to Hinterland Sanctifier (82).
+Damage: Hinterland Sanctifier (82) deals 1 damage () to Felidar Savior (10).
+Damage: Arahbo, the First Fang (109) deals 2 damage () to Felidar Savior (10).
+Damage: Cat Token (134) deals 2 damage () to Felidar Savior (8).
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Prideful Parent (11)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen7_Deck6 triggered Prideful Parent (11)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (11)]
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) to attack Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Damage: Angel of Vitality (115) deals 4 combat damage to Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Hinterland Sanctifier (83)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) and Prideful Parent (11) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Hinterland Sanctifier (83) to block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 assigned Cat Token (127) to block Prideful Parent (11).
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 5 damage () to Hinterland Sanctifier (83).
+Damage: Prideful Parent (11) deals 2 damage () to Cat Token (127).
+Damage: Cat Token (127) deals 2 damage () to Prideful Parent (11).
+Damage: Hinterland Sanctifier (83) deals 1 damage () to Felidar Savior (8).
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Burnished Hart (27)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) to attack Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen7_Deck6 didn't block Angel of Vitality (115).
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Damage: Angel of Vitality (115) deals 4 combat damage to Ai(1)-Gen7_Deck6.
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Land: Ai(2)-Gen7_Deck14 played Plains (102)
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8) and Burnished Hart (27) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 didn't block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 assigned Arahbo, the First Fang (109) to block Burnished Hart (27).
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 5 combat damage to Ai(2)-Gen7_Deck14.
+Damage: Burnished Hart (27) deals 2 damage () to Arahbo, the First Fang (109).
+Damage: Arahbo, the First Fang (109) deals 2 damage () to Burnished Hart (27).
+Phase: Ai(1)-Gen7_Deck6's End of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen7_Deck6 cast Arahbo, the First Fang (50)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen7_Deck6 triggered Arahbo, the First Fang (50)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (50)]
+Phase: Ai(1)-Gen7_Deck6's End step
+Phase: Ai(1)-Gen7_Deck6's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen7_Deck14)
+Phase: Ai(2)-Gen7_Deck14's Untap step
+Phase: Ai(2)-Gen7_Deck14's Upkeep step
+Phase: Ai(2)-Gen7_Deck14's Draw step
+Phase: Ai(2)-Gen7_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen7_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen7_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen7_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen7_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen7_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen7_Deck14's End of Combat Step
+Phase: Ai(2)-Gen7_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen7_Deck14's End step
+Phase: Ai(2)-Gen7_Deck14's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen7_Deck6)
+Phase: Ai(1)-Gen7_Deck6's Untap step
+Phase: Ai(1)-Gen7_Deck6's Upkeep step
+Phase: Ai(1)-Gen7_Deck6's Draw step
+Phase: Ai(1)-Gen7_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen7_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen7_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen7_Deck6 assigned Felidar Savior (8), Cat Token (138), Arahbo, the First Fang (50) and Cat Token (142) to attack Ai(2)-Gen7_Deck14.
+Phase: Ai(1)-Gen7_Deck6's Declare Blockers Step
+Combat: Ai(2)-Gen7_Deck14 didn't block Arahbo, the First Fang (50).
+Ai(2)-Gen7_Deck14 assigned Angel of Vitality (115) to block Felidar Savior (8).
+Ai(2)-Gen7_Deck14 didn't block Cat Token (138).
+Ai(2)-Gen7_Deck14 didn't block Cat Token (142).
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen7_Deck14 cast Divine Resilience (107) targeting [Angel of Vitality (115)]
+Resolve stack: Divine Resilience (107) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Angel of Vitality (115))
+Phase: Ai(1)-Gen7_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen7_Deck6's Combat Damage Step
+Damage: Felidar Savior (8) deals 6 damage () to Angel of Vitality (115).
+Damage: Cat Token (138) deals 2 combat damage to Ai(2)-Gen7_Deck14.
+Damage: Arahbo, the First Fang (50) deals 2 combat damage to Ai(2)-Gen7_Deck14.
+Damage: Cat Token (142) deals 2 combat damage to Ai(2)-Gen7_Deck14.
+Damage: Angel of Vitality (115) deals 4 damage () to Felidar Savior (8).
+Player control: Ai(1)-Gen7_Deck6 is controlled by Ai(1)-Gen7_Deck6
+Player control: Ai(2)-Gen7_Deck14 is controlled by Ai(2)-Gen7_Deck14
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen7_Deck6 has won because all opponents have lost
+Game outcome: Ai(2)-Gen7_Deck14 has lost because life total reached 0
+Match result: Ai(1)-Gen7_Deck6: 1 Ai(2)-Gen7_Deck14: 0 
+
+Game Result: Game 1 ended in 32767 ms. Ai(1)-Gen7_Deck6 has won!
+
+
+=== STDERR ===

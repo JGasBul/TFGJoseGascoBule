@@ -1,0 +1,422 @@
+=== COMBATE PARALELO: Gen0_Deck13 vs Gen0_Deck14 ===
+Worker ID: 1446655
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck13 Gen0_Deck14 -n 1
+Duración: 23.53 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2277 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 41 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck13 vs Ai(2)-Gen0_Deck14 - one game of Constructed
+Correcting zone for Corsair Captain (89)
+Correcting zone for Corsair Captain (89)
+Correcting zone for Frenzied Goblin (45)
+Correcting zone for Frenzied Goblin (45)
+Correcting zone for Wardens of the Cycle (63)
+Correcting zone for Wardens of the Cycle (63)
+Mulligan: Ai(2)-Gen0_Deck14 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck13 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck14 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Mountain (52)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Frenzied Goblin (45)
+Resolve stack: Frenzied Goblin - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Replacement Effect: Jungle Hollow enters tapped.
+Land: Ai(2)-Gen0_Deck14 played Jungle Hollow (87)
+Add to stack: Ai(2)-Gen0_Deck14 triggered Jungle Hollow (87)
+Resolve stack: When Jungle Hollow enters, you gain 1 life. [Zone Changer: Jungle Hollow (87)]
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck14's End of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck14's End step
+Phase: Ai(2)-Gen0_Deck14's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Island (35)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (45) to attack Ai(2)-Gen0_Deck14.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (45) targeting [Frenzied Goblin (45)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (45)]]) [Attacker: Frenzied Goblin (45)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck14 didn't block Frenzied Goblin (45).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (45) deals 1 combat damage to Ai(2)-Gen0_Deck14.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Land: Ai(2)-Gen0_Deck14 played Island (106)
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck14's End of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck14's End step
+Phase: Ai(2)-Gen0_Deck14's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (45) to attack Ai(2)-Gen0_Deck14.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (45) targeting [Frenzied Goblin (45)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (45)]]) [Attacker: Frenzied Goblin (45)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck14 didn't block Frenzied Goblin (45).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (45) deals 1 combat damage to Ai(2)-Gen0_Deck14.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck13 played Maze's End (6)
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Land: Ai(2)-Gen0_Deck14 played Mountain (112)
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck14's End of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Main phase, postcombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Jungle Hollow (87) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen0_Deck14 cast Corsair Captain (89)
+Resolve stack: Corsair Captain - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck14 triggered Corsair Captain (89)
+Resolve stack: When Corsair Captain enters, create a treasure token. [Zone Changer: Corsair Captain (89)]
+Phase: Ai(2)-Gen0_Deck14's End step
+Phase: Ai(2)-Gen0_Deck14's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Island (36)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Maze's End (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Involuntary Employment (24) targeting [Corsair Captain (89)]
+Resolve stack: Involuntary Employment (24) - Ai(1)-Gen0_Deck13 gains control of Corsair Captain (89) until end of turn. Untap it. It gains haste until end of turn. Ai(1)-Gen0_Deck13 creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (45) and Corsair Captain (89) to attack Ai(2)-Gen0_Deck14.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (45) targeting [Frenzied Goblin (45)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (45)]]) [Attacker: Frenzied Goblin (45)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck14 didn't block Corsair Captain (89).
+Ai(2)-Gen0_Deck14 didn't block Frenzied Goblin (45).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (45) deals 1 combat damage to Ai(2)-Gen0_Deck14.
+Damage: Corsair Captain (89) deals 2 combat damage to Ai(2)-Gen0_Deck14.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Land: Ai(2)-Gen0_Deck14 played Swamp (79)
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Jungle Hollow (87) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen0_Deck14 cast Involuntary Employment (83) targeting [Frenzied Goblin (45)]
+Resolve stack: Involuntary Employment (83) - Ai(2)-Gen0_Deck14 gains control of Frenzied Goblin (45) until end of turn. Untap it. It gains haste until end of turn. Ai(2)-Gen0_Deck14 creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 assigned Frenzied Goblin (45) and Corsair Captain (89) to attack Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck14 triggered Frenzied Goblin (45) targeting [Frenzied Goblin (45)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (45)]]) [Attacker: Frenzied Goblin (45)]
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Corsair Captain (89).
+Ai(1)-Gen0_Deck13 didn't block Frenzied Goblin (45).
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Damage: Frenzied Goblin (45) deals 1 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Corsair Captain (89) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck14's End of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck14's End step
+Phase: Ai(2)-Gen0_Deck14's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Mountain (51)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (45) to attack Ai(2)-Gen0_Deck14.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (45) targeting [Corsair Captain (89)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Corsair Captain (89)]]) [Attacker: Frenzied Goblin (45)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck14 didn't block Frenzied Goblin (45).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (45) deals 1 combat damage to Ai(2)-Gen0_Deck14.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Treasure Token (126) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Nullpriest of Oblivion (57)
+Resolve stack: Nullpriest of Oblivion - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Land: Ai(2)-Gen0_Deck14 played Island (104)
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck14's End of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Main phase, postcombat
+Mana: Jungle Hollow (87) - {T}: Add {B} or {G}.
+Mana: Treasure Token (128) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck14 cast Wardens of the Cycle (63)
+Resolve stack: Wardens of the Cycle - Creature 3 / 4
+Mana: Treasure Token (124) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck14 cast Crow of Dark Tidings (116)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck14 triggered Crow of Dark Tidings (116)
+Zone Change: Ai(2)-Gen0_Deck14 milled Island (105) and Gilded Lotus (111).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (116)]
+Phase: Ai(2)-Gen0_Deck14's End step
+Phase: Ai(2)-Gen0_Deck14's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Island (37)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (51) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Involuntary Employment (22) targeting [Wardens of the Cycle (63)]
+Resolve stack: Involuntary Employment (22) - Ai(1)-Gen0_Deck13 gains control of Wardens of the Cycle (63) until end of turn. Untap it. It gains haste until end of turn. Ai(1)-Gen0_Deck13 creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Wardens of the Cycle (63) and Nullpriest of Oblivion (57) to attack Ai(2)-Gen0_Deck14.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck14 assigned Corsair Captain (89) and Crow of Dark Tidings (116) to block Nullpriest of Oblivion (57).
+Ai(2)-Gen0_Deck14 didn't block Wardens of the Cycle (63).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Wardens of the Cycle (63) deals 3 combat damage to Ai(2)-Gen0_Deck14.
+Damage: Nullpriest of Oblivion (57) deals 2 damage () to Corsair Captain (89).
+Damage: Corsair Captain (89) deals 2 damage () to Nullpriest of Oblivion (57).
+Damage: Crow of Dark Tidings (116) deals 2 damage () to Nullpriest of Oblivion (57).
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Add to stack: Ai(1)-Gen0_Deck13 triggered Wardens of the Cycle (63)
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, you draw a card and you lose 1 life. Ai(1)-Gen0_Deck13 loses 1 life. [Phase: Ai(1)-Gen0_Deck13]
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck14 cast Corsair Captain (90)
+Resolve stack: Corsair Captain - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck14 triggered Corsair Captain (90)
+Resolve stack: When Corsair Captain enters, create a treasure token. [Zone Changer: Corsair Captain (90)]
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 assigned Wardens of the Cycle (63) and Crow of Dark Tidings (116) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Crow of Dark Tidings (116).
+Ai(1)-Gen0_Deck13 didn't block Wardens of the Cycle (63).
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Damage: Wardens of the Cycle (63) deals 3 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Crow of Dark Tidings (116) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck14's End of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck14's End step
+Phase: Ai(2)-Gen0_Deck14's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Mountain (53)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 assigned Wardens of the Cycle (63), Crow of Dark Tidings (116) and Corsair Captain (90) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Crow of Dark Tidings (116).
+Ai(1)-Gen0_Deck13 didn't block Corsair Captain (90).
+Ai(1)-Gen0_Deck13 didn't block Wardens of the Cycle (63).
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Damage: Wardens of the Cycle (63) deals 3 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Crow of Dark Tidings (116) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Corsair Captain (90) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck14's End of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Main phase, postcombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck14 cast Clinquant Skymage (101)
+Resolve stack: Clinquant Skymage - Creature 1 / 1
+Mana: Jungle Hollow (87) - {T}: Add {B} or {G}.
+Add to stack: Ai(2)-Gen0_Deck14 cast Diregraf Ghoul (81)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck14's End step
+Phase: Ai(2)-Gen0_Deck14's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (51) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Leyline Axe (13)
+Resolve stack: Leyline Axe
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Maze's End (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Leyline Axe (13) targeting [Frenzied Goblin (45)]
+Resolve stack: Leyline Axe (13) -  Attach to Frenzied Goblin (45)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck13 played Maze's End (7)
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck14)
+Phase: Ai(2)-Gen0_Deck14's Untap step
+Phase: Ai(2)-Gen0_Deck14's Upkeep step
+Phase: Ai(2)-Gen0_Deck14's Draw step
+Add to stack: Ai(2)-Gen0_Deck14 triggered Clinquant Skymage (101)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen0_Deck14]
+Phase: Ai(2)-Gen0_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck14 assigned Wardens of the Cycle (63), Crow of Dark Tidings (116), Corsair Captain (90), Clinquant Skymage (101) and Diregraf Ghoul (81) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Diregraf Ghoul (81).
+Ai(1)-Gen0_Deck13 didn't block Crow of Dark Tidings (116).
+Ai(1)-Gen0_Deck13 didn't block Clinquant Skymage (101).
+Ai(1)-Gen0_Deck13 didn't block Corsair Captain (90).
+Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (45) to block Wardens of the Cycle (63).
+Phase: Ai(2)-Gen0_Deck14's First Strike Damage Step
+Damage: Frenzied Goblin (45) deals 2 damage () to Wardens of the Cycle (63).
+Phase: Ai(2)-Gen0_Deck14's Combat Damage Step
+Damage: Wardens of the Cycle (63) deals 3 damage () to Frenzied Goblin (45).
+Damage: Crow of Dark Tidings (116) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Corsair Captain (90) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Clinquant Skymage (101) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Diregraf Ghoul (81) deals 2 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Frenzied Goblin (45) deals 2 damage () to Wardens of the Cycle (63).
+Player control: Ai(1)-Gen0_Deck13 is controlled by Ai(1)-Gen0_Deck13
+Player control: Ai(2)-Gen0_Deck14 is controlled by Ai(2)-Gen0_Deck14
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck13 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck14 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck13: 0 Ai(2)-Gen0_Deck14: 1 
+
+Game Result: Game 1 ended in 13411 ms. Ai(2)-Gen0_Deck14 has won!
+
+
+=== STDERR ===

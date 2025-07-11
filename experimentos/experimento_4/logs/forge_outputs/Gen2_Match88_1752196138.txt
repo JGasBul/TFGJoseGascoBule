@@ -1,0 +1,725 @@
+=== COMBATE PARALELO: Gen2_Deck8 vs Gen2_Deck12 ===
+Worker ID: 1538232
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck8 Gen2_Deck12 -n 1
+Duración: 71.42 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2187 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 104 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck8 vs Ai(2)-Gen2_Deck12 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck8 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck12 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Land: Ai(1)-Gen2_Deck8 played Plains (35)
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Savannah Lions (44)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck8's End step
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Swamp (76)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Land: Ai(1)-Gen2_Deck8 played Plains (31)
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Savannah Lions (44) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Savannah Lions (44).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Savannah Lions (44) deals 2 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Gleaming Barrier (16)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen2_Deck8's End step
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Plains (99)
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (76) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Resolute Reinforcements (102)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen2_Deck12 triggered Resolute Reinforcements (102)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (102)]
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Land: Ai(1)-Gen2_Deck8 played Plains (30)
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Banishing Light (13)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen2_Deck8 triggered Banishing Light (13) targeting [Resolute Reinforcements (102)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Resolute Reinforcements (102)]]) [Zone Changer: Banishing Light (13)]
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Swamp (79)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Cat Collector (68)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen2_Deck12 triggered Cat Collector (68)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (68)]
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Burnished Hart (28)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck8's End step
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Swamp (78)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Driver of the Dead (114)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Prideful Parent (11)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck8 triggered Prideful Parent (11)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (11)]
+Phase: Ai(1)-Gen2_Deck8's End step
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Swamp (74)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (76) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Vampire Neonate (84)
+Resolve stack: Vampire Neonate - Creature 0 / 3
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Hinterland Sanctifier (23)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Hinterland Sanctifier (22)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (23)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (22)]
+Phase: Ai(1)-Gen2_Deck8's End step
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Swamp (72)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Angel of Vitality (54)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (23)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Vitality (54)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Vitality (54)]
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Land: Ai(1)-Gen2_Deck8 played Plains (39)
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Hero's Downfall (93) targeting [Prideful Parent (11)]
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Divine Resilience (46) targeting [Prideful Parent (11)]
+Resolve stack: Divine Resilience (46) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Prideful Parent (11))
+Resolve stack: Hero's Downfall (93) - Destroy Prideful Parent (11).
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Plains (94)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Land: Ai(1)-Gen2_Deck8 played Plains (41)
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Swamp (74) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Knight of Malice (109)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Prideful Parent (12)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (23)
+Add to stack: Ai(1)-Gen2_Deck8 triggered Prideful Parent (12)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (12)]
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (23)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (136)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (136)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Prideful Parent (12)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Prideful Parent (12)]
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Forest (87)
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Reclamation Sage (107)
+Resolve stack: Reclamation Sage - Creature 2 / 1
+Add to stack: Ai(2)-Gen2_Deck12 triggered Reclamation Sage (107) targeting [Burnished Hart (28)]
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Divine Resilience (48) targeting [Burnished Hart (28)]
+Resolve stack: Divine Resilience (48) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Burnished Hart (28))
+Resolve stack: When Reclamation Sage enters, you may destroy target artifact or enchantment. (Targeting: [[Burnished Hart (28)]]) [Zone Changer: Reclamation Sage (107)]
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (23)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (18)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (18)]
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (79) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 cast Adaptive Automaton (111)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Adaptive Automaton (56)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (23)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (56)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (56)]
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Swamp (74) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Swamp (73)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Land: Ai(1)-Gen2_Deck8 played Crawling Barrens (53)
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen2_Deck12.
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Food Token (128)
+Resolve stack: Food Token (128) - Ai(2)-Gen2_Deck12 gains 3 life.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen2_Deck8 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 cast Jazal Goldmane (26)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (22)
+Add to stack: Ai(1)-Gen2_Deck8 triggered Hinterland Sanctifier (23)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Jazal Goldmane (26)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Jazal Goldmane (26)]
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Angel of Vitality (54) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's End of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck8's End step
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen2_Deck12)
+Phase: Ai(2)-Gen2_Deck12's Untap step
+Phase: Ai(2)-Gen2_Deck12's Upkeep step
+Phase: Ai(2)-Gen2_Deck12's Draw step
+Phase: Ai(2)-Gen2_Deck12's Main phase, precombat
+Land: Ai(2)-Gen2_Deck12 played Swamp (69)
+Phase: Ai(2)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck12's End of Combat Step
+Phase: Ai(2)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck12's End step
+Phase: Ai(2)-Gen2_Deck12's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen2_Deck8)
+Phase: Ai(1)-Gen2_Deck8's Untap step
+Phase: Ai(1)-Gen2_Deck8's Upkeep step
+Phase: Ai(1)-Gen2_Deck8's Draw step
+Phase: Ai(1)-Gen2_Deck8's Main phase, precombat
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck8 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen2_Deck8 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen2_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck8 assigned Jazal Goldmane (26), Angel of Vitality (54), Crawling Barrens (53), Savannah Lions (44), Prideful Parent (11), Prideful Parent (12), Burnished Hart (28), Cat Token (132), Cat Token (136), Adaptive Automaton (56), Hinterland Sanctifier (23) and Hinterland Sanctifier (22) to attack Ai(2)-Gen2_Deck12.
+Phase: Ai(1)-Gen2_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck12 didn't block Cat Token (132).
+Ai(2)-Gen2_Deck12 assigned Vampire Neonate (84) to block Crawling Barrens (53).
+Ai(2)-Gen2_Deck12 didn't block Angel of Vitality (54).
+Ai(2)-Gen2_Deck12 didn't block Hinterland Sanctifier (22).
+Ai(2)-Gen2_Deck12 didn't block Hinterland Sanctifier (23).
+Ai(2)-Gen2_Deck12 didn't block Cat Token (136).
+Ai(2)-Gen2_Deck12 assigned Driver of the Dead (114) to block Adaptive Automaton (56).
+Ai(2)-Gen2_Deck12 assigned Soldier Token (124) to block Jazal Goldmane (26).
+Ai(2)-Gen2_Deck12 assigned Adaptive Automaton (111) to block Prideful Parent (11).
+Ai(2)-Gen2_Deck12 assigned Reclamation Sage (107) to block Savannah Lions (44).
+Ai(2)-Gen2_Deck12 assigned Cat Collector (68) to block Prideful Parent (12).
+Ai(2)-Gen2_Deck12 assigned Knight of Malice (109) to block Burnished Hart (28).
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck12 activated Vampire Neonate (84)
+Resolve stack: Vampire Neonate (84) - Ai(1)-Gen2_Deck8 loses 1 life. Ai(2)-Gen2_Deck12 gains 1 life.
+Phase: Ai(1)-Gen2_Deck8's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 5 damage () to Soldier Token (124).
+Damage: Knight of Malice (109) deals 3 damage () to Burnished Hart (28).
+Phase: Ai(1)-Gen2_Deck8's Combat Damage Step
+Damage: Angel of Vitality (54) deals 4 combat damage to Ai(2)-Gen2_Deck12.
+Damage: Crawling Barrens (53) deals 4 damage () to Vampire Neonate (84).
+Damage: Savannah Lions (44) deals 3 damage () to Reclamation Sage (107).
+Damage: Prideful Parent (11) deals 3 damage () to Adaptive Automaton (111).
+Damage: Prideful Parent (12) deals 3 damage () to Cat Collector (68).
+Damage: Cat Token (132) deals 2 combat damage to Ai(2)-Gen2_Deck12.
+Damage: Cat Token (136) deals 2 combat damage to Ai(2)-Gen2_Deck12.
+Damage: Adaptive Automaton (56) deals 2 damage () to Driver of the Dead (114).
+Damage: Hinterland Sanctifier (23) deals 1 combat damage to Ai(2)-Gen2_Deck12.
+Damage: Hinterland Sanctifier (22) deals 1 combat damage to Ai(2)-Gen2_Deck12.
+Damage: Adaptive Automaton (111) deals 2 damage () to Prideful Parent (11).
+Damage: Cat Collector (68) deals 3 damage () to Prideful Parent (12).
+Damage: Reclamation Sage (107) deals 3 damage () to Savannah Lions (44).
+Damage: Driver of the Dead (114) deals 3 damage () to Adaptive Automaton (56).
+Player control: Ai(1)-Gen2_Deck8 is controlled by Ai(1)-Gen2_Deck8
+Player control: Ai(2)-Gen2_Deck12 is controlled by Ai(2)-Gen2_Deck12
+Game outcome: Turn 15
+Game outcome: Ai(1)-Gen2_Deck8 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck12 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck8: 1 Ai(2)-Gen2_Deck12: 0 
+
+Game Result: Game 1 ended in 58498 ms. Ai(1)-Gen2_Deck8 has won!
+
+
+=== STDERR ===
