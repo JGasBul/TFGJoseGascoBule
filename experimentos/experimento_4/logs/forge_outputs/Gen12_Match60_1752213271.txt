@@ -1,0 +1,333 @@
+=== COMBATE PARALELO: Gen12_Deck4 vs Gen12_Deck14 ===
+Worker ID: 2056441
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen12_Deck4 Gen12_Deck14 -n 1
+Duración: 26.65 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2308 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 94 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen12_Deck4 vs Ai(2)-Gen12_Deck14 - one game of Constructed
+Mulligan: Ai(2)-Gen12_Deck14 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen12_Deck14 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen12_Deck4 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen12_Deck14)
+Phase: Ai(2)-Gen12_Deck14's Untap step
+Phase: Ai(2)-Gen12_Deck14's Upkeep step
+Phase: Ai(2)-Gen12_Deck14's Draw step
+Phase: Ai(2)-Gen12_Deck14's Main phase, precombat
+Land: Ai(2)-Gen12_Deck14 played Plains (91)
+Phase: Ai(2)-Gen12_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen12_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen12_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen12_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen12_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen12_Deck14's End of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Main phase, postcombat
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen12_Deck14 cast Savannah Lions (104)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(2)-Gen12_Deck14's End step
+Phase: Ai(2)-Gen12_Deck14's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen12_Deck4)
+Phase: Ai(1)-Gen12_Deck4's Untap step
+Phase: Ai(1)-Gen12_Deck4's Upkeep step
+Phase: Ai(1)-Gen12_Deck4's Draw step
+Phase: Ai(1)-Gen12_Deck4's Main phase, precombat
+Land: Ai(1)-Gen12_Deck4 played Plains (38)
+Phase: Ai(1)-Gen12_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen12_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen12_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen12_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen12_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen12_Deck4's End of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen12_Deck4's End step
+Phase: Ai(1)-Gen12_Deck4's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen12_Deck14)
+Phase: Ai(2)-Gen12_Deck14's Untap step
+Phase: Ai(2)-Gen12_Deck14's Upkeep step
+Phase: Ai(2)-Gen12_Deck14's Draw step
+Phase: Ai(2)-Gen12_Deck14's Main phase, precombat
+Land: Ai(2)-Gen12_Deck14 played Cryptic Caves (65)
+Phase: Ai(2)-Gen12_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen12_Deck14 assigned Savannah Lions (104) to attack Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen12_Deck4 didn't block Savannah Lions (104).
+Phase: Ai(2)-Gen12_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen12_Deck14's Combat Damage Step
+Damage: Savannah Lions (104) deals 2 combat damage to Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's End of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Main phase, postcombat
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen12_Deck14 cast Gleaming Barrier (78)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen12_Deck14's End step
+Phase: Ai(2)-Gen12_Deck14's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen12_Deck4)
+Phase: Ai(1)-Gen12_Deck4's Untap step
+Phase: Ai(1)-Gen12_Deck4's Upkeep step
+Phase: Ai(1)-Gen12_Deck4's Draw step
+Phase: Ai(1)-Gen12_Deck4's Main phase, precombat
+Land: Ai(1)-Gen12_Deck4 played Demolition Field (60)
+Phase: Ai(1)-Gen12_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen12_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen12_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen12_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen12_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen12_Deck4's End of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Main phase, postcombat
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Demolition Field (60) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen12_Deck4 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen12_Deck4's End step
+Phase: Ai(1)-Gen12_Deck4's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen12_Deck14)
+Phase: Ai(2)-Gen12_Deck14's Untap step
+Phase: Ai(2)-Gen12_Deck14's Upkeep step
+Phase: Ai(2)-Gen12_Deck14's Draw step
+Phase: Ai(2)-Gen12_Deck14's Main phase, precombat
+Land: Ai(2)-Gen12_Deck14 played Cryptic Caves (64)
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Mana: Cryptic Caves (64) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen12_Deck14 cast Adaptive Automaton (117)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(2)-Gen12_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen12_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen12_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen12_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen12_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen12_Deck14's End of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen12_Deck14's End step
+Phase: Ai(2)-Gen12_Deck14's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen12_Deck4)
+Phase: Ai(1)-Gen12_Deck4's Untap step
+Phase: Ai(1)-Gen12_Deck4's Upkeep step
+Phase: Ai(1)-Gen12_Deck4's Draw step
+Phase: Ai(1)-Gen12_Deck4's Main phase, precombat
+Land: Ai(1)-Gen12_Deck4 played Cryptic Caves (5)
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Cryptic Caves (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen12_Deck4 activated Demolition Field (60) targeting [Cryptic Caves (64)]
+Resolve stack: Demolition Field (60) - Destroy Cryptic Caves (64). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen12_Deck4 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen12_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen12_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen12_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen12_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen12_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen12_Deck4's End of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen12_Deck4's End step
+Phase: Ai(1)-Gen12_Deck4's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen12_Deck14)
+Phase: Ai(2)-Gen12_Deck14's Untap step
+Phase: Ai(2)-Gen12_Deck14's Upkeep step
+Phase: Ai(2)-Gen12_Deck14's Draw step
+Phase: Ai(2)-Gen12_Deck14's Main phase, precombat
+Land: Ai(2)-Gen12_Deck14 played Plains (103)
+Phase: Ai(2)-Gen12_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen12_Deck14 assigned Savannah Lions (104) and Adaptive Automaton (117) to attack Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen12_Deck4 didn't block Adaptive Automaton (117).
+Ai(1)-Gen12_Deck4 assigned Gleaming Barrier (18) to block Savannah Lions (104).
+Phase: Ai(2)-Gen12_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen12_Deck14's Combat Damage Step
+Damage: Savannah Lions (104) deals 3 damage () to Gleaming Barrier (18).
+Damage: Adaptive Automaton (117) deals 2 combat damage to Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's End of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Main phase, postcombat
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen12_Deck14 cast Jazal Goldmane (86)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(2)-Gen12_Deck14's End step
+Phase: Ai(2)-Gen12_Deck14's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen12_Deck4)
+Phase: Ai(1)-Gen12_Deck4's Untap step
+Phase: Ai(1)-Gen12_Deck4's Upkeep step
+Phase: Ai(1)-Gen12_Deck4's Draw step
+Phase: Ai(1)-Gen12_Deck4's Main phase, precombat
+Land: Ai(1)-Gen12_Deck4 played Plains (35)
+Phase: Ai(1)-Gen12_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen12_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen12_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen12_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen12_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen12_Deck4's End of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Main phase, postcombat
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Cryptic Caves (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen12_Deck4 cast Jazal Goldmane (26)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen12_Deck4's End step
+Phase: Ai(1)-Gen12_Deck4's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen12_Deck14)
+Phase: Ai(2)-Gen12_Deck14's Untap step
+Phase: Ai(2)-Gen12_Deck14's Upkeep step
+Phase: Ai(2)-Gen12_Deck14's Draw step
+Phase: Ai(2)-Gen12_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen12_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen12_Deck14 assigned Jazal Goldmane (86) to attack Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen12_Deck4 didn't block Jazal Goldmane (86).
+Phase: Ai(2)-Gen12_Deck14's First Strike Damage Step
+Damage: Jazal Goldmane (86) deals 5 combat damage to Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen12_Deck14's End of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Main phase, postcombat
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen12_Deck14 cast Prideful Parent (71)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen12_Deck14 triggered Prideful Parent (71)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (71)]
+Phase: Ai(2)-Gen12_Deck14's End step
+Phase: Ai(2)-Gen12_Deck14's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen12_Deck4)
+Phase: Ai(1)-Gen12_Deck4's Untap step
+Phase: Ai(1)-Gen12_Deck4's Upkeep step
+Phase: Ai(1)-Gen12_Deck4's Draw step
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen12_Deck4 cast Valorous Stance (1)
+Resolve stack: Valorous Stance (1) -  Destroy target creature with toughness 4 or greater. (Targeting: Jazal Goldmane (86))
+Phase: Ai(1)-Gen12_Deck4's Main phase, precombat
+Land: Ai(1)-Gen12_Deck4 played Plains (40)
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen12_Deck4 activated Cryptic Caves (5)
+Resolve stack: Cryptic Caves (5) - Ai(1)-Gen12_Deck4 draws a card.
+Phase: Ai(1)-Gen12_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen12_Deck4 assigned Jazal Goldmane (26) to attack Ai(2)-Gen12_Deck14.
+Phase: Ai(1)-Gen12_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen12_Deck14 didn't block Jazal Goldmane (26).
+Phase: Ai(1)-Gen12_Deck4's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 4 combat damage to Ai(2)-Gen12_Deck14.
+Phase: Ai(1)-Gen12_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen12_Deck4's End of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen12_Deck4's End step
+Phase: Ai(1)-Gen12_Deck4's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen12_Deck14)
+Phase: Ai(2)-Gen12_Deck14's Untap step
+Phase: Ai(2)-Gen12_Deck14's Upkeep step
+Phase: Ai(2)-Gen12_Deck14's Draw step
+Phase: Ai(2)-Gen12_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen12_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen12_Deck14 assigned Savannah Lions (104), Adaptive Automaton (117), Cat Token (124) and Prideful Parent (71) to attack Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen12_Deck4 didn't block Adaptive Automaton (117).
+Ai(1)-Gen12_Deck4 assigned Gleaming Barrier (18) to block Prideful Parent (71).
+Ai(1)-Gen12_Deck4 didn't block Savannah Lions (104).
+Ai(1)-Gen12_Deck4 didn't block Cat Token (124).
+Phase: Ai(2)-Gen12_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen12_Deck14's Combat Damage Step
+Damage: Savannah Lions (104) deals 3 combat damage to Ai(1)-Gen12_Deck4.
+Damage: Adaptive Automaton (117) deals 2 combat damage to Ai(1)-Gen12_Deck4.
+Damage: Cat Token (124) deals 2 combat damage to Ai(1)-Gen12_Deck4.
+Damage: Prideful Parent (71) deals 3 damage () to Gleaming Barrier (18).
+Phase: Ai(2)-Gen12_Deck14's End of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Main phase, postcombat
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen12_Deck14 cast Jazal Goldmane (85)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(2)-Gen12_Deck14's End step
+Phase: Ai(2)-Gen12_Deck14's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen12_Deck4)
+Phase: Ai(1)-Gen12_Deck4's Untap step
+Phase: Ai(1)-Gen12_Deck4's Upkeep step
+Phase: Ai(1)-Gen12_Deck4's Draw step
+Phase: Ai(1)-Gen12_Deck4's Main phase, precombat
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen12_Deck4 cast Adaptive Automaton (56)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(1)-Gen12_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen12_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen12_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen12_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen12_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen12_Deck4's End of Combat Step
+Phase: Ai(1)-Gen12_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen12_Deck4's End step
+Phase: Ai(1)-Gen12_Deck4's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen12_Deck14)
+Phase: Ai(2)-Gen12_Deck14's Untap step
+Phase: Ai(2)-Gen12_Deck14's Upkeep step
+Phase: Ai(2)-Gen12_Deck14's Draw step
+Phase: Ai(2)-Gen12_Deck14's Main phase, precombat
+Land: Ai(2)-Gen12_Deck14 played Demolition Field (119)
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen12_Deck14 activated Cryptic Caves (65)
+Resolve stack: Cryptic Caves (65) - Ai(2)-Gen12_Deck14 draws a card.
+Phase: Ai(2)-Gen12_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen12_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen12_Deck14 assigned Jazal Goldmane (85), Savannah Lions (104), Prideful Parent (71), Adaptive Automaton (117) and Cat Token (124) to attack Ai(1)-Gen12_Deck4.
+Phase: Ai(2)-Gen12_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen12_Deck4 assigned Gleaming Barrier (18) to block Jazal Goldmane (85).
+Ai(1)-Gen12_Deck4 didn't block Adaptive Automaton (117).
+Ai(1)-Gen12_Deck4 assigned Adaptive Automaton (56) to block Prideful Parent (71).
+Ai(1)-Gen12_Deck4 assigned Jazal Goldmane (26) to block Savannah Lions (104).
+Ai(1)-Gen12_Deck4 didn't block Cat Token (124).
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen12_Deck14 cast Divine Resilience (105) targeting [Savannah Lions (104)]
+Resolve stack: Divine Resilience (105) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Savannah Lions (104))
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen12_Deck4 cast Divine Resilience (47) targeting [Adaptive Automaton (56)]
+Resolve stack: Divine Resilience (47) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Adaptive Automaton (56))
+Phase: Ai(2)-Gen12_Deck14's First Strike Damage Step
+Damage: Jazal Goldmane (85) deals 5 damage () to Gleaming Barrier (18).
+Damage: Jazal Goldmane (26) deals 5 damage () to Savannah Lions (104).
+Add to stack: Ai(1)-Gen12_Deck4 triggered Gleaming Barrier (18)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (18)]
+Phase: Ai(2)-Gen12_Deck14's Combat Damage Step
+Damage: Savannah Lions (104) deals 3 damage () to Jazal Goldmane (26).
+Damage: Prideful Parent (71) deals 3 damage () to Adaptive Automaton (56).
+Damage: Adaptive Automaton (117) deals 2 combat damage to Ai(1)-Gen12_Deck4.
+Damage: Cat Token (124) deals 2 combat damage to Ai(1)-Gen12_Deck4.
+Damage: Adaptive Automaton (56) deals 2 damage () to Prideful Parent (71).
+Player control: Ai(1)-Gen12_Deck4 is controlled by Ai(1)-Gen12_Deck4
+Player control: Ai(2)-Gen12_Deck14 is controlled by Ai(2)-Gen12_Deck14
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen12_Deck4 has lost because life total reached 0
+Game outcome: Ai(2)-Gen12_Deck14 has won because all opponents have lost
+Match result: Ai(1)-Gen12_Deck4: 0 Ai(2)-Gen12_Deck14: 1 
+
+Game Result: Game 1 ended in 15023 ms. Ai(2)-Gen12_Deck14 has won!
+
+
+=== STDERR ===

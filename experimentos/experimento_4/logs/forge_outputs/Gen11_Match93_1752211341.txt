@@ -1,0 +1,593 @@
+=== COMBATE PARALELO: Gen11_Deck9 vs Gen11_Deck12 ===
+Worker ID: 2001843
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen11_Deck9 Gen11_Deck12 -n 1
+Duración: 54.06 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2158 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 83 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen11_Deck9 vs Ai(2)-Gen11_Deck12 - one game of Constructed
+Mulligan: Ai(2)-Gen11_Deck12 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen11_Deck9 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Land: Ai(2)-Gen11_Deck12 played Plains (93)
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Hinterland Sanctifier (83)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Land: Ai(1)-Gen11_Deck9 played Plains (33)
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Land: Ai(2)-Gen11_Deck12 played Cryptic Caves (65)
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Gleaming Barrier (78)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(2)-Gen11_Deck12 triggered Hinterland Sanctifier (83)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (78)]
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 assigned Hinterland Sanctifier (83) to attack Ai(1)-Gen11_Deck9.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen11_Deck9 didn't block Hinterland Sanctifier (83).
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Damage: Hinterland Sanctifier (83) deals 1 combat damage to Ai(1)-Gen11_Deck9.
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Land: Ai(1)-Gen11_Deck9 played Cryptic Caves (6)
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 assigned Hinterland Sanctifier (83) to attack Ai(1)-Gen11_Deck9.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Combat: Ai(1)-Gen11_Deck9 didn't block Hinterland Sanctifier (83).
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Damage: Hinterland Sanctifier (83) deals 1 combat damage to Ai(1)-Gen11_Deck9.
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Land: Ai(1)-Gen11_Deck9 played Plains (30)
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Cryptic Caves (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Arahbo, the First Fang (49)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen11_Deck9 triggered Arahbo, the First Fang (49)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (49)]
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Land: Ai(1)-Gen11_Deck9 played Plains (37)
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Adaptive Automaton (57)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(1)-Gen11_Deck9 triggered Arahbo, the First Fang (49)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Adaptive Automaton (57)]
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Land: Ai(2)-Gen11_Deck12 played Plains (102)
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Adaptive Automaton (117)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(2)-Gen11_Deck12 triggered Hinterland Sanctifier (83)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (117)]
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Cryptic Caves (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(1)-Gen11_Deck9 triggered Arahbo, the First Fang (49)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Jazal Goldmane (25)]
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Valorous Stance (63)
+Resolve stack: Valorous Stance (63) -  Destroy target creature with toughness 4 or greater. (Targeting: Jazal Goldmane (25))
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Land: Ai(2)-Gen11_Deck12 played Plains (91)
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Land: Ai(1)-Gen11_Deck9 played Plains (31)
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 activated Cryptic Caves (6)
+Resolve stack: Cryptic Caves (6) - Ai(1)-Gen11_Deck9 draws a card.
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Mana: Plains (30) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Hinterland Sanctifier (24)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Felidar Savior (69)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen11_Deck12 triggered Hinterland Sanctifier (83)
+Add to stack: Ai(2)-Gen11_Deck12 triggered Felidar Savior (69) targeting [Adaptive Automaton (117), Hinterland Sanctifier (83)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Adaptive Automaton (117), Hinterland Sanctifier (83)]]) [Zone Changer: Felidar Savior (69)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (69)]
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Felidar Savior (10)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen11_Deck9 triggered Felidar Savior (10) targeting [Arahbo, the First Fang (49), Adaptive Automaton (57)]
+Add to stack: Ai(1)-Gen11_Deck9 triggered Arahbo, the First Fang (49)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Felidar Savior (10)]
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (133)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Arahbo, the First Fang (49), Adaptive Automaton (57)]]) [Zone Changer: Felidar Savior (10)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (10)]
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 assigned Arahbo, the First Fang (49) and Adaptive Automaton (57) to attack Ai(2)-Gen11_Deck12.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen11_Deck12 didn't block Arahbo, the First Fang (49).
+Ai(2)-Gen11_Deck12 didn't block Adaptive Automaton (57).
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Damage: Arahbo, the First Fang (49) deals 4 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Adaptive Automaton (57) deals 4 combat damage to Ai(2)-Gen11_Deck12.
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Arahbo, the First Fang (109)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen11_Deck12 triggered Hinterland Sanctifier (83)
+Add to stack: Ai(2)-Gen11_Deck12 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (109)]
+Add to stack: Ai(2)-Gen11_Deck12 triggered Hinterland Sanctifier (83)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (137)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Arahbo, the First Fang (109)]
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Land: Ai(1)-Gen11_Deck9 played Plains (35)
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Felidar Savior (8)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen11_Deck9 triggered Felidar Savior (8) targeting [Felidar Savior (10), Arahbo, the First Fang (49)]
+Add to stack: Ai(1)-Gen11_Deck9 triggered Arahbo, the First Fang (49)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Felidar Savior (8)]
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (140)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Felidar Savior (10), Arahbo, the First Fang (49)]]) [Zone Changer: Felidar Savior (8)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (8)]
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 assigned Arahbo, the First Fang (49) and Felidar Savior (10) to attack Ai(2)-Gen11_Deck12.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen11_Deck12 assigned Cat Token (137) and Arahbo, the First Fang (109) to block Arahbo, the First Fang (49).
+Ai(2)-Gen11_Deck12 assigned Hinterland Sanctifier (83) and Felidar Savior (69) to block Felidar Savior (10).
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Divine Resilience (47) targeting [Felidar Savior (10)]
+Resolve stack: Divine Resilience (47) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Felidar Savior (10))
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Damage: Arahbo, the First Fang (49) deals 3 damage () to Cat Token (137).
+Damage: Arahbo, the First Fang (49) deals 2 damage () to Arahbo, the First Fang (109).
+Damage: Felidar Savior (10) deals 3 damage () to Hinterland Sanctifier (83).
+Damage: Felidar Savior (10) deals 2 damage () to Felidar Savior (69).
+Damage: Hinterland Sanctifier (83) deals 2 damage () to Felidar Savior (10).
+Damage: Felidar Savior (69) deals 4 damage () to Felidar Savior (10).
+Damage: Cat Token (137) deals 3 damage () to Arahbo, the First Fang (49).
+Damage: Arahbo, the First Fang (109) deals 3 damage () to Arahbo, the First Fang (49).
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Angel of Vitality (115)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Arahbo, the First Fang (52)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen11_Deck9 triggered Arahbo, the First Fang (52)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (52)]
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (144)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Arahbo, the First Fang (52)]
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 assigned Felidar Savior (10) to attack Ai(2)-Gen11_Deck12.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen11_Deck12 assigned Angel of Vitality (115) and Adaptive Automaton (117) to block Felidar Savior (10).
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Divine Resilience (48) targeting [Felidar Savior (10)]
+Resolve stack: Divine Resilience (48) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Felidar Savior (10))
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Damage: Felidar Savior (10) deals 2 damage () to Angel of Vitality (115).
+Damage: Felidar Savior (10) deals 3 damage () to Adaptive Automaton (117).
+Damage: Angel of Vitality (115) deals 2 damage () to Felidar Savior (10).
+Damage: Adaptive Automaton (117) deals 4 damage () to Felidar Savior (10).
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Burnished Hart (88)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Burnished Hart (27)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Burnished Hart (27)]
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 assigned Felidar Savior (10), Adaptive Automaton (57), Felidar Savior (8), Cat Token (124), Cat Token (127), Cat Token (130), Cat Token (133), Cat Token (140), Arahbo, the First Fang (52), Cat Token (144) and Hinterland Sanctifier (24) to attack Ai(2)-Gen11_Deck12.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen11_Deck12 didn't block Cat Token (144).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (130).
+Ai(2)-Gen11_Deck12 assigned Adaptive Automaton (117) to block Arahbo, the First Fang (52).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (133).
+Ai(2)-Gen11_Deck12 assigned Burnished Hart (88) to block Felidar Savior (8).
+Ai(2)-Gen11_Deck12 didn't block Hinterland Sanctifier (24).
+Ai(2)-Gen11_Deck12 assigned Arahbo, the First Fang (109) to block Adaptive Automaton (57).
+Ai(2)-Gen11_Deck12 assigned Gleaming Barrier (78) to block Felidar Savior (10).
+Ai(2)-Gen11_Deck12 assigned Felidar Savior (69) to block Cat Token (124).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (140).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (127).
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Damage: Felidar Savior (10) deals 5 damage () to Gleaming Barrier (78).
+Damage: Adaptive Automaton (57) deals 4 damage () to Arahbo, the First Fang (109).
+Damage: Felidar Savior (8) deals 4 damage () to Burnished Hart (88).
+Damage: Cat Token (124) deals 3 damage () to Felidar Savior (69).
+Damage: Cat Token (127) deals 3 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (130) deals 3 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (133) deals 3 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (140) deals 3 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Arahbo, the First Fang (52) deals 3 damage () to Adaptive Automaton (117).
+Damage: Cat Token (144) deals 3 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Hinterland Sanctifier (24) deals 1 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Burnished Hart (88) deals 2 damage () to Felidar Savior (8).
+Damage: Arahbo, the First Fang (109) deals 3 damage () to Adaptive Automaton (57).
+Damage: Adaptive Automaton (117) deals 4 damage () to Arahbo, the First Fang (52).
+Damage: Felidar Savior (69) deals 4 damage () to Cat Token (124).
+Add to stack: Ai(2)-Gen11_Deck12 triggered Gleaming Barrier (78)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (78)]
+Phase: Ai(1)-Gen11_Deck9's End of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen11_Deck9's End step
+Phase: Ai(1)-Gen11_Deck9's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen11_Deck12)
+Phase: Ai(2)-Gen11_Deck12's Untap step
+Phase: Ai(2)-Gen11_Deck12's Upkeep step
+Phase: Ai(2)-Gen11_Deck12's Draw step
+Phase: Ai(2)-Gen11_Deck12's Main phase, precombat
+Phase: Ai(2)-Gen11_Deck12's Beginning of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Declare Attackers Step
+Combat: Ai(2)-Gen11_Deck12 didn't attack this turn.
+Phase: Ai(2)-Gen11_Deck12's Declare Blockers Step
+Phase: Ai(2)-Gen11_Deck12's First Strike Damage Step
+Phase: Ai(2)-Gen11_Deck12's Combat Damage Step
+Phase: Ai(2)-Gen11_Deck12's End of Combat Step
+Phase: Ai(2)-Gen11_Deck12's Main phase, postcombat
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (102) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen11_Deck12 cast Prideful Parent (71)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen11_Deck12 triggered Prideful Parent (71)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (71)]
+Mana: Treasure Token (147) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(2)-Gen11_Deck12 cast Savannah Lions (104)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(2)-Gen11_Deck12's End step
+Phase: Ai(2)-Gen11_Deck12's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen11_Deck9)
+Phase: Ai(1)-Gen11_Deck9's Untap step
+Phase: Ai(1)-Gen11_Deck9's Upkeep step
+Phase: Ai(1)-Gen11_Deck9's Draw step
+Phase: Ai(1)-Gen11_Deck9's Main phase, precombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen11_Deck9 cast Arahbo, the First Fang (51)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen11_Deck9 triggered Arahbo, the First Fang (51)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (51)]
+Add to stack: Ai(1)-Gen11_Deck9 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (155)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Arahbo, the First Fang (51)]
+Phase: Ai(1)-Gen11_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen11_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen11_Deck9 assigned Felidar Savior (10), Felidar Savior (8), Cat Token (127), Cat Token (130), Cat Token (133), Cat Token (140), Cat Token (144), Burnished Hart (27) and Hinterland Sanctifier (24) to attack Ai(2)-Gen11_Deck12.
+Phase: Ai(1)-Gen11_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen11_Deck12 didn't block Cat Token (144).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (130).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (133).
+Ai(2)-Gen11_Deck12 assigned Savannah Lions (104) to block Felidar Savior (8).
+Ai(2)-Gen11_Deck12 didn't block Hinterland Sanctifier (24).
+Ai(2)-Gen11_Deck12 assigned Cat Token (151) to block Felidar Savior (10).
+Ai(2)-Gen11_Deck12 assigned Prideful Parent (71) to block Burnished Hart (27).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (140).
+Ai(2)-Gen11_Deck12 didn't block Cat Token (127).
+Phase: Ai(1)-Gen11_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen11_Deck9's Combat Damage Step
+Damage: Felidar Savior (10) deals 4 damage () to Cat Token (151).
+Damage: Felidar Savior (8) deals 3 damage () to Savannah Lions (104).
+Damage: Cat Token (127) deals 2 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (130) deals 2 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (133) deals 2 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (140) deals 2 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (144) deals 2 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Burnished Hart (27) deals 2 damage () to Prideful Parent (71).
+Damage: Hinterland Sanctifier (24) deals 1 combat damage to Ai(2)-Gen11_Deck12.
+Damage: Cat Token (151) deals 1 damage () to Felidar Savior (10).
+Damage: Savannah Lions (104) deals 2 damage () to Felidar Savior (8).
+Damage: Prideful Parent (71) deals 2 damage () to Burnished Hart (27).
+Player control: Ai(1)-Gen11_Deck9 is controlled by Ai(1)-Gen11_Deck9
+Player control: Ai(2)-Gen11_Deck12 is controlled by Ai(2)-Gen11_Deck12
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen11_Deck9 has won because all opponents have lost
+Game outcome: Ai(2)-Gen11_Deck12 has lost because life total reached 0
+Match result: Ai(1)-Gen11_Deck9: 1 Ai(2)-Gen11_Deck12: 0 
+
+Game Result: Game 1 ended in 42305 ms. Ai(1)-Gen11_Deck9 has won!
+
+
+=== STDERR ===

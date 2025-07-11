@@ -1,0 +1,416 @@
+=== COMBATE PARALELO: Gen0_Deck3 vs Gen0_Deck13 ===
+Worker ID: 1446656
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck3 Gen0_Deck13 -n 1
+Duración: 29.65 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2073 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 109 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck3 vs Ai(2)-Gen0_Deck13 - one game of Constructed
+Correcting zone for Strix Lookout (2)
+Correcting zone for Strix Lookout (2)
+Mulligan: Ai(2)-Gen0_Deck13 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck3 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck13 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen0_Deck3 played Tranquil Cove (19)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Tranquil Cove (19)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (19)]
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Swamp (76)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Crawling Barrens (56)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Tranquil Cove (19) - {T}: Add {W} or {U}.
+Mana: Crawling Barrens (56) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Strix Lookout (2)
+Resolve stack: Strix Lookout - Creature 1 / 2
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Island (99)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Island (51)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Strix Lookout (2) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Strix Lookout (2).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Island (51) - {T}: Add {U}.
+Mana: Tranquil Cove (19) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Strix Lookout (2)
+Discard: Ai(1)-Gen0_Deck3 discards Meteor Golem (32).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen0_Deck3 draws a card. Ai(1)-Gen0_Deck3 discards a card.
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Mountain (111)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Plains (44)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Strix Lookout (2) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Strix Lookout (2).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Island (51) - {T}: Add {U}.
+Mana: Plains (44) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Strix Lookout (2)
+Replacement Effect: If Darksteel Colossus would be put into a graveyard from anywhere, reveal Darksteel Colossus and shuffle it into its owner's library instead.
+Discard: Ai(1)-Gen0_Deck3 discards Darksteel Colossus (23).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen0_Deck3 draws a card. Ai(1)-Gen0_Deck3 discards a card.
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Island (95)
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Involuntary Employment (85) targeting [Strix Lookout (2)]
+Resolve stack: Involuntary Employment (85) - Ai(2)-Gen0_Deck13 gains control of Strix Lookout (2) until end of turn. Untap it. It gains haste until end of turn. Ai(2)-Gen0_Deck13 creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Strix Lookout (2) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Strix Lookout (2).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Strix Lookout (2) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Strix Lookout (2).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen0_Deck3 played Tranquil Cove (17)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Tranquil Cove (17)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (17)]
+Mana: Island (51) - {T}: Add {U}.
+Mana: Plains (44) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Strix Lookout (2)
+Discard: Ai(1)-Gen0_Deck3 discards Plains (46).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen0_Deck3 draws a card. Ai(1)-Gen0_Deck3 discards a card.
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen0_Deck13 played Uncharted Haven (100)
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Treasure Token (122) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(2)-Gen0_Deck13 cast Consuming Aberration (61)
+Resolve stack: Consuming Aberration - Creature * / *
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Mana: Island (51) - {T}: Add {U}.
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Tranquil Cove (19) - {T}: Add {W} or {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Crawling Barrens (56)
+Resolve stack: Crawling Barrens (56) - Ai(1)-Gen0_Deck3 puts two +1/+1 counters on Crawling Barrens (56). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Crawling Barrens (56) and Strix Lookout (2) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Strix Lookout (2).
+Ai(2)-Gen0_Deck13 assigned Consuming Aberration (61) to block Crawling Barrens (56).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Crawling Barrens (56) deals 2 damage () to Consuming Aberration (61).
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen0_Deck13.
+Damage: Consuming Aberration (61) deals 2 damage () to Crawling Barrens (56).
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen0_Deck3 played Tranquil Cove (20)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Tranquil Cove (20)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (20)]
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Uncharted Haven (100) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen0_Deck13 cast Consuming Aberration (62)
+Resolve stack: Consuming Aberration - Creature * / *
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Strix Lookout (2) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Strix Lookout (2).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Island (51) - {T}: Add {U}.
+Mana: Plains (44) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Campus Guide (27)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck3 triggered Campus Guide (27)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (27)]
+Mana: Tranquil Cove (19) - {T}: Add {W} or {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Strix Lookout (2)
+Discard: Ai(1)-Gen0_Deck3 discards Extravagant Replication (35).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen0_Deck3 draws a card. Ai(1)-Gen0_Deck3 discards a card.
+Land: Ai(1)-Gen0_Deck3 played Plains (40)
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Marauding Blight-Priest (75)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Consuming Aberration (62)
+Resolve stack: Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard. [Card: Marauding Blight-Priest (75), Activator: Ai(2)-Gen0_Deck13, SpellAbility: Marauding Blight-Priest - Creature 3 / 2]
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Mana: Uncharted Haven (100) - {T}: Add one mana of the chosen color.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Nullpriest of Oblivion (117)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Consuming Aberration (62)
+Resolve stack: Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard. [Card: Nullpriest of Oblivion (117), Activator: Ai(2)-Gen0_Deck13, SpellAbility: Nullpriest of Oblivion - Creature 2 / 1]
+Resolve stack: Nullpriest of Oblivion - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Consuming Aberration (62) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Consuming Aberration (62).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Consuming Aberration (62) deals 6 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen0_Deck13 played Maze's End (66)
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Mana: Plains (44) - {T}: Add {W}.
+Mana: Island (51) - {T}: Add {U}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Make a Stand (37)
+Resolve stack: Make a Stand (37) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Crawling Barrens (58)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Campus Guide (27) and Strix Lookout (2) to attack Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck13 didn't block Strix Lookout (2).
+Ai(2)-Gen0_Deck13 didn't block Campus Guide (27).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Campus Guide (27) deals 3 combat damage to Ai(2)-Gen0_Deck13.
+Damage: Strix Lookout (2) deals 2 combat damage to Ai(2)-Gen0_Deck13.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Tranquil Cove (19) - {T}: Add {W} or {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Strix Lookout (2)
+Discard: Ai(1)-Gen0_Deck3 discards Island (52).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen0_Deck3 draws a card. Ai(1)-Gen0_Deck3 discards a card.
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Mana: Swamp (76) - {T}: Add {B}.
+Mana: Uncharted Haven (100) - {T}: Add one mana of the chosen color.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Maze's End (66) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Arbiter of Woe (93)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Consuming Aberration (62)
+Resolve stack: Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard. [Card: Arbiter of Woe (93), Activator: Ai(2)-Gen0_Deck13, SpellAbility: Arbiter of Woe]
+Resolve stack: Arbiter of Woe - Creature 5 / 4
+Add to stack: Ai(2)-Gen0_Deck13 triggered Arbiter of Woe (93)
+Discard: Ai(1)-Gen0_Deck3 discards Arcane Epiphany (12).
+Resolve stack: When this creature enters, each opponent discards a card and loses 2 life. You draw a card and gain 2 life. [Zone Changer: Arbiter of Woe (93)]
+Add to stack: Ai(2)-Gen0_Deck13 triggered Marauding Blight-Priest (75)
+Resolve stack: Whenever you gain life, each opponent loses 1 life. [Player: Ai(2)-Gen0_Deck13, Gained Amount: 2]
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Consuming Aberration (62) and Marauding Blight-Priest (75) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Marauding Blight-Priest (75).
+Ai(1)-Gen0_Deck3 didn't block Consuming Aberration (62).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Consuming Aberration (62) deals 12 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Marauding Blight-Priest (75) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Player control: Ai(1)-Gen0_Deck3 is controlled by Ai(1)-Gen0_Deck3
+Player control: Ai(2)-Gen0_Deck13 is controlled by Ai(2)-Gen0_Deck13
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck3 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck13 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck3: 0 Ai(2)-Gen0_Deck13: 1 
+
+Game Result: Game 1 ended in 17371 ms. Ai(2)-Gen0_Deck13 has won!
+
+
+=== STDERR ===

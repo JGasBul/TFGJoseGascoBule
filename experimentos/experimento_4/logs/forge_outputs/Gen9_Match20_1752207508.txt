@@ -1,0 +1,832 @@
+=== COMBATE PARALELO: Gen9_Deck7 vs Gen9_Deck1 ===
+Worker ID: 1893572
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen9_Deck7 Gen9_Deck1 -n 1
+Duración: 129.44 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1761 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 87 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen9_Deck7 vs Ai(2)-Gen9_Deck1 - one game of Constructed
+Stopping slow match as draw
+Mulligan: Ai(2)-Gen9_Deck1 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen9_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Land: Ai(2)-Gen9_Deck1 played Plains (106)
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Hinterland Sanctifier (93)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Plains (40)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Land: Ai(2)-Gen9_Deck1 played Swamp (85)
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Sun-Blessed Healer (65)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Sun-Blessed Healer (65)]
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 assigned Hinterland Sanctifier (93) to attack Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck7 didn't block Hinterland Sanctifier (93).
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Damage: Hinterland Sanctifier (93) deals 1 combat damage to Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Demolition Field (59)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen9_Deck1 played Secluded Courtyard (97)
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 assigned Sun-Blessed Healer (65) and Hinterland Sanctifier (93) to attack Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck7 didn't block Sun-Blessed Healer (65).
+Ai(1)-Gen9_Deck7 didn't block Hinterland Sanctifier (93).
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Damage: Sun-Blessed Healer (65) deals 3 combat damage to Ai(1)-Gen9_Deck7.
+Damage: Hinterland Sanctifier (93) deals 1 combat damage to Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Plains (33)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Adaptive Automaton (57)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 assigned Sun-Blessed Healer (65) to attack Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck7 assigned Adaptive Automaton (57) to block Sun-Blessed Healer (65).
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Damage: Sun-Blessed Healer (65) deals 3 damage () to Adaptive Automaton (57).
+Damage: Adaptive Automaton (57) deals 2 damage () to Sun-Blessed Healer (65).
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen9_Deck1 played Orzhov Guildgate (73)
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Plains (43)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Divine Resilience (47) targeting []
+Resolve stack: Divine Resilience (47) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead.
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Land: Ai(2)-Gen9_Deck1 played Demolition Field (112)
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Orzhov Guildgate (73) - {T}: Add {W} or {B}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Secluded Courtyard (97) - {T}: Add {C}.
+Mana: Demolition Field (112) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Bloodthirsty Conqueror (69)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Bloodthirsty Conqueror (69)]
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 assigned Hinterland Sanctifier (93) to attack Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck7 didn't block Hinterland Sanctifier (93).
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Damage: Hinterland Sanctifier (93) deals 1 combat damage to Ai(1)-Gen9_Deck7.
+Add to stack: Ai(2)-Gen9_Deck1 triggered Bloodthirsty Conqueror (69)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen9_Deck7, Lost Amount: 1]
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Demolition Field (58)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 activated Demolition Field (112) targeting [Demolition Field (59)]
+Resolve stack: Demolition Field (112) - Destroy Demolition Field (59). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen9_Deck1 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Land: Ai(2)-Gen9_Deck1 played Swamp (89)
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Orzhov Guildgate (73) - {T}: Add {W} or {B}.
+Mana: Secluded Courtyard (97) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Add to stack: Ai(2)-Gen9_Deck1 cast Gatekeeper of Malakir (61)
+Resolve stack: Gatekeeper of Malakir - Creature 2 / 2
+Add to stack: Ai(2)-Gen9_Deck1 triggered Gatekeeper of Malakir (61) targeting [Ai(1)-Gen9_Deck7]
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gatekeeper of Malakir (61)]
+Resolve stack: When Gatekeeper of Malakir enters, if it was kicked, target player sacrifices a creature. (Targeting: [[Ai(1)-Gen9_Deck7]]) [Zone Changer: Gatekeeper of Malakir (61)]
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 assigned Bloodthirsty Conqueror (69) and Hinterland Sanctifier (93) to attack Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck7 didn't block Bloodthirsty Conqueror (69).
+Ai(1)-Gen9_Deck7 didn't block Hinterland Sanctifier (93).
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Damage: Bloodthirsty Conqueror (69) deals 5 combat damage to Ai(1)-Gen9_Deck7.
+Damage: Hinterland Sanctifier (93) deals 1 combat damage to Ai(1)-Gen9_Deck7.
+Add to stack: Ai(2)-Gen9_Deck1 triggered Bloodthirsty Conqueror (69)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen9_Deck7, Lost Amount: 6]
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Felidar Savior (10)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen9_Deck7 triggered Felidar Savior (10) targeting []
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[]]) [Zone Changer: Felidar Savior (10)]
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 assigned Bloodthirsty Conqueror (69) to attack Ai(1)-Gen9_Deck7.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck7 didn't block Bloodthirsty Conqueror (69).
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Damage: Bloodthirsty Conqueror (69) deals 5 combat damage to Ai(1)-Gen9_Deck7.
+Add to stack: Ai(2)-Gen9_Deck1 triggered Bloodthirsty Conqueror (69)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen9_Deck7, Lost Amount: 5]
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck1 played Plains (99)
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Banishing Light (14)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen9_Deck7 triggered Banishing Light (14) targeting [Bloodthirsty Conqueror (69)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Bloodthirsty Conqueror (69)]]) [Zone Changer: Banishing Light (14)]
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Demolition Field (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Gleaming Barrier (16)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck1 played Swamp (90)
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Arahbo, the First Fang (52)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen9_Deck7 triggered Arahbo, the First Fang (52)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (52)]
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck1 played Plains (101)
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Plains (35)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Savannah Lions (44)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Add to stack: Ai(1)-Gen9_Deck7 triggered Arahbo, the First Fang (52)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Savannah Lions (44)]
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Hinterland Sanctifier (92)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (92)]
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 assigned Felidar Savior (10) to attack Ai(2)-Gen9_Deck1.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck1 didn't block Felidar Savior (10).
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Damage: Felidar Savior (10) deals 3 combat damage to Ai(2)-Gen9_Deck1.
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Burnished Hart (28)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck1 played Swamp (91)
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Eaten Alive (74) targeting [Felidar Savior (10)]
+Resolve stack: Eaten Alive (74) - Exile Felidar Savior (10).
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Macabre Waltz (118) targeting [Sun-Blessed Healer (65), Hinterland Sanctifier (93)]
+Discard: Ai(2)-Gen9_Deck1 discards Hinterland Sanctifier (93).
+Resolve stack: Macabre Waltz (118) - Return Sun-Blessed Healer (65) and Hinterland Sanctifier (93) from the graveyard to their owner's hand. Ai(2)-Gen9_Deck1 discards a card.
+Mana: Plains (104) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Sun-Blessed Healer (65)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Add to stack: Ai(2)-Gen9_Deck1 triggered Sun-Blessed Healer (65) targeting [Hinterland Sanctifier (93)]
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Sun-Blessed Healer (65)]
+Resolve stack: When this creature enters, if it was kicked, return target nonland permanent card with mana value 2 or less from your graveyard to the battlefield. (Targeting: [[Hinterland Sanctifier (93)]]) [Zone Changer: Sun-Blessed Healer (65)]
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (93)]
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Felidar Cub (83)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (93)
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Cub (83)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Cub (83)]
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Plains (41)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Felidar Cub (82)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (93)
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Cub (82)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Cub (82)]
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Land: Ai(1)-Gen9_Deck7 played Plains (29)
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Plains (104) - {T}: Add {W}.
+Mana: Swamp (89) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Driver of the Dead (113)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (93)
+Add to stack: Ai(2)-Gen9_Deck1 triggered Hinterland Sanctifier (92)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Driver of the Dead (113)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Driver of the Dead (113)]
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 30 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Prideful Parent (12)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen9_Deck7 triggered Arahbo, the First Fang (52)
+Add to stack: Ai(1)-Gen9_Deck7 triggered Prideful Parent (12)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (12)]
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (12)]
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 31 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen9_Deck1 played Orzhov Guildgate (70)
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 32 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Adaptive Automaton (55)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(1)-Gen9_Deck7 triggered Arahbo, the First Fang (52)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Adaptive Automaton (55)]
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Valorous Stance (1)
+Resolve stack: Valorous Stance (1) -  Target creature gains indestructible until end of turn. (Targeting: Cat Token (134))
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 assigned Cat Token (134) and Prideful Parent (12) to attack Ai(2)-Gen9_Deck1.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck1 didn't block Cat Token (134).
+Ai(2)-Gen9_Deck1 didn't block Prideful Parent (12).
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Damage: Cat Token (134) deals 3 combat damage to Ai(2)-Gen9_Deck1.
+Damage: Prideful Parent (12) deals 4 combat damage to Ai(2)-Gen9_Deck1.
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 33 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Eaten Alive (75) targeting [Prideful Parent (12)]
+Resolve stack: Eaten Alive (75) - Exile Prideful Parent (12).
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 34 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Burnished Hart (27)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 35 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen9_Deck1 played Orzhov Guildgate (72)
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 36 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck7's End of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Main phase, postcombat
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Hinterland Sanctifier (24)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen9_Deck7's End step
+Phase: Ai(1)-Gen9_Deck7's Cleanup step
+Turn: Turn 37 (Ai(2)-Gen9_Deck1)
+Phase: Ai(2)-Gen9_Deck1's Untap step
+Phase: Ai(2)-Gen9_Deck1's Upkeep step
+Phase: Ai(2)-Gen9_Deck1's Draw step
+Phase: Ai(2)-Gen9_Deck1's Main phase, precombat
+Mana: Plains (106) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck1 cast Adventuring Gear (62)
+Resolve stack: Adventuring Gear
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen9_Deck1 activated Adventuring Gear (62) targeting [Sun-Blessed Healer (65)]
+Resolve stack: Adventuring Gear (62) -  Attach to Sun-Blessed Healer (65)
+Phase: Ai(2)-Gen9_Deck1's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck1 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck1's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck1's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck1's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck1's End of Combat Step
+Phase: Ai(2)-Gen9_Deck1's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck1's End step
+Phase: Ai(2)-Gen9_Deck1's Cleanup step
+Turn: Turn 38 (Ai(1)-Gen9_Deck7)
+Phase: Ai(1)-Gen9_Deck7's Untap step
+Phase: Ai(1)-Gen9_Deck7's Upkeep step
+Phase: Ai(1)-Gen9_Deck7's Draw step
+Phase: Ai(1)-Gen9_Deck7's Main phase, precombat
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck7 cast Banishing Light (13)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen9_Deck7 triggered Banishing Light (13) targeting [Sun-Blessed Healer (65)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Sun-Blessed Healer (65)]]) [Zone Changer: Banishing Light (13)]
+Phase: Ai(1)-Gen9_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck7's Declare Attackers Step
+Player control: Ai(1)-Gen9_Deck7 is controlled by Ai(1)-Gen9_Deck7
+Player control: Ai(2)-Gen9_Deck1 is controlled by Ai(2)-Gen9_Deck1
+Game outcome: Turn 19
+Game outcome: Ai(1)-Gen9_Deck7 has won because all opponents have lost
+Game outcome: Ai(2)-Gen9_Deck1 has won because all opponents have lost
+Match result: Ai(1)-Gen9_Deck7: 1 Ai(2)-Gen9_Deck1: 0 
+
+Game Result: Game 1 ended in 120275 ms. Ai(1)-Gen9_Deck7 has won!
+
+
+=== STDERR ===

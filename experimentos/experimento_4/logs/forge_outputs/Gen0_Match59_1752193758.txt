@@ -1,0 +1,569 @@
+=== COMBATE PARALELO: Gen0_Deck13 vs Gen0_Deck4 ===
+Worker ID: 1446655
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck13 Gen0_Deck4 -n 1
+Duración: 44.80 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2001 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 72 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck13 vs Ai(2)-Gen0_Deck4 - one game of Constructed
+Correcting zone for Hinterland Sanctifier (93)
+Correcting zone for Hinterland Sanctifier (93)
+Correcting zone for Bloodthirsty Conqueror (67)
+Correcting zone for Bloodthirsty Conqueror (67)
+Mulligan: Ai(1)-Gen0_Deck13 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck13 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen0_Deck4 played Secluded Courtyard (94)
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Mountain (53)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Frenzied Goblin (46)
+Resolve stack: Frenzied Goblin - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen0_Deck4 played Secluded Courtyard (95)
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) to attack Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (46) targeting [Frenzied Goblin (46)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (46)]]) [Attacker: Frenzied Goblin (46)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck4 didn't block Frenzied Goblin (46).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (46) deals 1 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck13 played Swamp (18)
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Land: Ai(2)-Gen0_Deck4 played Swamp (86)
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) to attack Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (46) targeting [Frenzied Goblin (46)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (46)]]) [Attacker: Frenzied Goblin (46)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck4 didn't block Frenzied Goblin (46).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (46) deals 1 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck13 played Uncharted Haven (43)
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Land: Ai(2)-Gen0_Deck4 played Demolition Field (112)
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Mountain (51)
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Uncharted Haven (43) - {T}: Add one mana of the chosen color.
+Mana: Mountain (51) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Leyline Axe (14)
+Resolve stack: Leyline Axe
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) to attack Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (46) targeting [Frenzied Goblin (46)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (46)]]) [Attacker: Frenzied Goblin (46)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck4 didn't block Frenzied Goblin (46).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (46) deals 1 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Secluded Courtyard (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck4 activated Demolition Field (112) targeting [Uncharted Haven (43)]
+Resolve stack: Demolition Field (112) - Destroy Uncharted Haven (43). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck4 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Land: Ai(2)-Gen0_Deck4 played Plains (106)
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck4 cast Hinterland Sanctifier (93)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Island (36) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Involuntary Employment (23) targeting [Hinterland Sanctifier (93)]
+Resolve stack: Involuntary Employment (23) - Ai(1)-Gen0_Deck13 gains control of Hinterland Sanctifier (93) until end of turn. Untap it. It gains haste until end of turn. Ai(1)-Gen0_Deck13 creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) and Hinterland Sanctifier (93) to attack Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (46) targeting [Frenzied Goblin (46)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Frenzied Goblin (46)]]) [Attacker: Frenzied Goblin (46)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck4 didn't block Hinterland Sanctifier (93).
+Ai(2)-Gen0_Deck4 didn't block Frenzied Goblin (46).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (46) deals 1 combat damage to Ai(2)-Gen0_Deck4.
+Damage: Hinterland Sanctifier (93) deals 1 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck13 played Uncharted Haven (41)
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Secluded Courtyard (94) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Secluded Courtyard (95) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck4 cast Bloodthirsty Conqueror (67)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck4 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Bloodthirsty Conqueror (67)]
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 assigned Hinterland Sanctifier (93) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Hinterland Sanctifier (93).
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Damage: Hinterland Sanctifier (93) deals 1 combat damage to Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck4 triggered Bloodthirsty Conqueror (67)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen0_Deck13, Lost Amount: 1]
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Leyline Axe (14) targeting [Frenzied Goblin (46)]
+Resolve stack: Leyline Axe (14) -  Attach to Frenzied Goblin (46)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck13 played Maze's End (5)
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Treasure Token (122) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck13 cast Infernal Vessel (54)
+Resolve stack: Infernal Vessel - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Secluded Courtyard (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck4 cast Soul-Shackled Zombie (81)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(2)-Gen0_Deck4 triggered Hinterland Sanctifier (93)
+Add to stack: Ai(2)-Gen0_Deck4 triggered Soul-Shackled Zombie (81) targeting [Involuntary Employment (23), Uncharted Haven (43)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Involuntary Employment (23), Uncharted Haven (43)]]) [Zone Changer: Soul-Shackled Zombie (81)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Soul-Shackled Zombie (81)]
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 assigned Bloodthirsty Conqueror (67) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Bloodthirsty Conqueror (67).
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck4 triggered Bloodthirsty Conqueror (67)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen0_Deck13, Lost Amount: 5]
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Island (36) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Involuntary Employment (22) targeting [Bloodthirsty Conqueror (67)]
+Resolve stack: Involuntary Employment (22) - Ai(1)-Gen0_Deck13 gains control of Bloodthirsty Conqueror (67) until end of turn. Untap it. It gains haste until end of turn. Ai(1)-Gen0_Deck13 creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) and Bloodthirsty Conqueror (67) to attack Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (46) targeting [Soul-Shackled Zombie (81)]
+Mana: Treasure Token (124) - {T}, Sacrifice this artifact: Add one mana of any color.
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Soul-Shackled Zombie (81)]]) [Attacker: Frenzied Goblin (46)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck4 didn't block Bloodthirsty Conqueror (67).
+Ai(2)-Gen0_Deck4 didn't block Frenzied Goblin (46).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Damage: Frenzied Goblin (46) deals 2 combat damage to Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Bloodthirsty Conqueror (67)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(2)-Gen0_Deck4, Lost Amount: 2]
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (46) deals 2 combat damage to Ai(2)-Gen0_Deck4.
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Bloodthirsty Conqueror (67)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(2)-Gen0_Deck4, Lost Amount: 7]
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Secluded Courtyard (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck4 cast Soul-Shackled Zombie (80)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(2)-Gen0_Deck4 triggered Hinterland Sanctifier (93)
+Add to stack: Ai(2)-Gen0_Deck4 triggered Soul-Shackled Zombie (80) targeting [Involuntary Employment (22)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Involuntary Employment (22)]]) [Zone Changer: Soul-Shackled Zombie (80)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Soul-Shackled Zombie (80)]
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 assigned Bloodthirsty Conqueror (67), Soul-Shackled Zombie (81) and Hinterland Sanctifier (93) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Infernal Vessel (54) to block Soul-Shackled Zombie (81).
+Ai(1)-Gen0_Deck13 didn't block Bloodthirsty Conqueror (67).
+Ai(1)-Gen0_Deck13 didn't block Hinterland Sanctifier (93).
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Soul-Shackled Zombie (81) deals 4 damage () to Infernal Vessel (54).
+Damage: Hinterland Sanctifier (93) deals 1 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Infernal Vessel (54) deals 2 damage () to Soul-Shackled Zombie (81).
+Add to stack: Ai(2)-Gen0_Deck4 triggered Bloodthirsty Conqueror (67)
+Add to stack: Ai(1)-Gen0_Deck13 triggered Infernal Vessel (54)
+Resolve stack: When this creature dies, if it wasn't a Demon, return it to the battlefield under its owner's control with two +1/+1 counters on it. It's a Demon in addition to its other types. [Zone Changer: Infernal Vessel (54)]
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen0_Deck13, Lost Amount: 6]
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Swamp (19)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) to attack Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (46) targeting [Soul-Shackled Zombie (80)]
+Mana: Mountain (53) - {T}: Add {R}.
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Soul-Shackled Zombie (80)]]) [Attacker: Frenzied Goblin (46)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck4 didn't block Frenzied Goblin (46).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Damage: Frenzied Goblin (46) deals 2 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (46) deals 2 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Island (36) - {T}: Add {U}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Consuming Aberration (3)
+Resolve stack: Consuming Aberration - Creature * / *
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Secluded Courtyard (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck4 cast Driver of the Dead (115)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck4 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Driver of the Dead (115)]
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 assigned Bloodthirsty Conqueror (67) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Bloodthirsty Conqueror (67).
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck4 triggered Bloodthirsty Conqueror (67)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen0_Deck13, Lost Amount: 5]
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Island (36) - {T}: Add {U}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (51) - {T}: Add {R}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen0_Deck13 cast Consuming Aberration (4)
+Add to stack: Ai(1)-Gen0_Deck13 triggered Consuming Aberration (3)
+Resolve stack: Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard. [Card: Consuming Aberration (4), Activator: Ai(1)-Gen0_Deck13, SpellAbility: Consuming Aberration - Creature * / *]
+Resolve stack: Consuming Aberration - Creature * / *
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) to attack Ai(2)-Gen0_Deck4.
+Add to stack: Ai(1)-Gen0_Deck13 triggered Frenzied Goblin (46) targeting [Soul-Shackled Zombie (80)]
+Resolve stack: Whenever Frenzied Goblin attacks, you may pay {R}. If you do, target creature can't block this turn. (Targeting: [[Soul-Shackled Zombie (80)]]) [Attacker: Frenzied Goblin (46)]
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck4 didn't block Frenzied Goblin (46).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Damage: Frenzied Goblin (46) deals 2 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Frenzied Goblin (46) deals 2 combat damage to Ai(2)-Gen0_Deck4.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Secluded Courtyard (94) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck4 cast Driver of the Dead (114)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck4 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Driver of the Dead (114)]
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 assigned Bloodthirsty Conqueror (67) and Driver of the Dead (115) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Bloodthirsty Conqueror (67).
+Ai(1)-Gen0_Deck13 didn't block Driver of the Dead (115).
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Driver of the Dead (115) deals 3 combat damage to Ai(1)-Gen0_Deck13.
+Add to stack: Ai(2)-Gen0_Deck4 triggered Bloodthirsty Conqueror (67)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen0_Deck13, Lost Amount: 8]
+Phase: Ai(2)-Gen0_Deck4's End of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck4's End step
+Phase: Ai(2)-Gen0_Deck4's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Zul Ashur, Lich Lord (21)
+Add to stack: Ai(1)-Gen0_Deck13 triggered Consuming Aberration (3)
+Add to stack: Ai(1)-Gen0_Deck13 triggered Consuming Aberration (4)
+Resolve stack: Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard. [Card: Zul Ashur, Lich Lord (21), Activator: Ai(1)-Gen0_Deck13, SpellAbility: Zul Ashur, Lich Lord - Creature 2 / 2]
+Resolve stack: Whenever you cast a spell, each opponent reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard. [Card: Zul Ashur, Lich Lord (21), Activator: Ai(1)-Gen0_Deck13, SpellAbility: Zul Ashur, Lich Lord - Creature 2 / 2]
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck4)
+Phase: Ai(2)-Gen0_Deck4's Untap step
+Phase: Ai(2)-Gen0_Deck4's Upkeep step
+Phase: Ai(2)-Gen0_Deck4's Draw step
+Phase: Ai(2)-Gen0_Deck4's Main phase, precombat
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Secluded Courtyard (94) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (106) - {T}: Add {W}.
+Mana: Secluded Courtyard (95) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck4 cast Bloodthirsty Conqueror (69)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck4 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Bloodthirsty Conqueror (69)]
+Phase: Ai(2)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck4 assigned Bloodthirsty Conqueror (67), Soul-Shackled Zombie (80), Driver of the Dead (115), Driver of the Dead (114) and Hinterland Sanctifier (93) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Zul Ashur, Lich Lord (21) to block Soul-Shackled Zombie (80).
+Ai(1)-Gen0_Deck13 assigned Infernal Vessel (54) to block Driver of the Dead (114).
+Ai(1)-Gen0_Deck13 didn't block Bloodthirsty Conqueror (67).
+Ai(1)-Gen0_Deck13 assigned Frenzied Goblin (46) to block Driver of the Dead (115).
+Ai(1)-Gen0_Deck13 assigned Consuming Aberration (3) to block Hinterland Sanctifier (93).
+Phase: Ai(2)-Gen0_Deck4's First Strike Damage Step
+Damage: Frenzied Goblin (46) deals 2 damage () to Driver of the Dead (115).
+Add to stack: Ai(2)-Gen0_Deck4 triggered Driver of the Dead (115) targeting [Sun-Blessed Healer (65)]
+Resolve stack: When Driver of the Dead dies, return target creature with mana value 2 or less from your graveyard to the battlefield. (Targeting: [[Sun-Blessed Healer (65)]]) [Zone Changer: Driver of the Dead (115)]
+Add to stack: Ai(2)-Gen0_Deck4 triggered Hinterland Sanctifier (93)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Sun-Blessed Healer (65)]
+Phase: Ai(2)-Gen0_Deck4's Combat Damage Step
+Damage: Bloodthirsty Conqueror (67) deals 5 combat damage to Ai(1)-Gen0_Deck13.
+Damage: Soul-Shackled Zombie (80) deals 4 damage () to Zul Ashur, Lich Lord (21).
+Damage: Driver of the Dead (114) deals 3 damage () to Infernal Vessel (54).
+Damage: Hinterland Sanctifier (93) deals 1 damage () to Consuming Aberration (3).
+Damage: Zul Ashur, Lich Lord (21) deals 2 damage () to Soul-Shackled Zombie (80).
+Damage: Infernal Vessel (54) deals 4 damage () to Driver of the Dead (114).
+Damage: Consuming Aberration (3) deals 9 damage () to Hinterland Sanctifier (93).
+Player control: Ai(1)-Gen0_Deck13 is controlled by Ai(1)-Gen0_Deck13
+Player control: Ai(2)-Gen0_Deck4 is controlled by Ai(2)-Gen0_Deck4
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck13 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck4 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck13: 0 Ai(2)-Gen0_Deck4: 1 
+
+Game Result: Game 1 ended in 32674 ms. Ai(2)-Gen0_Deck4 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,251 @@
+=== COMBATE PARALELO: Gen0_Deck13 vs Gen0_Deck9 ===
+Worker ID: 1446654
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck13 Gen0_Deck9 -n 1
+Duración: 24.61 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1910 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 224 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck13 vs Ai(2)-Gen0_Deck9 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck13 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck9 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Swamp (19)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Duress (28) targeting [Ai(2)-Gen0_Deck9]
+Discard: Ai(2)-Gen0_Deck9 discards Starlight Snare (91).
+Resolve stack: Duress (28) - Ai(2)-Gen0_Deck9 reveals their hand. Ai(1)-Gen0_Deck13 chooses a Card.nonCreature+nonLand card from it. Ai(2)-Gen0_Deck9 discards that card.
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck9)
+Phase: Ai(2)-Gen0_Deck9's Untap step
+Phase: Ai(2)-Gen0_Deck9's Upkeep step
+Phase: Ai(2)-Gen0_Deck9's Draw step
+Phase: Ai(2)-Gen0_Deck9's Main phase, precombat
+Land: Ai(2)-Gen0_Deck9 played Forest (74)
+Phase: Ai(2)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck9's End of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck9's End step
+Phase: Ai(2)-Gen0_Deck9's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Island (39)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Island (39) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Nullpriest of Oblivion (59)
+Resolve stack: Nullpriest of Oblivion - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck9)
+Phase: Ai(2)-Gen0_Deck9's Untap step
+Phase: Ai(2)-Gen0_Deck9's Upkeep step
+Phase: Ai(2)-Gen0_Deck9's Draw step
+Phase: Ai(2)-Gen0_Deck9's Main phase, precombat
+Land: Ai(2)-Gen0_Deck9 played Rogue's Passage (100)
+Phase: Ai(2)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck9's End of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Main phase, postcombat
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Rogue's Passage (100) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck9 cast Wary Thespian (78)
+Resolve stack: Wary Thespian - Creature 3 / 1
+Add to stack: Ai(2)-Gen0_Deck9 triggered Wary Thespian (78)
+Resolve stack: Ai(2)-Gen0_Deck9 surveiled 1 card(s) to the graveyard
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (78)]
+Phase: Ai(2)-Gen0_Deck9's End step
+Phase: Ai(2)-Gen0_Deck9's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Nullpriest of Oblivion (59) to attack Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck9 didn't block Nullpriest of Oblivion (59).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Nullpriest of Oblivion (59) deals 2 combat damage to Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck13 played Maze's End (6)
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Island (39) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 cast Nullpriest of Oblivion (57)
+Resolve stack: Nullpriest of Oblivion - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck9)
+Phase: Ai(2)-Gen0_Deck9's Untap step
+Phase: Ai(2)-Gen0_Deck9's Upkeep step
+Phase: Ai(2)-Gen0_Deck9's Draw step
+Phase: Ai(2)-Gen0_Deck9's Main phase, precombat
+Land: Ai(2)-Gen0_Deck9 played Island (87)
+Phase: Ai(2)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck9's End of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck9's End step
+Phase: Ai(2)-Gen0_Deck9's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Land: Ai(1)-Gen0_Deck13 played Island (37)
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Island (39) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck13 activated Leyline Axe (13) targeting [Nullpriest of Oblivion (59)]
+Resolve stack: Leyline Axe (13) -  Attach to Nullpriest of Oblivion (59)
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Nullpriest of Oblivion (59) and Nullpriest of Oblivion (57) to attack Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck9 didn't block Nullpriest of Oblivion (57).
+Ai(2)-Gen0_Deck9 didn't block Nullpriest of Oblivion (59).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Damage: Nullpriest of Oblivion (59) deals 3 combat damage to Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Nullpriest of Oblivion (59) deals 3 combat damage to Ai(2)-Gen0_Deck9.
+Damage: Nullpriest of Oblivion (57) deals 2 combat damage to Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Mana: Forest (74) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck9 cast Snakeskin Veil (96) targeting [Wary Thespian (78)]
+Resolve stack: Snakeskin Veil (96) - Ai(2)-Gen0_Deck9 puts a +1/+1 counter on Wary Thespian (78). It gains hexproof until end of turn.
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck9)
+Phase: Ai(2)-Gen0_Deck9's Untap step
+Phase: Ai(2)-Gen0_Deck9's Upkeep step
+Phase: Ai(2)-Gen0_Deck9's Draw step
+Phase: Ai(2)-Gen0_Deck9's Main phase, precombat
+Land: Ai(2)-Gen0_Deck9 played Forest (70)
+Phase: Ai(2)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck9 assigned Wary Thespian (78) to attack Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck13 didn't block Wary Thespian (78).
+Phase: Ai(2)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck9's Combat Damage Step
+Damage: Wary Thespian (78) deals 4 combat damage to Ai(1)-Gen0_Deck13.
+Phase: Ai(2)-Gen0_Deck9's End of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck9's End step
+Phase: Ai(2)-Gen0_Deck9's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Nullpriest of Oblivion (59) and Nullpriest of Oblivion (57) to attack Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck9 didn't block Nullpriest of Oblivion (57).
+Ai(2)-Gen0_Deck9 didn't block Nullpriest of Oblivion (59).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Damage: Nullpriest of Oblivion (59) deals 3 combat damage to Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's Combat Damage Step
+Damage: Nullpriest of Oblivion (59) deals 3 combat damage to Ai(2)-Gen0_Deck9.
+Damage: Nullpriest of Oblivion (57) deals 2 combat damage to Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's End of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck13's End step
+Phase: Ai(1)-Gen0_Deck13's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck9)
+Phase: Ai(2)-Gen0_Deck9's Untap step
+Phase: Ai(2)-Gen0_Deck9's Upkeep step
+Phase: Ai(2)-Gen0_Deck9's Draw step
+Phase: Ai(2)-Gen0_Deck9's Main phase, precombat
+Land: Ai(2)-Gen0_Deck9 played Demolition Field (120)
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Island (87) - {T}: Add {U}.
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck9 activated Rogue's Passage (100) targeting [Wary Thespian (78)]
+Resolve stack: Rogue's Passage (100) - Wary Thespian (78) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck9's End of Combat Step
+Phase: Ai(2)-Gen0_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck9's End step
+Phase: Ai(2)-Gen0_Deck9's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck13)
+Phase: Ai(1)-Gen0_Deck13's Untap step
+Phase: Ai(1)-Gen0_Deck13's Upkeep step
+Phase: Ai(1)-Gen0_Deck13's Draw step
+Phase: Ai(1)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck13 assigned Nullpriest of Oblivion (59) and Nullpriest of Oblivion (57) to attack Ai(2)-Gen0_Deck9.
+Phase: Ai(1)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck9 didn't block Nullpriest of Oblivion (57).
+Ai(2)-Gen0_Deck9 didn't block Nullpriest of Oblivion (59).
+Phase: Ai(1)-Gen0_Deck13's First Strike Damage Step
+Damage: Nullpriest of Oblivion (59) deals 3 combat damage to Ai(2)-Gen0_Deck9.
+Player control: Ai(1)-Gen0_Deck13 is controlled by Ai(1)-Gen0_Deck13
+Player control: Ai(2)-Gen0_Deck9 is controlled by Ai(2)-Gen0_Deck9
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen0_Deck13 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck9 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck13: 1 Ai(2)-Gen0_Deck9: 0 
+
+Game Result: Game 1 ended in 12869 ms. Ai(1)-Gen0_Deck13 has won!
+
+
+=== STDERR ===

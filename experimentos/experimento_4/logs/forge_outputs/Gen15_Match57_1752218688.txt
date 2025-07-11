@@ -1,0 +1,1074 @@
+=== COMBATE PARALELO: Gen15_Deck4 vs Gen15_Deck11 ===
+Worker ID: 2214768
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen15_Deck4 Gen15_Deck11 -n 1
+Duración: 73.79 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1774 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 58 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen15_Deck4 vs Ai(2)-Gen15_Deck11 - one game of Constructed
+Mulligan: Ai(2)-Gen15_Deck11 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen15_Deck4 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Land: Ai(2)-Gen15_Deck11 played Plains (89)
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Hinterland Sanctifier (84)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (37)
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Land: Ai(2)-Gen15_Deck11 played Plains (97)
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (84) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Hinterland Sanctifier (84).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Demolition Field (59)
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Valorous Stance (61)
+Resolve stack: Valorous Stance (61) -  Destroy target creature with toughness 4 or greater. (Targeting: Gleaming Barrier (18))
+Add to stack: Ai(1)-Gen15_Deck4 triggered Gleaming Barrier (18)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (18)]
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Land: Ai(2)-Gen15_Deck11 played Plains (101)
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Adaptive Automaton (117)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (117)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (84) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Hinterland Sanctifier (84).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Crawling Barrens (53)
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Mana: Treasure Token (123) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen15_Deck4 cast Felidar Savior (10)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen15_Deck4 triggered Felidar Savior (10) targeting []
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[]]) [Zone Changer: Felidar Savior (10)]
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Land: Ai(2)-Gen15_Deck11 played Plains (93)
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Felidar Savior (69)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen15_Deck11 triggered Felidar Savior (69) targeting [Adaptive Automaton (117), Hinterland Sanctifier (84)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Adaptive Automaton (117), Hinterland Sanctifier (84)]]) [Zone Changer: Felidar Savior (69)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (69)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Adaptive Automaton (117) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Adaptive Automaton (117).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Adaptive Automaton (117) deals 3 combat damage to Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (30)
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Felidar Savior (8)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen15_Deck4 triggered Felidar Savior (8) targeting [Felidar Savior (10)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Felidar Savior (10)]]) [Zone Changer: Felidar Savior (8)]
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Gleaming Barrier (77)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (77)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Land: Ai(2)-Gen15_Deck11 played Plains (100)
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (36)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Land: Ai(2)-Gen15_Deck11 played Plains (95)
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (42)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (39)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Burnished Hart (27)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Jazal Goldmane (86)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Jazal Goldmane (86)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Divine Resilience (106) targeting [Felidar Savior (69)]
+Resolve stack: Divine Resilience (106) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Felidar Savior (69))
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (33)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Mana: Crawling Barrens (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Felidar Savior (9)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen15_Deck4 triggered Felidar Savior (9) targeting [Crawling Barrens (53), Felidar Savior (10)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Crawling Barrens (53), Felidar Savior (10)]]) [Zone Changer: Felidar Savior (9)]
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Jazal Goldmane (86) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Jazal Goldmane (86).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Damage: Jazal Goldmane (86) deals 5 combat damage to Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (31)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Banishing Light (15)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen15_Deck4 triggered Banishing Light (15) targeting [Jazal Goldmane (86)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Jazal Goldmane (86)]]) [Zone Changer: Banishing Light (15)]
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53) and Felidar Savior (10) to attack Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen15_Deck11 didn't block Crawling Barrens (53).
+Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (84) and Adaptive Automaton (117) to block Felidar Savior (10).
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Divine Resilience (108) targeting [Adaptive Automaton (117), Hinterland Sanctifier (84)]
+Resolve stack: Divine Resilience (108) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Adaptive Automaton (117) and Hinterland Sanctifier (84))
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Damage: Crawling Barrens (53) deals 11 combat damage to Ai(2)-Gen15_Deck11.
+Damage: Felidar Savior (10) deals 3 damage () to Hinterland Sanctifier (84).
+Damage: Felidar Savior (10) deals 1 damage () to Adaptive Automaton (117).
+Damage: Hinterland Sanctifier (84) deals 2 damage () to Felidar Savior (10).
+Damage: Adaptive Automaton (117) deals 3 damage () to Felidar Savior (10).
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Adaptive Automaton (117) and Felidar Savior (69) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Adaptive Automaton (117).
+Ai(1)-Gen15_Deck4 assigned Burnished Hart (27) and Felidar Savior (8) to block Felidar Savior (69).
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Divine Resilience (107) targeting [Felidar Savior (69)]
+Resolve stack: Divine Resilience (107) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Felidar Savior (69))
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Adaptive Automaton (117) deals 3 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Felidar Savior (69) deals 1 damage () to Felidar Savior (8).
+Damage: Felidar Savior (69) deals 2 damage () to Burnished Hart (27).
+Damage: Burnished Hart (27) deals 2 damage () to Felidar Savior (69).
+Damage: Felidar Savior (8) deals 2 damage () to Felidar Savior (69).
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Land: Ai(2)-Gen15_Deck11 played Cryptic Caves (67)
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 activated Cryptic Caves (67)
+Resolve stack: Cryptic Caves (67) - Ai(2)-Gen15_Deck11 draws a card.
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (41)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53), Felidar Savior (8) and Felidar Savior (9) to attack Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen15_Deck11 didn't block Crawling Barrens (53).
+Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (77) to block Felidar Savior (8).
+Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (84) to block Felidar Savior (9).
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Damage: Crawling Barrens (53) deals 15 combat damage to Ai(2)-Gen15_Deck11.
+Damage: Felidar Savior (8) deals 2 damage () to Gleaming Barrier (77).
+Damage: Felidar Savior (9) deals 2 damage () to Hinterland Sanctifier (84).
+Damage: Hinterland Sanctifier (84) deals 2 damage () to Felidar Savior (9).
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Arahbo, the First Fang (109)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen15_Deck11 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (109)]
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (127)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Arahbo, the First Fang (109)]
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Gleaming Barrier (78)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (78)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Adaptive Automaton (117), Felidar Savior (69) and Hinterland Sanctifier (84) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen15_Deck4 didn't block Adaptive Automaton (117).
+Ai(1)-Gen15_Deck4 didn't block Felidar Savior (69).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Adaptive Automaton (117) deals 4 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Felidar Savior (69) deals 4 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Hinterland Sanctifier (84) deals 2 combat damage to Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Banishing Light (13)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen15_Deck4 triggered Banishing Light (13) targeting [Felidar Savior (69)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Felidar Savior (69)]]) [Zone Changer: Banishing Light (13)]
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Arahbo, the First Fang (51)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen15_Deck4 triggered Arahbo, the First Fang (51)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (51)]
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Gleaming Barrier (79)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (79)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Adaptive Automaton (117) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Cat Token (131) and Arahbo, the First Fang (51) to block Adaptive Automaton (117).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Adaptive Automaton (117) deals 2 damage () to Cat Token (131).
+Damage: Adaptive Automaton (117) deals 2 damage () to Arahbo, the First Fang (51).
+Damage: Cat Token (131) deals 2 damage () to Adaptive Automaton (117).
+Damage: Arahbo, the First Fang (51) deals 2 damage () to Adaptive Automaton (117).
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53), Felidar Savior (8) and Felidar Savior (9) to attack Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (79) to block Crawling Barrens (53).
+Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (77), Hinterland Sanctifier (84) and Arahbo, the First Fang (109) to block Felidar Savior (8).
+Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (78) to block Felidar Savior (9).
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Damage: Crawling Barrens (53) deals 19 damage () to Gleaming Barrier (79).
+Damage: Felidar Savior (8) deals 2 damage () to Gleaming Barrier (77).
+Damage: Felidar Savior (9) deals 2 damage () to Gleaming Barrier (78).
+Damage: Hinterland Sanctifier (84) deals 2 damage () to Felidar Savior (8).
+Damage: Arahbo, the First Fang (109) deals 2 damage () to Felidar Savior (8).
+Add to stack: Ai(2)-Gen15_Deck11 triggered Gleaming Barrier (79)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (79)]
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Prideful Parent (72)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen15_Deck11 triggered Prideful Parent (72)
+Add to stack: Ai(2)-Gen15_Deck11 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (72)]
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (139)]
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (72)]
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (141)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Prideful Parent (72)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (84), Arahbo, the First Fang (109) and Cat Token (127) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen15_Deck4 didn't block Arahbo, the First Fang (109).
+Ai(1)-Gen15_Deck4 didn't block Cat Token (127).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 2 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Arahbo, the First Fang (109) deals 2 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Cat Token (127) deals 2 combat damage to Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Cryptic Caves (7)
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Cryptic Caves (7)
+Resolve stack: Cryptic Caves (7) - Ai(1)-Gen15_Deck4 draws a card.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Gleaming Barrier (17)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Prideful Parent (72), Hinterland Sanctifier (84), Arahbo, the First Fang (109), Cat Token (127), Cat Token (139) and Cat Token (141) to attack Ai(1)-Gen15_Deck4.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Felidar Savior (9) to block Hinterland Sanctifier (84).
+Ai(1)-Gen15_Deck4 assigned Gleaming Barrier (17) to block Prideful Parent (72).
+Ai(1)-Gen15_Deck4 didn't block Cat Token (139).
+Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53) to block Arahbo, the First Fang (109).
+Ai(1)-Gen15_Deck4 didn't block Cat Token (141).
+Ai(1)-Gen15_Deck4 didn't block Cat Token (127).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Prideful Parent (72) deals 3 damage () to Gleaming Barrier (17).
+Damage: Hinterland Sanctifier (84) deals 2 damage () to Felidar Savior (9).
+Damage: Arahbo, the First Fang (109) deals 2 damage () to Crawling Barrens (53).
+Damage: Cat Token (127) deals 2 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Cat Token (139) deals 2 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Cat Token (141) deals 2 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Felidar Savior (9) deals 2 damage () to Hinterland Sanctifier (84).
+Damage: Crawling Barrens (53) deals 21 damage () to Arahbo, the First Fang (109).
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Land: Ai(2)-Gen15_Deck11 played Plains (102)
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (32)
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Jazal Goldmane (26)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Hinterland Sanctifier (83)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (83)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (84), Prideful Parent (72), Cat Token (127), Cat Token (139) and Cat Token (141) to attack Ai(1)-Gen15_Deck4.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Felidar Savior (9) to block Hinterland Sanctifier (84).
+Ai(1)-Gen15_Deck4 assigned Gleaming Barrier (17) to block Prideful Parent (72).
+Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53) to block Cat Token (139).
+Ai(1)-Gen15_Deck4 didn't block Cat Token (141).
+Ai(1)-Gen15_Deck4 assigned Jazal Goldmane (26) to block Cat Token (127).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 4 damage () to Cat Token (127).
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 2 damage () to Felidar Savior (9).
+Damage: Prideful Parent (72) deals 2 damage () to Gleaming Barrier (17).
+Damage: Cat Token (139) deals 1 damage () to Crawling Barrens (53).
+Damage: Cat Token (141) deals 1 combat damage to Ai(1)-Gen15_Deck4.
+Damage: Felidar Savior (9) deals 2 damage () to Hinterland Sanctifier (84).
+Damage: Crawling Barrens (53) deals 23 damage () to Cat Token (139).
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 30 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 31 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Adaptive Automaton (116)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (83)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (116)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (116)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (84), Cat Token (141), Hinterland Sanctifier (83) and Prideful Parent (72) to attack Ai(1)-Gen15_Deck4.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Gleaming Barrier (17) to block Hinterland Sanctifier (83).
+Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53) to block Hinterland Sanctifier (84).
+Ai(1)-Gen15_Deck4 assigned Jazal Goldmane (26) to block Prideful Parent (72).
+Ai(1)-Gen15_Deck4 assigned Felidar Savior (9) to block Cat Token (141).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 4 damage () to Prideful Parent (72).
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 2 damage () to Crawling Barrens (53).
+Damage: Cat Token (141) deals 2 damage () to Felidar Savior (9).
+Damage: Hinterland Sanctifier (83) deals 1 damage () to Gleaming Barrier (17).
+Damage: Crawling Barrens (53) deals 27 damage () to Hinterland Sanctifier (84).
+Damage: Felidar Savior (9) deals 2 damage () to Cat Token (141).
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 32 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53), Jazal Goldmane (26) and Felidar Savior (9) to attack Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (78) to block Crawling Barrens (53).
+Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (77) to block Felidar Savior (9).
+Ai(2)-Gen15_Deck11 didn't block Jazal Goldmane (26).
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 4 combat damage to Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Damage: Crawling Barrens (53) deals 31 damage () to Gleaming Barrier (78).
+Damage: Felidar Savior (9) deals 2 damage () to Gleaming Barrier (77).
+Add to stack: Ai(2)-Gen15_Deck11 triggered Gleaming Barrier (78)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (78)]
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 33 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen15_Deck11 cast Savannah Lions (104)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Add to stack: Ai(2)-Gen15_Deck11 triggered Hinterland Sanctifier (83)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Savannah Lions (104)]
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Adaptive Automaton (116) and Hinterland Sanctifier (83) to attack Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen15_Deck4 didn't block Hinterland Sanctifier (83).
+Ai(1)-Gen15_Deck4 assigned Gleaming Barrier (17) to block Adaptive Automaton (116).
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Damage: Adaptive Automaton (116) deals 2 damage () to Gleaming Barrier (17).
+Damage: Hinterland Sanctifier (83) deals 1 combat damage to Ai(1)-Gen15_Deck4.
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 34 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Arahbo, the First Fang (50)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen15_Deck4 triggered Arahbo, the First Fang (50)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (50)]
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Prideful Parent (12)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen15_Deck4 triggered Arahbo, the First Fang (50)
+Add to stack: Ai(1)-Gen15_Deck4 triggered Prideful Parent (12)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (12)]
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (12)]
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 35 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Land: Ai(2)-Gen15_Deck11 played Plains (91)
+Phase: Ai(2)-Gen15_Deck11's End step
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (41) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 36 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Land: Ai(1)-Gen15_Deck4 played Plains (34)
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53), Jazal Goldmane (26), Felidar Savior (9), Arahbo, the First Fang (50), Cat Token (148), Cat Token (153), Cat Token (155) and Prideful Parent (12) to attack Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen15_Deck11 assigned Adaptive Automaton (116) to block Arahbo, the First Fang (50).
+Ai(2)-Gen15_Deck11 didn't block Cat Token (148).
+Ai(2)-Gen15_Deck11 assigned Hinterland Sanctifier (83) to block Crawling Barrens (53).
+Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (77) to block Felidar Savior (9).
+Ai(2)-Gen15_Deck11 didn't block Cat Token (153).
+Ai(2)-Gen15_Deck11 didn't block Jazal Goldmane (26).
+Ai(2)-Gen15_Deck11 didn't block Cat Token (155).
+Ai(2)-Gen15_Deck11 assigned Savannah Lions (104) to block Prideful Parent (12).
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 5 combat damage to Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Combat Damage Step
+Damage: Crawling Barrens (53) deals 37 damage () to Hinterland Sanctifier (83).
+Damage: Felidar Savior (9) deals 3 damage () to Gleaming Barrier (77).
+Damage: Arahbo, the First Fang (50) deals 2 damage () to Adaptive Automaton (116).
+Damage: Cat Token (148) deals 2 combat damage to Ai(2)-Gen15_Deck11.
+Damage: Cat Token (153) deals 2 combat damage to Ai(2)-Gen15_Deck11.
+Damage: Cat Token (155) deals 2 combat damage to Ai(2)-Gen15_Deck11.
+Damage: Prideful Parent (12) deals 3 damage () to Savannah Lions (104).
+Damage: Savannah Lions (104) deals 3 damage () to Prideful Parent (12).
+Damage: Adaptive Automaton (116) deals 2 damage () to Arahbo, the First Fang (50).
+Damage: Hinterland Sanctifier (83) deals 1 damage () to Crawling Barrens (53).
+Phase: Ai(1)-Gen15_Deck4's End of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen15_Deck4's End step
+Phase: Ai(1)-Gen15_Deck4's Cleanup step
+Turn: Turn 37 (Ai(2)-Gen15_Deck11)
+Phase: Ai(2)-Gen15_Deck11's Untap step
+Phase: Ai(2)-Gen15_Deck11's Upkeep step
+Phase: Ai(2)-Gen15_Deck11's Draw step
+Phase: Ai(2)-Gen15_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen15_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen15_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen15_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen15_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen15_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen15_Deck11's End of Combat Step
+Phase: Ai(2)-Gen15_Deck11's Main phase, postcombat
+Land: Ai(2)-Gen15_Deck11 played Plains (92)
+Phase: Ai(2)-Gen15_Deck11's End step
+Phase: Ai(2)-Gen15_Deck11's Cleanup step
+Turn: Turn 38 (Ai(1)-Gen15_Deck4)
+Phase: Ai(1)-Gen15_Deck4's Untap step
+Phase: Ai(1)-Gen15_Deck4's Upkeep step
+Phase: Ai(1)-Gen15_Deck4's Draw step
+Phase: Ai(1)-Gen15_Deck4's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (30) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 cast Angel of Vitality (54)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Plains (41) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen15_Deck4 activated Crawling Barrens (53)
+Resolve stack: Crawling Barrens (53) - Ai(1)-Gen15_Deck4 puts two +1/+1 counters on Crawling Barrens (53). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen15_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen15_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen15_Deck4 assigned Crawling Barrens (53), Jazal Goldmane (26), Felidar Savior (9), Cat Token (148), Cat Token (153) and Cat Token (155) to attack Ai(2)-Gen15_Deck11.
+Phase: Ai(1)-Gen15_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen15_Deck11 didn't block Cat Token (148).
+Ai(2)-Gen15_Deck11 assigned Gleaming Barrier (77) to block Crawling Barrens (53).
+Ai(2)-Gen15_Deck11 didn't block Felidar Savior (9).
+Ai(2)-Gen15_Deck11 didn't block Cat Token (153).
+Ai(2)-Gen15_Deck11 didn't block Jazal Goldmane (26).
+Ai(2)-Gen15_Deck11 didn't block Cat Token (155).
+Phase: Ai(1)-Gen15_Deck4's First Strike Damage Step
+Damage: Jazal Goldmane (26) deals 4 combat damage to Ai(2)-Gen15_Deck11.
+Player control: Ai(1)-Gen15_Deck4 is controlled by Ai(1)-Gen15_Deck4
+Player control: Ai(2)-Gen15_Deck11 is controlled by Ai(2)-Gen15_Deck11
+Game outcome: Turn 19
+Game outcome: Ai(1)-Gen15_Deck4 has won because all opponents have lost
+Game outcome: Ai(2)-Gen15_Deck11 has lost because life total reached 0
+Match result: Ai(1)-Gen15_Deck4: 1 Ai(2)-Gen15_Deck11: 0 
+
+Game Result: Game 1 ended in 63139 ms. Ai(1)-Gen15_Deck4 has won!
+
+
+=== STDERR ===

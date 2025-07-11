@@ -1,0 +1,308 @@
+=== COMBATE PARALELO: Gen0_Deck6 vs Gen0_Deck0 ===
+Worker ID: 1446655
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck6 Gen0_Deck0 -n 1
+Duración: 22.97 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2101 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 64 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck6 vs Ai(2)-Gen0_Deck0 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck6 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck0 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Crawling Barrens (54)
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Plains (98)
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Hinterland Sanctifier (84)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck6 played Maze's End (5)
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Crawling Barrens (113)
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Gleaming Barrier (76)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Add to stack: Ai(2)-Gen0_Deck0 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Gleaming Barrier (76)]
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Hinterland Sanctifier (84) to attack Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck6 didn't block Hinterland Sanctifier (84).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Plains (99)
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Arahbo, the First Fang (109)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck0 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen0_Deck0 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (109)]
+Add to stack: Ai(2)-Gen0_Deck0 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (124)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Arahbo, the First Fang (109)]
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Hinterland Sanctifier (84) to attack Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck6 didn't block Hinterland Sanctifier (84).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Land: Ai(1)-Gen0_Deck6 played Plains (34)
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Crawling Barrens (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Resolute Reinforcements (44)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck6 triggered Resolute Reinforcements (44)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (44)]
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Plains (94)
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Jazal Goldmane (86)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(2)-Gen0_Deck0 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen0_Deck0 triggered Arahbo, the First Fang (109)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Jazal Goldmane (86)]
+Add to stack: Ai(2)-Gen0_Deck0 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (131)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Jazal Goldmane (86)]
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Arahbo, the First Fang (109), Cat Token (124) and Hinterland Sanctifier (84) to attack Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck6 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen0_Deck6 didn't block Cat Token (124).
+Ai(1)-Gen0_Deck6 didn't block Arahbo, the First Fang (109).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Arahbo, the First Fang (109) deals 2 combat damage to Ai(1)-Gen0_Deck6.
+Damage: Cat Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck6.
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Crawling Barrens (54) - {T}: Add {C}.
+Mana: Maze's End (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck6 cast Cat Collector (19)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen0_Deck6 triggered Cat Collector (19)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (19)]
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Angel of Vitality (115)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck0 triggered Hinterland Sanctifier (84)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Vitality (115)]
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Jazal Goldmane (86), Arahbo, the First Fang (109), Cat Token (124) and Cat Token (131) to attack Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck6 didn't block Cat Token (131).
+Ai(1)-Gen0_Deck6 didn't block Jazal Goldmane (86).
+Ai(1)-Gen0_Deck6 didn't block Cat Token (124).
+Ai(1)-Gen0_Deck6 assigned Cat Collector (19) to block Arahbo, the First Fang (109).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Damage: Jazal Goldmane (86) deals 5 combat damage to Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Arahbo, the First Fang (109) deals 2 damage () to Cat Collector (19).
+Damage: Cat Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck6.
+Damage: Cat Token (131) deals 2 combat damage to Ai(1)-Gen0_Deck6.
+Damage: Cat Collector (19) deals 3 damage () to Arahbo, the First Fang (109).
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck6)
+Phase: Ai(1)-Gen0_Deck6's Untap step
+Phase: Ai(1)-Gen0_Deck6's Upkeep step
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Crawling Barrens (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck6 activated Food Token (135)
+Resolve stack: Food Token (135) - Ai(1)-Gen0_Deck6 gains 3 life.
+Phase: Ai(1)-Gen0_Deck6's Draw step
+Phase: Ai(1)-Gen0_Deck6's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck6's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck6 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck6's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck6's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck6's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck6's End of Combat Step
+Phase: Ai(1)-Gen0_Deck6's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck6's End step
+Phase: Ai(1)-Gen0_Deck6's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Banishing Light (73)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen0_Deck0 triggered Banishing Light (73) targeting [Resolute Reinforcements (44)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Resolute Reinforcements (44)]]) [Zone Changer: Banishing Light (73)]
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Jazal Goldmane (86), Angel of Vitality (115), Hinterland Sanctifier (84), Cat Token (124) and Cat Token (131) to attack Ai(1)-Gen0_Deck6.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck6 didn't block Angel of Vitality (115).
+Ai(1)-Gen0_Deck6 didn't block Cat Token (131).
+Ai(1)-Gen0_Deck6 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen0_Deck6 assigned Soldier Token (128) to block Jazal Goldmane (86).
+Ai(1)-Gen0_Deck6 didn't block Cat Token (124).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Damage: Jazal Goldmane (86) deals 4 damage () to Soldier Token (128).
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Angel of Vitality (115) deals 4 combat damage to Ai(1)-Gen0_Deck6.
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen0_Deck6.
+Damage: Cat Token (124) deals 1 combat damage to Ai(1)-Gen0_Deck6.
+Damage: Cat Token (131) deals 1 combat damage to Ai(1)-Gen0_Deck6.
+Player control: Ai(1)-Gen0_Deck6 is controlled by Ai(1)-Gen0_Deck6
+Player control: Ai(2)-Gen0_Deck0 is controlled by Ai(2)-Gen0_Deck0
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen0_Deck6 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck0 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck6: 0 Ai(2)-Gen0_Deck0: 1 
+
+Game Result: Game 1 ended in 12180 ms. Ai(2)-Gen0_Deck0 has won!
+
+
+=== STDERR ===

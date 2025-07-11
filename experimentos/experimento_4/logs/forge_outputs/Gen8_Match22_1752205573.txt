@@ -1,0 +1,411 @@
+=== COMBATE PARALELO: Gen8_Deck1 vs Gen8_Deck9 ===
+Worker ID: 1840616
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen8_Deck1 Gen8_Deck9 -n 1
+Duración: 23.10 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1807 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 110 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen8_Deck1 vs Ai(2)-Gen8_Deck9 - one game of Constructed
+Mulligan: Ai(2)-Gen8_Deck9 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen8_Deck9 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen8_Deck1 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Plains (97)
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen8_Deck1 played Secluded Courtyard (37)
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Cryptic Caves (66)
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck9 cast Hinterland Sanctifier (84)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Land: Ai(1)-Gen8_Deck1 played Swamp (25)
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Plains (95)
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Cryptic Caves (66) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen8_Deck9 cast Prideful Parent (72)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck9 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen8_Deck9 triggered Prideful Parent (72)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (72)]
+Add to stack: Ai(2)-Gen8_Deck9 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (124)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Prideful Parent (72)]
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 assigned Hinterland Sanctifier (84) to attack Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck1 didn't block Hinterland Sanctifier (84).
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Land: Ai(1)-Gen8_Deck1 played Demolition Field (52)
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Cryptic Caves (67)
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 assigned Prideful Parent (72), Hinterland Sanctifier (84) and Cat Token (124) to attack Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck1 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen8_Deck1 didn't block Prideful Parent (72).
+Ai(1)-Gen8_Deck1 didn't block Cat Token (124).
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Damage: Prideful Parent (72) deals 2 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Cat Token (124) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Discard: Ai(1)-Gen8_Deck1 discards Driver of the Dead (53).
+Turn: Turn 9 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Plains (89)
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck9 activated Cryptic Caves (66)
+Resolve stack: Cryptic Caves (66) - Ai(2)-Gen8_Deck9 draws a card.
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 assigned Prideful Parent (72), Hinterland Sanctifier (84) and Cat Token (124) to attack Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck1 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen8_Deck1 didn't block Prideful Parent (72).
+Ai(1)-Gen8_Deck1 didn't block Cat Token (124).
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Damage: Prideful Parent (72) deals 2 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Cat Token (124) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Discard: Ai(1)-Gen8_Deck1 discards Soul-Shackled Zombie (21).
+Turn: Turn 11 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Plains (90)
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck9 activated Cryptic Caves (67)
+Resolve stack: Cryptic Caves (67) - Ai(2)-Gen8_Deck9 draws a card.
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 assigned Prideful Parent (72), Hinterland Sanctifier (84) and Cat Token (124) to attack Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck1 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen8_Deck1 didn't block Prideful Parent (72).
+Ai(1)-Gen8_Deck1 didn't block Cat Token (124).
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Damage: Prideful Parent (72) deals 2 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Hinterland Sanctifier (84) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Cat Token (124) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen8_Deck1 played Secluded Courtyard (35)
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Secluded Courtyard (37) - {T}: Add {C}.
+Mana: Secluded Courtyard (35) - {T}: Add {C}.
+Mana: Demolition Field (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck1 cast Soul-Shackled Zombie (18)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(1)-Gen8_Deck1 triggered Soul-Shackled Zombie (18) targeting [Cryptic Caves (66), Cryptic Caves (67)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Cryptic Caves (66), Cryptic Caves (67)]]) [Zone Changer: Soul-Shackled Zombie (18)]
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Cryptic Caves (64)
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck9 cast Felidar Savior (69)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen8_Deck9 triggered Hinterland Sanctifier (84)
+Add to stack: Ai(2)-Gen8_Deck9 triggered Felidar Savior (69) targeting [Prideful Parent (72), Hinterland Sanctifier (84)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Prideful Parent (72), Hinterland Sanctifier (84)]]) [Zone Changer: Felidar Savior (69)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (69)]
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 assigned Hinterland Sanctifier (84) and Prideful Parent (72) to attack Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck1 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen8_Deck1 assigned Soul-Shackled Zombie (18) to block Prideful Parent (72).
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 2 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Prideful Parent (72) deals 3 damage () to Soul-Shackled Zombie (18).
+Damage: Soul-Shackled Zombie (18) deals 4 damage () to Prideful Parent (72).
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen8_Deck1 played Orzhov Guildgate (10)
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Secluded Courtyard (37) - {T}: Add {C}.
+Mana: Secluded Courtyard (35) - {T}: Add {C}.
+Mana: Demolition Field (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen8_Deck1 cast Soul-Shackled Zombie (19)
+Resolve stack: Soul-Shackled Zombie - Creature 4 / 2
+Add to stack: Ai(1)-Gen8_Deck1 triggered Soul-Shackled Zombie (19) targeting [Prideful Parent (72)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Prideful Parent (72)]]) [Zone Changer: Soul-Shackled Zombie (19)]
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck9 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen8_Deck9 draws a card.
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Plains (96)
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck9 cast Banishing Light (74)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen8_Deck9 triggered Banishing Light (74) targeting [Soul-Shackled Zombie (19)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Soul-Shackled Zombie (19)]]) [Zone Changer: Banishing Light (74)]
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 assigned Hinterland Sanctifier (84), Felidar Savior (69) and Cat Token (124) to attack Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck1 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen8_Deck1 didn't block Felidar Savior (69).
+Ai(1)-Gen8_Deck1 didn't block Cat Token (124).
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 2 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Felidar Savior (69) deals 2 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Cat Token (124) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's End of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen8_Deck9's End step
+Phase: Ai(2)-Gen8_Deck9's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen8_Deck1)
+Phase: Ai(1)-Gen8_Deck1's Untap step
+Phase: Ai(1)-Gen8_Deck1's Upkeep step
+Phase: Ai(1)-Gen8_Deck1's Draw step
+Phase: Ai(1)-Gen8_Deck1's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen8_Deck1 played Orzhov Guildgate (12)
+Phase: Ai(1)-Gen8_Deck1's Beginning of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Declare Attackers Step
+Combat: Ai(1)-Gen8_Deck1 didn't attack this turn.
+Phase: Ai(1)-Gen8_Deck1's Declare Blockers Step
+Phase: Ai(1)-Gen8_Deck1's First Strike Damage Step
+Phase: Ai(1)-Gen8_Deck1's Combat Damage Step
+Phase: Ai(1)-Gen8_Deck1's End of Combat Step
+Phase: Ai(1)-Gen8_Deck1's Main phase, postcombat
+Mana: Orzhov Guildgate (10) - {T}: Add {W} or {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen8_Deck1 cast Felidar Cub (24)
+Resolve stack: Felidar Cub - Creature 2 / 2
+Phase: Ai(1)-Gen8_Deck1's End step
+Phase: Ai(1)-Gen8_Deck1's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen8_Deck9)
+Phase: Ai(2)-Gen8_Deck9's Untap step
+Phase: Ai(2)-Gen8_Deck9's Upkeep step
+Phase: Ai(2)-Gen8_Deck9's Draw step
+Phase: Ai(2)-Gen8_Deck9's Main phase, precombat
+Land: Ai(2)-Gen8_Deck9 played Plains (98)
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen8_Deck9 cast Burnished Hart (88)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Add to stack: Ai(2)-Gen8_Deck9 triggered Hinterland Sanctifier (84)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Burnished Hart (88)]
+Phase: Ai(2)-Gen8_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen8_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen8_Deck9 assigned Hinterland Sanctifier (84), Felidar Savior (69) and Cat Token (124) to attack Ai(1)-Gen8_Deck1.
+Phase: Ai(2)-Gen8_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen8_Deck1 didn't block Hinterland Sanctifier (84).
+Ai(1)-Gen8_Deck1 assigned Felidar Cub (24) to block Felidar Savior (69).
+Ai(1)-Gen8_Deck1 didn't block Cat Token (124).
+Add to stack: Ai(1)-Gen8_Deck1 activated Felidar Cub (24) targeting [Banishing Light (74)]
+Resolve stack: Felidar Cub (24) - Destroy Banishing Light (74).
+Add to stack: Ai(1)-Gen8_Deck1 triggered Soul-Shackled Zombie (19) targeting [Banishing Light (74), Cryptic Caves (64)]
+Resolve stack: When this creature enters, exile up to two target cards from a single graveyard. If at least one creature card was exiled this way, each opponent loses 2 life and you gain 2 life. (Targeting: [[Banishing Light (74), Cryptic Caves (64)]]) [Zone Changer: Soul-Shackled Zombie (19)]
+Phase: Ai(2)-Gen8_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen8_Deck9's Combat Damage Step
+Damage: Hinterland Sanctifier (84) deals 2 combat damage to Ai(1)-Gen8_Deck1.
+Damage: Cat Token (124) deals 1 combat damage to Ai(1)-Gen8_Deck1.
+Player control: Ai(1)-Gen8_Deck1 is controlled by Ai(1)-Gen8_Deck1
+Player control: Ai(2)-Gen8_Deck9 is controlled by Ai(2)-Gen8_Deck9
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen8_Deck1 has lost because life total reached 0
+Game outcome: Ai(2)-Gen8_Deck9 has won because all opponents have lost
+Match result: Ai(1)-Gen8_Deck1: 0 Ai(2)-Gen8_Deck9: 1 
+
+Game Result: Game 1 ended in 12997 ms. Ai(2)-Gen8_Deck9 has won!
+
+
+=== STDERR ===

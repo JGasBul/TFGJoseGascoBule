@@ -1,0 +1,928 @@
+=== COMBATE PARALELO: Gen9_Deck10 vs Gen9_Deck5 ===
+Worker ID: 1893574
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen9_Deck10 Gen9_Deck5 -n 1
+Duración: 132.45 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1853 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 108 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen9_Deck10 vs Ai(2)-Gen9_Deck5 - one game of Constructed
+Stopping slow match as draw
+Mulligan: Ai(1)-Gen9_Deck10 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen9_Deck10 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen9_Deck5 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Plains (43)
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Savannah Lions (44)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Plains (103)
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Savannah Lions (44) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Savannah Lions (44).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Savannah Lions (44) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Land: Ai(1)-Gen9_Deck10 played Plains (29)
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Cryptic Caves (65)
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Gleaming Barrier (79)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Plains (34)
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Angel of Vitality (54)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Plains (100)
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Ajani, Caller of the Pride (80)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen9_Deck5 activated Ajani, Caller of the Pride (80) targeting [Gleaming Barrier (79)]
+Resolve stack: Ajani, Caller of the Pride (80) - Ai(2)-Gen9_Deck5 puts a +1/+1 counter on Gleaming Barrier (79).
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Plains (39)
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Banishing Light (14)
+Resolve stack: Banishing Light
+Add to stack: Ai(1)-Gen9_Deck10 triggered Banishing Light (14) targeting [Ajani, Caller of the Pride (80)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Ajani, Caller of the Pride (80)]]) [Zone Changer: Banishing Light (14)]
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Plains (96)
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Felidar Savior (69)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen9_Deck5 triggered Felidar Savior (69) targeting [Gleaming Barrier (79)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Gleaming Barrier (79)]]) [Zone Changer: Felidar Savior (69)]
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Jazal Goldmane (25)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Valorous Stance (61)
+Resolve stack: Valorous Stance (61) -  Destroy target creature with toughness 4 or greater. (Targeting: Jazal Goldmane (25))
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Cryptic Caves (67)
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 activated Cryptic Caves (65)
+Resolve stack: Cryptic Caves (65) - Ai(2)-Gen9_Deck5 draws a card.
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Felidar Savior (69) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Felidar Savior (69).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Felidar Savior (69) deals 2 combat damage to Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Adaptive Automaton (56)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Plains (91)
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 activated Cryptic Caves (67)
+Resolve stack: Cryptic Caves (67) - Ai(2)-Gen9_Deck5 draws a card.
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Gleaming Barrier (77)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Hinterland Sanctifier (82)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Burnished Hart (28)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Felidar Savior (68)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen9_Deck5 triggered Hinterland Sanctifier (82)
+Add to stack: Ai(2)-Gen9_Deck5 triggered Felidar Savior (68) targeting [Felidar Savior (69), Gleaming Barrier (79)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Felidar Savior (69), Gleaming Barrier (79)]]) [Zone Changer: Felidar Savior (68)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (68)]
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Prideful Parent (11)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen9_Deck10 triggered Prideful Parent (11)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (11)]
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Plains (89)
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Adaptive Automaton (118)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(2)-Gen9_Deck5 triggered Hinterland Sanctifier (82)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (118)]
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Gleaming Barrier (19)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck5 played Plains (95)
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Valorous Stance (3)
+Resolve stack: Valorous Stance (3) -  Destroy target creature with toughness 4 or greater. (Targeting: Felidar Savior (69))
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Angel of Vitality (114)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Add to stack: Ai(2)-Gen9_Deck5 triggered Hinterland Sanctifier (82)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Vitality (114)]
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Gleaming Barrier (16)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Felidar Savior (68) and Angel of Vitality (114) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Angel of Vitality (114).
+Ai(1)-Gen9_Deck10 assigned Gleaming Barrier (19) to block Felidar Savior (68).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Felidar Savior (68) deals 3 damage () to Gleaming Barrier (19).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Damage: Angel of Vitality (114) deals 2 combat damage to Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck5 played Cryptic Caves (64)
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 activated Cryptic Caves (64)
+Resolve stack: Cryptic Caves (64) - Ai(2)-Gen9_Deck5 draws a card.
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Plains (38)
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Felidar Savior (68) and Angel of Vitality (114) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Angel of Vitality (114).
+Ai(1)-Gen9_Deck10 assigned Gleaming Barrier (19) to block Felidar Savior (68).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Felidar Savior (68) deals 3 damage () to Gleaming Barrier (19).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Damage: Angel of Vitality (114) deals 2 combat damage to Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck5 played Cryptic Caves (66)
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 activated Cryptic Caves (66)
+Resolve stack: Cryptic Caves (66) - Ai(2)-Gen9_Deck5 draws a card.
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Hinterland Sanctifier (24)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Mana: Plains (103) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Savannah Lions (104)
+Resolve stack: Savannah Lions - Creature 2 / 1
+Add to stack: Ai(2)-Gen9_Deck5 triggered Hinterland Sanctifier (82)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Savannah Lions (104)]
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Felidar Savior (68) and Angel of Vitality (114) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Angel of Vitality (114).
+Ai(1)-Gen9_Deck10 assigned Gleaming Barrier (19) to block Felidar Savior (68).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Felidar Savior (68) deals 3 damage () to Gleaming Barrier (19).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Damage: Angel of Vitality (114) deals 2 combat damage to Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck5 played Plains (101)
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 2 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Ajani, Caller of the Pride (20)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen9_Deck10 activated Ajani, Caller of the Pride (20) targeting [Prideful Parent (11)]
+Resolve stack: Ajani, Caller of the Pride (20) - Ai(1)-Gen9_Deck10 puts a +1/+1 counter on Prideful Parent (11).
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Angel of Vitality (114) to attack Ajani, Caller of the Pride (20).
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Angel of Vitality (114).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck5 played Plains (94)
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Cryptic Caves (7)
+Add to stack: Ai(1)-Gen9_Deck10 activated Ajani, Caller of the Pride (20) targeting [Prideful Parent (11)]
+Resolve stack: Ajani, Caller of the Pride (20) - Prideful Parent (11) gains flying and double strike until end of turn.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 activated Cryptic Caves (7)
+Resolve stack: Cryptic Caves (7) - Ai(1)-Gen9_Deck10 draws a card.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Felidar Savior (8)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen9_Deck10 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen9_Deck10 triggered Felidar Savior (8) targeting [Prideful Parent (11), Angel of Vitality (54)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Prideful Parent (11), Angel of Vitality (54)]]) [Zone Changer: Felidar Savior (8)]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (8)]
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) and Prideful Parent (11) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Ai(2)-Gen9_Deck5 didn't block Prideful Parent (11).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Damage: Prideful Parent (11) deals 5 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 3 combat damage to Ai(2)-Gen9_Deck5.
+Damage: Prideful Parent (11) deals 5 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Land: Ai(2)-Gen9_Deck5 played Plains (98)
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 31 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Demolition Field (59)
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Savannah Lions (44), Angel of Vitality (54), Felidar Savior (8), Adaptive Automaton (56), Burnished Hart (28), Cat Token (124), Hinterland Sanctifier (24) and Prideful Parent (11) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Angel of Vitality (114) to block Angel of Vitality (54).
+Ai(2)-Gen9_Deck5 assigned Hinterland Sanctifier (82) to block Felidar Savior (8).
+Ai(2)-Gen9_Deck5 assigned Adaptive Automaton (118) to block Adaptive Automaton (56).
+Ai(2)-Gen9_Deck5 didn't block Hinterland Sanctifier (24).
+Ai(2)-Gen9_Deck5 assigned Gleaming Barrier (77) to block Prideful Parent (11).
+Ai(2)-Gen9_Deck5 assigned Gleaming Barrier (79) to block Savannah Lions (44).
+Ai(2)-Gen9_Deck5 assigned Savannah Lions (104) to block Burnished Hart (28).
+Ai(2)-Gen9_Deck5 assigned Felidar Savior (68) to block Cat Token (124).
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Divine Resilience (48) targeting [Savannah Lions (44), Adaptive Automaton (56), Burnished Hart (28), Cat Token (124)]
+Resolve stack: Divine Resilience (48) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Savannah Lions (44), Adaptive Automaton (56), Burnished Hart (28) and Cat Token (124))
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (91) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Divine Resilience (108) targeting [Angel of Vitality (114), Savannah Lions (104), Adaptive Automaton (118), Hinterland Sanctifier (82), Gleaming Barrier (77)]
+Resolve stack: Divine Resilience (108) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Angel of Vitality (114), Savannah Lions (104), Adaptive Automaton (118), Hinterland Sanctifier (82) and Gleaming Barrier (77))
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Divine Resilience (106) targeting [Angel of Vitality (114)]
+Resolve stack: Divine Resilience (106) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Angel of Vitality (114))
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Divine Resilience (107) targeting [Angel of Vitality (114)]
+Resolve stack: Divine Resilience (107) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Angel of Vitality (114))
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Savannah Lions (44) deals 3 damage () to Gleaming Barrier (79).
+Damage: Angel of Vitality (54) deals 3 damage () to Angel of Vitality (114).
+Damage: Felidar Savior (8) deals 3 damage () to Hinterland Sanctifier (82).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Damage: Adaptive Automaton (56) deals 2 damage () to Adaptive Automaton (118).
+Damage: Burnished Hart (28) deals 2 damage () to Savannah Lions (104).
+Damage: Cat Token (124) deals 2 damage () to Felidar Savior (68).
+Damage: Hinterland Sanctifier (24) deals 1 combat damage to Ai(2)-Gen9_Deck5.
+Damage: Prideful Parent (11) deals 5 damage () to Gleaming Barrier (77).
+Damage: Hinterland Sanctifier (82) deals 1 damage () to Felidar Savior (8).
+Damage: Angel of Vitality (114) deals 2 damage () to Angel of Vitality (54).
+Damage: Gleaming Barrier (79) deals 3 damage () to Savannah Lions (44).
+Damage: Adaptive Automaton (118) deals 2 damage () to Adaptive Automaton (56).
+Damage: Savannah Lions (104) deals 3 damage () to Burnished Hart (28).
+Damage: Felidar Savior (68) deals 3 damage () to Cat Token (124).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 32 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Banishing Light (75)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen9_Deck5 triggered Banishing Light (75) targeting [Prideful Parent (11)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Prideful Parent (11)]]) [Zone Changer: Banishing Light (75)]
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Felidar Savior (68) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Gleaming Barrier (19) to block Felidar Savior (68).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Felidar Savior (68) deals 3 damage () to Gleaming Barrier (19).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 33 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 3 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 34 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Burnished Hart (87)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Add to stack: Ai(2)-Gen9_Deck5 triggered Hinterland Sanctifier (82)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Burnished Hart (87)]
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Angel of Vitality (114) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Angel of Vitality (114).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Angel of Vitality (114) deals 2 combat damage to Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 35 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) and Felidar Savior (8) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Ai(2)-Gen9_Deck5 assigned Gleaming Barrier (77), Gleaming Barrier (79) and Felidar Savior (68) to block Felidar Savior (8).
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen9_Deck10 cast Divine Resilience (47) targeting [Felidar Savior (8)]
+Resolve stack: Divine Resilience (47) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Felidar Savior (8))
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 3 combat damage to Ai(2)-Gen9_Deck5.
+Damage: Felidar Savior (8) deals 3 damage () to Gleaming Barrier (77).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Damage: Gleaming Barrier (79) deals 3 damage () to Felidar Savior (8).
+Damage: Felidar Savior (68) deals 3 damage () to Felidar Savior (8).
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 36 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Mana: Plains (103) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen9_Deck5 cast Adaptive Automaton (117)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(2)-Gen9_Deck5 triggered Hinterland Sanctifier (82)
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Adaptive Automaton (117)]
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Angel of Vitality (114) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Angel of Vitality (114).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Angel of Vitality (114) deals 2 combat damage to Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 37 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Plains (42)
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen9_Deck10 assigned Angel of Vitality (54) to attack Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen9_Deck5 didn't block Angel of Vitality (54).
+Phase: Ai(1)-Gen9_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen9_Deck10's Combat Damage Step
+Damage: Angel of Vitality (54) deals 3 combat damage to Ai(2)-Gen9_Deck5.
+Phase: Ai(1)-Gen9_Deck10's End of Combat Step
+Phase: Ai(1)-Gen9_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen9_Deck10's End step
+Phase: Ai(1)-Gen9_Deck10's Cleanup step
+Turn: Turn 38 (Ai(2)-Gen9_Deck5)
+Phase: Ai(2)-Gen9_Deck5's Untap step
+Phase: Ai(2)-Gen9_Deck5's Upkeep step
+Phase: Ai(2)-Gen9_Deck5's Draw step
+Phase: Ai(2)-Gen9_Deck5's Main phase, precombat
+Land: Ai(2)-Gen9_Deck5 played Plains (90)
+Phase: Ai(2)-Gen9_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen9_Deck5 assigned Angel of Vitality (114) to attack Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen9_Deck10 didn't block Angel of Vitality (114).
+Phase: Ai(2)-Gen9_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen9_Deck5's Combat Damage Step
+Damage: Angel of Vitality (114) deals 2 combat damage to Ai(1)-Gen9_Deck10.
+Phase: Ai(2)-Gen9_Deck5's End of Combat Step
+Phase: Ai(2)-Gen9_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen9_Deck5's End step
+Phase: Ai(2)-Gen9_Deck5's Cleanup step
+Turn: Turn 39 (Ai(1)-Gen9_Deck10)
+Phase: Ai(1)-Gen9_Deck10's Untap step
+Phase: Ai(1)-Gen9_Deck10's Upkeep step
+Phase: Ai(1)-Gen9_Deck10's Draw step
+Phase: Ai(1)-Gen9_Deck10's Main phase, precombat
+Land: Ai(1)-Gen9_Deck10 played Plains (36)
+Phase: Ai(1)-Gen9_Deck10's Beginning of Combat Step
+Player control: Ai(1)-Gen9_Deck10 is controlled by Ai(1)-Gen9_Deck10
+Player control: Ai(2)-Gen9_Deck5 is controlled by Ai(2)-Gen9_Deck5
+Game outcome: Turn 20
+Game outcome: Ai(1)-Gen9_Deck10 has won because all opponents have lost
+Game outcome: Ai(2)-Gen9_Deck5 has won because all opponents have lost
+Match result: Ai(1)-Gen9_Deck10: 1 Ai(2)-Gen9_Deck5: 0 
+
+Game Result: Game 1 ended in 120139 ms. Ai(1)-Gen9_Deck10 has won!
+
+
+=== STDERR ===

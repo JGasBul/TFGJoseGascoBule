@@ -1,0 +1,537 @@
+=== COMBATE PARALELO: Gen2_Deck10 vs Gen2_Deck3 ===
+Worker ID: 1538231
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck10 Gen2_Deck3 -n 1
+Duración: 63.30 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1961 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 85 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck10 vs Ai(2)-Gen2_Deck3 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck10 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Land: Ai(1)-Gen2_Deck10 played Swamp (24)
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Land: Ai(2)-Gen2_Deck3 played Plains (96)
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Land: Ai(1)-Gen2_Deck10 played Soulstone Sanctuary (43)
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Zul Ashur, Lich Lord (29)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Land: Ai(2)-Gen2_Deck3 played Cryptic Caves (65)
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Gleaming Barrier (79)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Land: Ai(1)-Gen2_Deck10 played Mountain (52)
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Land: Ai(2)-Gen2_Deck3 played Plains (97)
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Adaptive Automaton (118)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Mana: Swamp (24) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Stab (18) targeting [Adaptive Automaton (118)]
+Resolve stack: Stab (18) - Adaptive Automaton (118) gets -2/-2  until end of turn.
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Land: Ai(1)-Gen2_Deck10 played Mountain (55)
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Spitfire Lagac (42)
+Resolve stack: Spitfire Lagac - Creature 3 / 4
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Banishing Light (74)
+Resolve stack: Banishing Light
+Add to stack: Ai(2)-Gen2_Deck3 triggered Banishing Light (74) targeting [Spitfire Lagac (42)]
+Resolve stack: When Banishing Light enters, exile target nonland permanent an opponent controls until Banishing Light leaves the battlefield. (Targeting: [[Spitfire Lagac (42)]]) [Zone Changer: Banishing Light (74)]
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Land: Ai(1)-Gen2_Deck10 played Swamp (25)
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck10 activated Soulstone Sanctuary (43)
+Resolve stack: Soulstone Sanctuary (43) - Soulstone Sanctuary (43) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 assigned Soulstone Sanctuary (43) and Zul Ashur, Lich Lord (29) to attack Ai(2)-Gen2_Deck3.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck3 assigned Gleaming Barrier (79) to block Soulstone Sanctuary (43).
+Ai(2)-Gen2_Deck3 didn't block Zul Ashur, Lich Lord (29).
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Damage: Soulstone Sanctuary (43) deals 3 damage () to Gleaming Barrier (79).
+Damage: Zul Ashur, Lich Lord (29) deals 2 combat damage to Ai(2)-Gen2_Deck3.
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Arahbo, the First Fang (111)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen2_Deck3 triggered Arahbo, the First Fang (111)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (111)]
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Nine-Lives Familiar (57)
+Replacement Effect: This creature enters with eight revival counters on it if you cast it.
+Resolve stack: Nine-Lives Familiar - Creature 1 / 1
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Swab Goblin (12)
+Resolve stack: Swab Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Prideful Parent (71)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen2_Deck3 triggered Arahbo, the First Fang (111)
+Add to stack: Ai(2)-Gen2_Deck3 triggered Prideful Parent (71)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (71)]
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (71)]
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Gleaming Barrier (16)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Ajani, Caller of the Pride (81)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen2_Deck3 activated Ajani, Caller of the Pride (81) targeting [Prideful Parent (71)]
+Resolve stack: Ajani, Caller of the Pride (81) - Ai(2)-Gen2_Deck3 puts a +1/+1 counter on Prideful Parent (71).
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Skyraker Giant (8)
+Resolve stack: Skyraker Giant - Creature 4 / 3
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Add to stack: Ai(2)-Gen2_Deck3 activated Ajani, Caller of the Pride (81) targeting [Prideful Parent (71)]
+Resolve stack: Ajani, Caller of the Pride (81) - Ai(2)-Gen2_Deck3 puts a +1/+1 counter on Prideful Parent (71).
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Adaptive Automaton (117)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Add to stack: Ai(2)-Gen2_Deck3 triggered Arahbo, the First Fang (111)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Adaptive Automaton (117)]
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 assigned Prideful Parent (71) to attack Ai(1)-Gen2_Deck10.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck10 didn't block Prideful Parent (71).
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Damage: Prideful Parent (71) deals 6 combat damage to Ai(1)-Gen2_Deck10.
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Add to stack: Ai(2)-Gen2_Deck3 activated Ajani, Caller of the Pride (81) targeting [Cat Token (124)]
+Resolve stack: Ajani, Caller of the Pride (81) - Cat Token (124) gains flying and double strike until end of turn.
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 assigned Cat Token (124) and Prideful Parent (71) to attack Ai(1)-Gen2_Deck10.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck10 assigned Gleaming Barrier (16) to block Prideful Parent (71).
+Ai(1)-Gen2_Deck10 didn't block Cat Token (124).
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Damage: Cat Token (124) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Damage: Cat Token (124) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Prideful Parent (71) deals 6 damage () to Gleaming Barrier (16).
+Add to stack: Ai(1)-Gen2_Deck10 triggered Gleaming Barrier (16)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (16)]
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Burnished Hart (87)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck3's End step
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck10 cast Skyraker Giant (9)
+Resolve stack: Skyraker Giant - Creature 4 / 3
+Mana: Treasure Token (137) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen2_Deck10 cast Hinterland Sanctifier (30)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Land: Ai(2)-Gen2_Deck3 played Crawling Barrens (113)
+Add to stack: Ai(2)-Gen2_Deck3 activated Ajani, Caller of the Pride (81) targeting [Prideful Parent (71)]
+Resolve stack: Ajani, Caller of the Pride (81) - Ai(2)-Gen2_Deck3 puts a +1/+1 counter on Prideful Parent (71).
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 assigned Arahbo, the First Fang (111), Cat Token (124), Cat Token (129), Cat Token (131), Adaptive Automaton (117), Cat Token (134) and Prideful Parent (71) to attack Ai(1)-Gen2_Deck10.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck10 assigned Skyraker Giant (8) to block Cat Token (129).
+Ai(1)-Gen2_Deck10 assigned Skyraker Giant (9) to block Cat Token (131).
+Ai(1)-Gen2_Deck10 assigned Swab Goblin (12) to block Adaptive Automaton (117).
+Ai(1)-Gen2_Deck10 didn't block Cat Token (134).
+Ai(1)-Gen2_Deck10 assigned Nine-Lives Familiar (57) to block Prideful Parent (71).
+Ai(1)-Gen2_Deck10 assigned Zul Ashur, Lich Lord (29) to block Cat Token (124).
+Ai(1)-Gen2_Deck10 assigned Hinterland Sanctifier (30) to block Arahbo, the First Fang (111).
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Cryptic Caves (65) - {T}: Add {C}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck3 cast Divine Resilience (107) targeting [Cat Token (129), Cat Token (131)]
+Resolve stack: Divine Resilience (107) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Cat Token (129) and Cat Token (131))
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Damage: Arahbo, the First Fang (111) deals 3 damage () to Hinterland Sanctifier (30).
+Damage: Cat Token (124) deals 3 damage () to Zul Ashur, Lich Lord (29).
+Damage: Cat Token (129) deals 3 damage () to Skyraker Giant (8).
+Damage: Cat Token (131) deals 3 damage () to Skyraker Giant (9).
+Damage: Adaptive Automaton (117) deals 3 damage () to Swab Goblin (12).
+Damage: Cat Token (134) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Prideful Parent (71) deals 7 damage () to Nine-Lives Familiar (57).
+Damage: Nine-Lives Familiar (57) deals 1 damage () to Prideful Parent (71).
+Damage: Hinterland Sanctifier (30) deals 1 damage () to Arahbo, the First Fang (111).
+Damage: Swab Goblin (12) deals 2 damage () to Adaptive Automaton (117).
+Damage: Zul Ashur, Lich Lord (29) deals 2 damage () to Cat Token (124).
+Damage: Skyraker Giant (8) deals 4 damage () to Cat Token (129).
+Damage: Skyraker Giant (9) deals 4 damage () to Cat Token (131).
+Add to stack: Ai(1)-Gen2_Deck10 triggered Nine-Lives Familiar (57)
+Resolve stack: When this creature dies, if it had a revival counter on it, return it to the battlefield with one fewer revival counter on it at the beginning of the next end step. [Zone Changer: Nine-Lives Familiar (57)]
+Phase: Ai(2)-Gen2_Deck3's End of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck3's End step
+Add to stack: Ai(1)-Gen2_Deck10 triggered Nine-Lives Familiar (57)
+Resolve stack: Return this creature to the battlefield with one fewer revival counter on it at the beginning of the next end step. ([Nine-Lives Familiar (57)]) [Phase: Ai(2)-Gen2_Deck3]
+Phase: Ai(2)-Gen2_Deck3's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen2_Deck10)
+Phase: Ai(1)-Gen2_Deck10's Untap step
+Phase: Ai(1)-Gen2_Deck10's Upkeep step
+Phase: Ai(1)-Gen2_Deck10's Draw step
+Phase: Ai(1)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck10's End of Combat Step
+Phase: Ai(1)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck10's End step
+Phase: Ai(1)-Gen2_Deck10's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen2_Deck3)
+Phase: Ai(2)-Gen2_Deck3's Untap step
+Phase: Ai(2)-Gen2_Deck3's Upkeep step
+Phase: Ai(2)-Gen2_Deck3's Draw step
+Phase: Ai(2)-Gen2_Deck3's Main phase, precombat
+Add to stack: Ai(2)-Gen2_Deck3 activated Ajani, Caller of the Pride (81) targeting [Prideful Parent (71)]
+Resolve stack: Ajani, Caller of the Pride (81) - Ai(2)-Gen2_Deck3 puts a +1/+1 counter on Prideful Parent (71).
+Phase: Ai(2)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck3 assigned Prideful Parent (71), Arahbo, the First Fang (111), Cat Token (124), Cat Token (129), Cat Token (131), Adaptive Automaton (117), Cat Token (134) and Burnished Hart (87) to attack Ai(1)-Gen2_Deck10.
+Phase: Ai(2)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck10 didn't block Cat Token (129).
+Ai(1)-Gen2_Deck10 didn't block Cat Token (131).
+Ai(1)-Gen2_Deck10 didn't block Adaptive Automaton (117).
+Ai(1)-Gen2_Deck10 didn't block Cat Token (134).
+Ai(1)-Gen2_Deck10 assigned Nine-Lives Familiar (57) to block Prideful Parent (71).
+Ai(1)-Gen2_Deck10 didn't block Burnished Hart (87).
+Ai(1)-Gen2_Deck10 didn't block Cat Token (124).
+Ai(1)-Gen2_Deck10 assigned Soulstone Sanctuary (43) to block Arahbo, the First Fang (111).
+Phase: Ai(2)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck3's Combat Damage Step
+Damage: Prideful Parent (71) deals 8 damage () to Nine-Lives Familiar (57).
+Damage: Arahbo, the First Fang (111) deals 3 damage () to Soulstone Sanctuary (43).
+Damage: Cat Token (124) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Cat Token (129) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Cat Token (131) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Adaptive Automaton (117) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Cat Token (134) deals 3 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Burnished Hart (87) deals 2 combat damage to Ai(1)-Gen2_Deck10.
+Damage: Nine-Lives Familiar (57) deals 1 damage () to Prideful Parent (71).
+Damage: Soulstone Sanctuary (43) deals 3 damage () to Arahbo, the First Fang (111).
+Player control: Ai(1)-Gen2_Deck10 is controlled by Ai(1)-Gen2_Deck10
+Player control: Ai(2)-Gen2_Deck3 is controlled by Ai(2)-Gen2_Deck3
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen2_Deck10 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck3 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck10: 0 Ai(2)-Gen2_Deck3: 1 
+
+Game Result: Game 1 ended in 50065 ms. Ai(2)-Gen2_Deck3 has won!
+
+
+=== STDERR ===

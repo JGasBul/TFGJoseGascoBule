@@ -1,0 +1,304 @@
+=== COMBATE PARALELO: Gen1_Deck9 vs Gen1_Deck4 ===
+Worker ID: 1490365
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck9 Gen1_Deck4 -n 1
+Duración: 26.64 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1994 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 104 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck9 vs Ai(2)-Gen1_Deck4 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck9 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Plains (99)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Hinterland Sanctifier (86)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Swamp (12)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Hinterland Sanctifier (86) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 didn't block Hinterland Sanctifier (86).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Hinterland Sanctifier (86) deals 1 combat damage to Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Land: Ai(2)-Gen1_Deck4 played Forest (94)
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Plains (41)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Mana: Plains (41) - {T}: Add {W}.
+Mana: Swamp (12) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Sun-Blessed Healer (3)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Cryptic Caves (63)
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Cat Collector (83)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen1_Deck4 triggered Hinterland Sanctifier (86)
+Add to stack: Ai(2)-Gen1_Deck4 triggered Cat Collector (83)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (83)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (83)]
+Add to stack: Ai(2)-Gen1_Deck4 triggered Cat Collector (83)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen1_Deck4, Gained Amount: 1]
+Add to stack: Ai(2)-Gen1_Deck4 triggered Hinterland Sanctifier (86)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (127)]
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck9 played Secluded Courtyard (25)
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Plains (41) - {T}: Add {W}.
+Mana: Secluded Courtyard (25) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Adaptive Automaton (47)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Plains (98)
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Felidar Savior (69)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen1_Deck4 triggered Hinterland Sanctifier (86)
+Add to stack: Ai(2)-Gen1_Deck4 triggered Felidar Savior (69) targeting [Cat Collector (83), Hinterland Sanctifier (86)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Cat Collector (83), Hinterland Sanctifier (86)]]) [Zone Changer: Felidar Savior (69)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Felidar Savior (69)]
+Add to stack: Ai(2)-Gen1_Deck4 triggered Cat Collector (83)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen1_Deck4, Gained Amount: 1]
+Add to stack: Ai(2)-Gen1_Deck4 triggered Hinterland Sanctifier (86)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (130)]
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Cat Collector (83) and Hinterland Sanctifier (86) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 didn't block Cat Collector (83).
+Ai(1)-Gen1_Deck9 didn't block Hinterland Sanctifier (86).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Cat Collector (83) deals 4 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Hinterland Sanctifier (86) deals 2 combat damage to Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck9 played Secluded Courtyard (23)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Forest (92)
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Elvish Archdruid (119)
+Resolve stack: Elvish Archdruid - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck4 triggered Hinterland Sanctifier (86)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Elvish Archdruid (119)]
+Add to stack: Ai(2)-Gen1_Deck4 triggered Cat Collector (83)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen1_Deck4, Gained Amount: 1]
+Add to stack: Ai(2)-Gen1_Deck4 triggered Hinterland Sanctifier (86)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (133)]
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Cryptic Caves (63)
+Resolve stack: Cryptic Caves (63) - Ai(2)-Gen1_Deck4 draws a card.
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Cat Collector (83), Hinterland Sanctifier (86) and Felidar Savior (69) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 didn't block Cat Collector (83).
+Ai(1)-Gen1_Deck9 didn't block Felidar Savior (69).
+Ai(1)-Gen1_Deck9 didn't block Hinterland Sanctifier (86).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Cat Collector (83) deals 4 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Hinterland Sanctifier (86) deals 2 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Felidar Savior (69) deals 2 combat damage to Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Swamp (16)
+Mana: Swamp (12) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Hero's Downfall (31) targeting [Cat Collector (83)]
+Resolve stack: Hero's Downfall (31) - Destroy Cat Collector (83).
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Mana: Secluded Courtyard (25) - {T}: Add one mana of any color. Spend this mana only to cast a creature spell of the chosen type or activate an ability of a creature or creature card of the chosen type.
+Add to stack: Ai(1)-Gen1_Deck9 cast Vampire Neonate (28)
+Resolve stack: Vampire Neonate - Creature 0 / 3
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Forest (89)
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Overrun (75)
+Resolve stack: Overrun (75) - Creatures you control get +3/+3 and gain trample until end of turn.
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Hinterland Sanctifier (86), Felidar Savior (69), Elvish Archdruid (119), Cat Token (127), Cat Token (130) and Cat Token (133) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 didn't block Cat Token (130).
+Ai(1)-Gen1_Deck9 assigned Adaptive Automaton (47) to block Felidar Savior (69).
+Ai(1)-Gen1_Deck9 didn't block Cat Token (133).
+Ai(1)-Gen1_Deck9 assigned Sun-Blessed Healer (3) to block Hinterland Sanctifier (86).
+Ai(1)-Gen1_Deck9 assigned Vampire Neonate (28) to block Elvish Archdruid (119).
+Ai(1)-Gen1_Deck9 didn't block Cat Token (127).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Hinterland Sanctifier (86) deals 4 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Hinterland Sanctifier (86) deals 1 damage () to Sun-Blessed Healer (3).
+Damage: Felidar Savior (69) deals 3 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Felidar Savior (69) deals 2 damage () to Adaptive Automaton (47).
+Damage: Elvish Archdruid (119) deals 1 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Elvish Archdruid (119) deals 4 damage () to Vampire Neonate (28).
+Damage: Cat Token (127) deals 4 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Cat Token (130) deals 4 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Cat Token (133) deals 4 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Adaptive Automaton (47) deals 2 damage () to Felidar Savior (69).
+Damage: Vampire Neonate (28) deals 1 damage () to Elvish Archdruid (119).
+Damage: Sun-Blessed Healer (3) deals 3 damage () to Hinterland Sanctifier (86).
+Player control: Ai(1)-Gen1_Deck9 is controlled by Ai(1)-Gen1_Deck9
+Player control: Ai(2)-Gen1_Deck4 is controlled by Ai(2)-Gen1_Deck4
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen1_Deck9 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck4 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck9: 0 Ai(2)-Gen1_Deck4: 1 
+
+Game Result: Game 1 ended in 13065 ms. Ai(2)-Gen1_Deck4 has won!
+
+
+=== STDERR ===
