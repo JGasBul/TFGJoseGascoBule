@@ -1,0 +1,426 @@
+=== COMBATE PARALELO: Gen1_Deck2 vs Gen1_Deck32 ===
+Worker ID: 242653
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck2 Gen1_Deck32 -n 1
+Duración: 29.76 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1718 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 112 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck2 vs Ai(2)-Gen1_Deck32 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck2 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen1_Deck32 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck2 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Land: Ai(2)-Gen1_Deck32 played Mountain (114)
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Island (38)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Adventuring Gear (2)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Land: Ai(2)-Gen1_Deck32 played Forest (80)
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (25)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (25)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Island (38) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Kitesail Corsair (50)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Land: Ai(2)-Gen1_Deck32 played Cryptic Caves (63)
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck32 cast Loot, Exuberant Explorer (70)
+Resolve stack: Loot, Exuberant Explorer - Creature 1 / 4
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Evolving Wilds (57)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Evolving Wilds (57)]
+Add to stack: Ai(1)-Gen1_Deck2 activated Evolving Wilds (57)
+Resolve stack: Evolving Wilds (57) - Ai(1)-Gen1_Deck2 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (26)]
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Adventuring Gear (2) targeting [Kitesail Corsair (50)]
+Resolve stack: Adventuring Gear (2) -  Attach to Kitesail Corsair (50)
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 assigned Loot, Exuberant Explorer (70) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Loot, Exuberant Explorer (70).
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Damage: Loot, Exuberant Explorer (70) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck32 cast Mossborn Hydra (87)
+Replacement Effect: Mossborn Hydra enters with a +1/+1 counter on it.
+Resolve stack: Mossborn Hydra - Creature 0 / 0
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Angel of Vitality (46)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck32 cast Garruk's Uprising (62)
+Resolve stack: Garruk's Uprising
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Disenchant (7) targeting [Garruk's Uprising (62)]
+Resolve stack: Disenchant (7) - Destroy Garruk's Uprising (62).
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Island (36)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (36)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (36)]
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Adventuring Gear (1) targeting [Kitesail Corsair (50)]
+Resolve stack: Adventuring Gear (1) -  Attach to Kitesail Corsair (50)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Kitesail Corsair (50) and Angel of Vitality (46) to attack Ai(2)-Gen1_Deck32.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck32 didn't block Kitesail Corsair (50).
+Ai(2)-Gen1_Deck32 didn't block Angel of Vitality (46).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Kitesail Corsair (50) deals 4 combat damage to Ai(2)-Gen1_Deck32.
+Damage: Angel of Vitality (46) deals 2 combat damage to Ai(2)-Gen1_Deck32.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 assigned Loot, Exuberant Explorer (70) and Mossborn Hydra (87) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Loot, Exuberant Explorer (70).
+Ai(1)-Gen1_Deck2 didn't block Mossborn Hydra (87).
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Damage: Loot, Exuberant Explorer (70) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Mossborn Hydra (87) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck32 cast Scrawling Crawler (119)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Angel of Vitality (46) to attack Ai(2)-Gen1_Deck32.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck32 didn't block Angel of Vitality (46).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Angel of Vitality (46) deals 2 combat damage to Ai(2)-Gen1_Deck32.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Skyknight Squire (14)
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Mana: Island (36) - {T}: Add {U}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Chart a Course (54)
+Resolve stack: Chart a Course (54) - Ai(1)-Gen1_Deck2 draws two cards. Ai(1)-Gen1_Deck2 discards a card.
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck2]
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck2]
+Land: Ai(1)-Gen1_Deck2 played Crawling Barrens (45)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (45)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (45)]
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(2)-Gen1_Deck32]
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck2]
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Replacement Effect: Gruul Guildgate enters tapped.
+Land: Ai(2)-Gen1_Deck32 played Gruul Guildgate (73)
+Add to stack: Ai(2)-Gen1_Deck32 triggered Mossborn Hydra (87)
+Resolve stack: Landfall — Whenever a land you control enters, double the number of +1/+1 counters on this creature. [Zone Changer: Gruul Guildgate (73)]
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 assigned Loot, Exuberant Explorer (70) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Loot, Exuberant Explorer (70).
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Damage: Loot, Exuberant Explorer (70) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Crawling Barrens (44)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (44)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Crawling Barrens (44)]
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Mana: Plains (26) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Angel of Vitality (48)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck2 triggered Skyknight Squire (14)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Angel of Vitality (48)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Kitesail Corsair (50), Angel of Vitality (46) and Skyknight Squire (14) to attack Ai(2)-Gen1_Deck32.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck32 didn't block Kitesail Corsair (50).
+Ai(2)-Gen1_Deck32 didn't block Angel of Vitality (46).
+Ai(2)-Gen1_Deck32 assigned Mossborn Hydra (87) to block Skyknight Squire (14).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Kitesail Corsair (50) deals 6 combat damage to Ai(2)-Gen1_Deck32.
+Damage: Angel of Vitality (46) deals 2 combat damage to Ai(2)-Gen1_Deck32.
+Damage: Skyknight Squire (14) deals 2 damage () to Mossborn Hydra (87).
+Damage: Mossborn Hydra (87) deals 2 damage () to Skyknight Squire (14).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck32)
+Phase: Ai(2)-Gen1_Deck32's Untap step
+Phase: Ai(2)-Gen1_Deck32's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(2)-Gen1_Deck32]
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck2]
+Phase: Ai(2)-Gen1_Deck32's Draw step
+Phase: Ai(2)-Gen1_Deck32's Main phase, precombat
+Land: Ai(2)-Gen1_Deck32 played Forest (81)
+Land: Ai(2)-Gen1_Deck32 played Mountain (117)
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Gruul Guildgate (73) - {T}: Add {R} or {G}.
+Mana: Cryptic Caves (63) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck32 cast Biogenic Upgrade (93) targeting [Loot, Exuberant Explorer (70)]
+Resolve stack: Biogenic Upgrade (93) - Ai(2)-Gen1_Deck32 distributes three +1/+1 counters among Loot, Exuberant Explorer (70) (3 counters). Double the number of +1/+1 counters on Loot, Exuberant Explorer (70).
+Phase: Ai(2)-Gen1_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck32's End of Combat Step
+Phase: Ai(2)-Gen1_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck32's End step
+Phase: Ai(2)-Gen1_Deck32's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Add to stack: Ai(2)-Gen1_Deck32 triggered Scrawling Crawler (119)
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (38) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Disenchant (6) targeting [Scrawling Crawler (119)]
+Resolve stack: Disenchant (6) - Destroy Scrawling Crawler (119).
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Island (33)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (33)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (33)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Kitesail Corsair (50), Angel of Vitality (46) and Angel of Vitality (48) to attack Ai(2)-Gen1_Deck32.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck32 didn't block Angel of Vitality (48).
+Ai(2)-Gen1_Deck32 didn't block Kitesail Corsair (50).
+Ai(2)-Gen1_Deck32 didn't block Angel of Vitality (46).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Kitesail Corsair (50) deals 6 combat damage to Ai(2)-Gen1_Deck32.
+Damage: Angel of Vitality (46) deals 2 combat damage to Ai(2)-Gen1_Deck32.
+Damage: Angel of Vitality (48) deals 2 combat damage to Ai(2)-Gen1_Deck32.
+Player control: Ai(1)-Gen1_Deck2 is controlled by Ai(1)-Gen1_Deck2
+Player control: Ai(2)-Gen1_Deck32 is controlled by Ai(2)-Gen1_Deck32
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen1_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck32 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck2: 1 Ai(2)-Gen1_Deck32: 0 
+
+Game Result: Game 1 ended in 16577 ms. Ai(1)-Gen1_Deck2 has won!
+
+
+=== STDERR ===

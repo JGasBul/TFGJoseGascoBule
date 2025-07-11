@@ -1,0 +1,373 @@
+=== COMBATE PARALELO: Gen0_Deck21 vs Gen0_Deck11 ===
+Worker ID: 1337
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck21 Gen0_Deck11 -n 1
+Duración: 26.89 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2077 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 105 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck21 vs Ai(2)-Gen0_Deck11 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck21 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck11 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Replacement Effect: Golgari Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck21 played Golgari Guildgate (33)
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck21's End of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck21's End step
+Phase: Ai(1)-Gen0_Deck21's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Forest (85)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Expedition Map (79)
+Resolve stack: Expedition Map
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Land: Ai(1)-Gen0_Deck21 played Forest (36)
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck21's End of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Main phase, postcombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Golgari Guildgate (33) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen0_Deck21 cast Druid of the Cowl (28)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck21's End step
+Phase: Ai(1)-Gen0_Deck21's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Plains (97)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Campus Guide (75)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck11 triggered Campus Guide (75)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (75)]
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Land: Ai(1)-Gen0_Deck21 played Swamp (23)
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 assigned Druid of the Cowl (28) to attack Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 didn't block Druid of the Cowl (28).
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Damage: Druid of the Cowl (28) deals 1 combat damage to Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck21's End of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Main phase, postcombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck21 cast Campus Guide (15)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck21 triggered Campus Guide (15)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (15)]
+Phase: Ai(1)-Gen0_Deck21's End step
+Phase: Ai(1)-Gen0_Deck21's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Deadly Riposte (111) targeting [Druid of the Cowl (28)]
+Damage: Deadly Riposte (111) deals 3 damage () to Druid of the Cowl (28).
+Resolve stack: Deadly Riposte (111) - Deadly Riposte (111) deals 3 damage to Druid of the Cowl (28). Ai(2)-Gen0_Deck11 gains 2 life.
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Forest (89)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Land: Ai(1)-Gen0_Deck21 played Swamp (19)
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck21's End of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Main phase, postcombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck21 cast Campus Guide (14)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck21 triggered Campus Guide (14)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (14)]
+Phase: Ai(1)-Gen0_Deck21's End step
+Phase: Ai(1)-Gen0_Deck21's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Plains (100)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Forest (89) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Burnished Hart (92)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Expedition Map (78)
+Resolve stack: Expedition Map
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Land: Ai(1)-Gen0_Deck21 played Forest (42)
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck21's End of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Forest (42) - {T}: Add {G}.
+Mana: Golgari Guildgate (33) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen0_Deck21 cast Tragic Banshee (53)
+Resolve stack: Tragic Banshee - Creature 5 / 3
+Add to stack: Ai(1)-Gen0_Deck21 triggered Tragic Banshee (53) targeting [Campus Guide (75)]
+Resolve stack: Morbid — When this creature enters, target creature an opponent controls gets -1/-1 until end of turn. If a creature died this turn, that creature gets -13/-13 instead. (Targeting: [[Campus Guide (75)]]) [Zone Changer: Tragic Banshee (53)]
+Phase: Ai(1)-Gen0_Deck21's End step
+Phase: Ai(1)-Gen0_Deck21's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Forest (87)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Forest (87) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Vivien Reid (119)
+Replacement Effect: Vivien Reid enters with five loyalty counters on it.
+Resolve stack: Vivien Reid
+Add to stack: Ai(2)-Gen0_Deck11 activated Vivien Reid (119) targeting [Campus Guide (15)]
+Resolve stack: Vivien Reid (119) - Destroy Campus Guide (15).
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 assigned Tragic Banshee (53) and Campus Guide (14) to attack Vivien Reid (119).
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 didn't block Tragic Banshee (53).
+Ai(2)-Gen0_Deck11 didn't block Campus Guide (14).
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck21's End of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck21 played Uncharted Haven (48)
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck21 cast Druid of the Cowl (31)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck21's End step
+Phase: Ai(1)-Gen0_Deck21's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 activated Expedition Map (79)
+Resolve stack: Expedition Map (79) - Ai(2)-Gen0_Deck11 searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Crawling Barrens (109)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 activated Expedition Map (78)
+Resolve stack: Expedition Map (78) - Ai(2)-Gen0_Deck11 searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 assigned Tragic Banshee (53) and Campus Guide (14) to attack Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 didn't block Tragic Banshee (53).
+Ai(2)-Gen0_Deck11 didn't block Campus Guide (14).
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Damage: Tragic Banshee (53) deals 5 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Campus Guide (14) deals 2 combat damage to Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck21's End of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck21 played Uncharted Haven (50)
+Phase: Ai(1)-Gen0_Deck21's End step
+Phase: Ai(1)-Gen0_Deck21's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Cryptic Caves (64)
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Crawling Barrens (109) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Biogenic Upgrade (70) targeting [Burnished Hart (92)]
+Resolve stack: Biogenic Upgrade (70) - Ai(2)-Gen0_Deck11 distributes three +1/+1 counters among Burnished Hart (92) (3 counters). Double the number of +1/+1 counters on Burnished Hart (92).
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Burnished Hart (92) to attack Ai(1)-Gen0_Deck21.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck21 didn't block Burnished Hart (92).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Burnished Hart (92) deals 8 combat damage to Ai(1)-Gen0_Deck21.
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck21)
+Phase: Ai(1)-Gen0_Deck21's Untap step
+Phase: Ai(1)-Gen0_Deck21's Upkeep step
+Phase: Ai(1)-Gen0_Deck21's Draw step
+Phase: Ai(1)-Gen0_Deck21's Main phase, precombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Forest (42) - {T}: Add {G}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Uncharted Haven (48) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (50) - {T}: Add one mana of the chosen color.
+Mana: Golgari Guildgate (33) - {T}: Add {B} or {G}.
+Add to stack: Ai(1)-Gen0_Deck21 cast Preposterous Proportions (6)
+Resolve stack: Preposterous Proportions (6) - Creatures you control get +10/+10 and gain vigilance until end of turn.
+Phase: Ai(1)-Gen0_Deck21's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck21's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck21 assigned Tragic Banshee (53), Campus Guide (14) and Druid of the Cowl (31) to attack Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck21's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 didn't block Tragic Banshee (53).
+Ai(2)-Gen0_Deck11 didn't block Campus Guide (14).
+Ai(2)-Gen0_Deck11 didn't block Druid of the Cowl (31).
+Phase: Ai(1)-Gen0_Deck21's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck21's Combat Damage Step
+Damage: Tragic Banshee (53) deals 15 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Campus Guide (14) deals 12 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Druid of the Cowl (31) deals 11 combat damage to Ai(2)-Gen0_Deck11.
+Player control: Ai(1)-Gen0_Deck21 is controlled by Ai(1)-Gen0_Deck21
+Player control: Ai(2)-Gen0_Deck11 is controlled by Ai(2)-Gen0_Deck11
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck21 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck11 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck21: 1 Ai(2)-Gen0_Deck11: 0 
+
+Game Result: Game 1 ended in 12763 ms. Ai(1)-Gen0_Deck21 has won!
+
+
+=== STDERR ===

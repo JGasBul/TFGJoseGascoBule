@@ -1,0 +1,426 @@
+=== COMBATE PARALELO: Gen4_Deck17 vs Gen4_Deck27 ===
+Worker ID: 982848
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck17 Gen4_Deck27 -n 1
+Duración: 29.56 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1830 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 102 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck17 vs Ai(2)-Gen4_Deck27 - one game of Constructed
+Mulligan: Ai(2)-Gen4_Deck27 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen4_Deck17 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Replacement Effect: Boros Guildgate enters tapped.
+Land: Ai(2)-Gen4_Deck27 played Boros Guildgate (98)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Replacement Effect: Boros Guildgate enters tapped.
+Land: Ai(1)-Gen4_Deck17 played Boros Guildgate (9)
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Demolition Field (110)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Land: Ai(1)-Gen4_Deck17 played Island (49)
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Plains (75)
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Boros Guildgate (98) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen4_Deck27 activated Demolition Field (110) targeting [Boros Guildgate (9)]
+Resolve stack: Demolition Field (110) - Destroy Boros Guildgate (9). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen4_Deck27 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Land: Ai(1)-Gen4_Deck17 played Plains (39)
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Demolition Field (111)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Boros Guildgate (98) - {T}: Add {R} or {W}.
+Mana: Demolition Field (111) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck27 cast Felidar Savior (93)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen4_Deck27 triggered Felidar Savior (93) targeting []
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[]]) [Zone Changer: Felidar Savior (93)]
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Land: Ai(1)-Gen4_Deck17 played Plains (38)
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (49) - {T}: Add {U}.
+Mana: Island (51) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck17 cast Cat Collector (14)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen4_Deck17 triggered Cat Collector (14)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (14)]
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Plains (78)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Plains (78) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck27 cast Guttersnipe (105)
+Resolve stack: Guttersnipe - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck27's End step
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck17 cast Fleeting Flight (29) targeting [Cat Collector (14)]
+Resolve stack: Fleeting Flight (29) - Ai(1)-Gen4_Deck17 puts a +1/+1 counter on Cat Collector (14). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Land: Ai(1)-Gen4_Deck17 played Plains (40)
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 assigned Cat Collector (14) to attack Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck27 didn't block Cat Collector (14).
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Damage: Cat Collector (14) deals 4 combat damage to Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Mountain (117)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 assigned Felidar Savior (93) and Guttersnipe (105) to attack Ai(1)-Gen4_Deck17.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (49) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck17 cast Cathar Commando (4)
+Resolve stack: Cathar Commando - Creature 3 / 1
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck17 didn't block Guttersnipe (105).
+Ai(1)-Gen4_Deck17 assigned Cathar Commando (4) to block Felidar Savior (93).
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Damage: Felidar Savior (93) deals 2 damage () to Cathar Commando (4).
+Damage: Guttersnipe (105) deals 2 combat damage to Ai(1)-Gen4_Deck17.
+Damage: Cathar Commando (4) deals 3 damage () to Felidar Savior (93).
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Land: Ai(1)-Gen4_Deck17 played Evolving Wilds (35)
+Add to stack: Ai(1)-Gen4_Deck17 activated Evolving Wilds (35)
+Resolve stack: Evolving Wilds (35) - Ai(1)-Gen4_Deck17 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 assigned Cat Collector (14) to attack Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck27 didn't block Cat Collector (14).
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Damage: Cat Collector (14) deals 4 combat damage to Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck17 cast Hinterland Sanctifier (24)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Mountain (118)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 assigned Guttersnipe (105) to attack Ai(1)-Gen4_Deck17.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck17 didn't block Guttersnipe (105).
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Damage: Guttersnipe (105) deals 2 combat damage to Ai(1)-Gen4_Deck17.
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Mana: Island (49) - {T}: Add {U}.
+Mana: Island (51) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck17 cast Tempest Djinn (18)
+Resolve stack: Tempest Djinn - Creature 0 / 4
+Add to stack: Ai(1)-Gen4_Deck17 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Tempest Djinn (18)]
+Add to stack: Ai(1)-Gen4_Deck17 triggered Cat Collector (14)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen4_Deck17, Gained Amount: 1]
+Add to stack: Ai(1)-Gen4_Deck17 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (127)]
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck17 cast Hinterland Sanctifier (26)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen4_Deck17 triggered Hinterland Sanctifier (24)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (26)]
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 assigned Cat Collector (14) and Hinterland Sanctifier (24) to attack Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck27 didn't block Hinterland Sanctifier (24).
+Ai(2)-Gen4_Deck27 didn't block Cat Collector (14).
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Damage: Cat Collector (14) deals 4 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Hinterland Sanctifier (24) deals 1 combat damage to Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Plains (73)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Mana: Plains (75) - {T}: Add {W}.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen4_Deck27 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (49) - {T}: Add {U}.
+Mana: Island (51) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck17 cast Mentor of the Meek (13)
+Resolve stack: Mentor of the Meek - Creature 2 / 2
+Add to stack: Ai(1)-Gen4_Deck17 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen4_Deck17 triggered Hinterland Sanctifier (26)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Mentor of the Meek (13)]
+Add to stack: Ai(1)-Gen4_Deck17 triggered Cat Collector (14)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen4_Deck17, Gained Amount: 1]
+Add to stack: Ai(1)-Gen4_Deck17 triggered Hinterland Sanctifier (24)
+Add to stack: Ai(1)-Gen4_Deck17 triggered Hinterland Sanctifier (26)
+Add to stack: Ai(1)-Gen4_Deck17 triggered Mentor of the Meek (13)
+Mana: Plains (38) - {T}: Add {W}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Cat Token (130)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (130)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (130)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Mentor of the Meek (13)]
+Land: Ai(1)-Gen4_Deck17 played Plains (42)
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 assigned Cat Collector (14) and Tempest Djinn (18) to attack Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck27 didn't block Tempest Djinn (18).
+Ai(2)-Gen4_Deck27 assigned Guttersnipe (105) to block Cat Collector (14).
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Damage: Cat Collector (14) deals 4 damage () to Guttersnipe (105).
+Damage: Tempest Djinn (18) deals 3 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Guttersnipe (105) deals 2 damage () to Cat Collector (14).
+Phase: Ai(1)-Gen4_Deck17's End of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck17's End step
+Phase: Ai(1)-Gen4_Deck17's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen4_Deck27)
+Phase: Ai(2)-Gen4_Deck27's Untap step
+Phase: Ai(2)-Gen4_Deck27's Upkeep step
+Phase: Ai(2)-Gen4_Deck27's Draw step
+Phase: Ai(2)-Gen4_Deck27's Main phase, precombat
+Land: Ai(2)-Gen4_Deck27 played Mountain (116)
+Phase: Ai(2)-Gen4_Deck27's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck27 assigned Giada, Font of Hope (119) to attack Ai(1)-Gen4_Deck17.
+Phase: Ai(2)-Gen4_Deck27's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck17 didn't block Giada, Font of Hope (119).
+Phase: Ai(2)-Gen4_Deck27's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck27's Combat Damage Step
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen4_Deck17.
+Phase: Ai(2)-Gen4_Deck27's End of Combat Step
+Phase: Ai(2)-Gen4_Deck27's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck27's End step
+Phase: Ai(2)-Gen4_Deck27's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen4_Deck17)
+Phase: Ai(1)-Gen4_Deck17's Untap step
+Phase: Ai(1)-Gen4_Deck17's Upkeep step
+Phase: Ai(1)-Gen4_Deck17's Draw step
+Phase: Ai(1)-Gen4_Deck17's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck17 assigned Cat Collector (14), Tempest Djinn (18), Mentor of the Meek (13), Hinterland Sanctifier (24), Cat Token (127), Hinterland Sanctifier (26) and Cat Token (130) to attack Ai(2)-Gen4_Deck27.
+Phase: Ai(1)-Gen4_Deck17's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck27 didn't block Tempest Djinn (18).
+Ai(2)-Gen4_Deck27 didn't block Cat Token (130).
+Ai(2)-Gen4_Deck27 didn't block Hinterland Sanctifier (24).
+Ai(2)-Gen4_Deck27 didn't block Hinterland Sanctifier (26).
+Ai(2)-Gen4_Deck27 didn't block Mentor of the Meek (13).
+Ai(2)-Gen4_Deck27 assigned Giada, Font of Hope (119) to block Cat Collector (14).
+Ai(2)-Gen4_Deck27 didn't block Cat Token (127).
+Phase: Ai(1)-Gen4_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck17's Combat Damage Step
+Damage: Cat Collector (14) deals 4 damage () to Giada, Font of Hope (119).
+Damage: Tempest Djinn (18) deals 3 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Mentor of the Meek (13) deals 2 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Hinterland Sanctifier (24) deals 1 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Cat Token (127) deals 1 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Hinterland Sanctifier (26) deals 1 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Cat Token (130) deals 1 combat damage to Ai(2)-Gen4_Deck27.
+Damage: Giada, Font of Hope (119) deals 2 damage () to Cat Collector (14).
+Player control: Ai(1)-Gen4_Deck17 is controlled by Ai(1)-Gen4_Deck17
+Player control: Ai(2)-Gen4_Deck27 is controlled by Ai(2)-Gen4_Deck27
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen4_Deck17 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck27 has lost because life total reached 0
+Match result: Ai(1)-Gen4_Deck17: 1 Ai(2)-Gen4_Deck27: 0 
+
+Game Result: Game 1 ended in 18134 ms. Ai(1)-Gen4_Deck17 has won!
+
+
+=== STDERR ===

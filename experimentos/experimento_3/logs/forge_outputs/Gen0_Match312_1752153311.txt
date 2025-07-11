@@ -1,0 +1,528 @@
+=== COMBATE PARALELO: Gen0_Deck27 vs Gen0_Deck10 ===
+Worker ID: 1337
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck27 Gen0_Deck10 -n 1
+Duración: 38.83 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2165 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 246 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck27 vs Ai(2)-Gen0_Deck10 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck10 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Mountain (114)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Plains (38)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Healer's Hawk (51)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Plains (97)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Three Tree Mascot (89)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck27 played Forest (26)
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Crawling Barrens (107)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Demolition Field (52)
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 activated Demolition Field (52) targeting [Crawling Barrens (107)]
+Resolve stack: Demolition Field (52) - Destroy Crawling Barrens (107). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck27 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Mountain (116)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Ravenous Giant (103)
+Resolve stack: Ravenous Giant - Creature 5 / 5
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Forest (29)
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Forest (29) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Circuitous Route (6)
+Resolve stack: Circuitous Route (6) - Ai(1)-Gen0_Deck27 searches their library for two Land.Basic,Card.Gate cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck10 triggered Ravenous Giant (103)
+Damage: Ravenous Giant (103) deals 1 non-combat damage to Ai(2)-Gen0_Deck10.
+Resolve stack: At the beginning of your upkeep, Ravenous Giant deals 1 damage to you. [Phase: Ai(2)-Gen0_Deck10]
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Ravenous Giant (103) and Three Tree Mascot (89) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Ravenous Giant (103).
+Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Ravenous Giant (103) deals 5 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Crystal Barricade (78)
+Resolve stack: Crystal Barricade - Creature 0 / 4
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Crystal Barricade (77)
+Resolve stack: Crystal Barricade - Creature 0 / 4
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Valorous Stance (2)
+Resolve stack: Valorous Stance (2) -  Destroy target creature with toughness 4 or greater. (Targeting: Ravenous Giant (103))
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Plains (37)
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Circuitous Route (7)
+Resolve stack: Circuitous Route (7) - Ai(1)-Gen0_Deck27 searches their library for two Land.Basic,Card.Gate cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Three Tree Mascot (88)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Land: Ai(1)-Gen0_Deck27 played Forest (28)
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Banner of Kinship (43)
+Replacement Effect: As this artifact enters, choose a creature type. This artifact enters with a fellowship counter on it for each creature you control of the chosen type.
+Resolve stack: Banner of Kinship
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Eager Trufflesnout (15)
+Resolve stack: Eager Trufflesnout - Creature 4 / 2
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Seismic Rupture (119)
+Replacement Effect: Prevent all noncombat damage that would be dealt to other creatures you control.
+Replacement Effect: Prevent all noncombat damage that would be dealt to other creatures you control.
+Replacement Effect: Prevent all noncombat damage that would be dealt to other creatures you control.
+Replacement Effect: Prevent all noncombat damage that would be dealt to other creatures you control.
+Damage: Seismic Rupture (119) deals 2 damage () to Eager Trufflesnout (15).
+Resolve stack: Seismic Rupture (119) - Deals 2 damage to each creature without flying.
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) and Three Tree Mascot (88) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (88).
+Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Three Tree Mascot (88) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Giant Cindermaw (17)
+Resolve stack: Giant Cindermaw - Creature 4 / 3
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Crackling Cyclops (32)
+Resolve stack: Crackling Cyclops - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Rogue's Passage (74)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 activated Rogue's Passage (74) targeting [Three Tree Mascot (89)]
+Resolve stack: Rogue's Passage (74) - Three Tree Mascot (89) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Crackling Cyclops (34)
+Resolve stack: Crackling Cyclops - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Giant Cindermaw (17) and Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Giant Cindermaw (17).
+Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Giant Cindermaw (17) deals 4 combat damage to Ai(2)-Gen0_Deck10.
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 activated Rogue's Passage (74) targeting [Three Tree Mascot (89)]
+Resolve stack: Rogue's Passage (74) - Three Tree Mascot (89) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Giant Cindermaw (17) and Healer's Hawk (51) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Crystal Barricade (78) to block Giant Cindermaw (17).
+Ai(2)-Gen0_Deck10 didn't block Healer's Hawk (51).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Giant Cindermaw (17) deals 4 damage () to Crystal Barricade (78).
+Damage: Healer's Hawk (51) deals 1 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 activated Rogue's Passage (74) targeting [Three Tree Mascot (89)]
+Resolve stack: Rogue's Passage (74) - Three Tree Mascot (89) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck27)
+Phase: Ai(1)-Gen0_Deck27's Untap step
+Phase: Ai(1)-Gen0_Deck27's Upkeep step
+Phase: Ai(1)-Gen0_Deck27's Draw step
+Phase: Ai(1)-Gen0_Deck27's Main phase, precombat
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Forest (29) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Circuitous Route (9)
+Add to stack: Ai(1)-Gen0_Deck27 triggered Crackling Cyclops (32)
+Add to stack: Ai(1)-Gen0_Deck27 triggered Crackling Cyclops (34)
+Resolve stack: Whenever you cast a noncreature spell, this creature gets +3/+0 until end of turn. [Card: Circuitous Route (9), Activator: Ai(1)-Gen0_Deck27, SpellAbility: Search your library for up to two basic land cards and/or Gate cards, put them onto the battlefield tapped, then shuffle.]
+Resolve stack: Whenever you cast a noncreature spell, this creature gets +3/+0 until end of turn. [Card: Circuitous Route (9), Activator: Ai(1)-Gen0_Deck27, SpellAbility: Search your library for up to two basic land cards and/or Gate cards, put them onto the battlefield tapped, then shuffle.]
+Resolve stack: Circuitous Route (9) - Ai(1)-Gen0_Deck27 searches their library for two Land.Basic,Card.Gate cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Giant Cindermaw (17) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Crystal Barricade (77) to block Giant Cindermaw (17).
+Phase: Ai(1)-Gen0_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck27's Combat Damage Step
+Damage: Giant Cindermaw (17) deals 4 damage () to Crystal Barricade (77).
+Phase: Ai(1)-Gen0_Deck27's End of Combat Step
+Phase: Ai(1)-Gen0_Deck27's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck27 cast Angel of Finality (11)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen0_Deck27 triggered Angel of Finality (11) targeting [Ai(2)-Gen0_Deck10]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen0_Deck10]]) [Zone Changer: Angel of Finality (11)]
+Phase: Ai(1)-Gen0_Deck27's End step
+Phase: Ai(1)-Gen0_Deck27's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 activated Rogue's Passage (74) targeting [Three Tree Mascot (89)]
+Resolve stack: Rogue's Passage (74) - Three Tree Mascot (89) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Three Tree Mascot (89) and Three Tree Mascot (88) to attack Ai(1)-Gen0_Deck27.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck27 assigned Healer's Hawk (51) to block Three Tree Mascot (88).
+Ai(1)-Gen0_Deck27 didn't block Three Tree Mascot (89).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Three Tree Mascot (89) deals 2 combat damage to Ai(1)-Gen0_Deck27.
+Damage: Three Tree Mascot (88) deals 2 damage () to Healer's Hawk (51).
+Damage: Healer's Hawk (51) deals 1 damage () to Three Tree Mascot (88).
+Player control: Ai(1)-Gen0_Deck27 is controlled by Ai(1)-Gen0_Deck27
+Player control: Ai(2)-Gen0_Deck10 is controlled by Ai(2)-Gen0_Deck10
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck27 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck10 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck27: 0 Ai(2)-Gen0_Deck10: 1 
+
+Game Result: Game 1 ended in 26225 ms. Ai(2)-Gen0_Deck10 has won!
+
+
+=== STDERR ===

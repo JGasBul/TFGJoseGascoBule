@@ -1,0 +1,421 @@
+=== COMBATE PARALELO: Gen2_Deck18 vs Gen2_Deck32 ===
+Worker ID: 482059
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck18 Gen2_Deck32 -n 1
+Duración: 51.62 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1878 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 47 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck18 vs Ai(2)-Gen2_Deck32 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck18 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck32 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Land: Ai(1)-Gen2_Deck18 played Island (40)
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck18's End of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck18's End step
+Phase: Ai(1)-Gen2_Deck18's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Plains (93)
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Mana: Plains (93) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen2_Deck32 cast Hinterland Sanctifier (78)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Land: Ai(1)-Gen2_Deck18 played Plains (32)
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck18's End of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck18's End step
+Phase: Ai(1)-Gen2_Deck18's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 assigned Hinterland Sanctifier (78) to attack Ai(1)-Gen2_Deck18.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck18 didn't block Hinterland Sanctifier (78).
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Damage: Hinterland Sanctifier (78) deals 1 combat damage to Ai(1)-Gen2_Deck18.
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(2)-Gen2_Deck32 played Bloodfell Caves (116)
+Add to stack: Ai(2)-Gen2_Deck32 triggered Bloodfell Caves (116)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (116)]
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Land: Ai(1)-Gen2_Deck18 played Plains (33)
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck18's End of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Cat Collector (10)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (10)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (10)]
+Phase: Ai(1)-Gen2_Deck18's End step
+Phase: Ai(1)-Gen2_Deck18's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Island (107)
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Land: Ai(1)-Gen2_Deck18 played Island (39)
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 assigned Cat Collector (10) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Cat Collector (10).
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Damage: Cat Collector (10) deals 3 combat damage to Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's End of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Inspiring Overseer (19)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen2_Deck18 triggered Inspiring Overseer (19)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (19)]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (10)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck18, Gained Amount: 1]
+Phase: Ai(1)-Gen2_Deck18's End step
+Phase: Ai(1)-Gen2_Deck18's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Replacement Effect: Wind-Scarred Crag enters tapped.
+Land: Ai(2)-Gen2_Deck32 played Wind-Scarred Crag (91)
+Add to stack: Ai(2)-Gen2_Deck32 triggered Wind-Scarred Crag (91)
+Resolve stack: When Wind-Scarred Crag enters, you gain 1 life. [Zone Changer: Wind-Scarred Crag (91)]
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Land: Ai(1)-Gen2_Deck18 played Plains (34)
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 assigned Cat Collector (10) and Inspiring Overseer (19) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Inspiring Overseer (19).
+Ai(2)-Gen2_Deck32 didn't block Cat Collector (10).
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Damage: Cat Collector (10) deals 3 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Inspiring Overseer (19) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's End of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Inspiring Overseer (20)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen2_Deck18 triggered Inspiring Overseer (20)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (20)]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (10)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck18, Gained Amount: 1]
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Hinterland Sanctifier (16)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck18's End step
+Phase: Ai(1)-Gen2_Deck18's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Plains (96)
+Mana: Plains (93) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Island (107) - {T}: Add {U}.
+Mana: Bloodfell Caves (116) - {T}: Add {B} or {R}.
+Mana: Wind-Scarred Crag (91) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen2_Deck32 cast Regal Caracal (101)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen2_Deck32 triggered Hinterland Sanctifier (78)
+Add to stack: Ai(2)-Gen2_Deck32 triggered Regal Caracal (101)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (101)]
+Add to stack: Ai(2)-Gen2_Deck32 triggered Hinterland Sanctifier (78)
+Add to stack: Ai(2)-Gen2_Deck32 triggered Hinterland Sanctifier (78)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (135)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (134)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Regal Caracal (101)]
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Land: Ai(1)-Gen2_Deck18 played Plains (31)
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Cat Collector (11)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen2_Deck18 triggered Hinterland Sanctifier (16)
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (11)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (11)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (11)]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (10)
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (11)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck18, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Hinterland Sanctifier (16)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (143)]
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck18, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Hinterland Sanctifier (16)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (145)]
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 assigned Cat Collector (10), Inspiring Overseer (19) and Inspiring Overseer (20) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Inspiring Overseer (19).
+Ai(2)-Gen2_Deck32 didn't block Inspiring Overseer (20).
+Ai(2)-Gen2_Deck32 didn't block Cat Collector (10).
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Damage: Cat Collector (10) deals 3 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Inspiring Overseer (19) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Inspiring Overseer (20) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's End of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck18's End step
+Phase: Ai(1)-Gen2_Deck18's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen2_Deck32 played Tranquil Cove (67)
+Add to stack: Ai(2)-Gen2_Deck32 triggered Tranquil Cove (67)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (67)]
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Cat Collector (9)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen2_Deck18 triggered Hinterland Sanctifier (16)
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (9)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (9)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (9)]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (9)
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (10)
+Add to stack: Ai(1)-Gen2_Deck18 triggered Cat Collector (11)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck18, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Hinterland Sanctifier (16)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (154)]
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck18, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Hinterland Sanctifier (16)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (156)]
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck18, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck18 triggered Hinterland Sanctifier (16)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (158)]
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 assigned Cat Collector (10), Cat Collector (11), Inspiring Overseer (19) and Inspiring Overseer (20) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Inspiring Overseer (19).
+Ai(2)-Gen2_Deck32 didn't block Inspiring Overseer (20).
+Ai(2)-Gen2_Deck32 assigned Cat Token (134) to block Cat Collector (10).
+Ai(2)-Gen2_Deck32 assigned Cat Token (135) to block Cat Collector (11).
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (39) - {T}: Add {U}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Make a Stand (26)
+Resolve stack: Make a Stand (26) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Damage: Cat Collector (10) deals 4 damage () to Cat Token (134).
+Damage: Cat Collector (11) deals 4 damage () to Cat Token (135).
+Damage: Inspiring Overseer (19) deals 3 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Inspiring Overseer (20) deals 3 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (134) deals 2 damage () to Cat Collector (10).
+Damage: Cat Token (135) deals 2 damage () to Cat Collector (11).
+Phase: Ai(1)-Gen2_Deck18's End of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck18's End step
+Phase: Ai(1)-Gen2_Deck18's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck32)
+Phase: Ai(2)-Gen2_Deck32's Untap step
+Phase: Ai(2)-Gen2_Deck32's Upkeep step
+Phase: Ai(2)-Gen2_Deck32's Draw step
+Phase: Ai(2)-Gen2_Deck32's Main phase, precombat
+Land: Ai(2)-Gen2_Deck32 played Island (102)
+Phase: Ai(2)-Gen2_Deck32's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck32 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck32's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck32's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck32's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck32's End of Combat Step
+Phase: Ai(2)-Gen2_Deck32's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck32's End step
+Phase: Ai(2)-Gen2_Deck32's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck18)
+Phase: Ai(1)-Gen2_Deck18's Untap step
+Phase: Ai(1)-Gen2_Deck18's Upkeep step
+Phase: Ai(1)-Gen2_Deck18's Draw step
+Phase: Ai(1)-Gen2_Deck18's Main phase, precombat
+Land: Ai(1)-Gen2_Deck18 played Crawling Barrens (57)
+Phase: Ai(1)-Gen2_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck18 assigned Cat Collector (10), Cat Collector (11), Cat Collector (9), Inspiring Overseer (19), Inspiring Overseer (20), Cat Token (127), Cat Token (130), Hinterland Sanctifier (16), Cat Token (143), Cat Token (145), Cat Token (154), Cat Token (156) and Cat Token (158) to attack Ai(2)-Gen2_Deck32.
+Phase: Ai(1)-Gen2_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck32 didn't block Cat Token (130).
+Ai(2)-Gen2_Deck32 didn't block Cat Collector (9).
+Ai(2)-Gen2_Deck32 assigned Hinterland Sanctifier (78) to block Cat Collector (10).
+Ai(2)-Gen2_Deck32 assigned Regal Caracal (101) to block Cat Collector (11).
+Ai(2)-Gen2_Deck32 didn't block Cat Token (143).
+Ai(2)-Gen2_Deck32 didn't block Hinterland Sanctifier (16).
+Ai(2)-Gen2_Deck32 didn't block Cat Token (145).
+Ai(2)-Gen2_Deck32 didn't block Inspiring Overseer (19).
+Ai(2)-Gen2_Deck32 didn't block Inspiring Overseer (20).
+Ai(2)-Gen2_Deck32 didn't block Cat Token (154).
+Ai(2)-Gen2_Deck32 didn't block Cat Token (156).
+Ai(2)-Gen2_Deck32 didn't block Cat Token (158).
+Ai(2)-Gen2_Deck32 didn't block Cat Token (127).
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck18 cast Make a Stand (25)
+Resolve stack: Make a Stand (25) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(1)-Gen2_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck18's Combat Damage Step
+Damage: Cat Collector (10) deals 4 damage () to Hinterland Sanctifier (78).
+Damage: Cat Collector (11) deals 4 damage () to Regal Caracal (101).
+Damage: Cat Collector (9) deals 4 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Inspiring Overseer (19) deals 3 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Inspiring Overseer (20) deals 3 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (127) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (130) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Hinterland Sanctifier (16) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (143) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (145) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (154) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (156) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Cat Token (158) deals 2 combat damage to Ai(2)-Gen2_Deck32.
+Damage: Hinterland Sanctifier (78) deals 1 damage () to Cat Collector (10).
+Damage: Regal Caracal (101) deals 3 damage () to Cat Collector (11).
+Player control: Ai(1)-Gen2_Deck18 is controlled by Ai(1)-Gen2_Deck18
+Player control: Ai(2)-Gen2_Deck32 is controlled by Ai(2)-Gen2_Deck32
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck18 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck32 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck18: 1 Ai(2)-Gen2_Deck32: 0 
+
+Game Result: Game 1 ended in 39586 ms. Ai(1)-Gen2_Deck18 has won!
+
+
+=== STDERR ===

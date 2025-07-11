@@ -1,0 +1,624 @@
+=== COMBATE PARALELO: Gen3_Deck4 vs Gen3_Deck16 ===
+Worker ID: 725049
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck4 Gen3_Deck16 -n 1
+Duración: 58.70 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2658 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 110 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck4 vs Ai(2)-Gen3_Deck16 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck16 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (21)
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Land: Ai(2)-Gen3_Deck16 played Island (95)
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (22)
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Diamond Mare (34)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(1)-Gen3_Deck4's End step
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck16 cast Unsummon (112) targeting [Diamond Mare (34)]
+Resolve stack: Unsummon (112) - Return Diamond Mare (34) to its owner's hand.
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Land: Ai(2)-Gen3_Deck16 played Island (94)
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Giada, Font of Hope (60)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (17)
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck16 cast Burrog Befuddler (104)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen3_Deck16 triggered Burrog Befuddler (104) targeting [Giada, Font of Hope (60)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Giada, Font of Hope (60)]]) [Zone Changer: Burrog Befuddler (104)]
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 didn't block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Damage: Giada, Font of Hope (60) deals 1 combat damage to Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Diamond Mare (34)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Diamond Mare (34) and Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 didn't block Diamond Mare (34).
+Ai(2)-Gen3_Deck16 didn't block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Damage: Diamond Mare (34) deals 1 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Giada, Font of Hope (60) deals 2 combat damage to Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Diamond Mare (34)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Skyknight Squire (3), Activator: Ai(1)-Gen3_Deck4, SpellAbility: Skyknight Squire - Creature 1 / 1]
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Land: Ai(2)-Gen3_Deck16 played Plains (82)
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck16 cast Rune-Sealed Wall (72)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 didn't block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Damage: Giada, Font of Hope (60) deals 2 combat damage to Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck16 cast Fog Bank (67)
+Resolve stack: Fog Bank - Creature 0 / 2
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 assigned Fog Bank (67) to block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Ajani, Caller of the Pride (10)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Diamond Mare (34)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Ajani, Caller of the Pride (10), Activator: Ai(1)-Gen3_Deck4, SpellAbility: Ajani, Caller of the Pride]
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen3_Deck4 activated Ajani, Caller of the Pride (10) targeting [Giada, Font of Hope (60)]
+Resolve stack: Ajani, Caller of the Pride (10) - Ai(1)-Gen3_Deck4 puts a +1/+1 counter on Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's End step
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (72)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (72) - Ai(2)-Gen3_Deck16 surveils (1).
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck16 cast Rune-Sealed Wall (71)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Add to stack: Ai(1)-Gen3_Deck4 activated Ajani, Caller of the Pride (10) targeting [Giada, Font of Hope (60)]
+Resolve stack: Ajani, Caller of the Pride (10) - Ai(1)-Gen3_Deck4 puts a +1/+1 counter on Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 assigned Fog Bank (67) to block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (72)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (72) - Ai(2)-Gen3_Deck16 surveils (1).
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck16 cast Goblin Firebomb (108)
+Resolve stack: Goblin Firebomb
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Add to stack: Ai(1)-Gen3_Deck4 activated Ajani, Caller of the Pride (10) targeting [Giada, Font of Hope (60)]
+Resolve stack: Ajani, Caller of the Pride (10) - Ai(1)-Gen3_Deck4 puts a +1/+1 counter on Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 assigned Fog Bank (67) to block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (72)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (72) - Ai(2)-Gen3_Deck16 surveils (1).
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (71)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (71) - Ai(2)-Gen3_Deck16 surveils (1).
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Discard: Ai(1)-Gen3_Deck4 discards Ancestor Dragon (27).
+Turn: Turn 18 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Mountain (54)
+Add to stack: Ai(1)-Gen3_Deck4 activated Ajani, Caller of the Pride (10) targeting [Giada, Font of Hope (60)]
+Resolve stack: Ajani, Caller of the Pride (10) - Ai(1)-Gen3_Deck4 puts a +1/+1 counter on Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 assigned Fog Bank (67) to block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck4 cast Jazal Goldmane (41)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Diamond Mare (34)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Jazal Goldmane (41), Activator: Ai(1)-Gen3_Deck4, SpellAbility: Jazal Goldmane - Creature 4 / 4]
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Jazal Goldmane (41)]
+Phase: Ai(1)-Gen3_Deck4's End step
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (72)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (72) - Ai(2)-Gen3_Deck16 surveils (1).
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (71)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (71) - Ai(2)-Gen3_Deck16 surveils (1).
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen3_Deck16 played Uncharted Haven (102)
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Land: Ai(1)-Gen3_Deck4 played Plains (15)
+Add to stack: Ai(1)-Gen3_Deck4 activated Ajani, Caller of the Pride (10)
+Resolve stack: Ajani, Caller of the Pride (10) - Ai(1)-Gen3_Deck4 creates twenty three 2/2 white Cat creature tokens.
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck4 triggered Skyknight Squire (3)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (146)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (145)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (144)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (143)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (142)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (141)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (140)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (139)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (138)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (137)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (136)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (135)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (134)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (133)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (132)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (131)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (130)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (129)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (128)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (127)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (126)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (125)]
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Cat Token (124)]
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Skyknight Squire (3) and Giada, Font of Hope (60) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 assigned Fog Bank (67) to block Skyknight Squire (3).
+Ai(2)-Gen3_Deck16 didn't block Giada, Font of Hope (60).
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (15) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Jazal Goldmane (41)
+Resolve stack: Jazal Goldmane (41) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Damage: Giada, Font of Hope (60) deals 8 combat damage to Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's End of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck4's End step
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (72)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (72) - Ai(2)-Gen3_Deck16 surveils (1).
+Add to stack: Ai(2)-Gen3_Deck16 activated Rune-Sealed Wall (71)
+Resolve stack: Ai(2)-Gen3_Deck16 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (71) - Ai(2)-Gen3_Deck16 surveils (1).
+Phase: Ai(1)-Gen3_Deck4's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen3_Deck16)
+Phase: Ai(2)-Gen3_Deck16's Untap step
+Phase: Ai(2)-Gen3_Deck16's Upkeep step
+Phase: Ai(2)-Gen3_Deck16's Draw step
+Phase: Ai(2)-Gen3_Deck16's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck16's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck16 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck16's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck16's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck16's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck16's End of Combat Step
+Phase: Ai(2)-Gen3_Deck16's Main phase, postcombat
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Uncharted Haven (102) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen3_Deck16 cast Homunculus Horde (65)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck16's End step
+Phase: Ai(2)-Gen3_Deck16's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen3_Deck4)
+Phase: Ai(1)-Gen3_Deck4's Untap step
+Phase: Ai(1)-Gen3_Deck4's Upkeep step
+Phase: Ai(1)-Gen3_Deck4's Draw step
+Phase: Ai(1)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck4 assigned Skyknight Squire (3), Giada, Font of Hope (60), Jazal Goldmane (41), Cat Token (124), Cat Token (125), Cat Token (126), Cat Token (127), Cat Token (128), Cat Token (129), Cat Token (130), Cat Token (131), Cat Token (132), Cat Token (133), Cat Token (134), Cat Token (135), Cat Token (136), Cat Token (137), Cat Token (138), Cat Token (139), Cat Token (140), Cat Token (141), Cat Token (142), Cat Token (143), Cat Token (144), Cat Token (145), Cat Token (146) and Diamond Mare (34) to attack Ai(2)-Gen3_Deck16.
+Phase: Ai(1)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck16 didn't block Cat Token (128).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (129).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (130).
+Ai(2)-Gen3_Deck16 assigned Fog Bank (67) to block Skyknight Squire (3).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (131).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (132).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (133).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (134).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (135).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (136).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (137).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (138).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (139).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (140).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (141).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (142).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (143).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (144).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (145).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (146).
+Ai(2)-Gen3_Deck16 didn't block Diamond Mare (34).
+Ai(2)-Gen3_Deck16 assigned Rune-Sealed Wall (72) to block Jazal Goldmane (41).
+Ai(2)-Gen3_Deck16 didn't block Giada, Font of Hope (60).
+Ai(2)-Gen3_Deck16 assigned Rune-Sealed Wall (71) to block Cat Token (124).
+Ai(2)-Gen3_Deck16 assigned Burrog Befuddler (104) to block Cat Token (125).
+Ai(2)-Gen3_Deck16 assigned Homunculus Horde (65) to block Cat Token (126).
+Ai(2)-Gen3_Deck16 didn't block Cat Token (127).
+Mana: Plains (21) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (15) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck4 activated Jazal Goldmane (41)
+Resolve stack: Jazal Goldmane (41) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(1)-Gen3_Deck4's First Strike Damage Step
+Damage: Jazal Goldmane (41) deals 31 damage () to Rune-Sealed Wall (72).
+Phase: Ai(1)-Gen3_Deck4's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Damage: Giada, Font of Hope (60) deals 33 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (124) deals 29 damage () to Rune-Sealed Wall (71).
+Damage: Cat Token (125) deals 29 damage () to Burrog Befuddler (104).
+Damage: Cat Token (126) deals 29 damage () to Homunculus Horde (65).
+Damage: Cat Token (127) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (128) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (129) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (130) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (131) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (132) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (133) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (134) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (135) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (136) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (137) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (138) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (139) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (140) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (141) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (142) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (143) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (144) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (145) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Cat Token (146) deals 29 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Diamond Mare (34) deals 28 combat damage to Ai(2)-Gen3_Deck16.
+Damage: Homunculus Horde (65) deals 2 damage () to Cat Token (126).
+Damage: Burrog Befuddler (104) deals 2 damage () to Cat Token (125).
+Player control: Ai(1)-Gen3_Deck4 is controlled by Ai(1)-Gen3_Deck4
+Player control: Ai(2)-Gen3_Deck16 is controlled by Ai(2)-Gen3_Deck16
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen3_Deck4 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck16 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck4: 1 Ai(2)-Gen3_Deck16: 0 
+
+Game Result: Game 1 ended in 44946 ms. Ai(1)-Gen3_Deck4 has won!
+
+
+=== STDERR ===

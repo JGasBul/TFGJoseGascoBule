@@ -1,0 +1,719 @@
+=== COMBATE PARALELO: Gen1_Deck2 vs Gen1_Deck0 ===
+Worker ID: 242654
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck2 Gen1_Deck0 -n 1
+Duración: 75.81 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 3060 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 118 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck2 vs Ai(2)-Gen1_Deck0 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck2 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck0 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ai(1)-Gen1_Deck2 played Temple of Enlightenment (41)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Temple of Enlightenment (41)
+Resolve stack: Ai(1)-Gen1_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Enlightenment enters, scry 1. [Zone Changer: Temple of Enlightenment (41)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Island (93)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Crawling Barrens (43)
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Mana: Crawling Barrens (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Resolute Reinforcements (60)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen1_Deck2 triggered Resolute Reinforcements (60)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (60)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Soulstone Sanctuary (116)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Island (35)
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Crawling Barrens (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Angel of Vitality (48)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Resolute Reinforcements (60) and Soldier Token (124) to attack Ai(2)-Gen1_Deck0.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (116) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Burrog Befuddler (114)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen1_Deck0 triggered Burrog Befuddler (114) targeting [Resolute Reinforcements (60)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Resolute Reinforcements (60)]]) [Zone Changer: Burrog Befuddler (114)]
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Burrog Befuddler (114) to block Resolute Reinforcements (60).
+Ai(2)-Gen1_Deck0 didn't block Soldier Token (124).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen1_Deck0.
+Damage: Burrog Befuddler (114) deals 2 damage () to Resolute Reinforcements (60).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Unsummon (68) targeting [Angel of Vitality (48)]
+Resolve stack: Unsummon (68) - Return Angel of Vitality (48) to its owner's hand.
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Island (91)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Burrog Befuddler (114) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Burrog Befuddler (114).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Burrog Befuddler (114) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (25)
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Angel of Vitality (48)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Soldier Token (124) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Soldier Token (124).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Island (95)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (116) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Clinquant Skymage (86)
+Resolve stack: Clinquant Skymage - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (24)
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Crawling Barrens (43)
+Resolve stack: Crawling Barrens (43) - Ai(1)-Gen1_Deck2 puts two +1/+1 counters on Crawling Barrens (43). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Crawling Barrens (43), Angel of Vitality (48) and Soldier Token (124) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Angel of Vitality (48).
+Ai(2)-Gen1_Deck0 assigned Burrog Befuddler (114) to block Crawling Barrens (43).
+Ai(2)-Gen1_Deck0 didn't block Soldier Token (124).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Crawling Barrens (43) deals 2 damage () to Burrog Befuddler (114).
+Damage: Angel of Vitality (48) deals 2 combat damage to Ai(2)-Gen1_Deck0.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen1_Deck0.
+Damage: Burrog Befuddler (114) deals 2 damage () to Crawling Barrens (43).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Clinquant Skymage (86) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Clinquant Skymage (86).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Clinquant Skymage (86) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (116) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Homunculus Horde (65)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Angel of Vitality (47)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Angel of Vitality (48) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Angel of Vitality (48).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Angel of Vitality (48) deals 2 combat damage to Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Clinquant Skymage (86) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Clinquant Skymage (86).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Clinquant Skymage (86) deals 3 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Rune-Sealed Wall (81)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Angel of Vitality (48) and Angel of Vitality (47) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Angel of Vitality (48).
+Ai(2)-Gen1_Deck0 didn't block Angel of Vitality (47).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Angel of Vitality (48) deals 2 combat damage to Ai(2)-Gen1_Deck0.
+Damage: Angel of Vitality (47) deals 2 combat damage to Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Lightshell Duo (52)
+Resolve stack: Lightshell Duo - Creature 3 / 4
+Add to stack: Ai(1)-Gen1_Deck2 triggered Lightshell Duo (52)
+Resolve stack: Ai(1)-Gen1_Deck2 surveiled 2 card(s) to the top of the library
+Resolve stack: When Lightshell Duo enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.) [Zone Changer: Lightshell Duo (52)]
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Island (100)
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck0 activated Soulstone Sanctuary (116)
+Resolve stack: Soulstone Sanctuary (116) - Soulstone Sanctuary (116) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Clinquant Skymage (86) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Clinquant Skymage (86).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Clinquant Skymage (86) deals 4 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Crawling Barrens (45)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Angel of Vitality (48) and Angel of Vitality (47) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Angel of Vitality (48).
+Ai(2)-Gen1_Deck0 didn't block Angel of Vitality (47).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Angel of Vitality (48) deals 2 combat damage to Ai(2)-Gen1_Deck0.
+Damage: Angel of Vitality (47) deals 2 combat damage to Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Mana: Crawling Barrens (45) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Armasaur Guide (12)
+Resolve stack: Armasaur Guide - Creature 4 / 4
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(2)-Gen1_Deck0 activated Rune-Sealed Wall (81)
+Resolve stack: Ai(2)-Gen1_Deck0 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (81) - Ai(2)-Gen1_Deck0 surveils (1).
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Clinquant Skymage (86) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Clinquant Skymage (86).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Clinquant Skymage (86) deals 5 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Homunculus Horde (64)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Angel of Vitality (48) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Angel of Vitality (48).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Angel of Vitality (48) deals 2 combat damage to Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen1_Deck2 played Maze's End (5)
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Twinblade Paladin (20)
+Resolve stack: Twinblade Paladin - Creature 3 / 3
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(2)-Gen1_Deck0 activated Rune-Sealed Wall (81)
+Resolve stack: Ai(2)-Gen1_Deck0 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (81) - Ai(2)-Gen1_Deck0 surveils (1).
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Lightshell Duo (52), Twinblade Paladin (20), Angel of Vitality (48) and Armasaur Guide (12) to attack Ai(2)-Gen1_Deck0.
+Add to stack: Ai(1)-Gen1_Deck2 triggered Armasaur Guide (12) targeting [Armasaur Guide (12)]
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Faebloom Trick (63)
+Resolve stack: Faebloom Trick (63) - Ai(2)-Gen1_Deck0 creates two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls. When you do, tap target creature an opponent controls. 
+Add to stack: Ai(2)-Gen1_Deck0 triggered Faebloom Trick (63) targeting [Armasaur Guide (12)]
+Resolve stack: When you do, tap target creature an opponent controls. (Targeting: [[Armasaur Guide (12)]])
+Mana: Island (100) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (116) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Burrog Befuddler (115)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen1_Deck0 triggered Burrog Befuddler (115) targeting [Armasaur Guide (12)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Armasaur Guide (12)]]) [Zone Changer: Burrog Befuddler (115)]
+Resolve stack: Whenever you attack with three or more creatures, put a +1/+1 counter on target creature you control. (Targeting: [[Armasaur Guide (12)]]) [Number Attackers: [Lightshell Duo (52), Twinblade Paladin (20), Angel of Vitality (48), Armasaur Guide (12)]]
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Faerie Token (173) and Faerie Token (172) to block Angel of Vitality (48).
+Ai(2)-Gen1_Deck0 assigned Rune-Sealed Wall (81) to block Lightshell Duo (52).
+Ai(2)-Gen1_Deck0 assigned Homunculus Horde (64) and Homunculus Horde (65) to block Twinblade Paladin (20).
+Ai(2)-Gen1_Deck0 assigned Clinquant Skymage (86) to block Armasaur Guide (12).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Lightshell Duo (52) deals 3 damage () to Rune-Sealed Wall (81).
+Damage: Twinblade Paladin (20) deals 2 damage () to Homunculus Horde (64).
+Damage: Twinblade Paladin (20) deals 1 damage () to Homunculus Horde (65).
+Damage: Angel of Vitality (48) deals 1 damage () to Faerie Token (172).
+Damage: Angel of Vitality (48) deals 1 damage () to Faerie Token (173).
+Damage: Armasaur Guide (12) deals 4 damage () to Clinquant Skymage (86).
+Damage: Clinquant Skymage (86) deals 6 damage () to Armasaur Guide (12).
+Damage: Homunculus Horde (64) deals 2 damage () to Twinblade Paladin (20).
+Damage: Homunculus Horde (65) deals 2 damage () to Twinblade Paladin (20).
+Damage: Faerie Token (173) deals 1 damage () to Angel of Vitality (48).
+Damage: Faerie Token (172) deals 1 damage () to Angel of Vitality (48).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen1_Deck2 played Uncharted Haven (40)
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Mana: Crawling Barrens (45) - {T}: Add {C}.
+Mana: Maze's End (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Steel Hellkite (23)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(2)-Gen1_Deck0 activated Rune-Sealed Wall (81)
+Resolve stack: Ai(2)-Gen1_Deck0 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (81) - Ai(2)-Gen1_Deck0 surveils (1).
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Soulstone Sanctuary (119)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck0 activated Soulstone Sanctuary (119)
+Resolve stack: Soulstone Sanctuary (119) - Soulstone Sanctuary (119) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Island (36)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Kitesail Corsair (49)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(2)-Gen1_Deck0 activated Rune-Sealed Wall (81)
+Resolve stack: Ai(2)-Gen1_Deck0 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (81) - Ai(2)-Gen1_Deck0 surveils (1).
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (119) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (116) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Steel Hellkite (83)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(2)-Gen1_Deck0's End step
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Uncharted Haven (40) - {T}: Add one mana of the chosen color.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Crawling Barrens (45)
+Resolve stack: Crawling Barrens (45) - Ai(1)-Gen1_Deck2 puts two +1/+1 counters on Crawling Barrens (45). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (29)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(2)-Gen1_Deck0 activated Rune-Sealed Wall (81)
+Resolve stack: Ai(2)-Gen1_Deck0 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (81) - Ai(2)-Gen1_Deck0 surveils (1).
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Clinquant Skymage (86) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Angel of Vitality (47) to block Clinquant Skymage (86).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Clinquant Skymage (86) deals 9 damage () to Angel of Vitality (47).
+Damage: Angel of Vitality (47) deals 2 damage () to Clinquant Skymage (86).
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Rune-Sealed Wall (79)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen1_Deck0's End step
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Uncharted Haven (40) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck2 activated Crawling Barrens (45)
+Resolve stack: Crawling Barrens (45) - Ai(1)-Gen1_Deck2 puts two +1/+1 counters on Crawling Barrens (45). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Mana: Maze's End (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Crawling Barrens (45)
+Resolve stack: Crawling Barrens (45) - Ai(1)-Gen1_Deck2 puts two +1/+1 counters on Crawling Barrens (45). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Evolving Wilds (57)
+Add to stack: Ai(1)-Gen1_Deck2 activated Evolving Wilds (57)
+Resolve stack: Evolving Wilds (57) - Ai(1)-Gen1_Deck2 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(2)-Gen1_Deck0 activated Rune-Sealed Wall (81)
+Resolve stack: Ai(2)-Gen1_Deck0 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (81) - Ai(2)-Gen1_Deck0 surveils (1).
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Add to stack: Ai(2)-Gen1_Deck0 triggered Clinquant Skymage (86)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck0]
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Clinquant Skymage (86), Steel Hellkite (83), Soulstone Sanctuary (116), Soulstone Sanctuary (119), Homunculus Horde (65) and Burrog Befuddler (115) to attack Ai(1)-Gen1_Deck2.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Voracious Greatshark (77)
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Uncharted Haven (40) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck2 activated Crawling Barrens (45)
+Resolve stack: Crawling Barrens (45) - Ai(1)-Gen1_Deck2 puts two +1/+1 counters on Crawling Barrens (45). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Mana: Maze's End (5) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Crawling Barrens (45)
+Resolve stack: Crawling Barrens (45) - Ai(1)-Gen1_Deck2 puts two +1/+1 counters on Crawling Barrens (45). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Resolve stack: Voracious Greatshark - Creature 5 / 4
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Lightshell Duo (52) to block Homunculus Horde (65).
+Ai(1)-Gen1_Deck2 didn't block Steel Hellkite (83).
+Ai(1)-Gen1_Deck2 assigned Crawling Barrens (45) to block Burrog Befuddler (115).
+Ai(1)-Gen1_Deck2 assigned Soldier Token (124) to block Soulstone Sanctuary (116).
+Ai(1)-Gen1_Deck2 assigned Steel Hellkite (23) to block Clinquant Skymage (86).
+Ai(1)-Gen1_Deck2 assigned Kitesail Corsair (49) to block Soulstone Sanctuary (119).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Clinquant Skymage (86) deals 10 damage () to Steel Hellkite (23).
+Damage: Steel Hellkite (83) deals 5 combat damage to Ai(1)-Gen1_Deck2.
+Damage: Soulstone Sanctuary (116) deals 3 damage () to Soldier Token (124).
+Damage: Soulstone Sanctuary (119) deals 3 damage () to Kitesail Corsair (49).
+Damage: Homunculus Horde (65) deals 2 damage () to Lightshell Duo (52).
+Damage: Burrog Befuddler (115) deals 2 damage () to Crawling Barrens (45).
+Damage: Steel Hellkite (23) deals 5 damage () to Clinquant Skymage (86).
+Damage: Soldier Token (124) deals 1 damage () to Soulstone Sanctuary (116).
+Damage: Kitesail Corsair (49) deals 2 damage () to Soulstone Sanctuary (119).
+Damage: Lightshell Duo (52) deals 3 damage () to Homunculus Horde (65).
+Damage: Crawling Barrens (45) deals 10 damage () to Burrog Befuddler (115).
+Player control: Ai(1)-Gen1_Deck2 is controlled by Ai(1)-Gen1_Deck2
+Player control: Ai(2)-Gen1_Deck0 is controlled by Ai(2)-Gen1_Deck0
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen1_Deck2 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck0 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck2: 0 Ai(2)-Gen1_Deck0: 1 
+
+Game Result: Game 1 ended in 61897 ms. Ai(2)-Gen1_Deck0 has won!
+
+
+=== STDERR ===

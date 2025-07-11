@@ -1,0 +1,391 @@
+=== COMBATE PARALELO: Gen3_Deck18 vs Gen3_Deck14 ===
+Worker ID: 725047
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck18 Gen3_Deck14 -n 1
+Duración: 25.01 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1786 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 97 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck18 vs Ai(2)-Gen3_Deck14 - one game of Constructed
+Mulligan: Ai(2)-Gen3_Deck14 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen3_Deck14 has mulliganed down to 5 cards.
+Mulligan: Ai(2)-Gen3_Deck14 has kept a hand of 5 cards
+Mulligan: Ai(1)-Gen3_Deck18 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Land: Ai(2)-Gen3_Deck14 played Island (101)
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck14's End step
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen3_Deck18 played Tranquil Cove (17)
+Add to stack: Ai(1)-Gen3_Deck18 triggered Tranquil Cove (17)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (17)]
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck18's End of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck18's End step
+Phase: Ai(1)-Gen3_Deck18's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Land: Ai(2)-Gen3_Deck14 played Island (97)
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck14's End step
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Land: Ai(1)-Gen3_Deck18 played Island (44)
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck18's End of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen3_Deck18 cast Strix Lookout (2)
+Resolve stack: Strix Lookout - Creature 1 / 2
+Phase: Ai(1)-Gen3_Deck18's End step
+Phase: Ai(1)-Gen3_Deck18's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck14's End step
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Land: Ai(1)-Gen3_Deck18 played Island (45)
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 assigned Strix Lookout (2) to attack Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck14 didn't block Strix Lookout (2).
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's End of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen3_Deck18 cast Rune-Sealed Wall (29)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(1)-Gen3_Deck18's End step
+Phase: Ai(1)-Gen3_Deck18's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Land: Ai(2)-Gen3_Deck14 played Island (102)
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Mana: Island (101) - {T}: Add {U}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck14 cast Kaito, Cunning Infiltrator (72)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(2)-Gen3_Deck14 activated Kaito, Cunning Infiltrator (72)
+Resolve stack: Kaito, Cunning Infiltrator (72) - Ai(2)-Gen3_Deck14 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen3_Deck14's End step
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Land: Ai(1)-Gen3_Deck18 played Island (48)
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 assigned Strix Lookout (2) to attack Kaito, Cunning Infiltrator (72).
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck14 didn't block Strix Lookout (2).
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck18's End of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck18 activated Strix Lookout (2)
+Discard: Ai(1)-Gen3_Deck18 discards Island (41).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen3_Deck18 draws a card. Ai(1)-Gen3_Deck18 discards a card.
+Phase: Ai(1)-Gen3_Deck18's End step
+Phase: Ai(1)-Gen3_Deck18's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck14's End step
+Add to stack: Ai(1)-Gen3_Deck18 activated Rune-Sealed Wall (29)
+Resolve stack: Ai(1)-Gen3_Deck18 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (29) - Ai(1)-Gen3_Deck18 surveils (1).
+Mana: Island (48) - {T}: Add {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen3_Deck18 cast Brineborn Cutthroat (57)
+Resolve stack: Brineborn Cutthroat - Creature 2 / 1
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Land: Ai(1)-Gen3_Deck18 played Island (37)
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 assigned Brineborn Cutthroat (57) and Strix Lookout (2) to attack Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck14 didn't block Strix Lookout (2).
+Ai(2)-Gen3_Deck14 didn't block Brineborn Cutthroat (57).
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Damage: Brineborn Cutthroat (57) deals 2 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's End of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck18 cast Mocking Sprite (21)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Mana: Island (37) - {T}: Add {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen3_Deck18 activated Strix Lookout (2)
+Discard: Ai(1)-Gen3_Deck18 discards Island (39).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen3_Deck18 draws a card. Ai(1)-Gen3_Deck18 discards a card.
+Phase: Ai(1)-Gen3_Deck18's End step
+Phase: Ai(1)-Gen3_Deck18's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck14's End step
+Add to stack: Ai(1)-Gen3_Deck18 activated Rune-Sealed Wall (29)
+Resolve stack: Ai(1)-Gen3_Deck18 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (29) - Ai(1)-Gen3_Deck18 surveils (1).
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Land: Ai(1)-Gen3_Deck18 played Soulstone Sanctuary (60)
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 assigned Brineborn Cutthroat (57), Mocking Sprite (21) and Strix Lookout (2) to attack Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck14 didn't block Strix Lookout (2).
+Ai(2)-Gen3_Deck14 didn't block Mocking Sprite (21).
+Ai(2)-Gen3_Deck14 assigned Ninja Token (130) to block Brineborn Cutthroat (57).
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Damage: Brineborn Cutthroat (57) deals 2 damage () to Ninja Token (130).
+Damage: Mocking Sprite (21) deals 2 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Ninja Token (130) deals 2 damage () to Brineborn Cutthroat (57).
+Phase: Ai(1)-Gen3_Deck18's End of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Mana: Soulstone Sanctuary (60) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck18 cast Steel Hellkite (32)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(1)-Gen3_Deck18's End step
+Phase: Ai(1)-Gen3_Deck18's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck14's End step
+Add to stack: Ai(1)-Gen3_Deck18 activated Rune-Sealed Wall (29)
+Resolve stack: Ai(1)-Gen3_Deck18 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (29) - Ai(1)-Gen3_Deck18 surveils (1).
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck18 activated Soulstone Sanctuary (60)
+Resolve stack: Soulstone Sanctuary (60) - Soulstone Sanctuary (60) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 assigned Steel Hellkite (32), Soulstone Sanctuary (60), Mocking Sprite (21) and Strix Lookout (2) to attack Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck14 didn't block Steel Hellkite (32).
+Ai(2)-Gen3_Deck14 didn't block Strix Lookout (2).
+Ai(2)-Gen3_Deck14 didn't block Mocking Sprite (21).
+Ai(2)-Gen3_Deck14 didn't block Soulstone Sanctuary (60).
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Damage: Steel Hellkite (32) deals 5 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Soulstone Sanctuary (60) deals 3 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Mocking Sprite (21) deals 2 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's End of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Main phase, postcombat
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Mana: Soulstone Sanctuary (60) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck18 activated Strix Lookout (2)
+Discard: Ai(1)-Gen3_Deck18 discards Island (38).
+Resolve stack: Strix Lookout (2) - Ai(1)-Gen3_Deck18 draws a card. Ai(1)-Gen3_Deck18 discards a card.
+Phase: Ai(1)-Gen3_Deck18's End step
+Phase: Ai(1)-Gen3_Deck18's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen3_Deck14)
+Phase: Ai(2)-Gen3_Deck14's Untap step
+Phase: Ai(2)-Gen3_Deck14's Upkeep step
+Phase: Ai(2)-Gen3_Deck14's Draw step
+Phase: Ai(2)-Gen3_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck14's End of Combat Step
+Phase: Ai(2)-Gen3_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck14's End step
+Add to stack: Ai(1)-Gen3_Deck18 activated Rune-Sealed Wall (29)
+Resolve stack: Ai(1)-Gen3_Deck18 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (29) - Ai(1)-Gen3_Deck18 surveils (1).
+Phase: Ai(2)-Gen3_Deck14's Cleanup step
+Discard: Ai(2)-Gen3_Deck14 discards Steel Hellkite (85).
+Turn: Turn 16 (Ai(1)-Gen3_Deck18)
+Phase: Ai(1)-Gen3_Deck18's Untap step
+Phase: Ai(1)-Gen3_Deck18's Upkeep step
+Phase: Ai(1)-Gen3_Deck18's Draw step
+Phase: Ai(1)-Gen3_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck18 assigned Steel Hellkite (32), Soulstone Sanctuary (60), Mocking Sprite (21) and Strix Lookout (2) to attack Ai(2)-Gen3_Deck14.
+Phase: Ai(1)-Gen3_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck14 didn't block Steel Hellkite (32).
+Ai(2)-Gen3_Deck14 didn't block Strix Lookout (2).
+Ai(2)-Gen3_Deck14 didn't block Mocking Sprite (21).
+Ai(2)-Gen3_Deck14 didn't block Soulstone Sanctuary (60).
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (45) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck18 activated Steel Hellkite (32)
+Resolve stack: Steel Hellkite (32) - Steel Hellkite (32) gets +1/+0  until end of turn.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen3_Deck18 activated Steel Hellkite (32)
+Resolve stack: Steel Hellkite (32) - Steel Hellkite (32) gets +1/+0  until end of turn.
+Mana: Tranquil Cove (17) - {T}: Add {W} or {U}.
+Mana: Soulstone Sanctuary (60) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck18 activated Steel Hellkite (32)
+Resolve stack: Steel Hellkite (32) - Steel Hellkite (32) gets +1/+0  until end of turn.
+Phase: Ai(1)-Gen3_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck18's Combat Damage Step
+Damage: Steel Hellkite (32) deals 8 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Soulstone Sanctuary (60) deals 3 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Mocking Sprite (21) deals 2 combat damage to Ai(2)-Gen3_Deck14.
+Damage: Strix Lookout (2) deals 1 combat damage to Ai(2)-Gen3_Deck14.
+Player control: Ai(1)-Gen3_Deck18 is controlled by Ai(1)-Gen3_Deck18
+Player control: Ai(2)-Gen3_Deck14 is controlled by Ai(2)-Gen3_Deck14
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen3_Deck18 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck14 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck18: 1 Ai(2)-Gen3_Deck14: 0 
+
+Game Result: Game 1 ended in 13334 ms. Ai(1)-Gen3_Deck18 has won!
+
+
+=== STDERR ===

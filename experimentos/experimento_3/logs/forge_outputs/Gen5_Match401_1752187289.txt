@@ -1,0 +1,382 @@
+=== COMBATE PARALELO: Gen5_Deck30 vs Gen5_Deck14 ===
+Worker ID: 1237315
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck30 Gen5_Deck14 -n 1
+Duración: 28.62 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2202 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 171 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck30 vs Ai(2)-Gen5_Deck14 - one game of Constructed
+Mulligan: Ai(1)-Gen5_Deck30 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen5_Deck14 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Replacement Effect: Wind-Scarred Crag enters tapped.
+Land: Ai(1)-Gen5_Deck30 played Wind-Scarred Crag (28)
+Add to stack: Ai(1)-Gen5_Deck30 triggered Wind-Scarred Crag (28)
+Resolve stack: When Wind-Scarred Crag enters, you gain 1 life. [Zone Changer: Wind-Scarred Crag (28)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Island (98)
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck14's End of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck14's End step
+Phase: Ai(2)-Gen5_Deck14's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Land: Ai(1)-Gen5_Deck30 played Evolving Wilds (30)
+Add to stack: Ai(1)-Gen5_Deck30 activated Evolving Wilds (30)
+Resolve stack: Evolving Wilds (30) - Ai(1)-Gen5_Deck30 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Mana: Wind-Scarred Crag (28) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Hinterland Sanctifier (14)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Soulstone Sanctuary (118)
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck14's End of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck14's End step
+Phase: Ai(2)-Gen5_Deck14's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Wind-Scarred Crag (28) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Giada, Font of Hope (60)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Giada, Font of Hope (60)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Hinterland Sanctifier (14) to attack Ai(2)-Gen5_Deck14.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck14 didn't block Hinterland Sanctifier (14).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Hinterland Sanctifier (14) deals 1 combat damage to Ai(2)-Gen5_Deck14.
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Island (106)
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck14's End of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck14's End step
+Phase: Ai(2)-Gen5_Deck14's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Giada, Font of Hope (60) and Hinterland Sanctifier (14) to attack Ai(2)-Gen5_Deck14.
+Mana: Island (98) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck14 cast Faebloom Trick (62)
+Resolve stack: Faebloom Trick (62) - Ai(2)-Gen5_Deck14 creates two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls. When you do, tap target creature an opponent controls. 
+Add to stack: Ai(2)-Gen5_Deck14 triggered Faebloom Trick (62) targeting [Giada, Font of Hope (60)]
+Resolve stack: When you do, tap target creature an opponent controls. (Targeting: [[Giada, Font of Hope (60)]])
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck14 assigned Faerie Token (135) and Faerie Token (134) to block Giada, Font of Hope (60).
+Ai(2)-Gen5_Deck14 didn't block Hinterland Sanctifier (14).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Giada, Font of Hope (60) deals 1 damage () to Faerie Token (134).
+Damage: Giada, Font of Hope (60) deals 1 damage () to Faerie Token (135).
+Damage: Hinterland Sanctifier (14) deals 1 combat damage to Ai(2)-Gen5_Deck14.
+Damage: Faerie Token (135) deals 1 damage () to Giada, Font of Hope (60).
+Damage: Faerie Token (134) deals 1 damage () to Giada, Font of Hope (60).
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Island (90)
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck14's End of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Main phase, postcombat
+Mana: Island (98) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck14 cast Homunculus Horde (64)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck14's End step
+Phase: Ai(2)-Gen5_Deck14's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Plains (84)
+Mana: Island (98) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck14 activated Soulstone Sanctuary (118)
+Resolve stack: Soulstone Sanctuary (118) - Soulstone Sanctuary (118) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 assigned Homunculus Horde (64) and Soulstone Sanctuary (118) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Homunculus Horde (64).
+Ai(1)-Gen5_Deck30 didn't block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Damage: Homunculus Horde (64) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Soulstone Sanctuary (118) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck14's End of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck14's End step
+Phase: Ai(2)-Gen5_Deck14's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Discard: Ai(1)-Gen5_Deck30 discards Rapacious Dragon (5).
+Turn: Turn 12 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Island (92)
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 assigned Homunculus Horde (64) and Soulstone Sanctuary (118) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Homunculus Horde (64).
+Ai(1)-Gen5_Deck30 didn't block Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Damage: Homunculus Horde (64) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Soulstone Sanctuary (118) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck14's End of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Main phase, postcombat
+Mana: Island (98) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck14 cast Steel Hellkite (87)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(2)-Gen5_Deck14's End step
+Phase: Ai(2)-Gen5_Deck14's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Hinterland Sanctifier (13)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (13)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Island (94)
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 assigned Steel Hellkite (87), Homunculus Horde (64) and Soulstone Sanctuary (118) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Homunculus Horde (64).
+Ai(1)-Gen5_Deck30 assigned Hinterland Sanctifier (14) to block Soulstone Sanctuary (118).
+Ai(1)-Gen5_Deck30 didn't block Steel Hellkite (87).
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Damage: Steel Hellkite (87) deals 5 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Homunculus Horde (64) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Soulstone Sanctuary (118) deals 3 damage () to Hinterland Sanctifier (14).
+Damage: Hinterland Sanctifier (14) deals 1 damage () to Soulstone Sanctuary (118).
+Phase: Ai(2)-Gen5_Deck14's End of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Main phase, postcombat
+Mana: Island (98) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck14 cast Steel Hellkite (88)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(2)-Gen5_Deck14's End step
+Phase: Ai(2)-Gen5_Deck14's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Discard: Ai(1)-Gen5_Deck30 discards Angel of Finality (8).
+Turn: Turn 16 (Ai(2)-Gen5_Deck14)
+Phase: Ai(2)-Gen5_Deck14's Untap step
+Phase: Ai(2)-Gen5_Deck14's Upkeep step
+Phase: Ai(2)-Gen5_Deck14's Draw step
+Phase: Ai(2)-Gen5_Deck14's Main phase, precombat
+Land: Ai(2)-Gen5_Deck14 played Island (104)
+Phase: Ai(2)-Gen5_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck14 assigned Steel Hellkite (87), Steel Hellkite (88), Soulstone Sanctuary (118) and Homunculus Horde (64) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Homunculus Horde (64).
+Ai(1)-Gen5_Deck30 assigned Hinterland Sanctifier (13) to block Soulstone Sanctuary (118).
+Ai(1)-Gen5_Deck30 didn't block Steel Hellkite (87).
+Ai(1)-Gen5_Deck30 didn't block Steel Hellkite (88).
+Mana: Island (98) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck14 activated Steel Hellkite (87)
+Resolve stack: Steel Hellkite (87) - Steel Hellkite (87) gets +1/+0  until end of turn.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck14 activated Steel Hellkite (87)
+Resolve stack: Steel Hellkite (87) - Steel Hellkite (87) gets +1/+0  until end of turn.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck14 activated Steel Hellkite (87)
+Resolve stack: Steel Hellkite (87) - Steel Hellkite (87) gets +1/+0  until end of turn.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (118) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck14 activated Steel Hellkite (87)
+Resolve stack: Steel Hellkite (87) - Steel Hellkite (87) gets +1/+0  until end of turn.
+Phase: Ai(2)-Gen5_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck14's Combat Damage Step
+Damage: Steel Hellkite (87) deals 9 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Steel Hellkite (88) deals 5 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Soulstone Sanctuary (118) deals 3 damage () to Hinterland Sanctifier (13).
+Damage: Homunculus Horde (64) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Hinterland Sanctifier (13) deals 1 damage () to Soulstone Sanctuary (118).
+Player control: Ai(1)-Gen5_Deck30 is controlled by Ai(1)-Gen5_Deck30
+Player control: Ai(2)-Gen5_Deck14 is controlled by Ai(2)-Gen5_Deck14
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen5_Deck30 has lost because life total reached 0
+Game outcome: Ai(2)-Gen5_Deck14 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck30: 0 Ai(2)-Gen5_Deck14: 1 
+
+Game Result: Game 1 ended in 16198 ms. Ai(2)-Gen5_Deck14 has won!
+
+
+=== STDERR ===

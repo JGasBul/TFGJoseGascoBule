@@ -1,0 +1,507 @@
+=== COMBATE PARALELO: Gen0_Deck4 vs Gen0_Deck11 ===
+Worker ID: 1338
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck4 Gen0_Deck11 -n 1
+Duración: 29.52 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1979 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 108 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck4 vs Ai(2)-Gen0_Deck11 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck11 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (32)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Forest (86)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Expedition Map (78)
+Resolve stack: Expedition Map
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck4 played Uncharted Haven (54)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Plains (98)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 activated Expedition Map (78)
+Resolve stack: Expedition Map (78) - Ai(2)-Gen0_Deck11 searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Uncharted Haven (54) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen0_Deck4 cast Fynn, the Fangbearer (9)
+Resolve stack: Fynn, the Fangbearer - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Forest (87)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (87) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Burnished Hart (92)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Crawling Barrens (110)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (35)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Uncharted Haven (54) - {T}: Add one mana of the chosen color.
+Mana: Forest (35) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Eager Trufflesnout (8)
+Resolve stack: Eager Trufflesnout - Creature 4 / 2
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Plains (101)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Crawling Barrens (110) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Vivien Reid (120)
+Replacement Effect: Vivien Reid enters with five loyalty counters on it.
+Resolve stack: Vivien Reid
+Add to stack: Ai(2)-Gen0_Deck11 activated Vivien Reid (120)
+Resolve stack: Vivien Reid (120) - Ai(2)-Gen0_Deck11 looks at the top four cards of their library. They may put a Creature,Land card from among them into their hand and put the rest on the bottom of their library in any order.
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (26)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Eager Trufflesnout (8) to attack Vivien Reid (120).
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Burnished Hart (92) to block Eager Trufflesnout (8).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Eager Trufflesnout (8) deals 2 damage () to Burnished Hart (92).
+Damage: Burnished Hart (92) deals 2 damage () to Eager Trufflesnout (8).
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Uncharted Haven (54) - {T}: Add one mana of the chosen color.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Surrak, the Hunt Caller (36)
+Resolve stack: Surrak, the Hunt Caller - Creature 5 / 4
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Forest (89)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Add to stack: Ai(2)-Gen0_Deck11 activated Vivien Reid (120)
+Resolve stack: Vivien Reid (120) - Ai(2)-Gen0_Deck11 looks at the top four cards of their library. They may put a Creature,Land card from among them into their hand and put the rest on the bottom of their library in any order.
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Crawling Barrens (110) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Apothecary Stomper (103)
+Resolve stack: Apothecary Stomper - Creature 4 / 4
+Add to stack: Ai(2)-Gen0_Deck11 triggered Apothecary Stomper (103)
+Resolve stack: When this creature enters, put two +1/+1 counters on target creature you control. (Targeting: Apothecary Stomper (103)) [Zone Changer: Apothecary Stomper (103)]
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (21)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Surrak, the Hunt Caller (36) and Fynn, the Fangbearer (9) to attack Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Apothecary Stomper (103) to block Surrak, the Hunt Caller (36).
+Ai(2)-Gen0_Deck11 didn't block Fynn, the Fangbearer (9).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Surrak, the Hunt Caller (36) deals 5 damage () to Apothecary Stomper (103).
+Damage: Fynn, the Fangbearer (9) deals 1 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Apothecary Stomper (103) deals 6 damage () to Surrak, the Hunt Caller (36).
+Add to stack: Ai(1)-Gen0_Deck4 triggered Fynn, the Fangbearer (9)
+Damage: Ai(2)-Gen0_Deck11 receives 2 poison counter from Ai(1)-Gen0_Deck4
+Resolve stack: Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.) [Damage Source: Fynn, the Fangbearer (9), Damaged: Ai(2)-Gen0_Deck11, Amount: 1]
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (86) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Deadly Riposte (114) targeting [Fynn, the Fangbearer (9)]
+Damage: Deadly Riposte (114) deals 3 damage () to Fynn, the Fangbearer (9).
+Resolve stack: Deadly Riposte (114) - Deadly Riposte (114) deals 3 damage to Fynn, the Fangbearer (9). Ai(2)-Gen0_Deck11 gains 2 life.
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Forest (85)
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 activated Crawling Barrens (110)
+Resolve stack: Crawling Barrens (110) - Ai(2)-Gen0_Deck11 puts two +1/+1 counters on Crawling Barrens (110). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Apothecary Stomper (103) and Crawling Barrens (110) to attack Ai(1)-Gen0_Deck4.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck4 didn't block Apothecary Stomper (103).
+Ai(1)-Gen0_Deck4 didn't block Crawling Barrens (110).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Apothecary Stomper (103) deals 6 combat damage to Ai(1)-Gen0_Deck4.
+Damage: Crawling Barrens (110) deals 2 combat damage to Ai(1)-Gen0_Deck4.
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Add to stack: Ai(2)-Gen0_Deck11 activated Vivien Reid (120)
+Resolve stack: Vivien Reid (120) - Ai(2)-Gen0_Deck11 looks at the top four cards of their library. They may put a Creature,Land card from among them into their hand and put the rest on the bottom of their library in any order.
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Uncharted Haven (54) - {T}: Add one mana of the chosen color.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Elvish Regrower (7)
+Resolve stack: Elvish Regrower - Creature 4 / 3
+Add to stack: Ai(1)-Gen0_Deck4 triggered Elvish Regrower (7) targeting [Surrak, the Hunt Caller (36)]
+Resolve stack: When this creature enters, return target permanent card from your graveyard to your hand. (Targeting: [[Surrak, the Hunt Caller (36)]]) [Zone Changer: Elvish Regrower (7)]
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Plains (95)
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (85) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Biogenic Upgrade (69) targeting [Apothecary Stomper (103)]
+Resolve stack: Biogenic Upgrade (69) - Ai(2)-Gen0_Deck11 distributes three +1/+1 counters among Apothecary Stomper (103) (3 counters). Double the number of +1/+1 counters on Apothecary Stomper (103).
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Apothecary Stomper (103) to attack Ai(1)-Gen0_Deck4.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Elvish Regrower (7) to block Apothecary Stomper (103).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Apothecary Stomper (103) deals 14 damage () to Elvish Regrower (7).
+Damage: Elvish Regrower (7) deals 4 damage () to Apothecary Stomper (103).
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Add to stack: Ai(2)-Gen0_Deck11 activated Vivien Reid (120)
+Resolve stack: Vivien Reid (120) - Ai(2)-Gen0_Deck11 looks at the top four cards of their library. They may put a Creature,Land card from among them into their hand and put the rest on the bottom of their library in any order.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Crawling Barrens (110) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Knight of Grace (80)
+Resolve stack: Knight of Grace - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (25)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Uncharted Haven (54) - {T}: Add one mana of the chosen color.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Affectionate Indrik (44)
+Resolve stack: Affectionate Indrik - Creature 4 / 4
+Add to stack: Ai(1)-Gen0_Deck4 triggered Affectionate Indrik (44) targeting [Knight of Grace (80)]
+Damage: Affectionate Indrik (44) deals 4 damage () to Knight of Grace (80).
+Damage: Knight of Grace (80) deals 2 damage () to Affectionate Indrik (44).
+Resolve stack: When Affectionate Indrik enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.) (Targeting: [[Knight of Grace (80)]]) [Zone Changer: Affectionate Indrik (44)]
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Evolving Wilds (93)
+Add to stack: Ai(2)-Gen0_Deck11 activated Evolving Wilds (93)
+Resolve stack: Evolving Wilds (93) - Ai(2)-Gen0_Deck11 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 activated Crawling Barrens (110)
+Resolve stack: Crawling Barrens (110) - Ai(2)-Gen0_Deck11 puts two +1/+1 counters on Crawling Barrens (110). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Crawling Barrens (110) and Apothecary Stomper (103) to attack Ai(1)-Gen0_Deck4.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Affectionate Indrik (44) to block Apothecary Stomper (103).
+Ai(1)-Gen0_Deck4 didn't block Crawling Barrens (110).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Crawling Barrens (110) deals 4 combat damage to Ai(1)-Gen0_Deck4.
+Damage: Apothecary Stomper (103) deals 14 damage () to Affectionate Indrik (44).
+Damage: Affectionate Indrik (44) deals 4 damage () to Apothecary Stomper (103).
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Add to stack: Ai(2)-Gen0_Deck11 activated Vivien Reid (120)
+Resolve stack: Vivien Reid (120) - Ai(2)-Gen0_Deck11 looks at the top four cards of their library. They may put a Creature,Land card from among them into their hand and put the rest on the bottom of their library in any order.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Loot, Exuberant Explorer (71)
+Resolve stack: Loot, Exuberant Explorer - Creature 1 / 4
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (19)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Uncharted Haven (54) - {T}: Add one mana of the chosen color.
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Primeval Bounty (51)
+Resolve stack: Primeval Bounty
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Add to stack: Ai(2)-Gen0_Deck11 activated Vivien Reid (120) targeting [Primeval Bounty (51)]
+Resolve stack: Vivien Reid (120) - Destroy Primeval Bounty (51).
+Mana: Forest (86) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Plains (101) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 activated Crawling Barrens (110)
+Resolve stack: Crawling Barrens (110) - Ai(2)-Gen0_Deck11 puts two +1/+1 counters on Crawling Barrens (110). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (85) - {T}: Add {G}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 activated Crawling Barrens (110)
+Resolve stack: Crawling Barrens (110) - Ai(2)-Gen0_Deck11 puts two +1/+1 counters on Crawling Barrens (110). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Apothecary Stomper (103), Crawling Barrens (110) and Loot, Exuberant Explorer (71) to attack Ai(1)-Gen0_Deck4.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck4 didn't block Apothecary Stomper (103).
+Ai(1)-Gen0_Deck4 didn't block Loot, Exuberant Explorer (71).
+Ai(1)-Gen0_Deck4 didn't block Crawling Barrens (110).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Apothecary Stomper (103) deals 14 combat damage to Ai(1)-Gen0_Deck4.
+Damage: Crawling Barrens (110) deals 8 combat damage to Ai(1)-Gen0_Deck4.
+Damage: Loot, Exuberant Explorer (71) deals 1 combat damage to Ai(1)-Gen0_Deck4.
+Player control: Ai(1)-Gen0_Deck4 is controlled by Ai(1)-Gen0_Deck4
+Player control: Ai(2)-Gen0_Deck11 is controlled by Ai(2)-Gen0_Deck11
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen0_Deck4 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck11 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck4: 0 Ai(2)-Gen0_Deck11: 1 
+
+Game Result: Game 1 ended in 17255 ms. Ai(2)-Gen0_Deck11 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,498 @@
+=== COMBATE PARALELO: Gen1_Deck30 vs Gen1_Deck13 ===
+Worker ID: 242654
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck30 Gen1_Deck13 -n 1
+Duración: 44.38 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1821 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 190 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck30 vs Ai(2)-Gen1_Deck13 - one game of Constructed
+River's Rebuke Did not have activator set in SpellAbilityRestriction.canPlay()
+Mulligan: Ai(2)-Gen1_Deck13 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck30 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Land: Ai(2)-Gen1_Deck13 played Island (99)
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck13's End step
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Mountain (55)
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Fanatical Firebrand (48)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 assigned Fanatical Firebrand (48) to attack Ai(2)-Gen1_Deck13.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck13 didn't block Fanatical Firebrand (48).
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Damage: Fanatical Firebrand (48) deals 1 combat damage to Ai(2)-Gen1_Deck13.
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Land: Ai(2)-Gen1_Deck13 played Soulstone Sanctuary (117)
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck13's End step
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Island (35)
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 assigned Fanatical Firebrand (48) to attack Ai(2)-Gen1_Deck13.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck13 didn't block Fanatical Firebrand (48).
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Damage: Fanatical Firebrand (48) deals 1 combat damage to Ai(2)-Gen1_Deck13.
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Think Twice (24)
+Resolve stack: Think Twice (24) - Ai(1)-Gen1_Deck30 draws a card.
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Land: Ai(2)-Gen1_Deck13 played Island (92)
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (117) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck13 cast Mocking Sprite (73)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck13's End step
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Demolition Field (50)
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 activated Demolition Field (50) targeting [Soulstone Sanctuary (117)]
+Resolve stack: Demolition Field (50) - Destroy Soulstone Sanctuary (117). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen1_Deck30 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 assigned Mocking Sprite (73) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Mocking Sprite (73).
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Damage: Mocking Sprite (73) deals 2 combat damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 cast Rune-Sealed Wall (80)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen1_Deck13's End step
+Add to stack: Ai(1)-Gen1_Deck30 activated Fanatical Firebrand (48) targeting [Mocking Sprite (73)]
+Damage: Fanatical Firebrand (48) deals 1 damage () to Mocking Sprite (73).
+Resolve stack: Fanatical Firebrand (48) - Fanatical Firebrand (48) deals 1 damage to Mocking Sprite (73).
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Mountain (54)
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Krenko, Mob Boss (40)
+Resolve stack: Krenko, Mob Boss - Creature 3 / 3
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 cast Kaito, Cunning Infiltrator (71)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(2)-Gen1_Deck13 activated Kaito, Cunning Infiltrator (71)
+Resolve stack: Kaito, Cunning Infiltrator (71) - Ai(2)-Gen1_Deck13 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen1_Deck13's End step
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen1_Deck30 played Maze's End (1)
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Burnished Hart (20)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck30's End step
+Add to stack: Ai(2)-Gen1_Deck13 activated Rune-Sealed Wall (80)
+Resolve stack: Ai(2)-Gen1_Deck13 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (80) - Ai(2)-Gen1_Deck13 surveils (1).
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Land: Ai(2)-Gen1_Deck13 played Island (94)
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Add to stack: Ai(1)-Gen1_Deck30 activated Krenko, Mob Boss (40)
+Resolve stack: Krenko, Mob Boss (40) - Ai(1)-Gen1_Deck30 creates two 1/1 red Goblin creature tokens.
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 cast Clinquant Skymage (87)
+Resolve stack: Clinquant Skymage - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck13's End step
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Island (34)
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Fanatical Firebrand (47)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Think Twice (24)
+Resolve stack: Think Twice (24) - Ai(1)-Gen1_Deck30 draws a card.
+Replacement Effect: Flashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Ai(1)-Gen1_Deck30's End step
+Add to stack: Ai(2)-Gen1_Deck13 activated Rune-Sealed Wall (80)
+Resolve stack: Ai(2)-Gen1_Deck13 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (80) - Ai(2)-Gen1_Deck13 surveils (1).
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Add to stack: Ai(2)-Gen1_Deck13 triggered Clinquant Skymage (87)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck13]
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Land: Ai(2)-Gen1_Deck13 played Island (91)
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 assigned Clinquant Skymage (87) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Clinquant Skymage (87).
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Damage: Clinquant Skymage (87) deals 2 combat damage to Ai(1)-Gen1_Deck30.
+Add to stack: Ai(2)-Gen1_Deck13 triggered Kaito, Cunning Infiltrator (71)
+Resolve stack: Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito. [Damage Source: Clinquant Skymage (87), Damaged: Ai(1)-Gen1_Deck30, Amount: 2]
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Add to stack: Ai(1)-Gen1_Deck30 activated Krenko, Mob Boss (40)
+Resolve stack: Krenko, Mob Boss (40) - Ai(1)-Gen1_Deck30 creates six 1/1 red Goblin creature tokens.
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 cast Strix Lookout (61)
+Resolve stack: Strix Lookout - Creature 1 / 2
+Add to stack: Ai(2)-Gen1_Deck13 activated Kaito, Cunning Infiltrator (71)
+Resolve stack: Kaito, Cunning Infiltrator (71) - Ai(2)-Gen1_Deck13 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen1_Deck13's End step
+Add to stack: Ai(1)-Gen1_Deck30 activated Fanatical Firebrand (47) targeting [Ninja Token (124)]
+Damage: Fanatical Firebrand (47) deals 1 damage () to Ninja Token (124).
+Resolve stack: Fanatical Firebrand (47) - Fanatical Firebrand (47) deals 1 damage to Ninja Token (124).
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen1_Deck30 played Maze's End (2)
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Mana: Island (34) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Fire Elemental (29)
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 cast Flashfreeze (112) targeting [Fire Elemental - Creature 5 / 4]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: Flashfreeze (112) - Counter Fire Elemental (29).
+Phase: Ai(1)-Gen1_Deck30's End step
+Add to stack: Ai(2)-Gen1_Deck13 activated Rune-Sealed Wall (80)
+Resolve stack: Ai(2)-Gen1_Deck13 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (80) - Ai(2)-Gen1_Deck13 surveils (1).
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Add to stack: Ai(2)-Gen1_Deck13 triggered Clinquant Skymage (87)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck13]
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Land: Ai(2)-Gen1_Deck13 played Island (90)
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 assigned Clinquant Skymage (87) and Strix Lookout (61) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Clinquant Skymage (87).
+Ai(1)-Gen1_Deck30 didn't block Strix Lookout (61).
+Add to stack: Ai(1)-Gen1_Deck30 activated Krenko, Mob Boss (40)
+Resolve stack: Krenko, Mob Boss (40) - Ai(1)-Gen1_Deck30 creates ten 1/1 red Goblin creature tokens.
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Damage: Clinquant Skymage (87) deals 3 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Strix Lookout (61) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 activated Strix Lookout (61)
+Discard: Ai(2)-Gen1_Deck13 discards Burrog Befuddler (115).
+Resolve stack: Strix Lookout (61) - Ai(2)-Gen1_Deck13 draws a card. Ai(2)-Gen1_Deck13 discards a card.
+Add to stack: Ai(2)-Gen1_Deck13 triggered Clinquant Skymage (87)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck13]
+Phase: Ai(2)-Gen1_Deck13's End step
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Island (31)
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Mana: Island (91) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 cast Faebloom Trick (63)
+Resolve stack: Faebloom Trick (63) - Ai(2)-Gen1_Deck13 creates two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls. When you do, tap target creature an opponent controls. 
+Add to stack: Ai(2)-Gen1_Deck13 triggered Faebloom Trick (63) targeting [Krenko, Mob Boss (40)]
+Resolve stack: When you do, tap target creature an opponent controls. (Targeting: [[Krenko, Mob Boss (40)]])
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Add to stack: Ai(2)-Gen1_Deck13 activated Rune-Sealed Wall (80)
+Resolve stack: Ai(2)-Gen1_Deck13 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (80) - Ai(2)-Gen1_Deck13 surveils (1).
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Add to stack: Ai(2)-Gen1_Deck13 triggered Clinquant Skymage (87)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck13]
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Land: Ai(2)-Gen1_Deck13 played Demolition Field (120)
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 assigned Clinquant Skymage (87), Faerie Token (223), Faerie Token (224) and Strix Lookout (61) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Faerie Token (224).
+Ai(1)-Gen1_Deck30 didn't block Clinquant Skymage (87).
+Ai(1)-Gen1_Deck30 didn't block Strix Lookout (61).
+Ai(1)-Gen1_Deck30 didn't block Faerie Token (223).
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Damage: Clinquant Skymage (87) deals 5 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Faerie Token (223) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Faerie Token (224) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Strix Lookout (61) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck13's End of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Main phase, postcombat
+Mana: Island (99) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck13 activated Strix Lookout (61)
+Discard: Ai(2)-Gen1_Deck13 discards Soulstone Sanctuary (118).
+Resolve stack: Strix Lookout (61) - Ai(2)-Gen1_Deck13 draws a card. Ai(2)-Gen1_Deck13 discards a card.
+Add to stack: Ai(2)-Gen1_Deck13 triggered Clinquant Skymage (87)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck13]
+Phase: Ai(2)-Gen1_Deck13's End step
+Phase: Ai(2)-Gen1_Deck13's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Burnished Hart (22)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck30's End step
+Add to stack: Ai(2)-Gen1_Deck13 activated Rune-Sealed Wall (80)
+Resolve stack: Ai(2)-Gen1_Deck13 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (80) - Ai(2)-Gen1_Deck13 surveils (1).
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen1_Deck13)
+Phase: Ai(2)-Gen1_Deck13's Untap step
+Phase: Ai(2)-Gen1_Deck13's Upkeep step
+Phase: Ai(2)-Gen1_Deck13's Draw step
+Add to stack: Ai(2)-Gen1_Deck13 triggered Clinquant Skymage (87)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen1_Deck13]
+Phase: Ai(2)-Gen1_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck13 assigned Clinquant Skymage (87), Ninja Token (180), Strix Lookout (61), Faerie Token (223) and Faerie Token (224) to attack Ai(1)-Gen1_Deck30.
+Add to stack: Ai(1)-Gen1_Deck30 activated Krenko, Mob Boss (40)
+Resolve stack: Krenko, Mob Boss (40) - Ai(1)-Gen1_Deck30 creates twenty  1/1 red Goblin creature tokens.
+Phase: Ai(2)-Gen1_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Faerie Token (224).
+Ai(1)-Gen1_Deck30 assigned Goblin Token (145) to block Ninja Token (180).
+Ai(1)-Gen1_Deck30 didn't block Clinquant Skymage (87).
+Ai(1)-Gen1_Deck30 didn't block Strix Lookout (61).
+Ai(1)-Gen1_Deck30 didn't block Faerie Token (223).
+Phase: Ai(2)-Gen1_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck13's Combat Damage Step
+Damage: Clinquant Skymage (87) deals 7 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Ninja Token (180) deals 2 damage () to Goblin Token (145).
+Damage: Strix Lookout (61) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Faerie Token (223) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Faerie Token (224) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Goblin Token (145) deals 1 damage () to Ninja Token (180).
+Player control: Ai(1)-Gen1_Deck30 is controlled by Ai(1)-Gen1_Deck30
+Player control: Ai(2)-Gen1_Deck13 is controlled by Ai(2)-Gen1_Deck13
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen1_Deck30 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck13 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck30: 0 Ai(2)-Gen1_Deck13: 1 
+
+Game Result: Game 1 ended in 32320 ms. Ai(2)-Gen1_Deck13 has won!
+
+
+=== STDERR ===

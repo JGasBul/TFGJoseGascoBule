@@ -1,0 +1,236 @@
+=== COMBATE PARALELO: Gen1_Deck4 vs Gen1_Deck19 ===
+Worker ID: 242655
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck4 Gen1_Deck19 -n 1
+Duración: 22.91 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2007 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 100 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck4 vs Ai(2)-Gen1_Deck19 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck19 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck4 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck19)
+Phase: Ai(2)-Gen1_Deck19's Untap step
+Phase: Ai(2)-Gen1_Deck19's Upkeep step
+Phase: Ai(2)-Gen1_Deck19's Draw step
+Phase: Ai(2)-Gen1_Deck19's Main phase, precombat
+Land: Ai(2)-Gen1_Deck19 played Crawling Barrens (84)
+Phase: Ai(2)-Gen1_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck19's End of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck19's End step
+Phase: Ai(2)-Gen1_Deck19's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Mountain (47)
+Mana: Mountain (47) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Fanatical Firebrand (38)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Fanatical Firebrand (38) to attack Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck19 didn't block Fanatical Firebrand (38).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Fanatical Firebrand (38) deals 1 combat damage to Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck19)
+Phase: Ai(2)-Gen1_Deck19's Untap step
+Phase: Ai(2)-Gen1_Deck19's Upkeep step
+Phase: Ai(2)-Gen1_Deck19's Draw step
+Phase: Ai(2)-Gen1_Deck19's Main phase, precombat
+Land: Ai(2)-Gen1_Deck19 played Island (74)
+Phase: Ai(2)-Gen1_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck19's End of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck19's End step
+Phase: Ai(2)-Gen1_Deck19's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Rogue's Passage (14)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Fanatical Firebrand (38) to attack Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck19 didn't block Fanatical Firebrand (38).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Fanatical Firebrand (38) deals 1 combat damage to Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (47) - {T}: Add {R}.
+Mana: Rogue's Passage (14) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Kargan Dragonrider (33)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck19)
+Phase: Ai(2)-Gen1_Deck19's Untap step
+Phase: Ai(2)-Gen1_Deck19's Upkeep step
+Phase: Ai(2)-Gen1_Deck19's Draw step
+Phase: Ai(2)-Gen1_Deck19's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen1_Deck19 played Uncharted Haven (80)
+Phase: Ai(2)-Gen1_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck19's End of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck19's End step
+Phase: Ai(2)-Gen1_Deck19's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Swamp (25)
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Mountain (47) - {T}: Add {R}.
+Mana: Rogue's Passage (14) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Untamed Hunger (2) targeting [Kargan Dragonrider (33)]
+Resolve stack: Untamed Hunger (2) -  Attach to Kargan Dragonrider (33)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Kargan Dragonrider (33) and Fanatical Firebrand (38) to attack Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck19 didn't block Kargan Dragonrider (33).
+Ai(2)-Gen1_Deck19 didn't block Fanatical Firebrand (38).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Kargan Dragonrider (33) deals 4 combat damage to Ai(2)-Gen1_Deck19.
+Damage: Fanatical Firebrand (38) deals 1 combat damage to Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck19)
+Phase: Ai(2)-Gen1_Deck19's Untap step
+Phase: Ai(2)-Gen1_Deck19's Upkeep step
+Phase: Ai(2)-Gen1_Deck19's Draw step
+Phase: Ai(2)-Gen1_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck19's End of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Main phase, postcombat
+Mana: Uncharted Haven (80) - {T}: Add one mana of the chosen color.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck19 cast Nullpriest of Oblivion (90)
+Resolve stack: Nullpriest of Oblivion - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck19's End step
+Phase: Ai(2)-Gen1_Deck19's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Swamp (18)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Kargan Dragonrider (33) and Fanatical Firebrand (38) to attack Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck19 didn't block Kargan Dragonrider (33).
+Ai(2)-Gen1_Deck19 didn't block Fanatical Firebrand (38).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Kargan Dragonrider (33) deals 4 combat damage to Ai(2)-Gen1_Deck19.
+Damage: Fanatical Firebrand (38) deals 1 combat damage to Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (18) - {T}: Add {B}.
+Mana: Mountain (47) - {T}: Add {R}.
+Mana: Rogue's Passage (14) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Desecration Demon (8)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck19)
+Phase: Ai(2)-Gen1_Deck19's Untap step
+Phase: Ai(2)-Gen1_Deck19's Upkeep step
+Phase: Ai(2)-Gen1_Deck19's Draw step
+Phase: Ai(2)-Gen1_Deck19's Main phase, precombat
+Land: Ai(2)-Gen1_Deck19 played Island (77)
+Phase: Ai(2)-Gen1_Deck19's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck4 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen1_Deck19]
+Phase: Ai(2)-Gen1_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck19's End of Combat Step
+Phase: Ai(2)-Gen1_Deck19's Main phase, postcombat
+Mana: Uncharted Haven (80) - {T}: Add one mana of the chosen color.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck19 cast Nullpriest of Oblivion (89)
+Resolve stack: Nullpriest of Oblivion - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck19's End step
+Phase: Ai(2)-Gen1_Deck19's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck4 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen1_Deck4]
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Desecration Demon (8), Kargan Dragonrider (33) and Fanatical Firebrand (38) to attack Ai(2)-Gen1_Deck19.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck19 didn't block Kargan Dragonrider (33).
+Ai(2)-Gen1_Deck19 assigned Nullpriest of Oblivion (90) to block Fanatical Firebrand (38).
+Ai(2)-Gen1_Deck19 didn't block Desecration Demon (8).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Desecration Demon (8) deals 6 combat damage to Ai(2)-Gen1_Deck19.
+Damage: Kargan Dragonrider (33) deals 4 combat damage to Ai(2)-Gen1_Deck19.
+Damage: Fanatical Firebrand (38) deals 1 damage () to Nullpriest of Oblivion (90).
+Damage: Nullpriest of Oblivion (90) deals 2 damage () to Fanatical Firebrand (38).
+Player control: Ai(1)-Gen1_Deck4 is controlled by Ai(1)-Gen1_Deck4
+Player control: Ai(2)-Gen1_Deck19 is controlled by Ai(2)-Gen1_Deck19
+Game outcome: Turn 5
+Game outcome: Ai(1)-Gen1_Deck4 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck19 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck4: 1 Ai(2)-Gen1_Deck19: 0 
+
+Game Result: Game 1 ended in 9206 ms. Ai(1)-Gen1_Deck4 has won!
+
+
+=== STDERR ===

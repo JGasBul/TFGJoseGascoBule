@@ -1,0 +1,393 @@
+=== COMBATE PARALELO: Gen0_Deck25 vs Gen0_Deck19 ===
+Worker ID: 1336
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck25 Gen0_Deck19 -n 1
+Duración: 29.29 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2016 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 103 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck25 vs Ai(2)-Gen0_Deck19 - one game of Constructed
+Voracious Greatshark Did not have activator set in SpellAbilityRestriction.canPlay()
+Mulligan: Ai(1)-Gen0_Deck25 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck19 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Land: Ai(1)-Gen0_Deck25 played Swamp (15)
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (15) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck25 cast Diregraf Ghoul (25)
+Replacement Effect: Diregraf Ghoul enters tapped.
+Resolve stack: Diregraf Ghoul - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck25's End step
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Mountain (119)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Land: Ai(1)-Gen0_Deck25 played Island (40)
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 assigned Diregraf Ghoul (25) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 didn't block Diregraf Ghoul (25).
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Damage: Diregraf Ghoul (25) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (15) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck25 cast Reassembling Skeleton (48)
+Resolve stack: Reassembling Skeleton - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck25's End step
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (87)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Slumbering Cerberus (101)
+Resolve stack: Slumbering Cerberus - Creature 4 / 2
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck25's End step
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Soulstone Sanctuary (107)
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (107) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Tribute to Hunger (96) targeting [Ai(1)-Gen0_Deck25]
+Resolve stack: Tribute to Hunger (96) - Ai(1)-Gen0_Deck25 sacrifices a creature. Ai(2)-Gen0_Deck19 gains life equal to that creature's toughness. 
+Mana: Swamp (15) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck25 activated Reassembling Skeleton (48)
+Resolve stack: Reassembling Skeleton (48) - Return Reassembling Skeleton (48) from the graveyard to the battlefield tapped.
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Slumbering Cerberus (101)
+Resolve stack: Morbid — At the beginning of each end step, if a creature died this turn, untap this creature. [Phase: Ai(2)-Gen0_Deck19]
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck25's End step
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Demolition Field (108)
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Crash Through (97)
+Resolve stack: Crash Through (97) - Creatures you control gain trample until end of turn. (A creature with trample can deal excess combat damage to the player or planeswalker it's attacking.) Draw a card. Ai(2)-Gen0_Deck19 draws a card.
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Slumbering Cerberus (101) to attack Ai(1)-Gen0_Deck25.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck25 didn't block Slumbering Cerberus (101).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Slumbering Cerberus (101) deals 4 combat damage to Ai(1)-Gen0_Deck25.
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (107) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Zul Ashur, Lich Lord (92)
+Resolve stack: Zul Ashur, Lich Lord - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 assigned Diregraf Ghoul (25) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 didn't block Diregraf Ghoul (25).
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Damage: Diregraf Ghoul (25) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck25's End step
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (89)
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Demolition Field (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck19 activated Soulstone Sanctuary (107)
+Resolve stack: Soulstone Sanctuary (107) - Soulstone Sanctuary (107) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Zul Ashur, Lich Lord (92) and Soulstone Sanctuary (107) to attack Ai(1)-Gen0_Deck25.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck25 didn't block Soulstone Sanctuary (107).
+Ai(1)-Gen0_Deck25 didn't block Zul Ashur, Lich Lord (92).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Zul Ashur, Lich Lord (92) deals 2 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Soulstone Sanctuary (107) deals 3 combat damage to Ai(1)-Gen0_Deck25.
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (15) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck25 cast Expedition Map (26)
+Resolve stack: Expedition Map
+Phase: Ai(1)-Gen0_Deck25's End step
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (84)
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Demolition Field (108) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (107) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Dread Summons (71)
+Zone Change: Ai(2)-Gen0_Deck19 milled Swamp (90), Crash Through (99), Giant Cindermaw (91) and Infestation Sage (61).
+Zone Change: Ai(1)-Gen0_Deck25 milled Cryptic Caves (1), Rune-Sealed Wall (27), Mystical Teachings (7) and Swamp (17).
+Resolve stack: Dread Summons (71) - Each player mills four cards.   (X=4)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Land: Ai(1)-Gen0_Deck25 played Cryptic Caves (3)
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (15) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck25 activated Expedition Map (26)
+Resolve stack: Expedition Map (26) - Ai(1)-Gen0_Deck25 searches their library for a land card, reveals it, puts it into their hand, then shuffles.
+Phase: Ai(1)-Gen0_Deck25's End step
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Discard: Ai(1)-Gen0_Deck25 discards Terror of Mount Velus (33).
+Turn: Turn 14 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck19 activated Demolition Field (108) targeting [Cryptic Caves (3)]
+Resolve stack: Demolition Field (108) - Destroy Cryptic Caves (3). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck19 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Zul Ashur, Lich Lord (92), Zombie Token (122), Zombie Token (123), Zombie Token (124) and Soulstone Sanctuary (107) to attack Ai(1)-Gen0_Deck25.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck25 didn't block Zombie Token (122).
+Ai(1)-Gen0_Deck25 didn't block Zombie Token (123).
+Ai(1)-Gen0_Deck25 assigned Reassembling Skeleton (48) to block Soulstone Sanctuary (107).
+Ai(1)-Gen0_Deck25 assigned Diregraf Ghoul (25) to block Zul Ashur, Lich Lord (92).
+Ai(1)-Gen0_Deck25 didn't block Zombie Token (124).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Zul Ashur, Lich Lord (92) deals 2 damage () to Diregraf Ghoul (25).
+Damage: Zombie Token (122) deals 2 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Zombie Token (123) deals 2 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Zombie Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Soulstone Sanctuary (107) deals 3 damage () to Reassembling Skeleton (48).
+Damage: Diregraf Ghoul (25) deals 2 damage () to Zul Ashur, Lich Lord (92).
+Damage: Reassembling Skeleton (48) deals 1 damage () to Soulstone Sanctuary (107).
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (84) - {T}: Add {B}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (107) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Desecration Demon (73)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck19's End step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Slumbering Cerberus (101)
+Resolve stack: Morbid — At the beginning of each end step, if a creature died this turn, untap this creature. [Phase: Ai(2)-Gen0_Deck19]
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck25)
+Phase: Ai(1)-Gen0_Deck25's Untap step
+Phase: Ai(1)-Gen0_Deck25's Upkeep step
+Mana: Swamp (15) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck25 activated Reassembling Skeleton (48)
+Resolve stack: Reassembling Skeleton (48) - Return Reassembling Skeleton (48) from the graveyard to the battlefield tapped.
+Phase: Ai(1)-Gen0_Deck25's Draw step
+Phase: Ai(1)-Gen0_Deck25's Main phase, precombat
+Land: Ai(1)-Gen0_Deck25 played Mountain (54)
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Island (39) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck25 cast Obliterating Bolt (57) targeting [Soulstone Sanctuary (107)]
+Damage: Obliterating Bolt (57) deals 4 damage () to Soulstone Sanctuary (107).
+Resolve stack: Obliterating Bolt (57) - Obliterating Bolt (57) deals 4 damage to Soulstone Sanctuary (107).  If that creature or planeswalker would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(1)-Gen0_Deck25's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Desecration Demon (73)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen0_Deck25]
+Phase: Ai(1)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck25's End of Combat Step
+Phase: Ai(1)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck25's End step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Slumbering Cerberus (101)
+Resolve stack: Morbid — At the beginning of each end step, if a creature died this turn, untap this creature. [Phase: Ai(1)-Gen0_Deck25]
+Phase: Ai(1)-Gen0_Deck25's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Mountain (120)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck19 triggered Desecration Demon (73)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen0_Deck19]
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Desecration Demon (73), Slumbering Cerberus (101), Zombie Token (122), Zombie Token (123) and Zombie Token (124) to attack Ai(1)-Gen0_Deck25.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck25 didn't block Slumbering Cerberus (101).
+Ai(1)-Gen0_Deck25 didn't block Desecration Demon (73).
+Ai(1)-Gen0_Deck25 didn't block Zombie Token (122).
+Ai(1)-Gen0_Deck25 didn't block Zombie Token (123).
+Ai(1)-Gen0_Deck25 didn't block Zombie Token (124).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Desecration Demon (73) deals 7 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Slumbering Cerberus (101) deals 4 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Zombie Token (122) deals 2 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Zombie Token (123) deals 2 combat damage to Ai(1)-Gen0_Deck25.
+Damage: Zombie Token (124) deals 2 combat damage to Ai(1)-Gen0_Deck25.
+Player control: Ai(1)-Gen0_Deck25 is controlled by Ai(1)-Gen0_Deck25
+Player control: Ai(2)-Gen0_Deck19 is controlled by Ai(2)-Gen0_Deck19
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck25 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck19 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck25: 0 Ai(2)-Gen0_Deck19: 1 
+
+Game Result: Game 1 ended in 15323 ms. Ai(2)-Gen0_Deck19 has won!
+
+
+=== STDERR ===

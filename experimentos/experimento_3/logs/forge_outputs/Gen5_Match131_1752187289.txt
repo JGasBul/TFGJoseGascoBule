@@ -1,0 +1,603 @@
+=== COMBATE PARALELO: Gen5_Deck5 vs Gen5_Deck4 ===
+Worker ID: 1237315
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck5 Gen5_Deck4 -n 1
+Duración: 131.03 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1612 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 69 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck5 vs Ai(2)-Gen5_Deck4 - one game of Constructed
+Stopping slow match as draw
+Mulligan: Ai(2)-Gen5_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck5 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Land: Ai(2)-Gen5_Deck4 played Island (109)
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Mana: Island (109) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck4 cast Goblin Firebomb (63)
+Resolve stack: Goblin Firebomb
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Land: Ai(1)-Gen5_Deck5 played Mountain (52)
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Land: Ai(2)-Gen5_Deck4 played Plains (89)
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Land: Ai(1)-Gen5_Deck5 played Mountain (54)
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Courageous Goblin (1)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen5_Deck4 played Uncharted Haven (113)
+Mana: Island (109) - {T}: Add {U}.
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck4 cast Fog Bank (69)
+Resolve stack: Fog Bank - Creature 0 / 2
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Land: Ai(1)-Gen5_Deck5 played Plains (37)
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 assigned Courageous Goblin (1) to attack Ai(2)-Gen5_Deck4.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck4 assigned Fog Bank (69) to block Courageous Goblin (1).
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Arahbo, the First Fang (42)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck5 triggered Arahbo, the First Fang (42)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (42)]
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Land: Ai(1)-Gen5_Deck5 played Evolving Wilds (31)
+Add to stack: Ai(1)-Gen5_Deck5 activated Evolving Wilds (31)
+Resolve stack: Evolving Wilds (31) - Ai(1)-Gen5_Deck5 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 assigned Courageous Goblin (1), Arahbo, the First Fang (42) and Cat Token (124) to attack Ai(2)-Gen5_Deck4.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck4 cast Burrog Befuddler (116)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen5_Deck4 triggered Burrog Befuddler (116) targeting [Arahbo, the First Fang (42)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Arahbo, the First Fang (42)]]) [Zone Changer: Burrog Befuddler (116)]
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck4 assigned Fog Bank (69) to block Courageous Goblin (1).
+Ai(2)-Gen5_Deck4 didn't block Arahbo, the First Fang (42).
+Ai(2)-Gen5_Deck4 didn't block Cat Token (124).
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Damage: Arahbo, the First Fang (42) deals 1 combat damage to Ai(2)-Gen5_Deck4.
+Damage: Cat Token (124) deals 2 combat damage to Ai(2)-Gen5_Deck4.
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Giada, Font of Hope (59)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Land: Ai(2)-Gen5_Deck4 played Island (103)
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Goblin Negotiation (15) targeting [Burrog Befuddler (116)]
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen5_Deck4 cast Make a Stand (84)
+Resolve stack: Make a Stand (84) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Damage: Goblin Negotiation (15) deals 1 damage () to Burrog Befuddler (116).
+Resolve stack: Goblin Negotiation (15) - Goblin Negotiation (15) deals 1 damage to Burrog Befuddler (116).  (X=1)
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Mana: Island (109) - {T}: Add {U}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck4 cast Homunculus Horde (65)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Mentor of the Meek (10)
+Resolve stack: Mentor of the Meek - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 assigned Giada, Font of Hope (59) to attack Ai(2)-Gen5_Deck4.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck4 assigned Fog Bank (69) to block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen5_Deck4 cast Cat Collector (75)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen5_Deck4 triggered Cat Collector (75)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (75)]
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Goblin Negotiation (17) targeting [Cat Collector (75)]
+Damage: Goblin Negotiation (17) deals 2 damage () to Cat Collector (75).
+Resolve stack: Goblin Negotiation (17) - Goblin Negotiation (17) deals 2 damage to Cat Collector (75).  (X=2)
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 assigned Giada, Font of Hope (59) to attack Ai(2)-Gen5_Deck4.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck4 assigned Fog Bank (69) to block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Mana: Island (109) - {T}: Add {U}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen5_Deck4 cast Scrawling Crawler (120)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen5_Deck5]
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 assigned Giada, Font of Hope (59) to attack Ai(2)-Gen5_Deck4.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck4 assigned Fog Bank (69) to block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to and dealt by Fog Bank.
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Diamond Mare (8)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Add to stack: Ai(1)-Gen5_Deck5 triggered Mentor of the Meek (10)
+Mana: Plains (37) - {T}: Add {W}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Diamond Mare (8)]
+Add to stack: Ai(2)-Gen5_Deck4 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen5_Deck5]
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Scrawling Crawler (120)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(2)-Gen5_Deck4]
+Add to stack: Ai(2)-Gen5_Deck4 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen5_Deck5]
+Mana: Island (109) - {T}: Add {U}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Mana: Plains (89) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck4 cast Dictate of Kruphix (61)
+Resolve stack: Dictate of Kruphix
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (65)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Dictate of Kruphix (61)
+Resolve stack: At the beginning of each player's draw step, that player draws an additional card. [Phase: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Land: Ai(2)-Gen5_Deck4 played Island (104)
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 assigned Scrawling Crawler (120) to attack Ai(1)-Gen5_Deck5.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck5 assigned Cat Token (124) to block Scrawling Crawler (120).
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Damage: Scrawling Crawler (120) deals 3 damage () to Cat Token (124).
+Damage: Cat Token (124) deals 2 damage () to Scrawling Crawler (120).
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Dictate of Kruphix (61)
+Resolve stack: At the beginning of each player's draw step, that player draws an additional card. [Phase: Ai(1)-Gen5_Deck5]
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Land: Ai(1)-Gen5_Deck5 played Mountain (55)
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Ingenious Leonin (21)
+Add to stack: Ai(1)-Gen5_Deck5 triggered Diamond Mare (8)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Ingenious Leonin (21), Activator: Ai(1)-Gen5_Deck5, SpellAbility: Ingenious Leonin - Creature 4 / 4]
+Resolve stack: Ingenious Leonin - Creature 4 / 4
+Add to stack: Ai(1)-Gen5_Deck5 triggered Arahbo, the First Fang (42)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Ingenious Leonin (21)]
+Add to stack: Ai(1)-Gen5_Deck5 triggered Mentor of the Meek (10)
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Cat Token (135)]
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Dictate of Kruphix (61)
+Resolve stack: At the beginning of each player's draw step, that player draws an additional card. [Phase: Ai(2)-Gen5_Deck4]
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (132)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (65)
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Dictate of Kruphix (61)
+Resolve stack: At the beginning of each player's draw step, that player draws an additional card. [Phase: Ai(1)-Gen5_Deck5]
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 didn't attack this turn.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen5_Deck4 cast Faebloom Trick (62)
+Resolve stack: Faebloom Trick (62) - Ai(2)-Gen5_Deck4 creates two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls. When you do, tap target creature an opponent controls. 
+Add to stack: Ai(2)-Gen5_Deck4 triggered Faebloom Trick (62) targeting [Ingenious Leonin (21)]
+Resolve stack: When you do, tap target creature an opponent controls. (Targeting: [[Ingenious Leonin (21)]])
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Rapacious Dragon (4)
+Resolve stack: Rapacious Dragon - Creature 3 / 3
+Add to stack: Ai(1)-Gen5_Deck5 triggered Rapacious Dragon (4)
+Resolve stack: When Rapacious Dragon enters, create two Treasure tokens. [Zone Changer: Rapacious Dragon (4)]
+Mana: Treasure Token (160) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Treasure Token (159) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen5_Deck5 cast Courageous Goblin (2)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck5 triggered Mentor of the Meek (10)
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Courageous Goblin (2)]
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Dictate of Kruphix (61)
+Resolve stack: At the beginning of each player's draw step, that player draws an additional card. [Phase: Ai(2)-Gen5_Deck4]
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (132)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (137)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (139)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (65)
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Land: Ai(2)-Gen5_Deck4 played Plains (90)
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck4 cast Regal Caracal (101)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen5_Deck4 triggered Regal Caracal (101)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (101)]
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck4's End step
+Phase: Ai(2)-Gen5_Deck4's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen5_Deck5)
+Phase: Ai(1)-Gen5_Deck5's Untap step
+Phase: Ai(1)-Gen5_Deck5's Upkeep step
+Phase: Ai(1)-Gen5_Deck5's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Dictate of Kruphix (61)
+Resolve stack: At the beginning of each player's draw step, that player draws an additional card. [Phase: Ai(1)-Gen5_Deck5]
+Phase: Ai(1)-Gen5_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck5's End of Combat Step
+Phase: Ai(1)-Gen5_Deck5's Main phase, postcombat
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck5 cast Rapacious Dragon (5)
+Resolve stack: Rapacious Dragon - Creature 3 / 3
+Add to stack: Ai(1)-Gen5_Deck5 triggered Rapacious Dragon (5)
+Resolve stack: When Rapacious Dragon enters, create two Treasure tokens. [Zone Changer: Rapacious Dragon (5)]
+Phase: Ai(1)-Gen5_Deck5's End step
+Phase: Ai(1)-Gen5_Deck5's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen5_Deck4)
+Phase: Ai(2)-Gen5_Deck4's Untap step
+Phase: Ai(2)-Gen5_Deck4's Upkeep step
+Phase: Ai(2)-Gen5_Deck4's Draw step
+Add to stack: Ai(2)-Gen5_Deck4 triggered Dictate of Kruphix (61)
+Resolve stack: At the beginning of each player's draw step, that player draws an additional card. [Phase: Ai(2)-Gen5_Deck4]
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (162)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (132)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (137)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (164)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (139)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (166)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (65)
+Add to stack: Ai(2)-Gen5_Deck4 triggered Homunculus Horde (168)
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Resolve stack: Whenever you draw your second card each turn, create a token that's a copy of this creature. [Player: Ai(2)-Gen5_Deck4]
+Phase: Ai(2)-Gen5_Deck4's Main phase, precombat
+Mana: Plains (89) - {T}: Add {W}.
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Uncharted Haven (113) - {T}: Add one mana of the chosen color.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck4 cast Regal Caracal (100)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen5_Deck4 triggered Regal Caracal (100)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (100)]
+Phase: Ai(2)-Gen5_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck4's End of Combat Step
+Phase: Ai(2)-Gen5_Deck4's Main phase, postcombat
+Player control: Ai(1)-Gen5_Deck5 is controlled by Ai(1)-Gen5_Deck5
+Player control: Ai(2)-Gen5_Deck4 is controlled by Ai(2)-Gen5_Deck4
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen5_Deck5 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck4 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck5: 1 Ai(2)-Gen5_Deck4: 0 
+
+Game Result: Game 1 ended in 120184 ms. Ai(1)-Gen5_Deck5 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,280 @@
+=== COMBATE PARALELO: Gen0_Deck32 vs Gen0_Deck26 ===
+Worker ID: 1338
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck32 Gen0_Deck26 -n 1
+Duración: 27.95 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2174 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 82 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck32 vs Ai(2)-Gen0_Deck26 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck26 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck32 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Swamp (95)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck26 cast Pulse Tracker (70)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Mountain (50)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Forest (74)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 assigned Pulse Tracker (70) to attack Ai(1)-Gen0_Deck32.
+Add to stack: Ai(2)-Gen0_Deck26 triggered Pulse Tracker (70)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (70)]
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 didn't block Pulse Tracker (70).
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Damage: Pulse Tracker (70) deals 1 combat damage to Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Soulstone Sanctuary (43)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Soulstone Sanctuary (43) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck32 cast Courageous Goblin (1)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Mountain (116)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Swamp (95) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck26 cast Searslicer Goblin (111)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck26's End step
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Plains (24)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Mountain (117)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 assigned Searslicer Goblin (111) to attack Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 didn't block Searslicer Goblin (111).
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Damage: Searslicer Goblin (111) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck26 cast Immersturm Predator (119)
+Resolve stack: Immersturm Predator - Creature 3 / 3
+Phase: Ai(2)-Gen0_Deck26's End step
+Add to stack: Ai(2)-Gen0_Deck26 triggered Searslicer Goblin (111)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(2)-Gen0_Deck26]
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Demolition Field (48)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck32 cast Sure Strike (12) targeting [Courageous Goblin (1)]
+Resolve stack: Sure Strike (12) - Courageous Goblin (1) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 assigned Courageous Goblin (1) to attack Ai(2)-Gen0_Deck26.
+Add to stack: Ai(1)-Gen0_Deck32 triggered Courageous Goblin (1)
+Resolve stack: Whenever this creature attacks while you control a creature with power 4 or greater, this creature gets +1/+0 and gains menace until end of turn. [Attacker: Courageous Goblin (1)]
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck26 didn't block Courageous Goblin (1).
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Damage: Courageous Goblin (1) deals 6 combat damage to Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Forest (75)
+Mana: Forest (74) - {T}: Add {G}.
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck26 cast Circuitous Route (64)
+Resolve stack: Circuitous Route (64) - Ai(2)-Gen0_Deck26 searches their library for two Land.Basic,Card.Gate cards, puts them onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 assigned Pulse Tracker (70), Immersturm Predator (119), Searslicer Goblin (111) and Goblin Token (123) to attack Ai(1)-Gen0_Deck32.
+Add to stack: Ai(2)-Gen0_Deck26 triggered Immersturm Predator (119) targeting [Sure Strike (12)]
+Add to stack: Ai(2)-Gen0_Deck26 triggered Pulse Tracker (70)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (70)]
+Resolve stack: Whenever Immersturm Predator becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on Immersturm Predator. (Targeting: [[Sure Strike (12)]]) [Tapped: Immersturm Predator (119)]
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 didn't block Pulse Tracker (70).
+Ai(1)-Gen0_Deck32 didn't block Immersturm Predator (119).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (123).
+Ai(1)-Gen0_Deck32 didn't block Searslicer Goblin (111).
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Damage: Pulse Tracker (70) deals 1 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Immersturm Predator (119) deals 4 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Searslicer Goblin (111) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (123) deals 1 combat damage to Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck26's End of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck26's End step
+Add to stack: Ai(2)-Gen0_Deck26 triggered Searslicer Goblin (111)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(2)-Gen0_Deck26]
+Phase: Ai(2)-Gen0_Deck26's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Crawling Barrens (38)
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Demolition Field (48) - {T}: Add {C}.
+Mana: Crawling Barrens (38) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck32 activated Soulstone Sanctuary (43)
+Resolve stack: Soulstone Sanctuary (43) - Soulstone Sanctuary (43) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 assigned Soulstone Sanctuary (43) to attack Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck26 didn't block Soulstone Sanctuary (43).
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Damage: Soulstone Sanctuary (43) deals 3 combat damage to Ai(2)-Gen0_Deck26.
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck26)
+Phase: Ai(2)-Gen0_Deck26's Untap step
+Phase: Ai(2)-Gen0_Deck26's Upkeep step
+Phase: Ai(2)-Gen0_Deck26's Draw step
+Phase: Ai(2)-Gen0_Deck26's Main phase, precombat
+Land: Ai(2)-Gen0_Deck26 played Forest (76)
+Phase: Ai(2)-Gen0_Deck26's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck26's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck26 assigned Immersturm Predator (119), Searslicer Goblin (111), Pulse Tracker (70), Goblin Token (123) and Goblin Token (126) to attack Ai(1)-Gen0_Deck32.
+Add to stack: Ai(2)-Gen0_Deck26 triggered Immersturm Predator (119) targeting []
+Add to stack: Ai(2)-Gen0_Deck26 triggered Pulse Tracker (70)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (70)]
+Resolve stack: Whenever Immersturm Predator becomes tapped, exile up to one target card from a graveyard and put a +1/+1 counter on Immersturm Predator. (Targeting: [[]]) [Tapped: Immersturm Predator (119)]
+Phase: Ai(2)-Gen0_Deck26's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 assigned Soulstone Sanctuary (43) to block Pulse Tracker (70).
+Ai(1)-Gen0_Deck32 didn't block Immersturm Predator (119).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (123).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (126).
+Ai(1)-Gen0_Deck32 assigned Courageous Goblin (1) to block Searslicer Goblin (111).
+Phase: Ai(2)-Gen0_Deck26's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck26's Combat Damage Step
+Damage: Immersturm Predator (119) deals 5 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Searslicer Goblin (111) deals 2 damage () to Courageous Goblin (1).
+Damage: Pulse Tracker (70) deals 1 damage () to Soulstone Sanctuary (43).
+Damage: Goblin Token (123) deals 1 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (126) deals 1 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Courageous Goblin (1) deals 2 damage () to Searslicer Goblin (111).
+Damage: Soulstone Sanctuary (43) deals 3 damage () to Pulse Tracker (70).
+Player control: Ai(1)-Gen0_Deck32 is controlled by Ai(1)-Gen0_Deck32
+Player control: Ai(2)-Gen0_Deck26 is controlled by Ai(2)-Gen0_Deck26
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen0_Deck32 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck26 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck32: 0 Ai(2)-Gen0_Deck26: 1 
+
+Game Result: Game 1 ended in 15312 ms. Ai(2)-Gen0_Deck26 has won!
+
+
+=== STDERR ===

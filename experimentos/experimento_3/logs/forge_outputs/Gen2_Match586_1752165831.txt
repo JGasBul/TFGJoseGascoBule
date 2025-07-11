@@ -1,0 +1,436 @@
+=== COMBATE PARALELO: Gen2_Deck31 vs Gen2_Deck30 ===
+Worker ID: 482060
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck31 Gen2_Deck30 -n 1
+Duración: 25.14 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1875 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 43 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck31 vs Ai(2)-Gen2_Deck30 - one game of Constructed
+Desecration Demon Did not have activator set in SpellAbilityRestriction.canPlay()
+Mulligan: Ai(2)-Gen2_Deck30 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck31 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Island (93)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen2_Deck31 played Tranquil Cove (24)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Tranquil Cove (24)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (24)]
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck31's End of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck31's End step
+Phase: Ai(1)-Gen2_Deck31's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Mountain (111)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(1)-Gen2_Deck31 played Tranquil Cove (23)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Tranquil Cove (23)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (23)]
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck31's End of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Main phase, postcombat
+Mana: Tranquil Cove (24) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen2_Deck31 cast Hinterland Sanctifier (47)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck31's End step
+Phase: Ai(1)-Gen2_Deck31's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Island (89)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Mana: Tranquil Cove (24) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen2_Deck31 cast Hinterland Sanctifier (49)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (49)]
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 assigned Hinterland Sanctifier (47) to attack Ai(2)-Gen2_Deck30.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Brineborn Cutthroat (98)
+Resolve stack: Brineborn Cutthroat - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (47).
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Damage: Hinterland Sanctifier (47) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck31's End of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck31's End step
+Phase: Ai(1)-Gen2_Deck31's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Island (94)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Mana: Island (93) - {T}: Add {U}.
+Mana: Island (89) - {T}: Add {U}.
+Mana: Island (94) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Tempest Djinn (69)
+Resolve stack: Tempest Djinn - Creature 0 / 4
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck31's End of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck31's End step
+Phase: Ai(1)-Gen2_Deck31's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 assigned Tempest Djinn (69) to attack Ai(1)-Gen2_Deck31.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck31 didn't block Tempest Djinn (69).
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Damage: Tempest Djinn (69) deals 3 combat damage to Ai(1)-Gen2_Deck31.
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Land: Ai(1)-Gen2_Deck31 played Swamp (43)
+Mana: Tranquil Cove (24) - {T}: Add {W} or {U}.
+Mana: Swamp (43) - {T}: Add {B}.
+Mana: Tranquil Cove (23) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen2_Deck31 cast Cat Collector (30)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (49)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Cat Collector (30)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (30)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (30)]
+Add to stack: Ai(1)-Gen2_Deck31 triggered Cat Collector (30)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck31, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (49)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (127)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (127)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (30)]
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 assigned Hinterland Sanctifier (47) and Hinterland Sanctifier (49) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (49).
+Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (47).
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Damage: Hinterland Sanctifier (47) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Hinterland Sanctifier (49) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck31's End of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck31's End step
+Phase: Ai(1)-Gen2_Deck31's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 assigned Tempest Djinn (69) to attack Ai(1)-Gen2_Deck31.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck31 didn't block Tempest Djinn (69).
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Damage: Tempest Djinn (69) deals 3 combat damage to Ai(1)-Gen2_Deck31.
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Land: Ai(1)-Gen2_Deck31 played Swamp (37)
+Mana: Swamp (43) - {T}: Add {B}.
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Tranquil Cove (24) - {T}: Add {W} or {U}.
+Mana: Tranquil Cove (23) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen2_Deck31 cast Solemn Simulacrum (7)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (49)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Solemn Simulacrum (7)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Solemn Simulacrum (7)]
+Add to stack: Ai(1)-Gen2_Deck31 triggered Cat Collector (30)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck31, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (49)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (130)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (130)]
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (7)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Solemn Simulacrum (7)]
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 assigned Cat Collector (30), Hinterland Sanctifier (47), Hinterland Sanctifier (49) and Cat Token (127) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (49).
+Ai(2)-Gen2_Deck30 didn't block Cat Collector (30).
+Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (47).
+Ai(2)-Gen2_Deck30 didn't block Cat Token (127).
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Damage: Cat Collector (30) deals 3 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Hinterland Sanctifier (47) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Hinterland Sanctifier (49) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Cat Token (127) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck31's End of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck31's End step
+Phase: Ai(1)-Gen2_Deck31's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Plains (86)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 assigned Tempest Djinn (69) to attack Ai(1)-Gen2_Deck31.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck31 didn't block Tempest Djinn (69).
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Damage: Tempest Djinn (69) deals 3 combat damage to Ai(1)-Gen2_Deck31.
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Land: Ai(1)-Gen2_Deck31 played Soulstone Sanctuary (21)
+Mana: Swamp (43) - {T}: Add {B}.
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (14) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck31 cast Scrawling Crawler (58)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (49)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Scrawling Crawler (58)]
+Add to stack: Ai(1)-Gen2_Deck31 triggered Cat Collector (30)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(1)-Gen2_Deck31, Gained Amount: 1]
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (49)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (133)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (133)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Scrawling Crawler (58)]
+Mana: Tranquil Cove (24) - {T}: Add {W} or {U}.
+Mana: Tranquil Cove (23) - {T}: Add {W} or {U}.
+Mana: Soulstone Sanctuary (21) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck31 cast Inspiring Overseer (12)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (49)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Hinterland Sanctifier (47)
+Add to stack: Ai(1)-Gen2_Deck31 triggered Inspiring Overseer (12)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (12)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Inspiring Overseer (12)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Inspiring Overseer (12)]
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 assigned Cat Collector (30), Solemn Simulacrum (7), Hinterland Sanctifier (47), Hinterland Sanctifier (49), Cat Token (127) and Cat Token (130) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (49).
+Ai(2)-Gen2_Deck30 didn't block Cat Token (130).
+Ai(2)-Gen2_Deck30 didn't block Solemn Simulacrum (7).
+Ai(2)-Gen2_Deck30 assigned Brineborn Cutthroat (98) to block Cat Collector (30).
+Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (47).
+Ai(2)-Gen2_Deck30 didn't block Cat Token (127).
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen2_Deck30 cast Make a Stand (78)
+Add to stack: Ai(2)-Gen2_Deck30 triggered Brineborn Cutthroat (98)
+Resolve stack: Whenever you cast a spell during an opponent's turn, put a +1/+1 counter on Brineborn Cutthroat. [Card: Make a Stand (78), Activator: Ai(2)-Gen2_Deck30, SpellAbility: Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)]
+Resolve stack: Make a Stand (78) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Damage: Cat Collector (30) deals 3 damage () to Brineborn Cutthroat (98).
+Damage: Solemn Simulacrum (7) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Hinterland Sanctifier (47) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Hinterland Sanctifier (49) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Cat Token (127) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Cat Token (130) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Brineborn Cutthroat (98) deals 4 damage () to Cat Collector (30).
+Phase: Ai(1)-Gen2_Deck31's End of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck31's End step
+Phase: Ai(1)-Gen2_Deck31's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck30)
+Phase: Ai(2)-Gen2_Deck30's Untap step
+Phase: Ai(2)-Gen2_Deck30's Upkeep step
+Phase: Ai(2)-Gen2_Deck30's Draw step
+Add to stack: Ai(1)-Gen2_Deck31 triggered Scrawling Crawler (58)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen2_Deck30]
+Phase: Ai(2)-Gen2_Deck30's Main phase, precombat
+Land: Ai(2)-Gen2_Deck30 played Plains (82)
+Phase: Ai(2)-Gen2_Deck30's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck30 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck30's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck30's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck30's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck30's End of Combat Step
+Phase: Ai(2)-Gen2_Deck30's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck30's End step
+Phase: Ai(2)-Gen2_Deck30's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck31)
+Phase: Ai(1)-Gen2_Deck31's Untap step
+Phase: Ai(1)-Gen2_Deck31's Upkeep step
+Add to stack: Ai(1)-Gen2_Deck31 triggered Scrawling Crawler (58)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(1)-Gen2_Deck31]
+Add to stack: Ai(1)-Gen2_Deck31 triggered Scrawling Crawler (58)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(2)-Gen2_Deck30]
+Mana: Swamp (43) - {T}: Add {B}.
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Tranquil Cove (24) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen2_Deck31 activated Soulstone Sanctuary (21)
+Resolve stack: Soulstone Sanctuary (21) - Soulstone Sanctuary (21) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck31's Draw step
+Phase: Ai(1)-Gen2_Deck31's Main phase, precombat
+Land: Ai(1)-Gen2_Deck31 played Forest (13)
+Phase: Ai(1)-Gen2_Deck31's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck31's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck31 assigned Soulstone Sanctuary (21), Scrawling Crawler (58), Solemn Simulacrum (7), Inspiring Overseer (12), Hinterland Sanctifier (47), Hinterland Sanctifier (49), Cat Token (127), Cat Token (130) and Cat Token (133) to attack Ai(2)-Gen2_Deck30.
+Phase: Ai(1)-Gen2_Deck31's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (49).
+Ai(2)-Gen2_Deck30 didn't block Cat Token (130).
+Ai(2)-Gen2_Deck30 assigned Brineborn Cutthroat (98) to block Soulstone Sanctuary (21).
+Ai(2)-Gen2_Deck30 didn't block Cat Token (133).
+Ai(2)-Gen2_Deck30 didn't block Solemn Simulacrum (7).
+Ai(2)-Gen2_Deck30 assigned Tempest Djinn (69) to block Scrawling Crawler (58).
+Ai(2)-Gen2_Deck30 didn't block Inspiring Overseer (12).
+Ai(2)-Gen2_Deck30 didn't block Hinterland Sanctifier (47).
+Ai(2)-Gen2_Deck30 didn't block Cat Token (127).
+Phase: Ai(1)-Gen2_Deck31's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck31's Combat Damage Step
+Damage: Soulstone Sanctuary (21) deals 3 damage () to Brineborn Cutthroat (98).
+Damage: Scrawling Crawler (58) deals 3 damage () to Tempest Djinn (69).
+Damage: Solemn Simulacrum (7) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Inspiring Overseer (12) deals 2 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Hinterland Sanctifier (47) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Hinterland Sanctifier (49) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Cat Token (127) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Cat Token (130) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Cat Token (133) deals 1 combat damage to Ai(2)-Gen2_Deck30.
+Damage: Brineborn Cutthroat (98) deals 3 damage () to Soulstone Sanctuary (21).
+Damage: Tempest Djinn (69) deals 3 damage () to Scrawling Crawler (58).
+Player control: Ai(1)-Gen2_Deck31 is controlled by Ai(1)-Gen2_Deck31
+Player control: Ai(2)-Gen2_Deck30 is controlled by Ai(2)-Gen2_Deck30
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck31 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck30 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck31: 1 Ai(2)-Gen2_Deck30: 0 
+
+Game Result: Game 1 ended in 15403 ms. Ai(1)-Gen2_Deck31 has won!
+
+
+=== STDERR ===

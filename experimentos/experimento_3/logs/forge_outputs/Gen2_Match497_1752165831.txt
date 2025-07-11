@@ -1,0 +1,551 @@
+=== COMBATE PARALELO: Gen2_Deck27 vs Gen2_Deck20 ===
+Worker ID: 482059
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck27 Gen2_Deck20 -n 1
+Duración: 28.59 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2001 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 68 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck27 vs Ai(2)-Gen2_Deck20 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck27 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Land: Ai(2)-Gen2_Deck20 played Forest (83)
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Plains (31)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Hinterland Sanctifier (20)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Land: Ai(2)-Gen2_Deck20 played Mountain (119)
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Swamp (19)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Hinterland Sanctifier (20) to attack Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck20 didn't block Hinterland Sanctifier (20).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Hinterland Sanctifier (20) deals 1 combat damage to Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen2_Deck20 played Secluded Courtyard (71)
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Hinterland Sanctifier (20) to attack Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck20 didn't block Hinterland Sanctifier (20).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Hinterland Sanctifier (20) deals 1 combat damage to Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen2_Deck27 played Maze's End (1)
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Land: Ai(2)-Gen2_Deck20 played Island (104)
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Land: Ai(1)-Gen2_Deck27 played Island (46)
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Hinterland Sanctifier (20) to attack Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck20 didn't block Hinterland Sanctifier (20).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Hinterland Sanctifier (20) deals 1 combat damage to Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen2_Deck20 played Secluded Courtyard (73)
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Maze's End (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Solemn Simulacrum (6)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck27 triggered Solemn Simulacrum (6)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Hinterland Sanctifier (20)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Solemn Simulacrum (6)]
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Hinterland Sanctifier (20) to attack Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck20 didn't block Hinterland Sanctifier (20).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Hinterland Sanctifier (20) deals 1 combat damage to Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(1)-Gen2_Deck27 played Bloodfell Caves (56)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Bloodfell Caves (56)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (56)]
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Land: Ai(2)-Gen2_Deck20 played Forest (87)
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Secluded Courtyard (71) - {T}: Add {C}.
+Mana: Secluded Courtyard (73) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck20 cast Apothecary Stomper (92)
+Resolve stack: Apothecary Stomper - Creature 4 / 4
+Add to stack: Ai(2)-Gen2_Deck20 triggered Apothecary Stomper (92)
+Resolve stack: When this creature enters, put two +1/+1 counters on target creature you control. (Targeting: Apothecary Stomper (92)) [Zone Changer: Apothecary Stomper (92)]
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Island (46) - {T}: Add {U}.
+Mana: Bloodfell Caves (56) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Regal Caracal (39)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(1)-Gen2_Deck27 triggered Hinterland Sanctifier (20)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Regal Caracal (39)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (39)]
+Add to stack: Ai(1)-Gen2_Deck27 triggered Hinterland Sanctifier (20)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Hinterland Sanctifier (20)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (125)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (124)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Regal Caracal (39)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(1)-Gen2_Deck27 played Bloodfell Caves (54)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Bloodfell Caves (54)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (54)]
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Land: Ai(2)-Gen2_Deck20 played Mountain (117)
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Secluded Courtyard (71) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck20 cast Affectionate Indrik (97)
+Resolve stack: Affectionate Indrik - Creature 4 / 4
+Add to stack: Ai(2)-Gen2_Deck20 triggered Affectionate Indrik (97) targeting [Hinterland Sanctifier (20)]
+Damage: Affectionate Indrik (97) deals 4 damage () to Hinterland Sanctifier (20).
+Damage: Hinterland Sanctifier (20) deals 1 damage () to Affectionate Indrik (97).
+Resolve stack: When Affectionate Indrik enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.) (Targeting: [[Hinterland Sanctifier (20)]]) [Zone Changer: Affectionate Indrik (97)]
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 assigned Apothecary Stomper (92) to attack Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck27 didn't block Apothecary Stomper (92).
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Damage: Apothecary Stomper (92) deals 6 combat damage to Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Land: Ai(1)-Gen2_Deck27 played Swamp (17)
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Desecration Demon (9)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Land: Ai(2)-Gen2_Deck20 played Island (105)
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck20 cast Affectionate Indrik (95)
+Resolve stack: Affectionate Indrik - Creature 4 / 4
+Add to stack: Ai(2)-Gen2_Deck20 triggered Affectionate Indrik (95) targeting [Solemn Simulacrum (6)]
+Damage: Affectionate Indrik (95) deals 4 damage () to Solemn Simulacrum (6).
+Damage: Solemn Simulacrum (6) deals 2 damage () to Affectionate Indrik (95).
+Resolve stack: When Affectionate Indrik enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.) (Targeting: [[Solemn Simulacrum (6)]]) [Zone Changer: Affectionate Indrik (95)]
+Add to stack: Ai(1)-Gen2_Deck27 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen2_Deck20]
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen2_Deck27]
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Desecration Demon (9) to attack Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck20 didn't block Desecration Demon (9).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Desecration Demon (9) deals 6 combat damage to Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen2_Deck27 played Maze's End (2)
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Hinterland Sanctifier (23)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck20 cast Affectionate Indrik (94)
+Resolve stack: Affectionate Indrik - Creature 4 / 4
+Add to stack: Ai(2)-Gen2_Deck20 triggered Affectionate Indrik (94) targeting [Regal Caracal (39)]
+Damage: Affectionate Indrik (94) deals 4 damage () to Regal Caracal (39).
+Damage: Regal Caracal (39) deals 3 damage () to Affectionate Indrik (94).
+Resolve stack: When Affectionate Indrik enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.) (Targeting: [[Regal Caracal (39)]]) [Zone Changer: Affectionate Indrik (94)]
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen2_Deck20]
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 assigned Affectionate Indrik (97), Affectionate Indrik (95) and Apothecary Stomper (92) to attack Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck27 didn't block Affectionate Indrik (97).
+Ai(1)-Gen2_Deck27 didn't block Apothecary Stomper (92).
+Ai(1)-Gen2_Deck27 didn't block Affectionate Indrik (95).
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Damage: Affectionate Indrik (97) deals 4 combat damage to Ai(1)-Gen2_Deck27.
+Damage: Affectionate Indrik (95) deals 4 combat damage to Ai(1)-Gen2_Deck27.
+Damage: Apothecary Stomper (92) deals 6 combat damage to Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck20 played Forest (89)
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen2_Deck27]
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Desecration Demon (9) to attack Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck20 didn't block Desecration Demon (9).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Desecration Demon (9) deals 6 combat damage to Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Land: Ai(1)-Gen2_Deck27 played Island (42)
+Mana: Bloodfell Caves (56) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Boltwave (58)
+Damage: Boltwave (58) deals 3 non-combat damage to Ai(2)-Gen2_Deck20.
+Resolve stack: Boltwave (58) - Boltwave (58) deals 3 damage to Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Mana: Forest (83) - {T}: Add {G}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Forest (87) - {T}: Add {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck20 cast Affectionate Indrik (96)
+Resolve stack: Affectionate Indrik - Creature 4 / 4
+Add to stack: Ai(2)-Gen2_Deck20 triggered Affectionate Indrik (96) targeting [Cat Token (124)]
+Damage: Affectionate Indrik (96) deals 4 damage () to Cat Token (124).
+Damage: Cat Token (124) deals 1 damage () to Affectionate Indrik (96).
+Resolve stack: When Affectionate Indrik enters, you may have it fight target creature you don't control. (Each deals damage equal to its power to the other.) (Targeting: [[Cat Token (124)]]) [Zone Changer: Affectionate Indrik (96)]
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen2_Deck20]
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 assigned Apothecary Stomper (92) to attack Ai(1)-Gen2_Deck27.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Cat Token (125) to block Apothecary Stomper (92).
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Damage: Apothecary Stomper (92) deals 6 damage () to Cat Token (125).
+Damage: Cat Token (125) deals 1 damage () to Apothecary Stomper (92).
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck20 played Forest (82)
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Island (46) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Inspiring Overseer (25)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen2_Deck27 triggered Hinterland Sanctifier (23)
+Add to stack: Ai(1)-Gen2_Deck27 triggered Inspiring Overseer (25)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (25)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Inspiring Overseer (25)]
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen2_Deck27]
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck27's End of Combat Step
+Phase: Ai(1)-Gen2_Deck27's Main phase, postcombat
+Land: Ai(1)-Gen2_Deck27 played Swamp (18)
+Phase: Ai(1)-Gen2_Deck27's End step
+Phase: Ai(1)-Gen2_Deck27's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen2_Deck20)
+Phase: Ai(2)-Gen2_Deck20's Untap step
+Phase: Ai(2)-Gen2_Deck20's Upkeep step
+Phase: Ai(2)-Gen2_Deck20's Draw step
+Phase: Ai(2)-Gen2_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck20's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen2_Deck20]
+Phase: Ai(2)-Gen2_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck20's End of Combat Step
+Phase: Ai(2)-Gen2_Deck20's Main phase, postcombat
+Land: Ai(2)-Gen2_Deck20 played Forest (76)
+Mana: Island (104) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Forest (83) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck20 cast Kaito, Cunning Infiltrator (64)
+Mana: Island (42) - {T}: Add {U}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck27 cast Negate (49) targeting [Kaito, Cunning Infiltrator]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: Negate (49) - Counter Kaito, Cunning Infiltrator (64).
+Phase: Ai(2)-Gen2_Deck20's End step
+Phase: Ai(2)-Gen2_Deck20's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen2_Deck27)
+Phase: Ai(1)-Gen2_Deck27's Untap step
+Phase: Ai(1)-Gen2_Deck27's Upkeep step
+Phase: Ai(1)-Gen2_Deck27's Draw step
+Phase: Ai(1)-Gen2_Deck27's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck27's Beginning of Combat Step
+Add to stack: Ai(1)-Gen2_Deck27 triggered Desecration Demon (9)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen2_Deck27]
+Phase: Ai(1)-Gen2_Deck27's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck27 assigned Inspiring Overseer (25) and Hinterland Sanctifier (23) to attack Ai(2)-Gen2_Deck20.
+Phase: Ai(1)-Gen2_Deck27's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck20 assigned Apothecary Stomper (92) to block Hinterland Sanctifier (23).
+Ai(2)-Gen2_Deck20 didn't block Inspiring Overseer (25).
+Phase: Ai(1)-Gen2_Deck27's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck27's Combat Damage Step
+Damage: Inspiring Overseer (25) deals 2 combat damage to Ai(2)-Gen2_Deck20.
+Damage: Hinterland Sanctifier (23) deals 1 damage () to Apothecary Stomper (92).
+Damage: Apothecary Stomper (92) deals 6 damage () to Hinterland Sanctifier (23).
+Player control: Ai(1)-Gen2_Deck27 is controlled by Ai(1)-Gen2_Deck27
+Player control: Ai(2)-Gen2_Deck20 is controlled by Ai(2)-Gen2_Deck20
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen2_Deck27 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck20 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck27: 1 Ai(2)-Gen2_Deck20: 0 
+
+Game Result: Game 1 ended in 18068 ms. Ai(1)-Gen2_Deck27 has won!
+
+
+=== STDERR ===

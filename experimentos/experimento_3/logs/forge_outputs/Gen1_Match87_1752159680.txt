@@ -1,0 +1,448 @@
+=== COMBATE PARALELO: Gen1_Deck2 vs Gen1_Deck22 ===
+Worker ID: 242655
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck2 Gen1_Deck22 -n 1
+Duración: 28.69 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2163 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 201 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck2 vs Ai(2)-Gen1_Deck22 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck22 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen1_Deck2 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck22 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (27)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Adventuring Gear (1)
+Resolve stack: Adventuring Gear
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Land: Ai(2)-Gen1_Deck22 played Island (92)
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Island (35)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (35)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (27) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Chart a Course (53)
+Discard: Ai(1)-Gen1_Deck2 discards Uncharted Haven (40).
+Resolve stack: Chart a Course (53) - Ai(1)-Gen1_Deck2 draws two cards. Ai(1)-Gen1_Deck2 discards a card.
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Land: Ai(2)-Gen1_Deck22 played Island (105)
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck22 cast Strix Lookout (62)
+Resolve stack: Strix Lookout - Creature 1 / 2
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ai(1)-Gen1_Deck2 played Temple of Enlightenment (41)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Temple of Enlightenment (41)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Temple of Enlightenment (41)]
+Resolve stack: Ai(1)-Gen1_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Enlightenment enters, scry 1. [Zone Changer: Temple of Enlightenment (41)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Land: Ai(2)-Gen1_Deck22 played Island (103)
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 assigned Strix Lookout (62) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Strix Lookout (62).
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Damage: Strix Lookout (62) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck22 activated Strix Lookout (62)
+Discard: Ai(2)-Gen1_Deck22 discards Steel Hellkite (87).
+Resolve stack: Strix Lookout (62) - Ai(2)-Gen1_Deck22 draws a card. Ai(2)-Gen1_Deck22 discards a card.
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (25)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (25)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Lightshell Duo (51)
+Resolve stack: Lightshell Duo - Creature 3 / 4
+Add to stack: Ai(1)-Gen1_Deck2 triggered Lightshell Duo (51)
+Resolve stack: Ai(1)-Gen1_Deck2 surveiled 2 card(s) to the top of the library
+Resolve stack: When Lightshell Duo enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.) [Zone Changer: Lightshell Duo (51)]
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 assigned Strix Lookout (62) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Strix Lookout (62).
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Damage: Strix Lookout (62) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck22 activated Strix Lookout (62)
+Discard: Ai(2)-Gen1_Deck22 discards Homunculus Horde (66).
+Resolve stack: Strix Lookout (62) - Ai(2)-Gen1_Deck22 draws a card. Ai(2)-Gen1_Deck22 discards a card.
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (24)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Plains (24)]
+Mana: Plains (27) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Adventuring Gear (1) targeting [Lightshell Duo (51)]
+Resolve stack: Adventuring Gear (1) -  Attach to Lightshell Duo (51)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Lightshell Duo (51) to attack Ai(2)-Gen1_Deck22.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck22 didn't block Lightshell Duo (51).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Lightshell Duo (51) deals 3 combat damage to Ai(2)-Gen1_Deck22.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Skyknight Squire (14)
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 assigned Strix Lookout (62) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Strix Lookout (62).
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Damage: Strix Lookout (62) deals 1 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck22 cast Mocking Sprite (69)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen1_Deck2 played Uncharted Haven (39)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Uncharted Haven (39)]
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (25) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Angel of Vitality (46)
+Resolve stack: Angel of Vitality - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck2 triggered Skyknight Squire (14)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Angel of Vitality (46)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Lightshell Duo (51) and Skyknight Squire (14) to attack Ai(2)-Gen1_Deck22.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck22 didn't block Lightshell Duo (51).
+Ai(2)-Gen1_Deck22 didn't block Skyknight Squire (14).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Lightshell Duo (51) deals 5 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Skyknight Squire (14) deals 2 combat damage to Ai(2)-Gen1_Deck22.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ai(1)-Gen1_Deck2 played Temple of Enlightenment (42)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Temple of Enlightenment (42)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Temple of Enlightenment (42)]
+Resolve stack: Ai(1)-Gen1_Deck2 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Enlightenment enters, scry 1. [Zone Changer: Temple of Enlightenment (42)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Lightshell Duo (51), Skyknight Squire (14) and Angel of Vitality (46) to attack Ai(2)-Gen1_Deck22.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck22 cast Burrog Befuddler (114)
+Resolve stack: Burrog Befuddler - Creature 2 / 1
+Add to stack: Ai(2)-Gen1_Deck22 triggered Burrog Befuddler (114) targeting [Lightshell Duo (51)]
+Resolve stack: When Burrog Befuddler enters, target creature an opponent controls gets -1/-0 until end of turn. (Targeting: [[Lightshell Duo (51)]]) [Zone Changer: Burrog Befuddler (114)]
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck22 didn't block Lightshell Duo (51).
+Ai(2)-Gen1_Deck22 didn't block Skyknight Squire (14).
+Ai(2)-Gen1_Deck22 assigned Mocking Sprite (69) and Strix Lookout (62) to block Angel of Vitality (46).
+Mana: Plains (27) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Moment of Triumph (55) targeting [Angel of Vitality (46)]
+Add to stack: Ai(1)-Gen1_Deck2 triggered Lightshell Duo (51)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Moment of Triumph (55), Activator: Ai(1)-Gen1_Deck2, SpellAbility: Target creature gets +2/+2 until end of turn. You gain 2 life. ]
+Replacement Effect: If you would gain life, you gain that much life plus 1 instead.
+Resolve stack: Moment of Triumph (55) - Angel of Vitality (46) gets +2/+2  until end of turn. Ai(1)-Gen1_Deck2 gains 2 life.
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Lightshell Duo (51) deals 5 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Skyknight Squire (14) deals 2 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Angel of Vitality (46) deals 1 damage () to Mocking Sprite (69).
+Damage: Angel of Vitality (46) deals 3 damage () to Strix Lookout (62).
+Damage: Mocking Sprite (69) deals 2 damage () to Angel of Vitality (46).
+Damage: Strix Lookout (62) deals 1 damage () to Angel of Vitality (46).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Uncharted Haven (39) - {T}: Add one mana of the chosen color.
+Mana: Temple of Enlightenment (41) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Armasaur Guide (12)
+Resolve stack: Armasaur Guide - Creature 4 / 4
+Add to stack: Ai(1)-Gen1_Deck2 triggered Skyknight Squire (14)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Armasaur Guide (12)]
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Armasaur Guide (12), Lightshell Duo (51), Skyknight Squire (14) and Angel of Vitality (46) to attack Ai(2)-Gen1_Deck22.
+Add to stack: Ai(1)-Gen1_Deck2 triggered Armasaur Guide (12) targeting [Armasaur Guide (12)]
+Mana: Island (92) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck22 cast Faebloom Trick (63)
+Resolve stack: Faebloom Trick (63) - Ai(2)-Gen1_Deck22 creates two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls. When you do, tap target creature an opponent controls. 
+Add to stack: Ai(2)-Gen1_Deck22 triggered Faebloom Trick (63) targeting [Armasaur Guide (12)]
+Resolve stack: When you do, tap target creature an opponent controls. (Targeting: [[Armasaur Guide (12)]])
+Resolve stack: Whenever you attack with three or more creatures, put a +1/+1 counter on target creature you control. (Targeting: [[Armasaur Guide (12)]]) [Number Attackers: [Armasaur Guide (12), Lightshell Duo (51), Skyknight Squire (14), Angel of Vitality (46)]]
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck22 assigned Faerie Token (177) to block Lightshell Duo (51).
+Ai(2)-Gen1_Deck22 assigned Faerie Token (176) to block Armasaur Guide (12).
+Ai(2)-Gen1_Deck22 assigned Burrog Befuddler (114) to block Skyknight Squire (14).
+Ai(2)-Gen1_Deck22 didn't block Angel of Vitality (46).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Armasaur Guide (12) deals 5 damage () to Faerie Token (176).
+Damage: Lightshell Duo (51) deals 3 damage () to Faerie Token (177).
+Damage: Skyknight Squire (14) deals 3 damage () to Burrog Befuddler (114).
+Damage: Angel of Vitality (46) deals 2 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Faerie Token (176) deals 1 damage () to Armasaur Guide (12).
+Damage: Faerie Token (177) deals 1 damage () to Lightshell Duo (51).
+Damage: Burrog Befuddler (114) deals 2 damage () to Skyknight Squire (14).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Island (35) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Skyknight Squire (15)
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Add to stack: Ai(1)-Gen1_Deck2 triggered Skyknight Squire (14)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Skyknight Squire (15)]
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck22)
+Phase: Ai(2)-Gen1_Deck22's Untap step
+Phase: Ai(2)-Gen1_Deck22's Upkeep step
+Phase: Ai(2)-Gen1_Deck22's Draw step
+Phase: Ai(2)-Gen1_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck22's End of Combat Step
+Phase: Ai(2)-Gen1_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck22's End step
+Phase: Ai(2)-Gen1_Deck22's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Island (32)
+Add to stack: Ai(1)-Gen1_Deck2 triggered Adventuring Gear (1)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Island (32)]
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Lightshell Duo (51), Armasaur Guide (12), Skyknight Squire (14), Angel of Vitality (46) and Skyknight Squire (15) to attack Ai(2)-Gen1_Deck22.
+Add to stack: Ai(1)-Gen1_Deck2 triggered Armasaur Guide (12) targeting [Armasaur Guide (12)]
+Resolve stack: Whenever you attack with three or more creatures, put a +1/+1 counter on target creature you control. (Targeting: [[Armasaur Guide (12)]]) [Number Attackers: [Lightshell Duo (51), Armasaur Guide (12), Skyknight Squire (14), Angel of Vitality (46), Skyknight Squire (15)]]
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck22 didn't block Lightshell Duo (51).
+Ai(2)-Gen1_Deck22 didn't block Armasaur Guide (12).
+Ai(2)-Gen1_Deck22 didn't block Skyknight Squire (14).
+Ai(2)-Gen1_Deck22 didn't block Angel of Vitality (46).
+Ai(2)-Gen1_Deck22 didn't block Skyknight Squire (15).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Lightshell Duo (51) deals 5 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Armasaur Guide (12) deals 6 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Skyknight Squire (14) deals 4 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Angel of Vitality (46) deals 2 combat damage to Ai(2)-Gen1_Deck22.
+Damage: Skyknight Squire (15) deals 1 combat damage to Ai(2)-Gen1_Deck22.
+Player control: Ai(1)-Gen1_Deck2 is controlled by Ai(1)-Gen1_Deck2
+Player control: Ai(2)-Gen1_Deck22 is controlled by Ai(2)-Gen1_Deck22
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck22 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck2: 1 Ai(2)-Gen1_Deck22: 0 
+
+Game Result: Game 1 ended in 16043 ms. Ai(1)-Gen1_Deck2 has won!
+
+
+=== STDERR ===

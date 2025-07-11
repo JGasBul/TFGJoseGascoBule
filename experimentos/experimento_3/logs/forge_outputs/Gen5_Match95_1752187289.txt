@@ -1,0 +1,631 @@
+=== COMBATE PARALELO: Gen5_Deck30 vs Gen5_Deck2 ===
+Worker ID: 1237316
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck30 Gen5_Deck2 -n 1
+Duración: 33.66 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2183 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 179 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck30 vs Ai(2)-Gen5_Deck2 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck2 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen5_Deck30 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen5_Deck2 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Land: Ai(1)-Gen5_Deck30 played Plains (34)
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Healer's Hawk (58)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Land: Ai(2)-Gen5_Deck2 played Mountain (115)
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Healer's Hawk (58) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 didn't block Healer's Hawk (58).
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Fleeting Flight (21) targeting [Healer's Hawk (58)]
+Resolve stack: Fleeting Flight (21) - Ai(1)-Gen5_Deck30 puts a +1/+1 counter on Healer's Hawk (58). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Healer's Hawk (58) deals 2 combat damage to Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen5_Deck30 played Maze's End (2)
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Land: Ai(2)-Gen5_Deck2 played Plains (99)
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Land: Ai(1)-Gen5_Deck30 played Evolving Wilds (33)
+Add to stack: Ai(1)-Gen5_Deck30 activated Evolving Wilds (33)
+Resolve stack: Evolving Wilds (33) - Ai(1)-Gen5_Deck30 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Healer's Hawk (58) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Healer's Hawk (58) deals 2 combat damage to Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Hinterland Sanctifier (14)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Land: Ai(2)-Gen5_Deck2 played Mountain (114)
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Mentor of the Meek (71)
+Resolve stack: Mentor of the Meek - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Land: Ai(1)-Gen5_Deck30 played Island (47)
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Healer's Hawk (58) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Healer's Hawk (58) deals 2 combat damage to Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Mentor of the Meek (71) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Mentor of the Meek (71).
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Damage: Mentor of the Meek (71) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Replacement Effect: Wind-Scarred Crag enters tapped.
+Land: Ai(2)-Gen5_Deck2 played Wind-Scarred Crag (89)
+Add to stack: Ai(2)-Gen5_Deck2 triggered Wind-Scarred Crag (89)
+Resolve stack: When Wind-Scarred Crag enters, you gain 1 life. [Zone Changer: Wind-Scarred Crag (89)]
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Firespitter Whelp (105)
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck2 triggered Mentor of the Meek (71)
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Firespitter Whelp (105)]
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Land: Ai(1)-Gen5_Deck30 played Evolving Wilds (31)
+Add to stack: Ai(1)-Gen5_Deck30 activated Evolving Wilds (31)
+Resolve stack: Evolving Wilds (31) - Ai(1)-Gen5_Deck30 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (44) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Giada, Font of Hope (60)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Giada, Font of Hope (60)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Healer's Hawk (58) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 didn't block Healer's Hawk (58).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Healer's Hawk (58) deals 2 combat damage to Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Deadly Riposte (107) targeting [Healer's Hawk (58)]
+Add to stack: Ai(2)-Gen5_Deck2 triggered Firespitter Whelp (105)
+Damage: Firespitter Whelp (105) deals 1 non-combat damage to Ai(1)-Gen5_Deck30.
+Resolve stack: Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent. [Card: Deadly Riposte (107), Activator: Ai(2)-Gen5_Deck2, SpellAbility: Deadly Riposte deals 3 damage to target tapped creature and you gain 2 life. ]
+Damage: Deadly Riposte (107) deals 3 damage () to Healer's Hawk (58).
+Resolve stack: Deadly Riposte (107) - Deadly Riposte (107) deals 3 damage to Healer's Hawk (58). Ai(2)-Gen5_Deck2 gains 2 life.
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Mana: Wind-Scarred Crag (89) - {T}: Add {R} or {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck2 triggered Mentor of the Meek (71)
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Giada, Font of Hope (119)]
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Angel of Finality (6)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen5_Deck30 triggered Angel of Finality (6) targeting [Ai(2)-Gen5_Deck2]
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Finality (6)]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen5_Deck2]]) [Zone Changer: Angel of Finality (6)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Land: Ai(2)-Gen5_Deck2 played Mountain (116)
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Wind-Scarred Crag (89) - {T}: Add {R} or {W}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Rapacious Dragon (65)
+Add to stack: Ai(2)-Gen5_Deck2 triggered Firespitter Whelp (105)
+Damage: Firespitter Whelp (105) deals 1 non-combat damage to Ai(1)-Gen5_Deck30.
+Resolve stack: Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent. [Card: Rapacious Dragon (65), Activator: Ai(2)-Gen5_Deck2, SpellAbility: Rapacious Dragon - Creature 3 / 3]
+Resolve stack: Rapacious Dragon - Creature 3 / 3
+Add to stack: Ai(2)-Gen5_Deck2 triggered Rapacious Dragon (65)
+Resolve stack: When Rapacious Dragon enters, create two Treasure tokens. [Zone Changer: Rapacious Dragon (65)]
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Angel of Finality (6) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Firespitter Whelp (105) and Rapacious Dragon (65) to block Angel of Finality (6).
+Mana: Treasure Token (125) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Treasure Token (124) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(2)-Gen5_Deck2 cast Adamant Will (118) targeting [Rapacious Dragon (65)]
+Add to stack: Ai(2)-Gen5_Deck2 triggered Firespitter Whelp (105)
+Damage: Firespitter Whelp (105) deals 1 non-combat damage to Ai(1)-Gen5_Deck30.
+Resolve stack: Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent. [Card: Adamant Will (118), Activator: Ai(2)-Gen5_Deck2, SpellAbility: Target creature gets +2/+2 and gains indestructible until end of turn.]
+Resolve stack: Adamant Will (118) - Rapacious Dragon (65) gets +2/+2 and gains indestructible until end of turn.
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Angel of Finality (6) deals 2 damage () to Rapacious Dragon (65).
+Damage: Angel of Finality (6) deals 2 damage () to Firespitter Whelp (105).
+Damage: Firespitter Whelp (105) deals 2 damage () to Angel of Finality (6).
+Damage: Rapacious Dragon (65) deals 5 damage () to Angel of Finality (6).
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Angel of Finality (7)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen5_Deck30 triggered Angel of Finality (7) targeting [Ai(2)-Gen5_Deck2]
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Angel of Finality (7)]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen5_Deck2]]) [Zone Changer: Angel of Finality (7)]
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Wind-Scarred Crag (89) - {T}: Add {R} or {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Jazal Goldmane (87)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Make Your Move (3) targeting [Jazal Goldmane (87)]
+Resolve stack: Make Your Move (3) - Destroy Jazal Goldmane (87).
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Hinterland Sanctifier (13)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (13)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Angel of Finality (7) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Giada, Font of Hope (119) and Rapacious Dragon (65) to block Angel of Finality (7).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Angel of Finality (7) deals 2 damage () to Rapacious Dragon (65).
+Damage: Angel of Finality (7) deals 2 damage () to Giada, Font of Hope (119).
+Damage: Giada, Font of Hope (119) deals 2 damage () to Angel of Finality (7).
+Damage: Rapacious Dragon (65) deals 3 damage () to Angel of Finality (7).
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Rapacious Dragon (65) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Rapacious Dragon (65).
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Damage: Rapacious Dragon (65) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Angel of Finality (72)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(2)-Gen5_Deck2 triggered Angel of Finality (72) targeting [Ai(1)-Gen5_Deck30]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(1)-Gen5_Deck30]]) [Zone Changer: Angel of Finality (72)]
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck30 played Evolving Wilds (32)
+Add to stack: Ai(1)-Gen5_Deck30 activated Evolving Wilds (32)
+Resolve stack: Evolving Wilds (32) - Ai(1)-Gen5_Deck30 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Goblin Negotiation (77) targeting [Giada, Font of Hope (60)]
+Damage: Goblin Negotiation (77) deals 2 damage () to Giada, Font of Hope (60).
+Resolve stack: Goblin Negotiation (77) - Goblin Negotiation (77) deals 2 damage to Giada, Font of Hope (60).  (X=2)
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Rapacious Dragon (65), Angel of Finality (72) and Mentor of the Meek (71) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Rapacious Dragon (65).
+Ai(1)-Gen5_Deck30 didn't block Mentor of the Meek (71).
+Ai(1)-Gen5_Deck30 didn't block Angel of Finality (72).
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Damage: Rapacious Dragon (65) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Angel of Finality (72) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Mentor of the Meek (71) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Island (44) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Inspiring Overseer (16)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen5_Deck30 triggered Inspiring Overseer (16)
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (13)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Inspiring Overseer (16)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Inspiring Overseer (16)]
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (16)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Hinterland Sanctifier (14) and Hinterland Sanctifier (13) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 didn't block Hinterland Sanctifier (13).
+Ai(2)-Gen5_Deck2 didn't block Hinterland Sanctifier (14).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Hinterland Sanctifier (14) deals 1 combat damage to Ai(2)-Gen5_Deck2.
+Damage: Hinterland Sanctifier (13) deals 1 combat damage to Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Rapacious Dragon (65), Angel of Finality (72) and Mentor of the Meek (71) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Rapacious Dragon (65).
+Ai(1)-Gen5_Deck30 didn't block Mentor of the Meek (71).
+Ai(1)-Gen5_Deck30 didn't block Angel of Finality (72).
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Damage: Rapacious Dragon (65) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Angel of Finality (72) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Mentor of the Meek (71) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Arahbo, the First Fang (102)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck2 triggered Mentor of the Meek (71)
+Add to stack: Ai(2)-Gen5_Deck2 triggered Arahbo, the First Fang (102)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (102)]
+Add to stack: Ai(2)-Gen5_Deck2 triggered Mentor of the Meek (71)
+Mana: Mountain (116) - {T}: Add {R}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Cat Token (130)]
+Mana: Wind-Scarred Crag (89) - {T}: Add {R} or {W}.
+Resolve stack: Whenever another creature you control with power 2 or less enters, you may pay {1}. If you do, draw a card. [Zone Changer: Arahbo, the First Fang (102)]
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck30 cast Hinterland Sanctifier (15)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (14)
+Add to stack: Ai(1)-Gen5_Deck30 triggered Hinterland Sanctifier (13)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (15)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Hinterland Sanctifier (15)]
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 assigned Inspiring Overseer (16) to attack Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck2 didn't block Inspiring Overseer (16).
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Damage: Inspiring Overseer (16) deals 2 combat damage to Ai(2)-Gen5_Deck2.
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Deadly Riposte (108) targeting [Inspiring Overseer (16)]
+Damage: Deadly Riposte (108) deals 3 damage () to Inspiring Overseer (16).
+Resolve stack: Deadly Riposte (108) - Deadly Riposte (108) deals 3 damage to Inspiring Overseer (16). Ai(2)-Gen5_Deck2 gains 2 life.
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Rapacious Dragon (65), Angel of Finality (72), Mentor of the Meek (71), Arahbo, the First Fang (102) and Cat Token (130) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Rapacious Dragon (65).
+Ai(1)-Gen5_Deck30 didn't block Cat Token (130).
+Ai(1)-Gen5_Deck30 assigned Hinterland Sanctifier (13) to block Arahbo, the First Fang (102).
+Ai(1)-Gen5_Deck30 assigned Hinterland Sanctifier (14) and Hinterland Sanctifier (15) to block Mentor of the Meek (71).
+Ai(1)-Gen5_Deck30 didn't block Angel of Finality (72).
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Damage: Rapacious Dragon (65) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Angel of Finality (72) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Mentor of the Meek (71) deals 2 damage () to Hinterland Sanctifier (14).
+Damage: Arahbo, the First Fang (102) deals 2 damage () to Hinterland Sanctifier (13).
+Damage: Cat Token (130) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Hinterland Sanctifier (14) deals 1 damage () to Mentor of the Meek (71).
+Damage: Hinterland Sanctifier (15) deals 1 damage () to Mentor of the Meek (71).
+Damage: Hinterland Sanctifier (13) deals 1 damage () to Arahbo, the First Fang (102).
+Phase: Ai(2)-Gen5_Deck2's End of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Main phase, postcombat
+Replacement Effect: Wind-Scarred Crag enters tapped.
+Land: Ai(2)-Gen5_Deck2 played Wind-Scarred Crag (90)
+Add to stack: Ai(2)-Gen5_Deck2 triggered Wind-Scarred Crag (90)
+Resolve stack: When Wind-Scarred Crag enters, you gain 1 life. [Zone Changer: Wind-Scarred Crag (90)]
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck2 cast Diamond Mare (67)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen5_Deck2's End step
+Phase: Ai(2)-Gen5_Deck2's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen5_Deck30)
+Phase: Ai(1)-Gen5_Deck30's Untap step
+Phase: Ai(1)-Gen5_Deck30's Upkeep step
+Phase: Ai(1)-Gen5_Deck30's Draw step
+Phase: Ai(1)-Gen5_Deck30's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck30's End of Combat Step
+Phase: Ai(1)-Gen5_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck30's End step
+Phase: Ai(1)-Gen5_Deck30's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen5_Deck2)
+Phase: Ai(2)-Gen5_Deck2's Untap step
+Phase: Ai(2)-Gen5_Deck2's Upkeep step
+Phase: Ai(2)-Gen5_Deck2's Draw step
+Phase: Ai(2)-Gen5_Deck2's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck2's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck2's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck2 assigned Rapacious Dragon (65), Angel of Finality (72), Arahbo, the First Fang (102), Cat Token (130) and Diamond Mare (67) to attack Ai(1)-Gen5_Deck30.
+Phase: Ai(2)-Gen5_Deck2's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck30 didn't block Rapacious Dragon (65).
+Ai(1)-Gen5_Deck30 didn't block Cat Token (130).
+Ai(1)-Gen5_Deck30 didn't block Diamond Mare (67).
+Ai(1)-Gen5_Deck30 assigned Hinterland Sanctifier (15) to block Arahbo, the First Fang (102).
+Ai(1)-Gen5_Deck30 didn't block Angel of Finality (72).
+Phase: Ai(2)-Gen5_Deck2's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck2's Combat Damage Step
+Damage: Rapacious Dragon (65) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Angel of Finality (72) deals 3 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Arahbo, the First Fang (102) deals 2 damage () to Hinterland Sanctifier (15).
+Damage: Cat Token (130) deals 2 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Diamond Mare (67) deals 1 combat damage to Ai(1)-Gen5_Deck30.
+Damage: Hinterland Sanctifier (15) deals 1 damage () to Arahbo, the First Fang (102).
+Player control: Ai(1)-Gen5_Deck30 is controlled by Ai(1)-Gen5_Deck30
+Player control: Ai(2)-Gen5_Deck2 is controlled by Ai(2)-Gen5_Deck2
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen5_Deck30 has lost because life total reached 0
+Game outcome: Ai(2)-Gen5_Deck2 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck30: 0 Ai(2)-Gen5_Deck2: 1 
+
+Game Result: Game 1 ended in 21866 ms. Ai(2)-Gen5_Deck2 has won!
+
+
+=== STDERR ===
