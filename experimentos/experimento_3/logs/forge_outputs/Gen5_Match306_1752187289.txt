@@ -1,0 +1,701 @@
+=== COMBATE PARALELO: Gen5_Deck10 vs Gen5_Deck21 ===
+Worker ID: 1237317
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck10 Gen5_Deck21 -n 1
+Duración: 48.29 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1823 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 57 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck10 vs Ai(2)-Gen5_Deck21 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck21 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck10 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Mountain (114)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Land: Ai(1)-Gen5_Deck10 played Plains (22)
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Swamp (98)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Replacement Effect: Temple of Plenty enters tapped.
+Land: Ai(1)-Gen5_Deck10 played Temple of Plenty (8)
+Add to stack: Ai(1)-Gen5_Deck10 triggered Temple of Plenty (8)
+Resolve stack: Ai(1)-Gen5_Deck10 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Plenty enters, scry 1. [Zone Changer: Temple of Plenty (8)]
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Demolition Field (112)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 activated Demolition Field (112) targeting [Temple of Plenty (8)]
+Resolve stack: Demolition Field (112) - Destroy Temple of Plenty (8). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen5_Deck21 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Giada, Font of Hope (60)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Mountain (116)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Angel of Finality (91)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(2)-Gen5_Deck21 triggered Angel of Finality (91) targeting [Ai(1)-Gen5_Deck10]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(1)-Gen5_Deck10]]) [Zone Changer: Angel of Finality (91)]
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Bishop's Soldier (16)
+Resolve stack: Bishop's Soldier - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Angel of Finality (91) to attack Ai(1)-Gen5_Deck10.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck10 didn't block Angel of Finality (91).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Angel of Finality (91) deals 3 combat damage to Ai(1)-Gen5_Deck10.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen5_Deck21 played Uncharted Haven (71)
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Arahbo, the First Fang (107)
+Resolve stack: Arahbo, the First Fang - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck21 triggered Arahbo, the First Fang (107)
+Resolve stack: Whenever Arahbo or another nontoken Cat you control enters, create a 1/1 white Cat creature token. [Zone Changer: Arahbo, the First Fang (107)]
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Damage: Giada, Font of Hope (60) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Discard: Ai(1)-Gen5_Deck10 discards Sphinx of the Final Word (7).
+Turn: Turn 11 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Angel of Finality (91), Arahbo, the First Fang (107) and Cat Token (124) to attack Ai(1)-Gen5_Deck10.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck10 didn't block Angel of Finality (91).
+Ai(1)-Gen5_Deck10 didn't block Arahbo, the First Fang (107).
+Ai(1)-Gen5_Deck10 didn't block Cat Token (124).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Angel of Finality (91) deals 3 combat damage to Ai(1)-Gen5_Deck10.
+Damage: Arahbo, the First Fang (107) deals 2 combat damage to Ai(1)-Gen5_Deck10.
+Damage: Cat Token (124) deals 2 combat damage to Ai(1)-Gen5_Deck10.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen5_Deck21 played Uncharted Haven (73)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Plains (69) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Guttersnipe (100)
+Resolve stack: Guttersnipe - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Damage: Giada, Font of Hope (60) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Dawnwing Marshal (45)
+Resolve stack: Dawnwing Marshal - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Mountain (113)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Angel of Finality (91), Arahbo, the First Fang (107), Cat Token (124) and Guttersnipe (100) to attack Ai(1)-Gen5_Deck10.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck10 didn't block Guttersnipe (100).
+Ai(1)-Gen5_Deck10 assigned Dawnwing Marshal (45) and Giada, Font of Hope (60) to block Angel of Finality (91).
+Ai(1)-Gen5_Deck10 didn't block Arahbo, the First Fang (107).
+Ai(1)-Gen5_Deck10 didn't block Cat Token (124).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Angel of Finality (91) deals 1 damage () to Giada, Font of Hope (60).
+Damage: Angel of Finality (91) deals 2 damage () to Dawnwing Marshal (45).
+Damage: Arahbo, the First Fang (107) deals 2 combat damage to Ai(1)-Gen5_Deck10.
+Damage: Cat Token (124) deals 2 combat damage to Ai(1)-Gen5_Deck10.
+Damage: Guttersnipe (100) deals 2 combat damage to Ai(1)-Gen5_Deck10.
+Damage: Dawnwing Marshal (45) deals 2 damage () to Angel of Finality (91).
+Damage: Giada, Font of Hope (60) deals 2 damage () to Angel of Finality (91).
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Land: Ai(1)-Gen5_Deck10 played Plains (19)
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 assigned Giada, Font of Hope (60) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Giada, Font of Hope (60).
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Damage: Giada, Font of Hope (60) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Firespitter Whelp (50)
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Arahbo, the First Fang (107), Cat Token (124) and Guttersnipe (100) to attack Ai(1)-Gen5_Deck10.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck10 assigned Firespitter Whelp (50) to block Guttersnipe (100).
+Ai(1)-Gen5_Deck10 assigned Bishop's Soldier (16) to block Arahbo, the First Fang (107).
+Ai(1)-Gen5_Deck10 assigned Giada, Font of Hope (60) to block Cat Token (124).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Arahbo, the First Fang (107) deals 2 damage () to Bishop's Soldier (16).
+Damage: Cat Token (124) deals 2 damage () to Giada, Font of Hope (60).
+Damage: Guttersnipe (100) deals 2 damage () to Firespitter Whelp (50).
+Damage: Bishop's Soldier (16) deals 2 damage () to Arahbo, the First Fang (107).
+Damage: Firespitter Whelp (50) deals 2 damage () to Guttersnipe (100).
+Damage: Giada, Font of Hope (60) deals 2 damage () to Cat Token (124).
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen5_Deck21 played Uncharted Haven (74)
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Bishop's Soldier (13)
+Resolve stack: Bishop's Soldier - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Plains (69) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Burnished Hart (68)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Land: Ai(1)-Gen5_Deck10 played Mountain (56)
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Leyline Axe (4)
+Resolve stack: Leyline Axe
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Uncharted Haven (71) - {T}: Add one mana of the chosen color.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Dauntless Veteran (84)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Land: Ai(1)-Gen5_Deck10 played Mountain (52)
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Plains (19) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck10 activated Leyline Axe (4) targeting [Bishop's Soldier (13)]
+Resolve stack: Leyline Axe (4) -  Attach to Bishop's Soldier (13)
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 assigned Bishop's Soldier (13) to attack Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Bishop's Soldier (13).
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Damage: Bishop's Soldier (13) deals 3 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Damage: Bishop's Soldier (13) deals 3 combat damage to Ai(2)-Gen5_Deck21.
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Dauntless Veteran (84) and Burnished Hart (68) to attack Ai(1)-Gen5_Deck10.
+Add to stack: Ai(2)-Gen5_Deck21 triggered Dauntless Veteran (84)
+Resolve stack: Whenever Dauntless Veteran attacks, creatures you control get +1/+1 until end of turn. [Attacker: Dauntless Veteran (84)]
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck10 didn't block Dauntless Veteran (84).
+Ai(1)-Gen5_Deck10 didn't block Burnished Hart (68).
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Damage: Dauntless Veteran (84) deals 3 combat damage to Ai(1)-Gen5_Deck10.
+Damage: Burnished Hart (68) deals 3 combat damage to Ai(1)-Gen5_Deck10.
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Uncharted Haven (71) - {T}: Add one mana of the chosen color.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Jazal Goldmane (103)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Jazal Goldmane (39)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Soulstone Sanctuary (83)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen5_Deck21 activated Soulstone Sanctuary (83)
+Resolve stack: Soulstone Sanctuary (83) - Soulstone Sanctuary (83) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Firespitter Whelp (49)
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen5_Deck21 played Uncharted Haven (72)
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Land: Ai(1)-Gen5_Deck10 played Plains (23)
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Ancestor Dragon (29)
+Add to stack: Ai(1)-Gen5_Deck10 triggered Firespitter Whelp (49)
+Damage: Firespitter Whelp (49) deals 1 non-combat damage to Ai(2)-Gen5_Deck21.
+Resolve stack: Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent. [Card: Ancestor Dragon (29), Activator: Ai(1)-Gen5_Deck10, SpellAbility: Ancestor Dragon - Creature 5 / 6]
+Resolve stack: Ancestor Dragon - Creature 5 / 6
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Plains (69) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 cast Firespitter Whelp (108)
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Land: Ai(1)-Gen5_Deck10 played Mountain (57)
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 assigned Ancestor Dragon (29) to attack Ai(2)-Gen5_Deck21.
+Add to stack: Ai(1)-Gen5_Deck10 triggered Ancestor Dragon (29)
+Resolve stack: Whenever one or more creatures you control attack, you gain 1 life for each attacking creature. [Number Attackers: [Ancestor Dragon (29)]]
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 assigned Firespitter Whelp (108) to block Ancestor Dragon (29).
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Damage: Ancestor Dragon (29) deals 5 damage () to Firespitter Whelp (108).
+Damage: Firespitter Whelp (108) deals 2 damage () to Ancestor Dragon (29).
+Phase: Ai(1)-Gen5_Deck10's End of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck10 cast Ancestor Dragon (26)
+Add to stack: Ai(1)-Gen5_Deck10 triggered Firespitter Whelp (49)
+Damage: Firespitter Whelp (49) deals 1 non-combat damage to Ai(2)-Gen5_Deck21.
+Resolve stack: Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent. [Card: Ancestor Dragon (26), Activator: Ai(1)-Gen5_Deck10, SpellAbility: Ancestor Dragon - Creature 5 / 6]
+Resolve stack: Ancestor Dragon - Creature 5 / 6
+Phase: Ai(1)-Gen5_Deck10's End step
+Phase: Ai(1)-Gen5_Deck10's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen5_Deck21)
+Phase: Ai(2)-Gen5_Deck21's Untap step
+Phase: Ai(2)-Gen5_Deck21's Upkeep step
+Phase: Ai(2)-Gen5_Deck21's Draw step
+Phase: Ai(2)-Gen5_Deck21's Main phase, precombat
+Land: Ai(2)-Gen5_Deck21 played Mountain (117)
+Phase: Ai(2)-Gen5_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck21's End of Combat Step
+Phase: Ai(2)-Gen5_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck21's End step
+Phase: Ai(2)-Gen5_Deck21's Cleanup step
+Turn: Turn 30 (Ai(1)-Gen5_Deck10)
+Phase: Ai(1)-Gen5_Deck10's Untap step
+Phase: Ai(1)-Gen5_Deck10's Upkeep step
+Phase: Ai(1)-Gen5_Deck10's Draw step
+Phase: Ai(1)-Gen5_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck10 assigned Ancestor Dragon (29), Ancestor Dragon (26), Jazal Goldmane (39), Bishop's Soldier (13) and Firespitter Whelp (49) to attack Ai(2)-Gen5_Deck21.
+Add to stack: Ai(1)-Gen5_Deck10 triggered Ancestor Dragon (29)
+Add to stack: Ai(1)-Gen5_Deck10 triggered Ancestor Dragon (26)
+Resolve stack: Whenever one or more creatures you control attack, you gain 1 life for each attacking creature. [Number Attackers: [Ancestor Dragon (29), Ancestor Dragon (26), Jazal Goldmane (39), Bishop's Soldier (13), Firespitter Whelp (49)]]
+Resolve stack: Whenever one or more creatures you control attack, you gain 1 life for each attacking creature. [Number Attackers: [Ancestor Dragon (29), Ancestor Dragon (26), Jazal Goldmane (39), Bishop's Soldier (13), Firespitter Whelp (49)]]
+Phase: Ai(1)-Gen5_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck21 didn't block Firespitter Whelp (49).
+Ai(2)-Gen5_Deck21 assigned Burnished Hart (68) to block Jazal Goldmane (39).
+Ai(2)-Gen5_Deck21 didn't block Ancestor Dragon (26).
+Ai(2)-Gen5_Deck21 didn't block Ancestor Dragon (29).
+Ai(2)-Gen5_Deck21 assigned Dauntless Veteran (84) and Jazal Goldmane (103) to block Bishop's Soldier (13).
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (19) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck10 activated Jazal Goldmane (39)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Plains (69) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck21 activated Burnished Hart (68)
+Resolve stack: Burnished Hart (68) - Ai(2)-Gen5_Deck21 searches their library for two Land.Basic cards, puts them onto the battlefield tapped, then shuffles.
+Resolve stack: Jazal Goldmane (39) - Attacking creatures you control get +X/+X until end of turn, where X is the number of attacking creatures.
+Phase: Ai(1)-Gen5_Deck10's First Strike Damage Step
+Damage: Bishop's Soldier (13) deals 2 combat damage to Ai(2)-Gen5_Deck21.
+Damage: Bishop's Soldier (13) deals 2 damage () to Dauntless Veteran (84).
+Damage: Bishop's Soldier (13) deals 4 damage () to Jazal Goldmane (103).
+Damage: Jazal Goldmane (103) deals 4 damage () to Bishop's Soldier (13).
+Phase: Ai(1)-Gen5_Deck10's Combat Damage Step
+Damage: Ancestor Dragon (29) deals 10 combat damage to Ai(2)-Gen5_Deck21.
+Damage: Ancestor Dragon (26) deals 10 combat damage to Ai(2)-Gen5_Deck21.
+Damage: Bishop's Soldier (13) deals 8 combat damage to Ai(2)-Gen5_Deck21.
+Damage: Firespitter Whelp (49) deals 7 combat damage to Ai(2)-Gen5_Deck21.
+Player control: Ai(1)-Gen5_Deck10 is controlled by Ai(1)-Gen5_Deck10
+Player control: Ai(2)-Gen5_Deck21 is controlled by Ai(2)-Gen5_Deck21
+Game outcome: Turn 15
+Game outcome: Ai(1)-Gen5_Deck10 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck21 has lost because life total reached 0
+Match result: Ai(1)-Gen5_Deck10: 1 Ai(2)-Gen5_Deck21: 0 
+
+Game Result: Game 1 ended in 36426 ms. Ai(1)-Gen5_Deck10 has won!
+
+
+=== STDERR ===

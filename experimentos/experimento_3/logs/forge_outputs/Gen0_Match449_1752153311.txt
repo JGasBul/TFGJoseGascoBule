@@ -1,0 +1,688 @@
+=== COMBATE PARALELO: Gen0_Deck24 vs Gen0_Deck17 ===
+Worker ID: 1337
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck24 Gen0_Deck17 -n 1
+Duración: 50.10 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2333 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 240 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck24 vs Ai(2)-Gen0_Deck17 - one game of Constructed
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Default player choice logic.
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Mulligan: Ai(1)-Gen0_Deck24 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck17 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Temple of Enlightenment (31)
+Add to stack: Ai(1)-Gen0_Deck24 triggered Temple of Enlightenment (31)
+Resolve stack: Ai(1)-Gen0_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Enlightenment enters, scry 1. [Zone Changer: Temple of Enlightenment (31)]
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Island (96)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Plains (25)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Temple of Enlightenment (31) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Bishop's Soldier (18)
+Resolve stack: Bishop's Soldier - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Demolition Field (118)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Bishop's Soldier (18) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Bishop's Soldier (18).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Bishop's Soldier (18) deals 2 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Demolition Field (120)
+Mana: Island (96) - {T}: Add {U}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 activated Demolition Field (118) targeting [Temple of Enlightenment (31)]
+Resolve stack: Demolition Field (118) - Destroy Temple of Enlightenment (31). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck17 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Bishop's Soldier (18) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Bishop's Soldier (18).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Bishop's Soldier (18) deals 2 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Island (90)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (96) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Thornweald Archer (105)
+Resolve stack: Thornweald Archer - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Plains (22)
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (28) - {T}: Add {U}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Heraldic Banner (9)
+Replacement Effect: As Heraldic Banner enters, choose a color.
+Resolve stack: Heraldic Banner
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Island (97)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Plains (24)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Ajani, Caller of the Pride (14)
+Mana: Island (96) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Arcane Epiphany (63)
+Resolve stack: Arcane Epiphany (63) - Ai(2)-Gen0_Deck17 draws three cards.
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (14) targeting [Bishop's Soldier (18)]
+Resolve stack: Ajani, Caller of the Pride (14) - Ai(1)-Gen0_Deck24 puts a +1/+1 counter on Bishop's Soldier (18).
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Crawling Barrens (108)
+Mana: Island (96) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Self-Reflection (113) targeting [Thornweald Archer (105)]
+Resolve stack: Self-Reflection (113) - Ai(2)-Gen0_Deck17 creates a token that's a copy of Thornweald Archer (105).
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Island (30)
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (14) targeting [Bishop's Soldier (18)]
+Resolve stack: Ajani, Caller of the Pride (14) - Bishop's Soldier (18) gains flying and double strike until end of turn.
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Bishop's Soldier (18) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Bishop's Soldier (18).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Damage: Bishop's Soldier (18) deals 4 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Bishop's Soldier (18) deals 4 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Forest (79)
+Mana: Island (96) - {T}: Add {U}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Island (97) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Self-Reflection (113) targeting [Thornweald Archer (105)]
+Resolve stack: Self-Reflection (113) - Ai(2)-Gen0_Deck17 creates a token that's a copy of Thornweald Archer (105).
+Replacement Effect: Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Thornweald Archer (122) to attack Ai(1)-Gen0_Deck24.
+Ai(2)-Gen0_Deck17 assigned Thornweald Archer (105) to attack Ajani, Caller of the Pride (14).
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Thornweald Archer (122).
+Ai(1)-Gen0_Deck24 didn't block Thornweald Archer (105).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Thornweald Archer (122) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Thornweald Archer (106)
+Resolve stack: Thornweald Archer - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Ajani, Caller of the Pride (13)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (13) targeting [Bishop's Soldier (18)]
+Resolve stack: Ajani, Caller of the Pride (13) - Ai(1)-Gen0_Deck24 puts a +1/+1 counter on Bishop's Soldier (18).
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Island (92)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Mana: Island (96) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Curator of Destinies (100)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (100)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (100)]
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Discard: Ai(2)-Gen0_Deck17 discards Island (93).
+Turn: Turn 17 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (13) targeting [Bishop's Soldier (18)]
+Resolve stack: Ajani, Caller of the Pride (13) - Bishop's Soldier (18) gains flying and double strike until end of turn.
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Bishop's Soldier (18) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Thornweald Archer (122) to block Bishop's Soldier (18).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Damage: Bishop's Soldier (18) deals 5 damage () to Thornweald Archer (122).
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Bishop's Soldier (19)
+Resolve stack: Bishop's Soldier - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Forest (81)
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Island (96) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Demolition Field (120) - {T}: Add {C}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Genesis Wave (71)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Genesis Wave (71) - [Ai(2)-Gen0_Deck17] Reveal the top X cards of your library. You may put any number of permanent cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard. (X=6)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Starlight Snare (102)
+Resolve stack: When Starlight Snare enters, tap enchanted creature. [Zone Changer: Starlight Snare (102)]
+Add to stack: Ai(2)-Gen0_Deck17 activated Kaito, Cunning Infiltrator (73)
+Resolve stack: Kaito, Cunning Infiltrator (73) - Ai(2)-Gen0_Deck17 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Curator of Destinies (100) to attack Ajani, Caller of the Pride (13).
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Curator of Destinies (100).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Mana: Forest (84) - {T}: Add {G}.
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (78) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Predator Ooze (67)
+Resolve stack: Predator Ooze - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Azorius Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Azorius Guildgate (39)
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Mana: Island (96) - {T}: Add {U}.
+Mana: Forest (82) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck17 activated Demolition Field (120) targeting [Azorius Guildgate (39)]
+Resolve stack: Demolition Field (120) - Destroy Azorius Guildgate (39). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck17 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Curator of Destinies (100) to attack Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Curator of Destinies (100).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Curator of Destinies (100) deals 5 combat damage to Ai(1)-Gen0_Deck24.
+Add to stack: Ai(2)-Gen0_Deck17 triggered Kaito, Cunning Infiltrator (73)
+Resolve stack: Whenever a creature you control deals combat damage to a player, put a loyalty counter on Kaito. [Damage Source: Curator of Destinies (100), Damaged: Ai(1)-Gen0_Deck24, Amount: 5]
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Add to stack: Ai(2)-Gen0_Deck17 activated Kaito, Cunning Infiltrator (73)
+Resolve stack: Kaito, Cunning Infiltrator (73) - Ai(2)-Gen0_Deck17 creates a 2/1 blue Ninja creature token.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (84) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Curator of Destinies (101)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (101)
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (101)]
+Land: Ai(2)-Gen0_Deck17 played Crawling Barrens (109)
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Cackling Prowler (89)
+Resolve stack: Cackling Prowler - Creature 4 / 3
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Swamp (54)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Swamp (53) - {T}: Add {B}.
+Mana: Plains (25) - {T}: Add {W}.
+Mana: Island (28) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Vampire Spawn (45)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(1)-Gen0_Deck24 triggered Vampire Spawn (45)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (45)]
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Tinybones, Bauble Burglar (44)
+Resolve stack: Tinybones, Bauble Burglar - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Island (96) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Forest (84) - {T}: Add {G}.
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Mana: Crawling Barrens (111) - {T}: Add {C}.
+Mana: Crawling Barrens (109) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Genesis Wave (72)
+Replacement Effect: As Sorcerous Spyglass enters, look at an opponent's hand, then choose any card name.
+Resolve stack: Genesis Wave (72) - [Ai(2)-Gen0_Deck17] Reveal the top X cards of your library. You may put any number of permanent cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard. (X=11)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Starlight Snare (103)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Needletooth Pack (62)]
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Cackling Prowler (88)]
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Fynn, the Fangbearer (76)]
+Resolve stack: When Starlight Snare enters, tap enchanted creature. [Zone Changer: Starlight Snare (103)]
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Curator of Destinies (100), Curator of Destinies (101), Cackling Prowler (89), Thornweald Archer (105), Thornweald Archer (106), Ninja Token (128), Ninja Token (132) and Predator Ooze (67) to attack Ai(1)-Gen0_Deck24.
+Add to stack: Ai(2)-Gen0_Deck17 triggered Predator Ooze (67)
+Resolve stack: Whenever Predator Ooze attacks, put a +1/+1 counter on it. [Attacker: Predator Ooze (67)]
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Ninja Token (128).
+Ai(1)-Gen0_Deck24 assigned Vampire Spawn (45) to block Predator Ooze (67).
+Ai(1)-Gen0_Deck24 didn't block Curator of Destinies (100).
+Ai(1)-Gen0_Deck24 didn't block Ninja Token (132).
+Ai(1)-Gen0_Deck24 didn't block Curator of Destinies (101).
+Ai(1)-Gen0_Deck24 assigned Tinybones, Bauble Burglar (44) to block Cackling Prowler (89).
+Ai(1)-Gen0_Deck24 assigned Bishop's Soldier (19) to block Thornweald Archer (105).
+Ai(1)-Gen0_Deck24 assigned Bishop's Soldier (18) to block Thornweald Archer (106).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Curator of Destinies (100) deals 5 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Curator of Destinies (101) deals 5 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Cackling Prowler (89) deals 4 damage (Deathtouch) to Tinybones, Bauble Burglar (44).
+Damage: Thornweald Archer (105) deals 2 damage (Deathtouch) to Bishop's Soldier (19).
+Damage: Thornweald Archer (106) deals 2 damage (Deathtouch) to Bishop's Soldier (18).
+Damage: Ninja Token (128) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Ninja Token (132) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Predator Ooze (67) deals 2 damage (Deathtouch) to Vampire Spawn (45).
+Damage: Tinybones, Bauble Burglar (44) deals 1 damage () to Cackling Prowler (89).
+Damage: Vampire Spawn (45) deals 2 damage () to Predator Ooze (67).
+Damage: Bishop's Soldier (19) deals 3 damage () to Thornweald Archer (105).
+Damage: Bishop's Soldier (18) deals 5 damage () to Thornweald Archer (106).
+Add to stack: Ai(2)-Gen0_Deck17 triggered Fynn, the Fangbearer (76)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Fynn, the Fangbearer (76)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Fynn, the Fangbearer (76)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Fynn, the Fangbearer (76)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Predator Ooze (67)
+Resolve stack: Whenever a creature dealt damage by Predator Ooze this turn dies, put a +1/+1 counter on Predator Ooze. [Zone Changer: Vampire Spawn (45)]
+Damage: Ai(1)-Gen0_Deck24 receives 2 poison counter from Ai(2)-Gen0_Deck17
+Resolve stack: Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.) [Damage Source: Ninja Token (132), Damaged: Ai(1)-Gen0_Deck24, Amount: 2]
+Damage: Ai(1)-Gen0_Deck24 receives 2 poison counter from Ai(2)-Gen0_Deck17
+Resolve stack: Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.) [Damage Source: Ninja Token (128), Damaged: Ai(1)-Gen0_Deck24, Amount: 2]
+Damage: Ai(1)-Gen0_Deck24 receives 2 poison counter from Ai(2)-Gen0_Deck17
+Resolve stack: Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.) [Damage Source: Curator of Destinies (101), Damaged: Ai(1)-Gen0_Deck24, Amount: 5]
+Damage: Ai(1)-Gen0_Deck24 receives 2 poison counter from Ai(2)-Gen0_Deck17
+Resolve stack: Whenever a creature you control with deathtouch deals combat damage to a player, that player gets two poison counters. (A player with ten or more poison counters loses the game.) [Damage Source: Curator of Destinies (100), Damaged: Ai(1)-Gen0_Deck24, Amount: 5]
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Add to stack: Ai(2)-Gen0_Deck17 triggered Cackling Prowler (89)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Cackling Prowler (88)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Needletooth Pack (62) targeting [Curator of Destinies (100)]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put two +1/+1 counters on target creature you control. (Targeting: [[Curator of Destinies (100)]]) [Phase: Ai(2)-Gen0_Deck17]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature. [Phase: Ai(2)-Gen0_Deck17]
+Resolve stack: Morbid — At the beginning of your end step, if a creature died this turn, put a +1/+1 counter on this creature. [Phase: Ai(2)-Gen0_Deck17]
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Evolving Wilds (60)
+Add to stack: Ai(1)-Gen0_Deck24 activated Evolving Wilds (60)
+Resolve stack: Evolving Wilds (60) - Ai(1)-Gen0_Deck24 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Soulstone Sanctuary (115)
+Mana: Island (96) - {T}: Add {U}.
+Mana: Island (90) - {T}: Add {U}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Forest (79) - {T}: Add {G}.
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Curator of Destinies (99)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (99)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Curator of Destinies (99)]
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (99)]
+Mana: Island (91) - {T}: Add {U}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (84) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Sphinx of Forgotten Lore (85)
+Resolve stack: Sphinx of Forgotten Lore - Creature 3 / 3
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Sphinx of Forgotten Lore (85)]
+Mana: Forest (80) - {T}: Add {G}.
+Mana: Forest (78) - {T}: Add {G}.
+Mana: Crawling Barrens (111) - {T}: Add {C}.
+Mana: Crawling Barrens (109) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 activated Crawling Barrens (108)
+Resolve stack: Crawling Barrens (108) - Ai(2)-Gen0_Deck17 puts two +1/+1 counters on Crawling Barrens (108). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Curator of Destinies (100), Curator of Destinies (101), Cackling Prowler (89), Cackling Prowler (88), Needletooth Pack (62), Predator Ooze (67), Crawling Barrens (108), Ninja Token (128), Ninja Token (132), Venom Connoisseur (68) and Fynn, the Fangbearer (76) to attack Ai(1)-Gen0_Deck24.
+Add to stack: Ai(2)-Gen0_Deck17 triggered Predator Ooze (67)
+Resolve stack: Whenever Predator Ooze attacks, put a +1/+1 counter on it. [Attacker: Predator Ooze (67)]
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Ninja Token (128).
+Ai(1)-Gen0_Deck24 didn't block Predator Ooze (67).
+Ai(1)-Gen0_Deck24 didn't block Curator of Destinies (100).
+Ai(1)-Gen0_Deck24 didn't block Ninja Token (132).
+Ai(1)-Gen0_Deck24 didn't block Venom Connoisseur (68).
+Ai(1)-Gen0_Deck24 didn't block Curator of Destinies (101).
+Ai(1)-Gen0_Deck24 didn't block Cackling Prowler (88).
+Ai(1)-Gen0_Deck24 didn't block Cackling Prowler (89).
+Ai(1)-Gen0_Deck24 didn't block Crawling Barrens (108).
+Ai(1)-Gen0_Deck24 didn't block Fynn, the Fangbearer (76).
+Ai(1)-Gen0_Deck24 didn't block Needletooth Pack (62).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Curator of Destinies (100) deals 7 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Curator of Destinies (101) deals 5 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Cackling Prowler (89) deals 5 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Cackling Prowler (88) deals 5 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Needletooth Pack (62) deals 4 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Predator Ooze (67) deals 4 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Crawling Barrens (108) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Ninja Token (128) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Ninja Token (132) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Venom Connoisseur (68) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Damage: Fynn, the Fangbearer (76) deals 1 combat damage to Ai(1)-Gen0_Deck24.
+Player control: Ai(1)-Gen0_Deck24 is controlled by Ai(1)-Gen0_Deck24
+Player control: Ai(2)-Gen0_Deck17 is controlled by Ai(2)-Gen0_Deck17
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen0_Deck24 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck17 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck24: 0 Ai(2)-Gen0_Deck17: 1 
+
+Game Result: Game 1 ended in 37209 ms. Ai(2)-Gen0_Deck17 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,548 @@
+=== COMBATE PARALELO: Gen4_Deck18 vs Gen4_Deck0 ===
+Worker ID: 982849
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck18 Gen4_Deck0 -n 1
+Duración: 57.95 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2252 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 96 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck18 vs Ai(2)-Gen4_Deck0 - one game of Constructed
+Mulligan: Ai(1)-Gen4_Deck18 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen4_Deck0 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Land: Ai(1)-Gen4_Deck18 played Island (42)
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Land: Ai(2)-Gen4_Deck0 played Plains (96)
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Hinterland Sanctifier (80)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen4_Deck0's End step
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Land: Ai(1)-Gen4_Deck18 played Soulstone Sanctuary (58)
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 assigned Hinterland Sanctifier (80) to attack Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck18 didn't block Hinterland Sanctifier (80).
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Damage: Hinterland Sanctifier (80) deals 1 combat damage to Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen4_Deck0 played Maze's End (61)
+Phase: Ai(2)-Gen4_Deck0's End step
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Land: Ai(1)-Gen4_Deck18 played Soulstone Sanctuary (57)
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Mana: Island (42) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (57) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck18 cast Mocking Sprite (13)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Fleeting Flight (87) targeting [Hinterland Sanctifier (80)]
+Resolve stack: Fleeting Flight (87) - Ai(2)-Gen4_Deck0 puts a +1/+1 counter on Hinterland Sanctifier (80). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 assigned Hinterland Sanctifier (80) to attack Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck18 didn't block Hinterland Sanctifier (80).
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Damage: Hinterland Sanctifier (80) deals 2 combat damage to Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen4_Deck0 played Tranquil Cove (70)
+Add to stack: Ai(2)-Gen4_Deck0 triggered Tranquil Cove (70)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (70)]
+Phase: Ai(2)-Gen4_Deck0's End step
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Land: Ai(1)-Gen4_Deck18 played Island (32)
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 assigned Mocking Sprite (13) to attack Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck0 didn't block Mocking Sprite (13).
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Damage: Mocking Sprite (13) deals 2 combat damage to Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Mana: Island (42) - {T}: Add {U}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (57) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck18 cast Homunculus Horde (3)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Tranquil Cove (70) - {T}: Add {W} or {U}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Cat Collector (71)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Add to stack: Ai(2)-Gen4_Deck0 triggered Cat Collector (71)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (71)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (71)]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen4_Deck0, Gained Amount: 1]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (127)]
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 assigned Hinterland Sanctifier (80) to attack Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck18 didn't block Hinterland Sanctifier (80).
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Damage: Hinterland Sanctifier (80) deals 2 combat damage to Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen4_Deck0 played Tranquil Cove (68)
+Add to stack: Ai(2)-Gen4_Deck0 triggered Tranquil Cove (68)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (68)]
+Phase: Ai(2)-Gen4_Deck0's End step
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Land: Ai(1)-Gen4_Deck18 played Island (48)
+Mana: Island (42) - {T}: Add {U}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (57) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck18 activated Soulstone Sanctuary (58)
+Resolve stack: Soulstone Sanctuary (58) - Soulstone Sanctuary (58) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Land: Ai(2)-Gen4_Deck0 played Plains (99)
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Charming Prince (113)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen4_Deck0 triggered Charming Prince (113)
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Charming Prince (113)]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen4_Deck0, Gained Amount: 1]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (130)]
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Cat Collector (71)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (113)]
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck0's End step
+Add to stack: Ai(2)-Gen4_Deck0 triggered Charming Prince (113)
+Resolve stack: Return exiled card to the battlefield. ([Cat Collector (71)]) [Phase: Ai(2)-Gen4_Deck0]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Add to stack: Ai(2)-Gen4_Deck0 triggered Cat Collector (71)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (71)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (71)]
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Mana: Island (42) - {T}: Add {U}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck18 activated Soulstone Sanctuary (57)
+Resolve stack: Soulstone Sanctuary (57) - Soulstone Sanctuary (57) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 assigned Mocking Sprite (13) to attack Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck0 didn't block Mocking Sprite (13).
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Damage: Mocking Sprite (13) deals 2 combat damage to Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Tranquil Cove (70) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Make a Stand (89)
+Resolve stack: Make a Stand (89) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Land: Ai(2)-Gen4_Deck0 played Plains (94)
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 assigned Cat Collector (71), Hinterland Sanctifier (80) and Charming Prince (113) to attack Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck18 didn't block Hinterland Sanctifier (80).
+Ai(1)-Gen4_Deck18 didn't block Charming Prince (113).
+Ai(1)-Gen4_Deck18 didn't block Cat Collector (71).
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Damage: Cat Collector (71) deals 4 combat damage to Ai(1)-Gen4_Deck18.
+Damage: Hinterland Sanctifier (80) deals 3 combat damage to Ai(1)-Gen4_Deck18.
+Damage: Charming Prince (113) deals 3 combat damage to Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck0's End step
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 assigned Soulstone Sanctuary (58) and Soulstone Sanctuary (57) to attack Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck0 didn't block Soulstone Sanctuary (57).
+Ai(2)-Gen4_Deck0 didn't block Soulstone Sanctuary (58).
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Damage: Soulstone Sanctuary (58) deals 3 combat damage to Ai(2)-Gen4_Deck0.
+Damage: Soulstone Sanctuary (57) deals 3 combat damage to Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Mana: Island (42) - {T}: Add {U}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (57) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck18 cast Homunculus Horde (2)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Land: Ai(2)-Gen4_Deck0 played Plains (95)
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck0's End step
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Land: Ai(1)-Gen4_Deck18 played Island (41)
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 assigned Mocking Sprite (13) to attack Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck0 didn't block Mocking Sprite (13).
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Damage: Mocking Sprite (13) deals 2 combat damage to Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Mana: Island (42) - {T}: Add {U}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck18 cast Mocking Sprite (14)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Mana: Island (41) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (57) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck18 cast Rune-Sealed Wall (21)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Cathar Commando (64)
+Resolve stack: Cathar Commando - Creature 3 / 1
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cathar Commando (64)]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen4_Deck0, Gained Amount: 1]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (136)]
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck0's End step
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Land: Ai(1)-Gen4_Deck18 played Island (36)
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 assigned Mocking Sprite (13) to attack Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck0 didn't block Mocking Sprite (13).
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Damage: Mocking Sprite (13) deals 2 combat damage to Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck0's End step
+Add to stack: Ai(1)-Gen4_Deck18 activated Rune-Sealed Wall (21)
+Resolve stack: Ai(1)-Gen4_Deck18 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (21) - Ai(1)-Gen4_Deck18 surveils (1).
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 assigned Mocking Sprite (13) to attack Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck0 didn't block Mocking Sprite (13).
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Damage: Mocking Sprite (13) deals 2 combat damage to Ai(2)-Gen4_Deck0.
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Mana: Island (42) - {T}: Add {U}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Island (48) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck18 cast Rune-Sealed Wall (20)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Land: Ai(2)-Gen4_Deck0 played Island (106)
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Island (106) - {T}: Add {U}.
+Mana: Tranquil Cove (70) - {T}: Add {W} or {U}.
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Mana: Maze's End (61) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Zetalpa, Primal Dawn (83)
+Resolve stack: Zetalpa, Primal Dawn - Creature 4 / 8
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Zetalpa, Primal Dawn (83)]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen4_Deck0, Gained Amount: 1]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (139)]
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck0's End of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck0's End step
+Add to stack: Ai(1)-Gen4_Deck18 activated Rune-Sealed Wall (21)
+Resolve stack: Ai(1)-Gen4_Deck18 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (21) - Ai(1)-Gen4_Deck18 surveils (1).
+Phase: Ai(2)-Gen4_Deck0's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen4_Deck18)
+Phase: Ai(1)-Gen4_Deck18's Untap step
+Phase: Ai(1)-Gen4_Deck18's Upkeep step
+Phase: Ai(1)-Gen4_Deck18's Draw step
+Phase: Ai(1)-Gen4_Deck18's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck18's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck18 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck18's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck18's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck18's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck18's End of Combat Step
+Phase: Ai(1)-Gen4_Deck18's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck18's End step
+Phase: Ai(1)-Gen4_Deck18's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen4_Deck0)
+Phase: Ai(2)-Gen4_Deck0's Untap step
+Phase: Ai(2)-Gen4_Deck0's Upkeep step
+Phase: Ai(2)-Gen4_Deck0's Draw step
+Phase: Ai(2)-Gen4_Deck0's Main phase, precombat
+Mana: Island (106) - {T}: Add {U}.
+Mana: Tranquil Cove (70) - {T}: Add {W} or {U}.
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Tempest Djinn (75)
+Resolve stack: Tempest Djinn - Creature 0 / 4
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Tempest Djinn (75)]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen4_Deck0, Gained Amount: 1]
+Add to stack: Ai(2)-Gen4_Deck0 triggered Hinterland Sanctifier (80)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (142)]
+Phase: Ai(2)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck0 assigned Zetalpa, Primal Dawn (83), Cat Collector (71), Cathar Commando (64), Hinterland Sanctifier (80), Charming Prince (113), Cat Token (127), Cat Token (130), Cat Token (136) and Cat Token (139) to attack Ai(1)-Gen4_Deck18.
+Phase: Ai(2)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck18 assigned Mocking Sprite (14) to block Cathar Commando (64).
+Ai(1)-Gen4_Deck18 assigned Rune-Sealed Wall (21) to block Hinterland Sanctifier (80).
+Ai(1)-Gen4_Deck18 assigned Rune-Sealed Wall (20) to block Charming Prince (113).
+Ai(1)-Gen4_Deck18 assigned Homunculus Horde (2) to block Cat Token (130).
+Ai(1)-Gen4_Deck18 didn't block Zetalpa, Primal Dawn (83).
+Ai(1)-Gen4_Deck18 assigned Mocking Sprite (13) to block Cat Collector (71).
+Ai(1)-Gen4_Deck18 assigned Soulstone Sanctuary (58) to block Cat Token (136).
+Ai(1)-Gen4_Deck18 assigned Soulstone Sanctuary (57) to block Cat Token (139).
+Ai(1)-Gen4_Deck18 assigned Homunculus Horde (3) to block Cat Token (127).
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck0 cast Make a Stand (90)
+Resolve stack: Make a Stand (90) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(2)-Gen4_Deck0's First Strike Damage Step
+Damage: Zetalpa, Primal Dawn (83) deals 5 combat damage to Ai(1)-Gen4_Deck18.
+Player control: Ai(1)-Gen4_Deck18 is controlled by Ai(1)-Gen4_Deck18
+Player control: Ai(2)-Gen4_Deck0 is controlled by Ai(2)-Gen4_Deck0
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen4_Deck18 has lost because life total reached 0
+Game outcome: Ai(2)-Gen4_Deck0 has won because all opponents have lost
+Match result: Ai(1)-Gen4_Deck18: 0 Ai(2)-Gen4_Deck0: 1 
+
+Game Result: Game 1 ended in 44586 ms. Ai(2)-Gen4_Deck0 has won!
+
+
+=== STDERR ===

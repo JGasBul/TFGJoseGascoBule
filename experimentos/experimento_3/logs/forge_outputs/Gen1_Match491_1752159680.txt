@@ -1,0 +1,453 @@
+=== COMBATE PARALELO: Gen1_Deck20 vs Gen1_Deck21 ===
+Worker ID: 242653
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck20 Gen1_Deck21 -n 1
+Duración: 38.95 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2381 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 111 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck20 vs Ai(2)-Gen1_Deck21 - one game of Constructed
+Boltwave Did not have activator set in SpellAbilityRestriction.canPlay()
+Mulligan: Ai(1)-Gen1_Deck20 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck21 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Mountain (56)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(2)-Gen1_Deck21 played Bloodfell Caves (107)
+Add to stack: Ai(2)-Gen1_Deck21 triggered Bloodfell Caves (107)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (107)]
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Plains (12)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Swamp (80)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Mountain (54)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Kargan Dragonrider (19)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Mountain (111)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Bloodfell Caves (107) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Scrawling Crawler (120)
+Resolve stack: Scrawling Crawler - Creature 3 / 2
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck20]
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Plains (15)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Plains (15) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Strongbox Raider (49)
+Resolve stack: Strongbox Raider - Creature 5 / 2
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(2)-Gen1_Deck21]
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck20]
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Scrawling Crawler (120) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Scrawling Crawler (120).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: Scrawling Crawler (120) deals 3 combat damage to Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Replacement Effect: Wind-Scarred Crag enters tapped.
+Land: Ai(2)-Gen1_Deck21 played Wind-Scarred Crag (93)
+Add to stack: Ai(2)-Gen1_Deck21 triggered Wind-Scarred Crag (93)
+Resolve stack: When Wind-Scarred Crag enters, you gain 1 life. [Zone Changer: Wind-Scarred Crag (93)]
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Diamond Mare (70)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck20]
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 assigned Strongbox Raider (49) to attack Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck21 didn't block Strongbox Raider (49).
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Damage: Strongbox Raider (49) deals 5 combat damage to Ai(2)-Gen1_Deck21.
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Kargan Dragonrider (18)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(2)-Gen1_Deck21]
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck20]
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Swamp (81)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Mana: Wind-Scarred Crag (93) - {T}: Add {R} or {W}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Bloodfell Caves (107) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Ingenious Leonin (86)
+Resolve stack: Ingenious Leonin - Creature 4 / 4
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck20]
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Evolving Wilds (47)
+Add to stack: Ai(1)-Gen1_Deck20 activated Evolving Wilds (47)
+Resolve stack: Evolving Wilds (47) - Ai(1)-Gen1_Deck20 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: At the beginning of your upkeep, each player draws a card. [Phase: Ai(2)-Gen1_Deck21]
+Add to stack: Ai(2)-Gen1_Deck21 triggered Scrawling Crawler (120)
+Resolve stack: Whenever an opponent draws a card, that player loses 1 life. [Player: Ai(1)-Gen1_Deck20]
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Swamp (83)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Ingenious Leonin (86) and Scrawling Crawler (120) to attack Ai(1)-Gen1_Deck20.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Make Your Move (27) targeting [Ingenious Leonin (86)]
+Resolve stack: Make Your Move (27) - Destroy Ingenious Leonin (86).
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 assigned Kargan Dragonrider (19) to block Scrawling Crawler (120).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: Scrawling Crawler (120) deals 3 damage () to Kargan Dragonrider (19).
+Damage: Kargan Dragonrider (19) deals 2 damage () to Scrawling Crawler (120).
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Bloodfell Caves (107) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Rapacious Dragon (65)
+Add to stack: Ai(2)-Gen1_Deck21 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Rapacious Dragon (65), Activator: Ai(2)-Gen1_Deck21, SpellAbility: Rapacious Dragon - Creature 3 / 3]
+Resolve stack: Rapacious Dragon - Creature 3 / 3
+Add to stack: Ai(2)-Gen1_Deck21 triggered Rapacious Dragon (65)
+Resolve stack: When Rapacious Dragon enters, create two Treasure tokens. [Zone Changer: Rapacious Dragon (65)]
+Mana: Wind-Scarred Crag (93) - {T}: Add {R} or {W}.
+Mana: Treasure Token (125) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(2)-Gen1_Deck21 cast Diamond Mare (69)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Mountain (52)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (15) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Angel of Finality (32)
+Resolve stack: Angel of Finality - Creature 3 / 4
+Add to stack: Ai(1)-Gen1_Deck20 triggered Angel of Finality (32) targeting [Ai(2)-Gen1_Deck21]
+Resolve stack: When Angel of Finality enters, exile target player's graveyard. (Targeting: [[Ai(2)-Gen1_Deck21]]) [Zone Changer: Angel of Finality (32)]
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Mountain (112)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (83) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Desecration Demon (61)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Mana: Wind-Scarred Crag (93) - {T}: Add {R} or {W}.
+Mana: Treasure Token (124) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Bloodfell Caves (107) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Jazal Goldmane (91)
+Resolve stack: Jazal Goldmane - Creature 4 / 4
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Desecration Demon (61)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen1_Deck20]
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Mountain (114)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Desecration Demon (61)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen1_Deck21]
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Desecration Demon (61) and Jazal Goldmane (91) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Jazal Goldmane (91).
+Ai(1)-Gen1_Deck20 assigned Angel of Finality (32) to block Desecration Demon (61).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Damage: Jazal Goldmane (91) deals 4 combat damage to Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: Desecration Demon (61) deals 6 damage () to Angel of Finality (32).
+Damage: Angel of Finality (32) deals 3 damage () to Desecration Demon (61).
+Phase: Ai(2)-Gen1_Deck21's End of Combat Step
+Phase: Ai(2)-Gen1_Deck21's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck21 cast Firespitter Whelp (97)
+Add to stack: Ai(2)-Gen1_Deck21 triggered Diamond Mare (70)
+Add to stack: Ai(2)-Gen1_Deck21 triggered Diamond Mare (69)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Firespitter Whelp (97), Activator: Ai(2)-Gen1_Deck21, SpellAbility: Firespitter Whelp - Creature 2 / 2]
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Firespitter Whelp (97), Activator: Ai(2)-Gen1_Deck21, SpellAbility: Firespitter Whelp - Creature 2 / 2]
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck21's End step
+Phase: Ai(2)-Gen1_Deck21's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Desecration Demon (61)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen1_Deck20]
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck21)
+Phase: Ai(2)-Gen1_Deck21's Untap step
+Phase: Ai(2)-Gen1_Deck21's Upkeep step
+Phase: Ai(2)-Gen1_Deck21's Draw step
+Phase: Ai(2)-Gen1_Deck21's Main phase, precombat
+Land: Ai(2)-Gen1_Deck21 played Swamp (76)
+Phase: Ai(2)-Gen1_Deck21's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck21 triggered Desecration Demon (61)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen1_Deck21]
+Phase: Ai(2)-Gen1_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck21 assigned Desecration Demon (61), Jazal Goldmane (91), Rapacious Dragon (65), Firespitter Whelp (97), Diamond Mare (70) and Diamond Mare (69) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Rapacious Dragon (65).
+Ai(1)-Gen1_Deck20 didn't block Firespitter Whelp (97).
+Ai(1)-Gen1_Deck20 didn't block Diamond Mare (69).
+Ai(1)-Gen1_Deck20 assigned Strongbox Raider (49) to block Diamond Mare (70).
+Ai(1)-Gen1_Deck20 assigned Kargan Dragonrider (18) to block Jazal Goldmane (91).
+Ai(1)-Gen1_Deck20 didn't block Desecration Demon (61).
+Phase: Ai(2)-Gen1_Deck21's First Strike Damage Step
+Damage: Jazal Goldmane (91) deals 4 damage () to Kargan Dragonrider (18).
+Phase: Ai(2)-Gen1_Deck21's Combat Damage Step
+Damage: Desecration Demon (61) deals 6 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Rapacious Dragon (65) deals 3 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Firespitter Whelp (97) deals 2 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Diamond Mare (70) deals 1 damage () to Strongbox Raider (49).
+Damage: Diamond Mare (69) deals 1 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Strongbox Raider (49) deals 5 damage () to Diamond Mare (70).
+Player control: Ai(1)-Gen1_Deck20 is controlled by Ai(1)-Gen1_Deck20
+Player control: Ai(2)-Gen1_Deck21 is controlled by Ai(2)-Gen1_Deck21
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck20 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck21 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck20: 0 Ai(2)-Gen1_Deck21: 1 
+
+Game Result: Game 1 ended in 25532 ms. Ai(2)-Gen1_Deck21 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,311 @@
+=== COMBATE PARALELO: Gen0_Deck32 vs Gen0_Deck33 ===
+Worker ID: 1337
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck32 Gen0_Deck33 -n 1
+Duración: 27.44 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2027 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 75 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck32 vs Ai(2)-Gen0_Deck33 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck33 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck32 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Mountain (115)
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Soulstone Sanctuary (42)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Crawling Barrens (108)
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Searslicer Goblin (109)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Plains (29)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Plains (86)
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Dropkick Bomber (66)
+Resolve stack: Dropkick Bomber - Creature 2 / 3
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Searslicer Goblin (109) to attack Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 didn't block Searslicer Goblin (109).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Searslicer Goblin (109) deals 3 combat damage to Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Add to stack: Ai(2)-Gen0_Deck33 triggered Searslicer Goblin (109)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(2)-Gen0_Deck33]
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Crawling Barrens (38)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (42) - {T}: Add {C}.
+Mana: Crawling Barrens (38) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck32 cast Adaptive Automaton (45)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Searslicer Goblin (109), Dropkick Bomber (66) and Goblin Token (123) to attack Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 didn't block Dropkick Bomber (66).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (123).
+Ai(1)-Gen0_Deck32 didn't block Searslicer Goblin (109).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Searslicer Goblin (109) deals 3 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Dropkick Bomber (66) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (123) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Add to stack: Ai(2)-Gen0_Deck33 triggered Searslicer Goblin (109)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(2)-Gen0_Deck33]
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Plains (26)
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (42) - {T}: Add {C}.
+Mana: Crawling Barrens (38) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck32 cast Felidar Savior (4)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen0_Deck32 triggered Felidar Savior (4) targeting [Adaptive Automaton (45)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Adaptive Automaton (45)]]) [Zone Changer: Felidar Savior (4)]
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Land: Ai(2)-Gen0_Deck33 played Mountain (113)
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Goblin Token (123) and Searslicer Goblin (109) to attack Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 assigned Adaptive Automaton (45) to block Goblin Token (123).
+Ai(1)-Gen0_Deck32 didn't block Searslicer Goblin (109).
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Kindled Fury (61) targeting [Goblin Token (123)]
+Resolve stack: Kindled Fury (61) - Goblin Token (123) gets +1/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Damage: Goblin Token (123) deals 3 damage () to Adaptive Automaton (45).
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Searslicer Goblin (109) deals 3 combat damage to Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Add to stack: Ai(2)-Gen0_Deck33 triggered Searslicer Goblin (109)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(2)-Gen0_Deck33]
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck33 cast Hare Apparent (69)
+Resolve stack: Hare Apparent - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck33 triggered Hare Apparent (69)
+Resolve stack: When this creature enters, create a number of 1/1 white Rabbit creature tokens equal to the number of other creatures you control named Hare Apparent. [Zone Changer: Hare Apparent (69)]
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Searslicer Goblin (109), Dropkick Bomber (66), Goblin Token (123), Goblin Token (126) and Goblin Token (129) to attack Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 didn't block Goblin Token (129).
+Ai(1)-Gen0_Deck32 didn't block Dropkick Bomber (66).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (123).
+Ai(1)-Gen0_Deck32 assigned Felidar Savior (4) to block Searslicer Goblin (109).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Searslicer Goblin (109) deals 3 damage () to Felidar Savior (4).
+Damage: Dropkick Bomber (66) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (123) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (126) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (129) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Felidar Savior (4) deals 2 damage () to Searslicer Goblin (109).
+Phase: Ai(2)-Gen0_Deck33's End of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck33's End step
+Phase: Ai(2)-Gen0_Deck33's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck32)
+Phase: Ai(1)-Gen0_Deck32's Untap step
+Phase: Ai(1)-Gen0_Deck32's Upkeep step
+Phase: Ai(1)-Gen0_Deck32's Draw step
+Phase: Ai(1)-Gen0_Deck32's Main phase, precombat
+Land: Ai(1)-Gen0_Deck32 played Mountain (56)
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Crawling Barrens (38) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck32 activated Soulstone Sanctuary (42)
+Resolve stack: Soulstone Sanctuary (42) - Soulstone Sanctuary (42) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck32's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck32 assigned Soulstone Sanctuary (42) to attack Ai(2)-Gen0_Deck33.
+Phase: Ai(1)-Gen0_Deck32's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck33 didn't block Soulstone Sanctuary (42).
+Phase: Ai(1)-Gen0_Deck32's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck32's Combat Damage Step
+Damage: Soulstone Sanctuary (42) deals 3 combat damage to Ai(2)-Gen0_Deck33.
+Phase: Ai(1)-Gen0_Deck32's End of Combat Step
+Phase: Ai(1)-Gen0_Deck32's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck32's End step
+Phase: Ai(1)-Gen0_Deck32's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck33)
+Phase: Ai(2)-Gen0_Deck33's Untap step
+Phase: Ai(2)-Gen0_Deck33's Upkeep step
+Phase: Ai(2)-Gen0_Deck33's Draw step
+Phase: Ai(2)-Gen0_Deck33's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck33's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck33's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck33 assigned Dropkick Bomber (66), Goblin Token (123), Goblin Token (126), Goblin Token (129) and Hare Apparent (69) to attack Ai(1)-Gen0_Deck32.
+Phase: Ai(2)-Gen0_Deck33's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck32 didn't block Goblin Token (129).
+Ai(1)-Gen0_Deck32 assigned Soulstone Sanctuary (42) to block Dropkick Bomber (66).
+Ai(1)-Gen0_Deck32 didn't block Hare Apparent (69).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (123).
+Ai(1)-Gen0_Deck32 didn't block Goblin Token (126).
+Phase: Ai(2)-Gen0_Deck33's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck33's Combat Damage Step
+Damage: Dropkick Bomber (66) deals 2 damage () to Soulstone Sanctuary (42).
+Damage: Goblin Token (123) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (126) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Goblin Token (129) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Hare Apparent (69) deals 2 combat damage to Ai(1)-Gen0_Deck32.
+Damage: Soulstone Sanctuary (42) deals 3 damage () to Dropkick Bomber (66).
+Player control: Ai(1)-Gen0_Deck32 is controlled by Ai(1)-Gen0_Deck32
+Player control: Ai(2)-Gen0_Deck33 is controlled by Ai(2)-Gen0_Deck33
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen0_Deck32 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck33 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck32: 0 Ai(2)-Gen0_Deck33: 1 
+
+Game Result: Game 1 ended in 14020 ms. Ai(2)-Gen0_Deck33 has won!
+
+
+=== STDERR ===

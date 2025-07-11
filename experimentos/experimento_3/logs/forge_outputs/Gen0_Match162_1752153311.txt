@@ -1,0 +1,924 @@
+=== COMBATE PARALELO: Gen0_Deck7 vs Gen0_Deck5 ===
+Worker ID: 1336
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck7 Gen0_Deck5 -n 1
+Duración: 94.57 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2310 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 125 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck7 vs Ai(2)-Gen0_Deck5 - one game of Constructed
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (29)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (29)
+Default player choice logic.
+Correcting zone for Wishclaw Talisman (29)
+Mulligan: Ai(2)-Gen0_Deck5 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Plains (98)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Hinterland Sanctifier (79)
+Resolve stack: Hinterland Sanctifier - Creature 1 / 2
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck7 played Orzhov Guildgate (11)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Island (105)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Hinterland Sanctifier (79).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Damage: Hinterland Sanctifier (79) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Plains (39)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Orzhov Guildgate (11) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Campus Guide (14)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck7 triggered Campus Guide (14)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (14)]
+Phase: Ai(1)-Gen0_Deck7's End step
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Fleeting Flight (87) targeting [Hinterland Sanctifier (79)]
+Resolve stack: Fleeting Flight (87) - Ai(2)-Gen0_Deck5 puts a +1/+1 counter on Hinterland Sanctifier (79). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Hinterland Sanctifier (79).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Damage: Hinterland Sanctifier (79) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Replacement Effect: Tranquil Cove enters tapped.
+Land: Ai(2)-Gen0_Deck5 played Tranquil Cove (68)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Tranquil Cove (68)
+Resolve stack: When Tranquil Cove enters, you gain 1 life. [Zone Changer: Tranquil Cove (68)]
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Swamp (23)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Campus Guide (14) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Campus Guide (14).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Campus Guide (14) deals 2 combat damage to Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Orzhov Guildgate (11) - {T}: Add {W} or {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Ajani, Caller of the Pride (24)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Campus Guide (14)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Campus Guide (14).
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Make Your Move (66) targeting [Campus Guide (14)]
+Resolve stack: Make Your Move (66) - Destroy Campus Guide (14).
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) to attack Ajani, Caller of the Pride (24).
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Hinterland Sanctifier (79).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Plains (38)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting []
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Wishclaw Talisman (29)
+Replacement Effect: Wishclaw Talisman enters with three wish counters on it.
+Resolve stack: Wishclaw Talisman
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Wishclaw Talisman (29)
+Resolve stack: Wishclaw Talisman (29) - Ai(1)-Gen0_Deck7 searches Ai(2)-Gen0_Deck5 library for a card, reveals it, puts it into their hand, then shuffles. Ai(1)-Gen0_Deck7 chooses a player. Ai(1)-Gen0_Deck7 gains control of Wishclaw Talisman (29). 
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Plains (96)
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Cat Collector (71)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (71)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (71)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (127)]
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) to attack Ajani, Caller of the Pride (24).
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Hinterland Sanctifier (79).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen0_Deck5 activated Wishclaw Talisman (29)
+Resolve stack: Wishclaw Talisman (29) - Ai(2)-Gen0_Deck5 searches Ai(1)-Gen0_Deck7 library for a card, reveals it, puts it into their hand, then shuffles. Ai(2)-Gen0_Deck5 chooses a player. Ai(2)-Gen0_Deck5 gains control of Wishclaw Talisman (29). 
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Swamp (22)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting []
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Fiendish Panda (3)
+Resolve stack: Fiendish Panda - Creature 3 / 2
+Mana: Orzhov Guildgate (11) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Wishclaw Talisman (29)
+Resolve stack: Wishclaw Talisman (29) - Ai(1)-Gen0_Deck7 searches Ai(2)-Gen0_Deck5 library for a card, reveals it, puts it into their hand, then shuffles. Ai(1)-Gen0_Deck7 chooses a player. Ai(1)-Gen0_Deck7 gains control of Wishclaw Talisman (29). 
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Cat Collector (74)
+Resolve stack: Cat Collector - Creature 3 / 2
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (74)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (74)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (74)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (74)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (135)]
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (137)]
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) to attack Ajani, Caller of the Pride (24).
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Hinterland Sanctifier (79).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Plains (37)
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Dauntless Veteran (55)
+Resolve stack: Dauntless Veteran - Creature 2 / 2
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Orzhov Guildgate (11) - {T}: Add {W} or {B}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Exsanguinate (9)
+Resolve stack: Exsanguinate (9) - Ai(2)-Gen0_Deck5 loses life equal to the life lost this way. You gain life equal to the life lost this way. (X=1)
+Add to stack: Ai(1)-Gen0_Deck7 triggered Fiendish Panda (3)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Ai(1)-Gen0_Deck7, Gained Amount: 1]
+Phase: Ai(1)-Gen0_Deck7's End step
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Fleeting Flight (86) targeting [Cat Collector (71)]
+Resolve stack: Fleeting Flight (86) - Ai(2)-Gen0_Deck5 puts a +1/+1 counter on Cat Collector (71). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Charming Prince (113)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Charming Prince (113)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Cat Collector (71)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (113)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Charming Prince (113)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (74)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (140)]
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Add to stack: Ai(2)-Gen0_Deck5 triggered Charming Prince (113)
+Resolve stack: Return exiled card to the battlefield. ([Cat Collector (71)]) [Phase: Ai(2)-Gen0_Deck5]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (71)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (71)]
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Hero's Downfall (31) targeting [Cat Collector (74)]
+Resolve stack: Hero's Downfall (31) - Destroy Cat Collector (74).
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 6 combat damage to Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) and Charming Prince (113) to attack Ajani, Caller of the Pride (24).
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Dauntless Veteran (55) to block Charming Prince (113).
+Ai(1)-Gen0_Deck7 didn't block Hinterland Sanctifier (79).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Damage: Charming Prince (113) deals 2 damage () to Dauntless Veteran (55).
+Damage: Dauntless Veteran (55) deals 2 damage () to Charming Prince (113).
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Soulstone Sanctuary (51)
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 7 combat damage to Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Soulstone Sanctuary (51)
+Resolve stack: Soulstone Sanctuary (51) - Soulstone Sanctuary (51) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Charming Prince (114)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck5 triggered Charming Prince (114)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Charming Prince (114)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (146)]
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Cat Collector (71)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (114)]
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Add to stack: Ai(2)-Gen0_Deck5 triggered Charming Prince (114)
+Resolve stack: Return exiled card to the battlefield. ([Cat Collector (71)]) [Phase: Ai(2)-Gen0_Deck5]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: When this creature enters, create a Food token. (It's an artifact with "2, {T}, Sacrifice this token: You gain 3 life.") [Zone Changer: Cat Collector (71)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Collector (71)]
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Seeker's Folly (50)
+Resolve stack: Seeker's Folly (50) -  Creatures your opponents control get -1/-1 until end of turn.
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3) and Soulstone Sanctuary (51) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 didn't block Soulstone Sanctuary (51).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 8 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Soulstone Sanctuary (51) deals 3 combat damage to Ai(2)-Gen0_Deck5.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen0_Deck5 activated Food Token (124)
+Resolve stack: Food Token (124) - Ai(2)-Gen0_Deck5 gains 3 life.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Plains (97)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3) and Soulstone Sanctuary (51) to attack Ai(2)-Gen0_Deck5.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck5 activated Food Token (131)
+Resolve stack: Food Token (131) - Ai(2)-Gen0_Deck5 gains 3 life.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck5 activated Food Token (143)
+Resolve stack: Food Token (143) - Ai(2)-Gen0_Deck5 gains 3 life.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Charming Prince (114) to block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 didn't block Soulstone Sanctuary (51).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 9 damage () to Charming Prince (114).
+Damage: Soulstone Sanctuary (51) deals 3 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Charming Prince (114) deals 2 damage () to Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Campus Guide (13)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck7 triggered Campus Guide (13)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (13)]
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Swamp (21)
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3) and Soulstone Sanctuary (51) to attack Ai(2)-Gen0_Deck5.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck5 activated Food Token (149)
+Resolve stack: Food Token (149) - Ai(2)-Gen0_Deck5 gains 3 life.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) to block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 didn't block Soulstone Sanctuary (51).
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Make a Stand (89)
+Resolve stack: Make a Stand (89) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 10 damage () to Hinterland Sanctifier (79).
+Damage: Soulstone Sanctuary (51) deals 3 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Hinterland Sanctifier (79) deals 3 damage () to Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Island (109)
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Tranquil Cove (68) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Tempest Djinn (75)
+Resolve stack: Tempest Djinn - Creature 0 / 4
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Tempest Djinn (75)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (152)]
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Orzhov Guildgate (11) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Herald of Eternal Dawn (7)
+Resolve stack: Herald of Eternal Dawn - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3) and Herald of Eternal Dawn (7) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Cat Token (152) to block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 didn't block Herald of Eternal Dawn (7).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 11 damage () to Cat Token (152).
+Damage: Herald of Eternal Dawn (7) deals 6 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Cat Token (152) deals 1 damage () to Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Seeker's Folly (49)
+Discard: Ai(2)-Gen0_Deck5 discards Zetalpa, Primal Dawn (84).
+Discard: Ai(2)-Gen0_Deck5 discards Zetalpa, Primal Dawn (83).
+Resolve stack: Seeker's Folly (49) -  Target opponent discards two cards. (Targeting: Ai(2)-Gen0_Deck5)
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Island (109) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Regal Caracal (102)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Regal Caracal (102)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (102)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (157)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (160)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (156)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Regal Caracal (102)]
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Tempest Djinn (75) to attack Ajani, Caller of the Pride (24).
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Tempest Djinn (75).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3) and Herald of Eternal Dawn (7) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Cat Token (156) to block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 didn't block Herald of Eternal Dawn (7).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 12 damage () to Cat Token (156).
+Damage: Herald of Eternal Dawn (7) deals 6 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Cat Token (156) deals 2 damage () to Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Zombify (33) targeting [Dauntless Veteran (55)]
+Resolve stack: Zombify (33) - Return Dauntless Veteran (55) from the graveyard to the battlefield.
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Island (106)
+Mana: Island (105) - {T}: Add {U}.
+Mana: Island (109) - {T}: Add {U}.
+Mana: Island (106) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Tempest Djinn (76)
+Resolve stack: Tempest Djinn - Creature 0 / 4
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Tempest Djinn (76)]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Cat Collector (71)
+Resolve stack: Whenever you gain life for the first time during each of your turns, create a 1/1 white Cat creature token. [Player: Ai(2)-Gen0_Deck5, Gained Amount: 1]
+Add to stack: Ai(2)-Gen0_Deck5 triggered Hinterland Sanctifier (79)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (163)]
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Tempest Djinn (75) to attack Ajani, Caller of the Pride (24).
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Tempest Djinn (75).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Regal Caracal (45)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(1)-Gen0_Deck7 triggered Regal Caracal (45)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (45)]
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3), Herald of Eternal Dawn (7) and Soulstone Sanctuary (51) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Cat Token (157) to block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 didn't block Soulstone Sanctuary (51).
+Ai(2)-Gen0_Deck5 assigned Tempest Djinn (76) to block Herald of Eternal Dawn (7).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 13 damage () to Cat Token (157).
+Damage: Herald of Eternal Dawn (7) deals 6 damage () to Tempest Djinn (76).
+Damage: Soulstone Sanctuary (51) deals 4 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Cat Token (157) deals 2 damage () to Fiendish Panda (3).
+Damage: Tempest Djinn (76) deals 3 damage () to Herald of Eternal Dawn (7).
+Add to stack: Ai(1)-Gen0_Deck7 triggered Fiendish Panda (3)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Ai(1)-Gen0_Deck7, Gained Amount: 4]
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 30 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3), Herald of Eternal Dawn (7) and Soulstone Sanctuary (51) to attack Ai(2)-Gen0_Deck5.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Cat Token (160) to block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 assigned Cat Token (163) to block Soulstone Sanctuary (51).
+Ai(2)-Gen0_Deck5 assigned Tempest Djinn (75) to block Herald of Eternal Dawn (7).
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck5 cast Make a Stand (88)
+Resolve stack: Make a Stand (88) - Creatures you control get +1/+0 and gain indestructible until end of turn. (Damage and effects that say "destroy" don't destroy them.)
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 15 damage () to Cat Token (160).
+Damage: Herald of Eternal Dawn (7) deals 6 damage () to Tempest Djinn (75).
+Damage: Soulstone Sanctuary (51) deals 4 damage () to Cat Token (163).
+Damage: Cat Token (160) deals 3 damage () to Fiendish Panda (3).
+Damage: Tempest Djinn (75) deals 4 damage () to Herald of Eternal Dawn (7).
+Damage: Cat Token (163) deals 3 damage () to Soulstone Sanctuary (51).
+Add to stack: Ai(1)-Gen0_Deck7 triggered Fiendish Panda (3)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Ai(1)-Gen0_Deck7, Gained Amount: 4]
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(1)-Gen0_Deck7 played Scoured Barrens (28)
+Add to stack: Ai(1)-Gen0_Deck7 triggered Scoured Barrens (28)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (28)]
+Add to stack: Ai(1)-Gen0_Deck7 triggered Fiendish Panda (3)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on this creature. [Player: Ai(1)-Gen0_Deck7, Gained Amount: 1]
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 31 (Ai(2)-Gen0_Deck5)
+Phase: Ai(2)-Gen0_Deck5's Untap step
+Phase: Ai(2)-Gen0_Deck5's Upkeep step
+Phase: Ai(2)-Gen0_Deck5's Draw step
+Phase: Ai(2)-Gen0_Deck5's Main phase, precombat
+Land: Ai(2)-Gen0_Deck5 played Soulstone Sanctuary (118)
+Phase: Ai(2)-Gen0_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck5 assigned Tempest Djinn (75) to attack Ajani, Caller of the Pride (24).
+Phase: Ai(2)-Gen0_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Tempest Djinn (75).
+Phase: Ai(2)-Gen0_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck5's End of Combat Step
+Phase: Ai(2)-Gen0_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck5's End step
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Orzhov Guildgate (11) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Herald of Eternal Dawn (6)
+Resolve stack: Herald of Eternal Dawn - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck5's Cleanup step
+Turn: Turn 32 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck5 activated Soulstone Sanctuary (118)
+Resolve stack: Soulstone Sanctuary (118) - Soulstone Sanctuary (118) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Rogue's Passage (12)
+Add to stack: Ai(1)-Gen0_Deck7 activated Ajani, Caller of the Pride (24) targeting [Fiendish Panda (3)]
+Resolve stack: Ajani, Caller of the Pride (24) - Ai(1)-Gen0_Deck7 puts a +1/+1 counter on Fiendish Panda (3).
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 activated Rogue's Passage (12) targeting [Fiendish Panda (3)]
+Resolve stack: Rogue's Passage (12) - Fiendish Panda (3) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Fiendish Panda (3), Herald of Eternal Dawn (7), Herald of Eternal Dawn (6), Soulstone Sanctuary (51), Regal Caracal (45), Campus Guide (13), Dauntless Veteran (55), Cat Token (167) and Cat Token (168) to attack Ai(2)-Gen0_Deck5.
+Add to stack: Ai(1)-Gen0_Deck7 triggered Dauntless Veteran (55)
+Resolve stack: Whenever Dauntless Veteran attacks, creatures you control get +1/+1 until end of turn. [Attacker: Dauntless Veteran (55)]
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck5 didn't block Fiendish Panda (3).
+Ai(2)-Gen0_Deck5 assigned Cat Token (160) to block Soulstone Sanctuary (51).
+Ai(2)-Gen0_Deck5 didn't block Herald of Eternal Dawn (6).
+Ai(2)-Gen0_Deck5 didn't block Herald of Eternal Dawn (7).
+Ai(2)-Gen0_Deck5 assigned Hinterland Sanctifier (79) to block Dauntless Veteran (55).
+Ai(2)-Gen0_Deck5 assigned Cat Collector (71) to block Cat Token (167).
+Ai(2)-Gen0_Deck5 assigned Regal Caracal (102) to block Cat Token (168).
+Ai(2)-Gen0_Deck5 assigned Cat Token (163) to block Regal Caracal (45).
+Ai(2)-Gen0_Deck5 assigned Soulstone Sanctuary (118) to block Campus Guide (13).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Fiendish Panda (3) deals 19 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Herald of Eternal Dawn (7) deals 7 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Herald of Eternal Dawn (6) deals 7 combat damage to Ai(2)-Gen0_Deck5.
+Damage: Soulstone Sanctuary (51) deals 5 damage () to Cat Token (160).
+Damage: Regal Caracal (45) deals 4 damage () to Cat Token (163).
+Damage: Campus Guide (13) deals 3 damage () to Soulstone Sanctuary (118).
+Damage: Dauntless Veteran (55) deals 3 damage () to Hinterland Sanctifier (79).
+Damage: Cat Token (167) deals 3 damage () to Cat Collector (71).
+Damage: Cat Token (168) deals 3 damage () to Regal Caracal (102).
+Damage: Cat Token (160) deals 2 damage () to Soulstone Sanctuary (51).
+Damage: Cat Token (163) deals 2 damage () to Regal Caracal (45).
+Damage: Hinterland Sanctifier (79) deals 2 damage () to Dauntless Veteran (55).
+Damage: Cat Collector (71) deals 3 damage () to Cat Token (167).
+Damage: Regal Caracal (102) deals 3 damage () to Cat Token (168).
+Damage: Soulstone Sanctuary (118) deals 4 damage () to Campus Guide (13).
+Player control: Ai(1)-Gen0_Deck7 is controlled by Ai(1)-Gen0_Deck7
+Player control: Ai(2)-Gen0_Deck5 is controlled by Ai(2)-Gen0_Deck5
+Game outcome: Turn 16
+Game outcome: Ai(1)-Gen0_Deck7 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck5 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck7: 1 Ai(2)-Gen0_Deck5: 0 
+
+Game Result: Game 1 ended in 82645 ms. Ai(1)-Gen0_Deck7 has won!
+
+
+=== STDERR ===

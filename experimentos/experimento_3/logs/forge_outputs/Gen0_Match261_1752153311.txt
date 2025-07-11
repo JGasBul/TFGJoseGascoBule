@@ -1,0 +1,622 @@
+=== COMBATE PARALELO: Gen0_Deck8 vs Gen0_Deck25 ===
+Worker ID: 1336
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck8 Gen0_Deck25 -n 1
+Duración: 50.64 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1969 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 78 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck8 vs Ai(2)-Gen0_Deck25 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck25 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck8 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Island (102)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (17)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Vampiric Rites (54)
+Resolve stack: Vampiric Rites
+Phase: Ai(1)-Gen0_Deck8's End step
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Spectral Sailor (97)
+Resolve stack: Spectral Sailor - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Swamp (79)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Spectral Sailor (97) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (97).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Spectral Sailor (97) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (38)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Skyknight Squire (7)
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Spectral Sailor (97) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (97).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Spectral Sailor (97) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(2)-Gen0_Deck25 played Bloodfell Caves (111)
+Add to stack: Ai(2)-Gen0_Deck25 triggered Bloodfell Caves (111)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (111)]
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Cryptic Caves (1)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Skyknight Squire (7) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Skyknight Squire (7).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Skyknight Squire (7) deals 1 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Skyknight Squire (4)
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck8 triggered Skyknight Squire (7)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Skyknight Squire (4)]
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Cryptic Caves (61)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Spectral Sailor (97) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (97).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Spectral Sailor (97) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Island (102) - {T}: Add {U}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Bloodfell Caves (111) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Rune-Sealed Wall (87)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Demolition Field (59)
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Demolition Field (59) targeting [Cryptic Caves (61)]
+Resolve stack: Demolition Field (59) - Destroy Cryptic Caves (61). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck8 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Skyknight Squire (7) and Skyknight Squire (4) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Skyknight Squire (4).
+Ai(2)-Gen0_Deck25 assigned Rune-Sealed Wall (87) to block Skyknight Squire (7).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Skyknight Squire (7) deals 2 damage () to Rune-Sealed Wall (87).
+Damage: Skyknight Squire (4) deals 1 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Spectral Sailor (97) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (97).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Spectral Sailor (97) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Island (102) - {T}: Add {U}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Bloodfell Caves (111) - {T}: Add {B} or {R}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Mystical Teachings (69)
+Resolve stack: Mystical Teachings (69) - Ai(2)-Gen0_Deck25 searches their library for an Instant,Card.hasKeywordFlash card, reveals it, puts it into their hand, then shuffles.
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Demolition Field (60)
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Demolition Field (60) targeting [Bloodfell Caves (111)]
+Resolve stack: Demolition Field (60) - Destroy Bloodfell Caves (111). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck8 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen0_Deck8 draws a card.
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Skyknight Squire (7) and Skyknight Squire (4) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Skyknight Squire (4).
+Ai(2)-Gen0_Deck25 assigned Rune-Sealed Wall (87) to block Skyknight Squire (7).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Skyknight Squire (7) deals 2 damage () to Rune-Sealed Wall (87).
+Damage: Skyknight Squire (4) deals 1 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Add to stack: Ai(2)-Gen0_Deck25 activated Rune-Sealed Wall (87)
+Resolve stack: Ai(2)-Gen0_Deck25 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (87) - Ai(2)-Gen0_Deck25 surveils (1).
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Obliterating Bolt (120) targeting [Skyknight Squire (7)]
+Damage: Obliterating Bolt (120) deals 4 damage () to Skyknight Squire (7).
+Resolve stack: Obliterating Bolt (120) - Obliterating Bolt (120) deals 4 damage to Skyknight Squire (7).  If that creature or planeswalker would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Spectral Sailor (97) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (97).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Spectral Sailor (97) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (23)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Valkyrie's Call (30)
+Resolve stack: Valkyrie's Call
+Phase: Ai(1)-Gen0_Deck8's End step
+Add to stack: Ai(2)-Gen0_Deck25 activated Rune-Sealed Wall (87)
+Resolve stack: Ai(2)-Gen0_Deck25 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (87) - Ai(2)-Gen0_Deck25 surveils (1).
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Spectral Sailor (97) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (97).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Spectral Sailor (97) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Reassembling Skeleton (107)
+Resolve stack: Reassembling Skeleton - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (40)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Campus Guide (10)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck8 triggered Campus Guide (10)
+Add to stack: Ai(1)-Gen0_Deck8 triggered Skyknight Squire (4)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Campus Guide (10)]
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (10)]
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Exsanguinate (2)
+Resolve stack: Exsanguinate (2) - Ai(2)-Gen0_Deck25 loses life equal to the life lost this way. You gain life equal to the life lost this way. (X=2)
+Phase: Ai(1)-Gen0_Deck8's End step
+Add to stack: Ai(2)-Gen0_Deck25 activated Rune-Sealed Wall (87)
+Resolve stack: Ai(2)-Gen0_Deck25 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (87) - Ai(2)-Gen0_Deck25 surveils (1).
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Obliterating Bolt (117) targeting [Skyknight Squire (4)]
+Damage: Obliterating Bolt (117) deals 4 damage () to Skyknight Squire (4).
+Resolve stack: Obliterating Bolt (117) - Obliterating Bolt (117) deals 4 damage to Skyknight Squire (4).  If that creature or planeswalker would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Spectral Sailor (97) and Reassembling Skeleton (107) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (97).
+Ai(1)-Gen0_Deck8 didn't block Reassembling Skeleton (107).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Spectral Sailor (97) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Damage: Reassembling Skeleton (107) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Plains (36)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Meteor Golem (16)
+Resolve stack: Meteor Golem - Creature 3 / 3
+Add to stack: Ai(1)-Gen0_Deck8 triggered Meteor Golem (16) targeting [Spectral Sailor (97)]
+Resolve stack: When Meteor Golem enters, destroy target nonland permanent an opponent controls. (Targeting: [[Spectral Sailor (97)]]) [Zone Changer: Meteor Golem (16)]
+Phase: Ai(1)-Gen0_Deck8's End step
+Add to stack: Ai(2)-Gen0_Deck25 activated Rune-Sealed Wall (87)
+Resolve stack: Ai(2)-Gen0_Deck25 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (87) - Ai(2)-Gen0_Deck25 surveils (1).
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen0_Deck25 played Uncharted Haven (103)
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Rogue's Passage (8)
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Angelic Edict (48) targeting [Rune-Sealed Wall (87)]
+Resolve stack: Angelic Edict (48) - Exile Rune-Sealed Wall (87).
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Meteor Golem (16) and Campus Guide (10) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Meteor Golem (16).
+Ai(2)-Gen0_Deck25 assigned Reassembling Skeleton (107) to block Campus Guide (10).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Meteor Golem (16) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Campus Guide (10) deals 2 damage () to Reassembling Skeleton (107).
+Damage: Reassembling Skeleton (107) deals 1 damage () to Campus Guide (10).
+Add to stack: Ai(1)-Gen0_Deck8 triggered Valkyrie's Call (30)
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck25 activated Reassembling Skeleton (107)
+Resolve stack: Reassembling Skeleton (107) - Return Reassembling Skeleton (107) from the graveyard to the battlefield tapped.
+Resolve stack: Whenever a nontoken, non-Angel creature you control dies, return that card to the battlefield under its owner's control with a +1/+1 counter on it. It has flying and is an Angel in addition to its other types. [Zone Changer: Campus Guide (10)]
+Add to stack: Ai(1)-Gen0_Deck8 triggered Campus Guide (10)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (10)]
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Rogue's Passage (8) targeting [Meteor Golem (16)]
+Resolve stack: Rogue's Passage (8) - Meteor Golem (16) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (21)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Meteor Golem (16) and Campus Guide (10) to attack Ai(2)-Gen0_Deck25.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Spectral Sailor (96)
+Resolve stack: Spectral Sailor - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Meteor Golem (16).
+Ai(2)-Gen0_Deck25 didn't block Campus Guide (10).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Meteor Golem (16) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Campus Guide (10) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Mana: Island (98) - {T}: Add {U}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen0_Deck25 activated Spectral Sailor (96)
+Resolve stack: Spectral Sailor (96) - Ai(2)-Gen0_Deck25 draws a card.
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Swamp (77)
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Reassembling Skeleton (107) and Spectral Sailor (96) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Spectral Sailor (96).
+Ai(1)-Gen0_Deck8 didn't block Reassembling Skeleton (107).
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Damage: Reassembling Skeleton (107) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Damage: Spectral Sailor (96) deals 1 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Island (98) - {T}: Add {U}.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Mana: Swamp (77) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck25 cast Mystical Teachings (69)
+Resolve stack: Mystical Teachings (69) - Ai(2)-Gen0_Deck25 searches their library for an Instant,Card.hasKeywordFlash card, reveals it, puts it into their hand, then shuffles.
+Replacement Effect: Flashback {5}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Rogue's Passage (8) targeting [Meteor Golem (16)]
+Resolve stack: Rogue's Passage (8) - Meteor Golem (16) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Meteor Golem (16) and Campus Guide (10) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 didn't block Meteor Golem (16).
+Ai(2)-Gen0_Deck25 didn't block Campus Guide (10).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Meteor Golem (16) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Campus Guide (10) deals 3 combat damage to Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Ayli, Eternal Pilgrim (25)
+Resolve stack: Ayli, Eternal Pilgrim - Creature 2 / 3
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen0_Deck25)
+Phase: Ai(2)-Gen0_Deck25's Untap step
+Phase: Ai(2)-Gen0_Deck25's Upkeep step
+Phase: Ai(2)-Gen0_Deck25's Draw step
+Phase: Ai(2)-Gen0_Deck25's Main phase, precombat
+Land: Ai(2)-Gen0_Deck25 played Island (101)
+Mana: Island (102) - {T}: Add {U}.
+Mana: Island (98) - {T}: Add {U}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Uncharted Haven (103) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen0_Deck25 cast Voracious Greatshark (81)
+Resolve stack: Voracious Greatshark - Creature 5 / 4
+Phase: Ai(2)-Gen0_Deck25's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck25 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck25's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck25's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck25's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck25's End of Combat Step
+Phase: Ai(2)-Gen0_Deck25's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck25's End step
+Phase: Ai(2)-Gen0_Deck25's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Plains (38) - {T}: Add {W}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Rogue's Passage (8) targeting [Ayli, Eternal Pilgrim (25)]
+Resolve stack: Rogue's Passage (8) - Ayli, Eternal Pilgrim (25) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Meteor Golem (16), Campus Guide (10) and Ayli, Eternal Pilgrim (25) to attack Ai(2)-Gen0_Deck25.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck25 assigned Reassembling Skeleton (107) and Voracious Greatshark (81) to block Meteor Golem (16).
+Ai(2)-Gen0_Deck25 didn't block Ayli, Eternal Pilgrim (25).
+Ai(2)-Gen0_Deck25 assigned Spectral Sailor (96) to block Campus Guide (10).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Meteor Golem (16) deals 2 damage () to Voracious Greatshark (81).
+Damage: Meteor Golem (16) deals 1 damage () to Reassembling Skeleton (107).
+Damage: Campus Guide (10) deals 3 damage () to Spectral Sailor (96).
+Damage: Ayli, Eternal Pilgrim (25) deals 2 combat damage to Ai(2)-Gen0_Deck25.
+Damage: Reassembling Skeleton (107) deals 1 damage () to Meteor Golem (16).
+Damage: Voracious Greatshark (81) deals 5 damage () to Meteor Golem (16).
+Damage: Spectral Sailor (96) deals 1 damage () to Campus Guide (10).
+Player control: Ai(1)-Gen0_Deck8 is controlled by Ai(1)-Gen0_Deck8
+Player control: Ai(2)-Gen0_Deck25 is controlled by Ai(2)-Gen0_Deck25
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen0_Deck8 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck25 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck8: 1 Ai(2)-Gen0_Deck25: 0 
+
+Game Result: Game 1 ended in 38141 ms. Ai(1)-Gen0_Deck8 has won!
+
+
+=== STDERR ===

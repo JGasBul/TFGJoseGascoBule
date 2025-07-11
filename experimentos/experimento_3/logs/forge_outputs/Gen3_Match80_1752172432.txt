@@ -1,0 +1,362 @@
+=== COMBATE PARALELO: Gen3_Deck2 vs Gen3_Deck15 ===
+Worker ID: 725047
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck2 Gen3_Deck15 -n 1
+Duración: 28.69 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1900 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 225 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck2 vs Ai(2)-Gen3_Deck15 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck2 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck15 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Land: Ai(1)-Gen3_Deck2 played Plains (32)
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Land: Ai(2)-Gen3_Deck15 played Plains (86)
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck15's End of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Main phase, postcombat
+Mana: Plains (86) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck15 cast Healer's Hawk (106)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(2)-Gen3_Deck15's End step
+Phase: Ai(2)-Gen3_Deck15's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen3_Deck2 played Uncharted Haven (44)
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Land: Ai(2)-Gen3_Deck15 played Demolition Field (111)
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 assigned Healer's Hawk (106) to attack Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck2 didn't block Healer's Hawk (106).
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Damage: Healer's Hawk (106) deals 1 combat damage to Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's End of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Main phase, postcombat
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Demolition Field (111) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen3_Deck15 cast Giada, Font of Hope (120)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck15's End step
+Phase: Ai(2)-Gen3_Deck15's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen3_Deck2 played Uncharted Haven (45)
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 assigned Giada, Font of Hope (120) and Healer's Hawk (106) to attack Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck2 didn't block Giada, Font of Hope (120).
+Ai(1)-Gen3_Deck2 didn't block Healer's Hawk (106).
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Damage: Giada, Font of Hope (120) deals 2 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Healer's Hawk (106) deals 1 combat damage to Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's End of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen3_Deck15 played Uncharted Haven (97)
+Phase: Ai(2)-Gen3_Deck15's End step
+Phase: Ai(2)-Gen3_Deck15's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen3_Deck2 played Uncharted Haven (46)
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Uncharted Haven (44) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen3_Deck2 cast Diamond Mare (6)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Land: Ai(2)-Gen3_Deck15 played Mountain (114)
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 assigned Healer's Hawk (106) and Giada, Font of Hope (120) to attack Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck2 didn't block Giada, Font of Hope (120).
+Ai(1)-Gen3_Deck2 didn't block Healer's Hawk (106).
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Damage: Healer's Hawk (106) deals 1 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Giada, Font of Hope (120) deals 2 combat damage to Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's End of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (86) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck15 cast Courageous Goblin (63)
+Resolve stack: Courageous Goblin - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck15's End step
+Phase: Ai(2)-Gen3_Deck15's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Land: Ai(1)-Gen3_Deck2 played Plains (35)
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Mana: Plains (86) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck15 cast Fleeting Flight (75) targeting [Courageous Goblin (63)]
+Resolve stack: Fleeting Flight (75) - Ai(2)-Gen3_Deck15 puts a +1/+1 counter on Courageous Goblin (63). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Land: Ai(2)-Gen3_Deck15 played Evolving Wilds (83)
+Add to stack: Ai(2)-Gen3_Deck15 activated Evolving Wilds (83)
+Resolve stack: Evolving Wilds (83) - Ai(2)-Gen3_Deck15 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 assigned Courageous Goblin (63), Healer's Hawk (106) and Giada, Font of Hope (120) to attack Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck2 didn't block Giada, Font of Hope (120).
+Ai(1)-Gen3_Deck2 didn't block Healer's Hawk (106).
+Ai(1)-Gen3_Deck2 didn't block Courageous Goblin (63).
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Damage: Courageous Goblin (63) deals 3 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Healer's Hawk (106) deals 1 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Giada, Font of Hope (120) deals 2 combat damage to Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's End of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck15's End step
+Phase: Ai(2)-Gen3_Deck15's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Uncharted Haven (44) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen3_Deck2 cast Skyknight Squire (3)
+Add to stack: Ai(1)-Gen3_Deck2 triggered Diamond Mare (6)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Skyknight Squire (3), Activator: Ai(1)-Gen3_Deck2, SpellAbility: Skyknight Squire - Creature 1 / 1]
+Resolve stack: Skyknight Squire - Creature 1 / 1
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Mana: Plains (86) - {T}: Add {W}.
+Mana: Uncharted Haven (97) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen3_Deck15 activated Demolition Field (111) targeting [Uncharted Haven (45)]
+Resolve stack: Demolition Field (111) - Destroy Uncharted Haven (45). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen3_Deck15 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Land: Ai(2)-Gen3_Deck15 played Plains (89)
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 assigned Courageous Goblin (63), Healer's Hawk (106) and Giada, Font of Hope (120) to attack Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck2 didn't block Giada, Font of Hope (120).
+Ai(1)-Gen3_Deck2 didn't block Healer's Hawk (106).
+Ai(1)-Gen3_Deck2 assigned Skyknight Squire (3) to block Courageous Goblin (63).
+Mana: Uncharted Haven (46) - {T}: Add one mana of the chosen color.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck2 cast Adamant Will (58) targeting [Skyknight Squire (3)]
+Add to stack: Ai(1)-Gen3_Deck2 triggered Diamond Mare (6)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Adamant Will (58), Activator: Ai(1)-Gen3_Deck2, SpellAbility: Target creature gets +2/+2 and gains indestructible until end of turn.]
+Resolve stack: Adamant Will (58) - Skyknight Squire (3) gets +2/+2 and gains indestructible until end of turn.
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Damage: Courageous Goblin (63) deals 3 damage () to Skyknight Squire (3).
+Damage: Healer's Hawk (106) deals 1 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Giada, Font of Hope (120) deals 2 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Skyknight Squire (3) deals 3 damage () to Courageous Goblin (63).
+Phase: Ai(2)-Gen3_Deck15's End of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck15's End step
+Phase: Ai(2)-Gen3_Deck15's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 assigned Healer's Hawk (106) and Giada, Font of Hope (120) to attack Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck2 didn't block Giada, Font of Hope (120).
+Ai(1)-Gen3_Deck2 didn't block Healer's Hawk (106).
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Damage: Healer's Hawk (106) deals 1 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Giada, Font of Hope (120) deals 2 combat damage to Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's End of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Main phase, postcombat
+Land: Ai(2)-Gen3_Deck15 played Mountain (116)
+Phase: Ai(2)-Gen3_Deck15's End step
+Phase: Ai(2)-Gen3_Deck15's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen3_Deck2)
+Phase: Ai(1)-Gen3_Deck2's Untap step
+Phase: Ai(1)-Gen3_Deck2's Upkeep step
+Phase: Ai(1)-Gen3_Deck2's Draw step
+Phase: Ai(1)-Gen3_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck2's End of Combat Step
+Phase: Ai(1)-Gen3_Deck2's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Uncharted Haven (44) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen3_Deck2 cast Diamond Mare (7)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Add to stack: Ai(1)-Gen3_Deck2 triggered Skyknight Squire (3)
+Resolve stack: Whenever another creature you control enters, put a +1/+1 counter on this creature. [Zone Changer: Diamond Mare (7)]
+Phase: Ai(1)-Gen3_Deck2's End step
+Phase: Ai(1)-Gen3_Deck2's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen3_Deck15)
+Phase: Ai(2)-Gen3_Deck15's Untap step
+Phase: Ai(2)-Gen3_Deck15's Upkeep step
+Phase: Ai(2)-Gen3_Deck15's Draw step
+Phase: Ai(2)-Gen3_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck15 assigned Giada, Font of Hope (120) and Healer's Hawk (106) to attack Ai(1)-Gen3_Deck2.
+Phase: Ai(2)-Gen3_Deck15's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck2 didn't block Giada, Font of Hope (120).
+Ai(1)-Gen3_Deck2 didn't block Healer's Hawk (106).
+Phase: Ai(2)-Gen3_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck15's Combat Damage Step
+Damage: Giada, Font of Hope (120) deals 2 combat damage to Ai(1)-Gen3_Deck2.
+Damage: Healer's Hawk (106) deals 1 combat damage to Ai(1)-Gen3_Deck2.
+Player control: Ai(1)-Gen3_Deck2 is controlled by Ai(1)-Gen3_Deck2
+Player control: Ai(2)-Gen3_Deck15 is controlled by Ai(2)-Gen3_Deck15
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen3_Deck2 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck15 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck2: 0 Ai(2)-Gen3_Deck15: 1 
+
+Game Result: Game 1 ended in 15757 ms. Ai(2)-Gen3_Deck15 has won!
+
+
+=== STDERR ===

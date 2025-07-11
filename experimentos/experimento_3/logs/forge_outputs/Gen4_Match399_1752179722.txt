@@ -1,0 +1,443 @@
+=== COMBATE PARALELO: Gen4_Deck28 vs Gen4_Deck14 ===
+Worker ID: 982847
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck28 Gen4_Deck14 -n 1
+Duración: 23.44 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1975 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 83 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck28 vs Ai(2)-Gen4_Deck14 - one game of Constructed
+Mulligan: Ai(2)-Gen4_Deck14 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen4_Deck14 has mulliganed down to 5 cards.
+Mulligan: Ai(2)-Gen4_Deck14 has kept a hand of 5 cards
+Mulligan: Ai(1)-Gen4_Deck28 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Land: Ai(2)-Gen4_Deck14 played Island (92)
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Land: Ai(1)-Gen4_Deck28 played Island (44)
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen4_Deck14 played Uncharted Haven (99)
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Land: Ai(1)-Gen4_Deck28 played Rogue's Passage (8)
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Rogue's Passage (8) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck28 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen4_Deck28's End step
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck14 cast Unsummon (112) targeting [Gleaming Barrier (18)]
+Resolve stack: Unsummon (112) - Return Gleaming Barrier (18) to its owner's hand.
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Land: Ai(1)-Gen4_Deck28 played Swamp (21)
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen4_Deck28 cast Gleaming Barrier (17)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Land: Ai(2)-Gen4_Deck14 played Plains (80)
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Land: Ai(1)-Gen4_Deck28 played Island (40)
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen4_Deck28 cast Gleaming Barrier (18)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Land: Ai(1)-Gen4_Deck28 played Island (47)
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck28 activated Rogue's Passage (8) targeting [Gleaming Barrier (17)]
+Resolve stack: Rogue's Passage (8) - Gleaming Barrier (17) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Uncharted Haven (99) - {T}: Add one mana of the chosen color.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck14 cast Faebloom Trick (107)
+Resolve stack: Faebloom Trick (107) - Ai(2)-Gen4_Deck14 creates two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls. When you do, tap target creature an opponent controls. 
+Add to stack: Ai(2)-Gen4_Deck14 triggered Faebloom Trick (107) targeting [Gleaming Barrier (18)]
+Resolve stack: When you do, tap target creature an opponent controls. (Targeting: [[Gleaming Barrier (18)]])
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Land: Ai(2)-Gen4_Deck14 played Island (95)
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 assigned Faerie Token (137) and Faerie Token (138) to attack Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck28 didn't block Faerie Token (137).
+Ai(1)-Gen4_Deck28 didn't block Faerie Token (138).
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Damage: Faerie Token (137) deals 1 combat damage to Ai(1)-Gen4_Deck28.
+Damage: Faerie Token (138) deals 1 combat damage to Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Mana: Island (92) - {T}: Add {U}.
+Mana: Uncharted Haven (99) - {T}: Add one mana of the chosen color.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck14 cast Clinquant Skymage (91)
+Resolve stack: Clinquant Skymage - Creature 1 / 1
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck28 activated Rogue's Passage (8) targeting [Gleaming Barrier (17)]
+Resolve stack: Rogue's Passage (8) - Gleaming Barrier (17) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Land: Ai(1)-Gen4_Deck28 played Island (36)
+Mana: Island (36) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck28 cast Unsummon (12) targeting [Faerie Token (137)]
+Resolve stack: Unsummon (12) - Return Faerie Token (137) to its owner's hand.
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Add to stack: Ai(2)-Gen4_Deck14 triggered Clinquant Skymage (91)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen4_Deck14]
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Land: Ai(2)-Gen4_Deck14 played Island (97)
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 assigned Clinquant Skymage (91) and Faerie Token (138) to attack Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck28 didn't block Faerie Token (138).
+Ai(1)-Gen4_Deck28 didn't block Clinquant Skymage (91).
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Damage: Clinquant Skymage (91) deals 2 combat damage to Ai(1)-Gen4_Deck28.
+Damage: Faerie Token (138) deals 1 combat damage to Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck28 activated Rogue's Passage (8) targeting [Gleaming Barrier (17)]
+Resolve stack: Rogue's Passage (8) - Gleaming Barrier (17) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Add to stack: Ai(2)-Gen4_Deck14 triggered Clinquant Skymage (91)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen4_Deck14]
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 assigned Clinquant Skymage (91) and Faerie Token (138) to attack Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck28 didn't block Faerie Token (138).
+Ai(1)-Gen4_Deck28 didn't block Clinquant Skymage (91).
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Damage: Clinquant Skymage (91) deals 3 combat damage to Ai(1)-Gen4_Deck28.
+Damage: Faerie Token (138) deals 1 combat damage to Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck28 activated Rogue's Passage (8) targeting [Gleaming Barrier (17)]
+Resolve stack: Rogue's Passage (8) - Gleaming Barrier (17) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Add to stack: Ai(2)-Gen4_Deck14 triggered Clinquant Skymage (91)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen4_Deck14]
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Land: Ai(2)-Gen4_Deck14 played Plains (79)
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 assigned Clinquant Skymage (91) and Faerie Token (138) to attack Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck28 didn't block Faerie Token (138).
+Ai(1)-Gen4_Deck28 didn't block Clinquant Skymage (91).
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Damage: Clinquant Skymage (91) deals 4 combat damage to Ai(1)-Gen4_Deck28.
+Damage: Faerie Token (138) deals 1 combat damage to Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's End of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Main phase, postcombat
+Mana: Island (92) - {T}: Add {U}.
+Mana: Uncharted Haven (99) - {T}: Add one mana of the chosen color.
+Mana: Plains (80) - {T}: Add {W}.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (97) - {T}: Add {U}.
+Mana: Plains (79) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck14 cast Steel Hellkite (87)
+Resolve stack: Steel Hellkite - Creature 5 / 5
+Phase: Ai(2)-Gen4_Deck14's End step
+Phase: Ai(2)-Gen4_Deck14's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen4_Deck28)
+Phase: Ai(1)-Gen4_Deck28's Untap step
+Phase: Ai(1)-Gen4_Deck28's Upkeep step
+Mana: Island (44) - {T}: Add {U}.
+Mana: Swamp (21) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Island (47) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen4_Deck28 activated Rogue's Passage (8) targeting [Gleaming Barrier (17)]
+Resolve stack: Rogue's Passage (8) - Gleaming Barrier (17) can't be blocked this turn.
+Phase: Ai(1)-Gen4_Deck28's Draw step
+Phase: Ai(1)-Gen4_Deck28's Main phase, precombat
+Land: Ai(1)-Gen4_Deck28 played Swamp (23)
+Phase: Ai(1)-Gen4_Deck28's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck28 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck28's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck28's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck28's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck28's End of Combat Step
+Phase: Ai(1)-Gen4_Deck28's Main phase, postcombat
+Mana: Island (36) - {T}: Add {U}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen4_Deck28 cast Strix Lookout (1)
+Resolve stack: Strix Lookout - Creature 1 / 2
+Phase: Ai(1)-Gen4_Deck28's End step
+Phase: Ai(1)-Gen4_Deck28's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen4_Deck14)
+Phase: Ai(2)-Gen4_Deck14's Untap step
+Phase: Ai(2)-Gen4_Deck14's Upkeep step
+Mana: Island (92) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck14 cast Unsummon (110) targeting [Strix Lookout (1)]
+Resolve stack: Unsummon (110) - Return Strix Lookout (1) to its owner's hand.
+Phase: Ai(2)-Gen4_Deck14's Draw step
+Add to stack: Ai(2)-Gen4_Deck14 triggered Clinquant Skymage (91)
+Resolve stack: Whenever you draw a card, put a +1/+1 counter on this creature. [Player: Ai(2)-Gen4_Deck14]
+Phase: Ai(2)-Gen4_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck14 assigned Clinquant Skymage (91), Steel Hellkite (87) and Faerie Token (138) to attack Ai(1)-Gen4_Deck28.
+Phase: Ai(2)-Gen4_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck28 didn't block Steel Hellkite (87).
+Ai(1)-Gen4_Deck28 didn't block Faerie Token (138).
+Ai(1)-Gen4_Deck28 didn't block Clinquant Skymage (91).
+Mana: Uncharted Haven (99) - {T}: Add one mana of the chosen color.
+Mana: Plains (80) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen4_Deck14 activated Steel Hellkite (87)
+Resolve stack: Steel Hellkite (87) - Steel Hellkite (87) gets +1/+0  until end of turn.
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (97) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck14 activated Steel Hellkite (87)
+Resolve stack: Steel Hellkite (87) - Steel Hellkite (87) gets +1/+0  until end of turn.
+Phase: Ai(2)-Gen4_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck14's Combat Damage Step
+Damage: Clinquant Skymage (91) deals 5 combat damage to Ai(1)-Gen4_Deck28.
+Damage: Steel Hellkite (87) deals 7 combat damage to Ai(1)-Gen4_Deck28.
+Damage: Faerie Token (138) deals 1 combat damage to Ai(1)-Gen4_Deck28.
+Player control: Ai(1)-Gen4_Deck28 is controlled by Ai(1)-Gen4_Deck28
+Player control: Ai(2)-Gen4_Deck14 is controlled by Ai(2)-Gen4_Deck14
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen4_Deck28 has lost because life total reached 0
+Game outcome: Ai(2)-Gen4_Deck14 has won because all opponents have lost
+Match result: Ai(1)-Gen4_Deck28: 0 Ai(2)-Gen4_Deck14: 1 
+
+Game Result: Game 1 ended in 12111 ms. Ai(2)-Gen4_Deck14 has won!
+
+
+=== STDERR ===

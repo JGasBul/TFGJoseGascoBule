@@ -1,0 +1,375 @@
+=== COMBATE PARALELO: Gen0_Deck24 vs Gen0_Deck22 ===
+Worker ID: 1337
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck24 Gen0_Deck22 -n 1
+Duración: 30.58 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1958 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 54 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck24 vs Ai(2)-Gen0_Deck22 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck24 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck22 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Orzhov Guildgate (2)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Crawling Barrens (113)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Swamp (56)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Tinybones, Bauble Burglar (43)
+Resolve stack: Tinybones, Bauble Burglar - Creature 1 / 3
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Forest (100)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Forest (100) - {T}: Add {G}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Nessian Hornbeetle (108)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Feed the Swarm (46) targeting [Nessian Hornbeetle (108)]
+Resolve stack: Feed the Swarm (46) - Destroy Nessian Hornbeetle (108). Ai(1)-Gen0_Deck24 loses 2 life.
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Tinybones, Bauble Burglar (43) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 didn't block Tinybones, Bauble Burglar (43).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Tinybones, Bauble Burglar (43) deals 1 combat damage to Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ai(1)-Gen0_Deck24 played Temple of Enlightenment (31)
+Add to stack: Ai(1)-Gen0_Deck24 triggered Temple of Enlightenment (31)
+Resolve stack: Ai(1)-Gen0_Deck24 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Enlightenment enters, scry 1. [Zone Changer: Temple of Enlightenment (31)]
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Forest (100) - {T}: Add {G}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Gnarlid Colony (65)
+Resolve stack: Gnarlid Colony - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck22's End step
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Plains (22)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Temple of Enlightenment (31) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen0_Deck24 activated Tinybones, Bauble Burglar (43)
+Discard: Ai(2)-Gen0_Deck22 discards Ghalta, Primal Hunger (114).
+Resolve stack: Tinybones, Bauble Burglar (43) - Ai(2)-Gen0_Deck22 discards a card.
+Add to stack: Ai(1)-Gen0_Deck24 triggered Tinybones, Bauble Burglar (43)
+Resolve stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Ghalta, Primal Hunger (114), Cause: {3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery.]
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Forest (99)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Gnarlid Colony (65) to attack Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Gnarlid Colony (65).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Damage: Gnarlid Colony (65) deals 2 combat damage to Ai(1)-Gen0_Deck24.
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Forest (100) - {T}: Add {G}.
+Mana: Forest (99) - {T}: Add {G}.
+Mana: Crawling Barrens (113) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Sylvan Scavenging (93)
+Resolve stack: Sylvan Scavenging
+Phase: Ai(2)-Gen0_Deck22's End step
+Add to stack: Ai(2)-Gen0_Deck22 triggered Sylvan Scavenging (93)
+Resolve stack: At the beginning of your end step, create a 3/3 green Raccoon creature token if you control a creature with power 4 or greater. [Phase: Ai(2)-Gen0_Deck22]
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Land: Ai(1)-Gen0_Deck24 played Swamp (54)
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Tinybones, Bauble Burglar (43) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 didn't block Tinybones, Bauble Burglar (43).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Tinybones, Bauble Burglar (43) deals 1 combat damage to Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Swamp (56) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Ajani, Caller of the Pride (13)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (13) targeting [Tinybones, Bauble Burglar (43)]
+Resolve stack: Ajani, Caller of the Pride (13) - Ai(1)-Gen0_Deck24 puts a +1/+1 counter on Tinybones, Bauble Burglar (43).
+Mana: Temple of Enlightenment (31) - {T}: Add {W} or {U}.
+Mana: Swamp (54) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Helpful Hunter (17)
+Resolve stack: Helpful Hunter - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck24 triggered Helpful Hunter (17)
+Resolve stack: When this creature enters, draw a card. [Zone Changer: Helpful Hunter (17)]
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Land: Ai(2)-Gen0_Deck22 played Swamp (82)
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Gnarlid Colony (65) to attack Ajani, Caller of the Pride (13).
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Gnarlid Colony (65).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Mana: Forest (100) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Mild-Mannered Librarian (74)
+Resolve stack: Mild-Mannered Librarian - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck22's End step
+Add to stack: Ai(2)-Gen0_Deck22 triggered Sylvan Scavenging (93)
+Resolve stack: At the beginning of your end step, put a +1/+1 counter on target creature you control. (Targeting: Gnarlid Colony (65)) [Phase: Ai(2)-Gen0_Deck22]
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (13) targeting [Tinybones, Bauble Burglar (43)]
+Resolve stack: Ajani, Caller of the Pride (13) - Ai(1)-Gen0_Deck24 puts a +1/+1 counter on Tinybones, Bauble Burglar (43).
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Tinybones, Bauble Burglar (43) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 didn't block Tinybones, Bauble Burglar (43).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Tinybones, Bauble Burglar (43) deals 3 combat damage to Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Vanguard Seraph (32)
+Resolve stack: Vanguard Seraph - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Add to stack: Ai(2)-Gen0_Deck22 triggered Sylvan Scavenging (93)
+Resolve stack: At the beginning of your end step, put a +1/+1 counter on target creature you control. (Targeting: Gnarlid Colony (65)) [Phase: Ai(2)-Gen0_Deck22]
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck24 played Secluded Courtyard (58)
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (13) targeting [Vanguard Seraph (32)]
+Resolve stack: Ajani, Caller of the Pride (13) - Ai(1)-Gen0_Deck24 puts a +1/+1 counter on Vanguard Seraph (32).
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Vanguard Seraph (32) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 didn't block Vanguard Seraph (32).
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Vanguard Seraph (32) deals 4 combat damage to Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's End of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Main phase, postcombat
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen0_Deck24 activated Tinybones, Bauble Burglar (43)
+Discard: Ai(2)-Gen0_Deck22 discards Biogenic Upgrade (69).
+Resolve stack: Tinybones, Bauble Burglar (43) - Ai(2)-Gen0_Deck22 discards a card.
+Add to stack: Ai(1)-Gen0_Deck24 triggered Tinybones, Bauble Burglar (43)
+Resolve stack: Whenever an opponent discards a card, exile it from their graveyard with a stash counter on it. [Discarded: Biogenic Upgrade (69), Cause: {3}{B}, {T}: Each opponent discards a card. Activate only as a sorcery.]
+Phase: Ai(1)-Gen0_Deck24's End step
+Phase: Ai(1)-Gen0_Deck24's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck22)
+Phase: Ai(2)-Gen0_Deck22's Untap step
+Phase: Ai(2)-Gen0_Deck22's Upkeep step
+Phase: Ai(2)-Gen0_Deck22's Draw step
+Phase: Ai(2)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck22 assigned Gnarlid Colony (65) to attack Ajani, Caller of the Pride (13).
+Phase: Ai(2)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck24 didn't block Gnarlid Colony (65).
+Phase: Ai(2)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck22's End of Combat Step
+Phase: Ai(2)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck22's End step
+Add to stack: Ai(2)-Gen0_Deck22 triggered Sylvan Scavenging (93)
+Resolve stack: At the beginning of your end step, put a +1/+1 counter on target creature you control. (Targeting: Gnarlid Colony (65)) [Phase: Ai(2)-Gen0_Deck22]
+Phase: Ai(2)-Gen0_Deck22's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck24)
+Phase: Ai(1)-Gen0_Deck24's Untap step
+Phase: Ai(1)-Gen0_Deck24's Upkeep step
+Phase: Ai(1)-Gen0_Deck24's Draw step
+Phase: Ai(1)-Gen0_Deck24's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck24 activated Ajani, Caller of the Pride (13) targeting [Vanguard Seraph (32)]
+Resolve stack: Ajani, Caller of the Pride (13) - Ai(1)-Gen0_Deck24 puts a +1/+1 counter on Vanguard Seraph (32).
+Mana: Swamp (56) - {T}: Add {B}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Swamp (54) - {T}: Add {B}.
+Mana: Orzhov Guildgate (2) - {T}: Add {W} or {B}.
+Mana: Temple of Enlightenment (31) - {T}: Add {W} or {U}.
+Mana: Secluded Courtyard (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck24 cast Biogenic Upgrade (69) targeting [Vanguard Seraph (32)]
+Resolve stack: Biogenic Upgrade (69) - Ai(1)-Gen0_Deck24 distributes three +1/+1 counters among Vanguard Seraph (32) (3 counters). Double the number of +1/+1 counters on Vanguard Seraph (32).
+Phase: Ai(1)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck24 assigned Vanguard Seraph (32), Tinybones, Bauble Burglar (43) and Helpful Hunter (17) to attack Ai(2)-Gen0_Deck22.
+Phase: Ai(1)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck22 didn't block Vanguard Seraph (32).
+Ai(2)-Gen0_Deck22 didn't block Helpful Hunter (17).
+Ai(2)-Gen0_Deck22 assigned Mild-Mannered Librarian (74) to block Tinybones, Bauble Burglar (43).
+Mana: Swamp (82) - {T}: Add {B}.
+Mana: Forest (100) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck22 cast Offer Immortality (110) targeting [Mild-Mannered Librarian (74)]
+Resolve stack: Offer Immortality (110) - Mild-Mannered Librarian (74) gains indestructible and deathtouch until end of turn.
+Phase: Ai(1)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck24's Combat Damage Step
+Damage: Vanguard Seraph (32) deals 13 combat damage to Ai(2)-Gen0_Deck22.
+Damage: Tinybones, Bauble Burglar (43) deals 3 damage () to Mild-Mannered Librarian (74).
+Damage: Helpful Hunter (17) deals 1 combat damage to Ai(2)-Gen0_Deck22.
+Damage: Mild-Mannered Librarian (74) deals 1 damage (Deathtouch) to Tinybones, Bauble Burglar (43).
+Player control: Ai(1)-Gen0_Deck24 is controlled by Ai(1)-Gen0_Deck24
+Player control: Ai(2)-Gen0_Deck22 is controlled by Ai(2)-Gen0_Deck22
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck24 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck22 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck24: 1 Ai(2)-Gen0_Deck22: 0 
+
+Game Result: Game 1 ended in 18049 ms. Ai(1)-Gen0_Deck24 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,438 @@
+=== COMBATE PARALELO: Gen1_Deck30 vs Gen1_Deck4 ===
+Worker ID: 242655
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck30 Gen1_Deck4 -n 1
+Duración: 41.12 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2059 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 91 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck30 vs Ai(2)-Gen1_Deck4 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck4 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen1_Deck30 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck4 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Mountain (57)
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (110)
+Mana: Mountain (110) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Fanatical Firebrand (98)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Fanatical Firebrand (98) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Fanatical Firebrand (98).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Fanatical Firebrand (98) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Island (33)
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (108)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Fanatical Firebrand (98) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Fanatical Firebrand (98).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Fanatical Firebrand (98) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Kargan Dragonrider (94)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Demolition Field (52)
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (33) - {T}: Add {U}.
+Mana: Demolition Field (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Burnished Hart (22)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (109)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Kargan Dragonrider (94) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Kargan Dragonrider (94).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Kargan Dragonrider (94) deals 2 combat damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Mountain (59)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Island (33) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Brazen Scourge (18)
+Resolve stack: Brazen Scourge - Creature 3 / 3
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 assigned Brazen Scourge (18) and Burnished Hart (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 didn't block Brazen Scourge (18).
+Ai(2)-Gen1_Deck4 didn't block Burnished Hart (22).
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Damage: Brazen Scourge (18) deals 3 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Burnished Hart (22) deals 2 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Swamp (78)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Kargan Dragonrider (94) and Fanatical Firebrand (98) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Fanatical Firebrand (98).
+Ai(1)-Gen1_Deck30 didn't block Kargan Dragonrider (94).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Kargan Dragonrider (94) deals 2 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Fanatical Firebrand (98) deals 1 combat damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Marauding Blight-Priest (77)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Island (32)
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (33) - {T}: Add {U}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Island (32) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 cast Sower of Chaos (41)
+Resolve stack: Sower of Chaos - Creature 4 / 3
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Marauding Blight-Priest (75)
+Resolve stack: Marauding Blight-Priest - Creature 3 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Island (34)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (33) - {T}: Add {U}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 activated Sower of Chaos (41) targeting [Marauding Blight-Priest (77)]
+Resolve stack: Sower of Chaos (41) - Marauding Blight-Priest (77) gains hidden cardname can't block. until end of turn.
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Kargan Dragonrider (93)
+Resolve stack: Kargan Dragonrider - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Demolition Field (51)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (33) - {T}: Add {U}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 activated Sower of Chaos (41) targeting [Marauding Blight-Priest (77)]
+Resolve stack: Sower of Chaos (41) - Marauding Blight-Priest (77) gains hidden cardname can't block. until end of turn.
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Swamp (81)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Desecration Demon (67)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Mountain (58)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (33) - {T}: Add {U}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 activated Sower of Chaos (41) targeting [Desecration Demon (67)]
+Resolve stack: Sower of Chaos (41) - Desecration Demon (67) gains hidden cardname can't block. until end of turn.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Island (34) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 activated Sower of Chaos (41) targeting [Marauding Blight-Priest (77)]
+Resolve stack: Sower of Chaos (41) - Marauding Blight-Priest (77) gains hidden cardname can't block. until end of turn.
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck4 triggered Desecration Demon (67)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen1_Deck30]
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Untamed Hunger (62) targeting [Desecration Demon (67)]
+Resolve stack: Untamed Hunger (62) -  Attach to Desecration Demon (67)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck4 triggered Desecration Demon (67)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen1_Deck4]
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Desecration Demon (67), Marauding Blight-Priest (77) and Marauding Blight-Priest (75) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Desecration Demon (67).
+Ai(1)-Gen1_Deck30 assigned Brazen Scourge (18) to block Marauding Blight-Priest (75).
+Ai(1)-Gen1_Deck30 assigned Burnished Hart (22) to block Marauding Blight-Priest (77).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Desecration Demon (67) deals 8 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Marauding Blight-Priest (77) deals 3 damage () to Burnished Hart (22).
+Damage: Marauding Blight-Priest (75) deals 3 damage () to Brazen Scourge (18).
+Damage: Burnished Hart (22) deals 2 damage () to Marauding Blight-Priest (77).
+Damage: Brazen Scourge (18) deals 3 damage () to Marauding Blight-Priest (75).
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Viashino Pyromancer (71)
+Resolve stack: Viashino Pyromancer - Creature 2 / 1
+Add to stack: Ai(2)-Gen1_Deck4 triggered Viashino Pyromancer (71) targeting [Ai(1)-Gen1_Deck30]
+Damage: Viashino Pyromancer (71) deals 2 non-combat damage to Ai(1)-Gen1_Deck30.
+Resolve stack: When Viashino Pyromancer enters, it deals 2 damage to target player or planeswalker. (Targeting: [[Ai(1)-Gen1_Deck30]]) [Zone Changer: Viashino Pyromancer (71)]
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck30)
+Phase: Ai(1)-Gen1_Deck30's Untap step
+Phase: Ai(1)-Gen1_Deck30's Upkeep step
+Phase: Ai(1)-Gen1_Deck30's Draw step
+Phase: Ai(1)-Gen1_Deck30's Main phase, precombat
+Land: Ai(1)-Gen1_Deck30 played Rogue's Passage (16)
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Island (33) - {T}: Add {U}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck30 activated Sower of Chaos (41) targeting [Kargan Dragonrider (94)]
+Resolve stack: Sower of Chaos (41) - Kargan Dragonrider (94) gains hidden cardname can't block. until end of turn.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Island (32) - {T}: Add {U}.
+Mana: Island (34) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck30 activated Sower of Chaos (41) targeting [Kargan Dragonrider (93)]
+Resolve stack: Sower of Chaos (41) - Kargan Dragonrider (93) gains hidden cardname can't block. until end of turn.
+Phase: Ai(1)-Gen1_Deck30's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck4 triggered Desecration Demon (67)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen1_Deck30]
+Phase: Ai(1)-Gen1_Deck30's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck30 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck30's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck30's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck30's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck30's End of Combat Step
+Phase: Ai(1)-Gen1_Deck30's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck30's End step
+Add to stack: Ai(2)-Gen1_Deck4 activated Fanatical Firebrand (98) targeting [Ai(1)-Gen1_Deck30]
+Damage: Fanatical Firebrand (98) deals 1 non-combat damage to Ai(1)-Gen1_Deck30.
+Resolve stack: Fanatical Firebrand (98) - Fanatical Firebrand (98) deals 1 damage to Ai(1)-Gen1_Deck30.
+Phase: Ai(1)-Gen1_Deck30's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Add to stack: Ai(2)-Gen1_Deck4 triggered Desecration Demon (67)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen1_Deck4]
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Desecration Demon (67), Kargan Dragonrider (94), Kargan Dragonrider (93) and Viashino Pyromancer (71) to attack Ai(1)-Gen1_Deck30.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck30 didn't block Desecration Demon (67).
+Ai(1)-Gen1_Deck30 didn't block Viashino Pyromancer (71).
+Ai(1)-Gen1_Deck30 didn't block Kargan Dragonrider (93).
+Ai(1)-Gen1_Deck30 didn't block Kargan Dragonrider (94).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Desecration Demon (67) deals 9 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Kargan Dragonrider (94) deals 2 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Kargan Dragonrider (93) deals 2 combat damage to Ai(1)-Gen1_Deck30.
+Damage: Viashino Pyromancer (71) deals 2 combat damage to Ai(1)-Gen1_Deck30.
+Player control: Ai(1)-Gen1_Deck30 is controlled by Ai(1)-Gen1_Deck30
+Player control: Ai(2)-Gen1_Deck4 is controlled by Ai(2)-Gen1_Deck4
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck30 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck4 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck30: 0 Ai(2)-Gen1_Deck4: 1 
+
+Game Result: Game 1 ended in 26437 ms. Ai(2)-Gen1_Deck4 has won!
+
+
+=== STDERR ===

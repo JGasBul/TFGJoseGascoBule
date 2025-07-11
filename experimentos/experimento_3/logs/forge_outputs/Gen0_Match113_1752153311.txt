@@ -1,0 +1,465 @@
+=== COMBATE PARALELO: Gen0_Deck3 vs Gen0_Deck17 ===
+Worker ID: 1336
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck3 Gen0_Deck17 -n 1
+Duración: 32.13 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2242 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 131 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck3 vs Ai(2)-Gen0_Deck17 - one game of Constructed
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Warning: default (ie. inherited from base class) implementation of chooseSinglePlayer is used by Curator of Destinies for forge.ai.ability.TwoPilesAi. Consider declaring an overloaded method
+Mulligan: Ai(2)-Gen0_Deck17 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Island (95)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (60)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Ghitu Lavarunner (36)
+Resolve stack: Ghitu Lavarunner - Creature 1 / 2
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Forest (81)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Thornweald Archer (105)
+Resolve stack: Thornweald Archer - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Adventuring Gear (2)
+Resolve stack: Adventuring Gear
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen0_Deck3 played Maze's End (6)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Maze's End (6)]
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Crawling Barrens (108)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (58)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (58)]
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Maze's End (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Brazen Scourge (27)
+Resolve stack: Brazen Scourge - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Brazen Scourge (27) and Ghitu Lavarunner (36) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Ghitu Lavarunner (36).
+Ai(2)-Gen0_Deck17 didn't block Brazen Scourge (27).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Brazen Scourge (27) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Ghitu Lavarunner (36) deals 1 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Demolition Field (120)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Thornweald Archer (105) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Thornweald Archer (105).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Thornweald Archer (105) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Venom Connoisseur (68)
+Resolve stack: Venom Connoisseur - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Maze's End (6) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Brazen Scourge (28)
+Resolve stack: Brazen Scourge - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Brazen Scourge (27) and Brazen Scourge (28) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Brazen Scourge (27).
+Ai(2)-Gen0_Deck17 didn't block Brazen Scourge (28).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Brazen Scourge (27) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Brazen Scourge (28) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Mana: Island (95) - {T}: Add {U}.
+Mana: Forest (81) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck17 activated Demolition Field (120) targeting [Maze's End (6)]
+Resolve stack: Demolition Field (120) - Destroy Maze's End (6). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(2)-Gen0_Deck17 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Add to stack: Ai(1)-Gen0_Deck3 triggered Adventuring Gear (2)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (57)]
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Forest (82)
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Venom Connoisseur (68) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Venom Connoisseur (68).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Venom Connoisseur (68) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Brazen Scourge (26)
+Resolve stack: Brazen Scourge - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Brazen Scourge (27), Brazen Scourge (28), Brazen Scourge (26) and Ghitu Lavarunner (36) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 didn't block Ghitu Lavarunner (36).
+Ai(2)-Gen0_Deck17 didn't block Brazen Scourge (26).
+Ai(2)-Gen0_Deck17 assigned Thornweald Archer (105) to block Brazen Scourge (27).
+Ai(2)-Gen0_Deck17 didn't block Brazen Scourge (28).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Brazen Scourge (27) deals 3 damage () to Thornweald Archer (105).
+Damage: Brazen Scourge (28) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Brazen Scourge (26) deals 3 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Ghitu Lavarunner (36) deals 1 combat damage to Ai(2)-Gen0_Deck17.
+Damage: Thornweald Archer (105) deals 2 damage (Deathtouch) to Brazen Scourge (27).
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Island (91)
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Curator of Destinies (100)
+Resolve stack: Curator of Destinies - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (100)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Curator of Destinies (100)]
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (100)]
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Adventuring Gear (2) targeting [Brazen Scourge (28)]
+Resolve stack: Adventuring Gear (2) -  Attach to Brazen Scourge (28)
+Mana: Mountain (58) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Adventuring Gear (3)
+Resolve stack: Adventuring Gear
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Adventuring Gear (3) targeting [Brazen Scourge (28)]
+Resolve stack: Adventuring Gear (3) -  Attach to Brazen Scourge (28)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Demolition Field (118)
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Self-Reflection (112) targeting [Curator of Destinies (100)]
+Resolve stack: Self-Reflection (112) - Ai(2)-Gen0_Deck17 creates a token that's a copy of Curator of Destinies (100).
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (122)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Curator of Destinies (122)]
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (122)]
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Curator of Destinies (100) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Curator of Destinies (100).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Curator of Destinies (100) deals 5 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Discard: Ai(2)-Gen0_Deck17 discards Forest (84).
+Turn: Turn 14 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Sure Strike (17) targeting [Brazen Scourge (28)]
+Resolve stack: Sure Strike (17) - Brazen Scourge (28) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Ghitu Lavarunner (36) and Brazen Scourge (28) to attack Ai(2)-Gen0_Deck17.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Venom Connoisseur (68) to block Ghitu Lavarunner (36).
+Ai(2)-Gen0_Deck17 assigned Curator of Destinies (122) to block Brazen Scourge (28).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Damage: Brazen Scourge (28) deals 6 damage () to Curator of Destinies (122).
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Ghitu Lavarunner (36) deals 1 damage () to Venom Connoisseur (68).
+Damage: Venom Connoisseur (68) deals 2 damage () to Ghitu Lavarunner (36).
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Land: Ai(2)-Gen0_Deck17 played Crawling Barrens (110)
+Mana: Island (95) - {T}: Add {U}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Forest (82) - {T}: Add {G}.
+Mana: Island (91) - {T}: Add {U}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Self-Reflection (113) targeting [Curator of Destinies (100)]
+Resolve stack: Self-Reflection (113) - Ai(2)-Gen0_Deck17 creates a token that's a copy of Curator of Destinies (100).
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (124)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Curator of Destinies (124)]
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (124)]
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Curator of Destinies (100) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Curator of Destinies (100).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Curator of Destinies (100) deals 5 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's End of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck17's End step
+Phase: Ai(2)-Gen0_Deck17's Cleanup step
+Discard: Ai(2)-Gen0_Deck17 discards Island (93).
+Discard: Ai(2)-Gen0_Deck17 discards Starlight Snare (102).
+Turn: Turn 16 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (54)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Adventuring Gear (2)
+Add to stack: Ai(1)-Gen0_Deck3 triggered Adventuring Gear (3)
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (54)]
+Resolve stack: Landfall — Whenever a land you control enters, equipped creature gets +2/+2 until end of turn. [Zone Changer: Mountain (54)]
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Giant Cindermaw (25)
+Resolve stack: Giant Cindermaw - Creature 4 / 3
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck17)
+Phase: Ai(2)-Gen0_Deck17's Untap step
+Phase: Ai(2)-Gen0_Deck17's Upkeep step
+Phase: Ai(2)-Gen0_Deck17's Draw step
+Phase: Ai(2)-Gen0_Deck17's Main phase, precombat
+Mana: Island (95) - {T}: Add {U}.
+Mana: Forest (81) - {T}: Add {G}.
+Mana: Island (92) - {T}: Add {U}.
+Mana: Forest (82) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Self-Reflection (112) targeting [Curator of Destinies (100)]
+Resolve stack: Self-Reflection (112) - Ai(2)-Gen0_Deck17 creates a token that's a copy of Curator of Destinies (100).
+Replacement Effect: Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (126)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Curator of Destinies (126)]
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (126)]
+Land: Ai(2)-Gen0_Deck17 played Demolition Field (117)
+Mana: Island (91) - {T}: Add {U}.
+Mana: Crawling Barrens (108) - {T}: Add {C}.
+Mana: Demolition Field (118) - {T}: Add {C}.
+Mana: Crawling Barrens (110) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck17 cast Self-Reflection (113) targeting [Curator of Destinies (100)]
+Resolve stack: Self-Reflection (113) - Ai(2)-Gen0_Deck17 creates a token that's a copy of Curator of Destinies (100).
+Replacement Effect: Flashback {3}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Curator of Destinies (128)
+Add to stack: Ai(2)-Gen0_Deck17 triggered Venom Connoisseur (68)
+Resolve stack: Alliance — Whenever another creature you control enters, Venom Connoisseur gains deathtouch until end of turn. If this is the second time this ability has resolved this turn, all creatures you control gain deathtouch until end of turn. [Zone Changer: Curator of Destinies (128)]
+Resolve stack: When this creature enters, look at the top five cards of your library and separate them into a face-down pile and a face-up pile. An opponent chooses one of those piles. Put that pile into your hand and the other into your graveyard. [Zone Changer: Curator of Destinies (128)]
+Phase: Ai(2)-Gen0_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck17 assigned Curator of Destinies (100), Curator of Destinies (124) and Venom Connoisseur (68) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Curator of Destinies (100).
+Ai(1)-Gen0_Deck3 assigned Brazen Scourge (28) to block Venom Connoisseur (68).
+Ai(1)-Gen0_Deck3 didn't block Curator of Destinies (124).
+Phase: Ai(2)-Gen0_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck17's Combat Damage Step
+Damage: Curator of Destinies (100) deals 5 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Curator of Destinies (124) deals 5 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Venom Connoisseur (68) deals 2 damage (Deathtouch) to Brazen Scourge (28).
+Damage: Brazen Scourge (28) deals 3 damage () to Venom Connoisseur (68).
+Player control: Ai(1)-Gen0_Deck3 is controlled by Ai(1)-Gen0_Deck3
+Player control: Ai(2)-Gen0_Deck17 is controlled by Ai(2)-Gen0_Deck17
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck3 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck17 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck3: 0 Ai(2)-Gen0_Deck17: 1 
+
+Game Result: Game 1 ended in 18294 ms. Ai(2)-Gen0_Deck17 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,372 @@
+=== COMBATE PARALELO: Gen5_Deck3 vs Gen5_Deck19 ===
+Worker ID: 1237316
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck3 Gen5_Deck19 -n 1
+Duración: 24.30 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1947 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 236 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck3 vs Ai(2)-Gen5_Deck19 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck19 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen5_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Land: Ai(2)-Gen5_Deck19 played Island (104)
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck19's End step
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(1)-Gen5_Deck3 played Bloodfell Caves (54)
+Add to stack: Ai(1)-Gen5_Deck3 triggered Bloodfell Caves (54)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (54)]
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck3's End of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck3's End step
+Phase: Ai(1)-Gen5_Deck3's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Land: Ai(2)-Gen5_Deck19 played Island (100)
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck19's End step
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen5_Deck3 played Maze's End (3)
+Mana: Bloodfell Caves (54) - {T}: Add {B} or {R}.
+Add to stack: Ai(1)-Gen5_Deck3 cast Fanatical Firebrand (49)
+Resolve stack: Fanatical Firebrand - Creature 1 / 1
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 assigned Fanatical Firebrand (49) to attack Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck19 didn't block Fanatical Firebrand (49).
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Damage: Fanatical Firebrand (49) deals 1 combat damage to Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's End of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck3's End step
+Phase: Ai(1)-Gen5_Deck3's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Land: Ai(2)-Gen5_Deck19 played Island (98)
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck19's End step
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 assigned Fanatical Firebrand (49) to attack Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck19 didn't block Fanatical Firebrand (49).
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Damage: Fanatical Firebrand (49) deals 1 combat damage to Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's End of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Main phase, postcombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(1)-Gen5_Deck3 played Bloodfell Caves (55)
+Add to stack: Ai(1)-Gen5_Deck3 triggered Bloodfell Caves (55)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (55)]
+Phase: Ai(1)-Gen5_Deck3's End step
+Phase: Ai(1)-Gen5_Deck3's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Land: Ai(2)-Gen5_Deck19 played Plains (90)
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Mana: Plains (90) - {T}: Add {W}.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck19 cast Giada, Font of Hope (115)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen5_Deck19's End step
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck3's End of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Main phase, postcombat
+Replacement Effect: Bloodfell Caves enters tapped.
+Land: Ai(1)-Gen5_Deck3 played Bloodfell Caves (56)
+Add to stack: Ai(1)-Gen5_Deck3 triggered Bloodfell Caves (56)
+Resolve stack: When Bloodfell Caves enters, you gain 1 life. [Zone Changer: Bloodfell Caves (56)]
+Phase: Ai(1)-Gen5_Deck3's End step
+Phase: Ai(1)-Gen5_Deck3's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Land: Ai(2)-Gen5_Deck19 played Island (102)
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 assigned Giada, Font of Hope (115) to attack Ai(1)-Gen5_Deck3.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck3 didn't block Giada, Font of Hope (115).
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Damage: Giada, Font of Hope (115) deals 2 combat damage to Ai(1)-Gen5_Deck3.
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck19's End step
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck3's End of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen5_Deck3 played Uncharted Haven (42)
+Mana: Bloodfell Caves (54) - {T}: Add {B} or {R}.
+Mana: Bloodfell Caves (55) - {T}: Add {B} or {R}.
+Mana: Bloodfell Caves (56) - {T}: Add {B} or {R}.
+Mana: Maze's End (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck3 cast Desecration Demon (8)
+Resolve stack: Desecration Demon - Creature 6 / 6
+Phase: Ai(1)-Gen5_Deck3's End step
+Mana: Plains (90) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck19 cast Fleeting Flight (74) targeting [Giada, Font of Hope (115)]
+Resolve stack: Fleeting Flight (74) - Ai(2)-Gen5_Deck19 puts a +1/+1 counter on Giada, Font of Hope (115). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen5_Deck3's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Add to stack: Ai(1)-Gen5_Deck3 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen5_Deck19]
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(2)-Gen5_Deck19 played Maze's End (61)
+Phase: Ai(2)-Gen5_Deck19's End step
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Land: Ai(1)-Gen5_Deck3 played Island (34)
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Add to stack: Ai(1)-Gen5_Deck3 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen5_Deck3]
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 assigned Desecration Demon (8) to attack Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck19 didn't block Desecration Demon (8).
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Damage: Desecration Demon (8) deals 6 combat damage to Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's End of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Main phase, postcombat
+Mana: Bloodfell Caves (54) - {T}: Add {B} or {R}.
+Mana: Uncharted Haven (42) - {T}: Add one mana of the chosen color.
+Mana: Island (34) - {T}: Add {U}.
+Mana: Bloodfell Caves (55) - {T}: Add {B} or {R}.
+Mana: Bloodfell Caves (56) - {T}: Add {B} or {R}.
+Mana: Maze's End (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck3 cast Crossway Troublemakers (5)
+Resolve stack: Crossway Troublemakers - Creature 5 / 5
+Phase: Ai(1)-Gen5_Deck3's End step
+Phase: Ai(1)-Gen5_Deck3's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Land: Ai(2)-Gen5_Deck19 played Island (92)
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Add to stack: Ai(1)-Gen5_Deck3 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen5_Deck19]
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 assigned Giada, Font of Hope (115) to attack Ai(1)-Gen5_Deck3.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck3 didn't block Giada, Font of Hope (115).
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Damage: Giada, Font of Hope (115) deals 3 combat damage to Ai(1)-Gen5_Deck3.
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Mana: Island (104) - {T}: Add {U}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Island (98) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen5_Deck19 cast Mocking Sprite (73)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Phase: Ai(2)-Gen5_Deck19's End step
+Add to stack: Ai(1)-Gen5_Deck3 activated Fanatical Firebrand (49) targeting [Mocking Sprite (73)]
+Damage: Fanatical Firebrand (49) deals 1 damage () to Mocking Sprite (73).
+Resolve stack: Fanatical Firebrand (49) - Fanatical Firebrand (49) deals 1 damage to Mocking Sprite (73).
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Add to stack: Ai(1)-Gen5_Deck3 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen5_Deck3]
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 assigned Crossway Troublemakers (5) and Desecration Demon (8) to attack Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck19 didn't block Crossway Troublemakers (5).
+Ai(2)-Gen5_Deck19 assigned Giada, Font of Hope (115) to block Desecration Demon (8).
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Damage: Crossway Troublemakers (5) deals 5 combat damage to Ai(2)-Gen5_Deck19.
+Damage: Desecration Demon (8) deals 6 damage () to Giada, Font of Hope (115).
+Damage: Giada, Font of Hope (115) deals 3 damage () to Desecration Demon (8).
+Phase: Ai(1)-Gen5_Deck3's End of Combat Step
+Phase: Ai(1)-Gen5_Deck3's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck3 played Island (37)
+Mana: Uncharted Haven (42) - {T}: Add one mana of the chosen color.
+Mana: Island (34) - {T}: Add {U}.
+Mana: Island (37) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen5_Deck3 cast Inspiring Overseer (16)
+Resolve stack: Inspiring Overseer - Creature 2 / 1
+Add to stack: Ai(1)-Gen5_Deck3 triggered Inspiring Overseer (16)
+Resolve stack: When Inspiring Overseer enters, you gain 1 life and draw a card. [Zone Changer: Inspiring Overseer (16)]
+Phase: Ai(1)-Gen5_Deck3's End step
+Phase: Ai(1)-Gen5_Deck3's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen5_Deck19)
+Phase: Ai(2)-Gen5_Deck19's Untap step
+Phase: Ai(2)-Gen5_Deck19's Upkeep step
+Phase: Ai(2)-Gen5_Deck19's Draw step
+Phase: Ai(2)-Gen5_Deck19's Main phase, precombat
+Land: Ai(2)-Gen5_Deck19 played Evolving Wilds (82)
+Add to stack: Ai(2)-Gen5_Deck19 activated Evolving Wilds (82)
+Resolve stack: Evolving Wilds (82) - Ai(2)-Gen5_Deck19 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen5_Deck19's Beginning of Combat Step
+Add to stack: Ai(1)-Gen5_Deck3 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(2)-Gen5_Deck19]
+Phase: Ai(2)-Gen5_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck19's End of Combat Step
+Phase: Ai(2)-Gen5_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck19's End step
+Phase: Ai(2)-Gen5_Deck19's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen5_Deck3)
+Phase: Ai(1)-Gen5_Deck3's Untap step
+Phase: Ai(1)-Gen5_Deck3's Upkeep step
+Phase: Ai(1)-Gen5_Deck3's Draw step
+Phase: Ai(1)-Gen5_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck3's Beginning of Combat Step
+Add to stack: Ai(1)-Gen5_Deck3 triggered Desecration Demon (8)
+Resolve stack: At the beginning of each combat, any opponent may sacrifice a creature. If a player does, tap Desecration Demon and put a +1/+1 counter on it. [Phase: Ai(1)-Gen5_Deck3]
+Phase: Ai(1)-Gen5_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck3 assigned Desecration Demon (8), Crossway Troublemakers (5) and Inspiring Overseer (16) to attack Ai(2)-Gen5_Deck19.
+Phase: Ai(1)-Gen5_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck19 didn't block Inspiring Overseer (16).
+Ai(2)-Gen5_Deck19 didn't block Crossway Troublemakers (5).
+Ai(2)-Gen5_Deck19 didn't block Desecration Demon (8).
+Mana: Uncharted Haven (42) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen5_Deck3 cast Fleeting Flight (18) targeting [Desecration Demon (8)]
+Resolve stack: Fleeting Flight (18) - Ai(1)-Gen5_Deck3 puts a +1/+1 counter on Desecration Demon (8). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen5_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck3's Combat Damage Step
+Damage: Desecration Demon (8) deals 7 combat damage to Ai(2)-Gen5_Deck19.
+Damage: Crossway Troublemakers (5) deals 5 combat damage to Ai(2)-Gen5_Deck19.
+Damage: Inspiring Overseer (16) deals 2 combat damage to Ai(2)-Gen5_Deck19.
+Player control: Ai(1)-Gen5_Deck3 is controlled by Ai(1)-Gen5_Deck3
+Player control: Ai(2)-Gen5_Deck19 is controlled by Ai(2)-Gen5_Deck19
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen5_Deck3 has won because all opponents have lost
+Game outcome: Ai(2)-Gen5_Deck19 has lost because life total reached 0
+Match result: Ai(1)-Gen5_Deck3: 1 Ai(2)-Gen5_Deck19: 0 
+
+Game Result: Game 1 ended in 12203 ms. Ai(1)-Gen5_Deck3 has won!
+
+
+=== STDERR ===

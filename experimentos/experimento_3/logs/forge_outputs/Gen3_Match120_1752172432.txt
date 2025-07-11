@@ -1,0 +1,298 @@
+=== COMBATE PARALELO: Gen3_Deck24 vs Gen3_Deck3 ===
+Worker ID: 725048
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck24 Gen3_Deck3 -n 1
+Duración: 23.70 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2096 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 71 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck24 vs Ai(2)-Gen3_Deck3 - one game of Constructed
+Mulligan: Ai(1)-Gen3_Deck24 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen3_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen3_Deck24)
+Phase: Ai(1)-Gen3_Deck24's Untap step
+Phase: Ai(1)-Gen3_Deck24's Upkeep step
+Phase: Ai(1)-Gen3_Deck24's Draw step
+Phase: Ai(1)-Gen3_Deck24's Main phase, precombat
+Land: Ai(1)-Gen3_Deck24 played Plains (34)
+Phase: Ai(1)-Gen3_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck24's End of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck24 cast Healer's Hawk (47)
+Resolve stack: Healer's Hawk - Creature 1 / 1
+Phase: Ai(1)-Gen3_Deck24's End step
+Phase: Ai(1)-Gen3_Deck24's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen3_Deck3)
+Phase: Ai(2)-Gen3_Deck3's Untap step
+Phase: Ai(2)-Gen3_Deck3's Upkeep step
+Phase: Ai(2)-Gen3_Deck3's Draw step
+Phase: Ai(2)-Gen3_Deck3's Main phase, precombat
+Land: Ai(2)-Gen3_Deck3 played Island (105)
+Phase: Ai(2)-Gen3_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck3's End of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck3's End step
+Phase: Ai(2)-Gen3_Deck3's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen3_Deck24)
+Phase: Ai(1)-Gen3_Deck24's Untap step
+Phase: Ai(1)-Gen3_Deck24's Upkeep step
+Phase: Ai(1)-Gen3_Deck24's Draw step
+Phase: Ai(1)-Gen3_Deck24's Main phase, precombat
+Land: Ai(1)-Gen3_Deck24 played Mountain (49)
+Phase: Ai(1)-Gen3_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck24 assigned Healer's Hawk (47) to attack Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck3 didn't block Healer's Hawk (47).
+Phase: Ai(1)-Gen3_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck24's Combat Damage Step
+Damage: Healer's Hawk (47) deals 1 combat damage to Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's End of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck24's End step
+Phase: Ai(1)-Gen3_Deck24's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen3_Deck3)
+Phase: Ai(2)-Gen3_Deck3's Untap step
+Phase: Ai(2)-Gen3_Deck3's Upkeep step
+Phase: Ai(2)-Gen3_Deck3's Draw step
+Phase: Ai(2)-Gen3_Deck3's Main phase, precombat
+Land: Ai(2)-Gen3_Deck3 played Mountain (113)
+Phase: Ai(2)-Gen3_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck3's End of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck3's End step
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck24 cast Fleeting Flight (19) targeting [Healer's Hawk (47)]
+Resolve stack: Fleeting Flight (19) - Ai(1)-Gen3_Deck24 puts a +1/+1 counter on Healer's Hawk (47). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(2)-Gen3_Deck3's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen3_Deck24)
+Phase: Ai(1)-Gen3_Deck24's Untap step
+Phase: Ai(1)-Gen3_Deck24's Upkeep step
+Phase: Ai(1)-Gen3_Deck24's Draw step
+Phase: Ai(1)-Gen3_Deck24's Main phase, precombat
+Land: Ai(1)-Gen3_Deck24 played Plains (35)
+Phase: Ai(1)-Gen3_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck24 assigned Healer's Hawk (47) to attack Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck3 didn't block Healer's Hawk (47).
+Phase: Ai(1)-Gen3_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck24's Combat Damage Step
+Damage: Healer's Hawk (47) deals 2 combat damage to Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's End of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck24's End step
+Phase: Ai(1)-Gen3_Deck24's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen3_Deck3)
+Phase: Ai(2)-Gen3_Deck3's Untap step
+Phase: Ai(2)-Gen3_Deck3's Upkeep step
+Phase: Ai(2)-Gen3_Deck3's Draw step
+Phase: Ai(2)-Gen3_Deck3's Main phase, precombat
+Land: Ai(2)-Gen3_Deck3 played Island (102)
+Phase: Ai(2)-Gen3_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck3's End of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck3's End step
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck24 cast Fleeting Flight (21) targeting [Healer's Hawk (47)]
+Resolve stack: Fleeting Flight (21) - Ai(1)-Gen3_Deck24 puts a +1/+1 counter on Healer's Hawk (47). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(2)-Gen3_Deck3's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen3_Deck24)
+Phase: Ai(1)-Gen3_Deck24's Untap step
+Phase: Ai(1)-Gen3_Deck24's Upkeep step
+Phase: Ai(1)-Gen3_Deck24's Draw step
+Phase: Ai(1)-Gen3_Deck24's Main phase, precombat
+Land: Ai(1)-Gen3_Deck24 played Evolving Wilds (27)
+Add to stack: Ai(1)-Gen3_Deck24 activated Evolving Wilds (27)
+Resolve stack: Evolving Wilds (27) - Ai(1)-Gen3_Deck24 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen3_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck24 assigned Healer's Hawk (47) to attack Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck3 didn't block Healer's Hawk (47).
+Phase: Ai(1)-Gen3_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck24's Combat Damage Step
+Damage: Healer's Hawk (47) deals 3 combat damage to Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's End of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Main phase, postcombat
+Mana: Mountain (49) - {T}: Add {R}.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck24 cast Firespitter Whelp (40)
+Resolve stack: Firespitter Whelp - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck24's End step
+Phase: Ai(1)-Gen3_Deck24's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen3_Deck3)
+Phase: Ai(2)-Gen3_Deck3's Untap step
+Phase: Ai(2)-Gen3_Deck3's Upkeep step
+Phase: Ai(2)-Gen3_Deck3's Draw step
+Phase: Ai(2)-Gen3_Deck3's Main phase, precombat
+Land: Ai(2)-Gen3_Deck3 played Island (104)
+Phase: Ai(2)-Gen3_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck3's End of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck3's End step
+Phase: Ai(2)-Gen3_Deck3's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen3_Deck24)
+Phase: Ai(1)-Gen3_Deck24's Untap step
+Phase: Ai(1)-Gen3_Deck24's Upkeep step
+Phase: Ai(1)-Gen3_Deck24's Draw step
+Phase: Ai(1)-Gen3_Deck24's Main phase, precombat
+Land: Ai(1)-Gen3_Deck24 played Plains (32)
+Phase: Ai(1)-Gen3_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck24 assigned Healer's Hawk (47) and Firespitter Whelp (40) to attack Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck3 didn't block Firespitter Whelp (40).
+Ai(2)-Gen3_Deck3 didn't block Healer's Hawk (47).
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck24 cast Fleeting Flight (20) targeting [Firespitter Whelp (40)]
+Add to stack: Ai(1)-Gen3_Deck24 triggered Firespitter Whelp (40)
+Damage: Firespitter Whelp (40) deals 1 non-combat damage to Ai(2)-Gen3_Deck3.
+Resolve stack: Whenever you cast a noncreature or Dragon spell, this creature deals 1 damage to each opponent. [Card: Fleeting Flight (20), Activator: Ai(1)-Gen3_Deck24, SpellAbility: Put a +1/+1 counter on target creature. It gains flying until end of turn. Prevent all combat damage that would be dealt to it this turn. ]
+Resolve stack: Fleeting Flight (20) - Ai(1)-Gen3_Deck24 puts a +1/+1 counter on Firespitter Whelp (40). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen3_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck24's Combat Damage Step
+Damage: Healer's Hawk (47) deals 3 combat damage to Ai(2)-Gen3_Deck3.
+Damage: Firespitter Whelp (40) deals 3 combat damage to Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's End of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck24's End step
+Phase: Ai(1)-Gen3_Deck24's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen3_Deck3)
+Phase: Ai(2)-Gen3_Deck3's Untap step
+Phase: Ai(2)-Gen3_Deck3's Upkeep step
+Phase: Ai(2)-Gen3_Deck3's Draw step
+Phase: Ai(2)-Gen3_Deck3's Main phase, precombat
+Land: Ai(2)-Gen3_Deck3 played Island (101)
+Phase: Ai(2)-Gen3_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck3's End of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Main phase, postcombat
+Mana: Island (105) - {T}: Add {U}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Island (102) - {T}: Add {U}.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen3_Deck3 cast Homunculus Horde (67)
+Resolve stack: Homunculus Horde - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck3's End step
+Phase: Ai(2)-Gen3_Deck3's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen3_Deck24)
+Phase: Ai(1)-Gen3_Deck24's Untap step
+Phase: Ai(1)-Gen3_Deck24's Upkeep step
+Phase: Ai(1)-Gen3_Deck24's Draw step
+Phase: Ai(1)-Gen3_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen3_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck24 assigned Healer's Hawk (47) and Firespitter Whelp (40) to attack Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck3 didn't block Firespitter Whelp (40).
+Ai(2)-Gen3_Deck3 didn't block Healer's Hawk (47).
+Phase: Ai(1)-Gen3_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck24's Combat Damage Step
+Damage: Healer's Hawk (47) deals 3 combat damage to Ai(2)-Gen3_Deck3.
+Damage: Firespitter Whelp (40) deals 3 combat damage to Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's End of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Main phase, postcombat
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (49) - {T}: Add {R}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Mountain (48) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck24 cast Ingenious Leonin (11)
+Resolve stack: Ingenious Leonin - Creature 4 / 4
+Phase: Ai(1)-Gen3_Deck24's End step
+Phase: Ai(1)-Gen3_Deck24's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen3_Deck3)
+Phase: Ai(2)-Gen3_Deck3's Untap step
+Phase: Ai(2)-Gen3_Deck3's Upkeep step
+Phase: Ai(2)-Gen3_Deck3's Draw step
+Phase: Ai(2)-Gen3_Deck3's Main phase, precombat
+Land: Ai(2)-Gen3_Deck3 played Evolving Wilds (84)
+Add to stack: Ai(2)-Gen3_Deck3 activated Evolving Wilds (84)
+Resolve stack: Evolving Wilds (84) - Ai(2)-Gen3_Deck3 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen3_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck3's End of Combat Step
+Phase: Ai(2)-Gen3_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck3's End step
+Phase: Ai(2)-Gen3_Deck3's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen3_Deck24)
+Phase: Ai(1)-Gen3_Deck24's Untap step
+Phase: Ai(1)-Gen3_Deck24's Upkeep step
+Phase: Ai(1)-Gen3_Deck24's Draw step
+Phase: Ai(1)-Gen3_Deck24's Main phase, precombat
+Land: Ai(1)-Gen3_Deck24 played Mountain (50)
+Phase: Ai(1)-Gen3_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck24 assigned Ingenious Leonin (11), Healer's Hawk (47) and Firespitter Whelp (40) to attack Ai(2)-Gen3_Deck3.
+Phase: Ai(1)-Gen3_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck3 didn't block Firespitter Whelp (40).
+Ai(2)-Gen3_Deck3 assigned Homunculus Horde (67) to block Ingenious Leonin (11).
+Ai(2)-Gen3_Deck3 didn't block Healer's Hawk (47).
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (49) - {T}: Add {R}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Mountain (48) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen3_Deck24 activated Ingenious Leonin (11) targeting [Healer's Hawk (47)]
+Resolve stack: Ingenious Leonin (11) - Ai(1)-Gen3_Deck24 puts a +1/+1 counter on Healer's Hawk (47). If that creature is a Cat, it gains first strike until end of turn.
+Phase: Ai(1)-Gen3_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck24's Combat Damage Step
+Damage: Ingenious Leonin (11) deals 4 damage () to Homunculus Horde (67).
+Damage: Healer's Hawk (47) deals 4 combat damage to Ai(2)-Gen3_Deck3.
+Damage: Firespitter Whelp (40) deals 3 combat damage to Ai(2)-Gen3_Deck3.
+Damage: Homunculus Horde (67) deals 2 damage () to Ingenious Leonin (11).
+Player control: Ai(1)-Gen3_Deck24 is controlled by Ai(1)-Gen3_Deck24
+Player control: Ai(2)-Gen3_Deck3 is controlled by Ai(2)-Gen3_Deck3
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen3_Deck24 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck3 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck24: 1 Ai(2)-Gen3_Deck3: 0 
+
+Game Result: Game 1 ended in 10045 ms. Ai(1)-Gen3_Deck24 has won!
+
+
+=== STDERR ===
