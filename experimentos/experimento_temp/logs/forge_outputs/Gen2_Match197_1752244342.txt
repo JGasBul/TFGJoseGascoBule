@@ -1,0 +1,404 @@
+=== COMBATE PARALELO: Gen2_Deck12 vs Gen2_Deck10 ===
+Worker ID: 2570488
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck12 Gen2_Deck10 -n 1
+Duración: 28.66 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2155 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 123 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck12 vs Ai(2)-Gen2_Deck10 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck10 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck12 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Land: Ai(2)-Gen2_Deck10 played Swamp (87)
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Pulse Tracker (95)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Land: Ai(1)-Gen2_Deck12 played Swamp (37)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Land: Ai(2)-Gen2_Deck10 played Evolving Wilds (99)
+Add to stack: Ai(2)-Gen2_Deck10 activated Evolving Wilds (99)
+Resolve stack: Evolving Wilds (99) - Ai(2)-Gen2_Deck10 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Pulse Tracker (95) to attack Ai(1)-Gen2_Deck12.
+Add to stack: Ai(2)-Gen2_Deck10 triggered Pulse Tracker (95)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (95)]
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck12 didn't block Pulse Tracker (95).
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Damage: Pulse Tracker (95) deals 1 combat damage to Ai(1)-Gen2_Deck12.
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Land: Ai(1)-Gen2_Deck12 played Plains (16)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (16) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck12 cast Knight of Malice (22)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Forest (98) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Knight of Malice (113)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Land: Ai(1)-Gen2_Deck12 played Demolition Field (58)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (16) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck12 cast Pilfer (9) targeting [Ai(2)-Gen2_Deck10]
+Discard: Ai(2)-Gen2_Deck10 discards Maalfeld Twins (119).
+Resolve stack: Pilfer (9) - Ai(2)-Gen2_Deck10 reveals their hand. Ai(1)-Gen2_Deck12 chooses a nonland card from it. Ai(2)-Gen2_Deck10 discards that card.
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Land: Ai(2)-Gen2_Deck10 played Swamp (83)
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Swamp (83) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Heraldic Banner (70)
+Replacement Effect: As Heraldic Banner enters, choose a color.
+Resolve stack: Heraldic Banner
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Knight of Malice (113) to attack Ai(1)-Gen2_Deck12.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck12 assigned Knight of Malice (22) to block Knight of Malice (113).
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Damage: Knight of Malice (113) deals 3 damage () to Knight of Malice (22).
+Damage: Knight of Malice (22) deals 2 damage () to Knight of Malice (113).
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Land: Ai(1)-Gen2_Deck12 played Swamp (34)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Demolition Field (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck12 cast Juggernaut (7)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Swamp (83) - {T}: Add {B}.
+Mana: Heraldic Banner (70) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(2)-Gen2_Deck10 cast Highborn Vampire (109)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Land: Ai(1)-Gen2_Deck12 played Swamp (46)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 assigned Juggernaut (7) to attack Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck10 didn't block Juggernaut (7).
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Damage: Juggernaut (7) deals 5 combat damage to Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck12 cast Vile Entomber (50)
+Resolve stack: Vile Entomber - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck12 triggered Vile Entomber (50)
+Resolve stack: When Vile Entomber enters, search your library for a card, put that card into your graveyard, then shuffle. [Zone Changer: Vile Entomber (50)]
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Mana: Forest (98) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Pilfer (93) targeting [Ai(1)-Gen2_Deck12]
+Discard: Ai(1)-Gen2_Deck12 discards Massacre Wurm (26).
+Resolve stack: Pilfer (93) - Ai(1)-Gen2_Deck12 reveals their hand. Ai(2)-Gen2_Deck10 chooses a nonland card from it. Ai(1)-Gen2_Deck12 discards that card.
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Land: Ai(1)-Gen2_Deck12 played Swamp (36)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 assigned Juggernaut (7) to attack Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck10 didn't block Juggernaut (7).
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Damage: Juggernaut (7) deals 5 combat damage to Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (16) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck12 cast Pilfer (10) targeting [Ai(2)-Gen2_Deck10]
+Discard: Ai(2)-Gen2_Deck10 discards Liliana, Dreadhorde General (69).
+Resolve stack: Pilfer (10) - Ai(2)-Gen2_Deck10 reveals their hand. Ai(1)-Gen2_Deck12 chooses a nonland card from it. Ai(2)-Gen2_Deck10 discards that card.
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Land: Ai(2)-Gen2_Deck10 played Swamp (82)
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 assigned Juggernaut (7) and Vile Entomber (50) to attack Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Pulse Tracker (95) to block Vile Entomber (50).
+Ai(2)-Gen2_Deck10 didn't block Juggernaut (7).
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Damage: Juggernaut (7) deals 5 combat damage to Ai(2)-Gen2_Deck10.
+Damage: Vile Entomber (50) deals 2 damage (Deathtouch) to Pulse Tracker (95).
+Damage: Pulse Tracker (95) deals 2 damage () to Vile Entomber (50).
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Swamp (34) - {T}: Add {B}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck12 cast Highborn Vampire (56)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Mana: Swamp (87) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck10 cast Pulse Tracker (94)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Land: Ai(1)-Gen2_Deck12 played Swamp (33)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 assigned Juggernaut (7) and Highborn Vampire (56) to attack Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck10 assigned Highborn Vampire (109) to block Juggernaut (7).
+Ai(2)-Gen2_Deck10 assigned Pulse Tracker (94) to block Highborn Vampire (56).
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Damage: Juggernaut (7) deals 5 damage () to Highborn Vampire (109).
+Damage: Highborn Vampire (56) deals 4 damage () to Pulse Tracker (94).
+Damage: Highborn Vampire (109) deals 5 damage () to Juggernaut (7).
+Damage: Pulse Tracker (94) deals 2 damage () to Highborn Vampire (56).
+Phase: Ai(1)-Gen2_Deck12's End of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck12's End step
+Phase: Ai(1)-Gen2_Deck12's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen2_Deck10)
+Phase: Ai(2)-Gen2_Deck10's Untap step
+Phase: Ai(2)-Gen2_Deck10's Upkeep step
+Phase: Ai(2)-Gen2_Deck10's Draw step
+Phase: Ai(2)-Gen2_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck10's End of Combat Step
+Phase: Ai(2)-Gen2_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck10's End step
+Phase: Ai(2)-Gen2_Deck10's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen2_Deck12)
+Phase: Ai(1)-Gen2_Deck12's Untap step
+Phase: Ai(1)-Gen2_Deck12's Upkeep step
+Phase: Ai(1)-Gen2_Deck12's Draw step
+Phase: Ai(1)-Gen2_Deck12's Main phase, precombat
+Mana: Swamp (37) - {T}: Add {B}.
+Mana: Plains (16) - {T}: Add {W}.
+Mana: Swamp (34) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck12 cast Pirate's Cutlass (21)
+Resolve stack: Pirate's Cutlass
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Swamp (36) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck12 activated Pirate's Cutlass (21) targeting [Highborn Vampire (56)]
+Resolve stack: Pirate's Cutlass (21) -  Attach to Highborn Vampire (56)
+Phase: Ai(1)-Gen2_Deck12's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck12's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck12 assigned Highborn Vampire (56) to attack Ai(2)-Gen2_Deck10.
+Phase: Ai(1)-Gen2_Deck12's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck10 didn't block Highborn Vampire (56).
+Phase: Ai(1)-Gen2_Deck12's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck12's Combat Damage Step
+Damage: Highborn Vampire (56) deals 6 combat damage to Ai(2)-Gen2_Deck10.
+Player control: Ai(1)-Gen2_Deck12 is controlled by Ai(1)-Gen2_Deck12
+Player control: Ai(2)-Gen2_Deck10 is controlled by Ai(2)-Gen2_Deck10
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen2_Deck12 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck10 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck12: 1 Ai(2)-Gen2_Deck10: 0 
+
+Game Result: Game 1 ended in 14705 ms. Ai(1)-Gen2_Deck12 has won!
+
+
+=== STDERR ===

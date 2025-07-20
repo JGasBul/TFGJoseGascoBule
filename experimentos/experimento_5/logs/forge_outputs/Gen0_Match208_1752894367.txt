@@ -1,0 +1,357 @@
+=== COMBATE PARALELO: Gen0_Deck23 vs Gen0_Deck10 ===
+Worker ID: 3458970
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck23 Gen0_Deck10 -n 1
+Duración: 27.23 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2005 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 137 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck23 vs Ai(2)-Gen0_Deck10 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck10 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Mountain (114)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(1)-Gen0_Deck23 played Thornwood Falls (46)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Thornwood Falls (46)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (46)]
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Plains (97)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Swiftblade Vindicator (75)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Mountain (56)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Thornwood Falls (46) - {T}: Add {G} or {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Wary Thespian (35)
+Resolve stack: Wary Thespian - Creature 3 / 1
+Add to stack: Ai(1)-Gen0_Deck23 triggered Wary Thespian (35)
+Resolve stack: Ai(1)-Gen0_Deck23 surveiled 1 card(s) to the top of the library
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (35)]
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Plains (96)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Swiftblade Vindicator (75) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Swiftblade Vindicator (75).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Damage: Swiftblade Vindicator (75) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Swiftblade Vindicator (75) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Searslicer Goblin (110)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck10's End step
+Add to stack: Ai(2)-Gen0_Deck10 triggered Searslicer Goblin (110)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(2)-Gen0_Deck10]
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(1)-Gen0_Deck23 played Thornwood Falls (47)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Thornwood Falls (47)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (47)]
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Mountain (117)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Searslicer Goblin (110), Goblin Token (123) and Swiftblade Vindicator (75) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Goblin Token (123).
+Ai(1)-Gen0_Deck23 didn't block Swiftblade Vindicator (75).
+Ai(1)-Gen0_Deck23 assigned Wary Thespian (35) to block Searslicer Goblin (110).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Damage: Swiftblade Vindicator (75) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Searslicer Goblin (110) deals 2 damage () to Wary Thespian (35).
+Damage: Goblin Token (123) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Swiftblade Vindicator (75) deals 1 combat damage to Ai(1)-Gen0_Deck23.
+Damage: Wary Thespian (35) deals 3 damage () to Searslicer Goblin (110).
+Add to stack: Ai(1)-Gen0_Deck23 triggered Wary Thespian (35)
+Resolve stack: Ai(1)-Gen0_Deck23 surveiled 1 card(s) to the top of the library
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (35)]
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Hedron Archive (109)
+Resolve stack: Hedron Archive
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (39)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Thornwood Falls (46) - {T}: Add {G} or {U}.
+Mana: Thornwood Falls (47) - {T}: Add {G} or {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (39) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Gnarlback Rhino (15)
+Resolve stack: Gnarlback Rhino - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Plains (93)
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck10 cast Battle-Rattle Shaman (61)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck10 triggered Battle-Rattle Shaman (61) targeting [Swiftblade Vindicator (75)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Swiftblade Vindicator (75)]]) [Phase: Ai(2)-Gen0_Deck10]
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Swiftblade Vindicator (75) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Swiftblade Vindicator (75).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Damage: Swiftblade Vindicator (75) deals 3 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Swiftblade Vindicator (75) deals 3 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Land: Ai(1)-Gen0_Deck23 played Island (42)
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Gnarlback Rhino (15) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Gnarlback Rhino (15).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Gnarlback Rhino (15) deals 4 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Mana: Island (39) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (42) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Storm Fleet Spy (23)
+Resolve stack: Storm Fleet Spy - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck23 triggered Storm Fleet Spy (23)
+Resolve stack: Raid — When Storm Fleet Spy enters, if you attacked this turn, draw a card. [Zone Changer: Storm Fleet Spy (23)]
+Mana: Thornwood Falls (46) - {T}: Add {G} or {U}.
+Mana: Thornwood Falls (47) - {T}: Add {G} or {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Dwynen's Elite (3)
+Resolve stack: Dwynen's Elite - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck10 triggered Battle-Rattle Shaman (61) targeting [Swiftblade Vindicator (75)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Swiftblade Vindicator (75)]]) [Phase: Ai(2)-Gen0_Deck10]
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Swiftblade Vindicator (75) to attack Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck23 didn't block Swiftblade Vindicator (75).
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Damage: Swiftblade Vindicator (75) deals 3 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Damage: Swiftblade Vindicator (75) deals 3 combat damage to Ai(1)-Gen0_Deck23.
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(2)-Gen0_Deck10 played Uncharted Haven (101)
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Gnarlback Rhino (15) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 didn't block Gnarlback Rhino (15).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Gnarlback Rhino (15) deals 4 combat damage to Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck23's End of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Main phase, postcombat
+Replacement Effect: Temple of Mystery enters tapped.
+Land: Ai(1)-Gen0_Deck23 played Temple of Mystery (48)
+Add to stack: Ai(1)-Gen0_Deck23 triggered Temple of Mystery (48)
+Resolve stack: Ai(1)-Gen0_Deck23 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Mystery enters, scry 1. [Zone Changer: Temple of Mystery (48)]
+Mana: Thornwood Falls (46) - {T}: Add {G} or {U}.
+Mana: Thornwood Falls (47) - {T}: Add {G} or {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (39) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck23 cast Ghalta, Primal Hunger (52)
+Resolve stack: Ghalta, Primal Hunger - Creature 12 / 12
+Phase: Ai(1)-Gen0_Deck23's End step
+Phase: Ai(1)-Gen0_Deck23's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck10)
+Phase: Ai(2)-Gen0_Deck10's Untap step
+Phase: Ai(2)-Gen0_Deck10's Upkeep step
+Phase: Ai(2)-Gen0_Deck10's Draw step
+Phase: Ai(2)-Gen0_Deck10's Main phase, precombat
+Land: Ai(2)-Gen0_Deck10 played Plains (95)
+Phase: Ai(2)-Gen0_Deck10's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck10 triggered Battle-Rattle Shaman (61) targeting [Swiftblade Vindicator (75)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Swiftblade Vindicator (75)]]) [Phase: Ai(2)-Gen0_Deck10]
+Phase: Ai(2)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck10's End of Combat Step
+Phase: Ai(2)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck10's End step
+Phase: Ai(2)-Gen0_Deck10's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck23)
+Phase: Ai(1)-Gen0_Deck23's Untap step
+Phase: Ai(1)-Gen0_Deck23's Upkeep step
+Phase: Ai(1)-Gen0_Deck23's Draw step
+Phase: Ai(1)-Gen0_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck23 assigned Ghalta, Primal Hunger (52), Gnarlback Rhino (15), Storm Fleet Spy (23) and Dwynen's Elite (3) to attack Ai(2)-Gen0_Deck10.
+Phase: Ai(1)-Gen0_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck10 assigned Swiftblade Vindicator (75) to block Dwynen's Elite (3).
+Ai(2)-Gen0_Deck10 assigned Battle-Rattle Shaman (61) to block Ghalta, Primal Hunger (52).
+Ai(2)-Gen0_Deck10 assigned Goblin Token (123) to block Storm Fleet Spy (23).
+Ai(2)-Gen0_Deck10 didn't block Gnarlback Rhino (15).
+Phase: Ai(1)-Gen0_Deck23's First Strike Damage Step
+Damage: Swiftblade Vindicator (75) deals 1 damage () to Dwynen's Elite (3).
+Phase: Ai(1)-Gen0_Deck23's Combat Damage Step
+Damage: Ghalta, Primal Hunger (52) deals 10 combat damage to Ai(2)-Gen0_Deck10.
+Damage: Ghalta, Primal Hunger (52) deals 2 damage () to Battle-Rattle Shaman (61).
+Damage: Gnarlback Rhino (15) deals 4 combat damage to Ai(2)-Gen0_Deck10.
+Damage: Storm Fleet Spy (23) deals 2 damage () to Goblin Token (123).
+Damage: Dwynen's Elite (3) deals 2 damage () to Swiftblade Vindicator (75).
+Damage: Goblin Token (123) deals 1 damage () to Storm Fleet Spy (23).
+Damage: Swiftblade Vindicator (75) deals 1 damage () to Dwynen's Elite (3).
+Damage: Battle-Rattle Shaman (61) deals 2 damage () to Ghalta, Primal Hunger (52).
+Player control: Ai(1)-Gen0_Deck23 is controlled by Ai(1)-Gen0_Deck23
+Player control: Ai(2)-Gen0_Deck10 is controlled by Ai(2)-Gen0_Deck10
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen0_Deck23 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck10 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck23: 1 Ai(2)-Gen0_Deck10: 0 
+
+Game Result: Game 1 ended in 13170 ms. Ai(1)-Gen0_Deck23 has won!
+
+
+=== STDERR ===

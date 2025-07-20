@@ -1,0 +1,360 @@
+=== COMBATE PARALELO: Gen1_Deck22 vs Gen1_Deck4 ===
+Worker ID: 3586372
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck22 Gen1_Deck4 -n 1
+Duración: 28.54 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2100 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 76 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck22 vs Ai(2)-Gen1_Deck4 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck22 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Swamp (77)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck22)
+Phase: Ai(1)-Gen1_Deck22's Untap step
+Phase: Ai(1)-Gen1_Deck22's Upkeep step
+Phase: Ai(1)-Gen1_Deck22's Draw step
+Phase: Ai(1)-Gen1_Deck22's Main phase, precombat
+Land: Ai(1)-Gen1_Deck22 played Plains (36)
+Phase: Ai(1)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck22's End of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck22's End step
+Phase: Ai(1)-Gen1_Deck22's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (113)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Heartfire Immolator (120)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck22)
+Phase: Ai(1)-Gen1_Deck22's Untap step
+Phase: Ai(1)-Gen1_Deck22's Upkeep step
+Phase: Ai(1)-Gen1_Deck22's Draw step
+Phase: Ai(1)-Gen1_Deck22's Main phase, precombat
+Land: Ai(1)-Gen1_Deck22 played Mountain (60)
+Phase: Ai(1)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck22's End of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck22 cast Swiftblade Vindicator (16)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck22's End step
+Phase: Ai(1)-Gen1_Deck22's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Swamp (79)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Heartfire Immolator (118)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck22)
+Phase: Ai(1)-Gen1_Deck22's Untap step
+Phase: Ai(1)-Gen1_Deck22's Upkeep step
+Phase: Ai(1)-Gen1_Deck22's Draw step
+Phase: Ai(1)-Gen1_Deck22's Main phase, precombat
+Land: Ai(1)-Gen1_Deck22 played Plains (37)
+Phase: Ai(1)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck22's End of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck22 cast Goblin Boarders (19)
+Resolve stack: Goblin Boarders - Creature 3 / 2
+Phase: Ai(1)-Gen1_Deck22's End step
+Phase: Ai(1)-Gen1_Deck22's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Swamp (74)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Heartfire Immolator (120) and Heartfire Immolator (118) to attack Ai(1)-Gen1_Deck22.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck22 didn't block Heartfire Immolator (118).
+Ai(1)-Gen1_Deck22 didn't block Heartfire Immolator (120).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Heartfire Immolator (120) deals 2 combat damage to Ai(1)-Gen1_Deck22.
+Damage: Heartfire Immolator (118) deals 2 combat damage to Ai(1)-Gen1_Deck22.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Dragonmaster Outcast (93)
+Resolve stack: Dragonmaster Outcast - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck22)
+Phase: Ai(1)-Gen1_Deck22's Untap step
+Phase: Ai(1)-Gen1_Deck22's Upkeep step
+Phase: Ai(1)-Gen1_Deck22's Draw step
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (37) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck22 cast Stasis Snare (46)
+Resolve stack: Stasis Snare
+Add to stack: Ai(1)-Gen1_Deck22 triggered Stasis Snare (46) targeting [Heartfire Immolator (120)]
+Resolve stack: When Stasis Snare enters, exile target creature an opponent controls until Stasis Snare leaves the battlefield. (Targeting: [[Heartfire Immolator (120)]]) [Zone Changer: Stasis Snare (46)]
+Phase: Ai(1)-Gen1_Deck22's Main phase, precombat
+Land: Ai(1)-Gen1_Deck22 played Plains (33)
+Phase: Ai(1)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck22 assigned Goblin Boarders (19) and Swiftblade Vindicator (16) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 didn't block Swiftblade Vindicator (16).
+Ai(2)-Gen1_Deck4 didn't block Goblin Boarders (19).
+Phase: Ai(1)-Gen1_Deck22's First Strike Damage Step
+Damage: Swiftblade Vindicator (16) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck22's Combat Damage Step
+Damage: Goblin Boarders (19) deals 3 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Swiftblade Vindicator (16) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck22's End of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck22's End step
+Phase: Ai(1)-Gen1_Deck22's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Evolving Wilds (88)
+Add to stack: Ai(2)-Gen1_Deck4 activated Evolving Wilds (88)
+Resolve stack: Evolving Wilds (88) - Ai(2)-Gen1_Deck4 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck22 cast Fleeting Flight (18) targeting [Goblin Boarders (19)]
+Resolve stack: Fleeting Flight (18) - Ai(1)-Gen1_Deck22 puts a +1/+1 counter on Goblin Boarders (19). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck22)
+Phase: Ai(1)-Gen1_Deck22's Untap step
+Phase: Ai(1)-Gen1_Deck22's Upkeep step
+Phase: Ai(1)-Gen1_Deck22's Draw step
+Phase: Ai(1)-Gen1_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck22 assigned Goblin Boarders (19) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 didn't block Goblin Boarders (19).
+Phase: Ai(1)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck22's Combat Damage Step
+Damage: Goblin Boarders (19) deals 4 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck22's End of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck22 cast Swiftblade Vindicator (13)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck22's End step
+Phase: Ai(1)-Gen1_Deck22's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Crawling Barrens (96)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Swamp (79) - {T}: Add {B}.
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Crawling Barrens (96) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Shivan Dragon (63)
+Resolve stack: Shivan Dragon - Creature 5 / 5
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck22)
+Phase: Ai(1)-Gen1_Deck22's Untap step
+Phase: Ai(1)-Gen1_Deck22's Upkeep step
+Phase: Ai(1)-Gen1_Deck22's Draw step
+Phase: Ai(1)-Gen1_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck22's End of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Main phase, postcombat
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck22 cast Searslicer Goblin (52)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck22's End step
+Phase: Ai(1)-Gen1_Deck22's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck4 triggered Dragonmaster Outcast (93)
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen1_Deck4]
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (111)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Shivan Dragon (63) to attack Ai(1)-Gen1_Deck22.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck22 didn't block Shivan Dragon (63).
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Shivan Dragon (63)
+Resolve stack: Shivan Dragon (63) - Shivan Dragon (63) gets +1/+0  until end of turn.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Shivan Dragon (63)
+Resolve stack: Shivan Dragon (63) - Shivan Dragon (63) gets +1/+0  until end of turn.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Shivan Dragon (63)
+Resolve stack: Shivan Dragon (63) - Shivan Dragon (63) gets +1/+0  until end of turn.
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Shivan Dragon (63) deals 8 combat damage to Ai(1)-Gen1_Deck22.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck22)
+Phase: Ai(1)-Gen1_Deck22's Untap step
+Phase: Ai(1)-Gen1_Deck22's Upkeep step
+Phase: Ai(1)-Gen1_Deck22's Draw step
+Phase: Ai(1)-Gen1_Deck22's Main phase, precombat
+Land: Ai(1)-Gen1_Deck22 played Plains (31)
+Phase: Ai(1)-Gen1_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck22's End of Combat Step
+Phase: Ai(1)-Gen1_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck22's End step
+Phase: Ai(1)-Gen1_Deck22's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck4 triggered Dragonmaster Outcast (93)
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen1_Deck4]
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (109)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Shivan Dragon (63), Dragon Token (123), Heartfire Immolator (118) and Dragonmaster Outcast (93) to attack Ai(1)-Gen1_Deck22.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck22 assigned Searslicer Goblin (52) to block Heartfire Immolator (118).
+Ai(1)-Gen1_Deck22 didn't block Dragon Token (123).
+Ai(1)-Gen1_Deck22 assigned Swiftblade Vindicator (16) to block Dragonmaster Outcast (93).
+Ai(1)-Gen1_Deck22 didn't block Shivan Dragon (63).
+Mana: Mountain (113) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Shivan Dragon (63)
+Resolve stack: Shivan Dragon (63) - Shivan Dragon (63) gets +1/+0  until end of turn.
+Mana: Mountain (112) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Shivan Dragon (63)
+Resolve stack: Shivan Dragon (63) - Shivan Dragon (63) gets +1/+0  until end of turn.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Shivan Dragon (63)
+Resolve stack: Shivan Dragon (63) - Shivan Dragon (63) gets +1/+0  until end of turn.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Shivan Dragon (63)
+Resolve stack: Shivan Dragon (63) - Shivan Dragon (63) gets +1/+0  until end of turn.
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Damage: Swiftblade Vindicator (16) deals 1 damage () to Dragonmaster Outcast (93).
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Shivan Dragon (63) deals 9 combat damage to Ai(1)-Gen1_Deck22.
+Damage: Dragon Token (123) deals 5 combat damage to Ai(1)-Gen1_Deck22.
+Damage: Heartfire Immolator (118) deals 2 damage () to Searslicer Goblin (52).
+Damage: Searslicer Goblin (52) deals 2 damage () to Heartfire Immolator (118).
+Player control: Ai(1)-Gen1_Deck22 is controlled by Ai(1)-Gen1_Deck22
+Player control: Ai(2)-Gen1_Deck4 is controlled by Ai(2)-Gen1_Deck4
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen1_Deck22 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck4 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck22: 0 Ai(2)-Gen1_Deck4: 1 
+
+Game Result: Game 1 ended in 14902 ms. Ai(2)-Gen1_Deck4 has won!
+
+
+=== STDERR ===

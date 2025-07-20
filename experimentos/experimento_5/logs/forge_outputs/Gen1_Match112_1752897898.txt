@@ -1,0 +1,800 @@
+=== COMBATE PARALELO: Gen1_Deck5 vs Gen1_Deck7 ===
+Worker ID: 3586371
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck5 Gen1_Deck7 -n 1
+Duración: 49.74 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2203 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 197 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck5 vs Ai(2)-Gen1_Deck7 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck5 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Island (18)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Island (101)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (47)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (73)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Island (101) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Knight of Malice (115)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Eaten by Piranhas (36) targeting [Knight of Malice (115)]
+Resolve stack: Eaten by Piranhas (36) -  Attach to Knight of Malice (115)
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Plains (15)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Island (99)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (46)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (68)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Island (104)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Island (16)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (74)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Island (102)
+Mana: Island (101) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Basilisk Collar (108)
+Resolve stack: Basilisk Collar
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 activated Basilisk Collar (108) targeting [Knight of Malice (115)]
+Resolve stack: Basilisk Collar (108) -  Attach to Knight of Malice (115)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Eaten by Piranhas (37) targeting [Knight of Malice (115)]
+Resolve stack: Eaten by Piranhas (37) -  Attach to Knight of Malice (115)
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (67)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Mazemind Tome (52)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (78)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck5 activated Mazemind Tome (52)
+Resolve stack: Ai(1)-Gen1_Deck5 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (52) - Ai(1)-Gen1_Deck5 scries 1.
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Island (17)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Island (18) - {T}: Add {U}.
+Mana: Island (16) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Plains (15) - {T}: Add {W}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Grappling Kraken (34)
+Resolve stack: Grappling Kraken - Creature 5 / 6
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Island (101) - {T}: Add {U}.
+Mana: Island (99) - {T}: Add {U}.
+Mana: Swamp (68) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Deadly Plot (83)
+Resolve stack: Deadly Plot (83) -  Destroy target creature or planeswalker. (Targeting: Grappling Kraken (34))
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck5 activated Mazemind Tome (52)
+Resolve stack: Ai(1)-Gen1_Deck5 scried 1 card(s) to the bottom of the library
+Resolve stack: Mazemind Tome (52) - Ai(1)-Gen1_Deck5 scries 1.
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Island (96)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Add to stack: Ai(1)-Gen1_Deck5 activated Mazemind Tome (52)
+Resolve stack: Ai(1)-Gen1_Deck5 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (52) - Ai(1)-Gen1_Deck5 scries 1.
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Plains (15) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Pirate's Cutlass (24)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (76)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Knight of Malice (115) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Damage: Knight of Malice (115) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Mana: Island (101) - {T}: Add {U}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Rune-Sealed Wall (86)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Gleaming Barrier (38)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Mana: Plains (15) - {T}: Add {W}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 activated Mazemind Tome (52)
+Add to stack: Ai(1)-Gen1_Deck5 triggered Mazemind Tome (52)
+Mana: Swamp (68) - {T}: Add {B}.
+Mana: Island (104) - {T}: Add {U}.
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Deadly Plot (85)
+Resolve stack: Deadly Plot (85) -  Destroy target creature or planeswalker. (Targeting: Gleaming Barrier (38))
+Add to stack: Ai(1)-Gen1_Deck5 triggered Gleaming Barrier (38)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (38)]
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (52) - Ai(1)-Gen1_Deck5 draws a card.
+Mana: Treasure Token (123) - {T}, Sacrifice this artifact: Add one mana of any color.
+Mana: Island (16) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Swab Goblin (31)
+Resolve stack: Swab Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Demolition Field (118)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 activated Pirate's Cutlass (24) targeting [Swab Goblin (31)]
+Resolve stack: Pirate's Cutlass (24) -  Attach to Swab Goblin (31)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Add to stack: Ai(2)-Gen1_Deck7 activated Rune-Sealed Wall (86)
+Resolve stack: Ai(2)-Gen1_Deck7 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (86) - Ai(2)-Gen1_Deck7 surveils (1).
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Mana: Island (101) - {T}: Add {U}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Rune-Sealed Wall (89)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Island (18) - {T}: Add {U}.
+Mana: Plains (15) - {T}: Add {W}.
+Mana: Island (16) - {T}: Add {U}.
+Mana: Island (17) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Liliana, Dreadhorde General (28)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(1)-Gen1_Deck5 activated Liliana, Dreadhorde General (28)
+Resolve stack: Liliana, Dreadhorde General (28) - Ai(1)-Gen1_Deck5 and Ai(2)-Gen1_Deck7 sacrifice two creatures.
+Add to stack: Ai(1)-Gen1_Deck5 triggered Liliana, Dreadhorde General (28)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Swab Goblin (31)]
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Discard: Ai(1)-Gen1_Deck5 discards Rise of the Dark Realms (50).
+Turn: Turn 28 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (77)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Forest (13)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Add to stack: Ai(1)-Gen1_Deck5 activated Liliana, Dreadhorde General (28)
+Resolve stack: Liliana, Dreadhorde General (28) - Ai(1)-Gen1_Deck5 creates a 2/2 black Zombie creature token.
+Mana: Island (18) - {T}: Add {U}.
+Mana: Island (16) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Plains (15) - {T}: Add {W}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Shipwreck Dowser (40)
+Resolve stack: Shipwreck Dowser - Creature 3 / 3
+Add to stack: Ai(1)-Gen1_Deck5 triggered Shipwreck Dowser (40) targeting [Rise of the Dark Realms (50)]
+Resolve stack: When Shipwreck Dowser enters, return target instant or sorcery card from your graveyard to your hand. (Targeting: [[Rise of the Dark Realms (50)]]) [Zone Changer: Shipwreck Dowser (40)]
+Mana: Island (17) - {T}: Add {U}.
+Mana: Forest (13) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck5 activated Pirate's Cutlass (24) targeting [Shipwreck Dowser (40)]
+Resolve stack: Pirate's Cutlass (24) -  Attach to Shipwreck Dowser (40)
+Phase: Ai(1)-Gen1_Deck5's End step
+Add to stack: Ai(2)-Gen1_Deck7 activated Rune-Sealed Wall (89)
+Resolve stack: Ai(2)-Gen1_Deck7 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (89) - Ai(2)-Gen1_Deck7 surveils (1).
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Mana: Island (101) - {T}: Add {U}.
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Island (99) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Rune-Sealed Wall (87)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 31 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Mountain (59)
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Island (18) - {T}: Add {U}.
+Mana: Plains (15) - {T}: Add {W}.
+Mana: Island (16) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Painful Quandary (53)
+Add to stack: Ai(1)-Gen1_Deck5 triggered Shipwreck Dowser (40)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Painful Quandary (53), Activator: Ai(1)-Gen1_Deck5, SpellAbility: Painful Quandary]
+Resolve stack: Painful Quandary
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Shipwreck Dowser (40) and Zombie Token (128) to attack Ai(2)-Gen1_Deck7.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Fleeting Distraction (62) targeting [Shipwreck Dowser (40)]
+Add to stack: Ai(1)-Gen1_Deck5 triggered Painful Quandary (53)
+Mana: Island (102) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Fleeting Distraction (64) targeting [Shipwreck Dowser (40)]
+Add to stack: Ai(1)-Gen1_Deck5 triggered Painful Quandary (53)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Fleeting Distraction (64), Activator: Ai(2)-Gen1_Deck7, SpellAbility: Target creature gets -1/-0 until end of turn. Draw a card.]
+Resolve stack: Fleeting Distraction (64) - Shipwreck Dowser (40) gets -1/-0  until end of turn. Ai(2)-Gen1_Deck7 draws a card.
+Discard: Ai(2)-Gen1_Deck7 discards Swamp (75).
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Fleeting Distraction (62), Activator: Ai(2)-Gen1_Deck7, SpellAbility: Target creature gets -1/-0 until end of turn. Draw a card.]
+Resolve stack: Fleeting Distraction (62) - Shipwreck Dowser (40) gets -1/-0  until end of turn. Ai(2)-Gen1_Deck7 draws a card.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck7 assigned Rune-Sealed Wall (87) to block Zombie Token (128).
+Ai(2)-Gen1_Deck7 assigned Rune-Sealed Wall (89) to block Shipwreck Dowser (40).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Shipwreck Dowser (40) deals 4 damage () to Rune-Sealed Wall (89).
+Damage: Zombie Token (128) deals 2 damage () to Rune-Sealed Wall (87).
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Add to stack: Ai(1)-Gen1_Deck5 activated Liliana, Dreadhorde General (28)
+Resolve stack: Liliana, Dreadhorde General (28) - Ai(1)-Gen1_Deck5 creates a 2/2 black Zombie creature token.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Island (17) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Swab Goblin (29)
+Resolve stack: Swab Goblin - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck5's End step
+Add to stack: Ai(2)-Gen1_Deck7 activated Rune-Sealed Wall (89)
+Resolve stack: Ai(2)-Gen1_Deck7 surveiled 1 card(s) to the graveyard
+Resolve stack: Rune-Sealed Wall (89) - Ai(2)-Gen1_Deck7 surveils (1).
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 32 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Land: Ai(2)-Gen1_Deck7 played Swamp (79)
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Mana: Swamp (73) - {T}: Add {B}.
+Mana: Island (101) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Knight of Malice (117)
+Add to stack: Ai(1)-Gen1_Deck5 triggered Painful Quandary (53)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Knight of Malice (117), Activator: Ai(2)-Gen1_Deck7, SpellAbility: Knight of Malice - Creature 2 / 2]
+Resolve stack: Knight of Malice - Creature 2 / 2
+Mana: Island (99) - {T}: Add {U}.
+Mana: Swamp (68) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck7 activated Basilisk Collar (108) targeting [Knight of Malice (117)]
+Resolve stack: Basilisk Collar (108) -  Attach to Knight of Malice (117)
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 33 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Add to stack: Ai(1)-Gen1_Deck5 activated Liliana, Dreadhorde General (28)
+Resolve stack: Liliana, Dreadhorde General (28) - Ai(1)-Gen1_Deck5 and Ai(2)-Gen1_Deck7 sacrifice two creatures.
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Plains (15) - {T}: Add {W}.
+Mana: Swamp (46) - {T}: Add {B}.
+Mana: Island (16) - {T}: Add {U}.
+Mana: Island (17) - {T}: Add {U}.
+Mana: Forest (13) - {T}: Add {G}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Gate Colossus (32)
+Resolve stack: Gate Colossus - Creature 8 / 8
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 34 (Ai(2)-Gen1_Deck7)
+Phase: Ai(2)-Gen1_Deck7's Untap step
+Phase: Ai(2)-Gen1_Deck7's Upkeep step
+Phase: Ai(2)-Gen1_Deck7's Draw step
+Phase: Ai(2)-Gen1_Deck7's Main phase, precombat
+Mana: Island (101) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck7 cast Basilisk Collar (109)
+Add to stack: Ai(1)-Gen1_Deck5 triggered Painful Quandary (53)
+Resolve stack: Whenever an opponent casts a spell, that player loses 5 life unless they discard a card. [Card: Basilisk Collar (109), Activator: Ai(2)-Gen1_Deck7, SpellAbility: Basilisk Collar]
+Resolve stack: Basilisk Collar
+Phase: Ai(2)-Gen1_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck7's End of Combat Step
+Phase: Ai(2)-Gen1_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck7's End step
+Phase: Ai(2)-Gen1_Deck7's Cleanup step
+Turn: Turn 35 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Island (18) - {T}: Add {U}.
+Mana: Swamp (47) - {T}: Add {B}.
+Mana: Plains (15) - {T}: Add {W}.
+Mana: Swamp (46) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Burst Lightning (3) targeting [Ai(2)-Gen1_Deck7]
+Add to stack: Ai(1)-Gen1_Deck5 triggered Shipwreck Dowser (40)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Burst Lightning (3), Activator: Ai(1)-Gen1_Deck5, SpellAbility: Burst Lightning deals 2 damage to any target. If Burst Lightning was kicked, it deals 4 damage instead.]
+Damage: Burst Lightning (3) deals 4 non-combat damage to Ai(2)-Gen1_Deck7.
+Resolve stack: Burst Lightning (3) - Burst Lightning (3) deals 4 damage to Ai(2)-Gen1_Deck7.
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Gate Colossus (32), Shipwreck Dowser (40) and Swab Goblin (29) to attack Ai(2)-Gen1_Deck7.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck7 didn't block Gate Colossus (32).
+Ai(2)-Gen1_Deck7 assigned Knight of Malice (117) to block Shipwreck Dowser (40).
+Ai(2)-Gen1_Deck7 didn't block Swab Goblin (29).
+Mana: Forest (13) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Giant Growth (26) targeting [Gate Colossus (32)]
+Add to stack: Ai(1)-Gen1_Deck5 triggered Shipwreck Dowser (40)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Giant Growth (26), Activator: Ai(1)-Gen1_Deck5, SpellAbility: Target creature gets +3/+3 until end of turn.]
+Resolve stack: Giant Growth (26) - Gate Colossus (32) gets +3/+3  until end of turn.
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Damage: Knight of Malice (117) deals 2 damage (Deathtouch) to Shipwreck Dowser (40).
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Gate Colossus (32) deals 11 combat damage to Ai(2)-Gen1_Deck7.
+Damage: Swab Goblin (29) deals 2 combat damage to Ai(2)-Gen1_Deck7.
+Player control: Ai(1)-Gen1_Deck5 is controlled by Ai(1)-Gen1_Deck5
+Player control: Ai(2)-Gen1_Deck7 is controlled by Ai(2)-Gen1_Deck7
+Game outcome: Turn 18
+Game outcome: Ai(1)-Gen1_Deck5 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck7 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck5: 1 Ai(2)-Gen1_Deck7: 0 
+
+Game Result: Game 1 ended in 35785 ms. Ai(1)-Gen1_Deck5 has won!
+
+
+=== STDERR ===

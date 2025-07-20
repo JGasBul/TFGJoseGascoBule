@@ -1,0 +1,298 @@
+=== COMBATE PARALELO: Gen1_Deck15 vs Gen1_Deck24 ===
+Worker ID: 3839296
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck15 Gen1_Deck24 -n 1
+Duración: 24.93 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1911 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 105 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck15 vs Ai(2)-Gen1_Deck24 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck24 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck15 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck24)
+Phase: Ai(2)-Gen1_Deck24's Untap step
+Phase: Ai(2)-Gen1_Deck24's Upkeep step
+Phase: Ai(2)-Gen1_Deck24's Draw step
+Phase: Ai(2)-Gen1_Deck24's Main phase, precombat
+Land: Ai(2)-Gen1_Deck24 played Crawling Barrens (102)
+Phase: Ai(2)-Gen1_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck24's End of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck24's End step
+Phase: Ai(2)-Gen1_Deck24's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (27)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Pulse Tracker (34)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck24)
+Phase: Ai(2)-Gen1_Deck24's Untap step
+Phase: Ai(2)-Gen1_Deck24's Upkeep step
+Phase: Ai(2)-Gen1_Deck24's Draw step
+Phase: Ai(2)-Gen1_Deck24's Main phase, precombat
+Land: Ai(2)-Gen1_Deck24 played Mountain (111)
+Phase: Ai(2)-Gen1_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck24's End of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck24's End step
+Phase: Ai(2)-Gen1_Deck24's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (20)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Pulse Tracker (34) to attack Ai(2)-Gen1_Deck24.
+Add to stack: Ai(1)-Gen1_Deck15 triggered Pulse Tracker (34)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (34)]
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck24 didn't block Pulse Tracker (34).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Pulse Tracker (34) deals 1 combat damage to Ai(2)-Gen1_Deck24.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Pilfer (32) targeting [Ai(2)-Gen1_Deck24]
+Discard: Ai(2)-Gen1_Deck24 discards Myojin of Night's Reach (83).
+Resolve stack: Pilfer (32) - Ai(2)-Gen1_Deck24 reveals their hand. Ai(1)-Gen1_Deck15 chooses a nonland card from it. Ai(2)-Gen1_Deck24 discards that card.
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck24)
+Phase: Ai(2)-Gen1_Deck24's Untap step
+Phase: Ai(2)-Gen1_Deck24's Upkeep step
+Phase: Ai(2)-Gen1_Deck24's Draw step
+Phase: Ai(2)-Gen1_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck24's End of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck24's End step
+Phase: Ai(2)-Gen1_Deck24's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Evolving Wilds (40)
+Add to stack: Ai(1)-Gen1_Deck15 activated Evolving Wilds (40)
+Resolve stack: Evolving Wilds (40) - Ai(1)-Gen1_Deck15 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Pulse Tracker (34) to attack Ai(2)-Gen1_Deck24.
+Add to stack: Ai(1)-Gen1_Deck15 triggered Pulse Tracker (34)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (34)]
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck24 didn't block Pulse Tracker (34).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Pulse Tracker (34) deals 1 combat damage to Ai(2)-Gen1_Deck24.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck24)
+Phase: Ai(2)-Gen1_Deck24's Untap step
+Phase: Ai(2)-Gen1_Deck24's Upkeep step
+Phase: Ai(2)-Gen1_Deck24's Draw step
+Phase: Ai(2)-Gen1_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck24's End of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck24's End step
+Phase: Ai(2)-Gen1_Deck24's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Evolving Wilds (39)
+Add to stack: Ai(1)-Gen1_Deck15 activated Evolving Wilds (39)
+Resolve stack: Evolving Wilds (39) - Ai(1)-Gen1_Deck15 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Pulse Tracker (34) to attack Ai(2)-Gen1_Deck24.
+Add to stack: Ai(1)-Gen1_Deck15 triggered Pulse Tracker (34)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (34)]
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck24 didn't block Pulse Tracker (34).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Pulse Tracker (34) deals 1 combat damage to Ai(2)-Gen1_Deck24.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck24)
+Phase: Ai(2)-Gen1_Deck24's Untap step
+Phase: Ai(2)-Gen1_Deck24's Upkeep step
+Phase: Ai(2)-Gen1_Deck24's Draw step
+Phase: Ai(2)-Gen1_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck24's End of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck24's End step
+Phase: Ai(2)-Gen1_Deck24's Cleanup step
+Discard: Ai(2)-Gen1_Deck24 discards Liliana, Dreadhorde General (66).
+Turn: Turn 10 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (18)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Pulse Tracker (34) to attack Ai(2)-Gen1_Deck24.
+Add to stack: Ai(1)-Gen1_Deck15 triggered Pulse Tracker (34)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (34)]
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck24 didn't block Pulse Tracker (34).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Pulse Tracker (34) deals 1 combat damage to Ai(2)-Gen1_Deck24.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Juggernaut (8)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck24)
+Phase: Ai(2)-Gen1_Deck24's Untap step
+Phase: Ai(2)-Gen1_Deck24's Upkeep step
+Phase: Ai(2)-Gen1_Deck24's Draw step
+Phase: Ai(2)-Gen1_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck24's End of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck24's End step
+Phase: Ai(2)-Gen1_Deck24's Cleanup step
+Discard: Ai(2)-Gen1_Deck24 discards Garna, Bloodfist of Keld (87).
+Turn: Turn 12 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Juggernaut (8) and Pulse Tracker (34) to attack Ai(2)-Gen1_Deck24.
+Add to stack: Ai(1)-Gen1_Deck15 triggered Pulse Tracker (34)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (34)]
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck24 didn't block Pulse Tracker (34).
+Ai(2)-Gen1_Deck24 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen1_Deck24.
+Damage: Pulse Tracker (34) deals 1 combat damage to Ai(2)-Gen1_Deck24.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (27) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Infestation Sage (2)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck24)
+Phase: Ai(2)-Gen1_Deck24's Untap step
+Phase: Ai(2)-Gen1_Deck24's Upkeep step
+Phase: Ai(2)-Gen1_Deck24's Draw step
+Phase: Ai(2)-Gen1_Deck24's Main phase, precombat
+Land: Ai(2)-Gen1_Deck24 played Crawling Barrens (101)
+Phase: Ai(2)-Gen1_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck24's End of Combat Step
+Phase: Ai(2)-Gen1_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck24's End step
+Phase: Ai(2)-Gen1_Deck24's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Juggernaut (8), Pulse Tracker (34) and Infestation Sage (2) to attack Ai(2)-Gen1_Deck24.
+Add to stack: Ai(1)-Gen1_Deck15 triggered Pulse Tracker (34)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (34)]
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck24 didn't block Pulse Tracker (34).
+Ai(2)-Gen1_Deck24 didn't block Infestation Sage (2).
+Ai(2)-Gen1_Deck24 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen1_Deck24.
+Damage: Pulse Tracker (34) deals 1 combat damage to Ai(2)-Gen1_Deck24.
+Damage: Infestation Sage (2) deals 1 combat damage to Ai(2)-Gen1_Deck24.
+Player control: Ai(1)-Gen1_Deck15 is controlled by Ai(1)-Gen1_Deck15
+Player control: Ai(2)-Gen1_Deck24 is controlled by Ai(2)-Gen1_Deck24
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen1_Deck15 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck24 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck15: 1 Ai(2)-Gen1_Deck24: 0 
+
+Game Result: Game 1 ended in 12175 ms. Ai(1)-Gen1_Deck15 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,937 @@
+=== COMBATE PARALELO: Gen1_Deck9 vs Gen1_Deck23 ===
+Worker ID: 3586373
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck9 Gen1_Deck23 -n 1
+Duración: 68.98 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2344 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 173 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck9 vs Ai(2)-Gen1_Deck23 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck9 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck23 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Soulstone Sanctuary (20)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Replacement Effect: Simic Guildgate enters tapped.
+Land: Ai(2)-Gen1_Deck23 played Simic Guildgate (119)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Swamp (40)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (20) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Gleaming Barrier (33)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Island (103)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Simic Guildgate (119) - {T}: Add {U} or {G}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Diamond Mare (70)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Island (17)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (20) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Vampire Spawn (22)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(1)-Gen1_Deck9 triggered Vampire Spawn (22)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (22)]
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Demolition Field (57)
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck9 activated Demolition Field (57) targeting [Simic Guildgate (119)]
+Resolve stack: Demolition Field (57) - Destroy Simic Guildgate (119). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen1_Deck9 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Discard: Ai(2)-Gen1_Deck23 discards Biogenic Upgrade (71).
+Turn: Turn 9 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Swamp (44)
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Mana: Island (12) - {T}: Add {U}.
+Mana: Swamp (44) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck9 activated Soulstone Sanctuary (20)
+Resolve stack: Soulstone Sanctuary (20) - Soulstone Sanctuary (20) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Soulstone Sanctuary (20) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Soulstone Sanctuary (20).
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Damage: Soulstone Sanctuary (20) deals 3 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(2)-Gen1_Deck23 played Thornwood Falls (112)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Thornwood Falls (112)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (112)]
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Island (14)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Soulstone Sanctuary (20) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Soulstone Sanctuary (20).
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Damage: Soulstone Sanctuary (20) deals 3 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Beast-Kin Ranger (99)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Beast-Kin Ranger (99), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Beast-Kin Ranger - Creature 3 / 3]
+Resolve stack: Beast-Kin Ranger - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Mana: Island (17) - {T}: Add {U}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (12) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Exclusion Mage (7)
+Resolve stack: Exclusion Mage - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck9 triggered Exclusion Mage (7) targeting [Beast-Kin Ranger (99)]
+Resolve stack: When Exclusion Mage enters, return target creature an opponent controls to its owner's hand. (Targeting: [[Beast-Kin Ranger (99)]]) [Zone Changer: Exclusion Mage (7)]
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Beast-Kin Ranger (100)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Beast-Kin Ranger (100), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Beast-Kin Ranger - Creature 3 / 3]
+Resolve stack: Beast-Kin Ranger - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Discard: Ai(2)-Gen1_Deck23 discards Primeval Bounty (102).
+Turn: Turn 15 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen1_Deck9 played Secluded Courtyard (50)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Soulstone Sanctuary (20) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Beast-Kin Ranger (100) to block Soulstone Sanctuary (20).
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Damage: Soulstone Sanctuary (20) deals 3 damage () to Beast-Kin Ranger (100).
+Damage: Beast-Kin Ranger (100) deals 3 damage () to Soulstone Sanctuary (20).
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Eager Trufflesnout (84)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Eager Trufflesnout (84), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Eager Trufflesnout - Creature 4 / 2]
+Resolve stack: Eager Trufflesnout - Creature 4 / 2
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Forest (98)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Solemn Simulacrum (68)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck23 triggered Solemn Simulacrum (68)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (68)]
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Mana: Island (17) - {T}: Add {U}.
+Mana: Swamp (40) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Mischievous Mystic (24)
+Resolve stack: Mischievous Mystic - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Overrun (74)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Overrun (74), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Creatures you control get +3/+3 and gain trample until end of turn.]
+Resolve stack: Overrun (74) - Creatures you control get +3/+3 and gain trample until end of turn.
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Eager Trufflesnout (84), Solemn Simulacrum (68) and Diamond Mare (70) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 didn't block Eager Trufflesnout (84).
+Ai(1)-Gen1_Deck9 didn't block Solemn Simulacrum (68).
+Ai(1)-Gen1_Deck9 didn't block Diamond Mare (70).
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Damage: Eager Trufflesnout (84) deals 7 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Solemn Simulacrum (68) deals 5 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Diamond Mare (70) deals 4 combat damage to Ai(1)-Gen1_Deck9.
+Add to stack: Ai(2)-Gen1_Deck23 triggered Eager Trufflesnout (84)
+Resolve stack: Whenever this creature deals combat damage to a player, create a Food token. (It's an artifact with "{2}, {T} Sacrifice this token: You gain 3 life.") [Damage Source: Eager Trufflesnout (84), Damaged: Ai(1)-Gen1_Deck9, Amount: 7]
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Vampire Spawn (22) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Vampire Spawn (22).
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Damage: Vampire Spawn (22) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Eager Trufflesnout (84) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Exclusion Mage (7) to block Eager Trufflesnout (84).
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Damage: Eager Trufflesnout (84) deals 2 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Eager Trufflesnout (84) deals 2 damage () to Exclusion Mage (7).
+Damage: Exclusion Mage (7) deals 2 damage () to Eager Trufflesnout (84).
+Add to stack: Ai(2)-Gen1_Deck23 triggered Eager Trufflesnout (84)
+Resolve stack: Whenever this creature deals combat damage to a player, create a Food token. (It's an artifact with "{2}, {T} Sacrifice this token: You gain 3 life.") [Damage Source: Eager Trufflesnout (84), Damaged: Ai(1)-Gen1_Deck9, Amount: 2]
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Island (103) - {T}: Add {U}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Zimone, Paradox Sculptor (88)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Zimone, Paradox Sculptor (88), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Zimone, Paradox Sculptor - Creature 1 / 4]
+Resolve stack: Zimone, Paradox Sculptor - Creature 1 / 4
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Mana: Island (12) - {T}: Add {U}.
+Mana: Swamp (44) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Deadly Plot (46)
+Resolve stack: Deadly Plot (46) -  Destroy target creature or planeswalker. (Targeting: Zimone, Paradox Sculptor (88))
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Land: Ai(2)-Gen1_Deck23 played Forest (97)
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Grappling Kraken (79)
+Resolve stack: Grappling Kraken - Creature 5 / 6
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Swamp (39)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Adaptive Automaton (117)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Grappling Kraken (79) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Gleaming Barrier (33) to block Grappling Kraken (79).
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Damage: Grappling Kraken (79) deals 5 damage () to Gleaming Barrier (33).
+Add to stack: Ai(1)-Gen1_Deck9 triggered Gleaming Barrier (33)
+Resolve stack: When Gleaming Barrier dies, create a Treasure token. [Zone Changer: Gleaming Barrier (33)]
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Beast-Kin Ranger (99)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Beast-Kin Ranger (99), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Beast-Kin Ranger - Creature 3 / 3]
+Resolve stack: Beast-Kin Ranger - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Island (10)
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Mana: Island (12) - {T}: Add {U}.
+Mana: Island (14) - {T}: Add {U}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Island (10) - {T}: Add {U}.
+Mana: Secluded Courtyard (50) - {T}: Add {C}.
+Mana: Treasure Token (129) - {T}, Sacrifice this artifact: Add one mana of any color.
+Add to stack: Ai(1)-Gen1_Deck9 cast Rise of the Dark Realms (51)
+Resolve stack: Rise of the Dark Realms (51) - Put all creature cards in all graveyards onto the battlefield under your control.
+Add to stack: Ai(1)-Gen1_Deck9 triggered Exclusion Mage (7) targeting [Grappling Kraken (79)]
+Add to stack: Ai(1)-Gen1_Deck9 triggered Beast-Kin Ranger (100)
+Add to stack: Ai(1)-Gen1_Deck9 triggered Beast-Kin Ranger (100)
+Add to stack: Ai(1)-Gen1_Deck9 triggered Beast-Kin Ranger (100)
+Add to stack: Ai(1)-Gen1_Deck9 triggered Beast-Kin Ranger (100)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Zimone, Paradox Sculptor (88)]
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Eager Trufflesnout (84)]
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Gleaming Barrier (33)]
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Exclusion Mage (7)]
+Resolve stack: When Exclusion Mage enters, return target creature an opponent controls to its owner's hand. (Targeting: [[Grappling Kraken (79)]]) [Zone Changer: Exclusion Mage (7)]
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck9 triggered Zimone, Paradox Sculptor (88) targeting [Beast-Kin Ranger (100), Eager Trufflesnout (84)]
+Resolve stack: At the beginning of combat on your turn, put a +1/+1 counter on each of up to two target creatures you control. (Targeting: [[Beast-Kin Ranger (100), Eager Trufflesnout (84)]]) [Phase: Ai(1)-Gen1_Deck9]
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Mischievous Mystic (24) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Mischievous Mystic (24).
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Damage: Mischievous Mystic (24) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Grappling Kraken (79)
+Resolve stack: Grappling Kraken - Creature 5 / 6
+Add to stack: Ai(2)-Gen1_Deck23 triggered Beast-Kin Ranger (99)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Grappling Kraken (79)]
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Beast-Kin Ranger (99) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Vampire Spawn (22) and Zimone, Paradox Sculptor (88) to block Beast-Kin Ranger (99).
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Damage: Beast-Kin Ranger (99) deals 3 damage () to Vampire Spawn (22).
+Damage: Beast-Kin Ranger (99) deals 1 damage () to Zimone, Paradox Sculptor (88).
+Damage: Vampire Spawn (22) deals 2 damage () to Beast-Kin Ranger (99).
+Damage: Zimone, Paradox Sculptor (88) deals 1 damage () to Beast-Kin Ranger (99).
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Mana: Island (12) - {T}: Add {U}.
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Island (14) - {T}: Add {U}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Island (10) - {T}: Add {U}.
+Mana: Secluded Courtyard (50) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Gate Colossus (29)
+Resolve stack: Gate Colossus - Creature 8 / 8
+Add to stack: Ai(1)-Gen1_Deck9 triggered Beast-Kin Ranger (100)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Gate Colossus (29)]
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck9 triggered Zimone, Paradox Sculptor (88) targeting [Gate Colossus (29), Beast-Kin Ranger (100)]
+Resolve stack: At the beginning of combat on your turn, put a +1/+1 counter on each of up to two target creatures you control. (Targeting: [[Gate Colossus (29), Beast-Kin Ranger (100)]]) [Phase: Ai(1)-Gen1_Deck9]
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Mischievous Mystic (24) to attack Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Mischievous Mystic (24).
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Damage: Mischievous Mystic (24) deals 2 combat damage to Ai(2)-Gen1_Deck23.
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(2)-Gen1_Deck23 played Thornwood Falls (111)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Grappling Kraken (79) targeting [Gate Colossus (29)]
+Add to stack: Ai(2)-Gen1_Deck23 triggered Thornwood Falls (111)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (111)]
+Resolve stack: Landfall — Whenever a land you control enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.) (Targeting: [[Gate Colossus (29)]]) [Zone Changer: Thornwood Falls (111)]
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Grappling Kraken (79) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Zimone, Paradox Sculptor (88) and Beast-Kin Ranger (100) to block Grappling Kraken (79).
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Damage: Grappling Kraken (79) deals 1 damage () to Beast-Kin Ranger (100).
+Damage: Grappling Kraken (79) deals 4 damage () to Zimone, Paradox Sculptor (88).
+Damage: Zimone, Paradox Sculptor (88) deals 1 damage () to Grappling Kraken (79).
+Damage: Beast-Kin Ranger (100) deals 5 damage () to Grappling Kraken (79).
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Island (103) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Thrashing Brontodon (114)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Thrashing Brontodon (114), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Thrashing Brontodon - Creature 3 / 4]
+Resolve stack: Thrashing Brontodon - Creature 3 / 4
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Thornwood Falls (112) - {T}: Add {G} or {U}.
+Mana: Island (105) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Thrashing Brontodon (116)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Thrashing Brontodon (116), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Thrashing Brontodon - Creature 3 / 4]
+Resolve stack: Thrashing Brontodon - Creature 3 / 4
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 31 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(1)-Gen1_Deck9 played Temple of Deceit (9)
+Add to stack: Ai(1)-Gen1_Deck9 triggered Temple of Deceit (9)
+Resolve stack: Ai(1)-Gen1_Deck9 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (9)]
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 32 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Mana: Island (17) - {T}: Add {U}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (12) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck9 cast Faebloom Trick (23)
+Resolve stack: Faebloom Trick (23) - Ai(1)-Gen1_Deck9 creates two 1/1 blue Faerie creature tokens with flying. When you do, tap target creature an opponent controls. When you do, tap target creature an opponent controls. 
+Add to stack: Ai(1)-Gen1_Deck9 triggered Faebloom Trick (23) targeting [Solemn Simulacrum (68)]
+Add to stack: Ai(1)-Gen1_Deck9 triggered Beast-Kin Ranger (100)
+Add to stack: Ai(1)-Gen1_Deck9 triggered Beast-Kin Ranger (100)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Faerie Token (149)]
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Faerie Token (148)]
+Resolve stack: When you do, tap target creature an opponent controls. (Targeting: [[Solemn Simulacrum (68)]])
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Kaito, Cunning Infiltrator (82)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(2)-Gen1_Deck23 activated Kaito, Cunning Infiltrator (82)
+Resolve stack: Kaito, Cunning Infiltrator (82) - Ai(2)-Gen1_Deck23 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 33 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Demolition Field (58)
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Island (17) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck9 activated Demolition Field (58) targeting [Thornwood Falls (111)]
+Resolve stack: Demolition Field (58) - Destroy Thornwood Falls (111). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen1_Deck9 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Gate Colossus (29) to attack Kaito, Cunning Infiltrator (82).
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck23 didn't block Gate Colossus (29).
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Mana: Island (104) - {T}: Add {U}.
+Mana: Forest (98) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Elementalist Adept (64)
+Resolve stack: Elementalist Adept - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 34 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Kaito, Cunning Infiltrator (80)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Elementalist Adept (64)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Kaito, Cunning Infiltrator (80), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Kaito, Cunning Infiltrator]
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(2)-Gen1_Deck23 activated Kaito, Cunning Infiltrator (80)
+Resolve stack: Kaito, Cunning Infiltrator (80) - Ai(2)-Gen1_Deck23 creates a 2/1 blue Ninja creature token.
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Beast-Kin Ranger (101)
+Add to stack: Ai(2)-Gen1_Deck23 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Beast-Kin Ranger (101), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Beast-Kin Ranger - Creature 3 / 3]
+Resolve stack: Beast-Kin Ranger - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 35 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 36 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Mana: Forest (97) - {T}: Add {G}.
+Mana: Island (104) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Grappling Kraken (77)
+Resolve stack: Grappling Kraken - Creature 5 / 6
+Add to stack: Ai(2)-Gen1_Deck23 triggered Beast-Kin Ranger (101)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Grappling Kraken (77)]
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck23's End of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck23's End step
+Phase: Ai(2)-Gen1_Deck23's Cleanup step
+Turn: Turn 37 (Ai(1)-Gen1_Deck9)
+Phase: Ai(1)-Gen1_Deck9's Untap step
+Phase: Ai(1)-Gen1_Deck9's Upkeep step
+Phase: Ai(1)-Gen1_Deck9's Draw step
+Phase: Ai(1)-Gen1_Deck9's Main phase, precombat
+Land: Ai(1)-Gen1_Deck9 played Island (13)
+Phase: Ai(1)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck9's End of Combat Step
+Phase: Ai(1)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck9's End step
+Phase: Ai(1)-Gen1_Deck9's Cleanup step
+Turn: Turn 38 (Ai(2)-Gen1_Deck23)
+Phase: Ai(2)-Gen1_Deck23's Untap step
+Phase: Ai(2)-Gen1_Deck23's Upkeep step
+Phase: Ai(2)-Gen1_Deck23's Draw step
+Phase: Ai(2)-Gen1_Deck23's Main phase, precombat
+Mana: Island (103) - {T}: Add {U}.
+Mana: Island (105) - {T}: Add {U}.
+Mana: Forest (94) - {T}: Add {G}.
+Mana: Forest (98) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck23 cast Rite of Replication (90) targeting [Gate Colossus (29)]
+Add to stack: Ai(2)-Gen1_Deck23 triggered Elementalist Adept (64)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Rite of Replication (90), Activator: Ai(2)-Gen1_Deck23, SpellAbility: Create a token that's a copy of target creature. If this spell was kicked, create five of those tokens instead.]
+Resolve stack: Rite of Replication (90) - Ai(2)-Gen1_Deck23 creates a token that's a copy of Gate Colossus (29).
+Add to stack: Ai(2)-Gen1_Deck23 triggered Beast-Kin Ranger (101)
+Resolve stack: Whenever another creature you control enters, this creature gets +1/+0 until end of turn. [Zone Changer: Gate Colossus (159)]
+Phase: Ai(2)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck23 assigned Grappling Kraken (77), Elementalist Adept (64), Beast-Kin Ranger (101), Thrashing Brontodon (114), Thrashing Brontodon (116), Solemn Simulacrum (68), Adaptive Automaton (117), Ninja Token (153), Ninja Token (157) and Diamond Mare (70) to attack Ai(1)-Gen1_Deck9.
+Phase: Ai(2)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck9 assigned Faerie Token (148) to block Elementalist Adept (64).
+Ai(1)-Gen1_Deck9 assigned Faerie Token (149) to block Thrashing Brontodon (114).
+Ai(1)-Gen1_Deck9 assigned Exclusion Mage (7) to block Thrashing Brontodon (116).
+Ai(1)-Gen1_Deck9 assigned Mischievous Mystic (24) to block Solemn Simulacrum (68).
+Ai(1)-Gen1_Deck9 assigned Eager Trufflesnout (84) to block Beast-Kin Ranger (101).
+Ai(1)-Gen1_Deck9 assigned Beast-Kin Ranger (100) to block Adaptive Automaton (117).
+Ai(1)-Gen1_Deck9 didn't block Diamond Mare (70).
+Ai(1)-Gen1_Deck9 assigned Gate Colossus (29) to block Ninja Token (153).
+Ai(1)-Gen1_Deck9 assigned Gleaming Barrier (33) to block Grappling Kraken (77).
+Ai(1)-Gen1_Deck9 didn't block Ninja Token (157).
+Phase: Ai(2)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck23's Combat Damage Step
+Damage: Grappling Kraken (77) deals 5 damage () to Gleaming Barrier (33).
+Damage: Elementalist Adept (64) deals 4 damage () to Faerie Token (148).
+Damage: Beast-Kin Ranger (101) deals 1 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Beast-Kin Ranger (101) deals 3 damage () to Eager Trufflesnout (84).
+Damage: Thrashing Brontodon (114) deals 3 damage () to Faerie Token (149).
+Damage: Thrashing Brontodon (116) deals 3 damage () to Exclusion Mage (7).
+Damage: Solemn Simulacrum (68) deals 2 damage () to Mischievous Mystic (24).
+Damage: Adaptive Automaton (117) deals 2 damage () to Beast-Kin Ranger (100).
+Damage: Ninja Token (153) deals 2 damage () to Gate Colossus (29).
+Damage: Ninja Token (157) deals 2 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Diamond Mare (70) deals 1 combat damage to Ai(1)-Gen1_Deck9.
+Damage: Faerie Token (148) deals 1 damage () to Elementalist Adept (64).
+Damage: Faerie Token (149) deals 1 damage () to Thrashing Brontodon (114).
+Damage: Exclusion Mage (7) deals 2 damage () to Thrashing Brontodon (116).
+Damage: Mischievous Mystic (24) deals 2 damage () to Solemn Simulacrum (68).
+Damage: Eager Trufflesnout (84) deals 5 damage () to Beast-Kin Ranger (101).
+Damage: Beast-Kin Ranger (100) deals 5 damage () to Adaptive Automaton (117).
+Damage: Gate Colossus (29) deals 9 damage () to Ninja Token (153).
+Player control: Ai(1)-Gen1_Deck9 is controlled by Ai(1)-Gen1_Deck9
+Player control: Ai(2)-Gen1_Deck23 is controlled by Ai(2)-Gen1_Deck23
+Game outcome: Turn 19
+Game outcome: Ai(1)-Gen1_Deck9 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck23 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck9: 0 Ai(2)-Gen1_Deck23: 1 
+
+Game Result: Game 1 ended in 57109 ms. Ai(2)-Gen1_Deck23 has won!
+
+
+=== STDERR ===

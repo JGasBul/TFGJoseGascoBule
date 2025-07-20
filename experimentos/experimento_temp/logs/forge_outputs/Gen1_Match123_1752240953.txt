@@ -1,0 +1,474 @@
+=== COMBATE PARALELO: Gen1_Deck5 vs Gen1_Deck18 ===
+Worker ID: 2447628
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck5 Gen1_Deck18 -n 1
+Duración: 34.31 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2021 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 69 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck5 vs Ai(2)-Gen1_Deck18 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck5 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck18 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (31)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Infestation Sage (2)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(2)-Gen1_Deck18 played Temple of Deceit (74)
+Add to stack: Ai(2)-Gen1_Deck18 triggered Temple of Deceit (74)
+Resolve stack: Ai(2)-Gen1_Deck18 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (74)]
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Demolition Field (58)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Infestation Sage (2) to attack Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck18 didn't block Infestation Sage (2).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Infestation Sage (2) deals 1 combat damage to Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Demolition Field (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Knight of Malice (55)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Plains (71)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (20)
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 activated Demolition Field (58) targeting [Temple of Deceit (74)]
+Resolve stack: Demolition Field (58) - Destroy Temple of Deceit (74). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen1_Deck5 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Knight of Malice (55) and Infestation Sage (2) to attack Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck18 didn't block Infestation Sage (2).
+Ai(2)-Gen1_Deck18 didn't block Knight of Malice (55).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Damage: Knight of Malice (55) deals 2 combat damage to Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Infestation Sage (2) deals 1 combat damage to Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Island (77)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Island (77) - {T}: Add {U}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Rune-Sealed Wall (66)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Knight of Malice (55) and Infestation Sage (2) to attack Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck18 didn't block Infestation Sage (2).
+Ai(2)-Gen1_Deck18 assigned Rune-Sealed Wall (66) to block Knight of Malice (55).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Damage: Knight of Malice (55) deals 2 damage () to Rune-Sealed Wall (66).
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Infestation Sage (2) deals 1 combat damage to Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Replacement Effect: Maze's End enters tapped.
+Land: Ai(1)-Gen1_Deck5 played Maze's End (3)
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Stromkirk Bloodthief (17)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck5's End step
+Add to stack: Ai(1)-Gen1_Deck5 triggered Stromkirk Bloodthief (17) targeting [Stromkirk Bloodthief (17)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (17)]]) [Phase: Ai(1)-Gen1_Deck5]
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Plains (73)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Island (77) - {T}: Add {U}.
+Mana: Plains (73) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Twinblade Paladin (69)
+Resolve stack: Twinblade Paladin - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Maze's End (3) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Deadly Plot (36)
+Resolve stack: Deadly Plot (36) -  Destroy target creature or planeswalker. (Targeting: Twinblade Paladin (69))
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Stromkirk Bloodthief (17), Knight of Malice (55) and Infestation Sage (2) to attack Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Rune-Sealed Wall (66) to block Stromkirk Bloodthief (17).
+Ai(2)-Gen1_Deck18 didn't block Infestation Sage (2).
+Ai(2)-Gen1_Deck18 didn't block Knight of Malice (55).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Damage: Knight of Malice (55) deals 2 combat damage to Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Stromkirk Bloodthief (17) deals 3 damage () to Rune-Sealed Wall (66).
+Damage: Infestation Sage (2) deals 1 combat damage to Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck5 played Evolving Wilds (43)
+Add to stack: Ai(1)-Gen1_Deck5 activated Evolving Wilds (43)
+Resolve stack: Evolving Wilds (43) - Ai(1)-Gen1_Deck5 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck5's End step
+Add to stack: Ai(1)-Gen1_Deck5 triggered Stromkirk Bloodthief (17) targeting [Stromkirk Bloodthief (17)]
+Add to stack: Ai(2)-Gen1_Deck18 activated Rune-Sealed Wall (66)
+Resolve stack: Ai(2)-Gen1_Deck18 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (66) - Ai(2)-Gen1_Deck18 surveils (1).
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (17)]]) [Phase: Ai(1)-Gen1_Deck5]
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Island (79)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Island (77) - {T}: Add {U}.
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Herald of Faith (102)
+Resolve stack: Herald of Faith - Creature 4 / 3
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Juggernaut (5)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen1_Deck5's End step
+Add to stack: Ai(2)-Gen1_Deck18 activated Rune-Sealed Wall (66)
+Resolve stack: Ai(2)-Gen1_Deck18 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (66) - Ai(2)-Gen1_Deck18 surveils (1).
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Land: Ai(2)-Gen1_Deck18 played Plains (72)
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Herald of Faith (102) to attack Ai(1)-Gen1_Deck5.
+Add to stack: Ai(2)-Gen1_Deck18 triggered Herald of Faith (102)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (102)]
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Herald of Faith (102).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Herald of Faith (102) deals 4 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Island (77) - {T}: Add {U}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Icewind Elemental (113)
+Resolve stack: Icewind Elemental - Creature 3 / 4
+Add to stack: Ai(2)-Gen1_Deck18 triggered Icewind Elemental (113)
+Discard: Ai(2)-Gen1_Deck18 discards Mocking Sprite (108).
+Resolve stack: When this creature enters, draw a card, then discard a card. [Zone Changer: Icewind Elemental (113)]
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (21)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Juggernaut (5) to attack Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck18 didn't block Juggernaut (5).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Juggernaut (5) deals 5 combat damage to Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Stromkirk Bloodthief (14)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Vampire Interloper (8)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck5's End step
+Add to stack: Ai(1)-Gen1_Deck5 triggered Stromkirk Bloodthief (17) targeting [Stromkirk Bloodthief (17)]
+Add to stack: Ai(1)-Gen1_Deck5 triggered Stromkirk Bloodthief (14) targeting [Stromkirk Bloodthief (17)]
+Add to stack: Ai(2)-Gen1_Deck18 activated Rune-Sealed Wall (66)
+Resolve stack: Ai(2)-Gen1_Deck18 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (66) - Ai(2)-Gen1_Deck18 surveils (1).
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (17)]]) [Phase: Ai(1)-Gen1_Deck5]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (17)]]) [Phase: Ai(1)-Gen1_Deck5]
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Herald of Faith (102) to attack Ai(1)-Gen1_Deck5.
+Add to stack: Ai(2)-Gen1_Deck18 triggered Herald of Faith (102)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (102)]
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Herald of Faith (102).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Herald of Faith (102) deals 4 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Mana: Island (77) - {T}: Add {U}.
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Herald of Faith (101)
+Resolve stack: Herald of Faith - Creature 4 / 3
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Pirate's Cutlass (47)
+Resolve stack: Pirate's Cutlass
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Swamp (21) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 activated Pirate's Cutlass (47) targeting [Stromkirk Bloodthief (17)]
+Resolve stack: Pirate's Cutlass (47) -  Attach to Stromkirk Bloodthief (17)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Juggernaut (5) and Stromkirk Bloodthief (17) to attack Ai(2)-Gen1_Deck18.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Rune-Sealed Wall (66) to block Stromkirk Bloodthief (17).
+Ai(2)-Gen1_Deck18 assigned Icewind Elemental (113) to block Juggernaut (5).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Juggernaut (5) deals 5 damage () to Icewind Elemental (113).
+Damage: Stromkirk Bloodthief (17) deals 8 damage () to Rune-Sealed Wall (66).
+Damage: Icewind Elemental (113) deals 3 damage () to Juggernaut (5).
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Herald of Faith (102) to attack Ai(1)-Gen1_Deck5.
+Add to stack: Ai(2)-Gen1_Deck18 triggered Herald of Faith (102)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (102)]
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Herald of Faith (102).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Herald of Faith (102) deals 4 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck18's End of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Main phase, postcombat
+Mana: Island (77) - {T}: Add {U}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Forest (70) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Mocking Sprite (111)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Mana: Plains (73) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen1_Deck18 cast Ajani, Caller of the Pride (61)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen1_Deck18 activated Ajani, Caller of the Pride (61) targeting [Herald of Faith (101)]
+Resolve stack: Ajani, Caller of the Pride (61) - Ai(2)-Gen1_Deck18 puts a +1/+1 counter on Herald of Faith (101).
+Phase: Ai(2)-Gen1_Deck18's End step
+Phase: Ai(2)-Gen1_Deck18's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (30)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Stromkirk Bloodthief (17) to attack Ajani, Caller of the Pride (61).
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck18 didn't block Stromkirk Bloodthief (17).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck18)
+Phase: Ai(2)-Gen1_Deck18's Untap step
+Phase: Ai(2)-Gen1_Deck18's Upkeep step
+Phase: Ai(2)-Gen1_Deck18's Draw step
+Phase: Ai(2)-Gen1_Deck18's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck18's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck18's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck18 assigned Herald of Faith (101), Herald of Faith (102) and Mocking Sprite (111) to attack Ai(1)-Gen1_Deck5.
+Add to stack: Ai(2)-Gen1_Deck18 triggered Herald of Faith (101)
+Add to stack: Ai(2)-Gen1_Deck18 triggered Herald of Faith (102)
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (102)]
+Resolve stack: Whenever Herald of Faith attacks, you gain 2 life. [Attacker: Herald of Faith (101)]
+Phase: Ai(2)-Gen1_Deck18's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Herald of Faith (101).
+Ai(1)-Gen1_Deck5 didn't block Herald of Faith (102).
+Ai(1)-Gen1_Deck5 didn't block Mocking Sprite (111).
+Phase: Ai(2)-Gen1_Deck18's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck18's Combat Damage Step
+Damage: Herald of Faith (101) deals 5 combat damage to Ai(1)-Gen1_Deck5.
+Damage: Herald of Faith (102) deals 4 combat damage to Ai(1)-Gen1_Deck5.
+Damage: Mocking Sprite (111) deals 2 combat damage to Ai(1)-Gen1_Deck5.
+Player control: Ai(1)-Gen1_Deck5 is controlled by Ai(1)-Gen1_Deck5
+Player control: Ai(2)-Gen1_Deck18 is controlled by Ai(2)-Gen1_Deck18
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen1_Deck5 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck18 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck5: 0 Ai(2)-Gen1_Deck18: 1 
+
+Game Result: Game 1 ended in 21594 ms. Ai(2)-Gen1_Deck18 has won!
+
+
+=== STDERR ===

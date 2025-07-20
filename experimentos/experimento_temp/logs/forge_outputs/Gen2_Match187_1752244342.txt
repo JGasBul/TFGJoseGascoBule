@@ -1,0 +1,426 @@
+=== COMBATE PARALELO: Gen2_Deck16 vs Gen2_Deck9 ===
+Worker ID: 2570488
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck16 Gen2_Deck9 -n 1
+Duración: 35.01 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2134 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 75 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck16 vs Ai(2)-Gen2_Deck9 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck16 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck9 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen2_Deck16 played Orzhov Guildgate (4)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Land: Ai(2)-Gen2_Deck9 played Swamp (95)
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck9 cast Pulse Tracker (101)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Soulstone Sanctuary (25)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Orzhov Guildgate (4) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (25) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Vampire Interloper (32)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Land: Ai(2)-Gen2_Deck9 played Crawling Barrens (114)
+Mana: Swamp (95) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck9 cast Basilisk Collar (109)
+Resolve stack: Basilisk Collar
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 assigned Pulse Tracker (101) to attack Ai(1)-Gen2_Deck16.
+Add to stack: Ai(2)-Gen2_Deck9 triggered Pulse Tracker (101)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (101)]
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck16 didn't block Pulse Tracker (101).
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Damage: Pulse Tracker (101) deals 1 combat damage to Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Plains (14)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Interloper (32) to attack Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck9 didn't block Vampire Interloper (32).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Vampire Interloper (32) deals 2 combat damage to Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Orzhov Guildgate (4) - {T}: Add {W} or {B}.
+Mana: Plains (14) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Tinybones, Bauble Burglar (29)
+Resolve stack: Tinybones, Bauble Burglar - Creature 1 / 3
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Land: Ai(2)-Gen2_Deck9 played Cryptic Caves (63)
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Crawling Barrens (114) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck9 activated Basilisk Collar (109) targeting [Pulse Tracker (101)]
+Resolve stack: Basilisk Collar (109) -  Attach to Pulse Tracker (101)
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Swamp (39)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Interloper (32) and Tinybones, Bauble Burglar (29) to attack Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck9 didn't block Vampire Interloper (32).
+Ai(2)-Gen2_Deck9 didn't block Tinybones, Bauble Burglar (29).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Vampire Interloper (32) deals 2 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Tinybones, Bauble Burglar (29) deals 1 combat damage to Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Helpful Hunter (7)
+Resolve stack: Helpful Hunter - Creature 1 / 1
+Add to stack: Ai(1)-Gen2_Deck16 triggered Helpful Hunter (7)
+Resolve stack: When this creature enters, draw a card. [Zone Changer: Helpful Hunter (7)]
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Land: Ai(2)-Gen2_Deck9 played Swamp (86)
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Crawling Barrens (114) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck9 cast Burnished Hart (103)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Soulstone Sanctuary (27)
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Orzhov Guildgate (4) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (27) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Soulstone Sanctuary (25)
+Resolve stack: Soulstone Sanctuary (25) - Soulstone Sanctuary (25) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Interloper (32) and Soulstone Sanctuary (25) to attack Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck9 didn't block Vampire Interloper (32).
+Ai(2)-Gen2_Deck9 assigned Pulse Tracker (101) to block Soulstone Sanctuary (25).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Vampire Interloper (32) deals 2 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Soulstone Sanctuary (25) deals 3 damage () to Pulse Tracker (101).
+Damage: Pulse Tracker (101) deals 1 damage (Deathtouch) to Soulstone Sanctuary (25).
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck9 activated Basilisk Collar (109) targeting [Burnished Hart (103)]
+Resolve stack: Basilisk Collar (109) -  Attach to Burnished Hart (103)
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 assigned Burnished Hart (103) to attack Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck16 didn't block Burnished Hart (103).
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Damage: Burnished Hart (103) deals 2 combat damage to Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Plains (13)
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Plains (13) - {T}: Add {W}.
+Mana: Orzhov Guildgate (4) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Soulstone Sanctuary (27)
+Resolve stack: Soulstone Sanctuary (27) - Soulstone Sanctuary (27) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Interloper (32), Tinybones, Bauble Burglar (29), Helpful Hunter (7) and Soulstone Sanctuary (27) to attack Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck9 didn't block Vampire Interloper (32).
+Ai(2)-Gen2_Deck9 didn't block Helpful Hunter (7).
+Ai(2)-Gen2_Deck9 didn't block Soulstone Sanctuary (27).
+Ai(2)-Gen2_Deck9 didn't block Tinybones, Bauble Burglar (29).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Vampire Interloper (32) deals 2 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Tinybones, Bauble Burglar (29) deals 1 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Helpful Hunter (7) deals 1 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Soulstone Sanctuary (27) deals 3 combat damage to Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Mana: Crawling Barrens (114) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck9 cast Burnished Hart (105)
+Resolve stack: Burnished Hart - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Plains (13) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Pirate's Cutlass (22)
+Resolve stack: Pirate's Cutlass
+Add to stack: Ai(1)-Gen2_Deck16 triggered Pirate's Cutlass (22) targeting [Soulstone Sanctuary (27)]
+Resolve stack: When Pirate's Cutlass enters, attach it to target Pirate you control. (Targeting: [[Soulstone Sanctuary (27)]]) [Zone Changer: Pirate's Cutlass (22)]
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Interloper (32) and Soulstone Sanctuary (27) to attack Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck9 didn't block Vampire Interloper (32).
+Ai(2)-Gen2_Deck9 assigned Burnished Hart (103) to block Soulstone Sanctuary (27).
+Mana: Orzhov Guildgate (4) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Moment of Triumph (52) targeting [Vampire Interloper (32)]
+Resolve stack: Moment of Triumph (52) - Vampire Interloper (32) gets +2/+2  until end of turn. Ai(1)-Gen2_Deck16 gains 2 life.
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Vampire Interloper (32) deals 4 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Soulstone Sanctuary (27) deals 5 damage () to Burnished Hart (103).
+Damage: Burnished Hart (103) deals 2 damage (Deathtouch) to Soulstone Sanctuary (27).
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck9 activated Basilisk Collar (109) targeting [Burnished Hart (105)]
+Resolve stack: Basilisk Collar (109) -  Attach to Burnished Hart (105)
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 assigned Burnished Hart (105) to attack Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck16 didn't block Burnished Hart (105).
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Damage: Burnished Hart (105) deals 2 combat damage to Ai(1)-Gen2_Deck16.
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Land: Ai(1)-Gen2_Deck16 played Swamp (40)
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen2_Deck16 activated Pirate's Cutlass (22) targeting [Vampire Interloper (32)]
+Resolve stack: Pirate's Cutlass (22) -  Attach to Vampire Interloper (32)
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Interloper (32), Tinybones, Bauble Burglar (29) and Helpful Hunter (7) to attack Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck9 didn't block Vampire Interloper (32).
+Ai(2)-Gen2_Deck9 didn't block Helpful Hunter (7).
+Ai(2)-Gen2_Deck9 didn't block Tinybones, Bauble Burglar (29).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Vampire Interloper (32) deals 4 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Tinybones, Bauble Burglar (29) deals 1 combat damage to Ai(2)-Gen2_Deck9.
+Damage: Helpful Hunter (7) deals 1 combat damage to Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's End of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Main phase, postcombat
+Mana: Plains (13) - {T}: Add {W}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Orzhov Guildgate (4) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen2_Deck16 cast Cultivator's Caravan (10)
+Resolve stack: Cultivator's Caravan
+Phase: Ai(1)-Gen2_Deck16's End step
+Phase: Ai(1)-Gen2_Deck16's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck9)
+Phase: Ai(2)-Gen2_Deck9's Untap step
+Phase: Ai(2)-Gen2_Deck9's Upkeep step
+Phase: Ai(2)-Gen2_Deck9's Draw step
+Phase: Ai(2)-Gen2_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck9's End of Combat Step
+Phase: Ai(2)-Gen2_Deck9's Main phase, postcombat
+Mana: Swamp (95) - {T}: Add {B}.
+Mana: Swamp (86) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck9 cast Knight of Malice (118)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(2)-Gen2_Deck9's End step
+Phase: Ai(2)-Gen2_Deck9's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen2_Deck16)
+Phase: Ai(1)-Gen2_Deck16's Untap step
+Phase: Ai(1)-Gen2_Deck16's Upkeep step
+Phase: Ai(1)-Gen2_Deck16's Draw step
+Phase: Ai(1)-Gen2_Deck16's Main phase, precombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Plains (13) - {T}: Add {W}.
+Mana: Orzhov Guildgate (4) - {T}: Add {W} or {B}.
+Mana: Cultivator's Caravan (10) - {T}: Add one mana of any color.
+Add to stack: Ai(1)-Gen2_Deck16 cast Liliana, Dreadhorde General (37)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(1)-Gen2_Deck16 activated Liliana, Dreadhorde General (37)
+Resolve stack: Liliana, Dreadhorde General (37) - Ai(1)-Gen2_Deck16 and Ai(2)-Gen2_Deck9 sacrifice two creatures.
+Add to stack: Ai(1)-Gen2_Deck16 triggered Liliana, Dreadhorde General (37)
+Add to stack: Ai(1)-Gen2_Deck16 triggered Liliana, Dreadhorde General (37)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Tinybones, Bauble Burglar (29)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Helpful Hunter (7)]
+Phase: Ai(1)-Gen2_Deck16's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck16's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck16 assigned Vampire Interloper (32) to attack Ai(2)-Gen2_Deck9.
+Phase: Ai(1)-Gen2_Deck16's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck9 didn't block Vampire Interloper (32).
+Phase: Ai(1)-Gen2_Deck16's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck16's Combat Damage Step
+Damage: Vampire Interloper (32) deals 4 combat damage to Ai(2)-Gen2_Deck9.
+Player control: Ai(1)-Gen2_Deck16 is controlled by Ai(1)-Gen2_Deck16
+Player control: Ai(2)-Gen2_Deck9 is controlled by Ai(2)-Gen2_Deck9
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen2_Deck16 has won because all opponents have lost
+Game outcome: Ai(2)-Gen2_Deck9 has lost because life total reached 0
+Match result: Ai(1)-Gen2_Deck16: 1 Ai(2)-Gen2_Deck9: 0 
+
+Game Result: Game 1 ended in 20673 ms. Ai(1)-Gen2_Deck16 has won!
+
+
+=== STDERR ===

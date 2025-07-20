@@ -1,0 +1,475 @@
+=== COMBATE PARALELO: Gen3_Deck10 vs Gen3_Deck4 ===
+Worker ID: 2687309
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck10 Gen3_Deck4 -n 1
+Duración: 36.31 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2051 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 75 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck10 vs Ai(2)-Gen3_Deck4 - one game of Constructed
+Mulligan: Ai(2)-Gen3_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen3_Deck10 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(2)-Gen3_Deck4 played Temple of Deceit (90)
+Add to stack: Ai(2)-Gen3_Deck4 triggered Temple of Deceit (90)
+Resolve stack: Ai(2)-Gen3_Deck4 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (90)]
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(1)-Gen3_Deck10 played Temple of Triumph (21)
+Add to stack: Ai(1)-Gen3_Deck10 triggered Temple of Triumph (21)
+Resolve stack: Ai(1)-Gen3_Deck10 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (21)]
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Land: Ai(2)-Gen3_Deck4 played Plains (84)
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Swamp (20)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Mana: Temple of Triumph (21) - {T}: Add {R} or {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Helpful Hunter (24)
+Resolve stack: Helpful Hunter - Creature 1 / 1
+Add to stack: Ai(1)-Gen3_Deck10 triggered Helpful Hunter (24)
+Resolve stack: When this creature enters, draw a card. [Zone Changer: Helpful Hunter (24)]
+Phase: Ai(1)-Gen3_Deck10's End step
+Mana: Temple of Deceit (90) - {T}: Add {U} or {B}.
+Mana: Plains (84) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck4 cast Elementalist Adept (66)
+Resolve stack: Elementalist Adept - Creature 2 / 1
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Land: Ai(2)-Gen3_Deck4 played Mountain (113)
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Plains (41)
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Plains (41) - {T}: Add {W}.
+Mana: Temple of Triumph (21) - {T}: Add {R} or {W}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Pirate's Cutlass (53)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Replacement Effect: Azorius Guildgate enters tapped.
+Land: Ai(2)-Gen3_Deck4 played Azorius Guildgate (97)
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Swamp (19)
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck10 activated Pirate's Cutlass (53) targeting [Helpful Hunter (24)]
+Resolve stack: Pirate's Cutlass (53) -  Attach to Helpful Hunter (24)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Land: Ai(2)-Gen3_Deck4 played Plains (82)
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Temple of Deceit (90) - {T}: Add {U} or {B}.
+Mana: Azorius Guildgate (97) - {T}: Add {W} or {U}.
+Add to stack: Ai(2)-Gen3_Deck4 cast Valkyrie's Call (80)
+Add to stack: Ai(2)-Gen3_Deck4 triggered Elementalist Adept (66)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Valkyrie's Call (80), Activator: Ai(2)-Gen3_Deck4, SpellAbility: Valkyrie's Call]
+Resolve stack: Valkyrie's Call
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Swamp (9)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Mana: Plains (41) - {T}: Add {W}.
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Dazzling Angel (32)
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Temple of Deceit (90) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen3_Deck4 cast Day of Judgment (92)
+Add to stack: Ai(2)-Gen3_Deck4 triggered Elementalist Adept (66)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Day of Judgment (92), Activator: Ai(2)-Gen3_Deck4, SpellAbility: Destroy all creatures.]
+Resolve stack: Day of Judgment (92) - Destroy all creatures.
+Add to stack: Ai(2)-Gen3_Deck4 triggered Valkyrie's Call (80)
+Resolve stack: Whenever a nontoken, non-Angel creature you control dies, return that card to the battlefield under its owner's control with a +1/+1 counter on it. It has flying and is an Angel in addition to its other types. [Zone Changer: Elementalist Adept (66)]
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Replacement Effect: Azorius Guildgate enters tapped.
+Land: Ai(2)-Gen3_Deck4 played Azorius Guildgate (95)
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Demolition Field (56)
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck10 activated Demolition Field (56) targeting [Azorius Guildgate (97)]
+Resolve stack: Demolition Field (56) - Destroy Azorius Guildgate (97). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen3_Deck10 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 assigned Elementalist Adept (66) to attack Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck10 didn't block Elementalist Adept (66).
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Damage: Elementalist Adept (66) deals 3 combat damage to Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck4 cast Twinblade Paladin (81)
+Resolve stack: Twinblade Paladin - Creature 3 / 3
+Mana: Azorius Guildgate (95) - {T}: Add {W} or {U}.
+Mana: Temple of Deceit (90) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen3_Deck4 cast Giada, Font of Hope (120)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Plains (43)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (9) - {T}: Add {B}.
+Mana: Plains (41) - {T}: Add {W}.
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Plains (43) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Massacre Wurm (54)
+Resolve stack: Massacre Wurm - Creature 6 / 5
+Add to stack: Ai(1)-Gen3_Deck10 triggered Massacre Wurm (54)
+Resolve stack: When Massacre Wurm enters, creatures your opponents control get -2/-2 until end of turn. [Zone Changer: Massacre Wurm (54)]
+Add to stack: Ai(1)-Gen3_Deck10 triggered Massacre Wurm (54)
+Add to stack: Ai(1)-Gen3_Deck10 triggered Massacre Wurm (54)
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Giada, Font of Hope (120)]
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Elementalist Adept (66)]
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen3_Deck4 cast Prideful Parent (71)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(2)-Gen3_Deck4 triggered Prideful Parent (71)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (71)]
+Mana: Azorius Guildgate (95) - {T}: Add {W} or {U}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen3_Deck4 cast Charming Prince (101)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen3_Deck4 triggered Charming Prince (101)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Prideful Parent (71)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (101)]
+Phase: Ai(2)-Gen3_Deck4's End step
+Add to stack: Ai(2)-Gen3_Deck4 triggered Charming Prince (101)
+Resolve stack: Return exiled card to the battlefield. ([Prideful Parent (71)]) [Phase: Ai(2)-Gen3_Deck4]
+Add to stack: Ai(2)-Gen3_Deck4 triggered Prideful Parent (71)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (71)]
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Swamp (12)
+Mana: Swamp (20) - {T}: Add {B}.
+Mana: Plains (41) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen3_Deck10 activated Pirate's Cutlass (53) targeting [Massacre Wurm (54)]
+Resolve stack: Pirate's Cutlass (53) -  Attach to Massacre Wurm (54)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Massacre Wurm (54) to attack Ai(2)-Gen3_Deck4.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck4 didn't block Massacre Wurm (54).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Massacre Wurm (54) deals 8 combat damage to Ai(2)-Gen3_Deck4.
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Mana: Plains (45) - {T}: Add {W}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen3_Deck10 cast Giada, Font of Hope (59)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 assigned Twinblade Paladin (81) to attack Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck10 didn't block Twinblade Paladin (81).
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Damage: Twinblade Paladin (81) deals 3 combat damage to Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Land: Ai(2)-Gen3_Deck4 played Demolition Field (107)
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Evolving Wilds (38)
+Add to stack: Ai(1)-Gen3_Deck10 activated Evolving Wilds (38)
+Resolve stack: Evolving Wilds (38) - Ai(1)-Gen3_Deck10 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Massacre Wurm (54) and Giada, Font of Hope (59) to attack Ai(2)-Gen3_Deck4.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck4 assigned Cat Token (125) to block Massacre Wurm (54).
+Ai(2)-Gen3_Deck4 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Massacre Wurm (54) deals 8 damage () to Cat Token (125).
+Damage: Giada, Font of Hope (59) deals 2 combat damage to Ai(2)-Gen3_Deck4.
+Damage: Cat Token (125) deals 1 damage () to Massacre Wurm (54).
+Add to stack: Ai(1)-Gen3_Deck10 triggered Massacre Wurm (54)
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Cat Token (125)]
+Phase: Ai(1)-Gen3_Deck10's End of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck10's End step
+Phase: Ai(1)-Gen3_Deck10's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen3_Deck4)
+Phase: Ai(2)-Gen3_Deck4's Untap step
+Phase: Ai(2)-Gen3_Deck4's Upkeep step
+Phase: Ai(2)-Gen3_Deck4's Draw step
+Phase: Ai(2)-Gen3_Deck4's Main phase, precombat
+Land: Ai(2)-Gen3_Deck4 played Demolition Field (108)
+Phase: Ai(2)-Gen3_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck4 assigned Twinblade Paladin (81) to attack Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck10 didn't block Twinblade Paladin (81).
+Phase: Ai(2)-Gen3_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck4's Combat Damage Step
+Damage: Twinblade Paladin (81) deals 3 combat damage to Ai(1)-Gen3_Deck10.
+Phase: Ai(2)-Gen3_Deck4's End of Combat Step
+Phase: Ai(2)-Gen3_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck4's End step
+Phase: Ai(2)-Gen3_Deck4's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen3_Deck10)
+Phase: Ai(1)-Gen3_Deck10's Untap step
+Phase: Ai(1)-Gen3_Deck10's Upkeep step
+Phase: Ai(1)-Gen3_Deck10's Draw step
+Phase: Ai(1)-Gen3_Deck10's Main phase, precombat
+Land: Ai(1)-Gen3_Deck10 played Swamp (11)
+Phase: Ai(1)-Gen3_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck10 assigned Massacre Wurm (54) and Giada, Font of Hope (59) to attack Ai(2)-Gen3_Deck4.
+Phase: Ai(1)-Gen3_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen3_Deck4 assigned Cat Token (128) to block Massacre Wurm (54).
+Ai(2)-Gen3_Deck4 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen3_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck10's Combat Damage Step
+Damage: Massacre Wurm (54) deals 8 damage () to Cat Token (128).
+Damage: Giada, Font of Hope (59) deals 2 combat damage to Ai(2)-Gen3_Deck4.
+Damage: Cat Token (128) deals 1 damage () to Massacre Wurm (54).
+Add to stack: Ai(1)-Gen3_Deck10 triggered Massacre Wurm (54)
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Cat Token (128)]
+Player control: Ai(1)-Gen3_Deck10 is controlled by Ai(1)-Gen3_Deck10
+Player control: Ai(2)-Gen3_Deck4 is controlled by Ai(2)-Gen3_Deck4
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen3_Deck10 has won because all opponents have lost
+Game outcome: Ai(2)-Gen3_Deck4 has lost because life total reached 0
+Match result: Ai(1)-Gen3_Deck10: 1 Ai(2)-Gen3_Deck4: 0 
+
+Game Result: Game 1 ended in 25610 ms. Ai(1)-Gen3_Deck10 has won!
+
+
+=== STDERR ===

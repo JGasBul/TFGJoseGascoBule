@@ -1,0 +1,476 @@
+=== COMBATE PARALELO: Gen1_Deck15 vs Gen1_Deck0 ===
+Worker ID: 3839297
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck15 Gen1_Deck0 -n 1
+Duración: 31.29 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2086 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 59 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck15 vs Ai(2)-Gen1_Deck0 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck15 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen1_Deck0 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck15 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Plains (84)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (17)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Infestation Sage (1)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Plains (95)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Diamond Mare (71)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (30)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Pilfer (31) targeting [Ai(2)-Gen1_Deck0]
+Discard: Ai(2)-Gen1_Deck0 discards Angelic Edict (97).
+Resolve stack: Pilfer (31) - Ai(2)-Gen1_Deck0 reveals their hand. Ai(1)-Gen1_Deck15 chooses a nonland card from it. Ai(2)-Gen1_Deck0 discards that card.
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Plains (83)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Diamond Mare (71) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 didn't block Diamond Mare (71).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Diamond Mare (71) deals 1 combat damage to Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Giada, Font of Hope (118)
+Add to stack: Ai(2)-Gen1_Deck0 triggered Diamond Mare (71)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Giada, Font of Hope (118), Activator: Ai(2)-Gen1_Deck0, SpellAbility: Giada, Font of Hope - Creature 2 / 2]
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (23)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Stromkirk Bloodthief (14)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Plains (94)
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Evolving Wilds (39)
+Add to stack: Ai(1)-Gen1_Deck15 activated Evolving Wilds (39)
+Resolve stack: Evolving Wilds (39) - Ai(1)-Gen1_Deck15 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Stromkirk Bloodthief (13)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Evolving Wilds (81)
+Add to stack: Ai(2)-Gen1_Deck0 activated Evolving Wilds (81)
+Resolve stack: Evolving Wilds (81) - Ai(2)-Gen1_Deck0 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Juggernaut (8)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (83) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Inspiring Paladin (65)
+Add to stack: Ai(2)-Gen1_Deck0 triggered Diamond Mare (71)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Inspiring Paladin (65), Activator: Ai(2)-Gen1_Deck0, SpellAbility: Inspiring Paladin - Creature 3 / 3]
+Resolve stack: Inspiring Paladin - Creature 3 / 3
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Land: Ai(1)-Gen1_Deck15 played Swamp (29)
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Juggernaut (8) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Juggernaut (8).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Stromkirk Bloodthief (15)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck15's End step
+Add to stack: Ai(1)-Gen1_Deck15 triggered Stromkirk Bloodthief (14) targeting [Stromkirk Bloodthief (14)]
+Add to stack: Ai(1)-Gen1_Deck15 triggered Stromkirk Bloodthief (13) targeting [Stromkirk Bloodthief (14)]
+Add to stack: Ai(1)-Gen1_Deck15 triggered Stromkirk Bloodthief (15) targeting [Stromkirk Bloodthief (14)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (14)]]) [Phase: Ai(1)-Gen1_Deck15]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (14)]]) [Phase: Ai(1)-Gen1_Deck15]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (14)]]) [Phase: Ai(1)-Gen1_Deck15]
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Giada, Font of Hope (118) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (118) deals 2 combat damage to Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Felidar Savior (61)
+Add to stack: Ai(2)-Gen1_Deck0 triggered Diamond Mare (71)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Felidar Savior (61), Activator: Ai(2)-Gen1_Deck0, SpellAbility: Felidar Savior - Creature 2 / 3]
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(2)-Gen1_Deck0 triggered Felidar Savior (61) targeting [Giada, Font of Hope (118), Inspiring Paladin (65)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Giada, Font of Hope (118), Inspiring Paladin (65)]]) [Zone Changer: Felidar Savior (61)]
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Juggernaut (8) and Stromkirk Bloodthief (14) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 didn't block Juggernaut (8).
+Ai(2)-Gen1_Deck0 didn't block Stromkirk Bloodthief (14).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Juggernaut (8) deals 5 combat damage to Ai(2)-Gen1_Deck0.
+Damage: Stromkirk Bloodthief (14) deals 5 combat damage to Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Infestation Sage (2)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck15's End step
+Add to stack: Ai(1)-Gen1_Deck15 triggered Stromkirk Bloodthief (14) targeting [Stromkirk Bloodthief (14)]
+Add to stack: Ai(1)-Gen1_Deck15 triggered Stromkirk Bloodthief (13) targeting [Stromkirk Bloodthief (14)]
+Add to stack: Ai(1)-Gen1_Deck15 triggered Stromkirk Bloodthief (15) targeting [Stromkirk Bloodthief (14)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (14)]]) [Phase: Ai(1)-Gen1_Deck15]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (14)]]) [Phase: Ai(1)-Gen1_Deck15]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (14)]]) [Phase: Ai(1)-Gen1_Deck15]
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (82) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Angelic Edict (98) targeting [Stromkirk Bloodthief (14)]
+Add to stack: Ai(2)-Gen1_Deck0 triggered Diamond Mare (71)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Angelic Edict (98), Activator: Ai(2)-Gen1_Deck0, SpellAbility: Exile target creature or enchantment.]
+Resolve stack: Angelic Edict (98) - Exile Stromkirk Bloodthief (14).
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Inspiring Paladin (65) and Giada, Font of Hope (118) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 didn't block Inspiring Paladin (65).
+Ai(1)-Gen1_Deck15 didn't block Giada, Font of Hope (118).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Damage: Inspiring Paladin (65) deals 4 combat damage to Ai(1)-Gen1_Deck15.
+Damage: Giada, Font of Hope (118) deals 3 combat damage to Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Juggernaut (8) to attack Ai(2)-Gen1_Deck0.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Diamond Mare (71) and Felidar Savior (61) to block Juggernaut (8).
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Damage: Juggernaut (8) deals 3 damage () to Diamond Mare (71).
+Damage: Juggernaut (8) deals 2 damage () to Felidar Savior (61).
+Damage: Diamond Mare (71) deals 1 damage () to Juggernaut (8).
+Damage: Felidar Savior (61) deals 2 damage () to Juggernaut (8).
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Mana: Swamp (17) - {T}: Add {B}.
+Mana: Swamp (30) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck15 cast Pilfer (32) targeting [Ai(2)-Gen1_Deck0]
+Discard: Ai(2)-Gen1_Deck0 discards Angelic Edict (99).
+Resolve stack: Pilfer (32) - Ai(2)-Gen1_Deck0 reveals their hand. Ai(1)-Gen1_Deck15 chooses a nonland card from it. Ai(2)-Gen1_Deck0 discards that card.
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Mana: Plains (84) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Resolute Reinforcements (108)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen1_Deck0 triggered Resolute Reinforcements (108)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (108)]
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Inspiring Paladin (65), Felidar Savior (61) and Giada, Font of Hope (118) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Infestation Sage (1) to block Inspiring Paladin (65).
+Ai(1)-Gen1_Deck15 didn't block Giada, Font of Hope (118).
+Ai(1)-Gen1_Deck15 assigned Infestation Sage (2) and Stromkirk Bloodthief (13) to block Felidar Savior (61).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Damage: Inspiring Paladin (65) deals 4 damage () to Infestation Sage (1).
+Damage: Giada, Font of Hope (118) deals 3 combat damage to Ai(1)-Gen1_Deck15.
+Add to stack: Ai(1)-Gen1_Deck15 triggered Infestation Sage (1)
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (1)]
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Felidar Savior (61) deals 1 damage () to Infestation Sage (2).
+Damage: Felidar Savior (61) deals 1 damage () to Stromkirk Bloodthief (13).
+Damage: Infestation Sage (2) deals 1 damage () to Felidar Savior (61).
+Damage: Stromkirk Bloodthief (13) deals 2 damage () to Felidar Savior (61).
+Add to stack: Ai(1)-Gen1_Deck15 triggered Infestation Sage (2)
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (2)]
+Phase: Ai(2)-Gen1_Deck0's End of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Main phase, postcombat
+Mana: Plains (83) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck0 cast Three Tree Mascot (75)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck0's End step
+Phase: Ai(2)-Gen1_Deck0's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen1_Deck15)
+Phase: Ai(1)-Gen1_Deck15's Untap step
+Phase: Ai(1)-Gen1_Deck15's Upkeep step
+Phase: Ai(1)-Gen1_Deck15's Draw step
+Phase: Ai(1)-Gen1_Deck15's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck15's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck15 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck15's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck15's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck15's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck15's End of Combat Step
+Phase: Ai(1)-Gen1_Deck15's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck15's End step
+Phase: Ai(1)-Gen1_Deck15's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen1_Deck0)
+Phase: Ai(2)-Gen1_Deck0's Untap step
+Phase: Ai(2)-Gen1_Deck0's Upkeep step
+Phase: Ai(2)-Gen1_Deck0's Draw step
+Phase: Ai(2)-Gen1_Deck0's Main phase, precombat
+Land: Ai(2)-Gen1_Deck0 played Evolving Wilds (80)
+Add to stack: Ai(2)-Gen1_Deck0 activated Evolving Wilds (80)
+Resolve stack: Evolving Wilds (80) - Ai(2)-Gen1_Deck0 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen1_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck0 assigned Inspiring Paladin (65), Giada, Font of Hope (118), Three Tree Mascot (75), Resolute Reinforcements (108) and Soldier Token (124) to attack Ai(1)-Gen1_Deck15.
+Phase: Ai(2)-Gen1_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck15 assigned Insect Token (127) to block Inspiring Paladin (65).
+Ai(1)-Gen1_Deck15 assigned Insect Token (130) to block Giada, Font of Hope (118).
+Ai(1)-Gen1_Deck15 assigned Stromkirk Bloodthief (13) to block Three Tree Mascot (75).
+Ai(1)-Gen1_Deck15 assigned Stromkirk Bloodthief (15) to block Resolute Reinforcements (108).
+Ai(1)-Gen1_Deck15 didn't block Soldier Token (124).
+Phase: Ai(2)-Gen1_Deck0's First Strike Damage Step
+Damage: Inspiring Paladin (65) deals 4 damage () to Insect Token (127).
+Damage: Giada, Font of Hope (118) deals 3 damage () to Insect Token (130).
+Damage: Three Tree Mascot (75) deals 3 damage () to Stromkirk Bloodthief (13).
+Phase: Ai(2)-Gen1_Deck0's Combat Damage Step
+Damage: Resolute Reinforcements (108) deals 1 damage () to Stromkirk Bloodthief (15).
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen1_Deck15.
+Damage: Stromkirk Bloodthief (15) deals 2 damage () to Resolute Reinforcements (108).
+Player control: Ai(1)-Gen1_Deck15 is controlled by Ai(1)-Gen1_Deck15
+Player control: Ai(2)-Gen1_Deck0 is controlled by Ai(2)-Gen1_Deck0
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen1_Deck15 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck0 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck15: 0 Ai(2)-Gen1_Deck0: 1 
+
+Game Result: Game 1 ended in 20686 ms. Ai(2)-Gen1_Deck0 has won!
+
+
+=== STDERR ===

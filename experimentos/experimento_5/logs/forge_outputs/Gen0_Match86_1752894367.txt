@@ -1,0 +1,624 @@
+=== COMBATE PARALELO: Gen0_Deck20 vs Gen0_Deck3 ===
+Worker ID: 3458970
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck20 Gen0_Deck3 -n 1
+Duración: 36.23 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2182 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 87 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck20 vs Ai(2)-Gen0_Deck3 - one game of Constructed
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+SVar 'Double' not found in ability, fallback to Card (Bulk Up). Ability is (Double target creature's power until end of turn.)
+SVar 'Double' not defined in Card (Bulk Up)
+Mulligan: Ai(2)-Gen0_Deck3 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck3 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen0_Deck20 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (120)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Land: Ai(1)-Gen0_Deck20 played Forest (25)
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Rogue's Passage (88)
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Rogue's Passage (88) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Axgard Cavalry (71)
+Resolve stack: Axgard Cavalry - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Land: Ai(1)-Gen0_Deck20 played Mountain (54)
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (25) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck20 cast Heartfire Immolator (58)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Crawling Barrens (76)
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Burst Lightning (63) targeting [Heartfire Immolator (58)]
+Damage: Burst Lightning (63) deals 2 damage () to Heartfire Immolator (58).
+Resolve stack: Burst Lightning (63) - Burst Lightning (63) deals 2 damage to Heartfire Immolator (58).
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Axgard Cavalry (71) to attack Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck20 didn't block Axgard Cavalry (71).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Axgard Cavalry (71) deals 2 combat damage to Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Land: Ai(1)-Gen0_Deck20 played Swamp (19)
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck20 cast Vampire Spawn (59)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(1)-Gen0_Deck20 triggered Vampire Spawn (59)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (59)]
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Evolving Wilds (100)
+Add to stack: Ai(2)-Gen0_Deck3 activated Evolving Wilds (100)
+Resolve stack: Evolving Wilds (100) - Ai(2)-Gen0_Deck3 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Rogue's Passage (88) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Heartfire Immolator (79)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Land: Ai(1)-Gen0_Deck20 played Demolition Field (48)
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck20 activated Demolition Field (48) targeting [Crawling Barrens (76)]
+Resolve stack: Demolition Field (48) - Destroy Crawling Barrens (76). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck20 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 assigned Vampire Spawn (59) to attack Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck3 didn't block Vampire Spawn (59).
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Damage: Vampire Spawn (59) deals 2 combat damage to Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck20 cast Mazemind Tome (39)
+Resolve stack: Mazemind Tome
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck20 activated Mazemind Tome (39)
+Resolve stack: Ai(1)-Gen0_Deck20 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (39) - Ai(1)-Gen0_Deck20 scries 1.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (114)
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Rogue's Passage (88) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Pyromancer's Goggles (99)
+Add to stack: Ai(2)-Gen0_Deck3 triggered Heartfire Immolator (79)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Pyromancer's Goggles (99), Activator: Ai(2)-Gen0_Deck3, SpellAbility: Pyromancer's Goggles]
+Resolve stack: Pyromancer's Goggles
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Heartfire Immolator (79) and Axgard Cavalry (71) to attack Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck20 didn't block Axgard Cavalry (71).
+Ai(1)-Gen0_Deck20 didn't block Heartfire Immolator (79).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Heartfire Immolator (79) deals 3 combat damage to Ai(1)-Gen0_Deck20.
+Damage: Axgard Cavalry (71) deals 2 combat damage to Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Land: Ai(1)-Gen0_Deck20 played Forest (26)
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 assigned Vampire Spawn (59) to attack Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck3 didn't block Vampire Spawn (59).
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Damage: Vampire Spawn (59) deals 2 combat damage to Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Swamp (19) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck20 cast Guttersnipe (21)
+Resolve stack: Guttersnipe - Creature 2 / 2
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck20 activated Mazemind Tome (39)
+Resolve stack: Mazemind Tome (39) - Ai(1)-Gen0_Deck20 draws a card.
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (88) targeting [Axgard Cavalry (71)]
+Resolve stack: Rogue's Passage (88) - Axgard Cavalry (71) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (106)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Axgard Cavalry (71) to attack Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck20 didn't block Axgard Cavalry (71).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Axgard Cavalry (71) deals 2 combat damage to Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck20 activated Mazemind Tome (39)
+Resolve stack: Ai(1)-Gen0_Deck20 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (39) - Ai(1)-Gen0_Deck20 scries 1.
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 assigned Vampire Spawn (59) to attack Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck3 didn't block Vampire Spawn (59).
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Damage: Vampire Spawn (59) deals 2 combat damage to Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck20 played Uncharted Haven (34)
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck20 cast Stromkirk Bloodthief (11)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck20's End step
+Add to stack: Ai(1)-Gen0_Deck20 triggered Stromkirk Bloodthief (11) targeting [Vampire Spawn (59)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Vampire Spawn (59)]]) [Phase: Ai(1)-Gen0_Deck20]
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (88) targeting [Axgard Cavalry (71)]
+Resolve stack: Rogue's Passage (88) - Axgard Cavalry (71) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Axgard Cavalry (71) to attack Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck20 didn't block Axgard Cavalry (71).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Axgard Cavalry (71) deals 2 combat damage to Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck20 cast Deadly Plot (20)
+Add to stack: Ai(1)-Gen0_Deck20 triggered Guttersnipe (21)
+Damage: Guttersnipe (21) deals 2 non-combat damage to Ai(2)-Gen0_Deck3.
+Resolve stack: Whenever you cast an instant or sorcery spell, Guttersnipe deals 2 damage to each opponent. [Card: Deadly Plot (20), Activator: Ai(1)-Gen0_Deck20, SpellAbility: Choose one —
+• Destroy target creature or planeswalker.
+• Return target Zombie creature card from your graveyard to the battlefield tapped.
+
+ Destroy target creature or planeswalker.]
+Resolve stack: Deadly Plot (20) -  Destroy target creature or planeswalker. (Targeting: Axgard Cavalry (71))
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 assigned Vampire Spawn (59), Guttersnipe (21) and Stromkirk Bloodthief (11) to attack Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Heartfire Immolator (79) to block Guttersnipe (21).
+Ai(2)-Gen0_Deck3 didn't block Vampire Spawn (59).
+Ai(2)-Gen0_Deck3 didn't block Stromkirk Bloodthief (11).
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Damage: Vampire Spawn (59) deals 3 combat damage to Ai(2)-Gen0_Deck3.
+Damage: Guttersnipe (21) deals 2 damage () to Heartfire Immolator (79).
+Damage: Stromkirk Bloodthief (11) deals 2 combat damage to Ai(2)-Gen0_Deck3.
+Damage: Heartfire Immolator (79) deals 2 damage () to Guttersnipe (21).
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck20 played Uncharted Haven (35)
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Uncharted Haven (34) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen0_Deck20 activated Mazemind Tome (39)
+Add to stack: Ai(1)-Gen0_Deck20 triggered Mazemind Tome (39)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (39) - Ai(1)-Gen0_Deck20 draws a card.
+Phase: Ai(1)-Gen0_Deck20's End step
+Add to stack: Ai(1)-Gen0_Deck20 triggered Stromkirk Bloodthief (11) targeting [Vampire Spawn (59)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Vampire Spawn (59)]]) [Phase: Ai(1)-Gen0_Deck20]
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (109)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Pyromancer's Goggles (99) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Mana: Mountain (106) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Chandra, Flameshaper (104)
+Replacement Effect: Chandra, Flameshaper enters with six loyalty counters on it.
+Resolve stack: Chandra, Flameshaper
+Add to stack: Ai(2)-Gen0_Deck3 activated Chandra, Flameshaper (104) targeting [Vampire Spawn (59), Stromkirk Bloodthief (11)]
+Damage: Chandra, Flameshaper (104) deals 5 damage () to Vampire Spawn (59).
+Damage: Chandra, Flameshaper (104) deals 2 damage () to Stromkirk Bloodthief (11).
+Resolve stack: Chandra, Flameshaper (104) - Chandra, Flameshaper (104) deals 8 damage divided to 
+Vampire Spawn (59) (5 damage) and Stromkirk Bloodthief (11) (2 damage).
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Land: Ai(1)-Gen0_Deck20 played Forest (27)
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck20 cast Mazemind Tome (40)
+Resolve stack: Mazemind Tome
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck20 activated Mazemind Tome (40)
+Resolve stack: Mazemind Tome (40) - Ai(1)-Gen0_Deck20 draws a card.
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Pyromancer's Goggles (99) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Mana: Mountain (106) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Shivan Dragon (66)
+Resolve stack: Shivan Dragon - Creature 5 / 5
+Add to stack: Ai(2)-Gen0_Deck3 activated Chandra, Flameshaper (104) targeting [Shivan Dragon (66)]
+Resolve stack: Chandra, Flameshaper (104) - Ai(2)-Gen0_Deck3 creates a token that's a copy of Shivan Dragon (66), except it has haste.
+Phase: Ai(2)-Gen0_Deck3's End step
+Add to stack: Ai(2)-Gen0_Deck3 triggered Shivan Dragon (124)
+Resolve stack: At the beginning of the end step, sacrifice Shivan Dragon. [Phase: Ai(2)-Gen0_Deck3]
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck20 activated Mazemind Tome (40)
+Resolve stack: Ai(1)-Gen0_Deck20 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (40) - Ai(1)-Gen0_Deck20 scries 1.
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen0_Deck20 played Uncharted Haven (33)
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (88) targeting [Shivan Dragon (66)]
+Resolve stack: Rogue's Passage (88) - Shivan Dragon (66) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Add to stack: Ai(2)-Gen0_Deck3 activated Chandra, Flameshaper (104) targeting [Shivan Dragon (66)]
+Resolve stack: Chandra, Flameshaper (104) - Ai(2)-Gen0_Deck3 creates a token that's a copy of Shivan Dragon (66), except it has haste.
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Shivan Dragon (127) and Shivan Dragon (66) to attack Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck20 didn't block Shivan Dragon (66).
+Ai(1)-Gen0_Deck20 didn't block Shivan Dragon (127).
+Mana: Pyromancer's Goggles (99) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Add to stack: Ai(2)-Gen0_Deck3 activated Shivan Dragon (66)
+Resolve stack: Shivan Dragon (66) - Shivan Dragon (66) gets +1/+0  until end of turn.
+Mana: Mountain (106) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Shivan Dragon (66)
+Resolve stack: Shivan Dragon (66) - Shivan Dragon (66) gets +1/+0  until end of turn.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Shivan Dragon (66)
+Resolve stack: Shivan Dragon (66) - Shivan Dragon (66) gets +1/+0  until end of turn.
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Shivan Dragon (127) deals 5 combat damage to Ai(1)-Gen0_Deck20.
+Damage: Shivan Dragon (66) deals 8 combat damage to Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Add to stack: Ai(2)-Gen0_Deck3 triggered Shivan Dragon (127)
+Resolve stack: At the beginning of the end step, sacrifice Shivan Dragon. [Phase: Ai(2)-Gen0_Deck3]
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen0_Deck20)
+Phase: Ai(1)-Gen0_Deck20's Untap step
+Phase: Ai(1)-Gen0_Deck20's Upkeep step
+Add to stack: Ai(1)-Gen0_Deck20 activated Mazemind Tome (40)
+Resolve stack: Ai(1)-Gen0_Deck20 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (40) - Ai(1)-Gen0_Deck20 scries 1.
+Phase: Ai(1)-Gen0_Deck20's Draw step
+Phase: Ai(1)-Gen0_Deck20's Main phase, precombat
+Mana: Swamp (19) - {T}: Add {B}.
+Mana: Swamp (16) - {T}: Add {B}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Uncharted Haven (34) - {T}: Add one mana of the chosen color.
+Mana: Uncharted Haven (35) - {T}: Add one mana of the chosen color.
+Mana: Forest (27) - {T}: Add {G}.
+Mana: Uncharted Haven (33) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen0_Deck20 cast Dread Summons (7)
+Zone Change: Ai(1)-Gen0_Deck20 milled Preposterous Proportions (4), Heartfire Immolator (57), Mountain (53), Golgari Guildgate (29), Swamp (17), Painful Quandary (42) and Aggressive Mammoth (31).
+Zone Change: Ai(2)-Gen0_Deck3 milled Swab Goblin (92), Swab Goblin (93), Strongbox Raider (103), Etali, Primal Storm (96), Crawling Barrens (77), Seismic Rupture (78) and Dragonmaster Outcast (101).
+Resolve stack: Dread Summons (7) - Each player mills seven cards.   (X=7)
+Phase: Ai(1)-Gen0_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck20's End of Combat Step
+Phase: Ai(1)-Gen0_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck20's End step
+Phase: Ai(1)-Gen0_Deck20's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Mountain (112) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (88) targeting [Shivan Dragon (66)]
+Resolve stack: Rogue's Passage (88) - Shivan Dragon (66) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (119)
+Add to stack: Ai(2)-Gen0_Deck3 activated Chandra, Flameshaper (104) targeting [Zombie Token (129), Zombie Token (130), Zombie Token (131), Zombie Token (132)]
+Damage: Chandra, Flameshaper (104) deals 2 damage () to Zombie Token (129).
+Damage: Chandra, Flameshaper (104) deals 2 damage () to Zombie Token (130).
+Damage: Chandra, Flameshaper (104) deals 2 damage () to Zombie Token (131).
+Damage: Chandra, Flameshaper (104) deals 2 damage () to Zombie Token (132).
+Resolve stack: Chandra, Flameshaper (104) - Chandra, Flameshaper (104) deals 8 damage divided to 
+Zombie Token (129) (2 damage), Zombie Token (130) (2 damage), Zombie Token (131) (2 damage) and Zombie Token (132) (2 damage).
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Shivan Dragon (66) to attack Ai(1)-Gen0_Deck20.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck20 didn't block Shivan Dragon (66).
+Mana: Pyromancer's Goggles (99) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Add to stack: Ai(2)-Gen0_Deck3 activated Shivan Dragon (66)
+Resolve stack: Shivan Dragon (66) - Shivan Dragon (66) gets +1/+0  until end of turn.
+Mana: Mountain (106) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Shivan Dragon (66)
+Resolve stack: Shivan Dragon (66) - Shivan Dragon (66) gets +1/+0  until end of turn.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Shivan Dragon (66)
+Resolve stack: Shivan Dragon (66) - Shivan Dragon (66) gets +1/+0  until end of turn.
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Shivan Dragon (66)
+Resolve stack: Shivan Dragon (66) - Shivan Dragon (66) gets +1/+0  until end of turn.
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Shivan Dragon (66) deals 9 combat damage to Ai(1)-Gen0_Deck20.
+Player control: Ai(1)-Gen0_Deck20 is controlled by Ai(1)-Gen0_Deck20
+Player control: Ai(2)-Gen0_Deck3 is controlled by Ai(2)-Gen0_Deck3
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen0_Deck20 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck3 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck20: 0 Ai(2)-Gen0_Deck3: 1 
+
+Game Result: Game 1 ended in 23752 ms. Ai(2)-Gen0_Deck3 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,470 @@
+=== COMBATE PARALELO: Gen0_Deck10 vs Gen0_Deck11 ===
+Worker ID: 2318698
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck10 Gen0_Deck11 -n 1
+Duración: 77.02 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2289 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 77 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck10 vs Ai(2)-Gen0_Deck11 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck11 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck11 has kept a hand of 6 cards
+Mulligan: Ai(1)-Gen0_Deck10 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Replacement Effect: Temple of Plenty enters tapped.
+Land: Ai(2)-Gen0_Deck11 played Temple of Plenty (84)
+Add to stack: Ai(2)-Gen0_Deck11 triggered Temple of Plenty (84)
+Resolve stack: Ai(2)-Gen0_Deck11 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Plenty enters, scry 1. [Zone Changer: Temple of Plenty (84)]
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Mountain (55)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Plains (112)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Temple of Plenty (84) - {T}: Add {G} or {W}.
+Mana: Plains (112) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Gnarlid Colony (64)
+Resolve stack: Gnarlid Colony - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Plains (31)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Searslicer Goblin (52)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Land: Ai(2)-Gen0_Deck11 played Plains (107)
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Temple of Plenty (84) - {T}: Add {G} or {W}.
+Mana: Plains (112) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Gnarlid Colony (63)
+Resolve stack: Gnarlid Colony - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Plains (32)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Goblin Boarders (20)
+Resolve stack: Goblin Boarders - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Mana: Temple of Plenty (84) - {T}: Add {G} or {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Giant Growth (70) targeting [Gnarlid Colony (63)]
+Resolve stack: Giant Growth (70) - Gnarlid Colony (63) gets +3/+3  until end of turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Gnarlid Colony (63) to attack Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck10 didn't block Gnarlid Colony (63).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Gnarlid Colony (63) deals 5 combat damage to Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Mountain (58)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Goblin Boarders (19)
+Resolve stack: Goblin Boarders - Creature 3 / 2
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Mana: Plains (112) - {T}: Add {W}.
+Mana: Plains (107) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Adamant Will (117) targeting [Gnarlid Colony (64)]
+Resolve stack: Adamant Will (117) - Gnarlid Colony (64) gets +2/+2 and gains indestructible until end of turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Gnarlid Colony (64) to attack Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck10 didn't block Gnarlid Colony (64).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Gnarlid Colony (64) deals 4 combat damage to Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Fleeting Flight (17) targeting [Goblin Boarders (20)]
+Resolve stack: Fleeting Flight (17) - Ai(1)-Gen0_Deck10 puts a +1/+1 counter on Goblin Boarders (20). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Mountain (60)
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 assigned Goblin Boarders (20) and Searslicer Goblin (52) to attack Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 didn't block Goblin Boarders (20).
+Ai(2)-Gen0_Deck11 didn't block Searslicer Goblin (52).
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Damage: Goblin Boarders (20) deals 4 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Searslicer Goblin (52) deals 2 combat damage to Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Hedron Archive (49)
+Resolve stack: Hedron Archive
+Phase: Ai(1)-Gen0_Deck10's End step
+Add to stack: Ai(1)-Gen0_Deck10 triggered Searslicer Goblin (52)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen0_Deck10]
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Mana: Temple of Plenty (84) - {T}: Add {G} or {W}.
+Mana: Plains (112) - {T}: Add {W}.
+Mana: Plains (107) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Ambush Wolf (103)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(2)-Gen0_Deck11 triggered Ambush Wolf (103) targeting [Fleeting Flight (17)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Fleeting Flight (17)]]) [Zone Changer: Ambush Wolf (103)]
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Gnarlid Colony (64) and Gnarlid Colony (63) to attack Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck10 didn't block Gnarlid Colony (64).
+Ai(1)-Gen0_Deck10 didn't block Gnarlid Colony (63).
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Damage: Gnarlid Colony (64) deals 2 combat damage to Ai(1)-Gen0_Deck10.
+Damage: Gnarlid Colony (63) deals 2 combat damage to Ai(1)-Gen0_Deck10.
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Evolving Wilds (26)
+Add to stack: Ai(1)-Gen0_Deck10 activated Evolving Wilds (26)
+Resolve stack: Evolving Wilds (26) - Ai(1)-Gen0_Deck10 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Squad Rallier (25)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Mana: Temple of Plenty (84) - {T}: Add {G} or {W}.
+Mana: Plains (112) - {T}: Add {W}.
+Mana: Plains (107) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Ambush Wolf (104)
+Resolve stack: Ambush Wolf - Creature 4 / 2
+Add to stack: Ai(2)-Gen0_Deck11 triggered Ambush Wolf (104) targeting [Evolving Wilds (26)]
+Resolve stack: When this creature enters, exile up to one target card from a graveyard. (Targeting: [[Evolving Wilds (26)]]) [Zone Changer: Ambush Wolf (104)]
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Replacement Effect: Blossoming Sands enters tapped.
+Land: Ai(2)-Gen0_Deck11 played Blossoming Sands (67)
+Add to stack: Ai(2)-Gen0_Deck11 triggered Blossoming Sands (67)
+Resolve stack: When Blossoming Sands enters, you gain 1 life. [Zone Changer: Blossoming Sands (67)]
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Swiftblade Vindicator (15)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck10 activated Squad Rallier (25)
+Resolve stack: Squad Rallier (25) - Ai(1)-Gen0_Deck10 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen0_Deck10's End step
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Mana: Temple of Plenty (84) - {T}: Add {G} or {W}.
+Mana: Plains (112) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Gnarlid Colony (62)
+Resolve stack: Gnarlid Colony - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck11's End step
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Hedron Archive (49) - {T}: Add {C}{C}.
+Add to stack: Ai(1)-Gen0_Deck10 activated Squad Rallier (25)
+Resolve stack: Squad Rallier (25) - Ai(1)-Gen0_Deck10 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Land: Ai(1)-Gen0_Deck10 played Plains (35)
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Battle-Rattle Shaman (1)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck10 triggered Battle-Rattle Shaman (1) targeting [Squad Rallier (25)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Squad Rallier (25)]]) [Phase: Ai(1)-Gen0_Deck10]
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck10's End of Combat Step
+Phase: Ai(1)-Gen0_Deck10's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (35) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Ajani, Caller of the Pride (12)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen0_Deck10 activated Ajani, Caller of the Pride (12) targeting [Squad Rallier (25)]
+Resolve stack: Ajani, Caller of the Pride (12) - Ai(1)-Gen0_Deck10 puts a +1/+1 counter on Squad Rallier (25).
+Phase: Ai(1)-Gen0_Deck10's End step
+Mana: Plains (107) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Fleeting Flight (94) targeting [Ambush Wolf (103)]
+Resolve stack: Fleeting Flight (94) - Ai(2)-Gen0_Deck11 puts a +1/+1 counter on Ambush Wolf (103). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(1)-Gen0_Deck10's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck11)
+Phase: Ai(2)-Gen0_Deck11's Untap step
+Phase: Ai(2)-Gen0_Deck11's Upkeep step
+Phase: Ai(2)-Gen0_Deck11's Draw step
+Phase: Ai(2)-Gen0_Deck11's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck11's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck11 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck11's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck11's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck11's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck11's End of Combat Step
+Phase: Ai(2)-Gen0_Deck11's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck11's End step
+Phase: Ai(2)-Gen0_Deck11's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck10)
+Phase: Ai(1)-Gen0_Deck10's Untap step
+Phase: Ai(1)-Gen0_Deck10's Upkeep step
+Phase: Ai(1)-Gen0_Deck10's Draw step
+Phase: Ai(1)-Gen0_Deck10's Main phase, precombat
+Add to stack: Ai(1)-Gen0_Deck10 activated Ajani, Caller of the Pride (12) targeting [Squad Rallier (25)]
+Resolve stack: Ajani, Caller of the Pride (12) - Squad Rallier (25) gains flying and double strike until end of turn.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (58) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck10 cast Battle-Rattle Shaman (3)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (35) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck10 activated Squad Rallier (25)
+Resolve stack: Squad Rallier (25) - Ai(1)-Gen0_Deck10 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(1)-Gen0_Deck10's Beginning of Combat Step
+Add to stack: Ai(1)-Gen0_Deck10 triggered Battle-Rattle Shaman (1) targeting [Squad Rallier (25)]
+Add to stack: Ai(1)-Gen0_Deck10 triggered Battle-Rattle Shaman (3) targeting [Squad Rallier (25)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Squad Rallier (25)]]) [Phase: Ai(1)-Gen0_Deck10]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Squad Rallier (25)]]) [Phase: Ai(1)-Gen0_Deck10]
+Phase: Ai(1)-Gen0_Deck10's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck10 assigned Squad Rallier (25), Goblin Boarders (20), Goblin Boarders (19), Searslicer Goblin (52), Battle-Rattle Shaman (1), Goblin Token (123) and Swiftblade Vindicator (15) to attack Ai(2)-Gen0_Deck11.
+Phase: Ai(1)-Gen0_Deck10's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck11 assigned Gnarlid Colony (62) to block Battle-Rattle Shaman (1).
+Ai(2)-Gen0_Deck11 assigned Gnarlid Colony (63) to block Goblin Boarders (19).
+Ai(2)-Gen0_Deck11 assigned Gnarlid Colony (64) to block Goblin Boarders (20).
+Ai(2)-Gen0_Deck11 assigned Ambush Wolf (104) to block Searslicer Goblin (52).
+Ai(2)-Gen0_Deck11 didn't block Squad Rallier (25).
+Ai(2)-Gen0_Deck11 didn't block Goblin Token (123).
+Ai(2)-Gen0_Deck11 assigned Ambush Wolf (103) to block Swiftblade Vindicator (15).
+Mana: Plains (112) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Fleeting Flight (93) targeting [Gnarlid Colony (64)]
+Resolve stack: Fleeting Flight (93) - Ai(2)-Gen0_Deck11 puts a +1/+1 counter on Gnarlid Colony (64). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Mana: Plains (107) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck11 cast Divine Resilience (116) targeting [Ambush Wolf (104)]
+Resolve stack: Divine Resilience (116) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Ambush Wolf (104))
+Phase: Ai(1)-Gen0_Deck10's First Strike Damage Step
+Damage: Squad Rallier (25) deals 8 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Swiftblade Vindicator (15) deals 1 damage () to Ambush Wolf (103).
+Phase: Ai(1)-Gen0_Deck10's Combat Damage Step
+Replacement Effect: Prevent all combat damage that would be dealt to Gnarlid Colony.
+Damage: Squad Rallier (25) deals 8 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Goblin Boarders (19) deals 3 damage () to Gnarlid Colony (63).
+Damage: Searslicer Goblin (52) deals 2 damage () to Ambush Wolf (104).
+Damage: Battle-Rattle Shaman (1) deals 2 damage () to Gnarlid Colony (62).
+Damage: Goblin Token (123) deals 1 combat damage to Ai(2)-Gen0_Deck11.
+Damage: Swiftblade Vindicator (15) deals 1 damage () to Ambush Wolf (103).
+Damage: Gnarlid Colony (64) deals 3 damage () to Goblin Boarders (20).
+Damage: Gnarlid Colony (63) deals 2 damage () to Goblin Boarders (19).
+Damage: Gnarlid Colony (62) deals 2 damage () to Battle-Rattle Shaman (1).
+Damage: Ambush Wolf (104) deals 4 damage () to Searslicer Goblin (52).
+Damage: Ambush Wolf (103) deals 5 damage () to Swiftblade Vindicator (15).
+Player control: Ai(1)-Gen0_Deck10 is controlled by Ai(1)-Gen0_Deck10
+Player control: Ai(2)-Gen0_Deck11 is controlled by Ai(2)-Gen0_Deck11
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck10 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck11 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck10: 1 Ai(2)-Gen0_Deck11: 0 
+
+Game Result: Game 1 ended in 64086 ms. Ai(1)-Gen0_Deck10 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,269 @@
+=== COMBATE PARALELO: Gen3_Deck22 vs Gen3_Deck21 ===
+Worker ID: 2687310
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen3_Deck22 Gen3_Deck21 -n 1
+Duración: 20.15 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2092 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 192 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen3_Deck22 vs Ai(2)-Gen3_Deck21 - one game of Constructed
+Mulligan: Ai(2)-Gen3_Deck21 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen3_Deck22 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Land: Ai(2)-Gen3_Deck21 played Swamp (81)
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 didn't attack this turn.
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Pulse Tracker (98)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(1)-Gen3_Deck22 played Scoured Barrens (52)
+Add to stack: Ai(1)-Gen3_Deck22 triggered Scoured Barrens (52)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (52)]
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Land: Ai(2)-Gen3_Deck21 played Swamp (89)
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Pulse Tracker (98) to attack Ai(1)-Gen3_Deck22.
+Add to stack: Ai(2)-Gen3_Deck21 triggered Pulse Tracker (98)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (98)]
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Pulse Tracker (98).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Pulse Tracker (98) deals 1 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Knight of Malice (115)
+Resolve stack: Knight of Malice - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Plains (18)
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Scoured Barrens (52) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen3_Deck22 cast Sun-Blessed Healer (3)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Land: Ai(2)-Gen3_Deck21 played Swamp (83)
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Pulse Tracker (98) and Knight of Malice (115) to attack Ai(1)-Gen3_Deck22.
+Add to stack: Ai(2)-Gen3_Deck21 triggered Pulse Tracker (98)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (98)]
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Pulse Tracker (98).
+Ai(1)-Gen3_Deck22 didn't block Knight of Malice (115).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Damage: Knight of Malice (115) deals 3 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Pulse Tracker (98) deals 1 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Stromkirk Bloodthief (75)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(2)-Gen3_Deck21's End step
+Add to stack: Ai(2)-Gen3_Deck21 triggered Stromkirk Bloodthief (75) targeting [Stromkirk Bloodthief (75)]
+Resolve stack: At the beginning of your end step, if an opponent lost life this turn, put a +1/+1 counter on target Vampire you control. (Targeting: [[Stromkirk Bloodthief (75)]]) [Phase: Ai(2)-Gen3_Deck21]
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Demolition Field (59)
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Heraldic Banner (73)
+Replacement Effect: As Heraldic Banner enters, choose a color.
+Resolve stack: Heraldic Banner
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Pulse Tracker (98), Knight of Malice (115) and Stromkirk Bloodthief (75) to attack Ai(1)-Gen3_Deck22.
+Add to stack: Ai(2)-Gen3_Deck21 triggered Pulse Tracker (98)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (98)]
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Pulse Tracker (98).
+Ai(1)-Gen3_Deck22 didn't block Knight of Malice (115).
+Ai(1)-Gen3_Deck22 assigned Sun-Blessed Healer (3) to block Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Damage: Knight of Malice (115) deals 4 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Pulse Tracker (98) deals 2 combat damage to Ai(1)-Gen3_Deck22.
+Damage: Stromkirk Bloodthief (75) deals 4 damage () to Sun-Blessed Healer (3).
+Damage: Sun-Blessed Healer (3) deals 3 damage () to Stromkirk Bloodthief (75).
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Swamp (43)
+Mana: Swamp (43) - {T}: Add {B}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Scoured Barrens (52) - {T}: Add {W} or {B}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen3_Deck22 cast Deadly Plot (51)
+Resolve stack: Deadly Plot (51) -  Destroy target creature or planeswalker. (Targeting: Knight of Malice (115))
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Pulse Tracker (98) to attack Ai(1)-Gen3_Deck22.
+Add to stack: Ai(2)-Gen3_Deck21 triggered Pulse Tracker (98)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (98)]
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Pulse Tracker (98).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Pulse Tracker (98) deals 2 combat damage to Ai(1)-Gen3_Deck22.
+Phase: Ai(2)-Gen3_Deck21's End of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Main phase, postcombat
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (89) - {T}: Add {B}.
+Mana: Swamp (83) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen3_Deck21 cast Vampire Spawn (120)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen3_Deck21 triggered Vampire Spawn (120)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (120)]
+Phase: Ai(2)-Gen3_Deck21's End step
+Phase: Ai(2)-Gen3_Deck21's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen3_Deck22)
+Phase: Ai(1)-Gen3_Deck22's Untap step
+Phase: Ai(1)-Gen3_Deck22's Upkeep step
+Phase: Ai(1)-Gen3_Deck22's Draw step
+Phase: Ai(1)-Gen3_Deck22's Main phase, precombat
+Land: Ai(1)-Gen3_Deck22 played Plains (13)
+Phase: Ai(1)-Gen3_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen3_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen3_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen3_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen3_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen3_Deck22's End of Combat Step
+Phase: Ai(1)-Gen3_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen3_Deck22's End step
+Phase: Ai(1)-Gen3_Deck22's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen3_Deck21)
+Phase: Ai(2)-Gen3_Deck21's Untap step
+Phase: Ai(2)-Gen3_Deck21's Upkeep step
+Phase: Ai(2)-Gen3_Deck21's Draw step
+Phase: Ai(2)-Gen3_Deck21's Main phase, precombat
+Phase: Ai(2)-Gen3_Deck21's Beginning of Combat Step
+Phase: Ai(2)-Gen3_Deck21's Declare Attackers Step
+Combat: Ai(2)-Gen3_Deck21 assigned Vampire Spawn (120) and Pulse Tracker (98) to attack Ai(1)-Gen3_Deck22.
+Add to stack: Ai(2)-Gen3_Deck21 triggered Pulse Tracker (98)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (98)]
+Phase: Ai(2)-Gen3_Deck21's Declare Blockers Step
+Combat: Ai(1)-Gen3_Deck22 didn't block Pulse Tracker (98).
+Ai(1)-Gen3_Deck22 didn't block Vampire Spawn (120).
+Phase: Ai(2)-Gen3_Deck21's First Strike Damage Step
+Phase: Ai(2)-Gen3_Deck21's Combat Damage Step
+Damage: Vampire Spawn (120) deals 3 combat damage to Ai(1)-Gen3_Deck22.
+Damage: Pulse Tracker (98) deals 2 combat damage to Ai(1)-Gen3_Deck22.
+Player control: Ai(1)-Gen3_Deck22 is controlled by Ai(1)-Gen3_Deck22
+Player control: Ai(2)-Gen3_Deck21 is controlled by Ai(2)-Gen3_Deck21
+Game outcome: Turn 6
+Game outcome: Ai(1)-Gen3_Deck22 has lost because life total reached 0
+Game outcome: Ai(2)-Gen3_Deck21 has won because all opponents have lost
+Match result: Ai(1)-Gen3_Deck22: 0 Ai(2)-Gen3_Deck21: 1 
+
+Game Result: Game 1 ended in 9545 ms. Ai(2)-Gen3_Deck21 has won!
+
+
+=== STDERR ===

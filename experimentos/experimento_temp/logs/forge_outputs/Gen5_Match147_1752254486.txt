@@ -1,0 +1,659 @@
+=== COMBATE PARALELO: Gen5_Deck24 vs Gen5_Deck6 ===
+Worker ID: 2928628
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen5_Deck24 Gen5_Deck6 -n 1
+Duración: 98.35 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2689 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 97 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen5_Deck24 vs Ai(2)-Gen5_Deck6 - one game of Constructed
+Mulligan: Ai(2)-Gen5_Deck6 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen5_Deck24 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen5_Deck6 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Plains (32)
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Swamp (110)
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Demolition Field (50)
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Soulstone Sanctuary (94)
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Demolition Field (53)
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Demolition Field (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck24 activated Demolition Field (50) targeting [Soulstone Sanctuary (94)]
+Resolve stack: Demolition Field (50) - Destroy Soulstone Sanctuary (94). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen5_Deck24 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Swamp (112)
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (110) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Charming Prince (87)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck6 triggered Charming Prince (87)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (87)]
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Plains (31)
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Demolition Field (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Solemn Simulacrum (5)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck24 triggered Solemn Simulacrum (5)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (5)]
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Land: Ai(1)-Gen5_Deck24 played Evolving Wilds (25)
+Add to stack: Ai(1)-Gen5_Deck24 activated Evolving Wilds (25)
+Resolve stack: Evolving Wilds (25) - Ai(1)-Gen5_Deck24 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Prideful Parent (10)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck24 triggered Prideful Parent (10)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (10)]
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Demolition Field (53) - {T}: Add {C}.
+Discard: Ai(1)-Gen5_Deck24 discards Evolving Wilds (24).
+Add to stack: Ai(1)-Gen5_Deck24 cast Thrill of Possibility (22)
+Resolve stack: Thrill of Possibility (22) - Ai(1)-Gen5_Deck24 draws two cards.
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Plains (72)
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Swamp (112) - {T}: Add {B}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Twinblade Paladin (66)
+Resolve stack: Twinblade Paladin - Creature 3 / 3
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Replacement Effect: Azorius Guildgate enters tapped.
+Land: Ai(1)-Gen5_Deck24 played Azorius Guildgate (40)
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Ajani, Caller of the Pride (17)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen5_Deck24 activated Ajani, Caller of the Pride (17) targeting [Prideful Parent (10)]
+Resolve stack: Ajani, Caller of the Pride (17) - Ai(1)-Gen5_Deck24 puts a +1/+1 counter on Prideful Parent (10).
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Swiftblade Vindicator (19)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (112) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Pirate's Cutlass (80)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Add to stack: Ai(1)-Gen5_Deck24 activated Ajani, Caller of the Pride (17) targeting [Prideful Parent (10)]
+Resolve stack: Ajani, Caller of the Pride (17) - Ai(1)-Gen5_Deck24 puts a +1/+1 counter on Prideful Parent (10).
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 assigned Prideful Parent (10) to attack Ai(2)-Gen5_Deck6.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck6 didn't block Prideful Parent (10).
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Damage: Prideful Parent (10) deals 4 combat damage to Ai(2)-Gen5_Deck6.
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Plains (31) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Release the Dogs (47)
+Resolve stack: Release the Dogs (47) - Ai(1)-Gen5_Deck24 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Soulstone Sanctuary (92)
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Swamp (112) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (92) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Lyra Dawnbringer (98)
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Azorius Guildgate (40) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen5_Deck24 activated Demolition Field (53) targeting [Soulstone Sanctuary (92)]
+Resolve stack: Demolition Field (53) - Destroy Soulstone Sanctuary (92). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen5_Deck24 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Add to stack: Ai(1)-Gen5_Deck24 activated Ajani, Caller of the Pride (17) targeting [Prideful Parent (10)]
+Resolve stack: Ajani, Caller of the Pride (17) - Ai(1)-Gen5_Deck24 puts a +1/+1 counter on Prideful Parent (10).
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Mountain (59) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Giant Cindermaw (12)
+Resolve stack: Giant Cindermaw - Creature 4 / 3
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (27) - {T}: Add {W}.
+Mana: Azorius Guildgate (40) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Release the Dogs (49)
+Resolve stack: Release the Dogs (49) - Ai(1)-Gen5_Deck24 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Plains (67)
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Plains (71) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck6 activated Pirate's Cutlass (80) targeting [Lyra Dawnbringer (98)]
+Resolve stack: Pirate's Cutlass (80) -  Attach to Lyra Dawnbringer (98)
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 assigned Lyra Dawnbringer (98) to attack Ajani, Caller of the Pride (17).
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 didn't block Lyra Dawnbringer (98).
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Mana: Swamp (112) - {T}: Add {B}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Plains (67) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Solemn Simulacrum (61)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck6 triggered Solemn Simulacrum (61)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (61)]
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 assigned Prideful Parent (10) to attack Ai(2)-Gen5_Deck6.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck6 didn't block Prideful Parent (10).
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Damage: Prideful Parent (10) deals 5 combat damage to Ai(2)-Gen5_Deck6.
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (59) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen5_Deck24 cast Charming Prince (44)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen5_Deck24 triggered Charming Prince (44)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Prideful Parent (10)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (44)]
+Phase: Ai(1)-Gen5_Deck24's End step
+Add to stack: Ai(1)-Gen5_Deck24 triggered Charming Prince (44)
+Resolve stack: Return exiled card to the battlefield. ([Prideful Parent (10)]) [Phase: Ai(1)-Gen5_Deck24]
+Add to stack: Ai(1)-Gen5_Deck24 triggered Prideful Parent (10)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (10)]
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Swamp (112) - {T}: Add {B}.
+Mana: Plains (69) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Valkyrie's Call (119)
+Resolve stack: Valkyrie's Call
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 assigned Giant Cindermaw (12), Solemn Simulacrum (5), Charming Prince (44), Cat Token (126), Dog Token (136), Dog Token (137), Dog Token (138), Dog Token (139), Dog Token (144), Dog Token (145), Dog Token (146), Dog Token (147), Cat Token (152), Prideful Parent (10) and Swiftblade Vindicator (19) to attack Ai(2)-Gen5_Deck6.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Combat: Ai(2)-Gen5_Deck6 assigned Solemn Simulacrum (61) to block Solemn Simulacrum (5).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (136).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (137).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (138).
+Ai(2)-Gen5_Deck6 assigned Charming Prince (87) to block Prideful Parent (10).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (139).
+Ai(2)-Gen5_Deck6 assigned Twinblade Paladin (66) to block Giant Cindermaw (12).
+Ai(2)-Gen5_Deck6 assigned Lyra Dawnbringer (98) to block Charming Prince (44).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (144).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (145).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (146).
+Ai(2)-Gen5_Deck6 didn't block Dog Token (147).
+Ai(2)-Gen5_Deck6 didn't block Swiftblade Vindicator (19).
+Ai(2)-Gen5_Deck6 didn't block Cat Token (152).
+Ai(2)-Gen5_Deck6 didn't block Cat Token (126).
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Damage: Swiftblade Vindicator (19) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Lyra Dawnbringer (98) deals 7 damage () to Charming Prince (44).
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Damage: Giant Cindermaw (12) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Giant Cindermaw (12) deals 3 damage () to Twinblade Paladin (66).
+Damage: Solemn Simulacrum (5) deals 2 damage () to Solemn Simulacrum (61).
+Damage: Cat Token (126) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (136) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (137) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (138) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (139) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (144) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (145) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (146) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Dog Token (147) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Cat Token (152) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Prideful Parent (10) deals 2 damage () to Charming Prince (87).
+Damage: Swiftblade Vindicator (19) deals 1 combat damage to Ai(2)-Gen5_Deck6.
+Damage: Twinblade Paladin (66) deals 3 damage () to Giant Cindermaw (12).
+Damage: Charming Prince (87) deals 2 damage () to Prideful Parent (10).
+Damage: Solemn Simulacrum (61) deals 2 damage () to Solemn Simulacrum (5).
+Add to stack: Ai(1)-Gen5_Deck24 triggered Solemn Simulacrum (5)
+Add to stack: Ai(2)-Gen5_Deck6 triggered Valkyrie's Call (119)
+Add to stack: Ai(2)-Gen5_Deck6 triggered Valkyrie's Call (119)
+Add to stack: Ai(2)-Gen5_Deck6 triggered Valkyrie's Call (119)
+Add to stack: Ai(2)-Gen5_Deck6 triggered Solemn Simulacrum (61)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (61)]
+Resolve stack: Whenever a nontoken, non-Angel creature you control dies, return that card to the battlefield under its owner's control with a +1/+1 counter on it. It has flying and is an Angel in addition to its other types. [Zone Changer: Solemn Simulacrum (61)]
+Add to stack: Ai(2)-Gen5_Deck6 triggered Solemn Simulacrum (61)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (61)]
+Resolve stack: Whenever a nontoken, non-Angel creature you control dies, return that card to the battlefield under its owner's control with a +1/+1 counter on it. It has flying and is an Angel in addition to its other types. [Zone Changer: Twinblade Paladin (66)]
+Resolve stack: Whenever a nontoken, non-Angel creature you control dies, return that card to the battlefield under its owner's control with a +1/+1 counter on it. It has flying and is an Angel in addition to its other types. [Zone Changer: Charming Prince (87)]
+Add to stack: Ai(2)-Gen5_Deck6 triggered Charming Prince (87)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Solemn Simulacrum (61)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (87)]
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (5)]
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck24 played Mountain (58)
+Phase: Ai(1)-Gen5_Deck24's End step
+Add to stack: Ai(2)-Gen5_Deck6 triggered Charming Prince (87)
+Resolve stack: Return exiled card to the battlefield. ([Solemn Simulacrum (61)]) [Phase: Ai(1)-Gen5_Deck24]
+Add to stack: Ai(2)-Gen5_Deck6 triggered Solemn Simulacrum (61)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (61)]
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Swamp (109)
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 didn't attack this turn.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Swamp (112) - {T}: Add {B}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Release the Dogs (91)
+Resolve stack: Release the Dogs (91) - Ai(2)-Gen5_Deck6 creates four 1/1 white Dog creature tokens.
+Mana: Plains (69) - {T}: Add {W}.
+Mana: Plains (67) - {T}: Add {W}.
+Mana: Swamp (107) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Ajani, Caller of the Pride (64)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(2)-Gen5_Deck6 activated Ajani, Caller of the Pride (64) targeting [Lyra Dawnbringer (98)]
+Resolve stack: Ajani, Caller of the Pride (64) - Ai(2)-Gen5_Deck6 puts a +1/+1 counter on Lyra Dawnbringer (98).
+Mana: Plains (68) - {T}: Add {W}.
+Mana: Swamp (111) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Charming Prince (88)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(2)-Gen5_Deck6 triggered Charming Prince (88)
+Resolve stack: When Charming Prince enters, exile another target creature you own. Return it to the battlefield under your control at the beginning of the next end step. (Targeting: Charming Prince (87)) Return exiled card to the battlefield. [Zone Changer: Charming Prince (88)]
+Phase: Ai(2)-Gen5_Deck6's End step
+Add to stack: Ai(2)-Gen5_Deck6 triggered Charming Prince (88)
+Resolve stack: Return exiled card to the battlefield. ([Charming Prince (87)]) [Phase: Ai(2)-Gen5_Deck6]
+Add to stack: Ai(2)-Gen5_Deck6 triggered Charming Prince (87)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (87)]
+Add to stack: Ai(2)-Gen5_Deck6 triggered Twinblade Paladin (66)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Twinblade Paladin. [Player: Ai(2)-Gen5_Deck6, Gained Amount: 3]
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck24 played Mountain (56)
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Land: Ai(2)-Gen5_Deck6 played Soulstone Sanctuary (93)
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 assigned Lyra Dawnbringer (98) to attack Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 didn't block Lyra Dawnbringer (98).
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Damage: Lyra Dawnbringer (98) deals 8 combat damage to Ai(1)-Gen5_Deck24.
+Add to stack: Ai(2)-Gen5_Deck6 triggered Twinblade Paladin (66)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Twinblade Paladin. [Player: Ai(2)-Gen5_Deck6, Gained Amount: 8]
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Phase: Ai(2)-Gen5_Deck6's End of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Main phase, postcombat
+Add to stack: Ai(2)-Gen5_Deck6 activated Ajani, Caller of the Pride (64) targeting [Lyra Dawnbringer (98)]
+Resolve stack: Ajani, Caller of the Pride (64) - Ai(2)-Gen5_Deck6 puts a +1/+1 counter on Lyra Dawnbringer (98).
+Phase: Ai(2)-Gen5_Deck6's End step
+Phase: Ai(2)-Gen5_Deck6's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen5_Deck24)
+Phase: Ai(1)-Gen5_Deck24's Untap step
+Phase: Ai(1)-Gen5_Deck24's Upkeep step
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (112) - {T}: Add {B}.
+Mana: Plains (72) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck6 activated Soulstone Sanctuary (93)
+Resolve stack: Soulstone Sanctuary (93) - Soulstone Sanctuary (93) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen5_Deck24's Draw step
+Phase: Ai(1)-Gen5_Deck24's Main phase, precombat
+Phase: Ai(1)-Gen5_Deck24's Beginning of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Declare Attackers Step
+Combat: Ai(1)-Gen5_Deck24 didn't attack this turn.
+Phase: Ai(1)-Gen5_Deck24's Declare Blockers Step
+Phase: Ai(1)-Gen5_Deck24's First Strike Damage Step
+Phase: Ai(1)-Gen5_Deck24's Combat Damage Step
+Phase: Ai(1)-Gen5_Deck24's End of Combat Step
+Phase: Ai(1)-Gen5_Deck24's Main phase, postcombat
+Land: Ai(1)-Gen5_Deck24 played Mountain (55)
+Phase: Ai(1)-Gen5_Deck24's End step
+Phase: Ai(1)-Gen5_Deck24's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen5_Deck6)
+Phase: Ai(2)-Gen5_Deck6's Untap step
+Phase: Ai(2)-Gen5_Deck6's Upkeep step
+Phase: Ai(2)-Gen5_Deck6's Draw step
+Phase: Ai(2)-Gen5_Deck6's Main phase, precombat
+Add to stack: Ai(2)-Gen5_Deck6 activated Ajani, Caller of the Pride (64) targeting [Lyra Dawnbringer (98)]
+Resolve stack: Ajani, Caller of the Pride (64) - Ai(2)-Gen5_Deck6 puts a +1/+1 counter on Lyra Dawnbringer (98).
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Plains (72) - {T}: Add {W}.
+Mana: Swamp (110) - {T}: Add {B}.
+Mana: Swamp (112) - {T}: Add {B}.
+Mana: Plains (69) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen5_Deck6 cast Regal Caracal (76)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen5_Deck6 triggered Regal Caracal (76)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (76)]
+Phase: Ai(2)-Gen5_Deck6's Beginning of Combat Step
+Phase: Ai(2)-Gen5_Deck6's Declare Attackers Step
+Combat: Ai(2)-Gen5_Deck6 assigned Lyra Dawnbringer (98), Twinblade Paladin (66), Soulstone Sanctuary (93), Solemn Simulacrum (61), Charming Prince (88), Charming Prince (87), Dog Token (159), Dog Token (160), Dog Token (161) and Dog Token (162) to attack Ai(1)-Gen5_Deck24.
+Phase: Ai(2)-Gen5_Deck6's Declare Blockers Step
+Combat: Ai(1)-Gen5_Deck24 assigned Dog Token (144) to block Dog Token (160).
+Ai(1)-Gen5_Deck24 assigned Dog Token (145) to block Dog Token (161).
+Ai(1)-Gen5_Deck24 didn't block Lyra Dawnbringer (98).
+Ai(1)-Gen5_Deck24 didn't block Twinblade Paladin (66).
+Ai(1)-Gen5_Deck24 assigned Dog Token (146) to block Dog Token (162).
+Ai(1)-Gen5_Deck24 assigned Dog Token (138) to block Charming Prince (87).
+Ai(1)-Gen5_Deck24 assigned Dog Token (137) to block Charming Prince (88).
+Ai(1)-Gen5_Deck24 assigned Cat Token (126) to block Soulstone Sanctuary (93).
+Ai(1)-Gen5_Deck24 assigned Dog Token (136) to block Solemn Simulacrum (61).
+Ai(1)-Gen5_Deck24 assigned Dog Token (139) to block Dog Token (159).
+Phase: Ai(2)-Gen5_Deck6's First Strike Damage Step
+Damage: Lyra Dawnbringer (98) deals 10 combat damage to Ai(1)-Gen5_Deck24.
+Add to stack: Ai(2)-Gen5_Deck6 triggered Twinblade Paladin (66)
+Resolve stack: Whenever you gain life, put a +1/+1 counter on Twinblade Paladin. [Player: Ai(2)-Gen5_Deck6, Gained Amount: 10]
+Phase: Ai(2)-Gen5_Deck6's Combat Damage Step
+Damage: Twinblade Paladin (66) deals 8 combat damage to Ai(1)-Gen5_Deck24.
+Damage: Soulstone Sanctuary (93) deals 5 damage () to Cat Token (126).
+Damage: Solemn Simulacrum (61) deals 2 damage () to Dog Token (136).
+Damage: Charming Prince (88) deals 2 damage () to Dog Token (137).
+Damage: Charming Prince (87) deals 2 damage () to Dog Token (138).
+Damage: Dog Token (159) deals 1 damage () to Dog Token (139).
+Damage: Dog Token (160) deals 1 damage () to Dog Token (144).
+Damage: Dog Token (161) deals 1 damage () to Dog Token (145).
+Damage: Dog Token (162) deals 1 damage () to Dog Token (146).
+Damage: Cat Token (126) deals 1 damage () to Soulstone Sanctuary (93).
+Damage: Dog Token (136) deals 1 damage () to Solemn Simulacrum (61).
+Damage: Dog Token (137) deals 1 damage () to Charming Prince (88).
+Damage: Dog Token (138) deals 1 damage () to Charming Prince (87).
+Damage: Dog Token (139) deals 1 damage () to Dog Token (159).
+Damage: Dog Token (144) deals 1 damage () to Dog Token (160).
+Damage: Dog Token (145) deals 1 damage () to Dog Token (161).
+Damage: Dog Token (146) deals 1 damage () to Dog Token (162).
+Player control: Ai(1)-Gen5_Deck24 is controlled by Ai(1)-Gen5_Deck24
+Player control: Ai(2)-Gen5_Deck6 is controlled by Ai(2)-Gen5_Deck6
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen5_Deck24 has lost because life total reached 0
+Game outcome: Ai(2)-Gen5_Deck6 has won because all opponents have lost
+Match result: Ai(1)-Gen5_Deck24: 0 Ai(2)-Gen5_Deck6: 1 
+
+Game Result: Game 1 ended in 84709 ms. Ai(2)-Gen5_Deck6 has won!
+
+
+=== STDERR ===
