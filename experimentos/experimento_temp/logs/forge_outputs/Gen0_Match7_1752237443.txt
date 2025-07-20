@@ -1,0 +1,502 @@
+=== COMBATE PARALELO: Gen0_Deck7 vs Gen0_Deck0 ===
+Worker ID: 2318696
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck7 Gen0_Deck0 -n 1
+Duración: 46.80 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2007 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 83 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck7 vs Ai(2)-Gen0_Deck0 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck0 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Plains (82)
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Plains (12)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Plains (87)
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Resolute Reinforcements (108)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(2)-Gen0_Deck0 triggered Resolute Reinforcements (108)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (108)]
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Swamp (41)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Plains (12) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Vampire Interloper (34)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Evolving Wilds (80)
+Add to stack: Ai(2)-Gen0_Deck0 activated Evolving Wilds (80)
+Resolve stack: Evolving Wilds (80) - Ai(2)-Gen0_Deck0 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Resolute Reinforcements (108) and Soldier Token (124) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Resolute Reinforcements (108).
+Ai(1)-Gen0_Deck7 didn't block Soldier Token (124).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Resolute Reinforcements (108) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Three Tree Mascot (76)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vampire Interloper (34) to attack Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (34).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Vampire Interloper (34) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Land: Ai(1)-Gen0_Deck7 played Demolition Field (59)
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Three Tree Mascot (76), Resolute Reinforcements (108) and Soldier Token (124) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Three Tree Mascot (76).
+Ai(1)-Gen0_Deck7 didn't block Resolute Reinforcements (108).
+Ai(1)-Gen0_Deck7 didn't block Soldier Token (124).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Three Tree Mascot (76) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Resolute Reinforcements (108) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Inspiring Paladin (67)
+Resolve stack: Inspiring Paladin - Creature 3 / 3
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Land: Ai(1)-Gen0_Deck7 played Swamp (40)
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vampire Interloper (34) to attack Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (34).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Vampire Interloper (34) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Vile Entomber (46)
+Resolve stack: Vile Entomber - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck7 triggered Vile Entomber (46)
+Resolve stack: When Vile Entomber enters, search your library for a card, put that card into your graveyard, then shuffle. [Zone Changer: Vile Entomber (46)]
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Plains (96)
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Inspiring Paladin (67) and Three Tree Mascot (76) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Inspiring Paladin (67).
+Ai(1)-Gen0_Deck7 didn't block Three Tree Mascot (76).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Damage: Inspiring Paladin (67) deals 3 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Three Tree Mascot (76) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Inspiring Paladin (68)
+Resolve stack: Inspiring Paladin - Creature 3 / 3
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vampire Interloper (34) to attack Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (34).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Vampire Interloper (34) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Vile Entomber (48)
+Resolve stack: Vile Entomber - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck7 triggered Vile Entomber (48)
+Resolve stack: When Vile Entomber enters, search your library for a card, put that card into your graveyard, then shuffle. [Zone Changer: Vile Entomber (48)]
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Inspiring Paladin (67), Inspiring Paladin (68) and Three Tree Mascot (76) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vile Entomber (48) to block Inspiring Paladin (67).
+Ai(1)-Gen0_Deck7 didn't block Inspiring Paladin (68).
+Ai(1)-Gen0_Deck7 assigned Vile Entomber (46) to block Three Tree Mascot (76).
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Mischievous Pup (105)
+Resolve stack: Mischievous Pup - Creature 3 / 1
+Add to stack: Ai(2)-Gen0_Deck0 triggered Mischievous Pup (105) targeting [Three Tree Mascot (76)]
+Resolve stack: When Mischievous Pup enters, return up to one other target permanent you control to its owner's hand. (Targeting: [[Three Tree Mascot (76)]]) [Zone Changer: Mischievous Pup (105)]
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Damage: Inspiring Paladin (67) deals 3 damage () to Vile Entomber (48).
+Damage: Inspiring Paladin (68) deals 3 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vampire Interloper (34) to attack Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (34).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Vampire Interloper (34) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Release the Dogs (23)
+Resolve stack: Release the Dogs (23) - Ai(1)-Gen0_Deck7 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Inspiring Paladin (67) and Inspiring Paladin (68) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Dog Token (131) to block Inspiring Paladin (67).
+Ai(1)-Gen0_Deck7 assigned Dog Token (132) to block Inspiring Paladin (68).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Damage: Inspiring Paladin (67) deals 3 damage () to Dog Token (131).
+Damage: Inspiring Paladin (68) deals 3 damage () to Dog Token (132).
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Three Tree Mascot (75)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vampire Interloper (34) to attack Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (34).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Vampire Interloper (34) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Swamp (41) - {T}: Add {B}.
+Mana: Swamp (40) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Crusader of Odric (54)
+Resolve stack: Crusader of Odric - Creature * / *
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Giada, Font of Hope (119) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 didn't block Giada, Font of Hope (119).
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Three Tree Mascot (76)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Swamp (41) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Sun-Blessed Healer (3)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Mana: Swamp (40) - {T}: Add {B}.
+Mana: Demolition Field (59) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Vampire Interloper (32)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vampire Interloper (34) to attack Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (34).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Vampire Interloper (34) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Land: Ai(2)-Gen0_Deck0 played Plains (92)
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Three Tree Mascot (76), Inspiring Paladin (67), Inspiring Paladin (68), Mischievous Pup (105), Three Tree Mascot (75), Giada, Font of Hope (119), Resolute Reinforcements (108) and Soldier Token (124) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Dog Token (134) to block Inspiring Paladin (67).
+Ai(1)-Gen0_Deck7 assigned Vile Entomber (46) to block Inspiring Paladin (68).
+Ai(1)-Gen0_Deck7 didn't block Giada, Font of Hope (119).
+Ai(1)-Gen0_Deck7 assigned Sun-Blessed Healer (3) to block Mischievous Pup (105).
+Ai(1)-Gen0_Deck7 assigned Crusader of Odric (54) to block Three Tree Mascot (75).
+Ai(1)-Gen0_Deck7 assigned Dog Token (133) to block Three Tree Mascot (76).
+Ai(1)-Gen0_Deck7 didn't block Resolute Reinforcements (108).
+Ai(1)-Gen0_Deck7 didn't block Soldier Token (124).
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Divine Resilience (102) targeting [Mischievous Pup (105), Three Tree Mascot (75)]
+Resolve stack: Divine Resilience (102) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Mischievous Pup (105) and Three Tree Mascot (75))
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Damage: Three Tree Mascot (76) deals 4 damage () to Dog Token (133).
+Damage: Inspiring Paladin (67) deals 3 damage () to Dog Token (134).
+Damage: Inspiring Paladin (68) deals 3 damage () to Vile Entomber (46).
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Mischievous Pup (105) deals 3 damage () to Sun-Blessed Healer (3).
+Damage: Three Tree Mascot (75) deals 2 damage () to Crusader of Odric (54).
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Resolute Reinforcements (108) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Sun-Blessed Healer (3) deals 3 damage () to Mischievous Pup (105).
+Damage: Crusader of Odric (54) deals 4 damage () to Three Tree Mascot (75).
+Phase: Ai(2)-Gen0_Deck0's End of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck0's End step
+Phase: Ai(2)-Gen0_Deck0's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen0_Deck7)
+Phase: Ai(1)-Gen0_Deck7's Untap step
+Phase: Ai(1)-Gen0_Deck7's Upkeep step
+Phase: Ai(1)-Gen0_Deck7's Draw step
+Phase: Ai(1)-Gen0_Deck7's Main phase, precombat
+Mana: Plains (12) - {T}: Add {W}.
+Mana: Swamp (41) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Helpful Hunter (6)
+Resolve stack: Helpful Hunter - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck7 triggered Helpful Hunter (6)
+Resolve stack: When this creature enters, draw a card. [Zone Changer: Helpful Hunter (6)]
+Land: Ai(1)-Gen0_Deck7 played Plains (11)
+Mana: Plains (11) - {T}: Add {W}.
+Mana: Swamp (40) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck7 cast Helpful Hunter (8)
+Resolve stack: Helpful Hunter - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck7 triggered Helpful Hunter (8)
+Resolve stack: When this creature enters, draw a card. [Zone Changer: Helpful Hunter (8)]
+Phase: Ai(1)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Vampire Interloper (34) and Vampire Interloper (32) to attack Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (32).
+Ai(2)-Gen0_Deck0 didn't block Vampire Interloper (34).
+Phase: Ai(1)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck7's Combat Damage Step
+Damage: Vampire Interloper (34) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Damage: Vampire Interloper (32) deals 2 combat damage to Ai(2)-Gen0_Deck0.
+Phase: Ai(1)-Gen0_Deck7's End of Combat Step
+Phase: Ai(1)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck7's End step
+Phase: Ai(1)-Gen0_Deck7's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen0_Deck0)
+Phase: Ai(2)-Gen0_Deck0's Untap step
+Phase: Ai(2)-Gen0_Deck0's Upkeep step
+Phase: Ai(2)-Gen0_Deck0's Draw step
+Phase: Ai(2)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck0 assigned Three Tree Mascot (76), Inspiring Paladin (67), Inspiring Paladin (68), Mischievous Pup (105), Three Tree Mascot (75), Giada, Font of Hope (119), Resolute Reinforcements (108) and Soldier Token (124) to attack Ai(1)-Gen0_Deck7.
+Phase: Ai(2)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck7 assigned Helpful Hunter (8) to block Inspiring Paladin (67).
+Ai(1)-Gen0_Deck7 assigned Crusader of Odric (54) to block Inspiring Paladin (68).
+Ai(1)-Gen0_Deck7 didn't block Giada, Font of Hope (119).
+Ai(1)-Gen0_Deck7 didn't block Mischievous Pup (105).
+Ai(1)-Gen0_Deck7 didn't block Three Tree Mascot (75).
+Ai(1)-Gen0_Deck7 assigned Helpful Hunter (6) to block Three Tree Mascot (76).
+Ai(1)-Gen0_Deck7 didn't block Resolute Reinforcements (108).
+Ai(1)-Gen0_Deck7 didn't block Soldier Token (124).
+Mana: Plains (82) - {T}: Add {W}.
+Mana: Plains (87) - {T}: Add {W}.
+Mana: Plains (94) - {T}: Add {W}.
+Mana: Plains (96) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck0 cast Divine Resilience (101) targeting [Inspiring Paladin (68)]
+Resolve stack: Divine Resilience (101) - Target creature you control gains indestructible until end of turn. If this spell was kicked, any number of target creatures you control gain indestructible until end of turn instead. (Targeting: Inspiring Paladin (68))
+Phase: Ai(2)-Gen0_Deck0's First Strike Damage Step
+Damage: Three Tree Mascot (76) deals 4 damage () to Helpful Hunter (6).
+Damage: Inspiring Paladin (67) deals 3 damage () to Helpful Hunter (8).
+Damage: Inspiring Paladin (68) deals 3 damage () to Crusader of Odric (54).
+Phase: Ai(2)-Gen0_Deck0's Combat Damage Step
+Damage: Mischievous Pup (105) deals 3 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Three Tree Mascot (75) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Resolute Reinforcements (108) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Damage: Soldier Token (124) deals 1 combat damage to Ai(1)-Gen0_Deck7.
+Player control: Ai(1)-Gen0_Deck7 is controlled by Ai(1)-Gen0_Deck7
+Player control: Ai(2)-Gen0_Deck0 is controlled by Ai(2)-Gen0_Deck0
+Game outcome: Turn 10
+Game outcome: Ai(1)-Gen0_Deck7 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck0 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck7: 0 Ai(2)-Gen0_Deck0: 1 
+
+Game Result: Game 1 ended in 32493 ms. Ai(2)-Gen0_Deck0 has won!
+
+
+=== STDERR ===

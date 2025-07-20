@@ -1,0 +1,444 @@
+=== COMBATE PARALELO: Gen0_Deck8 vs Gen0_Deck24 ===
+Worker ID: 3458970
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck8 Gen0_Deck24 -n 1
+Duración: 27.65 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1865 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 140 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck8 vs Ai(2)-Gen0_Deck24 - one game of Constructed
+Player - trying to gain negative or 0 life
+Mulligan: Ai(1)-Gen0_Deck8 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck8 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen0_Deck24 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (25)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Feldon's Cane (3)
+Resolve stack: Feldon's Cane
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Forest (91)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Soulstone Sanctuary (56)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (56) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Burglar Rat (60)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck8 triggered Burglar Rat (60)
+Discard: Ai(2)-Gen0_Deck24 discards Forest (87).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (60)]
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Forest (89)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck24 cast Nessian Hornbeetle (103)
+Resolve stack: Nessian Hornbeetle - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Cryptic Caves (1)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Plains (98)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Nessian Hornbeetle (103) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Nessian Hornbeetle (103).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Nessian Hornbeetle (103) deals 2 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(1)-Gen0_Deck8 played Secluded Courtyard (33)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burglar Rat (60) to attack Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck24 didn't block Burglar Rat (60).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burglar Rat (60) deals 1 combat damage to Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Rogue's Passage (75)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Nessian Hornbeetle (103) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Nessian Hornbeetle (103).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Nessian Hornbeetle (103) deals 2 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Rogue's Passage (75) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck24 cast Magnigoth Sentry (111)
+Resolve stack: Magnigoth Sentry - Creature 4 / 4
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (26)
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Mana: Cryptic Caves (1) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Soulstone Sanctuary (56)
+Resolve stack: Soulstone Sanctuary (56) - Soulstone Sanctuary (56) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Forest (88)
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck24 activated Rogue's Passage (75) targeting [Magnigoth Sentry (111)]
+Resolve stack: Rogue's Passage (75) - Magnigoth Sentry (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck24 triggered Nessian Hornbeetle (103)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen0_Deck24]
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Magnigoth Sentry (111) and Nessian Hornbeetle (103) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Nessian Hornbeetle (103).
+Ai(1)-Gen0_Deck8 didn't block Magnigoth Sentry (111).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Magnigoth Sentry (111) deals 4 combat damage to Ai(1)-Gen0_Deck8.
+Damage: Nessian Hornbeetle (103) deals 3 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 activated Cryptic Caves (1)
+Resolve stack: Cryptic Caves (1) - Ai(1)-Gen0_Deck8 draws a card.
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (22)
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burglar Rat (60) and Soulstone Sanctuary (56) to attack Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck24 didn't block Soulstone Sanctuary (56).
+Ai(2)-Gen0_Deck24 didn't block Burglar Rat (60).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burglar Rat (60) deals 1 combat damage to Ai(2)-Gen0_Deck24.
+Damage: Soulstone Sanctuary (56) deals 3 combat damage to Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (56) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Solemn Simulacrum (13)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen0_Deck8 triggered Solemn Simulacrum (13)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (13)]
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck24 activated Rogue's Passage (75) targeting [Magnigoth Sentry (111)]
+Resolve stack: Rogue's Passage (75) - Magnigoth Sentry (111) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Land: Ai(2)-Gen0_Deck24 played Forest (92)
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck24 triggered Nessian Hornbeetle (103)
+Resolve stack: At the beginning of combat on your turn, if you control another creature with power 4 or greater, put a +1/+1 counter on Nessian Hornbeetle. [Phase: Ai(2)-Gen0_Deck24]
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Nessian Hornbeetle (103) and Magnigoth Sentry (111) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Solemn Simulacrum (13) to block Nessian Hornbeetle (103).
+Ai(1)-Gen0_Deck8 didn't block Magnigoth Sentry (111).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Nessian Hornbeetle (103) deals 4 damage () to Solemn Simulacrum (13).
+Damage: Magnigoth Sentry (111) deals 4 combat damage to Ai(1)-Gen0_Deck8.
+Damage: Solemn Simulacrum (13) deals 2 damage () to Nessian Hornbeetle (103).
+Add to stack: Ai(1)-Gen0_Deck8 triggered Solemn Simulacrum (13)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (13)]
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Luminous Rebuke (50) targeting [Magnigoth Sentry (111)]
+Resolve stack: Luminous Rebuke (50) - Destroy Magnigoth Sentry (111).
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Burglar Rat (60) and Soulstone Sanctuary (56) to attack Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck24 didn't block Soulstone Sanctuary (56).
+Ai(2)-Gen0_Deck24 didn't block Burglar Rat (60).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Burglar Rat (60) deals 1 combat damage to Ai(2)-Gen0_Deck24.
+Damage: Soulstone Sanctuary (56) deals 3 combat damage to Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck24 activated Rogue's Passage (75) targeting [Nessian Hornbeetle (103)]
+Resolve stack: Rogue's Passage (75) - Nessian Hornbeetle (103) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Nessian Hornbeetle (103) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Nessian Hornbeetle (103).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Nessian Hornbeetle (103) deals 4 combat damage to Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Luminous Rebuke (49) targeting [Nessian Hornbeetle (103)]
+Resolve stack: Luminous Rebuke (49) - Destroy Nessian Hornbeetle (103).
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 assigned Soulstone Sanctuary (56) and Burglar Rat (60) to attack Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck24 didn't block Soulstone Sanctuary (56).
+Ai(2)-Gen0_Deck24 didn't block Burglar Rat (60).
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Damage: Soulstone Sanctuary (56) deals 3 combat damage to Ai(2)-Gen0_Deck24.
+Damage: Burglar Rat (60) deals 1 combat damage to Ai(2)-Gen0_Deck24.
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Replacement Effect: Blossoming Sands enters tapped.
+Land: Ai(2)-Gen0_Deck24 played Blossoming Sands (65)
+Add to stack: Ai(2)-Gen0_Deck24 triggered Blossoming Sands (65)
+Resolve stack: When Blossoming Sands enters, you gain 1 life. [Zone Changer: Blossoming Sands (65)]
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck24's End of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Main phase, postcombat
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Forest (88) - {T}: Add {G}.
+Mana: Forest (92) - {T}: Add {G}.
+Mana: Rogue's Passage (75) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck24 cast Archway Angel (63)
+Resolve stack: Archway Angel - Creature 3 / 4
+Add to stack: Ai(2)-Gen0_Deck24 triggered Archway Angel (63)
+Resolve stack: When Archway Angel enters, you gain 2 life for each Gate you control. [Zone Changer: Archway Angel (63)]
+Phase: Ai(2)-Gen0_Deck24's End step
+Phase: Ai(2)-Gen0_Deck24's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck8)
+Phase: Ai(1)-Gen0_Deck8's Untap step
+Phase: Ai(1)-Gen0_Deck8's Upkeep step
+Phase: Ai(1)-Gen0_Deck8's Draw step
+Phase: Ai(1)-Gen0_Deck8's Main phase, precombat
+Land: Ai(1)-Gen0_Deck8 played Swamp (24)
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Swamp (26) - {T}: Add {B}.
+Mana: Swamp (22) - {T}: Add {B}.
+Mana: Plains (43) - {T}: Add {W}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Secluded Courtyard (33) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck8 cast Liliana, Dreadhorde General (17)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Phase: Ai(1)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck8's End of Combat Step
+Phase: Ai(1)-Gen0_Deck8's Main phase, postcombat
+Add to stack: Ai(1)-Gen0_Deck8 activated Liliana, Dreadhorde General (17)
+Resolve stack: Liliana, Dreadhorde General (17) - Ai(1)-Gen0_Deck8 creates a 2/2 black Zombie creature token.
+Phase: Ai(1)-Gen0_Deck8's End step
+Phase: Ai(1)-Gen0_Deck8's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck24)
+Phase: Ai(2)-Gen0_Deck24's Untap step
+Phase: Ai(2)-Gen0_Deck24's Upkeep step
+Mana: Forest (91) - {T}: Add {G}.
+Mana: Forest (89) - {T}: Add {G}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Forest (88) - {T}: Add {G}.
+Add to stack: Ai(2)-Gen0_Deck24 activated Rogue's Passage (75) targeting [Archway Angel (63)]
+Resolve stack: Rogue's Passage (75) - Archway Angel (63) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck24's Draw step
+Phase: Ai(2)-Gen0_Deck24's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck24's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck24's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck24 assigned Archway Angel (63) to attack Ai(1)-Gen0_Deck8.
+Phase: Ai(2)-Gen0_Deck24's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck8 didn't block Archway Angel (63).
+Phase: Ai(2)-Gen0_Deck24's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck24's Combat Damage Step
+Damage: Archway Angel (63) deals 3 combat damage to Ai(1)-Gen0_Deck8.
+Player control: Ai(1)-Gen0_Deck8 is controlled by Ai(1)-Gen0_Deck8
+Player control: Ai(2)-Gen0_Deck24 is controlled by Ai(2)-Gen0_Deck24
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck8 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck24 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck8: 0 Ai(2)-Gen0_Deck24: 1 
+
+Game Result: Game 1 ended in 14560 ms. Ai(2)-Gen0_Deck24 has won!
+
+
+=== STDERR ===

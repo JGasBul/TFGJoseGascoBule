@@ -1,0 +1,356 @@
+=== COMBATE PARALELO: Gen0_Deck22 vs Gen0_Deck8 ===
+Worker ID: 3710967
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck22 Gen0_Deck8 -n 1
+Duración: 25.81 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2193 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 79 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck22 vs Ai(2)-Gen0_Deck8 - one game of Constructed
+Elspeth's Smite Did not have activator set in SpellAbilityRestriction.canPlay()
+Mulligan: Ai(1)-Gen0_Deck22 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck8 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck22 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Land: Ai(2)-Gen0_Deck8 played Plains (104)
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck8's End of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck8's End step
+Phase: Ai(2)-Gen0_Deck8's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Island (55)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Land: Ai(2)-Gen0_Deck8 played Swamp (81)
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck8's End of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Main phase, postcombat
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Plains (104) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck8 cast Hungry Ghoul (79)
+Resolve stack: Hungry Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck8's End step
+Phase: Ai(2)-Gen0_Deck8's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Plains (39)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen0_Deck8 played Secluded Courtyard (95)
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 assigned Hungry Ghoul (79) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Hungry Ghoul (79).
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Damage: Hungry Ghoul (79) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's End of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck8's End step
+Phase: Ai(2)-Gen0_Deck8's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Plains (40)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Land: Ai(2)-Gen0_Deck8 played Plains (101)
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 assigned Hungry Ghoul (79) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Hungry Ghoul (79).
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Damage: Hungry Ghoul (79) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's End of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (104) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Secluded Courtyard (95) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck8 cast Solemn Simulacrum (73)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(2)-Gen0_Deck8 triggered Solemn Simulacrum (73)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (73)]
+Phase: Ai(2)-Gen0_Deck8's End step
+Phase: Ai(2)-Gen0_Deck8's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Plains (42)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Island (55) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Wilt-Leaf Liege (18)
+Resolve stack: Wilt-Leaf Liege - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Mana: Plains (104) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck8 activated Hungry Ghoul (79)
+Add to stack: Ai(2)-Gen0_Deck8 triggered Solemn Simulacrum (73)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (73)]
+Resolve stack: Hungry Ghoul (79) - Ai(2)-Gen0_Deck8 puts a +1/+1 counter on Hungry Ghoul (79).
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Land: Ai(2)-Gen0_Deck8 played Soulstone Sanctuary (116)
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Secluded Courtyard (95) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (116) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck8 cast Luminous Rebuke (110) targeting [Wilt-Leaf Liege (18)]
+Resolve stack: Luminous Rebuke (110) - Destroy Wilt-Leaf Liege (18).
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 assigned Hungry Ghoul (79) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Hungry Ghoul (79).
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Damage: Hungry Ghoul (79) deals 3 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's End of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck8's End step
+Phase: Ai(2)-Gen0_Deck8's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Replacement Effect: Blossoming Sands enters tapped.
+Land: Ai(1)-Gen0_Deck22 played Blossoming Sands (1)
+Add to stack: Ai(1)-Gen0_Deck22 triggered Blossoming Sands (1)
+Resolve stack: When Blossoming Sands enters, you gain 1 life. [Zone Changer: Blossoming Sands (1)]
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Plains (42) - {T}: Add {W}.
+Mana: Island (55) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Wilt-Leaf Liege (17)
+Resolve stack: Wilt-Leaf Liege - Creature 4 / 4
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Mana: Plains (104) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck8 activated Soulstone Sanctuary (116)
+Resolve stack: Soulstone Sanctuary (116) - Soulstone Sanctuary (116) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 assigned Hungry Ghoul (79) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Hungry Ghoul (79).
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Damage: Hungry Ghoul (79) deals 3 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's End of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck8's End step
+Phase: Ai(2)-Gen0_Deck8's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Mana: Blossoming Sands (1) - {T}: Add {G} or {W}.
+Mana: Island (55) - {T}: Add {U}.
+Mana: Plains (39) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck22 cast New Horizons (24) targeting [Island (55)]
+Resolve stack: New Horizons (24) -  Attach to Island (55)
+Add to stack: Ai(1)-Gen0_Deck22 triggered New Horizons (24) targeting [Wilt-Leaf Liege (17)]
+Resolve stack: When New Horizons enters, put a +1/+1 counter on target creature you control. (Targeting: [[Wilt-Leaf Liege (17)]]) [Zone Changer: New Horizons (24)]
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Wilt-Leaf Liege (17) to attack Ai(2)-Gen0_Deck8.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck8 didn't block Wilt-Leaf Liege (17).
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Damage: Wilt-Leaf Liege (17) deals 5 combat damage to Ai(2)-Gen0_Deck8.
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Mana: Plains (104) - {T}: Add {W}.
+Mana: Swamp (81) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck8 cast Luminous Rebuke (109) targeting [Wilt-Leaf Liege (17)]
+Resolve stack: Luminous Rebuke (109) - Destroy Wilt-Leaf Liege (17).
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Land: Ai(2)-Gen0_Deck8 played Plains (99)
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 assigned Hungry Ghoul (79) and Soulstone Sanctuary (116) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Soulstone Sanctuary (116).
+Ai(1)-Gen0_Deck22 didn't block Hungry Ghoul (79).
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Damage: Hungry Ghoul (79) deals 3 combat damage to Ai(1)-Gen0_Deck22.
+Damage: Soulstone Sanctuary (116) deals 3 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's End of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Main phase, postcombat
+Mana: Plains (101) - {T}: Add {W}.
+Mana: Plains (99) - {T}: Add {W}.
+Mana: Swamp (85) - {T}: Add {B}.
+Mana: Secluded Courtyard (95) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (116) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck8 cast Serra Angel (107)
+Resolve stack: Serra Angel - Creature 4 / 4
+Phase: Ai(2)-Gen0_Deck8's End step
+Phase: Ai(2)-Gen0_Deck8's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(1)-Gen0_Deck22 played Thornwood Falls (59)
+Add to stack: Ai(1)-Gen0_Deck22 triggered Thornwood Falls (59)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (59)]
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck8)
+Phase: Ai(2)-Gen0_Deck8's Untap step
+Phase: Ai(2)-Gen0_Deck8's Upkeep step
+Phase: Ai(2)-Gen0_Deck8's Draw step
+Phase: Ai(2)-Gen0_Deck8's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck8's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck8's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck8 assigned Serra Angel (107), Hungry Ghoul (79) and Soulstone Sanctuary (116) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck8's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Soulstone Sanctuary (116).
+Ai(1)-Gen0_Deck22 didn't block Serra Angel (107).
+Ai(1)-Gen0_Deck22 didn't block Hungry Ghoul (79).
+Mana: Plains (104) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen0_Deck8 cast Moment of Triumph (91) targeting [Serra Angel (107)]
+Resolve stack: Moment of Triumph (91) - Serra Angel (107) gets +2/+2  until end of turn. Ai(2)-Gen0_Deck8 gains 2 life.
+Phase: Ai(2)-Gen0_Deck8's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck8's Combat Damage Step
+Damage: Serra Angel (107) deals 6 combat damage to Ai(1)-Gen0_Deck22.
+Damage: Hungry Ghoul (79) deals 3 combat damage to Ai(1)-Gen0_Deck22.
+Damage: Soulstone Sanctuary (116) deals 3 combat damage to Ai(1)-Gen0_Deck22.
+Player control: Ai(1)-Gen0_Deck22 is controlled by Ai(1)-Gen0_Deck22
+Player control: Ai(2)-Gen0_Deck8 is controlled by Ai(2)-Gen0_Deck8
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck22 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck8 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck22: 0 Ai(2)-Gen0_Deck8: 1 
+
+Game Result: Game 1 ended in 14229 ms. Ai(2)-Gen0_Deck8 has won!
+
+
+=== STDERR ===

@@ -1,0 +1,722 @@
+=== COMBATE PARALELO: Gen0_Deck0 vs Gen0_Deck19 ===
+Worker ID: 3458969
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck0 Gen0_Deck19 -n 1
+Duración: 82.74 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1722 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 94 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck0 vs Ai(2)-Gen0_Deck19 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck0 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck19 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Land: Ai(1)-Gen0_Deck0 played Plains (24)
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Mountain (119)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Land: Ai(1)-Gen0_Deck0 played Soulstone Sanctuary (54)
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Resolute Reinforcements (49)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck0 triggered Resolute Reinforcements (49)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (49)]
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Island (100)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Gleaming Barrier (86)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Land: Ai(1)-Gen0_Deck0 played Plains (22)
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 assigned Resolute Reinforcements (49) and Soldier Token (124) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (86) to block Resolute Reinforcements (49).
+Ai(2)-Gen0_Deck19 didn't block Soldier Token (124).
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Damage: Resolute Reinforcements (49) deals 1 damage () to Gleaming Barrier (86).
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Three Tree Mascot (17)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Mana: Island (100) - {T}: Add {U}.
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Into the Roil (69) targeting [Three Tree Mascot (17)]
+Resolve stack: Into the Roil (69) - Return Three Tree Mascot (17) to its owner's hand. If Into the Roil was kicked, ai(2)-Gen0_Deck19 draws a card.
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (90)
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Land: Ai(1)-Gen0_Deck0 played Evolving Wilds (21)
+Add to stack: Ai(1)-Gen0_Deck0 activated Evolving Wilds (21)
+Resolve stack: Evolving Wilds (21) - Ai(1)-Gen0_Deck0 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 assigned Resolute Reinforcements (49) and Soldier Token (124) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (86) to block Resolute Reinforcements (49).
+Ai(2)-Gen0_Deck19 didn't block Soldier Token (124).
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Damage: Resolute Reinforcements (49) deals 1 damage () to Gleaming Barrier (86).
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Inspiring Paladin (6)
+Resolve stack: Inspiring Paladin - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Mana: Island (100) - {T}: Add {U}.
+Mana: Mountain (119) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Into the Roil (70) targeting [Inspiring Paladin (6)]
+Resolve stack: Into the Roil (70) - Return Inspiring Paladin (6) to its owner's hand. If Into the Roil was kicked, ai(2)-Gen0_Deck19 draws a card.
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Resolute Reinforcements (50)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck0 triggered Resolute Reinforcements (50)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (50)]
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 assigned Resolute Reinforcements (49) and Soldier Token (124) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (86) to block Resolute Reinforcements (49).
+Ai(2)-Gen0_Deck19 didn't block Soldier Token (124).
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Damage: Resolute Reinforcements (49) deals 1 damage () to Gleaming Barrier (86).
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Three Tree Mascot (17)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Replacement Effect: Dismal Backwater enters tapped.
+Land: Ai(2)-Gen0_Deck19 played Dismal Backwater (85)
+Add to stack: Ai(2)-Gen0_Deck19 triggered Dismal Backwater (85)
+Resolve stack: When Dismal Backwater enters, you gain 1 life. [Zone Changer: Dismal Backwater (85)]
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Gleaming Barrier (87)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 assigned Three Tree Mascot (17), Resolute Reinforcements (49), Soldier Token (124), Resolute Reinforcements (50) and Soldier Token (128) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 didn't block Soldier Token (128).
+Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (86) to block Three Tree Mascot (17).
+Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (87) to block Resolute Reinforcements (49).
+Ai(2)-Gen0_Deck19 didn't block Resolute Reinforcements (50).
+Ai(2)-Gen0_Deck19 didn't block Soldier Token (124).
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Damage: Three Tree Mascot (17) deals 2 damage () to Gleaming Barrier (86).
+Damage: Resolute Reinforcements (49) deals 1 damage () to Gleaming Barrier (87).
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Resolute Reinforcements (50) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Soldier Token (128) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Inspiring Paladin (6)
+Resolve stack: Inspiring Paladin - Creature 3 / 3
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Soulstone Sanctuary (109)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Dismal Backwater (85) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Driver of the Dead (115)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Three Tree Mascot (14)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Dismal Backwater (85) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen0_Deck19 activated Soulstone Sanctuary (109)
+Resolve stack: Soulstone Sanctuary (109) - Soulstone Sanctuary (109) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Three Tree Mascot (15)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (94)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Gleaming Barrier (89)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Resolute Reinforcements (48)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck0 triggered Resolute Reinforcements (48)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (48)]
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Felidar Savior (2)
+Resolve stack: Felidar Savior - Creature 2 / 3
+Add to stack: Ai(1)-Gen0_Deck0 triggered Felidar Savior (2) targeting [Inspiring Paladin (6), Three Tree Mascot (17)]
+Resolve stack: When this creature enters, put a +1/+1 counter on each of up to two other target creatures you control. (Targeting: [[Inspiring Paladin (6), Three Tree Mascot (17)]]) [Zone Changer: Felidar Savior (2)]
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Land: Ai(2)-Gen0_Deck19 played Swamp (91)
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (94) - {T}: Add {B}.
+Mana: Swamp (91) - {T}: Add {B}.
+Mana: Dismal Backwater (85) - {T}: Add {U} or {B}.
+Mana: Soulstone Sanctuary (109) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Ovika, Enigma Goliath (78)
+Resolve stack: Ovika, Enigma Goliath - Creature 6 / 6
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Deadly Riposte (52) targeting [Soulstone Sanctuary (109)]
+Damage: Deadly Riposte (52) deals 3 damage () to Soulstone Sanctuary (109).
+Resolve stack: Deadly Riposte (52) - Deadly Riposte (52) deals 3 damage to Soulstone Sanctuary (109). Ai(1)-Gen0_Deck0 gains 2 life.
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 assigned Inspiring Paladin (6), Three Tree Mascot (17), Three Tree Mascot (14), Three Tree Mascot (15), Felidar Savior (2), Resolute Reinforcements (49), Soldier Token (124), Resolute Reinforcements (50), Soldier Token (128), Resolute Reinforcements (48) and Soldier Token (132) to attack Ai(2)-Gen0_Deck19.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck19 didn't block Soldier Token (128).
+Ai(2)-Gen0_Deck19 didn't block Resolute Reinforcements (48).
+Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (86) to block Three Tree Mascot (17).
+Ai(2)-Gen0_Deck19 assigned Driver of the Dead (115) to block Resolute Reinforcements (49).
+Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (87) to block Felidar Savior (2).
+Ai(2)-Gen0_Deck19 didn't block Resolute Reinforcements (50).
+Ai(2)-Gen0_Deck19 didn't block Soldier Token (132).
+Ai(2)-Gen0_Deck19 assigned Ovika, Enigma Goliath (78) to block Inspiring Paladin (6).
+Ai(2)-Gen0_Deck19 didn't block Soldier Token (124).
+Ai(2)-Gen0_Deck19 assigned Gleaming Barrier (89) to block Three Tree Mascot (14).
+Ai(2)-Gen0_Deck19 didn't block Three Tree Mascot (15).
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Damage: Inspiring Paladin (6) deals 4 damage () to Ovika, Enigma Goliath (78).
+Damage: Three Tree Mascot (17) deals 3 damage () to Gleaming Barrier (86).
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Damage: Three Tree Mascot (14) deals 2 damage () to Gleaming Barrier (89).
+Damage: Three Tree Mascot (15) deals 2 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Felidar Savior (2) deals 2 damage () to Gleaming Barrier (87).
+Damage: Resolute Reinforcements (49) deals 1 damage () to Driver of the Dead (115).
+Damage: Soldier Token (124) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Resolute Reinforcements (50) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Soldier Token (128) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Resolute Reinforcements (48) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Soldier Token (132) deals 1 combat damage to Ai(2)-Gen0_Deck19.
+Damage: Ovika, Enigma Goliath (78) deals 6 damage () to Inspiring Paladin (6).
+Damage: Driver of the Dead (115) deals 3 damage () to Resolute Reinforcements (49).
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Giada, Font of Hope (59)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Land: Ai(1)-Gen0_Deck0 played Plains (31)
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 activated Soulstone Sanctuary (54)
+Resolve stack: Soulstone Sanctuary (54) - Soulstone Sanctuary (54) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 assigned Three Tree Mascot (17), Three Tree Mascot (14), Three Tree Mascot (15), Felidar Savior (2), Soldier Token (124), Resolute Reinforcements (50), Soldier Token (128), Resolute Reinforcements (48), Soldier Token (132), Soulstone Sanctuary (54) and Giada, Font of Hope (59) to attack Ai(2)-Gen0_Deck19.
+Mana: Island (100) - {T}: Add {U}.
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Swamp (90) - {T}: Add {B}.
+Mana: Swamp (94) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Aetherize (64)
+Add to stack: Ai(2)-Gen0_Deck19 triggered Ovika, Enigma Goliath (78)
+Resolve stack: Whenever you cast a noncreature spell, create X 1/1 red Phyrexian Goblin creature tokens, where X is the mana value of that spell. They gain haste until end of turn. [Card: Aetherize (64), Activator: Ai(2)-Gen0_Deck19, SpellAbility: Return all attacking creatures to their owner's hand.]
+Resolve stack: Aetherize (64) - Return all attacking creatures to their owner's hand.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Discard: Ai(1)-Gen0_Deck0 discards Guarded Heir (18).
+Discard: Ai(1)-Gen0_Deck0 discards Three Tree Mascot (15).
+Discard: Ai(1)-Gen0_Deck0 discards Three Tree Mascot (14).
+Discard: Ai(1)-Gen0_Deck0 discards Three Tree Mascot (17).
+Discard: Ai(1)-Gen0_Deck0 discards Sorcerous Spyglass (47).
+Turn: Turn 26 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Ovika, Enigma Goliath (78), Driver of the Dead (115), Phyrexian Goblin Token (136), Phyrexian Goblin Token (137), Phyrexian Goblin Token (138) and Phyrexian Goblin Token (139) to attack Ai(1)-Gen0_Deck0.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck0 didn't block Driver of the Dead (115).
+Ai(1)-Gen0_Deck0 didn't block Phyrexian Goblin Token (136).
+Ai(1)-Gen0_Deck0 didn't block Phyrexian Goblin Token (137).
+Ai(1)-Gen0_Deck0 didn't block Phyrexian Goblin Token (138).
+Ai(1)-Gen0_Deck0 didn't block Phyrexian Goblin Token (139).
+Ai(1)-Gen0_Deck0 didn't block Ovika, Enigma Goliath (78).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Ovika, Enigma Goliath (78) deals 6 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Driver of the Dead (115) deals 3 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Phyrexian Goblin Token (136) deals 1 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Phyrexian Goblin Token (137) deals 1 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Phyrexian Goblin Token (138) deals 1 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Phyrexian Goblin Token (139) deals 1 combat damage to Ai(1)-Gen0_Deck0.
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Land: Ai(1)-Gen0_Deck0 played Soulstone Sanctuary (54)
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Resolute Reinforcements (50)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck0 triggered Resolute Reinforcements (50)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (50)]
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Resolute Reinforcements (48)
+Resolve stack: Resolute Reinforcements - Creature 1 / 1
+Add to stack: Ai(1)-Gen0_Deck0 triggered Resolute Reinforcements (48)
+Resolve stack: When Resolute Reinforcements enters, create a 1/1 white Soldier creature token. [Zone Changer: Resolute Reinforcements (48)]
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Ovika, Enigma Goliath (78), Driver of the Dead (115), Phyrexian Goblin Token (136), Phyrexian Goblin Token (137), Phyrexian Goblin Token (138) and Phyrexian Goblin Token (139) to attack Ai(1)-Gen0_Deck0.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck0 didn't block Driver of the Dead (115).
+Ai(1)-Gen0_Deck0 assigned Soldier Token (143) to block Phyrexian Goblin Token (136).
+Ai(1)-Gen0_Deck0 assigned Soldier Token (147) to block Phyrexian Goblin Token (137).
+Ai(1)-Gen0_Deck0 assigned Resolute Reinforcements (50) to block Phyrexian Goblin Token (138).
+Ai(1)-Gen0_Deck0 assigned Resolute Reinforcements (48) to block Phyrexian Goblin Token (139).
+Ai(1)-Gen0_Deck0 didn't block Ovika, Enigma Goliath (78).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Ovika, Enigma Goliath (78) deals 6 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Driver of the Dead (115) deals 3 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Phyrexian Goblin Token (136) deals 1 damage () to Soldier Token (143).
+Damage: Phyrexian Goblin Token (137) deals 1 damage () to Soldier Token (147).
+Damage: Phyrexian Goblin Token (138) deals 1 damage () to Resolute Reinforcements (50).
+Damage: Phyrexian Goblin Token (139) deals 1 damage () to Resolute Reinforcements (48).
+Damage: Soldier Token (143) deals 1 damage () to Phyrexian Goblin Token (136).
+Damage: Soldier Token (147) deals 1 damage () to Phyrexian Goblin Token (137).
+Damage: Resolute Reinforcements (50) deals 1 damage () to Phyrexian Goblin Token (138).
+Damage: Resolute Reinforcements (48) deals 1 damage () to Phyrexian Goblin Token (139).
+Phase: Ai(2)-Gen0_Deck19's End of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (119) - {T}: Add {R}.
+Mana: Island (100) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck19 cast Gleaming Barrier (88)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen0_Deck19's End step
+Phase: Ai(2)-Gen0_Deck19's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen0_Deck0)
+Phase: Ai(1)-Gen0_Deck0's Untap step
+Phase: Ai(1)-Gen0_Deck0's Upkeep step
+Mana: Plains (24) - {T}: Add {W}.
+Mana: Plains (22) - {T}: Add {W}.
+Mana: Plains (23) - {T}: Add {W}.
+Mana: Plains (31) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen0_Deck0 activated Soulstone Sanctuary (54)
+Resolve stack: Soulstone Sanctuary (54) - Soulstone Sanctuary (54) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck0's Draw step
+Phase: Ai(1)-Gen0_Deck0's Main phase, precombat
+Land: Ai(1)-Gen0_Deck0 played Plains (32)
+Phase: Ai(1)-Gen0_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck0's End of Combat Step
+Phase: Ai(1)-Gen0_Deck0's Main phase, postcombat
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Soulstone Sanctuary (54) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck0 cast Giada, Font of Hope (59)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck0's End step
+Phase: Ai(1)-Gen0_Deck0's Cleanup step
+Turn: Turn 30 (Ai(2)-Gen0_Deck19)
+Phase: Ai(2)-Gen0_Deck19's Untap step
+Phase: Ai(2)-Gen0_Deck19's Upkeep step
+Phase: Ai(2)-Gen0_Deck19's Draw step
+Phase: Ai(2)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck19 assigned Ovika, Enigma Goliath (78) and Driver of the Dead (115) to attack Ai(1)-Gen0_Deck0.
+Phase: Ai(2)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck0 didn't block Driver of the Dead (115).
+Ai(1)-Gen0_Deck0 assigned Giada, Font of Hope (59) to block Ovika, Enigma Goliath (78).
+Phase: Ai(2)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck19's Combat Damage Step
+Damage: Ovika, Enigma Goliath (78) deals 6 damage () to Giada, Font of Hope (59).
+Damage: Driver of the Dead (115) deals 3 combat damage to Ai(1)-Gen0_Deck0.
+Damage: Giada, Font of Hope (59) deals 2 damage () to Ovika, Enigma Goliath (78).
+Player control: Ai(1)-Gen0_Deck0 is controlled by Ai(1)-Gen0_Deck0
+Player control: Ai(2)-Gen0_Deck19 is controlled by Ai(2)-Gen0_Deck19
+Game outcome: Turn 15
+Game outcome: Ai(1)-Gen0_Deck0 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck19 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck0: 0 Ai(2)-Gen0_Deck19: 1 
+
+Game Result: Game 1 ended in 70396 ms. Ai(2)-Gen0_Deck19 has won!
+
+
+=== STDERR ===

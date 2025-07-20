@@ -1,0 +1,791 @@
+=== COMBATE PARALELO: Gen1_Deck20 vs Gen1_Deck9 ===
+Worker ID: 3586372
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck20 Gen1_Deck9 -n 1
+Duración: 77.22 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2227 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 100 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck20 vs Ai(2)-Gen1_Deck9 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck20 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen1_Deck9 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck20 has kept a hand of 6 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(2)-Gen1_Deck9 played Temple of Deceit (68)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Temple of Deceit (68)
+Resolve stack: Ai(2)-Gen1_Deck9 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (68)]
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Soulstone Sanctuary (53)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Land: Ai(2)-Gen1_Deck9 played Crawling Barrens (78)
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Gleaming Barrier (93)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Crawling Barrens (49)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Land: Ai(2)-Gen1_Deck9 played Swamp (103)
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen1_Deck20 played Orzhov Guildgate (5)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Land: Ai(2)-Gen1_Deck9 played Soulstone Sanctuary (81)
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Evolving Wilds (32)
+Add to stack: Ai(1)-Gen1_Deck20 activated Evolving Wilds (32)
+Resolve stack: Evolving Wilds (32) - Ai(1)-Gen1_Deck20 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (53) - {T}: Add {C}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Crusader of Odric (30)
+Resolve stack: Crusader of Odric - Creature * / *
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Deadly Plot (107)
+Resolve stack: Deadly Plot (107) -  Destroy target creature or planeswalker. (Targeting: Crusader of Odric (30))
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Land: Ai(2)-Gen1_Deck9 played Swamp (105)
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Soulstone Sanctuary (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 activated Crawling Barrens (78)
+Resolve stack: Crawling Barrens (78) - Ai(2)-Gen1_Deck9 puts two +1/+1 counters on Crawling Barrens (78). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 assigned Crawling Barrens (78) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Crawling Barrens (78).
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Damage: Crawling Barrens (78) deals 2 combat damage to Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Plains (40)
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 activated Soulstone Sanctuary (53)
+Resolve stack: Soulstone Sanctuary (53) - Soulstone Sanctuary (53) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 activated Soulstone Sanctuary (81)
+Resolve stack: Soulstone Sanctuary (81) - Soulstone Sanctuary (81) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (53) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Regal Caracal (43)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(1)-Gen1_Deck20 triggered Regal Caracal (43)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (43)]
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Deadly Plot (106)
+Resolve stack: Deadly Plot (106) -  Destroy target creature or planeswalker. (Targeting: Soulstone Sanctuary (53))
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Giada, Font of Hope (58)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Vampire Interloper (7)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Exclusion Mage (66)
+Resolve stack: Exclusion Mage - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck9 triggered Exclusion Mage (66) targeting [Giada, Font of Hope (58)]
+Resolve stack: When Exclusion Mage enters, return target creature an opponent controls to its owner's hand. (Targeting: [[Giada, Font of Hope (58)]]) [Zone Changer: Exclusion Mage (66)]
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 assigned Vampire Interloper (7) to attack Ai(2)-Gen1_Deck9.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck9 didn't block Vampire Interloper (7).
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Damage: Vampire Interloper (7) deals 2 combat damage to Ai(2)-Gen1_Deck9.
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Giada, Font of Hope (59)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Diamond Mare (9)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Replacement Effect: Temple of Deceit enters tapped.
+Land: Ai(2)-Gen1_Deck9 played Temple of Deceit (69)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Temple of Deceit (69)
+Resolve stack: Ai(2)-Gen1_Deck9 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Deceit enters, scry 1. [Zone Changer: Temple of Deceit (69)]
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Vampire Interloper (86)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Pirate's Cutlass (46)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 assigned Vampire Interloper (7) and Giada, Font of Hope (59) to attack Ai(2)-Gen1_Deck9.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck9 didn't block Vampire Interloper (7).
+Ai(2)-Gen1_Deck9 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Damage: Vampire Interloper (7) deals 2 combat damage to Ai(2)-Gen1_Deck9.
+Damage: Giada, Font of Hope (59) deals 2 combat damage to Ai(2)-Gen1_Deck9.
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 assigned Vampire Interloper (86) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Vampire Interloper (86).
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Damage: Vampire Interloper (86) deals 2 combat damage to Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Temple of Deceit (69) - {T}: Add {U} or {B}.
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Grappling Kraken (90)
+Resolve stack: Grappling Kraken - Creature 5 / 6
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Soulstone Sanctuary (52)
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 activated Pirate's Cutlass (46) targeting [Giada, Font of Hope (59)]
+Resolve stack: Pirate's Cutlass (46) -  Attach to Giada, Font of Hope (59)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 assigned Vampire Interloper (7) and Giada, Font of Hope (59) to attack Ai(2)-Gen1_Deck9.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck9 didn't block Vampire Interloper (7).
+Ai(2)-Gen1_Deck9 didn't block Giada, Font of Hope (59).
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Damage: Vampire Interloper (7) deals 2 combat damage to Ai(2)-Gen1_Deck9.
+Damage: Giada, Font of Hope (59) deals 4 combat damage to Ai(2)-Gen1_Deck9.
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Vampire Interloper (8)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Temple of Deceit (69) - {T}: Add {U} or {B}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Bloodthirsty Conqueror (61)
+Resolve stack: Bloodthirsty Conqueror - Creature 5 / 5
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 activated Soulstone Sanctuary (52)
+Resolve stack: Soulstone Sanctuary (52) - Soulstone Sanctuary (52) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Land: Ai(2)-Gen1_Deck9 played Crawling Barrens (79)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Grappling Kraken (90) targeting [Soulstone Sanctuary (52)]
+Resolve stack: Landfall — Whenever a land you control enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.) (Targeting: [[Soulstone Sanctuary (52)]]) [Zone Changer: Crawling Barrens (79)]
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Temple of Deceit (69) - {T}: Add {U} or {B}.
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Shipwreck Dowser (95)
+Resolve stack: Shipwreck Dowser - Creature 3 / 3
+Add to stack: Ai(2)-Gen1_Deck9 triggered Shipwreck Dowser (95) targeting [Deadly Plot (106)]
+Resolve stack: When Shipwreck Dowser enters, return target instant or sorcery card from your graveyard to your hand. (Targeting: [[Deadly Plot (106)]]) [Zone Changer: Shipwreck Dowser (95)]
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Soulstone Sanctuary (51)
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Lyra Dawnbringer (1)
+Add to stack: Ai(1)-Gen1_Deck20 triggered Diamond Mare (9)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Lyra Dawnbringer (1), Activator: Ai(1)-Gen1_Deck20, SpellAbility: Lyra Dawnbringer - Creature 5 / 5]
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Temple of Deceit (69) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Deadly Plot (106)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Shipwreck Dowser (95)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Deadly Plot (106), Activator: Ai(2)-Gen1_Deck9, SpellAbility: Choose one —
+• Destroy target creature or planeswalker.
+• Return target Zombie creature card from your graveyard to the battlefield tapped.
+
+ Destroy target creature or planeswalker.]
+Resolve stack: Deadly Plot (106) -  Destroy target creature or planeswalker. (Targeting: Lyra Dawnbringer (1))
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Land: Ai(2)-Gen1_Deck9 played Island (75)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Grappling Kraken (90) targeting [Giada, Font of Hope (59)]
+Resolve stack: Landfall — Whenever a land you control enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.) (Targeting: [[Giada, Font of Hope (59)]]) [Zone Changer: Island (75)]
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 assigned Vampire Interloper (86) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Vampire Interloper (86).
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Damage: Vampire Interloper (86) deals 2 combat damage to Ai(1)-Gen1_Deck20.
+Add to stack: Ai(2)-Gen1_Deck9 triggered Bloodthirsty Conqueror (61)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen1_Deck20, Lost Amount: 2]
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Mana: Island (75) - {T}: Add {U}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Mana: Crawling Barrens (79) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Exclusion Mage (64)
+Resolve stack: Exclusion Mage - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck9 triggered Exclusion Mage (64) targeting [Giada, Font of Hope (59)]
+Resolve stack: When Exclusion Mage enters, return target creature an opponent controls to its owner's hand. (Targeting: [[Giada, Font of Hope (59)]]) [Zone Changer: Exclusion Mage (64)]
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 activated Soulstone Sanctuary (51)
+Resolve stack: Soulstone Sanctuary (51) - Soulstone Sanctuary (51) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (52) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 activated Pirate's Cutlass (46) targeting [Soulstone Sanctuary (52)]
+Resolve stack: Pirate's Cutlass (46) -  Attach to Soulstone Sanctuary (52)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 assigned Vampire Interloper (86) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Vampire Interloper (86).
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Damage: Vampire Interloper (86) deals 2 combat damage to Ai(1)-Gen1_Deck20.
+Add to stack: Ai(2)-Gen1_Deck9 triggered Bloodthirsty Conqueror (61)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen1_Deck20, Lost Amount: 2]
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Swamp (11)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Vile Entomber (18)
+Resolve stack: Vile Entomber - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck20 triggered Vile Entomber (18)
+Resolve stack: When Vile Entomber enters, search your library for a card, put that card into your graveyard, then shuffle. [Zone Changer: Vile Entomber (18)]
+Phase: Ai(1)-Gen1_Deck20's End step
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (75) - {T}: Add {U}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Add to stack: Ai(2)-Gen1_Deck9 activated Crawling Barrens (78)
+Resolve stack: Crawling Barrens (78) - Ai(2)-Gen1_Deck9 puts two +1/+1 counters on Crawling Barrens (78). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Land: Ai(2)-Gen1_Deck9 played Secluded Courtyard (110)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Grappling Kraken (90) targeting [Soulstone Sanctuary (52)]
+Resolve stack: Landfall — Whenever a land you control enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.) (Targeting: [[Soulstone Sanctuary (52)]]) [Zone Changer: Secluded Courtyard (110)]
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Swamp (105) - {T}: Add {B}.
+Mana: Island (75) - {T}: Add {U}.
+Mana: Temple of Deceit (68) - {T}: Add {U} or {B}.
+Mana: Temple of Deceit (69) - {T}: Add {U} or {B}.
+Mana: Secluded Courtyard (110) - {T}: Add {C}.
+Mana: Crawling Barrens (78) - {T}: Add {C}.
+Mana: Crawling Barrens (79) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (81) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck9 cast Rise of the Dark Realms (112)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Shipwreck Dowser (95)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Rise of the Dark Realms (112), Activator: Ai(2)-Gen1_Deck9, SpellAbility: Put all creature cards in all graveyards onto the battlefield under your control.]
+Resolve stack: Rise of the Dark Realms (112) - Put all creature cards in all graveyards onto the battlefield under your control.
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 assigned Vampire Interloper (86) and Bloodthirsty Conqueror (61) to attack Ai(1)-Gen1_Deck20.
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Vampire Interloper (86).
+Ai(1)-Gen1_Deck20 didn't block Bloodthirsty Conqueror (61).
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Damage: Vampire Interloper (86) deals 2 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Bloodthirsty Conqueror (61) deals 5 combat damage to Ai(1)-Gen1_Deck20.
+Add to stack: Ai(2)-Gen1_Deck9 triggered Bloodthirsty Conqueror (61)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen1_Deck20, Lost Amount: 7]
+Phase: Ai(2)-Gen1_Deck9's End of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck9's End step
+Phase: Ai(2)-Gen1_Deck9's Cleanup step
+Turn: Turn 30 (Ai(1)-Gen1_Deck20)
+Phase: Ai(1)-Gen1_Deck20's Untap step
+Replacement Effect: If this permanent would become untapped, instead remove a stun counter from it.
+Phase: Ai(1)-Gen1_Deck20's Upkeep step
+Phase: Ai(1)-Gen1_Deck20's Draw step
+Phase: Ai(1)-Gen1_Deck20's Main phase, precombat
+Land: Ai(1)-Gen1_Deck20 played Swamp (14)
+Phase: Ai(1)-Gen1_Deck20's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck20 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck20's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck20's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck20's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck20's End of Combat Step
+Phase: Ai(1)-Gen1_Deck20's Main phase, postcombat
+Mana: Swamp (11) - {T}: Add {B}.
+Mana: Swamp (14) - {T}: Add {B}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Vile Entomber (20)
+Resolve stack: Vile Entomber - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck20 triggered Vile Entomber (20)
+Resolve stack: When Vile Entomber enters, search your library for a card, put that card into your graveyard, then shuffle. [Zone Changer: Vile Entomber (20)]
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Crawling Barrens (49) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck20 cast Crusader of Odric (31)
+Add to stack: Ai(1)-Gen1_Deck20 triggered Diamond Mare (9)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Crusader of Odric (31), Activator: Ai(1)-Gen1_Deck20, SpellAbility: Crusader of Odric - Creature * / *]
+Resolve stack: Crusader of Odric - Creature * / *
+Phase: Ai(1)-Gen1_Deck20's End step
+Phase: Ai(1)-Gen1_Deck20's Cleanup step
+Turn: Turn 31 (Ai(2)-Gen1_Deck9)
+Phase: Ai(2)-Gen1_Deck9's Untap step
+Phase: Ai(2)-Gen1_Deck9's Upkeep step
+Phase: Ai(2)-Gen1_Deck9's Draw step
+Phase: Ai(2)-Gen1_Deck9's Main phase, precombat
+Land: Ai(2)-Gen1_Deck9 played Swamp (99)
+Add to stack: Ai(2)-Gen1_Deck9 triggered Grappling Kraken (90) targeting [Crusader of Odric (31)]
+Resolve stack: Landfall — Whenever a land you control enters, tap target creature an opponent controls and put a stun counter on it. (If a permanent with a stun counter would become untapped, remove one from it instead.) (Targeting: [[Crusader of Odric (31)]]) [Zone Changer: Swamp (99)]
+Phase: Ai(2)-Gen1_Deck9's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck9's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck9 assigned Crusader of Odric (30), Grappling Kraken (90), Bloodthirsty Conqueror (61), Lyra Dawnbringer (1), Soulstone Sanctuary (81), Syr Alin, the Lion's Claw (56), Shipwreck Dowser (95), Exclusion Mage (66), Vampire Interloper (86) and Exclusion Mage (64) to attack Ai(1)-Gen1_Deck20.
+Add to stack: Ai(2)-Gen1_Deck9 triggered Syr Alin, the Lion's Claw (56)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (56)]
+Phase: Ai(2)-Gen1_Deck9's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck20 didn't block Exclusion Mage (64).
+Ai(1)-Gen1_Deck20 didn't block Lyra Dawnbringer (1).
+Ai(1)-Gen1_Deck20 assigned Diamond Mare (9) to block Soulstone Sanctuary (81).
+Ai(1)-Gen1_Deck20 assigned Regal Caracal (43) to block Exclusion Mage (66).
+Ai(1)-Gen1_Deck20 didn't block Vampire Interloper (86).
+Ai(1)-Gen1_Deck20 assigned Vile Entomber (18) to block Syr Alin, the Lion's Claw (56).
+Ai(1)-Gen1_Deck20 assigned Cat Token (125) to block Grappling Kraken (90).
+Ai(1)-Gen1_Deck20 didn't block Bloodthirsty Conqueror (61).
+Ai(1)-Gen1_Deck20 assigned Cat Token (124) to block Crusader of Odric (30).
+Ai(1)-Gen1_Deck20 assigned Vile Entomber (20) to block Shipwreck Dowser (95).
+Phase: Ai(2)-Gen1_Deck9's First Strike Damage Step
+Damage: Lyra Dawnbringer (1) deals 6 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Syr Alin, the Lion's Claw (56) deals 4 damage () to Vile Entomber (18).
+Add to stack: Ai(2)-Gen1_Deck9 triggered Bloodthirsty Conqueror (61)
+Resolve stack: Whenever an opponent loses life, you gain that much life. (Damage causes loss of life.) [Player: Ai(1)-Gen1_Deck20, Lost Amount: 6]
+Phase: Ai(2)-Gen1_Deck9's Combat Damage Step
+Damage: Crusader of Odric (30) deals 12 damage () to Cat Token (124).
+Damage: Grappling Kraken (90) deals 6 damage () to Cat Token (125).
+Damage: Bloodthirsty Conqueror (61) deals 6 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Soulstone Sanctuary (81) deals 5 damage () to Diamond Mare (9).
+Damage: Shipwreck Dowser (95) deals 4 damage () to Vile Entomber (20).
+Damage: Exclusion Mage (66) deals 3 damage () to Regal Caracal (43).
+Damage: Vampire Interloper (86) deals 3 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Exclusion Mage (64) deals 3 combat damage to Ai(1)-Gen1_Deck20.
+Damage: Cat Token (124) deals 2 damage () to Crusader of Odric (30).
+Damage: Cat Token (125) deals 2 damage () to Grappling Kraken (90).
+Damage: Diamond Mare (9) deals 1 damage () to Soulstone Sanctuary (81).
+Damage: Regal Caracal (43) deals 3 damage () to Exclusion Mage (66).
+Damage: Vile Entomber (20) deals 2 damage (Deathtouch) to Shipwreck Dowser (95).
+Player control: Ai(1)-Gen1_Deck20 is controlled by Ai(1)-Gen1_Deck20
+Player control: Ai(2)-Gen1_Deck9 is controlled by Ai(2)-Gen1_Deck9
+Game outcome: Turn 16
+Game outcome: Ai(1)-Gen1_Deck20 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck9 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck20: 0 Ai(2)-Gen1_Deck9: 1 
+
+Game Result: Game 1 ended in 64801 ms. Ai(2)-Gen1_Deck9 has won!
+
+
+=== STDERR ===

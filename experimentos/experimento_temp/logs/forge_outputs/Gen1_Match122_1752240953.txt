@@ -1,0 +1,610 @@
+=== COMBATE PARALELO: Gen1_Deck5 vs Gen1_Deck17 ===
+Worker ID: 2447626
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck5 Gen1_Deck17 -n 1
+Duración: 42.42 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2385 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 93 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck5 vs Ai(2)-Gen1_Deck17 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck17 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck5 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Replacement Effect: Golgari Guildgate enters tapped.
+Land: Ai(2)-Gen1_Deck17 played Golgari Guildgate (105)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (23)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (117)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Golgari Guildgate (105) - {T}: Add {B} or {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Burglar Rat (113)
+Resolve stack: Burglar Rat - Creature 1 / 1
+Add to stack: Ai(2)-Gen1_Deck17 triggered Burglar Rat (113)
+Discard: Ai(1)-Gen1_Deck5 discards Swamp (20).
+Resolve stack: When Burglar Rat enters, each opponent discards a card. [Zone Changer: Burglar Rat (113)]
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (24)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Pilfer (34) targeting [Ai(2)-Gen1_Deck17]
+Discard: Ai(2)-Gen1_Deck17 discards Highborn Vampire (111).
+Resolve stack: Pilfer (34) - Ai(2)-Gen1_Deck17 reveals their hand. Ai(1)-Gen1_Deck5 chooses a nonland card from it. Ai(2)-Gen1_Deck17 discards that card.
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Plains (77)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Burglar Rat (113) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Burglar Rat (113).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Burglar Rat (113) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Golgari Guildgate (105) - {T}: Add {B} or {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Crow of Dark Tidings (118)
+Resolve stack: Crow of Dark Tidings - Creature 2 / 1
+Add to stack: Ai(2)-Gen1_Deck17 triggered Crow of Dark Tidings (118)
+Zone Change: Ai(2)-Gen1_Deck17 milled Plains (79) and Wary Thespian (82).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (118)]
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (25)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Stromkirk Bloodthief (16)
+Resolve stack: Stromkirk Bloodthief - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Mana: Golgari Guildgate (105) - {T}: Add {B} or {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Bite Down (108) targeting [Crow of Dark Tidings (118)][Stromkirk Bloodthief (16)]
+Damage: Crow of Dark Tidings (118) deals 2 damage () to Stromkirk Bloodthief (16).
+Resolve stack: Bite Down (108) -  Crow of Dark Tidings (118) deals 2 damage to Stromkirk Bloodthief (16).
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Crow of Dark Tidings (118) and Burglar Rat (113) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Burglar Rat (113).
+Ai(1)-Gen1_Deck5 didn't block Crow of Dark Tidings (118).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Crow of Dark Tidings (118) deals 2 combat damage to Ai(1)-Gen1_Deck5.
+Damage: Burglar Rat (113) deals 1 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Land: Ai(2)-Gen1_Deck17 played Plains (81)
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Vampire Spawn (60)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(1)-Gen1_Deck5 triggered Vampire Spawn (60)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (60)]
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Crow of Dark Tidings (118) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Crow of Dark Tidings (118).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Crow of Dark Tidings (118) deals 2 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Golgari Guildgate (105) - {T}: Add {B} or {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Springbloom Druid (69)
+Resolve stack: Springbloom Druid - Creature 1 / 1
+Add to stack: Ai(2)-Gen1_Deck17 triggered Springbloom Druid (69)
+Resolve stack: When Springbloom Druid enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. [Zone Changer: Springbloom Druid (69)]
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Heraldic Banner (12)
+Replacement Effect: As Heraldic Banner enters, choose a color.
+Resolve stack: Heraldic Banner
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Vampire Spawn (60) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Vampire Spawn (60) deals 3 combat damage to Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Heraldic Banner (12) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck5 cast Infestation Sage (2)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Crow of Dark Tidings (118) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Crow of Dark Tidings (118).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Crow of Dark Tidings (118) deals 2 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Golgari Guildgate (105) - {T}: Add {B} or {G}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Springbloom Druid (70)
+Resolve stack: Springbloom Druid - Creature 1 / 1
+Add to stack: Ai(2)-Gen1_Deck17 triggered Springbloom Druid (70)
+Resolve stack: When Springbloom Druid enters, you may sacrifice a land. If you do, search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle. [Zone Changer: Springbloom Druid (70)]
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (29)
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Pirate's Cutlass (47)
+Resolve stack: Pirate's Cutlass
+Mana: Heraldic Banner (12) - {T}: Add one mana of the chosen color.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 activated Pirate's Cutlass (47) targeting [Vampire Spawn (60)]
+Resolve stack: Pirate's Cutlass (47) -  Attach to Vampire Spawn (60)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Vampire Spawn (60) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Vampire Spawn (60) deals 5 combat damage to Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Crow of Dark Tidings (118) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Crow of Dark Tidings (118).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Crow of Dark Tidings (118) deals 2 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Mazemind Tome (110)
+Resolve stack: Mazemind Tome
+Mana: Island (87) - {T}: Add {U}.
+Mana: Swamp (103) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck17 activated Mazemind Tome (110)
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen1_Deck17 draws a card.
+Mana: Golgari Guildgate (105) - {T}: Add {B} or {G}.
+Mana: Swamp (102) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Wary Thespian (83)
+Resolve stack: Wary Thespian - Creature 3 / 1
+Add to stack: Ai(2)-Gen1_Deck17 triggered Wary Thespian (83)
+Resolve stack: Ai(2)-Gen1_Deck17 surveiled 1 card(s) to the top of the library
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (83)]
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Vampire Spawn (60) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Vampire Spawn (60) deals 5 combat damage to Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Mana: Heraldic Banner (12) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck5 cast Highborn Vampire (50)
+Resolve stack: Highborn Vampire - Creature 4 / 3
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Pulse Tracker (39)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Forest (76)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Crow of Dark Tidings (118) to attack Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck5 didn't block Crow of Dark Tidings (118).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Crow of Dark Tidings (118) deals 2 combat damage to Ai(1)-Gen1_Deck5.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck17 activated Mazemind Tome (110)
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen1_Deck17 draws a card.
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Mana: Swamp (25) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Heraldic Banner (13)
+Replacement Effect: As Heraldic Banner enters, choose a color.
+Resolve stack: Heraldic Banner
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Pulse Tracker (39), Vampire Spawn (60), Highborn Vampire (50) and Infestation Sage (2) to attack Ai(2)-Gen1_Deck17.
+Add to stack: Ai(1)-Gen1_Deck5 triggered Pulse Tracker (39)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (39)]
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Wary Thespian (83) to block Highborn Vampire (50).
+Ai(2)-Gen1_Deck17 assigned Springbloom Druid (69) to block Infestation Sage (2).
+Ai(2)-Gen1_Deck17 assigned Burglar Rat (113) to block Pulse Tracker (39).
+Ai(2)-Gen1_Deck17 assigned Springbloom Druid (70) to block Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Pulse Tracker (39) deals 3 damage () to Burglar Rat (113).
+Damage: Vampire Spawn (60) deals 6 damage () to Springbloom Druid (70).
+Damage: Highborn Vampire (50) deals 6 damage () to Wary Thespian (83).
+Damage: Infestation Sage (2) deals 3 damage () to Springbloom Druid (69).
+Damage: Wary Thespian (83) deals 3 damage () to Highborn Vampire (50).
+Damage: Burglar Rat (113) deals 1 damage () to Pulse Tracker (39).
+Damage: Springbloom Druid (69) deals 1 damage () to Infestation Sage (2).
+Damage: Springbloom Druid (70) deals 1 damage () to Vampire Spawn (60).
+Add to stack: Ai(1)-Gen1_Deck5 triggered Infestation Sage (2)
+Add to stack: Ai(2)-Gen1_Deck17 triggered Wary Thespian (83)
+Resolve stack: Ai(2)-Gen1_Deck17 surveiled 1 card(s) to the graveyard
+Resolve stack: When Wary Thespian enters or dies, surveil 1. (Look at the top card of your library. You may put that card into your graveyard.) [Zone Changer: Wary Thespian (83)]
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (2)]
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Heraldic Banner (12) - {T}: Add one mana of the chosen color.
+Mana: Swamp (29) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Vampire Interloper (9)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Add to stack: Ai(2)-Gen1_Deck17 activated Mazemind Tome (110)
+Resolve stack: Ai(2)-Gen1_Deck17 scried 1 card(s) to the top of the library
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen1_Deck17 scries 1.
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (115)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Vampire Spawn (60), Vampire Interloper (9) and Insect Token (123) to attack Ai(2)-Gen1_Deck17.
+Mana: Plains (77) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Elspeth's Smite (68) targeting [Vampire Interloper (9)]
+Damage: Elspeth's Smite (68) deals 3 damage () to Vampire Interloper (9).
+Resolve stack: Elspeth's Smite (68) - Elspeth's Smite (68) deals 3 damage to Vampire Interloper (9).  If that creature would die this turn, exile it instead
+Replacement Effect: If that permanent would die this turn, exile it instead.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Insect Token (123).
+Ai(2)-Gen1_Deck17 assigned Crow of Dark Tidings (118) to block Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Vampire Spawn (60) deals 6 damage () to Crow of Dark Tidings (118).
+Damage: Insect Token (123) deals 3 combat damage to Ai(2)-Gen1_Deck17.
+Damage: Crow of Dark Tidings (118) deals 2 damage () to Vampire Spawn (60).
+Add to stack: Ai(2)-Gen1_Deck17 triggered Crow of Dark Tidings (118)
+Zone Change: Ai(2)-Gen1_Deck17 milled Golgari Guildgate (104) and Kitesail Corsair (95).
+Resolve stack: When Crow of Dark Tidings enters or dies, mill two cards. (Put the top two cards of your library into your graveyard.) [Zone Changer: Crow of Dark Tidings (118)]
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 cast Pulse Tracker (41)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Island (86)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Island (87) - {T}: Add {U}.
+Mana: Island (86) - {T}: Add {U}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Kaito, Cunning Infiltrator (73)
+Replacement Effect: Kaito, Cunning Infiltrator enters with three loyalty counters on it.
+Resolve stack: Kaito, Cunning Infiltrator
+Add to stack: Ai(2)-Gen1_Deck17 activated Kaito, Cunning Infiltrator (73)
+Resolve stack: Kaito, Cunning Infiltrator (73) - Ai(2)-Gen1_Deck17 creates a 2/1 blue Ninja creature token.
+Mana: Plains (77) - {T}: Add {W}.
+Mana: Swamp (103) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck17 activated Mazemind Tome (110)
+Add to stack: Ai(2)-Gen1_Deck17 triggered Mazemind Tome (110)
+Resolve stack: When there are four or more page counters on Mazemind Tome, exile it. If you do, you gain 4 life.
+Resolve stack: Mazemind Tome (110) - Ai(2)-Gen1_Deck17 draws a card.
+Mana: Forest (76) - {T}: Add {G}.
+Mana: Swamp (102) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Dwynen's Elite (63)
+Resolve stack: Dwynen's Elite - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Swamp (18)
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Pulse Tracker (41), Vampire Spawn (60) and Insect Token (123) to attack Kaito, Cunning Infiltrator (73).
+Add to stack: Ai(1)-Gen1_Deck5 triggered Pulse Tracker (41)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (41)]
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Ninja Token (128) to block Pulse Tracker (41).
+Ai(2)-Gen1_Deck17 didn't block Insect Token (123).
+Ai(2)-Gen1_Deck17 didn't block Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Pulse Tracker (41) deals 3 damage () to Ninja Token (128).
+Damage: Ninja Token (128) deals 2 damage () to Pulse Tracker (41).
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Island (87) - {T}: Add {U}.
+Mana: Mountain (117) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Kitesail Corsair (94)
+Resolve stack: Kitesail Corsair - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Land: Ai(1)-Gen1_Deck5 played Evolving Wilds (43)
+Add to stack: Ai(1)-Gen1_Deck5 activated Evolving Wilds (43)
+Resolve stack: Evolving Wilds (43) - Ai(1)-Gen1_Deck5 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Vampire Spawn (60) and Insect Token (123) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Insect Token (123).
+Ai(2)-Gen1_Deck17 assigned Kitesail Corsair (94) and Dwynen's Elite (63) to block Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Vampire Spawn (60) deals 1 damage () to Kitesail Corsair (94).
+Damage: Vampire Spawn (60) deals 5 damage () to Dwynen's Elite (63).
+Damage: Insect Token (123) deals 3 combat damage to Ai(2)-Gen1_Deck17.
+Damage: Kitesail Corsair (94) deals 2 damage () to Vampire Spawn (60).
+Damage: Dwynen's Elite (63) deals 2 damage () to Vampire Spawn (60).
+Phase: Ai(1)-Gen1_Deck5's End of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Main phase, postcombat
+Mana: Swamp (23) - {T}: Add {B}.
+Mana: Swamp (24) - {T}: Add {B}.
+Add to stack: Ai(1)-Gen1_Deck5 activated Pirate's Cutlass (47) targeting [Insect Token (123)]
+Resolve stack: Pirate's Cutlass (47) -  Attach to Insect Token (123)
+Phase: Ai(1)-Gen1_Deck5's End step
+Phase: Ai(1)-Gen1_Deck5's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen1_Deck5)
+Phase: Ai(1)-Gen1_Deck5's Untap step
+Phase: Ai(1)-Gen1_Deck5's Upkeep step
+Phase: Ai(1)-Gen1_Deck5's Draw step
+Phase: Ai(1)-Gen1_Deck5's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck5's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck5's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck5 assigned Insect Token (123) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck5's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Insect Token (123).
+Phase: Ai(1)-Gen1_Deck5's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck5's Combat Damage Step
+Damage: Insect Token (123) deals 5 combat damage to Ai(2)-Gen1_Deck17.
+Player control: Ai(1)-Gen1_Deck5 is controlled by Ai(1)-Gen1_Deck5
+Player control: Ai(2)-Gen1_Deck17 is controlled by Ai(2)-Gen1_Deck17
+Game outcome: Turn 12
+Game outcome: Ai(1)-Gen1_Deck5 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck17 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck5: 1 Ai(2)-Gen1_Deck17: 0 
+
+Game Result: Game 1 ended in 29421 ms. Ai(1)-Gen1_Deck5 has won!
+
+
+=== STDERR ===

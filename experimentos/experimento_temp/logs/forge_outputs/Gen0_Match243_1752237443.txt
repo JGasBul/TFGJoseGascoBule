@@ -1,0 +1,371 @@
+=== COMBATE PARALELO: Gen0_Deck22 vs Gen0_Deck13 ===
+Worker ID: 2318697
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck22 Gen0_Deck13 -n 1
+Duración: 25.75 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1848 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 36 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck22 vs Ai(2)-Gen0_Deck13 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck22 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck13 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Island (55)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Mountain (116)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Stromkirk Noble (80)
+Resolve stack: Stromkirk Noble - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Plains (39)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Island (93)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Stromkirk Noble (80) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Stromkirk Noble (80).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Stromkirk Noble (80) deals 1 combat damage to Ai(1)-Gen0_Deck22.
+Add to stack: Ai(2)-Gen0_Deck13 triggered Stromkirk Noble (80)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (80), Damaged: Ai(1)-Gen0_Deck22, Amount: 1]
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Campus Guide (84)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen0_Deck13 triggered Campus Guide (84)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (84)]
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Island (53)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Mana: Island (55) - {T}: Add {U}.
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (53) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Rune-Sealed Wall (27)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Mountain (114)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Stromkirk Noble (80) and Campus Guide (84) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 assigned Rune-Sealed Wall (27) to block Stromkirk Noble (80).
+Ai(1)-Gen0_Deck22 didn't block Campus Guide (84).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Stromkirk Noble (80) deals 2 damage () to Rune-Sealed Wall (27).
+Damage: Campus Guide (84) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Taurean Mauler (74)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck13's End step
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (55) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Disenchant (3) targeting [Campus Guide (84)]
+Add to stack: Ai(2)-Gen0_Deck13 triggered Taurean Mauler (74)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Disenchant (3), Activator: Ai(1)-Gen0_Deck22, SpellAbility: Destroy target artifact or enchantment.]
+Resolve stack: Disenchant (3) - Destroy Campus Guide (84).
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Island (95)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Taurean Mauler (74) and Stromkirk Noble (80) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Stromkirk Noble (80).
+Ai(1)-Gen0_Deck22 assigned Rune-Sealed Wall (27) to block Taurean Mauler (74).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Taurean Mauler (74) deals 3 damage () to Rune-Sealed Wall (27).
+Damage: Stromkirk Noble (80) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Add to stack: Ai(2)-Gen0_Deck13 triggered Stromkirk Noble (80)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (80), Damaged: Ai(1)-Gen0_Deck22, Amount: 2]
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Add to stack: Ai(1)-Gen0_Deck22 activated Rune-Sealed Wall (27)
+Resolve stack: Ai(1)-Gen0_Deck22 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (27) - Ai(1)-Gen0_Deck22 surveils (1).
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Island (52)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Mana: Island (93) - {T}: Add {U}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Elementalist Adept (70)
+Resolve stack: Elementalist Adept - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Mountain (117)
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Island (93) - {T}: Add {U}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Adaptive Automaton (108)
+Replacement Effect: As Adaptive Automaton enters, choose a creature type.
+Resolve stack: Adaptive Automaton - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Mana: Plains (39) - {T}: Add {W}.
+Mana: Island (55) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast Disenchant (4) targeting [Adaptive Automaton (108)]
+Add to stack: Ai(2)-Gen0_Deck13 triggered Taurean Mauler (74)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: Disenchant (4), Activator: Ai(1)-Gen0_Deck22, SpellAbility: Destroy target artifact or enchantment.]
+Resolve stack: Disenchant (4) - Destroy Adaptive Automaton (108).
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Taurean Mauler (74), Stromkirk Noble (80) and Elementalist Adept (70) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Stromkirk Noble (80).
+Ai(1)-Gen0_Deck22 didn't block Elementalist Adept (70).
+Ai(1)-Gen0_Deck22 assigned Rune-Sealed Wall (27) to block Taurean Mauler (74).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Taurean Mauler (74) deals 4 damage () to Rune-Sealed Wall (27).
+Damage: Stromkirk Noble (80) deals 3 combat damage to Ai(1)-Gen0_Deck22.
+Damage: Elementalist Adept (70) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Add to stack: Ai(2)-Gen0_Deck13 triggered Stromkirk Noble (80)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (80), Damaged: Ai(1)-Gen0_Deck22, Amount: 3]
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck13's End step
+Add to stack: Ai(1)-Gen0_Deck22 activated Rune-Sealed Wall (27)
+Resolve stack: Ai(1)-Gen0_Deck22 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (27) - Ai(1)-Gen0_Deck22 surveils (1).
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Land: Ai(1)-Gen0_Deck22 played Plains (42)
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Land: Ai(2)-Gen0_Deck13 played Mountain (115)
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Stromkirk Noble (80), Taurean Mauler (74) and Elementalist Adept (70) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Stromkirk Noble (80).
+Ai(1)-Gen0_Deck22 didn't block Elementalist Adept (70).
+Ai(1)-Gen0_Deck22 assigned Rune-Sealed Wall (27) to block Taurean Mauler (74).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Stromkirk Noble (80) deals 4 combat damage to Ai(1)-Gen0_Deck22.
+Damage: Taurean Mauler (74) deals 4 damage () to Rune-Sealed Wall (27).
+Damage: Elementalist Adept (70) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Add to stack: Ai(2)-Gen0_Deck13 triggered Stromkirk Noble (80)
+Resolve stack: Whenever Stromkirk Noble deals combat damage to a player, put a +1/+1 counter on it. [Damage Source: Stromkirk Noble (80), Damaged: Ai(1)-Gen0_Deck22, Amount: 4]
+Phase: Ai(2)-Gen0_Deck13's End of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Island (93) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Slagstorm (106)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Elementalist Adept (70)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Slagstorm (106), Activator: Ai(2)-Gen0_Deck13, SpellAbility: Choose one —
+• Slagstorm deals 3 damage to each creature.
+• Slagstorm deals 3 damage to each player.
+
+ Slagstorm deals 3 damage to each player.]
+Mana: Island (55) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck22 cast An Offer You Can't Refuse (46) targeting [Choose one —
+• Slagstorm deals 3 damage to each creature.
+• Slagstorm deals 3 damage to each player.
+
+ Slagstorm deals 3 damage to each player.]
+Add to stack: Ai(2)-Gen0_Deck13 triggered Taurean Mauler (74)
+Resolve stack: Whenever an opponent casts a spell, you may put a +1/+1 counter on Taurean Mauler. [Card: An Offer You Can't Refuse (46), Activator: Ai(1)-Gen0_Deck22, SpellAbility: Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with "{T}, Sacrifice this artifact: Add one mana of any color.")]
+Zone Change: Send countered spell to Graveyard
+Resolve stack: An Offer You Can't Refuse (46) - Counter Slagstorm (106). Its controller creates two Treasure tokens.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Island (95) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen0_Deck13 cast Slagstorm (104)
+Add to stack: Ai(2)-Gen0_Deck13 triggered Elementalist Adept (70)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Slagstorm (104), Activator: Ai(2)-Gen0_Deck13, SpellAbility: Choose one —
+• Slagstorm deals 3 damage to each creature.
+• Slagstorm deals 3 damage to each player.
+
+ Slagstorm deals 3 damage to each player.]
+Damage: Slagstorm (104) deals 3 non-combat damage to Ai(1)-Gen0_Deck22.
+Damage: Slagstorm (104) deals 3 non-combat damage to Ai(2)-Gen0_Deck13.
+Resolve stack: Slagstorm (104) -  Slagstorm deals 3 damage to each player.
+Phase: Ai(2)-Gen0_Deck13's End step
+Add to stack: Ai(1)-Gen0_Deck22 activated Rune-Sealed Wall (27)
+Resolve stack: Ai(1)-Gen0_Deck22 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (27) - Ai(1)-Gen0_Deck22 surveils (1).
+Phase: Ai(2)-Gen0_Deck13's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck22)
+Phase: Ai(1)-Gen0_Deck22's Untap step
+Phase: Ai(1)-Gen0_Deck22's Upkeep step
+Phase: Ai(1)-Gen0_Deck22's Draw step
+Phase: Ai(1)-Gen0_Deck22's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck22's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck22 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck22's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck22's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck22's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck22's End of Combat Step
+Phase: Ai(1)-Gen0_Deck22's Main phase, postcombat
+Replacement Effect: Thornwood Falls enters tapped.
+Land: Ai(1)-Gen0_Deck22 played Thornwood Falls (56)
+Add to stack: Ai(1)-Gen0_Deck22 triggered Thornwood Falls (56)
+Resolve stack: When Thornwood Falls enters, you gain 1 life. [Zone Changer: Thornwood Falls (56)]
+Phase: Ai(1)-Gen0_Deck22's End step
+Phase: Ai(1)-Gen0_Deck22's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck13)
+Phase: Ai(2)-Gen0_Deck13's Untap step
+Phase: Ai(2)-Gen0_Deck13's Upkeep step
+Phase: Ai(2)-Gen0_Deck13's Draw step
+Phase: Ai(2)-Gen0_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck13 assigned Stromkirk Noble (80), Taurean Mauler (74) and Elementalist Adept (70) to attack Ai(1)-Gen0_Deck22.
+Phase: Ai(2)-Gen0_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck22 didn't block Stromkirk Noble (80).
+Ai(1)-Gen0_Deck22 didn't block Elementalist Adept (70).
+Ai(1)-Gen0_Deck22 assigned Rune-Sealed Wall (27) to block Taurean Mauler (74).
+Phase: Ai(2)-Gen0_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck13's Combat Damage Step
+Damage: Stromkirk Noble (80) deals 5 combat damage to Ai(1)-Gen0_Deck22.
+Damage: Taurean Mauler (74) deals 5 damage () to Rune-Sealed Wall (27).
+Damage: Elementalist Adept (70) deals 2 combat damage to Ai(1)-Gen0_Deck22.
+Player control: Ai(1)-Gen0_Deck22 is controlled by Ai(1)-Gen0_Deck22
+Player control: Ai(2)-Gen0_Deck13 is controlled by Ai(2)-Gen0_Deck13
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen0_Deck22 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck13 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck22: 0 Ai(2)-Gen0_Deck13: 1 
+
+Game Result: Game 1 ended in 14682 ms. Ai(2)-Gen0_Deck13 has won!
+
+
+=== STDERR ===

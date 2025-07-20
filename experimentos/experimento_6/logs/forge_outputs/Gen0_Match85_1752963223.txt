@@ -1,0 +1,445 @@
+=== COMBATE PARALELO: Gen0_Deck19 vs Gen0_Deck3 ===
+Worker ID: 3710967
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck19 Gen0_Deck3 -n 1
+Duración: 34.88 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1927 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 79 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck19 vs Ai(2)-Gen0_Deck3 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck3 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen0_Deck19 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (116)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Dragonmaster Outcast (101)
+Resolve stack: Dragonmaster Outcast - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Mountain (56)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (118)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Dragonmaster Outcast (101) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 didn't block Dragonmaster Outcast (101).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Dragonmaster Outcast (101) deals 1 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Heartfire Immolator (81)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Island (41)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (41) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Gleaming Barrier (27)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Rogue's Passage (90)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Heartfire Immolator (81) and Dragonmaster Outcast (101) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Gleaming Barrier (27) to block Heartfire Immolator (81).
+Ai(1)-Gen0_Deck19 didn't block Dragonmaster Outcast (101).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Heartfire Immolator (81) deals 2 damage () to Gleaming Barrier (27).
+Damage: Dragonmaster Outcast (101) deals 1 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Gleaming Barrier (95)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Soulstone Sanctuary (51)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Cultivator's Caravan (35)
+Resolve stack: Cultivator's Caravan
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (117)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Heartfire Immolator (81) and Dragonmaster Outcast (101) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Gleaming Barrier (27) to block Heartfire Immolator (81).
+Ai(1)-Gen0_Deck19 didn't block Dragonmaster Outcast (101).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Heartfire Immolator (81) deals 2 damage () to Gleaming Barrier (27).
+Damage: Dragonmaster Outcast (101) deals 1 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Swamp (31)
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Cultivator's Caravan (35) - {T}: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck19 activated Soulstone Sanctuary (51)
+Resolve stack: Soulstone Sanctuary (51) - Soulstone Sanctuary (51) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (120)
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (120) - {T}: Add {R}.
+Mana: Rogue's Passage (90) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Pyromancer's Goggles (98)
+Add to stack: Ai(2)-Gen0_Deck3 triggered Heartfire Immolator (81)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Pyromancer's Goggles (98), Activator: Ai(2)-Gen0_Deck3, SpellAbility: Pyromancer's Goggles]
+Resolve stack: Pyromancer's Goggles
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Island (40)
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (41) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Untamed Hunger (8) targeting [Soulstone Sanctuary (51)]
+Resolve stack: Untamed Hunger (8) -  Attach to Soulstone Sanctuary (51)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Soulstone Sanctuary (51) to attack Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck3 didn't block Soulstone Sanctuary (51).
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Damage: Soulstone Sanctuary (51) deals 5 combat damage to Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (90) targeting [Heartfire Immolator (81)]
+Resolve stack: Rogue's Passage (90) - Heartfire Immolator (81) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (114)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Heartfire Immolator (81) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 didn't block Heartfire Immolator (81).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Heartfire Immolator (81) deals 2 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Mana: Pyromancer's Goggles (98) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Add to stack: Ai(2)-Gen0_Deck3 cast Dragonmaster Outcast (102)
+Resolve stack: Dragonmaster Outcast - Creature 1 / 1
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Land: Ai(1)-Gen0_Deck19 played Mountain (60)
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Soulstone Sanctuary (51) to attack Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck3 didn't block Soulstone Sanctuary (51).
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Damage: Soulstone Sanctuary (51) deals 5 combat damage to Ai(2)-Gen0_Deck3.
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Cultivator's Caravan (35) - {T}: Add one mana of any color.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Ovika, Enigma Goliath (17)
+Resolve stack: Ovika, Enigma Goliath - Creature 6 / 6
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck3 triggered Dragonmaster Outcast (101)
+Add to stack: Ai(2)-Gen0_Deck3 triggered Dragonmaster Outcast (102)
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen0_Deck3]
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen0_Deck3]
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (90) targeting [Dragon Token (125)]
+Resolve stack: Rogue's Passage (90) - Dragon Token (125) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Mana: Pyromancer's Goggles (98) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 cast Heartfire Immolator (79)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Mana: Island (41) - {T}: Add {U}.
+Mana: Island (40) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Cultivator's Caravan (35) - {T}: Add one mana of any color.
+Mana: Soulstone Sanctuary (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Sphinx of the Final Word (24)
+Resolve stack: Sphinx of the Final Word - Creature 5 / 5
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck3 triggered Dragonmaster Outcast (101)
+Add to stack: Ai(2)-Gen0_Deck3 triggered Dragonmaster Outcast (102)
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen0_Deck3]
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen0_Deck3]
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (90) targeting [Dragon Token (125)]
+Resolve stack: Rogue's Passage (90) - Dragon Token (125) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Rogue's Passage (88)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Dragon Token (125) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 didn't block Dragon Token (125).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Dragon Token (125) deals 5 combat damage to Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's End of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck3's End step
+Phase: Ai(2)-Gen0_Deck3's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen0_Deck19)
+Phase: Ai(1)-Gen0_Deck19's Untap step
+Phase: Ai(1)-Gen0_Deck19's Upkeep step
+Phase: Ai(1)-Gen0_Deck19's Draw step
+Phase: Ai(1)-Gen0_Deck19's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck19's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck19 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck19's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck19's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck19's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck19's End of Combat Step
+Phase: Ai(1)-Gen0_Deck19's Main phase, postcombat
+Mana: Swamp (31) - {T}: Add {B}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Island (41) - {T}: Add {U}.
+Mana: Island (40) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen0_Deck19 cast Driver of the Dead (53)
+Resolve stack: Driver of the Dead - Creature 3 / 2
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Cultivator's Caravan (35) - {T}: Add one mana of any color.
+Add to stack: Ai(1)-Gen0_Deck19 cast Gleaming Barrier (28)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck19's End step
+Phase: Ai(1)-Gen0_Deck19's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen0_Deck3)
+Phase: Ai(2)-Gen0_Deck3's Untap step
+Phase: Ai(2)-Gen0_Deck3's Upkeep step
+Add to stack: Ai(2)-Gen0_Deck3 triggered Dragonmaster Outcast (101)
+Add to stack: Ai(2)-Gen0_Deck3 triggered Dragonmaster Outcast (102)
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen0_Deck3]
+Resolve stack: At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying. [Phase: Ai(2)-Gen0_Deck3]
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (118) - {T}: Add {R}.
+Mana: Mountain (117) - {T}: Add {R}.
+Mana: Mountain (120) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen0_Deck3 activated Rogue's Passage (90) targeting [Dragon Token (125)]
+Resolve stack: Rogue's Passage (90) - Dragon Token (125) can't be blocked this turn.
+Phase: Ai(2)-Gen0_Deck3's Draw step
+Phase: Ai(2)-Gen0_Deck3's Main phase, precombat
+Land: Ai(2)-Gen0_Deck3 played Mountain (110)
+Phase: Ai(2)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck3 assigned Dragon Token (125), Dragon Token (127), Dragon Token (132), Dragon Token (134), Heartfire Immolator (81), Heartfire Immolator (79), Dragonmaster Outcast (101) and Dragonmaster Outcast (102) to attack Ai(1)-Gen0_Deck19.
+Phase: Ai(2)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck19 assigned Gleaming Barrier (27) to block Heartfire Immolator (81).
+Ai(1)-Gen0_Deck19 assigned Ovika, Enigma Goliath (17) to block Dragon Token (132).
+Ai(1)-Gen0_Deck19 assigned Driver of the Dead (53) to block Dragonmaster Outcast (101).
+Ai(1)-Gen0_Deck19 didn't block Dragon Token (134).
+Ai(1)-Gen0_Deck19 assigned Soulstone Sanctuary (51) to block Dragonmaster Outcast (102).
+Ai(1)-Gen0_Deck19 didn't block Dragon Token (125).
+Ai(1)-Gen0_Deck19 assigned Sphinx of the Final Word (24) to block Dragon Token (127).
+Ai(1)-Gen0_Deck19 assigned Gleaming Barrier (28) to block Heartfire Immolator (79).
+Phase: Ai(2)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck3's Combat Damage Step
+Damage: Dragon Token (125) deals 5 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Dragon Token (127) deals 5 damage () to Sphinx of the Final Word (24).
+Damage: Dragon Token (132) deals 5 damage () to Ovika, Enigma Goliath (17).
+Damage: Dragon Token (134) deals 5 combat damage to Ai(1)-Gen0_Deck19.
+Damage: Heartfire Immolator (81) deals 2 damage () to Gleaming Barrier (27).
+Damage: Heartfire Immolator (79) deals 2 damage () to Gleaming Barrier (28).
+Damage: Dragonmaster Outcast (101) deals 1 damage () to Driver of the Dead (53).
+Damage: Dragonmaster Outcast (102) deals 1 damage () to Soulstone Sanctuary (51).
+Damage: Sphinx of the Final Word (24) deals 5 damage () to Dragon Token (127).
+Damage: Ovika, Enigma Goliath (17) deals 6 damage () to Dragon Token (132).
+Damage: Driver of the Dead (53) deals 3 damage () to Dragonmaster Outcast (101).
+Damage: Soulstone Sanctuary (51) deals 5 damage () to Dragonmaster Outcast (102).
+Player control: Ai(1)-Gen0_Deck19 is controlled by Ai(1)-Gen0_Deck19
+Player control: Ai(2)-Gen0_Deck3 is controlled by Ai(2)-Gen0_Deck3
+Game outcome: Turn 9
+Game outcome: Ai(1)-Gen0_Deck19 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck3 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck19: 0 Ai(2)-Gen0_Deck3: 1 
+
+Game Result: Game 1 ended in 23225 ms. Ai(2)-Gen0_Deck3 has won!
+
+
+=== STDERR ===

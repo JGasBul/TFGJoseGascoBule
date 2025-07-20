@@ -1,0 +1,721 @@
+=== COMBATE PARALELO: Gen1_Deck2 vs Gen1_Deck4 ===
+Worker ID: 3586371
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck2 Gen1_Deck4 -n 1
+Duración: 49.61 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2349 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 79 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck2 vs Ai(2)-Gen1_Deck4 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck2 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (104)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (33)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Swamp (77)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Heartfire Immolator (119)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Mountain (54)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (116)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Heartfire Immolator (119) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Heartfire Immolator (119).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Heartfire Immolator (119) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Replacement Effect: Uncharted Haven enters tapped.
+Replacement Effect: As Uncharted Haven enters, choose a color.
+Land: Ai(1)-Gen1_Deck2 played Uncharted Haven (41)
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (114)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Heartfire Immolator (119) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Heartfire Immolator (119).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Heartfire Immolator (119) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Billowing Shriekmass (81)
+Resolve stack: Billowing Shriekmass - Creature 2 / 3
+Add to stack: Ai(2)-Gen1_Deck4 triggered Billowing Shriekmass (81)
+Zone Change: Ai(2)-Gen1_Deck4 milled Dragonmaster Outcast (92), Diamond Mare (68) and Dragon Mage (62).
+Resolve stack: When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.) [Zone Changer: Billowing Shriekmass (81)]
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Stasis Snare (47)
+Resolve stack: Stasis Snare
+Add to stack: Ai(1)-Gen1_Deck2 triggered Stasis Snare (47) targeting [Billowing Shriekmass (81)]
+Resolve stack: When Stasis Snare enters, exile target creature an opponent controls until Stasis Snare leaves the battlefield. (Targeting: [[Billowing Shriekmass (81)]]) [Zone Changer: Stasis Snare (47)]
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck2 played Evolving Wilds (26)
+Add to stack: Ai(1)-Gen1_Deck2 activated Evolving Wilds (26)
+Resolve stack: Evolving Wilds (26) - Ai(1)-Gen1_Deck2 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Heartfire Immolator (119) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Heartfire Immolator (119).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Heartfire Immolator (119) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Billowing Shriekmass (82)
+Resolve stack: Billowing Shriekmass - Creature 2 / 3
+Add to stack: Ai(2)-Gen1_Deck4 triggered Billowing Shriekmass (82)
+Zone Change: Ai(2)-Gen1_Deck4 milled Mountain (109), Temple of Deceit (89) and Shivan Dragon (63).
+Resolve stack: When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.) [Zone Changer: Billowing Shriekmass (82)]
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Evolving Wilds (28)
+Add to stack: Ai(1)-Gen1_Deck2 activated Evolving Wilds (28)
+Resolve stack: Evolving Wilds (28) - Ai(1)-Gen1_Deck2 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Squad Rallier (22)
+Resolve stack: Squad Rallier - Creature 3 / 4
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Billowing Shriekmass (82) to attack Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Billowing Shriekmass (82).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Damage: Billowing Shriekmass (82) deals 2 combat damage to Ai(1)-Gen1_Deck2.
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Luminous Rebuke (48) targeting [Billowing Shriekmass (82)]
+Resolve stack: Luminous Rebuke (48) - Destroy Billowing Shriekmass (82).
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 didn't block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 3 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Goblin Boarders (21)
+Replacement Effect: Raid — Goblin Boarders enters with a +1/+1 counter on it if you attacked this turn.
+Resolve stack: Goblin Boarders - Creature 3 / 2
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Swamp (78)
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Pyromancer's Goggles (84)
+Add to stack: Ai(2)-Gen1_Deck4 triggered Heartfire Immolator (119)
+Resolve stack: Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.) [Card: Pyromancer's Goggles (84), Activator: Ai(2)-Gen1_Deck4, SpellAbility: Pyromancer's Goggles]
+Resolve stack: Pyromancer's Goggles
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Disenchant (6) targeting [Pyromancer's Goggles (84)]
+Resolve stack: Disenchant (6) - Destroy Pyromancer's Goggles (84).
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Goblin Boarders (21) and Squad Rallier (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 didn't block Goblin Boarders (21).
+Ai(2)-Gen1_Deck4 didn't block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Goblin Boarders (21) deals 4 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Squad Rallier (22) deals 3 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Ajani, Caller of the Pride (11)
+Replacement Effect: Ajani, Caller of the Pride enters with four loyalty counters on it.
+Resolve stack: Ajani, Caller of the Pride
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11) targeting [Squad Rallier (22)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (107)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Heartfire Immolator (119) to attack Ajani, Caller of the Pride (11).
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck2 didn't block Heartfire Immolator (119).
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Mountain (107) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Shivan Dragon (66)
+Resolve stack: Shivan Dragon - Creature 5 / 5
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11) targeting [Squad Rallier (22)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22).
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Plains (34) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Battle-Rattle Shaman (2)
+Resolve stack: Battle-Rattle Shaman - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck2 triggered Battle-Rattle Shaman (2) targeting [Squad Rallier (22)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Squad Rallier (22)]]) [Phase: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Shivan Dragon (66) to block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 7 damage () to Shivan Dragon (66).
+Damage: Shivan Dragon (66) deals 5 damage () to Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Mountain (107) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Shivan Dragon (64)
+Resolve stack: Shivan Dragon - Creature 5 / 5
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (32)
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11) targeting [Squad Rallier (22)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck2 triggered Battle-Rattle Shaman (2) targeting [Squad Rallier (22)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Squad Rallier (22)]]) [Phase: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Heartfire Immolator (119) to block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 8 damage () to Heartfire Immolator (119).
+Damage: Heartfire Immolator (119) deals 2 damage () to Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Searslicer Goblin (53)
+Resolve stack: Searslicer Goblin - Creature 2 / 1
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(1)-Gen1_Deck2 triggered Searslicer Goblin (53)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (78) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Pyromancer's Goggles (85)
+Resolve stack: Pyromancer's Goggles
+Mana: Mountain (107) - {T}: Add {R}.
+Mana: Pyromancer's Goggles (85) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Add to stack: Ai(2)-Gen1_Deck4 cast Heartfire Immolator (120)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck4's End step
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Squad Rallier (22)
+Resolve stack: Squad Rallier (22) - Ai(1)-Gen1_Deck2 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Fleeting Flight (18) targeting [Squad Rallier (22)]
+Resolve stack: Fleeting Flight (18) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22). It gains flying and prevent all combat damage that would be dealt to cardname. until end of turn.
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11) targeting [Squad Rallier (22)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck2 triggered Battle-Rattle Shaman (2) targeting [Squad Rallier (22)]
+Resolve stack: At the beginning of combat on your turn, you may have target creature get +2/+0 until end of turn. (Targeting: [[Squad Rallier (22)]]) [Phase: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Heartfire Immolator (120) to block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 10 damage () to Heartfire Immolator (120).
+Damage: Heartfire Immolator (120) deals 2 damage () to Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Add to stack: Ai(1)-Gen1_Deck2 triggered Searslicer Goblin (53)
+Resolve stack: Raid — At the beginning of your end step, if you attacked this turn, create a 1/1 red Goblin creature token. [Phase: Ai(1)-Gen1_Deck2]
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Seismic Rupture (117)
+Damage: Seismic Rupture (117) deals 2 damage () to Squad Rallier (22).
+Damage: Seismic Rupture (117) deals 2 damage () to Goblin Boarders (21).
+Damage: Seismic Rupture (117) deals 2 damage () to Battle-Rattle Shaman (2).
+Damage: Seismic Rupture (117) deals 2 damage () to Searslicer Goblin (53).
+Damage: Seismic Rupture (117) deals 2 damage () to Goblin Token (123).
+Damage: Seismic Rupture (117) deals 2 damage () to Goblin Token (126).
+Resolve stack: Seismic Rupture (117) - Deals 2 damage to each creature without flying.
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck2 activated Squad Rallier (22)
+Resolve stack: Squad Rallier (22) - Ai(1)-Gen1_Deck2 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Squad Rallier (22)
+Resolve stack: Squad Rallier (22) - Ai(1)-Gen1_Deck2 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Disenchant (5) targeting [Pyromancer's Goggles (85)]
+Resolve stack: Disenchant (5) - Destroy Pyromancer's Goggles (85).
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11) targeting [Squad Rallier (22)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Shivan Dragon (64) to block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 9 damage () to Shivan Dragon (64).
+Damage: Shivan Dragon (64) deals 5 damage () to Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck2 cast Swiftblade Vindicator (16)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Swamp (78) - {T}: Add {B}.
+Mana: Mountain (107) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 cast Etali, Primal Storm (80)
+Resolve stack: Etali, Primal Storm - Creature 6 / 6
+Phase: Ai(2)-Gen1_Deck4's End step
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Evolving Wilds (29)
+Add to stack: Ai(1)-Gen1_Deck2 activated Evolving Wilds (29)
+Resolve stack: Evolving Wilds (29) - Ai(1)-Gen1_Deck2 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11) targeting [Squad Rallier (22)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 assigned Etali, Primal Storm (80) to block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 10 damage () to Etali, Primal Storm (80).
+Damage: Etali, Primal Storm (80) deals 6 damage () to Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Crawling Barrens (95)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Mana: Plains (33) - {T}: Add {W}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Add to stack: Ai(1)-Gen1_Deck2 activated Squad Rallier (22)
+Resolve stack: Squad Rallier (22) - Ai(1)-Gen1_Deck2 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Mana: Plains (32) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Squad Rallier (22)
+Resolve stack: Squad Rallier (22) - Ai(1)-Gen1_Deck2 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Land: Ai(1)-Gen1_Deck2 played Plains (36)
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11) targeting [Squad Rallier (22)]
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 puts a +1/+1 counter on Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22), Goblin Boarders (21) and Swiftblade Vindicator (16) to attack Ai(2)-Gen1_Deck4.
+Mana: Mountain (104) - {T}: Add {R}.
+Mana: Swamp (77) - {T}: Add {B}.
+Mana: Mountain (116) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck4 activated Crawling Barrens (95)
+Resolve stack: Crawling Barrens (95) - Ai(2)-Gen1_Deck4 puts two +1/+1 counters on Crawling Barrens (95). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 didn't block Swiftblade Vindicator (16).
+Ai(2)-Gen1_Deck4 didn't block Goblin Boarders (21).
+Ai(2)-Gen1_Deck4 assigned Crawling Barrens (95) to block Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Damage: Swiftblade Vindicator (16) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 11 damage () to Crawling Barrens (95).
+Damage: Goblin Boarders (21) deals 4 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Swiftblade Vindicator (16) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Crawling Barrens (95) deals 2 damage () to Squad Rallier (22).
+Phase: Ai(1)-Gen1_Deck2's End of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Main phase, postcombat
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Plains (33) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 cast Swiftblade Vindicator (15)
+Resolve stack: Swiftblade Vindicator - Creature 1 / 1
+Phase: Ai(1)-Gen1_Deck2's End step
+Phase: Ai(1)-Gen1_Deck2's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen1_Deck4)
+Phase: Ai(2)-Gen1_Deck4's Untap step
+Phase: Ai(2)-Gen1_Deck4's Upkeep step
+Phase: Ai(2)-Gen1_Deck4's Draw step
+Phase: Ai(2)-Gen1_Deck4's Main phase, precombat
+Land: Ai(2)-Gen1_Deck4 played Mountain (108)
+Phase: Ai(2)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck4's End of Combat Step
+Phase: Ai(2)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck4's End step
+Mana: Uncharted Haven (41) - {T}: Add one mana of the chosen color.
+Mana: Plains (34) - {T}: Add {W}.
+Mana: Mountain (55) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Squad Rallier (22)
+Resolve stack: Squad Rallier (22) - Ai(1)-Gen1_Deck2 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Mana: Plains (32) - {T}: Add {W}.
+Mana: Mountain (60) - {T}: Add {R}.
+Mana: Plains (36) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck2 activated Squad Rallier (22)
+Resolve stack: Squad Rallier (22) - Ai(1)-Gen1_Deck2 looks at the top four cards of their library. They may put a Creature.powerLE2 card from among them into their hand and put the rest library
+Phase: Ai(2)-Gen1_Deck4's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen1_Deck2)
+Phase: Ai(1)-Gen1_Deck2's Untap step
+Phase: Ai(1)-Gen1_Deck2's Upkeep step
+Phase: Ai(1)-Gen1_Deck2's Draw step
+Phase: Ai(1)-Gen1_Deck2's Main phase, precombat
+Add to stack: Ai(1)-Gen1_Deck2 activated Ajani, Caller of the Pride (11)
+Resolve stack: Ajani, Caller of the Pride (11) - Ai(1)-Gen1_Deck2 creates twelve 2/2 white Cat creature tokens.
+Phase: Ai(1)-Gen1_Deck2's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck2's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck2 assigned Squad Rallier (22), Goblin Boarders (21), Swiftblade Vindicator (16) and Swiftblade Vindicator (15) to attack Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck4 didn't block Swiftblade Vindicator (16).
+Ai(2)-Gen1_Deck4 didn't block Goblin Boarders (21).
+Ai(2)-Gen1_Deck4 didn't block Squad Rallier (22).
+Ai(2)-Gen1_Deck4 didn't block Swiftblade Vindicator (15).
+Phase: Ai(1)-Gen1_Deck2's First Strike Damage Step
+Damage: Swiftblade Vindicator (16) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Swiftblade Vindicator (15) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Phase: Ai(1)-Gen1_Deck2's Combat Damage Step
+Damage: Squad Rallier (22) deals 11 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Goblin Boarders (21) deals 4 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Swiftblade Vindicator (16) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Damage: Swiftblade Vindicator (15) deals 1 combat damage to Ai(2)-Gen1_Deck4.
+Player control: Ai(1)-Gen1_Deck2 is controlled by Ai(1)-Gen1_Deck2
+Player control: Ai(2)-Gen1_Deck4 is controlled by Ai(2)-Gen1_Deck4
+Game outcome: Turn 14
+Game outcome: Ai(1)-Gen1_Deck2 has won because all opponents have lost
+Game outcome: Ai(2)-Gen1_Deck4 has lost because life total reached 0
+Match result: Ai(1)-Gen1_Deck2: 1 Ai(2)-Gen1_Deck4: 0 
+
+Game Result: Game 1 ended in 36178 ms. Ai(1)-Gen1_Deck2 has won!
+
+
+=== STDERR ===

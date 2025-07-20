@@ -1,0 +1,945 @@
+=== COMBATE PARALELO: Gen1_Deck8 vs Gen1_Deck14 ===
+Worker ID: 2447627
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck8 Gen1_Deck14 -n 1
+Duración: 105.31 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1970 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 95 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck8 vs Ai(2)-Gen1_Deck14 - one game of Constructed
+Mulligan: Ai(2)-Gen1_Deck14 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen1_Deck8 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Mountain (111)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (21)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Plains (97)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Diamond Mare (70)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Plains (36)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (21) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Giada, Font of Hope (58)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Mountain (114)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Dazzling Angel (81), Activator: Ai(2)-Gen1_Deck14, SpellAbility: Dazzling Angel - Creature 2 / 3]
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Crawling Barrens (51)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Crawling Barrens (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Dazzling Angel (12)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Crawling Barrens (102)
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Crusader of Odric (87)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Crusader of Odric (87), Activator: Ai(2)-Gen1_Deck14, SpellAbility: Crusader of Odric - Creature * / *]
+Resolve stack: Crusader of Odric - Creature * / *
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Crusader of Odric (87)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Crawling Barrens (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Inspiring Call (46)
+Resolve stack: Inspiring Call (46) - Ai(1)-Gen1_Deck8 draws a card. 
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (29)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dazzling Angel (12) to attack Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck14 didn't block Dazzling Angel (12).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Dazzling Angel (12) deals 3 combat damage to Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Giada, Font of Hope (119)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Giada, Font of Hope (119), Activator: Ai(2)-Gen1_Deck14, SpellAbility: Giada, Font of Hope - Creature 2 / 2]
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Giada, Font of Hope (119)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) and Dazzling Angel (81) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Dazzling Angel (81).
+Ai(1)-Gen1_Deck8 didn't block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 4 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dazzling Angel (81) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (26)
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Prideful Parent (7)
+Resolve stack: Prideful Parent - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Prideful Parent (7)
+Resolve stack: When this creature enters, create a 1/1 white Cat creature token. [Zone Changer: Prideful Parent (7)]
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (126)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Prideful Parent (7)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dazzling Angel (12) to attack Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck14 didn't block Dazzling Angel (12).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Dazzling Angel (12) deals 3 combat damage to Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Crawling Barrens (102) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Release the Dogs (105)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Release the Dogs (105), Activator: Ai(2)-Gen1_Deck14, SpellAbility: Create four 1/1 white Dog creature tokens.]
+Resolve stack: Release the Dogs (105) - Ai(2)-Gen1_Deck14 creates four 1/1 white Dog creature tokens.
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (133)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (132)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (131)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (130)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87), Dazzling Angel (81) and Giada, Font of Hope (119) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Dazzling Angel (81).
+Ai(1)-Gen1_Deck8 didn't block Crusader of Odric (87).
+Ai(1)-Gen1_Deck8 didn't block Giada, Font of Hope (119).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 8 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dazzling Angel (81) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Giada, Font of Hope (119) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (28)
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Crawling Barrens (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Apothecary Stomper (43)
+Resolve stack: Apothecary Stomper - Creature 4 / 4
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Apothecary Stomper (43)
+Resolve stack: When this creature enters, you gain 4 life. [Zone Changer: Apothecary Stomper (43)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Apothecary Stomper (43)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dazzling Angel (12) to attack Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck14 didn't block Dazzling Angel (12).
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Damage: Dazzling Angel (12) deals 3 combat damage to Ai(2)-Gen1_Deck14.
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Giada, Font of Hope (119) - {T}: Add {W}. Spend this mana only to cast an Angel spell.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Crawling Barrens (102) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Lyra Dawnbringer (64)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Diamond Mare (70)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Lyra Dawnbringer (64), Activator: Ai(2)-Gen1_Deck14, SpellAbility: Lyra Dawnbringer - Creature 5 / 5]
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Lyra Dawnbringer (64)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) and Dazzling Angel (81) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Dazzling Angel (81).
+Ai(1)-Gen1_Deck8 assigned Cat Token (126) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 9 damage () to Cat Token (126).
+Damage: Dazzling Angel (81) deals 3 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Cat Token (126) deals 1 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 14 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Giada, Font of Hope (58) - {T}: Add {W}. Spend this mana only to cast an Angel spell.
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Lyra Dawnbringer (1)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Lyra Dawnbringer (1)]
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Crawling Barrens (51) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Campus Guide (9)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Campus Guide (9)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (9)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Campus Guide (9)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 15 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Evolving Wilds (93)
+Add to stack: Ai(2)-Gen1_Deck14 activated Evolving Wilds (93)
+Resolve stack: Evolving Wilds (93) - Ai(2)-Gen1_Deck14 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Campus Guide (9) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 9 damage () to Campus Guide (9).
+Damage: Campus Guide (9) deals 2 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 16 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Plains (40)
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Release the Dogs (54)
+Resolve stack: Release the Dogs (54) - Ai(1)-Gen1_Deck8 creates four 1/1 white Dog creature tokens.
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (140)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (139)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (138)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (137)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 17 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dog Token (137) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 9 damage () to Dog Token (137).
+Damage: Dog Token (137) deals 1 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 18 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (25)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 activated Crawling Barrens (102)
+Resolve stack: Crawling Barrens (102) - Ai(2)-Gen1_Deck14 puts two +1/+1 counters on Crawling Barrens (102). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 19 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Plains (98)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dog Token (138) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 9 damage () to Dog Token (138).
+Damage: Dog Token (138) deals 1 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen1_Deck8 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 20 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (24)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 activated Crawling Barrens (102)
+Resolve stack: Crawling Barrens (102) - Ai(2)-Gen1_Deck14 puts two +1/+1 counters on Crawling Barrens (102). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 21 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Plains (95)
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dog Token (139) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 9 damage () to Dog Token (139).
+Damage: Dog Token (139) deals 1 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen1_Deck8 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Forest (24) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen1_Deck8 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 22 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (26) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (40) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Apothecary Stomper (44)
+Resolve stack: Apothecary Stomper - Creature 4 / 4
+Add to stack: Ai(1)-Gen1_Deck8 triggered Apothecary Stomper (44)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Apothecary Stomper (44)]
+Resolve stack: When this creature enters, put two +1/+1 counters on target creature you control. (Targeting: Lyra Dawnbringer (1)) [Zone Changer: Apothecary Stomper (44)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 activated Crawling Barrens (102)
+Resolve stack: Crawling Barrens (102) - Ai(2)-Gen1_Deck14 puts two +1/+1 counters on Crawling Barrens (102). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 23 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Diamond Mare (69)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Diamond Mare (69)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dog Token (140) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 10 damage () to Dog Token (140).
+Damage: Dog Token (140) deals 1 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 24 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Land: Ai(1)-Gen1_Deck8 played Forest (30)
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Mana: Plains (95) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 activated Crawling Barrens (102)
+Resolve stack: Crawling Barrens (102) - Ai(2)-Gen1_Deck14 puts two +1/+1 counters on Crawling Barrens (102). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 25 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 activated Crawling Barrens (102)
+Resolve stack: Crawling Barrens (102) - Ai(2)-Gen1_Deck14 puts two +1/+1 counters on Crawling Barrens (102). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) and Crawling Barrens (102) to attack Ai(1)-Gen1_Deck8.
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (29) - {T}: Add {G}.
+Mana: Forest (26) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen1_Deck8 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Plains (40) - {T}: Add {W}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Forest (24) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 activated Crawling Barrens (51)
+Resolve stack: Crawling Barrens (51) - Ai(1)-Gen1_Deck8 puts two +1/+1 counters on Crawling Barrens (51). Then you may have it become a 0/0 Elemental creature until end of turn. It's still a land.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Crawling Barrens (51) to block Crawling Barrens (102).
+Ai(1)-Gen1_Deck8 assigned Prideful Parent (7) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 11 damage () to Prideful Parent (7).
+Damage: Crawling Barrens (102) deals 10 damage () to Crawling Barrens (51).
+Damage: Crawling Barrens (51) deals 10 damage () to Crawling Barrens (102).
+Damage: Prideful Parent (7) deals 2 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 26 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck8 played Plains (41)
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 27 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Apothecary Stomper (43) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 10 damage () to Apothecary Stomper (43).
+Damage: Apothecary Stomper (43) deals 4 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 28 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck8 played Forest (32)
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 29 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Apothecary Stomper (44) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 10 damage () to Apothecary Stomper (44).
+Damage: Apothecary Stomper (44) deals 4 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 30 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Mana: Forest (21) - {T}: Add {G}.
+Mana: Plains (36) - {T}: Add {W}.
+Mana: Forest (29) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck8 cast Reclamation Sage (50)
+Resolve stack: Reclamation Sage - Creature 2 / 1
+Add to stack: Ai(1)-Gen1_Deck8 triggered Dazzling Angel (12)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Reclamation Sage (50) targeting [Diamond Mare (70)]
+Resolve stack: When Reclamation Sage enters, you may destroy target artifact or enchantment. (Targeting: [[Diamond Mare (70)]]) [Zone Changer: Reclamation Sage (50)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Reclamation Sage (50)]
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 31 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Land: Ai(2)-Gen1_Deck14 played Mountain (112)
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Release the Dogs (107)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Diamond Mare (69)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Release the Dogs (107), Activator: Ai(2)-Gen1_Deck14, SpellAbility: Create four 1/1 white Dog creature tokens.]
+Resolve stack: Release the Dogs (107) - Ai(2)-Gen1_Deck14 creates four 1/1 white Dog creature tokens.
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (151)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (150)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (149)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (148)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Reclamation Sage (50) to block Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Damage: Crusader of Odric (87) deals 13 damage () to Reclamation Sage (50).
+Damage: Reclamation Sage (50) deals 2 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 32 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(1)-Gen1_Deck8 played Temple of Triumph (11)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Temple of Triumph (11)
+Resolve stack: Ai(1)-Gen1_Deck8 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (11)]
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 33 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Plains (100) - {T}: Add {W}.
+Mana: Plains (98) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Twinflame Tyrant (67)
+Resolve stack: Twinflame Tyrant - Creature 3 / 5
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Twinflame Tyrant (67)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87), Lyra Dawnbringer (64), Dazzling Angel (81), Giada, Font of Hope (119), Dog Token (130), Dog Token (131), Dog Token (132), Dog Token (133), Diamond Mare (69), Dog Token (148), Dog Token (149), Dog Token (150) and Dog Token (151) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 assigned Dazzling Angel (12) to block Lyra Dawnbringer (64).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (130).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (131).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (132).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (133).
+Ai(1)-Gen1_Deck8 didn't block Diamond Mare (69).
+Ai(1)-Gen1_Deck8 didn't block Dazzling Angel (81).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (148).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (149).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (150).
+Ai(1)-Gen1_Deck8 assigned Giada, Font of Hope (58) to block Crusader of Odric (87).
+Ai(1)-Gen1_Deck8 assigned Lyra Dawnbringer (1) to block Giada, Font of Hope (119).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (151).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Damage: Lyra Dawnbringer (64) deals 14 damage () to Dazzling Angel (12).
+Damage: Lyra Dawnbringer (1) deals 9 damage () to Giada, Font of Hope (119).
+Phase: Ai(2)-Gen1_Deck14's Combat Damage Step
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Damage: Crusader of Odric (87) deals 26 damage () to Giada, Font of Hope (58).
+Damage: Dazzling Angel (81) deals 6 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (130) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (131) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (132) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (133) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Diamond Mare (69) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (148) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (149) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (150) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Dog Token (151) deals 2 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Giada, Font of Hope (58) deals 3 damage () to Crusader of Odric (87).
+Phase: Ai(2)-Gen1_Deck14's End of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck14's End step
+Phase: Ai(2)-Gen1_Deck14's Cleanup step
+Turn: Turn 34 (Ai(1)-Gen1_Deck8)
+Phase: Ai(1)-Gen1_Deck8's Untap step
+Phase: Ai(1)-Gen1_Deck8's Upkeep step
+Phase: Ai(1)-Gen1_Deck8's Draw step
+Phase: Ai(1)-Gen1_Deck8's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck8's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck8 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck8's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck8's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck8's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck8's End of Combat Step
+Phase: Ai(1)-Gen1_Deck8's Main phase, postcombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(1)-Gen1_Deck8 played Temple of Triumph (10)
+Add to stack: Ai(1)-Gen1_Deck8 triggered Temple of Triumph (10)
+Resolve stack: Ai(1)-Gen1_Deck8 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (10)]
+Phase: Ai(1)-Gen1_Deck8's End step
+Phase: Ai(1)-Gen1_Deck8's Cleanup step
+Turn: Turn 35 (Ai(2)-Gen1_Deck14)
+Phase: Ai(2)-Gen1_Deck14's Untap step
+Phase: Ai(2)-Gen1_Deck14's Upkeep step
+Phase: Ai(2)-Gen1_Deck14's Draw step
+Phase: Ai(2)-Gen1_Deck14's Main phase, precombat
+Mana: Plains (97) - {T}: Add {W}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (114) - {T}: Add {R}.
+Mana: Plains (100) - {T}: Add {W}.
+Add to stack: Ai(2)-Gen1_Deck14 cast Release the Dogs (106)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Diamond Mare (69)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Release the Dogs (106), Activator: Ai(2)-Gen1_Deck14, SpellAbility: Create four 1/1 white Dog creature tokens.]
+Resolve stack: Release the Dogs (106) - Ai(2)-Gen1_Deck14 creates four 1/1 white Dog creature tokens.
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Add to stack: Ai(2)-Gen1_Deck14 triggered Dazzling Angel (81)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (158)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (157)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (156)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Dog Token (155)]
+Phase: Ai(2)-Gen1_Deck14's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck14's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck14 assigned Crusader of Odric (87), Lyra Dawnbringer (64), Dazzling Angel (81), Twinflame Tyrant (67), Dog Token (130), Dog Token (131), Dog Token (132), Dog Token (133), Diamond Mare (69), Dog Token (148), Dog Token (149), Dog Token (150) and Dog Token (151) to attack Ai(1)-Gen1_Deck8.
+Phase: Ai(2)-Gen1_Deck14's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck8 didn't block Lyra Dawnbringer (64).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (130).
+Ai(1)-Gen1_Deck8 didn't block Twinflame Tyrant (67).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (131).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (132).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (133).
+Ai(1)-Gen1_Deck8 didn't block Diamond Mare (69).
+Ai(1)-Gen1_Deck8 didn't block Dazzling Angel (81).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (148).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (149).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (150).
+Ai(1)-Gen1_Deck8 assigned Lyra Dawnbringer (1) to block Crusader of Odric (87).
+Ai(1)-Gen1_Deck8 didn't block Dog Token (151).
+Phase: Ai(2)-Gen1_Deck14's First Strike Damage Step
+Replacement Effect: If a source you control would deal damage to an opponent or a permanent an opponent controls, it deals double that damage instead.
+Damage: Lyra Dawnbringer (64) deals 14 combat damage to Ai(1)-Gen1_Deck8.
+Damage: Lyra Dawnbringer (1) deals 9 damage () to Crusader of Odric (87).
+Player control: Ai(1)-Gen1_Deck8 is controlled by Ai(1)-Gen1_Deck8
+Player control: Ai(2)-Gen1_Deck14 is controlled by Ai(2)-Gen1_Deck14
+Game outcome: Turn 18
+Game outcome: Ai(1)-Gen1_Deck8 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck14 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck8: 0 Ai(2)-Gen1_Deck14: 1 
+
+Game Result: Game 1 ended in 92529 ms. Ai(2)-Gen1_Deck14 has won!
+
+
+=== STDERR ===

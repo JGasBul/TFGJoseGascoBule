@@ -1,0 +1,315 @@
+=== COMBATE PARALELO: Gen2_Deck3 vs Gen2_Deck5 ===
+Worker ID: 2570487
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck3 Gen2_Deck5 -n 1
+Duración: 24.01 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2036 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 106 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck3 vs Ai(2)-Gen2_Deck5 - one game of Constructed
+Mulligan: Ai(2)-Gen2_Deck5 has kept a hand of 7 cards
+Mulligan: Ai(1)-Gen2_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Land: Ai(2)-Gen2_Deck5 played Swamp (93)
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Swamp (93) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Pulse Tracker (95)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 2 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Island (21)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 3 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Land: Ai(2)-Gen2_Deck5 played Island (107)
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Pulse Tracker (95) to attack Ai(1)-Gen2_Deck3.
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (95)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (95)]
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Pulse Tracker (95).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Pulse Tracker (95) deals 1 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Swamp (93) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Pulse Tracker (96)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 4 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Replacement Effect: Azorius Guildgate enters tapped.
+Land: Ai(1)-Gen2_Deck3 played Azorius Guildgate (28)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 5 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Pulse Tracker (95) and Pulse Tracker (96) to attack Ai(1)-Gen2_Deck3.
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (95)
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (96)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (96)]
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (95)]
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Pulse Tracker (96).
+Ai(1)-Gen2_Deck3 didn't block Pulse Tracker (95).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Pulse Tracker (95) deals 1 combat damage to Ai(1)-Gen2_Deck3.
+Damage: Pulse Tracker (96) deals 1 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Mana: Swamp (93) - {T}: Add {B}.
+Mana: Island (107) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen2_Deck5 cast Vampire Interloper (64)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 6 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Island (18)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Mana: Island (21) - {T}: Add {U}.
+Mana: Island (18) - {T}: Add {U}.
+Mana: Azorius Guildgate (28) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Mocking Sprite (51)
+Resolve stack: Mocking Sprite - Creature 2 / 1
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 7 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Pulse Tracker (95), Pulse Tracker (96) and Vampire Interloper (64) to attack Ai(1)-Gen2_Deck3.
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (95)
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (96)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (96)]
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (95)]
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Pulse Tracker (96).
+Ai(1)-Gen2_Deck3 didn't block Vampire Interloper (64).
+Ai(1)-Gen2_Deck3 didn't block Pulse Tracker (95).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Pulse Tracker (95) deals 1 combat damage to Ai(1)-Gen2_Deck3.
+Damage: Pulse Tracker (96) deals 1 combat damage to Ai(1)-Gen2_Deck3.
+Damage: Vampire Interloper (64) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 8 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Demolition Field (58)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Mocking Sprite (51) to attack Ai(2)-Gen2_Deck5.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck5 didn't block Mocking Sprite (51).
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Damage: Mocking Sprite (51) deals 2 combat damage to Ai(2)-Gen2_Deck5.
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Mana: Island (21) - {T}: Add {U}.
+Mana: Island (18) - {T}: Add {U}.
+Mana: Azorius Guildgate (28) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Rune-Sealed Wall (7)
+Resolve stack: Rune-Sealed Wall - Creature 0 / 6
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 9 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Pulse Tracker (95), Pulse Tracker (96) and Vampire Interloper (64) to attack Ai(1)-Gen2_Deck3.
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (95)
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (96)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (96)]
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (95)]
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Pulse Tracker (96).
+Ai(1)-Gen2_Deck3 didn't block Vampire Interloper (64).
+Ai(1)-Gen2_Deck3 assigned Rune-Sealed Wall (7) to block Pulse Tracker (95).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Pulse Tracker (95) deals 1 damage () to Rune-Sealed Wall (7).
+Damage: Pulse Tracker (96) deals 1 combat damage to Ai(1)-Gen2_Deck3.
+Damage: Vampire Interloper (64) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck5's End step
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 10 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Mana: Azorius Guildgate (28) - {T}: Add {W} or {U}.
+Mana: Island (21) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Charming Prince (30)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen2_Deck3 triggered Charming Prince (30)
+Resolve stack: When Charming Prince enters, you gain 3 life. [Zone Changer: Charming Prince (30)]
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 11 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Vampire Interloper (64) to attack Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Vampire Interloper (64).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Vampire Interloper (64) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Phase: Ai(2)-Gen2_Deck5's End of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck5's End step
+Add to stack: Ai(1)-Gen2_Deck3 activated Rune-Sealed Wall (7)
+Resolve stack: Ai(1)-Gen2_Deck3 surveiled 1 card(s) to the top of the library
+Resolve stack: Rune-Sealed Wall (7) - Ai(1)-Gen2_Deck3 surveils (1).
+Mana: Island (18) - {T}: Add {U}.
+Mana: Demolition Field (58) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen2_Deck3 cast Elementalist Adept (38)
+Resolve stack: Elementalist Adept - Creature 2 / 1
+Phase: Ai(2)-Gen2_Deck5's Cleanup step
+Turn: Turn 12 (Ai(1)-Gen2_Deck3)
+Phase: Ai(1)-Gen2_Deck3's Untap step
+Phase: Ai(1)-Gen2_Deck3's Upkeep step
+Phase: Ai(1)-Gen2_Deck3's Draw step
+Phase: Ai(1)-Gen2_Deck3's Main phase, precombat
+Land: Ai(1)-Gen2_Deck3 played Forest (10)
+Phase: Ai(1)-Gen2_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck3 assigned Mocking Sprite (51) and Charming Prince (30) to attack Ai(2)-Gen2_Deck5.
+Phase: Ai(1)-Gen2_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen2_Deck5 didn't block Mocking Sprite (51).
+Ai(2)-Gen2_Deck5 didn't block Charming Prince (30).
+Phase: Ai(1)-Gen2_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck3's Combat Damage Step
+Damage: Mocking Sprite (51) deals 2 combat damage to Ai(2)-Gen2_Deck5.
+Damage: Charming Prince (30) deals 2 combat damage to Ai(2)-Gen2_Deck5.
+Phase: Ai(1)-Gen2_Deck3's End of Combat Step
+Phase: Ai(1)-Gen2_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck3's End step
+Phase: Ai(1)-Gen2_Deck3's Cleanup step
+Turn: Turn 13 (Ai(2)-Gen2_Deck5)
+Phase: Ai(2)-Gen2_Deck5's Untap step
+Phase: Ai(2)-Gen2_Deck5's Upkeep step
+Phase: Ai(2)-Gen2_Deck5's Draw step
+Phase: Ai(2)-Gen2_Deck5's Main phase, precombat
+Land: Ai(2)-Gen2_Deck5 played Island (104)
+Phase: Ai(2)-Gen2_Deck5's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck5's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck5 assigned Vampire Interloper (64), Pulse Tracker (95) and Pulse Tracker (96) to attack Ai(1)-Gen2_Deck3.
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (95)
+Add to stack: Ai(2)-Gen2_Deck5 triggered Pulse Tracker (96)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (96)]
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (95)]
+Phase: Ai(2)-Gen2_Deck5's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck3 didn't block Vampire Interloper (64).
+Ai(1)-Gen2_Deck3 assigned Elementalist Adept (38) to block Pulse Tracker (96).
+Ai(1)-Gen2_Deck3 assigned Rune-Sealed Wall (7) to block Pulse Tracker (95).
+Phase: Ai(2)-Gen2_Deck5's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck5's Combat Damage Step
+Damage: Vampire Interloper (64) deals 2 combat damage to Ai(1)-Gen2_Deck3.
+Damage: Pulse Tracker (95) deals 1 damage () to Rune-Sealed Wall (7).
+Damage: Pulse Tracker (96) deals 1 damage () to Elementalist Adept (38).
+Damage: Elementalist Adept (38) deals 2 damage () to Pulse Tracker (96).
+Player control: Ai(1)-Gen2_Deck3 is controlled by Ai(1)-Gen2_Deck3
+Player control: Ai(2)-Gen2_Deck5 is controlled by Ai(2)-Gen2_Deck5
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen2_Deck3 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck5 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck3: 0 Ai(2)-Gen2_Deck5: 1 
+
+Game Result: Game 1 ended in 10589 ms. Ai(2)-Gen2_Deck5 has won!
+
+
+=== STDERR ===

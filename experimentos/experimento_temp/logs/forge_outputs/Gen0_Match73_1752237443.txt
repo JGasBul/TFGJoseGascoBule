@@ -1,0 +1,410 @@
+=== COMBATE PARALELO: Gen0_Deck3 vs Gen0_Deck7 ===
+Worker ID: 2318697
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck3 Gen0_Deck7 -n 1
+Duración: 32.26 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2110 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 92 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck3 vs Ai(2)-Gen0_Deck7 - one game of Constructed
+Mulligan: Ai(1)-Gen0_Deck3 has mulliganed down to 6 cards.
+Mulligan: Ai(1)-Gen0_Deck3 has kept a hand of 6 cards
+Mulligan: Ai(2)-Gen0_Deck7 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Rogue's Passage (28)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Land: Ai(2)-Gen0_Deck7 played Soulstone Sanctuary (87)
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck7's End of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck7's End step
+Phase: Ai(2)-Gen0_Deck7's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (50)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Rogue's Passage (28) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Heartfire Immolator (21)
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Land: Ai(2)-Gen0_Deck7 played Swamp (100)
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck7's End of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Main phase, postcombat
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck7 cast Hungry Ghoul (98)
+Resolve stack: Hungry Ghoul - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck7's End step
+Phase: Ai(2)-Gen0_Deck7's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (56)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Gleaming Barrier (35)
+Resolve stack: Gleaming Barrier - Creature 0 / 4
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Land: Ai(2)-Gen0_Deck7 played Swamp (101)
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck7's End of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Main phase, postcombat
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck7 cast Cultivator's Caravan (70)
+Resolve stack: Cultivator's Caravan
+Phase: Ai(2)-Gen0_Deck7's End step
+Phase: Ai(2)-Gen0_Deck7's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Rogue's Passage (30)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Mana: Mountain (50) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen0_Deck3 cast Stromkirk Noble (9)
+Resolve stack: Stromkirk Noble - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck7's End of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Main phase, postcombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen0_Deck7 played Orzhov Guildgate (65)
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Mana: Cultivator's Caravan (70) - {T}: Add one mana of any color.
+Add to stack: Ai(2)-Gen0_Deck7 cast Skeleton Archer (120)
+Resolve stack: Skeleton Archer - Creature 3 / 3
+Add to stack: Ai(2)-Gen0_Deck7 triggered Skeleton Archer (120) targeting [Stromkirk Noble (9)]
+Damage: Skeleton Archer (120) deals 1 damage () to Stromkirk Noble (9).
+Resolve stack: When Skeleton Archer enters, it deals 1 damage to any target. (Targeting: [[Stromkirk Noble (9)]]) [Zone Changer: Skeleton Archer (120)]
+Phase: Ai(2)-Gen0_Deck7's End step
+Phase: Ai(2)-Gen0_Deck7's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (54)
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Rogue's Passage (30) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Rogue's Passage (28) targeting [Heartfire Immolator (21)]
+Resolve stack: Rogue's Passage (28) - Heartfire Immolator (21) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Heartfire Immolator (21) to attack Ai(2)-Gen0_Deck7.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck7 didn't block Heartfire Immolator (21).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Heartfire Immolator (21) deals 2 combat damage to Ai(2)-Gen0_Deck7.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Orzhov Guildgate (65) - {T}: Add {W} or {B}.
+Mana: Cultivator's Caravan (70) - {T}: Add one mana of any color.
+Add to stack: Ai(2)-Gen0_Deck7 activated Soulstone Sanctuary (87)
+Resolve stack: Soulstone Sanctuary (87) - Soulstone Sanctuary (87) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 assigned Skeleton Archer (120), Hungry Ghoul (98) and Soulstone Sanctuary (87) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Hungry Ghoul (98).
+Ai(1)-Gen0_Deck3 assigned Gleaming Barrier (35) to block Soulstone Sanctuary (87).
+Ai(1)-Gen0_Deck3 didn't block Skeleton Archer (120).
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Damage: Skeleton Archer (120) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Hungry Ghoul (98) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Soulstone Sanctuary (87) deals 3 damage () to Gleaming Barrier (35).
+Phase: Ai(2)-Gen0_Deck7's End of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck7's End step
+Phase: Ai(2)-Gen0_Deck7's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Rogue's Passage (30) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Rogue's Passage (28) targeting [Heartfire Immolator (21)]
+Resolve stack: Rogue's Passage (28) - Heartfire Immolator (21) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Heartfire Immolator (21) to attack Ai(2)-Gen0_Deck7.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck7 didn't block Heartfire Immolator (21).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Heartfire Immolator (21) deals 2 combat damage to Ai(2)-Gen0_Deck7.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Mana: Orzhov Guildgate (65) - {T}: Add {W} or {B}.
+Mana: Cultivator's Caravan (70) - {T}: Add one mana of any color.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck7 cast Regal Caracal (79)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen0_Deck7 triggered Regal Caracal (79)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (79)]
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 assigned Skeleton Archer (120) and Hungry Ghoul (98) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Hungry Ghoul (98).
+Ai(1)-Gen0_Deck3 assigned Gleaming Barrier (35) to block Skeleton Archer (120).
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Damage: Skeleton Archer (120) deals 3 damage () to Gleaming Barrier (35).
+Damage: Hungry Ghoul (98) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck7's End of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck7's End step
+Phase: Ai(2)-Gen0_Deck7's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Rogue's Passage (30) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Rogue's Passage (28) targeting [Heartfire Immolator (21)]
+Resolve stack: Rogue's Passage (28) - Heartfire Immolator (21) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 assigned Heartfire Immolator (21) to attack Ai(2)-Gen0_Deck7.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck7 didn't block Heartfire Immolator (21).
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Damage: Heartfire Immolator (21) deals 2 combat damage to Ai(2)-Gen0_Deck7.
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Mana: Orzhov Guildgate (65) - {T}: Add {W} or {B}.
+Mana: Cultivator's Caravan (70) - {T}: Add one mana of any color.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck7 cast Regal Caracal (80)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen0_Deck7 triggered Regal Caracal (80)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (80)]
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 assigned Regal Caracal (79), Skeleton Archer (120), Cat Token (126), Cat Token (127) and Hungry Ghoul (98) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Hungry Ghoul (98).
+Ai(1)-Gen0_Deck3 assigned Gleaming Barrier (35) to block Skeleton Archer (120).
+Ai(1)-Gen0_Deck3 didn't block Cat Token (126).
+Ai(1)-Gen0_Deck3 didn't block Regal Caracal (79).
+Ai(1)-Gen0_Deck3 didn't block Cat Token (127).
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Damage: Regal Caracal (79) deals 4 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Skeleton Archer (120) deals 3 damage () to Gleaming Barrier (35).
+Damage: Cat Token (126) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Cat Token (127) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Hungry Ghoul (98) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck7's End of Combat Step
+Phase: Ai(2)-Gen0_Deck7's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck7's End step
+Phase: Ai(2)-Gen0_Deck7's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck3)
+Phase: Ai(1)-Gen0_Deck3's Untap step
+Phase: Ai(1)-Gen0_Deck3's Upkeep step
+Mana: Mountain (50) - {T}: Add {R}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Mountain (54) - {T}: Add {R}.
+Mana: Rogue's Passage (30) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck3 activated Rogue's Passage (28) targeting [Heartfire Immolator (21)]
+Resolve stack: Rogue's Passage (28) - Heartfire Immolator (21) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck3's Draw step
+Phase: Ai(1)-Gen0_Deck3's Main phase, precombat
+Land: Ai(1)-Gen0_Deck3 played Mountain (46)
+Phase: Ai(1)-Gen0_Deck3's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck3 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck3's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck3's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck3's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck3's End of Combat Step
+Phase: Ai(1)-Gen0_Deck3's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck3's End step
+Phase: Ai(1)-Gen0_Deck3's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck7)
+Phase: Ai(2)-Gen0_Deck7's Untap step
+Phase: Ai(2)-Gen0_Deck7's Upkeep step
+Phase: Ai(2)-Gen0_Deck7's Draw step
+Phase: Ai(2)-Gen0_Deck7's Main phase, precombat
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Orzhov Guildgate (65) - {T}: Add {W} or {B}.
+Add to stack: Ai(2)-Gen0_Deck7 cast Pirate's Cutlass (82)
+Resolve stack: Pirate's Cutlass
+Add to stack: Ai(2)-Gen0_Deck7 triggered Pirate's Cutlass (82) targeting [Soulstone Sanctuary (87)]
+Resolve stack: When Pirate's Cutlass enters, attach it to target Pirate you control. (Targeting: [[Soulstone Sanctuary (87)]]) [Zone Changer: Pirate's Cutlass (82)]
+Phase: Ai(2)-Gen0_Deck7's Beginning of Combat Step
+Add to stack: Ai(2)-Gen0_Deck7 activated Cultivator's Caravan (70)
+Resolve stack: Cultivator's Caravan (70) - Cultivator's Caravan (70) becomes an artifact creature until end of turn.
+Phase: Ai(2)-Gen0_Deck7's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck7 assigned Soulstone Sanctuary (87), Cultivator's Caravan (70), Regal Caracal (79), Regal Caracal (80), Skeleton Archer (120), Cat Token (126), Cat Token (127), Cat Token (132) and Hungry Ghoul (98) to attack Ai(1)-Gen0_Deck3.
+Phase: Ai(2)-Gen0_Deck7's Declare Blockers Step
+Combat: Ai(1)-Gen0_Deck3 didn't block Regal Caracal (80).
+Ai(1)-Gen0_Deck3 didn't block Hungry Ghoul (98).
+Ai(1)-Gen0_Deck3 didn't block Cat Token (132).
+Ai(1)-Gen0_Deck3 assigned Heartfire Immolator (21) to block Cultivator's Caravan (70).
+Ai(1)-Gen0_Deck3 assigned Gleaming Barrier (35) to block Soulstone Sanctuary (87).
+Ai(1)-Gen0_Deck3 didn't block Skeleton Archer (120).
+Ai(1)-Gen0_Deck3 didn't block Cat Token (126).
+Ai(1)-Gen0_Deck3 didn't block Regal Caracal (79).
+Ai(1)-Gen0_Deck3 didn't block Cat Token (127).
+Phase: Ai(2)-Gen0_Deck7's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck7's Combat Damage Step
+Damage: Soulstone Sanctuary (87) deals 7 damage () to Gleaming Barrier (35).
+Damage: Cultivator's Caravan (70) deals 5 damage () to Heartfire Immolator (21).
+Damage: Regal Caracal (79) deals 4 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Regal Caracal (80) deals 4 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Skeleton Archer (120) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Cat Token (126) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Cat Token (127) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Cat Token (132) deals 3 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Hungry Ghoul (98) deals 2 combat damage to Ai(1)-Gen0_Deck3.
+Damage: Heartfire Immolator (21) deals 2 damage () to Cultivator's Caravan (70).
+Player control: Ai(1)-Gen0_Deck3 is controlled by Ai(1)-Gen0_Deck3
+Player control: Ai(2)-Gen0_Deck7 is controlled by Ai(2)-Gen0_Deck7
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen0_Deck3 has lost because life total reached 0
+Game outcome: Ai(2)-Gen0_Deck7 has won because all opponents have lost
+Match result: Ai(1)-Gen0_Deck3: 0 Ai(2)-Gen0_Deck7: 1 
+
+Game Result: Game 1 ended in 19243 ms. Ai(2)-Gen0_Deck7 has won!
+
+
+=== STDERR ===

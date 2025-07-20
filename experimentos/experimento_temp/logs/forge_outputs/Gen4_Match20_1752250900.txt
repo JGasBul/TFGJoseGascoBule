@@ -1,0 +1,662 @@
+=== COMBATE PARALELO: Gen4_Deck0 vs Gen4_Deck20 ===
+Worker ID: 2807897
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen4_Deck0 Gen4_Deck20 -n 1
+Duración: 38.20 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2046 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 80 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen4_Deck0 vs Ai(2)-Gen4_Deck20 - one game of Constructed
+Mulligan: Ai(2)-Gen4_Deck20 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen4_Deck20 has mulliganed down to 5 cards.
+Mulligan: Ai(1)-Gen4_Deck0 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen4_Deck20 has kept a hand of 5 cards
+Turn: Turn 1 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Land: Ai(1)-Gen4_Deck0 played Plains (26)
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(2)-Gen4_Deck20 played Orzhov Guildgate (61)
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Land: Ai(1)-Gen4_Deck0 played Mountain (53)
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Charming Prince (41)
+Resolve stack: Charming Prince - Creature 2 / 2
+Add to stack: Ai(1)-Gen4_Deck0 triggered Charming Prince (41)
+Resolve stack: Ai(1)-Gen4_Deck0 scried 2 card(s) to the bottom of the library
+Resolve stack: When Charming Prince enters, scry 2. [Zone Changer: Charming Prince (41)]
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Land: Ai(2)-Gen4_Deck20 played Island (79)
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Giada, Font of Hope (117)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Land: Ai(1)-Gen4_Deck0 played Demolition Field (49)
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 assigned Giada, Font of Hope (117) to attack Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck0 didn't block Giada, Font of Hope (117).
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Damage: Giada, Font of Hope (117) deals 2 combat damage to Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Land: Ai(2)-Gen4_Deck20 played Island (74)
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Dazzling Angel (108)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 assigned Dazzling Angel (108) and Giada, Font of Hope (117) to attack Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck0 didn't block Giada, Font of Hope (117).
+Ai(1)-Gen4_Deck0 didn't block Dazzling Angel (108).
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Damage: Dazzling Angel (108) deals 3 combat damage to Ai(1)-Gen4_Deck0.
+Damage: Giada, Font of Hope (117) deals 2 combat damage to Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Replacement Effect: Temple of Triumph enters tapped.
+Land: Ai(2)-Gen4_Deck20 played Temple of Triumph (63)
+Add to stack: Ai(2)-Gen4_Deck20 triggered Temple of Triumph (63)
+Resolve stack: Ai(2)-Gen4_Deck20 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Triumph enters, scry 1. [Zone Changer: Temple of Triumph (63)]
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Land: Ai(1)-Gen4_Deck0 played Demolition Field (50)
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Demolition Field (49) - {T}: Add {C}.
+Mana: Demolition Field (50) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Solemn Simulacrum (8)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen4_Deck0 triggered Solemn Simulacrum (8)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (8)]
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 assigned Dazzling Angel (108) and Giada, Font of Hope (117) to attack Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck0 didn't block Giada, Font of Hope (117).
+Ai(1)-Gen4_Deck0 didn't block Dazzling Angel (108).
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Damage: Dazzling Angel (108) deals 3 combat damage to Ai(1)-Gen4_Deck0.
+Damage: Giada, Font of Hope (117) deals 2 combat damage to Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Land: Ai(2)-Gen4_Deck20 played Island (80)
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Temple of Triumph (63) - {T}: Add {R} or {W}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Regal Caracal (72)
+Resolve stack: Regal Caracal - Creature 3 / 3
+Add to stack: Ai(2)-Gen4_Deck20 triggered Dazzling Angel (108)
+Add to stack: Ai(2)-Gen4_Deck20 triggered Regal Caracal (72)
+Resolve stack: When Regal Caracal enters, create two 1/1 white Cat creature tokens with lifelink. [Zone Changer: Regal Caracal (72)]
+Add to stack: Ai(2)-Gen4_Deck20 triggered Dazzling Angel (108)
+Add to stack: Ai(2)-Gen4_Deck20 triggered Dazzling Angel (108)
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (126)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Cat Token (125)]
+Resolve stack: Whenever another creature you control enters, you gain 1 life. [Zone Changer: Regal Caracal (72)]
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Demolition Field (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Day of Judgment (34)
+Resolve stack: Day of Judgment (34) - Destroy all creatures.
+Add to stack: Ai(1)-Gen4_Deck0 triggered Solemn Simulacrum (8)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (8)]
+Land: Ai(1)-Gen4_Deck0 played Mountain (57)
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Land: Ai(2)-Gen4_Deck20 played Island (78)
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Island (79) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Giada, Font of Hope (119)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Demolition Field (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Lyra Dawnbringer (4)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Land: Ai(2)-Gen4_Deck20 played Island (77)
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Temple of Triumph (63) - {T}: Add {R} or {W}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Syr Alin, the Lion's Claw (87)
+Resolve stack: Syr Alin, the Lion's Claw - Creature 4 / 4
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 assigned Lyra Dawnbringer (4) to attack Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck20 didn't block Lyra Dawnbringer (4).
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Damage: Lyra Dawnbringer (4) deals 5 combat damage to Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Demolition Field (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Valkyrie's Call (20)
+Resolve stack: Valkyrie's Call
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 assigned Syr Alin, the Lion's Claw (87) and Giada, Font of Hope (119) to attack Ai(1)-Gen4_Deck0.
+Add to stack: Ai(2)-Gen4_Deck20 triggered Syr Alin, the Lion's Claw (87)
+Resolve stack: Whenever Syr Alin, the Lion's Claw attacks, other creatures you control get +1/+1 until end of turn. [Attacker: Syr Alin, the Lion's Claw (87)]
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Combat: Ai(1)-Gen4_Deck0 didn't block Syr Alin, the Lion's Claw (87).
+Ai(1)-Gen4_Deck0 didn't block Giada, Font of Hope (119).
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Damage: Syr Alin, the Lion's Claw (87) deals 4 combat damage to Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Damage: Giada, Font of Hope (119) deals 3 combat damage to Ai(1)-Gen4_Deck0.
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Dazzling Angel (107)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Dazzling Angel - Creature 2 / 3
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Day of Judgment (32)
+Resolve stack: Day of Judgment (32) - Destroy all creatures.
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Demolition Field (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Lyra Dawnbringer (1)
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Land: Ai(2)-Gen4_Deck20 played Swamp (98)
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Temple of Triumph (63) - {T}: Add {R} or {W}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Mana: Island (80) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Fumigate (88)
+Resolve stack: Fumigate (88) - Destroy all creatures. You gain 1 life for each creature destroyed this way. Ai(2)-Gen4_Deck20 gains 0 life. 
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 didn't attack this turn.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Giada, Font of Hope (58)
+Resolve stack: Giada, Font of Hope - Creature 2 / 2
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Mana: Swamp (98) - {T}: Add {B}.
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Vile Entomber (102)
+Resolve stack: Vile Entomber - Creature 2 / 2
+Add to stack: Ai(2)-Gen4_Deck20 triggered Vile Entomber (102)
+Resolve stack: When Vile Entomber enters, search your library for a card, put that card into your graveyard, then shuffle. [Zone Changer: Vile Entomber (102)]
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 assigned Giada, Font of Hope (58) to attack Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck20 didn't block Giada, Font of Hope (58).
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (58) deals 2 combat damage to Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Mountain (57) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Release the Dogs (43)
+Resolve stack: Release the Dogs (43) - Ai(1)-Gen4_Deck0 creates four 1/1 white Dog creature tokens.
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Crusader of Odric (111)
+Resolve stack: Crusader of Odric - Creature * / *
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Demolition Field (49) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Lyra Dawnbringer (3)
+Replacement Effect: Each other Angel you control enters with an additional +1/+1 counter on it for each Angel you already control.
+Resolve stack: Lyra Dawnbringer - Creature 5 / 5
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 assigned Giada, Font of Hope (58) to attack Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck20 didn't block Giada, Font of Hope (58).
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (58) deals 3 combat damage to Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 26 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Mana: Orzhov Guildgate (61) - {T}: Add {W} or {B}.
+Mana: Island (79) - {T}: Add {U}.
+Mana: Island (74) - {T}: Add {U}.
+Add to stack: Ai(2)-Gen4_Deck20 cast Crusader of Odric (109)
+Resolve stack: Crusader of Odric - Creature * / *
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 27 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 assigned Lyra Dawnbringer (3) and Giada, Font of Hope (58) to attack Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck20 didn't block Lyra Dawnbringer (3).
+Ai(2)-Gen4_Deck20 didn't block Giada, Font of Hope (58).
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Damage: Lyra Dawnbringer (3) deals 6 combat damage to Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's Combat Damage Step
+Damage: Giada, Font of Hope (58) deals 3 combat damage to Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's End of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Main phase, postcombat
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Plains (26) - {T}: Add {W}.
+Mana: Plains (28) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Giant Cindermaw (14)
+Resolve stack: Giant Cindermaw - Creature 4 / 3
+Mana: Mountain (57) - {T}: Add {R}.
+Mana: Demolition Field (49) - {T}: Add {C}.
+Mana: Demolition Field (50) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen4_Deck0 cast Giant Cindermaw (16)
+Resolve stack: Giant Cindermaw - Creature 4 / 3
+Phase: Ai(1)-Gen4_Deck0's End step
+Phase: Ai(1)-Gen4_Deck0's Cleanup step
+Turn: Turn 28 (Ai(2)-Gen4_Deck20)
+Phase: Ai(2)-Gen4_Deck20's Untap step
+Phase: Ai(2)-Gen4_Deck20's Upkeep step
+Phase: Ai(2)-Gen4_Deck20's Draw step
+Phase: Ai(2)-Gen4_Deck20's Main phase, precombat
+Phase: Ai(2)-Gen4_Deck20's Beginning of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Declare Attackers Step
+Combat: Ai(2)-Gen4_Deck20 didn't attack this turn.
+Phase: Ai(2)-Gen4_Deck20's Declare Blockers Step
+Phase: Ai(2)-Gen4_Deck20's First Strike Damage Step
+Phase: Ai(2)-Gen4_Deck20's Combat Damage Step
+Phase: Ai(2)-Gen4_Deck20's End of Combat Step
+Phase: Ai(2)-Gen4_Deck20's Main phase, postcombat
+Land: Ai(2)-Gen4_Deck20 played Plains (68)
+Phase: Ai(2)-Gen4_Deck20's End step
+Phase: Ai(2)-Gen4_Deck20's Cleanup step
+Turn: Turn 29 (Ai(1)-Gen4_Deck0)
+Phase: Ai(1)-Gen4_Deck0's Untap step
+Phase: Ai(1)-Gen4_Deck0's Upkeep step
+Phase: Ai(1)-Gen4_Deck0's Draw step
+Phase: Ai(1)-Gen4_Deck0's Main phase, precombat
+Phase: Ai(1)-Gen4_Deck0's Beginning of Combat Step
+Phase: Ai(1)-Gen4_Deck0's Declare Attackers Step
+Combat: Ai(1)-Gen4_Deck0 assigned Lyra Dawnbringer (3), Giant Cindermaw (14), Giant Cindermaw (16), Giada, Font of Hope (58), Dog Token (139), Dog Token (140), Dog Token (141) and Dog Token (142) to attack Ai(2)-Gen4_Deck20.
+Phase: Ai(1)-Gen4_Deck0's Declare Blockers Step
+Combat: Ai(2)-Gen4_Deck20 assigned Crusader of Odric (109) to block Giant Cindermaw (16).
+Ai(2)-Gen4_Deck20 didn't block Lyra Dawnbringer (3).
+Ai(2)-Gen4_Deck20 didn't block Giada, Font of Hope (58).
+Ai(2)-Gen4_Deck20 assigned Vile Entomber (102) to block Dog Token (139).
+Ai(2)-Gen4_Deck20 didn't block Dog Token (140).
+Ai(2)-Gen4_Deck20 didn't block Dog Token (141).
+Ai(2)-Gen4_Deck20 assigned Crusader of Odric (111) to block Giant Cindermaw (14).
+Ai(2)-Gen4_Deck20 didn't block Dog Token (142).
+Phase: Ai(1)-Gen4_Deck0's First Strike Damage Step
+Damage: Lyra Dawnbringer (3) deals 6 combat damage to Ai(2)-Gen4_Deck20.
+Player control: Ai(1)-Gen4_Deck0 is controlled by Ai(1)-Gen4_Deck0
+Player control: Ai(2)-Gen4_Deck20 is controlled by Ai(2)-Gen4_Deck20
+Game outcome: Turn 15
+Game outcome: Ai(1)-Gen4_Deck0 has won because all opponents have lost
+Game outcome: Ai(2)-Gen4_Deck20 has lost because life total reached 0
+Match result: Ai(1)-Gen4_Deck0: 1 Ai(2)-Gen4_Deck20: 0 
+
+Game Result: Game 1 ended in 24460 ms. Ai(1)-Gen4_Deck0 has won!
+
+
+=== STDERR ===

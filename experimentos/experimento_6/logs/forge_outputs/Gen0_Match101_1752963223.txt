@@ -1,0 +1,596 @@
+=== COMBATE PARALELO: Gen0_Deck4 vs Gen0_Deck15 ===
+Worker ID: 3710966
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen0_Deck4 Gen0_Deck15 -n 1
+Duración: 35.83 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2052 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 63 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen0_Deck4 vs Ai(2)-Gen0_Deck15 - one game of Constructed
+Mulligan: Ai(2)-Gen0_Deck15 has mulliganed down to 6 cards.
+Mulligan: Ai(2)-Gen0_Deck15 has mulliganed down to 5 cards.
+Mulligan: Ai(1)-Gen0_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen0_Deck15 has kept a hand of 5 cards
+Turn: Turn 1 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (35)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Land: Ai(2)-Gen0_Deck15 played Soulstone Sanctuary (101)
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Demolition Field (58)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Land: Ai(2)-Gen0_Deck15 played Soulstone Sanctuary (102)
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Demolition Field (56)
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Demolition Field (56) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck4 activated Demolition Field (58) targeting [Soulstone Sanctuary (102)]
+Resolve stack: Demolition Field (58) - Destroy Soulstone Sanctuary (102). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck4 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 activated Demolition Field (56) targeting [Soulstone Sanctuary (101)]
+Resolve stack: Demolition Field (56) - Destroy Soulstone Sanctuary (101). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen0_Deck4 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (25)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Grow from the Ashes (4)
+Resolve stack: Grow from the Ashes (4) - Ai(1)-Gen0_Deck4 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Discard: Ai(2)-Gen0_Deck15 discards Driver of the Dead (109).
+Turn: Turn 11 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Loot, Exuberant Explorer (10)
+Resolve stack: Loot, Exuberant Explorer - Creature 1 / 4
+Mana: Forest (25) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Mold Adder (59)
+Resolve stack: Mold Adder - Creature 1 / 1
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Discard: Ai(2)-Gen0_Deck15 discards Hidetsugu's Second Rite (92).
+Turn: Turn 13 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Reclamation Sage (49)
+Resolve stack: Reclamation Sage - Creature 2 / 1
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Loot, Exuberant Explorer (10) and Mold Adder (59) to attack Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck15 didn't block Loot, Exuberant Explorer (10).
+Ai(2)-Gen0_Deck15 didn't block Mold Adder (59).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Loot, Exuberant Explorer (10) deals 1 combat damage to Ai(2)-Gen0_Deck15.
+Damage: Mold Adder (59) deals 1 combat damage to Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Land: Ai(2)-Gen0_Deck15 played Swamp (80)
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (80) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck15 cast Vampire Spawn (118)
+Add to stack: Ai(1)-Gen0_Deck4 triggered Mold Adder (59)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Vampire Spawn (118), Activator: Ai(2)-Gen0_Deck15, SpellAbility: Vampire Spawn - Creature 2 / 3]
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck15 triggered Vampire Spawn (118)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (118)]
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Inspiring Call (46)
+Resolve stack: Inspiring Call (46) - Ai(1)-Gen0_Deck4 draws a card. 
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (80) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck15 cast Vampire Spawn (120)
+Add to stack: Ai(1)-Gen0_Deck4 triggered Mold Adder (59)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Vampire Spawn (120), Activator: Ai(2)-Gen0_Deck15, SpellAbility: Vampire Spawn - Creature 2 / 3]
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck15 triggered Vampire Spawn (120)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (120)]
+Phase: Ai(2)-Gen0_Deck15's End step
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Wildborn Preserver (40)
+Resolve stack: Wildborn Preserver - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Inspiring Call (44)
+Resolve stack: Inspiring Call (44) - Ai(1)-Gen0_Deck4 draws a card. 
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Primal Might (54) targeting [Mold Adder (59)][Vampire Spawn (118)]
+Damage: Mold Adder (59) deals 4 damage () to Vampire Spawn (118).
+Damage: Vampire Spawn (118) deals 2 damage () to Mold Adder (59).
+Resolve stack: Primal Might (54) - Mold Adder (59) gets +1/+1  until end of turn. Mold Adder (59) fights Vampire Spawn (118). (X=1)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Mold Adder (59) to attack Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck15 didn't block Mold Adder (59).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Mold Adder (59) deals 4 combat damage to Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Swamp (80) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck15 cast Alesha, Who Laughs at Fate (73)
+Add to stack: Ai(1)-Gen0_Deck4 triggered Mold Adder (59)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Alesha, Who Laughs at Fate (73), Activator: Ai(2)-Gen0_Deck15, SpellAbility: Alesha, Who Laughs at Fate - Creature 2 / 2]
+Resolve stack: Alesha, Who Laughs at Fate - Creature 2 / 2
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (39)
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Genesis Wave (12)
+Resolve stack: Genesis Wave (12) - [Ai(1)-Gen0_Deck4] Reveal the top X cards of your library. You may put any number of permanent cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard. (X=2)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Mold Adder (59) to attack Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck15 didn't block Mold Adder (59).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Mold Adder (59) deals 4 combat damage to Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 20 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Land: Ai(2)-Gen0_Deck15 played Soulstone Sanctuary (103)
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (80) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (103) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen0_Deck15 cast Suspicious Shambler (64)
+Add to stack: Ai(1)-Gen0_Deck4 triggered Mold Adder (59)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Suspicious Shambler (64), Activator: Ai(2)-Gen0_Deck15, SpellAbility: Suspicious Shambler - Creature 4 / 2]
+Resolve stack: Suspicious Shambler - Creature 4 / 2
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Genesis Wave (14)
+Replacement Effect: As Secluded Courtyard enters, choose a creature type.
+Resolve stack: Genesis Wave (14) - [Ai(1)-Gen0_Deck4] Reveal the top X cards of your library. You may put any number of permanent cards with mana value X or less from among them onto the battlefield. Then put all cards revealed this way that weren't put onto the battlefield into your graveyard. (X=4)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Mold Adder (59) to attack Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck15 didn't block Mold Adder (59).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Mold Adder (59) deals 5 combat damage to Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Secluded Courtyard (23) - {T}: Add {C}.
+Mana: Rogue's Passage (15) - {T}: Add {C}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Juggernaut (6)
+Resolve stack: Juggernaut - Creature 5 / 3
+Add to stack: Ai(1)-Gen0_Deck4 triggered Wildborn Preserver (40)
+Resolve stack: Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on Wildborn Preserver. [Zone Changer: Juggernaut (6)]
+Add to stack: Ai(1)-Gen0_Deck4 triggered Wildborn Preserver (40)
+Resolve stack: When you do, put X +1/+1 counters on Wildborn Preserver.
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (80) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck15 cast Vampire Spawn (117)
+Add to stack: Ai(1)-Gen0_Deck4 triggered Mold Adder (59)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Vampire Spawn (117), Activator: Ai(2)-Gen0_Deck15, SpellAbility: Vampire Spawn - Creature 2 / 3]
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck15 triggered Vampire Spawn (117)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (117)]
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 23 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 activated Rogue's Passage (15) targeting [Mold Adder (59)]
+Resolve stack: Rogue's Passage (15) - Mold Adder (59) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Forest (39) - {T}: Add {G}.
+Mana: Forest (29) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 cast Reclamation Sage (48)
+Resolve stack: Reclamation Sage - Creature 2 / 1
+Add to stack: Ai(1)-Gen0_Deck4 triggered Reclamation Sage (48) targeting [Juggernaut (6)]
+Add to stack: Ai(1)-Gen0_Deck4 triggered Wildborn Preserver (40)
+Mana: Forest (36) - {T}: Add {G}.
+Mana: Forest (30) - {T}: Add {G}.
+Mana: Secluded Courtyard (23) - {T}: Add {C}.
+Resolve stack: Whenever another non-Human creature you control enters, you may pay {X}. When you do, put X +1/+1 counters on Wildborn Preserver. [Zone Changer: Reclamation Sage (48)]
+Add to stack: Ai(1)-Gen0_Deck4 triggered Wildborn Preserver (40)
+Resolve stack: When you do, put X +1/+1 counters on Wildborn Preserver.
+Resolve stack: When Reclamation Sage enters, you may destroy target artifact or enchantment. (Targeting: [[Juggernaut (6)]]) [Zone Changer: Reclamation Sage (48)]
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Juggernaut (6), Mold Adder (59) and Wildborn Preserver (40) to attack Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck15 assigned Suspicious Shambler (64) to block Juggernaut (6).
+Ai(2)-Gen0_Deck15 assigned Vampire Spawn (120) to block Wildborn Preserver (40).
+Ai(2)-Gen0_Deck15 didn't block Mold Adder (59).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Juggernaut (6) deals 5 damage () to Suspicious Shambler (64).
+Damage: Mold Adder (59) deals 6 combat damage to Ai(2)-Gen0_Deck15.
+Damage: Wildborn Preserver (40) deals 5 damage () to Vampire Spawn (120).
+Damage: Suspicious Shambler (64) deals 4 damage () to Juggernaut (6).
+Damage: Vampire Spawn (120) deals 2 damage () to Wildborn Preserver (40).
+Phase: Ai(1)-Gen0_Deck4's End of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen0_Deck4's End step
+Phase: Ai(1)-Gen0_Deck4's Cleanup step
+Turn: Turn 24 (Ai(2)-Gen0_Deck15)
+Phase: Ai(2)-Gen0_Deck15's Untap step
+Phase: Ai(2)-Gen0_Deck15's Upkeep step
+Phase: Ai(2)-Gen0_Deck15's Draw step
+Phase: Ai(2)-Gen0_Deck15's Main phase, precombat
+Phase: Ai(2)-Gen0_Deck15's Beginning of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Declare Attackers Step
+Combat: Ai(2)-Gen0_Deck15 didn't attack this turn.
+Phase: Ai(2)-Gen0_Deck15's Declare Blockers Step
+Phase: Ai(2)-Gen0_Deck15's First Strike Damage Step
+Phase: Ai(2)-Gen0_Deck15's Combat Damage Step
+Phase: Ai(2)-Gen0_Deck15's End of Combat Step
+Phase: Ai(2)-Gen0_Deck15's Main phase, postcombat
+Mana: Swamp (74) - {T}: Add {B}.
+Mana: Mountain (113) - {T}: Add {R}.
+Mana: Swamp (80) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen0_Deck15 cast Vampire Spawn (119)
+Add to stack: Ai(1)-Gen0_Deck4 triggered Mold Adder (59)
+Resolve stack: Whenever an opponent casts a blue or black spell, you may put a +1/+1 counter on Mold Adder. [Card: Vampire Spawn (119), Activator: Ai(2)-Gen0_Deck15, SpellAbility: Vampire Spawn - Creature 2 / 3]
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen0_Deck15 triggered Vampire Spawn (119)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (119)]
+Phase: Ai(2)-Gen0_Deck15's End step
+Phase: Ai(2)-Gen0_Deck15's Cleanup step
+Turn: Turn 25 (Ai(1)-Gen0_Deck4)
+Phase: Ai(1)-Gen0_Deck4's Untap step
+Phase: Ai(1)-Gen0_Deck4's Upkeep step
+Mana: Forest (35) - {T}: Add {G}.
+Mana: Forest (28) - {T}: Add {G}.
+Mana: Forest (38) - {T}: Add {G}.
+Mana: Forest (25) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen0_Deck4 activated Rogue's Passage (15) targeting [Mold Adder (59)]
+Resolve stack: Rogue's Passage (15) - Mold Adder (59) can't be blocked this turn.
+Phase: Ai(1)-Gen0_Deck4's Draw step
+Phase: Ai(1)-Gen0_Deck4's Main phase, precombat
+Land: Ai(1)-Gen0_Deck4 played Forest (37)
+Phase: Ai(1)-Gen0_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen0_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen0_Deck4 assigned Mold Adder (59), Wildborn Preserver (40), Reclamation Sage (49), Reclamation Sage (48) and Loot, Exuberant Explorer (10) to attack Ai(2)-Gen0_Deck15.
+Phase: Ai(1)-Gen0_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen0_Deck15 assigned Alesha, Who Laughs at Fate (73) to block Reclamation Sage (48).
+Ai(2)-Gen0_Deck15 assigned Vampire Spawn (119) to block Reclamation Sage (49).
+Ai(2)-Gen0_Deck15 assigned Vampire Spawn (117) to block Wildborn Preserver (40).
+Ai(2)-Gen0_Deck15 didn't block Loot, Exuberant Explorer (10).
+Ai(2)-Gen0_Deck15 didn't block Mold Adder (59).
+Phase: Ai(1)-Gen0_Deck4's First Strike Damage Step
+Damage: Alesha, Who Laughs at Fate (73) deals 2 damage () to Reclamation Sage (48).
+Phase: Ai(1)-Gen0_Deck4's Combat Damage Step
+Damage: Mold Adder (59) deals 7 combat damage to Ai(2)-Gen0_Deck15.
+Damage: Wildborn Preserver (40) deals 5 damage () to Vampire Spawn (117).
+Damage: Reclamation Sage (49) deals 2 damage () to Vampire Spawn (119).
+Damage: Loot, Exuberant Explorer (10) deals 1 combat damage to Ai(2)-Gen0_Deck15.
+Damage: Vampire Spawn (117) deals 2 damage () to Wildborn Preserver (40).
+Damage: Vampire Spawn (119) deals 2 damage () to Reclamation Sage (49).
+Player control: Ai(1)-Gen0_Deck4 is controlled by Ai(1)-Gen0_Deck4
+Player control: Ai(2)-Gen0_Deck15 is controlled by Ai(2)-Gen0_Deck15
+Game outcome: Turn 13
+Game outcome: Ai(1)-Gen0_Deck4 has won because all opponents have lost
+Game outcome: Ai(2)-Gen0_Deck15 has lost because life total reached 0
+Match result: Ai(1)-Gen0_Deck4: 1 Ai(2)-Gen0_Deck15: 0 
+
+Game Result: Game 1 ended in 21652 ms. Ai(1)-Gen0_Deck4 has won!
+
+
+=== STDERR ===

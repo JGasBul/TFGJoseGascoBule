@@ -1,0 +1,388 @@
+=== COMBATE PARALELO: Gen1_Deck23 vs Gen1_Deck3 ===
+Worker ID: 2447626
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck23 Gen1_Deck3 -n 1
+Duración: 34.94 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 2196 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 101 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck23 vs Ai(2)-Gen1_Deck3 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck23 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck3 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck23)
+Phase: Ai(1)-Gen1_Deck23's Untap step
+Phase: Ai(1)-Gen1_Deck23's Upkeep step
+Phase: Ai(1)-Gen1_Deck23's Draw step
+Phase: Ai(1)-Gen1_Deck23's Main phase, precombat
+Replacement Effect: Rugged Highlands enters tapped.
+Land: Ai(1)-Gen1_Deck23 played Rugged Highlands (23)
+Add to stack: Ai(1)-Gen1_Deck23 triggered Rugged Highlands (23)
+Resolve stack: When Rugged Highlands enters, you gain 1 life. [Zone Changer: Rugged Highlands (23)]
+Phase: Ai(1)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck23's End of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck23's End step
+Phase: Ai(1)-Gen1_Deck23's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Replacement Effect: Scoured Barrens enters tapped.
+Land: Ai(2)-Gen1_Deck3 played Scoured Barrens (111)
+Add to stack: Ai(2)-Gen1_Deck3 triggered Scoured Barrens (111)
+Resolve stack: When Scoured Barrens enters, you gain 1 life. [Zone Changer: Scoured Barrens (111)]
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck23)
+Phase: Ai(1)-Gen1_Deck23's Untap step
+Phase: Ai(1)-Gen1_Deck23's Upkeep step
+Phase: Ai(1)-Gen1_Deck23's Draw step
+Phase: Ai(1)-Gen1_Deck23's Main phase, precombat
+Land: Ai(1)-Gen1_Deck23 played Mountain (52)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Rugged Highlands (23) - {T}: Add {R} or {G}.
+Add to stack: Ai(1)-Gen1_Deck23 cast Axgard Cavalry (18)
+Resolve stack: Axgard Cavalry - Creature 2 / 2
+Phase: Ai(1)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck23 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck23's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck23's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck23's End of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck23's End step
+Phase: Ai(1)-Gen1_Deck23's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Soulstone Sanctuary (88)
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Mana: Scoured Barrens (111) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (88) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck3 cast Vampire Interloper (92)
+Resolve stack: Vampire Interloper - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck23)
+Phase: Ai(1)-Gen1_Deck23's Untap step
+Phase: Ai(1)-Gen1_Deck23's Upkeep step
+Phase: Ai(1)-Gen1_Deck23's Draw step
+Phase: Ai(1)-Gen1_Deck23's Main phase, precombat
+Land: Ai(1)-Gen1_Deck23 played Forest (32)
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Mountain (52) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck23 cast Druid of the Cowl (16)
+Resolve stack: Druid of the Cowl - Creature 1 / 3
+Phase: Ai(1)-Gen1_Deck23's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck23 activated Axgard Cavalry (18) targeting [Druid of the Cowl (16)]
+Resolve stack: Axgard Cavalry (18) - Druid of the Cowl (16) gains haste until end of turn.
+Phase: Ai(1)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck23 assigned Druid of the Cowl (16) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Druid of the Cowl (16).
+Phase: Ai(1)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck23's Combat Damage Step
+Damage: Druid of the Cowl (16) deals 1 combat damage to Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck23's End of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck23's End step
+Phase: Ai(1)-Gen1_Deck23's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Plains (71)
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 assigned Vampire Interloper (92) to attack Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck23 didn't block Vampire Interloper (92).
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Damage: Vampire Interloper (92) deals 2 combat damage to Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Scoured Barrens (111) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (88) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck3 cast Cultivator's Caravan (69)
+Resolve stack: Cultivator's Caravan
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck23)
+Phase: Ai(1)-Gen1_Deck23's Untap step
+Phase: Ai(1)-Gen1_Deck23's Upkeep step
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Rugged Highlands (23) - {T}: Add {R} or {G}.
+Add to stack: Ai(1)-Gen1_Deck23 cast Broken Wings (44) targeting [Cultivator's Caravan (69)]
+Resolve stack: Broken Wings (44) - Destroy Cultivator's Caravan (69).
+Phase: Ai(1)-Gen1_Deck23's Draw step
+Phase: Ai(1)-Gen1_Deck23's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck23 assigned Axgard Cavalry (18) and Druid of the Cowl (16) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Druid of the Cowl (16).
+Ai(2)-Gen1_Deck3 didn't block Axgard Cavalry (18).
+Phase: Ai(1)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck23's Combat Damage Step
+Damage: Axgard Cavalry (18) deals 2 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Druid of the Cowl (16) deals 1 combat damage to Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck23's End of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Main phase, postcombat
+Land: Ai(1)-Gen1_Deck23 played Mountain (53)
+Phase: Ai(1)-Gen1_Deck23's End step
+Phase: Ai(1)-Gen1_Deck23's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Soulstone Sanctuary (87)
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 assigned Vampire Interloper (92) to attack Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck23 didn't block Vampire Interloper (92).
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Damage: Vampire Interloper (92) deals 2 combat damage to Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Scoured Barrens (111) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (88) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck3 cast Release the Dogs (83)
+Resolve stack: Release the Dogs (83) - Ai(2)-Gen1_Deck3 creates four 1/1 white Dog creature tokens.
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck23)
+Phase: Ai(1)-Gen1_Deck23's Untap step
+Phase: Ai(1)-Gen1_Deck23's Upkeep step
+Phase: Ai(1)-Gen1_Deck23's Draw step
+Phase: Ai(1)-Gen1_Deck23's Main phase, precombat
+Land: Ai(1)-Gen1_Deck23 played Forest (34)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (34) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck23 cast Juggernaut (9)
+Resolve stack: Juggernaut - Creature 5 / 3
+Phase: Ai(1)-Gen1_Deck23's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck23 activated Axgard Cavalry (18) targeting [Juggernaut (9)]
+Resolve stack: Axgard Cavalry (18) - Juggernaut (9) gains haste until end of turn.
+Phase: Ai(1)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck23 assigned Juggernaut (9) and Druid of the Cowl (16) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 assigned Dog Token (127), Dog Token (126) and Dog Token (125) to block Druid of the Cowl (16).
+Ai(2)-Gen1_Deck3 didn't block Juggernaut (9).
+Phase: Ai(1)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck23's Combat Damage Step
+Damage: Juggernaut (9) deals 5 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Druid of the Cowl (16) deals 1 damage () to Dog Token (127).
+Damage: Dog Token (127) deals 1 damage () to Druid of the Cowl (16).
+Damage: Dog Token (126) deals 1 damage () to Druid of the Cowl (16).
+Damage: Dog Token (125) deals 1 damage () to Druid of the Cowl (16).
+Phase: Ai(1)-Gen1_Deck23's End of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck23's End step
+Phase: Ai(1)-Gen1_Deck23's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Demolition Field (119)
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Scoured Barrens (111) - {T}: Add {W} or {B}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck3 activated Soulstone Sanctuary (88)
+Resolve stack: Soulstone Sanctuary (88) - Soulstone Sanctuary (88) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 assigned Vampire Interloper (92), Dog Token (125), Dog Token (126), Dog Token (128) and Soulstone Sanctuary (88) to attack Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck23 didn't block Dog Token (128).
+Ai(1)-Gen1_Deck23 didn't block Soulstone Sanctuary (88).
+Ai(1)-Gen1_Deck23 didn't block Vampire Interloper (92).
+Ai(1)-Gen1_Deck23 didn't block Dog Token (125).
+Ai(1)-Gen1_Deck23 didn't block Dog Token (126).
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Damage: Vampire Interloper (92) deals 2 combat damage to Ai(1)-Gen1_Deck23.
+Damage: Dog Token (125) deals 1 combat damage to Ai(1)-Gen1_Deck23.
+Damage: Dog Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck23.
+Damage: Dog Token (128) deals 1 combat damage to Ai(1)-Gen1_Deck23.
+Damage: Soulstone Sanctuary (88) deals 3 combat damage to Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck23)
+Phase: Ai(1)-Gen1_Deck23's Untap step
+Phase: Ai(1)-Gen1_Deck23's Upkeep step
+Phase: Ai(1)-Gen1_Deck23's Draw step
+Phase: Ai(1)-Gen1_Deck23's Main phase, precombat
+Land: Ai(1)-Gen1_Deck23 played Mountain (47)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Mountain (53) - {T}: Add {R}.
+Mana: Forest (32) - {T}: Add {G}.
+Mana: Forest (34) - {T}: Add {G}.
+Mana: Mountain (47) - {T}: Add {R}.
+Mana: Rugged Highlands (23) - {T}: Add {R} or {G}.
+Add to stack: Ai(1)-Gen1_Deck23 cast Etali, Primal Storm (13)
+Resolve stack: Etali, Primal Storm - Creature 6 / 6
+Phase: Ai(1)-Gen1_Deck23's Beginning of Combat Step
+Add to stack: Ai(1)-Gen1_Deck23 activated Axgard Cavalry (18) targeting [Etali, Primal Storm (13)]
+Resolve stack: Axgard Cavalry (18) - Etali, Primal Storm (13) gains haste until end of turn.
+Phase: Ai(1)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck23 assigned Juggernaut (9) and Etali, Primal Storm (13) to attack Ai(2)-Gen1_Deck3.
+Add to stack: Ai(1)-Gen1_Deck23 triggered Etali, Primal Storm (13)
+Add to stack: Ai(1)-Gen1_Deck23 cast Pirate's Cutlass (82)
+Resolve stack: Whenever Etali, Primal Storm attacks, exile the top card of each player's library, then you may cast any number of spells from among those cards without paying their mana costs. [Attacker: Etali, Primal Storm (13)]
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 didn't block Juggernaut (9).
+Ai(2)-Gen1_Deck3 assigned Soulstone Sanctuary (88) to block Etali, Primal Storm (13).
+Phase: Ai(1)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck23's Combat Damage Step
+Damage: Juggernaut (9) deals 5 combat damage to Ai(2)-Gen1_Deck3.
+Damage: Etali, Primal Storm (13) deals 6 damage () to Soulstone Sanctuary (88).
+Damage: Soulstone Sanctuary (88) deals 3 damage () to Etali, Primal Storm (13).
+Phase: Ai(1)-Gen1_Deck23's End of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck23's End step
+Phase: Ai(1)-Gen1_Deck23's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Swamp (103)
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Scoured Barrens (111) - {T}: Add {W} or {B}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck3 activated Soulstone Sanctuary (87)
+Resolve stack: Soulstone Sanctuary (87) - Soulstone Sanctuary (87) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 assigned Vampire Interloper (92), Dog Token (125), Dog Token (126) and Soulstone Sanctuary (87) to attack Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck23 didn't block Soulstone Sanctuary (87).
+Ai(1)-Gen1_Deck23 didn't block Vampire Interloper (92).
+Ai(1)-Gen1_Deck23 didn't block Dog Token (125).
+Ai(1)-Gen1_Deck23 didn't block Dog Token (126).
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Damage: Vampire Interloper (92) deals 2 combat damage to Ai(1)-Gen1_Deck23.
+Damage: Dog Token (125) deals 1 combat damage to Ai(1)-Gen1_Deck23.
+Damage: Dog Token (126) deals 1 combat damage to Ai(1)-Gen1_Deck23.
+Damage: Soulstone Sanctuary (87) deals 3 combat damage to Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's End of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck3's End step
+Phase: Ai(2)-Gen1_Deck3's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck23)
+Phase: Ai(1)-Gen1_Deck23's Untap step
+Phase: Ai(1)-Gen1_Deck23's Upkeep step
+Phase: Ai(1)-Gen1_Deck23's Draw step
+Phase: Ai(1)-Gen1_Deck23's Main phase, precombat
+Land: Ai(1)-Gen1_Deck23 played Cryptic Caves (6)
+Mana: Mountain (52) - {T}: Add {R}.
+Mana: Forest (32) - {T}: Add {G}.
+Add to stack: Ai(1)-Gen1_Deck23 activated Pirate's Cutlass (82) targeting [Etali, Primal Storm (13)]
+Resolve stack: Pirate's Cutlass (82) -  Attach to Etali, Primal Storm (13)
+Mana: Mountain (53) - {T}: Add {R}.
+Add to stack: Ai(1)-Gen1_Deck23 activated Cryptic Caves (6)
+Resolve stack: Cryptic Caves (6) - Ai(1)-Gen1_Deck23 draws a card.
+Phase: Ai(1)-Gen1_Deck23's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck23 assigned Juggernaut (9) to attack Ai(2)-Gen1_Deck3.
+Phase: Ai(1)-Gen1_Deck23's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck3 assigned Dog Token (128) to block Juggernaut (9).
+Phase: Ai(1)-Gen1_Deck23's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck23's Combat Damage Step
+Damage: Juggernaut (9) deals 5 damage () to Dog Token (128).
+Damage: Dog Token (128) deals 1 damage () to Juggernaut (9).
+Phase: Ai(1)-Gen1_Deck23's End of Combat Step
+Phase: Ai(1)-Gen1_Deck23's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck23's End step
+Phase: Ai(1)-Gen1_Deck23's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck3)
+Phase: Ai(2)-Gen1_Deck3's Untap step
+Phase: Ai(2)-Gen1_Deck3's Upkeep step
+Phase: Ai(2)-Gen1_Deck3's Draw step
+Phase: Ai(2)-Gen1_Deck3's Main phase, precombat
+Land: Ai(2)-Gen1_Deck3 played Plains (76)
+Mana: Swamp (103) - {T}: Add {B}.
+Mana: Scoured Barrens (111) - {T}: Add {W} or {B}.
+Mana: Plains (71) - {T}: Add {W}.
+Mana: Plains (76) - {T}: Add {W}.
+Mana: Demolition Field (119) - {T}: Add {C}.
+Mana: Soulstone Sanctuary (87) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen1_Deck3 cast Liliana, Dreadhorde General (97)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(2)-Gen1_Deck3 activated Liliana, Dreadhorde General (97)
+Resolve stack: Liliana, Dreadhorde General (97) - Ai(2)-Gen1_Deck3 and Ai(1)-Gen1_Deck23 sacrifice two creatures.
+Add to stack: Ai(2)-Gen1_Deck3 triggered Liliana, Dreadhorde General (97)
+Add to stack: Ai(2)-Gen1_Deck3 triggered Liliana, Dreadhorde General (97)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Dog Token (126)]
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Dog Token (125)]
+Phase: Ai(2)-Gen1_Deck3's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck3's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck3 assigned Vampire Interloper (92) to attack Ai(1)-Gen1_Deck23.
+Phase: Ai(2)-Gen1_Deck3's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck23 didn't block Vampire Interloper (92).
+Phase: Ai(2)-Gen1_Deck3's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck3's Combat Damage Step
+Damage: Vampire Interloper (92) deals 2 combat damage to Ai(1)-Gen1_Deck23.
+Player control: Ai(1)-Gen1_Deck23 is controlled by Ai(1)-Gen1_Deck23
+Player control: Ai(2)-Gen1_Deck3 is controlled by Ai(2)-Gen1_Deck3
+Game outcome: Turn 7
+Game outcome: Ai(1)-Gen1_Deck23 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck3 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck23: 0 Ai(2)-Gen1_Deck3: 1 
+
+Game Result: Game 1 ended in 20319 ms. Ai(2)-Gen1_Deck3 has won!
+
+
+=== STDERR ===

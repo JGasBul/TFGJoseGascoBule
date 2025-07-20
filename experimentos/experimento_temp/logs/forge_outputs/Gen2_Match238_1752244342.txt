@@ -1,0 +1,416 @@
+=== COMBATE PARALELO: Gen2_Deck17 vs Gen2_Deck13 ===
+Worker ID: 2570489
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen2_Deck17 Gen2_Deck13 -n 1
+Duración: 29.90 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1991 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 103 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen2_Deck17 vs Ai(2)-Gen2_Deck13 - one game of Constructed
+Mulligan: Ai(1)-Gen2_Deck17 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen2_Deck13 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Replacement Effect: Orzhov Guildgate enters tapped.
+Land: Ai(1)-Gen2_Deck17 played Orzhov Guildgate (5)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Swamp (101)
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 didn't attack this turn.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Mana: Swamp (101) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Pulse Tracker (72)
+Resolve stack: Pulse Tracker - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Demolition Field (59)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Crawling Barrens (82)
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 assigned Pulse Tracker (72) to attack Ai(1)-Gen2_Deck17.
+Add to stack: Ai(2)-Gen2_Deck13 triggered Pulse Tracker (72)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (72)]
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Pulse Tracker (72).
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Damage: Pulse Tracker (72) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Mana: Swamp (101) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Infestation Sage (90)
+Resolve stack: Infestation Sage - Creature 1 / 1
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Swamp (39)
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Add to stack: Ai(1)-Gen2_Deck17 activated Demolition Field (59) targeting [Crawling Barrens (82)]
+Resolve stack: Demolition Field (59) - Destroy Crawling Barrens (82). That land's controller may search their library for a basic land card, put it onto the battlefield, then shuffle. You may search your library for a basic land card, put it onto the battlefield, then shuffle. Ai(1)-Gen2_Deck17 searches their library for a Land.Basic card, puts it onto the battlefield, then shuffles.
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Evolving Wilds (116)
+Add to stack: Ai(2)-Gen2_Deck13 activated Evolving Wilds (116)
+Resolve stack: Evolving Wilds (116) - Ai(2)-Gen2_Deck13 searches their library for a Land.Basic card, puts it onto the battlefield tapped, then shuffles.
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 assigned Pulse Tracker (72) and Infestation Sage (90) to attack Ai(1)-Gen2_Deck17.
+Add to stack: Ai(2)-Gen2_Deck13 triggered Pulse Tracker (72)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (72)]
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Pulse Tracker (72).
+Ai(1)-Gen2_Deck17 didn't block Infestation Sage (90).
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Damage: Pulse Tracker (72) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Damage: Infestation Sage (90) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Plains (17)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Crusader of Odric (56)
+Resolve stack: Crusader of Odric - Creature * / *
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Soulstone Sanctuary (85)
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (85) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Deadly Plot (107)
+Resolve stack: Deadly Plot (107) -  Destroy target creature or planeswalker. (Targeting: Crusader of Odric (56))
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 assigned Pulse Tracker (72) and Infestation Sage (90) to attack Ai(1)-Gen2_Deck17.
+Add to stack: Ai(2)-Gen2_Deck13 triggered Pulse Tracker (72)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (72)]
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Pulse Tracker (72).
+Ai(1)-Gen2_Deck17 didn't block Infestation Sage (90).
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Damage: Pulse Tracker (72) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Damage: Infestation Sage (90) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Land: Ai(1)-Gen2_Deck17 played Plains (18)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Cultivator's Caravan (9)
+Resolve stack: Cultivator's Caravan
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Cultivator's Caravan (9) - {T}: Add one mana of any color.
+Add to stack: Ai(1)-Gen2_Deck17 cast Pirate's Cutlass (22)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Land: Ai(2)-Gen2_Deck13 played Soulstone Sanctuary (84)
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (84) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck13 activated Soulstone Sanctuary (85)
+Resolve stack: Soulstone Sanctuary (85) - Soulstone Sanctuary (85) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 assigned Pulse Tracker (72), Soulstone Sanctuary (85) and Infestation Sage (90) to attack Ai(1)-Gen2_Deck17.
+Add to stack: Ai(2)-Gen2_Deck13 triggered Pulse Tracker (72)
+Resolve stack: Whenever Pulse Tracker attacks, each opponent loses 1 life. [Attacker: Pulse Tracker (72)]
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Soulstone Sanctuary (85).
+Ai(1)-Gen2_Deck17 didn't block Pulse Tracker (72).
+Ai(1)-Gen2_Deck17 didn't block Infestation Sage (90).
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Damage: Pulse Tracker (72) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Damage: Soulstone Sanctuary (85) deals 3 combat damage to Ai(1)-Gen2_Deck17.
+Damage: Infestation Sage (90) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Cultivator's Caravan (9) - {T}: Add one mana of any color.
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (18) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Massacre Wurm (24)
+Resolve stack: Massacre Wurm - Creature 6 / 5
+Add to stack: Ai(1)-Gen2_Deck17 triggered Massacre Wurm (24)
+Resolve stack: When Massacre Wurm enters, creatures your opponents control get -2/-2 until end of turn. [Zone Changer: Massacre Wurm (24)]
+Add to stack: Ai(1)-Gen2_Deck17 triggered Massacre Wurm (24)
+Add to stack: Ai(1)-Gen2_Deck17 triggered Massacre Wurm (24)
+Add to stack: Ai(2)-Gen2_Deck13 triggered Infestation Sage (90)
+Resolve stack: When this creature dies, create a 1/1 black and green Insect token with flying. [Zone Changer: Infestation Sage (90)]
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Infestation Sage (90)]
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Pulse Tracker (72)]
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Mana: Soulstone Sanctuary (85) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck13 activated Soulstone Sanctuary (84)
+Resolve stack: Soulstone Sanctuary (84) - Soulstone Sanctuary (84) has base power and toughness 3/3  and becomes a creature and  gains vigilance .
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 assigned Insect Token (123) to attack Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Insect Token (123).
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Damage: Insect Token (123) deals 1 combat damage to Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (18) - {T}: Add {W}.
+Mana: Cultivator's Caravan (9) - {T}: Add one mana of any color.
+Add to stack: Ai(1)-Gen2_Deck17 cast Liliana, Dreadhorde General (37)
+Replacement Effect: Liliana, Dreadhorde General enters with six loyalty counters on it.
+Resolve stack: Liliana, Dreadhorde General
+Add to stack: Ai(1)-Gen2_Deck17 activated Liliana, Dreadhorde General (37)
+Resolve stack: Liliana, Dreadhorde General (37) - Ai(1)-Gen2_Deck17 and Ai(2)-Gen2_Deck13 sacrifice two creatures.
+Add to stack: Ai(1)-Gen2_Deck17 triggered Massacre Wurm (24)
+Add to stack: Ai(1)-Gen2_Deck17 triggered Massacre Wurm (24)
+Add to stack: Ai(1)-Gen2_Deck17 triggered Liliana, Dreadhorde General (37)
+Resolve stack: Whenever a creature you control dies, draw a card. [Zone Changer: Massacre Wurm (24)]
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Soulstone Sanctuary (85)]
+Resolve stack: Whenever a creature an opponent controls dies, that player loses 2 life. [Zone Changer: Insect Token (123)]
+Land: Ai(1)-Gen2_Deck17 played Swamp (44)
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Heraldic Banner (66)
+Replacement Effect: As Heraldic Banner enters, choose a color.
+Resolve stack: Heraldic Banner
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 assigned Soulstone Sanctuary (84) to attack Liliana, Dreadhorde General (37).
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Soulstone Sanctuary (84).
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Mana: Heraldic Banner (66) - {T}: Add one mana of the chosen color.
+Mana: Soulstone Sanctuary (84) - {T}: Add {C}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Sun-Blessed Healer (62)
+Resolve stack: Sun-Blessed Healer - Creature 3 / 1
+Phase: Ai(2)-Gen2_Deck13's End step
+Phase: Ai(2)-Gen2_Deck13's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen2_Deck17)
+Phase: Ai(1)-Gen2_Deck17's Untap step
+Phase: Ai(1)-Gen2_Deck17's Upkeep step
+Phase: Ai(1)-Gen2_Deck17's Draw step
+Mana: Swamp (39) - {T}: Add {B}.
+Mana: Plains (14) - {T}: Add {W}.
+Mana: Plains (17) - {T}: Add {W}.
+Mana: Plains (18) - {T}: Add {W}.
+Add to stack: Ai(1)-Gen2_Deck17 cast Deadly Plot (50)
+Resolve stack: Deadly Plot (50) -  Destroy target creature or planeswalker. (Targeting: Soulstone Sanctuary (84))
+Phase: Ai(1)-Gen2_Deck17's Main phase, precombat
+Phase: Ai(1)-Gen2_Deck17's Beginning of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Declare Attackers Step
+Combat: Ai(1)-Gen2_Deck17 didn't attack this turn.
+Phase: Ai(1)-Gen2_Deck17's Declare Blockers Step
+Phase: Ai(1)-Gen2_Deck17's First Strike Damage Step
+Phase: Ai(1)-Gen2_Deck17's Combat Damage Step
+Phase: Ai(1)-Gen2_Deck17's End of Combat Step
+Phase: Ai(1)-Gen2_Deck17's Main phase, postcombat
+Mana: Swamp (44) - {T}: Add {B}.
+Mana: Orzhov Guildgate (5) - {T}: Add {W} or {B}.
+Mana: Cultivator's Caravan (9) - {T}: Add one mana of any color.
+Add to stack: Ai(1)-Gen2_Deck17 cast Pirate's Cutlass (21)
+Resolve stack: Pirate's Cutlass
+Phase: Ai(1)-Gen2_Deck17's End step
+Phase: Ai(1)-Gen2_Deck17's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen2_Deck13)
+Phase: Ai(2)-Gen2_Deck13's Untap step
+Phase: Ai(2)-Gen2_Deck13's Upkeep step
+Phase: Ai(2)-Gen2_Deck13's Draw step
+Phase: Ai(2)-Gen2_Deck13's Main phase, precombat
+Phase: Ai(2)-Gen2_Deck13's Beginning of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Declare Attackers Step
+Combat: Ai(2)-Gen2_Deck13 assigned Sun-Blessed Healer (62) to attack Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's Declare Blockers Step
+Combat: Ai(1)-Gen2_Deck17 didn't block Sun-Blessed Healer (62).
+Phase: Ai(2)-Gen2_Deck13's First Strike Damage Step
+Phase: Ai(2)-Gen2_Deck13's Combat Damage Step
+Damage: Sun-Blessed Healer (62) deals 4 combat damage to Ai(1)-Gen2_Deck17.
+Phase: Ai(2)-Gen2_Deck13's End of Combat Step
+Phase: Ai(2)-Gen2_Deck13's Main phase, postcombat
+Mana: Swamp (101) - {T}: Add {B}.
+Mana: Swamp (104) - {T}: Add {B}.
+Mana: Swamp (100) - {T}: Add {B}.
+Add to stack: Ai(2)-Gen2_Deck13 cast Vampire Spawn (88)
+Resolve stack: Vampire Spawn - Creature 2 / 3
+Add to stack: Ai(2)-Gen2_Deck13 triggered Vampire Spawn (88)
+Resolve stack: When Vampire Spawn enters, each opponent loses 2 life and you gain 2 life. [Zone Changer: Vampire Spawn (88)]
+Player control: Ai(1)-Gen2_Deck17 is controlled by Ai(1)-Gen2_Deck17
+Player control: Ai(2)-Gen2_Deck13 is controlled by Ai(2)-Gen2_Deck13
+Game outcome: Turn 8
+Game outcome: Ai(1)-Gen2_Deck17 has lost because life total reached 0
+Game outcome: Ai(2)-Gen2_Deck13 has won because all opponents have lost
+Match result: Ai(1)-Gen2_Deck17: 0 Ai(2)-Gen2_Deck13: 1 
+
+Game Result: Game 1 ended in 16157 ms. Ai(2)-Gen2_Deck13 has won!
+
+
+=== STDERR ===

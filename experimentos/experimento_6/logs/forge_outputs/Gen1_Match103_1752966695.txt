@@ -1,0 +1,534 @@
+=== COMBATE PARALELO: Gen1_Deck4 vs Gen1_Deck17 ===
+Worker ID: 3839295
+Comando: xvfb-run -a java -jar ./forge-gui-desktop-2.0.04-jar-with-dependencies.jar sim -d Gen1_Deck4 Gen1_Deck17 -n 1
+Duración: 32.63 segundos
+Return code: 0
+
+=== STDOUT ===
+Forge v.2.0.04-SNAPSHOT-06.06 (forge.GuiDesktop@72b6cbcc)
+Linux (5.15.0-143-generic amd64)
+Ubuntu (Java 17.0.15+6-Ubuntu-0ubuntu122.04, OpenJDK 64-Bit Server VM)
+Language 'en-US' loaded successfully.
+(ThreadUtil first call): Running on a machine with 4 cpu core(s)
+Read cards: 30748 archived files in 1810 ms (25 parts) using thread pool
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Upcoming set Marvel's Spider-Man Eternal (SPE) dated in the future. All unaccounted cards will be added to this set with unknown rarity.
+Read cards: 748 files in 74 ms (7 parts) using thread pool
+Simulation mode
+Ai(1)-Gen1_Deck4 vs Ai(2)-Gen1_Deck17 - one game of Constructed
+Mulligan: Ai(1)-Gen1_Deck4 has kept a hand of 7 cards
+Mulligan: Ai(2)-Gen1_Deck17 has kept a hand of 7 cards
+Turn: Turn 1 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Island (36)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Island (36) - {T}: Add {U}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Aegis Turtle (46)
+Resolve stack: Aegis Turtle - Creature 0 / 5
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 2 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (110)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 3 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ai(1)-Gen1_Deck4 played Temple of Enlightenment (45)
+Add to stack: Ai(1)-Gen1_Deck4 triggered Temple of Enlightenment (45)
+Resolve stack: Ai(1)-Gen1_Deck4 scried 1 card(s) to the top of the library
+Resolve stack: When Temple of Enlightenment enters, scry 1. [Zone Changer: Temple of Enlightenment (45)]
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 4 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (111)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Diamond Mare (74)
+Replacement Effect: As Diamond Mare enters, choose a color.
+Resolve stack: Diamond Mare - Creature 1 / 3
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 5 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Replacement Effect: Temple of Enlightenment enters tapped.
+Land: Ai(1)-Gen1_Deck4 played Temple of Enlightenment (44)
+Add to stack: Ai(1)-Gen1_Deck4 triggered Temple of Enlightenment (44)
+Resolve stack: Ai(1)-Gen1_Deck4 scried 1 card(s) to the bottom of the library
+Resolve stack: When Temple of Enlightenment enters, scry 1. [Zone Changer: Temple of Enlightenment (44)]
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 6 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (115)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Three Tree Mascot (92)
+Resolve stack: Three Tree Mascot - Creature 2 / 1
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 7 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 8 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Three Tree Mascot (92) and Diamond Mare (74) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Diamond Mare (74).
+Ai(1)-Gen1_Deck4 assigned Aegis Turtle (46) to block Three Tree Mascot (92).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Three Tree Mascot (92) deals 2 damage () to Aegis Turtle (46).
+Damage: Diamond Mare (74) deals 1 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 9 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 10 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Three Tree Mascot (92) and Diamond Mare (74) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Diamond Mare (74).
+Ai(1)-Gen1_Deck4 assigned Aegis Turtle (46) to block Three Tree Mascot (92).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Three Tree Mascot (92) deals 2 damage () to Aegis Turtle (46).
+Damage: Diamond Mare (74) deals 1 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Heartfire Immolator (118)
+Add to stack: Ai(2)-Gen1_Deck17 triggered Diamond Mare (74)
+Resolve stack: Whenever you cast a spell of the chosen color, you gain 1 life. [Card: Heartfire Immolator (118), Activator: Ai(2)-Gen1_Deck17, SpellAbility: Heartfire Immolator - Creature 2 / 2]
+Resolve stack: Heartfire Immolator - Creature 2 / 2
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 11 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Mountain (56)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Temple of Enlightenment (45) - {T}: Add {W} or {U}.
+Mana: Temple of Enlightenment (44) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Solemn Simulacrum (6)
+Resolve stack: Solemn Simulacrum - Creature 2 / 2
+Add to stack: Ai(1)-Gen1_Deck4 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum enters, you may search your library for a basic land card, put that card onto the battlefield tapped, then shuffle. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 12 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (108)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 13 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Temple of Enlightenment (45) - {T}: Add {W} or {U}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Temple of Enlightenment (44) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Fumigate (2)
+Resolve stack: Fumigate (2) - Destroy all creatures. You gain 1 life for each creature destroyed this way. Ai(1)-Gen1_Deck4 gains 0 life. 
+Add to stack: Ai(1)-Gen1_Deck4 triggered Solemn Simulacrum (6)
+Resolve stack: When Solemn Simulacrum dies, you may draw a card. [Zone Changer: Solemn Simulacrum (6)]
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 14 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Campus Guide (86)
+Resolve stack: Campus Guide - Creature 2 / 1
+Add to stack: Ai(2)-Gen1_Deck17 triggered Campus Guide (86)
+Resolve stack: When Campus Guide enters, you may search your library for a basic land card, reveal it, then shuffle and put that card on top. [Zone Changer: Campus Guide (86)]
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 15 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 didn't attack this turn.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Temple of Enlightenment (45) - {T}: Add {W} or {U}.
+Mana: Temple of Enlightenment (44) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck4 cast Ingenious Leonin (20)
+Resolve stack: Ingenious Leonin - Creature 4 / 4
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 16 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (109)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 didn't attack this turn.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Pyromancer's Goggles (90)
+Resolve stack: Pyromancer's Goggles
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 17 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Rogue's Passage (13)
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Temple of Enlightenment (45) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck4 activated Rogue's Passage (13) targeting [Ingenious Leonin (20)]
+Resolve stack: Rogue's Passage (13) - Ingenious Leonin (20) can't be blocked this turn.
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Ingenious Leonin (20) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Ingenious Leonin (20).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Ingenious Leonin (20) deals 4 combat damage to Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 18 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (104)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Campus Guide (86) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Campus Guide (86).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Campus Guide (86) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Mana: Mountain (108) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Pyromancer's Goggles (90) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Mana: Mountain (104) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Dragon Mage (61)
+Resolve stack: Dragon Mage - Creature 5 / 5
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 19 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Temple of Enlightenment (45) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck4 activated Rogue's Passage (13) targeting [Ingenious Leonin (20)]
+Resolve stack: Rogue's Passage (13) - Ingenious Leonin (20) can't be blocked this turn.
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Ingenious Leonin (20) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Ingenious Leonin (20).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Ingenious Leonin (20) deals 4 combat damage to Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Discard: Ai(1)-Gen1_Deck4 discards Ovika, Enigma Goliath (9).
+Turn: Turn 20 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (105)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Dragon Mage (61) and Campus Guide (86) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Campus Guide (86).
+Ai(1)-Gen1_Deck4 didn't block Dragon Mage (61).
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Dragon Mage (61) deals 5 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Campus Guide (86) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Add to stack: Ai(2)-Gen1_Deck17 triggered Dragon Mage (61)
+Discard: Ai(1)-Gen1_Deck4 discards Lathliss, Dragon Queen (8).
+Discard: Ai(1)-Gen1_Deck4 discards Ovika, Enigma Goliath (11).
+Discard: Ai(1)-Gen1_Deck4 discards Solemn Simulacrum (4).
+Discard: Ai(1)-Gen1_Deck4 discards Driver of the Dead (55).
+Discard: Ai(1)-Gen1_Deck4 discards Drake Hatcher (48).
+Discard: Ai(1)-Gen1_Deck4 discards Driver of the Dead (54).
+Discard: Ai(1)-Gen1_Deck4 discards Firebrand Archer (42).
+Discard: Ai(2)-Gen1_Deck17 discards Etali, Primal Storm (89).
+Discard: Ai(2)-Gen1_Deck17 discards Shivan Dragon (67).
+Discard: Ai(2)-Gen1_Deck17 discards Volley Veteran (88).
+Discard: Ai(2)-Gen1_Deck17 discards Shivan Dragon (69).
+Resolve stack: Whenever Dragon Mage deals combat damage to a player, each player discards their hand, then draws seven cards. [Damage Source: Dragon Mage (61), Damaged: Ai(1)-Gen1_Deck4, Amount: 5]
+Phase: Ai(2)-Gen1_Deck17's End of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Main phase, postcombat
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Mana: Mountain (115) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Taurean Mauler (71)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Mana: Mountain (108) - {T}: Add {R}.
+Mana: Mountain (109) - {T}: Add {R}.
+Mana: Pyromancer's Goggles (90) - {T}: Add {R}. When that mana is spent to cast a red instant or sorcery spell, copy that spell and you may choose new targets for the copy.
+Add to stack: Ai(2)-Gen1_Deck17 cast Taurean Mauler (70)
+Resolve stack: Taurean Mauler - Creature 2 / 2
+Mana: Mountain (104) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Stromkirk Noble (85)
+Resolve stack: Stromkirk Noble - Creature 1 / 1
+Phase: Ai(2)-Gen1_Deck17's End step
+Phase: Ai(2)-Gen1_Deck17's Cleanup step
+Turn: Turn 21 (Ai(1)-Gen1_Deck4)
+Phase: Ai(1)-Gen1_Deck4's Untap step
+Phase: Ai(1)-Gen1_Deck4's Upkeep step
+Mana: Island (36) - {T}: Add {U}.
+Mana: Mountain (56) - {T}: Add {R}.
+Mana: Plains (29) - {T}: Add {W}.
+Mana: Temple of Enlightenment (45) - {T}: Add {W} or {U}.
+Add to stack: Ai(1)-Gen1_Deck4 activated Rogue's Passage (13) targeting [Ingenious Leonin (20)]
+Resolve stack: Rogue's Passage (13) - Ingenious Leonin (20) can't be blocked this turn.
+Phase: Ai(1)-Gen1_Deck4's Draw step
+Phase: Ai(1)-Gen1_Deck4's Main phase, precombat
+Land: Ai(1)-Gen1_Deck4 played Soulstone Sanctuary (50)
+Phase: Ai(1)-Gen1_Deck4's Beginning of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Declare Attackers Step
+Combat: Ai(1)-Gen1_Deck4 assigned Ingenious Leonin (20) to attack Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck4's Declare Blockers Step
+Combat: Ai(2)-Gen1_Deck17 didn't block Ingenious Leonin (20).
+Phase: Ai(1)-Gen1_Deck4's First Strike Damage Step
+Phase: Ai(1)-Gen1_Deck4's Combat Damage Step
+Damage: Ingenious Leonin (20) deals 4 combat damage to Ai(2)-Gen1_Deck17.
+Phase: Ai(1)-Gen1_Deck4's End of Combat Step
+Phase: Ai(1)-Gen1_Deck4's Main phase, postcombat
+Phase: Ai(1)-Gen1_Deck4's End step
+Phase: Ai(1)-Gen1_Deck4's Cleanup step
+Turn: Turn 22 (Ai(2)-Gen1_Deck17)
+Phase: Ai(2)-Gen1_Deck17's Untap step
+Phase: Ai(2)-Gen1_Deck17's Upkeep step
+Phase: Ai(2)-Gen1_Deck17's Draw step
+Phase: Ai(2)-Gen1_Deck17's Main phase, precombat
+Land: Ai(2)-Gen1_Deck17 played Mountain (116)
+Phase: Ai(2)-Gen1_Deck17's Beginning of Combat Step
+Phase: Ai(2)-Gen1_Deck17's Declare Attackers Step
+Combat: Ai(2)-Gen1_Deck17 assigned Dragon Mage (61), Campus Guide (86), Taurean Mauler (71), Taurean Mauler (70) and Stromkirk Noble (85) to attack Ai(1)-Gen1_Deck4.
+Phase: Ai(2)-Gen1_Deck17's Declare Blockers Step
+Combat: Ai(1)-Gen1_Deck4 didn't block Stromkirk Noble (85).
+Ai(1)-Gen1_Deck4 didn't block Campus Guide (86).
+Ai(1)-Gen1_Deck4 didn't block Taurean Mauler (70).
+Ai(1)-Gen1_Deck4 didn't block Taurean Mauler (71).
+Ai(1)-Gen1_Deck4 didn't block Dragon Mage (61).
+Mana: Mountain (110) - {T}: Add {R}.
+Mana: Mountain (111) - {T}: Add {R}.
+Add to stack: Ai(2)-Gen1_Deck17 cast Sure Strike (81) targeting [Dragon Mage (61)]
+Resolve stack: Sure Strike (81) - Dragon Mage (61) gets +3/+0 and gains first strike until end of turn.
+Phase: Ai(2)-Gen1_Deck17's First Strike Damage Step
+Damage: Dragon Mage (61) deals 8 combat damage to Ai(1)-Gen1_Deck4.
+Add to stack: Ai(2)-Gen1_Deck17 triggered Dragon Mage (61)
+Discard: Ai(1)-Gen1_Deck4 discards Sphinx of the Final Word (16).
+Discard: Ai(1)-Gen1_Deck4 discards Island (37).
+Discard: Ai(1)-Gen1_Deck4 discards Solemn Simulacrum (7).
+Discard: Ai(1)-Gen1_Deck4 discards Driver of the Dead (53).
+Discard: Ai(1)-Gen1_Deck4 discards Mountain (59).
+Discard: Ai(1)-Gen1_Deck4 discards Plains (28).
+Discard: Ai(1)-Gen1_Deck4 discards Sphinx of the Final Word (18).
+Discard: Ai(2)-Gen1_Deck17 discards Seismic Rupture (117).
+Discard: Ai(2)-Gen1_Deck17 discards Mountain (106).
+Discard: Ai(2)-Gen1_Deck17 discards Shivan Dragon (66).
+Resolve stack: Whenever Dragon Mage deals combat damage to a player, each player discards their hand, then draws seven cards. [Damage Source: Dragon Mage (61), Damaged: Ai(1)-Gen1_Deck4, Amount: 8]
+Phase: Ai(2)-Gen1_Deck17's Combat Damage Step
+Damage: Campus Guide (86) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Taurean Mauler (71) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Taurean Mauler (70) deals 2 combat damage to Ai(1)-Gen1_Deck4.
+Damage: Stromkirk Noble (85) deals 1 combat damage to Ai(1)-Gen1_Deck4.
+Player control: Ai(1)-Gen1_Deck4 is controlled by Ai(1)-Gen1_Deck4
+Player control: Ai(2)-Gen1_Deck17 is controlled by Ai(2)-Gen1_Deck17
+Game outcome: Turn 11
+Game outcome: Ai(1)-Gen1_Deck4 has lost because life total reached 0
+Game outcome: Ai(2)-Gen1_Deck17 has won because all opponents have lost
+Match result: Ai(1)-Gen1_Deck4: 0 Ai(2)-Gen1_Deck17: 1 
+
+Game Result: Game 1 ended in 19790 ms. Ai(2)-Gen1_Deck17 has won!
+
+
+=== STDERR ===
