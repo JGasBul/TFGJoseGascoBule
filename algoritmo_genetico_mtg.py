@@ -1,32 +1,62 @@
-# Algoritmo Genético MTG Mejorado - Recibe configuración de paralelización
+"""
+Algoritmo Genético para Optimización de Mazos de Magic: The Gathering
 
+Este módulo implementa un algoritmo genético paralelizado para evolucionar poblaciones
+de mazos de Magic hacia estrategias ganadoras. Utiliza Forge como simulador de combates
+y aplica operadores genéticos (selección, cruce, mutación) con mecanismos anti-estancamiento.
+
+Características principales:
+- Evaluación paralela de fitness mediante torneos round-robin
+- Hall of Fame para preservar mejores soluciones históricas
+- Mutación adaptativa según el progreso evolutivo
+- Sistema anti-estancamiento con immigration y diversity injection
+- Guardado incremental de estadísticas y poblaciones
+
+Autor: Proyecto TFG - Algoritmos Genéticos aplicados a MTG
+"""
+
+# ==================================================================================
+# IMPORTS
+# ==================================================================================
+
+# Librería estándar
 import os
 import json
 import random
-import copy
 import subprocess
 import sys
 import time
+import logging
+import csv
+import threading
+from datetime import datetime
+from collections import defaultdict
+
+# Librerías de terceros
 import numpy as np
 import pandas as pd
 import matplotlib
 import matplotlib.pyplot as plt
-matplotlib.use('Agg')  # Para evitar problemas con GUI en servidores
-from multiprocessing import Pool, cpu_count, Manager
-from collections import defaultdict
-import re
-from tqdm import tqdm
-import logging
-import csv
-from datetime import datetime
+from multiprocessing import cpu_count
 from concurrent.futures import ProcessPoolExecutor, as_completed
-import threading
-import json
-import time
-import pickle
-from datetime import datetime
+from tqdm import tqdm
+
+# Configuración de matplotlib para entornos sin GUI
+matplotlib.use('Agg')
+
+
+# ==================================================================================
+# CLASE PRINCIPAL DEL ALGORITMO GENÉTICO
+# ==================================================================================
 
 class MTGGeneticAlgorithm:
+    """
+    Algoritmo Genético Paralelo para Optimización de Mazos de Magic: The Gathering
+
+    Esta clase implementa un algoritmo genético completo que evoluciona poblaciones de
+    mazos de MTG utilizando Forge como simulador de combates. Incluye características
+    avanzadas como paralelización, hall of fame, mutación adaptativa y anti-estancamiento.
+    """
     def __init__(self, 
                  population_file="mtg_decks/initial_population.json",
                  catalog_path="mtg_data/card_catalog.json",
@@ -48,14 +78,27 @@ class MTGGeneticAlgorithm:
                  save_forge_outputs=True,
                  headless_mode=False):
         """
-        Inicializa el algoritmo genético con parámetros de paralelización
-        
+        Inicializa el algoritmo genético con todos sus parámetros
+
         Args:
-            max_workers (int): Número de workers paralelos (None = auto-detectar)
-            parallel_batch_size (int): Tamaño de lote paralelo (None = auto-calcular)
-            base_timeout (int): Timeout base en segundos
-            log_level (str): Nivel de logging ('DEBUG', 'INFO', 'WARNING')
-            save_forge_outputs (bool): Si guardar outputs completos de Forge
+            population_file: Ruta al archivo JSON con la población inicial
+            catalog_path: Ruta al catálogo de cartas
+            indices_path: Ruta a los índices de tipos y colores
+            output_dir: Directorio para guardar resultados
+            forge_jar_path: Ruta al archivo JAR de Forge
+            max_generations: Número máximo de generaciones a evolucionar
+            population_size: Tamaño de la población en cada generación
+            mutation_rate: Probabilidad de mutación (0.0-1.0)
+            crossover_rate: Probabilidad de cruce (0.0-1.0)
+            tournament_size: Tamaño del torneo para selección
+            elite_size: Número de mejores individuos a preservar
+            stagnation_limit: Generaciones sin mejora antes de aplicar anti-estancamiento
+            max_workers: Workers paralelos (None = auto-detectar según CPU)
+            parallel_batch_size: Tamaño de lote paralelo (None = auto-calcular)
+            base_timeout: Timeout base en segundos para combates
+            log_level: Nivel de logging ('DEBUG', 'INFO', 'WARNING')
+            save_forge_outputs: Si guardar outputs completos de Forge
+            headless_mode: Ejecutar Forge en modo headless (con xvfb-run)
         """
         self.output_dir = output_dir
         if not os.path.exists(output_dir):
@@ -122,29 +165,29 @@ class MTGGeneticAlgorithm:
             'diversity': [],
             'mutation_rate': []
         }
-        
-        # Mejores individuos históricos
-        self.hall_of_fame_arrays = []
-        
+
         # Contador de estancamiento
         self.stagnation_counter = 0
         self.best_fitness_ever = 0
-        
-        # Configurar Forge
-        self.setup_forge()
-        
-        #Modo headless
-        self.headless_mode = headless_mode
-        self.logger.info(f"Modo: {'Headless (xvfb-run)' if headless_mode else 'GUI normal'}")
-        
-         #Hall of Fame Global
-        self.hall_of_fame_arrays = []  # Lista de (fitness, deck_array)
+
+        # Hall of Fame Global - Preserva mejores soluciones históricas
+        self.hall_of_fame_arrays = []  # Lista de tuplas (fitness, deck_array)
         self.max_hall_size = max(self.elite_size, 5)  # Al menos 5 mejores históricos
 
+        # Configurar Forge
+        self.setup_forge()
+
+        # Modo de ejecución
+        self.headless_mode = headless_mode
+        self.logger.info(f"Modo: {'Headless (xvfb-run)' if headless_mode else 'GUI normal'}")
         self.logger.info(f"Hall of Fame configurado: {self.max_hall_size} mejores históricos")
-    
+
+    # ==============================================================================
+    # CONFIGURACIÓN Y CARGA INICIAL
+    # ==============================================================================
+
     def setup_logging(self, log_level):
-        """Configura sistema de logging"""
+        """Configura sistema de logging completo"""
         self.logs_dir = os.path.join(self.output_dir, "logs")
         os.makedirs(self.logs_dir, exist_ok=True)
         
@@ -195,9 +238,13 @@ class MTGGeneticAlgorithm:
         except Exception as e:
             self.logger.error(f"Error al cargar población: {e}")
             return []
-    
+
+    # ==============================================================================
+    # CONVERSIÓN ENTRE FORMATOS (Array ↔ Deck)
+    # ==============================================================================
+
     def deck_to_array(self, deck):
-        """Convierte un mazo del formato antiguo a array"""
+        """Convierte un mazo del formato de diccionario a array NumPy"""
         array = np.zeros(self.total_cards, dtype=int)
         for card in deck.get('cards', []):
             if 'card_id' in card:
@@ -658,10 +705,16 @@ class MTGGeneticAlgorithm:
             
             for card in deck['cards']:
                 f.write(f"{card['count']} {card['name']}\n")
-    
-    # [Resto de métodos iguales: crossover, mutación, etc.]
+
+    # ==============================================================================
+    # OPERADORES GENÉTICOS (Cruce y Mutación)
+    # ==============================================================================
+
     def crossover_uniform(self, parent1_array, parent2_array):
-        """Cruce uniforme entre dos arrays de mazos"""
+        """
+        Cruce uniforme: cada posición del hijo se hereda aleatoriamente
+        de uno de los padres con probabilidad 50/50
+        """
         if random.random() > self.crossover_rate:
             return parent1_array.copy(), parent2_array.copy()
         
@@ -1264,97 +1317,6 @@ class MTGGeneticAlgorithm:
             self.logger.error(f"Error guardando archivo .dck: {e}")
             self.logger.info(f"Mejor mazo guardado solo en JSON: {json_file}")
             
-    def analyze_generation_debug(self, generation, fitness_values):
-        """Debug detallado de cada generación"""
-        print(f"\n🔍 === DEBUG GENERACIÓN {generation} ===")
-
-        # 1. Estadísticas básicas de fitness
-        print(f"📊 FITNESS STATS:")
-        print(f"   Mejor: {max(fitness_values):.4f}")
-        print(f"   Promedio: {np.mean(fitness_values):.4f}")
-        print(f"   Peor: {min(fitness_values):.4f}")
-        print(f"   Mediana: {np.median(fitness_values):.4f}")
-
-        # 2. Distribución de fitness
-        high = len([f for f in fitness_values if f > 0.70])
-        medium_high = len([f for f in fitness_values if 0.60 < f <= 0.70])
-        medium = len([f for f in fitness_values if 0.50 < f <= 0.60])
-        low = len([f for f in fitness_values if f <= 0.50])
-
-        print(f"📈 DISTRIBUCIÓN FITNESS:")
-        print(f"   >0.70 (Alto): {high} mazos ({high/len(fitness_values)*100:.1f}%)")
-        print(f"   0.60-0.70 (Medio-Alto): {medium_high} mazos ({medium_high/len(fitness_values)*100:.1f}%)")
-        print(f"   0.50-0.60 (Medio): {medium} mazos ({medium/len(fitness_values)*100:.1f}%)")
-        print(f"   ≤0.50 (Bajo): {low} mazos ({low/len(fitness_values)*100:.1f}%)")
-
-        # 3. Top mazos
-        top_indices = np.argsort(fitness_values)[-5:]  # Top 5
-        print(f"🏆 TOP 5 MAZOS:")
-        for i, idx in enumerate(reversed(top_indices)):
-            print(f"   {i+1}. Mazo {idx}: {fitness_values[idx]:.4f}")
-
-        # 4. Análisis de cartas populares
-        card_usage = np.zeros(self.total_cards)
-        for array in self.population_arrays:
-            card_usage += (array > 0).astype(int)
-
-        used_cards = np.sum(card_usage > 0)
-        common_cards = np.sum(card_usage > len(self.population_arrays) * 0.5)  # En >50% mazos
-        staple_cards = np.sum(card_usage > len(self.population_arrays) * 0.8)  # En >80% mazos
-
-        print(f"🃏 USO DE CARTAS:")
-        print(f"   Cartas usadas: {used_cards}/{self.total_cards}")
-        print(f"   Cartas comunes (>50% mazos): {common_cards}")
-        print(f"   Cartas staple (>80% mazos): {staple_cards}")
-
-        # 5. Verificar propagación genética
-        if generation > 0:
-            print(f"🧬 PROPAGACIÓN GENÉTICA:")
-            improvement = max(fitness_values) - max(self.stats['best_fitness'])
-            avg_improvement = np.mean(fitness_values) - self.stats['avg_fitness'][-1] if self.stats['avg_fitness'] else 0
-
-            print(f"   Mejora del mejor: {improvement:+.4f}")
-            print(f"   Mejora del promedio: {avg_improvement:+.4f}")
-
-            if improvement <= 0 and avg_improvement <= 0.01:
-                print(f"   ⚠️  POSIBLE ESTANCAMIENTO")
-            elif avg_improvement > 0.05:
-                print(f"   ✅ EVOLUCIÓN SALUDABLE")
-
-        # 6. Calcular diversidad actual
-        current_diversity = self.calculate_diversity(self.population_arrays)
-        print(f"🌈 DIVERSIDAD: {current_diversity:.4f}")
-
-        if current_diversity < 0.01:
-            print(f"   🚨 DIVERSIDAD CRÍTICA - Convergencia prematura")
-        elif current_diversity > 0.20:
-            print(f"   ⚠️  DIVERSIDAD ALTA - Falta convergencia")
-        else:
-            print(f"   ✅ DIVERSIDAD SALUDABLE")
-
-        print(f"=" * 50)
-        
-    def debug_hall_of_fame(self, generation, fitness_values):
-        """Debug del estado del Hall of Fame"""
-        if not self.hall_of_fame_arrays:
-            self.logger.warning(f"Gen {generation}: Hall of Fame vacío!")
-            return
-
-        self.logger.info(f"🏆 === HALL OF FAME GEN {generation} ===")
-        for i, (fitness, _) in enumerate(self.hall_of_fame_arrays[:3]):  # Top 3
-            self.logger.info(f"   {i+1}. Fitness histórico: {fitness:.4f}")
-
-        historical_best = self.hall_of_fame_arrays[0][0]
-        current_best = max(fitness_values) if 'fitness_values' in locals() else 0
-
-        self.logger.info(f"   Mejor histórico: {historical_best:.4f}")
-        self.logger.info(f"   Mejor actual: {current_best:.4f}")
-
-        if current_best < historical_best - 0.01:
-            self.logger.info(f"   ✅ Sin regresión - Hall of Fame funciona")
-        else:
-            self.logger.info(f"   🎉 Posible mejora o mantenimiento")    
-    
     def save_statistics(self):
         """Guarda estadísticas de evolución con verificación de datos"""
         try:
