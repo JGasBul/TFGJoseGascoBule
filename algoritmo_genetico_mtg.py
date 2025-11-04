@@ -65,9 +65,9 @@ class MTGGeneticAlgorithm:
                  forge_jar_path="./forge-gui-desktop-2.0.04-jar-with-dependencies.jar",
                  max_generations=200,
                  population_size=50,
-                 mutation_rate=0.05,
-                 crossover_rate=0.9,
-                 tournament_size=3,
+                 mutation_rate=0.15,              # Optimizado: +25% exploración (antes 0.05)
+                 crossover_rate=0.9,              # Mantener (óptimo demostrado)
+                 tournament_size=4,               # Optimizado: +33% presión de selección (antes 3)
                  elite_size=5,
                  stagnation_limit=20,
                  # NUEVOS PARÁMETROS DE PARALELIZACIÓN
@@ -76,7 +76,11 @@ class MTGGeneticAlgorithm:
                  base_timeout=120,
                  log_level='INFO',
                  save_forge_outputs=True,
-                 headless_mode=False):
+                 headless_mode=False,
+                 # PARÁMETROS DE FITNESS MULTI-COMPONENTE (optimizados)
+                 fitness_alpha=0.6,               # Optimizado: win rate 60% (antes 0.7)
+                 fitness_beta=0.4,                # Optimizado: calidad 40% (antes 0.3)
+                 enable_quality_metrics=True):
         """
         Inicializa el algoritmo genético con todos sus parámetros
 
@@ -99,6 +103,9 @@ class MTGGeneticAlgorithm:
             log_level: Nivel de logging ('DEBUG', 'INFO', 'WARNING')
             save_forge_outputs: Si guardar outputs completos de Forge
             headless_mode: Ejecutar Forge en modo headless (con xvfb-run)
+            fitness_alpha: Peso del win_rate en fitness multi-componente (0.0-1.0)
+            fitness_beta: Peso de la calidad del mazo en fitness multi-componente (0.0-1.0)
+            enable_quality_metrics: Activar fitness multi-componente (True) o usar solo win_rate (False)
         """
         self.output_dir = output_dir
         if not os.path.exists(output_dir):
@@ -115,7 +122,12 @@ class MTGGeneticAlgorithm:
         self.tournament_size = tournament_size
         self.elite_size = elite_size
         self.stagnation_limit = stagnation_limit
-        
+
+        # CONFIGURACIÓN DE FITNESS MULTI-COMPONENTE
+        self.fitness_alpha = fitness_alpha
+        self.fitness_beta = fitness_beta
+        self.enable_quality_metrics = enable_quality_metrics
+
         # CONFIGURACIÓN DE PARALELIZACIÓN
         self.max_workers = max_workers if max_workers else max(2, cpu_count() // 2)
         self.parallel_batch_size = parallel_batch_size if parallel_batch_size else self.max_workers * 3
@@ -143,7 +155,16 @@ class MTGGeneticAlgorithm:
             self.type_indices = indices_data['type_indices']
             self.color_indices = indices_data['color_indices']
             self.total_cards = indices_data['total_cards']
-        
+
+        # Preparar diccionario de tierras básicas para adjust_deck_size()
+        self.basic_lands_ids = {}
+        basic_land_names = ['Plains', 'Island', 'Swamp', 'Mountain', 'Forest']
+        for card_id, card in self.card_catalog.items():
+            if card['name'] in basic_land_names:
+                self.basic_lands_ids[card['name']] = card_id
+
+        self.logger.debug(f"Tierras básicas identificadas: {list(self.basic_lands_ids.keys())}")
+
         # Cargar población inicial
         self.population = self.load_population(population_file)
         self.logger.info(f"Población inicial: {len(self.population)} mazos")
@@ -650,17 +671,39 @@ class MTGGeneticAlgorithm:
                     
                     pbar.update(1)
         
-        # Calcular fitness
+        # Calcular fitness (multi-componente si está habilitado)
         fitness_values = []
+        quality_values = []  # Para logging
+
         for i in range(n_decks):
+            # Componente 1: Win rate del torneo
             if games[i] > 0:
                 win_rate = wins[i] / games[i]
             else:
                 win_rate = 0.0
-            fitness_values.append(win_rate)
+
+            # Componente 2: Calidad del mazo (si está habilitado)
+            if self.enable_quality_metrics:
+                deck_quality = self.calculate_deck_quality(self.population_arrays[i])
+                quality_values.append(deck_quality)
+
+                # Fitness combinado: α * win_rate + β * deck_quality
+                fitness = (self.fitness_alpha * win_rate) + (self.fitness_beta * deck_quality)
+
+                self.logger.debug(
+                    f"Mazo {i} ({deck_names[i]}): fitness={fitness:.4f} "
+                    f"(win_rate={win_rate:.4f} [α={self.fitness_alpha}], "
+                    f"quality={deck_quality:.4f} [β={self.fitness_beta}])"
+                )
+            else:
+                # Modo legacy: solo win_rate
+                fitness = win_rate
+                quality_values.append(0.0)  # Placeholder
+
+            fitness_values.append(fitness)
         
         generation_duration = time.time() - generation_start_time
-        
+
         # Log de resultados
         self.logger.info(f"=== RESULTADOS GENERACIÓN {generation} ===")
         self.logger.info(f"Duración total: {generation_duration/60:.1f} minutos")
@@ -668,6 +711,15 @@ class MTGGeneticAlgorithm:
         self.logger.info(f"Combates fallidos: {failed_combats}")
         self.logger.info(f"Mejor fitness: {max(fitness_values):.4f}")
         self.logger.info(f"Fitness promedio: {np.mean(fitness_values):.4f}")
+
+        # Log adicional para fitness multi-componente
+        if self.enable_quality_metrics and quality_values:
+            avg_quality = np.mean(quality_values)
+            max_quality = max(quality_values)
+            self.logger.info(
+                f"Calidad de mazos: promedio={avg_quality:.4f}, máxima={max_quality:.4f} "
+                f"(pesos: α={self.fitness_alpha}, β={self.fitness_beta})"
+            )
         
         # Ranking de mazos
         deck_rankings = [(i, deck_names[i], fitness_values[i], wins[i], games[i]) 
@@ -917,55 +969,635 @@ class MTGGeneticAlgorithm:
             return self.mutate_hybrid(deck_array)
     
     def adjust_deck_size(self, deck_array):
-        """Ajusta el array para que tenga exactamente 60 cartas"""
-        total = np.sum(deck_array)
-        
-        if total == 60:
-            return deck_array
-        
+        """
+        Ajusta el array para que tenga exactamente 60 cartas y cumpla reglas MTG
+
+        VERSIÓN CORREGIDA: Ahora añade tierras básicas según los colores del mazo actual,
+        garantizando jugabilidad después de operaciones genéticas que cambien colores.
+
+        Garantiza:
+        - Exactamente 60 cartas
+        - 15-30 tierras (proporción jugable)
+        - Coherencia de colores: las tierras producen el maná necesario
+        - Límite de 4 copias (excepto tierras básicas)
+
+        Args:
+            deck_array: Array del mazo a ajustar
+
+        Returns:
+            np.array: Mazo ajustado y jugable
+        """
+        total = int(np.sum(deck_array))
+
+        # PASO 0: Identificar colores del mazo ACTUAL (crítico después de cruce/mutación)
+        deck_colors = set()
+        for card_id, count in enumerate(deck_array):
+            if count > 0:
+                card = self.card_catalog[card_id]
+                if not card['is_land']:  # Solo contar hechizos/criaturas
+                    deck_colors.update(card['color_identity'])
+
+        # Mapeo de colores a tierras básicas
+        color_to_basic = {
+            'W': 'Plains',
+            'U': 'Island',
+            'B': 'Swamp',
+            'R': 'Mountain',
+            'G': 'Forest'
+        }
+
+        # Crear pool de tierras básicas apropiadas según colores del mazo
+        appropriate_basic_lands = []
+        if deck_colors:
+            for color in deck_colors:
+                land_name = color_to_basic.get(color)
+                if land_name and land_name in self.basic_lands_ids:
+                    appropriate_basic_lands.append(self.basic_lands_ids[land_name])
+        else:
+            # Mazo incoloro: permitir cualquier tierra básica
+            appropriate_basic_lands = [i for i, card in self.card_catalog.items()
+                                       if card.get('is_basic_land', False)]
+
+        # Fallback de seguridad
+        if not appropriate_basic_lands:
+            appropriate_basic_lands = [i for i, card in self.card_catalog.items()
+                                       if card.get('is_basic_land', False)]
+
         adjusted = deck_array.copy()
-        
+
+        # PASO 1: Ajustar total de cartas a 60
         if total < 60:
             diff = 60 - total
-            land_count = sum(adjusted[i] for i in range(self.total_cards) 
-                           if self.card_catalog[i]['is_land'])
-            
-            if land_count < 20:
-                basic_lands = [i for i, card in self.card_catalog.items() 
-                             if card.get('is_basic_land', False)]
-                for _ in range(min(diff, 20 - land_count)):
-                    if basic_lands:
-                        land_id = random.choice(basic_lands)
-                        adjusted[land_id] += 1
-                        diff -= 1
-            
+            land_count = sum(adjusted[i] for i in self.type_indices.get('lands', []))
+
+            # Priorizar añadir tierras si hay menos de 20
+            if land_count < 20 and appropriate_basic_lands:
+                lands_to_add = min(diff, 20 - land_count)
+
+                for _ in range(lands_to_add):
+                    # Añadir tierra básica del color correcto
+                    land_id = random.choice(appropriate_basic_lands)
+                    adjusted[land_id] += 1
+                    diff -= 1
+
+            # Si aún faltan cartas, añadir hechizos del pool correcto
             while diff > 0:
-                valid_positions = np.where(
-                    (adjusted < 4) | 
-                    np.array([self.card_catalog[i]['is_basic_land'] 
-                             for i in range(self.total_cards)])
-                )[0]
-                
-                if len(valid_positions) > 0:
-                    pos = random.choice(valid_positions)
-                    adjusted[pos] += 1
+                # Crear pool de hechizos válidos (del color correcto)
+                valid_spells = []
+                for card_id, card in self.card_catalog.items():
+                    if adjusted[card_id] < 4 and not card['is_land']:
+                        card_colors = set(card['color_identity'])
+                        # Incluir si: incoloro O todos sus colores están en el mazo
+                        if not card_colors or card_colors.issubset(deck_colors):
+                            valid_spells.append(card_id)
+
+                if valid_spells:
+                    spell_id = random.choice(valid_spells)
+                    adjusted[spell_id] += 1
+                    diff -= 1
+                elif appropriate_basic_lands:
+                    # Fallback: añadir más tierras
+                    land_id = random.choice(appropriate_basic_lands)
+                    adjusted[land_id] += 1
                     diff -= 1
                 else:
-                    break
-        
-        else:  # total > 60
+                    # Fallback final: cualquier carta válida
+                    valid_positions = np.where(adjusted < 4)[0]
+                    if len(valid_positions) > 0:
+                        adjusted[random.choice(valid_positions)] += 1
+                        diff -= 1
+                    else:
+                        break
+
+        elif total > 60:
+            # Sobran cartas: quitar aleatoriamente
             diff = total - 60
             while diff > 0:
                 nonzero_positions = np.where(adjusted > 0)[0]
                 if len(nonzero_positions) > 0:
-                    pos = random.choice(nonzero_positions)
-                    adjusted[pos] -= 1
+                    adjusted[random.choice(nonzero_positions)] -= 1
                     diff -= 1
                 else:
                     break
-        
+
+        # PASO 2: Verificar y corregir proporción de tierras (15-30)
+        land_count = sum(adjusted[i] for i in self.type_indices.get('lands', []))
+
+        if land_count < 15:
+            # Muy pocas tierras: convertir hechizos en tierras
+            needed = 15 - land_count
+
+            non_land_positions = [i for i in range(len(adjusted))
+                                 if adjusted[i] > 0 and not self.card_catalog[i]['is_land']]
+
+            for _ in range(min(needed, len(non_land_positions))):
+                if non_land_positions and appropriate_basic_lands:
+                    # Quitar un hechizo
+                    spell_id = random.choice(non_land_positions)
+                    adjusted[spell_id] -= 1
+                    if adjusted[spell_id] == 0:
+                        non_land_positions.remove(spell_id)
+
+                    # Añadir una tierra del color correcto
+                    land_id = random.choice(appropriate_basic_lands)
+                    adjusted[land_id] += 1
+
+        elif land_count > 30:
+            # Demasiadas tierras: convertir tierras en hechizos del color correcto
+            excess = land_count - 30
+
+            land_positions = [i for i in self.type_indices.get('lands', [])
+                             if adjusted[i] > 0]
+
+            # Crear pool de hechizos del color correcto
+            valid_spells = []
+            for card_id, card in self.card_catalog.items():
+                if adjusted[card_id] < 4 and not card['is_land']:
+                    card_colors = set(card['color_identity'])
+                    if not card_colors or card_colors.issubset(deck_colors):
+                        valid_spells.append(card_id)
+
+            for _ in range(min(excess, len(land_positions))):
+                if land_positions:
+                    # Quitar tierra
+                    land_id = random.choice(land_positions)
+                    adjusted[land_id] -= 1
+                    if adjusted[land_id] == 0:
+                        land_positions.remove(land_id)
+
+                    # Añadir hechizo del color correcto
+                    if valid_spells:
+                        spell_id = random.choice(valid_spells)
+                        adjusted[spell_id] += 1
+                        if adjusted[spell_id] >= 4:
+                            valid_spells.remove(spell_id)
+
+        # PASO 3: Verificar coherencia de colores (SIEMPRE, incluso si total=60 y tierras OK)
+        # Esto es crítico después de cruce/mutación que cambien los colores del mazo
+
+        # Identificar colores del mazo actual (de cartas NO-tierra)
+        current_deck_colors = set()
+        for card_id, count in enumerate(adjusted):
+            if count > 0:
+                card = self.card_catalog[card_id]
+                if not card['is_land']:
+                    current_deck_colors.update(card['color_identity'])
+
+        # Identificar qué tierras básicas tiene actualmente el mazo
+        current_land_colors = set()
+        for card_id, count in enumerate(adjusted):
+            if count > 0:
+                card = self.card_catalog[card_id]
+                if card.get('is_basic_land', False):
+                    current_land_colors.update(card['color_identity'])
+
+        # Verificar si hay colores sin tierras
+        colors_without_lands = current_deck_colors - current_land_colors
+
+        if colors_without_lands and len(current_deck_colors) > 0:
+            # Hay colores que necesitan tierras
+            # Convertir algunas tierras existentes en las tierras que faltan
+
+            # Identificar qué tierras básicas necesitamos añadir
+            color_to_basic = {
+                'W': 'Plains', 'U': 'Island', 'B': 'Swamp',
+                'R': 'Mountain', 'G': 'Forest'
+            }
+
+            needed_lands = []
+            for color in colors_without_lands:
+                land_name = color_to_basic.get(color)
+                if land_name and land_name in self.basic_lands_ids:
+                    needed_lands.append(self.basic_lands_ids[land_name])
+
+            if needed_lands:
+                # ESTRATEGIA 1: Convertir tierras de colores NO usados en el mazo
+                unused_land_colors = current_land_colors - current_deck_colors
+
+                excess_lands_unused = []
+                for card_id, count in enumerate(adjusted):
+                    if count > 0:
+                        card = self.card_catalog[card_id]
+                        if card.get('is_basic_land', False):
+                            land_color_identity = set(card['color_identity'])
+                            if land_color_identity.issubset(unused_land_colors):
+                                for _ in range(count):
+                                    excess_lands_unused.append(card_id)
+
+                # ESTRATEGIA 2: Si no hay suficientes tierras no usadas, convertir tierras de colores usados
+                # pero manteniendo al menos 1/3 de las tierras para cada color que SÍ se usa
+                available_lands = []
+                if len(excess_lands_unused) < len(colors_without_lands) * 2:
+                    # Necesitamos más tierras para convertir
+                    # Calcular distribución actual de tierras por color
+                    land_distribution = {}
+                    for card_id, count in enumerate(adjusted):
+                        if count > 0:
+                            card = self.card_catalog[card_id]
+                            if card.get('is_basic_land', False):
+                                for color in card['color_identity']:
+                                    land_distribution[color] = land_distribution.get(color, 0) + count
+
+                    # Identificar tierras que podemos quitar manteniendo balance
+                    for card_id, count in enumerate(adjusted):
+                        if count > 0:
+                            card = self.card_catalog[card_id]
+                            if card.get('is_basic_land', False):
+                                land_color = list(card['color_identity'])[0] if card['color_identity'] else None
+                                if land_color and land_color in current_deck_colors:
+                                    # Solo quitar si hay más de 3 de este color
+                                    if land_distribution.get(land_color, 0) > 3:
+                                        # Podemos quitar algunas (pero no todas)
+                                        can_remove = min(count, land_distribution[land_color] - 3)
+                                        for _ in range(can_remove):
+                                            available_lands.append(card_id)
+
+                # Combinar ambas fuentes
+                all_convertible_lands = excess_lands_unused + available_lands
+
+                # Convertir tierras para garantizar todos los colores
+                colors_to_add = list(colors_without_lands)
+                lands_per_color = max(2, len(all_convertible_lands) // len(colors_to_add)) if colors_to_add else 0
+                conversions = 0
+
+                for color in colors_to_add:
+                    color_to_basic = {
+                        'W': 'Plains', 'U': 'Island', 'B': 'Swamp',
+                        'R': 'Mountain', 'G': 'Forest'
+                    }
+                    land_name = color_to_basic.get(color)
+                    if land_name and land_name in self.basic_lands_ids:
+                        needed_land_id = self.basic_lands_ids[land_name]
+
+                        # Añadir al menos 2-3 tierras de cada color faltante
+                        for _ in range(min(lands_per_color, len(all_convertible_lands))):
+                            if all_convertible_lands:
+                                # Quitar una tierra convertible
+                                source_land_id = all_convertible_lands.pop(0)
+                                adjusted[source_land_id] -= 1
+
+                                # Añadir la tierra necesaria
+                                adjusted[needed_land_id] += 1
+                                conversions += 1
+
+                if conversions > 0:
+                    self.logger.debug(f"Coherencia de colores: {conversions} tierras convertidas para {colors_without_lands}")
+
         return adjusted
-    
+
+    # ========================================================================
+    # MÉTODOS DE EVALUACIÓN DE CALIDAD DEL MAZO (FITNESS MULTI-COMPONENTE)
+    # ========================================================================
+
+    def evaluate_mana_curve(self, deck_array):
+        """
+        Evalúa la curva de maná del mazo comparándola con una distribución óptima
+
+        Distribución objetivo (basada en teoría de construcción de mazos MTG):
+        - 0 CMC: 0%    (solo tierras, excluidas del cálculo)
+        - 1 CMC: 15%   (early game spells/creatures)
+        - 2 CMC: 25%   (desarrollo temprano)
+        - 3 CMC: 25%   (mid-game dominante)
+        - 4 CMC: 20%   (mid-game fuerte)
+        - 5 CMC: 10%   (late game threats)
+        - 6+ CMC: 5%   (finishers)
+
+        Args:
+            deck_array: Array del mazo a evaluar
+
+        Returns:
+            float: Score de 0.0 a 1.0 (1.0 = curva perfecta)
+        """
+        # Distribución ideal (porcentajes para cartas no-tierra)
+        ideal_curve = {
+            1: 0.15,
+            2: 0.25,
+            3: 0.25,
+            4: 0.20,
+            5: 0.10,
+            6: 0.05  # 6+ agrupado
+        }
+
+        # Contar cartas por CMC (excluyendo tierras)
+        cmc_distribution = {}
+        total_nonland = 0
+
+        for card_id, count in enumerate(deck_array):
+            if count > 0:
+                card = self.card_catalog[card_id]
+                if not card['is_land']:
+                    cmc = int(card['cmc'])
+                    cmc_key = min(cmc, 6)  # Agrupar 6+ como 6
+                    cmc_distribution[cmc_key] = cmc_distribution.get(cmc_key, 0) + count
+                    total_nonland += count
+
+        if total_nonland == 0:
+            return 0.0  # Deck sin hechizos (inválido)
+
+        # Calcular distribución real
+        actual_curve = {}
+        for cmc in range(1, 7):
+            actual_curve[cmc] = cmc_distribution.get(cmc, 0) / total_nonland
+
+        # Calcular diferencia cuadrática media con la distribución ideal
+        mse = sum((actual_curve.get(cmc, 0) - ideal_curve.get(cmc, 0)) ** 2
+                  for cmc in ideal_curve.keys())
+
+        # Convertir MSE a score (0-1): menor MSE = mejor score
+        # MSE máximo teórico ≈ 0.5, normalizamos
+        score = max(0.0, 1.0 - (mse / 0.5))
+
+        return score
+
+    def evaluate_synergy(self, deck_array):
+        """
+        Evalúa sinergias del mazo: tribales, keywords y consistencia de color
+
+        Componentes:
+        - Tribal synergy: Mazos con muchas criaturas del mismo tipo (Ángeles, Dragones, etc.)
+        - Keyword density: Proporción de criaturas con habilidades clave (Flying, Trample, etc.)
+        - Color consistency: Penalización por demasiados colores o identidad fragmentada
+
+        Args:
+            deck_array: Array del mazo a evaluar
+
+        Returns:
+            float: Score de 0.0 a 1.0
+        """
+        creature_types = {}
+        keyword_count = 0
+        total_creatures = 0
+        colors_used = set()
+        total_nonland = 0
+
+        # Keywords de interés para MTG
+        VALUABLE_KEYWORDS = [
+            'Flying', 'Trample', 'Haste', 'First strike', 'Double strike',
+            'Deathtouch', 'Lifelink', 'Vigilance', 'Hexproof', 'Indestructible',
+            'Menace', 'Reach'
+        ]
+
+        for card_id, count in enumerate(deck_array):
+            if count > 0:
+                card = self.card_catalog[card_id]
+
+                # Contar tipos de criaturas (tribal synergy)
+                if card['is_creature']:
+                    total_creatures += count
+                    # Extraer tipo tribal del type_line (formato: "Creature — Angel Warrior")
+                    if '—' in card['type_line']:
+                        creature_type = card['type_line'].split('—')[1].strip().split()[0]
+                        creature_types[creature_type] = creature_types.get(creature_type, 0) + count
+
+                    # Contar keywords
+                    oracle_text = card.get('oracle_text', '')
+                    for keyword in VALUABLE_KEYWORDS:
+                        if keyword in oracle_text:
+                            keyword_count += count
+                            break  # Contar cada criatura solo una vez
+
+                # Analizar consistencia de color
+                if not card['is_land']:
+                    total_nonland += count
+                    colors_used.update(card['color_identity'])
+
+        # COMPONENTE 1: Tribal Synergy (0-0.4 puntos)
+        tribal_score = 0.0
+        if total_creatures > 0:
+            # Encontrar tribu dominante
+            if creature_types:
+                dominant_tribe_count = max(creature_types.values())
+                tribal_ratio = dominant_tribe_count / total_creatures
+                # Recompensar mazos con >40% del mismo tipo tribal
+                tribal_score = min(0.4, tribal_ratio * 0.8) if tribal_ratio > 0.4 else 0.0
+
+        # COMPONENTE 2: Keyword Density (0-0.3 puntos)
+        keyword_score = 0.0
+        if total_creatures > 0:
+            keyword_ratio = keyword_count / total_creatures
+            # Recompensar mazos con >50% criaturas con keywords
+            keyword_score = min(0.3, keyword_ratio * 0.5)
+
+        # COMPONENTE 3: Color Consistency (0-0.3 puntos)
+        color_score = 0.3  # Empezar en máximo
+        num_colors = len(colors_used)
+        if num_colors == 0:
+            color_score = 0.0  # Mazo sin hechizos
+        elif num_colors == 1:
+            color_score = 0.3  # Monocolor (óptimo)
+        elif num_colors == 2:
+            color_score = 0.25  # Bicolor (muy bueno)
+        elif num_colors == 3:
+            color_score = 0.15  # Tricolor (jugable pero inconsistente)
+        else:
+            color_score = 0.05  # 4-5 colores (muy inconsistente)
+
+        total_synergy = tribal_score + keyword_score + color_score
+        return min(1.0, total_synergy)  # Cap en 1.0
+
+    def evaluate_card_balance(self, deck_array):
+        """
+        Evalúa el balance entre criaturas, hechizos y otros permanentes
+
+        Un mazo equilibrado típicamente tiene:
+        - 15-20 criaturas (25-33% de no-tierras)
+        - 10-15 hechizos instantáneos/conjuros (17-25%)
+        - 2-8 artefactos/encantamientos/planeswalkers (3-13%)
+        - 22-26 tierras (37-43% del total)
+
+        Args:
+            deck_array: Array del mazo a evaluar
+
+        Returns:
+            float: Score de 0.0 a 1.0
+        """
+        creatures = 0
+        spells = 0  # Instants + Sorceries
+        artifacts_enchantments = 0
+        planeswalkers = 0
+        lands = 0
+
+        for card_id, count in enumerate(deck_array):
+            if count > 0:
+                card = self.card_catalog[card_id]
+
+                if card['is_land']:
+                    lands += count
+                elif card['is_creature']:
+                    creatures += count
+                elif card['is_instant'] or card['is_sorcery']:
+                    spells += count
+                elif card['is_planeswalker']:
+                    planeswalkers += count
+                elif card['is_artifact'] or card['is_enchantment']:
+                    artifacts_enchantments += count
+
+        total_cards = creatures + spells + artifacts_enchantments + planeswalkers + lands
+        nonland_cards = total_cards - lands
+
+        if total_cards == 0 or nonland_cards == 0:
+            return 0.0
+
+        # Calcular proporciones
+        land_ratio = lands / total_cards
+        creature_ratio = creatures / nonland_cards
+        spell_ratio = spells / nonland_cards
+
+        # EVALUACIÓN 1: Tierras (objetivo 37-43%, óptimo ~40%)
+        land_score = 0.0
+        if 0.37 <= land_ratio <= 0.43:
+            land_score = 0.4  # Perfecto
+        elif 0.33 <= land_ratio <= 0.47:
+            land_score = 0.3  # Aceptable
+        elif 0.25 <= land_ratio <= 0.50:
+            land_score = 0.1  # Marginal
+        else:
+            land_score = 0.0  # Malo
+
+        # EVALUACIÓN 2: Criaturas (objetivo 25-33% de no-tierras)
+        creature_score = 0.0
+        if 0.25 <= creature_ratio <= 0.33:
+            creature_score = 0.3  # Perfecto
+        elif 0.20 <= creature_ratio <= 0.40:
+            creature_score = 0.2  # Aceptable
+        elif 0.15 <= creature_ratio <= 0.50:
+            creature_score = 0.1  # Marginal
+        else:
+            creature_score = 0.0  # Malo
+
+        # EVALUACIÓN 3: Hechizos (objetivo 17-25% de no-tierras)
+        spell_score = 0.0
+        if 0.17 <= spell_ratio <= 0.25:
+            spell_score = 0.3  # Perfecto
+        elif 0.10 <= spell_ratio <= 0.30:
+            spell_score = 0.2  # Aceptable
+        else:
+            spell_score = 0.1  # Marginal
+
+        total_balance = land_score + creature_score + spell_score
+        return min(1.0, total_balance)
+
+    def evaluate_card_power(self, deck_array):
+        """
+        Evalúa el poder bruto de las cartas basándose en rareza y eficiencia
+
+        Criterios:
+        - Rareza: Mythic > Rare > Uncommon > Common
+        - Eficiencia de criaturas: Ratio poder+resistencia / CMC
+        - Penalización por cartas muy costosas sin impacto
+
+        Args:
+            deck_array: Array del mazo a evaluar
+
+        Returns:
+            float: Score de 0.0 a 1.0
+        """
+        # Pesos de rareza (ajustados empíricamente)
+        RARITY_WEIGHTS = {
+            'mythic': 4.0,
+            'rare': 3.0,
+            'uncommon': 2.0,
+            'common': 1.0
+        }
+
+        total_rarity_score = 0
+        total_cards = 0
+        efficiency_scores = []
+
+        for card_id, count in enumerate(deck_array):
+            if count > 0:
+                card = self.card_catalog[card_id]
+
+                # COMPONENTE 1: Rareza
+                rarity = card.get('rarity', 'common').lower()
+                rarity_weight = RARITY_WEIGHTS.get(rarity, 1.0)
+                total_rarity_score += rarity_weight * count
+                total_cards += count
+
+                # COMPONENTE 2: Eficiencia de criaturas
+                if card['is_creature'] and not card['is_land']:
+                    try:
+                        power = int(card.get('power', 0)) if card.get('power') else 0
+                        toughness = int(card.get('toughness', 0)) if card.get('toughness') else 0
+                        cmc = max(1, int(card.get('cmc', 1)))  # Evitar división por 0
+
+                        # Eficiencia = (P+T) / CMC (vanilla test)
+                        efficiency = (power + toughness) / cmc
+                        # Normalizar: eficiencia >2.5 es excelente, <1.0 es mala
+                        normalized_efficiency = min(1.0, efficiency / 2.5)
+                        efficiency_scores.append(normalized_efficiency)
+                    except (ValueError, TypeError):
+                        pass  # Ignorar criaturas con power/toughness no numéricos (ej: */*)
+
+        # Calcular score de rareza (normalizado)
+        if total_cards > 0:
+            avg_rarity = total_rarity_score / total_cards
+            # Normalizar: common=1.0, mythic=4.0 → score 0-1
+            rarity_score = (avg_rarity - 1.0) / 3.0  # Rango [0, 1]
+        else:
+            rarity_score = 0.0
+
+        # Calcular score de eficiencia
+        if efficiency_scores:
+            efficiency_score = sum(efficiency_scores) / len(efficiency_scores)
+        else:
+            efficiency_score = 0.5  # Neutral si no hay criaturas
+
+        # Combinar componentes (60% rareza, 40% eficiencia)
+        total_power = (rarity_score * 0.6) + (efficiency_score * 0.4)
+        return min(1.0, max(0.0, total_power))
+
+    def calculate_deck_quality(self, deck_array):
+        """
+        Calcula la calidad global del mazo combinando todas las métricas
+
+        Componentes y pesos:
+        - Mana curve:     25% (crítico para jugabilidad)
+        - Synergy:        25% (sinergias tribales y keywords)
+        - Card balance:   30% (balance tierra/criatura/hechizo)
+        - Card power:     20% (rareza y eficiencia)
+
+        Args:
+            deck_array: Array del mazo a evaluar
+
+        Returns:
+            float: Score de calidad de 0.0 a 1.0
+        """
+        # Pesos de cada componente (deben sumar 1.0)
+        WEIGHTS = {
+            'mana_curve': 0.25,
+            'synergy': 0.25,
+            'card_balance': 0.30,
+            'card_power': 0.20
+        }
+
+        # Calcular cada métrica
+        mana_curve_score = self.evaluate_mana_curve(deck_array)
+        synergy_score = self.evaluate_synergy(deck_array)
+        balance_score = self.evaluate_card_balance(deck_array)
+        power_score = self.evaluate_card_power(deck_array)
+
+        # Combinar con pesos
+        quality = (
+            mana_curve_score * WEIGHTS['mana_curve'] +
+            synergy_score * WEIGHTS['synergy'] +
+            balance_score * WEIGHTS['card_balance'] +
+            power_score * WEIGHTS['card_power']
+        )
+
+        # Log detallado (DEBUG level)
+        self.logger.debug(
+            f"Calidad del mazo: {quality:.3f} "
+            f"(Curva:{mana_curve_score:.2f}, "
+            f"Sinergia:{synergy_score:.2f}, "
+            f"Balance:{balance_score:.2f}, "
+            f"Poder:{power_score:.2f})"
+        )
+
+        return quality
+
+    # ========================================================================
+
     def tournament_selection(self, population_arrays, fitness_values):
         """Selección por torneo"""
         tournament_indices = random.sample(range(len(population_arrays)), 
@@ -1012,10 +1644,22 @@ class MTGGeneticAlgorithm:
         """
         Actualiza el Hall of Fame global con los mejores individuos históricos
 
+        HALL OF FAME TARDÍO: No se activa hasta la Generación 5 para evitar
+        preservar mazos aleatorios de generaciones tempranas que ralenticen
+        la exploración inicial.
+
         Args:
             fitness_values (list): Fitness de la generación actual
             population_arrays (list): Arrays de mazos de la generación actual
         """
+        # Hall of Fame Tardío: No activar en generaciones tempranas
+        # Esto permite exploración libre sin preservar mazos aleatorios malos
+        HOF_ACTIVATION_GENERATION = 5  # Activar a partir de Gen 5
+
+        if self.current_generation < HOF_ACTIVATION_GENERATION:
+            self.logger.debug(f"Hall of Fame desactivado hasta Gen {HOF_ACTIVATION_GENERATION} (actual: Gen {self.current_generation})")
+            return
+
         # Combinar candidatos actuales con hall of fame existente
         current_candidates = [(fitness_values[i], population_arrays[i].copy()) 
                              for i in range(len(fitness_values))]
@@ -1050,7 +1694,205 @@ class MTGGeneticAlgorithm:
             best_fitness = unique_best[0][0]
             worst_fitness = unique_best[-1][0]
             self.logger.debug(f"Hall of Fame: Mejor={best_fitness:.4f}, Peor={worst_fitness:.4f}")
-    
+
+    # ==============================================================================
+    # SISTEMA DE CHECKPOINTS Y RECUPERACIÓN
+    # ==============================================================================
+
+    def check_disk_space(self, min_gb_required=5):
+        """
+        Verifica que haya suficiente espacio en disco disponible
+
+        Args:
+            min_gb_required (float): Espacio mínimo requerido en GB
+
+        Raises:
+            RuntimeError: Si el espacio disponible es insuficiente
+        """
+        import psutil
+
+        disk = psutil.disk_usage(self.output_dir)
+        free_gb = disk.free / (1024**3)
+
+        self.logger.info(f"Espacio en disco: {free_gb:.1f} GB libres ({disk.percent:.1f}% usado)")
+
+        if free_gb < min_gb_required:
+            error_msg = f"Espacio en disco insuficiente: {free_gb:.1f} GB libres (mínimo {min_gb_required} GB)"
+            self.logger.error(error_msg)
+            raise RuntimeError(error_msg)
+
+        # Advertencia si está al 95%
+        if disk.percent > 95:
+            self.logger.warning(f"ADVERTENCIA: Disco casi lleno ({disk.percent:.1f}%) - Desactivando guardado de outputs de Forge")
+            self.save_forge_outputs = False
+
+        return free_gb
+
+    def save_checkpoint(self, generation, fitness_values):
+        """
+        Guarda un checkpoint completo del estado actual del algoritmo
+
+        Este checkpoint permite reanudar la ejecución exactamente desde esta generación
+        si el programa se interrumpe.
+
+        Args:
+            generation (int): Número de generación actual
+            fitness_values (list): Valores de fitness de la población actual
+        """
+        checkpoint_dir = os.path.join(self.output_dir, "checkpoints")
+        os.makedirs(checkpoint_dir, exist_ok=True)
+
+        checkpoint_file = os.path.join(checkpoint_dir, f"checkpoint_gen_{generation}.json")
+
+        try:
+            checkpoint_data = {
+                'generation': generation,
+                'population_size': self.population_size,
+                'max_generations': self.max_generations,
+                'fitness_values': fitness_values,
+                'best_fitness_ever': self.best_fitness_ever if hasattr(self, 'best_fitness_ever') else max(fitness_values),
+                'stagnation_counter': self.stagnation_counter if hasattr(self, 'stagnation_counter') else 0,
+                'mutation_rate': self.mutation_rate,
+                'original_mutation_rate': self.original_mutation_rate if hasattr(self, 'original_mutation_rate') else self.mutation_rate,
+                'adaptive_timeout': self.adaptive_timeout,
+                'generations_since_intervention': self.generations_since_intervention if hasattr(self, 'generations_since_intervention') else 0,
+                'timestamp': datetime.now().isoformat(),
+                'hall_of_fame': []
+            }
+
+            # Guardar Hall of Fame si existe
+            if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+                checkpoint_data['hall_of_fame'] = [
+                    {'fitness': float(fitness), 'array': array.tolist()}
+                    for fitness, array in self.hall_of_fame_arrays
+                ]
+
+            # Guardar población actual
+            checkpoint_data['population_arrays'] = [
+                array.tolist() for array in self.population_arrays
+            ]
+
+            # Escritura atómica usando archivo temporal
+            temp_file = checkpoint_file + '.tmp'
+            with open(temp_file, 'w') as f:
+                json.dump(checkpoint_data, f, indent=2)
+
+            # Mover atómicamente (reemplaza si existe)
+            os.replace(temp_file, checkpoint_file)
+
+            self.logger.info(f"Checkpoint guardado: {os.path.basename(checkpoint_file)}")
+
+            # Limpiar checkpoints antiguos (mantener solo los últimos 3)
+            self.cleanup_old_checkpoints(checkpoint_dir, keep_last=3)
+
+        except Exception as e:
+            self.logger.error(f"Error guardando checkpoint: {e}")
+
+    def cleanup_old_checkpoints(self, checkpoint_dir, keep_last=3):
+        """
+        Elimina checkpoints antiguos para ahorrar espacio
+
+        Args:
+            checkpoint_dir (str): Directorio de checkpoints
+            keep_last (int): Número de checkpoints recientes a mantener
+        """
+        try:
+            checkpoint_files = sorted(
+                [f for f in os.listdir(checkpoint_dir) if f.startswith('checkpoint_gen_') and f.endswith('.json')],
+                key=lambda x: int(x.split('_')[2].split('.')[0])
+            )
+
+            # Eliminar todos excepto los últimos N
+            for old_checkpoint in checkpoint_files[:-keep_last]:
+                old_path = os.path.join(checkpoint_dir, old_checkpoint)
+                os.remove(old_path)
+                self.logger.debug(f"Checkpoint antiguo eliminado: {old_checkpoint}")
+
+        except Exception as e:
+            self.logger.warning(f"Error limpiando checkpoints antiguos: {e}")
+
+    def load_checkpoint(self, checkpoint_file):
+        """
+        Carga un checkpoint y restaura el estado del algoritmo
+
+        Args:
+            checkpoint_file (str): Ruta al archivo de checkpoint
+
+        Returns:
+            dict: Datos del checkpoint o None si hay error
+        """
+        try:
+            with open(checkpoint_file, 'r') as f:
+                checkpoint_data = json.load(f)
+
+            # Restaurar estado del algoritmo
+            self.population_arrays = [
+                np.array(array, dtype=int) for array in checkpoint_data['population_arrays']
+            ]
+
+            self.best_fitness_ever = checkpoint_data.get('best_fitness_ever', 0.0)
+            self.stagnation_counter = checkpoint_data.get('stagnation_counter', 0)
+            self.mutation_rate = checkpoint_data.get('mutation_rate', self.mutation_rate)
+            self.original_mutation_rate = checkpoint_data.get('original_mutation_rate', self.mutation_rate)
+            self.adaptive_timeout = checkpoint_data.get('adaptive_timeout', self.base_timeout)
+            self.generations_since_intervention = checkpoint_data.get('generations_since_intervention', 0)
+
+            # Restaurar Hall of Fame si existe
+            if 'hall_of_fame' in checkpoint_data and len(checkpoint_data['hall_of_fame']) > 0:
+                self.hall_of_fame_arrays = [
+                    (entry['fitness'], np.array(entry['array'], dtype=int))
+                    for entry in checkpoint_data['hall_of_fame']
+                ]
+
+            self.logger.info(f"Checkpoint cargado: Generación {checkpoint_data['generation']}")
+            self.logger.info(f"  Best fitness: {self.best_fitness_ever:.4f}")
+            self.logger.info(f"  Stagnation counter: {self.stagnation_counter}")
+            self.logger.info(f"  Mutation rate: {self.mutation_rate:.3f} (original: {self.original_mutation_rate:.3f})")
+            self.logger.info(f"  Generations since intervention: {self.generations_since_intervention}")
+            self.logger.info(f"  Population size: {len(self.population_arrays)}")
+
+            return checkpoint_data
+
+        except Exception as e:
+            self.logger.error(f"Error cargando checkpoint: {e}")
+            return None
+
+    def find_latest_checkpoint(self):
+        """
+        Busca el checkpoint más reciente disponible
+
+        Returns:
+            tuple: (checkpoint_file, generation) o (None, None) si no hay checkpoints
+        """
+        checkpoint_dir = os.path.join(self.output_dir, "checkpoints")
+
+        if not os.path.exists(checkpoint_dir):
+            return None, None
+
+        try:
+            checkpoint_files = [
+                f for f in os.listdir(checkpoint_dir)
+                if f.startswith('checkpoint_gen_') and f.endswith('.json')
+            ]
+
+            if not checkpoint_files:
+                return None, None
+
+            # Obtener el más reciente por número de generación
+            latest = max(
+                checkpoint_files,
+                key=lambda x: int(x.split('_')[2].split('.')[0])
+            )
+
+            generation = int(latest.split('_')[2].split('.')[0])
+            checkpoint_file = os.path.join(checkpoint_dir, latest)
+
+            return checkpoint_file, generation
+
+        except Exception as e:
+            self.logger.error(f"Error buscando checkpoints: {e}")
+            return None, None
+
     def evolve(self):
         """Ejecuta el algoritmo genético completo con paralelización y anti-estancamiento"""
         self.logger.info("=== INICIANDO ALGORITMO GENÉTICO CON ANTI-ESTANCAMIENTO ===")
@@ -1059,42 +1901,111 @@ class MTGGeneticAlgorithm:
 
         termination_reason = "max_generations_reached"
         best_deck = None
+        start_generation = 0
 
         try:
-            # Evaluación inicial mediante torneo paralelo
-            self.logger.info("Evaluando población inicial con procesamiento paralelo...")
-            fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
-            self.save_population_arrays(0)  # ← NUEVA LÍNEA
+            # === VERIFICAR ESPACIO EN DISCO ===
+            self.logger.info("=== VERIFICANDO ESPACIO EN DISCO ===")
+            try:
+                free_gb = self.check_disk_space(min_gb_required=5)
+                self.logger.info(f"Verificación OK: {free_gb:.1f} GB disponibles")
+            except RuntimeError as e:
+                self.logger.error(f"No se puede iniciar: {e}")
+                raise
 
-            # Variables de control mejoradas
-            best_fitness_ever = max(fitness_values)
-            self.best_fitness_ever = best_fitness_ever 
-            self.update_statistics(0, fitness_values)  # <-- NUEVA LÍNEA
-            
-            self.stagnation_counter = 0
-            generations_since_intervention = 0
-            self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
+            # === BUSCAR CHECKPOINT EXISTENTE ===
+            checkpoint_file, checkpoint_gen = self.find_latest_checkpoint()
 
-            # Actualizar Hall of Fame inicial
-            self.update_hall_of_fame(fitness_values, self.population_arrays)
+            if checkpoint_file and checkpoint_gen is not None:
+                self.logger.info(f"=== CHECKPOINT ENCONTRADO: Generación {checkpoint_gen} ===")
+                response = input(f"\n¿Deseas reanudar desde la generación {checkpoint_gen}? (S/n): ").strip().lower()
+
+                if response in ['s', 'si', 'sí', 'y', 'yes', '']:
+                    checkpoint_data = self.load_checkpoint(checkpoint_file)
+                    if checkpoint_data:
+                        start_generation = checkpoint_data['generation'] + 1
+                        fitness_values = checkpoint_data['fitness_values']
+                        best_fitness_ever = checkpoint_data['best_fitness_ever']
+                        self.best_fitness_ever = best_fitness_ever
+
+                        self.logger.info(f"REANUDANDO desde generación {start_generation}")
+                        self.logger.info(f"Best fitness recuperado: {best_fitness_ever:.4f}")
+                    else:
+                        self.logger.warning("Error cargando checkpoint. Iniciando desde cero.")
+                        start_generation = 0
+                else:
+                    self.logger.info("Iniciando nueva ejecución desde generación 0")
+                    start_generation = 0
+
+            # === EVALUACIÓN INICIAL (solo si no se reanuda) ===
+            if start_generation == 0:
+                self.logger.info("Evaluando población inicial con procesamiento paralelo...")
+                fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
+                self.save_population_arrays(0)
+
+                # Variables de control mejoradas
+                best_fitness_ever = max(fitness_values)
+                self.best_fitness_ever = best_fitness_ever
+                self.update_statistics(0, fitness_values)
+
+                self.stagnation_counter = 0
+                self.generations_since_intervention = 0
+                self.current_fitness_values = fitness_values
+
+                # Actualizar Hall of Fame inicial
+                self.update_hall_of_fame(fitness_values, self.population_arrays)
+
+                # Guardar checkpoint inicial
+                self.save_checkpoint(0, fitness_values)
+            else:
+                # Restaurar variables de control desde checkpoint
+                # stagnation_counter, generations_since_intervention ya restaurados en load_checkpoint
+                self.current_fitness_values = fitness_values
 
             # BUCLE PRINCIPAL CON CONTROL DE TERMINACIÓN MEJORADO
-            for generation in range(1, self.max_generations + 1):
+            for generation in range(start_generation + 1 if start_generation > 0 else 1, self.max_generations + 1):
                 self.current_generation = generation
                 self.logger.info(f"\n=== GENERACIÓN {generation} ===")
+
+                # === VERIFICAR ESPACIO EN DISCO CADA 5 GENERACIONES ===
+                if generation % 5 == 0:
+                    try:
+                        free_gb = self.check_disk_space(min_gb_required=2)
+                    except RuntimeError as e:
+                        self.logger.error(f"Deteniendo ejecución: {e}")
+                        termination_reason = "disk_space_exhausted"
+                        break
 
                 # === CREAR NUEVA GENERACIÓN (código existente) ===
                 new_population = []
 
-                # Preservar elite del Hall of Fame
+                # Preservar elite del Hall of Fame (solo si HoF está activado)
+                HOF_ACTIVATION_GENERATION = 5
                 hof_preserved = 0
-                if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
-                    elite_to_preserve = min(self.elite_size, len(self.hall_of_fame_arrays))
-                    for i in range(elite_to_preserve):
-                        if hof_preserved < self.elite_size:
-                            fitness, elite_array = self.hall_of_fame_arrays[i]
-                            new_population.append(elite_array.copy())
+
+                if generation >= HOF_ACTIVATION_GENERATION:
+                    if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+                        elite_to_preserve = min(self.elite_size, len(self.hall_of_fame_arrays))
+                        for i in range(elite_to_preserve):
+                            if hof_preserved < self.elite_size:
+                                fitness, elite_array = self.hall_of_fame_arrays[i]
+                                new_population.append(elite_array.copy())
+                                hof_preserved += 1
+                        self.logger.debug(f"Preservados {hof_preserved} individuos del Hall of Fame")
+                else:
+                    # Antes de Gen 5: preservar elite de la GENERACIÓN ACTUAL
+                    # (elitismo clásico, no del Hall of Fame)
+                    if len(fitness_values) > 0:
+                        # Obtener índices de los mejores de esta generación
+                        elite_indices = sorted(range(len(fitness_values)),
+                                             key=lambda i: fitness_values[i],
+                                             reverse=True)[:self.elite_size]
+
+                        for idx in elite_indices:
+                            new_population.append(self.population_arrays[idx].copy())
                             hof_preserved += 1
+
+                        self.logger.debug(f"Preservados {hof_preserved} individuos elite de Gen {generation-1} (HoF desactivado)")
 
                 # Calcular tasa de mutación adaptiva
                 current_mutation_rate = self.adaptive_mutation_rate(generation, self.stagnation_counter)
@@ -1148,9 +2059,9 @@ class MTGGeneticAlgorithm:
                     self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
                     
                     # Restaurar tasa de mutación si había intervención
-                    if generations_since_intervention > 0:
+                    if self.generations_since_intervention > 0:
                         self.restore_mutation_rate()
-                        generations_since_intervention = 0
+                        self.generations_since_intervention = 0
                 else:
                     self.stagnation_counter += 1
                     self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter}/{self.stagnation_limit}")
@@ -1163,22 +2074,36 @@ class MTGGeneticAlgorithm:
                 if apply_intervention:
                     # Aplicar intervención anti-estancamiento
                     self.apply_anti_stagnation_intervention(generation)
-                    generations_since_intervention = 1
+                    self.generations_since_intervention = 1
+
+                    # GUARDAR CHECKPOINT DESPUÉS DE LA INTERVENCIÓN
+                    # Es crítico guardar aquí porque el continue saltará el save_checkpoint normal
+                    self.logger.info("Guardando checkpoint post-intervención...")
+                    self.save_checkpoint(generation, fitness_values)
+
                     # Continuar después de la intervención
                     continue
                 
                 if not should_continue:
                     termination_reason = reason
                     self.logger.info(f"🏁 TERMINACIÓN CONTROLADA: {termination_reason}")
+
+                    # GUARDAR CHECKPOINT FINAL ANTES DE TERMINAR
+                    self.logger.info("Guardando checkpoint final antes de terminar...")
+                    self.save_checkpoint(generation, fitness_values)
+
                     break
                 
                 # Incrementar contador de generaciones desde intervención
-                if generations_since_intervention > 0:
-                    generations_since_intervention += 1
+                if self.generations_since_intervention > 0:
+                    self.generations_since_intervention += 1
                     # Restaurar mutación después de 3 generaciones
-                    if generations_since_intervention >= 3:
+                    if self.generations_since_intervention >= 3:
                         self.restore_mutation_rate()
-                        generations_since_intervention = 0
+                        self.generations_since_intervention = 0
+
+                # === GUARDAR CHECKPOINT AL FINAL DE CADA GENERACIÓN ===
+                self.save_checkpoint(generation, fitness_values)
 
             # === OBTENER MEJOR RESULTADO CON VERIFICACIÓN ===
             best_deck, final_fitness = self.get_final_best_result()
@@ -1201,6 +2126,18 @@ class MTGGeneticAlgorithm:
         except KeyboardInterrupt:
             self.logger.info("=== EJECUCIÓN INTERRUMPIDA POR EL USUARIO ===")
             termination_reason = "user_interrupt"
+
+            # GUARDAR CHECKPOINT DE EMERGENCIA antes de terminar
+            if hasattr(self, 'current_generation') and self.current_generation > 0:
+                try:
+                    self.logger.info(f"Guardando checkpoint de emergencia en generación {self.current_generation}...")
+                    # Usar fitness_values si existe, sino usar los actuales
+                    checkpoint_fitness = fitness_values if 'fitness_values' in locals() else self.current_fitness_values
+                    self.save_checkpoint(self.current_generation, checkpoint_fitness)
+                    self.logger.info(f"✅ Checkpoint guardado: puedes reanudar desde generación {self.current_generation + 1}")
+                except Exception as e:
+                    self.logger.error(f"Error guardando checkpoint de emergencia: {e}")
+
             # Crear un deck básico si no hay mejor disponible
             if best_deck is None and len(self.population_arrays) > 0:
                 best_deck = self.array_to_deck(self.population_arrays[0], "Interrupted_Deck")

@@ -317,15 +317,24 @@ class HardwareAnalyzer:
         profile = self.performance_profile
 
         # === CÁLCULO DE WORKERS ÓPTIMOS ===
-        # Considerar múltiples factores: cores, RAM, carga actual
-        max_theoretical = cpu['logical_cores']
-        load_factor = max(0.1, cpu['available_capacity'] / 100)  # Factor de carga actual
-        max_by_ram = int(memory['available_gb'] * 1024 / 300)    # ~300MB por worker
+        # Considerar múltiples factores: cores físicos (mejor para CPU-bound), RAM, carga
+        max_theoretical = cpu['physical_cores'] or cpu['logical_cores']
+        max_by_ram = int(memory['available_gb'] * 1024 / 400)    # ~400MB por worker (conservador)
 
+        # Calcular workers basado en cores físicos (mejor para tareas CPU-bound)
+        # Usamos 100% de cores físicos si carga < 60%, sino reducimos
+        if cpu['baseline_usage'] < 60:
+            # Sistema con poca carga: usar todos los cores físicos
+            optimal_workers = max_theoretical
+        else:
+            # Sistema con carga alta: usar 70% de cores físicos
+            optimal_workers = max(2, int(max_theoretical * 0.7))
+
+        # Aplicar límites por RAM y práctico
         optimal_workers = min(
-            int(max_theoretical * 0.8 * load_factor),  # 80% de cores disponibles
-            max_by_ram,                                 # Limitado por RAM
-            16                                          # Límite práctico razonable
+            optimal_workers,
+            max_by_ram,     # Limitado por RAM disponible
+            20              # Límite práctico aumentado (antes era 16)
         )
         optimal_workers = max(2, optimal_workers)  # Mínimo 2 workers
 
@@ -615,51 +624,52 @@ class MTGMenuSystem:
         Imprime el header principal del programa
         """
         print("\n" + "=" * 80)
-        print("    ALGORITMO GENÉTICO PARA MAGIC: THE GATHERING")
-        print("    🚀 Versión con Auto-Optimización de Hardware - TFG José Gascó")
+        print("           ALGORITMO GENÉTICO PARA MAGIC: THE GATHERING")
+        print("    Optimización Evolutiva de Mazos con Paralelización Adaptativa")
+        print("                    TFG - José Gascó Bulé (2025)")
         print("=" * 80)
 
     def print_status(self):
         """
         Imprime el estado actual del sistema con información detallada
         """
-        print("\n📊 ESTADO ACTUAL DEL SISTEMA:")
+        print("\nESTADO ACTUAL DEL SISTEMA:")
 
         # Estado de cartas
         if self.cards_available:
-            print(f"  ✅ Cartas: {self.num_cards:,} cartas del formato Estándar disponibles")
+            print(f"  Cartas: {self.num_cards:,} cartas del formato Estándar disponibles")
         else:
-            print("  ❌ Cartas: No se han descargado cartas")
+            print("  Cartas: No se han descargado cartas")
 
         # Estado de mazos
         if self.population_available:
-            print("  ✅ Mazos: Población inicial generada")
+            print("  Mazos: Población inicial generada")
         else:
-            print("  ❌ Mazos: No se ha generado población inicial")
+            print("  Mazos: No se ha generado población inicial")
 
         # Estado de Forge
         if self.forge_configured:
-            print(f"  ✅ Forge: Configurado en {os.path.basename(self.forge_jar)}")
+            print(f"  Forge: Configurado en {os.path.basename(self.forge_jar)}")
         else:
-            print("  ❌ Forge: No encontrado (necesario para algoritmo genético)")
+            print("  Forge: No encontrado (necesario para algoritmo genético)")
 
         # Modo de ejecución
         if self.headless_mode:
-            print("  🖥️  Modo: Headless (sin interfaz gráfica) - usando xvfb-run")
+            print("  Modo: Headless (sin interfaz gráfica) - usando xvfb-run")
         else:
-            print("  🖥️  Modo: GUI disponible - ejecución estándar")
+            print("  Modo: GUI disponible - ejecución estándar")
 
         # Estado del análisis de hardware
         if self.hardware_analyzer:
             config = self.hardware_analyzer.optimization_config
             profile = self.hardware_analyzer.performance_profile
-            print(f"  🚀 Hardware: {profile['system_tier'].replace('_', ' ').title()} - {config['max_workers']} workers óptimos")
+            print(f"  Hardware: {profile['system_tier'].replace('_', ' ').title()} - {config['max_workers']} workers óptimos")
         else:
-            print(f"  🔍 Hardware: Se analizará automáticamente cuando sea necesario")
+            print(f"  Hardware: Se analizará automáticamente cuando sea necesario")
 
         # Mensaje de preparación
         if self.cards_available and self.population_available and self.forge_configured:
-            print(f"  🎯 Sistema listo para algoritmo genético AUTO-OPTIMIZADO")
+            print(f"  Sistema listo para algoritmo genético optimizado")
 
         print()
 
@@ -718,20 +728,21 @@ class MTGMenuSystem:
             if self.detect_baseline_performance():
                 self.show_performance_comparison()
 
-            print("🎯 MENÚ PRINCIPAL:")
-            print("  1. 📥 Obtener cartas de Magic (Paso 1)")
-            print("  2. 🎴 Generar mazos iniciales (Paso 2)")
-            print("  3. 🧬 Ejecutar algoritmo genético AUTO-OPTIMIZADO (Paso 3)")
-            print("  4. 🔧 Configurar Forge")
-            print("  5. 🖥️  Analizar hardware del sistema")
-            print("  6. 📊 Ver estadísticas del sistema")
-            print("  7. 🚀 Ejecución automática completa (AUTO-OPTIMIZADA)")
-            print("  8. ⚡ Modo de prueba rápida (AUTO-OPTIMIZADO)")
-            print("  9. 🖥️  Configurar modo headless")
-            print("  0. 🚪 Salir")
+            print("MENÚ PRINCIPAL:")
+            print("  1. Obtener cartas de Magic (Paso 1)")
+            print("  2. Generar mazos iniciales (Paso 2)")
+            print("  3. Ejecutar algoritmo genético optimizado (Paso 3)")
+            print("  4. Continuar desde checkpoint guardado")
+            print("  5. Configurar Forge")
+            print("  6. Analizar hardware del sistema")
+            print("  7. Ver estadísticas del sistema")
+            print("  8. Ejecución automática completa")
+            print("  9. Modo de prueba rápida")
+            print("  10. Configurar modo headless")
+            print("  0. Salir")
 
             try:
-                choice = input("\n👉 Selecciona una opción (0-9): ").strip()
+                choice = input("\n👉 Selecciona una opción (0-10): ").strip()
 
                 if choice == "0":
                     print("\n👋 ¡Hasta luego!")
@@ -743,19 +754,21 @@ class MTGMenuSystem:
                 elif choice == "3":
                     self.menu_algoritmo_genetico_optimizado()
                 elif choice == "4":
-                    self.menu_configurar_forge()
+                    self.menu_continuar_desde_checkpoint()
                 elif choice == "5":
-                    self.menu_analizar_hardware()
+                    self.menu_configurar_forge()
                 elif choice == "6":
-                    self.menu_estadisticas()
+                    self.menu_analizar_hardware()
                 elif choice == "7":
-                    self.ejecucion_completa_optimizada()
+                    self.menu_estadisticas()
                 elif choice == "8":
-                    self.modo_prueba_optimizado()
+                    self.ejecucion_completa_optimizada()
                 elif choice == "9":
+                    self.modo_prueba_optimizado()
+                elif choice == "10":
                     self.menu_configurar_headless()
                 else:
-                    print("\n❌ Opción no válida. Por favor, selecciona un número del 0 al 9.")
+                    print("\n❌ Opción no válida. Por favor, selecciona un número del 0 al 10.")
                     input("\nPresiona Enter para continuar...")
 
             except KeyboardInterrupt:
@@ -774,17 +787,17 @@ class MTGMenuSystem:
         Menú para descargar y procesar cartas de Magic desde Scryfall
         """
         print("\n" + "=" * 60)
-        print("📥 OBTENER CARTAS DE MAGIC")
+        print("OBTENER CARTAS DE MAGIC")
         print("=" * 60)
 
         if self.cards_available:
-            print(f"✅ Ya tienes {self.num_cards:,} cartas descargadas.")
+            print(f"Estado: {self.num_cards:,} cartas del formato Estándar ya disponibles.")
             choice = input("¿Descargar cartas nuevamente? (s/N): ").strip().lower()
             if choice not in ['s', 'sí', 'si', 'y', 'yes']:
                 return
 
-        print("\n🌐 Descargando cartas del formato Estándar...")
-        print("   (Esto puede tardar 2-5 minutos)")
+        print("\nDescargando cartas del formato Estándar desde Scryfall API...")
+        print("Tiempo estimado: 2-5 minutos")
 
         start_time = time.time()
 
@@ -797,15 +810,15 @@ class MTGMenuSystem:
 
             if cards_df is not None and not cards_df.empty:
                 elapsed = time.time() - start_time
-                print(f"\n✅ ¡Cartas obtenidas exitosamente!")
-                print(f"   Tiempo: {elapsed:.1f} segundos")
-                print(f"   Cartas únicas: {len(cards_df):,}")
+                print(f"\nCartas obtenidas exitosamente")
+                print(f"Tiempo de descarga: {elapsed:.1f} segundos")
+                print(f"Cartas únicas procesadas: {len(cards_df):,}")
                 self.check_system_status()
             else:
-                print("\n❌ Error al obtener las cartas.")
+                print("\nError: No se pudieron obtener las cartas del servidor.")
 
         except Exception as e:
-            print(f"\n❌ Error: {e}")
+            print(f"\nError durante la descarga: {e}")
 
         input("\nPresiona Enter para continuar...")
 
@@ -818,11 +831,11 @@ class MTGMenuSystem:
         Menú para generar población inicial de mazos con limpieza automática
         """
         print("\n" + "=" * 60)
-        print("🎴 GENERAR MAZOS INICIALES")
+        print("GENERAR MAZOS INICIALES")
         print("=" * 60)
 
         if not self.cards_available:
-            print("❌ Primero necesitas obtener las cartas (Opción 1).")
+            print("Error: Primero necesitas obtener las cartas (Opción 1).")
             input("\nPresiona Enter para continuar...")
             return
 
@@ -837,16 +850,16 @@ class MTGMenuSystem:
             existing_files.extend(glob.glob(pattern))
 
         if existing_files:
-            print(f"ℹ️  Se encontraron {len(existing_files)} archivos de mazos existentes.")
-            print("   Estos serán eliminados automáticamente antes de generar los nuevos.")
+            print(f"Información: Se encontraron {len(existing_files)} archivos de mazos existentes.")
+            print("Estos serán eliminados automáticamente antes de generar los nuevos.")
 
-        print(f"\n🎯 TIPOS DE POBLACIÓN:")
-        print("  1. 🏃 Prueba ultra rápida (8 mazos)")
-        print("  2. 🚀 Prueba rápida (12 mazos)")
-        print("  3. 💪 Desarrollo (20 mazos)")
-        print("  4. 🔥 Estándar (30 mazos)")
-        print("  5. 🌟 Intensivo (50 mazos)")
-        print("  6. 🎛️  Personalizada")
+        print(f"\nTIPOS DE POBLACIÓN:")
+        print("  1. Prueba ultra rápida (8 mazos)")
+        print("  2. Prueba rápida (12 mazos)")
+        print("  3. Desarrollo (20 mazos)")
+        print("  4. Estándar (30 mazos)")
+        print("  5. Intensivo (50 mazos)")
+        print("  6. Personalizada")
 
         try:
             choice = input("\n👉 Selecciona tipo de población (1-6): ").strip()
@@ -863,28 +876,28 @@ class MTGMenuSystem:
                 size, name = 50, "intensivo"
             elif choice == "6":
                 try:
-                    size = int(input("👉 Número de mazos (5-100): "))
+                    size = int(input("Número de mazos (5-100): "))
                     if size < 5 or size > 100:
-                        print("❌ Número fuera de rango.")
+                        print("Error: Número fuera de rango.")
                         return
                     name = "personalizada"
                 except ValueError:
-                    print("❌ Número no válido.")
+                    print("Error: Número no válido.")
                     return
             else:
-                print("❌ Opción no válida.")
+                print("Error: Opción no válida.")
                 return
 
-            print(f"\n📊 CONFIGURACIÓN SELECCIONADA:")
-            print(f"   Mazos: {size}")
+            print(f"\nCONFIGURACIÓN SELECCIONADA:")
+            print(f"  Mazos a generar: {size}")
             if existing_files:
-                print(f"   🧹 Se eliminarán {len(existing_files)} archivos existentes")
+                print(f"  Archivos a eliminar: {len(existing_files)}")
 
             confirm = input("\n¿Continuar con esta configuración? (S/n): ").strip().lower()
             if confirm in ['n', 'no']:
                 return
 
-            print(f"\n🔨 Generando población {name} de {size} mazos...")
+            print(f"\nGenerando población {name} de {size} mazos...")
             start_time = time.time()
 
             # Cargar generador (incluye limpieza automática)
@@ -898,14 +911,14 @@ class MTGMenuSystem:
             population = generator.generate_population_exact_size(size)
 
             elapsed = time.time() - start_time
-            print(f"\n✅ ¡Población generada exitosamente!")
-            print(f"   Tiempo: {elapsed:.1f} segundos")
-            print(f"   Mazos creados: {len(population)}")
+            print(f"\nPoblación generada exitosamente")
+            print(f"Tiempo de generación: {elapsed:.1f} segundos")
+            print(f"Mazos creados: {len(population)}")
 
             self.check_system_status()
 
         except Exception as e:
-            print(f"\n❌ Error: {e}")
+            print(f"\nError durante la generación: {e}")
 
         input("\nPresiona Enter para continuar...")
 
@@ -1047,7 +1060,7 @@ class MTGMenuSystem:
         Menú principal para ejecutar algoritmo genético auto-optimizado
         """
         print("\n" + "=" * 60)
-        print("🧬 ALGORITMO GENÉTICO AUTO-OPTIMIZADO")
+        print("ALGORITMO GENÉTICO OPTIMIZADO")
         print("=" * 60)
 
         # Verificar prerrequisitos
@@ -1060,14 +1073,14 @@ class MTGMenuSystem:
             missing.append("Forge")
 
         if missing:
-            print(f"❌ Faltan componentes: {', '.join(missing)}")
-            print("   Completa los pasos anteriores primero.")
+            print(f"Error: Faltan componentes requeridos: {', '.join(missing)}")
+            print("Completa los pasos anteriores primero.")
             input("\nPresiona Enter para continuar...")
             return
 
         # Analizar hardware si no se ha hecho
         if not self.analyze_hardware_if_needed():
-            print("❌ No se pudo analizar el hardware. Usando configuración por defecto.")
+            print("Advertencia: No se pudo analizar el hardware. Usando configuración por defecto.")
             input("\nPresiona Enter para continuar...")
             return
 
@@ -1088,54 +1101,54 @@ class MTGMenuSystem:
             population_file = pop_file
             pop_type = "Completa"
         else:
-            print("❌ No se encontró población de mazos.")
+            print("Error: No se encontró población de mazos.")
             return
 
         # Mostrar configuración optimizada
         config = self.hardware_analyzer.optimization_config
         profile = self.hardware_analyzer.performance_profile
 
-        print(f"\n📊 CONFIGURACIÓN AUTO-DETECTADA:")
-        print(f"   Sistema: {profile['system_tier'].replace('_', ' ').title()} ({profile['overall_score']:.1f}/4.0)")
-        print(f"   Población: {pop_type} ({pop_size} mazos)")
-        print(f"   Workers óptimos: {config['max_workers']}")
-        print(f"   Timeout base: {config['base_timeout']}s")
-        print(f"   Logging: {config['log_level']}")
+        print(f"\nCONFIGURACIÓN AUTO-DETECTADA:")
+        print(f"  Sistema: {profile['system_tier'].replace('_', ' ').title()} ({profile['overall_score']:.1f}/4.0)")
+        print(f"  Población: {pop_type} ({pop_size} mazos)")
+        print(f"  Workers óptimos: {config['max_workers']}")
+        print(f"  Timeout base: {config['base_timeout']}s")
+        print(f"  Nivel de logging: {config['log_level']}")
 
         # Opciones de ejecución
-        print(f"\n🎯 CONFIGURACIONES OPTIMIZADAS PARA TU SISTEMA:")
+        print(f"\nCONFIGURACIONES OPTIMIZADAS PARA TU SISTEMA:")
 
         options = [
-            ("Prueba Ultra Rápida", 3, "🏃"),
-            ("Desarrollo", 10, "🧪"),
-            ("Investigación", 25, "🔬"),
-            ("Producción", 50, "🏭")
+            ("Prueba Ultra Rápida", 3),
+            ("Desarrollo", 10),
+            ("Investigación", 25),
+            ("Producción", 50)
         ]
 
-        for i, (name, gens, emoji) in enumerate(options, 1):
+        for i, (name, gens) in enumerate(options, 1):
             estimate = self.hardware_analyzer.estimate_time(pop_size, gens)
-            print(f"  {i}. {emoji} {name}: {gens} generaciones (~{estimate})")
+            print(f"  {i}. {name}: {gens} generaciones (tiempo estimado: {estimate})")
 
-        print(f"  5. 🎛️  Personalizada")
+        print(f"  5. Personalizada")
 
         try:
-            choice = input("\n👉 Selecciona configuración (1-5): ").strip()
+            choice = input("\nSelecciona configuración (1-5): ").strip()
 
             if choice in ["1", "2", "3", "4"]:
-                _, max_gens, _ = options[int(choice) - 1]
+                _, max_gens = options[int(choice) - 1]
                 config_name = options[int(choice) - 1][0]
             elif choice == "5":
                 try:
-                    max_gens = int(input("👉 Número de generaciones (3-200): "))
+                    max_gens = int(input("Número de generaciones (3-200): "))
                     if max_gens < 3 or max_gens > 200:
-                        print("❌ Número fuera de rango.")
+                        print("Error: Número fuera de rango.")
                         return
                     config_name = "Personalizada"
                 except ValueError:
-                    print("❌ Número no válido.")
+                    print("Error: Número no válido.")
                     return
             else:
-                print("❌ Opción no válida.")
+                print("Error: Opción no válida.")
                 return
 
             # Calcular parámetros optimizados
@@ -1143,29 +1156,29 @@ class MTGMenuSystem:
             stagnation_limit = max(3, max_gens // 4)
             estimated_time = self.hardware_analyzer.estimate_time(pop_size, max_gens)
 
-            print(f"\n📋 CONFIGURACIÓN FINAL AUTO-OPTIMIZADA:")
-            print(f"   Nombre: {config_name}")
-            print(f"   Población: {pop_size} mazos")
-            print(f"   Generaciones máximas: {max_gens}")
-            print(f"   Elite preservada: {elite_size}")
-            print(f"   Límite de estancamiento: {stagnation_limit}")
-            print(f"   Workers paralelos: {config['max_workers']}")
-            print(f"   Timeout base: {config['base_timeout']}s")
-            print(f"   Tiempo estimado: {estimated_time}")
+            print(f"\nCONFIGURACIÓN FINAL OPTIMIZADA:")
+            print(f"  Nombre: {config_name}")
+            print(f"  Población: {pop_size} mazos")
+            print(f"  Generaciones máximas: {max_gens}")
+            print(f"  Elite preservada: {elite_size}")
+            print(f"  Límite de estancamiento: {stagnation_limit}")
+            print(f"  Workers paralelos: {config['max_workers']}")
+            print(f"  Timeout base: {config['base_timeout']}s")
+            print(f"  Tiempo estimado: {estimated_time}")
 
             if "horas" in estimated_time and float(estimated_time.split()[0]) > 8:
-                print(f"\n⚠️  ADVERTENCIA: Esta ejecución es muy larga ({estimated_time})")
-                print("   Considera usar una configuración más pequeña primero.")
+                print(f"\nAdvertencia: Esta ejecución es muy larga ({estimated_time})")
+                print("Considera usar una configuración más pequeña primero.")
 
-            confirm = input("\n¿Iniciar algoritmo genético AUTO-OPTIMIZADO? (S/n): ").strip().lower()
+            confirm = input("\n¿Iniciar algoritmo genético optimizado? (S/n): ").strip().lower()
             if confirm in ['n', 'no']:
                 return
 
-            print(f"\n🚀 Iniciando algoritmo genético AUTO-OPTIMIZADO...")
-            print(f"   Configuración: {config_name}")
-            print(f"   Workers paralelos: {config['max_workers']}")
-            print(f"   Tiempo estimado: {estimated_time}")
-            print(f"   Inicio: {datetime.now().strftime('%H:%M:%S')}")
+            print(f"\nIniciando algoritmo genético optimizado...")
+            print(f"Configuración: {config_name}")
+            print(f"Workers paralelos: {config['max_workers']}")
+            print(f"Tiempo estimado: {estimated_time}")
+            print(f"Hora de inicio: {datetime.now().strftime('%H:%M:%S')}")
 
             start_time = time.time()
 
@@ -1178,9 +1191,9 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=max_gens,
                 population_size=pop_size,
-                mutation_rate=0.12,
+                mutation_rate=0.15,              # Incrementado de 0.12 (+25% exploración)
                 crossover_rate=0.9,
-                tournament_size=3,
+                tournament_size=4,               # Incrementado de 3 (+33% presión de selección)
                 elite_size=elite_size,
                 stagnation_limit=stagnation_limit,
                 headless_mode=self.headless_mode,
@@ -1189,7 +1202,11 @@ class MTGMenuSystem:
                 parallel_batch_size=config['parallel_batch_size'],
                 base_timeout=config['base_timeout'],
                 log_level=config['log_level'],
-                save_forge_outputs=config['save_forge_outputs']
+                save_forge_outputs=config['save_forge_outputs'],
+                # Parámetros de fitness multi-componente (MÁS PESO A CALIDAD)
+                fitness_alpha=0.6,               # Reducido de 0.7 (win rate 60%)
+                fitness_beta=0.4,                # Incrementado de 0.3 (calidad 40%)
+                enable_quality_metrics=True
             )
 
             best_deck = ga.evolve()
@@ -1198,10 +1215,10 @@ class MTGMenuSystem:
             hours = elapsed // 3600
             minutes = (elapsed % 3600) // 60
 
-            print(f"\n✅ ¡Algoritmo genético AUTO-OPTIMIZADO completado!")
-            print(f"   Tiempo real: {int(hours)}h {int(minutes)}m")
-            print(f"   Mejor fitness: {ga.best_fitness_ever:.4f} ({ga.best_fitness_ever * 100:.1f}% win rate)")
-            print(f"   Workers utilizados: {config['max_workers']}")
+            print(f"\nAlgoritmo genético optimizado completado exitosamente")
+            print(f"Tiempo de ejecución: {int(hours)}h {int(minutes)}m")
+            print(f"Mejor fitness alcanzado: {ga.best_fitness_ever:.4f} ({ga.best_fitness_ever * 100:.1f}% win rate)")
+            print(f"Workers utilizados: {config['max_workers']}")
 
             # Guardar mejor mazo
             suffix = "_test_parallel" if pop_type == "Prueba" else "_final_parallel"
@@ -1220,6 +1237,220 @@ class MTGMenuSystem:
 
         input("\nPresiona Enter para continuar...")
 
+    def menu_continuar_desde_checkpoint(self):
+        """
+        Menú para buscar y continuar ejecuciones desde checkpoints guardados
+        """
+        print("\n" + "=" * 80)
+        print("CONTINUAR DESDE CHECKPOINT GUARDADO")
+        print("=" * 80)
+
+        # Buscar checkpoints disponibles
+        checkpoint_dir = os.path.join(self.evolved_dir, "checkpoints")
+
+        if not os.path.exists(checkpoint_dir):
+            print("\n❌ No se encontró directorio de checkpoints.")
+            print(f"   Ruta buscada: {checkpoint_dir}")
+            input("\nPresiona Enter para continuar...")
+            return
+
+        # Listar todos los checkpoints
+        import glob
+        checkpoint_files = sorted(glob.glob(os.path.join(checkpoint_dir, "checkpoint_gen_*.json")))
+
+        if not checkpoint_files:
+            print("\n❌ No se encontraron checkpoints guardados.")
+            print(f"   Directorio verificado: {checkpoint_dir}")
+            input("\nPresiona Enter para continuar...")
+            return
+
+        # Mostrar checkpoints disponibles
+        print(f"\n📁 CHECKPOINTS DISPONIBLES ({len(checkpoint_files)} encontrados):")
+        print("=" * 80)
+
+        checkpoints_info = []
+        for cp_file in checkpoint_files:
+            try:
+                with open(cp_file, 'r') as f:
+                    data = json.load(f)
+
+                gen = data['generation']
+                timestamp = data['timestamp']
+                best_fitness = data.get('best_fitness_ever', 0.0)
+                pop_size = data.get('population_size', 0)
+                max_gens = data.get('max_generations', 0)
+                mut_rate = data.get('mutation_rate', 0.0)
+                orig_mut = data.get('original_mutation_rate', 0.0)
+                gens_since = data.get('generations_since_intervention', 0)
+
+                checkpoints_info.append({
+                    'file': cp_file,
+                    'gen': gen,
+                    'timestamp': timestamp,
+                    'best_fitness': best_fitness,
+                    'pop_size': pop_size,
+                    'max_gens': max_gens,
+                    'mut_rate': mut_rate,
+                    'orig_mut': orig_mut,
+                    'gens_since': gens_since,
+                    'data': data
+                })
+            except Exception as e:
+                print(f"⚠️  Error leyendo {os.path.basename(cp_file)}: {e}")
+
+        if not checkpoints_info:
+            print("\n❌ No se pudieron leer los checkpoints.")
+            input("\nPresiona Enter para continuar...")
+            return
+
+        # Ordenar por generación (más reciente primero)
+        checkpoints_info.sort(key=lambda x: x['gen'], reverse=True)
+
+        # Mostrar información detallada
+        for i, cp_info in enumerate(checkpoints_info, 1):
+            gen = cp_info['gen']
+            timestamp = cp_info['timestamp'].split('T')
+            date = timestamp[0]
+            time_str = timestamp[1].split('.')[0] if len(timestamp) > 1 else "N/A"
+
+            print(f"\n{i}. Generación {gen}/{cp_info['max_gens']}")
+            print(f"   📅 Fecha: {date} {time_str}")
+            print(f"   🏆 Best fitness: {cp_info['best_fitness']:.4f} ({cp_info['best_fitness']*100:.1f}% win rate)")
+            print(f"   👥 Población: {cp_info['pop_size']} mazos")
+            print(f"   📊 Progreso: {gen}/{cp_info['max_gens']} generaciones ({gen*100//cp_info['max_gens']}%)")
+
+            # Mostrar estado de mutación adaptativa
+            if cp_info['mut_rate'] != cp_info['orig_mut']:
+                print(f"   ⚡ Mutación adaptativa ACTIVA: {cp_info['mut_rate']:.3f} (original: {cp_info['orig_mut']:.3f})")
+                print(f"   🔄 Generaciones desde intervención: {cp_info['gens_since']}")
+            else:
+                print(f"   🔧 Mutación: {cp_info['mut_rate']:.3f} (normal)")
+
+        # Seleccionar checkpoint
+        print("\n" + "=" * 80)
+        print("Selecciona el checkpoint desde el cual continuar:")
+
+        try:
+            choice = input(f"\nOpción (1-{len(checkpoints_info)}) o 0 para cancelar: ").strip()
+
+            if choice == "0":
+                print("\n❌ Cancelado.")
+                input("\nPresiona Enter para continuar...")
+                return
+
+            choice_idx = int(choice) - 1
+            if choice_idx < 0 or choice_idx >= len(checkpoints_info):
+                print("\n❌ Opción no válida.")
+                input("\nPresiona Enter para continuar...")
+                return
+
+            selected_cp = checkpoints_info[choice_idx]
+
+            # Mostrar resumen y confirmar
+            print("\n" + "=" * 80)
+            print("RESUMEN DE LA CONTINUACIÓN:")
+            print("=" * 80)
+            print(f"Generación inicial: {selected_cp['gen'] + 1}")
+            print(f"Generaciones restantes: {selected_cp['max_gens'] - selected_cp['gen']}")
+            print(f"Best fitness actual: {selected_cp['best_fitness']:.4f}")
+            print(f"Población: {selected_cp['pop_size']} mazos")
+
+            # Analizar hardware si es necesario
+            if not self.analyze_hardware_if_needed():
+                print("\n⚠️  Advertencia: No se pudo analizar el hardware.")
+                print("   Usando configuración por defecto.")
+
+            config = self.hardware_analyzer.optimization_config
+            remaining_gens = selected_cp['max_gens'] - selected_cp['gen']
+            estimated_time = self.hardware_analyzer.estimate_time(selected_cp['pop_size'], remaining_gens)
+
+            print(f"\nCONFIGURACIÓN:")
+            print(f"  Workers: {config['max_workers']}")
+            print(f"  Timeout base: {config['base_timeout']}s")
+            print(f"  Tiempo estimado: {estimated_time}")
+
+            confirm = input("\n¿Continuar desde este checkpoint? (S/n): ").strip().lower()
+            if confirm in ['n', 'no']:
+                print("\n❌ Cancelado.")
+                input("\nPresiona Enter para continuar...")
+                return
+
+            # EJECUTAR CONTINUACIÓN
+            print("\n" + "=" * 80)
+            print("REANUDANDO EJECUCIÓN DESDE CHECKPOINT")
+            print("=" * 80)
+
+            # Preparar archivos de población
+            pop_file = os.path.join(self.decks_dir, "initial_population.json")
+            if not os.path.exists(pop_file):
+                # Intentar con test_population
+                pop_file = os.path.join(self.decks_dir, "test_population.json")
+                if not os.path.exists(pop_file):
+                    print("\n❌ Error: No se encontró archivo de población inicial.")
+                    print("   Asegúrate de tener initial_population.json o test_population.json")
+                    input("\nPresiona Enter para continuar...")
+                    return
+
+            start_time = time.time()
+
+            # Ejecutar algoritmo genético (continuará automáticamente desde checkpoint)
+            ga = MTGGeneticAlgorithm(
+                population_file=pop_file,
+                catalog_path=os.path.join(self.data_dir, "card_catalog.json"),
+                indices_path=os.path.join(self.data_dir, "card_indices.json"),
+                output_dir=self.evolved_dir,
+                forge_jar_path=self.forge_jar,
+                max_generations=selected_cp['max_gens'],
+                population_size=selected_cp['pop_size'],
+                mutation_rate=0.15,
+                crossover_rate=0.9,
+                tournament_size=4,
+                elite_size=max(2, selected_cp['pop_size'] // 15),
+                stagnation_limit=max(3, selected_cp['max_gens'] // 4),
+                max_workers=config['max_workers'],
+                base_timeout=config['base_timeout'],
+                log_level=config['log_level'],
+                save_forge_outputs=False,
+                headless_mode=self.headless_mode,
+                fitness_alpha=0.6,
+                fitness_beta=0.4,
+                enable_quality_metrics=True
+            )
+
+            print("\n⏳ Ejecutando algoritmo genético (continuación desde checkpoint)...\n")
+
+            best_deck, final_fitness = ga.evolve()
+
+            elapsed = time.time() - start_time
+
+            print("\n" + "=" * 80)
+            print("✅ CONTINUACIÓN COMPLETADA")
+            print("=" * 80)
+            print(f"Tiempo de ejecución: {elapsed / 60:.1f} minutos")
+            print(f"Generaciones procesadas: {remaining_gens}")
+            print(f"Mejor fitness final: {final_fitness:.4f} ({final_fitness * 100:.1f}% win rate)")
+            print(f"Best fitness histórico: {ga.best_fitness_ever:.4f} ({ga.best_fitness_ever * 100:.1f}% win rate)")
+
+            # Guardar mejor mazo
+            best_deck_file = os.path.join(self.evolved_dir, "best_deck_continued.json")
+            with open(best_deck_file, 'w', encoding='utf-8') as f:
+                json.dump(best_deck, f, ensure_ascii=False, indent=2)
+
+            print(f"\n📁 Mejor mazo guardado en: {best_deck_file}")
+            self.print_deck_summary(best_deck)
+
+        except ValueError:
+            print("\n❌ Error: Opción no válida.")
+        except KeyboardInterrupt:
+            print("\n\n⏹️  Ejecución interrumpida por el usuario")
+            print("   Los progresos se han guardado automáticamente en checkpoints")
+        except Exception as e:
+            print(f"\n❌ Error: {e}")
+            import traceback
+            traceback.print_exc()
+
+        input("\nPresiona Enter para continuar...")
+
     # ==============================================================================
     # SUBMENÚS: CONFIGURACIÓN DE FORGE
     # ==============================================================================
@@ -1229,11 +1460,11 @@ class MTGMenuSystem:
         Menú para configurar ruta de Forge JAR
         """
         print("\n" + "=" * 60)
-        print("🔧 CONFIGURAR FORGE")
+        print("CONFIGURAR FORGE")
         print("=" * 60)
 
         if self.forge_configured:
-            print(f"✅ Forge ya está configurado: {self.forge_jar}")
+            print(f"Forge ya configurado: {self.forge_jar}")
             choice = input("¿Cambiar configuración? (s/N): ").strip().lower()
             if choice not in ['s', 'sí', 'si', 'y', 'yes']:
                 return
@@ -1495,9 +1726,9 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=generations,
                 population_size=population_size,
-                mutation_rate=0.12,
-                crossover_rate=0.9,
-                tournament_size=3,
+                mutation_rate=0.15,              # Incrementado de 0.12 (+25% exploración)
+                crossover_rate=0.9,              # Mantener (óptimo demostrado)
+                tournament_size=4,               # Incrementado de 3 (+33% presión de selección)
                 elite_size=max(2, population_size // 15),
                 stagnation_limit=max(5, generations // 4),
                 headless_mode=self.headless_mode,
@@ -1505,7 +1736,11 @@ class MTGMenuSystem:
                 parallel_batch_size=config['parallel_batch_size'],
                 base_timeout=config['base_timeout'],
                 log_level=config['log_level'],
-                save_forge_outputs=config['save_forge_outputs']
+                save_forge_outputs=config['save_forge_outputs'],
+                # Parámetros de fitness multi-componente (optimizados)
+                fitness_alpha=0.6,               # Reducido de 0.7 (win rate 60%)
+                fitness_beta=0.4,                # Incrementado de 0.3 (calidad 40%)
+                enable_quality_metrics=True
             )
 
             best_deck = ga.evolve()
@@ -1623,12 +1858,16 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=test_gens,
                 population_size=test_size,
-                mutation_rate=0.12,
-                crossover_rate=0.9,
-                tournament_size=3,
-                elite_size=2,
+                mutation_rate=0.15,              # Incrementado de 0.12 (+25% exploración)
+                crossover_rate=0.9,              # Mantener (óptimo demostrado)
+                tournament_size=4,               # Incrementado de 3 (+33% presión de selección)
+                elite_size=2,                    # Mantener (mínimo estable)
                 stagnation_limit=max(2, test_gens // 2),
                 headless_mode=self.headless_mode,
+                # Parámetros de fitness multi-componente (optimizados)
+                fitness_alpha=0.6,               # Reducido de 0.7 (win rate 60%)
+                fitness_beta=0.4,                # Incrementado de 0.3 (calidad 40%)
+                enable_quality_metrics=True,
                 **ga_config
             )
 
