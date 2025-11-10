@@ -2778,12 +2778,13 @@ def parallel_forge_combat_worker(combat_info):
     
     try:
         # Ejecutar Forge
+        # NOTA: No usamos cwd porque forge_jar_path ya es una ruta absoluta
+        # Usar cwd=forge_root causaba WinError 2 en Windows cuando forge_root era vacío
         result = subprocess.run(
             cmd,
             capture_output=True,
             text=True,
-            timeout=timeout,
-            cwd=forge_root
+            timeout=timeout
         )
         
         duration = time.time() - start_time
