@@ -577,7 +577,8 @@ class MTGMenuSystem:
             matches = glob.glob(expanded_pattern)
             if matches:
                 matches.sort(reverse=True)  # Ordenar para usar versión más reciente
-                self.forge_jar = matches[0]
+                # Convertir a ruta absoluta (crítico en Windows)
+                self.forge_jar = os.path.abspath(matches[0])
                 self.forge_configured = True
                 break
 
