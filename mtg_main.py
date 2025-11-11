@@ -1152,8 +1152,9 @@ class MTGMenuSystem:
                 return
 
             # Calcular parámetros optimizados
-            elite_size = max(2, pop_size // 15)
-            stagnation_limit = max(3, max_gens // 4)
+            # OPTIMIZADO: Elite = 40% de población (antes: ~7%), stagnation desactivado
+            elite_size = max(2, int(pop_size * 0.4))  # 40% de población para mayor presión selectiva
+            stagnation_limit = 999  # Desactivado: evita inyección contraproducente de mazos aleatorios
             estimated_time = self.hardware_analyzer.estimate_time(pop_size, max_gens)
 
             print(f"\nCONFIGURACIÓN FINAL OPTIMIZADA:")
@@ -1405,8 +1406,8 @@ class MTGMenuSystem:
                 mutation_rate=0.15,
                 crossover_rate=0.9,
                 tournament_size=4,
-                elite_size=max(2, selected_cp['pop_size'] // 15),
-                stagnation_limit=max(3, selected_cp['max_gens'] // 4),
+                elite_size=max(2, int(selected_cp['pop_size'] * 0.4)),  # OPTIMIZADO: 40% de población
+                stagnation_limit=999,  # Desactivado
                 max_workers=config['max_workers'],
                 base_timeout=config['base_timeout'],
                 log_level=config['log_level'],

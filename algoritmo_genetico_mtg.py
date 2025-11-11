@@ -64,12 +64,12 @@ class MTGGeneticAlgorithm:
                  output_dir="mtg_evolved_decks",
                  forge_jar_path="./forge-gui-desktop-2.0.04-jar-with-dependencies.jar",
                  max_generations=200,
-                 population_size=50,
+                 population_size=20,              # OPTIMIZADO: Reducido de 50 a 20 para convergencia más rápida
                  mutation_rate=0.15,              # Optimizado: +25% exploración (antes 0.05)
                  crossover_rate=0.9,              # Mantener (óptimo demostrado)
                  tournament_size=4,               # Optimizado: +33% presión de selección (antes 3)
-                 elite_size=5,
-                 stagnation_limit=20,
+                 elite_size=8,                    # OPTIMIZADO: Incrementado de 5 a 8 (40% de población)
+                 stagnation_limit=999,            # DESACTIVADO: Evita inyección contraproducente de mazos aleatorios
                  # NUEVOS PARÁMETROS DE PARALELIZACIÓN
                  max_workers=None,
                  parallel_batch_size=None,
@@ -497,8 +497,8 @@ class MTGGeneticAlgorithm:
         os.makedirs(self.forge_decks_dir, exist_ok=True)
         os.makedirs(self.forge_old_winners_dir, exist_ok=True)
 
-        # Limpiar al inicio
-        self.clean_forge_decks()
+        # NO limpiar aquí - se limpiará solo al empezar Gen 0 (nueva ejecución)
+        # Si recuperamos checkpoint, queremos mantener los mazos existentes
 
         self.logger.info(f"Forge configurado. Directorio de mazos: {self.forge_decks_dir}")
     
@@ -722,13 +722,22 @@ class MTGGeneticAlgorithm:
             )
         
         # Ranking de mazos
-        deck_rankings = [(i, deck_names[i], fitness_values[i], wins[i], games[i]) 
+        deck_rankings = [(i, deck_names[i], fitness_values[i], wins[i], games[i])
                         for i in range(n_decks)]
         deck_rankings.sort(key=lambda x: x[2], reverse=True)
-        
-        self.logger.info("Top 5 mazos:")
+
+        # Mostrar Top 5 de la generación actual
+        self.logger.info("📊 Top 5 de esta generación:")
         for rank, (idx, name, fitness, win_count, game_count) in enumerate(deck_rankings[:5], 1):
             self.logger.info(f"  {rank}. {name}: {fitness:.4f} ({win_count}/{game_count})")
+
+        # Mostrar Top 5 GLOBAL (Hall of Fame)
+        self.logger.info("🏆 Top 5 GLOBAL (Hall of Fame histórico):")
+        if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+            for rank, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5], 1):
+                self.logger.info(f"  {rank}. HoF #{rank}: {fitness:.4f}")
+        else:
+            self.logger.info("  (Hall of Fame aún vacío)")
         
         # Guardar estadísticas de generación
         generation_stats = {
@@ -1652,14 +1661,7 @@ class MTGGeneticAlgorithm:
             fitness_values (list): Fitness de la generación actual
             population_arrays (list): Arrays de mazos de la generación actual
         """
-        # Hall of Fame Tardío: No activar en generaciones tempranas
-        # Esto permite exploración libre sin preservar mazos aleatorios malos
-        HOF_ACTIVATION_GENERATION = 5  # Activar a partir de Gen 5
-
-        if self.current_generation < HOF_ACTIVATION_GENERATION:
-            self.logger.debug(f"Hall of Fame desactivado hasta Gen {HOF_ACTIVATION_GENERATION} (actual: Gen {self.current_generation})")
-            return
-
+        # Hall of Fame activo desde Gen 0 (eliminado retraso)
         # Combinar candidatos actuales con hall of fame existente
         current_candidates = [(fitness_values[i], population_arrays[i].copy()) 
                              for i in range(len(fitness_values))]
@@ -1694,6 +1696,73 @@ class MTGGeneticAlgorithm:
             best_fitness = unique_best[0][0]
             worst_fitness = unique_best[-1][0]
             self.logger.debug(f"Hall of Fame: Mejor={best_fitness:.4f}, Peor={worst_fitness:.4f}")
+
+        # Guardar mazos del Hall of Fame como archivos .dck
+        self.save_hall_of_fame_decks()
+
+    def save_hall_of_fame_decks(self):
+        """
+        Guarda los mazos del Hall of Fame como archivos .dck y .json
+        Borra los archivos viejos y guarda los nuevos en cada actualización
+        """
+        import glob
+
+        # Crear directorio para Hall of Fame si no existe
+        hof_dir = os.path.join(self.output_dir, "hall_of_fame")
+        os.makedirs(hof_dir, exist_ok=True)
+
+        # Borrar todos los archivos viejos del Hall of Fame
+        # Esto se hace en cada actualización para mantener solo los mejores actuales
+        old_files = glob.glob(os.path.join(hof_dir, "hall_of_fame_*.dck")) + \
+                   glob.glob(os.path.join(hof_dir, "hall_of_fame_*.json"))
+        for old_file in old_files:
+            try:
+                os.remove(old_file)
+            except Exception as e:
+                self.logger.warning(f"No se pudo borrar {old_file}: {e}")
+
+        # Guardar los mazos actuales del Hall of Fame
+        for rank, (fitness, array) in enumerate(self.hall_of_fame_arrays, 1):
+            deck_name = f"hall_of_fame_{rank}"
+            deck = self.array_to_deck(array, deck_name)
+
+            # Guardar como archivo .dck (para Forge)
+            deck_file = os.path.join(hof_dir, f"{deck_name}.dck")
+            self.save_forge_deck(deck, deck_file)
+
+            # También guardar en formato JSON con metadatos
+            json_file = os.path.join(hof_dir, f"{deck_name}.json")
+            deck_metadata = {
+                'rank': rank,
+                'fitness': fitness,
+                'deck_name': deck_name,
+                'deck': deck,
+                'array': array.tolist()
+            }
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(deck_metadata, f, indent=2, ensure_ascii=False)
+
+        if len(self.hall_of_fame_arrays) > 0:
+            self.logger.debug(f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del Hall of Fame en {hof_dir}")
+
+    def clean_hall_of_fame_directory(self):
+        """
+        Limpia el directorio del Hall of Fame al inicio de una nueva ejecución
+        NO se llama al continuar desde checkpoint
+        """
+        import glob
+        import shutil
+
+        hof_dir = os.path.join(self.output_dir, "hall_of_fame")
+
+        if os.path.exists(hof_dir):
+            try:
+                shutil.rmtree(hof_dir)
+                self.logger.info(f"🗑️  Directorio Hall of Fame limpiado: {hof_dir}")
+            except Exception as e:
+                self.logger.warning(f"No se pudo limpiar directorio Hall of Fame: {e}")
+
+        os.makedirs(hof_dir, exist_ok=True)
 
     # ==============================================================================
     # SISTEMA DE CHECKPOINTS Y RECUPERACIÓN
@@ -1939,6 +2008,9 @@ class MTGGeneticAlgorithm:
 
             # === EVALUACIÓN INICIAL (solo si no se reanuda) ===
             if start_generation == 0:
+                # Limpiar directorio Hall of Fame de ejecuciones anteriores
+                self.clean_hall_of_fame_directory()
+
                 self.logger.info("Evaluando población inicial con procesamiento paralelo...")
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
                 self.save_population_arrays(0)
@@ -1979,33 +2051,17 @@ class MTGGeneticAlgorithm:
                 # === CREAR NUEVA GENERACIÓN (código existente) ===
                 new_population = []
 
-                # Preservar elite del Hall of Fame (solo si HoF está activado)
-                HOF_ACTIVATION_GENERATION = 5
+                # Preservar elite del Hall of Fame (siempre activo desde Gen 0)
                 hof_preserved = 0
 
-                if generation >= HOF_ACTIVATION_GENERATION:
-                    if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
-                        elite_to_preserve = min(self.elite_size, len(self.hall_of_fame_arrays))
-                        for i in range(elite_to_preserve):
-                            if hof_preserved < self.elite_size:
-                                fitness, elite_array = self.hall_of_fame_arrays[i]
-                                new_population.append(elite_array.copy())
-                                hof_preserved += 1
-                        self.logger.debug(f"Preservados {hof_preserved} individuos del Hall of Fame")
-                else:
-                    # Antes de Gen 5: preservar elite de la GENERACIÓN ACTUAL
-                    # (elitismo clásico, no del Hall of Fame)
-                    if len(fitness_values) > 0:
-                        # Obtener índices de los mejores de esta generación
-                        elite_indices = sorted(range(len(fitness_values)),
-                                             key=lambda i: fitness_values[i],
-                                             reverse=True)[:self.elite_size]
-
-                        for idx in elite_indices:
-                            new_population.append(self.population_arrays[idx].copy())
+                if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+                    elite_to_preserve = min(self.elite_size, len(self.hall_of_fame_arrays))
+                    for i in range(elite_to_preserve):
+                        if hof_preserved < self.elite_size:
+                            fitness, elite_array = self.hall_of_fame_arrays[i]
+                            new_population.append(elite_array.copy())
                             hof_preserved += 1
-
-                        self.logger.debug(f"Preservados {hof_preserved} individuos elite de Gen {generation-1} (HoF desactivado)")
+                    self.logger.debug(f"Preservados {hof_preserved} individuos del Hall of Fame")
 
                 # Calcular tasa de mutación adaptiva
                 current_mutation_rate = self.adaptive_mutation_rate(generation, self.stagnation_counter)
@@ -2764,11 +2820,13 @@ def parallel_forge_combat_worker(combat_info):
     headless_mode = combat_info.get('headless_mode', False)
     
     # Comando para ejecutar Forge
+    # OPTIMIZADO: 3 combates por enfrentamiento para reducir ruido ~58% (antes: 1)
+    # Cada enfrentamiento ejecuta 3 combates, victoria = mejor de 3
     base_cmd = [
         "java", "-jar", forge_jar_path,
         "sim",
         "-d", deck1_name, deck2_name,
-        "-n", "1"
+        "-n", "3"
     ]
     
     if headless_mode:
