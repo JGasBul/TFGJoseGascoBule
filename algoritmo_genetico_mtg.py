@@ -572,11 +572,9 @@ class MTGGeneticAlgorithm:
         self.logger.info(f"Workers paralelos: {self.max_workers}")
         self.logger.info(f"Total de enfrentamientos: {n_decks * (n_decks - 1) // 2}")
 
-        # SOLO limpiar en la primera generación (generación 0)
-        if generation == 0:
-            self.clean_forge_decks()
-        else:
-            self.logger.info(f"Manteniendo mazos existentes para generación {generation}")
+        # NO limpiar mazos aquí - queremos acumular todos los mazos de todas las generaciones
+        # La limpieza solo se hace manualmente al inicio de una NUEVA ejecución completa
+        self.logger.info(f"Guardando mazos para generación {generation}...")
 
         deck_names = []
         for i, array in enumerate(population_arrays):
@@ -2008,8 +2006,10 @@ class MTGGeneticAlgorithm:
 
             # === EVALUACIÓN INICIAL (solo si no se reanuda) ===
             if start_generation == 0:
-                # Limpiar directorio Hall of Fame de ejecuciones anteriores
+                # Limpiar directorios de ejecuciones anteriores
+                self.logger.info("🧹 Limpiando archivos de ejecuciones anteriores...")
                 self.clean_hall_of_fame_directory()
+                self.clean_forge_decks()
 
                 self.logger.info("Evaluando población inicial con procesamiento paralelo...")
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
