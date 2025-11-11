@@ -570,7 +570,8 @@ class MTGGeneticAlgorithm:
 
         self.logger.info(f"Población: {n_decks} mazos")
         self.logger.info(f"Workers paralelos: {self.max_workers}")
-        self.logger.info(f"Total de enfrentamientos: {n_decks * (n_decks - 1) // 2}")
+        total_enfrentamientos = n_decks * (n_decks - 1) // 2
+        self.logger.info(f"Total de enfrentamientos: {total_enfrentamientos} (cada uno con 3 combates = {total_enfrentamientos * 3} combates totales)")
 
         # NO limpiar mazos aquí - queremos acumular todos los mazos de todas las generaciones
         # La limpieza solo se hace manualmente al inicio de una NUEVA ejecución completa
