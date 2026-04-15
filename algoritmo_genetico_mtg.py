@@ -1532,34 +1532,25 @@ class MTGGeneticAlgorithm:
     # MÉTODOS DE EVALUACIÓN DE CALIDAD DEL MAZO (FITNESS MULTI-COMPONENTE)
     # ========================================================================
 
-    def evaluate_mana_curve(self, deck_array):
+    # Curvas ideales por arquetipo (Tarea 4, Opción A)
+    IDEAL_CURVES_BY_ARCHETYPE = {
+        'aggro':    {1: 0.25, 2: 0.30, 3: 0.25, 4: 0.15, 5: 0.04, 6: 0.01},
+        'midrange': {1: 0.15, 2: 0.25, 3: 0.25, 4: 0.20, 5: 0.10, 6: 0.05},
+        'control':  {1: 0.05, 2: 0.15, 3: 0.20, 4: 0.25, 5: 0.20, 6: 0.15},
+    }
+
+    def evaluate_mana_curve(self, deck_array, archetype=None):
         """
-        Evalúa la curva de maná del mazo comparándola con una distribución óptima
+        Evalúa la curva de maná comparándola con la distribución ideal del
+        arquetipo detectado (aggro/midrange/control).
 
-        Distribución objetivo (basada en teoría de construcción de mazos MTG):
-        - 0 CMC: 0%    (solo tierras, excluidas del cálculo)
-        - 1 CMC: 15%   (early game spells/creatures)
-        - 2 CMC: 25%   (desarrollo temprano)
-        - 3 CMC: 25%   (mid-game dominante)
-        - 4 CMC: 20%   (mid-game fuerte)
-        - 5 CMC: 10%   (late game threats)
-        - 6+ CMC: 5%   (finishers)
-
-        Args:
-            deck_array: Array del mazo a evaluar
-
-        Returns:
-            float: Score de 0.0 a 1.0 (1.0 = curva perfecta)
+        Si no se pasa archetype, se detecta dinámicamente.
         """
-        # Distribución ideal (porcentajes para cartas no-tierra)
-        ideal_curve = {
-            1: 0.15,
-            2: 0.25,
-            3: 0.25,
-            4: 0.20,
-            5: 0.10,
-            6: 0.05  # 6+ agrupado
-        }
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+        ideal_curve = self.IDEAL_CURVES_BY_ARCHETYPE.get(
+            archetype, self.IDEAL_CURVES_BY_ARCHETYPE['midrange']
+        )
 
         # Contar cartas por CMC (excluyendo tierras)
         cmc_distribution = {}
@@ -1678,22 +1669,36 @@ class MTGGeneticAlgorithm:
         total_synergy = tribal_score + keyword_score + color_score
         return min(1.0, total_synergy)  # Cap en 1.0
 
-    def evaluate_card_balance(self, deck_array):
+    # Rangos ideales de balance por arquetipo (Tarea 4, Opción A).
+    # Cada tupla es (perfect_low, perfect_high, acceptable_low, acceptable_high).
+    BALANCE_RANGES_BY_ARCHETYPE = {
+        'aggro': {
+            'land_ratio':     (0.32, 0.38, 0.28, 0.42),  # 19-23 tierras
+            'creature_ratio': (0.55, 0.70, 0.45, 0.80),  # muchas criaturas
+            'spell_ratio':    (0.15, 0.25, 0.10, 0.35),
+        },
+        'midrange': {
+            'land_ratio':     (0.37, 0.43, 0.33, 0.47),  # 22-26 tierras
+            'creature_ratio': (0.40, 0.55, 0.30, 0.65),
+            'spell_ratio':    (0.25, 0.40, 0.15, 0.50),
+        },
+        'control': {
+            'land_ratio':     (0.42, 0.47, 0.38, 0.50),  # 25-28 tierras
+            'creature_ratio': (0.15, 0.30, 0.08, 0.40),
+            'spell_ratio':    (0.50, 0.70, 0.40, 0.80),
+        },
+    }
+
+    def evaluate_card_balance(self, deck_array, archetype=None):
         """
-        Evalúa el balance entre criaturas, hechizos y otros permanentes
-
-        Un mazo equilibrado típicamente tiene:
-        - 15-20 criaturas (25-33% de no-tierras)
-        - 10-15 hechizos instantáneos/conjuros (17-25%)
-        - 2-8 artefactos/encantamientos/planeswalkers (3-13%)
-        - 22-26 tierras (37-43% del total)
-
-        Args:
-            deck_array: Array del mazo a evaluar
-
-        Returns:
-            float: Score de 0.0 a 1.0
+        Evalúa el balance (tierras / criaturas / hechizos) contra los rangos
+        ideales del arquetipo detectado.
         """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+        ranges = self.BALANCE_RANGES_BY_ARCHETYPE.get(
+            archetype, self.BALANCE_RANGES_BY_ARCHETYPE['midrange']
+        )
         creatures = 0
         spells = 0  # Instants + Sorceries
         artifacts_enchantments = 0
@@ -1726,36 +1731,20 @@ class MTGGeneticAlgorithm:
         creature_ratio = creatures / nonland_cards
         spell_ratio = spells / nonland_cards
 
-        # EVALUACIÓN 1: Tierras (objetivo 37-43%, óptimo ~40%)
-        land_score = 0.0
-        if 0.37 <= land_ratio <= 0.43:
-            land_score = 0.4  # Perfecto
-        elif 0.33 <= land_ratio <= 0.47:
-            land_score = 0.3  # Aceptable
-        elif 0.25 <= land_ratio <= 0.50:
-            land_score = 0.1  # Marginal
-        else:
-            land_score = 0.0  # Malo
+        def _score_range(value, rng, perfect, acceptable, marginal):
+            pl, ph, al, ah = rng
+            if pl <= value <= ph:
+                return perfect
+            if al <= value <= ah:
+                return acceptable
+            # margen amplio simétrico
+            if (al - 0.05) <= value <= (ah + 0.05):
+                return marginal
+            return 0.0
 
-        # EVALUACIÓN 2: Criaturas (objetivo 25-33% de no-tierras)
-        creature_score = 0.0
-        if 0.25 <= creature_ratio <= 0.33:
-            creature_score = 0.3  # Perfecto
-        elif 0.20 <= creature_ratio <= 0.40:
-            creature_score = 0.2  # Aceptable
-        elif 0.15 <= creature_ratio <= 0.50:
-            creature_score = 0.1  # Marginal
-        else:
-            creature_score = 0.0  # Malo
-
-        # EVALUACIÓN 3: Hechizos (objetivo 17-25% de no-tierras)
-        spell_score = 0.0
-        if 0.17 <= spell_ratio <= 0.25:
-            spell_score = 0.3  # Perfecto
-        elif 0.10 <= spell_ratio <= 0.30:
-            spell_score = 0.2  # Aceptable
-        else:
-            spell_score = 0.1  # Marginal
+        land_score     = _score_range(land_ratio,     ranges['land_ratio'],     0.4, 0.3, 0.1)
+        creature_score = _score_range(creature_ratio, ranges['creature_ratio'], 0.3, 0.2, 0.1)
+        spell_score    = _score_range(spell_ratio,    ranges['spell_ratio'],    0.3, 0.2, 0.1)
 
         total_balance = land_score + creature_score + spell_score
         return min(1.0, total_balance)
@@ -1887,51 +1876,146 @@ class MTGGeneticAlgorithm:
             'nonland': nonland_count,
         }
 
+    def evaluate_structural(self, deck_array):
+        """
+        Evalúa la estructura de deckbuilding: premia playsets (4x) y penaliza
+        singletons y exceso de cartas únicas. Independiente del arquetipo.
+
+        Score 0-1:
+            + Bonus por fracción de cartas no-tierra en playsets (x4)
+            - Penalización por número de singletons (>2)
+            - Penalización por exceso de cartas únicas no-tierra (>20)
+        """
+        singletons = 0
+        playsets = 0
+        unique_nonland = 0
+        total_nonland = 0
+
+        for card_id, count in enumerate(deck_array):
+            if count <= 0:
+                continue
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            unique_nonland += 1
+            total_nonland += count
+            if count == 1:
+                singletons += 1
+            elif count == 4:
+                playsets += 1
+
+        if total_nonland == 0:
+            return 0.0
+
+        # Playset bonus: fracción de copias que están en playsets de 4
+        playset_bonus = min(0.5, (playsets * 4) / max(total_nonland, 1) * 0.7)
+
+        # Penalización singletons: 0 si ≤2, escala hasta -0.4 si ≥10
+        singleton_excess = max(0, singletons - 2)
+        singleton_penalty = min(0.4, singleton_excess * 0.04)
+
+        # Penalización cartas únicas: objetivo 13-16 no-tierra únicas
+        if unique_nonland <= 16:
+            uniques_penalty = 0.0
+        else:
+            uniques_penalty = min(0.3, (unique_nonland - 16) * 0.02)
+
+        base = 0.5  # punto neutral
+        score = base + playset_bonus - singleton_penalty - uniques_penalty
+        return max(0.0, min(1.0, score))
+
+    # Rangos ideales de coherencia por arquetipo (avg_cmc, creaturas, tierras)
+    ARCHETYPE_COHERENCE_IDEALS = {
+        'aggro':    {'avg_cmc': (1.8, 2.2), 'creatures': (24, 30), 'lands': (19, 22)},
+        'midrange': {'avg_cmc': (2.5, 3.0), 'creatures': (16, 22), 'lands': (22, 25)},
+        'control':  {'avg_cmc': (3.0, 3.5), 'creatures': (4, 12),  'lands': (25, 28)},
+    }
+
+    def evaluate_archetype_coherence(self, deck_array, archetype=None, info=None):
+        """
+        Evalúa cuán coherente es el mazo con su arquetipo detectado:
+        compara avg_cmc, nº criaturas y nº tierras contra rangos ideales.
+        Score 0-1.
+        """
+        if info is None:
+            info = self.detect_archetype(deck_array)
+        if archetype is None:
+            archetype = info['archetype']
+
+        ideal = self.ARCHETYPE_COHERENCE_IDEALS.get(
+            archetype, self.ARCHETYPE_COHERENCE_IDEALS['midrange']
+        )
+
+        # Contar tierras
+        lands = 0
+        for card_id, count in enumerate(deck_array):
+            if count > 0 and self.card_catalog[card_id]['is_land']:
+                lands += count
+
+        def _range_score(value, rng):
+            lo, hi = rng
+            if lo <= value <= hi:
+                return 1.0
+            mid = (lo + hi) / 2
+            width = max(hi - lo, 0.5)
+            dist = abs(value - mid) - width / 2
+            return max(0.0, 1.0 - (dist / width))
+
+        cmc_s       = _range_score(info['avg_cmc'],  ideal['avg_cmc'])
+        creature_s  = _range_score(info['creatures'], ideal['creatures'])
+        land_s      = _range_score(lands,            ideal['lands'])
+
+        # Media ponderada: avg_cmc y creatures son los más definitorios
+        return 0.4 * cmc_s + 0.4 * creature_s + 0.2 * land_s
+
     def calculate_deck_quality(self, deck_array):
         """
-        Calcula la calidad global del mazo combinando todas las métricas
+        Calidad global del mazo (Tarea 4): 6 componentes, sensibles al arquetipo.
 
-        Componentes y pesos:
-        - Mana curve:     25% (crítico para jugabilidad)
-        - Synergy:        25% (sinergias tribales y keywords)
-        - Card balance:   30% (balance tierra/criatura/hechizo)
-        - Card power:     20% (rareza y eficiencia)
-
-        Args:
-            deck_array: Array del mazo a evaluar
-
-        Returns:
-            float: Score de calidad de 0.0 a 1.0
+        Pesos:
+        - Mana curve:           20%
+        - Synergy:              20%
+        - Card balance:         20%
+        - Card power:           15%
+        - Structural:           10%   (playsets vs singletons)
+        - Archetype coherence:  15%   (avg_cmc/creaturas/tierras vs ideal)
         """
-        # Pesos de cada componente (deben sumar 1.0)
         WEIGHTS = {
-            'mana_curve': 0.25,
-            'synergy': 0.25,
-            'card_balance': 0.30,
-            'card_power': 0.20
+            'mana_curve': 0.20,
+            'synergy': 0.20,
+            'card_balance': 0.20,
+            'card_power': 0.15,
+            'structural': 0.10,
+            'archetype_coherence': 0.15,
         }
 
-        # Calcular cada métrica
-        mana_curve_score = self.evaluate_mana_curve(deck_array)
-        synergy_score = self.evaluate_synergy(deck_array)
-        balance_score = self.evaluate_card_balance(deck_array)
-        power_score = self.evaluate_card_power(deck_array)
+        # Detectar arquetipo UNA sola vez y propagarlo a los componentes
+        info = self.detect_archetype(deck_array)
+        archetype = info['archetype']
 
-        # Combinar con pesos
+        mana_curve_score = self.evaluate_mana_curve(deck_array, archetype=archetype)
+        synergy_score = self.evaluate_synergy(deck_array)
+        balance_score = self.evaluate_card_balance(deck_array, archetype=archetype)
+        power_score = self.evaluate_card_power(deck_array)
+        structural_score = self.evaluate_structural(deck_array)
+        coherence_score = self.evaluate_archetype_coherence(
+            deck_array, archetype=archetype, info=info
+        )
+
         quality = (
             mana_curve_score * WEIGHTS['mana_curve'] +
             synergy_score * WEIGHTS['synergy'] +
             balance_score * WEIGHTS['card_balance'] +
-            power_score * WEIGHTS['card_power']
+            power_score * WEIGHTS['card_power'] +
+            structural_score * WEIGHTS['structural'] +
+            coherence_score * WEIGHTS['archetype_coherence']
         )
 
-        # Log detallado (DEBUG level)
         self.logger.debug(
-            f"Calidad del mazo: {quality:.3f} "
-            f"(Curva:{mana_curve_score:.2f}, "
-            f"Sinergia:{synergy_score:.2f}, "
-            f"Balance:{balance_score:.2f}, "
-            f"Poder:{power_score:.2f})"
+            f"Calidad [{archetype}]: {quality:.3f} "
+            f"(Curva:{mana_curve_score:.2f}, Sin:{synergy_score:.2f}, "
+            f"Bal:{balance_score:.2f}, Pod:{power_score:.2f}, "
+            f"Estr:{structural_score:.2f}, Coh:{coherence_score:.2f})"
         )
 
         return quality
