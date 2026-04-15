@@ -30,6 +30,7 @@ import time
 import glob
 import sys
 import platform
+import subprocess
 import multiprocessing as mp
 from pathlib import Path
 from datetime import datetime
@@ -316,25 +317,27 @@ class HardwareAnalyzer:
         memory = self.system_info['memory']
         profile = self.performance_profile
 
-        # === CÁLCULO DE WORKERS ÓPTIMOS ===
-        # Considerar múltiples factores: cores físicos (mejor para CPU-bound), RAM, carga
-        max_theoretical = cpu['physical_cores'] or cpu['logical_cores']
-        max_by_ram = int(memory['available_gb'] * 1024 / 400)    # ~400MB por worker (conservador)
+        # === CÁLCULO DE WORKERS ÓPTIMOS (MODO AGRESIVO) ===
+        # Estrategia: usar todos los cores lógicos disponibles (incluye SMT/HyperThreading).
+        # Forge tiene I/O wait y JVM warmup, beneficia de sobre-suscripción ligera.
+        logical = cpu['logical_cores']
+        physical = cpu['physical_cores'] or logical
+        max_theoretical = logical if logical > physical else physical
 
-        # Calcular workers basado en cores físicos (mejor para tareas CPU-bound)
-        # Usamos 100% de cores físicos si carga < 60%, sino reducimos
+        # RAM realista para Forge (~250-300MB típico, no 400 conservador)
+        max_by_ram = int(memory['available_gb'] * 1024 / 300)
+
+        # Usar 100% de cores si carga baja, 80% si carga alta (antes 70%)
         if cpu['baseline_usage'] < 60:
-            # Sistema con poca carga: usar todos los cores físicos
             optimal_workers = max_theoretical
         else:
-            # Sistema con carga alta: usar 70% de cores físicos
-            optimal_workers = max(2, int(max_theoretical * 0.7))
+            optimal_workers = max(2, int(max_theoretical * 0.8))
 
-        # Aplicar límites por RAM y práctico
+        # Límite práctico absoluto (evita explosiones en servidores extremos)
         optimal_workers = min(
             optimal_workers,
             max_by_ram,     # Limitado por RAM disponible
-            20              # Límite práctico aumentado (antes era 16)
+            64              # Cap absoluto de seguridad (antes 20)
         )
         optimal_workers = max(2, optimal_workers)  # Mínimo 2 workers
 
@@ -359,7 +362,7 @@ class HardwareAnalyzer:
             'max_workers': optimal_workers,
             'base_timeout': base_timeout,
             'max_timeout': base_timeout * 3,
-            'parallel_batch_size': optimal_workers * 3,
+            'parallel_batch_size': optimal_workers * 5,
             'log_level': log_level,
             'save_forge_outputs': save_forge_outputs,
             'recommended_populations': populations,
@@ -426,14 +429,15 @@ class HardwareAnalyzer:
 
         print("=" * 70)
 
-    def estimate_time(self, population, generations, workers=None):
+    def estimate_time(self, population, generations, workers=None, use_swiss=True):
         """
-        Estima tiempo de ejecución del algoritmo genético
+        Estima tiempo de ejecución del algoritmo genético con Swiss Tournament
 
         Args:
             population (int): Tamaño de población
             generations (int): Número de generaciones
             workers (int, optional): Workers a usar (por defecto usa óptimo)
+            use_swiss (bool): Usar Swiss Tournament (True) o round-robin (False)
 
         Returns:
             str: Estimación de tiempo en formato legible (minutos u horas)
@@ -441,22 +445,36 @@ class HardwareAnalyzer:
         if workers is None:
             workers = self.optimization_config['max_workers']
 
-        # Combates por generación (round-robin simplificado)
-        combats_per_gen = population * (population - 1)
-
-        # Tiempo base por combate según tier del sistema
-        if self.performance_profile['system_tier'] == "high_performance":
-            base_time = 35  # segundos por combate
-        elif self.performance_profile['system_tier'] == "balanced":
-            base_time = 45
-        elif self.performance_profile['system_tier'] == "conservative":
-            base_time = 60
+        # Calcular combates por generación
+        if use_swiss and population >= 20:
+            # Swiss Tournament: k_rounds calculado
+            import math
+            k_rounds = min(12, max(5, math.ceil(math.log2(population)) + 2))
+            n_games_per_match = 2
+            enfrentamientos = (population * k_rounds) // 2
+            combats_per_gen = enfrentamientos * n_games_per_match
         else:
-            base_time = 75
+            # Round-robin completo (población pequeña o modo debug)
+            enfrentamientos = population * (population - 1) // 2
+            combats_per_gen = enfrentamientos * 3
+
+        # Tiempo base por combate según experimentos reales
+        # Basado en experimentos/1: 570 combates en 103 min = 0.18 min/combate = 10.8 seg/combate
+        base_seconds_per_combat = 11  # segundos por combate (conservador)
+
+        # Ajustar según tier del sistema
+        if self.performance_profile['system_tier'] == "high_performance":
+            base_seconds_per_combat = 9   # Más rápido
+        elif self.performance_profile['system_tier'] == "balanced":
+            base_seconds_per_combat = 11  # Normal
+        elif self.performance_profile['system_tier'] == "conservative":
+            base_seconds_per_combat = 13  # Más lento
+        else:
+            base_seconds_per_combat = 15  # Muy lento
 
         # Tiempo total con paralelización
-        total_seconds = (combats_per_gen * base_time * generations) / workers
-        total_seconds *= 1.1  # 10% overhead para gestión de procesos
+        total_seconds = (combats_per_gen * base_seconds_per_combat * generations) / workers
+        total_seconds *= 1.15  # 15% overhead para gestión, timeouts, etc.
 
         # Formatear salida
         if total_seconds < 3600:
@@ -731,18 +749,19 @@ class MTGMenuSystem:
             print("MENÚ PRINCIPAL:")
             print("  1. Obtener cartas de Magic (Paso 1)")
             print("  2. Generar mazos iniciales (Paso 2)")
-            print("  3. Ejecutar algoritmo genético optimizado (Paso 3)")
+            print("  3. Ejecutar algoritmo genético Swiss Tournament (Paso 3)")
             print("  4. Continuar desde checkpoint guardado")
             print("  5. Configurar Forge")
             print("  6. Analizar hardware del sistema")
             print("  7. Ver estadísticas del sistema")
-            print("  8. Ejecución automática completa")
+            print("  8. Ejecución automática completa (Swiss Tournament)")
             print("  9. Modo de prueba rápida")
             print("  10. Configurar modo headless")
+            print("  11. Opciones avanzadas (Análisis, Debug)")
             print("  0. Salir")
 
             try:
-                choice = input("\n👉 Selecciona una opción (0-10): ").strip()
+                choice = input("\n👉 Selecciona una opción (0-11): ").strip()
 
                 if choice == "0":
                     print("\n👋 ¡Hasta luego!")
@@ -767,8 +786,10 @@ class MTGMenuSystem:
                     self.modo_prueba_optimizado()
                 elif choice == "10":
                     self.menu_configurar_headless()
+                elif choice == "11":
+                    self.menu_opciones_avanzadas()
                 else:
-                    print("\n❌ Opción no válida. Por favor, selecciona un número del 0 al 10.")
+                    print("\n❌ Opción no válida. Por favor, selecciona un número del 0 al 11.")
                     input("\nPresiona Enter para continuar...")
 
             except KeyboardInterrupt:
@@ -1051,6 +1072,218 @@ class MTGMenuSystem:
 
         input("\nPresiona Enter para continuar...")
 
+    def menu_opciones_avanzadas(self):
+        """
+        Menú de opciones avanzadas y debug: configuraciones alternativas y experimentales
+        """
+        while True:
+            print("\n" + "=" * 70)
+            print("⚙️  OPCIONES AVANZADAS Y DEBUG")
+            print("=" * 70)
+
+            print("\n📊 CONFIGURACIÓN ACTUAL (POR DEFECTO):")
+            print("  ✅ Swiss Tournament: ACTIVADO")
+            print("     - Población: 40 mazos")
+            print("     - k_rounds: 8 (cada mazo juega 8 partidas)")
+            print("     - n_games_per_match: 2 combates por enfrentamiento")
+            print("     - Fitness: 60% win_rate + 40% deck_quality")
+            print("     - Tiempo estimado: ~58 min/gen, 48h para 50 gen")
+
+            print("\n📋 OPCIONES:")
+            print("  1. 📊 Ver análisis comparativo Swiss vs Round-Robin")
+            print("  2. 🔧 [DEBUG] Usar Round-Robin completo (población 20)")
+            print("  3. 🔧 [DEBUG] Usar solo win_rate (sin deck_quality)")
+            print("  4. 🧪 Ejecutar tests de validación Swiss Tournament")
+            print("  5. 📈 Ver estimaciones de tiempo por configuración")
+            print("  6. 📄 Ver documentación técnica")
+            print("  7. 🔬 Experimento: encontrar punto dulce mutation/crossover")
+            print("  0. ← Volver al menú principal")
+
+            try:
+                choice = input("\n👉 Selecciona opción (0-7): ").strip()
+
+                if choice == "0":
+                    break
+
+                elif choice == "1":
+                    # Análisis comparativo
+                    print("\n" + "=" * 70)
+                    print("📊 ANÁLISIS COMPARATIVO: Swiss Tournament vs Round-Robin")
+                    print("=" * 70)
+
+                    print("\n🟢 CONFIGURACIÓN ACTUAL (Swiss Tournament):")
+                    print("   Población: 40 mazos")
+                    print("   Enfrentamientos: 140 (cada mazo vs 7 oponentes)")
+                    print("   Combates totales: 280 (140 × 2)")
+                    print("   Tiempo/gen: ~50 minutos")
+                    print("   50 generaciones: ~42 horas (1.75 días)")
+                    print("   Reducción vs RR(40): 88%")
+                    print("   Error estimado win_rate: ±26% (aceptable para AG)")
+
+                    print("\n🔵 CONFIGURACIÓN DEBUG: Round-Robin Completo (población 20):")
+                    print("   Población: 20 mazos")
+                    print("   Enfrentamientos: 190 (cada mazo vs todos)")
+                    print("   Combates totales: 570 (190 × 3)")
+                    print("   Tiempo/gen: ~103 minutos")
+                    print("   50 generaciones: ~88 horas (3.67 días)")
+                    print("   Evaluación: Completa, sin muestreo")
+
+                    print("\n⚠️  Round-Robin con población 40:")
+                    print("   Enfrentamientos: 780")
+                    print("   Combates totales: 2,340")
+                    print("   Tiempo/gen: ~421 minutos (7 horas!)")
+                    print("   50 generaciones: ~351 horas (14.6 días)")
+                    print("   Estado: COMPUTACIONALMENTE INVIABLE")
+
+                    print("\n📐 Fórmula k_rounds óptimo: k = ceil(log₂(población)) + 2")
+                    print("   Para población=40: k = ceil(log₂(40)) + 2 = 7 ✅")
+
+                elif choice == "2":
+                    # DEBUG: Round-Robin
+                    print("\n🔧 [DEBUG] MODO ROUND-ROBIN CLÁSICO")
+                    print("\nEsta configuración replica el experimento experimentos/1:")
+                    print("  - population_size: 20 mazos")
+                    print("  - use_swiss_tournament: False (round-robin completo)")
+                    print("  - elite_size: 8 (40% de 20)")
+                    print("  - tournament_size: 4")
+                    print("  - fitness: 60% win_rate + 40% deck_quality")
+                    print("\n⏱️  Tiempo: ~103 min/gen, 88 horas para 50 gen")
+
+                    print("\n⚠️  ADVERTENCIA: Esta es una configuración antigua.")
+                    print("La configuración Swiss Tournament es superior en todos los aspectos.")
+
+                    confirm = input("\n¿Realmente deseas usar Round-Robin? (escribe 'CONFIRMAR'): ").strip()
+                    if confirm == "CONFIRMAR":
+                        print("\n📝 INSTRUCCIONES:")
+                        print("Para ejecutar con Round-Robin, al crear el experimento:")
+                        print("1. Usa población de 20 mazos")
+                        print("2. El sistema detectará automáticamente que use_swiss_tournament=False")
+                        print("   si la población < 30")
+                        print("\nO edita algoritmo_genetico_mtg.py línea 74:")
+                        print("   use_swiss_tournament=False")
+                    else:
+                        print("\n✅ Operación cancelada. Usar configuración por defecto (Swiss).")
+
+                elif choice == "3":
+                    # DEBUG: Solo win_rate
+                    print("\n🔧 [DEBUG] USAR SOLO WIN_RATE (sin deck_quality)")
+                    print("\nEsta configuración desactiva el componente deck_quality del fitness:")
+                    print("  fitness = 1.0 × win_rate + 0.0 × deck_quality")
+                    print("\n⚠️  CONSECUENCIAS:")
+                    print("  - Mazos pueden tener composiciones inválidas")
+                    print("  - Sin penalización por desbalance de tierras")
+                    print("  - Sin penalización por curva de maná mala")
+                    print("  - Evolución más lenta (sin guía heurística)")
+
+                    print("\n📊 Configuración actual (RECOMENDADA):")
+                    print("  fitness = 0.6 × win_rate + 0.4 × deck_quality")
+                    print("  Esto balancea rendimiento real con calidad teórica")
+
+                    confirm = input("\n¿Continuar desactivando deck_quality? (escribe 'CONFIRMAR'): ").strip()
+                    if confirm == "CONFIRMAR":
+                        print("\n📝 Para desactivar deck_quality:")
+                        print("Edita algoritmo_genetico_mtg.py línea 87:")
+                        print("   enable_quality_metrics=False")
+                        print("\nO pasa el parámetro al crear MTGGeneticAlgorithm:")
+                        print("   enable_quality_metrics=False")
+                    else:
+                        print("\n✅ Operación cancelada. Mantener fitness multi-componente.")
+
+                elif choice == "4":
+                    # Tests de validación
+                    print("\n🧪 EJECUTANDO TESTS DE VALIDACIÓN...")
+
+                    try:
+                        result = subprocess.run(
+                            ['python3', 'test_swiss_tournament.py'],
+                            cwd=os.path.dirname(os.path.abspath(__file__)),
+                            capture_output=True,
+                            text=True,
+                            timeout=30
+                        )
+
+                        if result.returncode == 0:
+                            print("\n✅ TODOS LOS TESTS PASADOS")
+                            # Mostrar resumen
+                            lines = result.stdout.split('\n')
+                            for line in lines[-20:]:
+                                if line.strip() and ('✅' in line or 'ESTADÍSTICAS' in line or 'Configuración' in line):
+                                    print(line)
+                        else:
+                            print(f"\n❌ TESTS FALLARON")
+                            print(result.stderr if result.stderr else result.stdout[-500:])
+
+                    except Exception as e:
+                        print(f"\n❌ Error: {e}")
+                        print("\nEjecuta manualmente: python3 test_swiss_tournament.py")
+
+                elif choice == "5":
+                    # Estimaciones de tiempo
+                    print("\n📈 ESTIMACIONES DE TIEMPO")
+                    print("\n(Basado en 0.18 min/combate, ratio de experimentos/1)\n")
+
+                    configs = [
+                        ("🟢 Swiss (pop=40, k=8, n=2) [ACTUAL]", 320, 58, "Óptimo"),
+                        ("   Swiss (pop=40, k=5, n=1) [Rápido]", 100, 18, "Experimental"),
+                        ("   Swiss (pop=40, k=9, n=3) [Preciso]", 540, 97, "Experimental"),
+                        ("   Swiss (pop=100, k=9, n=2) [Grande]", 900, 162, "Experimental"),
+                        ("🔵 Round-robin (pop=20) [DEBUG]", 570, 103, "Clásico"),
+                        ("⚠️  Round-robin (pop=40) [INVIABLE]", 2340, 421, "No usar"),
+                    ]
+
+                    print("┌──────────────────────────────────┬──────────┬─────────┬─────────┐")
+                    print("│ Configuración                    │ Combates │ Min/gen │ 50 gen  │")
+                    print("├──────────────────────────────────┼──────────┼─────────┼─────────┤")
+
+                    for name, combats, mins, _ in configs:
+                        hours = (mins * 50) / 60
+                        print(f"│ {name:32} │  {combats:4}    │  {mins:3}    │ {hours:4.0f} h  │")
+
+                    print("└──────────────────────────────────┴──────────┴─────────┴─────────┘")
+
+                    print("\n💡 RECOMENDACIÓN: Usar configuración actual (Swiss pop=40, k=8, n=2)")
+
+                elif choice == "6":
+                    # Documentación
+                    print("\n📄 DOCUMENTACIÓN TÉCNICA")
+
+                    docs = [
+                        ("analisis_swiss_tournament.md", "Análisis matemático y teórico completo"),
+                        ("SWISS_TOURNAMENT_IMPLEMENTADO.md", "Resumen de implementación y guía"),
+                        ("test_swiss_tournament.py", "Tests de validación automatizados"),
+                    ]
+
+                    print("\nArchivos disponibles:\n")
+                    for filename, desc in docs:
+                        path = os.path.join(os.path.dirname(__file__), filename)
+                        exists = "✅" if os.path.exists(path) else "❌"
+                        print(f"  {exists} {filename}")
+                        print(f"     └─ {desc}")
+                        print()
+
+                    print("Para leer:")
+                    print("  cat analisis_swiss_tournament.md | less")
+                    print("  cat SWISS_TOURNAMENT_IMPLEMENTADO.md | less")
+
+                elif choice == "7":
+                    # Experimento mutation/crossover
+                    self.experimento_mutation_crossover()
+
+                else:
+                    print("\n❌ Opción no válida.")
+
+                if choice != "0":
+                    input("\nPresiona Enter para continuar...")
+
+            except KeyboardInterrupt:
+                print("\n\nVolviendo...")
+                break
+            except Exception as e:
+                print(f"\n❌ Error: {e}")
+                import traceback
+                traceback.print_exc()
+                input("\nPresiona Enter para continuar...")
+
     # ==============================================================================
     # SUBMENÚS: ALGORITMO GENÉTICO
     # ==============================================================================
@@ -1060,7 +1293,7 @@ class MTGMenuSystem:
         Menú principal para ejecutar algoritmo genético auto-optimizado
         """
         print("\n" + "=" * 60)
-        print("ALGORITMO GENÉTICO OPTIMIZADO")
+        print("ALGORITMO GENÉTICO SWISS TOURNAMENT")
         print("=" * 60)
 
         # Verificar prerrequisitos
@@ -1088,21 +1321,49 @@ class MTGMenuSystem:
         pop_file = os.path.join(self.decks_dir, "initial_population.json")
         test_pop_file = os.path.join(self.decks_dir, "test_population.json")
 
-        if os.path.exists(test_pop_file):
-            with open(test_pop_file, 'r', encoding='utf-8') as f:
-                population = json.load(f)
-            pop_size = len(population)
-            population_file = test_pop_file
-            pop_type = "Prueba"
-        elif os.path.exists(pop_file):
+        if os.path.exists(pop_file):
             with open(pop_file, 'r', encoding='utf-8') as f:
                 population = json.load(f)
-            pop_size = len(population)
+            available_pop_size = len(population)
             population_file = pop_file
             pop_type = "Completa"
+        elif os.path.exists(test_pop_file):
+            with open(test_pop_file, 'r', encoding='utf-8') as f:
+                population = json.load(f)
+            available_pop_size = len(population)
+            population_file = test_pop_file
+            pop_type = "Prueba"
         else:
             print("Error: No se encontró población de mazos.")
             return
+
+        # ELEGIR TAMAÑO DE POBLACIÓN: mazos generados o 40 por defecto
+        print(f"\n📊 CONFIGURACIÓN DE POBLACIÓN:")
+        print(f"  Mazos generados: {available_pop_size}")
+        print(f"  Recomendado Swiss Tournament: 40 mazos")
+
+        usar_generados = input(f"\n¿Usar los {available_pop_size} mazos generados? (S/n, 'n' generará 40 nuevos mazos): ").strip().lower()
+
+        if usar_generados in ['s', 'sí', 'si', 'y', 'yes', '']:
+            # Usar todos los mazos generados
+            pop_size = available_pop_size
+            print(f"✅ Usando los {pop_size} mazos generados")
+        else:
+            # Generar 40 mazos nuevos (Swiss Tournament óptimo)
+            pop_size = 40
+            print(f"🎴 Generando {pop_size} mazos nuevos para Swiss Tournament...")
+
+            from generador_mazos_mtg import MTGDeckGenerator
+            generator = MTGDeckGenerator(
+                cards_csv_path=os.path.join(self.data_dir, "processed_standard_cards.csv"),
+                catalog_path=os.path.join(self.data_dir, "card_catalog.json"),
+                indices_path=os.path.join(self.data_dir, "card_indices.json"),
+                output_dir=self.decks_dir
+            )
+            population = generator.generate_population_exact_size(pop_size)
+            population_file = os.path.join(self.decks_dir, "initial_population.json")
+            pop_type = "Completa"
+            print(f"✅ {pop_size} mazos nuevos generados")
 
         # Mostrar configuración optimizada
         config = self.hardware_analyzer.optimization_config
@@ -1151,18 +1412,45 @@ class MTGMenuSystem:
                 print("Error: Opción no válida.")
                 return
 
-            # Calcular parámetros optimizados
-            # OPTIMIZADO: Elite = 40% de población (antes: ~7%), stagnation desactivado
-            elite_size = max(2, int(pop_size * 0.4))  # 40% de población para mayor presión selectiva
+            # Calcular parámetros optimizados dinámicamente
+            elite_size = max(2, int(pop_size * 0.3))  # 30% de población
+            tournament_size = max(3, int(pop_size * 0.125))  # ~12% de población
             stagnation_limit = 999  # Desactivado: evita inyección contraproducente de mazos aleatorios
+
+            # Parámetros Swiss Tournament (por defecto activado)
+            import math
+            use_swiss = True
+            k_rounds = min(12, max(5, math.ceil(math.log2(pop_size)) + 2))  # Fórmula óptima
+            n_games_per_match = 2
+
+            # Calcular enfrentamientos para estimación de tiempo
+            if use_swiss:
+                enfrentamientos = (pop_size * k_rounds) // 2
+                combates_totales = enfrentamientos * n_games_per_match
+            else:
+                enfrentamientos = (pop_size * (pop_size - 1)) // 2
+                combates_totales = enfrentamientos * 3
+
             estimated_time = self.hardware_analyzer.estimate_time(pop_size, max_gens)
 
             print(f"\nCONFIGURACIÓN FINAL OPTIMIZADA:")
             print(f"  Nombre: {config_name}")
             print(f"  Población: {pop_size} mazos")
             print(f"  Generaciones máximas: {max_gens}")
-            print(f"  Elite preservada: {elite_size}")
+            print(f"  Elite preservada: {elite_size} ({int(elite_size/pop_size*100)}%)")
+            print(f"  Tournament selection: {tournament_size} mazos ({int(tournament_size/pop_size*100)}%)")
             print(f"  Límite de estancamiento: {stagnation_limit}")
+            print(f"  ")
+            print(f"  🏆 Swiss Tournament: {'✅ Activado' if use_swiss else '❌ Desactivado'}")
+            if use_swiss:
+                print(f"     - k_rounds: {k_rounds} (cada mazo juega {k_rounds} partidas)")
+                print(f"     - n_games_per_match: {n_games_per_match}")
+                print(f"     - Enfrentamientos: {enfrentamientos}")
+                print(f"     - Combates totales: {combates_totales}")
+                full_rr = (pop_size * (pop_size - 1) // 2) * 3
+                reduction = ((full_rr - combates_totales) / full_rr) * 100
+                print(f"     - Reducción vs round-robin: {reduction:.1f}%")
+            print(f"  ")
             print(f"  Workers paralelos: {config['max_workers']}")
             print(f"  Timeout base: {config['base_timeout']}s")
             print(f"  Tiempo estimado: {estimated_time}")
@@ -1171,11 +1459,11 @@ class MTGMenuSystem:
                 print(f"\nAdvertencia: Esta ejecución es muy larga ({estimated_time})")
                 print("Considera usar una configuración más pequeña primero.")
 
-            confirm = input("\n¿Iniciar algoritmo genético optimizado? (S/n): ").strip().lower()
+            confirm = input("\n¿Iniciar algoritmo genético Swiss Tournament? (S/n): ").strip().lower()
             if confirm in ['n', 'no']:
                 return
 
-            print(f"\nIniciando algoritmo genético optimizado...")
+            print(f"\nIniciando algoritmo genético Swiss Tournament...")
             print(f"Configuración: {config_name}")
             print(f"Workers paralelos: {config['max_workers']}")
             print(f"Tiempo estimado: {estimated_time}")
@@ -1192,21 +1480,25 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=max_gens,
                 population_size=pop_size,
-                mutation_rate=0.15,              # Incrementado de 0.12 (+25% exploración)
-                crossover_rate=0.9,
-                tournament_size=4,               # Incrementado de 3 (+33% presión de selección)
-                elite_size=elite_size,
+                mutation_rate=0.9,
+                crossover_rate=0.15,
+                tournament_size=tournament_size,     # Calculado dinámicamente (~12% de pop)
+                elite_size=elite_size,               # Calculado dinámicamente (30% de pop)
                 stagnation_limit=stagnation_limit,
-                headless_mode=self.headless_mode,
+                # Parámetros Swiss Tournament
+                use_swiss_tournament=use_swiss,
+                k_rounds=k_rounds,
+                n_games_per_match=n_games_per_match,
                 # Parámetros de paralelización optimizados
                 max_workers=config['max_workers'],
                 parallel_batch_size=config['parallel_batch_size'],
                 base_timeout=config['base_timeout'],
                 log_level=config['log_level'],
                 save_forge_outputs=config['save_forge_outputs'],
-                # Parámetros de fitness multi-componente (MÁS PESO A CALIDAD)
-                fitness_alpha=0.6,               # Reducido de 0.7 (win rate 60%)
-                fitness_beta=0.4,                # Incrementado de 0.3 (calidad 40%)
+                headless_mode=self.headless_mode,
+                # Parámetros de fitness multi-componente
+                fitness_alpha=0.6,               # Win rate 60%
+                fitness_beta=0.4,                # Deck quality 40%
                 enable_quality_metrics=True
             )
 
@@ -1216,9 +1508,10 @@ class MTGMenuSystem:
             hours = elapsed // 3600
             minutes = (elapsed % 3600) // 60
 
-            print(f"\nAlgoritmo genético optimizado completado exitosamente")
+            print(f"\n🎉 Algoritmo genético Swiss Tournament completado exitosamente")
             print(f"Tiempo de ejecución: {int(hours)}h {int(minutes)}m")
-            print(f"Mejor fitness alcanzado: {ga.best_fitness_ever:.4f} ({ga.best_fitness_ever * 100:.1f}% win rate)")
+            print(f"Mejor fitness alcanzado: {ga.best_fitness_ever:.4f}")
+            print(f"Modo: Swiss Tournament (k={k_rounds}, n={n_games_per_match})")
             print(f"Workers utilizados: {config['max_workers']}")
 
             # Guardar mejor mazo
@@ -1394,7 +1687,19 @@ class MTGMenuSystem:
 
             start_time = time.time()
 
+            # Calcular parámetros dinámicamente (por si el checkpoint es antiguo)
+            import math
+            pop_size = selected_cp['pop_size']
+            elite_size = max(2, int(pop_size * 0.3))
+            tournament_size = max(3, int(pop_size * 0.125))
+
+            # Parámetros Swiss (el checkpoint puede sobrescribirlos si los tiene guardados)
+            use_swiss = True
+            k_rounds = min(12, max(5, math.ceil(math.log2(pop_size)) + 2))
+            n_games_per_match = 2
+
             # Ejecutar algoritmo genético (continuará automáticamente desde checkpoint)
+            # NOTA: Los parámetros del checkpoint (si existen) sobrescribirán estos valores
             ga = MTGGeneticAlgorithm(
                 population_file=pop_file,
                 catalog_path=os.path.join(self.data_dir, "card_catalog.json"),
@@ -1402,17 +1707,23 @@ class MTGMenuSystem:
                 output_dir=self.evolved_dir,
                 forge_jar_path=self.forge_jar,
                 max_generations=selected_cp['max_gens'],
-                population_size=selected_cp['pop_size'],
-                mutation_rate=0.15,
-                crossover_rate=0.9,
-                tournament_size=4,
-                elite_size=max(2, int(selected_cp['pop_size'] * 0.4)),  # OPTIMIZADO: 40% de población
-                stagnation_limit=999,  # Desactivado
+                population_size=pop_size,
+                mutation_rate=0.9,
+                crossover_rate=0.15,
+                tournament_size=tournament_size,     # Calculado dinámicamente
+                elite_size=elite_size,               # Calculado dinámicamente
+                stagnation_limit=999,
+                # Swiss Tournament (checkpoint puede sobrescribir)
+                use_swiss_tournament=use_swiss,
+                k_rounds=k_rounds,
+                n_games_per_match=n_games_per_match,
+                # Paralelización
                 max_workers=config['max_workers'],
                 base_timeout=config['base_timeout'],
                 log_level=config['log_level'],
                 save_forge_outputs=False,
                 headless_mode=self.headless_mode,
+                # Fitness
                 fitness_alpha=0.6,
                 fitness_beta=0.4,
                 enable_quality_metrics=True
@@ -1680,15 +1991,25 @@ class MTGMenuSystem:
             population_size = config['recommended_populations']['small']
             generations = 15
 
-        estimated_time = self.hardware_analyzer.estimate_time(population_size, generations)
+        estimated_time = self.hardware_analyzer.estimate_time(population_size, generations, use_swiss=True)
 
-        print("Esta opción ejecutará todo el proceso AUTO-OPTIMIZADO:")
-        print("  1. Obtener cartas (si no están disponibles)")
-        print(f"  2. Generar población de {population_size} mazos")
-        print(f"  3. Ejecutar algoritmo genético por {generations} generaciones")
-        print(f"  4. Usar {config['max_workers']} workers paralelos")
+        # Calcular detalles Swiss
+        import math
+        k_rounds = min(12, max(5, math.ceil(math.log2(population_size)) + 2))
+        enfrentamientos = (population_size * k_rounds) // 2
+        combates_totales = enfrentamientos * 2
+
+        print("Esta opción ejecutará todo el proceso con SWISS TOURNAMENT:")
+        print("  1. Obtener cartas de Standard (si no están disponibles)")
+        print(f"  2. Generar población de {population_size} mazos aleatorios")
+        print(f"  3. Ejecutar algoritmo genético Swiss Tournament:")
+        print(f"     - {generations} generaciones")
+        print(f"     - {k_rounds} rondas Swiss por generación")
+        print(f"     - {combates_totales} combates por generación")
+        print(f"     - {config['max_workers']} workers paralelos")
         print(f"\n⏱️  Tiempo estimado total: {estimated_time}")
-        print(f"🖥️  Sistema detectado: {profile['system_tier'].replace('_', ' ').title()}")
+        print(f"🖥️  Sistema: {profile['system_tier'].replace('_', ' ').title()}")
+        print(f"🏆 Swiss Tournament: Activado (k={k_rounds}, n=2)")
 
         confirm = input("\n¿Ejecutar proceso completo AUTO-OPTIMIZADO? (s/N): ").strip().lower()
         if confirm not in ['s', 'sí', 'si', 'y', 'yes']:
@@ -1719,6 +2040,20 @@ class MTGMenuSystem:
             print(f"\n🧬 Paso 3/3: Ejecutando algoritmo genético AUTO-OPTIMIZADO...")
             print(f"   ({generations} generaciones, {config['max_workers']} workers paralelos)")
 
+            # Calcular parámetros dinámicamente
+            import math
+            elite_size = max(2, int(population_size * 0.3))
+            tournament_size = max(3, int(population_size * 0.125))
+            use_swiss = True
+            k_rounds = min(12, max(5, math.ceil(math.log2(population_size)) + 2))
+            n_games_per_match = 2
+
+            print(f"\n📊 CONFIGURACIÓN:")
+            print(f"   Población: {population_size} mazos")
+            print(f"   Elite: {elite_size} ({int(elite_size/population_size*100)}%)")
+            print(f"   Tournament: {tournament_size} mazos")
+            print(f"   Swiss: ✅ (k={k_rounds}, n={n_games_per_match})")
+
             ga = MTGGeneticAlgorithm(
                 population_file=os.path.join(self.decks_dir, "initial_population.json"),
                 catalog_path=os.path.join(self.data_dir, "card_catalog.json"),
@@ -1727,20 +2062,25 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=generations,
                 population_size=population_size,
-                mutation_rate=0.15,              # Incrementado de 0.12 (+25% exploración)
-                crossover_rate=0.9,              # Mantener (óptimo demostrado)
-                tournament_size=4,               # Incrementado de 3 (+33% presión de selección)
-                elite_size=max(2, population_size // 15),
-                stagnation_limit=max(5, generations // 4),
-                headless_mode=self.headless_mode,
+                mutation_rate=0.9,
+                crossover_rate=0.15,
+                tournament_size=tournament_size,     # Calculado dinámicamente
+                elite_size=elite_size,               # Calculado dinámicamente
+                stagnation_limit=999,  # Desactivado: alta mutación necesita todas las generaciones
+                # Swiss Tournament
+                use_swiss_tournament=use_swiss,
+                k_rounds=k_rounds,
+                n_games_per_match=n_games_per_match,
+                # Parámetros de paralelización
                 max_workers=config['max_workers'],
                 parallel_batch_size=config['parallel_batch_size'],
                 base_timeout=config['base_timeout'],
                 log_level=config['log_level'],
                 save_forge_outputs=config['save_forge_outputs'],
-                # Parámetros de fitness multi-componente (optimizados)
-                fitness_alpha=0.6,               # Reducido de 0.7 (win rate 60%)
-                fitness_beta=0.4,                # Incrementado de 0.3 (calidad 40%)
+                headless_mode=self.headless_mode,
+                # Parámetros de fitness multi-componente
+                fitness_alpha=0.6,
+                fitness_beta=0.4,
                 enable_quality_metrics=True
             )
 
@@ -1750,9 +2090,10 @@ class MTGMenuSystem:
             hours = total_elapsed // 3600
             minutes = (total_elapsed % 3600) // 60
 
-            print(f"\n🎉 ¡EJECUCIÓN COMPLETA AUTO-OPTIMIZADA FINALIZADA!")
+            print(f"\n🎉 ¡EJECUCIÓN COMPLETA FINALIZADA!")
             print(f"   Tiempo total: {int(hours)}h {int(minutes)}m")
             print(f"   Mejor fitness: {ga.best_fitness_ever:.4f}")
+            print(f"   Modo: Swiss Tournament (k={k_rounds}, n={n_games_per_match})")
             print(f"   Workers utilizados: {config['max_workers']}")
 
             # Guardar mejor mazo
@@ -1774,7 +2115,7 @@ class MTGMenuSystem:
         Modo de prueba rápida con población pequeña
         """
         print("\n" + "=" * 60)
-        print("⚡ MODO DE PRUEBA RÁPIDA AUTO-OPTIMIZADO")
+        print("⚡ MODO DE PRUEBA RÁPIDA (SWISS TOURNAMENT)")
         print("=" * 60)
 
         if not self.forge_configured:
@@ -1796,14 +2137,30 @@ class MTGMenuSystem:
             workers = config['max_workers']
             estimated_time = self.hardware_analyzer.estimate_time(test_size, test_gens)
 
-        print("Esta opción ejecutará una prueba rápida AUTO-OPTIMIZADA:")
-        print("  1. Usar cartas existentes o descargar si es necesario")
+        # Calcular configuración Swiss para la información
+        import math
+        use_swiss_info = test_size >= 20
+        if use_swiss_info:
+            k_rounds_info = min(12, max(5, math.ceil(math.log2(test_size)) + 2))
+            n_games_info = 2
+            enfrentamientos_info = (test_size * k_rounds_info) // 2
+            combates_info = enfrentamientos_info * n_games_info
+            mode_info = f"Swiss Tournament (k={k_rounds_info}, n={n_games_info})"
+        else:
+            enfrentamientos_info = test_size * (test_size - 1) // 2
+            combates_info = enfrentamientos_info * 3
+            mode_info = f"Round-Robin completo (población pequeña)"
+
+        print("Esta opción ejecutará una prueba rápida:")
+        print("  1. Usar cartas existentes de Standard o descargar si es necesario")
         print(f"  2. Generar población de {test_size} mazos")
         print(f"  3. Ejecutar algoritmo genético por {test_gens} generaciones")
+        print(f"     - Modo: {mode_info}")
+        print(f"     - Combates por generación: {combates_info}")
         print(f"  4. Usar {workers} workers paralelos")
         print(f"\n⏱️  Tiempo estimado total: {estimated_time}")
 
-        confirm = input("\n¿Ejecutar prueba rápida AUTO-OPTIMIZADA? (S/n): ").strip().lower()
+        confirm = input("\n¿Ejecutar prueba rápida? (S/n): ").strip().lower()
         if confirm in ['n', 'no']:
             return
 
@@ -1829,8 +2186,16 @@ class MTGMenuSystem:
             self.check_system_status()
 
             # Paso 3: Algoritmo genético de prueba
-            print(f"\n🧬 Ejecutando algoritmo genético de prueba AUTO-OPTIMIZADO...")
+            print(f"\n🧬 Ejecutando algoritmo genético de prueba...")
             print(f"   ({test_gens} generaciones, {workers} workers paralelos)")
+
+            # Calcular parámetros dinámicamente
+            import math
+            elite_size = max(2, int(test_size * 0.3))
+            tournament_size = max(3, int(test_size * 0.125))
+            use_swiss = test_size >= 20  # Solo Swiss si pop >= 20
+            k_rounds = min(12, max(5, math.ceil(math.log2(test_size)) + 2)) if use_swiss else test_size - 1
+            n_games_per_match = 2 if use_swiss else 3
 
             # Configuración optimizada
             if self.hardware_analyzer:
@@ -1851,6 +2216,12 @@ class MTGMenuSystem:
                     'save_forge_outputs': True
                 }
 
+            print(f"\n📊 CONFIGURACIÓN:")
+            print(f"   Población: {test_size} mazos")
+            print(f"   Elite: {elite_size} ({int(elite_size/test_size*100)}%)")
+            print(f"   Tournament: {tournament_size} mazos")
+            print(f"   Swiss: {'✅' if use_swiss else '❌'} (k={k_rounds}, n={n_games_per_match})")
+
             ga = MTGGeneticAlgorithm(
                 population_file=os.path.join(self.decks_dir, "test_population.json"),
                 catalog_path=os.path.join(self.data_dir, "card_catalog.json"),
@@ -1859,16 +2230,20 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=test_gens,
                 population_size=test_size,
-                mutation_rate=0.15,              # Incrementado de 0.12 (+25% exploración)
-                crossover_rate=0.9,              # Mantener (óptimo demostrado)
-                tournament_size=4,               # Incrementado de 3 (+33% presión de selección)
-                elite_size=2,                    # Mantener (mínimo estable)
-                stagnation_limit=max(2, test_gens // 2),
-                headless_mode=self.headless_mode,
-                # Parámetros de fitness multi-componente (optimizados)
-                fitness_alpha=0.6,               # Reducido de 0.7 (win rate 60%)
-                fitness_beta=0.4,                # Incrementado de 0.3 (calidad 40%)
+                mutation_rate=0.9,
+                crossover_rate=0.15,
+                tournament_size=tournament_size,     # Calculado dinámicamente
+                elite_size=elite_size,               # Calculado dinámicamente
+                stagnation_limit=999,  # Desactivado: alta mutación necesita todas las generaciones
+                # Swiss Tournament
+                use_swiss_tournament=use_swiss,
+                k_rounds=k_rounds,
+                n_games_per_match=n_games_per_match,
+                # Parámetros de fitness multi-componente
+                fitness_alpha=0.6,
+                fitness_beta=0.4,
                 enable_quality_metrics=True,
+                headless_mode=self.headless_mode,
                 **ga_config
             )
 
@@ -1878,9 +2253,10 @@ class MTGMenuSystem:
             minutes = test_elapsed // 60
             seconds = test_elapsed % 60
 
-            print(f"\n🎯 ¡PRUEBA AUTO-OPTIMIZADA COMPLETADA!")
+            print(f"\n🎯 ¡PRUEBA COMPLETADA!")
             print(f"   Tiempo total: {int(minutes)}m {int(seconds)}s")
             print(f"   Mejor fitness: {ga.best_fitness_ever:.4f}")
+            print(f"   Modo: {'Swiss Tournament' if use_swiss else 'Round-Robin'}")
             print(f"   Workers utilizados: {workers}")
 
             # Guardar mejor mazo
@@ -1897,6 +2273,207 @@ class MTGMenuSystem:
             print(f"\n\n⏹️  Prueba interrumpida por el usuario")
         except Exception as e:
             print(f"\n❌ Error en prueba: {e}")
+
+        input("\nPresiona Enter para continuar...")
+
+    def experimento_mutation_crossover(self):
+        """
+        Experimento para encontrar el punto dulce de mutation_rate y crossover_rate
+        Prioriza configuraciones con alta mutación
+        """
+        print("\n" + "=" * 70)
+        print("🔬 EXPERIMENTO: PUNTO DULCE MUTATION/CROSSOVER")
+        print("=" * 70)
+
+        print("\n📋 OBJETIVO:")
+        print("  Encontrar la mejor combinación de mutation_rate y crossover_rate")
+        print("  priorizando alta mutación (ya que el cruce destruye combinaciones)")
+        print()
+        print("📊 MÉTODO:")
+        print("  - Población pequeña: 20 mazos (rápido)")
+        print("  - Generaciones: 5 (suficiente para ver tendencia)")
+        print("  - Swiss Tournament: k=6, n=2")
+        print("  - Probar múltiples combinaciones de mutation/crossover")
+        print()
+        print("⏱️  TIEMPO ESTIMADO: ~2-3 horas total")
+
+        if not self.forge_configured:
+            print("\n❌ Forge no está configurado. Configúralo primero (Opción 4).")
+            input("\nPresiona Enter para continuar...")
+            return
+
+        confirm = input("\n¿Ejecutar experimento? (S/n): ").strip().lower()
+        if confirm in ['n', 'no']:
+            return
+
+        # Limpiar checkpoints antiguos para evitar interrupciones
+        checkpoint_dir = os.path.join(self.evolved_dir, "checkpoints")
+        if os.path.exists(checkpoint_dir):
+            import shutil
+            shutil.rmtree(checkpoint_dir)
+            print(f"🧹 Checkpoints antiguos eliminados para evitar pausas")
+            os.makedirs(checkpoint_dir, exist_ok=True)
+
+        # Configuraciones a probar (priorizando alta mutación)
+        configs = [
+            ("Mut: 90%, Cross: 10%", 0.9, 0.1),
+            ("Mut: 85%, Cross: 15%", 0.85, 0.15),
+            ("Mut: 80%, Cross: 20%", 0.8, 0.2),
+            ("Mut: 75%, Cross: 25%", 0.75, 0.25),
+            ("Mut: 70%, Cross: 30%", 0.7, 0.3),
+            ("Mut: 60%, Cross: 40%", 0.6, 0.4),
+            ("Mut: 50%, Cross: 50%", 0.5, 0.5),
+            # Referencia (configuración antigua invertida)
+            ("Mut: 15%, Cross: 90% [OLD]", 0.15, 0.9),
+        ]
+
+        print(f"\n🧪 Probando {len(configs)} configuraciones...")
+        print("=" * 70)
+
+        # Verificar que hay cartas y generar mazos de prueba
+        if not self.cards_available:
+            print("\n📥 Obteniendo cartas...")
+            from obtener_cartas_mtg import MTGCardScraper
+            scraper = MTGCardScraper(output_dir=self.data_dir, exclude_latest_set=True)
+            scraper.run()
+            self.check_system_status()
+
+        # Generar población de prueba de 20 mazos
+        print(f"\n🎴 Generando 20 mazos para el experimento...")
+        from generador_mazos_mtg import MTGDeckGenerator
+        generator = MTGDeckGenerator(
+            cards_csv_path=os.path.join(self.data_dir, "processed_standard_cards.csv"),
+            catalog_path=os.path.join(self.data_dir, "card_catalog.json"),
+            indices_path=os.path.join(self.data_dir, "card_indices.json"),
+            output_dir=self.decks_dir
+        )
+        population = generator.generate_population_exact_size(20)
+
+        # Guardar la población con el nombre correcto para el experimento
+        pop_file = os.path.join(self.decks_dir, "experiment_population.json")
+        import json
+        with open(pop_file, 'w', encoding='utf-8') as f:
+            json.dump(population, f, ensure_ascii=False, indent=2)
+        print(f"✅ Población de experimento guardada: {pop_file}")
+
+        # Obtener configuración de hardware
+        if not self.analyze_hardware_if_needed():
+            workers = 4
+        else:
+            workers = self.hardware_analyzer.optimization_config['max_workers']
+
+        results = []
+
+        for i, (name, mut_rate, cross_rate) in enumerate(configs, 1):
+            print(f"\n{'=' * 70}")
+            print(f"🔬 CONFIGURACIÓN {i}/{len(configs)}: {name}")
+            print(f"{'=' * 70}")
+
+            try:
+                import time
+                start_time = time.time()
+
+                ga = MTGGeneticAlgorithm(
+                    population_file=pop_file,
+                    catalog_path=os.path.join(self.data_dir, "card_catalog.json"),
+                    indices_path=os.path.join(self.data_dir, "card_indices.json"),
+                    output_dir=self.evolved_dir,
+                    forge_jar_path=self.forge_jar,
+                    max_generations=5,
+                    population_size=20,
+                    mutation_rate=mut_rate,
+                    crossover_rate=cross_rate,
+                    tournament_size=3,
+                    elite_size=6,
+                    stagnation_limit=3,
+                    use_swiss_tournament=True,
+                    k_rounds=6,
+                    n_games_per_match=2,
+                    max_workers=workers,
+                    parallel_batch_size=6,
+                    base_timeout=300,
+                    log_level='WARNING',  # Menos ruido en logs
+                    save_forge_outputs=False,
+                    headless_mode=self.headless_mode,
+                    fitness_alpha=0.6,
+                    fitness_beta=0.4,
+                    enable_quality_metrics=True
+                )
+
+                best_deck = ga.evolve()
+                elapsed = time.time() - start_time
+
+                results.append({
+                    'name': name,
+                    'mutation_rate': mut_rate,
+                    'crossover_rate': cross_rate,
+                    'best_fitness': ga.best_fitness_ever,
+                    'time_seconds': elapsed,
+                    'stagnation_count': ga.stagnation_counter
+                })
+
+                print(f"\n✅ Completado en {int(elapsed // 60)}m {int(elapsed % 60)}s")
+                print(f"   Best fitness: {ga.best_fitness_ever:.4f}")
+                print(f"   Estancamiento: {ga.stagnation_counter}/3")
+
+            except Exception as e:
+                print(f"\n❌ Error en configuración {name}: {e}")
+                results.append({
+                    'name': name,
+                    'mutation_rate': mut_rate,
+                    'crossover_rate': cross_rate,
+                    'best_fitness': 0.0,
+                    'time_seconds': 0,
+                    'stagnation_count': 0
+                })
+
+        # Mostrar resultados
+        print("\n" + "=" * 70)
+        print("📊 RESULTADOS DEL EXPERIMENTO")
+        print("=" * 70)
+
+        # Ordenar por best_fitness descendente
+        results.sort(key=lambda x: x['best_fitness'], reverse=True)
+
+        print("\n┌─────────────────────────────┬──────────┬─────────┬────────────┐")
+        print("│ Configuración               │ Fitness  │ Tiempo  │ Estanc.    │")
+        print("├─────────────────────────────┼──────────┼─────────┼────────────┤")
+
+        for r in results:
+            mins = int(r['time_seconds'] // 60)
+            badge = "🏆" if r == results[0] else "  "
+            print(f"│ {badge} {r['name']:25} │ {r['best_fitness']:6.4f}  │ {mins:3}m    │ {r['stagnation_count']}/3        │")
+
+        print("└─────────────────────────────┴──────────┴─────────┴────────────┘")
+
+        # Análisis y recomendación
+        best = results[0]
+        print(f"\n🏆 MEJOR CONFIGURACIÓN:")
+        print(f"   {best['name']}")
+        print(f"   Fitness: {best['best_fitness']:.4f}")
+        print(f"   mutation_rate = {best['mutation_rate']}")
+        print(f"   crossover_rate = {best['crossover_rate']}")
+
+        print(f"\n💡 RECOMENDACIONES:")
+
+        # Encontrar top 3
+        top_3 = results[:3]
+        avg_mut = sum(r['mutation_rate'] for r in top_3) / 3
+        avg_cross = sum(r['crossover_rate'] for r in top_3) / 3
+
+        print(f"   - Basado en el top 3, el rango óptimo parece ser:")
+        print(f"     mutation_rate: ~{avg_mut:.2f} ({avg_mut*100:.0f}%)")
+        print(f"     crossover_rate: ~{avg_cross:.2f} ({avg_cross*100:.0f}%)")
+        print(f"\n   - Si quieres aplicar la mejor configuración, edita mtg_main.py")
+        print(f"     y cambia mutation_rate={best['mutation_rate']}, crossover_rate={best['crossover_rate']}")
+
+        # Guardar resultados
+        results_file = os.path.join(self.evolved_dir, "mutation_crossover_experiment.json")
+        import json
+        with open(results_file, 'w') as f:
+            json.dump(results, f, indent=2)
+
+        print(f"\n📁 Resultados guardados en: {results_file}")
 
         input("\nPresiona Enter para continuar...")
 

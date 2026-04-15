@@ -29,22 +29,22 @@ class MTGCardScraper:
         # Lista específica de códigos de expansiones a obtener
         # Esto es mucho más confiable que buscar por nombres
         self.target_set_codes = {
-            'FDN': 'Magic: The Gathering Foundations'
-            #'DMU': 'Dominaria United', 
-            #'BRO': 'The Brothers\' War',
-            #'ONE': 'Phyrexia: All Will Be One',
-            #'MOM': 'March of the Machine',
-            #'MAT': 'March of the Machine: The Aftermath',
-            #'WOE': 'Wilds of Eldraine',
-            #'LCI': 'The Lost Caverns of Ixalan',
-            #'MKM': 'Murders at Karlov Manor',
-            #'OTJ': 'Outlaws of Thunder Junction',
-            #'BIG': 'Outlaws of Thunder Junction/The Big Score',
-            #'BLB': 'Bloomburrow',
-            #'DSK': 'Duskmourn: House of Horror',
-            #'DFT': 'Aetherdrift',
-            #'TDM': 'Tarkir: Dragonstorm',
-            #'FIN': 'Final Fantasy'
+            'FDN': 'Magic: The Gathering Foundations',
+            'DMU': 'Dominaria United', 
+            'BRO': 'The Brothers\' War',
+            'ONE': 'Phyrexia: All Will Be One',
+            'MOM': 'March of the Machine',
+            'MAT': 'March of the Machine: The Aftermath',
+            'WOE': 'Wilds of Eldraine',
+            'LCI': 'The Lost Caverns of Ixalan',
+            'MKM': 'Murders at Karlov Manor',
+            'OTJ': 'Outlaws of Thunder Junction',
+            'BIG': 'Outlaws of Thunder Junction/The Big Score',
+            'BLB': 'Bloomburrow',
+            'DSK': 'Duskmourn: House of Horror',
+            'DFT': 'Aetherdrift',
+            'TDM': 'Tarkir: Dragonstorm',
+            'FIN': 'Final Fantasy'
         }
     
     def get_sets_from_scryfall(self):

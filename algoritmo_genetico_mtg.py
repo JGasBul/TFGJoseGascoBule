@@ -57,20 +57,24 @@ class MTGGeneticAlgorithm:
     mazos de MTG utilizando Forge como simulador de combates. Incluye características
     avanzadas como paralelización, hall of fame, mutación adaptativa y anti-estancamiento.
     """
-    def __init__(self, 
+    def __init__(self,
                  population_file="mtg_decks/initial_population.json",
                  catalog_path="mtg_data/card_catalog.json",
                  indices_path="mtg_data/card_indices.json",
                  output_dir="mtg_evolved_decks",
                  forge_jar_path="./forge-gui-desktop-2.0.04-jar-with-dependencies.jar",
                  max_generations=200,
-                 population_size=20,              # OPTIMIZADO: Reducido de 50 a 20 para convergencia más rápida
-                 mutation_rate=0.15,              # Optimizado: +25% exploración (antes 0.05)
-                 crossover_rate=0.9,              # Mantener (óptimo demostrado)
-                 tournament_size=4,               # Optimizado: +33% presión de selección (antes 3)
-                 elite_size=8,                    # OPTIMIZADO: Incrementado de 5 a 8 (40% de población)
+                 population_size=40,              # OPTIMIZADO: Aumentado de 20 a 40 para mejor exploración
+                 mutation_rate=0.9,               # Alta exploración (call sites usan este valor; cap real 0.3 en adaptive_mutation_rate)
+                 crossover_rate=0.15,             # Bajo cruce: prioriza diversidad sobre homogeneización
+                 tournament_size=5,               # Optimizado: ~12% de población de 40 (antes 4 de 20)
+                 elite_size=12,                   # OPTIMIZADO: 30% de población de 40 (antes 8 de 20)
                  stagnation_limit=999,            # DESACTIVADO: Evita inyección contraproducente de mazos aleatorios
-                 # NUEVOS PARÁMETROS DE PARALELIZACIÓN
+                 # PARÁMETROS SWISS TOURNAMENT
+                 use_swiss_tournament=True,       # Activar Swiss Tournament (False = round-robin completo)
+                 k_rounds=8,                      # Rondas Swiss (fórmula: ceil(log2(pop)) + 2 = 8 para pop=40, 9 para pop=100)
+                 n_games_per_match=2,             # Partidas por enfrentamiento (balance entre precisión y tiempo)
+                 # PARÁMETROS DE PARALELIZACIÓN
                  max_workers=None,
                  parallel_batch_size=None,
                  base_timeout=120,
@@ -97,6 +101,9 @@ class MTGGeneticAlgorithm:
             tournament_size: Tamaño del torneo para selección
             elite_size: Número de mejores individuos a preservar
             stagnation_limit: Generaciones sin mejora antes de aplicar anti-estancamiento
+            use_swiss_tournament: Usar Swiss Tournament (True) o round-robin completo (False)
+            k_rounds: Número de rondas en Swiss Tournament (recomendado: ceil(log2(pop))+2)
+            n_games_per_match: Partidas por enfrentamiento (1-3, recomendado: 2)
             max_workers: Workers paralelos (None = auto-detectar según CPU)
             parallel_batch_size: Tamaño de lote paralelo (None = auto-calcular)
             base_timeout: Timeout base en segundos para combates
@@ -111,9 +118,9 @@ class MTGGeneticAlgorithm:
         if not os.path.exists(output_dir):
             os.makedirs(output_dir)
         
-        self.catalog_path = catalog_path      
-        self.indices_path = indices_path      
-        self.population_file = population_file 
+        self.catalog_path = catalog_path
+        self.indices_path = indices_path
+        self.population_file = population_file
         self.forge_jar_path = forge_jar_path
         self.max_generations = max_generations
         self.population_size = population_size
@@ -122,6 +129,11 @@ class MTGGeneticAlgorithm:
         self.tournament_size = tournament_size
         self.elite_size = elite_size
         self.stagnation_limit = stagnation_limit
+
+        # CONFIGURACIÓN SWISS TOURNAMENT
+        self.use_swiss_tournament = use_swiss_tournament
+        self.k_rounds = k_rounds
+        self.n_games_per_match = n_games_per_match
 
         # CONFIGURACIÓN DE FITNESS MULTI-COMPONENTE
         self.fitness_alpha = fitness_alpha
@@ -555,7 +567,98 @@ class MTGGeneticAlgorithm:
             
             # Guardar en memoria
             self.combat_log.append(result)
-    
+
+    def generate_swiss_pairings(self, n_decks, k_rounds):
+        """
+        Genera emparejamientos estilo Swiss Tournament
+
+        En un Swiss Tournament, cada mazo juega exactamente k_rounds partidas contra
+        oponentes diferentes. Esto reduce significativamente el número de combates
+        comparado con round-robin completo.
+
+        Args:
+            n_decks: Número de mazos en la población
+            k_rounds: Número de rondas Swiss (cada mazo juega k partidas)
+
+        Returns:
+            Lista de tuplas (i, j) donde i < j, representando enfrentamientos
+
+        Ejemplo:
+            population_size=40, k_rounds=8
+            → 160 enfrentamientos (vs 780 en round-robin completo)
+            → Cada mazo juega exactamente 8 partidas
+        """
+        if k_rounds >= n_decks:
+            # Si k >= n, hacer round-robin completo
+            self.logger.warning(
+                f"k_rounds={k_rounds} >= n_decks={n_decks}. "
+                f"Usando round-robin completo."
+            )
+            return [(i, j) for i in range(n_decks) for j in range(i+1, n_decks)]
+
+        pairings = []
+        matchups_count = [0] * n_decks  # Cuántas partidas ha jugado cada mazo
+        played_against = [set() for _ in range(n_decks)]  # Contra quién ha jugado cada mazo
+
+        for round_num in range(k_rounds):
+            round_pairings = []
+            available = list(range(n_decks))
+            random.shuffle(available)  # Aleatorizar para evitar patrones
+
+            # Emparejar mazos en esta ronda
+            while len(available) >= 2:
+                # Tomar el primer mazo disponible
+                deck_i = available.pop(0)
+
+                # Buscar mejor oponente: que no haya jugado contra deck_i
+                best_opponent = None
+                for candidate in available:
+                    if candidate not in played_against[deck_i]:
+                        best_opponent = candidate
+                        break
+
+                # Si no hay oponente sin jugar, tomar cualquiera
+                if best_opponent is None:
+                    if len(available) > 0:
+                        best_opponent = available[0]
+
+                if best_opponent is not None:
+                    available.remove(best_opponent)
+
+                    # Registrar emparejamiento (siempre i < j)
+                    deck_j = best_opponent
+                    if deck_i > deck_j:
+                        deck_i, deck_j = deck_j, deck_i
+
+                    round_pairings.append((deck_i, deck_j))
+
+                    # Actualizar contadores
+                    matchups_count[deck_i] += 1
+                    matchups_count[deck_j] += 1
+                    played_against[deck_i].add(deck_j)
+                    played_against[deck_j].add(deck_i)
+
+            # Si queda un mazo impar, espera a siguiente ronda
+            # (esto es normal en Swiss Tournament con población impar)
+
+            pairings.extend(round_pairings)
+
+            self.logger.debug(
+                f"Swiss Round {round_num+1}/{k_rounds}: {len(round_pairings)} enfrentamientos"
+            )
+
+        # Verificar distribución
+        min_games = min(matchups_count)
+        max_games = max(matchups_count)
+        avg_games = sum(matchups_count) / len(matchups_count)
+
+        self.logger.info(
+            f"Swiss Tournament generado: {len(pairings)} enfrentamientos totales "
+            f"(min={min_games}, max={max_games}, avg={avg_games:.1f} partidas/mazo)"
+        )
+
+        return pairings
+
     def evaluate_population_tournament_parallel(self, population_arrays, generation=0):
         """Evalúa población mediante torneo round-robin paralelo"""
         self.current_generation = generation
@@ -570,8 +673,29 @@ class MTGGeneticAlgorithm:
 
         self.logger.info(f"Población: {n_decks} mazos")
         self.logger.info(f"Workers paralelos: {self.max_workers}")
-        total_enfrentamientos = n_decks * (n_decks - 1) // 2
-        self.logger.info(f"Total de enfrentamientos: {total_enfrentamientos} (cada uno con 3 combates = {total_enfrentamientos * 3} combates totales)")
+
+        # Determinar enfrentamientos según configuración
+        if self.use_swiss_tournament:
+            self.logger.info(f"=== SWISS TOURNAMENT MODE ===")
+            self.logger.info(f"k_rounds: {self.k_rounds}")
+            self.logger.info(f"n_games_per_match: {self.n_games_per_match}")
+            matchups = self.generate_swiss_pairings(n_decks, self.k_rounds)
+            total_enfrentamientos = len(matchups)
+            total_combates = total_enfrentamientos * self.n_games_per_match
+            self.logger.info(
+                f"Swiss: {total_enfrentamientos} enfrentamientos × {self.n_games_per_match} combates = "
+                f"{total_combates} combates totales"
+            )
+        else:
+            self.logger.info(f"=== ROUND-ROBIN COMPLETO MODE ===")
+            matchups = [(i, j) for i in range(n_decks) for j in range(i+1, n_decks)]
+            total_enfrentamientos = len(matchups)
+            # Por compatibilidad, mantener 3 combates en round-robin
+            total_combates = total_enfrentamientos * 3
+            self.logger.info(
+                f"Round-robin: {total_enfrentamientos} enfrentamientos × 3 combates = "
+                f"{total_combates} combates totales"
+            )
 
         # NO limpiar mazos aquí - queremos acumular todos los mazos de todas las generaciones
         # La limpieza solo se hace manualmente al inicio de una NUEVA ejecución completa
@@ -584,25 +708,28 @@ class MTGGeneticAlgorithm:
             deck = self.array_to_deck(array, deck_name)
             deck_file = os.path.join(self.forge_decks_dir, f"{deck_name}.dck")
             self.save_forge_deck(deck, deck_file)
-        
-        # Crear lista de todos los combates - OPTIMIZADO
+
+        # Crear lista de todos los combates
         combat_tasks = []
         match_count = 0
-        
-        for i in range(n_decks):
-            for j in range(i + 1, n_decks):
-                # SOLO UN COMBATE por enfrentamiento único
+
+        # Determinar número de combates por enfrentamiento
+        n_games = self.n_games_per_match if self.use_swiss_tournament else 3
+
+        for i, j in matchups:
+            # Crear n_games combates para este enfrentamiento
+            for game_num in range(n_games):
                 match_count += 1
                 match_id = f"Gen{generation}_Match{match_count}_{int(time.time())}"
-                
+
                 # Alternancia determinística del starter
-                if self.get_starting_player(i, j, generation):
+                if self.get_starting_player(i, j, generation + game_num):
                     deck1_name, deck2_name = deck_names[i], deck_names[j]
                     deck1_idx, deck2_idx = i, j
                 else:
                     deck1_name, deck2_name = deck_names[j], deck_names[i]
                     deck1_idx, deck2_idx = j, i
-                
+
                 combat_tasks.append({
                     'deck1_name': deck1_name,
                     'deck2_name': deck2_name,
@@ -619,7 +746,16 @@ class MTGGeneticAlgorithm:
                 })
         
         total_combats = len(combat_tasks)
-        self.logger.info(f"Ejecutando {total_combats} combates en paralelo... (OPTIMIZADO: 50% menos)")
+        if self.use_swiss_tournament:
+            # Calcular reducción vs round-robin completo
+            full_rr_combats = (n_decks * (n_decks - 1) // 2) * 3
+            reduction_pct = ((full_rr_combats - total_combats) / full_rr_combats) * 100
+            self.logger.info(
+                f"Ejecutando {total_combats} combates en paralelo "
+                f"({reduction_pct:.1f}% reducción vs round-robin completo)"
+            )
+        else:
+            self.logger.info(f"Ejecutando {total_combats} combates en paralelo...")
         
         # EJECUCIÓN PARALELA
         successful_combats = 0
@@ -1824,6 +1960,10 @@ class MTGGeneticAlgorithm:
                 'original_mutation_rate': self.original_mutation_rate if hasattr(self, 'original_mutation_rate') else self.mutation_rate,
                 'adaptive_timeout': self.adaptive_timeout,
                 'generations_since_intervention': self.generations_since_intervention if hasattr(self, 'generations_since_intervention') else 0,
+                # Nuevos parámetros Swiss Tournament
+                'use_swiss_tournament': self.use_swiss_tournament,
+                'k_rounds': self.k_rounds,
+                'n_games_per_match': self.n_games_per_match,
                 'timestamp': datetime.now().isoformat(),
                 'hall_of_fame': []
             }
@@ -1905,6 +2045,12 @@ class MTGGeneticAlgorithm:
             self.adaptive_timeout = checkpoint_data.get('adaptive_timeout', self.base_timeout)
             self.generations_since_intervention = checkpoint_data.get('generations_since_intervention', 0)
 
+            # Restaurar parámetros Swiss Tournament si existen
+            if 'use_swiss_tournament' in checkpoint_data:
+                self.use_swiss_tournament = checkpoint_data['use_swiss_tournament']
+                self.k_rounds = checkpoint_data.get('k_rounds', 8)
+                self.n_games_per_match = checkpoint_data.get('n_games_per_match', 2)
+
             # Restaurar Hall of Fame si existe
             if 'hall_of_fame' in checkpoint_data and len(checkpoint_data['hall_of_fame']) > 0:
                 self.hall_of_fame_arrays = [
@@ -1918,6 +2064,8 @@ class MTGGeneticAlgorithm:
             self.logger.info(f"  Mutation rate: {self.mutation_rate:.3f} (original: {self.original_mutation_rate:.3f})")
             self.logger.info(f"  Generations since intervention: {self.generations_since_intervention}")
             self.logger.info(f"  Population size: {len(self.population_arrays)}")
+            if hasattr(self, 'use_swiss_tournament'):
+                self.logger.info(f"  Swiss Tournament: {self.use_swiss_tournament} (k={self.k_rounds}, n={self.n_games_per_match})")
 
             return checkpoint_data
 
@@ -2323,13 +2471,13 @@ class MTGGeneticAlgorithm:
                     self.stats['best_fitness'] = [max(self.current_fitness_values)]
                     self.stats['avg_fitness'] = [np.mean(self.current_fitness_values)]
                     self.stats['diversity'] = [self.calculate_diversity(self.population_arrays)]
-                    self.stats['mutation_rate'] = [getattr(self, 'mutation_rate', 0.05)]
+                    self.stats['mutation_rate'] = [getattr(self, 'mutation_rate', 0.9)]
                 else:
                     # Estadísticas de fallback absoluto
                     self.stats['best_fitness'] = [0.0]
-                    self.stats['avg_fitness'] = [0.0] 
+                    self.stats['avg_fitness'] = [0.0]
                     self.stats['diversity'] = [0.0]
-                    self.stats['mutation_rate'] = [0.05]
+                    self.stats['mutation_rate'] = [0.9]
 
             # Verificar longitudes consistentes
             lengths = [len(self.stats[key]) for key in self.stats.keys()]
@@ -2748,7 +2896,7 @@ class MTGGeneticAlgorithm:
             diversity = self.calculate_diversity(self.population_arrays)
 
             # Obtener tasa de mutación actual
-            current_mutation_rate = getattr(self, 'mutation_rate', 0.05)
+            current_mutation_rate = getattr(self, 'mutation_rate', 0.9)
 
             # Actualizar listas de estadísticas
             self.stats['best_fitness'].append(best_fitness)
@@ -2959,8 +3107,8 @@ if __name__ == "__main__":
         'forge_jar_path': "./forge-gui-desktop.jar",
         'max_generations': 3,
         'population_size': 8,
-        'mutation_rate': 0.05,
-        'crossover_rate': 0.9,
+        'mutation_rate': 0.9,
+        'crossover_rate': 0.15,
         'tournament_size': 3,
         'elite_size': 2,
         'stagnation_limit': 5,
