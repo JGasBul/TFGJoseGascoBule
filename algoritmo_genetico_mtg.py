@@ -1691,6 +1691,63 @@ class MTGGeneticAlgorithm:
         total_power = (rarity_score * 0.6) + (efficiency_score * 0.4)
         return min(1.0, max(0.0, total_power))
 
+    def detect_archetype(self, deck_array):
+        """
+        Detecta el arquetipo dominante de un mazo (aggro / midrange / control).
+
+        Filosofía híbrida (Opción C del plan): el arquetipo es una propiedad
+        CALCULADA, no persistente. Se re-evalúa cada vez que se necesita, de
+        modo que un mazo puede "cambiar" de arquetipo por mutación/cruce y
+        ser juzgado contra las normas del arquetipo que actualmente exhibe.
+
+        Criterios v1 (heurística simple sobre CMC medio y número de criaturas):
+            - aggro:    avg_cmc < 2.3  y  criaturas >= 22
+            - control:  avg_cmc > 2.9  y  criaturas <= 12
+            - midrange: resto (incluye temporalmente combo/ramp en v1)
+
+        Args:
+            deck_array: Array NumPy del mazo (counts por card_id)
+
+        Returns:
+            dict con:
+                'archetype': str — 'aggro' | 'midrange' | 'control'
+                'avg_cmc':   float — CMC medio de cartas no-tierra
+                'creatures': int   — nº total de criaturas (con repeticiones)
+                'nonland':   int   — nº total de cartas no-tierra
+        """
+        creatures = 0
+        nonland_count = 0
+        nonland_cmc_sum = 0.0
+
+        for card_id, count in enumerate(deck_array):
+            if count <= 0:
+                continue
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            nonland_count += count
+            nonland_cmc_sum += card.get('cmc', 0) * count
+            if card['is_creature']:
+                creatures += count
+
+        avg_cmc = (nonland_cmc_sum / nonland_count) if nonland_count > 0 else 0.0
+
+        if nonland_count == 0:
+            archetype = 'midrange'
+        elif avg_cmc < 2.3 and creatures >= 22:
+            archetype = 'aggro'
+        elif avg_cmc > 2.9 and creatures <= 12:
+            archetype = 'control'
+        else:
+            archetype = 'midrange'
+
+        return {
+            'archetype': archetype,
+            'avg_cmc': avg_cmc,
+            'creatures': creatures,
+            'nonland': nonland_count,
+        }
+
     def calculate_deck_quality(self, deck_array):
         """
         Calcula la calidad global del mazo combinando todas las métricas
