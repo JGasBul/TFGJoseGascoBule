@@ -1112,6 +1112,102 @@ class MTGGeneticAlgorithm:
             # Usar mutación híbrida estándar
             return self.mutate_hybrid(deck_array)
     
+    def _archetype_card_affinity(self, card, archetype):
+        """
+        Puntúa 0..2 cuánto encaja una carta con un arquetipo dado.
+        Usado para decidir qué singletons consolidar a playset vs eliminar.
+        """
+        if card['is_land']:
+            return 0
+        cmc = card.get('cmc', 0)
+        is_creature = card['is_creature']
+        is_spell = card['is_instant'] or card['is_sorcery']
+
+        if archetype == 'aggro':
+            if is_creature and cmc <= 3:
+                return 2
+            if cmc <= 2:
+                return 1
+            return 0
+        if archetype == 'control':
+            if is_spell and cmc >= 2:
+                return 2
+            if not is_creature and cmc >= 3:
+                return 1
+            return 0
+        # midrange
+        if 2 <= cmc <= 4:
+            return 2
+        if cmc <= 5:
+            return 1
+        return 0
+
+    def consolidate_singletons(self, deck_array, max_singletons=2):
+        """
+        Reduce singletons excesivos respetando el arquetipo detectado.
+
+        Mantiene el total de cartas estable: cada promoción 1->4 añade +3,
+        compensada por 3 eliminaciones 1->0. Si no hay suficientes
+        singletons sobrantes para compensar, reduce el nº de promociones.
+
+        Estrategia:
+        1. Detectar arquetipo actual.
+        2. Identificar singletons no-tierra y puntuarlos por afinidad.
+        3. Priorizar promociones en los de mayor afinidad; eliminaciones en
+           los de menor afinidad.
+        4. Ajustar nº de promociones/eliminaciones para conservar el total.
+
+        Args:
+            deck_array: Array del mazo.
+            max_singletons: máximo de singletons que se permite conservar
+                            tras la consolidación.
+
+        Returns:
+            np.array: Mazo con menos singletons y total conservado.
+        """
+        archetype = self.detect_archetype(deck_array)['archetype']
+
+        singletons = []
+        for card_id, count in enumerate(deck_array):
+            if count != 1:
+                continue
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            singletons.append((card_id, self._archetype_card_affinity(card, archetype)))
+
+        if len(singletons) <= max_singletons:
+            return deck_array
+
+        # Ordenar: mayor afinidad primero (candidatos a promoción),
+        # menor afinidad al final (candidatos a eliminación).
+        singletons.sort(key=lambda x: -x[1])
+
+        excess = len(singletons) - max_singletons  # singletons a resolver
+
+        # Calcular nº de promociones sostenible.
+        # Invariante: 3 * n_promote + n_promote <= excess  (cada promoción se
+        # come 1 singleton propio + 3 singletons adicionales como fuente).
+        # => n_promote <= excess // 4
+        # Además, solo promover singletons con afinidad >= 1.
+        promotable_count = sum(1 for _, score in singletons if score >= 1)
+        n_promote = min(excess // 4, promotable_count)
+
+        adjusted = deck_array.copy()
+
+        promoted_ids = [sid for sid, _ in singletons[:n_promote]]
+        # Los singletons a eliminar son los de peor afinidad, en cantidad
+        # justa: 3 por cada promoción + los que sobran del max_singletons.
+        n_remove = 3 * n_promote + max(0, excess - 4 * n_promote)
+        remove_ids = [sid for sid, _ in singletons[-n_remove:]] if n_remove > 0 else []
+
+        for sid in promoted_ids:
+            adjusted[sid] = 4
+        for sid in remove_ids:
+            adjusted[sid] = 0
+
+        return adjusted
+
     def adjust_deck_size(self, deck_array):
         """
         Ajusta el array para que tenga exactamente 60 cartas y cumpla reglas MTG
@@ -1124,6 +1220,7 @@ class MTGGeneticAlgorithm:
         - 15-30 tierras (proporción jugable)
         - Coherencia de colores: las tierras producen el maná necesario
         - Límite de 4 copias (excepto tierras básicas)
+        - Consolidación arquetipo-aware: <=2 singletons no-tierra
 
         Args:
             deck_array: Array del mazo a ajustar
@@ -1131,6 +1228,10 @@ class MTGGeneticAlgorithm:
         Returns:
             np.array: Mazo ajustado y jugable
         """
+        # PASO 0.5: Consolidar singletons respetando el arquetipo detectado.
+        # Conserva el total de cartas (promociones compensadas con eliminaciones).
+        deck_array = self.consolidate_singletons(deck_array)
+
         total = int(np.sum(deck_array))
 
         # PASO 0: Identificar colores del mazo ACTUAL (crítico después de cruce/mutación)
