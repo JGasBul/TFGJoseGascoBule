@@ -190,6 +190,12 @@ class MTGGeneticAlgorithm:
             else:
                 array = self.deck_to_array(deck)
                 self.population_arrays.append(array)
+
+        # Siembra arquetipo-aware de Gen0: consolidación con cuotas para
+        # garantizar diversidad de arquetipos desde la inicialización.
+        # Los descendientes quedan libres (consolidate_singletons sin
+        # target usa arquetipo detectado), manteniendo la filosofía C.
+        self.population_arrays = self._seed_archetypes(self.population_arrays)
         
         # Estadísticas de evolución
         self.stats = {
@@ -271,6 +277,38 @@ class MTGGeneticAlgorithm:
         except Exception as e:
             self.logger.error(f"Error al cargar población: {e}")
             return []
+
+    def _seed_archetypes(self, population_arrays):
+        """
+        Siembra la población inicial asignando arquetipos con cuotas iguales
+        y aplicando consolidación forzada hacia cada arquetipo.
+
+        Filosofía C del plan: el arquetipo asignado es SOLO una siembra —
+        los descendientes usarán el arquetipo detectado dinámicamente,
+        pudiendo derivar a cualquier otro si la presión evolutiva lo
+        recompensa.
+
+        Args:
+            population_arrays: lista de arrays (mazos) de Gen0.
+
+        Returns:
+            Lista de arrays consolidados con diversidad de arquetipos.
+        """
+        archetypes = ['aggro', 'midrange', 'control']
+        seeded = []
+        archetype_counts = {a: 0 for a in archetypes}
+
+        for i, arr in enumerate(population_arrays):
+            target = archetypes[i % len(archetypes)]
+            arr_seeded = self.consolidate_singletons(arr, target_archetype=target)
+            arr_seeded = self.adjust_deck_size(arr_seeded)
+            seeded.append(arr_seeded)
+            archetype_counts[target] += 1
+
+        self.logger.info(
+            f"Gen0 sembrada con cuotas arquetípicas: {archetype_counts}"
+        )
+        return seeded
 
     # ==============================================================================
     # CONVERSIÓN ENTRE FORMATOS (Array ↔ Deck)
@@ -1142,30 +1180,30 @@ class MTGGeneticAlgorithm:
             return 1
         return 0
 
-    def consolidate_singletons(self, deck_array, max_singletons=2):
+    def consolidate_singletons(self, deck_array, max_singletons=2, target_archetype=None):
         """
-        Reduce singletons excesivos respetando el arquetipo detectado.
+        Reduce singletons excesivos respetando el arquetipo objetivo.
 
         Mantiene el total de cartas estable: cada promoción 1->4 añade +3,
         compensada por 3 eliminaciones 1->0. Si no hay suficientes
         singletons sobrantes para compensar, reduce el nº de promociones.
 
-        Estrategia:
-        1. Detectar arquetipo actual.
-        2. Identificar singletons no-tierra y puntuarlos por afinidad.
-        3. Priorizar promociones en los de mayor afinidad; eliminaciones en
-           los de menor afinidad.
-        4. Ajustar nº de promociones/eliminaciones para conservar el total.
-
         Args:
             deck_array: Array del mazo.
             max_singletons: máximo de singletons que se permite conservar
                             tras la consolidación.
+            target_archetype: 'aggro' | 'midrange' | 'control' | None.
+                Si se proporciona, se consolida forzadamente hacia ese
+                arquetipo (usado para sembrar Gen0 con cuotas). Si es
+                None, se detecta el arquetipo actual del mazo.
 
         Returns:
             np.array: Mazo con menos singletons y total conservado.
         """
-        archetype = self.detect_archetype(deck_array)['archetype']
+        if target_archetype is not None:
+            archetype = target_archetype
+        else:
+            archetype = self.detect_archetype(deck_array)['archetype']
 
         singletons = []
         for card_id, count in enumerate(deck_array):
