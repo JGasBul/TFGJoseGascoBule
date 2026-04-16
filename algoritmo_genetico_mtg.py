@@ -947,25 +947,27 @@ class MTGGeneticAlgorithm:
     def crossover_uniform(self, parent1_array, parent2_array):
         """
         Cruce uniforme: cada posición del hijo se hereda aleatoriamente
-        de uno de los padres con probabilidad 50/50
+        de uno de los padres con probabilidad 50/50.
+
+        El gate de probabilidad vive únicamente en `evolve()`; aquí siempre
+        se ejecuta el cruce cuando se llama (antes había doble compuerta).
         """
-        if random.random() > self.crossover_rate:
-            return parent1_array.copy(), parent2_array.copy()
-        
         mask = np.random.randint(0, 2, size=self.total_cards)
         child1 = np.where(mask == 1, parent1_array, parent2_array)
         child2 = np.where(mask == 0, parent1_array, parent2_array)
-        
+
         child1 = self.adjust_deck_size(child1)
         child2 = self.adjust_deck_size(child2)
-        
+
         return child1, child2
-    
+
     def crossover_two_point(self, parent1_array, parent2_array):
-        """Cruce de dos puntos entre arrays de mazos"""
-        if random.random() > self.crossover_rate:
-            return parent1_array.copy(), parent2_array.copy()
-        
+        """Cruce de dos puntos entre arrays de mazos.
+
+        El gate de probabilidad vive únicamente en `evolve()`.
+        NOTA: corta por índice arbitrario de card_id, semántica débil;
+        pendiente rediseño categoría-consciente (Fase 4).
+        """
         points = sorted(random.sample(range(1, self.total_cards), 2))
         
         child1 = np.concatenate([
@@ -986,13 +988,14 @@ class MTGGeneticAlgorithm:
         return child1, child2
     
     def mutate_swap(self, deck_array):
-        """Mutación por intercambio: intercambia cartas entre posiciones"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
-        
+        """Mutación por intercambio: intercambia cartas entre posiciones.
+
+        El gate de probabilidad vive únicamente en `evolve()`; aquí siempre
+        se aplica la mutación cuando se llama (antes había triple compuerta).
+        """
         mutated = deck_array.copy()
-        num_swaps = random.randint(1, 3)
-        
+        num_swaps = random.randint(3, 8)
+
         for _ in range(num_swaps):
             nonzero_positions = np.where(mutated > 0)[0]
             if len(nonzero_positions) < 2:
@@ -1007,12 +1010,12 @@ class MTGGeneticAlgorithm:
         return mutated
     
     def mutate_add_remove(self, deck_array):
-        """Mutación por adición/remoción: puede añadir cartas NUEVAS o quitar existentes"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
+        """Mutación por adición/remoción: puede añadir cartas NUEVAS o quitar existentes.
 
+        El gate de probabilidad vive únicamente en `evolve()`.
+        """
         mutated = deck_array.copy()
-        num_changes = random.randint(1, 3)
+        num_changes = random.randint(3, 8)
 
         for _ in range(num_changes):
             if random.random() < 0.5:
@@ -1031,10 +1034,10 @@ class MTGGeneticAlgorithm:
         return self.adjust_deck_size(mutated)
     
     def mutate_categorical(self, deck_array):
-        """Mutación por categorías: intercambia cartas dentro del mismo tipo"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
+        """Mutación por categorías: intercambia cartas dentro del mismo tipo.
 
+        El gate de probabilidad vive únicamente en `evolve()`.
+        """
         mutated = deck_array.copy()
 
         # Seleccionar una categoría aleatoria para mutar
@@ -1058,7 +1061,7 @@ class MTGGeneticAlgorithm:
         # Elegir categoría aleatoria
         category_type, category_name, category_indices = random.choice(available_categories)
 
-        num_swaps = random.randint(1, 2)
+        num_swaps = random.randint(3, 6)
         for _ in range(num_swaps):
             # Encontrar cartas de esta categoría que están en el mazo
             current_cards = [i for i in category_indices if mutated[i] > 0]
@@ -1083,11 +1086,11 @@ class MTGGeneticAlgorithm:
         return self.adjust_deck_size(mutated)
     
     def mutate_hybrid(self, deck_array):
-        """Mutación híbrida que combina las tres estrategias"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
+        """Mutación híbrida que combina las tres estrategias.
 
-        # Elegir estrategia de mutación aleatoriamente con pesos
+        El gate de probabilidad vive únicamente en `evolve()`.
+        Rama hoy inalcanzable desde el dispatcher `mutate` (se elimina en Fase 3).
+        """
         strategies = ['swap', 'add_remove', 'categorical']
         weights = [0.3, 0.5, 0.2]  # Favorecer add_remove para más exploración
 
@@ -1100,32 +1103,101 @@ class MTGGeneticAlgorithm:
         else:  # categorical
             return self.mutate_categorical(deck_array)
         
-    def mutate_adaptive(self, deck_array, generation=0, stagnation_counter=0):
-        """Mutación adaptiva que cambia estrategia según el progreso del algoritmo"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
+    def mutate_archetype_aware(self, deck_array, archetype=None):
+        """Mutación arquetipo-aware: sesga add/remove por afinidad con el arquetipo.
 
+        - AÑADIR: pondera candidatos por `_archetype_card_affinity` (2→6, 1→2, 0→1).
+        - QUITAR: pondera cartas del mazo por INVERSA de la afinidad (0→6, 1→2, 2→1),
+          preservando las cartas que mejor encajan y expulsando las que no.
+          Las tierras se dejan en manos de `adjust_deck_size`.
+
+        Bajo la filosofía C (descendientes libres), detectamos el arquetipo del
+        mazo justo antes de mutar — un hijo heredado puede migrar de arquetipo
+        si la mutación lo desplaza, y esa migración es legítima.
+
+        Args:
+            deck_array: Array del mazo a mutar.
+            archetype: 'aggro' | 'midrange' | 'control' | None. Si None, se detecta.
+
+        Returns:
+            Array mutado (pasado por `adjust_deck_size`).
+        """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+
+        mutated = deck_array.copy()
+        num_changes = random.randint(3, 8)
+
+        add_weight = {2: 6, 1: 2, 0: 1}
+        remove_weight = {0: 6, 1: 2, 2: 1}
+
+        for _ in range(num_changes):
+            if random.random() < 0.5:
+                # AÑADIR: candidatos = cartas no-tierra con cuenta < 4
+                candidates = []
+                weights = []
+                for card_id, card in self.card_catalog.items():
+                    if mutated[card_id] >= 4 or card['is_land']:
+                        continue
+                    aff = self._archetype_card_affinity(card, archetype)
+                    candidates.append(card_id)
+                    weights.append(add_weight[aff])
+                if candidates:
+                    chosen = random.choices(candidates, weights=weights, k=1)[0]
+                    mutated[chosen] += 1
+            else:
+                # QUITAR: candidatos = cartas del mazo (no-tierra preferente)
+                nonzero = np.where(mutated > 0)[0]
+                if len(nonzero) == 0:
+                    continue
+                candidates = []
+                weights = []
+                for card_id in nonzero:
+                    cid = int(card_id)
+                    card = self.card_catalog[cid]
+                    if card['is_land']:
+                        # Permitir quitar tierras con peso bajo; adjust_deck_size compensa.
+                        candidates.append(cid)
+                        weights.append(1)
+                    else:
+                        aff = self._archetype_card_affinity(card, archetype)
+                        candidates.append(cid)
+                        weights.append(remove_weight[aff])
+                chosen = random.choices(candidates, weights=weights, k=1)[0]
+                mutated[chosen] -= 1
+
+        return self.adjust_deck_size(mutated)
+
+    def mutate_adaptive(self, deck_array, generation=0, stagnation_counter=0):
+        """Mutación adaptiva que cambia estrategia según el progreso del algoritmo.
+
+        El gate de probabilidad vive únicamente en `evolve()`.
+        La estrategia `archetype_aware` lleva el peso dominante en todos los
+        regímenes (filosofía QD: mantener nichos vivos durante la exploración).
+        """
         # Adaptar estrategia según el estado del algoritmo
         if stagnation_counter > 10:
-            # Si hay mucho estancamiento, favorecer exploración agresiva
-            strategies = ['add_remove', 'categorical', 'swap']
-            weights = [0.6, 0.3, 0.1]
+            # Estancamiento fuerte: subir exploración agresiva, bajar el sesgo arquetípico
+            strategies = ['archetype_aware', 'add_remove', 'categorical', 'swap']
+            weights = [0.3, 0.4, 0.2, 0.1]
         elif stagnation_counter > 5:
-            # Estancamiento moderado, aumentar exploración
-            strategies = ['add_remove', 'swap', 'categorical']
-            weights = [0.5, 0.3, 0.2]
+            # Estancamiento moderado
+            strategies = ['archetype_aware', 'add_remove', 'swap', 'categorical']
+            weights = [0.4, 0.3, 0.2, 0.1]
         elif generation > 50:
-            # Generaciones avanzadas, equilibrar exploración y explotación
-            strategies = ['swap', 'add_remove', 'categorical']
-            weights = [0.4, 0.4, 0.2]
+            # Avanzadas: explotar arquetipo ya definido
+            strategies = ['archetype_aware', 'swap', 'add_remove', 'categorical']
+            weights = [0.5, 0.25, 0.15, 0.1]
         else:
-            # Generaciones iniciales, favorecer exploración
-            strategies = ['add_remove', 'categorical', 'swap']
-            weights = [0.5, 0.3, 0.2]
+            # Iniciales: explorar con sesgo arquetípico moderado
+            strategies = ['archetype_aware', 'add_remove', 'categorical', 'swap']
+            weights = [0.45, 0.3, 0.15, 0.1]
 
         strategy = random.choices(strategies, weights=weights)[0]
 
-        if strategy == 'swap':
+        if strategy == 'archetype_aware':
+            return self.mutate_archetype_aware(deck_array)
+        elif strategy == 'swap':
             return self.mutate_swap(deck_array)
         elif strategy == 'add_remove':
             return self.mutate_add_remove(deck_array)
@@ -2051,18 +2123,23 @@ class MTGGeneticAlgorithm:
         return diversity
     
     def adaptive_mutation_rate(self, generation, stagnation_counter):
-        """Ajusta la tasa de mutación según el progreso"""
+        """Ajusta la tasa de mutación según el progreso.
+
+        Devuelve la probabilidad de aplicar mutación (gate único de `evolve()`).
+        Antes topaba en 0.3 pese a `mutation_rate=0.9`; ahora usa el valor
+        configurado y sólo recorta a 1.0 para mantener probabilidad válida.
+        """
         base_rate = self.mutation_rate
-        
+
         if stagnation_counter > 5:
             base_rate *= 1.5
         if stagnation_counter > 10:
             base_rate *= 2.0
-        
+
         if generation > 50 and stagnation_counter < 3:
             base_rate *= 0.8
-        
-        return min(0.3, base_rate)
+
+        return min(1.0, base_rate)
     
     def update_hall_of_fame(self, fitness_values, population_arrays):
         """
