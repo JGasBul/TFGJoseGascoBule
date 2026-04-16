@@ -342,7 +342,9 @@ class HardwareAnalyzer:
         optimal_workers = max(2, optimal_workers)  # Mínimo 2 workers
 
         # === CONFIGURACIÓN DE TIMEOUTS ===
-        base_timeout = 300  # 5 minutos base para combates de Forge
+        # 600s (10 min) cubre mirrors control-control sin penalizar aggro.
+        # El adaptive timeout escala hasta 3x (1800s) si hace falta.
+        base_timeout = 600
 
         # === CONFIGURACIÓN DE LOGS ===
         log_level = 'INFO'  # Balance entre información y rendimiento
@@ -2211,7 +2213,7 @@ class MTGMenuSystem:
                 ga_config = {
                     'max_workers': 2,
                     'parallel_batch_size': 6,
-                    'base_timeout': 300,
+                    'base_timeout': 600,
                     'log_level': 'INFO',
                     'save_forge_outputs': True
                 }
