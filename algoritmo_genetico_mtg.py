@@ -65,10 +65,10 @@ class MTGGeneticAlgorithm:
                  forge_jar_path="./forge-gui-desktop-2.0.04-jar-with-dependencies.jar",
                  max_generations=200,
                  population_size=40,              # OPTIMIZADO: Aumentado de 20 a 40 para mejor exploración
-                 mutation_rate=0.9,               # Alta exploración (call sites usan este valor; cap real 0.3 en adaptive_mutation_rate)
-                 crossover_rate=0.15,             # Bajo cruce: prioriza diversidad sobre homogeneización
+                 mutation_rate=0.6,               # Fase 4: bajado de 0.9 → 0.6 para dar margen útil a `adaptive_mutation_rate`
+                 crossover_rate=0.30,             # Fase 4: subido de 0.15 → 0.30 (más recombinación, contrapesa mutación alta)
                  tournament_size=5,               # Optimizado: ~12% de población de 40 (antes 4 de 20)
-                 elite_size=12,                   # OPTIMIZADO: 30% de población de 40 (antes 8 de 20)
+                 elite_size=9,                    # Fase 4: bajado de 12 → 9 (22.5% de pop=40; deja más hueco a descendencia)
                  # PARÁMETROS SWISS TOURNAMENT
                  use_swiss_tournament=True,       # Activar Swiss Tournament (False = round-robin completo)
                  k_rounds=8,                      # Rondas Swiss (fórmula: ceil(log2(pop)) + 2 = 8 para pop=40, 9 para pop=100)
@@ -81,8 +81,8 @@ class MTGGeneticAlgorithm:
                  save_forge_outputs=True,
                  headless_mode=False,
                  # PARÁMETROS DE FITNESS MULTI-COMPONENTE (optimizados)
-                 fitness_alpha=0.6,               # Optimizado: win rate 60% (antes 0.7)
-                 fitness_beta=0.4,                # Optimizado: calidad 40% (antes 0.3)
+                 fitness_alpha=0.5,               # Fase 4: win rate 50% (antes 0.6)
+                 fitness_beta=0.5,                # Fase 4: calidad 50% (antes 0.4) — paridad α=β
                  enable_quality_metrics=True):
         """
         Inicializa el algoritmo genético con todos sus parámetros
@@ -173,6 +173,19 @@ class MTGGeneticAlgorithm:
                 self.basic_lands_ids[card['name']] = card_id
 
         self.logger.debug(f"Tierras básicas identificadas: {list(self.basic_lands_ids.keys())}")
+
+        # Máscaras booleanas por categoría (para `crossover_archetype`, Fase 4).
+        # Precomputadas para evitar iterar el catálogo en cada cruce.
+        self._land_mask = np.zeros(self.total_cards, dtype=bool)
+        self._creature_mask = np.zeros(self.total_cards, dtype=bool)
+        self._spell_mask = np.zeros(self.total_cards, dtype=bool)
+        for cid, card in self.card_catalog.items():
+            if card['is_land']:
+                self._land_mask[cid] = True
+            elif card['is_creature']:
+                self._creature_mask[cid] = True
+            else:
+                self._spell_mask[cid] = True
 
         # Cargar población inicial
         self.population = self.load_population(population_file)
@@ -965,31 +978,34 @@ class MTGGeneticAlgorithm:
 
         return child1, child2
 
-    def crossover_two_point(self, parent1_array, parent2_array):
-        """Cruce de dos puntos entre arrays de mazos.
+    def crossover_archetype(self, parent1_array, parent2_array):
+        """Cruce categoría-consciente (Fase 4).
+
+        Decide independientemente, por categoría (tierras / criaturas /
+        hechizos), qué padre aporta la totalidad de esa categoría al
+        hijo1; el hijo2 recibe la herencia complementaria. Preserva la
+        coherencia interna del manabase, del ratio de criaturas y de la
+        suite de hechizos, en vez de cortar por un card_id arbitrario
+        (semántica débil del antiguo `crossover_two_point`).
+
+        Con 3 categorías → 2³ = 8 patrones posibles; el caso "todo de
+        un padre" sigue produciendo clones pero con probabilidad 1/4,
+        no sistemáticamente.
 
         El gate de probabilidad vive únicamente en `evolve()`.
-        NOTA: corta por índice arbitrario de card_id, semántica débil;
-        pendiente rediseño categoría-consciente (Fase 4).
         """
-        points = sorted(random.sample(range(1, self.total_cards), 2))
-        
-        child1 = np.concatenate([
-            parent1_array[:points[0]],
-            parent2_array[points[0]:points[1]],
-            parent1_array[points[1]:]
-        ])
-        
-        child2 = np.concatenate([
-            parent2_array[:points[0]],
-            parent1_array[points[0]:points[1]],
-            parent2_array[points[1]:]
-        ])
-        
-        child1 = self.adjust_deck_size(child1)
-        child2 = self.adjust_deck_size(child2)
-        
-        return child1, child2
+        child1 = np.zeros_like(parent1_array)
+        child2 = np.zeros_like(parent2_array)
+
+        for mask in (self._land_mask, self._creature_mask, self._spell_mask):
+            if random.random() < 0.5:
+                child1[mask] = parent1_array[mask]
+                child2[mask] = parent2_array[mask]
+            else:
+                child1[mask] = parent2_array[mask]
+                child2[mask] = parent1_array[mask]
+
+        return self.adjust_deck_size(child1), self.adjust_deck_size(child2)
     
     def mutate_swap(self, deck_array):
         """Mutación por intercambio: intercambia cartas entre posiciones.
@@ -2099,23 +2115,31 @@ class MTGGeneticAlgorithm:
         return diversity
     
     def adaptive_mutation_rate(self, generation, stagnation_counter):
-        """Ajusta la tasa de mutación según el progreso.
+        """Ajusta la tasa de mutación según el progreso (Fase 4).
 
-        Devuelve la probabilidad de aplicar mutación (gate único de `evolve()`).
-        Antes topaba en 0.3 pese a `mutation_rate=0.9`; ahora usa el valor
-        configurado y sólo recorta a 1.0 para mantener probabilidad válida.
+        Redise\u00f1o aditivo con clamp en [0.1, 1.0]. Antes los multiplicadores
+        `×1.5` y `×2.0` aplicados sobre `mutation_rate=0.9` saturaban
+        inmediatamente en 1.0 — los dos escalones de estancamiento
+        producían el mismo valor efectivo. Ahora cada escalón aporta un
+        incremento fijo, manteniendo un gradiente visible incluso en
+        `mutation_rate` base moderado (0.6).
+
+        Escalones:
+          - stagnation > 5  → +0.15  (exploración moderada)
+          - stagnation > 10 → +0.15  (acumulativo → +0.30 total)
+          - generation > 50 y stagnation < 3 → -0.10 (explotación final)
         """
         base_rate = self.mutation_rate
 
         if stagnation_counter > 5:
-            base_rate *= 1.5
+            base_rate += 0.15
         if stagnation_counter > 10:
-            base_rate *= 2.0
+            base_rate += 0.15
 
         if generation > 50 and stagnation_counter < 3:
-            base_rate *= 0.8
+            base_rate -= 0.10
 
-        return min(1.0, base_rate)
+        return max(0.1, min(1.0, base_rate))
     
     def update_hall_of_fame(self, fitness_values, population_arrays):
         """
@@ -2567,12 +2591,12 @@ class MTGGeneticAlgorithm:
                     parent1 = self.tournament_selection(self.population_arrays, fitness_values)
                     parent2 = self.tournament_selection(self.population_arrays, fitness_values)
 
-                    # Cruce
+                    # Cruce (Fase 4: `crossover_two_point` sustituido por `crossover_archetype`)
                     if random.random() < self.crossover_rate:
                         if random.random() < 0.5:
                             child1, child2 = self.crossover_uniform(parent1, parent2)
                         else:
-                            child1, child2 = self.crossover_two_point(parent1, parent2)
+                            child1, child2 = self.crossover_archetype(parent1, parent2)
                     else:
                         child1, child2 = parent1.copy(), parent2.copy()
 
@@ -2595,7 +2619,7 @@ class MTGGeneticAlgorithm:
                 self.save_population_arrays(generation)  # ← NUEVA LÍNEA
                 self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
                 
-                self.update_statistics(generation, fitness_values)  # <-- NUEVA LÍNEA
+                self.update_statistics(generation, fitness_values, effective_mutation_rate=current_mutation_rate)
                 
                 # Actualizar Hall of Fame
                 self.update_hall_of_fame(fitness_values, self.population_arrays)
@@ -2993,13 +3017,17 @@ class MTGGeneticAlgorithm:
             best_deck = self.array_to_deck(self.population_arrays[0], "Error_Recovery_Deck")
             return best_deck, 0.0
         
-    def update_statistics(self, generation, fitness_values):
+    def update_statistics(self, generation, fitness_values, effective_mutation_rate=None):
         """
-        Actualiza las estadísticas de evolución en cada generación
+        Actualiza las estadísticas de evolución en cada generación.
 
         Args:
             generation (int): Número de generación actual
             fitness_values (list): Lista de fitness de todos los individuos
+            effective_mutation_rate (float|None): Tasa efectiva aplicada en esta
+                generación (salida de `adaptive_mutation_rate`). Si es None
+                (por ejemplo, la evaluación inicial de Gen 0 antes de mutar),
+                se usa la base `self.mutation_rate` como placeholder.
         """
         try:
             # Calcular estadísticas básicas
@@ -3007,14 +3035,17 @@ class MTGGeneticAlgorithm:
             avg_fitness = np.mean(fitness_values)
             diversity = self.calculate_diversity(self.population_arrays)
 
-            # Obtener tasa de mutación actual
-            current_mutation_rate = getattr(self, 'mutation_rate', 0.9)
+            # Fase 4: registrar tasa EFECTIVA (salida de adaptive_mutation_rate),
+            # no la base fija — antes el CSV siempre mostraba `self.mutation_rate`
+            # y hacía invisible el comportamiento adaptativo.
+            if effective_mutation_rate is None:
+                effective_mutation_rate = self.mutation_rate
 
             # Actualizar listas de estadísticas
             self.stats['best_fitness'].append(best_fitness)
             self.stats['avg_fitness'].append(avg_fitness)
             self.stats['diversity'].append(diversity)
-            self.stats['mutation_rate'].append(current_mutation_rate)
+            self.stats['mutation_rate'].append(effective_mutation_rate)
 
             # Log debug cada 5 generaciones
             if generation % 5 == 0:
@@ -3219,8 +3250,8 @@ if __name__ == "__main__":
         'forge_jar_path': "./forge-gui-desktop.jar",
         'max_generations': 3,
         'population_size': 8,
-        'mutation_rate': 0.9,
-        'crossover_rate': 0.15,
+        'mutation_rate': 0.6,
+        'crossover_rate': 0.30,
         'tournament_size': 3,
         'elite_size': 2,
         # PARÁMETROS DE PARALELIZACIÓN (normalmente pasados desde mtg_main.py)
