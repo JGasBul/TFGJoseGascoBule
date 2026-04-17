@@ -2183,22 +2183,42 @@ class MTGGeneticAlgorithm:
         return population_arrays[winner_idx].copy()
     
     def calculate_diversity(self, population_arrays):
-        """Calcula la diversidad de la población"""
-        card_frequencies = np.zeros(self.total_cards)
-        
-        for array in population_arrays:
-            card_frequencies += (array > 0).astype(int)
-        
-        card_frequencies = card_frequencies / len(population_arrays)
-        diverse_cards = np.sum((card_frequencies > 0.2) & (card_frequencies < 0.8))
-        total_used_cards = np.sum(card_frequencies > 0)
-        
-        if total_used_cards > 0:
-            diversity = diverse_cards / total_used_cards
-        else:
-            diversity = 0.0
-        
-        return diversity
+        """Diversidad por distancia L1 pareada normalizada (Fase 6).
+
+        Métrica antigua: fracción de cartas con frecuencia de presencia en
+        rango (0.2, 0.8). Problema: ignora el número de copias, por lo que
+        dos poblaciones con idénticas cartas únicas pero distintos repartos
+        daban exactamente el mismo valor.
+
+        Métrica nueva: media de las distancias L1 entre todos los pares de
+        mazos, normalizada por el máximo teórico (2·deck_size). Dos mazos
+        completamente disjuntos suman L1 = 2·60 = 120 para mazos de 60
+        cartas, luego el resultado queda en [0, 1].
+
+        Se calcula por columna con la identidad:
+            Σ_{i<j} |c_i - c_j| = Σ_k c_{(k)} · (2k − n + 1)
+        donde c_{(k)} son los counts ordenados ascendentemente por carta.
+        Esto evita el coste cuadrático de comparar cada par de mazos y es
+        O(total_cards · n log n).
+        """
+        n = len(population_arrays)
+        if n < 2:
+            return 0.0
+
+        M = np.asarray(population_arrays, dtype=np.int32)
+        deck_size = int(M[0].sum())
+        if deck_size <= 0:
+            return 0.0
+
+        sorted_cols = np.sort(M, axis=0)
+        weights = (2 * np.arange(n, dtype=np.int64) - n + 1)
+        pair_sum_per_card = (sorted_cols * weights[:, None]).sum(axis=0)
+        total_l1 = int(pair_sum_per_card.sum())
+
+        n_pairs = n * (n - 1) / 2
+        mean_l1 = total_l1 / n_pairs
+        max_l1 = 2.0 * deck_size
+        return float(min(mean_l1 / max_l1, 1.0))
     
     def adaptive_mutation_rate(self, generation, stagnation_counter):
         """Ajusta la tasa de mutación según el progreso (Fase 4).
@@ -2293,54 +2313,112 @@ class MTGGeneticAlgorithm:
                 f"Hall of Fame: Mejor={new_hof[0][0]:.4f}, Peor={new_hof[-1][0]:.4f}"
             )
 
-        self.save_hall_of_fame_decks()
+        self.persist_hall_of_fame(formats=('dck', 'json'))
 
-    def save_hall_of_fame_decks(self):
-        """
-        Guarda los mazos del HoF como .dck y .json con naming por arquetipo:
-        `hall_of_fame_{aggro|midrange|control}_{N}.dck` donde N es el rank
-        dentro de ese arquetipo (Fase 2).
+    def persist_hall_of_fame(self, formats=('dck', 'json', 'summary')):
+        """Persiste el Hall of Fame en uno o varios formatos (Fase 6).
+
+        Formatos soportados:
+          - 'dck':     un archivo Forge `.dck` por cada mazo del HoF.
+          - 'json':    un archivo `.json` por mazo con metadata + array completo.
+          - 'summary': un único `parallel_hall_of_fame.json` con el top-5 agregado.
+
+        'dck' y 'json' se escriben en `output_dir/hall_of_fame/` con naming
+        `hall_of_fame_{aggro|midrange|control}_{rank}.{ext}`. Si alguno de los
+        dos está en `formats`, se limpian primero los archivos antiguos del
+        directorio para evitar mezclar ejecuciones.
+
+        'summary' se escribe en `output_dir/parallel_hall_of_fame.json`.
+
+        Fusiona las antiguas `save_hall_of_fame_decks` y `save_hall_of_fame_data`.
         """
         import glob
 
-        hof_dir = os.path.join(self.output_dir, "hall_of_fame")
-        os.makedirs(hof_dir, exist_ok=True)
+        formats = tuple(formats)
+        valid = {'dck', 'json', 'summary'}
+        unknown = [f for f in formats if f not in valid]
+        if unknown:
+            raise ValueError(f"persist_hall_of_fame: formatos inválidos {unknown}; válidos={sorted(valid)}")
 
-        for old_file in glob.glob(os.path.join(hof_dir, "hall_of_fame_*.dck")) + \
-                        glob.glob(os.path.join(hof_dir, "hall_of_fame_*.json")):
+        if 'dck' in formats or 'json' in formats:
+            hof_dir = os.path.join(self.output_dir, "hall_of_fame")
+            os.makedirs(hof_dir, exist_ok=True)
+
+            patterns = []
+            if 'dck' in formats:
+                patterns.append("hall_of_fame_*.dck")
+            if 'json' in formats:
+                patterns.append("hall_of_fame_*.json")
+            for pat in patterns:
+                for old_file in glob.glob(os.path.join(hof_dir, pat)):
+                    try:
+                        os.remove(old_file)
+                    except Exception as e:
+                        self.logger.warning(f"No se pudo borrar {old_file}: {e}")
+
+            arch_rank = {}
+            for fitness, array in self.hall_of_fame_arrays:
+                arch = self.detect_archetype(array)['archetype']
+                arch_rank[arch] = arch_rank.get(arch, 0) + 1
+                rank = arch_rank[arch]
+                deck_name = f"hall_of_fame_{arch}_{rank}"
+                deck = self.array_to_deck(array, deck_name)
+
+                if 'dck' in formats:
+                    deck_file = os.path.join(hof_dir, f"{deck_name}.dck")
+                    self.save_forge_deck(deck, deck_file)
+
+                if 'json' in formats:
+                    json_file = os.path.join(hof_dir, f"{deck_name}.json")
+                    deck_metadata = {
+                        'archetype': arch,
+                        'rank_in_archetype': rank,
+                        'fitness': float(fitness),
+                        'deck_name': deck_name,
+                        'deck': deck,
+                        'array': array.tolist()
+                    }
+                    with open(json_file, 'w', encoding='utf-8') as f:
+                        json.dump(deck_metadata, f, indent=2, ensure_ascii=False)
+
+            if self.hall_of_fame_arrays:
+                self.logger.debug(
+                    f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
+                    f"en {hof_dir} (cuota={arch_rank}, formats={[f for f in formats if f != 'summary']})"
+                )
+
+        if 'summary' in formats:
             try:
-                os.remove(old_file)
+                hof_file = os.path.join(self.output_dir, "parallel_hall_of_fame.json")
+                hof_data = []
+
+                for i, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5]):
+                    deck = self.array_to_deck(array, f"HOF_Deck_{i}")
+                    arch_info = self.detect_archetype(array)
+                    hof_data.append({
+                        'rank': i + 1,
+                        'fitness': float(fitness),
+                        'deck_name': deck['name'],
+                        'colors': deck.get('colors', []),
+                        'stats': deck.get('stats', {}),
+                        'parallel_workers': self.max_workers,
+                        'total_cards': int(np.sum(array)),
+                        'unique_cards': int(np.count_nonzero(array)),
+                        'archetype': arch_info['archetype'],
+                        'avg_cmc': round(arch_info['avg_cmc'], 3),
+                        'creatures': arch_info['creatures'],
+                    })
+
+                with open(hof_file, 'w', encoding='utf-8') as f:
+                    json.dump(hof_data, f, ensure_ascii=False, indent=2)
+
+                if hof_data:
+                    self.logger.info(f"✅ Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
+                else:
+                    self.logger.warning(f"⚠️ Hall of Fame vacío guardado en {hof_file}")
+
             except Exception as e:
-                self.logger.warning(f"No se pudo borrar {old_file}: {e}")
-
-        arch_rank = {}
-        for fitness, array in self.hall_of_fame_arrays:
-            arch = self.detect_archetype(array)['archetype']
-            arch_rank[arch] = arch_rank.get(arch, 0) + 1
-            rank = arch_rank[arch]
-            deck_name = f"hall_of_fame_{arch}_{rank}"
-            deck = self.array_to_deck(array, deck_name)
-
-            deck_file = os.path.join(hof_dir, f"{deck_name}.dck")
-            self.save_forge_deck(deck, deck_file)
-
-            json_file = os.path.join(hof_dir, f"{deck_name}.json")
-            deck_metadata = {
-                'archetype': arch,
-                'rank_in_archetype': rank,
-                'fitness': float(fitness),
-                'deck_name': deck_name,
-                'deck': deck,
-                'array': array.tolist()
-            }
-            with open(json_file, 'w', encoding='utf-8') as f:
-                json.dump(deck_metadata, f, indent=2, ensure_ascii=False)
-
-        if self.hall_of_fame_arrays:
-            self.logger.debug(
-                f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
-                f"en {hof_dir} (cuota={arch_rank})"
-            )
+                self.logger.error(f"❌ Error guardando Hall of Fame (summary): {e}")
 
     def clean_hall_of_fame_directory(self):
         """
@@ -2568,8 +2646,16 @@ class MTGGeneticAlgorithm:
             self.logger.error(f"Error buscando checkpoints: {e}")
             return None, None
 
-    def evolve(self):
-        """Ejecuta el algoritmo genético completo con paralelización y anti-estancamiento"""
+    def evolve(self, resume_from_checkpoint=None):
+        """Ejecuta el algoritmo genético completo con paralelización y anti-estancamiento.
+
+        Args:
+            resume_from_checkpoint: Política para checkpoints existentes (Fase 6).
+                - None (default): auto-detect. Si stdin es TTY, pregunta al usuario;
+                  en entornos no interactivos (batch, CI, nohup…) reanuda por defecto.
+                - True:  reanuda siempre sin preguntar.
+                - False: ignora el checkpoint y arranca desde cero sin preguntar.
+        """
         self.logger.info("=== INICIANDO ALGORITMO GENÉTICO CON ANTI-ESTANCAMIENTO ===")
         self.logger.info(f"Configuración: {self.population_size} mazos, {self.max_generations} generaciones")
         self.logger.info(f"Paralelización: {self.max_workers} workers, timeout {self.base_timeout}s")
@@ -2593,9 +2679,33 @@ class MTGGeneticAlgorithm:
 
             if checkpoint_file and checkpoint_gen is not None:
                 self.logger.info(f"=== CHECKPOINT ENCONTRADO: Generación {checkpoint_gen} ===")
-                response = input(f"\n¿Deseas reanudar desde la generación {checkpoint_gen}? (S/n): ").strip().lower()
 
-                if response in ['s', 'si', 'sí', 'y', 'yes', '']:
+                if resume_from_checkpoint is True:
+                    should_resume = True
+                    self.logger.info("Reanudación forzada por parámetro (resume_from_checkpoint=True)")
+                elif resume_from_checkpoint is False:
+                    should_resume = False
+                    self.logger.info("Checkpoint ignorado por parámetro (resume_from_checkpoint=False)")
+                else:
+                    is_tty = False
+                    try:
+                        is_tty = sys.stdin.isatty()
+                    except Exception:
+                        is_tty = False
+
+                    if is_tty:
+                        response = input(
+                            f"\n¿Deseas reanudar desde la generación {checkpoint_gen}? (S/n): "
+                        ).strip().lower()
+                        should_resume = response in ['s', 'si', 'sí', 'y', 'yes', '']
+                    else:
+                        should_resume = True
+                        self.logger.info(
+                            "Entorno no interactivo detectado: reanudando automáticamente "
+                            "desde checkpoint (pasa resume_from_checkpoint=False para forzar reinicio)"
+                        )
+
+                if should_resume:
                     checkpoint_data = self.load_checkpoint(checkpoint_file)
                     if checkpoint_data:
                         start_generation = checkpoint_data['generation'] + 1
@@ -2937,7 +3047,7 @@ class MTGGeneticAlgorithm:
                 self.logger.warning("⚠️ No hay suficientes datos para crear gráficos")
 
             # Guardar Hall of Fame
-            self.save_hall_of_fame_data()
+            self.persist_hall_of_fame(formats=('summary',))
 
             self.logger.info(f"✅ Estadísticas paralelas guardadas en {self.output_dir}")
 
@@ -3023,44 +3133,6 @@ class MTGGeneticAlgorithm:
             except:
                 pass    
             
-    def save_hall_of_fame_data(self):
-        """
-        Guarda datos del Hall of Fame con verificación
-        """
-        try:
-            hof_file = os.path.join(self.output_dir, "parallel_hall_of_fame.json")
-            hof_data = []
-
-            for i, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5]):  # Top 5
-                deck = self.array_to_deck(array, f"HOF_Deck_{i}")
-                arch_info = self.detect_archetype(array)
-                hof_data.append({
-                    'rank': i + 1,
-                    'fitness': float(fitness),
-                    'deck_name': deck['name'],
-                    'colors': deck.get('colors', []),
-                    'stats': deck.get('stats', {}),
-                    'parallel_workers': self.max_workers,
-                    'total_cards': int(np.sum(array)),
-                    'unique_cards': int(np.count_nonzero(array)),
-                    # Fase 5: arquetipo detectado de cada top-N
-                    'archetype': arch_info['archetype'],
-                    'avg_cmc': round(arch_info['avg_cmc'], 3),
-                    'creatures': arch_info['creatures'],
-                })
-
-            # Guardar datos
-            with open(hof_file, 'w', encoding='utf-8') as f:
-                json.dump(hof_data, f, ensure_ascii=False, indent=2)
-
-            if hof_data:
-                self.logger.info(f"✅ Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
-            else:
-                self.logger.warning(f"⚠️ Hall of Fame vacío guardado en {hof_file}")
-
-        except Exception as e:
-            self.logger.error(f"❌ Error guardando Hall of Fame: {e}")        
-        
     def get_starting_player(self, i, j, generation):
         """
         Determina quién empieza de manera determinística pero balanceada
