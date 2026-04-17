@@ -1088,7 +1088,7 @@ class MTGMenuSystem:
             print("     - Población: 40 mazos")
             print("     - k_rounds: 8 (cada mazo juega 8 partidas)")
             print("     - n_games_per_match: 2 combates por enfrentamiento")
-            print("     - Fitness: 60% win_rate + 40% deck_quality")
+            print("     - Fitness: 50% win_rate + 50% deck_quality (Fase 4)")
             print("     - Tiempo estimado: ~58 min/gen, 48h para 50 gen")
 
             print("\n📋 OPCIONES:")
@@ -1415,7 +1415,7 @@ class MTGMenuSystem:
                 return
 
             # Calcular parámetros optimizados dinámicamente
-            elite_size = max(2, int(pop_size * 0.3))  # 30% de población
+            elite_size = max(2, int(pop_size * 0.225))  # Fase 4: 22.5% (antes 30%)
             tournament_size = max(3, int(pop_size * 0.125))  # ~12% de población
 
             # Parámetros Swiss Tournament (por defecto activado)
@@ -1480,10 +1480,10 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=max_gens,
                 population_size=pop_size,
-                mutation_rate=0.9,
-                crossover_rate=0.15,
+                mutation_rate=0.6,
+                crossover_rate=0.30,
                 tournament_size=tournament_size,     # Calculado dinámicamente (~12% de pop)
-                elite_size=elite_size,               # Calculado dinámicamente (30% de pop)
+                elite_size=elite_size,               # Calculado dinámicamente (22.5% de pop — Fase 4)
                 # Parámetros Swiss Tournament
                 use_swiss_tournament=use_swiss,
                 k_rounds=k_rounds,
@@ -1496,8 +1496,8 @@ class MTGMenuSystem:
                 save_forge_outputs=config['save_forge_outputs'],
                 headless_mode=self.headless_mode,
                 # Parámetros de fitness multi-componente
-                fitness_alpha=0.6,               # Win rate 60%
-                fitness_beta=0.4,                # Deck quality 40%
+                fitness_alpha=0.5,               # Fase 4: Win rate 50%
+                fitness_beta=0.5,                # Fase 4: Deck quality 50%
                 enable_quality_metrics=True
             )
 
@@ -1679,7 +1679,7 @@ class MTGMenuSystem:
             # Calcular parámetros dinámicamente (por si el checkpoint es antiguo)
             import math
             pop_size = selected_cp['pop_size']
-            elite_size = max(2, int(pop_size * 0.3))
+            elite_size = max(2, int(pop_size * 0.225))  # Fase 4: 22.5%
             tournament_size = max(3, int(pop_size * 0.125))
 
             # Parámetros Swiss (el checkpoint puede sobrescribirlos si los tiene guardados)
@@ -1697,8 +1697,8 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=selected_cp['max_gens'],
                 population_size=pop_size,
-                mutation_rate=0.9,
-                crossover_rate=0.15,
+                mutation_rate=0.6,
+                crossover_rate=0.30,
                 tournament_size=tournament_size,     # Calculado dinámicamente
                 elite_size=elite_size,               # Calculado dinámicamente
                 # Swiss Tournament (checkpoint puede sobrescribir)
@@ -1712,8 +1712,8 @@ class MTGMenuSystem:
                 save_forge_outputs=False,
                 headless_mode=self.headless_mode,
                 # Fitness
-                fitness_alpha=0.6,
-                fitness_beta=0.4,
+                fitness_alpha=0.5,
+                fitness_beta=0.5,
                 enable_quality_metrics=True
             )
 
@@ -2030,7 +2030,7 @@ class MTGMenuSystem:
 
             # Calcular parámetros dinámicamente
             import math
-            elite_size = max(2, int(population_size * 0.3))
+            elite_size = max(2, int(population_size * 0.225))  # Fase 4: 22.5%
             tournament_size = max(3, int(population_size * 0.125))
             use_swiss = True
             k_rounds = min(12, max(5, math.ceil(math.log2(population_size)) + 2))
@@ -2050,8 +2050,8 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=generations,
                 population_size=population_size,
-                mutation_rate=0.9,
-                crossover_rate=0.15,
+                mutation_rate=0.6,
+                crossover_rate=0.30,
                 tournament_size=tournament_size,     # Calculado dinámicamente
                 elite_size=elite_size,               # Calculado dinámicamente
                 # Swiss Tournament
@@ -2066,8 +2066,8 @@ class MTGMenuSystem:
                 save_forge_outputs=config['save_forge_outputs'],
                 headless_mode=self.headless_mode,
                 # Parámetros de fitness multi-componente
-                fitness_alpha=0.6,
-                fitness_beta=0.4,
+                fitness_alpha=0.5,
+                fitness_beta=0.5,
                 enable_quality_metrics=True
             )
 
@@ -2178,7 +2178,7 @@ class MTGMenuSystem:
 
             # Calcular parámetros dinámicamente
             import math
-            elite_size = max(2, int(test_size * 0.3))
+            elite_size = max(2, int(test_size * 0.225))  # Fase 4: 22.5%
             tournament_size = max(3, int(test_size * 0.125))
             use_swiss = test_size >= 20  # Solo Swiss si pop >= 20
             k_rounds = min(12, max(5, math.ceil(math.log2(test_size)) + 2)) if use_swiss else test_size - 1
@@ -2217,8 +2217,8 @@ class MTGMenuSystem:
                 forge_jar_path=self.forge_jar,
                 max_generations=test_gens,
                 population_size=test_size,
-                mutation_rate=0.9,
-                crossover_rate=0.15,
+                mutation_rate=0.6,
+                crossover_rate=0.30,
                 tournament_size=tournament_size,     # Calculado dinámicamente
                 elite_size=elite_size,               # Calculado dinámicamente
                 # Swiss Tournament
@@ -2226,8 +2226,8 @@ class MTGMenuSystem:
                 k_rounds=k_rounds,
                 n_games_per_match=n_games_per_match,
                 # Parámetros de fitness multi-componente
-                fitness_alpha=0.6,
-                fitness_beta=0.4,
+                fitness_alpha=0.5,
+                fitness_beta=0.5,
                 enable_quality_metrics=True,
                 headless_mode=self.headless_mode,
                 **ga_config
@@ -2380,8 +2380,8 @@ class MTGMenuSystem:
                     log_level='WARNING',  # Menos ruido en logs
                     save_forge_outputs=False,
                     headless_mode=self.headless_mode,
-                    fitness_alpha=0.6,
-                    fitness_beta=0.4,
+                    fitness_alpha=0.5,
+                    fitness_beta=0.5,
                     enable_quality_metrics=True
                 )
 
