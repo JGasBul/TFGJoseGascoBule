@@ -207,7 +207,7 @@ class MTGGeneticAlgorithm:
 
         # Contador de estancamiento
         self.stagnation_counter = 0
-        self.best_fitness_ever = 0
+        # `best_fitness_ever` se deriva del HoF — ver @property más abajo (Fase 2)
 
         # Hall of Fame Global - Preserva mejores soluciones históricas
         self.hall_of_fame_arrays = []  # Lista de tuplas (fitness, deck_array)
@@ -220,6 +220,13 @@ class MTGGeneticAlgorithm:
         self.headless_mode = headless_mode
         self.logger.info(f"Modo: {'Headless (xvfb-run)' if headless_mode else 'GUI normal'}")
         self.logger.info(f"Hall of Fame configurado: {self.max_hall_size} mejores históricos")
+
+    @property
+    def best_fitness_ever(self):
+        """Mejor fitness histórico, derivado del HoF (Fase 2: fuente única)."""
+        if not self.hall_of_fame_arrays:
+            return 0.0
+        return float(self.hall_of_fame_arrays[0][0])
 
     # ==============================================================================
     # CONFIGURACIÓN Y CARGA INICIAL
@@ -2143,90 +2150,106 @@ class MTGGeneticAlgorithm:
     
     def update_hall_of_fame(self, fitness_values, population_arrays):
         """
-        Actualiza el Hall of Fame global con los mejores individuos históricos
+        Actualiza el HoF con cuota arquetípica estricta (Fase 2).
 
-        HALL OF FAME TARDÍO: No se activa hasta la Generación 5 para evitar
-        preservar mazos aleatorios de generaciones tempranas que ralenticen
-        la exploración inicial.
+        `max_hall_size // 3` slots por arquetipo (aggro/midrange/control).
+        La cuota es ESTRICTA: si un arquetipo no tiene candidatos suficientes,
+        sus slots quedan vacíos en vez de rellenarse con otros arquetipos.
+        Esto preserva la Filosofía C — ningún arquetipo monopoliza el elite —
+        y el log avisa cuando un arquetipo se extingue.
 
-        Args:
-            fitness_values (list): Fitness de la generación actual
-            population_arrays (list): Arrays de mazos de la generación actual
+        `hall_of_fame_arrays` queda ordenado por fitness descendente para que
+        `best_fitness_ever` y `get_final_best_result()` accedan al mejor
+        absoluto en índice [0].
         """
-        # Hall of Fame activo desde Gen 0 (eliminado retraso)
-        # Combinar candidatos actuales con hall of fame existente
-        current_candidates = [(fitness_values[i], population_arrays[i].copy()) 
-                             for i in range(len(fitness_values))]
+        archetypes = ['aggro', 'midrange', 'control']
+        per_bucket = max(1, self.max_hall_size // len(archetypes))
 
+        current_candidates = [
+            (fitness_values[i], population_arrays[i].copy())
+            for i in range(len(fitness_values))
+        ]
         all_candidates = self.hall_of_fame_arrays + current_candidates
 
-        # Ordenar por fitness (mayor a menor)
-        all_candidates.sort(key=lambda x: x[0], reverse=True)
+        # Dedupe por hash del array + orden descendente por fitness
+        seen = set()
+        unique_sorted = []
+        for f, arr in sorted(all_candidates, key=lambda x: x[0], reverse=True):
+            h = hash(arr.tobytes())
+            if h in seen:
+                continue
+            seen.add(h)
+            unique_sorted.append((f, arr))
 
-        # Eliminar duplicados exactos y mantener solo los mejores únicos
-        unique_best = []
-        seen_hashes = set()
+        # Rellenar cuotas (estricto, sin cross-pollination entre arquetipos)
+        buckets = {a: [] for a in archetypes}
+        for f, arr in unique_sorted:
+            arch = self.detect_archetype(arr)['archetype']
+            if arch in buckets and len(buckets[arch]) < per_bucket:
+                buckets[arch].append((f, arr))
+            if all(len(b) >= per_bucket for b in buckets.values()):
+                break
 
-        for fitness, array in all_candidates:
-            # Crear hash único del array para detectar duplicados
-            array_hash = hash(array.tobytes())
+        new_hof = [entry for arch in archetypes for entry in buckets[arch]]
+        new_hof.sort(key=lambda x: x[0], reverse=True)
 
-            if array_hash not in seen_hashes and len(unique_best) < self.max_hall_size:
-                unique_best.append((fitness, array))
-                seen_hashes.add(array_hash)
-
-        # Actualizar hall of fame
         old_size = len(self.hall_of_fame_arrays)
-        self.hall_of_fame_arrays = unique_best
-        new_size = len(self.hall_of_fame_arrays)
+        self.hall_of_fame_arrays = new_hof
+        new_size = len(new_hof)
 
-        # Log de cambios
-        if new_size > old_size:
-            self.logger.info(f"🏆 Hall of Fame expandido: {old_size} → {new_size}")
+        counts = {a: len(buckets[a]) for a in archetypes}
+        empty = [a for a, c in counts.items() if c == 0]
+        if empty:
+            self.logger.warning(
+                f"⚠️ Hall of Fame: arquetipos vacíos {empty} (cuota={counts})"
+            )
+        else:
+            self.logger.debug(f"Hall of Fame por arquetipo: {counts}")
 
-        if len(unique_best) > 0:
-            best_fitness = unique_best[0][0]
-            worst_fitness = unique_best[-1][0]
-            self.logger.debug(f"Hall of Fame: Mejor={best_fitness:.4f}, Peor={worst_fitness:.4f}")
+        if new_size != old_size:
+            self.logger.info(f"🏆 Hall of Fame: {old_size} → {new_size}")
 
-        # Guardar mazos del Hall of Fame como archivos .dck
+        if new_hof:
+            self.logger.debug(
+                f"Hall of Fame: Mejor={new_hof[0][0]:.4f}, Peor={new_hof[-1][0]:.4f}"
+            )
+
         self.save_hall_of_fame_decks()
 
     def save_hall_of_fame_decks(self):
         """
-        Guarda los mazos del Hall of Fame como archivos .dck y .json
-        Borra los archivos viejos y guarda los nuevos en cada actualización
+        Guarda los mazos del HoF como .dck y .json con naming por arquetipo:
+        `hall_of_fame_{aggro|midrange|control}_{N}.dck` donde N es el rank
+        dentro de ese arquetipo (Fase 2).
         """
         import glob
 
-        # Crear directorio para Hall of Fame si no existe
         hof_dir = os.path.join(self.output_dir, "hall_of_fame")
         os.makedirs(hof_dir, exist_ok=True)
 
-        # Borrar todos los archivos viejos del Hall of Fame
-        # Esto se hace en cada actualización para mantener solo los mejores actuales
-        old_files = glob.glob(os.path.join(hof_dir, "hall_of_fame_*.dck")) + \
-                   glob.glob(os.path.join(hof_dir, "hall_of_fame_*.json"))
-        for old_file in old_files:
+        for old_file in glob.glob(os.path.join(hof_dir, "hall_of_fame_*.dck")) + \
+                        glob.glob(os.path.join(hof_dir, "hall_of_fame_*.json")):
             try:
                 os.remove(old_file)
             except Exception as e:
                 self.logger.warning(f"No se pudo borrar {old_file}: {e}")
 
-        # Guardar los mazos actuales del Hall of Fame
-        for rank, (fitness, array) in enumerate(self.hall_of_fame_arrays, 1):
-            deck_name = f"hall_of_fame_{rank}"
+        arch_rank = {}
+        for fitness, array in self.hall_of_fame_arrays:
+            arch = self.detect_archetype(array)['archetype']
+            arch_rank[arch] = arch_rank.get(arch, 0) + 1
+            rank = arch_rank[arch]
+            deck_name = f"hall_of_fame_{arch}_{rank}"
             deck = self.array_to_deck(array, deck_name)
 
-            # Guardar como archivo .dck (para Forge)
             deck_file = os.path.join(hof_dir, f"{deck_name}.dck")
             self.save_forge_deck(deck, deck_file)
 
-            # También guardar en formato JSON con metadatos
             json_file = os.path.join(hof_dir, f"{deck_name}.json")
             deck_metadata = {
-                'rank': rank,
-                'fitness': fitness,
+                'archetype': arch,
+                'rank_in_archetype': rank,
+                'fitness': float(fitness),
                 'deck_name': deck_name,
                 'deck': deck,
                 'array': array.tolist()
@@ -2234,8 +2257,11 @@ class MTGGeneticAlgorithm:
             with open(json_file, 'w', encoding='utf-8') as f:
                 json.dump(deck_metadata, f, indent=2, ensure_ascii=False)
 
-        if len(self.hall_of_fame_arrays) > 0:
-            self.logger.debug(f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del Hall of Fame en {hof_dir}")
+        if self.hall_of_fame_arrays:
+            self.logger.debug(
+                f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
+                f"en {hof_dir} (cuota={arch_rank})"
+            )
 
     def clean_hall_of_fame_directory(self):
         """
@@ -2311,7 +2337,9 @@ class MTGGeneticAlgorithm:
                 'population_size': self.population_size,
                 'max_generations': self.max_generations,
                 'fitness_values': fitness_values,
-                'best_fitness_ever': self.best_fitness_ever if hasattr(self, 'best_fitness_ever') else max(fitness_values),
+                # best_fitness_ever se deriva del HoF (Fase 2) — se serializa por
+                # trazabilidad pero no se restaura al cargar.
+                'best_fitness_ever': self.best_fitness_ever,
                 'stagnation_counter': self.stagnation_counter if hasattr(self, 'stagnation_counter') else 0,
                 'mutation_rate': self.mutation_rate,
                 'original_mutation_rate': self.original_mutation_rate if hasattr(self, 'original_mutation_rate') else self.mutation_rate,
@@ -2395,7 +2423,7 @@ class MTGGeneticAlgorithm:
                 np.array(array, dtype=int) for array in checkpoint_data['population_arrays']
             ]
 
-            self.best_fitness_ever = checkpoint_data.get('best_fitness_ever', 0.0)
+            # best_fitness_ever es @property derivada del HoF (restaurado abajo)
             self.stagnation_counter = checkpoint_data.get('stagnation_counter', 0)
             self.mutation_rate = checkpoint_data.get('mutation_rate', self.mutation_rate)
             self.original_mutation_rate = checkpoint_data.get('original_mutation_rate', self.mutation_rate)
@@ -2416,7 +2444,7 @@ class MTGGeneticAlgorithm:
                 ]
 
             self.logger.info(f"Checkpoint cargado: Generación {checkpoint_data['generation']}")
-            self.logger.info(f"  Best fitness: {self.best_fitness_ever:.4f}")
+            self.logger.info(f"  Best fitness: {self.best_fitness_ever:.4f} (derivado del HoF)")
             self.logger.info(f"  Stagnation counter: {self.stagnation_counter}")
             self.logger.info(f"  Mutation rate: {self.mutation_rate:.3f} (original: {self.original_mutation_rate:.3f})")
             self.logger.info(f"  Generations since intervention: {self.generations_since_intervention}")
@@ -2498,8 +2526,8 @@ class MTGGeneticAlgorithm:
                     if checkpoint_data:
                         start_generation = checkpoint_data['generation'] + 1
                         fitness_values = checkpoint_data['fitness_values']
-                        best_fitness_ever = checkpoint_data['best_fitness_ever']
-                        self.best_fitness_ever = best_fitness_ever
+                        # best_fitness_ever es @property — deriva del HoF restaurado
+                        best_fitness_ever = self.best_fitness_ever
 
                         self.logger.info(f"REANUDANDO desde generación {start_generation}")
                         self.logger.info(f"Best fitness recuperado: {best_fitness_ever:.4f}")
@@ -2521,9 +2549,8 @@ class MTGGeneticAlgorithm:
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
                 self.save_population_arrays(0)
 
-                # Variables de control mejoradas
+                # Local best_fitness_ever — self.best_fitness_ever es @property (Fase 2)
                 best_fitness_ever = max(fitness_values)
-                self.best_fitness_ever = best_fitness_ever
                 self.update_statistics(0, fitness_values)
 
                 self.stagnation_counter = 0
@@ -2616,7 +2643,6 @@ class MTGGeneticAlgorithm:
 
                 if current_best > best_fitness_ever:
                     best_fitness_ever = current_best
-                    self.best_fitness_ever = best_fitness_ever
                     self.stagnation_counter = 0
                     self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
                     
@@ -2667,20 +2693,11 @@ class MTGGeneticAlgorithm:
                 # === GUARDAR CHECKPOINT AL FINAL DE CADA GENERACIÓN ===
                 self.save_checkpoint(generation, fitness_values)
 
-            # === OBTENER MEJOR RESULTADO CON VERIFICACIÓN ===
+            # === OBTENER MEJOR RESULTADO ===
+            # Fase 2: best_fitness_ever es @property derivada del HoF[0];
+            # get_final_best_result() también lee del HoF[0], así que son
+            # la misma fuente. Sin bloque de verificación duplicada.
             best_deck, final_fitness = self.get_final_best_result()
-
-            # VERIFICACIÓN ADICIONAL: Comparar con best_fitness_ever
-            if hasattr(self, 'best_fitness_ever'):
-                if final_fitness != self.best_fitness_ever:
-                    self.logger.warning(f"⚠️ Discrepancia en fitness final:")
-                    self.logger.warning(f"   Hall of Fame: {final_fitness:.4f}")
-                    self.logger.warning(f"   Best Ever: {self.best_fitness_ever:.4f}")
-
-                    # Usar el mayor de los dos
-                    if self.best_fitness_ever > final_fitness:
-                        final_fitness = self.best_fitness_ever
-                        self.logger.info(f"✅ Usando best_fitness_ever: {final_fitness:.4f}")
 
             self.logger.info(f"🏆 MEJOR FITNESS ALCANZADO: {final_fitness:.4f}")
             self.logger.info(f"🎯 RAZÓN DE TERMINACIÓN: {termination_reason}")
