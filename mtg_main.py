@@ -1417,7 +1417,6 @@ class MTGMenuSystem:
             # Calcular parámetros optimizados dinámicamente
             elite_size = max(2, int(pop_size * 0.3))  # 30% de población
             tournament_size = max(3, int(pop_size * 0.125))  # ~12% de población
-            stagnation_limit = 999  # Desactivado: evita inyección contraproducente de mazos aleatorios
 
             # Parámetros Swiss Tournament (por defecto activado)
             import math
@@ -1441,7 +1440,6 @@ class MTGMenuSystem:
             print(f"  Generaciones máximas: {max_gens}")
             print(f"  Elite preservada: {elite_size} ({int(elite_size/pop_size*100)}%)")
             print(f"  Tournament selection: {tournament_size} mazos ({int(tournament_size/pop_size*100)}%)")
-            print(f"  Límite de estancamiento: {stagnation_limit}")
             print(f"  ")
             print(f"  🏆 Swiss Tournament: {'✅ Activado' if use_swiss else '❌ Desactivado'}")
             if use_swiss:
@@ -1486,7 +1484,6 @@ class MTGMenuSystem:
                 crossover_rate=0.15,
                 tournament_size=tournament_size,     # Calculado dinámicamente (~12% de pop)
                 elite_size=elite_size,               # Calculado dinámicamente (30% de pop)
-                stagnation_limit=stagnation_limit,
                 # Parámetros Swiss Tournament
                 use_swiss_tournament=use_swiss,
                 k_rounds=k_rounds,
@@ -1576,8 +1573,6 @@ class MTGMenuSystem:
                 pop_size = data.get('population_size', 0)
                 max_gens = data.get('max_generations', 0)
                 mut_rate = data.get('mutation_rate', 0.0)
-                orig_mut = data.get('original_mutation_rate', 0.0)
-                gens_since = data.get('generations_since_intervention', 0)
 
                 checkpoints_info.append({
                     'file': cp_file,
@@ -1587,8 +1582,6 @@ class MTGMenuSystem:
                     'pop_size': pop_size,
                     'max_gens': max_gens,
                     'mut_rate': mut_rate,
-                    'orig_mut': orig_mut,
-                    'gens_since': gens_since,
                     'data': data
                 })
             except Exception as e:
@@ -1614,13 +1607,7 @@ class MTGMenuSystem:
             print(f"   🏆 Best fitness: {cp_info['best_fitness']:.4f} ({cp_info['best_fitness']*100:.1f}% win rate)")
             print(f"   👥 Población: {cp_info['pop_size']} mazos")
             print(f"   📊 Progreso: {gen}/{cp_info['max_gens']} generaciones ({gen*100//cp_info['max_gens']}%)")
-
-            # Mostrar estado de mutación adaptativa
-            if cp_info['mut_rate'] != cp_info['orig_mut']:
-                print(f"   ⚡ Mutación adaptativa ACTIVA: {cp_info['mut_rate']:.3f} (original: {cp_info['orig_mut']:.3f})")
-                print(f"   🔄 Generaciones desde intervención: {cp_info['gens_since']}")
-            else:
-                print(f"   🔧 Mutación: {cp_info['mut_rate']:.3f} (normal)")
+            print(f"   🔧 Mutación: {cp_info['mut_rate']:.3f}")
 
         # Seleccionar checkpoint
         print("\n" + "=" * 80)
@@ -1714,7 +1701,6 @@ class MTGMenuSystem:
                 crossover_rate=0.15,
                 tournament_size=tournament_size,     # Calculado dinámicamente
                 elite_size=elite_size,               # Calculado dinámicamente
-                stagnation_limit=999,
                 # Swiss Tournament (checkpoint puede sobrescribir)
                 use_swiss_tournament=use_swiss,
                 k_rounds=k_rounds,
@@ -2068,7 +2054,6 @@ class MTGMenuSystem:
                 crossover_rate=0.15,
                 tournament_size=tournament_size,     # Calculado dinámicamente
                 elite_size=elite_size,               # Calculado dinámicamente
-                stagnation_limit=999,  # Desactivado: alta mutación necesita todas las generaciones
                 # Swiss Tournament
                 use_swiss_tournament=use_swiss,
                 k_rounds=k_rounds,
@@ -2236,7 +2221,6 @@ class MTGMenuSystem:
                 crossover_rate=0.15,
                 tournament_size=tournament_size,     # Calculado dinámicamente
                 elite_size=elite_size,               # Calculado dinámicamente
-                stagnation_limit=999,  # Desactivado: alta mutación necesita todas las generaciones
                 # Swiss Tournament
                 use_swiss_tournament=use_swiss,
                 k_rounds=k_rounds,
@@ -2387,7 +2371,6 @@ class MTGMenuSystem:
                     crossover_rate=cross_rate,
                     tournament_size=3,
                     elite_size=6,
-                    stagnation_limit=3,
                     use_swiss_tournament=True,
                     k_rounds=6,
                     n_games_per_match=2,

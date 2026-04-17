@@ -69,7 +69,6 @@ class MTGGeneticAlgorithm:
                  crossover_rate=0.15,             # Bajo cruce: prioriza diversidad sobre homogeneización
                  tournament_size=5,               # Optimizado: ~12% de población de 40 (antes 4 de 20)
                  elite_size=12,                   # OPTIMIZADO: 30% de población de 40 (antes 8 de 20)
-                 stagnation_limit=999,            # DESACTIVADO: Evita inyección contraproducente de mazos aleatorios
                  # PARÁMETROS SWISS TOURNAMENT
                  use_swiss_tournament=True,       # Activar Swiss Tournament (False = round-robin completo)
                  k_rounds=8,                      # Rondas Swiss (fórmula: ceil(log2(pop)) + 2 = 8 para pop=40, 9 para pop=100)
@@ -100,7 +99,6 @@ class MTGGeneticAlgorithm:
             crossover_rate: Probabilidad de cruce (0.0-1.0)
             tournament_size: Tamaño del torneo para selección
             elite_size: Número de mejores individuos a preservar
-            stagnation_limit: Generaciones sin mejora antes de aplicar anti-estancamiento
             use_swiss_tournament: Usar Swiss Tournament (True) o round-robin completo (False)
             k_rounds: Número de rondas en Swiss Tournament (recomendado: ceil(log2(pop))+2)
             n_games_per_match: Partidas por enfrentamiento (1-3, recomendado: 2)
@@ -128,7 +126,6 @@ class MTGGeneticAlgorithm:
         self.crossover_rate = crossover_rate
         self.tournament_size = tournament_size
         self.elite_size = elite_size
-        self.stagnation_limit = stagnation_limit
 
         # CONFIGURACIÓN SWISS TOURNAMENT
         self.use_swiss_tournament = use_swiss_tournament
@@ -1091,25 +1088,7 @@ class MTGGeneticAlgorithm:
                     mutated[add_to] += 1
 
         return self.adjust_deck_size(mutated)
-    
-    def mutate_hybrid(self, deck_array):
-        """Mutación híbrida que combina las tres estrategias.
 
-        El gate de probabilidad vive únicamente en `evolve()`.
-        Rama hoy inalcanzable desde el dispatcher `mutate` (se elimina en Fase 3).
-        """
-        strategies = ['swap', 'add_remove', 'categorical']
-        weights = [0.3, 0.5, 0.2]  # Favorecer add_remove para más exploración
-
-        strategy = random.choices(strategies, weights=weights)[0]
-
-        if strategy == 'swap':
-            return self.mutate_swap(deck_array)
-        elif strategy == 'add_remove':
-            return self.mutate_add_remove(deck_array)
-        else:  # categorical
-            return self.mutate_categorical(deck_array)
-        
     def mutate_archetype_aware(self, deck_array, archetype=None):
         """Mutación arquetipo-aware: sesga add/remove por afinidad con el arquetipo.
 
@@ -1212,22 +1191,12 @@ class MTGGeneticAlgorithm:
             return self.mutate_categorical(deck_array)
 
     def mutate(self, deck_array, generation=0, stagnation_counter=0):
-        """
-        Función de mutación principal
-        Args:
-            deck_array: Array del mazo a mutar
-            generation: Generación actual (opcional)
-            stagnation_counter: Contador de estancamiento (opcional)
+        """Dispatcher de mutación — siempre delega en `mutate_adaptive`.
 
-        Returns:
-            Array mutado
+        Fase 3: eliminada la rama `mutate_hybrid` (nunca alcanzable desde
+        `evolve()` porque `generation >= 1` en todas las llamadas reales).
         """
-        # Usar mutación adaptiva si se proporcionan parámetros de control
-        if generation > 0 or stagnation_counter > 0:
-            return self.mutate_adaptive(deck_array, generation, stagnation_counter)
-        else:
-            # Usar mutación híbrida estándar
-            return self.mutate_hybrid(deck_array)
+        return self.mutate_adaptive(deck_array, generation, stagnation_counter)
     
     def _archetype_card_affinity(self, card, archetype):
         """
@@ -2342,9 +2311,7 @@ class MTGGeneticAlgorithm:
                 'best_fitness_ever': self.best_fitness_ever,
                 'stagnation_counter': self.stagnation_counter if hasattr(self, 'stagnation_counter') else 0,
                 'mutation_rate': self.mutation_rate,
-                'original_mutation_rate': self.original_mutation_rate if hasattr(self, 'original_mutation_rate') else self.mutation_rate,
                 'adaptive_timeout': self.adaptive_timeout,
-                'generations_since_intervention': self.generations_since_intervention if hasattr(self, 'generations_since_intervention') else 0,
                 # Nuevos parámetros Swiss Tournament
                 'use_swiss_tournament': self.use_swiss_tournament,
                 'k_rounds': self.k_rounds,
@@ -2426,9 +2393,7 @@ class MTGGeneticAlgorithm:
             # best_fitness_ever es @property derivada del HoF (restaurado abajo)
             self.stagnation_counter = checkpoint_data.get('stagnation_counter', 0)
             self.mutation_rate = checkpoint_data.get('mutation_rate', self.mutation_rate)
-            self.original_mutation_rate = checkpoint_data.get('original_mutation_rate', self.mutation_rate)
             self.adaptive_timeout = checkpoint_data.get('adaptive_timeout', self.base_timeout)
-            self.generations_since_intervention = checkpoint_data.get('generations_since_intervention', 0)
 
             # Restaurar parámetros Swiss Tournament si existen
             if 'use_swiss_tournament' in checkpoint_data:
@@ -2446,8 +2411,7 @@ class MTGGeneticAlgorithm:
             self.logger.info(f"Checkpoint cargado: Generación {checkpoint_data['generation']}")
             self.logger.info(f"  Best fitness: {self.best_fitness_ever:.4f} (derivado del HoF)")
             self.logger.info(f"  Stagnation counter: {self.stagnation_counter}")
-            self.logger.info(f"  Mutation rate: {self.mutation_rate:.3f} (original: {self.original_mutation_rate:.3f})")
-            self.logger.info(f"  Generations since intervention: {self.generations_since_intervention}")
+            self.logger.info(f"  Mutation rate: {self.mutation_rate:.3f}")
             self.logger.info(f"  Population size: {len(self.population_arrays)}")
             if hasattr(self, 'use_swiss_tournament'):
                 self.logger.info(f"  Swiss Tournament: {self.use_swiss_tournament} (k={self.k_rounds}, n={self.n_games_per_match})")
@@ -2554,7 +2518,6 @@ class MTGGeneticAlgorithm:
                 self.update_statistics(0, fitness_values)
 
                 self.stagnation_counter = 0
-                self.generations_since_intervention = 0
                 self.current_fitness_values = fitness_values
 
                 # Actualizar Hall of Fame inicial
@@ -2563,8 +2526,7 @@ class MTGGeneticAlgorithm:
                 # Guardar checkpoint inicial
                 self.save_checkpoint(0, fitness_values)
             else:
-                # Restaurar variables de control desde checkpoint
-                # stagnation_counter, generations_since_intervention ya restaurados en load_checkpoint
+                # stagnation_counter ya restaurado en load_checkpoint
                 self.current_fitness_values = fitness_values
 
             # BUCLE PRINCIPAL CON CONTROL DE TERMINACIÓN MEJORADO
@@ -2645,33 +2607,15 @@ class MTGGeneticAlgorithm:
                     best_fitness_ever = current_best
                     self.stagnation_counter = 0
                     self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
-                    
-                    # Restaurar tasa de mutación si había intervención
-                    if self.generations_since_intervention > 0:
-                        self.restore_mutation_rate()
-                        self.generations_since_intervention = 0
                 else:
                     self.stagnation_counter += 1
-                    self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter}/{self.stagnation_limit}")
+                    self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter} gens")
 
                 # === VERIFICAR CONDICIONES DE TERMINACIÓN ===
-                should_continue, reason, apply_intervention = self.handle_termination_conditions(
+                should_continue, reason = self.handle_termination_conditions(
                     generation, current_best, self.stagnation_counter
                 )
 
-                if apply_intervention:
-                    # Aplicar intervención anti-estancamiento
-                    self.apply_anti_stagnation_intervention(generation)
-                    self.generations_since_intervention = 1
-
-                    # GUARDAR CHECKPOINT DESPUÉS DE LA INTERVENCIÓN
-                    # Es crítico guardar aquí porque el continue saltará el save_checkpoint normal
-                    self.logger.info("Guardando checkpoint post-intervención...")
-                    self.save_checkpoint(generation, fitness_values)
-
-                    # Continuar después de la intervención
-                    continue
-                
                 if not should_continue:
                     termination_reason = reason
                     self.logger.info(f"🏁 TERMINACIÓN CONTROLADA: {termination_reason}")
@@ -2681,14 +2625,6 @@ class MTGGeneticAlgorithm:
                     self.save_checkpoint(generation, fitness_values)
 
                     break
-                
-                # Incrementar contador de generaciones desde intervención
-                if self.generations_since_intervention > 0:
-                    self.generations_since_intervention += 1
-                    # Restaurar mutación después de 3 generaciones
-                    if self.generations_since_intervention >= 3:
-                        self.restore_mutation_rate()
-                        self.generations_since_intervention = 0
 
                 # === GUARDAR CHECKPOINT AL FINAL DE CADA GENERACIÓN ===
                 self.save_checkpoint(generation, fitness_values)
@@ -3013,242 +2949,44 @@ class MTGGeneticAlgorithm:
         return seed == 0    
     
     def handle_termination_conditions(self, generation, current_best_fitness, stagnation_counter):
-        """
-        Maneja las condiciones de terminación y anti-estancamiento de forma inteligente.
-        Reemplaza los break problemáticos por return controlado.
+        """Condición de terminación temprana: fitness objetivo alcanzado.
 
-        Returns:
-            tuple: (should_continue, termination_reason, apply_intervention)
+        Fase 3: eliminada la rama de intervención anti-estancamiento
+        (toda la maquinaria ya estaba desactivada en producción vía
+        `stagnation_limit=999`). `stagnation_counter` se conserva sólo
+        como métrica observacional, no dispara acciones.
         """
-        # Verificar condición de fitness objetivo alcanzado
         if current_best_fitness >= 0.95:
             reason = f"Terminando por alcanzar fitness objetivo (95% win rate): {current_best_fitness:.4f}"
             self.logger.info(reason)
-            return False, "fitness_target_reached", False
+            return False, "fitness_target_reached"
 
-        # Verificar estancamiento crítico
-        if stagnation_counter >= self.stagnation_limit:
-            if generation < self.max_generations // 2:
-                # Si estamos en la primera mitad, aplicar intervención agresiva
-                reason = f"Aplicando intervención anti-estancamiento en generación {generation}"
-                self.logger.warning(reason)
-                return True, "stagnation_intervention", True
-            else:
-                # Si estamos en la segunda mitad, terminar
-                reason = f"Terminando por estancamiento tras {stagnation_counter} generaciones sin mejora"
-                self.logger.info(reason)
-                return False, "stagnation_limit_reached", False
-
-        # Continuar normalmente
-        return True, "continue", False
-
-
-    def apply_anti_stagnation_intervention(self, generation):
-        """
-        Sistema Anti-Estancamiento Agresivo 
-        Aplica múltiples estrategias para escapar de óptimos locales.
-        """
-        self.logger.warning(f"🚨 APLICANDO INTERVENCIÓN ANTI-ESTANCAMIENTO en generación {generation}")
-
-        intervention_applied = False
-
-        # ESTRATEGIA 1: IMMIGRATION (30% de la población)
-        immigration_size = max(3, self.population_size // 3)
-        self.logger.info(f"🌍 Immigration: Inyectando {immigration_size} mazos completamente nuevos")
-
-        # Generar mazos nuevos usando el generador original
-        try:
-            from generador_mazos_mtg import MTGDeckGenerator
-
-            generator = MTGDeckGenerator(
-                cards_csv_path=os.path.join(os.path.dirname(self.catalog_path), "..", "processed_standard_cards.csv"),
-                catalog_path=self.catalog_path,
-                indices_path=self.indices_path,
-                output_dir=self.output_dir
-            )
-
-            # Generar mazos frescos con diversidad forzada
-            new_decks = generator.generate_population_exact_size(immigration_size)
-            new_arrays = []
-
-            for deck in new_decks:
-                if 'array' in deck:
-                    new_arrays.append(np.array(deck['array'], dtype=int))
-                else:
-                    new_arrays.append(self.deck_to_array(deck))
-
-            # Reemplazar los peores individuos
-            if hasattr(self, 'current_fitness_values') and len(self.current_fitness_values) == len(self.population_arrays):
-                # Encontrar los índices de los peores
-                sorted_indices = np.argsort(self.current_fitness_values)
-                worst_indices = sorted_indices[:immigration_size]
-
-                for i, worst_idx in enumerate(worst_indices):
-                    if i < len(new_arrays):
-                        self.population_arrays[worst_idx] = new_arrays[i].copy()
-                        self.logger.debug(f"Mazo {worst_idx} reemplazado por inmigrante {i}")
-
-                intervention_applied = True
-                self.logger.info(f"✅ Immigration completada: {len(worst_indices)} mazos reemplazados")
-
-        except Exception as e:
-            self.logger.error(f"Error en immigration: {e}")
-
-        # ESTRATEGIA 2: MUTATION BOOST (Incrementar mutación temporalmente)
-        if hasattr(self, 'original_mutation_rate'):
-            self.mutation_rate = self.original_mutation_rate * 3.0
-        else:
-            self.original_mutation_rate = self.mutation_rate
-            self.mutation_rate = min(0.4, self.mutation_rate * 3.0)
-
-        self.logger.info(f"🧬 Mutation Boost: Tasa de mutación incrementada a {self.mutation_rate:.3f}")
-        intervention_applied = True
-
-        # ESTRATEGIA 3: DIVERSITY INJECTION (Forzar diversidad en Hall of Fame)
-        if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 3:
-            # Seleccionar individuos diversos del Hall of Fame
-            diverse_elite = self.select_diverse_elite()
-
-            if len(diverse_elite) > 0:
-                # Reemplazar algunos individuos mediocres con elite diverso
-                elite_injection_size = min(len(diverse_elite), self.population_size // 4)
-
-                if hasattr(self, 'current_fitness_values'):
-                    # Encontrar individuos mediocres (no los mejores ni los peores)
-                    fitness_array = np.array(self.current_fitness_values)
-                    median_fitness = np.median(fitness_array)
-
-                    # Buscar individuos cerca de la mediana
-                    median_tolerance = np.std(fitness_array) * 0.5
-                    mediocre_mask = np.abs(fitness_array - median_fitness) <= median_tolerance
-                    mediocre_indices = np.where(mediocre_mask)[0]
-
-                    if len(mediocre_indices) >= elite_injection_size:
-                        selected_mediocre = np.random.choice(mediocre_indices, elite_injection_size, replace=False)
-
-                        for i, mediocre_idx in enumerate(selected_mediocre):
-                            if i < len(diverse_elite):
-                                self.population_arrays[mediocre_idx] = diverse_elite[i].copy()
-                                self.logger.debug(f"Individuo mediocre {mediocre_idx} reemplazado por elite diverso")
-
-                        intervention_applied = True
-                        self.logger.info(f"✅ Diversity Injection: {len(selected_mediocre)} individuos reemplazados")
-
-        # ESTRATEGIA 4: RESET STAGNATION COUNTER (Dar otra oportunidad)
-        self.stagnation_counter = 0
-        self.logger.info(f"🔄 Stagnation counter reseteado")
-
-        # Marcar que se aplicó intervención
-        if intervention_applied:
-            # Agregar marca temporal en logs
-            if not hasattr(self, 'interventions_applied'):
-                self.interventions_applied = []
-
-            self.interventions_applied.append({
-                'generation': generation,
-                'strategies': ['immigration', 'mutation_boost', 'diversity_injection'],
-                'timestamp': time.time()
-            })
-
-            self.logger.warning(f"🚀 INTERVENCIÓN ANTI-ESTANCAMIENTO COMPLETADA en generación {generation}")
-
-        return intervention_applied
-
-
-    def select_diverse_elite(self):
-        """
-        Selecciona individuos diversos del Hall of Fame basado en distancia genética.
-        """
-        if not hasattr(self, 'hall_of_fame_arrays') or len(self.hall_of_fame_arrays) < 2:
-            return []
-
-        # Extraer solo los arrays del Hall of Fame
-        hof_arrays = [hof_array for _, hof_array in self.hall_of_fame_arrays]
-
-        if len(hof_arrays) <= 3:
-            return hof_arrays
-
-        # Selección por diversidad usando distancia hamming
-        selected = [hof_arrays[0]]  # Siempre incluir el mejor
-
-        for candidate in hof_arrays[1:]:
-            # Calcular distancia mínima a los ya seleccionados
-            min_distance = float('inf')
-
-            for selected_array in selected:
-                # Distancia basada en cartas diferentes
-                different_cards = np.sum(candidate != selected_array)
-                min_distance = min(min_distance, different_cards)
-
-            # Si es suficientemente diferente, agregarlo
-            diversity_threshold = len(candidate) * 0.1  # Al menos 10% de cartas diferentes
-            if min_distance >= diversity_threshold and len(selected) < 4:
-                selected.append(candidate)
-
-        self.logger.debug(f"Elite diverso seleccionado: {len(selected)} individuos de {len(hof_arrays)} disponibles")
-        return selected
-
-
-    def restore_mutation_rate(self):
-        """
-        Restaura la tasa de mutación original después de la intervención.
-        """
-        if hasattr(self, 'original_mutation_rate'):
-            old_rate = self.mutation_rate
-            self.mutation_rate = self.original_mutation_rate
-            self.logger.info(f"🔄 Tasa de mutación restaurada: {old_rate:.3f} → {self.mutation_rate:.3f}")
+        return True, "continue"
 
     def get_final_best_result(self):
-        """
-        Obtiene el mejor resultado final de forma correcta
+        """Devuelve el mejor mazo histórico. Fase 3: dos fuentes reales.
+
+        Preferencia: HoF[0] (única fuente canónica desde Fase 2). Si el HoF
+        está vacío (ej. fallo temprano antes de la primera evaluación),
+        cae a la mejor de la población actual.
         """
         try:
-            # OPCIÓN 1: Usar Hall of Fame arrays (más confiable)
-            if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+            if self.hall_of_fame_arrays:
                 best_fitness, best_array = self.hall_of_fame_arrays[0]
                 best_deck = self.array_to_deck(best_array, "Champion_Deck")
-
-                self.logger.info(f"✅ Mejor resultado obtenido del Hall of Fame:")
-                self.logger.info(f"   Fitness: {best_fitness:.4f}")
-                self.logger.info(f"   Array sum: {np.sum(best_array)}")
-
-                # VERIFICAR que el fitness es correcto
-                if best_fitness < 0.01:  # Si el fitness es sospechosamente bajo
-                    self.logger.warning(f"⚠️ Fitness sospechosamente bajo: {best_fitness:.4f}")
-                    # Buscar en hall_of_fame alternativo
-                    if hasattr(self, 'hall_of_fame') and self.hall_of_fame_arrays:
-                        _, alt_fitness, alt_deck = max(self.hall_of_fame_arrays, key=lambda x: x[1])
-                        if alt_fitness > best_fitness:
-                            self.logger.info(f"🔄 Usando hall_of_fame alternativo: {alt_fitness:.4f}")
-                            return alt_deck, alt_fitness
-
+                self.logger.info(f"✅ Mejor resultado del Hall of Fame: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
-            # OPCIÓN 2: Usar hall_of_fame estándar
-            elif hasattr(self, 'hall_of_fame') and self.hall_of_fame_arrays:
-                _, best_fitness, best_deck = max(self.hall_of_fame_arrays, key=lambda x: x[1])
-
-                self.logger.info(f"✅ Mejor resultado obtenido del Hall of Fame estándar:")
-                self.logger.info(f"   Fitness: {best_fitness:.4f}")
-
+            if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
+                best_idx = int(np.argmax(self.current_fitness_values))
+                best_fitness = float(self.current_fitness_values[best_idx])
+                best_deck = self.array_to_deck(self.population_arrays[best_idx], "Final_Best_Deck")
+                self.logger.warning(f"⚠️ HoF vacío; devolviendo mejor de población actual: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
-            # OPCIÓN 3: Usar población actual (último recurso)
-            else:
-                if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
-                    best_idx = np.argmax(self.current_fitness_values)
-                    best_fitness = self.current_fitness_values[best_idx]
-                    best_deck = self.array_to_deck(self.population_arrays[best_idx], "Final_Best_Deck")
-
-                    self.logger.info(f"✅ Mejor resultado obtenido de población actual:")
-                    self.logger.info(f"   Fitness: {best_fitness:.4f}")
-
-                    return best_deck, best_fitness
-                else:
-                    # Fallback absoluto
-                    best_deck = self.array_to_deck(self.population_arrays[0], "Fallback_Deck")
-                    self.logger.warning("⚠️ Usando deck de fallback")
-                    return best_deck, 0.0
+            best_deck = self.array_to_deck(self.population_arrays[0], "Fallback_Deck")
+            self.logger.warning("⚠️ Sin HoF ni fitness — devolviendo primer mazo de población")
+            return best_deck, 0.0
 
         except Exception as e:
             self.logger.error(f"Error obteniendo resultado final: {e}")
@@ -3485,7 +3223,6 @@ if __name__ == "__main__":
         'crossover_rate': 0.15,
         'tournament_size': 3,
         'elite_size': 2,
-        'stagnation_limit': 5,
         # PARÁMETROS DE PARALELIZACIÓN (normalmente pasados desde mtg_main.py)
         'max_workers': 4,           # Configurado por hardware analyzer
         'parallel_batch_size': 12,  # Configurado por hardware analyzer
