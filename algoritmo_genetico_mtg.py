@@ -212,7 +212,8 @@ class MTGGeneticAlgorithm:
             'best_fitness': [],
             'avg_fitness': [],
             'diversity': [],
-            'mutation_rate': []
+            'mutation_rate': [],
+            'archetype_entropy': [],  # Fase 5: entropía de Shannon arquetípica (nats)
         }
 
         # Contador de estancamiento
@@ -313,17 +314,25 @@ class MTGGeneticAlgorithm:
         """
         archetypes = ['aggro', 'midrange', 'control']
         seeded = []
-        archetype_counts = {a: 0 for a in archetypes}
+        intended_counts = {a: 0 for a in archetypes}
 
         for i, arr in enumerate(population_arrays):
             target = archetypes[i % len(archetypes)]
             arr_seeded = self.consolidate_singletons(arr, target_archetype=target)
             arr_seeded = self.adjust_deck_size(arr_seeded)
             seeded.append(arr_seeded)
-            archetype_counts[target] += 1
+            intended_counts[target] += 1
 
+        # Fase 5: loguear el arquetipo REAL detectado tras la consolidación,
+        # no sólo la asignación intencional. La consolidación no garantiza
+        # que `detect_archetype` clasifique el mazo en el arquetipo target
+        # (puede quedar en midrange si la población inicial no tiene
+        # suficientes cartas de afinidad alta).
+        detected = self._archetype_distribution(seeded)
         self.logger.info(
-            f"Gen0 sembrada con cuotas arquetípicas: {archetype_counts}"
+            f"Gen0 sembrada — intención: {intended_counts} | "
+            f"detectado: {detected['counts']} "
+            f"(entropía={detected['entropy']:.3f}/{detected['max_entropy']:.3f})"
         )
         return seeded
 
@@ -408,25 +417,40 @@ class MTGGeneticAlgorithm:
 
             # Convertir arrays numpy a listas para JSON
             for i, array in enumerate(self.population_arrays):
+                arch_info = self.detect_archetype(array)
                 array_data = {
                     'index': i,
                     'array': array.tolist(),
                     'sum': int(np.sum(array)),
                     'non_zero_count': int(np.count_nonzero(array)),
                     'max_value': int(np.max(array)),
-                    'min_value': int(np.min(array))
+                    'min_value': int(np.min(array)),
+                    # Fase 5: arquetipo detectado por mazo
+                    'archetype': arch_info['archetype'],
+                    'avg_cmc': round(arch_info['avg_cmc'], 3),
+                    'creatures': arch_info['creatures'],
                 }
                 population_data['arrays'].append(array_data)
+
+            # Fase 5: distribución arquetípica agregada + entropía
+            pop_dist = self._archetype_distribution(self.population_arrays)
+            population_data['archetype_distribution'] = {
+                'counts': pop_dist['counts'],
+                'entropy': pop_dist['entropy'],
+                'max_entropy': pop_dist['max_entropy'],
+            }
 
             # Agregar información del Hall of Fame si existe
             if hasattr(self, 'hall_of_fame_arrays') and self.hall_of_fame_arrays:
                 population_data['hall_of_fame'] = []
                 for fitness, hof_array in self.hall_of_fame_arrays[:5]:  # Solo los top 5
+                    arch_info = self.detect_archetype(hof_array)
                     hof_data = {
                         'fitness': float(fitness),
                         'array': hof_array.tolist(),
                         'sum': int(np.sum(hof_array)),
-                        'non_zero_count': int(np.count_nonzero(hof_array))
+                        'non_zero_count': int(np.count_nonzero(hof_array)),
+                        'archetype': arch_info['archetype'],  # Fase 5
                     }
                     population_data['hall_of_fame'].append(hof_data)
 
@@ -458,6 +482,12 @@ class MTGGeneticAlgorithm:
                     'total_arrays': len(self.population_arrays),
                     'avg_sum': float(np.mean([np.sum(arr) for arr in self.population_arrays])),
                     'avg_non_zero': float(np.mean([np.count_nonzero(arr) for arr in self.population_arrays]))
+                },
+                # Fase 5: distribución arquetípica + entropía, replicada en history
+                'archetype_distribution': {
+                    'counts': pop_dist['counts'],
+                    'entropy': pop_dist['entropy'],
+                    'max_entropy': pop_dist['max_entropy'],
                 },
                 'hall_of_fame_size': len(getattr(self, 'hall_of_fame_arrays', [])),
                 'stagnation_counter': getattr(self, 'stagnation_counter', 0)
@@ -515,13 +545,23 @@ class MTGGeneticAlgorithm:
             # Convertir población final a formato completo (arrays + mazos)
             for i, array in enumerate(self.population_arrays):
                 deck = self.array_to_deck(array, f"Final_Deck_{i:03d}")
+                arch_info = self.detect_archetype(array)
                 deck_data = {
                     'index': i,
                     'array': array.tolist(),
                     'deck': deck,
-                    'fitness': float(self.current_fitness_values[i]) if i < len(getattr(self, 'current_fitness_values', [])) else 0.0
+                    'fitness': float(self.current_fitness_values[i]) if i < len(getattr(self, 'current_fitness_values', [])) else 0.0,
+                    'archetype': arch_info['archetype'],  # Fase 5
                 }
                 final_data['final_population'].append(deck_data)
+
+            # Fase 5: distribución final + entropía
+            final_dist = self._archetype_distribution(self.population_arrays)
+            final_data['archetype_distribution'] = {
+                'counts': final_dist['counts'],
+                'entropy': final_dist['entropy'],
+                'max_entropy': final_dist['max_entropy'],
+            }
 
             # Hall of Fame completo
             if hasattr(self, 'hall_of_fame_arrays'):
@@ -530,7 +570,8 @@ class MTGGeneticAlgorithm:
                     hof_data = {
                         'fitness': float(fitness),
                         'array': hof_array.tolist(),
-                        'deck': hof_deck
+                        'deck': hof_deck,
+                        'archetype': self.detect_archetype(hof_array)['archetype'],  # Fase 5
                     }
                     final_data['hall_of_fame'].append(hof_data)
 
@@ -1933,11 +1974,56 @@ class MTGGeneticAlgorithm:
         else:
             archetype = 'midrange'
 
+        # Cast a tipos Python nativos — evita problemas de serialización JSON
+        # (numpy.int64 / numpy.float64 no son serializables por defecto).
         return {
             'archetype': archetype,
-            'avg_cmc': avg_cmc,
-            'creatures': creatures,
-            'nonland': nonland_count,
+            'avg_cmc': float(avg_cmc),
+            'creatures': int(creatures),
+            'nonland': int(nonland_count),
+        }
+
+    def _archetype_distribution(self, population_arrays):
+        """Distribución arquetípica + entropía de Shannon de la población (Fase 5).
+
+        Métrica de diversidad arquetípica usada en logs, stats y
+        criterios de aceptación de la auditoría (objetivo ≥ 1.3 nats
+        sobre un máximo teórico log(3) ≈ 1.58).
+
+        Args:
+            population_arrays: lista de arrays (mazos).
+
+        Returns:
+            dict con:
+                'counts': {archetype: int} — frecuencias absolutas.
+                'frequencies': {archetype: float} — proporciones (suman 1 si hay mazos).
+                'entropy': float — H = -Σ p·ln(p) en nats. 0 si colapso a un arquetipo.
+                'max_entropy': float — log(k) con k=3 arquetipos (≈1.0986).
+        """
+        archetypes = ['aggro', 'midrange', 'control']
+        counts = {a: 0 for a in archetypes}
+        for arr in population_arrays:
+            arch = self.detect_archetype(arr)['archetype']
+            counts[arch] = counts.get(arch, 0) + 1
+
+        total = sum(counts.values())
+        if total == 0:
+            return {
+                'counts': counts,
+                'frequencies': {a: 0.0 for a in archetypes},
+                'entropy': 0.0,
+                'max_entropy': float(np.log(len(archetypes))),
+            }
+
+        frequencies = {a: counts[a] / total for a in archetypes}
+        entropy = -sum(p * np.log(p) for p in frequencies.values() if p > 0)
+
+        return {
+            'counts': counts,
+            'frequencies': frequencies,
+            # `+ 0.0` elimina el signo negativo de -0.0 en float cuando p=1
+            'entropy': float(entropy) + 0.0,
+            'max_entropy': float(np.log(len(archetypes))),
         }
 
     def evaluate_structural(self, deck_array):
@@ -2805,13 +2891,17 @@ class MTGGeneticAlgorithm:
                     self.stats['best_fitness'] = [max(self.current_fitness_values)]
                     self.stats['avg_fitness'] = [np.mean(self.current_fitness_values)]
                     self.stats['diversity'] = [self.calculate_diversity(self.population_arrays)]
-                    self.stats['mutation_rate'] = [getattr(self, 'mutation_rate', 0.9)]
+                    self.stats['mutation_rate'] = [self.mutation_rate]
+                    self.stats['archetype_entropy'] = [
+                        self._archetype_distribution(self.population_arrays)['entropy']
+                    ]
                 else:
                     # Estadísticas de fallback absoluto
                     self.stats['best_fitness'] = [0.0]
                     self.stats['avg_fitness'] = [0.0]
                     self.stats['diversity'] = [0.0]
-                    self.stats['mutation_rate'] = [0.9]
+                    self.stats['mutation_rate'] = [self.mutation_rate]
+                    self.stats['archetype_entropy'] = [0.0]
 
             # Verificar longitudes consistentes
             lengths = [len(self.stats[key]) for key in self.stats.keys()]
@@ -2829,7 +2919,8 @@ class MTGGeneticAlgorithm:
                 'best_fitness': self.stats['best_fitness'],
                 'avg_fitness': self.stats['avg_fitness'],
                 'diversity': self.stats['diversity'],
-                'mutation_rate': self.stats['mutation_rate']
+                'mutation_rate': self.stats['mutation_rate'],
+                'archetype_entropy': self.stats['archetype_entropy'],
             })
 
             self.logger.info(f"📊 Guardando estadísticas: {len(stats_df)} generaciones")
@@ -2942,6 +3033,7 @@ class MTGGeneticAlgorithm:
 
             for i, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5]):  # Top 5
                 deck = self.array_to_deck(array, f"HOF_Deck_{i}")
+                arch_info = self.detect_archetype(array)
                 hof_data.append({
                     'rank': i + 1,
                     'fitness': float(fitness),
@@ -2950,7 +3042,11 @@ class MTGGeneticAlgorithm:
                     'stats': deck.get('stats', {}),
                     'parallel_workers': self.max_workers,
                     'total_cards': int(np.sum(array)),
-                    'unique_cards': int(np.count_nonzero(array))
+                    'unique_cards': int(np.count_nonzero(array)),
+                    # Fase 5: arquetipo detectado de cada top-N
+                    'archetype': arch_info['archetype'],
+                    'avg_cmc': round(arch_info['avg_cmc'], 3),
+                    'creatures': arch_info['creatures'],
                 })
 
             # Guardar datos
@@ -3041,16 +3137,25 @@ class MTGGeneticAlgorithm:
             if effective_mutation_rate is None:
                 effective_mutation_rate = self.mutation_rate
 
+            # Fase 5: entropía de Shannon arquetípica (diversidad estructural)
+            dist = self._archetype_distribution(self.population_arrays)
+            archetype_entropy = dist['entropy']
+
             # Actualizar listas de estadísticas
             self.stats['best_fitness'].append(best_fitness)
             self.stats['avg_fitness'].append(avg_fitness)
             self.stats['diversity'].append(diversity)
             self.stats['mutation_rate'].append(effective_mutation_rate)
+            self.stats['archetype_entropy'].append(archetype_entropy)
 
             # Log debug cada 5 generaciones
             if generation % 5 == 0:
-                self.logger.debug(f"Stats Gen {generation}: Best={best_fitness:.4f}, "
-                                f"Avg={avg_fitness:.4f}, Div={diversity:.4f}")
+                self.logger.debug(
+                    f"Stats Gen {generation}: Best={best_fitness:.4f}, "
+                    f"Avg={avg_fitness:.4f}, Div={diversity:.4f}, "
+                    f"H_arq={archetype_entropy:.3f}/{dist['max_entropy']:.3f} "
+                    f"({dist['counts']})"
+                )
 
             # Guardar estadísticas incrementales cada 10 generaciones
             if generation % 10 == 0:
@@ -3070,7 +3175,8 @@ class MTGGeneticAlgorithm:
                 'best_fitness': self.stats['best_fitness'],
                 'avg_fitness': self.stats['avg_fitness'],
                 'diversity': self.stats['diversity'],
-                'mutation_rate': self.stats['mutation_rate']
+                'mutation_rate': self.stats['mutation_rate'],
+                'archetype_entropy': self.stats['archetype_entropy'],
             })
 
             # Guardar CSV incremental
