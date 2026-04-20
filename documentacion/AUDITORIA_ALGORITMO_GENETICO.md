@@ -388,9 +388,12 @@ Cada fase se implementa y se commitea por separado para poder auditar el efecto 
 - Si un arquetipo está vacío, rellenar con mejores globales (fallback).
 - `save_hall_of_fame_decks` refleja la cuota en el nombre (`hall_of_fame_aggro_1.dck`).
 - Eliminar `best_fitness_ever` (S7): derivar siempre del HoF.
+- **[Mapa-flujo #1]** Borrar la docstring "HALL OF FAME TARDÍO: No se activa hasta la Generación 5" en `update_hall_of_fame` (L2144-2155): contradice el código, que lo activa desde Gen 0. Sustituir por una docstring que describa la cuota arquetípica nueva.
+- **[Mapa-flujo #3]** Justificación reforzada: sin esta fase, la siembra arquetípica de Fase 1 es un placebo. `tournament_selection` es ciega a arquetipo, así que en 3-5 generaciones el elite (50 % de la población) colapsa al arquetipo con mejor Swiss fitness y la Filosofía C deja de cumplirse. Esta fase es **condición necesaria** para que Fase 1 aporte valor medible.
 
 ### Fase 3 — Limpieza de código muerto
 - Eliminar `mutate_hybrid` y la rama muerta del dispatcher `mutate` (S2).
+- **[Mapa-flujo #5]** Confirmar que `mutate_hybrid` ya no se invoca desde `mutate()` post-Fase 1; si los tests temporales (`/tmp/test_fase1.py::TestPhase1Gates::test_mutate_hybrid_sin_gate`) son los únicos consumidores, borrar ambos.
 - **Decisión sobre anti-estancamiento (S1)**:
   - Opción A (recomendada): **eliminar** `apply_anti_stagnation_intervention`, `select_diverse_elite`, `restore_mutation_rate`, la segunda rama de `handle_termination_conditions`, y toda la gestión asociada. Mantener `stagnation_counter` sólo para logs/métricas.
   - Opción B: mantener pero reactivar con F4.
@@ -400,9 +403,14 @@ Cada fase se implementa y se commitea por separado para poder auditar el efecto 
 ### Fase 4 — Balance de parámetros + cruce arquetípico
 - `elite_size`: 12 → **9** (22.5 % de pop=40).
 - `crossover_rate`: 0.15 → **0.30** (ahora efectivo, no 0.15²).
+- **[Mapa-flujo #4]** Nota: incluso 0.30 es bajo para un GA sobre vectores de 60 elementos. Vigilar en Fase 5 la tasa efectiva de recombinación vs. mutación pura y subir a 0.40 si el cruce queda dominado.
 - `fitness_beta`: 0.4 → **0.5** (más peso a calidad estructural).
 - **F3**: Sustituir `crossover_two_point` por `crossover_archetype` categoría-consciente (cruza criaturas con criaturas, tierras con tierras, hechizos con hechizos). Si se opta por eliminar, dejar sólo `crossover_uniform`.
 - **F4** (sólo si Fase 3 optó B): inmigración arquetipo-aware en `apply_anti_stagnation_intervention`.
+- **[Mapa-flujo #2]** Rediseñar los multiplicadores de `adaptive_mutation_rate` (L2125-2142). Con `mutation_rate=0.9` los tres regímenes colapsan a dos (`×1.5` y `×2.0` ambos saturan en `min(1.0, …)`). Dos opciones:
+  - (a) Bajar `mutation_rate` base a 0.5-0.6 para que los multiplicadores vuelvan a tener efecto gradual.
+  - (b) Cambiar el escalado a aditivo (`base + 0.1` si stagn>5, `base + 0.2` si stagn>10) con `min(1.0, …)` como clamp final.
+  Recomendada: (a), más consistente con la nueva magnitud 3-8 ya agresiva por sí misma.
 
 ### Fase 5 — Observabilidad
 - Arreglar `_seed_archetypes` para loguear `detect_archetype` real post-consolidación (bug 2.2).
@@ -412,6 +420,7 @@ Cada fase se implementa y se commitea por separado para poder auditar el efecto 
 
 ### Fase 6 — Consolidación y robustez (opcional)
 - **S5**: consolidar funciones de guardado a 3 (estado-generación, estado-final, gráficos).
+- **[Mapa-flujo #6]** Detalle de la consolidación: hay **10 funciones `save_*`** con lógica solapada (`save_population_arrays`, `save_final_population`, `save_hall_of_fame_decks`, `save_hall_of_fame_data`, `save_best_deck`, `save_incremental_statistics`, `save_statistics`, `save_checkpoint`, `save_forge_deck`, `save_final_logs`). La duplicación más clara es `save_hall_of_fame_decks` ↔ `save_hall_of_fame_data` (una guarda `.dck`, otra `.json`, pero iteran sobre el mismo objeto y cada una limpia su directorio por separado). Fusionar ambas en una única `persist_hall_of_fame(formats=('dck','json'))`.
 - Reemplazar `input()` del checkpoint por flag CLI (`--resume` / `--fresh`) para no bloquear en servidor.
 - Mejorar `calculate_diversity` para considerar counts, no sólo presencia binaria.
 
