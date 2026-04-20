@@ -1413,14 +1413,20 @@ class MTGGeneticAlgorithm:
 
         adjusted = deck_array.copy()
 
+        # Detectar arquetipo una sola vez para reutilizar en PASO 1 y PASO 2.
+        # La detección se basa en el estado post-consolidate; aunque cambie
+        # ligeramente tras el padding, el arquetipo nominal es estable.
+        seed_archetype = self.detect_archetype(adjusted)['archetype']
+        seed_min_lands = self.ARCHETYPE_MIN_LANDS.get(seed_archetype, 20)
+
         # PASO 1: Ajustar total de cartas a 60
         if total < 60:
             diff = 60 - total
             land_count = sum(adjusted[i] for i in self.type_indices.get('lands', []))
 
-            # Priorizar añadir tierras si hay menos de 20
-            if land_count < 20 and appropriate_basic_lands:
-                lands_to_add = min(diff, 20 - land_count)
+            # Priorizar añadir tierras si estamos por debajo del piso arquetípico.
+            if land_count < seed_min_lands and appropriate_basic_lands:
+                lands_to_add = min(diff, seed_min_lands - land_count)
 
                 for _ in range(lands_to_add):
                     # Añadir tierra básica del color correcto
@@ -1428,17 +1434,26 @@ class MTGGeneticAlgorithm:
                     adjusted[land_id] += 1
                     diff -= 1
 
-            # Si aún faltan cartas, añadir hechizos del pool correcto
+            # Si aún faltan cartas, añadir hechizos del pool correcto.
+            # Norma de 4 copias sagrada: priorizar incrementar cartas ya
+            # presentes en el mazo antes que introducir nuevas. Esto evita
+            # generar singletons de padding al completar 60 cartas.
             while diff > 0:
-                # Crear pool de hechizos válidos (del color correcto)
-                valid_spells = []
+                existing_spells = []   # cartas ya en el mazo con count<4 (consolidar)
+                new_spells = []        # cartas no presentes (fallback)
                 for card_id, card in self.card_catalog.items():
-                    if adjusted[card_id] < 4 and not card['is_land']:
-                        card_colors = set(card['color_identity'])
-                        # Incluir si: incoloro O todos sus colores están en el mazo
-                        if not card_colors or card_colors.issubset(deck_colors):
-                            valid_spells.append(card_id)
+                    if adjusted[card_id] >= 4 or card['is_land']:
+                        continue
+                    card_colors = set(card['color_identity'])
+                    # Incluir si: incoloro O todos sus colores están en el mazo
+                    if card_colors and not card_colors.issubset(deck_colors):
+                        continue
+                    if adjusted[card_id] > 0:
+                        existing_spells.append(card_id)
+                    else:
+                        new_spells.append(card_id)
 
+                valid_spells = existing_spells if existing_spells else new_spells
                 if valid_spells:
                     spell_id = random.choice(valid_spells)
                     adjusted[spell_id] += 1
@@ -1468,12 +1483,16 @@ class MTGGeneticAlgorithm:
                 else:
                     break
 
-        # PASO 2: Verificar y corregir proporción de tierras (15-30)
+        # PASO 2: Verificar y corregir proporción de tierras.
+        # Piso duro dependiente del arquetipo detectado (MTG real):
+        # aggro 20, midrange 23, control 25. Techo 30 compartido.
         land_count = sum(adjusted[i] for i in self.type_indices.get('lands', []))
+        detected_archetype = self.detect_archetype(adjusted)['archetype']
+        min_lands = self.ARCHETYPE_MIN_LANDS.get(detected_archetype, 20)
 
-        if land_count < 15:
-            # Muy pocas tierras: convertir hechizos en tierras
-            needed = 15 - land_count
+        if land_count < min_lands:
+            # Tierras por debajo del piso arquetípico: convertir hechizos en tierras.
+            needed = min_lands - land_count
 
             non_land_positions = [i for i in range(len(adjusted))
                                  if adjusted[i] > 0 and not self.card_catalog[i]['is_land']]
@@ -1491,19 +1510,26 @@ class MTGGeneticAlgorithm:
                     adjusted[land_id] += 1
 
         elif land_count > 30:
-            # Demasiadas tierras: convertir tierras en hechizos del color correcto
+            # Demasiadas tierras: convertir tierras en hechizos del color correcto.
+            # Norma de 4 copias sagrada: preferir consolidar cartas ya presentes
+            # antes de introducir nuevas a 1-of.
             excess = land_count - 30
 
             land_positions = [i for i in self.type_indices.get('lands', [])
                              if adjusted[i] > 0]
 
-            # Crear pool de hechizos del color correcto
-            valid_spells = []
+            existing_spells = []
+            new_spells = []
             for card_id, card in self.card_catalog.items():
-                if adjusted[card_id] < 4 and not card['is_land']:
-                    card_colors = set(card['color_identity'])
-                    if not card_colors or card_colors.issubset(deck_colors):
-                        valid_spells.append(card_id)
+                if adjusted[card_id] >= 4 or card['is_land']:
+                    continue
+                card_colors = set(card['color_identity'])
+                if card_colors and not card_colors.issubset(deck_colors):
+                    continue
+                if adjusted[card_id] > 0:
+                    existing_spells.append(card_id)
+                else:
+                    new_spells.append(card_id)
 
             for _ in range(min(excess, len(land_positions))):
                 if land_positions:
@@ -1513,12 +1539,18 @@ class MTGGeneticAlgorithm:
                     if adjusted[land_id] == 0:
                         land_positions.remove(land_id)
 
-                    # Añadir hechizo del color correcto
-                    if valid_spells:
-                        spell_id = random.choice(valid_spells)
+                    # Añadir hechizo: consolidar existentes antes que introducir nuevos
+                    pool = existing_spells if existing_spells else new_spells
+                    if pool:
+                        spell_id = random.choice(pool)
                         adjusted[spell_id] += 1
                         if adjusted[spell_id] >= 4:
-                            valid_spells.remove(spell_id)
+                            if spell_id in existing_spells:
+                                existing_spells.remove(spell_id)
+                        elif adjusted[spell_id] == 1:
+                            # Acaba de salir de new_spells; ahora es existente
+                            new_spells.remove(spell_id)
+                            existing_spells.append(spell_id)
 
         # PASO 3: Verificar coherencia de colores (SIEMPRE, incluso si total=60 y tierras OK)
         # Esto es crítico después de cruce/mutación que cambien los colores del mazo
@@ -1630,6 +1662,98 @@ class MTGGeneticAlgorithm:
 
                 if conversions > 0:
                     self.logger.debug(f"Coherencia de colores: {conversions} tierras convertidas para {colors_without_lands}")
+
+        # PASO 4: Rebalance proporcional de manabase (basado en pips de color).
+        # El PASO 3 garantiza ≥1 tierra por color usado, pero no escala las
+        # fuentes con la demanda. Este paso asegura que fuentes(C) sea
+        # suficiente para la demanda real de pips de C.
+        adjusted = self.rebalance_manabase(adjusted)
+
+        return adjusted
+
+    def rebalance_manabase(self, deck_array):
+        """
+        Rebalancea tierras básicas para que cada color tenga fuentes
+        proporcionales a su demanda de pips de maná.
+
+        Heurística (aproximación a Frank Karsten):
+            fuentes_min(C) = max(3, round(0.45 × demanda_pips(C)))
+        donde demanda_pips(C) = Σ (pips de C en mana_cost × copias) sobre
+        todas las cartas no-tierra. Si fuentes(C) < fuentes_min(C) y hay
+        excedentes en otros colores, se transfieren tierras básicas.
+
+        No modifica el total de cartas. Sólo transfiere entre tierras básicas.
+        Nunca reduce tierras de un color por debajo de su propio mínimo.
+        """
+        color_to_basic = {'W': 'Plains', 'U': 'Island', 'B': 'Swamp',
+                          'R': 'Mountain', 'G': 'Forest'}
+
+        pip_demand = {c: 0 for c in 'WUBRG'}
+        for card_id, count in enumerate(deck_array):
+            if count == 0:
+                continue
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            mana_cost = card.get('mana_cost', '') or ''
+            for color in 'WUBRG':
+                pip_demand[color] += count * mana_cost.count('{' + color + '}')
+
+        if not any(pip_demand.values()):
+            return deck_array
+
+        sources = {c: 0 for c in 'WUBRG'}
+        basic_ids = {}
+        for color, name in color_to_basic.items():
+            if name in self.basic_lands_ids:
+                bid = self.basic_lands_ids[name]
+                basic_ids[color] = bid
+                sources[color] = int(deck_array[bid])
+
+        needed = {}
+        for color, demand in pip_demand.items():
+            if demand == 0:
+                needed[color] = 0
+            else:
+                needed[color] = max(3, round(0.45 * demand))
+
+        deficits = {c: needed[c] - sources[c] for c in needed if needed[c] > sources[c]}
+        surpluses = {c: sources[c] - needed[c] for c in needed if sources[c] > needed[c]}
+
+        if not deficits or not surpluses:
+            return deck_array
+
+        adjusted = deck_array.copy()
+        transfers = 0
+
+        for color_def, deficit in deficits.items():
+            if color_def not in basic_ids:
+                continue
+            target_id = basic_ids[color_def]
+            remaining = deficit
+
+            for color_sur in list(surpluses.keys()):
+                if remaining <= 0:
+                    break
+                if surpluses[color_sur] <= 0 or color_sur not in basic_ids:
+                    continue
+                source_id = basic_ids[color_sur]
+                available = min(surpluses[color_sur], int(adjusted[source_id]))
+                transfer = min(remaining, available)
+                if transfer <= 0:
+                    continue
+                adjusted[source_id] -= transfer
+                adjusted[target_id] += transfer
+                surpluses[color_sur] -= transfer
+                remaining -= transfer
+                transfers += transfer
+
+        if transfers > 0:
+            self.logger.debug(
+                f"Manabase rebalance: {transfers} tierras transferidas. "
+                f"Demanda pips: {pip_demand} | Fuentes antes: {sources} | "
+                f"Necesarias: {needed}"
+            )
 
         return adjusted
 
@@ -2079,6 +2203,14 @@ class MTGGeneticAlgorithm:
         'aggro':    {'avg_cmc': (1.8, 2.2), 'creatures': (24, 30), 'lands': (19, 22)},
         'midrange': {'avg_cmc': (2.5, 3.0), 'creatures': (16, 22), 'lands': (22, 25)},
         'control':  {'avg_cmc': (3.0, 3.5), 'creatures': (4, 12),  'lands': (25, 28)},
+    }
+
+    # Pisos duros de tierras por arquetipo (MTG real):
+    # aggro 20, midrange 23, control 25. Enforced en adjust_deck_size (PASO 2).
+    ARCHETYPE_MIN_LANDS = {
+        'aggro':    20,
+        'midrange': 23,
+        'control':  25,
     }
 
     def evaluate_archetype_coherence(self, deck_array, archetype=None, info=None):
