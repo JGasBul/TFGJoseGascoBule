@@ -65,11 +65,10 @@ class MTGGeneticAlgorithm:
                  forge_jar_path="./forge-gui-desktop-2.0.04-jar-with-dependencies.jar",
                  max_generations=200,
                  population_size=40,              # OPTIMIZADO: Aumentado de 20 a 40 para mejor exploración
-                 mutation_rate=0.9,               # Alta exploración (call sites usan este valor; cap real 0.3 en adaptive_mutation_rate)
-                 crossover_rate=0.15,             # Bajo cruce: prioriza diversidad sobre homogeneización
+                 mutation_rate=0.6,               # Fase 4: bajado de 0.9 → 0.6 para dar margen útil a `adaptive_mutation_rate`
+                 crossover_rate=0.30,             # Fase 4: subido de 0.15 → 0.30 (más recombinación, contrapesa mutación alta)
                  tournament_size=5,               # Optimizado: ~12% de población de 40 (antes 4 de 20)
-                 elite_size=12,                   # OPTIMIZADO: 30% de población de 40 (antes 8 de 20)
-                 stagnation_limit=999,            # DESACTIVADO: Evita inyección contraproducente de mazos aleatorios
+                 elite_size=9,                    # Fase 4: bajado de 12 → 9 (22.5% de pop=40; deja más hueco a descendencia)
                  # PARÁMETROS SWISS TOURNAMENT
                  use_swiss_tournament=True,       # Activar Swiss Tournament (False = round-robin completo)
                  k_rounds=8,                      # Rondas Swiss (fórmula: ceil(log2(pop)) + 2 = 8 para pop=40, 9 para pop=100)
@@ -82,8 +81,8 @@ class MTGGeneticAlgorithm:
                  save_forge_outputs=True,
                  headless_mode=False,
                  # PARÁMETROS DE FITNESS MULTI-COMPONENTE (optimizados)
-                 fitness_alpha=0.6,               # Optimizado: win rate 60% (antes 0.7)
-                 fitness_beta=0.4,                # Optimizado: calidad 40% (antes 0.3)
+                 fitness_alpha=0.5,               # Fase 4: win rate 50% (antes 0.6)
+                 fitness_beta=0.5,                # Fase 4: calidad 50% (antes 0.4) — paridad α=β
                  enable_quality_metrics=True):
         """
         Inicializa el algoritmo genético con todos sus parámetros
@@ -100,7 +99,6 @@ class MTGGeneticAlgorithm:
             crossover_rate: Probabilidad de cruce (0.0-1.0)
             tournament_size: Tamaño del torneo para selección
             elite_size: Número de mejores individuos a preservar
-            stagnation_limit: Generaciones sin mejora antes de aplicar anti-estancamiento
             use_swiss_tournament: Usar Swiss Tournament (True) o round-robin completo (False)
             k_rounds: Número de rondas en Swiss Tournament (recomendado: ceil(log2(pop))+2)
             n_games_per_match: Partidas por enfrentamiento (1-3, recomendado: 2)
@@ -128,7 +126,6 @@ class MTGGeneticAlgorithm:
         self.crossover_rate = crossover_rate
         self.tournament_size = tournament_size
         self.elite_size = elite_size
-        self.stagnation_limit = stagnation_limit
 
         # CONFIGURACIÓN SWISS TOURNAMENT
         self.use_swiss_tournament = use_swiss_tournament
@@ -177,6 +174,19 @@ class MTGGeneticAlgorithm:
 
         self.logger.debug(f"Tierras básicas identificadas: {list(self.basic_lands_ids.keys())}")
 
+        # Máscaras booleanas por categoría (para `crossover_archetype`, Fase 4).
+        # Precomputadas para evitar iterar el catálogo en cada cruce.
+        self._land_mask = np.zeros(self.total_cards, dtype=bool)
+        self._creature_mask = np.zeros(self.total_cards, dtype=bool)
+        self._spell_mask = np.zeros(self.total_cards, dtype=bool)
+        for cid, card in self.card_catalog.items():
+            if card['is_land']:
+                self._land_mask[cid] = True
+            elif card['is_creature']:
+                self._creature_mask[cid] = True
+            else:
+                self._spell_mask[cid] = True
+
         # Cargar población inicial
         self.population = self.load_population(population_file)
         self.logger.info(f"Población inicial: {len(self.population)} mazos")
@@ -202,12 +212,13 @@ class MTGGeneticAlgorithm:
             'best_fitness': [],
             'avg_fitness': [],
             'diversity': [],
-            'mutation_rate': []
+            'mutation_rate': [],
+            'archetype_entropy': [],  # Fase 5: entropía de Shannon arquetípica (nats)
         }
 
         # Contador de estancamiento
         self.stagnation_counter = 0
-        self.best_fitness_ever = 0
+        # `best_fitness_ever` se deriva del HoF — ver @property más abajo (Fase 2)
 
         # Hall of Fame Global - Preserva mejores soluciones históricas
         self.hall_of_fame_arrays = []  # Lista de tuplas (fitness, deck_array)
@@ -220,6 +231,13 @@ class MTGGeneticAlgorithm:
         self.headless_mode = headless_mode
         self.logger.info(f"Modo: {'Headless (xvfb-run)' if headless_mode else 'GUI normal'}")
         self.logger.info(f"Hall of Fame configurado: {self.max_hall_size} mejores históricos")
+
+    @property
+    def best_fitness_ever(self):
+        """Mejor fitness histórico, derivado del HoF (Fase 2: fuente única)."""
+        if not self.hall_of_fame_arrays:
+            return 0.0
+        return float(self.hall_of_fame_arrays[0][0])
 
     # ==============================================================================
     # CONFIGURACIÓN Y CARGA INICIAL
@@ -296,17 +314,25 @@ class MTGGeneticAlgorithm:
         """
         archetypes = ['aggro', 'midrange', 'control']
         seeded = []
-        archetype_counts = {a: 0 for a in archetypes}
+        intended_counts = {a: 0 for a in archetypes}
 
         for i, arr in enumerate(population_arrays):
             target = archetypes[i % len(archetypes)]
             arr_seeded = self.consolidate_singletons(arr, target_archetype=target)
             arr_seeded = self.adjust_deck_size(arr_seeded)
             seeded.append(arr_seeded)
-            archetype_counts[target] += 1
+            intended_counts[target] += 1
 
+        # Fase 5: loguear el arquetipo REAL detectado tras la consolidación,
+        # no sólo la asignación intencional. La consolidación no garantiza
+        # que `detect_archetype` clasifique el mazo en el arquetipo target
+        # (puede quedar en midrange si la población inicial no tiene
+        # suficientes cartas de afinidad alta).
+        detected = self._archetype_distribution(seeded)
         self.logger.info(
-            f"Gen0 sembrada con cuotas arquetípicas: {archetype_counts}"
+            f"Gen0 sembrada — intención: {intended_counts} | "
+            f"detectado: {detected['counts']} "
+            f"(entropía={detected['entropy']:.3f}/{detected['max_entropy']:.3f})"
         )
         return seeded
 
@@ -391,25 +417,40 @@ class MTGGeneticAlgorithm:
 
             # Convertir arrays numpy a listas para JSON
             for i, array in enumerate(self.population_arrays):
+                arch_info = self.detect_archetype(array)
                 array_data = {
                     'index': i,
                     'array': array.tolist(),
                     'sum': int(np.sum(array)),
                     'non_zero_count': int(np.count_nonzero(array)),
                     'max_value': int(np.max(array)),
-                    'min_value': int(np.min(array))
+                    'min_value': int(np.min(array)),
+                    # Fase 5: arquetipo detectado por mazo
+                    'archetype': arch_info['archetype'],
+                    'avg_cmc': round(arch_info['avg_cmc'], 3),
+                    'creatures': arch_info['creatures'],
                 }
                 population_data['arrays'].append(array_data)
+
+            # Fase 5: distribución arquetípica agregada + entropía
+            pop_dist = self._archetype_distribution(self.population_arrays)
+            population_data['archetype_distribution'] = {
+                'counts': pop_dist['counts'],
+                'entropy': pop_dist['entropy'],
+                'max_entropy': pop_dist['max_entropy'],
+            }
 
             # Agregar información del Hall of Fame si existe
             if hasattr(self, 'hall_of_fame_arrays') and self.hall_of_fame_arrays:
                 population_data['hall_of_fame'] = []
                 for fitness, hof_array in self.hall_of_fame_arrays[:5]:  # Solo los top 5
+                    arch_info = self.detect_archetype(hof_array)
                     hof_data = {
                         'fitness': float(fitness),
                         'array': hof_array.tolist(),
                         'sum': int(np.sum(hof_array)),
-                        'non_zero_count': int(np.count_nonzero(hof_array))
+                        'non_zero_count': int(np.count_nonzero(hof_array)),
+                        'archetype': arch_info['archetype'],  # Fase 5
                     }
                     population_data['hall_of_fame'].append(hof_data)
 
@@ -441,6 +482,12 @@ class MTGGeneticAlgorithm:
                     'total_arrays': len(self.population_arrays),
                     'avg_sum': float(np.mean([np.sum(arr) for arr in self.population_arrays])),
                     'avg_non_zero': float(np.mean([np.count_nonzero(arr) for arr in self.population_arrays]))
+                },
+                # Fase 5: distribución arquetípica + entropía, replicada en history
+                'archetype_distribution': {
+                    'counts': pop_dist['counts'],
+                    'entropy': pop_dist['entropy'],
+                    'max_entropy': pop_dist['max_entropy'],
                 },
                 'hall_of_fame_size': len(getattr(self, 'hall_of_fame_arrays', [])),
                 'stagnation_counter': getattr(self, 'stagnation_counter', 0)
@@ -498,13 +545,23 @@ class MTGGeneticAlgorithm:
             # Convertir población final a formato completo (arrays + mazos)
             for i, array in enumerate(self.population_arrays):
                 deck = self.array_to_deck(array, f"Final_Deck_{i:03d}")
+                arch_info = self.detect_archetype(array)
                 deck_data = {
                     'index': i,
                     'array': array.tolist(),
                     'deck': deck,
-                    'fitness': float(self.current_fitness_values[i]) if i < len(getattr(self, 'current_fitness_values', [])) else 0.0
+                    'fitness': float(self.current_fitness_values[i]) if i < len(getattr(self, 'current_fitness_values', [])) else 0.0,
+                    'archetype': arch_info['archetype'],  # Fase 5
                 }
                 final_data['final_population'].append(deck_data)
+
+            # Fase 5: distribución final + entropía
+            final_dist = self._archetype_distribution(self.population_arrays)
+            final_data['archetype_distribution'] = {
+                'counts': final_dist['counts'],
+                'entropy': final_dist['entropy'],
+                'max_entropy': final_dist['max_entropy'],
+            }
 
             # Hall of Fame completo
             if hasattr(self, 'hall_of_fame_arrays'):
@@ -513,7 +570,8 @@ class MTGGeneticAlgorithm:
                     hof_data = {
                         'fitness': float(fitness),
                         'array': hof_array.tolist(),
-                        'deck': hof_deck
+                        'deck': hof_deck,
+                        'archetype': self.detect_archetype(hof_array)['archetype'],  # Fase 5
                     }
                     final_data['hall_of_fame'].append(hof_data)
 
@@ -947,52 +1005,58 @@ class MTGGeneticAlgorithm:
     def crossover_uniform(self, parent1_array, parent2_array):
         """
         Cruce uniforme: cada posición del hijo se hereda aleatoriamente
-        de uno de los padres con probabilidad 50/50
+        de uno de los padres con probabilidad 50/50.
+
+        El gate de probabilidad vive únicamente en `evolve()`; aquí siempre
+        se ejecuta el cruce cuando se llama (antes había doble compuerta).
         """
-        if random.random() > self.crossover_rate:
-            return parent1_array.copy(), parent2_array.copy()
-        
         mask = np.random.randint(0, 2, size=self.total_cards)
         child1 = np.where(mask == 1, parent1_array, parent2_array)
         child2 = np.where(mask == 0, parent1_array, parent2_array)
-        
+
         child1 = self.adjust_deck_size(child1)
         child2 = self.adjust_deck_size(child2)
-        
+
         return child1, child2
-    
-    def crossover_two_point(self, parent1_array, parent2_array):
-        """Cruce de dos puntos entre arrays de mazos"""
-        if random.random() > self.crossover_rate:
-            return parent1_array.copy(), parent2_array.copy()
-        
-        points = sorted(random.sample(range(1, self.total_cards), 2))
-        
-        child1 = np.concatenate([
-            parent1_array[:points[0]],
-            parent2_array[points[0]:points[1]],
-            parent1_array[points[1]:]
-        ])
-        
-        child2 = np.concatenate([
-            parent2_array[:points[0]],
-            parent1_array[points[0]:points[1]],
-            parent2_array[points[1]:]
-        ])
-        
-        child1 = self.adjust_deck_size(child1)
-        child2 = self.adjust_deck_size(child2)
-        
-        return child1, child2
+
+    def crossover_archetype(self, parent1_array, parent2_array):
+        """Cruce categoría-consciente (Fase 4).
+
+        Decide independientemente, por categoría (tierras / criaturas /
+        hechizos), qué padre aporta la totalidad de esa categoría al
+        hijo1; el hijo2 recibe la herencia complementaria. Preserva la
+        coherencia interna del manabase, del ratio de criaturas y de la
+        suite de hechizos, en vez de cortar por un card_id arbitrario
+        (semántica débil del antiguo `crossover_two_point`).
+
+        Con 3 categorías → 2³ = 8 patrones posibles; el caso "todo de
+        un padre" sigue produciendo clones pero con probabilidad 1/4,
+        no sistemáticamente.
+
+        El gate de probabilidad vive únicamente en `evolve()`.
+        """
+        child1 = np.zeros_like(parent1_array)
+        child2 = np.zeros_like(parent2_array)
+
+        for mask in (self._land_mask, self._creature_mask, self._spell_mask):
+            if random.random() < 0.5:
+                child1[mask] = parent1_array[mask]
+                child2[mask] = parent2_array[mask]
+            else:
+                child1[mask] = parent2_array[mask]
+                child2[mask] = parent1_array[mask]
+
+        return self.adjust_deck_size(child1), self.adjust_deck_size(child2)
     
     def mutate_swap(self, deck_array):
-        """Mutación por intercambio: intercambia cartas entre posiciones"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
-        
+        """Mutación por intercambio: intercambia cartas entre posiciones.
+
+        El gate de probabilidad vive únicamente en `evolve()`; aquí siempre
+        se aplica la mutación cuando se llama (antes había triple compuerta).
+        """
         mutated = deck_array.copy()
-        num_swaps = random.randint(1, 3)
-        
+        num_swaps = random.randint(3, 8)
+
         for _ in range(num_swaps):
             nonzero_positions = np.where(mutated > 0)[0]
             if len(nonzero_positions) < 2:
@@ -1007,12 +1071,12 @@ class MTGGeneticAlgorithm:
         return mutated
     
     def mutate_add_remove(self, deck_array):
-        """Mutación por adición/remoción: puede añadir cartas NUEVAS o quitar existentes"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
+        """Mutación por adición/remoción: puede añadir cartas NUEVAS o quitar existentes.
 
+        El gate de probabilidad vive únicamente en `evolve()`.
+        """
         mutated = deck_array.copy()
-        num_changes = random.randint(1, 3)
+        num_changes = random.randint(3, 8)
 
         for _ in range(num_changes):
             if random.random() < 0.5:
@@ -1031,10 +1095,10 @@ class MTGGeneticAlgorithm:
         return self.adjust_deck_size(mutated)
     
     def mutate_categorical(self, deck_array):
-        """Mutación por categorías: intercambia cartas dentro del mismo tipo"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
+        """Mutación por categorías: intercambia cartas dentro del mismo tipo.
 
+        El gate de probabilidad vive únicamente en `evolve()`.
+        """
         mutated = deck_array.copy()
 
         # Seleccionar una categoría aleatoria para mutar
@@ -1058,7 +1122,7 @@ class MTGGeneticAlgorithm:
         # Elegir categoría aleatoria
         category_type, category_name, category_indices = random.choice(available_categories)
 
-        num_swaps = random.randint(1, 2)
+        num_swaps = random.randint(3, 6)
         for _ in range(num_swaps):
             # Encontrar cartas de esta categoría que están en el mazo
             current_cards = [i for i in category_indices if mutated[i] > 0]
@@ -1081,51 +1145,102 @@ class MTGGeneticAlgorithm:
                     mutated[add_to] += 1
 
         return self.adjust_deck_size(mutated)
-    
-    def mutate_hybrid(self, deck_array):
-        """Mutación híbrida que combina las tres estrategias"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
 
-        # Elegir estrategia de mutación aleatoriamente con pesos
-        strategies = ['swap', 'add_remove', 'categorical']
-        weights = [0.3, 0.5, 0.2]  # Favorecer add_remove para más exploración
+    def mutate_archetype_aware(self, deck_array, archetype=None):
+        """Mutación arquetipo-aware: sesga add/remove por afinidad con el arquetipo.
 
-        strategy = random.choices(strategies, weights=weights)[0]
+        - AÑADIR: pondera candidatos por `_archetype_card_affinity` (2→6, 1→2, 0→1).
+        - QUITAR: pondera cartas del mazo por INVERSA de la afinidad (0→6, 1→2, 2→1),
+          preservando las cartas que mejor encajan y expulsando las que no.
+          Las tierras se dejan en manos de `adjust_deck_size`.
 
-        if strategy == 'swap':
-            return self.mutate_swap(deck_array)
-        elif strategy == 'add_remove':
-            return self.mutate_add_remove(deck_array)
-        else:  # categorical
-            return self.mutate_categorical(deck_array)
-        
+        Bajo la filosofía C (descendientes libres), detectamos el arquetipo del
+        mazo justo antes de mutar — un hijo heredado puede migrar de arquetipo
+        si la mutación lo desplaza, y esa migración es legítima.
+
+        Args:
+            deck_array: Array del mazo a mutar.
+            archetype: 'aggro' | 'midrange' | 'control' | None. Si None, se detecta.
+
+        Returns:
+            Array mutado (pasado por `adjust_deck_size`).
+        """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+
+        mutated = deck_array.copy()
+        num_changes = random.randint(3, 8)
+
+        add_weight = {2: 6, 1: 2, 0: 1}
+        remove_weight = {0: 6, 1: 2, 2: 1}
+
+        for _ in range(num_changes):
+            if random.random() < 0.5:
+                # AÑADIR: candidatos = cartas no-tierra con cuenta < 4
+                candidates = []
+                weights = []
+                for card_id, card in self.card_catalog.items():
+                    if mutated[card_id] >= 4 or card['is_land']:
+                        continue
+                    aff = self._archetype_card_affinity(card, archetype)
+                    candidates.append(card_id)
+                    weights.append(add_weight[aff])
+                if candidates:
+                    chosen = random.choices(candidates, weights=weights, k=1)[0]
+                    mutated[chosen] += 1
+            else:
+                # QUITAR: candidatos = cartas del mazo (no-tierra preferente)
+                nonzero = np.where(mutated > 0)[0]
+                if len(nonzero) == 0:
+                    continue
+                candidates = []
+                weights = []
+                for card_id in nonzero:
+                    cid = int(card_id)
+                    card = self.card_catalog[cid]
+                    if card['is_land']:
+                        # Permitir quitar tierras con peso bajo; adjust_deck_size compensa.
+                        candidates.append(cid)
+                        weights.append(1)
+                    else:
+                        aff = self._archetype_card_affinity(card, archetype)
+                        candidates.append(cid)
+                        weights.append(remove_weight[aff])
+                chosen = random.choices(candidates, weights=weights, k=1)[0]
+                mutated[chosen] -= 1
+
+        return self.adjust_deck_size(mutated)
+
     def mutate_adaptive(self, deck_array, generation=0, stagnation_counter=0):
-        """Mutación adaptiva que cambia estrategia según el progreso del algoritmo"""
-        if random.random() > self.mutation_rate:
-            return deck_array.copy()
+        """Mutación adaptiva que cambia estrategia según el progreso del algoritmo.
 
+        El gate de probabilidad vive únicamente en `evolve()`.
+        La estrategia `archetype_aware` lleva el peso dominante en todos los
+        regímenes (filosofía QD: mantener nichos vivos durante la exploración).
+        """
         # Adaptar estrategia según el estado del algoritmo
         if stagnation_counter > 10:
-            # Si hay mucho estancamiento, favorecer exploración agresiva
-            strategies = ['add_remove', 'categorical', 'swap']
-            weights = [0.6, 0.3, 0.1]
+            # Estancamiento fuerte: subir exploración agresiva, bajar el sesgo arquetípico
+            strategies = ['archetype_aware', 'add_remove', 'categorical', 'swap']
+            weights = [0.3, 0.4, 0.2, 0.1]
         elif stagnation_counter > 5:
-            # Estancamiento moderado, aumentar exploración
-            strategies = ['add_remove', 'swap', 'categorical']
-            weights = [0.5, 0.3, 0.2]
+            # Estancamiento moderado
+            strategies = ['archetype_aware', 'add_remove', 'swap', 'categorical']
+            weights = [0.4, 0.3, 0.2, 0.1]
         elif generation > 50:
-            # Generaciones avanzadas, equilibrar exploración y explotación
-            strategies = ['swap', 'add_remove', 'categorical']
-            weights = [0.4, 0.4, 0.2]
+            # Avanzadas: explotar arquetipo ya definido
+            strategies = ['archetype_aware', 'swap', 'add_remove', 'categorical']
+            weights = [0.5, 0.25, 0.15, 0.1]
         else:
-            # Generaciones iniciales, favorecer exploración
-            strategies = ['add_remove', 'categorical', 'swap']
-            weights = [0.5, 0.3, 0.2]
+            # Iniciales: explorar con sesgo arquetípico moderado
+            strategies = ['archetype_aware', 'add_remove', 'categorical', 'swap']
+            weights = [0.45, 0.3, 0.15, 0.1]
 
         strategy = random.choices(strategies, weights=weights)[0]
 
-        if strategy == 'swap':
+        if strategy == 'archetype_aware':
+            return self.mutate_archetype_aware(deck_array)
+        elif strategy == 'swap':
             return self.mutate_swap(deck_array)
         elif strategy == 'add_remove':
             return self.mutate_add_remove(deck_array)
@@ -1133,22 +1248,12 @@ class MTGGeneticAlgorithm:
             return self.mutate_categorical(deck_array)
 
     def mutate(self, deck_array, generation=0, stagnation_counter=0):
-        """
-        Función de mutación principal
-        Args:
-            deck_array: Array del mazo a mutar
-            generation: Generación actual (opcional)
-            stagnation_counter: Contador de estancamiento (opcional)
+        """Dispatcher de mutación — siempre delega en `mutate_adaptive`.
 
-        Returns:
-            Array mutado
+        Fase 3: eliminada la rama `mutate_hybrid` (nunca alcanzable desde
+        `evolve()` porque `generation >= 1` en todas las llamadas reales).
         """
-        # Usar mutación adaptiva si se proporcionan parámetros de control
-        if generation > 0 or stagnation_counter > 0:
-            return self.mutate_adaptive(deck_array, generation, stagnation_counter)
-        else:
-            # Usar mutación híbrida estándar
-            return self.mutate_hybrid(deck_array)
+        return self.mutate_adaptive(deck_array, generation, stagnation_counter)
     
     def _archetype_card_affinity(self, card, archetype):
         """
@@ -1308,14 +1413,20 @@ class MTGGeneticAlgorithm:
 
         adjusted = deck_array.copy()
 
+        # Detectar arquetipo una sola vez para reutilizar en PASO 1 y PASO 2.
+        # La detección se basa en el estado post-consolidate; aunque cambie
+        # ligeramente tras el padding, el arquetipo nominal es estable.
+        seed_archetype = self.detect_archetype(adjusted)['archetype']
+        seed_min_lands = self.ARCHETYPE_MIN_LANDS.get(seed_archetype, 20)
+
         # PASO 1: Ajustar total de cartas a 60
         if total < 60:
             diff = 60 - total
             land_count = sum(adjusted[i] for i in self.type_indices.get('lands', []))
 
-            # Priorizar añadir tierras si hay menos de 20
-            if land_count < 20 and appropriate_basic_lands:
-                lands_to_add = min(diff, 20 - land_count)
+            # Priorizar añadir tierras si estamos por debajo del piso arquetípico.
+            if land_count < seed_min_lands and appropriate_basic_lands:
+                lands_to_add = min(diff, seed_min_lands - land_count)
 
                 for _ in range(lands_to_add):
                     # Añadir tierra básica del color correcto
@@ -1323,17 +1434,26 @@ class MTGGeneticAlgorithm:
                     adjusted[land_id] += 1
                     diff -= 1
 
-            # Si aún faltan cartas, añadir hechizos del pool correcto
+            # Si aún faltan cartas, añadir hechizos del pool correcto.
+            # Norma de 4 copias sagrada: priorizar incrementar cartas ya
+            # presentes en el mazo antes que introducir nuevas. Esto evita
+            # generar singletons de padding al completar 60 cartas.
             while diff > 0:
-                # Crear pool de hechizos válidos (del color correcto)
-                valid_spells = []
+                existing_spells = []   # cartas ya en el mazo con count<4 (consolidar)
+                new_spells = []        # cartas no presentes (fallback)
                 for card_id, card in self.card_catalog.items():
-                    if adjusted[card_id] < 4 and not card['is_land']:
-                        card_colors = set(card['color_identity'])
-                        # Incluir si: incoloro O todos sus colores están en el mazo
-                        if not card_colors or card_colors.issubset(deck_colors):
-                            valid_spells.append(card_id)
+                    if adjusted[card_id] >= 4 or card['is_land']:
+                        continue
+                    card_colors = set(card['color_identity'])
+                    # Incluir si: incoloro O todos sus colores están en el mazo
+                    if card_colors and not card_colors.issubset(deck_colors):
+                        continue
+                    if adjusted[card_id] > 0:
+                        existing_spells.append(card_id)
+                    else:
+                        new_spells.append(card_id)
 
+                valid_spells = existing_spells if existing_spells else new_spells
                 if valid_spells:
                     spell_id = random.choice(valid_spells)
                     adjusted[spell_id] += 1
@@ -1363,12 +1483,16 @@ class MTGGeneticAlgorithm:
                 else:
                     break
 
-        # PASO 2: Verificar y corregir proporción de tierras (15-30)
+        # PASO 2: Verificar y corregir proporción de tierras.
+        # Piso duro dependiente del arquetipo detectado (MTG real):
+        # aggro 20, midrange 23, control 25. Techo 30 compartido.
         land_count = sum(adjusted[i] for i in self.type_indices.get('lands', []))
+        detected_archetype = self.detect_archetype(adjusted)['archetype']
+        min_lands = self.ARCHETYPE_MIN_LANDS.get(detected_archetype, 20)
 
-        if land_count < 15:
-            # Muy pocas tierras: convertir hechizos en tierras
-            needed = 15 - land_count
+        if land_count < min_lands:
+            # Tierras por debajo del piso arquetípico: convertir hechizos en tierras.
+            needed = min_lands - land_count
 
             non_land_positions = [i for i in range(len(adjusted))
                                  if adjusted[i] > 0 and not self.card_catalog[i]['is_land']]
@@ -1386,19 +1510,26 @@ class MTGGeneticAlgorithm:
                     adjusted[land_id] += 1
 
         elif land_count > 30:
-            # Demasiadas tierras: convertir tierras en hechizos del color correcto
+            # Demasiadas tierras: convertir tierras en hechizos del color correcto.
+            # Norma de 4 copias sagrada: preferir consolidar cartas ya presentes
+            # antes de introducir nuevas a 1-of.
             excess = land_count - 30
 
             land_positions = [i for i in self.type_indices.get('lands', [])
                              if adjusted[i] > 0]
 
-            # Crear pool de hechizos del color correcto
-            valid_spells = []
+            existing_spells = []
+            new_spells = []
             for card_id, card in self.card_catalog.items():
-                if adjusted[card_id] < 4 and not card['is_land']:
-                    card_colors = set(card['color_identity'])
-                    if not card_colors or card_colors.issubset(deck_colors):
-                        valid_spells.append(card_id)
+                if adjusted[card_id] >= 4 or card['is_land']:
+                    continue
+                card_colors = set(card['color_identity'])
+                if card_colors and not card_colors.issubset(deck_colors):
+                    continue
+                if adjusted[card_id] > 0:
+                    existing_spells.append(card_id)
+                else:
+                    new_spells.append(card_id)
 
             for _ in range(min(excess, len(land_positions))):
                 if land_positions:
@@ -1408,12 +1539,18 @@ class MTGGeneticAlgorithm:
                     if adjusted[land_id] == 0:
                         land_positions.remove(land_id)
 
-                    # Añadir hechizo del color correcto
-                    if valid_spells:
-                        spell_id = random.choice(valid_spells)
+                    # Añadir hechizo: consolidar existentes antes que introducir nuevos
+                    pool = existing_spells if existing_spells else new_spells
+                    if pool:
+                        spell_id = random.choice(pool)
                         adjusted[spell_id] += 1
                         if adjusted[spell_id] >= 4:
-                            valid_spells.remove(spell_id)
+                            if spell_id in existing_spells:
+                                existing_spells.remove(spell_id)
+                        elif adjusted[spell_id] == 1:
+                            # Acaba de salir de new_spells; ahora es existente
+                            new_spells.remove(spell_id)
+                            existing_spells.append(spell_id)
 
         # PASO 3: Verificar coherencia de colores (SIEMPRE, incluso si total=60 y tierras OK)
         # Esto es crítico después de cruce/mutación que cambien los colores del mazo
@@ -1525,6 +1662,98 @@ class MTGGeneticAlgorithm:
 
                 if conversions > 0:
                     self.logger.debug(f"Coherencia de colores: {conversions} tierras convertidas para {colors_without_lands}")
+
+        # PASO 4: Rebalance proporcional de manabase (basado en pips de color).
+        # El PASO 3 garantiza ≥1 tierra por color usado, pero no escala las
+        # fuentes con la demanda. Este paso asegura que fuentes(C) sea
+        # suficiente para la demanda real de pips de C.
+        adjusted = self.rebalance_manabase(adjusted)
+
+        return adjusted
+
+    def rebalance_manabase(self, deck_array):
+        """
+        Rebalancea tierras básicas para que cada color tenga fuentes
+        proporcionales a su demanda de pips de maná.
+
+        Heurística (aproximación a Frank Karsten):
+            fuentes_min(C) = max(3, round(0.45 × demanda_pips(C)))
+        donde demanda_pips(C) = Σ (pips de C en mana_cost × copias) sobre
+        todas las cartas no-tierra. Si fuentes(C) < fuentes_min(C) y hay
+        excedentes en otros colores, se transfieren tierras básicas.
+
+        No modifica el total de cartas. Sólo transfiere entre tierras básicas.
+        Nunca reduce tierras de un color por debajo de su propio mínimo.
+        """
+        color_to_basic = {'W': 'Plains', 'U': 'Island', 'B': 'Swamp',
+                          'R': 'Mountain', 'G': 'Forest'}
+
+        pip_demand = {c: 0 for c in 'WUBRG'}
+        for card_id, count in enumerate(deck_array):
+            if count == 0:
+                continue
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            mana_cost = card.get('mana_cost', '') or ''
+            for color in 'WUBRG':
+                pip_demand[color] += count * mana_cost.count('{' + color + '}')
+
+        if not any(pip_demand.values()):
+            return deck_array
+
+        sources = {c: 0 for c in 'WUBRG'}
+        basic_ids = {}
+        for color, name in color_to_basic.items():
+            if name in self.basic_lands_ids:
+                bid = self.basic_lands_ids[name]
+                basic_ids[color] = bid
+                sources[color] = int(deck_array[bid])
+
+        needed = {}
+        for color, demand in pip_demand.items():
+            if demand == 0:
+                needed[color] = 0
+            else:
+                needed[color] = max(3, round(0.45 * demand))
+
+        deficits = {c: needed[c] - sources[c] for c in needed if needed[c] > sources[c]}
+        surpluses = {c: sources[c] - needed[c] for c in needed if sources[c] > needed[c]}
+
+        if not deficits or not surpluses:
+            return deck_array
+
+        adjusted = deck_array.copy()
+        transfers = 0
+
+        for color_def, deficit in deficits.items():
+            if color_def not in basic_ids:
+                continue
+            target_id = basic_ids[color_def]
+            remaining = deficit
+
+            for color_sur in list(surpluses.keys()):
+                if remaining <= 0:
+                    break
+                if surpluses[color_sur] <= 0 or color_sur not in basic_ids:
+                    continue
+                source_id = basic_ids[color_sur]
+                available = min(surpluses[color_sur], int(adjusted[source_id]))
+                transfer = min(remaining, available)
+                if transfer <= 0:
+                    continue
+                adjusted[source_id] -= transfer
+                adjusted[target_id] += transfer
+                surpluses[color_sur] -= transfer
+                remaining -= transfer
+                transfers += transfer
+
+        if transfers > 0:
+            self.logger.debug(
+                f"Manabase rebalance: {transfers} tierras transferidas. "
+                f"Demanda pips: {pip_demand} | Fuentes antes: {sources} | "
+                f"Necesarias: {needed}"
+            )
 
         return adjusted
 
@@ -1869,11 +2098,56 @@ class MTGGeneticAlgorithm:
         else:
             archetype = 'midrange'
 
+        # Cast a tipos Python nativos — evita problemas de serialización JSON
+        # (numpy.int64 / numpy.float64 no son serializables por defecto).
         return {
             'archetype': archetype,
-            'avg_cmc': avg_cmc,
-            'creatures': creatures,
-            'nonland': nonland_count,
+            'avg_cmc': float(avg_cmc),
+            'creatures': int(creatures),
+            'nonland': int(nonland_count),
+        }
+
+    def _archetype_distribution(self, population_arrays):
+        """Distribución arquetípica + entropía de Shannon de la población (Fase 5).
+
+        Métrica de diversidad arquetípica usada en logs, stats y
+        criterios de aceptación de la auditoría (objetivo ≥ 1.3 nats
+        sobre un máximo teórico log(3) ≈ 1.58).
+
+        Args:
+            population_arrays: lista de arrays (mazos).
+
+        Returns:
+            dict con:
+                'counts': {archetype: int} — frecuencias absolutas.
+                'frequencies': {archetype: float} — proporciones (suman 1 si hay mazos).
+                'entropy': float — H = -Σ p·ln(p) en nats. 0 si colapso a un arquetipo.
+                'max_entropy': float — log(k) con k=3 arquetipos (≈1.0986).
+        """
+        archetypes = ['aggro', 'midrange', 'control']
+        counts = {a: 0 for a in archetypes}
+        for arr in population_arrays:
+            arch = self.detect_archetype(arr)['archetype']
+            counts[arch] = counts.get(arch, 0) + 1
+
+        total = sum(counts.values())
+        if total == 0:
+            return {
+                'counts': counts,
+                'frequencies': {a: 0.0 for a in archetypes},
+                'entropy': 0.0,
+                'max_entropy': float(np.log(len(archetypes))),
+            }
+
+        frequencies = {a: counts[a] / total for a in archetypes}
+        entropy = -sum(p * np.log(p) for p in frequencies.values() if p > 0)
+
+        return {
+            'counts': counts,
+            'frequencies': frequencies,
+            # `+ 0.0` elimina el signo negativo de -0.0 en float cuando p=1
+            'entropy': float(entropy) + 0.0,
+            'max_entropy': float(np.log(len(archetypes))),
         }
 
     def evaluate_structural(self, deck_array):
@@ -1929,6 +2203,14 @@ class MTGGeneticAlgorithm:
         'aggro':    {'avg_cmc': (1.8, 2.2), 'creatures': (24, 30), 'lands': (19, 22)},
         'midrange': {'avg_cmc': (2.5, 3.0), 'creatures': (16, 22), 'lands': (22, 25)},
         'control':  {'avg_cmc': (3.0, 3.5), 'creatures': (4, 12),  'lands': (25, 28)},
+    }
+
+    # Pisos duros de tierras por arquetipo (MTG real):
+    # aggro 20, midrange 23, control 25. Enforced en adjust_deck_size (PASO 2).
+    ARCHETYPE_MIN_LANDS = {
+        'aggro':    20,
+        'midrange': 23,
+        'control':  25,
     }
 
     def evaluate_archetype_coherence(self, deck_array, archetype=None, info=None):
@@ -2033,132 +2315,242 @@ class MTGGeneticAlgorithm:
         return population_arrays[winner_idx].copy()
     
     def calculate_diversity(self, population_arrays):
-        """Calcula la diversidad de la población"""
-        card_frequencies = np.zeros(self.total_cards)
-        
-        for array in population_arrays:
-            card_frequencies += (array > 0).astype(int)
-        
-        card_frequencies = card_frequencies / len(population_arrays)
-        diverse_cards = np.sum((card_frequencies > 0.2) & (card_frequencies < 0.8))
-        total_used_cards = np.sum(card_frequencies > 0)
-        
-        if total_used_cards > 0:
-            diversity = diverse_cards / total_used_cards
-        else:
-            diversity = 0.0
-        
-        return diversity
+        """Diversidad por distancia L1 pareada normalizada (Fase 6).
+
+        Métrica antigua: fracción de cartas con frecuencia de presencia en
+        rango (0.2, 0.8). Problema: ignora el número de copias, por lo que
+        dos poblaciones con idénticas cartas únicas pero distintos repartos
+        daban exactamente el mismo valor.
+
+        Métrica nueva: media de las distancias L1 entre todos los pares de
+        mazos, normalizada por el máximo teórico (2·deck_size). Dos mazos
+        completamente disjuntos suman L1 = 2·60 = 120 para mazos de 60
+        cartas, luego el resultado queda en [0, 1].
+
+        Se calcula por columna con la identidad:
+            Σ_{i<j} |c_i - c_j| = Σ_k c_{(k)} · (2k − n + 1)
+        donde c_{(k)} son los counts ordenados ascendentemente por carta.
+        Esto evita el coste cuadrático de comparar cada par de mazos y es
+        O(total_cards · n log n).
+        """
+        n = len(population_arrays)
+        if n < 2:
+            return 0.0
+
+        M = np.asarray(population_arrays, dtype=np.int32)
+        deck_size = int(M[0].sum())
+        if deck_size <= 0:
+            return 0.0
+
+        sorted_cols = np.sort(M, axis=0)
+        weights = (2 * np.arange(n, dtype=np.int64) - n + 1)
+        pair_sum_per_card = (sorted_cols * weights[:, None]).sum(axis=0)
+        total_l1 = int(pair_sum_per_card.sum())
+
+        n_pairs = n * (n - 1) / 2
+        mean_l1 = total_l1 / n_pairs
+        max_l1 = 2.0 * deck_size
+        return float(min(mean_l1 / max_l1, 1.0))
     
     def adaptive_mutation_rate(self, generation, stagnation_counter):
-        """Ajusta la tasa de mutación según el progreso"""
+        """Ajusta la tasa de mutación según el progreso (Fase 4).
+
+        Redise\u00f1o aditivo con clamp en [0.1, 1.0]. Antes los multiplicadores
+        `×1.5` y `×2.0` aplicados sobre `mutation_rate=0.9` saturaban
+        inmediatamente en 1.0 — los dos escalones de estancamiento
+        producían el mismo valor efectivo. Ahora cada escalón aporta un
+        incremento fijo, manteniendo un gradiente visible incluso en
+        `mutation_rate` base moderado (0.6).
+
+        Escalones:
+          - stagnation > 5  → +0.15  (exploración moderada)
+          - stagnation > 10 → +0.15  (acumulativo → +0.30 total)
+          - generation > 50 y stagnation < 3 → -0.10 (explotación final)
+        """
         base_rate = self.mutation_rate
-        
+
         if stagnation_counter > 5:
-            base_rate *= 1.5
+            base_rate += 0.15
         if stagnation_counter > 10:
-            base_rate *= 2.0
-        
+            base_rate += 0.15
+
         if generation > 50 and stagnation_counter < 3:
-            base_rate *= 0.8
-        
-        return min(0.3, base_rate)
+            base_rate -= 0.10
+
+        return max(0.1, min(1.0, base_rate))
     
     def update_hall_of_fame(self, fitness_values, population_arrays):
         """
-        Actualiza el Hall of Fame global con los mejores individuos históricos
+        Actualiza el HoF con cuota arquetípica estricta (Fase 2).
 
-        HALL OF FAME TARDÍO: No se activa hasta la Generación 5 para evitar
-        preservar mazos aleatorios de generaciones tempranas que ralenticen
-        la exploración inicial.
+        `max_hall_size // 3` slots por arquetipo (aggro/midrange/control).
+        La cuota es ESTRICTA: si un arquetipo no tiene candidatos suficientes,
+        sus slots quedan vacíos en vez de rellenarse con otros arquetipos.
+        Esto preserva la Filosofía C — ningún arquetipo monopoliza el elite —
+        y el log avisa cuando un arquetipo se extingue.
 
-        Args:
-            fitness_values (list): Fitness de la generación actual
-            population_arrays (list): Arrays de mazos de la generación actual
+        `hall_of_fame_arrays` queda ordenado por fitness descendente para que
+        `best_fitness_ever` y `get_final_best_result()` accedan al mejor
+        absoluto en índice [0].
         """
-        # Hall of Fame activo desde Gen 0 (eliminado retraso)
-        # Combinar candidatos actuales con hall of fame existente
-        current_candidates = [(fitness_values[i], population_arrays[i].copy()) 
-                             for i in range(len(fitness_values))]
+        archetypes = ['aggro', 'midrange', 'control']
+        per_bucket = max(1, self.max_hall_size // len(archetypes))
 
+        current_candidates = [
+            (fitness_values[i], population_arrays[i].copy())
+            for i in range(len(fitness_values))
+        ]
         all_candidates = self.hall_of_fame_arrays + current_candidates
 
-        # Ordenar por fitness (mayor a menor)
-        all_candidates.sort(key=lambda x: x[0], reverse=True)
+        # Dedupe por hash del array + orden descendente por fitness
+        seen = set()
+        unique_sorted = []
+        for f, arr in sorted(all_candidates, key=lambda x: x[0], reverse=True):
+            h = hash(arr.tobytes())
+            if h in seen:
+                continue
+            seen.add(h)
+            unique_sorted.append((f, arr))
 
-        # Eliminar duplicados exactos y mantener solo los mejores únicos
-        unique_best = []
-        seen_hashes = set()
+        # Rellenar cuotas (estricto, sin cross-pollination entre arquetipos)
+        buckets = {a: [] for a in archetypes}
+        for f, arr in unique_sorted:
+            arch = self.detect_archetype(arr)['archetype']
+            if arch in buckets and len(buckets[arch]) < per_bucket:
+                buckets[arch].append((f, arr))
+            if all(len(b) >= per_bucket for b in buckets.values()):
+                break
 
-        for fitness, array in all_candidates:
-            # Crear hash único del array para detectar duplicados
-            array_hash = hash(array.tobytes())
+        new_hof = [entry for arch in archetypes for entry in buckets[arch]]
+        new_hof.sort(key=lambda x: x[0], reverse=True)
 
-            if array_hash not in seen_hashes and len(unique_best) < self.max_hall_size:
-                unique_best.append((fitness, array))
-                seen_hashes.add(array_hash)
-
-        # Actualizar hall of fame
         old_size = len(self.hall_of_fame_arrays)
-        self.hall_of_fame_arrays = unique_best
-        new_size = len(self.hall_of_fame_arrays)
+        self.hall_of_fame_arrays = new_hof
+        new_size = len(new_hof)
 
-        # Log de cambios
-        if new_size > old_size:
-            self.logger.info(f"🏆 Hall of Fame expandido: {old_size} → {new_size}")
+        counts = {a: len(buckets[a]) for a in archetypes}
+        empty = [a for a, c in counts.items() if c == 0]
+        if empty:
+            self.logger.warning(
+                f"⚠️ Hall of Fame: arquetipos vacíos {empty} (cuota={counts})"
+            )
+        else:
+            self.logger.debug(f"Hall of Fame por arquetipo: {counts}")
 
-        if len(unique_best) > 0:
-            best_fitness = unique_best[0][0]
-            worst_fitness = unique_best[-1][0]
-            self.logger.debug(f"Hall of Fame: Mejor={best_fitness:.4f}, Peor={worst_fitness:.4f}")
+        if new_size != old_size:
+            self.logger.info(f"🏆 Hall of Fame: {old_size} → {new_size}")
 
-        # Guardar mazos del Hall of Fame como archivos .dck
-        self.save_hall_of_fame_decks()
+        if new_hof:
+            self.logger.debug(
+                f"Hall of Fame: Mejor={new_hof[0][0]:.4f}, Peor={new_hof[-1][0]:.4f}"
+            )
 
-    def save_hall_of_fame_decks(self):
-        """
-        Guarda los mazos del Hall of Fame como archivos .dck y .json
-        Borra los archivos viejos y guarda los nuevos en cada actualización
+        self.persist_hall_of_fame(formats=('dck', 'json'))
+
+    def persist_hall_of_fame(self, formats=('dck', 'json', 'summary')):
+        """Persiste el Hall of Fame en uno o varios formatos (Fase 6).
+
+        Formatos soportados:
+          - 'dck':     un archivo Forge `.dck` por cada mazo del HoF.
+          - 'json':    un archivo `.json` por mazo con metadata + array completo.
+          - 'summary': un único `parallel_hall_of_fame.json` con el top-5 agregado.
+
+        'dck' y 'json' se escriben en `output_dir/hall_of_fame/` con naming
+        `hall_of_fame_{aggro|midrange|control}_{rank}.{ext}`. Si alguno de los
+        dos está en `formats`, se limpian primero los archivos antiguos del
+        directorio para evitar mezclar ejecuciones.
+
+        'summary' se escribe en `output_dir/parallel_hall_of_fame.json`.
+
+        Fusiona las antiguas `save_hall_of_fame_decks` y `save_hall_of_fame_data`.
         """
         import glob
 
-        # Crear directorio para Hall of Fame si no existe
-        hof_dir = os.path.join(self.output_dir, "hall_of_fame")
-        os.makedirs(hof_dir, exist_ok=True)
+        formats = tuple(formats)
+        valid = {'dck', 'json', 'summary'}
+        unknown = [f for f in formats if f not in valid]
+        if unknown:
+            raise ValueError(f"persist_hall_of_fame: formatos inválidos {unknown}; válidos={sorted(valid)}")
 
-        # Borrar todos los archivos viejos del Hall of Fame
-        # Esto se hace en cada actualización para mantener solo los mejores actuales
-        old_files = glob.glob(os.path.join(hof_dir, "hall_of_fame_*.dck")) + \
-                   glob.glob(os.path.join(hof_dir, "hall_of_fame_*.json"))
-        for old_file in old_files:
+        if 'dck' in formats or 'json' in formats:
+            hof_dir = os.path.join(self.output_dir, "hall_of_fame")
+            os.makedirs(hof_dir, exist_ok=True)
+
+            patterns = []
+            if 'dck' in formats:
+                patterns.append("hall_of_fame_*.dck")
+            if 'json' in formats:
+                patterns.append("hall_of_fame_*.json")
+            for pat in patterns:
+                for old_file in glob.glob(os.path.join(hof_dir, pat)):
+                    try:
+                        os.remove(old_file)
+                    except Exception as e:
+                        self.logger.warning(f"No se pudo borrar {old_file}: {e}")
+
+            arch_rank = {}
+            for fitness, array in self.hall_of_fame_arrays:
+                arch = self.detect_archetype(array)['archetype']
+                arch_rank[arch] = arch_rank.get(arch, 0) + 1
+                rank = arch_rank[arch]
+                deck_name = f"hall_of_fame_{arch}_{rank}"
+                deck = self.array_to_deck(array, deck_name)
+
+                if 'dck' in formats:
+                    deck_file = os.path.join(hof_dir, f"{deck_name}.dck")
+                    self.save_forge_deck(deck, deck_file)
+
+                if 'json' in formats:
+                    json_file = os.path.join(hof_dir, f"{deck_name}.json")
+                    deck_metadata = {
+                        'archetype': arch,
+                        'rank_in_archetype': rank,
+                        'fitness': float(fitness),
+                        'deck_name': deck_name,
+                        'deck': deck,
+                        'array': array.tolist()
+                    }
+                    with open(json_file, 'w', encoding='utf-8') as f:
+                        json.dump(deck_metadata, f, indent=2, ensure_ascii=False)
+
+            if self.hall_of_fame_arrays:
+                self.logger.debug(
+                    f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
+                    f"en {hof_dir} (cuota={arch_rank}, formats={[f for f in formats if f != 'summary']})"
+                )
+
+        if 'summary' in formats:
             try:
-                os.remove(old_file)
+                hof_file = os.path.join(self.output_dir, "parallel_hall_of_fame.json")
+                hof_data = []
+
+                for i, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5]):
+                    deck = self.array_to_deck(array, f"HOF_Deck_{i}")
+                    arch_info = self.detect_archetype(array)
+                    hof_data.append({
+                        'rank': i + 1,
+                        'fitness': float(fitness),
+                        'deck_name': deck['name'],
+                        'colors': deck.get('colors', []),
+                        'stats': deck.get('stats', {}),
+                        'parallel_workers': self.max_workers,
+                        'total_cards': int(np.sum(array)),
+                        'unique_cards': int(np.count_nonzero(array)),
+                        'archetype': arch_info['archetype'],
+                        'avg_cmc': round(arch_info['avg_cmc'], 3),
+                        'creatures': arch_info['creatures'],
+                    })
+
+                with open(hof_file, 'w', encoding='utf-8') as f:
+                    json.dump(hof_data, f, ensure_ascii=False, indent=2)
+
+                if hof_data:
+                    self.logger.info(f"✅ Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
+                else:
+                    self.logger.warning(f"⚠️ Hall of Fame vacío guardado en {hof_file}")
+
             except Exception as e:
-                self.logger.warning(f"No se pudo borrar {old_file}: {e}")
-
-        # Guardar los mazos actuales del Hall of Fame
-        for rank, (fitness, array) in enumerate(self.hall_of_fame_arrays, 1):
-            deck_name = f"hall_of_fame_{rank}"
-            deck = self.array_to_deck(array, deck_name)
-
-            # Guardar como archivo .dck (para Forge)
-            deck_file = os.path.join(hof_dir, f"{deck_name}.dck")
-            self.save_forge_deck(deck, deck_file)
-
-            # También guardar en formato JSON con metadatos
-            json_file = os.path.join(hof_dir, f"{deck_name}.json")
-            deck_metadata = {
-                'rank': rank,
-                'fitness': fitness,
-                'deck_name': deck_name,
-                'deck': deck,
-                'array': array.tolist()
-            }
-            with open(json_file, 'w', encoding='utf-8') as f:
-                json.dump(deck_metadata, f, indent=2, ensure_ascii=False)
-
-        if len(self.hall_of_fame_arrays) > 0:
-            self.logger.debug(f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del Hall of Fame en {hof_dir}")
+                self.logger.error(f"❌ Error guardando Hall of Fame (summary): {e}")
 
     def clean_hall_of_fame_directory(self):
         """
@@ -2234,12 +2626,12 @@ class MTGGeneticAlgorithm:
                 'population_size': self.population_size,
                 'max_generations': self.max_generations,
                 'fitness_values': fitness_values,
-                'best_fitness_ever': self.best_fitness_ever if hasattr(self, 'best_fitness_ever') else max(fitness_values),
+                # best_fitness_ever se deriva del HoF (Fase 2) — se serializa por
+                # trazabilidad pero no se restaura al cargar.
+                'best_fitness_ever': self.best_fitness_ever,
                 'stagnation_counter': self.stagnation_counter if hasattr(self, 'stagnation_counter') else 0,
                 'mutation_rate': self.mutation_rate,
-                'original_mutation_rate': self.original_mutation_rate if hasattr(self, 'original_mutation_rate') else self.mutation_rate,
                 'adaptive_timeout': self.adaptive_timeout,
-                'generations_since_intervention': self.generations_since_intervention if hasattr(self, 'generations_since_intervention') else 0,
                 # Nuevos parámetros Swiss Tournament
                 'use_swiss_tournament': self.use_swiss_tournament,
                 'k_rounds': self.k_rounds,
@@ -2318,12 +2710,10 @@ class MTGGeneticAlgorithm:
                 np.array(array, dtype=int) for array in checkpoint_data['population_arrays']
             ]
 
-            self.best_fitness_ever = checkpoint_data.get('best_fitness_ever', 0.0)
+            # best_fitness_ever es @property derivada del HoF (restaurado abajo)
             self.stagnation_counter = checkpoint_data.get('stagnation_counter', 0)
             self.mutation_rate = checkpoint_data.get('mutation_rate', self.mutation_rate)
-            self.original_mutation_rate = checkpoint_data.get('original_mutation_rate', self.mutation_rate)
             self.adaptive_timeout = checkpoint_data.get('adaptive_timeout', self.base_timeout)
-            self.generations_since_intervention = checkpoint_data.get('generations_since_intervention', 0)
 
             # Restaurar parámetros Swiss Tournament si existen
             if 'use_swiss_tournament' in checkpoint_data:
@@ -2339,10 +2729,9 @@ class MTGGeneticAlgorithm:
                 ]
 
             self.logger.info(f"Checkpoint cargado: Generación {checkpoint_data['generation']}")
-            self.logger.info(f"  Best fitness: {self.best_fitness_ever:.4f}")
+            self.logger.info(f"  Best fitness: {self.best_fitness_ever:.4f} (derivado del HoF)")
             self.logger.info(f"  Stagnation counter: {self.stagnation_counter}")
-            self.logger.info(f"  Mutation rate: {self.mutation_rate:.3f} (original: {self.original_mutation_rate:.3f})")
-            self.logger.info(f"  Generations since intervention: {self.generations_since_intervention}")
+            self.logger.info(f"  Mutation rate: {self.mutation_rate:.3f}")
             self.logger.info(f"  Population size: {len(self.population_arrays)}")
             if hasattr(self, 'use_swiss_tournament'):
                 self.logger.info(f"  Swiss Tournament: {self.use_swiss_tournament} (k={self.k_rounds}, n={self.n_games_per_match})")
@@ -2389,8 +2778,16 @@ class MTGGeneticAlgorithm:
             self.logger.error(f"Error buscando checkpoints: {e}")
             return None, None
 
-    def evolve(self):
-        """Ejecuta el algoritmo genético completo con paralelización y anti-estancamiento"""
+    def evolve(self, resume_from_checkpoint=None):
+        """Ejecuta el algoritmo genético completo con paralelización y anti-estancamiento.
+
+        Args:
+            resume_from_checkpoint: Política para checkpoints existentes (Fase 6).
+                - None (default): auto-detect. Si stdin es TTY, pregunta al usuario;
+                  en entornos no interactivos (batch, CI, nohup…) reanuda por defecto.
+                - True:  reanuda siempre sin preguntar.
+                - False: ignora el checkpoint y arranca desde cero sin preguntar.
+        """
         self.logger.info("=== INICIANDO ALGORITMO GENÉTICO CON ANTI-ESTANCAMIENTO ===")
         self.logger.info(f"Configuración: {self.population_size} mazos, {self.max_generations} generaciones")
         self.logger.info(f"Paralelización: {self.max_workers} workers, timeout {self.base_timeout}s")
@@ -2414,15 +2811,39 @@ class MTGGeneticAlgorithm:
 
             if checkpoint_file and checkpoint_gen is not None:
                 self.logger.info(f"=== CHECKPOINT ENCONTRADO: Generación {checkpoint_gen} ===")
-                response = input(f"\n¿Deseas reanudar desde la generación {checkpoint_gen}? (S/n): ").strip().lower()
 
-                if response in ['s', 'si', 'sí', 'y', 'yes', '']:
+                if resume_from_checkpoint is True:
+                    should_resume = True
+                    self.logger.info("Reanudación forzada por parámetro (resume_from_checkpoint=True)")
+                elif resume_from_checkpoint is False:
+                    should_resume = False
+                    self.logger.info("Checkpoint ignorado por parámetro (resume_from_checkpoint=False)")
+                else:
+                    is_tty = False
+                    try:
+                        is_tty = sys.stdin.isatty()
+                    except Exception:
+                        is_tty = False
+
+                    if is_tty:
+                        response = input(
+                            f"\n¿Deseas reanudar desde la generación {checkpoint_gen}? (S/n): "
+                        ).strip().lower()
+                        should_resume = response in ['s', 'si', 'sí', 'y', 'yes', '']
+                    else:
+                        should_resume = True
+                        self.logger.info(
+                            "Entorno no interactivo detectado: reanudando automáticamente "
+                            "desde checkpoint (pasa resume_from_checkpoint=False para forzar reinicio)"
+                        )
+
+                if should_resume:
                     checkpoint_data = self.load_checkpoint(checkpoint_file)
                     if checkpoint_data:
                         start_generation = checkpoint_data['generation'] + 1
                         fitness_values = checkpoint_data['fitness_values']
-                        best_fitness_ever = checkpoint_data['best_fitness_ever']
-                        self.best_fitness_ever = best_fitness_ever
+                        # best_fitness_ever es @property — deriva del HoF restaurado
+                        best_fitness_ever = self.best_fitness_ever
 
                         self.logger.info(f"REANUDANDO desde generación {start_generation}")
                         self.logger.info(f"Best fitness recuperado: {best_fitness_ever:.4f}")
@@ -2444,13 +2865,11 @@ class MTGGeneticAlgorithm:
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
                 self.save_population_arrays(0)
 
-                # Variables de control mejoradas
+                # Local best_fitness_ever — self.best_fitness_ever es @property (Fase 2)
                 best_fitness_ever = max(fitness_values)
-                self.best_fitness_ever = best_fitness_ever
                 self.update_statistics(0, fitness_values)
 
                 self.stagnation_counter = 0
-                self.generations_since_intervention = 0
                 self.current_fitness_values = fitness_values
 
                 # Actualizar Hall of Fame inicial
@@ -2459,8 +2878,7 @@ class MTGGeneticAlgorithm:
                 # Guardar checkpoint inicial
                 self.save_checkpoint(0, fitness_values)
             else:
-                # Restaurar variables de control desde checkpoint
-                # stagnation_counter, generations_since_intervention ya restaurados en load_checkpoint
+                # stagnation_counter ya restaurado en load_checkpoint
                 self.current_fitness_values = fitness_values
 
             # BUCLE PRINCIPAL CON CONTROL DE TERMINACIÓN MEJORADO
@@ -2501,12 +2919,12 @@ class MTGGeneticAlgorithm:
                     parent1 = self.tournament_selection(self.population_arrays, fitness_values)
                     parent2 = self.tournament_selection(self.population_arrays, fitness_values)
 
-                    # Cruce
+                    # Cruce (Fase 4: `crossover_two_point` sustituido por `crossover_archetype`)
                     if random.random() < self.crossover_rate:
                         if random.random() < 0.5:
                             child1, child2 = self.crossover_uniform(parent1, parent2)
                         else:
-                            child1, child2 = self.crossover_two_point(parent1, parent2)
+                            child1, child2 = self.crossover_archetype(parent1, parent2)
                     else:
                         child1, child2 = parent1.copy(), parent2.copy()
 
@@ -2529,7 +2947,7 @@ class MTGGeneticAlgorithm:
                 self.save_population_arrays(generation)  # ← NUEVA LÍNEA
                 self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
                 
-                self.update_statistics(generation, fitness_values)  # <-- NUEVA LÍNEA
+                self.update_statistics(generation, fitness_values, effective_mutation_rate=current_mutation_rate)
                 
                 # Actualizar Hall of Fame
                 self.update_hall_of_fame(fitness_values, self.population_arrays)
@@ -2539,36 +2957,17 @@ class MTGGeneticAlgorithm:
 
                 if current_best > best_fitness_ever:
                     best_fitness_ever = current_best
-                    self.best_fitness_ever = best_fitness_ever
                     self.stagnation_counter = 0
                     self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
-                    
-                    # Restaurar tasa de mutación si había intervención
-                    if self.generations_since_intervention > 0:
-                        self.restore_mutation_rate()
-                        self.generations_since_intervention = 0
                 else:
                     self.stagnation_counter += 1
-                    self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter}/{self.stagnation_limit}")
+                    self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter} gens")
 
                 # === VERIFICAR CONDICIONES DE TERMINACIÓN ===
-                should_continue, reason, apply_intervention = self.handle_termination_conditions(
+                should_continue, reason = self.handle_termination_conditions(
                     generation, current_best, self.stagnation_counter
                 )
 
-                if apply_intervention:
-                    # Aplicar intervención anti-estancamiento
-                    self.apply_anti_stagnation_intervention(generation)
-                    self.generations_since_intervention = 1
-
-                    # GUARDAR CHECKPOINT DESPUÉS DE LA INTERVENCIÓN
-                    # Es crítico guardar aquí porque el continue saltará el save_checkpoint normal
-                    self.logger.info("Guardando checkpoint post-intervención...")
-                    self.save_checkpoint(generation, fitness_values)
-
-                    # Continuar después de la intervención
-                    continue
-                
                 if not should_continue:
                     termination_reason = reason
                     self.logger.info(f"🏁 TERMINACIÓN CONTROLADA: {termination_reason}")
@@ -2578,32 +2977,15 @@ class MTGGeneticAlgorithm:
                     self.save_checkpoint(generation, fitness_values)
 
                     break
-                
-                # Incrementar contador de generaciones desde intervención
-                if self.generations_since_intervention > 0:
-                    self.generations_since_intervention += 1
-                    # Restaurar mutación después de 3 generaciones
-                    if self.generations_since_intervention >= 3:
-                        self.restore_mutation_rate()
-                        self.generations_since_intervention = 0
 
                 # === GUARDAR CHECKPOINT AL FINAL DE CADA GENERACIÓN ===
                 self.save_checkpoint(generation, fitness_values)
 
-            # === OBTENER MEJOR RESULTADO CON VERIFICACIÓN ===
+            # === OBTENER MEJOR RESULTADO ===
+            # Fase 2: best_fitness_ever es @property derivada del HoF[0];
+            # get_final_best_result() también lee del HoF[0], así que son
+            # la misma fuente. Sin bloque de verificación duplicada.
             best_deck, final_fitness = self.get_final_best_result()
-
-            # VERIFICACIÓN ADICIONAL: Comparar con best_fitness_ever
-            if hasattr(self, 'best_fitness_ever'):
-                if final_fitness != self.best_fitness_ever:
-                    self.logger.warning(f"⚠️ Discrepancia en fitness final:")
-                    self.logger.warning(f"   Hall of Fame: {final_fitness:.4f}")
-                    self.logger.warning(f"   Best Ever: {self.best_fitness_ever:.4f}")
-
-                    # Usar el mayor de los dos
-                    if self.best_fitness_ever > final_fitness:
-                        final_fitness = self.best_fitness_ever
-                        self.logger.info(f"✅ Usando best_fitness_ever: {final_fitness:.4f}")
 
             self.logger.info(f"🏆 MEJOR FITNESS ALCANZADO: {final_fitness:.4f}")
             self.logger.info(f"🎯 RAZÓN DE TERMINACIÓN: {termination_reason}")
@@ -2751,13 +3133,17 @@ class MTGGeneticAlgorithm:
                     self.stats['best_fitness'] = [max(self.current_fitness_values)]
                     self.stats['avg_fitness'] = [np.mean(self.current_fitness_values)]
                     self.stats['diversity'] = [self.calculate_diversity(self.population_arrays)]
-                    self.stats['mutation_rate'] = [getattr(self, 'mutation_rate', 0.9)]
+                    self.stats['mutation_rate'] = [self.mutation_rate]
+                    self.stats['archetype_entropy'] = [
+                        self._archetype_distribution(self.population_arrays)['entropy']
+                    ]
                 else:
                     # Estadísticas de fallback absoluto
                     self.stats['best_fitness'] = [0.0]
                     self.stats['avg_fitness'] = [0.0]
                     self.stats['diversity'] = [0.0]
-                    self.stats['mutation_rate'] = [0.9]
+                    self.stats['mutation_rate'] = [self.mutation_rate]
+                    self.stats['archetype_entropy'] = [0.0]
 
             # Verificar longitudes consistentes
             lengths = [len(self.stats[key]) for key in self.stats.keys()]
@@ -2775,7 +3161,8 @@ class MTGGeneticAlgorithm:
                 'best_fitness': self.stats['best_fitness'],
                 'avg_fitness': self.stats['avg_fitness'],
                 'diversity': self.stats['diversity'],
-                'mutation_rate': self.stats['mutation_rate']
+                'mutation_rate': self.stats['mutation_rate'],
+                'archetype_entropy': self.stats['archetype_entropy'],
             })
 
             self.logger.info(f"📊 Guardando estadísticas: {len(stats_df)} generaciones")
@@ -2792,7 +3179,7 @@ class MTGGeneticAlgorithm:
                 self.logger.warning("⚠️ No hay suficientes datos para crear gráficos")
 
             # Guardar Hall of Fame
-            self.save_hall_of_fame_data()
+            self.persist_hall_of_fame(formats=('summary',))
 
             self.logger.info(f"✅ Estadísticas paralelas guardadas en {self.output_dir}")
 
@@ -2878,39 +3265,6 @@ class MTGGeneticAlgorithm:
             except:
                 pass    
             
-    def save_hall_of_fame_data(self):
-        """
-        Guarda datos del Hall of Fame con verificación
-        """
-        try:
-            hof_file = os.path.join(self.output_dir, "parallel_hall_of_fame.json")
-            hof_data = []
-
-            for i, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5]):  # Top 5
-                deck = self.array_to_deck(array, f"HOF_Deck_{i}")
-                hof_data.append({
-                    'rank': i + 1,
-                    'fitness': float(fitness),
-                    'deck_name': deck['name'],
-                    'colors': deck.get('colors', []),
-                    'stats': deck.get('stats', {}),
-                    'parallel_workers': self.max_workers,
-                    'total_cards': int(np.sum(array)),
-                    'unique_cards': int(np.count_nonzero(array))
-                })
-
-            # Guardar datos
-            with open(hof_file, 'w', encoding='utf-8') as f:
-                json.dump(hof_data, f, ensure_ascii=False, indent=2)
-
-            if hof_data:
-                self.logger.info(f"✅ Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
-            else:
-                self.logger.warning(f"⚠️ Hall of Fame vacío guardado en {hof_file}")
-
-        except Exception as e:
-            self.logger.error(f"❌ Error guardando Hall of Fame: {e}")        
-        
     def get_starting_player(self, i, j, generation):
         """
         Determina quién empieza de manera determinística pero balanceada
@@ -2919,255 +3273,61 @@ class MTGGeneticAlgorithm:
         return seed == 0    
     
     def handle_termination_conditions(self, generation, current_best_fitness, stagnation_counter):
-        """
-        Maneja las condiciones de terminación y anti-estancamiento de forma inteligente.
-        Reemplaza los break problemáticos por return controlado.
+        """Condición de terminación temprana: fitness objetivo alcanzado.
 
-        Returns:
-            tuple: (should_continue, termination_reason, apply_intervention)
+        Fase 3: eliminada la rama de intervención anti-estancamiento
+        (toda la maquinaria ya estaba desactivada en producción vía
+        `stagnation_limit=999`). `stagnation_counter` se conserva sólo
+        como métrica observacional, no dispara acciones.
         """
-        # Verificar condición de fitness objetivo alcanzado
         if current_best_fitness >= 0.95:
             reason = f"Terminando por alcanzar fitness objetivo (95% win rate): {current_best_fitness:.4f}"
             self.logger.info(reason)
-            return False, "fitness_target_reached", False
+            return False, "fitness_target_reached"
 
-        # Verificar estancamiento crítico
-        if stagnation_counter >= self.stagnation_limit:
-            if generation < self.max_generations // 2:
-                # Si estamos en la primera mitad, aplicar intervención agresiva
-                reason = f"Aplicando intervención anti-estancamiento en generación {generation}"
-                self.logger.warning(reason)
-                return True, "stagnation_intervention", True
-            else:
-                # Si estamos en la segunda mitad, terminar
-                reason = f"Terminando por estancamiento tras {stagnation_counter} generaciones sin mejora"
-                self.logger.info(reason)
-                return False, "stagnation_limit_reached", False
-
-        # Continuar normalmente
-        return True, "continue", False
-
-
-    def apply_anti_stagnation_intervention(self, generation):
-        """
-        Sistema Anti-Estancamiento Agresivo 
-        Aplica múltiples estrategias para escapar de óptimos locales.
-        """
-        self.logger.warning(f"🚨 APLICANDO INTERVENCIÓN ANTI-ESTANCAMIENTO en generación {generation}")
-
-        intervention_applied = False
-
-        # ESTRATEGIA 1: IMMIGRATION (30% de la población)
-        immigration_size = max(3, self.population_size // 3)
-        self.logger.info(f"🌍 Immigration: Inyectando {immigration_size} mazos completamente nuevos")
-
-        # Generar mazos nuevos usando el generador original
-        try:
-            from generador_mazos_mtg import MTGDeckGenerator
-
-            generator = MTGDeckGenerator(
-                cards_csv_path=os.path.join(os.path.dirname(self.catalog_path), "..", "processed_standard_cards.csv"),
-                catalog_path=self.catalog_path,
-                indices_path=self.indices_path,
-                output_dir=self.output_dir
-            )
-
-            # Generar mazos frescos con diversidad forzada
-            new_decks = generator.generate_population_exact_size(immigration_size)
-            new_arrays = []
-
-            for deck in new_decks:
-                if 'array' in deck:
-                    new_arrays.append(np.array(deck['array'], dtype=int))
-                else:
-                    new_arrays.append(self.deck_to_array(deck))
-
-            # Reemplazar los peores individuos
-            if hasattr(self, 'current_fitness_values') and len(self.current_fitness_values) == len(self.population_arrays):
-                # Encontrar los índices de los peores
-                sorted_indices = np.argsort(self.current_fitness_values)
-                worst_indices = sorted_indices[:immigration_size]
-
-                for i, worst_idx in enumerate(worst_indices):
-                    if i < len(new_arrays):
-                        self.population_arrays[worst_idx] = new_arrays[i].copy()
-                        self.logger.debug(f"Mazo {worst_idx} reemplazado por inmigrante {i}")
-
-                intervention_applied = True
-                self.logger.info(f"✅ Immigration completada: {len(worst_indices)} mazos reemplazados")
-
-        except Exception as e:
-            self.logger.error(f"Error en immigration: {e}")
-
-        # ESTRATEGIA 2: MUTATION BOOST (Incrementar mutación temporalmente)
-        if hasattr(self, 'original_mutation_rate'):
-            self.mutation_rate = self.original_mutation_rate * 3.0
-        else:
-            self.original_mutation_rate = self.mutation_rate
-            self.mutation_rate = min(0.4, self.mutation_rate * 3.0)
-
-        self.logger.info(f"🧬 Mutation Boost: Tasa de mutación incrementada a {self.mutation_rate:.3f}")
-        intervention_applied = True
-
-        # ESTRATEGIA 3: DIVERSITY INJECTION (Forzar diversidad en Hall of Fame)
-        if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 3:
-            # Seleccionar individuos diversos del Hall of Fame
-            diverse_elite = self.select_diverse_elite()
-
-            if len(diverse_elite) > 0:
-                # Reemplazar algunos individuos mediocres con elite diverso
-                elite_injection_size = min(len(diverse_elite), self.population_size // 4)
-
-                if hasattr(self, 'current_fitness_values'):
-                    # Encontrar individuos mediocres (no los mejores ni los peores)
-                    fitness_array = np.array(self.current_fitness_values)
-                    median_fitness = np.median(fitness_array)
-
-                    # Buscar individuos cerca de la mediana
-                    median_tolerance = np.std(fitness_array) * 0.5
-                    mediocre_mask = np.abs(fitness_array - median_fitness) <= median_tolerance
-                    mediocre_indices = np.where(mediocre_mask)[0]
-
-                    if len(mediocre_indices) >= elite_injection_size:
-                        selected_mediocre = np.random.choice(mediocre_indices, elite_injection_size, replace=False)
-
-                        for i, mediocre_idx in enumerate(selected_mediocre):
-                            if i < len(diverse_elite):
-                                self.population_arrays[mediocre_idx] = diverse_elite[i].copy()
-                                self.logger.debug(f"Individuo mediocre {mediocre_idx} reemplazado por elite diverso")
-
-                        intervention_applied = True
-                        self.logger.info(f"✅ Diversity Injection: {len(selected_mediocre)} individuos reemplazados")
-
-        # ESTRATEGIA 4: RESET STAGNATION COUNTER (Dar otra oportunidad)
-        self.stagnation_counter = 0
-        self.logger.info(f"🔄 Stagnation counter reseteado")
-
-        # Marcar que se aplicó intervención
-        if intervention_applied:
-            # Agregar marca temporal en logs
-            if not hasattr(self, 'interventions_applied'):
-                self.interventions_applied = []
-
-            self.interventions_applied.append({
-                'generation': generation,
-                'strategies': ['immigration', 'mutation_boost', 'diversity_injection'],
-                'timestamp': time.time()
-            })
-
-            self.logger.warning(f"🚀 INTERVENCIÓN ANTI-ESTANCAMIENTO COMPLETADA en generación {generation}")
-
-        return intervention_applied
-
-
-    def select_diverse_elite(self):
-        """
-        Selecciona individuos diversos del Hall of Fame basado en distancia genética.
-        """
-        if not hasattr(self, 'hall_of_fame_arrays') or len(self.hall_of_fame_arrays) < 2:
-            return []
-
-        # Extraer solo los arrays del Hall of Fame
-        hof_arrays = [hof_array for _, hof_array in self.hall_of_fame_arrays]
-
-        if len(hof_arrays) <= 3:
-            return hof_arrays
-
-        # Selección por diversidad usando distancia hamming
-        selected = [hof_arrays[0]]  # Siempre incluir el mejor
-
-        for candidate in hof_arrays[1:]:
-            # Calcular distancia mínima a los ya seleccionados
-            min_distance = float('inf')
-
-            for selected_array in selected:
-                # Distancia basada en cartas diferentes
-                different_cards = np.sum(candidate != selected_array)
-                min_distance = min(min_distance, different_cards)
-
-            # Si es suficientemente diferente, agregarlo
-            diversity_threshold = len(candidate) * 0.1  # Al menos 10% de cartas diferentes
-            if min_distance >= diversity_threshold and len(selected) < 4:
-                selected.append(candidate)
-
-        self.logger.debug(f"Elite diverso seleccionado: {len(selected)} individuos de {len(hof_arrays)} disponibles")
-        return selected
-
-
-    def restore_mutation_rate(self):
-        """
-        Restaura la tasa de mutación original después de la intervención.
-        """
-        if hasattr(self, 'original_mutation_rate'):
-            old_rate = self.mutation_rate
-            self.mutation_rate = self.original_mutation_rate
-            self.logger.info(f"🔄 Tasa de mutación restaurada: {old_rate:.3f} → {self.mutation_rate:.3f}")
+        return True, "continue"
 
     def get_final_best_result(self):
-        """
-        Obtiene el mejor resultado final de forma correcta
+        """Devuelve el mejor mazo histórico. Fase 3: dos fuentes reales.
+
+        Preferencia: HoF[0] (única fuente canónica desde Fase 2). Si el HoF
+        está vacío (ej. fallo temprano antes de la primera evaluación),
+        cae a la mejor de la población actual.
         """
         try:
-            # OPCIÓN 1: Usar Hall of Fame arrays (más confiable)
-            if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
+            if self.hall_of_fame_arrays:
                 best_fitness, best_array = self.hall_of_fame_arrays[0]
                 best_deck = self.array_to_deck(best_array, "Champion_Deck")
-
-                self.logger.info(f"✅ Mejor resultado obtenido del Hall of Fame:")
-                self.logger.info(f"   Fitness: {best_fitness:.4f}")
-                self.logger.info(f"   Array sum: {np.sum(best_array)}")
-
-                # VERIFICAR que el fitness es correcto
-                if best_fitness < 0.01:  # Si el fitness es sospechosamente bajo
-                    self.logger.warning(f"⚠️ Fitness sospechosamente bajo: {best_fitness:.4f}")
-                    # Buscar en hall_of_fame alternativo
-                    if hasattr(self, 'hall_of_fame') and self.hall_of_fame_arrays:
-                        _, alt_fitness, alt_deck = max(self.hall_of_fame_arrays, key=lambda x: x[1])
-                        if alt_fitness > best_fitness:
-                            self.logger.info(f"🔄 Usando hall_of_fame alternativo: {alt_fitness:.4f}")
-                            return alt_deck, alt_fitness
-
+                self.logger.info(f"✅ Mejor resultado del Hall of Fame: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
-            # OPCIÓN 2: Usar hall_of_fame estándar
-            elif hasattr(self, 'hall_of_fame') and self.hall_of_fame_arrays:
-                _, best_fitness, best_deck = max(self.hall_of_fame_arrays, key=lambda x: x[1])
-
-                self.logger.info(f"✅ Mejor resultado obtenido del Hall of Fame estándar:")
-                self.logger.info(f"   Fitness: {best_fitness:.4f}")
-
+            if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
+                best_idx = int(np.argmax(self.current_fitness_values))
+                best_fitness = float(self.current_fitness_values[best_idx])
+                best_deck = self.array_to_deck(self.population_arrays[best_idx], "Final_Best_Deck")
+                self.logger.warning(f"⚠️ HoF vacío; devolviendo mejor de población actual: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
-            # OPCIÓN 3: Usar población actual (último recurso)
-            else:
-                if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
-                    best_idx = np.argmax(self.current_fitness_values)
-                    best_fitness = self.current_fitness_values[best_idx]
-                    best_deck = self.array_to_deck(self.population_arrays[best_idx], "Final_Best_Deck")
-
-                    self.logger.info(f"✅ Mejor resultado obtenido de población actual:")
-                    self.logger.info(f"   Fitness: {best_fitness:.4f}")
-
-                    return best_deck, best_fitness
-                else:
-                    # Fallback absoluto
-                    best_deck = self.array_to_deck(self.population_arrays[0], "Fallback_Deck")
-                    self.logger.warning("⚠️ Usando deck de fallback")
-                    return best_deck, 0.0
+            best_deck = self.array_to_deck(self.population_arrays[0], "Fallback_Deck")
+            self.logger.warning("⚠️ Sin HoF ni fitness — devolviendo primer mazo de población")
+            return best_deck, 0.0
 
         except Exception as e:
             self.logger.error(f"Error obteniendo resultado final: {e}")
             best_deck = self.array_to_deck(self.population_arrays[0], "Error_Recovery_Deck")
             return best_deck, 0.0
         
-    def update_statistics(self, generation, fitness_values):
+    def update_statistics(self, generation, fitness_values, effective_mutation_rate=None):
         """
-        Actualiza las estadísticas de evolución en cada generación
+        Actualiza las estadísticas de evolución en cada generación.
 
         Args:
             generation (int): Número de generación actual
             fitness_values (list): Lista de fitness de todos los individuos
+            effective_mutation_rate (float|None): Tasa efectiva aplicada en esta
+                generación (salida de `adaptive_mutation_rate`). Si es None
+                (por ejemplo, la evaluación inicial de Gen 0 antes de mutar),
+                se usa la base `self.mutation_rate` como placeholder.
         """
         try:
             # Calcular estadísticas básicas
@@ -3175,19 +3335,31 @@ class MTGGeneticAlgorithm:
             avg_fitness = np.mean(fitness_values)
             diversity = self.calculate_diversity(self.population_arrays)
 
-            # Obtener tasa de mutación actual
-            current_mutation_rate = getattr(self, 'mutation_rate', 0.9)
+            # Fase 4: registrar tasa EFECTIVA (salida de adaptive_mutation_rate),
+            # no la base fija — antes el CSV siempre mostraba `self.mutation_rate`
+            # y hacía invisible el comportamiento adaptativo.
+            if effective_mutation_rate is None:
+                effective_mutation_rate = self.mutation_rate
+
+            # Fase 5: entropía de Shannon arquetípica (diversidad estructural)
+            dist = self._archetype_distribution(self.population_arrays)
+            archetype_entropy = dist['entropy']
 
             # Actualizar listas de estadísticas
             self.stats['best_fitness'].append(best_fitness)
             self.stats['avg_fitness'].append(avg_fitness)
             self.stats['diversity'].append(diversity)
-            self.stats['mutation_rate'].append(current_mutation_rate)
+            self.stats['mutation_rate'].append(effective_mutation_rate)
+            self.stats['archetype_entropy'].append(archetype_entropy)
 
             # Log debug cada 5 generaciones
             if generation % 5 == 0:
-                self.logger.debug(f"Stats Gen {generation}: Best={best_fitness:.4f}, "
-                                f"Avg={avg_fitness:.4f}, Div={diversity:.4f}")
+                self.logger.debug(
+                    f"Stats Gen {generation}: Best={best_fitness:.4f}, "
+                    f"Avg={avg_fitness:.4f}, Div={diversity:.4f}, "
+                    f"H_arq={archetype_entropy:.3f}/{dist['max_entropy']:.3f} "
+                    f"({dist['counts']})"
+                )
 
             # Guardar estadísticas incrementales cada 10 generaciones
             if generation % 10 == 0:
@@ -3207,7 +3379,8 @@ class MTGGeneticAlgorithm:
                 'best_fitness': self.stats['best_fitness'],
                 'avg_fitness': self.stats['avg_fitness'],
                 'diversity': self.stats['diversity'],
-                'mutation_rate': self.stats['mutation_rate']
+                'mutation_rate': self.stats['mutation_rate'],
+                'archetype_entropy': self.stats['archetype_entropy'],
             })
 
             # Guardar CSV incremental
@@ -3387,11 +3560,10 @@ if __name__ == "__main__":
         'forge_jar_path': "./forge-gui-desktop.jar",
         'max_generations': 3,
         'population_size': 8,
-        'mutation_rate': 0.9,
-        'crossover_rate': 0.15,
+        'mutation_rate': 0.6,
+        'crossover_rate': 0.30,
         'tournament_size': 3,
         'elite_size': 2,
-        'stagnation_limit': 5,
         # PARÁMETROS DE PARALELIZACIÓN (normalmente pasados desde mtg_main.py)
         'max_workers': 4,           # Configurado por hardware analyzer
         'parallel_batch_size': 12,  # Configurado por hardware analyzer
