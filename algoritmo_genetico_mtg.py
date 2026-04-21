@@ -1714,15 +1714,39 @@ class MTGGeneticAlgorithm:
                         break
 
         elif total > 60:
-            # Sobran cartas: quitar aleatoriamente
+            # Sobran cartas: recortar pack-aware.
+            # Norma 4-of sagrada: eliminar packs enteros de cartas con peor
+            # afinidad arquetípica antes de partir un pack por la mitad.
             diff = total - 60
-            while diff > 0:
-                nonzero_positions = np.where(adjusted > 0)[0]
-                if len(nonzero_positions) > 0:
-                    adjusted[random.choice(nonzero_positions)] -= 1
-                    diff -= 1
-                else:
+
+            non_land_candidates = []
+            for cid in np.where(adjusted > 0)[0]:
+                card = self.card_catalog[int(cid)]
+                if card['is_land']:
+                    continue
+                aff = self._archetype_card_affinity(card, seed_archetype)
+                non_land_candidates.append((int(cid), aff, int(adjusted[cid])))
+
+            # Peor afinidad primero; dentro de misma afinidad, packs más grandes
+            # primero (compactan más el excess en menos decisiones).
+            non_land_candidates.sort(key=lambda x: (x[1], -x[2]))
+
+            for cid, _aff, cnt in non_land_candidates:
+                if diff <= 0:
                     break
+                remove = min(cnt, diff)
+                adjusted[cid] -= remove
+                diff -= remove
+
+            # Fallback: si aún sobra (mazo que es casi todo tierras), quitar
+            # tierras 1 a 1 — una tierra 1-of es un residuo aceptable.
+            while diff > 0:
+                land_nonzero = [i for i in self.type_indices.get('lands', [])
+                                if adjusted[i] > 0]
+                if not land_nonzero:
+                    break
+                adjusted[random.choice(land_nonzero)] -= 1
+                diff -= 1
 
         # PASO 2: Verificar y corregir proporción de tierras.
         # Piso duro dependiente del arquetipo detectado (MTG real):
