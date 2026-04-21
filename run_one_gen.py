@@ -9,7 +9,7 @@ config = {
     'indices_path': "mtg_data/card_indices.json",
     'output_dir': "mtg_evolved_decks",
     'forge_jar_path': "./forge-gui-desktop-2.0.04-jar-with-dependencies.jar",
-    'max_generations': 1,
+    'max_generations': 3,
     'population_size': 8,
     'mutation_rate': 0.6,
     'crossover_rate': 0.30,
