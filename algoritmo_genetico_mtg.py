@@ -1756,23 +1756,34 @@ class MTGGeneticAlgorithm:
         min_lands = self.ARCHETYPE_MIN_LANDS.get(detected_archetype, 20)
 
         if land_count < min_lands:
-            # Tierras por debajo del piso arquetípico: convertir hechizos en tierras.
+            # Tierras por debajo del piso arquetípico: convertir hechizos
+            # en tierras pack-aware. Eliminar packs enteros de peor afinidad
+            # antes que trocear un pack por la mitad.
             needed = min_lands - land_count
 
-            non_land_positions = [i for i in range(len(adjusted))
-                                 if adjusted[i] > 0 and not self.card_catalog[i]['is_land']]
+            if appropriate_basic_lands:
+                non_land_candidates = []
+                for cid in range(len(adjusted)):
+                    if adjusted[cid] == 0 or self.card_catalog[cid]['is_land']:
+                        continue
+                    aff = self._archetype_card_affinity(
+                        self.card_catalog[cid], detected_archetype)
+                    non_land_candidates.append((cid, aff, int(adjusted[cid])))
 
-            for _ in range(min(needed, len(non_land_positions))):
-                if non_land_positions and appropriate_basic_lands:
-                    # Quitar un hechizo
-                    spell_id = random.choice(non_land_positions)
-                    adjusted[spell_id] -= 1
-                    if adjusted[spell_id] == 0:
-                        non_land_positions.remove(spell_id)
+                # Peor afinidad primero; dentro de misma afinidad, packs más
+                # grandes primero (resuelve el déficit con menos decisiones).
+                non_land_candidates.sort(key=lambda x: (x[1], -x[2]))
 
-                    # Añadir una tierra del color correcto
-                    land_id = random.choice(appropriate_basic_lands)
-                    adjusted[land_id] += 1
+                for cid, _aff, cnt in non_land_candidates:
+                    if needed <= 0:
+                        break
+                    remove = min(cnt, needed)
+                    adjusted[cid] -= remove
+                    # Añadir las mismas tierras del pool apropiado.
+                    for _ in range(remove):
+                        land_id = random.choice(appropriate_basic_lands)
+                        adjusted[land_id] += 1
+                    needed -= remove
 
         elif land_count > 30:
             # Demasiadas tierras: convertir tierras en hechizos del color correcto.
