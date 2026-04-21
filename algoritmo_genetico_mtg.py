@@ -23,6 +23,7 @@ Autor: Proyecto TFG - Algoritmos Genéticos aplicados a MTG
 import os
 import json
 import random
+import re
 import subprocess
 import sys
 import time
@@ -30,7 +31,7 @@ import logging
 import csv
 import threading
 from datetime import datetime
-from collections import defaultdict
+from collections import defaultdict, Counter
 
 # Librerías de terceros
 import numpy as np
@@ -1048,211 +1049,451 @@ class MTGGeneticAlgorithm:
 
         return self.adjust_deck_size(child1), self.adjust_deck_size(child2)
     
-    def mutate_swap(self, deck_array):
-        """Mutación por intercambio: intercambia cartas entre posiciones.
+    # ==========================================================================
+    # MUTACIÓN PACK-LEVEL (siete operadores, todos self-balancing)
+    # ==========================================================================
+    #
+    # Principio de diseño: toda mutación es una SUSTITUCIÓN ATÓMICA
+    # (remove pack + add pack). Net 0 cartas siempre. Ver PLAN_MUTACION_PACK_LEVEL.md
+    # para la especificación completa.
+    # ==========================================================================
 
-        El gate de probabilidad vive únicamente en `evolve()`; aquí siempre
-        se aplica la mutación cuando se llama (antes había triple compuerta).
+    _PACK_ADD_WEIGHT = {2: 6, 1: 2, 0: 1}      # favorece aff alta
+    _PACK_REMOVE_WEIGHT = {0: 6, 1: 2, 2: 1}   # favorece aff baja
+
+    # Objetivo de cartas de removal por arquetipo (min, max)
+    _REMOVAL_TARGET = {
+        'aggro':    (2, 4),
+        'midrange': (4, 6),
+        'control':  (6, 10),
+    }
+
+    # Regex para detectar cartas de removal vía oracle_text.
+    _REMOVAL_PATTERN = re.compile(
+        r'destroy target|exile target|'
+        r'deals \d+ damage to (any target|target)|'
+        r'sacrifices? a |target creature gets -',
+        re.IGNORECASE,
+    )
+
+    def _get_deck_nonland_colors(self, deck_array):
+        """Conjunto de colores (WUBRG) de las cartas no-tierra del mazo."""
+        colors = set()
+        for card_id, count in enumerate(deck_array):
+            if count > 0:
+                card = self.card_catalog[card_id]
+                if not card['is_land']:
+                    colors.update(card['color_identity'])
+        return colors
+
+    def _pick_remove_pack(self, deck_array, archetype, filter_fn=None):
+        """Elige un card_id no-tierra presente en el mazo para eliminar.
+
+        Ponderado por inversa de afinidad (preserva lo que mejor encaja).
+        `filter_fn(card_id, card) -> bool` restringe a un subconjunto; si
+        no hay candidatos que pasen el filtro, se relaja a todo no-tierra.
+        Devuelve `None` si el mazo no tiene no-tierras.
         """
-        mutated = deck_array.copy()
-        num_swaps = random.randint(3, 8)
-
-        for _ in range(num_swaps):
-            nonzero_positions = np.where(mutated > 0)[0]
-            if len(nonzero_positions) < 2:
+        candidates, weights = [], []
+        relaxed_candidates, relaxed_weights = [], []
+        for card_id, count in enumerate(deck_array):
+            if count <= 0:
                 continue
-            
-            pos1, pos2 = random.sample(list(nonzero_positions), 2)
-            
-            if mutated[pos1] > 0 and mutated[pos2] < 4:
-                mutated[pos1] -= 1
-                mutated[pos2] += 1
-        
-        return mutated
-    
-    def mutate_add_remove(self, deck_array):
-        """Mutación por adición/remoción: puede añadir cartas NUEVAS o quitar existentes.
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            aff = self._archetype_card_affinity(card, archetype)
+            w = self._PACK_REMOVE_WEIGHT[aff]
+            relaxed_candidates.append(card_id)
+            relaxed_weights.append(w)
+            if filter_fn is None or filter_fn(card_id, card):
+                candidates.append(card_id)
+                weights.append(w)
+        if candidates:
+            return random.choices(candidates, weights=weights, k=1)[0]
+        if relaxed_candidates:
+            return random.choices(relaxed_candidates, weights=relaxed_weights, k=1)[0]
+        return None
 
-        El gate de probabilidad vive únicamente en `evolve()`.
+    def _pick_add_pack(self, deck_array, archetype, deck_colors, filter_fn=None):
+        """Elige un card_id ausente (count==0) para añadir como pack.
+
+        Ponderado por afinidad (favorece lo que mejor encaja). Respeta colores:
+        solo admite cartas incoloras o cuyos colores estén en `deck_colors`.
+        `filter_fn` restringe a un subconjunto; si no pasa nadie, se relaja.
+        Devuelve `None` si no hay candidatos.
         """
+        candidates, weights = [], []
+        relaxed_candidates, relaxed_weights = [], []
+        for card_id, card in self.card_catalog.items():
+            if deck_array[card_id] > 0 or card['is_land']:
+                continue
+            card_colors = set(card['color_identity'])
+            if card_colors and deck_colors and not card_colors.issubset(deck_colors):
+                continue
+            aff = self._archetype_card_affinity(card, archetype)
+            w = self._PACK_ADD_WEIGHT[aff]
+            relaxed_candidates.append(card_id)
+            relaxed_weights.append(w)
+            if filter_fn is None or filter_fn(card_id, card):
+                candidates.append(card_id)
+                weights.append(w)
+        if candidates:
+            return random.choices(candidates, weights=weights, k=1)[0]
+        if relaxed_candidates:
+            return random.choices(relaxed_candidates, weights=relaxed_weights, k=1)[0]
+        return None
+
+    def mutate_pack_swap(self, deck_array, archetype=None):
+        """Swap genérico: remove pack (baja afinidad) + add pack (alta afinidad)."""
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
         mutated = deck_array.copy()
-        num_changes = random.randint(3, 8)
 
-        for _ in range(num_changes):
-            if random.random() < 0.5:
-                # AÑADIR carta nueva - clave para exploración
-                valid_positions = np.where(mutated < 4)[0]
-                if len(valid_positions) > 0:
-                    pos = random.choice(valid_positions)
-                    mutated[pos] += 1
-            else:
-                # QUITAR carta existente
-                nonzero_positions = np.where(mutated > 0)[0]
-                if len(nonzero_positions) > 0:
-                    pos = random.choice(nonzero_positions)
-                    mutated[pos] -= 1
+        out_id = self._pick_remove_pack(mutated, archetype)
+        if out_id is not None:
+            mutated[out_id] = 0
 
-        return self.adjust_deck_size(mutated)
-    
-    def mutate_categorical(self, deck_array):
-        """Mutación por categorías: intercambia cartas dentro del mismo tipo.
-
-        El gate de probabilidad vive únicamente en `evolve()`.
-        """
-        mutated = deck_array.copy()
-
-        # Seleccionar una categoría aleatoria para mutar
-        available_categories = []
-
-        # Verificar qué categorías están disponibles en los índices
-        if hasattr(self, 'type_indices'):
-            for category, indices in self.type_indices.items():
-                if len(indices) > 1:  # Solo categorías con múltiples cartas
-                    available_categories.append(('type', category, indices))
-
-        if hasattr(self, 'color_indices'):
-            for color, indices in self.color_indices.items():
-                if len(indices) > 1:  # Solo colores con múltiples cartas
-                    available_categories.append(('color', color, indices))
-
-        if not available_categories:
-            # Si no hay categorías, hacer mutación simple
-            return self.mutate_add_remove(mutated)
-
-        # Elegir categoría aleatoria
-        category_type, category_name, category_indices = random.choice(available_categories)
-
-        num_swaps = random.randint(3, 6)
-        for _ in range(num_swaps):
-            # Encontrar cartas de esta categoría que están en el mazo
-            current_cards = [i for i in category_indices if mutated[i] > 0]
-            # Encontrar cartas de esta categoría que NO están al máximo
-            available_cards = [i for i in category_indices if mutated[i] < 4]
-
-            if len(current_cards) > 0 and len(available_cards) > 0:
-                # Estrategia 1: Reemplazar una carta por otra (70% del tiempo)
-                if random.random() < 0.7 and len(current_cards) > 0:
-                    remove_from = random.choice(current_cards)
-                    add_to = random.choice([i for i in available_cards if i != remove_from])
-
-                    if add_to:  # Verificar que encontramos una carta válida
-                        mutated[remove_from] -= 1
-                        mutated[add_to] += 1
-
-                # Estrategia 2: Solo añadir carta nueva de la categoría (30% del tiempo)
-                else:
-                    add_to = random.choice(available_cards)
-                    mutated[add_to] += 1
+        deck_colors = self._get_deck_nonland_colors(mutated)
+        in_id = self._pick_add_pack(mutated, archetype, deck_colors)
+        if in_id is not None:
+            mutated[in_id] = 4
 
         return self.adjust_deck_size(mutated)
 
-    def mutate_archetype_aware(self, deck_array, archetype=None):
-        """Mutación arquetipo-aware: sesga add/remove por afinidad con el arquetipo.
+    def mutate_pack_promote_compensated(self, deck_array, archetype=None):
+        """Completa un pack parcial a 4-of y compensa eliminando de otra carta.
 
-        - AÑADIR: pondera candidatos por `_archetype_card_affinity` (2→6, 1→2, 0→1).
-        - QUITAR: pondera cartas del mazo por INVERSA de la afinidad (0→6, 1→2, 2→1),
-          preservando las cartas que mejor encajan y expulsando las que no.
-          Las tierras se dejan en manos de `adjust_deck_size`.
-
-        Bajo la filosofía C (descendientes libres), detectamos el arquetipo del
-        mazo justo antes de mutar — un hijo heredado puede migrar de arquetipo
-        si la mutación lo desplaza, y esa migración es legítima.
-
-        Args:
-            deck_array: Array del mazo a mutar.
-            archetype: 'aggro' | 'midrange' | 'control' | None. Si None, se detecta.
-
-        Returns:
-            Array mutado (pasado por `adjust_deck_size`).
+        Identifica un card_id con 0<count<4 (alta afinidad preferente) y lo
+        sube a 4. Compensa decrementando `delta` copias de la carta con peor
+        afinidad del mazo (manteniendo net 0). Refuerza la norma 4-of.
         """
         if archetype is None:
             archetype = self.detect_archetype(deck_array)['archetype']
+        mutated = deck_array.copy()
+
+        # Candidatos a promoción: packs parciales no-tierra.
+        promote_candidates, promote_weights = [], []
+        for card_id, count in enumerate(mutated):
+            if not (0 < count < 4):
+                continue
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            aff = self._archetype_card_affinity(card, archetype)
+            promote_candidates.append(card_id)
+            promote_weights.append(self._PACK_ADD_WEIGHT[aff])
+
+        if not promote_candidates:
+            return self.mutate_pack_swap(mutated, archetype)  # fallback
+
+        target_id = random.choices(promote_candidates, weights=promote_weights, k=1)[0]
+        delta = 4 - int(mutated[target_id])
+        mutated[target_id] = 4
+
+        # Compensar: quitar `delta` copias de la(s) carta(s) con peor afinidad.
+        remaining = delta
+        while remaining > 0:
+            compensate_id = self._pick_remove_pack(
+                mutated, archetype,
+                filter_fn=lambda cid, c, tid=target_id: cid != tid
+            )
+            if compensate_id is None:
+                break
+            take = min(remaining, int(mutated[compensate_id]))
+            mutated[compensate_id] -= take
+            remaining -= take
+
+        return self.adjust_deck_size(mutated)
+
+    def mutate_pack_curve_shift(self, deck_array, archetype=None):
+        """Empuja la curva de maná hacia el rango ideal del arquetipo.
+
+        Si avg_cmc está por encima del ideal: swap pack de CMC alto → CMC bajo.
+        Si está por debajo: al revés. Si está en rango: fallback a pack_swap.
+        """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+        mutated = deck_array.copy()
+
+        ideal = self.ARCHETYPE_COHERENCE_IDEALS.get(archetype)
+        if not ideal:
+            return self.mutate_pack_swap(mutated, archetype)
+        cmc_low, cmc_high = ideal['avg_cmc']
+
+        info = self.detect_archetype(mutated)
+        avg_cmc = info['avg_cmc']
+
+        if cmc_low <= avg_cmc <= cmc_high:
+            return self.mutate_pack_swap(mutated, archetype)  # curva ya ideal
+
+        shift_down = avg_cmc > cmc_high  # sobra curva → bajar
+        target_cmc = cmc_low if shift_down else cmc_high
+
+        def remove_filter(cid, card):
+            return (card['cmc'] > cmc_high) if shift_down else (card['cmc'] < cmc_low)
+
+        def add_filter(cid, card):
+            return (card['cmc'] <= target_cmc) if shift_down else (card['cmc'] >= target_cmc)
+
+        out_id = self._pick_remove_pack(mutated, archetype, filter_fn=remove_filter)
+        if out_id is not None:
+            mutated[out_id] = 0
+
+        deck_colors = self._get_deck_nonland_colors(mutated)
+        in_id = self._pick_add_pack(mutated, archetype, deck_colors, filter_fn=add_filter)
+        if in_id is not None:
+            mutated[in_id] = 4
+
+        return self.adjust_deck_size(mutated)
+
+    def mutate_pack_removal_injection(self, deck_array, archetype=None):
+        """Refuerza el paquete de removal si está por debajo del target.
+
+        Cuenta cartas con oracle_text de removal. Si el total no llega al
+        mínimo del arquetipo, swap no-removal → removal.
+        Si ya está en target o por encima: fallback a pack_swap.
+        """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+        mutated = deck_array.copy()
+
+        removal_min, _ = self._REMOVAL_TARGET.get(archetype, (4, 6))
+
+        def is_removal(card):
+            if card['is_land']:
+                return False
+            text = card.get('oracle_text', '') or ''
+            return bool(self._REMOVAL_PATTERN.search(text))
+
+        # Contar copias de removal en el mazo.
+        removal_count = 0
+        for card_id, count in enumerate(mutated):
+            if count > 0 and is_removal(self.card_catalog[card_id]):
+                removal_count += count
+
+        if removal_count >= removal_min:
+            return self.mutate_pack_swap(mutated, archetype)  # ya suficiente
+
+        # Remove: carta no-removal. Add: carta de removal.
+        def remove_filter(cid, card):
+            return not is_removal(card)
+
+        def add_filter(cid, card):
+            return is_removal(card)
+
+        out_id = self._pick_remove_pack(mutated, archetype, filter_fn=remove_filter)
+        if out_id is not None:
+            mutated[out_id] = 0
+
+        deck_colors = self._get_deck_nonland_colors(mutated)
+        in_id = self._pick_add_pack(mutated, archetype, deck_colors, filter_fn=add_filter)
+        if in_id is not None:
+            mutated[in_id] = 4
+
+        return self.adjust_deck_size(mutated)
+
+    def mutate_pack_splash_prune(self, deck_array, archetype=None):
+        """Consolida manabase eliminando un color splash marginal.
+
+        Si el mazo es 3+ colores y uno tiene demanda de pips ≤ 2: quita una
+        carta del color splash y mete una del color mayoritario.
+        Si no hay splash: fallback a pack_swap.
+        """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+        mutated = deck_array.copy()
+
+        pip_demand = {c: 0 for c in 'WUBRG'}
+        for card_id, count in enumerate(mutated):
+            if count <= 0:
+                continue
+            card = self.card_catalog[card_id]
+            if card['is_land']:
+                continue
+            mana_cost = card.get('mana_cost', '') or ''
+            for color in 'WUBRG':
+                pip_demand[color] += count * mana_cost.count('{' + color + '}')
+
+        active_colors = [c for c, d in pip_demand.items() if d > 0]
+        if len(active_colors) < 3:
+            return self.mutate_pack_swap(mutated, archetype)
+
+        splash_colors = [c for c in active_colors if pip_demand[c] <= 2]
+        if not splash_colors:
+            return self.mutate_pack_swap(mutated, archetype)
+
+        splash = min(splash_colors, key=lambda c: pip_demand[c])
+        dominant = max(active_colors, key=lambda c: pip_demand[c])
+
+        def remove_filter(cid, card):
+            return splash in card['color_identity']
+
+        def add_filter(cid, card):
+            ci = set(card['color_identity'])
+            return dominant in ci and splash not in ci
+
+        out_id = self._pick_remove_pack(mutated, archetype, filter_fn=remove_filter)
+        if out_id is not None:
+            mutated[out_id] = 0
+
+        # Para add, ignoramos deck_colors estándar y exigimos dominante sin splash.
+        in_id = self._pick_add_pack(mutated, archetype, set('WUBRG'), filter_fn=add_filter)
+        if in_id is not None:
+            mutated[in_id] = 4
+
+        return self.adjust_deck_size(mutated)
+
+    def mutate_pack_threat_upgrade(self, deck_array, archetype=None):
+        """Sustituye una criatura por otra de igual CMC con mejor power+toughness.
+
+        Solo activo en aggro/midrange. Si no hay upgrade disponible:
+        fallback a pack_swap.
+        """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+        if archetype == 'control':
+            return self.mutate_pack_swap(deck_array, archetype)
 
         mutated = deck_array.copy()
-        num_changes = random.randint(3, 8)
 
-        add_weight = {2: 6, 1: 2, 0: 1}
-        remove_weight = {0: 6, 1: 2, 2: 1}
+        def creature_stats(card):
+            if not card['is_creature']:
+                return None
+            try:
+                p = int(card.get('power') or 0)
+                t = int(card.get('toughness') or 0)
+            except (ValueError, TypeError):
+                return None  # power/toughness no numéricos (*, X, etc.)
+            return p + t
 
-        for _ in range(num_changes):
-            if random.random() < 0.5:
-                # AÑADIR: candidatos = cartas no-tierra con cuenta < 4
-                candidates = []
-                weights = []
-                for card_id, card in self.card_catalog.items():
-                    if mutated[card_id] >= 4 or card['is_land']:
-                        continue
-                    aff = self._archetype_card_affinity(card, archetype)
-                    candidates.append(card_id)
-                    weights.append(add_weight[aff])
-                if candidates:
-                    chosen = random.choices(candidates, weights=weights, k=1)[0]
-                    mutated[chosen] += 1
-            else:
-                # QUITAR: candidatos = cartas del mazo (no-tierra preferente)
-                nonzero = np.where(mutated > 0)[0]
-                if len(nonzero) == 0:
-                    continue
-                candidates = []
-                weights = []
-                for card_id in nonzero:
-                    cid = int(card_id)
-                    card = self.card_catalog[cid]
-                    if card['is_land']:
-                        # Permitir quitar tierras con peso bajo; adjust_deck_size compensa.
-                        candidates.append(cid)
-                        weights.append(1)
-                    else:
-                        aff = self._archetype_card_affinity(card, archetype)
-                        candidates.append(cid)
-                        weights.append(remove_weight[aff])
-                chosen = random.choices(candidates, weights=weights, k=1)[0]
-                mutated[chosen] -= 1
+        # Encontrar criaturas del mazo con stats numéricos.
+        creatures_in_deck = []
+        for card_id, count in enumerate(mutated):
+            if count <= 0:
+                continue
+            card = self.card_catalog[card_id]
+            stats = creature_stats(card)
+            if stats is not None:
+                creatures_in_deck.append((card_id, card, stats))
+
+        if not creatures_in_deck:
+            return self.mutate_pack_swap(mutated, archetype)
+
+        # Elegir criatura a mejorar (preferir baja afinidad + bajos stats).
+        random.shuffle(creatures_in_deck)
+        deck_colors = self._get_deck_nonland_colors(mutated)
+        for out_id, out_card, out_stats in creatures_in_deck:
+            target_cmc = out_card['cmc']
+
+            def add_filter(cid, card, cmc=target_cmc, baseline=out_stats):
+                if not card['is_creature'] or card['cmc'] != cmc:
+                    return False
+                new_stats = creature_stats(card)
+                return new_stats is not None and new_stats > baseline
+
+            in_id = self._pick_add_pack(mutated, archetype, deck_colors, filter_fn=add_filter)
+            if in_id is not None:
+                mutated[out_id] = 0
+                mutated[in_id] = 4
+                return self.adjust_deck_size(mutated)
+
+        # Ningún upgrade posible: fallback.
+        return self.mutate_pack_swap(mutated, archetype)
+
+    def mutate_pack_tribal_consolidate(self, deck_array, archetype=None):
+        """Mete criaturas del subtipo dominante del mazo.
+
+        Parsea `type_line` para extraer subtipos de criaturas del mazo,
+        identifica el más común, y hace swap: criatura de otro subtipo →
+        criatura del subtipo dominante.
+        Si no hay subtipo claro: fallback a pack_swap.
+        """
+        if archetype is None:
+            archetype = self.detect_archetype(deck_array)['archetype']
+        mutated = deck_array.copy()
+
+        def subtypes_of(card):
+            if not card['is_creature']:
+                return set()
+            tl = card.get('type_line', '') or ''
+            if '—' not in tl:
+                return set()
+            return set(tl.split('—', 1)[1].split())
+
+        # Contar subtipos representados en el mazo (ponderado por copias).
+        subtype_counts = Counter()
+        for card_id, count in enumerate(mutated):
+            if count <= 0:
+                continue
+            for st in subtypes_of(self.card_catalog[card_id]):
+                subtype_counts[st] += count
+
+        if not subtype_counts:
+            return self.mutate_pack_swap(mutated, archetype)
+
+        dominant_subtype, dom_count = subtype_counts.most_common(1)[0]
+        if dom_count < 4:  # muy minoritario, no merece la pena
+            return self.mutate_pack_swap(mutated, archetype)
+
+        def remove_filter(cid, card):
+            return (card['is_creature']
+                    and dominant_subtype not in subtypes_of(card))
+
+        def add_filter(cid, card):
+            return (card['is_creature']
+                    and dominant_subtype in subtypes_of(card))
+
+        out_id = self._pick_remove_pack(mutated, archetype, filter_fn=remove_filter)
+        if out_id is not None:
+            mutated[out_id] = 0
+
+        deck_colors = self._get_deck_nonland_colors(mutated)
+        in_id = self._pick_add_pack(mutated, archetype, deck_colors, filter_fn=add_filter)
+        if in_id is not None:
+            mutated[in_id] = 4
 
         return self.adjust_deck_size(mutated)
 
     def mutate_adaptive(self, deck_array, generation=0, stagnation_counter=0):
-        """Mutación adaptiva que cambia estrategia según el progreso del algoritmo.
+        """Mutación adaptiva pack-level: aplica 1–3 ops pack por llamada.
 
-        El gate de probabilidad vive únicamente en `evolve()`.
-        La estrategia `archetype_aware` lleva el peso dominante en todos los
-        regímenes (filosofía QD: mantener nichos vivos durante la exploración).
+        Dispatcher sobre los 7 operadores pack (todos self-balancing).
+        Pesos por régimen (ver PLAN_MUTACION_PACK_LEVEL.md §3.4).
         """
-        # Adaptar estrategia según el estado del algoritmo
+        strategies = ['pack_swap', 'pack_promote', 'pack_curve',
+                      'pack_removal', 'pack_splash', 'pack_threat', 'pack_tribal']
+
         if stagnation_counter > 10:
-            # Estancamiento fuerte: subir exploración agresiva, bajar el sesgo arquetípico
-            strategies = ['archetype_aware', 'add_remove', 'categorical', 'swap']
-            weights = [0.3, 0.4, 0.2, 0.1]
+            weights = [0.50, 0.05, 0.10, 0.10, 0.10, 0.10, 0.05]
         elif stagnation_counter > 5:
-            # Estancamiento moderado
-            strategies = ['archetype_aware', 'add_remove', 'swap', 'categorical']
-            weights = [0.4, 0.3, 0.2, 0.1]
+            weights = [0.40, 0.10, 0.10, 0.10, 0.10, 0.10, 0.10]
         elif generation > 50:
-            # Avanzadas: explotar arquetipo ya definido
-            strategies = ['archetype_aware', 'swap', 'add_remove', 'categorical']
-            weights = [0.5, 0.25, 0.15, 0.1]
+            weights = [0.20, 0.20, 0.15, 0.10, 0.10, 0.15, 0.10]
         else:
-            # Iniciales: explorar con sesgo arquetípico moderado
-            strategies = ['archetype_aware', 'add_remove', 'categorical', 'swap']
-            weights = [0.45, 0.3, 0.15, 0.1]
+            weights = [0.25, 0.15, 0.15, 0.10, 0.10, 0.15, 0.10]
 
-        strategy = random.choices(strategies, weights=weights)[0]
+        num_ops = random.randint(1, 3)
+        mutated = deck_array
 
-        if strategy == 'archetype_aware':
-            return self.mutate_archetype_aware(deck_array)
-        elif strategy == 'swap':
-            return self.mutate_swap(deck_array)
-        elif strategy == 'add_remove':
-            return self.mutate_add_remove(deck_array)
-        else:  # categorical
-            return self.mutate_categorical(deck_array)
+        dispatch = {
+            'pack_swap':     self.mutate_pack_swap,
+            'pack_promote':  self.mutate_pack_promote_compensated,
+            'pack_curve':    self.mutate_pack_curve_shift,
+            'pack_removal':  self.mutate_pack_removal_injection,
+            'pack_splash':   self.mutate_pack_splash_prune,
+            'pack_threat':   self.mutate_pack_threat_upgrade,
+            'pack_tribal':   self.mutate_pack_tribal_consolidate,
+        }
+
+        for _ in range(num_ops):
+            strategy = random.choices(strategies, weights=weights, k=1)[0]
+            mutated = dispatch[strategy](mutated)
+
+        return mutated
 
     def mutate(self, deck_array, generation=0, stagnation_counter=0):
-        """Dispatcher de mutación — siempre delega en `mutate_adaptive`.
-
-        Fase 3: eliminada la rama `mutate_hybrid` (nunca alcanzable desde
-        `evolve()` porque `generation >= 1` en todas las llamadas reales).
-        """
+        """Dispatcher de mutación — delega en `mutate_adaptive` pack-level."""
         return self.mutate_adaptive(deck_array, generation, stagnation_counter)
     
     def _archetype_card_affinity(self, card, archetype):
