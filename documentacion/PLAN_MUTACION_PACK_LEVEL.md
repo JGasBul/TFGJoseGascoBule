@@ -42,68 +42,92 @@ Este cambio se alinea con cómo un jugador humano construye un mazo de construct
 
 ## 3. Diseño de los operadores
 
-### 3.1 Mutación
+### 3.0 Principio de diseño: todos los operadores son self-balancing
 
-Cuatro estrategias pack-level que **reemplazan** a las actuales:
+Tras debate (2026-04-20), se descarta tener `pack_add` y `pack_remove` como operadores atómicos. Motivo: cada uno produciría un desbalance de ±N cartas que `adjust_deck_size` resolvería cortando/añadiendo **aleatoriamente**, rompiendo packs 4-of existentes y generando el mismo ruido que estamos intentando eliminar.
 
-#### `mutate_pack_add`
-Añade una carta nueva (count=0) al mazo como **4-of directo**.
+**Regla general:** todo operador pack **elimina y añade packs en la misma operación** (siempre net 0 cartas). La limpieza residual de tierras/colores la sigue haciendo `adjust_deck_size` (PASO 2-4), que no altera counts de no-tierras.
 
-- Elegir `card_id` con `count == 0` del pool apropiado al mazo (respeta colores).
-- `mutated[card_id] = 4`.
-- Delta: +4 cartas en el mazo (posteriormente `adjust_deck_size` recorta).
+### 3.1 Operadores pack (lista definitiva)
 
-#### `mutate_pack_remove`
-Elimina un pack entero.
+Siete operadores pack-level. Cada uno es una **sustitución atómica (swap) con sesgo específico**.
 
-- Elegir `card_id` con `count > 0` (prioritariamente cartas no-tierra).
-- `mutated[card_id] = 0`.
-- Delta: -N cartas en el mazo (N ∈ [1, 4]).
+#### 1. `mutate_pack_swap` (genérico, exploratorio)
+- Remove: card_id no-tierra con `count > 0`, ponderado por inversa de afinidad arquetípica.
+- Add: card_id con `count == 0`, color-compatible, ponderado por afinidad.
+- Efecto: swap genérico, base del dispatcher.
 
-#### `mutate_pack_swap`
-Sustituye un pack por otro.
+#### 2. `mutate_pack_promote_compensated` (conservador, norma 4-of)
+- Identifica un pack parcial (card_id con `0 < count < 4`) de alta afinidad.
+- Lo completa a 4 (añade `4 − count` copias).
+- Compensa eliminando `4 − count` copias de la carta de **peor afinidad** del mazo.
+- Efecto: refuerza la norma 4-of sin cambiar identidad estructural.
 
-- Elegir `card_id_out` con `count > 0` no-tierra.
-- Elegir `card_id_in` con `count == 0` del pool apropiado.
-- `mutated[card_id_out] = 0`; `mutated[card_id_in] = 4`.
-- Delta: -N+4. Sesgado por afinidad arquetípica (ver `_archetype_card_affinity`).
+#### 3. `mutate_pack_curve_shift` (MTG: curva arquetípica)
+- Calcula `avg_cmc` actual y lo compara con `ARCHETYPE_COHERENCE_IDEALS[archetype]['avg_cmc']`.
+- Si `avg_cmc > ideal_high`: remove pack con CMC alto, add pack con CMC bajo (o viceversa).
+- Si está en rango: fallback a `pack_swap`.
+- Efecto: empuja la curva de maná hacia el ideal del arquetipo detectado.
 
-#### `mutate_pack_promote`
-Completa un pack parcial a 4-of (refuerza la norma sin cambiar identidad).
+#### 4. `mutate_pack_removal_injection` (MTG: respuestas)
+- Cuenta cartas del mazo cuyo `oracle_text` coincide con patrones de removal (`destroy target`, `exile target`, `deals \d+ damage to`, `sacrifices a`, `target creature gets -`).
+- Target de removal por arquetipo: aggro 2-4, midrange 4-6, control 6-10.
+- Si está por debajo: swap no-removal por removal del color del mazo.
+- Efecto: imita la decisión humana de "necesito más respuestas".
 
-- Elegir `card_id` con `0 < count < 4` (prioritariamente el de mayor afinidad con el arquetipo).
-- `mutated[card_id] = 4`.
-- Delta: +N (N ∈ [1, 3]).
+#### 5. `mutate_pack_splash_prune` (MTG: consolida manabase)
+- Calcula demanda de pips por color (como `rebalance_manabase`).
+- Si el mazo es 3+ colores y uno tiene demanda ≤ 2 (splash marginal): identifica el color splash.
+- Remove: card del color splash. Add: card del color mayoritario.
+- Efecto: reduce dispersión de manabase a cambio de consistencia.
+
+#### 6. `mutate_pack_threat_upgrade` (MTG: subir tamaño de criaturas)
+- Solo aplica para aggro/midrange.
+- Para cada criatura del mazo con `power`/`toughness` numéricos, busca criaturas **de igual CMC** pero con mayor `power + toughness`.
+- Remove: pack de criatura con stats bajos. Add: pack de criatura con stats altos (mismo CMC, color-compatible).
+- Efecto: optimiza el paquete de amenazas sin alterar la curva.
+
+#### 7. `mutate_pack_tribal_consolidate` (MTG: sinergia tribal)
+- Parsea `type_line` de las criaturas del mazo para extraer subtipos (tras el "—").
+- Identifica el subtipo más representado.
+- Busca criaturas fuera del mazo con ese subtipo y color compatible.
+- Remove: criatura de otro subtipo. Add: criatura del subtipo dominante.
+- Efecto: empuja hacia un paquete tribal coherente (goblins, elfos, humanos, etc.).
 
 ### 3.2 Número de operaciones por mutación
 
-**Cambio de rango:** de `num_changes ∈ [3, 8]` (copias) a `num_changes ∈ [1, 3]` (packs).
-
-Justificación: cada operación pack afecta ~4 slots, así que 1-3 ops = 4-12 slots tocados = delta similar al actual (3-8 copias) pero **sin ruido 1-of**.
+`num_ops ∈ [1, 3]` operaciones pack por llamada a `mutate()`. Cada op toca ~4-8 slots. Total ≤12-24 slots = cambio estructural significativo sin ruido 1-of.
 
 ### 3.3 Archetype-aware
 
-`mutate_archetype_aware` se mantiene como estrategia top del dispatcher, pero las decisiones ADD/REMOVE pasan a ser pack-level. El sesgo por `_archetype_card_affinity` se mantiene: cartas con `aff=2` son prioritarias para `pack_add`/`pack_promote`; cartas con `aff=0` son prioritarias para `pack_remove`.
+Todos los operadores detectan el arquetipo internamente vía `detect_archetype()` y usan `_archetype_card_affinity` para ponderar candidatos. El arquetipo se re-detecta cada op (puede migrar durante la mutación).
 
 ### 3.4 Dispatcher
 
-`mutate_adaptive` mantiene los mismos regímenes (estancamiento fuerte / moderado / avanzado / inicial) pero con el nuevo catálogo de estrategias:
+Pesos por régimen evolutivo:
 
-| Régimen | pack_swap | pack_add | pack_remove | pack_promote |
-|---|---|---|---|---|
-| Inicial (gen < 50) | 0.40 | 0.25 | 0.20 | 0.15 |
-| Avanzado (gen ≥ 50) | 0.50 | 0.15 | 0.20 | 0.15 |
-| Estancamiento moderado (>5) | 0.30 | 0.30 | 0.25 | 0.15 |
-| Estancamiento fuerte (>10) | 0.25 | 0.35 | 0.30 | 0.10 |
+| Régimen | swap | promote | curve | removal | splash | threat | tribal |
+|---|---|---|---|---|---|---|---|
+| Inicial (gen < 50)            | 25% | 15% | 15% | 10% | 10% | 15% | 10% |
+| Avanzado (gen ≥ 50)           | 20% | 20% | 15% | 10% | 10% | 15% | 10% |
+| Estancamiento moderado (>5)   | 40% | 10% | 10% | 10% | 10% | 10% | 10% |
+| Estancamiento fuerte (>10)    | 50% |  5% | 10% | 10% | 10% | 10% |  5% |
 
 Notas:
-- `pack_swap` es el operador exploratorio natural (cambia identidad manteniendo tamaño aproximado).
-- `pack_add` sube en estancamiento (más exploración de cartas nuevas).
-- `pack_promote` ayuda a cerrar la consolidación cuando quedan packs parciales de PASO 3/4.
+- `pack_swap` sube en estancamiento (exploración máxima).
+- `pack_promote_compensated` baja en estancamiento (si el mazo está atascado, no es momento de consolidar sino de probar cosas).
+- Los operadores MTG-temáticos mantienen pesos estables — su función es sostenida a lo largo de la ejecución.
 
-### 3.5 `mutate_categorical`
+### 3.5 Fallback
 
-Se retira. Su función (diversidad por tipo/color) queda cubierta por `pack_add`/`pack_swap` con sesgo arquetípico. Mantenerla pack-aware duplicaría esfuerzo sin aporte claro.
+Cada operador MTG-temático comprueba si tiene candidatos viables (mazo ya en rango de curva, sin splash, etc.). Si no los tiene, **cae a `pack_swap` genérico**. Así ningún régimen queda "ciego".
+
+### 3.6 Operadores retirados
+
+Se eliminan del código:
+- `mutate_swap`, `mutate_add_remove`, `mutate_categorical`, `mutate_archetype_aware`.
+
+Motivo: todos operaban por copias sueltas y sus funciones quedan subsumidas por los 7 operadores pack.
 
 ---
 
