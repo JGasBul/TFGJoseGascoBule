@@ -2913,7 +2913,8 @@ class MTGGeneticAlgorithm:
                 'k_rounds': self.k_rounds,
                 'n_games_per_match': self.n_games_per_match,
                 'timestamp': datetime.now().isoformat(),
-                'hall_of_fame': []
+                'hall_of_fame': [],
+                'generation_stats': list(self.generation_stats) if hasattr(self, 'generation_stats') else []
             }
 
             # Guardar Hall of Fame si existe
@@ -3003,6 +3004,9 @@ class MTGGeneticAlgorithm:
                     (entry['fitness'], np.array(entry['array'], dtype=int))
                     for entry in checkpoint_data['hall_of_fame']
                 ]
+
+            if 'generation_stats' in checkpoint_data:
+                self.generation_stats = list(checkpoint_data['generation_stats'])
 
             self.logger.info(f"Checkpoint cargado: Generación {checkpoint_data['generation']}")
             self.logger.info(f"  Best fitness: {self.best_fitness_ever:.4f} (derivado del HoF)")
