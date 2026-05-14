@@ -666,6 +666,11 @@ class MTGGeneticAlgorithm:
             
             cleaned_count = 0
             for filename in files:
+                # Preservar anchors del gauntlet tier-1 (Fase 7).
+                # Los anchors deben sobrevivir a la limpieza inicial; si no,
+                # Forge no encuentra los .dck cuando intenta jugar contra ellos.
+                if filename.startswith('Gauntlet_'):
+                    continue
                 filepath = os.path.join(target_dir, filename)
                 try:
                     if os.path.isfile(filepath):  # Solo archivos, no directorios
@@ -3280,10 +3285,6 @@ class MTGGeneticAlgorithm:
         self.logger.info(f"Configuración: {self.population_size} mazos, {self.max_generations} generaciones")
         self.logger.info(f"Paralelización: {self.max_workers} workers, timeout {self.base_timeout}s")
 
-        # Fase 7: cargar gauntlet tier-1 si está configurado (idempotente).
-        # Si gauntlet_path es None o la carpeta no tiene .dck, queda desactivado y γ_t = 0.
-        self.load_gauntlet()
-
         termination_reason = "max_generations_reached"
         best_deck = None
         start_generation = 0
@@ -3353,6 +3354,11 @@ class MTGGeneticAlgorithm:
                 self.clean_hall_of_fame_directory()
                 self.clean_forge_decks()
 
+                # Fase 7: cargar gauntlet tier-1 DESPUÉS de la limpieza para que
+                # los .dck de los anchors no se borren. Idempotente — si gauntlet
+                # desactivado, es no-op y γ_t = 0.
+                self.load_gauntlet()
+
                 self.logger.info("Evaluando población inicial con procesamiento paralelo...")
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
                 self.save_population_arrays(0)
@@ -3372,6 +3378,10 @@ class MTGGeneticAlgorithm:
             else:
                 # stagnation_counter ya restaurado en load_checkpoint
                 self.current_fitness_values = fitness_values
+                # Fase 7: si reanudamos desde checkpoint, también cargamos el gauntlet
+                # (no se ejecutó clean_forge_decks, los anchors viejos pueden estar
+                # presentes o no; re-escribirlos es idempotente y barato).
+                self.load_gauntlet()
 
             # BUCLE PRINCIPAL CON CONTROL DE TERMINACIÓN MEJORADO
             for generation in range(start_generation + 1 if start_generation > 0 else 1, self.max_generations + 1):
