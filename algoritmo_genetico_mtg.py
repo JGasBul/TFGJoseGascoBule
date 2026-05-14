@@ -1124,6 +1124,14 @@ class MTGGeneticAlgorithm:
                 name = parts[1].strip()
                 cid = self._name_to_card_id.get(name)
                 if cid is None:
+                    # DFC fallback: muchas decklists abrevian "Front" en lugar
+                    # de "Front // Back". Buscar la primera entrada con prefijo.
+                    prefix = name + ' //'
+                    for cand_name, cand_id in self._name_to_card_id.items():
+                        if cand_name.startswith(prefix):
+                            cid = cand_id
+                            break
+                if cid is None:
                     unknown.append(name)
                     continue
                 array[cid] += count
