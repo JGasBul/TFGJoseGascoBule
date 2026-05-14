@@ -84,7 +84,11 @@ class MTGGeneticAlgorithm:
                  # PARÁMETROS DE FITNESS MULTI-COMPONENTE (optimizados)
                  fitness_alpha=0.5,               # Fase 4: win rate 50% (antes 0.6)
                  fitness_beta=0.5,                # Fase 4: calidad 50% (antes 0.4) — paridad α=β
-                 enable_quality_metrics=True):
+                 enable_quality_metrics=True,
+                 # PARÁMETROS GAUNTLET TIER-1 (Fase 7)
+                 gauntlet_path=None,              # Carpeta con .dck de mazos-ancla (None = gauntlet desactivado)
+                 gauntlet_gamma_min=0.05,         # Peso γ inicial (gen 0). Currículum lineal.
+                 gauntlet_gamma_max=0.30):        # Peso γ final (última gen).
         """
         Inicializa el algoritmo genético con todos sus parámetros
 
@@ -138,6 +142,13 @@ class MTGGeneticAlgorithm:
         self.fitness_beta = fitness_beta
         self.enable_quality_metrics = enable_quality_metrics
 
+        # CONFIGURACIÓN GAUNTLET TIER-1 (Fase 7)
+        self.gauntlet_path = gauntlet_path
+        self.gauntlet_gamma_min = gauntlet_gamma_min
+        self.gauntlet_gamma_max = gauntlet_gamma_max
+        self.gauntlet_decks = []           # Se carga en load_gauntlet(); vacío = gauntlet desactivado
+        self.gauntlet_metadata = []        # Lista de dicts con nombre, arquetipo, fuente, fecha
+
         # CONFIGURACIÓN DE PARALELIZACIÓN
         self.max_workers = max_workers if max_workers else max(2, cpu_count() // 2)
         self.parallel_batch_size = parallel_batch_size if parallel_batch_size else self.max_workers * 3
@@ -174,6 +185,14 @@ class MTGGeneticAlgorithm:
                 self.basic_lands_ids[card['name']] = card_id
 
         self.logger.debug(f"Tierras básicas identificadas: {list(self.basic_lands_ids.keys())}")
+
+        # Índice inverso name → card_id (Fase 7: parseo de .dck del gauntlet).
+        # Si hay duplicados de nombre, el primero gana (suficiente para básicas y la mayoría de cartas).
+        self._name_to_card_id = {}
+        for cid, card in self.card_catalog.items():
+            name = card.get('name')
+            if name and name not in self._name_to_card_id:
+                self._name_to_card_id[name] = cid
 
         # Máscaras booleanas por categoría (para `crossover_archetype`, Fase 4).
         # Precomputadas para evitar iterar el catálogo en cada cruce.
@@ -493,6 +512,22 @@ class MTGGeneticAlgorithm:
                 'hall_of_fame_size': len(getattr(self, 'hall_of_fame_arrays', [])),
                 'stagnation_counter': getattr(self, 'stagnation_counter', 0)
             }
+
+            # Fase 7: bloque de gauntlet (vacío si gauntlet desactivado)
+            if getattr(self, 'gauntlet_decks', None):
+                winrates = getattr(self, 'last_gauntlet_winrates', [])
+                matchup = getattr(self, 'last_gauntlet_matchup', [])
+                compact_data['gauntlet'] = {
+                    'n_anchors': len(self.gauntlet_decks),
+                    'gamma_t': float(getattr(self, 'last_gauntlet_gamma', 0.0)),
+                    'winrates_per_deck': [float(w) for w in winrates],
+                    'matchup_matrix': matchup,
+                    'avg_winrate': float(np.mean(winrates)) if winrates else 0.0,
+                    'anchors': [
+                        {'forge_name': m['forge_name'], 'name': m.get('name'), 'archetype': m.get('archetype')}
+                        for m in self.gauntlet_metadata
+                    ],
+                }
 
             compact_filename = os.path.join(
                 self.output_dir, 
@@ -839,8 +874,37 @@ class MTGGeneticAlgorithm:
                     'deck1_idx': deck1_idx,
                     'deck2_idx': deck2_idx,
                     'reverse': False,
-                    'headless_mode': self.headless_mode
+                    'headless_mode': self.headless_mode,
+                    'is_gauntlet': False,
                 })
+
+        # === GAUNTLET TIER-1 (Fase 7) ===
+        # Cada candidato juega 1 partida BO1 contra cada anchor. Las tareas se
+        # añaden al mismo combat_tasks → mismo ProcessPoolExecutor → mismo paralelismo.
+        n_anchors = len(self.gauntlet_decks)
+        gauntlet_wins = [[0] * n_anchors for _ in range(n_decks)]
+        gauntlet_played = [[False] * n_anchors for _ in range(n_decks)]
+        if n_anchors > 0:
+            self.logger.info(f"=== GAUNTLET TIER-1: {n_anchors} anchors × {n_decks} candidatos ===")
+            for i in range(n_decks):
+                for a, meta in enumerate(self.gauntlet_metadata):
+                    match_count += 1
+                    match_id = f"Gen{generation}_Gauntlet_D{i}_A{a}_{int(time.time())}"
+                    combat_tasks.append({
+                        'deck1_name': deck_names[i],
+                        'deck2_name': meta['forge_name'],
+                        'forge_jar_path': self.forge_jar_path,
+                        'forge_root': self.forge_root,
+                        'timeout': self.adaptive_timeout,
+                        'match_id': match_id,
+                        'generation': generation,
+                        'forge_output_dir': self.forge_output_dir,
+                        'deck1_idx': i,
+                        'deck2_idx': a,
+                        'reverse': False,
+                        'headless_mode': self.headless_mode,
+                        'is_gauntlet': True,
+                    })
         
         total_combats = len(combat_tasks)
         if self.use_swiss_tournament:
@@ -879,17 +943,21 @@ class MTGGeneticAlgorithm:
                         
                         if result['success']:
                             successful_combats += 1
-                            # Actualizar contadores de victorias
                             i = task['deck1_idx']
                             j = task['deck2_idx']
-                            
-                            if result['return_value'] == 1:
-                                wins[i] += 1
+
+                            if task.get('is_gauntlet'):
+                                # i = pop_idx, j = anchor_idx. result['return_value']=1 → ganó deck1 (el candidato).
+                                gauntlet_played[i][j] = True
+                                if result['return_value'] == 1:
+                                    gauntlet_wins[i][j] = 1
                             else:
-                                wins[j] += 1
-                            
-                            games[i] += 1
-                            games[j] += 1
+                                if result['return_value'] == 1:
+                                    wins[i] += 1
+                                else:
+                                    wins[j] += 1
+                                games[i] += 1
+                                games[j] += 1
                         else:
                             failed_combats += 1
                             if result['winner'] == 'TIMEOUT':
@@ -903,6 +971,20 @@ class MTGGeneticAlgorithm:
                     
                     pbar.update(1)
         
+        # Win-rate de cada candidato contra el gauntlet (Fase 7)
+        gauntlet_winrates = [0.0] * n_decks
+        if n_anchors > 0:
+            for i in range(n_decks):
+                gauntlet_winrates[i] = sum(gauntlet_wins[i]) / n_anchors
+
+        # γ(t) lineal — 0 si gauntlet desactivado
+        gamma_t = self.current_gauntlet_gamma(generation)
+
+        # Persistir para `update_statistics` y `save_population_arrays`
+        self.last_gauntlet_winrates = gauntlet_winrates
+        self.last_gauntlet_matchup = gauntlet_wins
+        self.last_gauntlet_gamma = gamma_t
+
         # Calcular fitness (multi-componente si está habilitado)
         fitness_values = []
         quality_values = []  # Para logging
@@ -919,14 +1001,29 @@ class MTGGeneticAlgorithm:
                 deck_quality = self.calculate_deck_quality(self.population_arrays[i])
                 quality_values.append(deck_quality)
 
-                # Fitness combinado: α * win_rate + β * deck_quality
-                fitness = (self.fitness_alpha * win_rate) + (self.fitness_beta * deck_quality)
-
-                self.logger.debug(
-                    f"Mazo {i} ({deck_names[i]}): fitness={fitness:.4f} "
-                    f"(win_rate={win_rate:.4f} [α={self.fitness_alpha}], "
-                    f"quality={deck_quality:.4f} [β={self.fitness_beta}])"
+                # Distribución de pesos con γ: α y β se reescalan por (1 - γ_t)
+                # para que α' + β' + γ_t = 1 (manteniendo proporción α:β).
+                alpha_t = self.fitness_alpha * (1.0 - gamma_t)
+                beta_t = self.fitness_beta * (1.0 - gamma_t)
+                fitness = (
+                    alpha_t * win_rate
+                    + beta_t * deck_quality
+                    + gamma_t * gauntlet_winrates[i]
                 )
+
+                if n_anchors > 0:
+                    self.logger.debug(
+                        f"Mazo {i} ({deck_names[i]}): fitness={fitness:.4f} "
+                        f"(win_rate={win_rate:.4f} [α'={alpha_t:.3f}], "
+                        f"quality={deck_quality:.4f} [β'={beta_t:.3f}], "
+                        f"gauntlet={gauntlet_winrates[i]:.4f} [γ={gamma_t:.3f}])"
+                    )
+                else:
+                    self.logger.debug(
+                        f"Mazo {i} ({deck_names[i]}): fitness={fitness:.4f} "
+                        f"(win_rate={win_rate:.4f} [α={self.fitness_alpha}], "
+                        f"quality={deck_quality:.4f} [β={self.fitness_beta}])"
+                    )
             else:
                 # Modo legacy: solo win_rate
                 fitness = win_rate
@@ -995,9 +1092,112 @@ class MTGGeneticAlgorithm:
             f.write("[metadata]\n")
             f.write(f"Name={deck['name']}\n")
             f.write("\n[Main]\n")
-            
+
             for card in deck['cards']:
                 f.write(f"{card['count']} {card['name']}\n")
+
+    def _parse_dck_to_array(self, dck_path):
+        """
+        Parsea un .dck Forge a un array de cuentas indexado por card_id.
+
+        Solo lee el bloque [Main]. Falla con ValueError si una carta no está
+        en el catálogo (mejor que silenciar — el gauntlet debe ser explícito).
+        """
+        array = np.zeros(self.total_cards, dtype=int)
+        in_main = False
+        unknown = []
+        with open(dck_path, 'r', encoding='utf-8') as f:
+            for raw in f:
+                line = raw.strip()
+                if not line:
+                    continue
+                if line.startswith('['):
+                    in_main = (line.lower() == '[main]')
+                    continue
+                if not in_main:
+                    continue
+                # Formato: "N Card Name" (la carta puede tener espacios y //)
+                parts = line.split(' ', 1)
+                if len(parts) != 2 or not parts[0].isdigit():
+                    continue
+                count = int(parts[0])
+                name = parts[1].strip()
+                cid = self._name_to_card_id.get(name)
+                if cid is None:
+                    unknown.append(name)
+                    continue
+                array[cid] += count
+        if unknown:
+            raise ValueError(
+                f"Anchor {os.path.basename(dck_path)}: cartas no encontradas en "
+                f"card_catalog: {unknown}"
+            )
+        return array
+
+    def load_gauntlet(self):
+        """
+        Carga los mazos-ancla del gauntlet tier-1 (Fase 7).
+
+        Lee `self.gauntlet_path/*.dck` y opcionalmente `manifest.json` para
+        metadata. Si `gauntlet_path` es None o la carpeta no tiene .dck, el
+        gauntlet queda desactivado (γ efectivo = 0).
+        """
+        self.gauntlet_decks = []
+        self.gauntlet_metadata = []
+
+        if not self.gauntlet_path or not os.path.isdir(self.gauntlet_path):
+            self.logger.info("Gauntlet desactivado (sin gauntlet_path o carpeta inexistente)")
+            return
+
+        dck_files = sorted(
+            f for f in os.listdir(self.gauntlet_path) if f.endswith('.dck')
+        )
+        if not dck_files:
+            self.logger.info(f"Gauntlet desactivado (sin .dck en {self.gauntlet_path})")
+            return
+
+        manifest_path = os.path.join(self.gauntlet_path, 'manifest.json')
+        manifest = {}
+        if os.path.exists(manifest_path):
+            with open(manifest_path, 'r', encoding='utf-8') as f:
+                manifest = json.load(f)
+
+        for idx, fname in enumerate(dck_files):
+            full_path = os.path.join(self.gauntlet_path, fname)
+            array = self._parse_dck_to_array(full_path)
+            total = int(array.sum())
+            meta = manifest.get(fname, {})
+            meta.setdefault('name', fname.removesuffix('.dck'))
+            meta.setdefault('archetype', 'unknown')
+            meta['file'] = fname
+            meta['total_cards'] = total
+            meta['forge_name'] = f"Gauntlet_Anchor{idx}"
+            self.gauntlet_decks.append(array)
+            self.gauntlet_metadata.append(meta)
+            self.logger.info(
+                f"Anchor {idx}: {meta['name']} ({meta['archetype']}, {total} cartas)"
+            )
+
+        # Si forge_decks_dir ya existe, normalizar nombre y persistir los anchors ahí
+        # (Forge los buscará por el `forge_name`).
+        if hasattr(self, 'forge_decks_dir') and os.path.isdir(self.forge_decks_dir):
+            for array, meta in zip(self.gauntlet_decks, self.gauntlet_metadata):
+                deck = self.array_to_deck(array, meta['forge_name'])
+                deck_file = os.path.join(self.forge_decks_dir, f"{meta['forge_name']}.dck")
+                self.save_forge_deck(deck, deck_file)
+
+        self.logger.info(
+            f"Gauntlet activo con {len(self.gauntlet_decks)} anchors "
+            f"(γ_min={self.gauntlet_gamma_min}, γ_max={self.gauntlet_gamma_max})"
+        )
+
+    def current_gauntlet_gamma(self, generation):
+        """Currículum γ(t) lineal: γ_min en gen 0, γ_max en última gen."""
+        if not self.gauntlet_decks or self.max_generations <= 1:
+            return 0.0
+        t = generation / (self.max_generations - 1)
+        t = max(0.0, min(1.0, t))
+        return self.gauntlet_gamma_min + (self.gauntlet_gamma_max - self.gauntlet_gamma_min) * t
 
     # ==============================================================================
     # OPERADORES GENÉTICOS (Cruce y Mutación)
@@ -3071,6 +3271,10 @@ class MTGGeneticAlgorithm:
         self.logger.info("=== INICIANDO ALGORITMO GENÉTICO CON ANTI-ESTANCAMIENTO ===")
         self.logger.info(f"Configuración: {self.population_size} mazos, {self.max_generations} generaciones")
         self.logger.info(f"Paralelización: {self.max_workers} workers, timeout {self.base_timeout}s")
+
+        # Fase 7: cargar gauntlet tier-1 si está configurado (idempotente).
+        # Si gauntlet_path es None o la carpeta no tiene .dck, queda desactivado y γ_t = 0.
+        self.load_gauntlet()
 
         termination_reason = "max_generations_reached"
         best_deck = None
