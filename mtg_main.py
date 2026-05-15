@@ -459,16 +459,19 @@ class HardwareAnalyzer:
         if workers is None:
             workers = self.optimization_config['max_workers']
 
-        # Combates del torneo interno
+        # Combates del torneo interno.
+        # Una "invocación de combate" = un `forge sim -n 3` = 3 partidas
+        # internas con starter aleatorio. n_games_per_match=1 invocación es
+        # suficiente: ya cubre BO3 por matchup. No multiplicar más.
         if use_swiss and population >= 20:
             import math
             k_rounds = min(12, max(5, math.ceil(math.log2(population)) + 2))
-            n_games_per_match = 2
+            n_games_per_match = 1
             enfrentamientos = (population * k_rounds) // 2
             combats_swiss = enfrentamientos * n_games_per_match
         else:
             enfrentamientos = population * (population - 1) // 2
-            combats_swiss = enfrentamientos * 3
+            combats_swiss = enfrentamientos  # 1 invocación = 3 partidas
 
         # Combates del gauntlet tier-1 (Fase 7): cada candidato vs cada anchor (BO1)
         combats_gauntlet = population * gauntlet_size if with_gauntlet else 0
@@ -1143,15 +1146,16 @@ class MTGMenuSystem:
             print("=" * 70)
 
             print("\nCONFIGURACIÓN POR DEFECTO DEL ALGORITMO:")
-            print("  - Swiss Tournament: pop=40, k=8 rondas, n=2 partidas/match")
+            print("  - Swiss Tournament: pop=40, k=8 rondas, n=1 invocación/match (`forge sim -n 3`)")
+            print("  - Cada invocación = 3 partidas internas Forge con starter aleatorio")
             print("  - Pack-aware mutación + crossover (norma 4-of)")
             print("  - Fitness multi-componente: α=0.5 win_rate + β=0.5 calidad")
             if self.gauntlet_available:
                 print(f"  - Gauntlet tier-1: {self.gauntlet_n_anchors} anchors, γ(t) 0.05 → 0.30")
             else:
                 print("  - Gauntlet tier-1: no configurado")
-            print("  - Tiempo real medido (prueba2, 40 pop x 30 gen, 8 workers):")
-            print("    ~130 min/gen sin gauntlet ; ~210 min/gen con gauntlet")
+            print("  - Tiempo estimado (pop=40 x 30 gen, 8 workers, datos calibrados):")
+            print("    ~68 min/gen sin gauntlet (34 h total) ; ~155 min/gen con gauntlet (77 h total)")
 
             print("\nOPCIONES:")
             print("  1. Inspeccionar gauntlet tier-1 (anchors cargados)")
@@ -1218,11 +1222,12 @@ class MTGMenuSystem:
 
                     configs = [
                         # (nombre, pop, k_rounds, n_games, gauntlet, gen objetivo)
-                        ("Prueba rápida (pop=15, sin gauntlet)",   15, 6, 2, False, 3),
-                        ("Prueba rápida + gauntlet (pop=15, K=5)", 15, 6, 2, True,  3),
-                        ("Run estándar (pop=40, sin gauntlet)",    40, 8, 2, False, 30),
-                        ("Run estándar + gauntlet (pop=40, K=5)",  40, 8, 2, True,  30),
-                        ("Run grande (pop=40, gen=50, +gauntlet)", 40, 8, 2, True,  50),
+                        # n_games = invocaciones de Forge por matchup. n=1 ya da BO3 (sim -n 3).
+                        ("Prueba rápida (pop=15, sin gauntlet)",   15, 6, 1, False, 3),
+                        ("Prueba rápida + gauntlet (pop=15, K=5)", 15, 6, 1, True,  3),
+                        ("Run estándar (pop=40, sin gauntlet)",    40, 8, 1, False, 30),
+                        ("Run estándar + gauntlet (pop=40, K=5)",  40, 8, 1, True,  30),
+                        ("Run grande (pop=40, gen=50, +gauntlet)", 40, 8, 1, True,  50),
                     ]
 
                     print("┌──────────────────────────────────────────────┬──────────┬─────────┬─────────┐")
@@ -1485,7 +1490,7 @@ class MTGMenuSystem:
             import math
             use_swiss = True
             k_rounds = min(12, max(5, math.ceil(math.log2(pop_size)) + 2))  # Fórmula óptima
-            n_games_per_match = 2
+            n_games_per_match = 1   # 1 invocación de Forge = `sim -n 3` = 3 partidas internas
 
             # Calcular enfrentamientos para estimación de tiempo
             if use_swiss:
@@ -1760,7 +1765,7 @@ class MTGMenuSystem:
             # Parámetros Swiss (el checkpoint puede sobrescribirlos si los tiene guardados)
             use_swiss = True
             k_rounds = min(12, max(5, math.ceil(math.log2(pop_size)) + 2))
-            n_games_per_match = 2
+            n_games_per_match = 1   # 1 invocación de Forge = `sim -n 3` = 3 partidas internas
 
             # Ejecutar algoritmo genético (continuará automáticamente desde checkpoint)
             # NOTA: Los parámetros del checkpoint (si existen) sobrescribirán estos valores
@@ -2109,7 +2114,7 @@ class MTGMenuSystem:
         print(f"     - {config['max_workers']} workers paralelos")
         print(f"\n  Tiempo estimado total: {estimated_time}")
         print(f"  Sistema: {profile['system_tier'].replace('_', ' ').title()}")
-        print(f"  Swiss Tournament: Activado (k={k_rounds}, n=2)")
+        print(f"  Swiss Tournament: Activado (k={k_rounds}, n=1 invocación = 3 partidas internas)")
         self._print_gauntlet_config(indent="  ")
 
         confirm = input("\n¿Ejecutar proceso completo AUTO-OPTIMIZADO? (s/N): ").strip().lower()
@@ -2147,7 +2152,7 @@ class MTGMenuSystem:
             tournament_size = max(3, int(population_size * 0.125))
             use_swiss = True
             k_rounds = min(12, max(5, math.ceil(math.log2(population_size)) + 2))
-            n_games_per_match = 2
+            n_games_per_match = 1   # 1 invocación de Forge = `sim -n 3` = 3 partidas internas
 
             print(f"\nCONFIGURACIÓN:")
             print(f"   Población: {population_size} mazos")
@@ -2252,7 +2257,7 @@ class MTGMenuSystem:
         use_swiss_info = test_size >= 20
         if use_swiss_info:
             k_rounds_info = min(12, max(5, math.ceil(math.log2(test_size)) + 2))
-            n_games_info = 2
+            n_games_info = 1   # 1 invocación de Forge = `sim -n 3` = 3 partidas internas
             enfrentamientos_info = (test_size * k_rounds_info) // 2
             combates_info = enfrentamientos_info * n_games_info
             mode_info = f"Swiss Tournament (k={k_rounds_info}, n={n_games_info})"
@@ -2305,7 +2310,7 @@ class MTGMenuSystem:
             tournament_size = max(3, int(test_size * 0.125))
             use_swiss = test_size >= 20  # Solo Swiss si pop >= 20
             k_rounds = min(12, max(5, math.ceil(math.log2(test_size)) + 2)) if use_swiss else test_size - 1
-            n_games_per_match = 2 if use_swiss else 3
+            n_games_per_match = 1 if use_swiss else 3   # Swiss: 1 invocación = 3 partidas internas
 
             # Configuración optimizada
             if self.hardware_analyzer:
@@ -2405,13 +2410,13 @@ class MTGMenuSystem:
         print("MÉTODO:")
         print("  - Población pequeña: 20 mazos (rápido)")
         print("  - Generaciones: 5 (suficiente para ver tendencia)")
-        print("  - Swiss Tournament: k=6, n=2")
+        print("  - Swiss Tournament: k=6, n=1 invocación/match (3 partidas internas)")
         print("  - Probar múltiples combinaciones de mutation/crossover")
         print("  - Sin gauntlet tier-1 (experimento aislado de operadores)")
         print()
-        # 20 pop x k=6 x n=2 = 120 cmb/gen x ~195 s / 8 workers = ~49 min/gen
+        # 20 pop x k=6 x n=1 = 60 cmb/gen x ~195 s / 8 workers = ~25 min/gen
         # x 5 gen x N combinaciones probadas ~ 4-6 combinaciones tipicas
-        print("TIEMPO ESTIMADO: ~15-25 horas (5 gen x 4-6 combinaciones)")
+        print("TIEMPO ESTIMADO: ~8-12 horas (5 gen x 4-6 combinaciones)")
 
         if not self.forge_configured:
             print("\nForge no está configurado. Configúralo primero (Opción 4).")

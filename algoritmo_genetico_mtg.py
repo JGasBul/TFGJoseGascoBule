@@ -73,7 +73,7 @@ class MTGGeneticAlgorithm:
                  # PARÁMETROS SWISS TOURNAMENT
                  use_swiss_tournament=True,       # Activar Swiss Tournament (False = round-robin completo)
                  k_rounds=8,                      # Rondas Swiss (fórmula: ceil(log2(pop)) + 2 = 8 para pop=40, 9 para pop=100)
-                 n_games_per_match=2,             # Partidas por enfrentamiento (balance entre precisión y tiempo)
+                 n_games_per_match=1,             # Invocaciones de Forge por enfrentamiento. Cada invocación = `forge sim -n 3` = 3 partidas internas con starter aleatorio. n=1 ya da BO3 efectivo.
                  # PARÁMETROS DE PARALELIZACIÓN
                  max_workers=None,
                  parallel_batch_size=None,
@@ -106,7 +106,9 @@ class MTGGeneticAlgorithm:
             elite_size: Número de mejores individuos a preservar
             use_swiss_tournament: Usar Swiss Tournament (True) o round-robin completo (False)
             k_rounds: Número de rondas en Swiss Tournament (recomendado: ceil(log2(pop))+2)
-            n_games_per_match: Partidas por enfrentamiento (1-3, recomendado: 2)
+            n_games_per_match: Invocaciones de Forge por enfrentamiento. Cada
+                invocación ejecuta `forge sim -n 3` = 3 partidas con starter
+                aleatorio independiente. Default n=1 ya cubre BO3 por matchup.
             max_workers: Workers paralelos (None = auto-detectar según CPU)
             parallel_batch_size: Tamaño de lote paralelo (None = auto-calcular)
             base_timeout: Timeout base en segundos para combates
@@ -3924,8 +3926,11 @@ def parallel_forge_combat_worker(combat_info):
     headless_mode = combat_info.get('headless_mode', False)
     
     # Comando para ejecutar Forge
-    # OPTIMIZADO: 3 combates por enfrentamiento para reducir ruido ~58% (antes: 1)
-    # Cada enfrentamiento ejecuta 3 combates, victoria = mejor de 3
+    # `forge sim -d D1 D2 -n 3` ejecuta 3 partidas con starter aleatorio
+    # independiente por partida (comportamiento confirmado en logs reales:
+    # ~25% de invocaciones tienen mismo starter en las 3, ~75% alternan).
+    # Esto YA es un BO3 efectivo dentro de UNA sola invocación: por eso el
+    # constructor del GA usa n_games_per_match=1 por defecto.
     base_cmd = [
         "java", "-jar", forge_jar_path,
         "sim",
