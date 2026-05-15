@@ -513,20 +513,15 @@ class MTGGeneticAlgorithm:
                 'stagnation_counter': getattr(self, 'stagnation_counter', 0)
             }
 
-            # Fase 7: bloque de gauntlet (vacío si gauntlet desactivado).
-            # matchup_matrix[i][a] = victorias del candidato i vs anchor a (0..2).
-            # games_matrix[i][a]   = partidas completadas en ese par (típicamente 2).
+            # Fase 7: bloque de gauntlet (vacío si gauntlet desactivado)
             if getattr(self, 'gauntlet_decks', None):
                 winrates = getattr(self, 'last_gauntlet_winrates', [])
                 matchup = getattr(self, 'last_gauntlet_matchup', [])
-                played = getattr(self, 'last_gauntlet_played', [])
                 compact_data['gauntlet'] = {
                     'n_anchors': len(self.gauntlet_decks),
-                    'n_games_per_pair': 2,
                     'gamma_t': float(getattr(self, 'last_gauntlet_gamma', 0.0)),
                     'winrates_per_deck': [float(w) for w in winrates],
                     'matchup_matrix': matchup,
-                    'games_matrix': played,
                     'avg_winrate': float(np.mean(winrates)) if winrates else 0.0,
                     'anchors': [
                         {'forge_name': m['forge_name'], 'name': m.get('name'), 'archetype': m.get('archetype')}
@@ -859,19 +854,13 @@ class MTGGeneticAlgorithm:
         n_games = self.n_games_per_match if self.use_swiss_tournament else 3
 
         for i, j in matchups:
-            # Crear n_games combates para este enfrentamiento.
-            # Alternancia determinística del starter entre partidas (BO2/BO3):
-            # game 0 hereda el starter del hash; los demás invierten alternadamente.
-            base_i_starts = self.get_starting_player(i, j, generation)
+            # Crear n_games combates para este enfrentamiento
             for game_num in range(n_games):
                 match_count += 1
                 match_id = f"Gen{generation}_Match{match_count}_{int(time.time())}"
 
-                # Si game_num es par, mantenemos starter base; si impar, invertido.
-                # Garantiza play/draw alternado en n_games=2 (mitiga sesgo de going-first).
-                i_starts = base_i_starts if game_num % 2 == 0 else not base_i_starts
-
-                if i_starts:
+                # Alternancia determinística del starter
+                if self.get_starting_player(i, j, generation + game_num):
                     deck1_name, deck2_name = deck_names[i], deck_names[j]
                     deck1_idx, deck2_idx = i, j
                 else:
@@ -895,50 +884,32 @@ class MTGGeneticAlgorithm:
                 })
 
         # === GAUNTLET TIER-1 (Fase 7) ===
-        # Cada candidato juega n_gauntlet_games partidas contra cada anchor, con
-        # alternancia determinística del starter (Fix: BO1 sufría 100% del sesgo
-        # de play/draw; con BO2 + alternancia el matchup vale como dato real).
+        # Cada candidato juega 1 partida BO1 contra cada anchor. Las tareas se
+        # añaden al mismo combat_tasks → mismo ProcessPoolExecutor → mismo paralelismo.
         n_anchors = len(self.gauntlet_decks)
-        n_gauntlet_games = 2
         gauntlet_wins = [[0] * n_anchors for _ in range(n_decks)]
-        gauntlet_played = [[0] * n_anchors for _ in range(n_decks)]
+        gauntlet_played = [[False] * n_anchors for _ in range(n_decks)]
         if n_anchors > 0:
-            self.logger.info(
-                f"=== GAUNTLET TIER-1: {n_anchors} anchors x {n_decks} candidatos "
-                f"x {n_gauntlet_games} partidas con alternancia ==="
-            )
+            self.logger.info(f"=== GAUNTLET TIER-1: {n_anchors} anchors × {n_decks} candidatos ===")
             for i in range(n_decks):
                 for a, meta in enumerate(self.gauntlet_metadata):
-                    base_candidate_starts = self.get_starting_player(i, a, generation)
-                    for g in range(n_gauntlet_games):
-                        match_count += 1
-                        match_id = f"Gen{generation}_Gauntlet_D{i}_A{a}_g{g}_{int(time.time())}"
-                        # Alternancia: g=0 starter base, g=1 invertido.
-                        candidate_starts = base_candidate_starts if g % 2 == 0 else not base_candidate_starts
-                        if candidate_starts:
-                            deck1_name, deck2_name = deck_names[i], meta['forge_name']
-                        else:
-                            deck1_name, deck2_name = meta['forge_name'], deck_names[i]
-                        combat_tasks.append({
-                            'deck1_name': deck1_name,
-                            'deck2_name': deck2_name,
-                            'forge_jar_path': self.forge_jar_path,
-                            'forge_root': self.forge_root,
-                            'timeout': self.adaptive_timeout,
-                            'match_id': match_id,
-                            'generation': generation,
-                            'forge_output_dir': self.forge_output_dir,
-                            # deck1_idx / deck2_idx solo se usan para Swiss; en gauntlet usamos
-                            # pop_idx y anchor_idx (estables, independientes del starter).
-                            'deck1_idx': i,
-                            'deck2_idx': a,
-                            'pop_idx': i,
-                            'anchor_idx': a,
-                            'candidate_starts': candidate_starts,
-                            'reverse': False,
-                            'headless_mode': self.headless_mode,
-                            'is_gauntlet': True,
-                        })
+                    match_count += 1
+                    match_id = f"Gen{generation}_Gauntlet_D{i}_A{a}_{int(time.time())}"
+                    combat_tasks.append({
+                        'deck1_name': deck_names[i],
+                        'deck2_name': meta['forge_name'],
+                        'forge_jar_path': self.forge_jar_path,
+                        'forge_root': self.forge_root,
+                        'timeout': self.adaptive_timeout,
+                        'match_id': match_id,
+                        'generation': generation,
+                        'forge_output_dir': self.forge_output_dir,
+                        'deck1_idx': i,
+                        'deck2_idx': a,
+                        'reverse': False,
+                        'headless_mode': self.headless_mode,
+                        'is_gauntlet': True,
+                    })
         
         total_combats = len(combat_tasks)
         if self.use_swiss_tournament:
@@ -977,23 +948,15 @@ class MTGGeneticAlgorithm:
                         
                         if result['success']:
                             successful_combats += 1
+                            i = task['deck1_idx']
+                            j = task['deck2_idx']
 
                             if task.get('is_gauntlet'):
-                                # En gauntlet, deck1/deck2 pueden estar invertidos por la
-                                # alternancia. Usamos pop_idx y anchor_idx estables y
-                                # mapeamos según candidate_starts:
-                                #   - si candidato empezó (=deck1) y return_value=1 → candidato ganó
-                                #   - si anchor empezó (=deck1) y return_value=0 → candidato ganó
-                                pop_i = task['pop_idx']
-                                a = task['anchor_idx']
-                                deck1_won = (result['return_value'] == 1)
-                                candidate_won = deck1_won == task['candidate_starts']
-                                gauntlet_played[pop_i][a] += 1
-                                if candidate_won:
-                                    gauntlet_wins[pop_i][a] += 1
+                                # i = pop_idx, j = anchor_idx. result['return_value']=1 → ganó deck1 (el candidato).
+                                gauntlet_played[i][j] = True
+                                if result['return_value'] == 1:
+                                    gauntlet_wins[i][j] = 1
                             else:
-                                i = task['deck1_idx']
-                                j = task['deck2_idx']
                                 if result['return_value'] == 1:
                                     wins[i] += 1
                                 else:
@@ -1013,25 +976,18 @@ class MTGGeneticAlgorithm:
                     
                     pbar.update(1)
         
-        # Win-rate de cada candidato contra el gauntlet (Fase 7).
-        # Denominador = partidas EFECTIVAMENTE jugadas; si algún combate falló,
-        # ese par cuenta con menos partidas (no penaliza al candidato).
+        # Win-rate de cada candidato contra el gauntlet (Fase 7)
         gauntlet_winrates = [0.0] * n_decks
         if n_anchors > 0:
             for i in range(n_decks):
-                total_played = sum(gauntlet_played[i])
-                if total_played > 0:
-                    gauntlet_winrates[i] = sum(gauntlet_wins[i]) / total_played
+                gauntlet_winrates[i] = sum(gauntlet_wins[i]) / n_anchors
 
         # γ(t) lineal — 0 si gauntlet desactivado
         gamma_t = self.current_gauntlet_gamma(generation)
 
-        # Persistir para `update_statistics` y `save_population_arrays`.
-        # last_gauntlet_matchup[i][a] = victorias del candidato i contra anchor a (0..n_gauntlet_games).
-        # last_gauntlet_played[i][a]  = partidas efectivamente completadas en ese par.
+        # Persistir para `update_statistics` y `save_population_arrays`
         self.last_gauntlet_winrates = gauntlet_winrates
         self.last_gauntlet_matchup = gauntlet_wins
-        self.last_gauntlet_played = gauntlet_played
         self.last_gauntlet_gamma = gamma_t
 
         # Calcular fitness (multi-componente si está habilitado)

@@ -450,8 +450,7 @@ class HardwareAnalyzer:
             workers (int, optional): Workers a usar (por defecto usa óptimo)
             use_swiss (bool): Usar Swiss Tournament (True) o round-robin (False)
             with_gauntlet (bool): Si se activa el gauntlet tier-1 (Fase 7).
-                Cada candidato juega 2 partidas (BO2 con alternancia de starter)
-                contra cada anchor, igual que en el Swiss.
+                Cada candidato juega K partidas BO1 extra contra los anchors.
             gauntlet_size (int): Número de anchors del gauntlet (default 5).
 
         Returns:
@@ -471,10 +470,8 @@ class HardwareAnalyzer:
             enfrentamientos = population * (population - 1) // 2
             combats_swiss = enfrentamientos * 3
 
-        # Combates del gauntlet tier-1: cada candidato vs cada anchor x 2 partidas
-        # (BO2 con alternancia de starter — neutraliza el sesgo de play/draw).
-        n_gauntlet_games = 2
-        combats_gauntlet = population * gauntlet_size * n_gauntlet_games if with_gauntlet else 0
+        # Combates del gauntlet tier-1 (Fase 7): cada candidato vs cada anchor (BO1)
+        combats_gauntlet = population * gauntlet_size if with_gauntlet else 0
 
         combats_per_gen = combats_swiss + combats_gauntlet
 
@@ -1150,12 +1147,11 @@ class MTGMenuSystem:
             print("  - Pack-aware mutación + crossover (norma 4-of)")
             print("  - Fitness multi-componente: α=0.5 win_rate + β=0.5 calidad")
             if self.gauntlet_available:
-                print(f"  - Gauntlet tier-1: {self.gauntlet_n_anchors} anchors x 2 partidas (BO2)")
-                print(f"    γ(t) lineal: 0.05 → 0.30")
+                print(f"  - Gauntlet tier-1: {self.gauntlet_n_anchors} anchors, γ(t) 0.05 → 0.30")
             else:
                 print("  - Gauntlet tier-1: no configurado")
-            print("  - Tiempo estimado (pop=40 x 30 gen, 8 workers, datos calibrados):")
-            print("    ~130 min/gen sin gauntlet ; ~290 min/gen con gauntlet BO2")
+            print("  - Tiempo real medido (prueba2, 40 pop x 30 gen, 8 workers):")
+            print("    ~130 min/gen sin gauntlet ; ~210 min/gen con gauntlet")
 
             print("\nOPCIONES:")
             print("  1. Inspeccionar gauntlet tier-1 (anchors cargados)")
@@ -1236,10 +1232,9 @@ class MTGMenuSystem:
                     # Asumimos sistema 'balanced' (195 s/combate) + 8 workers
                     s_per_combat = 195
                     workers = 8
-                    n_gnt_games = 2
                     for name, pop, k, n, with_gnt, gens in configs:
                         swiss = (pop * k // 2) * n
-                        gnt = pop * 5 * n_gnt_games if with_gnt else 0
+                        gnt = pop * 5 if with_gnt else 0
                         cmb = swiss + gnt
                         min_per_gen = (cmb * s_per_combat * 1.05) / workers / 60
                         total_min = min_per_gen * gens
@@ -1253,8 +1248,8 @@ class MTGMenuSystem:
 
                     print("└──────────────────────────────────────────────┴──────────┴─────────┴─────────┘")
                     print("\nFórmula k_rounds Swiss: k = ceil(log₂(pop)) + 2")
-                    print("Combates Swiss    = (pop · k / 2) · n_games_per_match")
-                    print("Combates gauntlet = pop · K_anchors · 2 (BO2 con alternancia)")
+                    print("Combates Swiss = (pop · k / 2) · n_games_per_match")
+                    print("Combates gauntlet = pop · K_anchors (BO1)")
 
                 elif choice == "4":
                     # Documentación
@@ -1326,7 +1321,6 @@ class MTGMenuSystem:
             print(f"{indent}Gauntlet tier-1: no configurado (γ_t = 0, sin presión externa)")
             return
         print(f"{indent}Gauntlet tier-1: {self.gauntlet_n_anchors} anchors fijos durante el run")
-        print(f"{indent}   Cada candidato juega 2 partidas vs cada anchor (BO2 con alternancia)")
         print(f"{indent}   γ(t) lineal: 0.05 (gen 0) → 0.30 (última gen)")
         for i, a in enumerate(self.gauntlet_anchors):
             colors = '/'.join(a.get('colors', [])) or '—'
@@ -2677,24 +2671,17 @@ class MTGMenuSystem:
         if ga is not None and getattr(ga, 'gauntlet_decks', None):
             wr = getattr(ga, 'last_gauntlet_winrates', None)
             mm = getattr(ga, 'last_gauntlet_matchup', None)
-            played = getattr(ga, 'last_gauntlet_played', None)
+            # Si el deck tiene un índice de pop disponible, mostrar su matchup
             idx = deck.get('pop_index') if isinstance(deck.get('pop_index'), int) else None
             if wr and mm and idx is not None and idx < len(wr):
                 anchors_meta = getattr(ga, 'gauntlet_metadata', [])
-                n_anch = len(anchors_meta)
-                total_played = sum(played[idx]) if played else 0
-                total_wins = sum(mm[idx])
                 print("\n  WIN-RATE DEL MEJOR MAZO vs GAUNTLET:")
-                if total_played:
-                    print(f"    Win-rate global: {wr[idx]:.3f}  ({total_wins}/{total_played} partidas)")
-                else:
-                    print(f"    Win-rate global: {wr[idx]:.3f}")
+                print(f"    Win-rate global: {wr[idx]:.2f} "
+                      f"({int(round(wr[idx] * len(anchors_meta)))}/{len(anchors_meta)} anchors)")
                 for a, anc in enumerate(anchors_meta):
                     if a < len(mm[idx]):
-                        w = mm[idx][a]
-                        p = played[idx][a] if played else 2
-                        score = f"{w}-{p - w}"
-                        print(f"      A{a} {anc.get('name', '?'):<32} [{anc.get('archetype', '?'):<10}]  {score}")
+                        result = "GANA" if mm[idx][a] == 1 else "pierde"
+                        print(f"      A{a} {anc.get('name', '?'):<32} [{anc.get('archetype', '?'):<10}]  {result}")
 
         print("=" * 80)
 
