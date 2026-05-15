@@ -549,10 +549,10 @@ class MTGGeneticAlgorithm:
             with open(history_filename, 'w', encoding='utf-8') as f:
                 json.dump(history, f, indent=2, ensure_ascii=False)
 
-            self.logger.debug(f"✅ save_population_arrays completado para generación {generation}")
+            self.logger.debug(f"save_population_arrays completado para generación {generation}")
 
         except Exception as e:
-            self.logger.error(f"❌ Error en save_population_arrays: {e}")
+            self.logger.error(f"Error en save_population_arrays: {e}")
             # No reraiseamos el error para evitar que el algoritmo se detenga
             # Solo loggeamos el error y continuamos
             import traceback
@@ -619,11 +619,11 @@ class MTGGeneticAlgorithm:
             with open(final_filename, 'w', encoding='utf-8') as f:
                 json.dump(final_data, f, indent=2, ensure_ascii=False)
 
-            self.logger.info(f"✅ Población final guardada: {final_filename}")
+            self.logger.info(f"Población final guardada: {final_filename}")
             return final_filename
 
         except Exception as e:
-            self.logger.error(f"❌ Error guardando población final: {e}")
+            self.logger.error(f"Error guardando población final: {e}")
             return None
     
     def setup_forge(self):
@@ -650,18 +650,18 @@ class MTGGeneticAlgorithm:
         """Limpia TODOS los archivos de ./user/decks/constructed - VERSIÓN SIMPLE"""
         target_dir = "./user/decks/constructed"
         
-        print(f"🧹 Limpiando TODO en: {target_dir}")
+        print(f"Limpiando TODO en: {target_dir}")
         
         if not os.path.exists(target_dir):
-            print(f"❌ Directorio no existe: {target_dir}")
+            print(f"Directorio no existe: {target_dir}")
             return 0
         
         try:
             files = os.listdir(target_dir)
-            print(f"   📂 Archivos encontrados: {len(files)}")
+            print(f"   Archivos encontrados: {len(files)}")
             
             if len(files) == 0:
-                print("   📭 Directorio ya está vacío")
+                print("   Directorio ya está vacío")
                 return 0
             
             cleaned_count = 0
@@ -676,15 +676,15 @@ class MTGGeneticAlgorithm:
                     if os.path.isfile(filepath):  # Solo archivos, no directorios
                         os.remove(filepath)
                         cleaned_count += 1
-                        print(f"   ✅ Eliminado: {filename}")
+                        print(f"   Eliminado: {filename}")
                 except Exception as e:
-                    print(f"   ❌ Error eliminando {filename}: {e}")
+                    print(f"   Error eliminando {filename}: {e}")
             
-            print(f"✅ Limpieza completada: {cleaned_count} archivos eliminados")
+            print(f"Limpieza completada: {cleaned_count} archivos eliminados")
             return cleaned_count
             
         except Exception as e:
-            print(f"❌ Error accediendo al directorio: {e}")
+            print(f"Error accediendo al directorio: {e}")
             return 0
     
     def save_combat_result_parallel(self, result):
@@ -1061,12 +1061,12 @@ class MTGGeneticAlgorithm:
         deck_rankings.sort(key=lambda x: x[2], reverse=True)
 
         # Mostrar Top 5 de la generación actual
-        self.logger.info("📊 Top 5 de esta generación:")
+        self.logger.info("Top 5 de esta generación:")
         for rank, (idx, name, fitness, win_count, game_count) in enumerate(deck_rankings[:5], 1):
             self.logger.info(f"  {rank}. {name}: {fitness:.4f} ({win_count}/{game_count})")
 
         # Mostrar Top 5 GLOBAL (Hall of Fame)
-        self.logger.info("🏆 Top 5 GLOBAL (Hall of Fame histórico):")
+        self.logger.info("Top 5 GLOBAL (Hall of Fame histórico):")
         if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
             for rank, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5], 1):
                 self.logger.info(f"  {rank}. HoF #{rank}: {fitness:.4f}")
@@ -2921,13 +2921,13 @@ class MTGGeneticAlgorithm:
         empty = [a for a, c in counts.items() if c == 0]
         if empty:
             self.logger.warning(
-                f"⚠️ Hall of Fame: arquetipos vacíos {empty} (cuota={counts})"
+                f"Hall of Fame: arquetipos vacíos {empty} (cuota={counts})"
             )
         else:
             self.logger.debug(f"Hall of Fame por arquetipo: {counts}")
 
         if new_size != old_size:
-            self.logger.info(f"🏆 Hall of Fame: {old_size} → {new_size}")
+            self.logger.info(f"Hall of Fame: {old_size} → {new_size}")
 
         if new_hof:
             self.logger.debug(
@@ -3004,7 +3004,7 @@ class MTGGeneticAlgorithm:
 
             if self.hall_of_fame_arrays:
                 self.logger.debug(
-                    f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
+                    f"Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
                     f"en {hof_dir} (cuota={arch_rank}, formats={[f for f in formats if f != 'summary']})"
                 )
 
@@ -3034,12 +3034,12 @@ class MTGGeneticAlgorithm:
                     json.dump(hof_data, f, ensure_ascii=False, indent=2)
 
                 if hof_data:
-                    self.logger.info(f"✅ Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
+                    self.logger.info(f"Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
                 else:
-                    self.logger.warning(f"⚠️ Hall of Fame vacío guardado en {hof_file}")
+                    self.logger.warning(f"Hall of Fame vacío guardado en {hof_file}")
 
             except Exception as e:
-                self.logger.error(f"❌ Error guardando Hall of Fame (summary): {e}")
+                self.logger.error(f"Error guardando Hall of Fame (summary): {e}")
 
     def clean_hall_of_fame_directory(self):
         """
@@ -3054,7 +3054,7 @@ class MTGGeneticAlgorithm:
         if os.path.exists(hof_dir):
             try:
                 shutil.rmtree(hof_dir)
-                self.logger.info(f"🗑️  Directorio Hall of Fame limpiado: {hof_dir}")
+                self.logger.info(f" Directorio Hall of Fame limpiado: {hof_dir}")
             except Exception as e:
                 self.logger.warning(f"No se pudo limpiar directorio Hall of Fame: {e}")
 
@@ -3350,7 +3350,7 @@ class MTGGeneticAlgorithm:
             # === EVALUACIÓN INICIAL (solo si no se reanuda) ===
             if start_generation == 0:
                 # Limpiar directorios de ejecuciones anteriores
-                self.logger.info("🧹 Limpiando archivos de ejecuciones anteriores...")
+                self.logger.info("Limpiando archivos de ejecuciones anteriores...")
                 self.clean_hall_of_fame_directory()
                 self.clean_forge_decks()
 
@@ -3460,10 +3460,10 @@ class MTGGeneticAlgorithm:
                 if current_best > best_fitness_ever:
                     best_fitness_ever = current_best
                     self.stagnation_counter = 0
-                    self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
+                    self.logger.info(f"NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
                 else:
                     self.stagnation_counter += 1
-                    self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter} gens")
+                    self.logger.info(f"Sin mejora. Estancamiento: {self.stagnation_counter} gens")
 
                 # === VERIFICAR CONDICIONES DE TERMINACIÓN ===
                 should_continue, reason = self.handle_termination_conditions(
@@ -3472,7 +3472,7 @@ class MTGGeneticAlgorithm:
 
                 if not should_continue:
                     termination_reason = reason
-                    self.logger.info(f"🏁 TERMINACIÓN CONTROLADA: {termination_reason}")
+                    self.logger.info(f"TERMINACIÓN CONTROLADA: {termination_reason}")
 
                     # GUARDAR CHECKPOINT FINAL ANTES DE TERMINAR
                     self.logger.info("Guardando checkpoint final antes de terminar...")
@@ -3489,8 +3489,8 @@ class MTGGeneticAlgorithm:
             # la misma fuente. Sin bloque de verificación duplicada.
             best_deck, final_fitness = self.get_final_best_result()
 
-            self.logger.info(f"🏆 MEJOR FITNESS ALCANZADO: {final_fitness:.4f}")
-            self.logger.info(f"🎯 RAZÓN DE TERMINACIÓN: {termination_reason}")
+            self.logger.info(f"MEJOR FITNESS ALCANZADO: {final_fitness:.4f}")
+            self.logger.info(f"RAZÓN DE TERMINACIÓN: {termination_reason}")
 
         except KeyboardInterrupt:
             self.logger.info("=== EJECUCIÓN INTERRUMPIDA POR EL USUARIO ===")
@@ -3503,7 +3503,7 @@ class MTGGeneticAlgorithm:
                     # Usar fitness_values si existe, sino usar los actuales
                     checkpoint_fitness = fitness_values if 'fitness_values' in locals() else self.current_fitness_values
                     self.save_checkpoint(self.current_generation, checkpoint_fitness)
-                    self.logger.info(f"✅ Checkpoint guardado: puedes reanudar desde generación {self.current_generation + 1}")
+                    self.logger.info(f"Checkpoint guardado: puedes reanudar desde generación {self.current_generation + 1}")
                 except Exception as e:
                     self.logger.error(f"Error guardando checkpoint de emergencia: {e}")
 
@@ -3520,24 +3520,24 @@ class MTGGeneticAlgorithm:
 
         finally:
             # === GARANTIZAR EJECUCIÓN DE MÉTODOS FINALES ===
-            self.logger.info("🔄 Ejecutando métodos de finalización...")
+            self.logger.info("Ejecutando métodos de finalización...")
 
             try:
                 self.save_statistics()
-                self.logger.info("✅ save_statistics() ejecutado correctamente")
+                self.logger.info("save_statistics() ejecutado correctamente")
             except Exception as e:
                 self.logger.error(f"Error en save_statistics(): {e}")
 
             try:
                 self.save_final_logs()
-                self.logger.info("✅ save_final_logs() ejecutado correctamente")
+                self.logger.info("save_final_logs() ejecutado correctamente")
             except Exception as e:
                 self.logger.error(f"Error en save_final_logs(): {e}")
 
             try:
                 final_file = self.save_final_population()
                 if final_file:
-                    self.logger.info(f"✅ save_final_population() ejecutado: {final_file}")
+                    self.logger.info(f"save_final_population() ejecutado: {final_file}")
             except Exception as e:
                 self.logger.error(f"Error en save_final_population(): {e}")
 
@@ -3628,7 +3628,7 @@ class MTGGeneticAlgorithm:
         try:
             # Verificar que hay datos
             if not self.stats['best_fitness']:
-                self.logger.warning("⚠️ No hay estadísticas para guardar - creando estadísticas de emergencia")
+                self.logger.warning("No hay estadísticas para guardar - creando estadísticas de emergencia")
 
                 # Crear estadísticas básicas si no existen
                 if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
@@ -3650,7 +3650,7 @@ class MTGGeneticAlgorithm:
             # Verificar longitudes consistentes
             lengths = [len(self.stats[key]) for key in self.stats.keys()]
             if len(set(lengths)) > 1:
-                self.logger.warning(f"⚠️ Longitudes inconsistentes en estadísticas: {dict(zip(self.stats.keys(), lengths))}")
+                self.logger.warning(f"Longitudes inconsistentes en estadísticas: {dict(zip(self.stats.keys(), lengths))}")
 
                 # Truncar a la longitud mínima
                 min_length = min(lengths)
@@ -3667,26 +3667,26 @@ class MTGGeneticAlgorithm:
                 'archetype_entropy': self.stats['archetype_entropy'],
             })
 
-            self.logger.info(f"📊 Guardando estadísticas: {len(stats_df)} generaciones")
+            self.logger.info(f"Guardando estadísticas: {len(stats_df)} generaciones")
 
             # Guardar CSV
             csv_file = os.path.join(self.output_dir, "parallel_evolution_stats.csv")
             stats_df.to_csv(csv_file, index=False)
-            self.logger.info(f"✅ CSV guardado: {csv_file}")
+            self.logger.info(f"CSV guardado: {csv_file}")
 
             # Crear gráficos solo si hay datos suficientes
             if len(stats_df) > 0:
                 self.create_evolution_plots(stats_df)
             else:
-                self.logger.warning("⚠️ No hay suficientes datos para crear gráficos")
+                self.logger.warning("No hay suficientes datos para crear gráficos")
 
             # Guardar Hall of Fame
             self.persist_hall_of_fame(formats=('summary',))
 
-            self.logger.info(f"✅ Estadísticas paralelas guardadas en {self.output_dir}")
+            self.logger.info(f"Estadísticas paralelas guardadas en {self.output_dir}")
 
         except Exception as e:
-            self.logger.error(f"❌ Error en save_statistics(): {e}")
+            self.logger.error(f"Error en save_statistics(): {e}")
             import traceback
             self.logger.error(f"Traceback: {traceback.format_exc()}")
         
@@ -3757,10 +3757,10 @@ class MTGGeneticAlgorithm:
             plt.savefig(plot_file, dpi=150, bbox_inches='tight')
             plt.close()
 
-            self.logger.info(f"✅ Gráficos guardados: {plot_file}")
+            self.logger.info(f"Gráficos guardados: {plot_file}")
 
         except Exception as e:
-            self.logger.error(f"❌ Error creando gráficos: {e}")
+            self.logger.error(f"Error creando gráficos: {e}")
             # Cerrar figura si existe para evitar warnings
             try:
                 plt.close('all')
@@ -3800,18 +3800,18 @@ class MTGGeneticAlgorithm:
             if self.hall_of_fame_arrays:
                 best_fitness, best_array = self.hall_of_fame_arrays[0]
                 best_deck = self.array_to_deck(best_array, "Champion_Deck")
-                self.logger.info(f"✅ Mejor resultado del Hall of Fame: fitness {best_fitness:.4f}")
+                self.logger.info(f"Mejor resultado del Hall of Fame: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
             if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
                 best_idx = int(np.argmax(self.current_fitness_values))
                 best_fitness = float(self.current_fitness_values[best_idx])
                 best_deck = self.array_to_deck(self.population_arrays[best_idx], "Final_Best_Deck")
-                self.logger.warning(f"⚠️ HoF vacío; devolviendo mejor de población actual: fitness {best_fitness:.4f}")
+                self.logger.warning(f"HoF vacío; devolviendo mejor de población actual: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
             best_deck = self.array_to_deck(self.population_arrays[0], "Fallback_Deck")
-            self.logger.warning("⚠️ Sin HoF ni fitness — devolviendo primer mazo de población")
+            self.logger.warning("Sin HoF ni fitness — devolviendo primer mazo de población")
             return best_deck, 0.0
 
         except Exception as e:
@@ -4074,7 +4074,7 @@ if __name__ == "__main__":
         'save_forge_outputs': True  # Configurado por hardware analyzer
     }
     
-    print("🚀 === ALGORITMO GENÉTICO MTG PARALELO ===")
+    print("=== ALGORITMO GENÉTICO MTG PARALELO ===")
     print(f"Configuración: {config['population_size']} mazos, {config['max_generations']} generaciones")
     print(f"Paralelización: {config['max_workers']} workers")
     
@@ -4083,7 +4083,7 @@ if __name__ == "__main__":
     best_deck = ga.evolve()
     
     # Mostrar resultado
-    print("\n🏆 ===== MEJOR MAZO ENCONTRADO =====")
+    print("\n===== MEJOR MAZO ENCONTRADO =====")
     print(f"Nombre: {best_deck['name']}")
     print(f"Colores: {', '.join(best_deck['colors'])}")
     print(f"Estadísticas: {best_deck['stats']}")
@@ -4091,4 +4091,4 @@ if __name__ == "__main__":
     for card in sorted(best_deck['cards'], key=lambda x: (x['cmc'], x['name']))[:10]:
         print(f"  {card['count']}x {card['name']} ({card.get('mana_cost', 'N/A')})")
     
-    print(f"\n✅ Logs paralelos guardados en: mtg_evolved_decks/logs/")
+    print(f"\nLogs paralelos guardados en: mtg_evolved_decks/logs/")
