@@ -734,13 +734,14 @@ class MTGMenuSystem:
         else:
             print(f"  Hardware: Se analizará automáticamente cuando sea necesario")
 
-        # Estado del gauntlet tier-1 (Fase 7)
+        # Estado del gauntlet tier-1 (Fase 7) — desactivado por defecto en esta release
         if self.gauntlet_available:
             archs = sorted({a['archetype'] for a in self.gauntlet_anchors}) if self.gauntlet_anchors else []
             arch_summary = ', '.join(archs) if archs else 'metadata no disponible'
-            print(f"  Gauntlet: {self.gauntlet_n_anchors} anchors tier-1 en {self.gauntlet_dir}/ ({arch_summary})")
+            estado = "ACTIVADO" if self.GAUNTLET_ENABLED_BY_DEFAULT else "desactivado por defecto"
+            print(f"  Gauntlet: {self.gauntlet_n_anchors} anchors en {self.gauntlet_dir}/ ({arch_summary}) — {estado}")
         else:
-            print(f"  Gauntlet: no configurado (γ_t = 0, evolución sin presión externa)")
+            print(f"  Gauntlet: no configurado")
 
         # Mensaje de preparación
         if self.cards_available and self.population_available and self.forge_configured:
@@ -1151,7 +1152,10 @@ class MTGMenuSystem:
             print("  - Pack-aware mutación + crossover (norma 4-of)")
             print("  - Fitness multi-componente: α=0.5 win_rate + β=0.5 calidad")
             if self.gauntlet_available:
-                print(f"  - Gauntlet tier-1: {self.gauntlet_n_anchors} anchors, γ(t) 0.05 → 0.30")
+                estado = "activado" if self.GAUNTLET_ENABLED_BY_DEFAULT else "DESACTIVADO por defecto"
+                print(f"  - Gauntlet tier-1: {self.gauntlet_n_anchors} anchors en disco — {estado}")
+                if not self.GAUNTLET_ENABLED_BY_DEFAULT:
+                    print("    (Forge AI sesga contra arquetipos complejos — ver Trabajo futuro)")
             else:
                 print("  - Gauntlet tier-1: no configurado")
             print("  - Tiempo estimado (pop=40 x 30 gen, 8 workers, datos calibrados):")
@@ -1304,15 +1308,23 @@ class MTGMenuSystem:
     # HELPERS DEL GAUNTLET TIER-1 (Fase 7)
     # ==============================================================================
 
+    # Flag de activación del gauntlet (Fase 7).
+    # Desactivado por defecto: la exploración mostró que el motor Forge presenta
+    # un sesgo medible contra arquetipos de jugabilidad compleja (Azorius Omniscience
+    # se derrotaba en >70% de los matches), comprometiendo la interpretabilidad de
+    # la métrica vs meta. La infraestructura del gauntlet se mantiene en el código
+    # como trabajo futuro. Para activarlo en runs experimentales, pon True aquí o
+    # pasa gauntlet_path explícitamente al constructor del GA.
+    GAUNTLET_ENABLED_BY_DEFAULT = False
+
     def _gauntlet_kwargs(self):
         """
         Devuelve los kwargs del gauntlet listos para MTGGeneticAlgorithm.
 
-        Si el gauntlet no está disponible, devuelve dict vacío. El GA opera
-        entonces sin componente γ (fitness = α·swiss + β·calidad, comportamiento
-        previo a Fase 7).
+        Por defecto devuelve dict vacío → GA opera sin componente γ
+        (fitness = α·swiss + β·calidad, configuración estable de prueba2).
         """
-        if not self.gauntlet_available:
+        if not self.GAUNTLET_ENABLED_BY_DEFAULT or not self.gauntlet_available:
             return {}
         return {
             'gauntlet_path': self.gauntlet_dir,
@@ -1322,6 +1334,12 @@ class MTGMenuSystem:
 
     def _print_gauntlet_config(self, indent="   "):
         """Imprime el bloque de configuración del gauntlet (o aviso de desactivado)."""
+        if not self.GAUNTLET_ENABLED_BY_DEFAULT:
+            if self.gauntlet_available:
+                print(f"{indent}Gauntlet tier-1: desactivado por defecto ({self.gauntlet_n_anchors} anchors en disco)")
+            else:
+                print(f"{indent}Gauntlet tier-1: desactivado por defecto")
+            return
         if not self.gauntlet_available:
             print(f"{indent}Gauntlet tier-1: no configurado (γ_t = 0, sin presión externa)")
             return
@@ -1455,7 +1473,7 @@ class MTGMenuSystem:
 
         for i, (name, gens) in enumerate(options, 1):
             estimate = self.hardware_analyzer.estimate_time(
-                pop_size, gens, with_gauntlet=self.gauntlet_available,
+                pop_size, gens, with_gauntlet=(self.GAUNTLET_ENABLED_BY_DEFAULT and self.gauntlet_available),
                 gauntlet_size=self.gauntlet_n_anchors or 5,
             )
             print(f"  {i}. {name}: {gens} generaciones (tiempo estimado: {estimate})")
@@ -1501,7 +1519,7 @@ class MTGMenuSystem:
                 combates_totales = enfrentamientos * 3
 
             estimated_time = self.hardware_analyzer.estimate_time(
-                pop_size, max_gens, with_gauntlet=self.gauntlet_available,
+                pop_size, max_gens, with_gauntlet=(self.GAUNTLET_ENABLED_BY_DEFAULT and self.gauntlet_available),
                 gauntlet_size=self.gauntlet_n_anchors or 5,
             )
 
@@ -1723,7 +1741,7 @@ class MTGMenuSystem:
             remaining_gens = selected_cp['max_gens'] - selected_cp['gen']
             estimated_time = self.hardware_analyzer.estimate_time(
                 selected_cp['pop_size'], remaining_gens,
-                with_gauntlet=self.gauntlet_available,
+                with_gauntlet=(self.GAUNTLET_ENABLED_BY_DEFAULT and self.gauntlet_available),
                 gauntlet_size=self.gauntlet_n_anchors or 5,
             )
 
@@ -2094,7 +2112,7 @@ class MTGMenuSystem:
 
         estimated_time = self.hardware_analyzer.estimate_time(
             population_size, generations, use_swiss=True,
-            with_gauntlet=self.gauntlet_available,
+            with_gauntlet=(self.GAUNTLET_ENABLED_BY_DEFAULT and self.gauntlet_available),
             gauntlet_size=self.gauntlet_n_anchors or 5,
         )
 
@@ -2248,7 +2266,7 @@ class MTGMenuSystem:
             workers = config['max_workers']
             estimated_time = self.hardware_analyzer.estimate_time(
                 test_size, test_gens,
-                with_gauntlet=self.gauntlet_available,
+                with_gauntlet=(self.GAUNTLET_ENABLED_BY_DEFAULT and self.gauntlet_available),
                 gauntlet_size=self.gauntlet_n_anchors or 5,
             )
 
