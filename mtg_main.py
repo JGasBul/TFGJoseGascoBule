@@ -1150,7 +1150,8 @@ class MTGMenuSystem:
             print("  - Swiss Tournament: pop=40, k=8 rondas, n=1 invocación/match (`forge sim -n 3`)")
             print("  - Cada invocación = 3 partidas internas Forge con starter aleatorio")
             print("  - Pack-aware mutación + crossover (norma 4-of)")
-            print("  - Fitness multi-componente: α=0.5 win_rate + β=0.5 calidad")
+            print("  - Fitness = win_rate del Swiss (deck_quality descartada: pack-aware ya")
+            print("    garantiza estructura, la métrica dejó de discriminar entre mazos)")
             if self.gauntlet_available:
                 estado = "activado" if self.GAUNTLET_ENABLED_BY_DEFAULT else "DESACTIVADO por defecto"
                 print(f"  - Gauntlet tier-1: {self.gauntlet_n_anchors} anchors en disco — {estado}")
@@ -1587,9 +1588,9 @@ class MTGMenuSystem:
                 save_forge_outputs=config['save_forge_outputs'],
                 headless_mode=self.headless_mode,
                 # Parámetros de fitness multi-componente
-                fitness_alpha=0.5,               # Fase 4: Win rate 50%
-                fitness_beta=0.5,                # Fase 4: Deck quality 50%
-                enable_quality_metrics=True,
+                fitness_alpha=1.0,               # fitness = win_rate puro del Swiss
+                fitness_beta=0.0,                # deck_quality descartada (redundante con pack-aware)
+                enable_quality_metrics=False,
                 # Gauntlet tier-1 (Fase 7) — vacío si no hay anchors
                 **self._gauntlet_kwargs(),
             )
@@ -1812,9 +1813,9 @@ class MTGMenuSystem:
                 save_forge_outputs=False,
                 headless_mode=self.headless_mode,
                 # Fitness
-                fitness_alpha=0.5,
-                fitness_beta=0.5,
-                enable_quality_metrics=True
+                fitness_alpha=1.0,
+                fitness_beta=0.0,
+                enable_quality_metrics=False
             )
 
             print("\nEjecutando algoritmo genético (continuación desde checkpoint)...\n")
@@ -2202,9 +2203,9 @@ class MTGMenuSystem:
                 save_forge_outputs=config['save_forge_outputs'],
                 headless_mode=self.headless_mode,
                 # Parámetros de fitness multi-componente
-                fitness_alpha=0.5,
-                fitness_beta=0.5,
-                enable_quality_metrics=True,
+                fitness_alpha=1.0,
+                fitness_beta=0.0,
+                enable_quality_metrics=False,
                 # Gauntlet tier-1 (Fase 7) — vacío si no hay anchors
                 **self._gauntlet_kwargs(),
             )
@@ -2373,9 +2374,9 @@ class MTGMenuSystem:
                 k_rounds=k_rounds,
                 n_games_per_match=n_games_per_match,
                 # Parámetros de fitness multi-componente
-                fitness_alpha=0.5,
-                fitness_beta=0.5,
-                enable_quality_metrics=True,
+                fitness_alpha=1.0,
+                fitness_beta=0.0,
+                enable_quality_metrics=False,
                 headless_mode=self.headless_mode,
                 # Gauntlet tier-1 (Fase 7) — vacío si no hay anchors
                 **self._gauntlet_kwargs(),
@@ -2533,9 +2534,9 @@ class MTGMenuSystem:
                     log_level='WARNING',  # Menos ruido en logs
                     save_forge_outputs=False,
                     headless_mode=self.headless_mode,
-                    fitness_alpha=0.5,
-                    fitness_beta=0.5,
-                    enable_quality_metrics=True
+                    fitness_alpha=1.0,
+                    fitness_beta=0.0,
+                    enable_quality_metrics=False
                 )
 
                 best_deck = ga.evolve()

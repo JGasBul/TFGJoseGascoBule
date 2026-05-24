@@ -81,10 +81,17 @@ class MTGGeneticAlgorithm:
                  log_level='INFO',
                  save_forge_outputs=True,
                  headless_mode=False,
-                 # PARÁMETROS DE FITNESS MULTI-COMPONENTE (optimizados)
-                 fitness_alpha=0.5,               # Fase 4: win rate 50% (antes 0.6)
-                 fitness_beta=0.5,                # Fase 4: calidad 50% (antes 0.4) — paridad α=β
-                 enable_quality_metrics=True,
+                 # PARÁMETROS DE FITNESS MULTI-COMPONENTE
+                 # Decisión post-prueba2: deck_quality ya no discrimina porque
+                 # pack-aware garantiza que TODOS los mazos sean estructuralmente
+                 # válidos (norma 4-of, manabase coherente, no-basics). Todos
+                 # sacan quality ~0.85, así que el componente β=0.5 solo inflaba
+                 # el fitness sin diferenciar. Default actual: fitness = win_rate
+                 # puro del Swiss tournament. Para reactivar: subir β y poner
+                 # enable_quality_metrics=True.
+                 fitness_alpha=1.0,               # 100% del fitness = win_rate del Swiss
+                 fitness_beta=0.0,                # deck_quality descontada (redundante con pack-aware)
+                 enable_quality_metrics=False,    # Skip cálculo de quality (ahorro de CPU)
                  # PARÁMETROS GAUNTLET TIER-1 (Fase 7)
                  gauntlet_path=None,              # Carpeta con .dck de mazos-ancla (None = gauntlet desactivado)
                  gauntlet_gamma_min=0.05,         # Peso γ inicial (gen 0). Currículum lineal.
