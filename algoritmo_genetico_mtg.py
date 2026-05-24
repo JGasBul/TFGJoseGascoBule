@@ -73,7 +73,7 @@ class MTGGeneticAlgorithm:
                  # PARÁMETROS SWISS TOURNAMENT
                  use_swiss_tournament=True,       # Activar Swiss Tournament (False = round-robin completo)
                  k_rounds=8,                      # Rondas Swiss (fórmula: ceil(log2(pop)) + 2 = 8 para pop=40, 9 para pop=100)
-                 n_games_per_match=2,             # Partidas por enfrentamiento (balance entre precisión y tiempo)
+                 n_games_per_match=1,             # Invocaciones de Forge por enfrentamiento. Cada invocación = `forge sim -n 3` = 3 partidas internas con starter aleatorio. n=1 ya da BO3 efectivo.
                  # PARÁMETROS DE PARALELIZACIÓN
                  max_workers=None,
                  parallel_batch_size=None,
@@ -81,10 +81,21 @@ class MTGGeneticAlgorithm:
                  log_level='INFO',
                  save_forge_outputs=True,
                  headless_mode=False,
-                 # PARÁMETROS DE FITNESS MULTI-COMPONENTE (optimizados)
-                 fitness_alpha=0.5,               # Fase 4: win rate 50% (antes 0.6)
-                 fitness_beta=0.5,                # Fase 4: calidad 50% (antes 0.4) — paridad α=β
-                 enable_quality_metrics=True):
+                 # PARÁMETROS DE FITNESS MULTI-COMPONENTE
+                 # Decisión post-prueba2: deck_quality ya no discrimina porque
+                 # pack-aware garantiza que TODOS los mazos sean estructuralmente
+                 # válidos (norma 4-of, manabase coherente, no-basics). Todos
+                 # sacan quality ~0.85, así que el componente β=0.5 solo inflaba
+                 # el fitness sin diferenciar. Default actual: fitness = win_rate
+                 # puro del Swiss tournament. Para reactivar: subir β y poner
+                 # enable_quality_metrics=True.
+                 fitness_alpha=1.0,               # 100% del fitness = win_rate del Swiss
+                 fitness_beta=0.0,                # deck_quality descontada (redundante con pack-aware)
+                 enable_quality_metrics=False,    # Skip cálculo de quality (ahorro de CPU)
+                 # PARÁMETROS GAUNTLET TIER-1 (Fase 7)
+                 gauntlet_path=None,              # Carpeta con .dck de mazos-ancla (None = gauntlet desactivado)
+                 gauntlet_gamma_min=0.05,         # Peso γ inicial (gen 0). Currículum lineal.
+                 gauntlet_gamma_max=0.30):        # Peso γ final (última gen).
         """
         Inicializa el algoritmo genético con todos sus parámetros
 
@@ -102,7 +113,9 @@ class MTGGeneticAlgorithm:
             elite_size: Número de mejores individuos a preservar
             use_swiss_tournament: Usar Swiss Tournament (True) o round-robin completo (False)
             k_rounds: Número de rondas en Swiss Tournament (recomendado: ceil(log2(pop))+2)
-            n_games_per_match: Partidas por enfrentamiento (1-3, recomendado: 2)
+            n_games_per_match: Invocaciones de Forge por enfrentamiento. Cada
+                invocación ejecuta `forge sim -n 3` = 3 partidas con starter
+                aleatorio independiente. Default n=1 ya cubre BO3 por matchup.
             max_workers: Workers paralelos (None = auto-detectar según CPU)
             parallel_batch_size: Tamaño de lote paralelo (None = auto-calcular)
             base_timeout: Timeout base en segundos para combates
@@ -137,6 +150,13 @@ class MTGGeneticAlgorithm:
         self.fitness_alpha = fitness_alpha
         self.fitness_beta = fitness_beta
         self.enable_quality_metrics = enable_quality_metrics
+
+        # CONFIGURACIÓN GAUNTLET TIER-1 (Fase 7)
+        self.gauntlet_path = gauntlet_path
+        self.gauntlet_gamma_min = gauntlet_gamma_min
+        self.gauntlet_gamma_max = gauntlet_gamma_max
+        self.gauntlet_decks = []           # Se carga en load_gauntlet(); vacío = gauntlet desactivado
+        self.gauntlet_metadata = []        # Lista de dicts con nombre, arquetipo, fuente, fecha
 
         # CONFIGURACIÓN DE PARALELIZACIÓN
         self.max_workers = max_workers if max_workers else max(2, cpu_count() // 2)
@@ -174,6 +194,14 @@ class MTGGeneticAlgorithm:
                 self.basic_lands_ids[card['name']] = card_id
 
         self.logger.debug(f"Tierras básicas identificadas: {list(self.basic_lands_ids.keys())}")
+
+        # Índice inverso name → card_id (Fase 7: parseo de .dck del gauntlet).
+        # Si hay duplicados de nombre, el primero gana (suficiente para básicas y la mayoría de cartas).
+        self._name_to_card_id = {}
+        for cid, card in self.card_catalog.items():
+            name = card.get('name')
+            if name and name not in self._name_to_card_id:
+                self._name_to_card_id[name] = cid
 
         # Máscaras booleanas por categoría (para `crossover_archetype`, Fase 4).
         # Precomputadas para evitar iterar el catálogo en cada cruce.
@@ -494,6 +522,22 @@ class MTGGeneticAlgorithm:
                 'stagnation_counter': getattr(self, 'stagnation_counter', 0)
             }
 
+            # Fase 7: bloque de gauntlet (vacío si gauntlet desactivado)
+            if getattr(self, 'gauntlet_decks', None):
+                winrates = getattr(self, 'last_gauntlet_winrates', [])
+                matchup = getattr(self, 'last_gauntlet_matchup', [])
+                compact_data['gauntlet'] = {
+                    'n_anchors': len(self.gauntlet_decks),
+                    'gamma_t': float(getattr(self, 'last_gauntlet_gamma', 0.0)),
+                    'winrates_per_deck': [float(w) for w in winrates],
+                    'matchup_matrix': matchup,
+                    'avg_winrate': float(np.mean(winrates)) if winrates else 0.0,
+                    'anchors': [
+                        {'forge_name': m['forge_name'], 'name': m.get('name'), 'archetype': m.get('archetype')}
+                        for m in self.gauntlet_metadata
+                    ],
+                }
+
             compact_filename = os.path.join(
                 self.output_dir, 
                 f"population_summary_gen_{generation:03d}.json"
@@ -514,10 +558,10 @@ class MTGGeneticAlgorithm:
             with open(history_filename, 'w', encoding='utf-8') as f:
                 json.dump(history, f, indent=2, ensure_ascii=False)
 
-            self.logger.debug(f"✅ save_population_arrays completado para generación {generation}")
+            self.logger.debug(f"save_population_arrays completado para generación {generation}")
 
         except Exception as e:
-            self.logger.error(f"❌ Error en save_population_arrays: {e}")
+            self.logger.error(f"Error en save_population_arrays: {e}")
             # No reraiseamos el error para evitar que el algoritmo se detenga
             # Solo loggeamos el error y continuamos
             import traceback
@@ -584,11 +628,11 @@ class MTGGeneticAlgorithm:
             with open(final_filename, 'w', encoding='utf-8') as f:
                 json.dump(final_data, f, indent=2, ensure_ascii=False)
 
-            self.logger.info(f"✅ Población final guardada: {final_filename}")
+            self.logger.info(f"Población final guardada: {final_filename}")
             return final_filename
 
         except Exception as e:
-            self.logger.error(f"❌ Error guardando población final: {e}")
+            self.logger.error(f"Error guardando población final: {e}")
             return None
     
     def setup_forge(self):
@@ -615,36 +659,41 @@ class MTGGeneticAlgorithm:
         """Limpia TODOS los archivos de ./user/decks/constructed - VERSIÓN SIMPLE"""
         target_dir = "./user/decks/constructed"
         
-        print(f"🧹 Limpiando TODO en: {target_dir}")
+        print(f"Limpiando TODO en: {target_dir}")
         
         if not os.path.exists(target_dir):
-            print(f"❌ Directorio no existe: {target_dir}")
+            print(f"Directorio no existe: {target_dir}")
             return 0
         
         try:
             files = os.listdir(target_dir)
-            print(f"   📂 Archivos encontrados: {len(files)}")
+            print(f"   Archivos encontrados: {len(files)}")
             
             if len(files) == 0:
-                print("   📭 Directorio ya está vacío")
+                print("   Directorio ya está vacío")
                 return 0
             
             cleaned_count = 0
             for filename in files:
+                # Preservar anchors del gauntlet tier-1 (Fase 7).
+                # Los anchors deben sobrevivir a la limpieza inicial; si no,
+                # Forge no encuentra los .dck cuando intenta jugar contra ellos.
+                if filename.startswith('Gauntlet_'):
+                    continue
                 filepath = os.path.join(target_dir, filename)
                 try:
                     if os.path.isfile(filepath):  # Solo archivos, no directorios
                         os.remove(filepath)
                         cleaned_count += 1
-                        print(f"   ✅ Eliminado: {filename}")
+                        print(f"   Eliminado: {filename}")
                 except Exception as e:
-                    print(f"   ❌ Error eliminando {filename}: {e}")
+                    print(f"   Error eliminando {filename}: {e}")
             
-            print(f"✅ Limpieza completada: {cleaned_count} archivos eliminados")
+            print(f"Limpieza completada: {cleaned_count} archivos eliminados")
             return cleaned_count
             
         except Exception as e:
-            print(f"❌ Error accediendo al directorio: {e}")
+            print(f"Error accediendo al directorio: {e}")
             return 0
     
     def save_combat_result_parallel(self, result):
@@ -839,8 +888,37 @@ class MTGGeneticAlgorithm:
                     'deck1_idx': deck1_idx,
                     'deck2_idx': deck2_idx,
                     'reverse': False,
-                    'headless_mode': self.headless_mode
+                    'headless_mode': self.headless_mode,
+                    'is_gauntlet': False,
                 })
+
+        # === GAUNTLET TIER-1 (Fase 7) ===
+        # Cada candidato juega 1 partida BO1 contra cada anchor. Las tareas se
+        # añaden al mismo combat_tasks → mismo ProcessPoolExecutor → mismo paralelismo.
+        n_anchors = len(self.gauntlet_decks)
+        gauntlet_wins = [[0] * n_anchors for _ in range(n_decks)]
+        gauntlet_played = [[False] * n_anchors for _ in range(n_decks)]
+        if n_anchors > 0:
+            self.logger.info(f"=== GAUNTLET TIER-1: {n_anchors} anchors × {n_decks} candidatos ===")
+            for i in range(n_decks):
+                for a, meta in enumerate(self.gauntlet_metadata):
+                    match_count += 1
+                    match_id = f"Gen{generation}_Gauntlet_D{i}_A{a}_{int(time.time())}"
+                    combat_tasks.append({
+                        'deck1_name': deck_names[i],
+                        'deck2_name': meta['forge_name'],
+                        'forge_jar_path': self.forge_jar_path,
+                        'forge_root': self.forge_root,
+                        'timeout': self.adaptive_timeout,
+                        'match_id': match_id,
+                        'generation': generation,
+                        'forge_output_dir': self.forge_output_dir,
+                        'deck1_idx': i,
+                        'deck2_idx': a,
+                        'reverse': False,
+                        'headless_mode': self.headless_mode,
+                        'is_gauntlet': True,
+                    })
         
         total_combats = len(combat_tasks)
         if self.use_swiss_tournament:
@@ -879,17 +957,21 @@ class MTGGeneticAlgorithm:
                         
                         if result['success']:
                             successful_combats += 1
-                            # Actualizar contadores de victorias
                             i = task['deck1_idx']
                             j = task['deck2_idx']
-                            
-                            if result['return_value'] == 1:
-                                wins[i] += 1
+
+                            if task.get('is_gauntlet'):
+                                # i = pop_idx, j = anchor_idx. result['return_value']=1 → ganó deck1 (el candidato).
+                                gauntlet_played[i][j] = True
+                                if result['return_value'] == 1:
+                                    gauntlet_wins[i][j] = 1
                             else:
-                                wins[j] += 1
-                            
-                            games[i] += 1
-                            games[j] += 1
+                                if result['return_value'] == 1:
+                                    wins[i] += 1
+                                else:
+                                    wins[j] += 1
+                                games[i] += 1
+                                games[j] += 1
                         else:
                             failed_combats += 1
                             if result['winner'] == 'TIMEOUT':
@@ -903,6 +985,20 @@ class MTGGeneticAlgorithm:
                     
                     pbar.update(1)
         
+        # Win-rate de cada candidato contra el gauntlet (Fase 7)
+        gauntlet_winrates = [0.0] * n_decks
+        if n_anchors > 0:
+            for i in range(n_decks):
+                gauntlet_winrates[i] = sum(gauntlet_wins[i]) / n_anchors
+
+        # γ(t) lineal — 0 si gauntlet desactivado
+        gamma_t = self.current_gauntlet_gamma(generation)
+
+        # Persistir para `update_statistics` y `save_population_arrays`
+        self.last_gauntlet_winrates = gauntlet_winrates
+        self.last_gauntlet_matchup = gauntlet_wins
+        self.last_gauntlet_gamma = gamma_t
+
         # Calcular fitness (multi-componente si está habilitado)
         fitness_values = []
         quality_values = []  # Para logging
@@ -919,14 +1015,29 @@ class MTGGeneticAlgorithm:
                 deck_quality = self.calculate_deck_quality(self.population_arrays[i])
                 quality_values.append(deck_quality)
 
-                # Fitness combinado: α * win_rate + β * deck_quality
-                fitness = (self.fitness_alpha * win_rate) + (self.fitness_beta * deck_quality)
-
-                self.logger.debug(
-                    f"Mazo {i} ({deck_names[i]}): fitness={fitness:.4f} "
-                    f"(win_rate={win_rate:.4f} [α={self.fitness_alpha}], "
-                    f"quality={deck_quality:.4f} [β={self.fitness_beta}])"
+                # Distribución de pesos con γ: α y β se reescalan por (1 - γ_t)
+                # para que α' + β' + γ_t = 1 (manteniendo proporción α:β).
+                alpha_t = self.fitness_alpha * (1.0 - gamma_t)
+                beta_t = self.fitness_beta * (1.0 - gamma_t)
+                fitness = (
+                    alpha_t * win_rate
+                    + beta_t * deck_quality
+                    + gamma_t * gauntlet_winrates[i]
                 )
+
+                if n_anchors > 0:
+                    self.logger.debug(
+                        f"Mazo {i} ({deck_names[i]}): fitness={fitness:.4f} "
+                        f"(win_rate={win_rate:.4f} [α'={alpha_t:.3f}], "
+                        f"quality={deck_quality:.4f} [β'={beta_t:.3f}], "
+                        f"gauntlet={gauntlet_winrates[i]:.4f} [γ={gamma_t:.3f}])"
+                    )
+                else:
+                    self.logger.debug(
+                        f"Mazo {i} ({deck_names[i]}): fitness={fitness:.4f} "
+                        f"(win_rate={win_rate:.4f} [α={self.fitness_alpha}], "
+                        f"quality={deck_quality:.4f} [β={self.fitness_beta}])"
+                    )
             else:
                 # Modo legacy: solo win_rate
                 fitness = win_rate
@@ -959,12 +1070,12 @@ class MTGGeneticAlgorithm:
         deck_rankings.sort(key=lambda x: x[2], reverse=True)
 
         # Mostrar Top 5 de la generación actual
-        self.logger.info("📊 Top 5 de esta generación:")
+        self.logger.info("Top 5 de esta generación:")
         for rank, (idx, name, fitness, win_count, game_count) in enumerate(deck_rankings[:5], 1):
             self.logger.info(f"  {rank}. {name}: {fitness:.4f} ({win_count}/{game_count})")
 
         # Mostrar Top 5 GLOBAL (Hall of Fame)
-        self.logger.info("🏆 Top 5 GLOBAL (Hall of Fame histórico):")
+        self.logger.info("Top 5 GLOBAL (Hall of Fame histórico):")
         if hasattr(self, 'hall_of_fame_arrays') and len(self.hall_of_fame_arrays) > 0:
             for rank, (fitness, array) in enumerate(self.hall_of_fame_arrays[:5], 1):
                 self.logger.info(f"  {rank}. HoF #{rank}: {fitness:.4f}")
@@ -995,9 +1106,120 @@ class MTGGeneticAlgorithm:
             f.write("[metadata]\n")
             f.write(f"Name={deck['name']}\n")
             f.write("\n[Main]\n")
-            
+
             for card in deck['cards']:
                 f.write(f"{card['count']} {card['name']}\n")
+
+    def _parse_dck_to_array(self, dck_path):
+        """
+        Parsea un .dck Forge a un array de cuentas indexado por card_id.
+
+        Solo lee el bloque [Main]. Falla con ValueError si una carta no está
+        en el catálogo (mejor que silenciar — el gauntlet debe ser explícito).
+        """
+        array = np.zeros(self.total_cards, dtype=int)
+        in_main = False
+        unknown = []
+        with open(dck_path, 'r', encoding='utf-8') as f:
+            for raw in f:
+                line = raw.strip()
+                if not line:
+                    continue
+                if line.startswith('['):
+                    in_main = (line.lower() == '[main]')
+                    continue
+                if not in_main:
+                    continue
+                # Formato: "N Card Name" (la carta puede tener espacios y //)
+                parts = line.split(' ', 1)
+                if len(parts) != 2 or not parts[0].isdigit():
+                    continue
+                count = int(parts[0])
+                name = parts[1].strip()
+                cid = self._name_to_card_id.get(name)
+                if cid is None:
+                    # DFC fallback: muchas decklists abrevian "Front" en lugar
+                    # de "Front // Back". Buscar la primera entrada con prefijo.
+                    prefix = name + ' //'
+                    for cand_name, cand_id in self._name_to_card_id.items():
+                        if cand_name.startswith(prefix):
+                            cid = cand_id
+                            break
+                if cid is None:
+                    unknown.append(name)
+                    continue
+                array[cid] += count
+        if unknown:
+            raise ValueError(
+                f"Anchor {os.path.basename(dck_path)}: cartas no encontradas en "
+                f"card_catalog: {unknown}"
+            )
+        return array
+
+    def load_gauntlet(self):
+        """
+        Carga los mazos-ancla del gauntlet tier-1 (Fase 7).
+
+        Lee `self.gauntlet_path/*.dck` y opcionalmente `manifest.json` para
+        metadata. Si `gauntlet_path` es None o la carpeta no tiene .dck, el
+        gauntlet queda desactivado (γ efectivo = 0).
+        """
+        self.gauntlet_decks = []
+        self.gauntlet_metadata = []
+
+        if not self.gauntlet_path or not os.path.isdir(self.gauntlet_path):
+            self.logger.info("Gauntlet desactivado (sin gauntlet_path o carpeta inexistente)")
+            return
+
+        dck_files = sorted(
+            f for f in os.listdir(self.gauntlet_path) if f.endswith('.dck')
+        )
+        if not dck_files:
+            self.logger.info(f"Gauntlet desactivado (sin .dck en {self.gauntlet_path})")
+            return
+
+        manifest_path = os.path.join(self.gauntlet_path, 'manifest.json')
+        manifest = {}
+        if os.path.exists(manifest_path):
+            with open(manifest_path, 'r', encoding='utf-8') as f:
+                manifest = json.load(f)
+
+        for idx, fname in enumerate(dck_files):
+            full_path = os.path.join(self.gauntlet_path, fname)
+            array = self._parse_dck_to_array(full_path)
+            total = int(array.sum())
+            meta = manifest.get(fname, {})
+            meta.setdefault('name', fname.removesuffix('.dck'))
+            meta.setdefault('archetype', 'unknown')
+            meta['file'] = fname
+            meta['total_cards'] = total
+            meta['forge_name'] = f"Gauntlet_Anchor{idx}"
+            self.gauntlet_decks.append(array)
+            self.gauntlet_metadata.append(meta)
+            self.logger.info(
+                f"Anchor {idx}: {meta['name']} ({meta['archetype']}, {total} cartas)"
+            )
+
+        # Si forge_decks_dir ya existe, normalizar nombre y persistir los anchors ahí
+        # (Forge los buscará por el `forge_name`).
+        if hasattr(self, 'forge_decks_dir') and os.path.isdir(self.forge_decks_dir):
+            for array, meta in zip(self.gauntlet_decks, self.gauntlet_metadata):
+                deck = self.array_to_deck(array, meta['forge_name'])
+                deck_file = os.path.join(self.forge_decks_dir, f"{meta['forge_name']}.dck")
+                self.save_forge_deck(deck, deck_file)
+
+        self.logger.info(
+            f"Gauntlet activo con {len(self.gauntlet_decks)} anchors "
+            f"(γ_min={self.gauntlet_gamma_min}, γ_max={self.gauntlet_gamma_max})"
+        )
+
+    def current_gauntlet_gamma(self, generation):
+        """Currículum γ(t) lineal: γ_min en gen 0, γ_max en última gen."""
+        if not self.gauntlet_decks or self.max_generations <= 1:
+            return 0.0
+        t = generation / (self.max_generations - 1)
+        t = max(0.0, min(1.0, t))
+        return self.gauntlet_gamma_min + (self.gauntlet_gamma_max - self.gauntlet_gamma_min) * t
 
     # ==============================================================================
     # OPERADORES GENÉTICOS (Cruce y Mutación)
@@ -2708,13 +2930,13 @@ class MTGGeneticAlgorithm:
         empty = [a for a, c in counts.items() if c == 0]
         if empty:
             self.logger.warning(
-                f"⚠️ Hall of Fame: arquetipos vacíos {empty} (cuota={counts})"
+                f"Hall of Fame: arquetipos vacíos {empty} (cuota={counts})"
             )
         else:
             self.logger.debug(f"Hall of Fame por arquetipo: {counts}")
 
         if new_size != old_size:
-            self.logger.info(f"🏆 Hall of Fame: {old_size} → {new_size}")
+            self.logger.info(f"Hall of Fame: {old_size} → {new_size}")
 
         if new_hof:
             self.logger.debug(
@@ -2791,7 +3013,7 @@ class MTGGeneticAlgorithm:
 
             if self.hall_of_fame_arrays:
                 self.logger.debug(
-                    f"💾 Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
+                    f"Guardados {len(self.hall_of_fame_arrays)} mazos del HoF "
                     f"en {hof_dir} (cuota={arch_rank}, formats={[f for f in formats if f != 'summary']})"
                 )
 
@@ -2821,12 +3043,12 @@ class MTGGeneticAlgorithm:
                     json.dump(hof_data, f, ensure_ascii=False, indent=2)
 
                 if hof_data:
-                    self.logger.info(f"✅ Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
+                    self.logger.info(f"Hall of Fame guardado: {len(hof_data)} entradas en {hof_file}")
                 else:
-                    self.logger.warning(f"⚠️ Hall of Fame vacío guardado en {hof_file}")
+                    self.logger.warning(f"Hall of Fame vacío guardado en {hof_file}")
 
             except Exception as e:
-                self.logger.error(f"❌ Error guardando Hall of Fame (summary): {e}")
+                self.logger.error(f"Error guardando Hall of Fame (summary): {e}")
 
     def clean_hall_of_fame_directory(self):
         """
@@ -2841,7 +3063,7 @@ class MTGGeneticAlgorithm:
         if os.path.exists(hof_dir):
             try:
                 shutil.rmtree(hof_dir)
-                self.logger.info(f"🗑️  Directorio Hall of Fame limpiado: {hof_dir}")
+                self.logger.info(f" Directorio Hall of Fame limpiado: {hof_dir}")
             except Exception as e:
                 self.logger.warning(f"No se pudo limpiar directorio Hall of Fame: {e}")
 
@@ -3137,9 +3359,14 @@ class MTGGeneticAlgorithm:
             # === EVALUACIÓN INICIAL (solo si no se reanuda) ===
             if start_generation == 0:
                 # Limpiar directorios de ejecuciones anteriores
-                self.logger.info("🧹 Limpiando archivos de ejecuciones anteriores...")
+                self.logger.info("Limpiando archivos de ejecuciones anteriores...")
                 self.clean_hall_of_fame_directory()
                 self.clean_forge_decks()
+
+                # Fase 7: cargar gauntlet tier-1 DESPUÉS de la limpieza para que
+                # los .dck de los anchors no se borren. Idempotente — si gauntlet
+                # desactivado, es no-op y γ_t = 0.
+                self.load_gauntlet()
 
                 self.logger.info("Evaluando población inicial con procesamiento paralelo...")
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
@@ -3160,6 +3387,10 @@ class MTGGeneticAlgorithm:
             else:
                 # stagnation_counter ya restaurado en load_checkpoint
                 self.current_fitness_values = fitness_values
+                # Fase 7: si reanudamos desde checkpoint, también cargamos el gauntlet
+                # (no se ejecutó clean_forge_decks, los anchors viejos pueden estar
+                # presentes o no; re-escribirlos es idempotente y barato).
+                self.load_gauntlet()
 
             # BUCLE PRINCIPAL CON CONTROL DE TERMINACIÓN MEJORADO
             for generation in range(start_generation + 1 if start_generation > 0 else 1, self.max_generations + 1):
@@ -3238,10 +3469,10 @@ class MTGGeneticAlgorithm:
                 if current_best > best_fitness_ever:
                     best_fitness_ever = current_best
                     self.stagnation_counter = 0
-                    self.logger.info(f"🎉 NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
+                    self.logger.info(f"NUEVO MEJOR FITNESS: {current_best:.4f} (Gen {generation})")
                 else:
                     self.stagnation_counter += 1
-                    self.logger.info(f"📊 Sin mejora. Estancamiento: {self.stagnation_counter} gens")
+                    self.logger.info(f"Sin mejora. Estancamiento: {self.stagnation_counter} gens")
 
                 # === VERIFICAR CONDICIONES DE TERMINACIÓN ===
                 should_continue, reason = self.handle_termination_conditions(
@@ -3250,7 +3481,7 @@ class MTGGeneticAlgorithm:
 
                 if not should_continue:
                     termination_reason = reason
-                    self.logger.info(f"🏁 TERMINACIÓN CONTROLADA: {termination_reason}")
+                    self.logger.info(f"TERMINACIÓN CONTROLADA: {termination_reason}")
 
                     # GUARDAR CHECKPOINT FINAL ANTES DE TERMINAR
                     self.logger.info("Guardando checkpoint final antes de terminar...")
@@ -3267,8 +3498,8 @@ class MTGGeneticAlgorithm:
             # la misma fuente. Sin bloque de verificación duplicada.
             best_deck, final_fitness = self.get_final_best_result()
 
-            self.logger.info(f"🏆 MEJOR FITNESS ALCANZADO: {final_fitness:.4f}")
-            self.logger.info(f"🎯 RAZÓN DE TERMINACIÓN: {termination_reason}")
+            self.logger.info(f"MEJOR FITNESS ALCANZADO: {final_fitness:.4f}")
+            self.logger.info(f"RAZÓN DE TERMINACIÓN: {termination_reason}")
 
         except KeyboardInterrupt:
             self.logger.info("=== EJECUCIÓN INTERRUMPIDA POR EL USUARIO ===")
@@ -3281,7 +3512,7 @@ class MTGGeneticAlgorithm:
                     # Usar fitness_values si existe, sino usar los actuales
                     checkpoint_fitness = fitness_values if 'fitness_values' in locals() else self.current_fitness_values
                     self.save_checkpoint(self.current_generation, checkpoint_fitness)
-                    self.logger.info(f"✅ Checkpoint guardado: puedes reanudar desde generación {self.current_generation + 1}")
+                    self.logger.info(f"Checkpoint guardado: puedes reanudar desde generación {self.current_generation + 1}")
                 except Exception as e:
                     self.logger.error(f"Error guardando checkpoint de emergencia: {e}")
 
@@ -3298,24 +3529,24 @@ class MTGGeneticAlgorithm:
 
         finally:
             # === GARANTIZAR EJECUCIÓN DE MÉTODOS FINALES ===
-            self.logger.info("🔄 Ejecutando métodos de finalización...")
+            self.logger.info("Ejecutando métodos de finalización...")
 
             try:
                 self.save_statistics()
-                self.logger.info("✅ save_statistics() ejecutado correctamente")
+                self.logger.info("save_statistics() ejecutado correctamente")
             except Exception as e:
                 self.logger.error(f"Error en save_statistics(): {e}")
 
             try:
                 self.save_final_logs()
-                self.logger.info("✅ save_final_logs() ejecutado correctamente")
+                self.logger.info("save_final_logs() ejecutado correctamente")
             except Exception as e:
                 self.logger.error(f"Error en save_final_logs(): {e}")
 
             try:
                 final_file = self.save_final_population()
                 if final_file:
-                    self.logger.info(f"✅ save_final_population() ejecutado: {final_file}")
+                    self.logger.info(f"save_final_population() ejecutado: {final_file}")
             except Exception as e:
                 self.logger.error(f"Error en save_final_population(): {e}")
 
@@ -3406,7 +3637,7 @@ class MTGGeneticAlgorithm:
         try:
             # Verificar que hay datos
             if not self.stats['best_fitness']:
-                self.logger.warning("⚠️ No hay estadísticas para guardar - creando estadísticas de emergencia")
+                self.logger.warning("No hay estadísticas para guardar - creando estadísticas de emergencia")
 
                 # Crear estadísticas básicas si no existen
                 if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
@@ -3428,7 +3659,7 @@ class MTGGeneticAlgorithm:
             # Verificar longitudes consistentes
             lengths = [len(self.stats[key]) for key in self.stats.keys()]
             if len(set(lengths)) > 1:
-                self.logger.warning(f"⚠️ Longitudes inconsistentes en estadísticas: {dict(zip(self.stats.keys(), lengths))}")
+                self.logger.warning(f"Longitudes inconsistentes en estadísticas: {dict(zip(self.stats.keys(), lengths))}")
 
                 # Truncar a la longitud mínima
                 min_length = min(lengths)
@@ -3445,26 +3676,26 @@ class MTGGeneticAlgorithm:
                 'archetype_entropy': self.stats['archetype_entropy'],
             })
 
-            self.logger.info(f"📊 Guardando estadísticas: {len(stats_df)} generaciones")
+            self.logger.info(f"Guardando estadísticas: {len(stats_df)} generaciones")
 
             # Guardar CSV
             csv_file = os.path.join(self.output_dir, "parallel_evolution_stats.csv")
             stats_df.to_csv(csv_file, index=False)
-            self.logger.info(f"✅ CSV guardado: {csv_file}")
+            self.logger.info(f"CSV guardado: {csv_file}")
 
             # Crear gráficos solo si hay datos suficientes
             if len(stats_df) > 0:
                 self.create_evolution_plots(stats_df)
             else:
-                self.logger.warning("⚠️ No hay suficientes datos para crear gráficos")
+                self.logger.warning("No hay suficientes datos para crear gráficos")
 
             # Guardar Hall of Fame
             self.persist_hall_of_fame(formats=('summary',))
 
-            self.logger.info(f"✅ Estadísticas paralelas guardadas en {self.output_dir}")
+            self.logger.info(f"Estadísticas paralelas guardadas en {self.output_dir}")
 
         except Exception as e:
-            self.logger.error(f"❌ Error en save_statistics(): {e}")
+            self.logger.error(f"Error en save_statistics(): {e}")
             import traceback
             self.logger.error(f"Traceback: {traceback.format_exc()}")
         
@@ -3535,10 +3766,10 @@ class MTGGeneticAlgorithm:
             plt.savefig(plot_file, dpi=150, bbox_inches='tight')
             plt.close()
 
-            self.logger.info(f"✅ Gráficos guardados: {plot_file}")
+            self.logger.info(f"Gráficos guardados: {plot_file}")
 
         except Exception as e:
-            self.logger.error(f"❌ Error creando gráficos: {e}")
+            self.logger.error(f"Error creando gráficos: {e}")
             # Cerrar figura si existe para evitar warnings
             try:
                 plt.close('all')
@@ -3578,18 +3809,18 @@ class MTGGeneticAlgorithm:
             if self.hall_of_fame_arrays:
                 best_fitness, best_array = self.hall_of_fame_arrays[0]
                 best_deck = self.array_to_deck(best_array, "Champion_Deck")
-                self.logger.info(f"✅ Mejor resultado del Hall of Fame: fitness {best_fitness:.4f}")
+                self.logger.info(f"Mejor resultado del Hall of Fame: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
             if hasattr(self, 'current_fitness_values') and self.current_fitness_values:
                 best_idx = int(np.argmax(self.current_fitness_values))
                 best_fitness = float(self.current_fitness_values[best_idx])
                 best_deck = self.array_to_deck(self.population_arrays[best_idx], "Final_Best_Deck")
-                self.logger.warning(f"⚠️ HoF vacío; devolviendo mejor de población actual: fitness {best_fitness:.4f}")
+                self.logger.warning(f"HoF vacío; devolviendo mejor de población actual: fitness {best_fitness:.4f}")
                 return best_deck, best_fitness
 
             best_deck = self.array_to_deck(self.population_arrays[0], "Fallback_Deck")
-            self.logger.warning("⚠️ Sin HoF ni fitness — devolviendo primer mazo de población")
+            self.logger.warning("Sin HoF ni fitness — devolviendo primer mazo de población")
             return best_deck, 0.0
 
         except Exception as e:
@@ -3702,8 +3933,11 @@ def parallel_forge_combat_worker(combat_info):
     headless_mode = combat_info.get('headless_mode', False)
     
     # Comando para ejecutar Forge
-    # OPTIMIZADO: 3 combates por enfrentamiento para reducir ruido ~58% (antes: 1)
-    # Cada enfrentamiento ejecuta 3 combates, victoria = mejor de 3
+    # `forge sim -d D1 D2 -n 3` ejecuta 3 partidas con starter aleatorio
+    # independiente por partida (comportamiento confirmado en logs reales:
+    # ~25% de invocaciones tienen mismo starter en las 3, ~75% alternan).
+    # Esto YA es un BO3 efectivo dentro de UNA sola invocación: por eso el
+    # constructor del GA usa n_games_per_match=1 por defecto.
     base_cmd = [
         "java", "-jar", forge_jar_path,
         "sim",
@@ -3852,7 +4086,7 @@ if __name__ == "__main__":
         'save_forge_outputs': True  # Configurado por hardware analyzer
     }
     
-    print("🚀 === ALGORITMO GENÉTICO MTG PARALELO ===")
+    print("=== ALGORITMO GENÉTICO MTG PARALELO ===")
     print(f"Configuración: {config['population_size']} mazos, {config['max_generations']} generaciones")
     print(f"Paralelización: {config['max_workers']} workers")
     
@@ -3861,7 +4095,7 @@ if __name__ == "__main__":
     best_deck = ga.evolve()
     
     # Mostrar resultado
-    print("\n🏆 ===== MEJOR MAZO ENCONTRADO =====")
+    print("\n===== MEJOR MAZO ENCONTRADO =====")
     print(f"Nombre: {best_deck['name']}")
     print(f"Colores: {', '.join(best_deck['colors'])}")
     print(f"Estadísticas: {best_deck['stats']}")
@@ -3869,4 +4103,4 @@ if __name__ == "__main__":
     for card in sorted(best_deck['cards'], key=lambda x: (x['cmc'], x['name']))[:10]:
         print(f"  {card['count']}x {card['name']} ({card.get('mana_cost', 'N/A')})")
     
-    print(f"\n✅ Logs paralelos guardados en: mtg_evolved_decks/logs/")
+    print(f"\nLogs paralelos guardados en: mtg_evolved_decks/logs/")
