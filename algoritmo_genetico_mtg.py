@@ -82,16 +82,15 @@ class MTGGeneticAlgorithm:
                  save_forge_outputs=True,
                  headless_mode=False,
                  # PARÁMETROS DE FITNESS MULTI-COMPONENTE
-                 # Decisión post-prueba2: deck_quality ya no discrimina porque
-                 # pack-aware garantiza que TODOS los mazos sean estructuralmente
-                 # válidos (norma 4-of, manabase coherente, no-basics). Todos
-                 # sacan quality ~0.85, así que el componente β=0.5 solo inflaba
-                 # el fitness sin diferenciar. Default actual: fitness = win_rate
-                 # puro del Swiss tournament. Para reactivar: subir β y poner
-                 # enable_quality_metrics=True.
-                 fitness_alpha=1.0,               # 100% del fitness = win_rate del Swiss
-                 fitness_beta=0.0,                # deck_quality descontada (redundante con pack-aware)
-                 enable_quality_metrics=False,    # Skip cálculo de quality (ahorro de CPU)
+                 # Tras el refinamiento de deck_quality (eliminar 3 componentes
+                 # saturados por pack-aware), la métrica vuelve a discriminar
+                 # entre mazos (CoV esperado ~22-25%). Se reactiva con peso β=0.3
+                 # como ancla estructural que rompe empates en el Swiss interno.
+                 # El componente principal sigue siendo el win_rate (α=0.7).
+                 # Ver documentacion/PLAN_QUALITY_REBALANCE.md.
+                 fitness_alpha=0.7,               # win_rate Swiss = 70% del fitness
+                 fitness_beta=0.3,                # deck_quality refinada = 30% del fitness
+                 enable_quality_metrics=True,
                  # PARÁMETROS GAUNTLET TIER-1 (Fase 7)
                  gauntlet_path=None,              # Carpeta con .dck de mazos-ancla (None = gauntlet desactivado)
                  gauntlet_gamma_min=0.05,         # Peso γ inicial (gen 0). Currículum lineal.
@@ -2750,52 +2749,51 @@ class MTGGeneticAlgorithm:
 
     def calculate_deck_quality(self, deck_array):
         """
-        Calidad global del mazo (Tarea 4): 6 componentes, sensibles al arquetipo.
+        Calidad global del mazo. Tras pack-aware (Fases 1/2/2.5) la métrica se
+        refinó eliminando 3 componentes saturados que no discriminaban entre
+        mazos pack-aware (CoV < 10% en los 40 mazos finales de prueba2):
 
-        Pesos:
-        - Mana curve:           20%
-        - Synergy:              20%
-        - Card balance:         20%
-        - Card power:           15%
-        - Structural:           10%   (playsets vs singletons)
-        - Archetype coherence:  15%   (avg_cmc/creaturas/tierras vs ideal)
+            structural   (era 10%):  CoV  0.5%  — pack-aware garantiza 4-of
+            card_power   (era 15%):  CoV  7.1%  — saturado bajo, todos ~0.44
+            mana_curve   (era 20%):  CoV  7.7%  — adjust_deck_size regulariza
+
+        Los 3 componentes supervivientes (con varianza informativa) se
+        reponderan al 100%:
+
+            synergy             (era 20% → ahora 35%): CoV 27.7%
+            card_balance        (era 20% → ahora 35%): CoV 30.7%
+            archetype_coherence (era 15% → ahora 30%): CoV 17.3%
+
+        Las funciones evaluate_mana_curve, evaluate_structural y
+        evaluate_card_power se mantienen en el código para análisis posterior,
+        solo se desacoplaron del cálculo agregado.
         """
         WEIGHTS = {
-            'mana_curve': 0.20,
-            'synergy': 0.20,
-            'card_balance': 0.20,
-            'card_power': 0.15,
-            'structural': 0.10,
-            'archetype_coherence': 0.15,
+            'synergy': 0.35,
+            'card_balance': 0.35,
+            'archetype_coherence': 0.30,
         }
 
         # Detectar arquetipo UNA sola vez y propagarlo a los componentes
         info = self.detect_archetype(deck_array)
         archetype = info['archetype']
 
-        mana_curve_score = self.evaluate_mana_curve(deck_array, archetype=archetype)
         synergy_score = self.evaluate_synergy(deck_array)
         balance_score = self.evaluate_card_balance(deck_array, archetype=archetype)
-        power_score = self.evaluate_card_power(deck_array)
-        structural_score = self.evaluate_structural(deck_array)
         coherence_score = self.evaluate_archetype_coherence(
             deck_array, archetype=archetype, info=info
         )
 
         quality = (
-            mana_curve_score * WEIGHTS['mana_curve'] +
             synergy_score * WEIGHTS['synergy'] +
             balance_score * WEIGHTS['card_balance'] +
-            power_score * WEIGHTS['card_power'] +
-            structural_score * WEIGHTS['structural'] +
             coherence_score * WEIGHTS['archetype_coherence']
         )
 
         self.logger.debug(
             f"Calidad [{archetype}]: {quality:.3f} "
-            f"(Curva:{mana_curve_score:.2f}, Sin:{synergy_score:.2f}, "
-            f"Bal:{balance_score:.2f}, Pod:{power_score:.2f}, "
-            f"Estr:{structural_score:.2f}, Coh:{coherence_score:.2f})"
+            f"(Sin:{synergy_score:.2f}, Bal:{balance_score:.2f}, "
+            f"Coh:{coherence_score:.2f})"
         )
 
         return quality
