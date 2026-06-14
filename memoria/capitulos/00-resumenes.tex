@@ -5,12 +5,16 @@
 % =============================================================
 
 \chapter*{Resumen}
-% TODO: redactar el resumen en castellano (250-830 palabras).
-% Debe extender el resumen de la propuesta aprobada por la CAT
-% e incluir resultados y conclusiones del trabajo.
 
-\textbf{Palabras clave:}
-% TODO: 3-5 palabras clave.
+Este Trabajo de Fin de Grado desarrolla una metaheurística capaz de generar mazos competitivos para el formato Estándar de Magic: The Gathering. El juego presenta un metajuego dinámico, con cartas que rotan cada pocos meses y arquetipos dominantes que cambian con frecuencia. El sistema construye mazos que pueden enfrentarse a esos arquetipos manteniendo coherencia interna y respetando las reglas del formato. El espacio de búsqueda incluye alrededor de cuatro mil cartas con restricciones duras como el máximo de cuatro copias por carta, los 60 cartas exactas por mazo y la consistencia cromática del manabase.
+
+La solución implementada es un algoritmo genético con dos características que lo distinguen de un enfoque clásico. Primera: los operadores de mutación y cruce trabajan a nivel de \emph{pack} de cuatro copias, replicando cómo construye un jugador humano. Decidir si una carta entra al mazo equivale a decidir si entran cuatro copias, no una. Segunda: el fitness combina el rendimiento real en partidas simuladas con el motor Forge (al 70\%) y una métrica de calidad estructural sensible al arquetipo detectado (al 30\%). La población evoluciona durante decenas de generaciones bajo presión selectiva tipo Swiss Tournament, con elitismo soportado por un Hall of Fame con cuotas por arquetipo.
+
+Los resultados confirman la viabilidad del enfoque. En la comparativa frente al baseline sin operadores a nivel de pack, la nueva aproximación reduce los \emph{singletons} sueltos de 3,55 a 0,05 por mazo (una bajada del 95\%) y consolida 7,88 series de cuatro copias por mazo. El run final, de 43 generaciones sobre una población de 40 mazos, alcanza un pico de fitness de 0,9755 en la generación 39, lo que sitúa el mejor mazo al 93\% del recorrido evolutivo. Esa progresión escalonada descarta la convergencia prematura típica de los algoritmos genéticos mal calibrados. El Hall of Fame final reúne mazos con cartas reconocidas del meta competitivo actual de Standard, como Scalestorm Summoner, Leyline Axe o el paquete de quemado Boros.
+
+El trabajo también identifica límites del enfoque actual. Cada ejecución del algoritmo converge a un único par cromático, por lo que recorrer el ecosistema arquetípico al completo exigiría varias ejecuciones con semillas distintas. Una segunda exploración, basada en evaluar la población contra mazos tier-1 del meta real, se descartó tras detectar un sesgo medible del simulador frente a arquetipos de juego complejo. La memoria documenta ambos hallazgos y propone líneas concretas de continuación.
+
+\textbf{Palabras clave:} algoritmo genético, Magic: The Gathering, generación de mazos, metaheurística, simulación.
 
 \chapter*{Resum}
 \selectlanguage{catalan}
