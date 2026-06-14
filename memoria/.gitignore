@@ -1,0 +1,30 @@
+# Artefactos de compilación LaTeX — NO commitear
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.nav
+*.out
+*.run.xml
+*.snm
+*.synctex.gz
+*.toc
+*.vrb
+*.xdy
+
+# PDF compilado del documento principal: NO commitear el resultado de la
+# compilación local. Sí está la versión de referencia de la facultad en
+# referencia/plantilla-original.pdf.
+main.pdf
+
+# Backup que generan algunos editores LaTeX
+*.bak
+*~
+
+# VS Code workspace (opcional, lo dejas si quieres que cada uno tenga el suyo)
+.vscode/
