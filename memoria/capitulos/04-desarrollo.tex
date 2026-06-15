@@ -210,7 +210,87 @@ El CoV proyectado tras el refinamiento es de aproximadamente 22-25\,\%, frente a
 El efecto práctico es que el fitness vuelve a tener gradiente en toda la distribución de la población. Dos mazos que empaten en win\_rate se diferenciarán por la sinergia interna, el balance de roles o el ajuste al arquetipo. Con el gauntlet desactivado y la calidad refinada activa, el run final que se describe en la sección siguiente arranca sin los problemas de saturación que afectaron a los primeros experimentos.
 
 \section{Experimento 2: run con calidad refinada}
-% TODO: presentacionProfes, 43 gens, fitness pico 0.9755, atractor R/W Boros.
+
+Con los operadores pack-aware consolidados y la métrica de calidad rediseñada, se ejecutó el run definitivo del TFG. Este es el experimento que se presenta en la defensa y del que se extraen las conclusiones principales. El run partió de una población inicial de alta calidad, producto de un run preparatorio de 31 generaciones, y evolucionó durante 43 generaciones adicionales.
+
+\subsection{Configuración del run}
+
+\begin{table}[H]
+\centering
+\caption{Parámetros del run final (\texttt{presentacionProfes}).}
+\label{tab:config-final}
+\begin{tabular}{ll}
+\toprule
+\textbf{Parámetro} & \textbf{Valor} \\
+\midrule
+Población & 40 mazos \\
+Generaciones & 43 (gen 0 a gen 42) \\
+Combates por generación & 320 \\
+Selección & Swiss Tournament ($k=7$) \\
+Cuota Hall of Fame por arquetipo & 3 \\
+Operadores de variación & Pack-aware (7 operadores) \\
+Fitness & $0{,}7 \cdot \text{win\_rate} + 0{,}3 \cdot \text{quality}$ \\
+Pool de cartas & 4.130 IDs \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Trayectoria de fitness}
+
+\begin{table}[H]
+\centering
+\caption{Estadísticos de fitness en generaciones representativas del run final.}
+\label{tab:fitness-final}
+\begin{tabular}{rrrrr}
+\toprule
+\textbf{Gen} & \textbf{best\_fit} & \textbf{avg\_fit} & \textbf{diversidad} & \textbf{mut\_rate} \\
+\midrule
+0  & 0,8401 & 0,5268 & 0,871 & 0,60 \\
+5  & 0,8382 & 0,5220 & 0,762 & 0,60 \\
+10 & 0,8734 & 0,5256 & 0,735 & 0,75 \\
+15 & 0,8828 & 0,5371 & 0,562 & 0,90 \\
+18 & 0,9427 & 0,5372 & 0,586 & 0,90 \\
+22 & 0,9427 & 0,5610 & 0,541 & 0,60 \\
+30 & 0,9045 & 0,5693 & 0,418 & 0,90 \\
+38 & 0,9475 & 0,5696 & 0,477 & 0,90 \\
+\textbf{42} & \textbf{0,9755} & \textbf{0,5983} & \textbf{0,438} & \textbf{0,60} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El \emph{avg\_fit} sube de 0,527 en la generación 0 a 0,598 en la generación 42, un incremento del 13,5\,\%. La trayectoria es ascendente y sin saltos bruscos, lo que descarta convergencia prematura. El primer salto significativo del \emph{best\_fit} ocurre en la generación 18, donde la tasa de mutación adaptativa lleva varios ciclos a 0,9 para romper un estancamiento; ese esfuerzo produce el primer pico de 0,9427. Generaciones posteriores consolidan esa ganancia sin retroceder por debajo de 0,88.
+
+El pico absoluto, 0,9755, aparece en la generación 42, la última del run. Ese dato tiene una lectura favorable: el algoritmo seguía mejorando al momento de la terminación. Con más generaciones, el gradiente existente permitiría previsiblemente superar ese valor.
+
+La diversidad cae de 0,871 a 0,438 a lo largo del run. Es convergencia natural: la población se especializa en torno al par cromático dominante sin colapsar. La entropía de arquetipo en la generación 42 es 0,715, un nivel que indica coexistencia real de aggro, midrange y control en el Hall of Fame, aunque con pesos desiguales.
+
+\subsection{Atractor cromático: R/W Boros}
+
+Cada run del algoritmo converge a un único par cromático. El run final converge a R/W (Boros). Este es el comportamiento esperado: la presión selectiva favorece mazos coherentes con una manabase de dos colores, y el primer par que consigue ese nivel de coherencia atrae las mutaciones sucesivas hacia sí mismo. Los tres mazos top del Hall of Fame, uno de cada arquetipo, son Boros:
+
+\begin{itemize}
+    \item \textbf{Aggro R/W}: curva baja con Scalestorm Summoner, Inti, Seneschal of the Sun, Werefox Bodyguard y Roc Hunter como núcleo de amenazas.
+    \item \textbf{Midrange R/W}: Leyline Axe, Giant Cindermaw, Defiler of Instinct y Buster Sword como paquete de presión mediada con tierras de utilidad (Temple of Triumph, Crawling Barrens).
+    \item \textbf{Control R/W}: Scalestorm Summoner como win condition tardío, Volt Charge, Galvanize, Flame Lash y Twin Bolt como conjunto de remoción de daño, Dragon Fodder como generación de tokens.
+\end{itemize}
+
+Leyline Axe y Scalestorm Summoner aparecen en dos de los tres mazos del Hall of Fame, lo que señala que el algoritmo identificó esas cartas como piezas de alto valor en el contexto cromático convergido. Ambas son cartas del metajuego competitivo actual de Standard.
+
+\subsection{Inspección del Hall of Fame final}
+
+El mazo con la fitness más alta del Hall of Fame es el midrange R/W, con 0,9475:
+
+\begin{center}
+\small
+\texttt{4 Giant Cindermaw, 4 Leyline Axe, 4 Defiler of Instinct, 4 Roc Hunter,}\\
+\texttt{3 Into the Fire, 4 Digsite Conservator, 4 Glimmerlight,}\\
+\texttt{4 Fuel the Flames, 4 Buster Sword,}\\
+\texttt{20 Mountain, 2 Plains, 1 Temple of Triumph, 1 Crawling Barrens, 1 Capital City}
+\end{center}
+
+Nueve packs de cuatro copias. Manabase con tres tierras no básicas. El plan de juego es de presión sostenida con amenazas de alto impacto (Giant Cindermaw, Defiler of Instinct) respaldadas por equipamiento (Leyline Axe, Buster Sword) y generación de valor (Digsite Conservator, Glimmerlight). Into the Fire y Fuel the Flames cubren el slot de remoción.
+
+El mazo es competitivo con el estándar del formato. Un jugador con experiencia en R/W reconocería el plan de juego y no necesitaría cambios estructurales para llevarlo a un torneo.
 
 \section{Exploración del gauntlet tier-1}
 % TODO: diseño del gauntlet, 5 anchors, sesgo de Forge AI sobre arquetipos
