@@ -62,7 +62,32 @@ Esta representación tiene dos ventajas. Permite operar sobre los mazos con álg
 
 La inicialización no se limita a cargar la población. La función \texttt{\_seed\_archetypes} asigna a cada mazo inicial un arquetipo objetivo (aggro, midrange o control) con cuotas iguales y consolida su estructura hacia ese arquetipo. La asignación es solo una siembra: en cuanto empieza la evolución, el arquetipo de cada mazo se redetecta dinámicamente y puede migrar si la presión selectiva lo recompensa. Esta decisión garantiza diversidad de arquetipos desde la generación 0 sin fijarla artificialmente después.
 
-Cada generación sigue el mismo ciclo. Primero se preserva la élite: los mejores individuos del Hall of Fame pasan intactos a la nueva población. El resto se genera por reproducción. Dos padres se eligen por selección de torneo, en la que se toma una muestra aleatoria de la población y gana el de mayor fitness. Con probabilidad \texttt{crossover\_rate} los padres se cruzan; con probabilidad \texttt{mutation\_rate} cada hijo muta. La nueva población se evalúa, se actualizan el Hall of Fame y las estadísticas, y se guarda un checkpoint. El ciclo se repite hasta agotar las generaciones o alcanzar el fitness objetivo.
+Cada generación sigue el mismo ciclo, que la figura~\ref{fig:bucle} resume. Primero se preserva la élite: los mejores individuos del Hall of Fame pasan intactos a la nueva población. El resto se genera por reproducción. Dos padres se eligen por selección de torneo, en la que se toma una muestra aleatoria de la población y gana el de mayor fitness. Con probabilidad \texttt{crossover\_rate} los padres se cruzan; con probabilidad \texttt{mutation\_rate} cada hijo muta. La nueva población se evalúa, se actualizan el Hall of Fame y las estadísticas, y se guarda un checkpoint. El ciclo se repite hasta agotar las generaciones o alcanzar el fitness objetivo.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    font=\small,
+    paso/.style={draw, rounded corners, align=center, minimum height=0.95cm, text width=2.0cm, fill=blue!5},
+    flecha/.style={-{Stealth[length=2.4mm]}, thick}
+]
+\node[paso] (pop) {Población gen.\,$g$};
+\node[paso, right=0.85cm of pop] (eval) {Evaluación\\(Swiss + Forge)};
+\node[paso, right=0.85cm of eval] (sel) {Selección\\por torneo};
+\node[paso, right=0.85cm of sel] (cruce) {Cruce y\\mutación};
+\node[paso, right=0.85cm of cruce] (nueva) {Población gen.\,$g{+}1$};
+\node[paso, fill=orange!10, below=1.0cm of eval] (hof) {Hall of Fame\\(élite)};
+\draw[flecha] (pop) -- (eval);
+\draw[flecha] (eval) -- (sel);
+\draw[flecha] (sel) -- (cruce);
+\draw[flecha] (cruce) -- (nueva);
+\draw[flecha] (eval) -- (hof);
+\draw[flecha] (hof.south) -- ++(0,-0.35) -| (nueva.south) node[pos=0.25, below, font=\scriptsize] {elitismo};
+\draw[flecha] (nueva.north) -- ++(0,0.55) -| (pop.north) node[pos=0.25, above, font=\scriptsize] {nueva generación};
+\end{tikzpicture}
+\caption{Ciclo generacional del algoritmo. La evaluación alimenta el Hall of Fame, que inyecta la élite en la población siguiente mediante elitismo.}
+\label{fig:bucle}
+\end{figure}
 
 La tasa de mutación no es fija. La función \texttt{adaptive\_mutation\_rate} la incrementa cuando detecta estancamiento (varias generaciones sin mejorar el mejor fitness) y la relaja en la fase final si la población converge sin atascarse. El diseño es aditivo con límites en el intervalo $[0{,}1,\ 1{,}0]$, de modo que cada escalón de estancamiento aporta un incremento visible en lugar de saturar de golpe.
 
@@ -72,7 +97,22 @@ El Hall of Fame conserva los mejores mazos históricos con una cuota estricta po
 
 El cruce dispone de dos variantes que se eligen al azar en cada reproducción. El cruce uniforme decide carta por carta de qué padre hereda cada posición del hijo. El cruce por categoría decide por bloques: hereda toda la manabase de un padre, todas las criaturas de otro y todos los hechizos del que toque, preservando la coherencia interna de cada bloque en lugar de cortar por un punto arbitrario.
 
-La mutación trabaja en packs, no en copias sueltas. Hay siete operadores, y todos comparten un principio: cada mutación es una sustitución atómica que elimina un pack y añade otro, manteniendo constante el número de cartas. El operador genérico (\texttt{pack\_swap}) intercambia una carta de baja afinidad por otra de alta afinidad con el arquetipo. Los seis restantes modelan decisiones concretas de un jugador construyendo un mazo: completar un pack parcial a cuatro copias, empujar la curva de maná hacia el ideal del arquetipo, inyectar cartas de respuesta cuando faltan, podar un color secundario para consolidar la manabase, mejorar una criatura por otra de igual coste y mejores estadísticas, y reforzar la tribu dominante. Cuando un operador temático no encuentra candidatos viables, cae al swap genérico, de modo que ninguna mutación queda sin efecto. Un repartidor pondera los siete operadores según el régimen evolutivo: en estancamiento sube el peso del swap exploratorio; en marcha normal reparte entre consolidación y operadores temáticos.
+La mutación trabaja en packs, no en copias sueltas. Hay siete operadores, y todos comparten un principio: cada mutación es una sustitución atómica que elimina un pack y añade otro, manteniendo constante el número de cartas, tal como ilustra la figura~\ref{fig:mutacion}. El operador genérico (\texttt{pack\_swap}) intercambia una carta de baja afinidad por otra de alta afinidad con el arquetipo. Los seis restantes modelan decisiones concretas de un jugador construyendo un mazo: completar un pack parcial a cuatro copias, empujar la curva de maná hacia el ideal del arquetipo, inyectar cartas de respuesta cuando faltan, podar un color secundario para consolidar la manabase, mejorar una criatura por otra de igual coste y mejores estadísticas, y reforzar la tribu dominante. Cuando un operador temático no encuentra candidatos viables, cae al swap genérico, de modo que ninguna mutación queda sin efecto. Un repartidor pondera los siete operadores según el régimen evolutivo: en estancamiento sube el peso del swap exploratorio; en marcha normal reparte entre consolidación y operadores temáticos.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    font=\small,
+    mazo/.style={draw, rounded corners, align=left, text width=3.1cm, fill=gray!5, inner sep=6pt},
+    flecha/.style={-{Stealth[length=2.8mm]}, very thick}
+]
+\node[mazo] (antes) {\textbf{Mazo (60 cartas)}\\[2pt] 24 Tierras\\ 4$\times$ Carta C\\ \textcolor{red!75!black}{4$\times$ Carta A}\\ 4$\times$ Carta D\\ \dots};
+\node[mazo, right=3.4cm of antes] (despues) {\textbf{Mazo (60 cartas)}\\[2pt] 24 Tierras\\ 4$\times$ Carta C\\ \textcolor{green!45!black}{4$\times$ Carta B}\\ 4$\times$ Carta D\\ \dots};
+\draw[flecha] (antes) -- node[above, align=center, font=\scriptsize] {\texttt{mutate\_pack\_swap}\\(net 0 cartas)} node[below, align=center, font=\scriptsize] {$-$ pack baja afinidad\\$+$ pack alta afinidad} (despues);
+\end{tikzpicture}
+\caption{Mutación a nivel de pack. La operación retira las cuatro copias de una carta poco afín al arquetipo e introduce cuatro de otra más afín, conservando el total de 60 cartas.}
+\label{fig:mutacion}
+\end{figure}
 
 Todas las operaciones terminan llamando a \texttt{adjust\_deck\_size}, la función que repara el mazo y hace cumplir las reglas. Consolida los \emph{singletons} sobrantes (deja un máximo de dos), ajusta el total a 60 cartas, impone el piso de tierras propio del arquetipo (20 para aggro, 23 para midrange, 25 para control), garantiza al menos una tierra básica por cada color usado y rebalancea la manabase para que las fuentes de cada color sean proporcionales a su demanda de pips, según una heurística inspirada en los estudios de manabase de Frank Karsten. Esta función es la guardiana de las restricciones duras del formato.
 
