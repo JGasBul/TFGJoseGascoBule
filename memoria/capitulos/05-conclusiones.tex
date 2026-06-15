@@ -1,29 +1,54 @@
 % =============================================================
 % Capítulo 5. Conclusiones y trabajo futuro
 % =============================================================
-% Contenido previsto:
-%   - Cumplimiento de los objetivos planteados en el capítulo 1
-%   - Aprendizajes principales
-%   - Limitaciones identificadas
-%   - Líneas de trabajo futuro
-% =============================================================
 
 \chapter{Conclusiones y trabajo futuro}
 \label{cap:conclusiones}
 
-% TODO
-
 \section{Cumplimiento de objetivos}
-% TODO: revisar los objetivos del capítulo 1 y argumentar el grado de
-% cumplimiento de cada uno.
+
+El trabajo se planteó un objetivo general y cinco objetivos específicos (sección~\ref{sec:objetivos}). El objetivo general, diseñar e implementar una metaheurística capaz de generar mazos competitivos y estructuralmente realistas para el formato Standard evaluándolos mediante simulación real, se ha cumplido: el sistema produce mazos coherentes con cartas del meta actual y alcanza un fitness de 0,9755 en su mejor ejemplar. El grado de cumplimiento de cada objetivo específico se revisa a continuación.
+
+\begin{enumerate}
+    \item \textbf{Espacio de búsqueda y representación.} Cumplido. El catálogo se construye a partir de las cartas reales del formato Standard obtenidas de Scryfall, alrededor de 4.130 cartas, y el mazo se representa como un vector de enteros que permite operar con álgebra vectorial y codifica la norma de las cuatro copias de forma directa (capítulo~\ref{sec:arquitectura}).
+
+    \item \textbf{Operadores pack-aware.} Cumplido y validado cuantitativamente. Los siete operadores de mutación y los dos de cruce trabajan en packs de cuatro copias. El experimento comparativo de la sección~\ref{sec:experimento-ab} mide el efecto: los \emph{singletons} sueltos caen un 95\% y los packs consolidados suben un 41\% por mazo respecto al diseño que opera con copias individuales.
+
+    \item \textbf{Evaluación por simulación viable en coste.} Cumplido. Forge actúa como oráculo de fitness jugando partidas reales, y el sistema de torneo Swiss reduce el número de enfrentamientos por generación en más de un 90\% frente al round-robin completo. Esa reducción es la que permitió duplicar la población sin disparar el coste (secciones~\ref{sec:torneo} y~\ref{sec:evolucion}).
+
+    \item \textbf{Función de fitness multi-componente.} Cumplido. El fitness combina la tasa de victorias en el Swiss con una métrica de calidad estructural sensible al arquetipo. La métrica se rediseñó tras detectar que la mejora estructural de los mazos había saturado parte de sus componentes (sección~\ref{sec:refinamiento}).
+
+    \item \textbf{Análisis del comportamiento emergente.} Cumplido. El trabajo documenta la convergencia de cada ejecución a un único par cromático, el ecosistema de arquetipos que preserva el Hall of Fame y el sesgo del simulador frente a arquetipos de juego complejo que llevó a descartar el gauntlet (secciones~\ref{sec:run-final} y~\ref{sec:gauntlet}).
+\end{enumerate}
 
 \section{Aprendizajes principales}
-% TODO
+
+El aprendizaje de mayor calado tiene que ver con la granularidad del espacio de búsqueda. Cambiar los operadores para que trabajen en packs de cuatro copias, en lugar de en copias sueltas, fue la decisión que más transformó la calidad de los resultados. La norma de las cuatro copias no es una restricción que haya que satisfacer al final, sino el nivel en el que razona un jugador humano, y mover el algoritmo a ese nivel lo acercó al espacio de los mazos reales. El coste de ese cambio fue mínimo, alrededor de un punto y medio porcentual en el pico de fitness, frente a un beneficio estructural grande.
+
+El segundo aprendizaje es metodológico. Evaluar el fitness jugando partidas reales da una medida fiel del rendimiento, pero su coste y su ruido condicionan todo lo demás. La viabilidad del enfoque no dependió de la función de fitness en sí, sino de la decisión de emparejar los mazos con un sistema cuyo coste crece de forma lineal con la población. Esa elección, además de abaratar la evaluación, alineó el experimento con la forma en que se disputan los torneos reales del juego.
+
+El tercer aprendizaje es que los resultados negativos también informan. La exploración del gauntlet tier-1 no produjo el componente de fitness que se buscaba, pero el motivo de su descarte, el sesgo medible del simulador ante arquetipos complejos, es un hallazgo que delimita con precisión hasta dónde llega lo que el método puede medir de forma fiable. Documentar ese límite vale tanto como documentar lo que funciona.
 
 \section{Limitaciones}
-% TODO: convergencia cromática single-run, sesgo Forge AI, calibración
-% específica de Standard.
+
+El sistema presenta varias limitaciones que conviene reconocer.
+
+Cada ejecución converge a un único par cromático. La presión selectiva favorece la coherencia de la manabase, y el primer par de colores que la alcanza atrae las mutaciones sucesivas. Recorrer el ecosistema completo de arquetipos exigiría, por tanto, varias ejecuciones con puntos de partida distintos, no una sola.
+
+La evaluación hereda el sesgo de la inteligencia artificial de Forge. El simulador ejecuta por debajo de su potencial los arquetipos de mayor complejidad táctica, lo que invalida cualquier medida de rendimiento contra mazos que dependan de ese tipo de juego. Esta limitación es la que impidió usar el gauntlet del meta real como referencia externa.
+
+El fitness es estocástico. El valor de un mazo varía entre evaluaciones por el azar del reparto inicial y de las decisiones de la IA. El pico de 0,9755 del mejor mazo es el valor que el Hall of Fame conservó en el momento de su mejor evaluación, no una media estable; su rendimiento esperado real es algo menor.
+
+La calibración es específica de Standard. Los rangos ideales de curva de maná, los pisos de tierras por arquetipo y la composición del catálogo están ajustados a este formato. Aplicar el sistema a otro formato exigiría recalibrar esos parámetros y reconstruir el pool.
+
+Por último, el coste computacional es alto. Una ejecución completa ocupa varios días de cómputo, lo que limita el número de experimentos que se pueden encadenar y la rapidez con la que se puede iterar sobre el diseño.
 
 \section{Líneas de trabajo futuro}
-% TODO: reactivación del gauntlet con motor AI mejorado, multi-seed,
-% extensión a Modern/Pioneer, surrogate fitness con red neuronal.
+
+La convergencia cromática de cada ejecución sugiere la línea más inmediata: lanzar varias ejecuciones con semillas distintas y agregar sus resultados para cartografiar el ecosistema de arquetipos completo, en lugar de obtener un único par de colores por run. Mecanismos de preservación de diversidad dentro de una misma ejecución, del estilo del \emph{niching}, podrían atenuar la convergencia sin necesidad de multiplicar los runs.
+
+La reactivación del gauntlet tier-1 depende de superar el sesgo del simulador. Un motor con una inteligencia artificial más capaz, que ejecutara los arquetipos complejos a un nivel cercano al humano, devolvería validez a la evaluación contra mazos del meta real y permitiría introducir esa referencia externa en el fitness.
+
+El coste de la evaluación abre otra vía. Un modelo sustituto, entrenado para predecir el resultado de una partida a partir de la composición de los dos mazos, podría reemplazar parte de las simulaciones de Forge y acelerar la evolución en órdenes de magnitud, reservando las partidas reales para validar a los candidatos más prometedores. En la misma dirección, evaluar varias veces a los individuos que entran al Hall of Fame reduciría la varianza del fitness justo donde más importa.
+
+Finalmente, el sistema podría extenderse a otros formatos como Modern o Pioneer. El núcleo del algoritmo es independiente del formato; lo que cambia es el pool de cartas y la calibración de los parámetros arquetípicos, de modo que la extensión es más una cuestión de recalibrado que de rediseño.
