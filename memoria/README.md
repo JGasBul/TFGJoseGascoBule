@@ -100,4 +100,4 @@ Con esto, al guardar `main.tex` se compila automáticamente y se ve el PDF en ot
 - Si se parte `main.tex` en capítulos separados, ponerlos en `capitulos/`
   e incluirlos en `main.tex` con `\input{capitulos/01-introduccion}`.
 - Las figuras propias del TFG (diagramas, gráficos de evolución, capturas)
-  van en `images/` con nombres descriptivos: `images/curva-fitness-prueba2.png`.
+  van en `images/` con nombres descriptivos: `images/curva-fitness-exp03_pack_aware.png`.

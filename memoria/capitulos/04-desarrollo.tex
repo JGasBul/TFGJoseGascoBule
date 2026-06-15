@@ -3,9 +3,9 @@
 % =============================================================
 % Capítulo más extenso. Contenido previsto:
 %   - Implementación: arquitectura del sistema
-%   - Experimento 1: baseline vs pack-aware (pruebaNocturna vs prueba2)
+%   - Experimento 1: baseline vs pack-aware (exp02_baseline vs exp03_pack_aware)
 %   - Iteración: refinamiento de deck_quality tras saturación
-%   - Experimento 2: run con calidad refinada (presentacionProfes, 43 gens)
+%   - Experimento 2: run con calidad refinada (exp07_run_final, 43 gens)
 %   - Exploración descartada: gauntlet tier-1 y sesgo de Forge AI
 % =============================================================
 
@@ -139,7 +139,7 @@ Esta decisión de diseño marca el punto de partida para el resto del desarrollo
 
 \section{Refinamiento iterativo de la métrica de calidad}
 
-Cuando el experimento anterior confirmó que los operadores pack-aware funcionaban, apareció un efecto colateral que no era obvio de prever: la mejora estructural de los mazos hizo que una parte de la función de fitness dejara de discriminar. El problema es de naturaleza estadística. Se detecta auditando el coeficiente de variación (CoV) de cada componente de la métrica de calidad sobre la población final de \texttt{prueba2}.
+Cuando el experimento anterior confirmó que los operadores pack-aware funcionaban, apareció un efecto colateral que no era obvio de prever: la mejora estructural de los mazos hizo que una parte de la función de fitness dejara de discriminar. El problema es de naturaleza estadística. Se detecta auditando el coeficiente de variación (CoV) de cada componente de la métrica de calidad sobre la población final de \texttt{exp03\_pack\_aware}.
 
 \subsection{Diagnóstico: saturación de componentes}
 
@@ -147,7 +147,7 @@ La función \texttt{deck\_quality} combinaba seis componentes con pesos distinto
 
 \begin{table}[H]
 \centering
-\caption{Análisis de varianza de las seis componentes de \texttt{deck\_quality} sobre los 40 mazos finales de \texttt{prueba2} (gen 30). CoV $<$ 10\,\% indica saturación.}
+\caption{Análisis de varianza de las seis componentes de \texttt{deck\_quality} sobre los 40 mazos finales de \texttt{exp03\_pack\_aware} (gen 30). CoV $<$ 10\,\% indica saturación.}
 \label{tab:cov-quality}
 \begin{tabular}{lrrrrl}
 \toprule
@@ -217,7 +217,7 @@ Con los operadores pack-aware consolidados y la métrica de calidad rediseñada,
 
 \begin{table}[H]
 \centering
-\caption{Parámetros del run final (\texttt{presentacionProfes}).}
+\caption{Parámetros del run final (\texttt{exp07\_run\_final}).}
 \label{tab:config-final}
 \begin{tabular}{ll}
 \toprule
