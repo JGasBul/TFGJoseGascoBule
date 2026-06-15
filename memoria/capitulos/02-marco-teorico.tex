@@ -1,26 +1,65 @@
 % =============================================================
 % Capítulo 2. Marco teórico
 % =============================================================
-% Contenido previsto:
-%   - Algoritmos genéticos (operadores, selección, elitismo)
-%   - La norma de las 4 copias en MTG constructed
-%   - Forge como motor de simulación
-%   - Trabajos relacionados / estado del arte
-% =============================================================
 
 \chapter{Marco teórico}
 \label{cap:marco}
 
-% TODO
+Este capítulo reúne los fundamentos sobre los que se apoya el trabajo. Primero, los conceptos de algoritmos genéticos que el sistema instancia. Después, las reglas de Magic: The Gathering que definen el problema y las restricciones que cualquier solución debe respetar. A continuación, el simulador empleado como motor de evaluación. Y por último, el estado del arte en la aplicación de técnicas evolutivas a la construcción de mazos.
 
 \section{Algoritmos genéticos}
-% TODO
+
+Un algoritmo genético es una metaheurística de búsqueda inspirada en la evolución biológica. Holland lo formalizó en los años setenta como un modelo de adaptación en sistemas naturales y artificiales \cite{holland1975}, y Goldberg lo consolidó la década siguiente como herramienta de búsqueda y resolución de problemas \cite{goldberg1989}. La idea central es mantener una población de soluciones candidatas y hacerla evolucionar mediante operadores que imitan la selección natural, la reproducción y la mutación.
+
+Cada solución candidata se llama individuo y se codifica en una representación que el algoritmo puede manipular, el genotipo. Una función de fitness asigna a cada individuo un valor numérico que mide su calidad como solución del problema. A partir de ahí, el algoritmo repite un ciclo generacional \cite{eiben2015}. La selección escoge los individuos que se reproducen, favoreciendo a los de mayor fitness. El cruce combina material de dos progenitores para formar descendientes. La mutación introduce cambios aleatorios que mantienen la diversidad de la población. Y un mecanismo de reemplazo decide qué individuos forman la siguiente generación.
+
+El equilibrio entre exploración y explotación es la tensión que gobierna el comportamiento de un algoritmo genético. Explorar es buscar en regiones nuevas del espacio de soluciones; explotar es refinar las soluciones buenas ya encontradas. Una presión selectiva alta y una mutación baja empujan hacia la explotación y arriesgan la convergencia prematura, en la que la población se estanca en un óptimo local antes de explorar lo suficiente. Una mutación alta favorece la exploración pero puede impedir que las buenas soluciones se consoliden. Varias técnicas ayudan a gestionar esa tensión. El elitismo preserva los mejores individuos de una generación a la siguiente para no perderlos por azar \cite{mitchell1996}. La mutación adaptativa ajusta la intensidad de la variación según el progreso del algoritmo. La selección por torneo regula la presión selectiva mediante el tamaño de la muestra que compite por reproducirse.
+
+Los algoritmos genéticos son apropiados para problemas con espacios de búsqueda grandes y discretos, donde no se dispone de gradiente y donde la enumeración completa es inviable. No garantizan el óptimo global, pero suelen encontrar soluciones de buena calidad en un tiempo razonable. El problema que aborda este trabajo encaja en ese perfil, con un agravante: la función de fitness no es una fórmula sino una simulación costosa y con ruido, lo que condiciona varias de las decisiones de diseño que se detallan en el capítulo~\ref{sec:arquitectura}.
 
 \section{Magic: The Gathering y el formato Standard}
-% TODO: incluye la norma 4-of, qué es un arquetipo, manabase.
+
+Magic: The Gathering es un juego de cartas en el que dos jugadores se enfrentan con sus respectivos mazos. Cada jugador empieza con una cantidad de puntos de vida y gana la partida cuando reduce a cero los del rival, normalmente jugando criaturas que atacan y hechizos que interactúan con el tablero. El recurso que permite jugar cartas es el maná, que se produce mayoritariamente con tierras y se divide en cinco colores: blanco, azul, negro, rojo y verde.
+
+La construcción del mazo está sujeta a reglas que el reglamento oficial fija con precisión \cite{wotc_rules}. En los formatos de constructed, un mazo tiene un mínimo de sesenta cartas y no puede incluir más de cuatro copias de ninguna carta, con la única excepción de las tierras básicas, de las que se admite cualquier número. Esta norma de las cuatro copias tiene una consecuencia directa sobre cómo se construye: incluir una carta en un mazo significa, casi siempre, incluir cuatro copias de ella, porque esa es la cantidad que maximiza la probabilidad de robarla cuando se necesita. La decisión de un jugador no es cuántas copias poner, sino si la carta entra o no.
+
+La base de tierras, o manabase, es el subsistema que determina si el mazo puede pagar de forma consistente el maná de colores que sus cartas exigen. Karsten estudió este problema de forma cuantitativa y derivó heurísticas que relacionan el número de fuentes de un color con la demanda de ese color en el mazo \cite{karsten_manabase}. El sistema de este trabajo incorpora una aproximación a esas heurísticas al reparar la manabase de cada mazo evolucionado.
+
+Los mazos de competición se agrupan en arquetipos según su estrategia. Los mazos de agresión, o aggro, buscan ganar rápido con criaturas baratas y una curva de maná baja. Los mazos de control son reactivos, juegan respuestas y cartas caras, y tratan de alargar la partida hasta imponer su ventaja. Entre ambos extremos, los mazos midrange combinan criaturas eficientes con interacción. Esta clasificación, aunque simplifica, organiza el metajuego y guía buena parte de las decisiones de construcción.
+
+El formato Standard restringe las cartas legales a las expansiones publicadas en los últimos dos años aproximadamente, y rota su contenido cada vez que aparecen nuevas. Esa rotación obliga a reconstruir los mazos con periodicidad y mantiene un metajuego dinámico. El espacio de cartas legales en Standard, del orden de unos miles, junto con la restricción de elegir sesenta respetando la norma de copias y la coherencia de colores, define un espacio de búsqueda enorme. La profundidad estratégica del juego no es solo aparente: se ha demostrado que el sistema de reglas de Magic es Turing-completo \cite{churchill2019}, lo que da una medida formal de su complejidad.
 
 \section{Forge: motor de simulación}
-% TODO
+
+Evaluar la calidad de un mazo exige jugarlo. Forge es una implementación de código abierto de las reglas de Magic que incluye un oponente controlado por inteligencia artificial y permite ejecutar partidas completas sin intervención humana \cite{forge}. A diferencia de las heurísticas que puntúan un mazo a partir de su composición, Forge aplica el reglamento completo y resuelve cada partida jugándola, lo que convierte al simulador en un oráculo de fitness basado en rendimiento real.
+
+Forge dispone de un modo de simulación que enfrenta dos mazos y disputa una o varias partidas, con la IA manejando ambos lados. Ese modo es el que el sistema usa para evaluar la población: cada mazo se enfrenta a otros y su tasa de victorias alimenta la función de fitness. La evaluación por simulación tiene un coste alto, porque cada partida tarda minutos, y una componente de azar, porque el reparto inicial de cartas y las decisiones de la IA introducen variabilidad. Tiene además un límite que resulta relevante para este trabajo: la IA de Forge ejecuta con desigual acierto las distintas estrategias, y juega por debajo de su potencial los arquetipos de mayor complejidad táctica. Ese sesgo se analiza en el capítulo~\ref{cap:desarrollo} al discutir una de las vías exploradas.
+
+Las cartas que componen el catálogo del sistema se obtienen de Scryfall, un servicio que ofrece una base de datos completa de Magic a través de una API pública \cite{scryfall}. De ahí se extraen los atributos de cada carta que el algoritmo necesita: coste de maná, tipo, colores, texto y características de combate.
 
 \section{Estado del arte}
-% TODO: GA aplicados a juegos, deckbuilders automáticos, MCTS, etc.
+
+La aplicación de la computación evolutiva a los videojuegos y los juegos de mesa tiene una trayectoria amplia, que abarca desde la generación de contenido hasta el diseño de estrategias. Dentro de ese campo, la construcción automática de mazos es un problema con identidad propia, porque combina un espacio de búsqueda combinatorio con una evaluación que idealmente requiere jugar partidas.
+
+Buena parte de los trabajos sobre construcción de mazos puede ordenarse según cómo resuelven el problema de la evaluación. Una primera familia emplea funciones heurísticas que puntúan un mazo a partir de su composición, sin jugarlo, lo que abarata el cálculo a costa de medir la calidad de forma indirecta. Una segunda familia evalúa mediante la simulación de partidas, que mide el rendimiento real pero multiplica el coste computacional. El presente trabajo se sitúa en esta segunda familia.
+
+% =============================================================
+% NOTA: esta sección necesita citas concretas de trabajos previos.
+% Empezamos de cero en bibliografía, así que aquí quedan marcados los
+% huecos exactos a rellenar con papers que el autor haya leído y pueda
+% defender. NO inventar referencias.
+%
+% Huecos a cubrir (buscar en IEEE CoG/CIG, ToG, arXiv, ResearchGate):
+%   1. Trabajo sobre construcción evolutiva de mazos en Hearthstone
+%      (hay varios; p. ej. líneas de García-Sánchez, Tonda et al.).
+%   2. Algún trabajo de deckbuilding en Magic: The Gathering con GA,
+%      MCTS u otra metaheurística, si se encuentra uno citable.
+%   3. Generación de contenido / estrategia con EA en juegos de cartas
+%      en general, para encuadrar el campo.
+% Una vez elegidos, redactar 1-2 párrafos contrastando esos enfoques
+% con el de este TFG (operadores pack-aware, fitness por simulación
+% real, foco en el ecosistema emergente) y añadir los \bibitem.
+% =============================================================
+
+% TODO: párrafo de trabajos relacionados concretos (Hearthstone, MTG) con
+% sus \cite{} correspondientes, y párrafo de contraste con este trabajo.
