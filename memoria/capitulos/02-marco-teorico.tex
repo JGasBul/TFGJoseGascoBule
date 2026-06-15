@@ -39,27 +39,14 @@ Las cartas que componen el catálogo del sistema se obtienen de Scryfall, un ser
 
 \section{Estado del arte}
 
-La aplicación de la computación evolutiva a los videojuegos y los juegos de mesa tiene una trayectoria amplia, que abarca desde la generación de contenido hasta el diseño de estrategias. Dentro de ese campo, la construcción automática de mazos es un problema con identidad propia, porque combina un espacio de búsqueda combinatorio con una evaluación que idealmente requiere jugar partidas.
+La aplicación de la computación evolutiva a los juegos tiene una trayectoria amplia. Miles y Louis exploraron el uso de algoritmos genéticos para generar estrategias en juegos de estrategia en tiempo real \cite{miles2006}, y Mahlmann, Togelius y Yannakakis los emplearon sobre el juego de cartas Dominion para evolucionar conjuntos de cartas con fines de balanceo \cite{mahlmann2012}. Estos trabajos sitúan a las metaheurísticas evolutivas como una herramienta consolidada para los problemas de diseño y estrategia en juegos.
 
-Buena parte de los trabajos sobre construcción de mazos puede ordenarse según cómo resuelven el problema de la evaluación. Una primera familia emplea funciones heurísticas que puntúan un mazo a partir de su composición, sin jugarlo, lo que abarata el cálculo a costa de medir la calidad de forma indirecta. Una segunda familia evalúa mediante la simulación de partidas, que mide el rendimiento real pero multiplica el coste computacional. El presente trabajo se sitúa en esta segunda familia.
+La construcción automática de mazos es un problema con identidad propia dentro de ese campo, porque combina un espacio de búsqueda combinatorio con una evaluación que idealmente requiere jugar partidas. El trabajo de referencia en juegos de cartas es el de García-Sánchez et al., que aplicó un algoritmo genético a la construcción de mazos en Hearthstone y mostró que el método produce mazos competitivos frente a los diseñados por humanos \cite{garciasanchez2016}. Hearthstone, no obstante, es un juego más simple que Magic: el maná se genera de forma automática y muchas cartas están restringidas por clase, lo que reduce el espacio de búsqueda y elimina el problema de la manabase.
 
-% =============================================================
-% NOTA: esta sección necesita citas concretas de trabajos previos.
-% Empezamos de cero en bibliografía, así que aquí quedan marcados los
-% huecos exactos a rellenar con papers que el autor haya leído y pueda
-% defender. NO inventar referencias.
-%
-% Huecos a cubrir (buscar en IEEE CoG/CIG, ToG, arXiv, ResearchGate):
-%   1. Trabajo sobre construcción evolutiva de mazos en Hearthstone
-%      (hay varios; p. ej. líneas de García-Sánchez, Tonda et al.).
-%   2. Algún trabajo de deckbuilding en Magic: The Gathering con GA,
-%      MCTS u otra metaheurística, si se encuentra uno citable.
-%   3. Generación de contenido / estrategia con EA en juegos de cartas
-%      en general, para encuadrar el campo.
-% Una vez elegidos, redactar 1-2 párrafos contrastando esos enfoques
-% con el de este TFG (operadores pack-aware, fitness por simulación
-% real, foco en el ecosistema emergente) y añadir los \bibitem.
-% =============================================================
+El antecedente más cercano a este trabajo es la tesis de máster de Bjørke y Fludal, que aborda exactamente la construcción de mazos en Magic mediante un algoritmo genético \cite{bjorke2017}. Su sistema evalúa los mazos jugando partidas con el motor Forge, el mismo simulador que emplea este TFG, y representa cada mazo como un vector de enteros sobre el que aplica cruce y mutación. Hay tres diferencias relevantes con el presente trabajo. La primera es el formato: Bjørke y Fludal se restringen al formato sellado, con un pool de alrededor de noventa cartas, mientras que aquí se trabaja sobre el formato Standard completo, con miles de cartas. La segunda es la granularidad de los operadores: su representación admite copias repetidas, pero los operadores no respetan la estructura de packs de cuatro copias que define la construcción de competición, que es justo la aportación central de este TFG. La tercera es el sistema de evaluación: ellos puntúan cada mazo contra un conjunto fijo de seis mazos rivales, un esquema próximo al gauntlet que aquí se exploró y se descartó (sección~\ref{sec:gauntlet}).
 
-% TODO: párrafo de trabajos relacionados concretos (Hearthstone, MTG) con
-% sus \cite{} correspondientes, y párrafo de contraste con este trabajo.
+Dos de sus hallazgos refuerzan los de este trabajo. Bjørke y Fludal observaron que sus poblaciones convergían pronto a una monocultura por el tamaño reducido de la población, un fenómeno análogo a la convergencia cromática descrita en la sección~\ref{sec:run-final}. Y, de forma más llamativa, detectaron que el motor Forge favorece a unos arquetipos sobre otros: en uno de sus experimentos, el mazo construido por un jugador experto rindió peor que el mazo generado por el algoritmo, lo que les llevó a concluir que Forge no representa con fidelidad a un jugador humano. Ese sesgo del simulador es el mismo que motivó el descarte del gauntlet en este TFG (sección~\ref{sec:gauntlet}), y su aparición en un trabajo independiente refuerza que se trata de una limitación del motor y no de un artefacto de esta implementación.
+
+En el entorno de la propia EPSG existe además un precedente directo: el TFG de Mira Abad aplicó neuroevolución al mismo juego, pero con un objetivo distinto \cite{mira2021}. Su trabajo evoluciona la estrategia de juego de un agente, modelada como un conjunto de máquinas de estados, usando el motor Magarena para simular las partidas. La diferencia con este TFG está en el objeto de la evolución: Mira Abad evoluciona cómo se juega un mazo, mientras que aquí se evoluciona qué mazo se construye. Los dos enfoques son complementarios y comparten el uso de la simulación como función de evaluación.
+
+En conjunto, el estado del arte confirma dos cosas. La construcción evolutiva de mazos es un enfoque validado, pero poco explorado en Magic y casi siempre sobre formatos o juegos de espacio reducido. Y la evaluación por simulación, aunque es la medida más fiel del rendimiento, arrastra el sesgo del motor que la ejecuta, una limitación que este trabajo comparte con la literatura previa y que documenta de forma explícita.
