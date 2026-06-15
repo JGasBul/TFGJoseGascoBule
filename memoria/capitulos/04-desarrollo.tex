@@ -138,7 +138,76 @@ El trade-off es favorable desde el objetivo de este TFG: generar mazos que se pa
 Esta decisión de diseño marca el punto de partida para el resto del desarrollo. Todos los experimentos siguientes asumen operadores pack-aware.
 
 \section{Refinamiento iterativo de la métrica de calidad}
-% TODO: diagnóstico de saturación (CoV) y rediseño. Reciclar de PLAN_QUALITY_REBALANCE.md.
+
+Cuando el experimento anterior confirmó que los operadores pack-aware funcionaban, apareció un efecto colateral que no era obvio de prever: la mejora estructural de los mazos hizo que una parte de la función de fitness dejara de discriminar. El problema es de naturaleza estadística. Se detecta auditando el coeficiente de variación (CoV) de cada componente de la métrica de calidad sobre la población final de \texttt{prueba2}.
+
+\subsection{Diagnóstico: saturación de componentes}
+
+La función \texttt{deck\_quality} combinaba seis componentes con pesos distintos. Antes del pack-aware, esas componentes medían propiedades que podían variar ampliamente de un mazo a otro. Después del pack-aware, tres de ellas convergieron a un valor constante para prácticamente toda la población.
+
+\begin{table}[H]
+\centering
+\caption{Análisis de varianza de las seis componentes de \texttt{deck\_quality} sobre los 40 mazos finales de \texttt{prueba2} (gen 30). CoV $<$ 10\,\% indica saturación.}
+\label{tab:cov-quality}
+\begin{tabular}{lrrrrl}
+\toprule
+\textbf{Componente} & \textbf{Peso} & \textbf{Media} & \textbf{StdDev} & \textbf{Rango} & \textbf{CoV} \\
+\midrule
+\texttt{structural}          & 10\,\% & 0,999 & 0,005 & 0,03 & 0,5\,\% \\
+\texttt{card\_power}         & 15\,\% & 0,438 & 0,031 & 0,16 & 7,1\,\% \\
+\texttt{mana\_curve}         & 20\,\% & 0,835 & 0,064 & 0,28 & 7,7\,\% \\
+\midrule
+\texttt{archetype\_coherence}& 15\,\% & 0,886 & 0,153 & 0,51 & 17,3\,\% \\
+\texttt{synergy}             & 20\,\% & 0,679 & 0,188 & 0,69 & 27,7\,\% \\
+\texttt{card\_balance}       & 20\,\% & 0,747 & 0,230 & 0,90 & 30,7\,\% \\
+\midrule
+\textbf{\texttt{quality} total} & 100\,\% & 0,751 & 0,087 & 0,32 & 11,6\,\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Las tres primeras filas son el problema. \texttt{structural} mide la proporción de packs consolidados frente a \emph{singletons}: todos los mazos sacan 0,999 porque pack-aware garantiza exactamente eso. \texttt{mana\_curve} mide el ajuste de la curva de maná al ideal del arquetipo: \texttt{adjust\_deck\_size} regulariza la curva tras cada mutación, por lo que la varianza es trivial. \texttt{card\_power} se saturó por un problema de calibración distinto: toda la población cae en el rango 0,38-0,53, sin gradiente real.
+
+El 45\,\% del peso de \texttt{deck\_quality} era, en la práctica, una constante. El CoV total de 11,6\,\% refleja ese ruido: la métrica agregada distingue poco entre un mazo bien construido y uno mediocre. El efecto más visible ocurrió en los primeros runs con el gauntlet activado: ya en la generación 0 había mazos con fitness 1,0, lo que elimina cualquier gradiente selectivo desde el inicio.
+
+\subsection{Rediseño de la métrica}
+
+La solución es directa. Se eliminan las tres componentes saturadas del cálculo de \texttt{deck\_quality} y se reponderan las tres que sí discriminan:
+
+\begin{table}[H]
+\centering
+\caption{Ponderación de \texttt{deck\_quality} antes y después del refinamiento.}
+\label{tab:quality-pesos}
+\begin{tabular}{lrrl}
+\toprule
+\textbf{Componente} & \textbf{Peso anterior} & \textbf{Peso nuevo} & \textbf{Justificación} \\
+\midrule
+\texttt{synergy}             & 20\,\% & 35\,\% & CoV 27,7\,\%; mide sinergia interna \\
+\texttt{card\_balance}       & 20\,\% & 35\,\% & CoV 30,7\,\%; mide ratio criaturas/hechizos \\
+\texttt{archetype\_coherence}& 15\,\% & 30\,\% & CoV 17,3\,\%; premia ajuste al arquetipo \\
+\midrule
+\texttt{structural}          & 10\,\% & retirada & saturada \\
+\texttt{card\_power}         & 15\,\% & retirada & saturada \\
+\texttt{mana\_curve}         & 20\,\% & retirada & saturada \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\texttt{synergy} y \texttt{card\_balance} comparten peso porque sus CoV son equivalentes y miden propiedades ortogonales: la sinergia interna del mazo y el equilibrio entre categorías de cartas. \texttt{archetype\_coherence} queda un escalón por debajo porque pack-aware ya fuerza parte de la coherencia arquetípica a través de las cuotas del Hall of Fame. Sigue siendo informativa, pero es la menos discriminativa de las tres.
+
+Las componentes eliminadas del cálculo se conservan en el código para posibles análisis comparativos futuros. Solo se desconectan del agregado.
+
+Con la métrica rediseñada, el peso de \texttt{deck\_quality} en el fitness se reactivó en $\beta = 0{,}3$:
+
+$$\text{fitness} = 0{,}7 \cdot \text{win\_rate} + 0{,}3 \cdot \text{quality}$$
+
+El win\_rate del Swiss Tournament sigue siendo el componente principal, que es lo correcto: un mazo que gana partidas pero tiene calidad estructural discreta supera a uno con calidad excelente que pierde. La calidad refinada actúa como desempate entre individuos con win\_rate similar y como ancla que evita que el algoritmo converja hacia mazos con buen rendimiento circunstancial pero incoherentes.
+
+\subsection{Validación del gradiente recuperado}
+
+El CoV proyectado tras el refinamiento es de aproximadamente 22-25\,\%, frente al 11,6\,\% original. La media esperada baja de 0,751 a un rango de 0,60-0,65: sin las tres componentes saturadas que arrastraban el promedio hacia arriba, la distribución de \texttt{quality} refleja con más fidelidad las diferencias reales entre mazos.
+
+El efecto práctico es que el fitness vuelve a tener gradiente en toda la distribución de la población. Dos mazos que empaten en win\_rate se diferenciarán por la sinergia interna, el balance de roles o el ajuste al arquetipo. Con el gauntlet desactivado y la calidad refinada activa, el run final que se describe en la sección siguiente arranca sin los problemas de saturación que afectaron a los primeros experimentos.
 
 \section{Experimento 2: run con calidad refinada}
 % TODO: presentacionProfes, 43 gens, fitness pico 0.9755, atractor R/W Boros.
