@@ -96,7 +96,14 @@ Tasa de fallos en combate & 0,078\,\% & 0,010\,\% \\
 
 El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3,55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas. Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de corrección \texttt{consolidate\_singletons} podía eliminarlos.
 
-El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5,55 a 7,83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0,68 a 4,00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} y tierras de utilidad seleccionadas deliberadamente.
+El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5,55 a 7,83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0,68 a 4,00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} y tierras de utilidad seleccionadas deliberadamente. La figura~\ref{fig:estructura} resume estas tres diferencias.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{images/fig_estructura_ab.pdf}
+\caption{Métricas estructurales por mazo en la población final, baseline frente a pack-aware. Los \emph{singletons} sueltos se desploman mientras suben los packs consolidados y las tierras no básicas.}
+\label{fig:estructura}
+\end{figure}
 
 \subsection{Evolución del fitness}
 
@@ -160,6 +167,15 @@ La norma de cuatro copias no es un detalle de implementación. Es la diferencia 
 Los datos del experimento cuantifican el coste y el beneficio de cambiar esa granularidad. El coste es 1,4 puntos porcentuales en el pico de \emph{best\_fit}. El beneficio es una reducción del 95\,\% en \emph{singletons} no-tierra, un incremento del 41\,\% en packs consolidados, y un salto del 488\,\% en tierras no básicas por mazo. El fitness medio de la población sube un 2,1\,\%. La tasa de fallos en combate cae un 87\,\%.
 
 El trade-off es favorable desde el objetivo de este TFG: generar mazos que se parezcan a los que se construyen y juegan en competición. La variante baseline era más explotativa contra el \emph{gauntlet} concreto de evaluación, pero sus mazos no serían competitivos fuera de ese contexto. El pack-aware produce mazos menos ajustados al simulador y más próximos al estándar del formato.
+
+El cambio de granularidad también reorienta el arquetipo dominante de la población. La figura~\ref{fig:arquetipos} muestra el contraste: el baseline converge a una mayoría de mazos de agresión, mientras que el pack-aware desplaza la población hacia el midrange. Ambos resultados son legítimos, pero la convergencia del pack-aware hacia un único arquetipo dominante anticipa el problema de la monocultura que motiva la exploración del gauntlet (sección~\ref{sec:gauntlet}).
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.72\textwidth]{images/fig_arquetipos_ab.pdf}
+\caption{Distribución de arquetipos en la población final de 40 mazos. El baseline está dominado por aggro; el pack-aware, por midrange.}
+\label{fig:arquetipos}
+\end{figure}
 
 Esta decisión de diseño marca el punto de partida para el resto del desarrollo. Todos los experimentos siguientes asumen operadores pack-aware.
 
@@ -288,9 +304,23 @@ Pool de cartas & 4.130 IDs \\
 
 El \emph{avg\_fit} sube de 0,527 en la generación 0 a 0,598 en la generación 42, un incremento del 13,5\,\%. La trayectoria es ascendente y sin saltos bruscos, lo que descarta convergencia prematura. El primer salto significativo del \emph{best\_fit} ocurre en la generación 18, donde la tasa de mutación adaptativa lleva varios ciclos a 0,9 para romper un estancamiento; ese esfuerzo produce el primer pico de 0,9427. Generaciones posteriores consolidan esa ganancia sin retroceder por debajo de 0,88.
 
-El pico absoluto, 0,9755, aparece en la generación 42, la última del run. Ese dato tiene una lectura favorable: el algoritmo seguía mejorando al momento de la terminación. Con más generaciones, el gradiente existente permitiría previsiblemente superar ese valor.
+El pico absoluto, 0,9755, aparece en la generación 42, la última del run. Ese dato tiene una lectura favorable: el algoritmo seguía mejorando al momento de la terminación. Con más generaciones, el gradiente existente permitiría previsiblemente superar ese valor. La figura~\ref{fig:fitness} muestra la trayectoria completa del mejor individuo y de la media de la población.
 
-La diversidad cae de 0,871 a 0,438 a lo largo del run. Es convergencia natural: la población se especializa en torno al par cromático dominante sin colapsar. La entropía de arquetipo en la generación 42 es 0,715, un nivel que indica coexistencia real de aggro, midrange y control en el Hall of Fame, aunque con pesos desiguales.
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.82\textwidth]{images/fig_evolucion_fitness.pdf}
+\caption{Evolución del fitness del run final. El mejor de cada generación fluctúa por el ruido de la evaluación por simulación, mientras la media asciende de forma sostenida. El pico de 0,9755 se alcanza en la última generación.}
+\label{fig:fitness}
+\end{figure}
+
+La diversidad cae de 0,871 a 0,438 a lo largo del run. Es convergencia natural: la población se especializa en torno al par cromático dominante sin colapsar. La entropía de arquetipo en la generación 42 es 0,715, un nivel que indica coexistencia real de aggro, midrange y control en el Hall of Fame, aunque con pesos desiguales. La figura~\ref{fig:dinamica} reúne la diversidad, la entropía de arquetipo y la tasa de mutación adaptativa a lo largo del run.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{images/fig_dinamica_poblacion.pdf}
+\caption{Dinámica de la población. La diversidad y la entropía de arquetipo descienden conforme la población se especializa; la tasa de mutación sube a 0,9 en los tramos de estancamiento para forzar exploración.}
+\label{fig:dinamica}
+\end{figure}
 
 \subsection{Atractor cromático: R/W Boros}
 
@@ -316,7 +346,14 @@ El mazo con la fitness más alta del Hall of Fame, y por tanto el campeón del r
 \texttt{20 Mountain, 2 Plains, 1 Temple of Triumph, 1 Crawling Barrens, 1 Capital City}
 \end{center}
 
-Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado denso: Volt Charge, Galvanize, Flame Lash y Twin Bolt suman dieciséis cartas de daño directo, respaldadas por Scalestorm Summoner como amenaza recurrente y Dragon Fodder como generación de fichas. Leyline Axe aporta presión equipada. Con solo seis criaturas y un coste de maná medio de 3,06, la heurística lo etiqueta como control, aunque funcionalmente es un mazo de quemado agresivo. Esa discrepancia entre el arquetipo detectado y el plan de juego real ilustra el límite de una detección basada únicamente en coste medio y número de criaturas.
+Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado denso: Volt Charge, Galvanize, Flame Lash y Twin Bolt suman dieciséis cartas de daño directo, respaldadas por Scalestorm Summoner como amenaza recurrente y Dragon Fodder como generación de fichas. Leyline Axe aporta presión equipada. Con solo seis criaturas y un coste de maná medio de 3,06, la heurística lo etiqueta como control, aunque funcionalmente es un mazo de quemado agresivo. Esa discrepancia entre el arquetipo detectado y el plan de juego real ilustra el límite de una detección basada únicamente en coste medio y número de criaturas. La figura~\ref{fig:curvamana} muestra su curva de maná, concentrada en costes bajos y medios, coherente con un plan de quemado.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.66\textwidth]{images/fig_curva_mana_campeon.pdf}
+\caption{Curva de maná de las cartas no-tierra del mazo campeón. La concentración en costes de dos a cuatro maná refleja un plan de juego agresivo basado en daño directo.}
+\label{fig:curvamana}
+\end{figure}
 
 El mazo es competitivo con el estándar del formato. Un jugador con experiencia en R/W reconocería el plan de quemado y no necesitaría cambios estructurales para llevarlo a un torneo.
 

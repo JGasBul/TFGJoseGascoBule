@@ -21,7 +21,36 @@ El generador de mazos (\texttt{generador\_mazos\_mtg.py}) produce la población 
 
 El algoritmo genético (\texttt{algoritmo\_genetico\_mtg.py}) es el núcleo del sistema y concentra la mayor parte del código. Recibe la población inicial y la evoluciona durante un número fijo de generaciones. Cada individuo se evalúa jugando partidas reales en Forge. La clase \texttt{MTGGeneticAlgorithm} encapsula el bucle completo: inicialización, evaluación, selección, cruce, mutación, elitismo y persistencia de resultados.
 
-El orquestador (\texttt{mtg\_main.py}) conecta las tres etapas mediante un sistema de menús y, antes de lanzar un run, analiza el hardware disponible. La clase \texttt{HardwareAnalyzer} mide los núcleos de CPU, la memoria y la velocidad de disco, y deriva el número de procesos paralelos, los timeouts y los tamaños de población recomendados. Esto permite que el mismo código corra en un portátil o en una máquina de muchos núcleos sin reconfiguración manual.
+El orquestador (\texttt{mtg\_main.py}) conecta las tres etapas mediante un sistema de menús y, antes de lanzar un run, analiza el hardware disponible. La clase \texttt{HardwareAnalyzer} mide los núcleos de CPU, la memoria y la velocidad de disco, y deriva el número de procesos paralelos, los timeouts y los tamaños de población recomendados. Esto permite que el mismo código corra en un portátil o en una máquina de muchos núcleos sin reconfiguración manual. La figura~\ref{fig:pipeline} resume el flujo completo.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    font=\small,
+    etapa/.style={draw, rounded corners, align=center, minimum height=1.1cm, text width=2.9cm, fill=blue!5},
+    dato/.style={draw, align=center, minimum height=0.9cm, text width=2.4cm, fill=gray!8},
+    flecha/.style={-{Stealth[length=2.5mm]}, thick}
+]
+\node[etapa] (cartas) {Obtención de cartas\\\texttt{obtener\_cartas\_mtg}};
+\node[etapa, right=2.3cm of cartas] (gen) {Generación de población\\\texttt{generador\_mazos\_mtg}};
+\node[etapa, right=2.3cm of gen] (ga) {Algoritmo genético\\\texttt{algoritmo\_genetico\_mtg}};
+\node[dato, below=0.8cm of cartas] (cat) {Catálogo e índices (Scryfall)};
+\node[dato, below=0.8cm of gen] (pop) {Población inicial (60 cartas/mazo)};
+\node[dato, below=0.8cm of ga] (res) {Mazos evolucionados + Hall of Fame};
+\draw[flecha] (cartas) -- (gen);
+\draw[flecha] (gen) -- (ga);
+\draw[flecha] (cartas) -- (cat);
+\draw[flecha] (gen) -- (pop);
+\draw[flecha] (ga) -- (res);
+\draw[flecha] (cat.east) -- ++(0.4,0) |- (gen.west);
+\node[draw, dashed, rounded corners, above=0.5cm of gen, text width=3cm, align=center, fill=orange!6] (orq) {Orquestador \texttt{mtg\_main}\\(análisis de hardware)};
+\draw[flecha, dashed] (orq) -- (gen);
+\draw[flecha, dashed] (orq.west) -- ++(-1.15,0) |- (cartas.north);
+\draw[flecha, dashed] (orq.east) -- ++(1.15,0) |- (ga.north);
+\end{tikzpicture}
+\caption{Arquitectura del sistema en tres etapas encadenadas, coordinadas por el orquestador.}
+\label{fig:pipeline}
+\end{figure}
 
 \section{Representación del individuo}
 
@@ -58,7 +87,14 @@ El coste de simular partidas reales obliga a paralelizar. Los enfrentamientos de
 
 La forma de emparejar los mazos dentro de una generación determina cuántas partidas hay que simular, y ese número domina el coste de todo el sistema. El diseño admite dos modos. El round-robin completo enfrenta cada mazo contra todos los demás: para una población de $N$ mazos genera $\binom{N}{2}$ enfrentamientos, un coste que crece con el cuadrado del tamaño. El Swiss Tournament, en cambio, hace que cada mazo juegue un número fijo de rondas $k$ contra rivales distintos, lo que genera del orden de $N \cdot k / 2$ enfrentamientos, un coste que crece de forma lineal.
 
-La diferencia es grande y tiene consecuencias prácticas. Para una población de 40 mazos, el round-robin completo exige 780 enfrentamientos por generación; el Swiss con ocho rondas exige 160. El propio código calcula y registra esa reducción, superior al 90\,\% en la configuración estándar. El Swiss no es solo más barato: es además el formato con el que se disputan los torneos reales de Magic, de modo que el cambio acerca la evaluación a las condiciones de competición que el TFG quiere modelar. El paso de round-robin a Swiss es uno de los ejes de la evolución del sistema que se detalla en la sección~\ref{sec:evolucion}.
+La diferencia es grande y tiene consecuencias prácticas. Para una población de 40 mazos, el round-robin completo exige 780 enfrentamientos por generación; el Swiss con ocho rondas exige 160. La figura~\ref{fig:swiss} compara cómo crece ese coste con el tamaño de la población: el round-robin sigue una curva cuadrática mientras que el Swiss crece de forma casi lineal. El propio código calcula y registra esa reducción, superior al 90\,\% en la configuración estándar. El Swiss no es solo más barato: es además el formato con el que se disputan los torneos reales de Magic, de modo que el cambio acerca la evaluación a las condiciones de competición que el TFG quiere modelar. El paso de round-robin a Swiss es uno de los ejes de la evolución del sistema que se detalla en la sección~\ref{sec:evolucion}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.78\textwidth]{images/fig_swiss_vs_roundrobin.pdf}
+\caption{Número de enfrentamientos por generación según el tamaño de la población. El punto de trabajo del sistema ($N=40$) pasa de 780 enfrentamientos en round-robin a 160 en Swiss.}
+\label{fig:swiss}
+\end{figure}
 
 \section{Función de fitness multi-componente}
 
