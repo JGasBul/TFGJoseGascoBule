@@ -17,20 +17,125 @@
 % TODO: organización del código en algoritmo_genetico_mtg.py y mtg_main.py.
 
 \section{Experimento 1: baseline vs pack-aware}
-% TODO: comparativa A/B. Setup, datos estructurales, evolución del fitness,
-% inspección del HoF, discusión. Reciclar de ANALISIS_PRUEBA2_VS_PRUEBANOCTURNA.md.
+
+El primer experimento del trabajo responde a una pregunta de diseño: ¿qué ocurre cuando los operadores genéticos dejan de trabajar en copias sueltas y pasan a trabajar en packs de cuatro? La hipótesis es que un algoritmo que tome decisiones al nivel en que las toman los jugadores humanos (incluir o excluir una carta como conjunto de cuatro copias) producirá mazos estructuralmente más próximos a los que se juegan en competición. Para validarla se ejecutaron dos runs con configuración nominal idéntica. Solo difiere la lógica de variación.
+
+El run de referencia, denominado en adelante \emph{baseline}, usa los operadores originales que modifican copias individuales. El run \emph{pack-aware} substituye esos operadores por siete operadores temáticos, cada uno modelado sobre una decisión de deckbuilding humano: swap genérico de cartas, completar packs parciales, ajustar la curva de maná, inyectar respuestas (\emph{removal}), consolidar manabase, mejorar amenazas por coste y reforzar tribus. Ambos corren sobre el mismo catálogo de 4.130 cartas.
 
 \subsection{Configuración del experimento}
-% TODO
+
+\begin{table}[H]
+\centering
+\caption{Configuración compartida por los dos runs del experimento A/B.}
+\label{tab:config-ab}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Parámetro} & \textbf{Baseline} & \textbf{Pack-aware} \\
+\midrule
+Población & 40 & 40 \\
+Generaciones & 30 & 30 \\
+Combates por generación & 320 & 320 \\
+Selección & Swiss Tournament ($k=7$) & Swiss Tournament ($k=7$) \\
+Cuota Hall of Fame por arquetipo & 3 & 3 \\
+Pool de cartas & 4.130 IDs & 4.130 IDs \\
+Operadores de variación & Copia individual & Pack de 4 copias \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El baseline se reanudó una vez: los datos de estadísticas de las generaciones 0-18 no quedaron persistidos en el checkpoint, de modo que solo se dispone de las últimas 12 generaciones (19-30) en los logs de ese run. El run pack-aware corrió de forma continua durante 67,1 horas con 31 generaciones completas y ningún reinicio.
 
 \subsection{Integridad estructural de los mazos}
-% TODO: 4-of, singletons, no-basics.
+
+Antes de comparar el fitness conviene examinar la forma de los mazos que produce cada variante. Los dos runs cumplen las restricciones formales del formato: los 40 mazos de la población final tienen exactamente 60 cartas y ninguno viola la norma de un máximo de cuatro copias por carta. Hasta ahí la equivalencia. A partir de ahí, la diferencia es pronunciada.
+
+\begin{table}[H]
+\centering
+\caption{Métricas estructurales de la población final ($n=40$) en ambos runs.}
+\label{tab:estructura-ab}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Métrica} & \textbf{Baseline} & \textbf{Pack-aware} \\
+\midrule
+Mazos con 60 cartas exactas & 40/40 & 40/40 \\
+Violaciones de la norma 4-of & 0 & 0 \\
+\emph{Singletons} no-tierra por mazo (media) & 3,55 & 0,17 \\
+Sets de 4 copias por mazo (media) & 5,55 & 7,83 \\
+Tierras no básicas por mazo (media) & 0,68 & 4,00 \\
+Tierras totales por mazo (media) & 20,52 & 25,95 \\
+Tasa de fallos en combate & 0,078\,\% & 0,010\,\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3,55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas. Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de corrección \texttt{consolidate\_singletons} podía eliminarlos.
+
+El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5,55 a 7,83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0,68 a 4,00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} y tierras de utilidad seleccionadas deliberadamente.
 
 \subsection{Evolución del fitness}
-% TODO: curvas, picos, dinámica.
+
+\begin{table}[H]
+\centering
+\caption{Estadísticos de fitness comparados. Datos del baseline limitados a las generaciones 19-30 disponibles en sus logs.}
+\label{tab:fitness-ab}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Estadístico} & \textbf{Baseline} & \textbf{Pack-aware} \\
+\midrule
+Pico de \emph{best\_fit} & 0,8906 (gen 29) & 0,8778 (gen 20) \\
+\emph{Avg\_fit} en generación final & 0,6171 & 0,6298 \\
+\emph{Best\_fit} medio (gens 19-30) & 0,8174 & 0,8200 \\
+\emph{Avg\_fit} medio (gens 19-30) & 0,6104 & 0,6256 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+El pico del mejor individuo baja 1,4 puntos porcentuales en el run pack-aware. Es el único indicador que retrocede. El \emph{avg\_fit} final mejora un 2,1\,\% y la media de \emph{avg\_fit} en la ventana comparable también es superior. El pack-aware eleva el suelo de la población a cambio de ceder algo de techo.
+
+La trayectoria interna del run pack-aware muestra un comportamiento evolutivo sano. El \emph{avg\_fit} sube de 0,555 en la generación 0 a 0,630 en la 30, una ganancia del 13,5\,\% con curva sin saltos bruscos. La diversidad estructural de la población cae de 0,878 a 0,396, lo que refleja convergencia progresiva, no colapso súbito. La tasa de mutación adaptativa escaló a 0,9 en las generaciones 14-18 al detectar estancamiento; esa presión extra produjo el pico de 0,878 en la generación 20. Las generaciones siguientes relajaron la tasa y no superaron ese pico, aunque el Hall of Fame lo retuvo.
 
 \subsection{Inspección cualitativa del Hall of Fame}
-% TODO
+
+La diferencia más visible entre los dos runs no está en las tablas de fitness. Está en la forma de los mazos que produce cada uno. El mejor individuo del baseline es este:
+
+\begin{center}
+\small
+\texttt{2 Bake into a Pie, 4 Dawnwing Marshal, 3 Firebrand Archer, 3 Giada,}\\
+\texttt{3 Moment of Craving, 2 Mountain, 13 Plains, 5 Swamp, 2 Youthful Valkyrie,}\\
+\texttt{3 Anointed Peacekeeper, 1 Flowstone Kavu, 3 Ambush Paratrooper,}\\
+\texttt{3 Monastery Swiftspear, 4 Spectrum Sentinel, 1 Survivor of Korlis,}\\
+\texttt{2 Warlord's Elite, 1 Axiom Engraver, 2 Infectious Inquiry, 1 Scrollshift,}\\
+\texttt{1 Bloodletter of Aclazotz, 1 Lion Heart}
+\end{center}
+
+Solo dos packs de cuatro copias. Ocho cartas en copia única. El mazo tiene fitness 0,891 pero ningún jugador de competición lo llevaría a un torneo. Es un ensamblaje de piezas que funciona contra el \emph{gauntlet} pero carece de plan de juego legible.
+
+El mejor individuo del run pack-aware es distinto:
+
+\begin{center}
+\small
+\texttt{5 Plains, 17 Swamp, 4 Extinguish the Light, 1 Plaza of Heroes,}\\
+\texttt{4 Sheoldred, the Apocalypse, 4 Splatter Goblin, 4 Gurgling Anointer,}\\
+\texttt{4 Static Net, 4 Fanatical Offering, 4 Preacher of the Schism,}\\
+\texttt{1 Promising Vein, 2 Omenport Vigilante, 1 Fomori Vault,}\\
+\texttt{4 Bumbleflower's Sharepot, 1 Maelstrom of the Spirit Dragon}
+\end{center}
+
+Ocho packs de cuatro copias. Manabase con cuatro tierras no básicas de utilidad. El plan es identificable: Sheoldred y Preacher of the Schism como amenazas ganadoras, Extinguish the Light y Static Net como respuestas, Bumbleflower's Sharepot como pieza de utilidad. Un jugador humano reconocería esto como un midrange B/W funcional.
+
+El slot de \emph{singletons} restantes (Plaza of Heroes, Promising Vein, Fomori Vault, Maelstrom of the Spirit Dragon) corresponde a tierras de utilidad con efecto único, que por su naturaleza se juegan como una o dos copias incluso en los mazos competitivos reales. No son ruido: son decisiones de construcción deliberadas que el pack-aware preserva a través del límite de dos \emph{singletons} que admite la función de corrección.
+
+El resto del Hall of Fame del run pack-aware muestra el mismo patrón. El mejor control es un B/W con 11 piezas de interacción identificables (Extinguish the Light, Drown in Ichor, Malicious Eclipse) y amenazas tardías. El mejor aggro es un B/G de curva baja con siete packs consolidados y un plan de presión reconocible. Los nueve mazos del Hall of Fame parecen construcciones humanas coherentes.
+
+\subsection{Discusión: la norma de cuatro copias como eje de diseño}
+
+La norma de cuatro copias no es un detalle de implementación. Es la diferencia entre un algoritmo que juega al ajedrez en el tablero correcto y uno que juega con el tablero girado. En el deckbuilding de \emph{constructed}, incluir una carta significa incluir cuatro copias: esa es la granularidad mínima con la que razona un jugador. Un operador que modifica copias individuales opera en un espacio de búsqueda que los jugadores humanos nunca recorren.
+
+Los datos del experimento cuantifican el coste y el beneficio de cambiar esa granularidad. El coste es 1,4 puntos porcentuales en el pico de \emph{best\_fit}. El beneficio es una reducción del 95\,\% en \emph{singletons} no-tierra, un incremento del 41\,\% en packs consolidados, y un salto del 488\,\% en tierras no básicas por mazo. El fitness medio de la población sube un 2,1\,\%. La tasa de fallos en combate cae un 87\,\%.
+
+El trade-off es favorable desde el objetivo de este TFG: generar mazos que se parezcan a los que se construyen y juegan en competición. La variante baseline era más explotativa contra el \emph{gauntlet} concreto de evaluación, pero sus mazos no serían competitivos fuera de ese contexto. El pack-aware produce mazos menos ajustados al simulador y más próximos al estándar del formato.
+
+Esta decisión de diseño marca el punto de partida para el resto del desarrollo. Todos los experimentos siguientes asumen operadores pack-aware.
 
 \section{Refinamiento iterativo de la métrica de calidad}
 % TODO: diagnóstico de saturación (CoV) y rediseño. Reciclar de PLAN_QUALITY_REBALANCE.md.
