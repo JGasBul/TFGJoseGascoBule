@@ -3368,6 +3368,10 @@ class MTGGeneticAlgorithm:
 
                 self.logger.info("Evaluando población inicial con procesamiento paralelo...")
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, 0)
+                # current_fitness_values debe asignarse ANTES de save_population_arrays:
+                # esa función lee current_fitness_values, y si se guarda antes queda
+                # desfasada una generación (gen 0 saldría con fitness 0.0).
+                self.current_fitness_values = fitness_values
                 self.save_population_arrays(0)
 
                 # Local best_fitness_ever — self.best_fitness_ever es @property (Fase 2)
@@ -3375,7 +3379,6 @@ class MTGGeneticAlgorithm:
                 self.update_statistics(0, fitness_values)
 
                 self.stagnation_counter = 0
-                self.current_fitness_values = fitness_values
 
                 # Actualizar Hall of Fame inicial
                 self.update_hall_of_fame(fitness_values, self.population_arrays)
@@ -3453,9 +3456,12 @@ class MTGGeneticAlgorithm:
 
                 # === EVALUAR NUEVA GENERACIÓN ===
                 fitness_values = self.evaluate_population_tournament_parallel(self.population_arrays, generation)
-                self.save_population_arrays(generation)  # ← NUEVA LÍNEA
-                self.current_fitness_values = fitness_values  # ← NUEVA LÍNEA
-                
+                # current_fitness_values ANTES de save_population_arrays: esa función
+                # lee current_fitness_values; si se guarda antes, los archivos
+                # population_summary / evolution_history quedan desfasados +1 gen.
+                self.current_fitness_values = fitness_values
+                self.save_population_arrays(generation)
+
                 self.update_statistics(generation, fitness_values, effective_mutation_rate=current_mutation_rate)
                 
                 # Actualizar Hall of Fame
