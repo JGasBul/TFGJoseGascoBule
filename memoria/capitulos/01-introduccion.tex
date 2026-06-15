@@ -1,25 +1,41 @@
 % =============================================================
 % Capítulo 1. Introducción
 % =============================================================
-% Contenido previsto:
-%   - Magic: The Gathering y el problema de construir mazos
-%   - Por qué tiene interés automatizar la construcción
-%   - Objetivos del trabajo
-%   - Estructura de la memoria
-% =============================================================
 
 \chapter{Introducción}
 
-% TODO: redactar el cuerpo del capítulo.
-
 \section{Contexto}
-% TODO
+
+Magic: The Gathering es un juego de cartas coleccionables con más de tres décadas de historia y una comunidad competitiva activa en todo el mundo. Cada partida enfrenta a dos jugadores que manejan un mazo construido de antemano, y buena parte del resultado se decide antes de robar la primera carta, en la fase de construcción. Elegir qué sesenta cartas componen un mazo es la decisión estratégica central del juego.
+
+El formato Standard, sobre el que trabaja este TFG, restringe las cartas legales a las expansiones más recientes y rota su contenido cada pocos meses. Esa rotación mantiene vivo el metajuego: los mazos dominantes cambian con frecuencia y un mazo que hoy es competitivo puede quedar obsoleto en la siguiente actualización. Construir para Standard significa, por tanto, construir contra un blanco móvil.
+
+Visto como problema, la construcción de mazos es una tarea de optimización combinatoria con restricciones duras y un objetivo difícil de medir. El espacio de búsqueda contiene del orden de cuatro mil cartas legales, de las que hay que elegir sesenta respetando un máximo de cuatro copias por carta y una base de tierras coherente con los colores del mazo. El número de combinaciones válidas es astronómico, así que la enumeración completa queda descartada de entrada. Y la calidad de un mazo no se lee en su composición: depende de cómo se comporta en partidas reales contra otros mazos, un comportamiento que solo se conoce jugando. Un jugador experto resuelve este problema con intuición y años de práctica. La pregunta que motiva el trabajo es si una metaheurística puede hacer algo parecido sin ese conocimiento previo.
 
 \section{Motivación}
-% TODO
+
+El problema reúne varias características que lo convierten en un buen banco de pruebas para la computación evolutiva. El espacio de soluciones es enorme y discreto. Las restricciones son rígidas y deben cumplirse en todo momento, no solo al final. Y la función objetivo es cara y ruidosa: evaluar un mazo exige simular partidas, cada partida tarda minutos y su resultado tiene una componente aleatoria que ningún cálculo cerrado captura.
+
+Ese último punto es el que da interés metodológico al trabajo. La mayoría de los enfoques que generan mazos automáticamente recurren a heurísticas que puntúan la composición de un mazo sin jugarlo: la curva de maná, la proporción de tierras, la sinergia entre cartas. Esas medidas son baratas pero son aproximaciones. Aquí la evaluación se hace jugando partidas reales con un simulador que aplica las reglas completas del juego, lo que plantea un reto concreto: cómo evolucionar una población cuando medir el fitness de cada individuo cuesta minutos de cómputo y devuelve un valor con varianza. La respuesta a ese reto, que combina un sistema de emparejamiento eficiente con operadores que respetan la estructura del problema, es el núcleo técnico de la memoria.
+
+Hay además una motivación que viene del propio dominio. Un mazo no es una bolsa de cartas buenas. Es un sistema con un plan de juego coherente, donde las cartas se eligen en conjuntos de cuatro copias y la base de tierras se calcula para sostener los colores que el mazo necesita. Un algoritmo que ignore esa estructura puede encontrar combinaciones que ganan partidas en un entorno cerrado pero que ningún jugador reconocería como un mazo real. Conseguir que la metaheurística produzca mazos creíbles, y no solo eficaces contra su propio entorno de evaluación, es uno de los hilos que recorren todo el trabajo.
 
 \section{Objetivos}
-% TODO
+
+El objetivo general del trabajo es diseñar e implementar una metaheurística capaz de generar mazos competitivos y estructuralmente realistas para el formato Standard de Magic: The Gathering, evaluándolos mediante la simulación real de partidas.
+
+Ese objetivo se concreta en cinco metas específicas:
+
+\begin{enumerate}
+    \item Construir el espacio de búsqueda a partir de las cartas reales del formato Standard y definir una representación del mazo que permita operar sobre él de forma eficiente.
+    \item Diseñar operadores genéticos que respeten la lógica de la construcción de mazos de competición, en particular la norma de las cuatro copias, de modo que las soluciones que el algoritmo explora se parezcan a las que construye un jugador humano.
+    \item Integrar un simulador de partidas como función de evaluación y hacer que esa evaluación sea viable en coste mediante un sistema de torneo cuyo número de partidas crezca de forma controlada con el tamaño de la población.
+    \item Definir una función de fitness que combine el rendimiento real en partidas con una métrica de calidad estructural sensible al arquetipo que cada mazo exhibe.
+    \item Analizar el comportamiento emergente del sistema: los arquetipos que produce, su convergencia cromática y los límites del enfoque, documentando tanto lo que funciona como lo que no.
+\end{enumerate}
+
+El último objetivo merece una aclaración. El trabajo no busca únicamente producir el mejor mazo posible. Busca entender qué hace la metaheurística cuando se la deja correr: hacia qué tipo de mazos converge, por qué se especializa en un par de colores y dónde están las fronteras de lo que el método puede medir de forma fiable. Esa lectura honesta de los resultados, incluidos los negativos, es parte del objetivo y no un apéndice.
 
 \section{Estructura de la memoria}
-% TODO
+
+El resto del documento se organiza en seis capítulos. El capítulo~\ref{cap:marco} repasa el marco teórico: los fundamentos de los algoritmos genéticos, las reglas de Magic relevantes para el problema y el simulador empleado como motor de evaluación. El capítulo~\ref{sec:arquitectura} describe la metodología, es decir, el sistema tal como está diseñado e implementado, desde la representación del mazo hasta la función de fitness. El capítulo~\ref{cap:desarrollo} documenta el desarrollo y los resultados: la evolución del proyecto desde el primer prototipo, los experimentos que validan cada decisión de diseño y el análisis del run más extenso. El capítulo~\ref{cap:conclusiones} recoge las conclusiones, el grado de cumplimiento de los objetivos y las líneas de trabajo futuro. Cierran la memoria la bibliografía y un anexo sobre la relación del trabajo con los Objetivos de Desarrollo Sostenible de la Agenda 2030.
