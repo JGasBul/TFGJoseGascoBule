@@ -11,68 +11,12 @@
 
 \chapter{Desarrollo y resultados}
 
-% TODO
-
-\section{Arquitectura de la implementación}
-\label{sec:arquitectura}
-
-El sistema se organiza en tres etapas encadenadas. La primera obtiene y procesa el catálogo de cartas. La segunda genera la población inicial de mazos. La tercera ejecuta el algoritmo genético sobre esa población, usando el simulador Forge para medir el rendimiento real de cada mazo. Un cuarto módulo orquesta las tres etapas y ajusta la configuración de paralelismo al hardware de la máquina.
-
-\subsection{Visión general del pipeline}
-
-El módulo de obtención de cartas (\texttt{obtener\_cartas\_mtg.py}) descarga las cartas desde la API pública de Scryfall. No baja el juego entero: se restringe a las dieciséis expansiones que componen el formato Standard en el periodo de trabajo, desde Dominaria United hasta Final Fantasy. El resultado se guarda en dos archivos que el resto del sistema consume. El catálogo (\texttt{card\_catalog.json}) asigna a cada carta un identificador entero y almacena sus atributos: coste de maná, tipo, texto, colores, rareza, fuerza y resistencia, y los indicadores booleanos de categoría (tierra, criatura, instantáneo, etc.). Los índices (\texttt{card\_indices.json}) agrupan los identificadores por tipo y por color para acelerar las búsquedas. El catálogo final reúne alrededor de 4.130 cartas únicas.
-
-El generador de mazos (\texttt{generador\_mazos\_mtg.py}) produce la población inicial. Cada mazo respeta tres restricciones: 60 cartas exactas, coherencia con los colores asignados y tierras básicas apropiadas. El resto del contenido es aleatorio. Esta es una decisión deliberada: el generador no introduce conocimiento estratégico, de modo que cualquier estructura competitiva que aparezca después es mérito del proceso evolutivo, no de un sesgo inicial. La población se reparte entre mazos monocolor, bicolor, tricolor y multicolor con proporciones que reflejan la frecuencia de cada categoría en el juego real.
-
-El algoritmo genético (\texttt{algoritmo\_genetico\_mtg.py}) es el núcleo del sistema y concentra la mayor parte del código. Recibe la población inicial y la evoluciona durante un número fijo de generaciones. Cada individuo se evalúa jugando partidas reales en Forge. La clase \texttt{MTGGeneticAlgorithm} encapsula el bucle completo: inicialización, evaluación, selección, cruce, mutación, elitismo y persistencia de resultados.
-
-El orquestador (\texttt{mtg\_main.py}) conecta las tres etapas mediante un sistema de menús y, antes de lanzar un run, analiza el hardware disponible. La clase \texttt{HardwareAnalyzer} mide los núcleos de CPU, la memoria y la velocidad de disco, y deriva el número de procesos paralelos, los timeouts y los tamaños de población recomendados. Esto permite que el mismo código corra en un portátil o en una máquina de muchos núcleos sin reconfiguración manual.
-
-\subsection{Representación del individuo}
-
-Un mazo se representa internamente como un vector de enteros de longitud igual al número de cartas del catálogo. La posición \texttt{i} del vector indica cuántas copias de la carta con identificador \texttt{i} contiene el mazo. Un mazo de 60 cartas es, por tanto, un vector disperso cuyas componentes suman 60.
-
-Esta representación tiene dos ventajas. Permite operar sobre los mazos con álgebra vectorial, lo que acelera el cruce y los cálculos de diversidad. Y traduce de forma directa la norma de cuatro copias: el valor de cada componente está acotado a cuatro para las cartas no básicas, y solo las tierras básicas pueden superar ese límite. El genotipo es el vector; el fenotipo se obtiene con \texttt{array\_to\_deck}, que reconstruye el mazo completo con sus cartas y estadísticas, y con \texttt{save\_forge\_deck}, que escribe el archivo \texttt{.dck} que Forge lee para jugar.
-
-\subsection{El bucle evolutivo}
-
-La inicialización no se limita a cargar la población. La función \texttt{\_seed\_archetypes} asigna a cada mazo inicial un arquetipo objetivo (aggro, midrange o control) con cuotas iguales y consolida su estructura hacia ese arquetipo. La asignación es solo una siembra: en cuanto empieza la evolución, el arquetipo de cada mazo se redetecta dinámicamente y puede migrar si la presión selectiva lo recompensa. Esta decisión garantiza diversidad de arquetipos desde la generación 0 sin fijarla artificialmente después.
-
-Cada generación sigue el mismo ciclo. Primero se preserva la élite: los mejores individuos del Hall of Fame pasan intactos a la nueva población. El resto se genera por reproducción. Dos padres se eligen por selección de torneo, en la que se toma una muestra aleatoria de la población y gana el de mayor fitness. Con probabilidad \texttt{crossover\_rate} los padres se cruzan; con probabilidad \texttt{mutation\_rate} cada hijo muta. La nueva población se evalúa, se actualizan el Hall of Fame y las estadísticas, y se guarda un checkpoint. El ciclo se repite hasta agotar las generaciones o alcanzar el fitness objetivo.
-
-La tasa de mutación no es fija. La función \texttt{adaptive\_mutation\_rate} la incrementa cuando detecta estancamiento (varias generaciones sin mejorar el mejor fitness) y la relaja en la fase final si la población converge sin atascarse. El diseño es aditivo con límites en el intervalo $[0{,}1,\ 1{,}0]$, de modo que cada escalón de estancamiento aporta un incremento visible en lugar de saturar de golpe.
-
-El Hall of Fame conserva los mejores mazos históricos con una cuota estricta por arquetipo. Reserva un tercio de sus plazas a cada uno de los tres arquetipos, y si un arquetipo no tiene candidatos suficientes, sus plazas quedan vacías en vez de rellenarse con otro. Esta restricción preserva la diversidad: impide que el arquetipo dominante de cada momento monopolice la élite y arrastre a toda la población hacia una sola estrategia.
-
-\subsection{Operadores genéticos pack-aware}
-
-El cruce dispone de dos variantes que se eligen al azar en cada reproducción. El cruce uniforme decide carta por carta de qué padre hereda cada posición del hijo. El cruce por categoría decide por bloques: hereda toda la manabase de un padre, todas las criaturas de otro y todos los hechizos del que toque, preservando la coherencia interna de cada bloque en lugar de cortar por un punto arbitrario.
-
-La mutación trabaja en packs, no en copias sueltas. Hay siete operadores, y todos comparten un principio: cada mutación es una sustitución atómica que elimina un pack y añade otro, manteniendo constante el número de cartas. El operador genérico (\texttt{pack\_swap}) intercambia una carta de baja afinidad por otra de alta afinidad con el arquetipo. Los seis restantes modelan decisiones concretas de un jugador construyendo un mazo: completar un pack parcial a cuatro copias, empujar la curva de maná hacia el ideal del arquetipo, inyectar cartas de respuesta cuando faltan, podar un color secundario para consolidar la manabase, mejorar una criatura por otra de igual coste y mejores estadísticas, y reforzar la tribu dominante. Cuando un operador temático no encuentra candidatos viables, cae al swap genérico, de modo que ninguna mutación queda sin efecto. Un repartidor pondera los siete operadores según el régimen evolutivo: en estancamiento sube el peso del swap exploratorio; en marcha normal reparte entre consolidación y operadores temáticos.
-
-Todas las operaciones terminan llamando a \texttt{adjust\_deck\_size}, la función que repara el mazo y hace cumplir las reglas. Consolida los \emph{singletons} sobrantes (deja un máximo de dos), ajusta el total a 60 cartas, impone el piso de tierras propio del arquetipo (20 para aggro, 23 para midrange, 25 para control), garantiza al menos una tierra básica por cada color usado y rebalancea la manabase para que las fuentes de cada color sean proporcionales a su demanda de pips, según una heurística inspirada en los estudios de manabase de Frank Karsten. Esta función es la guardiana de las restricciones duras del formato.
-
-\subsection{Evaluación por simulación con Forge}
-
-El fitness no se calcula con una heurística teórica. Se mide jugando. Cada enfrentamiento lanza Forge como proceso externo con la orden \texttt{forge sim}, que disputa tres partidas entre dos mazos con jugador inicial aleatorio en cada una. El sistema lee la salida del simulador, cuenta las victorias y determina el ganador. Esta integración entre Python y el motor Java de Forge es lo que convierte la evaluación en una medida de rendimiento real bajo las reglas completas del juego, y no en una aproximación.
-
-El coste de simular partidas reales obliga a paralelizar. Los enfrentamientos de una generación se reparten entre varios procesos mediante un \texttt{ProcessPoolExecutor}, con un número de trabajadores que el analizador de hardware fija según los núcleos disponibles. Un timeout adaptativo evita que una partida atascada bloquee el run: si se acumulan timeouts, el límite se eleva de forma automática. La tasa de combates fallidos en los runs reales se mantiene por debajo del 0,1\,\%, lo que confirma que la integración es estable a lo largo de decenas de horas de ejecución.
-
-\subsection{El sistema de torneo}
-\label{sec:torneo}
-
-La forma de emparejar los mazos dentro de una generación determina cuántas partidas hay que simular, y ese número domina el coste de todo el sistema. El diseño admite dos modos. El round-robin completo enfrenta cada mazo contra todos los demás: para una población de $N$ mazos genera $\binom{N}{2}$ enfrentamientos, un coste que crece con el cuadrado del tamaño. El Swiss Tournament, en cambio, hace que cada mazo juegue un número fijo de rondas $k$ contra rivales distintos, lo que genera del orden de $N \cdot k / 2$ enfrentamientos, un coste que crece de forma lineal.
-
-La diferencia es grande y tiene consecuencias prácticas. Para una población de 40 mazos, el round-robin completo exige 780 enfrentamientos por generación; el Swiss con ocho rondas exige 160. El propio código calcula y registra esa reducción, superior al 90\,\% en la configuración estándar. El Swiss no es solo más barato: es además el formato con el que se disputan los torneos reales de Magic, de modo que el cambio acerca la evaluación a las condiciones de competición que el TFG quiere modelar. El paso de round-robin a Swiss es uno de los ejes de la evolución del sistema que se detalla en la sección~\ref{sec:evolucion}.
-
-\subsection{Función de fitness multi-componente}
-
-El fitness de un mazo combina su rendimiento en el torneo con una métrica de calidad estructural. El componente principal es la tasa de victorias en el Swiss, con peso $\alpha = 0{,}7$. El componente secundario es la calidad del mazo, con peso $\beta = 0{,}3$. La calidad se calcula sobre el arquetipo que el mazo exhibe en ese momento, detectado dinámicamente a partir de su coste de maná medio y su número de criaturas, y agrega tres medidas: la sinergia interna, el equilibrio entre categorías de cartas y la coherencia con los rangos ideales del arquetipo. La composición de esta métrica y su calibración se tratan en detalle en la sección~\ref{sec:refinamiento}. El sistema admite un tercer componente opcional, el rendimiento contra un gauntlet de mazos del meta real, que se exploró y se descartó por las razones que se exponen en la sección~\ref{sec:gauntlet}.
+Este capítulo documenta cómo el sistema descrito en la metodología llegó a su forma actual y qué evidencia sostiene cada decisión de diseño. Empieza por la evolución del proyecto, desde el primer prototipo hasta el sistema maduro, y continúa con los experimentos que validan los cambios: la comparativa que justifica los operadores pack-aware, el refinamiento de la métrica de calidad, el run más extenso con el sistema completo y una vía que se exploró y se descartó.
 
 \section{Del prototipo al diseño actual}
 \label{sec:evolucion}
 
-El sistema descrito en la sección anterior no es el que se construyó al principio. Es el resultado de varias iteraciones, cada una motivada por un problema concreto que el run anterior dejó al descubierto. Merece la pena recorrer ese camino, porque las decisiones de diseño que definen el sistema actual solo se entienden a la luz de lo que vino antes y de por qué no funcionaba.
+El sistema descrito en el capítulo anterior no es el que se construyó al principio. Es el resultado de varias iteraciones, cada una motivada por un problema concreto que el run anterior dejó al descubierto. Merece la pena recorrer ese camino, porque las decisiones de diseño que definen el sistema actual solo se entienden a la luz de lo que vino antes y de por qué no funcionaba.
 
 \subsection{El punto de partida: un prototipo costoso y de mazos irreales}
 
