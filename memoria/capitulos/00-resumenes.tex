@@ -25,9 +25,15 @@ El trabajo también identifica límites del enfoque actual. Cada ejecución del 
 
 \selectlanguage{english}
 \chapter*{Abstract}
-% TODO: traducir el resumen al inglés.
 
-\textbf{Keywords:}
-% TODO: palabras clave en inglés.
+This Bachelor's Thesis develops a metaheuristic capable of generating competitive decks for the Standard format of Magic: The Gathering. The game features a dynamic metagame, with cards rotating every few months and dominant archetypes shifting frequently. The system builds decks that can face those archetypes while keeping internal coherence and complying with the format rules. The search space contains around four thousand cards under hard constraints such as the maximum of four copies per card, the requirement of exactly 60 cards per deck and the chromatic consistency of the manabase.
+
+The implemented solution is a genetic algorithm with two features that set it apart from a classical approach. First: the mutation and crossover operators work at the level of a \emph{pack} of four copies, mirroring how a human player builds. Deciding whether a card enters the deck is equivalent to deciding whether four copies enter, not one. Second: the fitness combines real performance from simulated matches in the Forge engine (at 70\%) with an archetype-aware structural quality metric (at 30\%). The population evolves over dozens of generations under Swiss Tournament selection pressure, with elitism backed by a Hall of Fame that holds quotas per archetype.
+
+The results confirm the viability of the approach. Compared to a baseline without pack-level operators, the new design reduces stray \emph{singletons} from 3.55 to 0.05 per deck (a 95\% drop) and consolidates 7.88 four-copy sets per deck. The final run, 43 generations over a population of 40 decks, reaches a fitness peak of 0.9755 at generation 39, which places the best deck at 93\% of the evolutionary path. That stepwise progression rules out the early convergence typical of poorly calibrated genetic algorithms. The final Hall of Fame gathers decks with cards from the current competitive Standard meta, such as Scalestorm Summoner, Leyline Axe or the Boros burn package.
+
+The work also flags limits of the current approach. Each run of the algorithm converges to a single colour pair, so covering the full archetype ecosystem would demand several runs with different seeds. A second exploration, based on evaluating the population against tier-1 decks from the actual meta, was dropped after detecting a measurable simulator bias against archetypes with complex play. The thesis documents both findings and proposes concrete continuation lines.
+
+\textbf{Keywords:} genetic algorithm, Magic: The Gathering, deck generation, metaheuristic, simulation.
 
 \selectlanguage{spanish}
