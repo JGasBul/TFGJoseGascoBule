@@ -14,11 +14,92 @@
 % TODO
 
 \section{Arquitectura de la implementación}
-% TODO: organización del código en algoritmo_genetico_mtg.py y mtg_main.py.
+\label{sec:arquitectura}
 
-\section{Experimento 1: baseline vs pack-aware}
+El sistema se organiza en tres etapas encadenadas. La primera obtiene y procesa el catálogo de cartas. La segunda genera la población inicial de mazos. La tercera ejecuta el algoritmo genético sobre esa población, usando el simulador Forge para medir el rendimiento real de cada mazo. Un cuarto módulo orquesta las tres etapas y ajusta la configuración de paralelismo al hardware de la máquina.
 
-El primer experimento del trabajo responde a una pregunta de diseño: ¿qué ocurre cuando los operadores genéticos dejan de trabajar en copias sueltas y pasan a trabajar en packs de cuatro? La hipótesis es que un algoritmo que tome decisiones al nivel en que las toman los jugadores humanos (incluir o excluir una carta como conjunto de cuatro copias) producirá mazos estructuralmente más próximos a los que se juegan en competición. Para validarla se ejecutaron dos runs con configuración nominal idéntica. Solo difiere la lógica de variación.
+\subsection{Visión general del pipeline}
+
+El módulo de obtención de cartas (\texttt{obtener\_cartas\_mtg.py}) descarga las cartas desde la API pública de Scryfall. No baja el juego entero: se restringe a las dieciséis expansiones que componen el formato Standard en el periodo de trabajo, desde Dominaria United hasta Final Fantasy. El resultado se guarda en dos archivos que el resto del sistema consume. El catálogo (\texttt{card\_catalog.json}) asigna a cada carta un identificador entero y almacena sus atributos: coste de maná, tipo, texto, colores, rareza, fuerza y resistencia, y los indicadores booleanos de categoría (tierra, criatura, instantáneo, etc.). Los índices (\texttt{card\_indices.json}) agrupan los identificadores por tipo y por color para acelerar las búsquedas. El catálogo final reúne alrededor de 4.130 cartas únicas.
+
+El generador de mazos (\texttt{generador\_mazos\_mtg.py}) produce la población inicial. Cada mazo respeta tres restricciones: 60 cartas exactas, coherencia con los colores asignados y tierras básicas apropiadas. El resto del contenido es aleatorio. Esta es una decisión deliberada: el generador no introduce conocimiento estratégico, de modo que cualquier estructura competitiva que aparezca después es mérito del proceso evolutivo, no de un sesgo inicial. La población se reparte entre mazos monocolor, bicolor, tricolor y multicolor con proporciones que reflejan la frecuencia de cada categoría en el juego real.
+
+El algoritmo genético (\texttt{algoritmo\_genetico\_mtg.py}) es el núcleo del sistema y concentra la mayor parte del código. Recibe la población inicial y la evoluciona durante un número fijo de generaciones. Cada individuo se evalúa jugando partidas reales en Forge. La clase \texttt{MTGGeneticAlgorithm} encapsula el bucle completo: inicialización, evaluación, selección, cruce, mutación, elitismo y persistencia de resultados.
+
+El orquestador (\texttt{mtg\_main.py}) conecta las tres etapas mediante un sistema de menús y, antes de lanzar un run, analiza el hardware disponible. La clase \texttt{HardwareAnalyzer} mide los núcleos de CPU, la memoria y la velocidad de disco, y deriva el número de procesos paralelos, los timeouts y los tamaños de población recomendados. Esto permite que el mismo código corra en un portátil o en una máquina de muchos núcleos sin reconfiguración manual.
+
+\subsection{Representación del individuo}
+
+Un mazo se representa internamente como un vector de enteros de longitud igual al número de cartas del catálogo. La posición \texttt{i} del vector indica cuántas copias de la carta con identificador \texttt{i} contiene el mazo. Un mazo de 60 cartas es, por tanto, un vector disperso cuyas componentes suman 60.
+
+Esta representación tiene dos ventajas. Permite operar sobre los mazos con álgebra vectorial, lo que acelera el cruce y los cálculos de diversidad. Y traduce de forma directa la norma de cuatro copias: el valor de cada componente está acotado a cuatro para las cartas no básicas, y solo las tierras básicas pueden superar ese límite. El genotipo es el vector; el fenotipo se obtiene con \texttt{array\_to\_deck}, que reconstruye el mazo completo con sus cartas y estadísticas, y con \texttt{save\_forge\_deck}, que escribe el archivo \texttt{.dck} que Forge lee para jugar.
+
+\subsection{El bucle evolutivo}
+
+La inicialización no se limita a cargar la población. La función \texttt{\_seed\_archetypes} asigna a cada mazo inicial un arquetipo objetivo (aggro, midrange o control) con cuotas iguales y consolida su estructura hacia ese arquetipo. La asignación es solo una siembra: en cuanto empieza la evolución, el arquetipo de cada mazo se redetecta dinámicamente y puede migrar si la presión selectiva lo recompensa. Esta decisión garantiza diversidad de arquetipos desde la generación 0 sin fijarla artificialmente después.
+
+Cada generación sigue el mismo ciclo. Primero se preserva la élite: los mejores individuos del Hall of Fame pasan intactos a la nueva población. El resto se genera por reproducción. Dos padres se eligen por selección de torneo, en la que se toma una muestra aleatoria de la población y gana el de mayor fitness. Con probabilidad \texttt{crossover\_rate} los padres se cruzan; con probabilidad \texttt{mutation\_rate} cada hijo muta. La nueva población se evalúa, se actualizan el Hall of Fame y las estadísticas, y se guarda un checkpoint. El ciclo se repite hasta agotar las generaciones o alcanzar el fitness objetivo.
+
+La tasa de mutación no es fija. La función \texttt{adaptive\_mutation\_rate} la incrementa cuando detecta estancamiento (varias generaciones sin mejorar el mejor fitness) y la relaja en la fase final si la población converge sin atascarse. El diseño es aditivo con límites en el intervalo $[0{,}1,\ 1{,}0]$, de modo que cada escalón de estancamiento aporta un incremento visible en lugar de saturar de golpe.
+
+El Hall of Fame conserva los mejores mazos históricos con una cuota estricta por arquetipo. Reserva un tercio de sus plazas a cada uno de los tres arquetipos, y si un arquetipo no tiene candidatos suficientes, sus plazas quedan vacías en vez de rellenarse con otro. Esta restricción preserva la diversidad: impide que el arquetipo dominante de cada momento monopolice la élite y arrastre a toda la población hacia una sola estrategia.
+
+\subsection{Operadores genéticos pack-aware}
+
+El cruce dispone de dos variantes que se eligen al azar en cada reproducción. El cruce uniforme decide carta por carta de qué padre hereda cada posición del hijo. El cruce por categoría decide por bloques: hereda toda la manabase de un padre, todas las criaturas de otro y todos los hechizos del que toque, preservando la coherencia interna de cada bloque en lugar de cortar por un punto arbitrario.
+
+La mutación trabaja en packs, no en copias sueltas. Hay siete operadores, y todos comparten un principio: cada mutación es una sustitución atómica que elimina un pack y añade otro, manteniendo constante el número de cartas. El operador genérico (\texttt{pack\_swap}) intercambia una carta de baja afinidad por otra de alta afinidad con el arquetipo. Los seis restantes modelan decisiones concretas de un jugador construyendo un mazo: completar un pack parcial a cuatro copias, empujar la curva de maná hacia el ideal del arquetipo, inyectar cartas de respuesta cuando faltan, podar un color secundario para consolidar la manabase, mejorar una criatura por otra de igual coste y mejores estadísticas, y reforzar la tribu dominante. Cuando un operador temático no encuentra candidatos viables, cae al swap genérico, de modo que ninguna mutación queda sin efecto. Un repartidor pondera los siete operadores según el régimen evolutivo: en estancamiento sube el peso del swap exploratorio; en marcha normal reparte entre consolidación y operadores temáticos.
+
+Todas las operaciones terminan llamando a \texttt{adjust\_deck\_size}, la función que repara el mazo y hace cumplir las reglas. Consolida los \emph{singletons} sobrantes (deja un máximo de dos), ajusta el total a 60 cartas, impone el piso de tierras propio del arquetipo (20 para aggro, 23 para midrange, 25 para control), garantiza al menos una tierra básica por cada color usado y rebalancea la manabase para que las fuentes de cada color sean proporcionales a su demanda de pips, según una heurística inspirada en los estudios de manabase de Frank Karsten. Esta función es la guardiana de las restricciones duras del formato.
+
+\subsection{Evaluación por simulación con Forge}
+
+El fitness no se calcula con una heurística teórica. Se mide jugando. Cada enfrentamiento lanza Forge como proceso externo con la orden \texttt{forge sim}, que disputa tres partidas entre dos mazos con jugador inicial aleatorio en cada una. El sistema lee la salida del simulador, cuenta las victorias y determina el ganador. Esta integración entre Python y el motor Java de Forge es lo que convierte la evaluación en una medida de rendimiento real bajo las reglas completas del juego, y no en una aproximación.
+
+El coste de simular partidas reales obliga a paralelizar. Los enfrentamientos de una generación se reparten entre varios procesos mediante un \texttt{ProcessPoolExecutor}, con un número de trabajadores que el analizador de hardware fija según los núcleos disponibles. Un timeout adaptativo evita que una partida atascada bloquee el run: si se acumulan timeouts, el límite se eleva de forma automática. La tasa de combates fallidos en los runs reales se mantiene por debajo del 0,1\,\%, lo que confirma que la integración es estable a lo largo de decenas de horas de ejecución.
+
+\subsection{El sistema de torneo}
+\label{sec:torneo}
+
+La forma de emparejar los mazos dentro de una generación determina cuántas partidas hay que simular, y ese número domina el coste de todo el sistema. El diseño admite dos modos. El round-robin completo enfrenta cada mazo contra todos los demás: para una población de $N$ mazos genera $\binom{N}{2}$ enfrentamientos, un coste que crece con el cuadrado del tamaño. El Swiss Tournament, en cambio, hace que cada mazo juegue un número fijo de rondas $k$ contra rivales distintos, lo que genera del orden de $N \cdot k / 2$ enfrentamientos, un coste que crece de forma lineal.
+
+La diferencia es grande y tiene consecuencias prácticas. Para una población de 40 mazos, el round-robin completo exige 780 enfrentamientos por generación; el Swiss con ocho rondas exige 160. El propio código calcula y registra esa reducción, superior al 90\,\% en la configuración estándar. El Swiss no es solo más barato: es además el formato con el que se disputan los torneos reales de Magic, de modo que el cambio acerca la evaluación a las condiciones de competición que el TFG quiere modelar. El paso de round-robin a Swiss es uno de los ejes de la evolución del sistema que se detalla en la sección~\ref{sec:evolucion}.
+
+\subsection{Función de fitness multi-componente}
+
+El fitness de un mazo combina su rendimiento en el torneo con una métrica de calidad estructural. El componente principal es la tasa de victorias en el Swiss, con peso $\alpha = 0{,}7$. El componente secundario es la calidad del mazo, con peso $\beta = 0{,}3$. La calidad se calcula sobre el arquetipo que el mazo exhibe en ese momento, detectado dinámicamente a partir de su coste de maná medio y su número de criaturas, y agrega tres medidas: la sinergia interna, el equilibrio entre categorías de cartas y la coherencia con los rangos ideales del arquetipo. La composición de esta métrica y su calibración se tratan en detalle en la sección~\ref{sec:refinamiento}. El sistema admite un tercer componente opcional, el rendimiento contra un gauntlet de mazos del meta real, que se exploró y se descartó por las razones que se exponen en la sección~\ref{sec:gauntlet}.
+
+\section{Del prototipo al diseño actual}
+\label{sec:evolucion}
+
+El sistema descrito en la sección anterior no es el que se construyó al principio. Es el resultado de varias iteraciones, cada una motivada por un problema concreto que el run anterior dejó al descubierto. Merece la pena recorrer ese camino, porque las decisiones de diseño que definen el sistema actual solo se entienden a la luz de lo que vino antes y de por qué no funcionaba.
+
+\subsection{El punto de partida: un prototipo costoso y de mazos irreales}
+
+El primer experimento completo del proyecto (\texttt{exp01\_prototipo}) evolucionó una población de 20 mazos durante 51 generaciones. La evaluación era round-robin completo: cada mazo jugaba contra los otros 19, lo que sumaba 190 enfrentamientos por generación y un total cercano a los 9.700 combates. El run tardó 88 horas, casi cuatro días, en completarse. El fitness combinaba la tasa de victorias y una métrica de calidad con pesos 0,6 y 0,4.
+
+Los resultados confirmaron que el enfoque funcionaba como algoritmo genético (el fitness mejoraba, la élite se preservaba, la población convergía) pero también que los mazos producidos no eran competitivos. El pico de fitness se quedó en 0,791. El mejor mazo del Hall of Fame tenía 39 cartas distintas de 60, es decir, una construcción casi enteramente de copias únicas. Una valoración cualitativa lo situaba en torno a un 3,5 sobre 10 frente a mazos de torneo. Era, en la expresión que recogió el análisis de la época, el mejor de un mal lote.
+
+El diagnóstico identificó cuatro problemas. El coste de la evaluación crecía con el cuadrado de la población, lo que hacía inviable aumentar el tamaño. La construcción en copias únicas producía mazos inconsistentes que ningún jugador llevaría a competición. La función de fitness era demasiado simple. Y la población convergía de forma prematura hacia un único par de colores. Los tres últimos puntos comparten una raíz: el algoritmo estaba explorando un espacio de mazos que no se parece al espacio de los mazos competitivos reales.
+
+\subsection{Tres cambios de diseño}
+
+El primer cambio atacó el coste. La sustitución del round-robin completo por el Swiss Tournament, descrita en la sección~\ref{sec:torneo}, rompió la dependencia cuadrática con el tamaño de la población. El efecto fue doble. Permitió duplicar la población de 20 a 40 mazos, lo que enriquece la exploración, y aun así redujo el número de combates por generación: donde el round-robin habría exigido más de 2.300 enfrentamientos para 40 mazos, el Swiss exige 160. El cambio no fue solo de eficiencia. El Swiss es el sistema real de los torneos de Magic, así que también acercó la evaluación a las condiciones que el trabajo pretende reproducir.
+
+El segundo cambio atacó la irrealidad de los mazos. Los operadores genéticos se reescribieron para trabajar en packs de cuatro copias en lugar de copias sueltas, según el principio de que incluir una carta en un mazo de constructed significa incluir cuatro. Este es el cambio que convierte los mazos de ensamblajes de cartas únicas en construcciones reconocibles, y su validación es el objeto del experimento de la sección~\ref{sec:experimento-ab}. Su efecto medido es una reducción del 95\,\% en los \emph{singletons} sueltos.
+
+El tercer cambio atacó la función de fitness. El peso del rendimiento en el torneo subió de 0,6 a 0,7, y la métrica de calidad se rediseñó tras detectar que la mejora estructural de los mazos había dejado saturados a varios de sus componentes. Ese refinamiento se detalla en la sección~\ref{sec:refinamiento}.
+
+\subsection{El resultado}
+
+La diferencia entre el punto de partida y el estado actual es medible en cada dimensión que importaba. El pico de fitness pasó de 0,791 a 0,9755. Los mazos dejaron de ser colecciones de copias únicas para convertirse en construcciones con packs consolidados, manabases coherentes y planes de juego identificables. La población dobló su tamaño sin que el coste por generación se disparara. Y los mazos del Hall of Fame final contienen cartas reconocibles del meta competitivo de Standard.
+
+El resto del capítulo documenta esa transición con los experimentos que la sostienen. La sección~\ref{sec:experimento-ab} valida el paso a operadores pack-aware con una comparativa controlada. La sección~\ref{sec:refinamiento} detalla el rediseño de la métrica de calidad. La sección~\ref{sec:run-final} analiza el run más extenso con el sistema ya maduro. La sección~\ref{sec:gauntlet} examina una vía que se exploró y se descartó.
+
+\section{Experimento: baseline vs pack-aware}
+\label{sec:experimento-ab}
+
+El segundo de los tres cambios de diseño descritos en la sección~\ref{sec:evolucion}, el paso a operadores pack-aware, es el que más afecta a la forma de los mazos. Este experimento lo valida con una comparativa controlada. La pregunta es directa: ¿qué ocurre cuando los operadores genéticos dejan de trabajar en copias sueltas y pasan a trabajar en packs de cuatro? La hipótesis es que un algoritmo que tome decisiones al nivel en que las toman los jugadores humanos (incluir o excluir una carta como conjunto de cuatro copias) producirá mazos estructuralmente más próximos a los que se juegan en competición. Para validarla se ejecutaron dos runs con configuración nominal idéntica. Solo difiere la lógica de variación.
 
 El run de referencia, denominado en adelante \emph{baseline}, usa los operadores originales que modifican copias individuales. El run \emph{pack-aware} substituye esos operadores por siete operadores temáticos, cada uno modelado sobre una decisión de deckbuilding humano: swap genérico de cartas, completar packs parciales, ajustar la curva de maná, inyectar respuestas (\emph{removal}), consolidar manabase, mejorar amenazas por coste y reforzar tribus. Ambos corren sobre el mismo catálogo de 4.130 cartas.
 
@@ -138,6 +219,7 @@ El trade-off es favorable desde el objetivo de este TFG: generar mazos que se pa
 Esta decisión de diseño marca el punto de partida para el resto del desarrollo. Todos los experimentos siguientes asumen operadores pack-aware.
 
 \section{Refinamiento iterativo de la métrica de calidad}
+\label{sec:refinamiento}
 
 Cuando el experimento anterior confirmó que los operadores pack-aware funcionaban, apareció un efecto colateral que no era obvio de prever: la mejora estructural de los mazos hizo que una parte de la función de fitness dejara de discriminar. El problema es de naturaleza estadística. Se detecta auditando el coeficiente de variación (CoV) de cada componente de la métrica de calidad sobre la población final de \texttt{exp03\_pack\_aware}.
 
@@ -207,9 +289,10 @@ El win\_rate del Swiss Tournament sigue siendo el componente principal, que es l
 
 El CoV proyectado tras el refinamiento es de aproximadamente 22-25\,\%, frente al 11,6\,\% original. La media esperada baja de 0,751 a un rango de 0,60-0,65: sin las tres componentes saturadas que arrastraban el promedio hacia arriba, la distribución de \texttt{quality} refleja con más fidelidad las diferencias reales entre mazos.
 
-El efecto práctico es que el fitness vuelve a tener gradiente en toda la distribución de la población. Dos mazos que empaten en win\_rate se diferenciarán por la sinergia interna, el balance de roles o el ajuste al arquetipo. Con el gauntlet desactivado y la calidad refinada activa, el run final que se describe en la sección siguiente arranca sin los problemas de saturación que afectaron a los primeros experimentos.
+El efecto práctico es que el fitness vuelve a tener gradiente en toda la distribución de la población. Dos mazos que empaten en win\_rate se diferenciarán por la sinergia interna, el balance de roles o el ajuste al arquetipo. Con el gauntlet desactivado y la calidad refinada activa, el run que se analiza en la sección~\ref{sec:run-final} arranca sin los problemas de saturación que afectaron a los primeros experimentos.
 
-\section{Experimento 2: run con calidad refinada}
+\section{Experimento: run con calidad refinada}
+\label{sec:run-final}
 
 Con los operadores pack-aware consolidados y la métrica de calidad rediseñada, se ejecutó el run más extenso del trabajo, del que se extraen las conclusiones principales sobre el comportamiento del sistema. El run partió de una población inicial de alta calidad, producto de un run preparatorio de 31 generaciones, y evolucionó durante 43 generaciones adicionales.
 
@@ -293,8 +376,9 @@ Nueve packs de cuatro copias. Manabase con tres tierras no básicas. El plan de 
 El mazo es competitivo con el estándar del formato. Un jugador con experiencia en R/W reconocería el plan de juego y no necesitaría cambios estructurales para llevarlo a un torneo.
 
 \section{Exploración descartada: gauntlet tier-1}
+\label{sec:gauntlet}
 
-El experimento de comparativa A/B (§4.2) dejó un problema abierto: la monocultura cromática. Al final del run pack-aware, 37 de 40 mazos convergían a B/W. Los arquetipos no dominantes sobrevivían únicamente por la cuota del Hall of Fame, no por presión selectiva real. El diagnóstico es estructural: cuando la evaluación es puramente intra-poblacional, el arquetipo que más rinde contra lo que la propia población produce se autorefuerza hasta desplazar a los demás.
+El experimento de comparativa A/B (sección~\ref{sec:experimento-ab}) dejó un problema abierto: la monocultura cromática. Al final del run pack-aware, 37 de 40 mazos convergían a B/W. Los arquetipos no dominantes sobrevivían únicamente por la cuota del Hall of Fame, no por presión selectiva real. El diagnóstico es estructural: cuando la evaluación es puramente intra-poblacional, el arquetipo que más rinde contra lo que la propia población produce se autorefuerza hasta desplazar a los demás.
 
 La solución diseñada fue introducir un gauntlet de mazos tier-1 del meta real como componente externo del fitness. Un mazo evolucionado tendría que rendir no solo contra sus compañeros de población, sino contra cinco referencias fijas del metajuego competitivo. Esa presión heterogénea, externa y estable, rompería la retroalimentación que produce la monocultura.
 
@@ -342,6 +426,6 @@ El resultado es un gauntlet con tres anchors fiables y dos con sesgo no cuantifi
 
 El gauntlet se descartó como componente del fitness antes de ejecutar el run definitivo. La decisión no es de viabilidad técnica: la implementación funciona y los anchors son reproducibles. Es de validez metodológica: incluir un componente de fitness con sesgo conocido y no cuantificable comprometería la interpretabilidad de todos los resultados del TFG.
 
-El problema de la monocultura cromática se abordó de otra forma: el run definitivo (§4.4) se ejecutó con múltiples semillas y sin gauntlet, aceptando que cada ejecución converge a un par cromático y documentando ese comportamiento como un límite del sistema. El ecosistema completo de arquetipos requeriría varias ejecuciones con puntos de partida distintos, lo que se propone como línea de trabajo futuro.
+El problema de la monocultura cromática se abordó de otra forma: el run de la sección~\ref{sec:run-final} se ejecutó sin gauntlet, aceptando que cada ejecución converge a un par cromático y documentando ese comportamiento como un límite del sistema. El ecosistema completo de arquetipos requeriría varias ejecuciones con puntos de partida distintos, lo que se propone como línea de trabajo futuro.
 
 El gauntlet tier-1 queda como exploración válida pero inconclusa. Para activarlo de forma fiable haría falta un motor de simulación con IA más sofisticada, capaz de ejecutar estrategias de juego complejo a nivel competitivo humano. Ese es el bloqueo técnico que la arquitectura actual de Forge no resuelve.
