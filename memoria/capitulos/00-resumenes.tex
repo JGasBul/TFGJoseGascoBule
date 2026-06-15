@@ -6,7 +6,7 @@
 
 \chapter*{Resumen}
 
-Este Trabajo de Fin de Grado desarrolla una metaheurística capaz de generar mazos competitivos para el formato Estándar de Magic: The Gathering. El juego presenta un metajuego dinámico, con cartas que rotan cada pocos meses y arquetipos dominantes que cambian con frecuencia. El sistema construye mazos que pueden enfrentarse a esos arquetipos manteniendo coherencia interna y respetando las reglas del formato. El espacio de búsqueda incluye alrededor de cuatro mil cartas con restricciones duras como el máximo de cuatro copias por carta, los 60 cartas exactas por mazo y la consistencia cromática del manabase.
+Este Trabajo de Fin de Grado desarrolla una metaheurística capaz de generar mazos competitivos para el formato Estándar de Magic: The Gathering. El juego presenta un metajuego dinámico, con cartas que rotan cada pocos meses y arquetipos dominantes que cambian con frecuencia. El sistema construye mazos que pueden enfrentarse a esos arquetipos manteniendo coherencia interna y respetando las reglas del formato. El espacio de búsqueda incluye alrededor de cuatro mil cartas con restricciones duras como el máximo de cuatro copias por carta, las 60 cartas exactas por mazo y la consistencia cromática del manabase.
 
 La solución implementada es un algoritmo genético con dos características que lo distinguen de un enfoque clásico. Primera: los operadores de mutación y cruce trabajan a nivel de \emph{pack} de cuatro copias, replicando cómo construye un jugador humano. Decidir si una carta entra al mazo equivale a decidir si entran cuatro copias, no una. Segunda: el fitness combina el rendimiento real en partidas simuladas con el motor Forge (al 70\%) y una métrica de calidad estructural sensible al arquetipo detectado (al 30\%). La población evoluciona durante decenas de generaciones bajo presión selectiva tipo Swiss Tournament, con elitismo soportado por un Hall of Fame con cuotas por arquetipo.
 
@@ -18,10 +18,16 @@ El trabajo también identifica límites del enfoque actual. Cada ejecución del 
 
 \chapter*{Resum}
 \selectlanguage{catalan}
-% TODO: traducir el resumen al valenciano.
 
-\textbf{Paraules clau:}
-% TODO: palabras clave en valenciano.
+Este Treball de Fi de Grau desenrotlla una metaheurística capaç de generar baralles competitives per al format Estàndard de Magic: The Gathering. El joc presenta un metajoc dinàmic, amb cartes que giren cada pocs mesos i arquetips dominants que canvien amb freqüència. El sistema construïx baralles que poden enfrontar-se a eixos arquetips mantenint coherència interna i respectant les regles del format. L'espai de busca inclou al voltant de quatre mil cartes amb restriccions dures com el màxim de quatre còpies per carta, les 60 cartes exactes per baralla i la consistència cromàtica del manabase.
+
+La solució implementada és un algorisme genètic amb dos característiques que el distingixen d'un enfocament clàssic. Primera: els operadors de mutació i encreuament treballen a nivell de \emph{pack} de quatre còpies, replicant com construïx un jugador humà. Decidir si una carta entra a la baralla equival a decidir si entren quatre còpies, no una. Segona: el fitness combina el rendiment real en partides simulades amb el motor Forge (al 70\%) i una mètrica de qualitat estructural sensible a l'arquetip detectat (al 30\%). La població evoluciona durant desenes de generacions sota pressió selectiva tipus Swiss Tournament, amb elitisme suportat per un Hall of Fame amb quotes per arquetip.
+
+Els resultats confirmen la viabilitat de l'enfocament. En la comparativa enfront del baseline sense operadors a nivell de pack, la nova aproximació reduïx els \emph{singletons} solts de 3,55 a 0,05 per baralla (una baixada del 95\%) i consolida 7,88 sèries de quatre còpies per baralla. El run final, de 43 generacions sobre una població de 40 baralles, aconseguix un pic de fitness de 0,9755 en la generació 39, la qual cosa situa la millor baralla al 93\% del recorregut evolutiu. Eixa progressió escalonada descarta la convergència prematura típica dels algorismes genètics mal calibrats. L'Hall of Fame final reunix baralles amb cartes reconegudes del meta competitiu actual de Standard, com Scalestorm Summoner, Leyline Axe o el paquet de cremat Boros.
+
+El treball també identifica límits de l'enfocament actual. Cada execució de l'algorisme convergix a un únic parell cromàtic, per la qual cosa recórrer l'ecosistema arquetípic al complet exigiria diverses execucions amb llavors distintes. Una segona exploració, basada a avaluar la població contra baralles tier-1 del meta real, es va descartar després de detectar un biaix mesurable del simulador enfront d'arquetips de joc complex. La memòria documenta les dos troballes i proposa línies concretes de continuació.
+
+\textbf{Paraules clau:} algorisme genètic, Magic: The Gathering, generació de baralles, metaheurística, simulació.
 
 \selectlanguage{english}
 \chapter*{Abstract}
