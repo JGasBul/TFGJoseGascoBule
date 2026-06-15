@@ -29,7 +29,7 @@ El diagnóstico identificó cuatro problemas. El coste de la evaluación crecía
 
 \subsection{Tres cambios de diseño}
 
-El primer cambio atacó el coste. La sustitución del round-robin completo por el Swiss Tournament, descrita en la sección~\ref{sec:torneo}, rompió la dependencia cuadrática con el tamaño de la población. El efecto fue doble. Permitió duplicar la población de 20 a 40 mazos, lo que enriquece la exploración, y aun así redujo el número de combates por generación: donde el round-robin habría exigido más de 2.300 enfrentamientos para 40 mazos, el Swiss exige 160. El cambio no fue solo de eficiencia. El Swiss es el sistema real de los torneos de Magic, así que también acercó la evaluación a las condiciones que el trabajo pretende reproducir.
+El primer cambio atacó el coste. La sustitución del round-robin completo por el Swiss Tournament, descrita en la sección~\ref{sec:torneo}, rompió la dependencia cuadrática con el tamaño de la población. El efecto fue doble. Permitió duplicar la población de 20 a 40 mazos, lo que enriquece la exploración, y aun así redujo el número de enfrentamientos por generación: donde el round-robin habría exigido 780 para 40 mazos, el Swiss exige 160. El cambio no fue solo de eficiencia. El Swiss es el sistema real de los torneos de Magic, así que también acercó la evaluación a las condiciones que el trabajo pretende reproducir.
 
 El segundo cambio atacó la irrealidad de los mazos. Los operadores genéticos se reescribieron para trabajar en packs de cuatro copias en lugar de copias sueltas, según el principio de que incluir una carta en un mazo de constructed significa incluir cuatro. Este es el cambio que convierte los mazos de ensamblajes de cartas únicas en construcciones reconocibles, y su validación es el objeto del experimento de la sección~\ref{sec:experimento-ab}. Su efecto medido es una reducción del 95\,\% en los \emph{singletons} sueltos.
 
@@ -255,7 +255,7 @@ El efecto práctico es que el fitness vuelve a tener gradiente en toda la distri
 \section{Experimento: run con calidad refinada}
 \label{sec:run-final}
 
-Con los operadores pack-aware consolidados y la métrica de calidad rediseñada, se ejecutó el run más extenso del trabajo, del que se extraen las conclusiones principales sobre el comportamiento del sistema. El run partió de una población inicial de alta calidad, producto de un run preparatorio de 31 generaciones, y evolucionó durante 43 generaciones adicionales.
+Con los operadores pack-aware consolidados y la métrica de calidad rediseñada, se ejecutó el run más extenso del trabajo, del que se extraen las conclusiones principales sobre el comportamiento del sistema. El run evolucionó una población de 40 mazos durante 43 generaciones, de la 0 a la 42.
 
 \subsection{Configuración del run}
 
@@ -396,7 +396,7 @@ donde $\gamma(t)$ crece linealmente de 0,05 en la generación 0 a 0,30 en la úl
 
 Las ejecuciones de validación del gauntlet (experimentos \texttt{exp04\_test\_gauntlet} y \texttt{exp05\_gauntlet\_tier1}) revelaron un problema que invalida la comparativa externa: el motor Forge aplica la IA del jugador automático con un sesgo sistemático contra arquetipos de juego complejo.
 
-El problema es concreto. Izzet Prowess requiere activar el disparador de \emph{prowess} en el momento exacto del turno del oponente, encadenar hechizos instantáneos en orden preciso y decidir cuándo reservar mana para respuestas. Azorius Omniscience exige secuenciar correctamente la cadena Roiling Dragonstorm / Omniscience y gestionar el mana libre resultante. Forge ejecuta ambas estrategias de forma subóptima: no reconoce las ventanas de juego instantáneo, simplifica las decisiones de encadenamiento y activa triggers en el orden incorrecto.
+El problema es concreto. Izzet Prowess requiere activar el disparador de \emph{prowess} en el momento exacto del turno del oponente, encadenar hechizos instantáneos en orden preciso y decidir cuándo reservar maná para respuestas. Azorius Omniscience exige secuenciar correctamente la cadena Roiling Dragonstorm / Omniscience y gestionar el maná libre resultante. Forge ejecuta ambas estrategias de forma subóptima: no reconoce las ventanas de juego instantáneo, simplifica las decisiones de encadenamiento y activa triggers en el orden incorrecto.
 
 El efecto sobre el gauntlet es directo. Un mazo evolucionado que enfrente a Izzet Prowess o a Azorius Omniscience no gana porque sea mejor; gana porque su oponente juega por debajo de su potencial real. El win-rate registrado para esos matchups carece de valor discriminativo: cualquier mazo con mínima coherencia superaría esos anchors bajo el Forge AI, independientemente de su calidad real contra versiones jugadas por humanos.
 
