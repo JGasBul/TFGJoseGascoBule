@@ -66,6 +66,10 @@
 \renewcommand{\cftchapaftersnum}{.\ }
 \settowidth{\cftchapnumwidth}{Capítulo 10.\ }
 
+% Marcador temporal de referencias pendientes (huecos a rellenar uno a uno).
+% Quitar la definición o vaciarla cuando esté todo citado.
+\newcommand{\faltaref}[1]{\textcolor{red}{\textbf{[falta ref: #1]}}}
+
 % =============================================================
 \begin{document}
 \selectlanguage{spanish}
