@@ -19,23 +19,26 @@ Este capítulo documenta cómo el sistema descrito en la metodología llegó a s
 
 El sistema descrito en el capítulo anterior no es el que se construyó al principio. Es el resultado de varias iteraciones, cada una motivada por un problema concreto que el run anterior dejó al descubierto. Merece la pena recorrer ese camino, porque las decisiones de diseño que definen el sistema actual solo se entienden a la luz de lo que vino antes y de por qué no funcionaba.
 
-\subsection{El punto de partida: un prototipo costoso y de mazos irreales}
-
 El primer experimento completo del proyecto evolucionó una población de 20 mazos durante 51 generaciones. La evaluación era round-robin completo: cada mazo jugaba contra los otros 19, lo que sumaba 190 enfrentamientos por generación y un total cercano a los 9.700 combates. El run tardó 88 horas, casi cuatro días, en completarse. El fitness combinaba la tasa de victorias y una métrica de calidad con pesos 0,6 y 0,4.
 
 Los resultados confirmaron que el enfoque funcionaba como algoritmo genético (el fitness mejoraba, la élite se preservaba, la población convergía) pero también que los mazos producidos no eran competitivos. El pico de fitness se quedó en 0,791. El mejor mazo del Hall of Fame tenía 39 cartas distintas de 60, es decir, una construcción casi enteramente de copias únicas. Una valoración cualitativa lo situaba en torno a un 3,5 sobre 10 frente a mazos de torneo. Era, en la expresión que recogió el análisis de la época, el mejor de un mal lote.
 
-El diagnóstico identificó cuatro problemas. El coste de la evaluación crecía con el cuadrado de la población, lo que hacía inviable aumentar el tamaño. La construcción en copias únicas producía mazos inconsistentes que ningún jugador llevaría a competición. La función de fitness era demasiado simple. Y la población convergía de forma prematura hacia un único par de colores. Los tres últimos puntos comparten una raíz: el algoritmo estaba explorando un espacio de mazos que no se parece al espacio de los mazos competitivos reales.
+El diagnóstico identificó cuatro problemas:
 
-\subsection{Tres cambios de diseño}
+\begin{itemize}
+    \item El coste de la evaluación crecía con el cuadrado de la población, lo que hacía inviable aumentar el tamaño.
+    \item La construcción en copias únicas producía mazos inconsistentes que ningún jugador llevaría a competición.
+    \item La función de fitness era demasiado simple.
+    \item La población convergía de forma prematura hacia un único par de colores.
+\end{itemize}
+
+Los tres últimos problemas comparten una raíz: el algoritmo estaba explorando un espacio de mazos que no se parece al de los mazos competitivos reales. Sobre este diagnóstico se articularon tres cambios de diseño.
 
 El primer cambio atacó el coste. La sustitución del round-robin completo por el Swiss Tournament, descrita en la sección~\ref{sec:torneo}, rompió la dependencia cuadrática con el tamaño de la población. El efecto fue doble. Permitió duplicar la población de 20 a 40 mazos, lo que enriquece la exploración, y aun así redujo el número de enfrentamientos por generación: donde el round-robin habría exigido 780 para 40 mazos, el Swiss exige 160. El cambio no fue solo de eficiencia. El Swiss es el sistema real de los torneos de Magic, así que también acercó la evaluación a las condiciones que el trabajo pretende reproducir.
 
 El segundo cambio atacó la irrealidad de los mazos. Los operadores genéticos se reescribieron para trabajar en packs de cuatro copias en lugar de copias sueltas, según el principio de que incluir una carta en un mazo de constructed significa incluir cuatro. Este es el cambio que convierte los mazos de ensamblajes de cartas únicas en construcciones reconocibles, y su validación es el objeto del experimento de la sección~\ref{sec:experimento-ab}. Su efecto medido es una reducción del 95\,\% en los \emph{singletons} sueltos.
 
 El tercer cambio atacó la función de fitness. El peso del rendimiento en el torneo subió de 0,6 a 0,7, y la métrica de calidad se rediseñó tras detectar que la mejora estructural de los mazos había dejado saturados a varios de sus componentes. Ese refinamiento se detalla en la sección~\ref{sec:refinamiento}.
-
-\subsection{El resultado}
 
 La diferencia entre el punto de partida y el estado actual es medible en cada dimensión que importaba. El pico de fitness pasó de 0,791 a 0,9755. Los mazos dejaron de ser colecciones de copias únicas para convertirse en construcciones con packs consolidados, manabases coherentes y planes de juego identificables. La población dobló su tamaño sin que el coste por generación se disparara. Y los mazos del Hall of Fame final contienen cartas reconocibles del meta competitivo de Standard.
 
@@ -268,8 +271,6 @@ El efecto práctico es que el fitness vuelve a tener gradiente en toda la distri
 
 Con los operadores pack-aware consolidados y la métrica de calidad rediseñada, se ejecutó el run más extenso del trabajo, del que se extraen las conclusiones principales sobre el comportamiento del sistema. El run evolucionó una población de 40 mazos durante 43 generaciones, de la 0 a la 42.
 
-\subsection{Configuración del run}
-
 La tabla~\ref{tab:config-final} resume los parámetros con los que se ejecutó el run final.
 
 \begin{table}[H]
@@ -292,8 +293,6 @@ Pool de cartas & 4.130 IDs \\
 \end{tabular}
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
-
-\subsection{Trayectoria de fitness}
 
 La tabla~\ref{tab:fitness-final} recoge los estadísticos de fitness en generaciones representativas del run final.
 
