@@ -1,0 +1,36 @@
+% =============================================================
+% Capítulo 5. Implementación
+% =============================================================
+% Realización en código de la propuesta: tecnologías, estructura del
+% proyecto, integración con Forge, paralelización y control de versiones.
+% =============================================================
+
+\chapter{Implementación}
+\label{cap:implementacion}
+
+Este capítulo describe cómo se ha realizado en código la propuesta del capítulo anterior: las tecnologías empleadas, la estructura del proyecto y los aspectos técnicos que hacen viable la evaluación por simulación.
+
+\section{Tecnologías y estructura del proyecto}
+
+El sistema se ha implementado principalmente en Python, que concentra el algoritmo genético y la lógica de orquestación, e integra el simulador Forge, escrito en Java, como motor externo de evaluación. El catálogo de cartas se obtiene de la API pública de Scryfall.
+
+El código se organiza en cuatro módulos, cada uno responsable de una etapa del flujo descrito en la sección~\ref{sec:pipeline}:
+
+\begin{itemize}
+    \item \texttt{obtener\_cartas\_mtg.py} descarga las cartas de Scryfall, restringidas a las expansiones del formato Standard, y genera dos archivos: un catálogo (\texttt{card\_catalog.json}), que asigna a cada carta un identificador entero y almacena sus atributos, y unos índices (\texttt{card\_indices.json}), que agrupan las cartas por tipo y color para acelerar las búsquedas.
+    \item \texttt{generador\_mazos\_mtg.py} produce la población inicial de mazos con las restricciones del formato.
+    \item \texttt{algoritmo\_genetico\_mtg.py} concentra el núcleo del sistema. La clase \texttt{MTGGeneticAlgorithm} encapsula el ciclo evolutivo completo: inicialización, evaluación, selección, cruce, mutación, elitismo y persistencia.
+    \item \texttt{mtg\_main.py} actúa como orquestador: conecta las tres etapas y analiza el hardware disponible antes de cada ejecución.
+\end{itemize}
+
+El proyecto se mantiene bajo control de versiones con Git, en un repositorio accesible en línea \faltaref{URL del repositorio de Git del proyecto}.
+
+\section{Evaluación paralela e integración con Forge}
+
+La medida del fitness exige lanzar Forge como proceso externo. Cada enfrentamiento invoca el modo de simulación del motor (\texttt{forge sim}), que disputa tres partidas entre dos mazos con jugador inicial aleatorio; el sistema interpreta la salida del simulador, cuenta las victorias y determina el ganador.
+
+El coste de simular partidas reales obliga a paralelizar la evaluación. Los enfrentamientos de una misma generación se reparten entre varios procesos mediante un \texttt{ProcessPoolExecutor}, cuyo número de trabajadores fija la clase \texttt{HardwareAnalyzer} en función de los núcleos de CPU, la memoria y la velocidad de disco de la máquina. De este modo, el mismo código se ejecuta en un ordenador portátil o en un servidor de muchos núcleos sin reconfiguración manual. Un límite de tiempo adaptativo evita que una partida bloqueada detenga la ejecución: si se acumulan interrupciones por tiempo, el límite se eleva de forma automática. En las ejecuciones reales, la tasa de partidas fallidas se mantuvo por debajo del 0,1\,\%, lo que confirma la estabilidad de la integración a lo largo de decenas de horas de cómputo.
+
+\section{Persistencia y reproducibilidad}
+
+Al término de cada generación, el sistema guarda un punto de control con el estado de la población, el Hall of Fame y las estadísticas de la ejecución. Esta persistencia cumple dos funciones: permite reanudar un run interrumpido sin repetir el cómputo ya realizado y, sobre todo, hace posible reconstruir a posteriori la trayectoria de cada experimento, lo que sustenta el análisis del capítulo siguiente. Para disputar cada partida, el fenotipo de un mazo se traduce al archivo de mazo (\texttt{.dck}) que Forge lee, de modo que cada individuo evaluado queda también almacenado en un formato reutilizable.
