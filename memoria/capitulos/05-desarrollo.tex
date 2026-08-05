@@ -42,7 +42,7 @@ El tercer cambio atacó la función de fitness. El peso del rendimiento en el to
 
 La diferencia entre el punto de partida y el estado actual es medible en cada dimensión que importaba. El pico de fitness pasó de 0,791 a 0,9755. Los mazos dejaron de ser colecciones de copias únicas para convertirse en construcciones con packs consolidados, manabases coherentes y planes de juego identificables. La población dobló su tamaño sin que el coste por generación se disparara. Y los mazos del Hall of Fame final contienen cartas reconocibles del meta competitivo de Standard.
 
-El resto del capítulo documenta esa transición con los experimentos que la sostienen. La sección~\ref{sec:experimento-ab} valida el paso a operadores pack-aware con una comparativa controlada. La sección~\ref{sec:refinamiento} detalla el rediseño de la métrica de calidad. La sección~\ref{sec:run-final} analiza el run más extenso con el sistema ya maduro. La sección~\ref{sec:gauntlet} examina una vía que se exploró y se descartó.
+El resto del capítulo documenta esa transición con los experimentos que la sostienen. La sección~\ref{sec:experimento-ab} valida el paso a operadores pack-aware con una comparativa controlada. La sección~\ref{sec:refinamiento} detalla el rediseño de la métrica de calidad. La sección~\ref{sec:gauntlet} examina una vía que se exploró y se descartó. La sección~\ref{sec:run-final} analiza el run más extenso con el sistema ya maduro, con el que culmina el capítulo.
 
 \section{Experimento: baseline vs pack-aware}
 \label{sec:experimento-ab}
@@ -266,10 +266,66 @@ El CoV proyectado tras el refinamiento es de aproximadamente 22-25\,\%, frente a
 
 El efecto práctico es que el fitness vuelve a tener gradiente en toda la distribución de la población. Dos mazos que empaten en win\_rate se diferenciarán por la sinergia interna, el balance de roles o el ajuste al arquetipo. Con el gauntlet desactivado y la calidad refinada activa, el run que se analiza en la sección~\ref{sec:run-final} arranca sin los problemas de saturación que afectaron a los primeros experimentos.
 
+\section{Exploración descartada: gauntlet tier-1}
+\label{sec:gauntlet}
+
+El experimento de comparativa A/B (sección~\ref{sec:experimento-ab}) dejó un problema abierto: la monocultura cromática. Al final del run pack-aware, 37 de 40 mazos convergían a B/W. Los arquetipos no dominantes sobrevivían únicamente por la cuota del Hall of Fame, no por presión selectiva real. El diagnóstico es estructural: cuando la evaluación es puramente intra-poblacional, el arquetipo que más rinde contra lo que la propia población produce se autorefuerza hasta desplazar a los demás.
+
+La solución diseñada fue introducir un gauntlet de mazos tier-1 del meta real como componente externo del fitness. Un mazo evolucionado tendría que rendir no solo contra sus compañeros de población, sino contra cinco referencias fijas del metajuego competitivo. Esa presión heterogénea, externa y estable, rompería la retroalimentación que produce la monocultura.
+
+\subsection{Diseño del gauntlet y elección de anchors}
+
+El gauntlet consta de cinco mazos tier-1 del Standard de la era Final Fantasy (junio-julio 2025), elegidos de fuentes públicas (Pro Tour Final Fantasy y MTGGoldfish) para cubrir los grandes arquetipos del meta, según recoge la tabla~\ref{tab:gauntlet-anchors}.
+
+\begin{table}[H]
+\centering
+\caption{Mazos anchor del gauntlet tier-1, extraídos del meta Standard de junio-julio 2025.}
+\label{tab:gauntlet-anchors}
+\begin{tabular}{llll}
+\toprule
+\textbf{Anchor} & \textbf{Arquetipo} & \textbf{Colores} & \textbf{Fuente} \\
+\midrule
+Izzet Prowess (Baker)   & aggro/combo & U/R & PT Final Fantasy Top 1 \\
+Mono-Red Aggro (Fang)   & aggro       & R   & PT Final Fantasy Top 4 \\
+Azorius Omniscience     & combo       & U/W & Meta Standard (jul 2025) \\
+Dimir Midrange          & midrange    & U/B & Meta Standard (jul 2025) \\
+Boros Equipment         & midrange    & R/W & MTGGoldfish (jun 2025) \\
+\bottomrule
+\end{tabular}
+\\[2pt]{\footnotesize Fuente: elaboración propia a partir del Pro Tour Final Fantasy y MTGGoldfish.}
+\end{table}
+
+Los cinco anchors son distintos entre sí en colores y estrategia, lo que garantiza que ningún par cromático de la población lo gana todo de entrada. La diversidad del gauntlet es el mecanismo que fuerza diversidad en la población: un mazo aggro R obtendrá buen win-rate contra Azorius pero malo contra Mono-Red; un control U/W hará lo opuesto. El gauntlet presiona en cinco direcciones a la vez.
+
+La fórmula de fitness con gauntlet activo es aditiva:
+$$\text{fitness} = \alpha \cdot \text{tasa\_victorias} + \beta \cdot \text{calidad} + \gamma(t) \cdot \text{gauntlet}$$
+
+donde $\gamma(t)$ crece linealmente de 0,05 en la generación 0 a 0,30 en la última. Esta currícula clásica en algoritmos evolutivos permite que el bloque interno (Swiss + calidad) guíe la exploración inicial, mientras el gauntlet adquiere peso progresivo conforme la población produce candidatos competentes que merece la pena evaluar externamente.
+
+\subsection{Sesgo medible del simulador ante arquetipos de juego complejo}
+
+Dos ejecuciones de validación del gauntlet revelaron un problema que invalida la comparativa externa: el motor Forge aplica la IA del jugador automático con un sesgo sistemático contra arquetipos de juego complejo.
+
+El problema es concreto. Izzet Prowess requiere activar el disparador de \emph{prowess} en el momento exacto del turno del oponente, encadenar hechizos instantáneos en orden preciso y decidir cuándo reservar maná para respuestas. Azorius Omniscience exige secuenciar correctamente la cadena Roiling Dragonstorm / Omniscience y gestionar el maná libre resultante. Forge ejecuta ambas estrategias de forma subóptima: no reconoce las ventanas de juego instantáneo, simplifica las decisiones de encadenamiento y activa triggers en el orden incorrecto.
+
+El efecto sobre el gauntlet es directo. Un mazo evolucionado que enfrente a Izzet Prowess o a Azorius Omniscience no gana porque sea mejor; gana porque su oponente juega por debajo de su potencial real. El win-rate registrado para esos matchups carece de valor discriminativo: cualquier mazo con mínima coherencia superaría esos anchors bajo el Forge AI, independientemente de su calidad real contra versiones jugadas por humanos.
+
+Mono-Red Aggro no tiene este problema: su estrategia es lineal (jugar criaturas baratas, atacar, lanzar daño directo) y Forge la ejecuta razonablemente. Boros Equipment y Dimir Midrange tampoco implican decisiones de alta complejidad en las que el simulador falle de forma sistemática.
+
+El resultado es un gauntlet con tres anchors fiables y dos con sesgo no cuantificable. Bajo esa asimetría, el componente $\gamma \cdot \text{gauntlet}$ introduce ruido en la función de fitness: penaliza correctamente los matchups fiables pero premia artificialmente la derrota de los anchors complejos. El gradiente resultante no mide competitividad real; mide en parte explotación del fallo de la IA.
+
+\subsection{Decisión de descarte}
+
+El gauntlet se descartó como componente del fitness antes de ejecutar el run definitivo. La decisión no es de viabilidad técnica: la implementación funciona y los anchors son reproducibles. Es de validez metodológica: incluir un componente de fitness con sesgo conocido y no cuantificable comprometería la interpretabilidad de todos los resultados del TFG.
+
+El problema de la monocultura cromática se abordó de otra forma: el run definitivo, que se analiza en la sección siguiente, se ejecutó sin gauntlet, aceptando que cada ejecución converge a un par cromático y documentando ese comportamiento como un límite del sistema. El ecosistema completo de arquetipos requeriría varias ejecuciones con puntos de partida distintos, lo que se propone como línea de trabajo futuro.
+
+El gauntlet tier-1 queda como exploración válida pero inconclusa. Para activarlo de forma fiable haría falta un motor de simulación con IA más sofisticada, capaz de ejecutar estrategias de juego complejo a nivel competitivo humano. Ese es el bloqueo técnico que la arquitectura actual de Forge no resuelve.
+
 \section{Experimento: run con calidad refinada}
 \label{sec:run-final}
 
-Con los operadores pack-aware consolidados y la métrica de calidad rediseñada, se ejecutó el run más extenso del trabajo, del que se extraen las conclusiones principales sobre el comportamiento del sistema. El run evolucionó una población de 40 mazos durante 43 generaciones, de la 0 a la 42.
+Con los operadores pack-aware consolidados, la métrica de calidad rediseñada y descartada la vía del gauntlet, el trabajo culminó con el run más extenso, del que se extraen las conclusiones principales sobre el comportamiento del sistema. Este run evolucionó una población de 40 mazos durante 43 generaciones, de la 0 a la 42.
 
 La tabla~\ref{tab:config-final} resume los parámetros con los que se ejecutó el run final.
 
@@ -376,58 +432,3 @@ Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado d
 
 La calidad del mazo campeón admite una lectura desde tres perspectivas complementarias. En el plano cuantitativo, alcanza el fitness más alto del run, 0,9755, que integra tanto su tasa de victorias en el torneo como su calidad estructural. En el plano de la composición, converge al par cromático Boros (R/W), que coincide con el de arquetipos competitivos vigentes del formato, como los mazos de tipo Boros Equipment, y reúne cartas presentes en el metajuego actual de Standard. Desde una valoración cualitativa del autor, con experiencia en el formato, el mazo exhibe un plan de quemado coherente, una base de tierras funcional y una curva concentrada en costes bajos y medios; un jugador reconocería la construcción como apta para competición sin necesidad de cambios estructurales. Una validación externa más exigente, que enfrentara el mazo a referencias del metajuego real, queda condicionada por el sesgo del simulador ante los arquetipos de mayor complejidad táctica, y se plantea como línea de trabajo futuro.
 
-\section{Exploración descartada: gauntlet tier-1}
-\label{sec:gauntlet}
-
-El experimento de comparativa A/B (sección~\ref{sec:experimento-ab}) dejó un problema abierto: la monocultura cromática. Al final del run pack-aware, 37 de 40 mazos convergían a B/W. Los arquetipos no dominantes sobrevivían únicamente por la cuota del Hall of Fame, no por presión selectiva real. El diagnóstico es estructural: cuando la evaluación es puramente intra-poblacional, el arquetipo que más rinde contra lo que la propia población produce se autorefuerza hasta desplazar a los demás.
-
-La solución diseñada fue introducir un gauntlet de mazos tier-1 del meta real como componente externo del fitness. Un mazo evolucionado tendría que rendir no solo contra sus compañeros de población, sino contra cinco referencias fijas del metajuego competitivo. Esa presión heterogénea, externa y estable, rompería la retroalimentación que produce la monocultura.
-
-\subsection{Diseño del gauntlet y elección de anchors}
-
-El gauntlet consta de cinco mazos tier-1 del Standard de la era Final Fantasy (junio-julio 2025), elegidos de fuentes públicas (Pro Tour Final Fantasy y MTGGoldfish) para cubrir los grandes arquetipos del meta, según recoge la tabla~\ref{tab:gauntlet-anchors}.
-
-\begin{table}[H]
-\centering
-\caption{Mazos anchor del gauntlet tier-1, extraídos del meta Standard de junio-julio 2025.}
-\label{tab:gauntlet-anchors}
-\begin{tabular}{llll}
-\toprule
-\textbf{Anchor} & \textbf{Arquetipo} & \textbf{Colores} & \textbf{Fuente} \\
-\midrule
-Izzet Prowess (Baker)   & aggro/combo & U/R & PT Final Fantasy Top 1 \\
-Mono-Red Aggro (Fang)   & aggro       & R   & PT Final Fantasy Top 4 \\
-Azorius Omniscience     & combo       & U/W & Meta Standard (jul 2025) \\
-Dimir Midrange          & midrange    & U/B & Meta Standard (jul 2025) \\
-Boros Equipment         & midrange    & R/W & MTGGoldfish (jun 2025) \\
-\bottomrule
-\end{tabular}
-\\[2pt]{\footnotesize Fuente: elaboración propia a partir del Pro Tour Final Fantasy y MTGGoldfish.}
-\end{table}
-
-Los cinco anchors son distintos entre sí en colores y estrategia, lo que garantiza que ningún par cromático de la población lo gana todo de entrada. La diversidad del gauntlet es el mecanismo que fuerza diversidad en la población: un mazo aggro R obtendrá buen win-rate contra Azorius pero malo contra Mono-Red; un control U/W hará lo opuesto. El gauntlet presiona en cinco direcciones a la vez.
-
-La fórmula de fitness con gauntlet activo es aditiva:
-$$\text{fitness} = \alpha \cdot \text{tasa\_victorias} + \beta \cdot \text{calidad} + \gamma(t) \cdot \text{gauntlet}$$
-
-donde $\gamma(t)$ crece linealmente de 0,05 en la generación 0 a 0,30 en la última. Esta currícula clásica en algoritmos evolutivos permite que el bloque interno (Swiss + calidad) guíe la exploración inicial, mientras el gauntlet adquiere peso progresivo conforme la población produce candidatos competentes que merece la pena evaluar externamente.
-
-\subsection{Sesgo medible del simulador ante arquetipos de juego complejo}
-
-Dos ejecuciones de validación del gauntlet revelaron un problema que invalida la comparativa externa: el motor Forge aplica la IA del jugador automático con un sesgo sistemático contra arquetipos de juego complejo.
-
-El problema es concreto. Izzet Prowess requiere activar el disparador de \emph{prowess} en el momento exacto del turno del oponente, encadenar hechizos instantáneos en orden preciso y decidir cuándo reservar maná para respuestas. Azorius Omniscience exige secuenciar correctamente la cadena Roiling Dragonstorm / Omniscience y gestionar el maná libre resultante. Forge ejecuta ambas estrategias de forma subóptima: no reconoce las ventanas de juego instantáneo, simplifica las decisiones de encadenamiento y activa triggers en el orden incorrecto.
-
-El efecto sobre el gauntlet es directo. Un mazo evolucionado que enfrente a Izzet Prowess o a Azorius Omniscience no gana porque sea mejor; gana porque su oponente juega por debajo de su potencial real. El win-rate registrado para esos matchups carece de valor discriminativo: cualquier mazo con mínima coherencia superaría esos anchors bajo el Forge AI, independientemente de su calidad real contra versiones jugadas por humanos.
-
-Mono-Red Aggro no tiene este problema: su estrategia es lineal (jugar criaturas baratas, atacar, lanzar daño directo) y Forge la ejecuta razonablemente. Boros Equipment y Dimir Midrange tampoco implican decisiones de alta complejidad en las que el simulador falle de forma sistemática.
-
-El resultado es un gauntlet con tres anchors fiables y dos con sesgo no cuantificable. Bajo esa asimetría, el componente $\gamma \cdot \text{gauntlet}$ introduce ruido en la función de fitness: penaliza correctamente los matchups fiables pero premia artificialmente la derrota de los anchors complejos. El gradiente resultante no mide competitividad real; mide en parte explotación del fallo de la IA.
-
-\subsection{Decisión de descarte}
-
-El gauntlet se descartó como componente del fitness antes de ejecutar el run definitivo. La decisión no es de viabilidad técnica: la implementación funciona y los anchors son reproducibles. Es de validez metodológica: incluir un componente de fitness con sesgo conocido y no cuantificable comprometería la interpretabilidad de todos los resultados del TFG.
-
-El problema de la monocultura cromática se abordó de otra forma: el run de la sección~\ref{sec:run-final} se ejecutó sin gauntlet, aceptando que cada ejecución converge a un par cromático y documentando ese comportamiento como un límite del sistema. El ecosistema completo de arquetipos requeriría varias ejecuciones con puntos de partida distintos, lo que se propone como línea de trabajo futuro.
-
-El gauntlet tier-1 queda como exploración válida pero inconclusa. Para activarlo de forma fiable haría falta un motor de simulación con IA más sofisticada, capaz de ejecutar estrategias de juego complejo a nivel competitivo humano. Ese es el bloqueo técnico que la arquitectura actual de Forge no resuelve.
