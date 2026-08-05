@@ -50,7 +50,7 @@ El run de referencia, denominado en adelante \emph{baseline}, usa los operadores
 
 \subsection{Configuración del experimento}
 
-El cuadro~\ref{tab:config-ab} recoge la configuración nominal que comparten los dos runs, idéntica salvo en la lógica de variación.
+La tabla~\ref{tab:config-ab} recoge la configuración nominal que comparten los dos runs, idéntica salvo en la lógica de variación.
 
 \begin{table}[H]
 \centering
@@ -76,7 +76,7 @@ El baseline se reanudó una vez: los datos de estadísticas de las generaciones 
 
 \subsection{Integridad estructural de los mazos}
 
-Antes de comparar el fitness conviene examinar la forma de los mazos que produce cada variante. El cuadro~\ref{tab:estructura-ab} reúne las métricas estructurales de la población final en ambos runs. Los dos cumplen las restricciones formales del formato: los 40 mazos de la población final tienen exactamente 60 cartas y ninguno viola la norma de un máximo de cuatro copias por carta. Hasta ahí la equivalencia. A partir de ahí, la diferencia es pronunciada.
+Antes de comparar el fitness conviene examinar la forma de los mazos que produce cada variante. La tabla~\ref{tab:estructura-ab} reúne las métricas estructurales de la población final en ambos runs. Los dos cumplen las restricciones formales del formato: los 40 mazos de la población final tienen exactamente 60 cartas y ninguno viola la norma de un máximo de cuatro copias por carta. Hasta ahí la equivalencia. A partir de ahí, la diferencia es pronunciada.
 
 \begin{table}[H]
 \centering
@@ -112,7 +112,7 @@ El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 
 
 \subsection{Evolución del fitness}
 
-El cuadro~\ref{tab:fitness-ab} compara los estadísticos de fitness de ambos runs en la ventana de generaciones disponible para los dos.
+La tabla~\ref{tab:fitness-ab} compara los estadísticos de fitness de ambos runs en la ventana de generaciones disponible para los dos.
 
 \begin{table}[H]
 \centering
@@ -195,7 +195,7 @@ Cuando el experimento anterior confirmó que los operadores pack-aware funcionab
 
 \subsection{Diagnóstico: saturación de componentes}
 
-La métrica de calidad combinaba seis componentes con pesos distintos. Antes del pack-aware, esas componentes medían propiedades que podían variar ampliamente de un mazo a otro. Después del pack-aware, tres de ellas convergieron a un valor constante para prácticamente toda la población, como evidencia el cuadro~\ref{tab:cov-quality}.
+La métrica de calidad combinaba seis componentes con pesos distintos. Antes del pack-aware, esas componentes medían propiedades que podían variar ampliamente de un mazo a otro. Después del pack-aware, tres de ellas convergieron a un valor constante para prácticamente toda la población, como evidencia la tabla~\ref{tab:cov-quality}.
 
 \begin{table}[H]
 \centering
@@ -225,7 +225,7 @@ El 45\,\% del peso de la métrica de calidad era, en la práctica, una constante
 
 \subsection{Rediseño de la métrica}
 
-La solución es directa. Se eliminan las tres componentes saturadas del cálculo de la calidad y se reponderan las tres que sí discriminan, según muestra el cuadro~\ref{tab:quality-pesos}.
+La solución es directa. Se eliminan las tres componentes saturadas del cálculo de la calidad y se reponderan las tres que sí discriminan, según muestra la tabla~\ref{tab:quality-pesos}.
 
 \begin{table}[H]
 \centering
@@ -270,7 +270,7 @@ Con los operadores pack-aware consolidados y la métrica de calidad rediseñada,
 
 \subsection{Configuración del run}
 
-El cuadro~\ref{tab:config-final} resume los parámetros con los que se ejecutó el run final.
+La tabla~\ref{tab:config-final} resume los parámetros con los que se ejecutó el run final.
 
 \begin{table}[H]
 \centering
@@ -295,7 +295,7 @@ Pool de cartas & 4.130 IDs \\
 
 \subsection{Trayectoria de fitness}
 
-El cuadro~\ref{tab:fitness-final} recoge los estadísticos de fitness en generaciones representativas del run final.
+La tabla~\ref{tab:fitness-final} recoge los estadísticos de fitness en generaciones representativas del run final.
 
 \begin{table}[H]
 \centering
@@ -386,7 +386,7 @@ La solución diseñada fue introducir un gauntlet de mazos tier-1 del meta real 
 
 \subsection{Diseño del gauntlet y elección de anchors}
 
-El gauntlet consta de cinco mazos tier-1 del Standard de la era Final Fantasy (junio-julio 2025), elegidos de fuentes públicas (Pro Tour Final Fantasy y MTGGoldfish) para cubrir los grandes arquetipos del meta, según recoge el cuadro~\ref{tab:gauntlet-anchors}.
+El gauntlet consta de cinco mazos tier-1 del Standard de la era Final Fantasy (junio-julio 2025), elegidos de fuentes públicas (Pro Tour Final Fantasy y MTGGoldfish) para cubrir los grandes arquetipos del meta, según recoge la tabla~\ref{tab:gauntlet-anchors}.
 
 \begin{table}[H]
 \centering

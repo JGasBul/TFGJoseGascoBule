@@ -12,6 +12,11 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[english,catalan,spanish]{babel}   % spanish = idioma principal
+% Usar "Tabla" en lugar de "Cuadro" (a petición del tutor)
+\addto\captionsspanish{%
+  \renewcommand{\tablename}{Tabla}%
+  \renewcommand{\listtablename}{Índice de tablas}%
+}
 \usepackage{newtxtext,newtxmath}              % fuente Times-like
 
 % --- Geometría de página
