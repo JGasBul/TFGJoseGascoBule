@@ -39,7 +39,8 @@ El núcleo de la propuesta es un algoritmo genético que mantiene una población
 \draw[flecha] (nueva.north) -- ++(0,0.55) -| (pop.north) node[pos=0.25, above, font=\scriptsize] {nueva generación};
 \end{tikzpicture}
 \caption{Ciclo generacional del algoritmo. La evaluación alimenta el Hall of Fame, que inyecta la élite en la población siguiente mediante elitismo.}
-\label{fig:bucle}\\[2pt]
+\label{fig:bucle}
+\vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
@@ -80,7 +81,8 @@ Cada individuo de la población es un mazo, y se representa como un vector de en
 \node[above=1pt of c8, font=\scriptsize, align=center, text=green!45!black] {tierra\\básica};
 \end{tikzpicture}
 \caption{Representación de un mazo como vector de enteros. Cada posición corresponde a una carta del catálogo y su valor indica el número de copias en el mazo; la suma de todas las componentes es sesenta.}
-\label{fig:individuo}\\[2pt]
+\label{fig:individuo}
+\vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
@@ -127,7 +129,8 @@ La mutación introduce variaciones en un mazo y constituye uno de los elementos 
 \draw[flecha] (antes) -- node[above, align=center, font=\scriptsize] {intercambio\\de pack} node[below, align=center, font=\scriptsize] {$-$ pack baja afinidad\\$+$ pack alta afinidad} (despues);
 \end{tikzpicture}
 \caption{Mutación a nivel de pack. La operación retira las cuatro copias de una carta poco afín al arquetipo e introduce cuatro de otra más afín, conservando el total de sesenta cartas.}
-\label{fig:mutacion}\\[2pt]
+\label{fig:mutacion}
+\vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
@@ -146,11 +149,12 @@ El diseño admite dos esquemas de emparejamiento. El round-robin completo enfren
 \centering
 \includegraphics[width=0.78\textwidth]{images/fig_swiss_vs_roundrobin.pdf}
 \caption{Número de enfrentamientos por generación según el tamaño de la población. El punto de trabajo del sistema ($N=40$) pasa de 780 enfrentamientos en round-robin a 160 en Swiss.}
-\label{fig:swiss}\\[2pt]
+\label{fig:swiss}
+\vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
-La diferencia tiene consecuencias prácticas. Para una población de cuarenta mazos, el round-robin completo exige 780 enfrentamientos por generación, mientras que el Swiss con ocho rondas exige 160, una reducción superior al 90\,\%. El Swiss presenta una segunda ventaja: es el sistema con el que se disputan los torneos reales de Magic, de modo que su adopción aproxima la evaluación a las condiciones de competición que el trabajo pretende reproducir. El paso del round-robin al Swiss constituye uno de los ejes de la evolución del sistema, que se detalla en la sección~\ref{sec:evolucion}.
+La diferencia tiene consecuencias prácticas. Para una población de cuarenta mazos, el round-robin completo exige 780 enfrentamientos por generación, mientras que el Swiss con ocho rondas exige 160, una reducción cercana al 80\,\%. El Swiss presenta una segunda ventaja: es el sistema con el que se disputan los torneos reales de Magic, de modo que su adopción aproxima la evaluación a las condiciones de competición que el trabajo pretende reproducir. El paso del round-robin al Swiss constituye uno de los ejes de la evolución del sistema, que se detalla en la sección~\ref{sec:evolucion}.
 
 \section{Evaluación por simulación con Forge}
 \label{sec:evaluacion}
@@ -190,7 +194,8 @@ Los componentes descritos se integran en un flujo de tres etapas encadenadas, co
 \draw[flecha, dashed] (orq.east) -- ++(1.15,0) |- (ga.north);
 \end{tikzpicture}
 \caption{Arquitectura del sistema en tres etapas encadenadas, coordinadas por el orquestador.}
-\label{fig:pipeline}\\[2pt]
+\label{fig:pipeline}
+\vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
 \end{figure}
 

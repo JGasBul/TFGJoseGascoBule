@@ -65,8 +65,8 @@ La tabla~\ref{tab:config-ab} recoge la configuración nominal que comparten los 
 \midrule
 Población & 40 & 40 \\
 Generaciones & 30 & 30 \\
-Combates por generación & 320 & 320 \\
-Selección & Swiss Tournament ($k=7$) & Swiss Tournament ($k=7$) \\
+Enfrentamientos por generación & 160 & 160 \\
+Selección & Swiss Tournament ($k=8$) & Swiss Tournament ($k=8$) \\
 Cuota Hall of Fame por arquetipo & 3 & 3 \\
 Pool de cartas & 4.130 IDs & 4.130 IDs \\
 Operadores de variación & Copia individual & Pack de 4 copias \\
@@ -110,7 +110,7 @@ El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 
 \includegraphics[width=0.78\textwidth]{images/fig_estructura_ab.pdf}
 \caption{Métricas estructurales por mazo en la población final, baseline frente a pack-aware. Los \emph{singletons} sueltos se desploman mientras suben los packs consolidados y las tierras no básicas.}
 \label{fig:estructura}
-\\[2pt]{\footnotesize Fuente: elaboración propia.}
+\vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
 \subsection{Evolución del fitness}
@@ -186,7 +186,7 @@ El cambio de granularidad también reorienta el arquetipo dominante de la poblac
 \includegraphics[width=0.72\textwidth]{images/fig_arquetipos_ab.pdf}
 \caption{Distribución de arquetipos en la población final de 40 mazos. El baseline está dominado por aggro; el pack-aware, por midrange.}
 \label{fig:arquetipos}
-\\[2pt]{\footnotesize Fuente: elaboración propia.}
+\vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
 Esta decisión de diseño marca el punto de partida para el resto del desarrollo. Todos los experimentos siguientes asumen operadores pack-aware.
@@ -262,7 +262,7 @@ La tasa de victorias del Swiss Tournament sigue siendo el componente principal, 
 
 \subsection{Validación del gradiente recuperado}
 
-El CoV proyectado tras el refinamiento es de aproximadamente 22-25\,\%, frente al 11,6\,\% original. La media esperada baja de 0,751 a un rango de 0,60-0,65: sin las tres componentes saturadas que arrastraban el promedio hacia arriba, la distribución de \texttt{quality} refleja con más fidelidad las diferencias reales entre mazos.
+El CoV proyectado tras el refinamiento es de aproximadamente 22-25\,\%, frente al 11,6\,\% original. La media esperada baja de 0,751 a un rango de 0,60-0,65: sin las tres componentes saturadas que arrastraban el promedio hacia arriba, la distribución de la calidad refleja con más fidelidad las diferencias reales entre mazos.
 
 El efecto práctico es que el fitness vuelve a tener gradiente en toda la distribución de la población. Dos mazos que empaten en win\_rate se diferenciarán por la sinergia interna, el balance de roles o el ajuste al arquetipo. Con el gauntlet desactivado y la calidad refinada activa, el run que se analiza en la sección~\ref{sec:run-final} arranca sin los problemas de saturación que afectaron a los primeros experimentos.
 
@@ -339,8 +339,8 @@ La tabla~\ref{tab:config-final} resume los parámetros con los que se ejecutó e
 \midrule
 Población & 40 mazos \\
 Generaciones & 43 (gen 0 a gen 42) \\
-Combates por generación & 320 \\
-Selección & Swiss Tournament ($k=7$) \\
+Enfrentamientos por generación & 160 \\
+Selección & Swiss Tournament ($k=8$) \\
 Cuota Hall of Fame por arquetipo & 3 \\
 Operadores de variación & Pack-aware (7 operadores) \\
 Fitness & $0{,}7 \cdot \text{tasa\_victorias} + 0{,}3 \cdot \text{calidad}$ \\
@@ -383,7 +383,7 @@ El pico absoluto, 0,9755, aparece en la generación 42, la última del run. Ese 
 \includegraphics[width=0.82\textwidth]{images/fig_evolucion_fitness.pdf}
 \caption{Evolución del fitness del run final. El mejor de cada generación fluctúa por el ruido de la evaluación por simulación, mientras la media asciende de forma sostenida. El pico de 0,9755 se alcanza en la última generación.}
 \label{fig:fitness}
-\\[2pt]{\footnotesize Fuente: elaboración propia.}
+\vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
 La diversidad cae de 0,871 a 0,438 a lo largo del run. Es convergencia natural: la población se especializa en torno al par cromático dominante sin colapsar. La entropía de arquetipo en la generación 42 es 0,715, un nivel que indica coexistencia real de aggro, midrange y control en el Hall of Fame, aunque con pesos desiguales. La figura~\ref{fig:dinamica} reúne la diversidad, la entropía de arquetipo y la tasa de mutación adaptativa a lo largo del run.
@@ -393,7 +393,7 @@ La diversidad cae de 0,871 a 0,438 a lo largo del run. Es convergencia natural: 
 \includegraphics[width=0.78\textwidth]{images/fig_dinamica_poblacion.pdf}
 \caption{Dinámica de la población. La diversidad y la entropía de arquetipo descienden conforme la población se especializa; la tasa de mutación sube a 0,9 en los tramos de estancamiento para forzar exploración.}
 \label{fig:dinamica}
-\\[2pt]{\footnotesize Fuente: elaboración propia.}
+\vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
 \subsection{Atractor cromático: R/W Boros}
@@ -427,7 +427,7 @@ Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado d
 \includegraphics[width=0.66\textwidth]{images/fig_curva_mana_campeon.pdf}
 \caption{Curva de maná de las cartas no-tierra del mazo campeón. La concentración en costes de dos a cuatro maná refleja un plan de juego agresivo basado en daño directo.}
 \label{fig:curvamana}
-\\[2pt]{\footnotesize Fuente: elaboración propia.}
+\vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
 La calidad del mazo campeón admite una lectura desde tres perspectivas complementarias. En el plano cuantitativo, alcanza el fitness más alto del run, 0,9755, que integra tanto su tasa de victorias en el torneo como su calidad estructural. En el plano de la composición, converge al par cromático Boros (R/W), que coincide con el de arquetipos competitivos vigentes del formato, como los mazos de tipo Boros Equipment, y reúne cartas presentes en el metajuego actual de Standard. Desde una valoración cualitativa del autor, con experiencia en el formato, el mazo exhibe un plan de quemado coherente, una base de tierras funcional y una curva concentrada en costes bajos y medios; un jugador reconocería la construcción como apta para competición sin necesidad de cambios estructurales. Una validación externa más exigente, que enfrentara el mazo a referencias del metajuego real, queda condicionada por el sesgo del simulador ante los arquetipos de mayor complejidad táctica, y se plantea como línea de trabajo futuro.

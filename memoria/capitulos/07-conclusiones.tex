@@ -16,7 +16,7 @@ En cuanto a los objetivos planteados en la sección~\ref{sec:objetivos}, el obje
 
     \item \textbf{Operadores pack-aware.} Cumplido y validado cuantitativamente. Los siete operadores de mutación y los dos de cruce trabajan en packs de cuatro copias. El experimento comparativo de la sección~\ref{sec:experimento-ab} mide el efecto: los \emph{singletons} sueltos caen un 95\% y los packs consolidados suben un 41\% por mazo respecto al diseño que opera con copias individuales.
 
-    \item \textbf{Validación del rendimiento con evaluación viable en coste.} Cumplido. Forge actúa como oráculo de fitness jugando partidas reales, y el sistema de torneo Swiss reduce el número de enfrentamientos por generación en más de un 90\% frente al round-robin completo. Esa reducción es la que permitió duplicar la población sin disparar el coste (secciones~\ref{sec:torneo} y~\ref{sec:evolucion}).
+    \item \textbf{Validación del rendimiento con evaluación viable en coste.} Cumplido. Forge actúa como oráculo de fitness jugando partidas reales, y el sistema de torneo Swiss reduce el número de enfrentamientos por generación en cerca de un 80\% frente al round-robin completo. Esa reducción es la que permitió duplicar la población sin disparar el coste (secciones~\ref{sec:torneo} y~\ref{sec:evolucion}).
 
     \item \textbf{Función de fitness multi-componente.} Cumplido. El fitness combina la tasa de victorias en el Swiss con una métrica de calidad estructural sensible al arquetipo. La métrica se rediseñó tras detectar que la mejora estructural de los mazos había saturado parte de sus componentes (sección~\ref{sec:refinamiento}).
 
@@ -28,7 +28,7 @@ Más allá del cumplimiento de los objetivos, los principales hallazgos empíric
 \begin{itemize}
     \item El pico de fitness ascendió de 0,791 en el prototipo inicial a 0,9755 en el run definitivo, y el fitness medio de la población creció un 13,5\,\% a lo largo de ese run.
     \item Los operadores a nivel de pack redujeron los \emph{singletons} sueltos un 95\,\% y aumentaron los packs consolidados un 41\,\% por mazo, con un coste de apenas 1,4 puntos porcentuales en el pico de fitness.
-    \item El torneo Swiss redujo en más de un 90\,\% los enfrentamientos por generación frente al round-robin, lo que permitió duplicar la población de 20 a 40 mazos sin incrementar el coste.
+    \item El torneo Swiss redujo en cerca de un 80\,\% los enfrentamientos por generación frente al round-robin, lo que permitió duplicar la población de 20 a 40 mazos sin incrementar el coste.
     \item La exploración del gauntlet reveló que solo tres de los cinco mazos de referencia del metajuego se ejecutan de forma fiable en el simulador, lo que motivó su descarte como componente de fitness.
 \end{itemize}
 
