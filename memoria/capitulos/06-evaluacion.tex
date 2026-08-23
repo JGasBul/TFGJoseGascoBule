@@ -101,9 +101,9 @@ Tasa de fallos en combate & 0,078\,\% & 0,010\,\% \\
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3,55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas. Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de consolidación de \emph{singletons} podía eliminarlos.
+El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3,55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas (cartas de ajuste puntual, pensadas para situaciones concretas). Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de consolidación de \emph{singletons} podía eliminarlos.
 
-El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5,55 a 7,83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0,68 a 4,00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} y tierras de utilidad seleccionadas deliberadamente. La figura~\ref{fig:estructura} resume estas tres diferencias.
+El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5,55 a 7,83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0,68 a 4,00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} (tierras que producen dos colores) y tierras de utilidad seleccionadas deliberadamente. La figura~\ref{fig:estructura} resume estas tres diferencias.
 
 \begin{figure}[H]
 \centering
@@ -271,7 +271,7 @@ El efecto práctico es que el fitness vuelve a tener gradiente en toda la distri
 
 El experimento de comparativa A/B (sección~\ref{sec:experimento-ab}) dejó un problema abierto: la monocultura cromática. Al final de la ejecución pack-aware, 37 de 40 mazos convergían a B/W. Los arquetipos no dominantes sobrevivían únicamente por la cuota del Hall of Fame, no por presión selectiva real. El diagnóstico es estructural: cuando la evaluación es puramente intra-poblacional, el arquetipo que más rinde contra lo que la propia población produce se autorefuerza hasta desplazar a los demás.
 
-La solución diseñada fue introducir un gauntlet de mazos tier-1 del meta real como componente externo del fitness. Un mazo evolucionado tendría que rendir no solo contra sus compañeros de población, sino contra cinco referencias fijas del metajuego competitivo. Esa presión heterogénea, externa y estable, rompería la retroalimentación que produce la monocultura.
+La solución diseñada fue introducir un gauntlet de mazos \emph{tier-1} (de primer nivel competitivo) del metajuego real como componente externo del fitness. Un mazo evolucionado tendría que rendir no solo contra sus compañeros de población, sino contra cinco referencias fijas del metajuego competitivo. Esa presión heterogénea, externa y estable, rompería la retroalimentación que produce la monocultura.
 
 \subsection{Diseño del gauntlet y elección de anchors}
 
@@ -403,7 +403,7 @@ Cada ejecución del algoritmo converge a un único par cromático. La ejecución
 \begin{itemize}
     \item \textbf{Aggro R/W}: curva baja con Scalestorm Summoner, Inti, Seneschal of the Sun, Werefox Bodyguard y Roc Hunter como núcleo de amenazas.
     \item \textbf{Midrange R/W}: Leyline Axe, Giant Cindermaw, Defiler of Instinct y Buster Sword como paquete de presión mediada con tierras de utilidad (Temple of Triumph, Crawling Barrens).
-    \item \textbf{Control R/W}: Scalestorm Summoner como win condition tardío, Volt Charge, Galvanize, Flame Lash y Twin Bolt como conjunto de remoción de daño, Dragon Fodder como generación de tokens.
+    \item \textbf{Control R/W}: Scalestorm Summoner como \emph{win condition} —la carta encargada de cerrar la partida— en el juego tardío, Volt Charge, Galvanize, Flame Lash y Twin Bolt como conjunto de remoción de daño, Dragon Fodder como generación de fichas (\emph{tokens}).
 \end{itemize}
 
 Leyline Axe y Scalestorm Summoner aparecen en dos de los tres mazos del Hall of Fame, lo que señala que el algoritmo identificó esas cartas como piezas de alto valor en el contexto cromático convergido. Ambas son cartas del metajuego competitivo actual de Standard.

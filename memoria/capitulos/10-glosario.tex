@@ -1,0 +1,65 @@
+% =============================================================
+% Glosario de términos
+% =============================================================
+
+\chapter*{Glosario de términos}
+\addcontentsline{toc}{chapter}{Glosario de términos}
+\markboth{Glosario de términos}{}
+
+Se recogen aquí los términos técnicos empleados en la memoria, tanto los propios de Magic: The Gathering como los de la computación evolutiva y del sistema desarrollado. Cada término se define también en su primera aparición en el texto.
+
+\section*{Términos de Magic: The Gathering}
+
+\begin{description}
+    \item[Aggro] Mazo agresivo que busca una victoria temprana con criaturas baratas y una curva de maná baja.
+    \item[Arquetipo] Familia de mazos que comparten una misma estrategia. Se consideran tres: aggro, midrange y control.
+    \item[CMC (coste de maná convertido)] Cantidad total de maná necesaria para jugar una carta.
+    \item[Color (W, U, B, R, G)] Cada uno de los cinco colores de maná, identificados por su inicial en inglés: W (blanco), U (azul), B (negro), R (rojo) y G (verde).
+    \item[Constructed] Formatos en los que cada jugador construye su mazo de antemano a partir de todas las cartas de las que dispone, por oposición a los formatos limitados.
+    \item[Control] Mazo reactivo que prolonga la partida con respuestas y cartas de coste elevado hasta imponer su ventaja.
+    \item[Curva de maná] Distribución de las cartas de un mazo según su coste de maná.
+    \item[Duals] Tierras que producen maná de dos colores.
+    \item[Gauntlet] Conjunto fijo de mazos de referencia del metajuego contra los que se mide el rendimiento de un mazo.
+    \item[Gremio (Boros, Izzet, Azorius, Dimir\ldots)] Nombre propio del juego para una combinación de dos colores: Boros (R/W), Izzet (U/R), Azorius (U/W) y Dimir (U/B), entre otros.
+    \item[Manabase] Conjunto de tierras de un mazo, responsable de producir el maná de los colores que sus cartas requieren.
+    \item[Maná] Recurso que permite jugar cartas, producido mayoritariamente por tierras.
+    \item[Metajuego (meta)] Conjunto de mazos y estrategias predominantes en un momento dado.
+    \item[Midrange] Mazo de estrategia intermedia entre aggro y control, que combina criaturas eficientes con interacción.
+    \item[Mono-Red] Mazo de un solo color (el rojo). El prefijo \emph{mono-} indica, en general, un mazo monocolor.
+    \item[Pack] En este trabajo, conjunto de cuatro copias de una misma carta, unidad mínima con la que operan los operadores genéticos.
+    \item[Pips] Símbolos de maná de color presentes en el coste de una carta.
+    \item[Removal] Cartas cuya función es eliminar amenazas del rival.
+    \item[Singleton] Carta incluida en una sola copia dentro del mazo.
+    \item[Standard] Formato que restringe las cartas legales a las expansiones más recientes y renueva su contenido con cada rotación.
+    \item[Tech] Carta de ajuste puntual, incluida para situaciones concretas.
+    \item[Tier-1] Primer nivel competitivo; designa los mazos más fuertes del metajuego.
+    \item[Tokens (fichas)] Fichas de criatura u otros elementos creados durante la partida.
+    \item[Tribu / tribal] Sinergias basadas en la acumulación de un mismo tipo de criatura.
+    \item[Win condition] Carta o plan encargado de cerrar la partida.
+\end{description}
+
+\section*{Términos de computación evolutiva y del sistema}
+
+\begin{description}
+    \item[Algoritmo genético] Metaheurística inspirada en la evolución biológica que hace evolucionar una población de soluciones candidatas.
+    \item[Convergencia prematura] Estancamiento en un óptimo local por una pérdida temprana de diversidad en la población.
+    \item[CoV (coeficiente de variación)] Desviación típica relativa a la media; mide la dispersión de un conjunto de valores.
+    \item[Cruce] Operador que combina el material de dos progenitores para formar descendientes.
+    \item[Elitismo] Preservación de los mejores individuos de una generación a la siguiente para evitar su pérdida por azar.
+    \item[Fenotipo] Mazo reconstruido a partir del genotipo, listo para ser evaluado.
+    \item[Fitness] Valor que mide la calidad de un individuo y guía la selección.
+    \item[Forge] Simulador de código abierto de Magic, empleado como motor de evaluación de partidas.
+    \item[Generación] Cada iteración del ciclo evolutivo.
+    \item[Genotipo] Representación interna del individuo manipulable por el algoritmo; aquí, un vector de enteros.
+    \item[Hall of Fame] Archivo de los mejores mazos históricos, con una cuota reservada por arquetipo.
+    \item[MAP-Elites / \emph{quality-diversity}] Familia de algoritmos evolutivos que buscan un conjunto diverso de soluciones de alta calidad, no una única.
+    \item[Metaheurística] Método general de búsqueda aproximada para problemas de optimización que no admiten enumeración exhaustiva.
+    \item[Modelo sustituto (\emph{surrogate})] Modelo que aproxima una función de evaluación costosa para reducir el número de evaluaciones reales.
+    \item[Mutación] Operador que introduce variaciones aleatorias para preservar la diversidad.
+    \item[Niching] Conjunto de técnicas que preservan la diversidad de la población favoreciendo la coexistencia de varias soluciones.
+    \item[Punto de control (\emph{checkpoint})] Estado guardado de una ejecución que permite reanudarla o analizarla a posteriori.
+    \item[Round-robin] Esquema de emparejamiento en el que cada individuo se enfrenta a todos los demás.
+    \item[Scryfall] Servicio con una base de datos y una API pública de cartas de Magic.
+    \item[Selección por torneo] Selección del individuo de mayor fitness de entre una muestra aleatoria de la población.
+    \item[Swiss Tournament (sistema suizo)] Esquema de emparejamiento por un número fijo de rondas, empleado en los torneos reales, cuyo coste crece de forma aproximadamente lineal con la población.
+\end{description}
