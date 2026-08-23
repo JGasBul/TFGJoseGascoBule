@@ -108,7 +108,7 @@ elección de 0,7/0,3.
 
 ## Estado (se va marcando)
 
-- [ ] T1 — CoV post-refinamiento real
+- [x] T1 — CoV post-refinamiento real **(HECHO)**. Medido sobre los 40 mazos de exp03: la métrica original reproduce la tabla 6.4 (CoV 11,4 %), la refinada mide **CoV 19,4 %** (media 0,765, rango [0,38, 0,91]). Se confirma que el refinamiento casi duplica la dispersión; se corrigió la sub-afirmación falsa de que la media bajaba a 0,60-0,65. Script: `scratchpad/t1_cov.py`.
 - [ ] T2 — Distribución de fitness del campeón
 - [ ] T3 — Contraste externo con 3 anchors
 - [ ] T4 — Repeticiones con semillas
