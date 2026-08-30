@@ -125,7 +125,26 @@ La función admite, además, un tercer criterio opcional: el rendimiento frente 
 \section{Operador de cruce}
 \label{sec:cruce}
 
-El cruce combina el material de dos progenitores para formar descendientes y dispone de dos variantes que se eligen al azar en cada reproducción. El cruce uniforme decide carta por carta de cuál de los dos progenitores hereda cada posición del descendiente. El cruce por categoría decide por bloques: hereda toda la base de tierras de un progenitor, todas las criaturas del otro y todos los hechizos del que corresponda, de manera que preserva la coherencia interna de cada bloque en lugar de fragmentarlo por un punto de corte arbitrario.
+El cruce combina el material de dos progenitores para formar descendientes y dispone de dos variantes que se eligen al azar en cada reproducción. El cruce uniforme decide carta por carta de cuál de los dos progenitores hereda cada posición del descendiente. El cruce por categoría decide por bloques: hereda toda la base de tierras de un progenitor, todas las criaturas del otro y todos los hechizos del que corresponda, de manera que preserva la coherencia interna de cada bloque en lugar de fragmentarlo por un punto de corte arbitrario. La figura~\ref{fig:cruce} ilustra esta segunda variante.
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    font=\small,
+    mazo/.style={draw, rounded corners, align=left, text width=2.7cm, fill=gray!5, inner sep=6pt},
+    flecha/.style={-{Stealth[length=2.6mm]}, very thick}
+]
+\node[mazo, fill=blue!4] (A) {\textbf{Progenitor A}\\[2pt] Tierras\\ Criaturas\\ Hechizos};
+\node[mazo, fill=orange!6, below=0.9cm of A] (B) {\textbf{Progenitor B}\\[2pt] Tierras\\ Criaturas\\ Hechizos};
+\node[mazo, right=3.6cm of A, yshift=-0.9cm] (H) {\textbf{Descendiente}\\[2pt] \textcolor{blue!65!black}{Tierras (de A)}\\ \textcolor{orange!80!black}{Criaturas (de B)}\\ \textcolor{blue!65!black}{Hechizos (de A)}};
+\draw[flecha, blue!65!black] (A.east) to[out=0,in=155] (H.north west);
+\draw[flecha, orange!80!black] (B.east) to[out=0,in=205] (H.south west);
+\end{tikzpicture}
+\caption{Cruce por categoría. El descendiente hereda cada bloque de cartas —tierras, criaturas o hechizos— íntegro de uno de los dos progenitores, lo que preserva la coherencia interna del bloque en lugar de fragmentarlo por un punto de corte arbitrario. En el ejemplo, las tierras y los hechizos proceden del progenitor A y las criaturas del progenitor B.}
+\label{fig:cruce}
+\vspace{2pt}
+{\footnotesize Fuente: elaboración propia.}
+\end{figure}
 
 \section{Operador de mutación pack-aware}
 \label{sec:mutacion}
