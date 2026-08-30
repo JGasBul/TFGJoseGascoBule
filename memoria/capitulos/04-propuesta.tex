@@ -103,7 +103,22 @@ El primer criterio, la tasa de victorias, mide el rendimiento real del mazo: la 
 
 Los coeficientes $\alpha$ y $\beta$ son los pesos que determinan la importancia relativa de cada criterio y suman la unidad. La elección $\alpha = 0{,}7$ y $\beta = 0{,}3$ establece que el rendimiento en partidas es el criterio dominante, mientras que la calidad estructural actúa como criterio secundario: entre dos mazos que ganan un número de partidas similar, prevalece el que está mejor construido. Este equilibrio evita que el algoritmo premie mazos que ganan por circunstancias del entorno de evaluación pero carecen de coherencia interna.
 
-La calidad se evalúa en el intervalo $[0,1]$ sobre el arquetipo que el mazo exhibe en cada momento, detectado a partir de su coste de maná medio y de su número de criaturas. Agrega tres medidas: la sinergia interna entre las cartas, el equilibrio entre las categorías de cartas y la coherencia con los rangos ideales del arquetipo. La composición exacta de esta métrica y su calibración se detallan en la sección~\ref{sec:refinamiento}, pues fueron objeto de un refinamiento durante el desarrollo.
+La calidad se evalúa en el intervalo $[0,1]$ sobre el arquetipo que el mazo exhibe en cada momento, detectado a partir de su coste de maná medio y de su número de criaturas. Agrega tres componentes estructurales, cada uno normalizado en $[0,1]$, mediante una media ponderada:
+
+\begin{equation}
+\text{calidad} = 0{,}35\cdot\text{sinergia} + 0{,}35\cdot\text{equilibrio} + 0{,}30\cdot\text{coherencia}.
+\label{eq:calidad}
+\end{equation}
+
+Cada componente mide una propiedad distinta de la construcción:
+
+\begin{itemize}
+    \item La \textbf{sinergia} valora la cohesión interna del mazo a partir de tres factores: la concentración en un mismo tipo de criatura (sinergia tribal), la densidad de habilidades clave —como el vuelo o el arrollar— y la consistencia cromática, que penaliza el uso de un número excesivo de colores.
+    \item El \textbf{equilibrio de categorías} compara las proporciones de tierras, criaturas y hechizos del mazo con los rangos ideales del arquetipo detectado.
+    \item La \textbf{coherencia de arquetipo} contrasta el coste de maná medio, el número de criaturas y el número de tierras del mazo con los valores característicos de ese arquetipo.
+\end{itemize}
+
+Esta ponderación es el resultado de un refinamiento. Una versión inicial de la métrica incorporaba tres componentes adicionales —la estructura de \emph{playsets} de cuatro copias, el poder bruto de las cartas estimado a partir de su rareza y eficiencia, y el ajuste de la curva de maná al ideal del arquetipo—, que se retiraron al comprobar que, tras la mejora estructural de los mazos, habían dejado de discriminar entre unos y otros. Ese análisis y la recalibración resultante se detallan en la sección~\ref{sec:refinamiento}.
 
 La función admite, además, un tercer criterio opcional: el rendimiento frente a un conjunto de mazos de referencia del metajuego real, denominado \emph{gauntlet}. Este componente se exploró y finalmente se descartó por los motivos que se exponen en la sección~\ref{sec:gauntlet}.
 

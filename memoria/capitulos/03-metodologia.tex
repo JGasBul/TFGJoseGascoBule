@@ -27,6 +27,21 @@ El proyecto se estructuró en cuatro fases, que se solaparon parcialmente a lo l
     \item \textbf{Consolidación y redacción.} Estabilización del sistema, ejecución del experimento final y elaboración de la presente memoria.
 \end{enumerate}
 
+\section{Protocolo de evaluación y métricas de análisis}
+
+Cada experimento sigue un mismo protocolo. Una configuración fija —tamaño de población, operadores de variación y pesos del fitness— se ejecuta durante un número máximo de generaciones o hasta alcanzar un valor de fitness objetivo. En cada generación, el fitness de cada mazo se obtiene disputando partidas reales en Forge mediante el sistema de torneo Swiss descrito en el capítulo~\ref{sec:arquitectura}: cada enfrentamiento se resuelve al mejor de tres partidas y la tasa de victorias resultante alimenta la función de fitness.
+
+El análisis de cada ejecución se apoya en un conjunto fijo de métricas, que reaparecen a lo largo del capítulo~\ref{cap:desarrollo}:
+
+\begin{itemize}
+    \item \textbf{Mejor fitness y fitness medio}: el valor del mejor individuo y la media de la población en cada generación. El primero mide el techo alcanzado; el segundo, el nivel general de la población y su progresión.
+    \item \textbf{Diversidad}: media de las distancias $L_1$ entre todos los pares de mazos de la población, normalizada al intervalo $[0,1]$. Un valor alto indica una población heterogénea; su descenso a lo largo de las generaciones refleja convergencia.
+    \item \textbf{Entropía de arquetipo}: entropía de Shannon de la distribución de arquetipos (aggro, midrange y control) en la población. Mide cuán repartida está entre los tres arquetipos y alcanza su máximo cuando el reparto es uniforme.
+    \item \textbf{Coeficiente de variación} (CoV): desviación típica relativa a la media, empleado para auditar la capacidad de discriminación de las componentes de la métrica de calidad.
+\end{itemize}
+
+El carácter estocástico de la evaluación —cada partida depende del reparto inicial de cartas y de las decisiones de la inteligencia artificial— implica que estas métricas presentan variabilidad entre ejecuciones. El trabajo la afronta repitiendo partidas dentro de cada enfrentamiento; su cuantificación rigurosa, como se señala entre las líneas de trabajo futuro, exigiría repetir las ejecuciones con semillas controladas.
+
 \section{Herramientas y control de versiones}
 
 La implementación se realizó en Python, que concentra el algoritmo genético y la lógica de orquestación, e integra el simulador Forge, escrito en Java, como motor externo de evaluación. El catálogo de cartas se obtiene de la API pública de Scryfall.
