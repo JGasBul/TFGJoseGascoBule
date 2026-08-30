@@ -432,3 +432,32 @@ Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado d
 
 La calidad del mazo campeón admite una lectura desde tres perspectivas complementarias. En el plano cuantitativo, alcanza el fitness más alto de la ejecución, 0,9755, que integra tanto su tasa de victorias en el torneo como su calidad estructural. En el plano de la composición, converge al par cromático Boros (R/W), que coincide con el de arquetipos competitivos vigentes del formato, como los mazos de tipo Boros Equipment, y reúne cartas presentes en el metajuego actual de Standard. Desde una valoración cualitativa del autor, con experiencia en el formato, el mazo exhibe un plan de quemado coherente, una base de tierras funcional y una curva concentrada en costes bajos y medios; un jugador reconocería la construcción como apta para competición sin necesidad de cambios estructurales. Una validación externa más exigente, que enfrentara el mazo a referencias del metajuego real, queda condicionada por el sesgo del simulador ante los arquetipos de mayor complejidad táctica, y se plantea como línea de trabajo futuro.
 
+
+\subsection{Una segunda ejecución independiente}
+\label{sec:repro}
+
+Todos los resultados anteriores proceden de una sola ejecución. Para disponer de una primera comprobación de reproducibilidad, se realizó una segunda ejecución con una configuración \emph{idéntica} a la de la ejecución final (población de 40 mazos, Swiss con $k=8$, fitness $0{,}7\cdot\text{tasa\_victorias}+0{,}3\cdot\text{calidad}$ y sin gauntlet). La única diferencia es el punto de partida: el sistema no fija la semilla del generador aleatorio, de modo que cada ejecución genera su propia población inicial de 40 mazos y toma decisiones aleatorias independientes. Ambas ejecuciones son, por tanto, réplicas independientes que arrancan de mazos distintos.
+
+La tabla~\ref{tab:dos-ejecuciones} contrasta las dos. La segunda ejecución evolucionó durante 37 generaciones y alcanzó un pico de fitness de 0,9651 en la última, con un fitness medio que creció un 10,6\,\%. Su población no convergió al par rojo-blanco de la ejecución final, sino a un mazo \emph{midrange} monocolor blanco, articulado en torno a criaturas eficientes, remoción y varias copias del planeswalker Elspeth, Storm Slayer.
+
+\begin{table}[H]
+\centering
+\caption{Comparación de las dos ejecuciones independientes con el sistema definitivo. La configuración nominal es idéntica; solo difieren la población inicial aleatoria y el azar de la evolución.}
+\label{tab:dos-ejecuciones}
+\begin{tabular}{lcc}
+\toprule
+\textbf{Métrica} & \textbf{Ejecución final} & \textbf{2.\textsuperscript{a} ejecución} \\
+\midrule
+Generaciones & 43 & 37 \\
+Pico de fitness (última gen.) & 0,9755 & 0,9651 \\
+Incremento del fitness medio & +13,5\,\% & +10,6\,\% \\
+Par cromático convergido & R/W (Boros) & Mono-blanco (W) \\
+Arquetipo del campeón & Quemado agresivo & Midrange \\
+\bottomrule
+\end{tabular}
+\\[2pt]{\footnotesize Fuente: elaboración propia.}
+\end{table}
+
+De esta comparación se extraen dos observaciones. La primera es que la convergencia a un único par cromático no es un artefacto de una ejecución concreta: las dos ejecuciones, partiendo de poblaciones iniciales distintas, convergieron cada una a un par de colores, y esos pares fueron diferentes (rojo-blanco frente a monocolor blanco). Este comportamiento respalda tanto la hipótesis de la convergencia cromática como la idea de que el sistema, a lo largo de varias ejecuciones, exploraría un ecosistema de arquetipos en lugar de una única solución. La segunda es que el pico de fitness es estable entre ejecuciones: 0,9755 y 0,9651 sitúan el rendimiento máximo en torno a 0,97 en ambos casos, lo que indica que ese nivel no depende de una semilla afortunada.
+
+Conviene, no obstante, acotar el alcance de esta comprobación. Dos ejecuciones constituyen una muestra reducida: sostienen la reproducibilidad del comportamiento observado, pero no equivalen a una validación estadística, que requeriría un mayor número de repeticiones. Además, al no fijarse la semilla, ninguna de las dos ejecuciones es reproducible de forma exacta; un barrido controlado de semillas, planteado entre las líneas de trabajo futuro, permitiría cuantificar con rigor la variabilidad del método.
