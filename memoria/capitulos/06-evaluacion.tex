@@ -152,7 +152,7 @@ La diferencia más visible entre las dos ejecuciones no está en las tablas de f
 \texttt{1 Bloodletter of Aclazotz, 1 Lion Heart}
 \end{center}
 
-Solo dos packs de cuatro copias. Ocho cartas en copia única. El mazo tiene fitness 0,891 pero ningún jugador de competición lo llevaría a un torneo. Es un ensamblaje de piezas que funciona contra el \emph{gauntlet} pero carece de plan de juego legible.
+Solo dos packs de cuatro copias. Ocho cartas en copia única. El mazo tiene fitness 0,891 pero ningún jugador de competición lo llevaría a un torneo. Es un ensamblaje de piezas que gana partidas en su propio entorno de evaluación —el torneo interno frente al resto de la población— pero carece de plan de juego legible.
 
 El mejor individuo de la ejecución pack-aware es distinto:
 
@@ -177,7 +177,7 @@ La norma de cuatro copias no es un detalle de implementación. Determina si el a
 
 Los datos del experimento cuantifican el coste y el beneficio de cambiar esa granularidad. El coste es 1,4 puntos porcentuales en el pico de \emph{best\_fit}. El beneficio es una reducción del 95\,\% en \emph{singletons} no-tierra, un incremento del 41\,\% en packs consolidados, y un salto del 488\,\% en tierras no básicas por mazo. El fitness medio de la población sube un 2,1\,\%. La tasa de fallos en combate cae un 87\,\%.
 
-El balance entre coste y beneficio es favorable para el objetivo de este TFG: generar mazos que se parezcan a los que se construyen y juegan en competición. La variante baseline era más explotativa contra el \emph{gauntlet} concreto de evaluación, pero sus mazos no serían competitivos fuera de ese contexto. El pack-aware produce mazos menos ajustados al simulador y más próximos al estándar del formato.
+El balance entre coste y beneficio es favorable para el objetivo de este TFG: generar mazos que se parezcan a los que se construyen y juegan en competición. La variante baseline era más explotativa frente a su propio entorno de evaluación, pero sus mazos no serían competitivos fuera de ese contexto. El pack-aware produce mazos menos ajustados al simulador y más próximos al estándar del formato.
 
 El cambio de granularidad también reorienta el arquetipo dominante de la población. La figura~\ref{fig:arquetipos} muestra el contraste: el baseline converge a una mayoría de mazos de agresión, mientras que el pack-aware desplaza la población hacia el midrange. Ambos resultados son legítimos, pero la convergencia del pack-aware hacia un único arquetipo dominante anticipa el problema de la monocultura que motiva la exploración del gauntlet (sección~\ref{sec:gauntlet}).
 
