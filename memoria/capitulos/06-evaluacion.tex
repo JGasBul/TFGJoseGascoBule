@@ -460,4 +460,20 @@ Arquetipo del campeón & Quemado agresivo & Midrange \\
 
 De esta comparación se extraen dos observaciones. La primera es que la convergencia a un único par cromático no es un artefacto de una ejecución concreta: las dos ejecuciones, partiendo de poblaciones iniciales distintas, convergieron cada una a un par de colores, y esos pares fueron diferentes (rojo-blanco frente a monocolor blanco). Este comportamiento respalda tanto la hipótesis de la convergencia cromática como la idea de que el sistema, a lo largo de varias ejecuciones, exploraría un ecosistema de arquetipos en lugar de una única solución. La segunda es que el pico de fitness es estable entre ejecuciones: 0,9755 y 0,9651 sitúan el rendimiento máximo en torno a 0,97 en ambos casos, lo que indica que ese nivel no depende de una semilla afortunada.
 
+El mazo campeón de esta segunda ejecución, con fitness 0,9651, es el siguiente:
+
+\begin{center}
+\small
+\texttt{4 Leonin Skyhunter, 3 Coppercoat Vanguard, 1 Inspiring Paladin,}\\
+\texttt{4 Sundial Dawn Tyrant, 4 Sage of the Skies, 4 Oltec Cloud Guard,}\\
+\texttt{4 Rosa Resolute White Mage, 4 Elspeth Storm Slayer,}\\
+\texttt{1 Celestial Armor, 4 Soul Partition, 4 Split Up,}\\
+\texttt{18 Plains, 1 The Seedcore, 1 Echoing Deeps, 1 Bucolic Ranch,}\\
+\texttt{1 Tarnation Vista, 1 Fountainport}
+\end{center}
+
+Al igual que el campeón Boros, es una construcción coherente y reconocible. Reúne ocho packs de cuatro copias y exhibe un plan de juego legible: una base de criaturas blancas eficientes —Leonin Skyhunter, Coppercoat Vanguard o Sundial, Dawn Tyrant— sostiene la presión en los primeros turnos; Soul Partition y Split Up aportan la interacción, puntual y en barrido; y los cuatro ejemplares de Elspeth, Storm Slayer actúan como remate y motor de ventaja de cartas. Con veintitrés tierras y un coste de maná medio de 3,03, la curva se concentra en los costes de dos a cuatro maná —quince, diez y ocho cartas, respectivamente— y culmina en el cinco de Elspeth, un perfil propio de un midrange agresivo que un jugador reconocería como un mazo mono-blanco de competición.
+
+Que dos ejecuciones independientes produzcan cada una un campeón estructuralmente coherente, pero de colores y plan de juego distintos, refuerza que el sistema no encuentra un único mazo afortunado, sino construcciones viables en más de un punto del espacio de arquetipos.
+
 Conviene, no obstante, acotar el alcance de esta comprobación. Dos ejecuciones constituyen una muestra reducida: sostienen la reproducibilidad del comportamiento observado, pero no equivalen a una validación estadística, que requeriría un mayor número de repeticiones. Además, al no fijarse la semilla, ninguna de las dos ejecuciones es reproducible de forma exacta; un barrido controlado de semillas, planteado entre las líneas de trabajo futuro, permitiría cuantificar con rigor la variabilidad del método.
