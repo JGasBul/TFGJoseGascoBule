@@ -254,7 +254,7 @@ El 45\,\% del peso de la métrica de calidad era, en la práctica, una constante
 
 \subsection{Rediseño de la métrica}
 
-La solución es directa. Se eliminan las tres componentes saturadas del cálculo de la calidad y se reponderan las tres que sí discriminan, según muestra la tabla~\ref{tab:quality-pesos}.
+La solución al problema de saturación es conceptualmente directa, aunque obliga a decidir qué componentes conservar y con qué peso. Si tres de las seis componentes se han vuelto prácticamente constantes, dejan de aportar información para distinguir un mazo de otro, de modo que carece de sentido que sigan pesando en el agregado. Por ese motivo se eliminan del cálculo de la calidad las tres componentes saturadas, la estructura, el poder de cartas y la curva de maná, y se redistribuye todo su peso entre las tres que sí discriminan. La tabla~\ref{tab:quality-pesos} recoge la ponderación anterior y la nueva.
 
 \begin{table}[H]
 \centering
