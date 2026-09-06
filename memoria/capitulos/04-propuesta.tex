@@ -101,7 +101,7 @@ La función de fitness asigna a cada mazo un valor numérico que mide su calidad
 
 El primer criterio, la tasa de victorias, mide el rendimiento real del mazo: la proporción de partidas que gana en el torneo frente a otros mazos de la población, según se describe en la sección~\ref{sec:torneo}. El segundo criterio, la calidad, valora cómo de bien construido está el mazo desde un punto de vista estructural, con independencia de su resultado en las partidas.
 
-Los coeficientes $\alpha$ y $\beta$ son los pesos que determinan la importancia relativa de cada criterio y suman la unidad. La elección $\alpha = 0.7$ y $\beta = 0.3$ establece que el rendimiento en partidas es el criterio dominante, mientras que la calidad estructural actúa como criterio secundario: entre dos mazos que ganan un número de partidas similar, prevalece el que está mejor construido. Este equilibrio evita que el algoritmo premie mazos que ganan por circunstancias del entorno de evaluación pero carecen de coherencia interna.
+Los coeficientes $\alpha$ y $\beta$ ponderan la importancia relativa de cada criterio y suman la unidad. La tasa de victorias recibe el peso mayor porque mide directamente el objetivo del sistema, que es ganar partidas, mientras que la calidad estructural actúa como criterio secundario y como regularizador. Su función es doble. Por un lado desempata entre mazos con un rendimiento similar en favor del que está mejor construido. Por otro evita que el algoritmo premie mazos que ganan por circunstancias del entorno de evaluación pero carecen de coherencia interna. Los valores concretos, $\alpha = 0.7$ y $\beta = 0.3$, no se fijaron de forma arbitraria. Parten de una configuración inicial de $0.6$ y $0.4$ que se reajustó al comprobar que la métrica de calidad había perdido capacidad de discriminación (sección~\ref{sec:refinamiento}), lo que aconsejaba rebajar su peso sin llegar a anularlo. Una calibración más fina de estos coeficientes, mediante un análisis de sensibilidad que barra distintas proporciones, se plantea como línea de trabajo futuro.
 
 La calidad se evalúa en el intervalo $[0, 1]$ sobre el arquetipo que el mazo exhibe en cada momento, detectado a partir de su coste de maná medio y de su número de criaturas. Agrega tres componentes estructurales, cada uno normalizado en $[0, 1]$, mediante una media ponderada:
 
@@ -118,29 +118,33 @@ Cada componente mide una propiedad distinta de la construcción:
     \item La \textbf{coherencia de arquetipo} contrasta el coste de maná medio, el número de criaturas y el número de tierras del mazo con los valores característicos de ese arquetipo.
 \end{itemize}
 
-Esta ponderación es el resultado de un refinamiento. Una versión inicial de la métrica incorporaba tres componentes adicionales (la estructura de \emph{playsets} de cuatro copias, el poder bruto de las cartas estimado a partir de su rareza y eficiencia, y el ajuste de la curva de maná al ideal del arquetipo), que se retiraron al comprobar que, tras la mejora estructural de los mazos, habían dejado de discriminar entre unos y otros. Ese análisis y la recalibración resultante se detallan en la sección~\ref{sec:refinamiento}.
+Los pesos de esta ponderación no son uniformes por casualidad. Reflejan la capacidad de discriminación de cada componente, medida por su coeficiente de variación sobre la población, de modo que la sinergia y el equilibrio de categorías, que discriminan más entre mazos, pesan más que la coherencia de arquetipo. Esta ponderación es, además, el resultado de un refinamiento. Una versión inicial de la métrica incorporaba tres componentes adicionales (la estructura de \emph{playsets} de cuatro copias, el poder bruto de las cartas estimado a partir de su rareza y eficiencia, y el ajuste de la curva de maná al ideal del arquetipo), que se retiraron al comprobar que, tras la mejora estructural de los mazos, habían dejado de discriminar entre unos y otros. Ese análisis y la recalibración resultante se detallan en la sección~\ref{sec:refinamiento}.
 
 La función admite, además, un tercer criterio opcional: el rendimiento frente a un conjunto de mazos de referencia del metajuego real, denominado \emph{gauntlet}. Este componente se exploró y finalmente se descartó por los motivos que se exponen en la sección~\ref{sec:gauntlet}.
 
 \section{Operador de cruce}
 \label{sec:cruce}
 
-El cruce combina el material de dos progenitores para formar descendientes y dispone de dos variantes que se eligen al azar en cada reproducción. El cruce uniforme decide carta por carta de cuál de los dos progenitores hereda cada posición del descendiente. El cruce por categoría decide por bloques: hereda toda la base de tierras de un progenitor, todas las criaturas del otro y todos los hechizos del que corresponda, de manera que preserva la coherencia interna de cada bloque en lugar de fragmentarlo por un punto de corte arbitrario. La figura~\ref{fig:cruce} ilustra esta segunda variante.
+El cruce combina el material de dos progenitores para formar descendientes y dispone de dos variantes que se eligen al azar en cada reproducción. El cruce uniforme decide carta por carta de cuál de los dos progenitores hereda cada posición del descendiente. El cruce por categoría decide por bloques. Cada descendiente hereda la base de tierras completa de uno de los progenitores, las criaturas completas del otro y los hechizos del que corresponda, mientras que su hermano recibe la herencia complementaria. De este modo se preserva la coherencia interna de cada bloque en lugar de fragmentarlo por un punto de corte arbitrario. La figura~\ref{fig:cruce} ilustra esta segunda variante y los dos descendientes que produce.
 
 \begin{figure}[H]
 \centering
 \begin{tikzpicture}[
     font=\small,
-    mazo/.style={draw, rounded corners, align=left, text width=2.7cm, fill=gray!5, inner sep=6pt},
-    flecha/.style={-{Stealth[length=2.6mm]}, very thick}
+    mazo/.style={draw, rounded corners, align=left, text width=2.9cm, fill=gray!5, inner sep=5pt},
+    flecha/.style={-{Stealth[length=2.4mm]}, thick}
 ]
 \node[mazo, fill=blue!4] (A) {\textbf{Progenitor A}\\[2pt] Tierras\\ Criaturas\\ Hechizos};
 \node[mazo, fill=orange!6, below=0.9cm of A] (B) {\textbf{Progenitor B}\\[2pt] Tierras\\ Criaturas\\ Hechizos};
-\node[mazo, right=3.6cm of A, yshift=-0.9cm] (H) {\textbf{Descendiente}\\[2pt] \textcolor{blue!65!black}{Tierras (de A)}\\ \textcolor{orange!80!black}{Criaturas (de B)}\\ \textcolor{blue!65!black}{Hechizos (de A)}};
-\draw[flecha, blue!65!black] (A.east) to[out=0,in=155] (H.north west);
-\draw[flecha, orange!80!black] (B.east) to[out=0,in=205] (H.south west);
+\node[circle, draw, fill=gray!15, inner sep=1.6pt, right=1.5cm of A, yshift=-0.85cm] (j) {};
+\node[mazo, right=1.5cm of j, yshift=1.4cm] (D1) {\textbf{Descendiente 1}\\[2pt] \textcolor{blue!65!black}{Tierras (A)}\\ \textcolor{orange!80!black}{Criaturas (B)}\\ \textcolor{blue!65!black}{Hechizos (A)}};
+\node[mazo, right=1.5cm of j, yshift=-1.4cm] (D2) {\textbf{Descendiente 2}\\[2pt] \textcolor{orange!80!black}{Tierras (B)}\\ \textcolor{blue!65!black}{Criaturas (A)}\\ \textcolor{orange!80!black}{Hechizos (B)}};
+\draw[flecha, blue!65!black] (A.east) -- (j);
+\draw[flecha, orange!80!black] (B.east) -- (j);
+\draw[flecha] (j) -- (D1.west);
+\draw[flecha] (j) -- (D2.west);
 \end{tikzpicture}
-\caption{Cruce por categoría. El descendiente hereda cada bloque de cartas (tierras, criaturas o hechizos) íntegro de uno de los dos progenitores, lo que preserva la coherencia interna del bloque en lugar de fragmentarlo por un punto de corte arbitrario. En el ejemplo, las tierras y los hechizos proceden del progenitor A y las criaturas del progenitor B.}
+\caption{Cruce por categoría. Cada bloque de cartas (tierras, criaturas o hechizos) se hereda íntegro de uno de los dos progenitores, lo que preserva su coherencia interna. La operación produce dos descendientes complementarios. El descendiente 1 hereda las tierras y los hechizos del progenitor A y las criaturas del B, y el descendiente 2 recibe la herencia inversa.}
 \label{fig:cruce}
 \vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
