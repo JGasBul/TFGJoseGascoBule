@@ -19,9 +19,9 @@ Implementado el sistema, procede ponerlo a prueba. Este capítulo documenta el p
 
 El sistema descrito en el capítulo anterior no es el que se construyó al principio. Es el resultado de varias iteraciones, cada una motivada por un problema concreto que la ejecución anterior dejó al descubierto. Conviene examinar esa trayectoria, porque las decisiones de diseño que definen el sistema actual solo se entienden a la luz de lo que vino antes y de por qué no funcionaba.
 
-El primer experimento completo del proyecto evolucionó una población de 20 mazos durante 51 generaciones. La evaluación era round-robin completo: cada mazo jugaba contra los otros 19, lo que sumaba 190 enfrentamientos por generación y un total cercano a los 9.700 combates. La ejecución tardó 88 horas, casi cuatro días, en completarse. El fitness combinaba la tasa de victorias y una métrica de calidad con pesos 0,6 y 0,4.
+El primer experimento completo del proyecto evolucionó una población de 20 mazos durante 51 generaciones. La evaluación era round-robin completo: cada mazo jugaba contra los otros 19, lo que sumaba 190 enfrentamientos por generación y un total cercano a los 9700 combates. La ejecución tardó 88 horas, casi cuatro días, en completarse. El fitness combinaba la tasa de victorias y una métrica de calidad con pesos 0.6 y 0.4.
 
-Los resultados confirmaron que el enfoque funcionaba como algoritmo genético (el fitness mejoraba, la élite se preservaba, la población convergía) pero también que los mazos producidos no eran competitivos. El pico de fitness se quedó en 0,791. El mejor mazo del Hall of Fame tenía 39 cartas distintas de 60, es decir, una construcción casi enteramente de copias únicas. Una valoración cualitativa lo situaba en torno a un 3,5 sobre 10 frente a mazos de torneo. Se trataba, en suma, del mejor individuo de una población deficiente.
+Los resultados confirmaron que el enfoque funcionaba como algoritmo genético (el fitness mejoraba, la élite se preservaba, la población convergía) pero también que los mazos producidos no eran competitivos. El pico de fitness se quedó en 0.791. El mejor mazo del Hall of Fame tenía 39 cartas distintas de 60, es decir, una construcción casi enteramente de copias únicas. Una valoración cualitativa lo situaba en torno a un 3.5 sobre 10 frente a mazos de torneo. Se trataba, en suma, del mejor individuo de una población deficiente.
 
 El diagnóstico identificó cuatro problemas:
 
@@ -38,9 +38,9 @@ El primer cambio abordó el coste. La sustitución del round-robin completo por 
 
 El segundo cambio abordó la irrealidad de los mazos. Los operadores genéticos se reescribieron para trabajar en packs de cuatro copias en lugar de copias sueltas, según el principio de que incluir una carta en un mazo de constructed significa incluir cuatro. Este es el cambio que convierte los mazos de ensamblajes de cartas únicas en construcciones reconocibles, y su validación es el objeto del experimento de la sección~\ref{sec:experimento-ab}. Su efecto medido es una reducción del 95\,\% en los \emph{singletons} sueltos.
 
-El tercer cambio reformuló la función de fitness. El peso del rendimiento en el torneo subió de 0,6 a 0,7, y la métrica de calidad se rediseñó tras detectar que la mejora estructural de los mazos había dejado saturados a varios de sus componentes. Ese refinamiento se detalla en la sección~\ref{sec:refinamiento}.
+El tercer cambio reformuló la función de fitness. El peso del rendimiento en el torneo subió de 0.6 a 0.7, y la métrica de calidad se rediseñó tras detectar que la mejora estructural de los mazos había dejado saturados a varios de sus componentes. Ese refinamiento se detalla en la sección~\ref{sec:refinamiento}.
 
-La diferencia entre el punto de partida y el estado actual es medible en cada dimensión que importaba. El pico de fitness pasó de 0,791 a 0,9755. Los mazos dejaron de ser colecciones de copias únicas para convertirse en construcciones con packs consolidados, manabases coherentes y planes de juego identificables. La población dobló su tamaño sin que el coste por generación se disparara. Además, los mazos del Hall of Fame final contienen cartas reconocibles del meta competitivo de Standard.
+La diferencia entre el punto de partida y el estado actual es medible en cada dimensión que importaba. El pico de fitness pasó de 0.791 a 0.9755. Los mazos dejaron de ser colecciones de copias únicas para convertirse en construcciones con packs consolidados, manabases coherentes y planes de juego identificables. La población dobló su tamaño sin que el coste por generación se disparara. Además, los mazos del Hall of Fame final contienen cartas reconocibles del meta competitivo de Standard.
 
 El resto del capítulo documenta esa transición con los experimentos que la sostienen. La sección~\ref{sec:experimento-ab} valida el paso a operadores pack-aware con una comparativa controlada. La sección~\ref{sec:refinamiento} detalla el rediseño de la métrica de calidad. La sección~\ref{sec:gauntlet} examina una vía que se exploró y se descartó. La sección~\ref{sec:run-final} analiza la ejecución más extensa con el sistema ya maduro, con el que culmina el capítulo.
 
@@ -49,7 +49,7 @@ El resto del capítulo documenta esa transición con los experimentos que la sos
 
 El segundo de los tres cambios de diseño descritos en la sección~\ref{sec:evolucion}, el paso a operadores pack-aware, es el que más afecta a la forma de los mazos. Este experimento lo valida con una comparativa controlada. El experimento examina qué ocurre cuando los operadores genéticos dejan de trabajar en copias sueltas y pasan a operar en packs de cuatro. La hipótesis es que un algoritmo que tome decisiones al nivel en que las toman los jugadores humanos (incluir o excluir una carta como conjunto de cuatro copias) producirá mazos estructuralmente más próximos a los que se juegan en competición. Para validarla se realizaron dos ejecuciones con configuración nominal idéntica. Solo difiere la lógica de variación.
 
-La ejecución de referencia, denominada en adelante \emph{baseline}, usa los operadores originales que modifican copias individuales. La ejecución \emph{pack-aware} sustituye esos operadores por siete operadores temáticos, cada uno modelado sobre una decisión propia de la construcción de mazos: intercambio genérico de cartas, completar packs parciales, ajustar la curva de maná, inyectar respuestas (\emph{removal}), consolidar manabase, mejorar amenazas por coste y reforzar tribus. Ambas corren sobre el mismo catálogo de 4.130 cartas.
+La ejecución de referencia, denominada en adelante \emph{baseline}, usa los operadores originales que modifican copias individuales. La ejecución \emph{pack-aware} sustituye esos operadores por siete operadores temáticos, cada uno modelado sobre una decisión propia de la construcción de mazos: intercambio genérico de cartas, completar packs parciales, ajustar la curva de maná, inyectar respuestas (\emph{removal}), consolidar manabase, mejorar amenazas por coste y reforzar tribus. Ambas corren sobre el mismo catálogo de 4130 cartas.
 
 \subsection{Configuración del experimento}
 
@@ -68,14 +68,14 @@ Generaciones & 30 & 30 \\
 Enfrentamientos por generación & 160 & 160 \\
 Selección & Swiss Tournament ($k=8$) & Swiss Tournament ($k=8$) \\
 Cuota Hall of Fame por arquetipo & 3 & 3 \\
-Conjunto de cartas & 4.130 IDs & 4.130 IDs \\
+Conjunto de cartas & 4130 IDs & 4130 IDs \\
 Operadores de variación & Copia individual & Pack de 4 copias \\
 \bottomrule
 \end{tabular}
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-El baseline se reanudó una vez: los datos de estadísticas de las generaciones 0-18 no quedaron persistidos en el checkpoint, de modo que solo se dispone de las últimas 12 generaciones (19-30) en los logs de esa ejecución. La ejecución pack-aware corrió de forma continua durante 67,1 horas con 31 generaciones completas y ningún reinicio.
+El baseline se reanudó una vez: los datos de estadísticas de las generaciones 0-18 no quedaron persistidos en el checkpoint, de modo que solo se dispone de las últimas 12 generaciones (19-30) en los logs de esa ejecución. La ejecución pack-aware corrió de forma continua durante 67.1 horas con 31 generaciones completas y ningún reinicio.
 
 \subsection{Integridad estructural de los mazos}
 
@@ -91,19 +91,19 @@ Antes de comparar el fitness conviene examinar la forma de los mazos que produce
 \midrule
 Mazos con 60 cartas exactas & 40/40 & 40/40 \\
 Violaciones de la norma 4-of & 0 & 0 \\
-\emph{Singletons} no-tierra por mazo (media) & 3,55 & 0,17 \\
-Sets de 4 copias por mazo (media) & 5,55 & 7,83 \\
-Tierras no básicas por mazo (media) & 0,68 & 4,00 \\
-Tierras totales por mazo (media) & 20,52 & 25,95 \\
-Tasa de fallos en combate & 0,078\,\% & 0,010\,\% \\
+\emph{Singletons} no-tierra por mazo (media) & 3.55 & 0.17 \\
+Sets de 4 copias por mazo (media) & 5.55 & 7.83 \\
+Tierras no básicas por mazo (media) & 0.68 & 4.00 \\
+Tierras totales por mazo (media) & 20.52 & 25.95 \\
+Tasa de fallos en combate & 0.078\,\% & 0.010\,\% \\
 \bottomrule
 \end{tabular}
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3,55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas (cartas de ajuste puntual, pensadas para situaciones concretas). Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de consolidación de \emph{singletons} podía eliminarlos.
+El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3.55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas (cartas de ajuste puntual, pensadas para situaciones concretas). Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de consolidación de \emph{singletons} podía eliminarlos.
 
-El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0,17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5,55 a 7,83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0,68 a 4,00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} (tierras que producen dos colores) y tierras de utilidad seleccionadas deliberadamente. La figura~\ref{fig:estructura} resume estas tres diferencias.
+El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0.17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5.55 a 7.83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0.68 a 4.00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} (tierras que producen dos colores) y tierras de utilidad seleccionadas deliberadamente. La figura~\ref{fig:estructura} resume estas tres diferencias.
 
 \begin{figure}[H]
 \centering
@@ -125,18 +125,18 @@ La tabla~\ref{tab:fitness-ab} compara los estadísticos de fitness de ambas ejec
 \toprule
 \textbf{Estadístico} & \textbf{Baseline} & \textbf{Pack-aware} \\
 \midrule
-Pico de \emph{best\_fit} & 0,8906 (gen 29) & 0,8778 (gen 20) \\
-\emph{Avg\_fit} en generación final & 0,6171 & 0,6298 \\
-\emph{Best\_fit} medio (gens 19-30) & 0,8174 & 0,8200 \\
-\emph{Avg\_fit} medio (gens 19-30) & 0,6104 & 0,6256 \\
+Pico de \emph{best\_fit} & 0.8906 (gen 29) & 0.8778 (gen 20) \\
+\emph{Avg\_fit} en generación final & 0.6171 & 0.6298 \\
+\emph{Best\_fit} medio (gens 19-30) & 0.8174 & 0.8200 \\
+\emph{Avg\_fit} medio (gens 19-30) & 0.6104 & 0.6256 \\
 \bottomrule
 \end{tabular}
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-El pico del mejor individuo baja 1,4 puntos porcentuales en la ejecución pack-aware. Es el único indicador que retrocede. El \emph{avg\_fit} final mejora un 2,1\,\% y la media de \emph{avg\_fit} en la ventana comparable también es superior. El diseño pack-aware eleva el rendimiento medio de la población a costa de una ligera reducción en su valor máximo.
+El pico del mejor individuo baja 1.4 puntos porcentuales en la ejecución pack-aware. Es el único indicador que retrocede. El \emph{avg\_fit} final mejora un 2.1\,\% y la media de \emph{avg\_fit} en la ventana comparable también es superior. El diseño pack-aware eleva el rendimiento medio de la población a costa de una ligera reducción en su valor máximo.
 
-La trayectoria interna de la ejecución pack-aware muestra un comportamiento evolutivo adecuado. El \emph{avg\_fit} sube de 0,555 en la generación 0 a 0,630 en la 30, una ganancia del 13,5\,\% con curva sin saltos bruscos. La diversidad estructural de la población cae de 0,878 a 0,396, lo que refleja convergencia progresiva, no colapso súbito. La tasa de mutación adaptativa escaló a 0,9 en las generaciones 14-18 al detectar estancamiento; esa presión adicional produjo el pico de 0,878 en la generación 20. Las generaciones siguientes relajaron la tasa y no superaron ese pico, aunque el Hall of Fame lo retuvo.
+La trayectoria interna de la ejecución pack-aware muestra un comportamiento evolutivo adecuado. El \emph{avg\_fit} sube de 0.555 en la generación 0 a 0.630 en la 30, una ganancia del 13.5\,\% con curva sin saltos bruscos. La diversidad estructural de la población cae de 0.878 a 0.396, lo que refleja convergencia progresiva, no colapso súbito. La tasa de mutación adaptativa escaló a 0.9 en las generaciones 14-18 al detectar estancamiento; esa presión adicional produjo el pico de 0.878 en la generación 20. Las generaciones siguientes relajaron la tasa y no superaron ese pico, aunque el Hall of Fame lo retuvo.
 
 \subsection{Inspección cualitativa del Hall of Fame}
 
@@ -152,7 +152,7 @@ La diferencia más visible entre las dos ejecuciones no está en las tablas de f
 \texttt{1 Bloodletter of Aclazotz, 1 Lion Heart}
 \end{center}
 
-Solo dos packs de cuatro copias. Ocho cartas en copia única. El mazo tiene fitness 0,891 pero ningún jugador de competición lo llevaría a un torneo. Es un ensamblaje de piezas que gana partidas en su propio entorno de evaluación —el torneo interno frente al resto de la población— pero carece de plan de juego legible.
+Solo dos packs de cuatro copias. Ocho cartas en copia única. El mazo tiene fitness 0.891 pero ningún jugador de competición lo llevaría a un torneo. Es un ensamblaje de piezas que gana partidas en su propio entorno de evaluación (el torneo interno frente al resto de la población) pero carece de plan de juego legible.
 
 El mejor individuo de la ejecución pack-aware es distinto:
 
@@ -175,7 +175,7 @@ El resto del Hall of Fame de la ejecución pack-aware muestra el mismo patrón. 
 
 La norma de cuatro copias no es un detalle de implementación. Determina si el algoritmo explora el mismo espacio de configuraciones que recorre un jugador humano o uno esencialmente distinto. En la construcción de mazos de \emph{constructed}, incluir una carta significa incluir cuatro copias: esa es la granularidad mínima con la que razona un jugador. Un operador que modifica copias individuales opera en un espacio de búsqueda que los jugadores humanos nunca recorren.
 
-Los datos del experimento cuantifican el coste y el beneficio de cambiar esa granularidad. El coste es 1,4 puntos porcentuales en el pico de \emph{best\_fit}. El beneficio es una reducción del 95\,\% en \emph{singletons} no-tierra, un incremento del 41\,\% en packs consolidados, y un salto del 488\,\% en tierras no básicas por mazo. El fitness medio de la población sube un 2,1\,\%. La tasa de fallos en combate cae un 87\,\%.
+Los datos del experimento cuantifican el coste y el beneficio de cambiar esa granularidad. El coste es 1.4 puntos porcentuales en el pico de \emph{best\_fit}. El beneficio es una reducción del 95\,\% en \emph{singletons} no-tierra, un incremento del 41\,\% en packs consolidados, y un salto del 488\,\% en tierras no básicas por mazo. El fitness medio de la población sube un 2.1\,\%. La tasa de fallos en combate cae un 87\,\%.
 
 El balance entre coste y beneficio es favorable para el objetivo de este TFG: generar mazos que se parezcan a los que se construyen y juegan en competición. La variante baseline era más explotativa frente a su propio entorno de evaluación, pero sus mazos no serían competitivos fuera de ese contexto. El pack-aware produce mazos menos ajustados al simulador y más próximos al estándar del formato.
 
@@ -208,23 +208,23 @@ La métrica de calidad combinaba seis componentes con pesos distintos. Antes del
 \toprule
 \textbf{Componente} & \textbf{Peso} & \textbf{Media} & \textbf{StdDev} & \textbf{Rango} & \textbf{CoV} \\
 \midrule
-Estructura                & 10\,\% & 0,999 & 0,005 & 0,03 & 0,5\,\% \\
-Poder de cartas           & 15\,\% & 0,438 & 0,031 & 0,16 & 7,1\,\% \\
-Curva de maná             & 20\,\% & 0,835 & 0,064 & 0,28 & 7,7\,\% \\
+Estructura                & 10\,\% & 0.999 & 0.005 & 0.03 & 0.5\,\% \\
+Poder de cartas           & 15\,\% & 0.438 & 0.031 & 0.16 & 7.1\,\% \\
+Curva de maná             & 20\,\% & 0.835 & 0.064 & 0.28 & 7.7\,\% \\
 \midrule
-Coherencia de arquetipo   & 15\,\% & 0,886 & 0,153 & 0,51 & 17,3\,\% \\
-Sinergia                  & 20\,\% & 0,679 & 0,188 & 0,69 & 27,7\,\% \\
-Equilibrio de categorías  & 20\,\% & 0,747 & 0,230 & 0,90 & 30,7\,\% \\
+Coherencia de arquetipo   & 15\,\% & 0.886 & 0.153 & 0.51 & 17.3\,\% \\
+Sinergia                  & 20\,\% & 0.679 & 0.188 & 0.69 & 27.7\,\% \\
+Equilibrio de categorías  & 20\,\% & 0.747 & 0.230 & 0.90 & 30.7\,\% \\
 \midrule
-\textbf{Calidad (total)} & 100\,\% & 0,751 & 0,087 & 0,32 & 11,6\,\% \\
+\textbf{Calidad (total)} & 100\,\% & 0.751 & 0.087 & 0.32 & 11.6\,\% \\
 \bottomrule
 \end{tabular}
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-Las tres primeras filas son el problema. La estructura mide la proporción de packs consolidados frente a \emph{singletons}: todos los mazos obtienen 0,999 porque el diseño pack-aware garantiza exactamente eso. La curva de maná mide el ajuste de la curva al ideal del arquetipo, pero la función de reparación la regulariza tras cada mutación, por lo que su varianza es trivial. El poder de cartas se saturó por un problema de calibración distinto: toda la población cae en el rango 0,38-0,53, sin gradiente real.
+Las tres primeras filas son el problema. La estructura mide la proporción de packs consolidados frente a \emph{singletons}: todos los mazos obtienen 0.999 porque el diseño pack-aware garantiza exactamente eso. La curva de maná mide el ajuste de la curva al ideal del arquetipo, pero la función de reparación la regulariza tras cada mutación, por lo que su varianza es trivial. El poder de cartas se saturó por un problema de calibración distinto: toda la población cae en el rango 0.38-0.53, sin gradiente real.
 
-El 45\,\% del peso de la métrica de calidad era, en la práctica, una constante. El CoV total de 11,6\,\% refleja ese ruido: la métrica agregada distingue poco entre un mazo bien construido y uno mediocre. El efecto más visible ocurrió en las primeras ejecuciones con el gauntlet activado: ya en la generación 0 había mazos con fitness 1,0, lo que elimina cualquier gradiente selectivo desde el inicio.
+El 45\,\% del peso de la métrica de calidad era, en la práctica, una constante. El CoV total de 11.6\,\% refleja ese ruido: la métrica agregada distingue poco entre un mazo bien construido y uno mediocre. El efecto más visible ocurrió en las primeras ejecuciones con el gauntlet activado: ya en la generación 0 había mazos con fitness 1.0, lo que elimina cualquier gradiente selectivo desde el inicio.
 
 \subsection{Rediseño de la métrica}
 
@@ -238,9 +238,9 @@ La solución es directa. Se eliminan las tres componentes saturadas del cálculo
 \toprule
 \textbf{Componente} & \textbf{Peso anterior} & \textbf{Peso nuevo} & \textbf{Justificación} \\
 \midrule
-Sinergia                  & 20\,\% & 35\,\% & CoV 27,7\,\%; sinergia interna \\
-Equilibrio de categorías  & 20\,\% & 35\,\% & CoV 30,7\,\%; ratio criaturas/hechizos \\
-Coherencia de arquetipo   & 15\,\% & 30\,\% & CoV 17,3\,\%; ajuste al arquetipo \\
+Sinergia                  & 20\,\% & 35\,\% & CoV 27.7\,\%; sinergia interna \\
+Equilibrio de categorías  & 20\,\% & 35\,\% & CoV 30.7\,\%; ratio criaturas/hechizos \\
+Coherencia de arquetipo   & 15\,\% & 30\,\% & CoV 17.3\,\%; ajuste al arquetipo \\
 \midrule
 Estructura                & 10\,\% & retirada & saturada \\
 Poder de cartas           & 15\,\% & retirada & saturada \\
@@ -254,15 +254,15 @@ La sinergia y el equilibrio de categorías comparten peso porque sus CoV son equ
 
 Las componentes eliminadas se conservan en la implementación para posibles análisis comparativos futuros; únicamente se desconectan del agregado.
 
-Con la métrica rediseñada, el peso de la calidad en el fitness se reactivó en $\beta = 0{,}3$:
+Con la métrica rediseñada, el peso de la calidad en el fitness se reactivó en $\beta = 0.3$:
 
-$$\text{fitness} = 0{,}7 \cdot \text{tasa\_de\_victorias} + 0{,}3 \cdot \text{calidad}$$
+$$\text{fitness} = 0.7 \cdot \text{tasa\_de\_victorias} + 0.3 \cdot \text{calidad}$$
 
 La tasa de victorias del Swiss Tournament sigue siendo el componente principal, que es lo correcto: un mazo que gana partidas pero tiene calidad estructural discreta supera a uno con calidad excelente que pierde. La calidad refinada actúa como desempate entre individuos con una tasa de victorias similar y como ancla que evita que el algoritmo converja hacia mazos con buen rendimiento circunstancial pero incoherentes.
 
 \subsection{Validación del gradiente recuperado}
 
-Para comprobar el efecto del refinamiento se recalcularon las dos versiones de la métrica de calidad sobre los mismos cuarenta mazos de la población final de la ejecución pack-aware que emplea la tabla~\ref{tab:cov-quality}. La métrica original de seis componentes reproduce el diagnóstico previo (media 0,751, CoV 11,4\,\%), lo que valida el procedimiento. La métrica refinada de tres componentes eleva el coeficiente de variación hasta el 19,4\,\% (media 0,765, rango $[0{,}38,\ 0{,}91]$): la dispersión relativa casi se duplica, lo que confirma empíricamente que el refinamiento recupera capacidad de discriminación. La media apenas varía, y no desciende como cabría suponer: la eliminación de la componente estructural, saturada en valores altos, se compensa con la del poder de cartas, saturado en valores bajos, de modo que lo que cambia no es el nivel de la métrica, sino su varianza informativa.
+Para comprobar el efecto del refinamiento se recalcularon las dos versiones de la métrica de calidad sobre los mismos cuarenta mazos de la población final de la ejecución pack-aware que emplea la tabla~\ref{tab:cov-quality}. La métrica original de seis componentes reproduce el diagnóstico previo (media 0.751, CoV 11.4\,\%), lo que valida el procedimiento. La métrica refinada de tres componentes eleva el coeficiente de variación hasta el 19.4\,\% (media 0.765, rango $[0.38,\ 0.91]$): la dispersión relativa casi se duplica, lo que confirma empíricamente que el refinamiento recupera capacidad de discriminación. La media apenas varía, y no desciende como cabría suponer: la eliminación de la componente estructural, saturada en valores altos, se compensa con la del poder de cartas, saturado en valores bajos, de modo que lo que cambia no es el nivel de la métrica, sino su varianza informativa.
 
 El efecto práctico es que el fitness vuelve a tener gradiente en toda la distribución de la población. Dos mazos que empaten en win\_rate se diferenciarán por la sinergia interna, el balance de roles o el ajuste al arquetipo. Con el gauntlet desactivado y la calidad refinada activa, la ejecución que se analiza en la sección~\ref{sec:run-final} arranca sin los problemas de saturación que afectaron a los primeros experimentos.
 
@@ -300,7 +300,7 @@ Los cinco anchors son distintos entre sí en colores y estrategia, lo que garant
 La fórmula de fitness con gauntlet activo es aditiva:
 $$\text{fitness} = \alpha \cdot \text{tasa\_victorias} + \beta \cdot \text{calidad} + \gamma(t) \cdot \text{gauntlet}$$
 
-donde $\gamma(t)$ crece linealmente de 0,05 en la generación 0 a 0,30 en la última. Este esquema de dificultad creciente, habitual en algoritmos evolutivos, permite que el bloque interno (Swiss + calidad) guíe la exploración inicial, mientras el gauntlet adquiere peso progresivo conforme la población produce candidatos competentes cuya evaluación externa resulta pertinente.
+donde $\gamma(t)$ crece linealmente de 0.05 en la generación 0 a 0.30 en la última. Este esquema de dificultad creciente, habitual en algoritmos evolutivos, permite que el bloque interno (Swiss + calidad) guíe la exploración inicial, mientras el gauntlet adquiere peso progresivo conforme la población produce candidatos competentes cuya evaluación externa resulta pertinente.
 
 \subsection{Sesgo medible del simulador ante arquetipos de juego complejo}
 
@@ -343,8 +343,8 @@ Enfrentamientos por generación & 160 \\
 Selección & Swiss Tournament ($k=8$) \\
 Cuota Hall of Fame por arquetipo & 3 \\
 Operadores de variación & Pack-aware (7 operadores) \\
-Fitness & $0{,}7 \cdot \text{tasa\_victorias} + 0{,}3 \cdot \text{calidad}$ \\
-Conjunto de cartas & 4.130 IDs \\
+Fitness & $0.7 \cdot \text{tasa\_victorias} + 0.3 \cdot \text{calidad}$ \\
+Conjunto de cartas & 4130 IDs \\
 \bottomrule
 \end{tabular}
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
@@ -360,38 +360,38 @@ La tabla~\ref{tab:fitness-final} recoge los estadísticos de fitness en generaci
 \toprule
 \textbf{Gen} & \textbf{best\_fit} & \textbf{avg\_fit} & \textbf{diversidad} & \textbf{mut\_rate} \\
 \midrule
-0  & 0,8401 & 0,5268 & 0,871 & 0,60 \\
-5  & 0,8382 & 0,5220 & 0,762 & 0,60 \\
-10 & 0,8734 & 0,5256 & 0,735 & 0,75 \\
-15 & 0,8828 & 0,5371 & 0,562 & 0,90 \\
-18 & 0,9427 & 0,5372 & 0,586 & 0,90 \\
-22 & 0,9427 & 0,5610 & 0,541 & 0,60 \\
-30 & 0,9045 & 0,5693 & 0,418 & 0,90 \\
-38 & 0,9475 & 0,5696 & 0,477 & 0,90 \\
-\textbf{42} & \textbf{0,9755} & \textbf{0,5983} & \textbf{0,438} & \textbf{0,60} \\
+0  & 0.8401 & 0.5268 & 0.871 & 0.60 \\
+5  & 0.8382 & 0.5220 & 0.762 & 0.60 \\
+10 & 0.8734 & 0.5256 & 0.735 & 0.75 \\
+15 & 0.8828 & 0.5371 & 0.562 & 0.90 \\
+18 & 0.9427 & 0.5372 & 0.586 & 0.90 \\
+22 & 0.9427 & 0.5610 & 0.541 & 0.60 \\
+30 & 0.9045 & 0.5693 & 0.418 & 0.90 \\
+38 & 0.9475 & 0.5696 & 0.477 & 0.90 \\
+\textbf{42} & \textbf{0.9755} & \textbf{0.5983} & \textbf{0.438} & \textbf{0.60} \\
 \bottomrule
 \end{tabular}
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-El \emph{avg\_fit} sube de 0,527 en la generación 0 a 0,598 en la generación 42, un incremento del 13,5\,\%. La trayectoria es ascendente y sin saltos bruscos, lo que descarta convergencia prematura. El primer salto significativo del \emph{best\_fit} ocurre en la generación 18, donde la tasa de mutación adaptativa lleva varios ciclos a 0,9 para romper un estancamiento; ese esfuerzo produce el primer pico de 0,9427. Generaciones posteriores consolidan esa ganancia sin retroceder por debajo de 0,88.
+El \emph{avg\_fit} sube de 0.527 en la generación 0 a 0.598 en la generación 42, un incremento del 13.5\,\%. La trayectoria es ascendente y sin saltos bruscos, lo que descarta convergencia prematura. El primer salto significativo del \emph{best\_fit} ocurre en la generación 18, donde la tasa de mutación adaptativa lleva varios ciclos a 0.9 para romper un estancamiento; ese esfuerzo produce el primer pico de 0.9427. Generaciones posteriores consolidan esa ganancia sin retroceder por debajo de 0.88.
 
-El pico absoluto, 0,9755, aparece en la generación 42, la última de la ejecución. Ese dato admite una lectura favorable: el mejor individuo aún mejoraba en el momento de la terminación, lo que sugiere que el proceso no había agotado su margen de mejora. Hasta dónde podría llegar con más generaciones es, no obstante, algo que solo una ejecución más prolongada permitiría determinar. La figura~\ref{fig:fitness} muestra la trayectoria completa del mejor individuo y de la media de la población.
+El pico absoluto, 0.9755, aparece en la generación 42, la última de la ejecución. Ese dato admite una lectura favorable: el mejor individuo aún mejoraba en el momento de la terminación, lo que sugiere que el proceso no había agotado su margen de mejora. Hasta dónde podría llegar con más generaciones es, no obstante, algo que solo una ejecución más prolongada permitiría determinar. La figura~\ref{fig:fitness} muestra la trayectoria completa del mejor individuo y de la media de la población.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.82\textwidth]{images/fig_evolucion_fitness.pdf}
-\caption{Evolución del fitness de la ejecución final. El mejor de cada generación fluctúa por el ruido de la evaluación por simulación, mientras la media asciende de forma sostenida. El pico de 0,9755 se alcanza en la última generación.}
+\caption{Evolución del fitness de la ejecución final. El mejor de cada generación fluctúa por el ruido de la evaluación por simulación, mientras la media asciende de forma sostenida. El pico de 0.9755 se alcanza en la última generación.}
 \label{fig:fitness}
 \vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
-La diversidad cae de 0,871 a 0,438 a lo largo de la ejecución. Es convergencia natural: la población se especializa en torno al par cromático dominante sin colapsar. La entropía de arquetipo en la generación 42 es 0,715, un nivel que indica coexistencia real de aggro, midrange y control en el Hall of Fame, aunque con pesos desiguales. La figura~\ref{fig:dinamica} reúne la diversidad, la entropía de arquetipo y la tasa de mutación adaptativa a lo largo de la ejecución.
+La diversidad cae de 0.871 a 0.438 a lo largo de la ejecución. Es convergencia natural: la población se especializa en torno al par cromático dominante sin colapsar. La entropía de arquetipo en la generación 42 es 0.715, un nivel que indica coexistencia real de aggro, midrange y control en el Hall of Fame, aunque con pesos desiguales. La figura~\ref{fig:dinamica} reúne la diversidad, la entropía de arquetipo y la tasa de mutación adaptativa a lo largo de la ejecución.
 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.78\textwidth]{images/fig_dinamica_poblacion.pdf}
-\caption{Dinámica de la población. La diversidad y la entropía de arquetipo descienden conforme la población se especializa; la tasa de mutación sube a 0,9 en los tramos de estancamiento para forzar exploración.}
+\caption{Dinámica de la población. La diversidad y la entropía de arquetipo descienden conforme la población se especializa; la tasa de mutación sube a 0.9 en los tramos de estancamiento para forzar exploración.}
 \label{fig:dinamica}
 \vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
@@ -403,14 +403,14 @@ Cada ejecución del algoritmo converge a un único par cromático. La ejecución
 \begin{itemize}
     \item \textbf{Aggro R/W}: curva baja con Scalestorm Summoner, Inti, Seneschal of the Sun, Werefox Bodyguard y Roc Hunter como núcleo de amenazas.
     \item \textbf{Midrange R/W}: Leyline Axe, Giant Cindermaw, Defiler of Instinct y Buster Sword como paquete de presión mediada con tierras de utilidad (Temple of Triumph, Crawling Barrens).
-    \item \textbf{Control R/W}: Scalestorm Summoner como \emph{win condition} —la carta encargada de cerrar la partida— en el juego tardío, Volt Charge, Galvanize, Flame Lash y Twin Bolt como conjunto de remoción de daño, Dragon Fodder como generación de fichas (\emph{tokens}).
+    \item \textbf{Control R/W}: Scalestorm Summoner como \emph{win condition} (la carta encargada de cerrar la partida) en el juego tardío, Volt Charge, Galvanize, Flame Lash y Twin Bolt como conjunto de remoción de daño, Dragon Fodder como generación de fichas (\emph{tokens}).
 \end{itemize}
 
 Leyline Axe y Scalestorm Summoner aparecen en dos de los tres mazos del Hall of Fame, lo que señala que el algoritmo identificó esas cartas como piezas de alto valor en el contexto cromático convergido. Ambas son cartas del metajuego competitivo de Standard.
 
 \subsection{Inspección del Hall of Fame final}
 
-El mazo con la fitness más alta del Hall of Fame, y por tanto el campeón de la ejecución, es el R/W con 0,9755 que el detector de arquetipos clasifica como control:
+El mazo con la fitness más alta del Hall of Fame, y por tanto el campeón de la ejecución, es el R/W con 0.9755 que el detector de arquetipos clasifica como control:
 
 \begin{center}
 \small
@@ -420,7 +420,7 @@ El mazo con la fitness más alta del Hall of Fame, y por tanto el campeón de la
 \texttt{20 Mountain, 2 Plains, 1 Temple of Triumph, 1 Crawling Barrens, 1 Capital City}
 \end{center}
 
-Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado denso: Volt Charge, Galvanize, Flame Lash y Twin Bolt suman dieciséis cartas de daño directo, respaldadas por Scalestorm Summoner como amenaza recurrente y Dragon Fodder como generación de fichas. Leyline Axe aporta presión equipada. Con solo seis criaturas y un coste de maná medio de 3,06, la heurística lo etiqueta como control, aunque funcionalmente es un mazo de quemado agresivo. Esa discrepancia entre el arquetipo detectado y el plan de juego real ilustra el límite de una detección basada únicamente en coste medio y número de criaturas. La figura~\ref{fig:curvamana} muestra su curva de maná, concentrada en costes bajos y medios, coherente con un plan de quemado.
+Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado denso: Volt Charge, Galvanize, Flame Lash y Twin Bolt suman dieciséis cartas de daño directo, respaldadas por Scalestorm Summoner como amenaza recurrente y Dragon Fodder como generación de fichas. Leyline Axe aporta presión equipada. Con solo seis criaturas y un coste de maná medio de 3.06, la heurística lo etiqueta como control, aunque funcionalmente es un mazo de quemado agresivo. Esa discrepancia entre el arquetipo detectado y el plan de juego real ilustra el límite de una detección basada únicamente en coste medio y número de criaturas. La figura~\ref{fig:curvamana} muestra su curva de maná, concentrada en costes bajos y medios, coherente con un plan de quemado.
 
 \begin{figure}[H]
 \centering
@@ -430,15 +430,15 @@ Siete packs de cuatro copias y 25 tierras. El núcleo es un paquete de quemado d
 \vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
-La calidad del mazo campeón admite una lectura desde tres perspectivas complementarias. En el plano cuantitativo, alcanza el fitness más alto de la ejecución, 0,9755, que integra tanto su tasa de victorias en el torneo como su calidad estructural. En el plano de la composición, converge al par cromático Boros (R/W), que coincide con el de arquetipos competitivos vigentes del formato, como los mazos de tipo Boros Equipment, y reúne cartas presentes en el metajuego de Standard. Desde una valoración cualitativa del autor, con experiencia en el formato, el mazo exhibe un plan de quemado coherente, una base de tierras funcional y una curva concentrada en costes bajos y medios; un jugador reconocería la construcción como apta para competición sin necesidad de cambios estructurales. Una validación externa más exigente, que enfrentara el mazo a referencias del metajuego real, queda condicionada por el sesgo del simulador ante los arquetipos de mayor complejidad táctica, y se plantea como línea de trabajo futuro.
+La calidad del mazo campeón admite una lectura desde tres perspectivas complementarias. En el plano cuantitativo, alcanza el fitness más alto de la ejecución, 0.9755, que integra tanto su tasa de victorias en el torneo como su calidad estructural. En el plano de la composición, converge al par cromático Boros (R/W), que coincide con el de arquetipos competitivos vigentes del formato, como los mazos de tipo Boros Equipment, y reúne cartas presentes en el metajuego de Standard. Desde una valoración cualitativa del autor, con experiencia en el formato, el mazo exhibe un plan de quemado coherente, una base de tierras funcional y una curva concentrada en costes bajos y medios; un jugador reconocería la construcción como apta para competición sin necesidad de cambios estructurales. Una validación externa más exigente, que enfrentara el mazo a referencias del metajuego real, queda condicionada por el sesgo del simulador ante los arquetipos de mayor complejidad táctica, y se plantea como línea de trabajo futuro.
 
 
 \subsection{Una segunda ejecución independiente}
 \label{sec:repro}
 
-Todos los resultados anteriores proceden de una sola ejecución. Para disponer de una primera comprobación de reproducibilidad, se realizó una segunda ejecución con una configuración \emph{idéntica} a la de la ejecución final (población de 40 mazos, Swiss con $k=8$, fitness $0{,}7\cdot\text{tasa\_victorias}+0{,}3\cdot\text{calidad}$ y sin gauntlet). La única diferencia es el punto de partida: el sistema no fija la semilla del generador aleatorio, de modo que cada ejecución genera su propia población inicial de 40 mazos y toma decisiones aleatorias independientes. Ambas ejecuciones son, por tanto, réplicas independientes que arrancan de mazos distintos.
+Todos los resultados anteriores proceden de una sola ejecución. Para disponer de una primera comprobación de reproducibilidad, se realizó una segunda ejecución con una configuración \emph{idéntica} a la de la ejecución final (población de 40 mazos, Swiss con $k=8$, fitness $0.7\cdot\text{tasa\_victorias}+0.3\cdot\text{calidad}$ y sin gauntlet). La única diferencia es el punto de partida: el sistema no fija la semilla del generador aleatorio, de modo que cada ejecución genera su propia población inicial de 40 mazos y toma decisiones aleatorias independientes. Ambas ejecuciones son, por tanto, réplicas independientes que arrancan de mazos distintos.
 
-La tabla~\ref{tab:dos-ejecuciones} contrasta las dos. La segunda ejecución evolucionó durante 37 generaciones y alcanzó un pico de fitness de 0,9651 en la última, con un fitness medio que creció un 10,6\,\%. Su población no convergió al par rojo-blanco de la ejecución final, sino a un mazo \emph{midrange} monocolor blanco, articulado en torno a criaturas eficientes, remoción y varias copias del planeswalker Elspeth, Storm Slayer.
+La tabla~\ref{tab:dos-ejecuciones} contrasta las dos. La segunda ejecución evolucionó durante 37 generaciones y alcanzó un pico de fitness de 0.9651 en la última, con un fitness medio que creció un 10.6\,\%. Su población no convergió al par rojo-blanco de la ejecución final, sino a un mazo \emph{midrange} monocolor blanco, articulado en torno a criaturas eficientes, remoción y varias copias del planeswalker Elspeth, Storm Slayer.
 
 \begin{table}[H]
 \centering
@@ -449,8 +449,8 @@ La tabla~\ref{tab:dos-ejecuciones} contrasta las dos. La segunda ejecución evol
 \textbf{Métrica} & \textbf{Ejecución final} & \textbf{2.\textsuperscript{a} ejecución} \\
 \midrule
 Generaciones & 43 & 37 \\
-Pico de fitness (última gen.) & 0,9755 & 0,9651 \\
-Incremento del fitness medio & +13,5\,\% & +10,6\,\% \\
+Pico de fitness (última gen.) & 0.9755 & 0.9651 \\
+Incremento del fitness medio & +13.5\,\% & +10.6\,\% \\
 Par cromático convergido & R/W (Boros) & Mono-blanco (W) \\
 Arquetipo del campeón & Quemado agresivo & Midrange \\
 \bottomrule
@@ -458,9 +458,9 @@ Arquetipo del campeón & Quemado agresivo & Midrange \\
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-De esta comparación se extraen dos observaciones. La primera es que la convergencia a un único par cromático no es un artefacto de una ejecución concreta: las dos ejecuciones, partiendo de poblaciones iniciales distintas, convergieron cada una a un par de colores, y esos pares fueron diferentes (rojo-blanco frente a monocolor blanco). Este comportamiento respalda tanto la hipótesis de la convergencia cromática como la idea de que el sistema, a lo largo de varias ejecuciones, exploraría un ecosistema de arquetipos en lugar de una única solución. La segunda es que el pico de fitness es estable entre ejecuciones: 0,9755 y 0,9651 sitúan el rendimiento máximo en torno a 0,97 en ambos casos, lo que indica que ese nivel no depende de una semilla afortunada.
+De esta comparación se extraen dos observaciones. La primera es que la convergencia a un único par cromático no es un artefacto de una ejecución concreta: las dos ejecuciones, partiendo de poblaciones iniciales distintas, convergieron cada una a un par de colores, y esos pares fueron diferentes (rojo-blanco frente a monocolor blanco). Este comportamiento respalda tanto la hipótesis de la convergencia cromática como la idea de que el sistema, a lo largo de varias ejecuciones, exploraría un ecosistema de arquetipos en lugar de una única solución. La segunda es que el pico de fitness es estable entre ejecuciones: 0.9755 y 0.9651 sitúan el rendimiento máximo en torno a 0.97 en ambos casos, lo que indica que ese nivel no depende de una semilla afortunada.
 
-El mazo campeón de esta segunda ejecución, con fitness 0,9651, es el siguiente:
+El mazo campeón de esta segunda ejecución, con fitness 0.9651, es el siguiente:
 
 \begin{center}
 \small
@@ -472,7 +472,7 @@ El mazo campeón de esta segunda ejecución, con fitness 0,9651, es el siguiente
 \texttt{1 Tarnation Vista, 1 Fountainport}
 \end{center}
 
-Al igual que el campeón Boros, es una construcción coherente y reconocible. Reúne ocho packs de cuatro copias y exhibe un plan de juego legible: una base de criaturas blancas eficientes —Leonin Skyhunter, Coppercoat Vanguard o Sundial, Dawn Tyrant— sostiene la presión en los primeros turnos; Soul Partition y Split Up aportan la interacción, puntual y en barrido; y los cuatro ejemplares de Elspeth, Storm Slayer actúan como remate y motor de ventaja de cartas. Con veintitrés tierras y un coste de maná medio de 3,03, la curva se concentra en los costes de dos a cuatro maná —quince, diez y ocho cartas, respectivamente— y culmina en el cinco de Elspeth, un perfil propio de un midrange agresivo que un jugador reconocería como un mazo mono-blanco de competición.
+Al igual que el campeón Boros, es una construcción coherente y reconocible. Reúne ocho packs de cuatro copias y exhibe un plan de juego legible: una base de criaturas blancas eficientes (Leonin Skyhunter, Coppercoat Vanguard o Sundial, Dawn Tyrant) sostiene la presión en los primeros turnos; Soul Partition y Split Up aportan la interacción, puntual y en barrido; y los cuatro ejemplares de Elspeth, Storm Slayer actúan como remate y motor de ventaja de cartas. Con veintitrés tierras y un coste de maná medio de 3.03, la curva se concentra en los costes de dos a cuatro maná (quince, diez y ocho cartas, respectivamente) y culmina en el cinco de Elspeth, un perfil propio de un midrange agresivo que un jugador reconocería como un mazo mono-blanco de competición.
 
 Que dos ejecuciones independientes produzcan cada una un campeón estructuralmente coherente, pero de colores y plan de juego distintos, refuerza que el sistema no encuentra un único mazo afortunado, sino construcciones viables en más de un punto del espacio de arquetipos.
 

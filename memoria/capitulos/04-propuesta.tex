@@ -48,7 +48,7 @@ La población inicial no es completamente aleatoria. A cada mazo de partida se l
 
 A partir de ahí, cada generación sigue el mismo ciclo. Primero se preserva la élite: los mejores mazos históricos, almacenados en una estructura denominada Hall of Fame, pasan intactos a la nueva población. El resto se genera por reproducción. Cada par de progenitores se elige por selección de torneo, se combina mediante el operador de cruce con una cierta probabilidad y se altera mediante el operador de mutación con otra probabilidad. La nueva población se evalúa, se actualizan el Hall of Fame y las estadísticas de la ejecución, y se conserva una copia de seguridad del estado. El ciclo se repite hasta agotar el número de generaciones previsto o alcanzar un valor de fitness objetivo.
 
-La intensidad de la mutación no es constante. Se incrementa cuando el algoritmo detecta un estancamiento, es decir, varias generaciones sucesivas sin mejorar el mejor fitness, y se relaja en la fase final si la población converge sin atascarse. El ajuste es aditivo y se mantiene dentro del intervalo $[0{,}1,\ 1{,}0]$, de modo que cada episodio de estancamiento aporta un incremento perceptible en lugar de saturar la tasa de forma abrupta.
+La intensidad de la mutación no es constante. Se incrementa cuando el algoritmo detecta un estancamiento, es decir, varias generaciones sucesivas sin mejorar el mejor fitness, y se relaja en la fase final si la población converge sin atascarse. El ajuste es aditivo y se mantiene dentro del intervalo $[0.1,\ 1.0]$, de modo que cada episodio de estancamiento aporta un incremento perceptible en lugar de saturar la tasa de forma abrupta.
 
 El Hall of Fame conserva los mejores mazos históricos con una cuota estricta por arquetipo: reserva un tercio de sus plazas a cada uno de los tres arquetipos, y si un arquetipo carece de candidatos suficientes, sus plazas quedan vacías en lugar de cederse a otro. Esta restricción preserva la diversidad, ya que impide que el arquetipo dominante en un momento dado monopolice la élite y arrastre a toda la población hacia una única estrategia.
 
@@ -95,30 +95,30 @@ La función de fitness asigna a cada mazo un valor numérico que mide su calidad
 
 \begin{equation}
 \text{fitness} = \alpha \cdot \text{tasa\_de\_victorias} + \beta \cdot \text{calidad},
-\qquad \alpha = 0{,}7,\quad \beta = 0{,}3.
+\qquad \alpha = 0.7,\quad \beta = 0.3.
 \label{eq:fitness}
 \end{equation}
 
 El primer criterio, la tasa de victorias, mide el rendimiento real del mazo: la proporción de partidas que gana en el torneo frente a otros mazos de la población, según se describe en la sección~\ref{sec:torneo}. El segundo criterio, la calidad, valora cómo de bien construido está el mazo desde un punto de vista estructural, con independencia de su resultado en las partidas.
 
-Los coeficientes $\alpha$ y $\beta$ son los pesos que determinan la importancia relativa de cada criterio y suman la unidad. La elección $\alpha = 0{,}7$ y $\beta = 0{,}3$ establece que el rendimiento en partidas es el criterio dominante, mientras que la calidad estructural actúa como criterio secundario: entre dos mazos que ganan un número de partidas similar, prevalece el que está mejor construido. Este equilibrio evita que el algoritmo premie mazos que ganan por circunstancias del entorno de evaluación pero carecen de coherencia interna.
+Los coeficientes $\alpha$ y $\beta$ son los pesos que determinan la importancia relativa de cada criterio y suman la unidad. La elección $\alpha = 0.7$ y $\beta = 0.3$ establece que el rendimiento en partidas es el criterio dominante, mientras que la calidad estructural actúa como criterio secundario: entre dos mazos que ganan un número de partidas similar, prevalece el que está mejor construido. Este equilibrio evita que el algoritmo premie mazos que ganan por circunstancias del entorno de evaluación pero carecen de coherencia interna.
 
-La calidad se evalúa en el intervalo $[0,1]$ sobre el arquetipo que el mazo exhibe en cada momento, detectado a partir de su coste de maná medio y de su número de criaturas. Agrega tres componentes estructurales, cada uno normalizado en $[0,1]$, mediante una media ponderada:
+La calidad se evalúa en el intervalo $[0, 1]$ sobre el arquetipo que el mazo exhibe en cada momento, detectado a partir de su coste de maná medio y de su número de criaturas. Agrega tres componentes estructurales, cada uno normalizado en $[0, 1]$, mediante una media ponderada:
 
 \begin{equation}
-\text{calidad} = 0{,}35\cdot\text{sinergia} + 0{,}35\cdot\text{equilibrio} + 0{,}30\cdot\text{coherencia}.
+\text{calidad} = 0.35\cdot\text{sinergia} + 0.35\cdot\text{equilibrio} + 0.30\cdot\text{coherencia}.
 \label{eq:calidad}
 \end{equation}
 
 Cada componente mide una propiedad distinta de la construcción:
 
 \begin{itemize}
-    \item La \textbf{sinergia} valora la cohesión interna del mazo a partir de tres factores: la concentración en un mismo tipo de criatura (sinergia tribal), la densidad de habilidades clave —como el vuelo o el arrollar— y la consistencia cromática, que penaliza el uso de un número excesivo de colores.
+    \item La \textbf{sinergia} valora la cohesión interna del mazo a partir de tres factores: la concentración en un mismo tipo de criatura (sinergia tribal), la densidad de habilidades clave (como el vuelo o el arrollar) y la consistencia cromática, que penaliza el uso de un número excesivo de colores.
     \item El \textbf{equilibrio de categorías} compara las proporciones de tierras, criaturas y hechizos del mazo con los rangos ideales del arquetipo detectado.
     \item La \textbf{coherencia de arquetipo} contrasta el coste de maná medio, el número de criaturas y el número de tierras del mazo con los valores característicos de ese arquetipo.
 \end{itemize}
 
-Esta ponderación es el resultado de un refinamiento. Una versión inicial de la métrica incorporaba tres componentes adicionales —la estructura de \emph{playsets} de cuatro copias, el poder bruto de las cartas estimado a partir de su rareza y eficiencia, y el ajuste de la curva de maná al ideal del arquetipo—, que se retiraron al comprobar que, tras la mejora estructural de los mazos, habían dejado de discriminar entre unos y otros. Ese análisis y la recalibración resultante se detallan en la sección~\ref{sec:refinamiento}.
+Esta ponderación es el resultado de un refinamiento. Una versión inicial de la métrica incorporaba tres componentes adicionales (la estructura de \emph{playsets} de cuatro copias, el poder bruto de las cartas estimado a partir de su rareza y eficiencia, y el ajuste de la curva de maná al ideal del arquetipo), que se retiraron al comprobar que, tras la mejora estructural de los mazos, habían dejado de discriminar entre unos y otros. Ese análisis y la recalibración resultante se detallan en la sección~\ref{sec:refinamiento}.
 
 La función admite, además, un tercer criterio opcional: el rendimiento frente a un conjunto de mazos de referencia del metajuego real, denominado \emph{gauntlet}. Este componente se exploró y finalmente se descartó por los motivos que se exponen en la sección~\ref{sec:gauntlet}.
 
@@ -140,7 +140,7 @@ El cruce combina el material de dos progenitores para formar descendientes y dis
 \draw[flecha, blue!65!black] (A.east) to[out=0,in=155] (H.north west);
 \draw[flecha, orange!80!black] (B.east) to[out=0,in=205] (H.south west);
 \end{tikzpicture}
-\caption{Cruce por categoría. El descendiente hereda cada bloque de cartas —tierras, criaturas o hechizos— íntegro de uno de los dos progenitores, lo que preserva la coherencia interna del bloque en lugar de fragmentarlo por un punto de corte arbitrario. En el ejemplo, las tierras y los hechizos proceden del progenitor A y las criaturas del progenitor B.}
+\caption{Cruce por categoría. El descendiente hereda cada bloque de cartas (tierras, criaturas o hechizos) íntegro de uno de los dos progenitores, lo que preserva la coherencia interna del bloque en lugar de fragmentarlo por un punto de corte arbitrario. En el ejemplo, las tierras y los hechizos proceden del progenitor A y las criaturas del progenitor B.}
 \label{fig:cruce}
 \vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
@@ -170,7 +170,7 @@ La mutación introduce variaciones en un mazo y constituye uno de los elementos 
 
 La propuesta define siete operadores de mutación. El operador genérico intercambia una carta de baja afinidad con el arquetipo por otra de alta afinidad. Los seis restantes modelan decisiones concretas de un jugador que construye un mazo: completar un pack parcial hasta las cuatro copias, aproximar la curva de maná al ideal del arquetipo, incorporar cartas de respuesta cuando faltan, podar un color secundario para consolidar la base de tierras, sustituir una criatura por otra de igual coste y mejores características, y reforzar la tribu dominante (el tipo de criatura predominante, que habilita sinergias tribales). Cuando un operador temático no encuentra candidatos viables, recurre al intercambio genérico, de modo que ninguna mutación queda sin efecto. Un mecanismo de reparto pondera los siete operadores según el régimen evolutivo: durante el estancamiento prima el intercambio exploratorio, mientras que en marcha normal el peso se distribuye entre la consolidación y los operadores temáticos.
 
-Tras cualquier operación de cruce o mutación, una función de reparación restablece el cumplimiento de las restricciones del formato. Consolida los \emph{singletons} sobrantes —cartas presentes en una sola copia— hasta dejar un máximo de dos, ajusta el total a sesenta cartas, impone el número mínimo de tierras propio del arquetipo (veinte para aggro, veintitrés para midrange y veinticinco para control), garantiza al menos una tierra básica por cada color empleado y rebalancea la base de tierras para que las fuentes de cada color sean proporcionales a su demanda, según la heurística de Karsten descrita en la ecuación~\ref{eq:karsten}. Esta reparación es la garante de las restricciones duras del formato.
+Tras cualquier operación de cruce o mutación, una función de reparación restablece el cumplimiento de las restricciones del formato. Consolida los \emph{singletons} sobrantes (cartas presentes en una sola copia) hasta dejar un máximo de dos, ajusta el total a sesenta cartas, impone el número mínimo de tierras propio del arquetipo (veinte para aggro, veintitrés para midrange y veinticinco para control), garantiza al menos una tierra básica por cada color empleado y rebalancea la base de tierras para que las fuentes de cada color sean proporcionales a su demanda, según la heurística de Karsten descrita en la ecuación~\ref{eq:karsten}. Esta reparación es la garante de las restricciones duras del formato.
 
 \section{Selección y sistema de torneo}
 \label{sec:torneo}
@@ -195,7 +195,7 @@ La diferencia tiene consecuencias prácticas. Para una población de cuarenta ma
 
 La tasa de victorias que alimenta la función de fitness no se estima con una heurística, sino que se mide jugando. Cada enfrentamiento se resuelve en el simulador Forge, que disputa tres partidas entre dos mazos con jugador inicial aleatorio en cada una; el sistema interpreta el resultado, cuenta las victorias y determina el ganador. Esta integración convierte la evaluación en una medida de rendimiento real bajo el reglamento completo del juego, y no en una aproximación.
 
-El coste de simular partidas reales obliga a paralelizar la evaluación. Los enfrentamientos de una misma generación se reparten entre varios procesos, cuyo número se fija en función de los núcleos de cómputo disponibles. Un límite de tiempo adaptativo evita que una partida bloqueada detenga la ejecución: si se acumulan interrupciones por tiempo, el límite se eleva de forma automática. En las ejecuciones reales, la tasa de partidas fallidas se mantiene por debajo del 0,1\,\%, lo que confirma que la integración con el simulador es estable a lo largo de decenas de horas de cómputo.
+El coste de simular partidas reales obliga a paralelizar la evaluación. Los enfrentamientos de una misma generación se reparten entre varios procesos, cuyo número se fija en función de los núcleos de cómputo disponibles. Un límite de tiempo adaptativo evita que una partida bloqueada detenga la ejecución: si se acumulan interrupciones por tiempo, el límite se eleva de forma automática. En las ejecuciones reales, la tasa de partidas fallidas se mantiene por debajo del 0.1\,\%, lo que confirma que la integración con el simulador es estable a lo largo de decenas de horas de cómputo.
 
 \section{Integración: el pipeline del sistema}
 \label{sec:pipeline}

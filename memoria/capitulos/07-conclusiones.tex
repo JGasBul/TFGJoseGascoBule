@@ -12,7 +12,7 @@ La pregunta de investigación planteada en la introducción era si una metaheur�
 En cuanto a los objetivos planteados en la sección~\ref{sec:objetivos}, el objetivo general, desarrollar un algoritmo genético capaz de generar mazos competitivos y estructuralmente realistas para el formato Standard evaluándolos mediante simulación real, se ha alcanzado. Los cinco objetivos específicos se cumplieron en los términos siguientes:
 
 \begin{enumerate}
-    \item \textbf{Modelado del problema y representación.} Cumplido. El catálogo se construye a partir de las cartas reales del formato Standard obtenidas de Scryfall, alrededor de 4.130 cartas, y el mazo se representa como un vector de enteros que permite operar con álgebra vectorial y codifica la norma de las cuatro copias de forma directa (capítulo~\ref{sec:arquitectura}).
+    \item \textbf{Modelado del problema y representación.} Cumplido. El catálogo se construye a partir de las cartas reales del formato Standard obtenidas de Scryfall, alrededor de 4130 cartas, y el mazo se representa como un vector de enteros que permite operar con álgebra vectorial y codifica la norma de las cuatro copias de forma directa (capítulo~\ref{sec:arquitectura}).
 
     \item \textbf{Operadores pack-aware.} Cumplido y validado cuantitativamente. Los siete operadores de mutación y los dos de cruce trabajan en packs de cuatro copias. El experimento comparativo de la sección~\ref{sec:experimento-ab} mide el efecto: los \emph{singletons} sueltos caen un 95\% y los packs consolidados suben un 41\% por mazo respecto al diseño que opera con copias individuales.
 
@@ -26,8 +26,8 @@ En cuanto a los objetivos planteados en la sección~\ref{sec:objetivos}, el obje
 Más allá del cumplimiento de los objetivos, los principales hallazgos empíricos del trabajo, sostenidos por los experimentos, son cuantificables:
 
 \begin{itemize}
-    \item El pico de fitness ascendió de 0,791 en el prototipo inicial a 0,9755 en la ejecución definitiva, y el fitness medio de la población creció un 13,5\,\% a lo largo de esa ejecución.
-    \item Los operadores a nivel de pack redujeron los \emph{singletons} sueltos un 95\,\% y aumentaron los packs consolidados un 41\,\% por mazo, con un coste de apenas 1,4 puntos porcentuales en el pico de fitness.
+    \item El pico de fitness ascendió de 0.791 en el prototipo inicial a 0.9755 en la ejecución definitiva, y el fitness medio de la población creció un 13.5\,\% a lo largo de esa ejecución.
+    \item Los operadores a nivel de pack redujeron los \emph{singletons} sueltos un 95\,\% y aumentaron los packs consolidados un 41\,\% por mazo, con un coste de apenas 1.4 puntos porcentuales en el pico de fitness.
     \item El torneo Swiss redujo en cerca de un 80\,\% los enfrentamientos por generación frente al round-robin, lo que permitió duplicar la población de 20 a 40 mazos sin incrementar el coste.
     \item La exploración del gauntlet reveló que solo tres de los cinco mazos de referencia del metajuego se ejecutan de forma fiable en el simulador, lo que motivó su descarte como componente de fitness.
 \end{itemize}
@@ -46,13 +46,13 @@ Cada ejecución converge a un único par cromático, un comportamiento que se ob
 
 La evaluación hereda el sesgo de la inteligencia artificial de Forge. El simulador ejecuta por debajo de su potencial los arquetipos de mayor complejidad táctica, lo que invalida cualquier medida de rendimiento contra mazos que dependan de ese tipo de juego. Esta limitación es la que impidió usar el gauntlet del meta real como referencia externa.
 
-El fitness es estocástico. El valor de un mazo varía entre evaluaciones por el azar del reparto inicial y de las decisiones de la IA. El pico de 0,9755 del mejor mazo es el valor que el Hall of Fame conservó en el momento de su mejor evaluación, no una media estable; su rendimiento esperado real es algo menor.
+El fitness es estocástico. El valor de un mazo varía entre evaluaciones por el azar del reparto inicial y de las decisiones de la IA. El pico de 0.9755 del mejor mazo es el valor que el Hall of Fame conservó en el momento de su mejor evaluación, no una media estable; su rendimiento esperado real es algo menor.
 
 La calibración es específica de Standard. Los rangos ideales de curva de maná, los pisos de tierras por arquetipo y la composición del catálogo están ajustados a este formato. Aplicar el sistema a otro formato exigiría recalibrar esos parámetros y reconstruir el conjunto de cartas.
 
 Por último, el coste computacional es alto. Una ejecución completa ocupa varios días de cómputo, lo que limita el número de experimentos que se pueden encadenar y la rapidez con la que se puede iterar sobre el diseño.
 
-En conjunto, estas limitaciones pueden ordenarse según el tipo de validez que comprometen. La \emph{validez de constructo} —hasta qué punto el fitness mide realmente la calidad de un mazo— está acotada por su naturaleza de \emph{proxy}: la tasa de victorias depende del criterio de la inteligencia artificial de Forge y la métrica de calidad es una heurística estructural, de modo que un fitness alto no equivale sin más al juicio de un jugador experto. La \emph{validez interna} —la solidez de las relaciones causales observadas— se apoya en la comparativa controlada del experimento A/B y en la segunda ejecución independiente, pero queda limitada por el uso de ejecuciones únicas, la ausencia de control de la semilla y la pérdida parcial de los datos del baseline. La \emph{validez externa} —la generalización de los resultados— está condicionada por el sesgo del simulador frente al juego humano, por la calibración específica del formato Standard y por la convergencia de cada ejecución a un único par cromático. Reconocer estas fronteras delimita con precisión el alcance de lo que el trabajo demuestra.
+En conjunto, estas limitaciones pueden ordenarse según el tipo de validez que comprometen. La \emph{validez de constructo} (hasta qué punto el fitness mide realmente la calidad de un mazo) está acotada por su naturaleza de \emph{proxy}: la tasa de victorias depende del criterio de la inteligencia artificial de Forge y la métrica de calidad es una heurística estructural, de modo que un fitness alto no equivale sin más al juicio de un jugador experto. La \emph{validez interna} (la solidez de las relaciones causales observadas) se apoya en la comparativa controlada del experimento A/B y en la segunda ejecución independiente, pero queda limitada por el uso de ejecuciones únicas, la ausencia de control de la semilla y la pérdida parcial de los datos del baseline. La \emph{validez externa} (la generalización de los resultados) está condicionada por el sesgo del simulador frente al juego humano, por la calibración específica del formato Standard y por la convergencia de cada ejecución a un único par cromático. Reconocer estas fronteras delimita con precisión el alcance de lo que el trabajo demuestra.
 
 \section{Líneas de trabajo futuro}
 

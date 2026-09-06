@@ -12,12 +12,12 @@ La introducción ha planteado la construcción de mazos como un problema de opti
 
 Magic: The Gathering es un juego de cartas en el que dos jugadores se enfrentan con sus respectivos mazos. Cada jugador comienza con una cantidad de puntos de vida y vence cuando reduce a cero los del rival, habitualmente mediante criaturas que atacan y hechizos que interactúan con el estado de la partida \cite{wotc_rules}. El recurso que permite jugar cartas es el maná, que se produce mayoritariamente con tierras y se divide en cinco colores: blanco, azul, negro, rojo y verde. Cada color se identifica de forma abreviada por su inicial en inglés: W (blanco), U (azul), B (negro), R (rojo) y G (verde). Los mazos se describen por los colores que emplean, y las combinaciones de dos colores reciben además nombres propios tomados del juego; por ejemplo, el par rojo-blanco (R/W) se denomina Boros, el azul-rojo (U/R) Izzet, el azul-blanco (U/W) Azorius y el azul-negro (U/B) Dimir. La etiqueta \emph{Mono-Red} designa un mazo de un solo color, el rojo.
 
-La construcción del mazo está sujeta a reglas que el reglamento oficial fija con precisión \cite{wotc_rules}. En los formatos de \emph{constructed} —aquellos en los que cada jugador construye su mazo de antemano a partir de todas las cartas de las que dispone, por oposición a los formatos limitados, donde el mazo se arma con cartas abiertas en el momento—, un mazo contiene un mínimo de sesenta cartas y no puede incluir más de cuatro copias de ninguna carta, con la única excepción de las tierras básicas, admitidas en cualquier número. Esta norma de las cuatro copias condiciona directamente el proceso de construcción: incluir una carta en un mazo equivale, casi siempre, a incluir cuatro copias de ella, ya que esa es la cantidad que maximiza la probabilidad de robarla cuando se necesita. La decisión del jugador no reside, por tanto, en cuántas copias incorporar, sino en si la carta entra o no en el mazo.
+La construcción del mazo está sujeta a reglas que el reglamento oficial fija con precisión \cite{wotc_rules}. En los formatos de \emph{constructed} (aquellos en los que cada jugador construye su mazo de antemano a partir de todas las cartas de las que dispone, por oposición a los formatos limitados, donde el mazo se arma con cartas abiertas en el momento), un mazo contiene un mínimo de sesenta cartas y no puede incluir más de cuatro copias de ninguna carta, con la única excepción de las tierras básicas, admitidas en cualquier número. Esta norma de las cuatro copias condiciona directamente el proceso de construcción: incluir una carta en un mazo equivale, casi siempre, a incluir cuatro copias de ella, ya que esa es la cantidad que maximiza la probabilidad de robarla cuando se necesita. La decisión del jugador no reside, por tanto, en cuántas copias incorporar, sino en si la carta entra o no en el mazo.
 
 La base de tierras, o \emph{manabase}, constituye el subsistema que determina si el mazo puede pagar de forma consistente el maná de los colores que sus cartas exigen. Karsten formalizó este problema de manera cuantitativa y derivó heurísticas que relacionan el número de fuentes de un color con la demanda de dicho color en el mazo \cite{karsten_manabase}. La idea subyacente es que la probabilidad de disponer de un color en el momento oportuno crece con el número de fuentes que lo producen. El sistema de este trabajo incorpora una aproximación lineal a esas heurísticas: estima las fuentes necesarias de un color como una fracción de la demanda de símbolos de maná (\emph{pips}) de ese color, con un mínimo de tres fuentes,
 
 \begin{equation}
-\text{fuentes}(c) \;\approx\; \max\bigl(3,\; \lceil \kappa \cdot \text{pips}(c) \rceil \bigr), \qquad \kappa \approx 0{,}45,
+\text{fuentes}(c) \;\approx\; \max\bigl(3,\; \lceil \kappa \cdot \text{pips}(c) \rceil \bigr), \qquad \kappa \approx 0.45,
 \label{eq:karsten}
 \end{equation}
 
@@ -30,7 +30,7 @@ El formato Standard, sobre el que se centra este trabajo, restringe las cartas l
 El tamaño del espacio de búsqueda puede acotarse para justificar la elección de un método aproximado. Un mazo de Standard se compone de alrededor de quince cartas no básicas distintas, cada una incluida como un conjunto de hasta cuatro copias, junto con una base de tierras. Considerando únicamente la elección de esas cartas distintas a partir de un catálogo de aproximadamente $4\,130$ cartas legales, el número de combinaciones posibles es del orden de
 
 \begin{equation}
-\binom{4130}{15} \approx 1{,}3 \times 10^{42}.
+\binom{4130}{15} \approx 1.3 \times 10^{42}.
 \label{eq:espacio}
 \end{equation}
 
