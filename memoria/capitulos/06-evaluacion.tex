@@ -129,7 +129,7 @@ Tasa de fallos en combate & 0.078\,\% & 0.010\,\% \\
 
 El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3.55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas (cartas de ajuste puntual, pensadas para situaciones concretas). Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de consolidación de \emph{singletons} podía eliminarlos.
 
-El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0.17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5.55 a 7.83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0.68 a 4.00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} (tierras que producen dos colores) y tierras de utilidad seleccionadas deliberadamente. La figura~\ref{fig:estructura} resume estas tres diferencias.
+El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0.17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5.55 a 7.83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0.68 a 4.00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} (tierras que producen dos colores) y tierras de utilidad seleccionadas deliberadamente. En la figura~\ref{fig:estructura} se aprecia el contraste de un vistazo. Las tres magnitudes invierten su relación entre una variante y otra, ya que los \emph{singletons} sueltos, elevados en el baseline, se desploman con el pack-aware, mientras que los packs consolidados y las tierras no básicas, escasos en el baseline, crecen de forma marcada.
 
 \begin{figure}[H]
 \centering
@@ -141,7 +141,7 @@ El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0.17 
 
 \subsection{Evolución del fitness}
 
-La tabla~\ref{tab:fitness-ab} compara los estadísticos de fitness de ambas ejecuciones en la ventana de generaciones disponible para las dos.
+La comparativa anterior muestra que las dos variantes producen mazos de forma muy distinta. Queda por comprobar si esa diferencia estructural se traslada también al rendimiento que mide el fitness. La tabla~\ref{tab:fitness-ab} recoge los estadísticos de fitness de ambas ejecuciones en la ventana de generaciones disponible para las dos.
 
 \begin{table}[H]
 \centering
@@ -160,7 +160,7 @@ Pico de \emph{best\_fit} & 0.8906 (gen 29) & 0.8778 (gen 20) \\
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-El pico del mejor individuo baja 1.4 puntos porcentuales en la ejecución pack-aware. Es el único indicador que retrocede. El \emph{avg\_fit} final mejora un 2.1\,\% y la media de \emph{avg\_fit} en la ventana comparable también es superior. El diseño pack-aware eleva el rendimiento medio de la población a costa de una ligera reducción en su valor máximo.
+Como puede observarse en la tabla, el pico del mejor individuo baja 1.4 puntos porcentuales en la ejecución pack-aware y es, de hecho, el único indicador que retrocede. Por contra, el \emph{avg\_fit} final mejora un 2.1\,\% y la media de \emph{avg\_fit} en la ventana comparable también resulta superior. El diseño pack-aware eleva el rendimiento medio de la población a costa de una ligera reducción en su valor máximo.
 
 La trayectoria interna de la ejecución pack-aware muestra un comportamiento evolutivo adecuado. El \emph{avg\_fit} sube de 0.555 en la generación 0 a 0.630 en la 30, una ganancia del 13.5\,\% con curva sin saltos bruscos. La diversidad estructural de la población cae de 0.878 a 0.396, lo que refleja convergencia progresiva, no colapso súbito. La tasa de mutación adaptativa escaló a 0.9 en las generaciones 14-18 al detectar estancamiento; esa presión adicional produjo el pico de 0.878 en la generación 20. Las generaciones siguientes relajaron la tasa y no superaron ese pico, aunque el Hall of Fame lo retuvo.
 
@@ -205,7 +205,7 @@ Los datos del experimento cuantifican el coste y el beneficio de cambiar esa gra
 
 El balance entre coste y beneficio es favorable para el objetivo de este TFG: generar mazos que se parezcan a los que se construyen y juegan en competición. La variante baseline era más explotativa frente a su propio entorno de evaluación, pero sus mazos no serían competitivos fuera de ese contexto. El pack-aware produce mazos menos ajustados al simulador y más próximos al estándar del formato.
 
-El cambio de granularidad también reorienta el arquetipo dominante de la población. La figura~\ref{fig:arquetipos} muestra el contraste: el baseline converge a una mayoría de mazos de agresión, mientras que el pack-aware desplaza la población hacia el midrange. Ambos resultados son legítimos, pero la convergencia del pack-aware hacia un único arquetipo dominante anticipa el problema de la monocultura que motiva la exploración del gauntlet (sección~\ref{sec:gauntlet}).
+El cambio de granularidad también reorienta el arquetipo dominante de la población. En la figura~\ref{fig:arquetipos} puede observarse ese contraste. La población del baseline se concentra en los mazos de agresión, mientras que la del pack-aware se desplaza con claridad hacia el midrange. Ambos resultados son legítimos, pero la convergencia del pack-aware hacia un único arquetipo dominante anticipa el problema de la monocultura que motiva la exploración del gauntlet (sección~\ref{sec:gauntlet}).
 
 \begin{figure}[H]
 \centering
