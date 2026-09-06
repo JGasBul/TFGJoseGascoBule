@@ -280,9 +280,7 @@ La sinergia y el equilibrio de categorías comparten peso porque sus CoV son equ
 
 Las componentes eliminadas se conservan en la implementación para posibles análisis comparativos futuros; únicamente se desconectan del agregado.
 
-Con la métrica rediseñada, el peso de la calidad en el fitness se reactivó en $\beta = 0.3$:
-
-$$\text{fitness} = 0.7 \cdot \text{tasa\_de\_victorias} + 0.3 \cdot \text{calidad}$$
+Con la métrica rediseñada, el peso de la calidad en el fitness se reactivó en $\beta = 0.3$, con lo que la función recupera la forma de la ecuación~\ref{eq:fitness}.
 
 La tasa de victorias del Swiss Tournament sigue siendo el componente principal, que es lo correcto: un mazo que gana partidas pero tiene calidad estructural discreta supera a uno con calidad excelente que pierde. La calidad refinada actúa como desempate entre individuos con una tasa de victorias similar y como ancla que evita que el algoritmo converja hacia mazos con buen rendimiento circunstancial pero incoherentes.
 
@@ -325,10 +323,14 @@ Boros Equipment         & midrange    & R/W & MTGGoldfish (jun 2025) \\
 
 Los cinco anchors son distintos entre sí en colores y estrategia, lo que garantiza que ningún par cromático de la población lo gana todo de entrada. La diversidad del gauntlet es el mecanismo que fuerza diversidad en la población: un mazo aggro R obtendrá buen win-rate contra Azorius pero malo contra Mono-Red; un control U/W hará lo opuesto. El gauntlet presiona en cinco direcciones a la vez.
 
-La fórmula de fitness con gauntlet activo es aditiva:
-$$\text{fitness} = \alpha \cdot \text{tasa\_victorias} + \beta \cdot \text{calidad} + \gamma(t) \cdot \text{gauntlet}$$
+Con el gauntlet activo, la función de fitness incorpora un tercer término de forma aditiva, como recoge la ecuación~\ref{eq:fitness-gauntlet}.
 
-donde $\gamma(t)$ crece linealmente de 0.05 en la generación 0 a 0.30 en la última. Este esquema de dificultad creciente, habitual en algoritmos evolutivos, permite que el bloque interno (Swiss + calidad) guíe la exploración inicial, mientras el gauntlet adquiere peso progresivo conforme la población produce candidatos competentes cuya evaluación externa resulta pertinente.
+\begin{equation}
+\text{fitness} = \alpha \cdot \text{tasa\_victorias} + \beta \cdot \text{calidad} + \gamma(t) \cdot \text{gauntlet}.
+\label{eq:fitness-gauntlet}
+\end{equation}
+
+En esta expresión, $\gamma(t)$ crece linealmente de 0.05 en la generación 0 a 0.30 en la última. Este esquema de dificultad creciente, habitual en algoritmos evolutivos, permite que el bloque interno (Swiss + calidad) guíe la exploración inicial, mientras el gauntlet adquiere peso progresivo conforme la población produce candidatos competentes cuya evaluación externa resulta pertinente.
 
 \subsection{Sesgo medible del simulador ante arquetipos de juego complejo}
 

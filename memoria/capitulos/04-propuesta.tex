@@ -99,7 +99,7 @@ La función de fitness asigna a cada mazo un valor numérico que mide su calidad
 \label{eq:fitness}
 \end{equation}
 
-El primer criterio, la tasa de victorias, mide el rendimiento real del mazo: la proporción de partidas que gana en el torneo frente a otros mazos de la población, según se describe en la sección~\ref{sec:torneo}. El segundo criterio, la calidad, valora cómo de bien construido está el mazo desde un punto de vista estructural, con independencia de su resultado en las partidas.
+El primer criterio de la ecuación~\ref{eq:fitness}, la tasa de victorias, mide el rendimiento real del mazo: la proporción de partidas que gana en el torneo frente a otros mazos de la población, según se describe en la sección~\ref{sec:torneo}. El segundo criterio, la calidad, valora cómo de bien construido está el mazo desde un punto de vista estructural, con independencia de su resultado en las partidas.
 
 Los coeficientes $\alpha$ y $\beta$ ponderan la importancia relativa de cada criterio y suman la unidad. La tasa de victorias recibe el peso mayor porque mide directamente el objetivo del sistema, que es ganar partidas, mientras que la calidad estructural actúa como criterio secundario y como regularizador. Su función es doble. Por un lado desempata entre mazos con un rendimiento similar en favor del que está mejor construido. Por otro evita que el algoritmo premie mazos que ganan por circunstancias del entorno de evaluación pero carecen de coherencia interna. Los valores concretos, $\alpha = 0.7$ y $\beta = 0.3$, no se fijaron de forma arbitraria. Parten de una configuración inicial de $0.6$ y $0.4$ que se reajustó al comprobar que la métrica de calidad había perdido capacidad de discriminación (sección~\ref{sec:refinamiento}), lo que aconsejaba rebajar su peso sin llegar a anularlo. Una calibración más fina de estos coeficientes, mediante un análisis de sensibilidad que barra distintas proporciones, se plantea como línea de trabajo futuro.
 
@@ -110,7 +110,7 @@ La calidad se evalúa en el intervalo $[0, 1]$ sobre el arquetipo que el mazo ex
 \label{eq:calidad}
 \end{equation}
 
-Cada componente mide una propiedad distinta de la construcción:
+Cada componente de la ecuación~\ref{eq:calidad} mide una propiedad distinta de la construcción:
 
 \begin{itemize}
     \item La \textbf{sinergia} valora la cohesión interna del mazo a partir de tres factores: la concentración en un mismo tipo de criatura (sinergia tribal), la densidad de habilidades clave (como el vuelo o el arrollar) y la consistencia cromática, que penaliza el uso de un número excesivo de colores.
