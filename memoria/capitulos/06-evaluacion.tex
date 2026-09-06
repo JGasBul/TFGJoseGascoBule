@@ -12,7 +12,33 @@
 \chapter{Evaluación experimental}
 \label{cap:desarrollo}
 
-Implementado el sistema, procede ponerlo a prueba. Este capítulo documenta el proceso experimental que validó la propuesta y qué evidencia sostiene cada decisión de diseño. Empieza por la evolución del proyecto, desde el primer prototipo hasta el sistema maduro, y continúa con los experimentos que validan los cambios: la comparativa que justifica los operadores pack-aware, el refinamiento de la métrica de calidad, la ejecución más extensa con el sistema completo y una vía que se exploró y se descartó.
+Implementado el sistema, procede ponerlo a prueba. Este capítulo documenta el proceso experimental que validó la propuesta y la evidencia que sostiene cada decisión de diseño. Conviene advertir desde el principio que lo que sigue no es una colección de pruebas independientes, sino un recorrido guiado. Cada experimento responde a una pregunta que planteó el anterior, de acuerdo con la metodología iterativa descrita en el capítulo~\ref{cap:metodologia}. La figura~\ref{fig:recorrido} resume ese recorrido y sirve de mapa para el resto del capítulo.
+
+El punto de partida es un prototipo inicial que, aunque funciona como algoritmo genético, produce mazos poco competitivos (sección~\ref{sec:evolucion}). Su análisis revela cuatro problemas y motiva tres cambios de diseño. El primero de esos experimentos (sección~\ref{sec:experimento-ab}) valida el más importante de los cambios, los operadores pack-aware, mediante una comparativa controlada. Ese experimento destapa a su vez un efecto colateral, ya que la métrica de calidad deja de discriminar entre mazos, lo que obliga a refinarla (sección~\ref{sec:refinamiento}). Con la métrica ya corregida se explora una forma de validar los mazos frente al exterior, un gauntlet de referencias del metajuego real, que finalmente se descarta al detectar un sesgo del simulador (sección~\ref{sec:gauntlet}). Documentar ese límite resulta tan valioso como documentar lo que funciona. Por último, con el sistema ya maduro, se analiza la ejecución más extensa y se comprueba su reproducibilidad con una segunda ejecución independiente (sección~\ref{sec:run-final}).
+
+\begin{figure}[H]
+\centering
+\begin{tikzpicture}[
+    font=\small,
+    etapa/.style={draw, rounded corners, align=center, text width=6.2cm, fill=blue!5, inner sep=5pt},
+    descartada/.style={draw, rounded corners, align=center, text width=6.2cm, fill=orange!9, inner sep=5pt},
+    fl/.style={-{Stealth[length=2.6mm]}, thick}
+]
+\node[etapa] (proto) {\textbf{Prototipo inicial}\\ mazos poco competitivos (cuatro problemas)};
+\node[etapa, below=0.7cm of proto] (ab) {\textbf{Experimento A/B}\\ valida los operadores pack-aware};
+\node[etapa, below=0.7cm of ab] (ref) {\textbf{Refinamiento de la métrica}\\ la calidad vuelve a discriminar};
+\node[descartada, below=0.7cm of ref] (ga) {\textbf{Gauntlet tier-1} (descartado)\\ sesgo del simulador ante el juego complejo};
+\node[etapa, below=0.7cm of ga] (fin) {\textbf{Ejecución final y 2.\textsuperscript{a} ejecución}\\ sistema maduro y reproducible};
+\draw[fl] (proto) -- node[right, font=\scriptsize] {tres cambios de diseño} (ab);
+\draw[fl] (ab) -- node[right, font=\scriptsize] {la calidad se satura} (ref);
+\draw[fl] (ref) -- node[right, font=\scriptsize] {¿validación externa?} (ga);
+\draw[fl] (ga) -- node[right, font=\scriptsize] {sistema definitivo} (fin);
+\end{tikzpicture}
+\caption{Recorrido experimental del capítulo. Cada etapa responde a una pregunta que planteó la anterior, reflejando la metodología iterativa. El prototipo motiva los tres cambios que valida el experimento A/B, cuyo efecto colateral obliga al refinamiento de la métrica; tras él se explora y se descarta el gauntlet antes de llegar a la ejecución final.}
+\label{fig:recorrido}
+\vspace{2pt}
+{\footnotesize Fuente: elaboración propia.}
+\end{figure}
 
 \section{Del prototipo al diseño actual}
 \label{sec:evolucion}
