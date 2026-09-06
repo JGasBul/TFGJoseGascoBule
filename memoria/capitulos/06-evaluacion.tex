@@ -129,7 +129,7 @@ Tasa de fallos en combate & 0.078\,\% & 0.010\,\% \\
 
 El baseline respeta la norma 4-of en sentido formal: ningún mazo tiene más de cuatro copias de una carta. Pero el espíritu de la norma se viola. Con una media de 3.55 \emph{singletons} no-tierra por mazo, muchos individuos acumulan cinco u ocho cartas en copia única que funcionan como piezas \emph{tech} sueltas (cartas de ajuste puntual, pensadas para situaciones concretas). Los operadores originales, al modificar de copia en copia, generaban y regeneraban esos residuos más rápido de lo que la función de consolidación de \emph{singletons} podía eliminarlos.
 
-A modo de ejemplo, un mazo representativo del baseline podía reunir cuatro copias de dos o tres criaturas centrales y, a su alrededor, una decena larga de cartas en copia única (un hechizo de remoción aquí, un encantamiento allá, una criatura de situación más adelante). Ese repertorio disperso ningún jugador de competición lo registraría, porque diluye el plan de juego y vuelve el mazo inconsistente de una partida a otra: las piezas que deberían definirlo solo aparecen de forma esporádica. El mismo mazo, evolucionado bajo el pack-aware, reemplaza esa dispersión por packs completos de cuatro copias, de modo que las cartas que articulan su estrategia se repiten y comparecen de forma fiable en cada partida.
+En términos concretos, un mazo representativo del baseline podía reunir cuatro copias de dos o tres criaturas centrales y, a su alrededor, una decena larga de cartas en copia única (un hechizo de remoción aquí, un encantamiento allá, una criatura de situación más adelante). Ese repertorio disperso ningún jugador de competición lo registraría, porque diluye el plan de juego y vuelve el mazo inconsistente de una partida a otra: las piezas que deberían definirlo solo aparecen de forma esporádica. El mismo mazo, evolucionado bajo el pack-aware, reemplaza esa dispersión por packs completos de cuatro copias, de modo que las cartas que articulan su estrategia se repiten y comparecen de forma fiable en cada partida.
 
 El pack-aware invierte ese patrón. Los \emph{singletons} no-tierra caen a 0.17 por mazo: prácticamente cero, y los que quedan son residuos legítimos de ajustes de tamaño sobre las tierras, no cartas \emph{tech} dispersas. Los packs consolidados de cuatro copias suben de 5.55 a 7.83 por mazo, un incremento del 41\,\%. Las tierras no básicas pasan de 0.68 a 4.00 por mazo, lo que indica que la manabase empieza a parecerse a la de un mazo competitivo real, con \emph{duals} (tierras que producen dos colores) y tierras de utilidad seleccionadas deliberadamente. En la figura~\ref{fig:estructura} se aprecia el contraste de un vistazo. Las tres magnitudes invierten su relación entre una variante y otra, ya que los \emph{singletons} sueltos, elevados en el baseline, se desploman con el pack-aware, mientras que los packs consolidados y las tierras no básicas, escasos en el baseline, crecen de forma marcada.
 
@@ -168,7 +168,7 @@ La trayectoria interna de la ejecución pack-aware muestra un comportamiento evo
 
 \subsection{Inspección cualitativa del Hall of Fame}
 
-La diferencia más visible entre las dos ejecuciones no está en las tablas de fitness. Está en la forma de los mazos que produce cada una. El mejor individuo del baseline es este:
+La diferencia más visible entre las dos ejecuciones no reside en las tablas de fitness, sino en la forma de los mazos que produce cada una. A modo de ejemplo, conviene examinar el mejor individuo de cada población. El del baseline es el siguiente:
 
 \begin{center}
 \small
@@ -180,9 +180,9 @@ La diferencia más visible entre las dos ejecuciones no está en las tablas de f
 \texttt{1 Bloodletter of Aclazotz, 1 Lion Heart}
 \end{center}
 
-Solo dos packs de cuatro copias. Ocho cartas en copia única. El mazo tiene fitness 0.891 pero ningún jugador de competición lo llevaría a un torneo. Es un ensamblaje de piezas que gana partidas en su propio entorno de evaluación (el torneo interno frente al resto de la población) pero carece de plan de juego legible.
+Este mazo contiene tan solo dos packs de cuatro copias y acumula, en cambio, ocho cartas en copia única. Aunque alcanza un fitness de 0.891, ningún jugador de competición lo llevaría a un torneo, ya que se trata de un ensamblaje de piezas que gana partidas en su propio entorno de evaluación (el torneo interno frente al resto de la población), pero que carece de un plan de juego legible.
 
-El mejor individuo de la ejecución pack-aware es distinto:
+Por contra, el mejor individuo de la ejecución pack-aware presenta una fisonomía muy distinta:
 
 \begin{center}
 \small
@@ -193,7 +193,7 @@ El mejor individuo de la ejecución pack-aware es distinto:
 \texttt{4 Bumbleflower's Sharepot, 1 Maelstrom of the Spirit Dragon}
 \end{center}
 
-Ocho packs de cuatro copias. Manabase con cuatro tierras no básicas de utilidad. El plan es identificable: Sheoldred y Preacher of the Schism como amenazas ganadoras, Extinguish the Light y Static Net como respuestas, Bumbleflower's Sharepot como pieza de utilidad. Un jugador humano reconocería esto como un midrange B/W funcional.
+Este mazo, en cambio, reúne ocho packs de cuatro copias y una manabase con cuatro tierras no básicas de utilidad. Su plan de juego resulta identificable: Sheoldred y Preacher of the Schism actúan como amenazas ganadoras, Extinguish the Light y Static Net aportan las respuestas, y Bumbleflower's Sharepot cumple una función de utilidad. Un jugador humano reconocería esta construcción como un midrange B/W funcional.
 
 El conjunto de \emph{singletons} restantes (Plaza of Heroes, Promising Vein, Fomori Vault, Maelstrom of the Spirit Dragon) corresponde a tierras de utilidad con efecto único, que por su naturaleza se juegan como una o dos copias incluso en los mazos competitivos reales. No son ruido: son decisiones de construcción deliberadas que el pack-aware preserva a través del límite de dos \emph{singletons} que admite la función de corrección.
 
