@@ -48,7 +48,7 @@ Cada ejecución converge a un único par cromático, un comportamiento que se ob
 
 La evaluación hereda el sesgo de la inteligencia artificial de Forge. El simulador ejecuta por debajo de su potencial los arquetipos de mayor complejidad táctica, lo que invalida cualquier medida de rendimiento contra mazos que dependan de ese tipo de juego. Esta limitación es la que impidió usar el gauntlet del meta real como referencia externa.
 
-El fitness es estocástico. El valor de un mazo varía entre evaluaciones por el azar del reparto inicial y de las decisiones de la IA. El pico de 0.9755 del mejor mazo es el valor que el Hall of Fame conservó en el momento de su mejor evaluación, no una media estable; su rendimiento esperado real es algo menor.
+El fitness es estocástico. El valor de un mazo varía entre evaluaciones por el azar del reparto inicial y de las decisiones de la IA. El pico de 0.9755 del mejor mazo es el valor que el Hall of Fame conservó en el momento de su mejor evaluación, no una media estable. Su rendimiento esperado real es algo menor.
 
 La calibración es específica de Standard. Los rangos ideales de curva de maná, los pisos de tierras por arquetipo y la composición del catálogo están ajustados a este formato. Aplicar el sistema a otro formato exigiría recalibrar esos parámetros y reconstruir el conjunto de cartas.
 
@@ -64,4 +64,4 @@ La reactivación del gauntlet tier-1 depende de superar el sesgo del simulador. 
 
 El coste de la evaluación abre otra vía. Un modelo sustituto \cite{jin2011}, entrenado para predecir el resultado de una partida a partir de la composición de los dos mazos, podría reemplazar parte de las simulaciones de Forge y acelerar la evolución en órdenes de magnitud, reservando las partidas reales para validar a los candidatos más prometedores. Este tipo de aproximación por modelo sustituto ya se ha aplicado a la construcción de mazos en otros juegos de cartas \cite{zhang2022}. En la misma dirección, evaluar varias veces a los individuos que entran al Hall of Fame reduciría la varianza del fitness justo donde más importa.
 
-Finalmente, el sistema podría extenderse a otros formatos como Modern o Pioneer. El núcleo del algoritmo es independiente del formato; lo que cambia es el conjunto de cartas y la calibración de los parámetros arquetípicos, de modo que la extensión es más una cuestión de recalibrado que de rediseño.
+Finalmente, el sistema podría extenderse a otros formatos como Modern o Pioneer. El núcleo del algoritmo es independiente del formato. Lo que cambia es el conjunto de cartas y la calibración de los parámetros arquetípicos, de modo que la extensión es más una cuestión de recalibrado que de rediseño.

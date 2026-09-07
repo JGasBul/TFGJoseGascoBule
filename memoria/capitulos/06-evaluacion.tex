@@ -34,7 +34,7 @@ El punto de partida es un prototipo inicial que, aunque funciona como algoritmo 
 \draw[fl] (ref) -- node[right, font=\scriptsize] {¿validación externa?} (ga);
 \draw[fl] (ga) -- node[right, font=\scriptsize] {sistema definitivo} (fin);
 \end{tikzpicture}
-\caption{Recorrido experimental del capítulo. Cada etapa responde a una pregunta que planteó la anterior, reflejando la metodología iterativa. El prototipo motiva los tres cambios que valida el experimento A/B, cuyo efecto colateral obliga al refinamiento de la métrica; tras él se explora y se descarta el gauntlet antes de llegar a la ejecución final.}
+\caption{Recorrido experimental del capítulo. Cada etapa responde a una pregunta que planteó la anterior, reflejando la metodología iterativa. El prototipo motiva los tres cambios que valida el experimento A/B, cuyo efecto colateral obliga al refinamiento de la métrica. Tras él se explora y se descarta el gauntlet antes de llegar a la ejecución final.}
 \label{fig:recorrido}
 \vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
@@ -164,7 +164,7 @@ Pico de \emph{best\_fit} & 0.8906 (gen 29) & 0.8778 (gen 20) \\
 
 Como puede observarse en la tabla, el pico del mejor individuo baja 1.4 puntos porcentuales en la ejecución pack-aware y es, de hecho, el único indicador que retrocede. Por contra, el \emph{avg\_fit} final mejora un 2.1\,\% y la media de \emph{avg\_fit} en la ventana comparable también resulta superior. El diseño pack-aware eleva el rendimiento medio de la población a costa de una ligera reducción en su valor máximo.
 
-La trayectoria interna de la ejecución pack-aware muestra un comportamiento evolutivo adecuado. El \emph{avg\_fit} sube de 0.555 en la generación 0 a 0.630 en la 30, una ganancia del 13.5\,\% con curva sin saltos bruscos. La diversidad estructural de la población cae de 0.878 a 0.396, lo que refleja convergencia progresiva, no colapso súbito. La tasa de mutación adaptativa escaló a 0.9 en las generaciones 14-18 al detectar estancamiento; esa presión adicional produjo el pico de 0.878 en la generación 20. Las generaciones siguientes relajaron la tasa y no superaron ese pico, aunque el Hall of Fame lo retuvo.
+La trayectoria interna de la ejecución pack-aware muestra un comportamiento evolutivo adecuado. El \emph{avg\_fit} sube de 0.555 en la generación 0 a 0.630 en la 30, una ganancia del 13.5\,\% con curva sin saltos bruscos. La diversidad estructural de la población cae de 0.878 a 0.396, lo que refleja convergencia progresiva, no colapso súbito. La tasa de mutación adaptativa escaló a 0.9 en las generaciones 14-18 al detectar estancamiento. Esa presión adicional produjo el pico de 0.878 en la generación 20. Las generaciones siguientes relajaron la tasa y no superaron ese pico, aunque el Hall of Fame lo retuvo.
 
 \subsection{Inspección cualitativa del Hall of Fame}
 
@@ -280,7 +280,7 @@ Curva de maná             & 20\,\% & retirada & saturada \\
 
 La sinergia y el equilibrio de categorías comparten peso porque sus CoV son equivalentes y miden propiedades ortogonales: la sinergia interna del mazo y el equilibrio entre las categorías de cartas. La coherencia de arquetipo queda un escalón por debajo porque el diseño pack-aware ya fuerza parte de la coherencia arquetípica a través de las cuotas del Hall of Fame. Sigue siendo informativa, aunque es la menos discriminativa de las tres.
 
-Las componentes eliminadas se conservan en la implementación para posibles análisis comparativos futuros; únicamente se desconectan del agregado.
+Las componentes eliminadas se conservan en la implementación para posibles análisis comparativos futuros. Únicamente se desconectan del agregado.
 
 Con la métrica rediseñada, el peso de la calidad en el fitness se reactivó en $\beta = 0.3$, con lo que la función recupera la forma de la ecuación~\ref{eq:fitness}.
 
@@ -406,7 +406,7 @@ La tabla~\ref{tab:fitness-final} recoge los estadísticos de fitness en generaci
 \\[2pt]{\footnotesize Fuente: elaboración propia.}
 \end{table}
 
-El \emph{avg\_fit} sube de 0.527 en la generación 0 a 0.598 en la generación 42, un incremento del 13.5\,\%. La trayectoria es ascendente y sin saltos bruscos, lo que descarta convergencia prematura. El primer salto significativo del \emph{best\_fit} ocurre en la generación 18, donde la tasa de mutación adaptativa lleva varios ciclos a 0.9 para romper un estancamiento; ese esfuerzo produce el primer pico de 0.9427. Generaciones posteriores consolidan esa ganancia sin retroceder por debajo de 0.88.
+El \emph{avg\_fit} sube de 0.527 en la generación 0 a 0.598 en la generación 42, un incremento del 13.5\,\%. La trayectoria es ascendente y sin saltos bruscos, lo que descarta convergencia prematura. El primer salto significativo del \emph{best\_fit} ocurre en la generación 18, donde la tasa de mutación adaptativa lleva varios ciclos a 0.9 para romper un estancamiento. Ese esfuerzo produce el primer pico de 0.9427. Generaciones posteriores consolidan esa ganancia sin retroceder por debajo de 0.88.
 
 El pico absoluto, 0.9755, aparece en la generación 42, la última de la ejecución. Ese dato admite una lectura favorable: el mejor individuo aún mejoraba en el momento de la terminación, lo que sugiere que el proceso no había agotado su margen de mejora. Hasta dónde podría llegar con más generaciones es, no obstante, algo que solo una ejecución más prolongada permitiría determinar. En la figura~\ref{fig:fitness} se aprecia con claridad esta dinámica. La curva del mejor individuo oscila de forma acusada de una generación a otra, reflejo del ruido de la evaluación por simulación, mientras que la curva de la media de la población asciende de manera sostenida y sin retrocesos. Ese ascenso continuo de la media, y no solo del máximo, es lo que confirma que la mejora es poblacional y no obra de un único individuo afortunado.
 
@@ -423,7 +423,7 @@ La diversidad estructural cae de 0.871 a 0.438 a lo largo de la ejecución, lo q
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.78\textwidth]{images/fig_dinamica_poblacion.pdf}
-\caption{Dinámica de la población. La diversidad y la entropía de arquetipo descienden conforme la población se especializa; la tasa de mutación sube a 0.9 en los tramos de estancamiento para forzar exploración.}
+\caption{Dinámica de la población. La diversidad y la entropía de arquetipo descienden conforme la población se especializa. La tasa de mutación sube a 0.9 en los tramos de estancamiento para forzar exploración.}
 \label{fig:dinamica}
 \vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
@@ -462,7 +462,7 @@ Este mazo se articula en siete packs de cuatro copias y 25 tierras. Su núcleo e
 \vspace{2pt}{\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
-La calidad del mazo campeón admite una lectura desde tres perspectivas complementarias. En el plano cuantitativo, alcanza el fitness más alto de la ejecución, 0.9755, que integra tanto su tasa de victorias en el torneo como su calidad estructural. En el plano de la composición, converge al par cromático Boros (R/W), que coincide con el de arquetipos competitivos vigentes del formato, como los mazos de tipo Boros Equipment, y reúne cartas presentes en el metajuego de Standard. Desde una valoración cualitativa del autor, con experiencia en el formato, el mazo exhibe un plan de quemado coherente, una base de tierras funcional y una curva concentrada en costes bajos y medios; un jugador reconocería la construcción como apta para competición sin necesidad de cambios estructurales. Una validación externa más exigente, que enfrentara el mazo a referencias del metajuego real, queda condicionada por el sesgo del simulador ante los arquetipos de mayor complejidad táctica, y se plantea como línea de trabajo futuro.
+La calidad del mazo campeón admite una lectura desde tres perspectivas complementarias. En el plano cuantitativo, alcanza el fitness más alto de la ejecución, 0.9755, que integra tanto su tasa de victorias en el torneo como su calidad estructural. En el plano de la composición, converge al par cromático Boros (R/W), que coincide con el de arquetipos competitivos vigentes del formato, como los mazos de tipo Boros Equipment, y reúne cartas presentes en el metajuego de Standard. Desde una valoración cualitativa del autor, con experiencia en el formato, el mazo exhibe un plan de quemado coherente, una base de tierras funcional y una curva concentrada en costes bajos y medios. Un jugador reconocería la construcción como apta para competición sin necesidad de cambios estructurales. Una validación externa más exigente, que enfrentara el mazo a referencias del metajuego real, queda condicionada por el sesgo del simulador ante los arquetipos de mayor complejidad táctica, y se plantea como línea de trabajo futuro.
 
 
 \subsection{Una segunda ejecución independiente}
@@ -474,7 +474,7 @@ La tabla~\ref{tab:dos-ejecuciones} contrasta las dos. La segunda ejecución evol
 
 \begin{table}[H]
 \centering
-\caption{Comparación de las dos ejecuciones independientes con el sistema definitivo. La configuración nominal es idéntica; solo difieren la población inicial aleatoria y el azar de la evolución.}
+\caption{Comparación de las dos ejecuciones independientes con el sistema definitivo. La configuración nominal es idéntica. Solo difieren la población inicial aleatoria y el azar de la evolución.}
 \label{tab:dos-ejecuciones}
 \begin{tabular}{lcc}
 \toprule
@@ -504,8 +504,8 @@ El mazo campeón de esta segunda ejecución, con fitness 0.9651, es el siguiente
 \texttt{1 Tarnation Vista, 1 Fountainport}
 \end{center}
 
-Al igual que el campeón Boros, es una construcción coherente y reconocible. Reúne ocho packs de cuatro copias y exhibe un plan de juego legible: una base de criaturas blancas eficientes (Leonin Skyhunter, Coppercoat Vanguard o Sundial, Dawn Tyrant) sostiene la presión en los primeros turnos; Soul Partition y Split Up aportan la interacción, puntual y en barrido; y los cuatro ejemplares de Elspeth, Storm Slayer actúan como remate y motor de ventaja de cartas. Con veintitrés tierras y un coste de maná medio de 3.03, la curva se concentra en los costes de dos a cuatro maná (quince, diez y ocho cartas, respectivamente) y culmina en el cinco de Elspeth, un perfil propio de un midrange agresivo que un jugador reconocería como un mazo mono-blanco de competición.
+Al igual que el campeón Boros, es una construcción coherente y reconocible. Reúne ocho packs de cuatro copias y exhibe un plan de juego legible: una base de criaturas blancas eficientes (Leonin Skyhunter, Coppercoat Vanguard o Sundial, Dawn Tyrant) sostiene la presión en los primeros turnos. Soul Partition y Split Up aportan la interacción, puntual y en barrido; y los cuatro ejemplares de Elspeth, Storm Slayer actúan como remate y motor de ventaja de cartas. Con veintitrés tierras y un coste de maná medio de 3.03, la curva se concentra en los costes de dos a cuatro maná (quince, diez y ocho cartas, respectivamente) y culmina en el cinco de Elspeth, un perfil propio de un midrange agresivo que un jugador reconocería como un mazo mono-blanco de competición.
 
 Que dos ejecuciones independientes produzcan cada una un campeón estructuralmente coherente, pero de colores y plan de juego distintos, refuerza que el sistema no encuentra un único mazo afortunado, sino construcciones viables en más de un punto del espacio de arquetipos.
 
-Conviene, no obstante, acotar el alcance de esta comprobación. Dos ejecuciones constituyen una muestra reducida: sostienen la reproducibilidad del comportamiento observado, pero no equivalen a una validación estadística, que requeriría un mayor número de repeticiones. Además, al no fijarse la semilla, ninguna de las dos ejecuciones es reproducible de forma exacta; un barrido controlado de semillas, planteado entre las líneas de trabajo futuro, permitiría cuantificar con rigor la variabilidad del método.
+Conviene, no obstante, acotar el alcance de esta comprobación. Dos ejecuciones constituyen una muestra reducida: sostienen la reproducibilidad del comportamiento observado, pero no equivalen a una validación estadística, que requeriría un mayor número de repeticiones. Además, al no fijarse la semilla, ninguna de las dos ejecuciones es reproducible de forma exacta. Un barrido controlado de semillas, planteado entre las líneas de trabajo futuro, permitiría cuantificar con rigor la variabilidad del método.

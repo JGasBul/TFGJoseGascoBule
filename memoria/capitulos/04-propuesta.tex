@@ -80,13 +80,13 @@ Cada individuo de la población es un mazo, y se representa como un vector de en
 \node[above=1pt of c4, font=\scriptsize, align=center, text=red!60!black] {1 copia};
 \node[above=1pt of c8, font=\scriptsize, align=center, text=green!45!black] {tierra\\básica};
 \end{tikzpicture}
-\caption{Representación de un mazo como vector de enteros. Cada posición corresponde a una carta del catálogo y su valor indica el número de copias en el mazo; la suma de todas las componentes es sesenta.}
+\caption{Representación de un mazo como vector de enteros. Cada posición corresponde a una carta del catálogo y su valor indica el número de copias en el mazo. La suma de todas las componentes es sesenta.}
 \label{fig:individuo}
 \vspace{2pt}
 {\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
-Esta representación aporta dos ventajas. Por una parte, permite operar sobre los mazos con álgebra vectorial, lo que agiliza el cruce y el cálculo de la diversidad de la población. Por otra, traduce de forma directa la norma de las cuatro copias: el valor de cada componente está acotado a cuatro para las cartas no básicas, y únicamente las tierras básicas pueden superar ese límite. El vector constituye el genotipo del individuo; el fenotipo es el mazo reconstruido a partir de él, con sus cartas y sus atributos, que es lo que el simulador necesita para jugar.
+Esta representación aporta dos ventajas. Por una parte, permite operar sobre los mazos con álgebra vectorial, lo que agiliza el cruce y el cálculo de la diversidad de la población. Por otra, traduce de forma directa la norma de las cuatro copias: el valor de cada componente está acotado a cuatro para las cartas no básicas, y únicamente las tierras básicas pueden superar ese límite. El vector constituye el genotipo del individuo. El fenotipo es el mazo reconstruido a partir de él, con sus cartas y sus atributos, que es lo que el simulador necesita para jugar.
 
 \section{Función de fitness}
 \label{sec:fitness}
@@ -197,7 +197,7 @@ La diferencia tiene consecuencias prácticas. Para una población de cuarenta ma
 \section{Evaluación por simulación con Forge}
 \label{sec:evaluacion}
 
-La tasa de victorias que alimenta la función de fitness no se estima con una heurística, sino que se mide jugando. Cada enfrentamiento se resuelve en el simulador Forge, que disputa tres partidas entre dos mazos con jugador inicial aleatorio en cada una; el sistema interpreta el resultado, cuenta las victorias y determina el ganador. Esta integración convierte la evaluación en una medida de rendimiento real bajo el reglamento completo del juego, y no en una aproximación.
+La tasa de victorias que alimenta la función de fitness no se estima con una heurística, sino que se mide jugando. Cada enfrentamiento se resuelve en el simulador Forge, que disputa tres partidas entre dos mazos con jugador inicial aleatorio en cada una. El sistema interpreta el resultado, cuenta las victorias y determina el ganador. Esta integración convierte la evaluación en una medida de rendimiento real bajo el reglamento completo del juego, y no en una aproximación.
 
 El coste de simular partidas reales obliga a paralelizar la evaluación. Los enfrentamientos de una misma generación se reparten entre varios procesos, cuyo número se fija en función de los núcleos de cómputo disponibles. Un límite de tiempo adaptativo evita que una partida bloqueada detenga la ejecución: si se acumulan interrupciones por tiempo, el límite se eleva de forma automática. En las ejecuciones reales, la tasa de partidas fallidas se mantiene por debajo del 0.1\,\%, lo que confirma que la integración con el simulador es estable a lo largo de decenas de horas de cómputo.
 
@@ -237,7 +237,7 @@ Los componentes descritos se integran en un flujo de tres etapas encadenadas, co
 {\footnotesize Fuente: elaboración propia.}
 \end{figure}
 
-La primera etapa obtiene y procesa el catálogo de cartas a partir de la API pública de Scryfall, restringido a las dieciséis expansiones que conformaron el formato Standard a lo largo del periodo de trabajo, desde Dominaria United hasta Final Fantasy. Al abarcar unos tres años, el conjunto reúne la acumulación de expansiones de ese intervalo y no una única instantánea del formato, que rota de forma periódica; de ahí que algunas de esas cartas hayan rotado desde entonces. De cada carta se almacenan los atributos que el algoritmo necesita (coste de maná, tipo, colores, texto, rareza y características de combate) junto con unos índices que agrupan las cartas por tipo y color para acelerar las búsquedas. El catálogo resultante reúne alrededor de $4\,130$ cartas únicas.
+La primera etapa obtiene y procesa el catálogo de cartas a partir de la API pública de Scryfall, restringido a las dieciséis expansiones que conformaron el formato Standard a lo largo del periodo de trabajo, desde Dominaria United hasta Final Fantasy. Al abarcar unos tres años, el conjunto reúne la acumulación de expansiones de ese intervalo y no una única instantánea del formato, que rota de forma periódica. De ahí que algunas de esas cartas hayan rotado desde entonces. De cada carta se almacenan los atributos que el algoritmo necesita (coste de maná, tipo, colores, texto, rareza y características de combate) junto con unos índices que agrupan las cartas por tipo y color para acelerar las búsquedas. El catálogo resultante reúne alrededor de $4\,130$ cartas únicas.
 
 La segunda etapa genera la población inicial. Cada mazo respeta tres restricciones (sesenta cartas exactas, coherencia con los colores asignados y tierras básicas apropiadas) y el resto de su contenido es aleatorio. Esta es una decisión deliberada: el generador no introduce conocimiento estratégico, de modo que cualquier estructura competitiva que emerja después es mérito del proceso evolutivo y no de un sesgo inicial.
 

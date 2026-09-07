@@ -27,7 +27,7 @@ El proyecto se mantiene bajo control de versiones con Git, en un repositorio pú
 
 \section{Evaluación paralela e integración con Forge}
 
-La medida del fitness exige lanzar Forge como proceso externo. Cada enfrentamiento invoca el modo de simulación del motor (\texttt{forge sim}), que disputa tres partidas entre dos mazos con jugador inicial aleatorio; el sistema interpreta la salida del simulador, cuenta las victorias y determina el ganador.
+La medida del fitness exige lanzar Forge como proceso externo. Cada enfrentamiento invoca el modo de simulación del motor (\texttt{forge sim}), que disputa tres partidas entre dos mazos con jugador inicial aleatorio. El sistema interpreta la salida del simulador, cuenta las victorias y determina el ganador.
 
 El coste de simular partidas reales obliga a paralelizar la evaluación. Los enfrentamientos de una misma generación se reparten entre varios procesos mediante un \texttt{ProcessPoolExecutor}, cuyo número de trabajadores fija la clase \texttt{HardwareAnalyzer} en función de los núcleos de CPU, la memoria y la velocidad de disco de la máquina. De este modo, el mismo código se ejecuta en un ordenador portátil o en un servidor de muchos núcleos sin reconfiguración manual. Un límite de tiempo adaptativo evita que una partida bloqueada detenga la ejecución: si se acumulan interrupciones por tiempo, el límite se eleva de forma automática. En las ejecuciones reales, la tasa de partidas fallidas se mantuvo por debajo del 0.1\,\%, lo que confirma la estabilidad de la integración a lo largo de decenas de horas de cómputo.
 
