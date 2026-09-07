@@ -105,7 +105,7 @@ El baseline se reanudó una vez: los datos de estadísticas de las generaciones 
 
 \subsection{Integridad estructural de los mazos}
 
-Antes de comparar el fitness conviene examinar la forma de los mazos que produce cada variante. La tabla~\ref{tab:estructura-ab} reúne las métricas estructurales de la población final en ambas ejecuciones. Los dos cumplen las restricciones formales del formato: los 40 mazos de la población final tienen exactamente 60 cartas y ninguno viola la norma de un máximo de cuatro copias por carta. Hasta ahí la equivalencia. A partir de ahí, la diferencia es pronunciada.
+Antes de comparar el fitness conviene examinar la forma de los mazos que produce cada variante. La tabla~\ref{tab:estructura-ab} reúne las métricas estructurales de la población final en ambas ejecuciones. Los dos cumplen las restricciones formales del formato: los 40 mazos de la población final tienen exactamente 60 cartas y ninguno viola la norma de un máximo de cuatro copias por carta. Hasta ahí llega la equivalencia. A partir de ahí, la diferencia se vuelve pronunciada.
 
 \begin{table}[H]
 \centering
@@ -357,7 +357,7 @@ El gauntlet tier-1 queda como exploración válida pero inconclusa. Para activar
 \section{Experimento: ejecución con calidad refinada}
 \label{sec:run-final}
 
-Con los operadores pack-aware consolidados, la métrica de calidad rediseñada y descartada la vía del gauntlet, el trabajo culminó con la ejecución más extensa, del que se extraen las conclusiones principales sobre el comportamiento del sistema. Esta ejecución evolucionó una población de 40 mazos durante 43 generaciones, de la 0 a la 42.
+Con los operadores pack-aware consolidados, la métrica de calidad rediseñada y descartada la vía del gauntlet, el trabajo culminó con la ejecución más extensa, de la que se extraen las conclusiones principales sobre el comportamiento del sistema. Esta ejecución evolucionó una población de 40 mazos durante 43 generaciones, de la 0 a la 42.
 
 La tabla~\ref{tab:config-final} resume los parámetros con los que se lanzó la ejecución final.
 
@@ -504,7 +504,7 @@ El mazo campeón de esta segunda ejecución, con fitness 0.9651, es el siguiente
 \texttt{1 Tarnation Vista, 1 Fountainport}
 \end{center}
 
-Al igual que el campeón Boros, es una construcción coherente y reconocible. Reúne ocho packs de cuatro copias y exhibe un plan de juego legible: una base de criaturas blancas eficientes (Leonin Skyhunter, Coppercoat Vanguard o Sundial, Dawn Tyrant) sostiene la presión en los primeros turnos. Soul Partition y Split Up aportan la interacción, puntual y en barrido; y los cuatro ejemplares de Elspeth, Storm Slayer actúan como remate y motor de ventaja de cartas. Con veintitrés tierras y un coste de maná medio de 3.03, la curva se concentra en los costes de dos a cuatro maná (quince, diez y ocho cartas, respectivamente) y culmina en el cinco de Elspeth, un perfil propio de un midrange agresivo que un jugador reconocería como un mazo mono-blanco de competición.
+Al igual que el campeón Boros, es una construcción coherente y reconocible. Reúne ocho packs de cuatro copias y exhibe un plan de juego legible: una base de criaturas blancas eficientes (Leonin Skyhunter, Coppercoat Vanguard o Sundial Dawn Tyrant) sostiene la presión en los primeros turnos. Soul Partition y Split Up aportan la interacción, puntual y en barrido, mientras que los cuatro ejemplares de Elspeth, Storm Slayer actúan como remate y motor de ventaja de cartas. Con veintitrés tierras y un coste de maná medio de 3.03, la curva se concentra en los costes de dos a cuatro maná (quince, diez y ocho cartas, respectivamente) y culmina en el cinco de Elspeth, un perfil propio de un midrange agresivo que un jugador reconocería como un mazo mono-blanco de competición.
 
 Que dos ejecuciones independientes produzcan cada una un campeón estructuralmente coherente, pero de colores y plan de juego distintos, refuerza que el sistema no encuentra un único mazo afortunado, sino construcciones viables en más de un punto del espacio de arquetipos.
 
