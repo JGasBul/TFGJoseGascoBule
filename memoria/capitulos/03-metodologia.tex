@@ -12,9 +12,9 @@ Establecidos en el marco teórico el problema y las herramientas para abordarlo,
 
 \section{Enfoque metodológico}
 
-El desarrollo siguió una metodología experimental de carácter iterativo e incremental, en lugar de un marco de gestión rígido con iteraciones de duración fija. Esta elección responde a la naturaleza del problema: dado que la calidad de una decisión de diseño solo puede valorarse ejecutando el algoritmo y analizando los mazos que produce, el trabajo avanzó por etapas sucesivas, cada una motivada por el análisis de los resultados de la anterior.
+El desarrollo siguió una metodología experimental de carácter iterativo e incremental, en lugar de un marco de gestión rígido con iteraciones de duración fija. Esta elección responde a la naturaleza del problema. Dado que la calidad de una decisión de diseño solo puede valorarse ejecutando el algoritmo y analizando los mazos que produce, el trabajo avanzó por etapas sucesivas, cada una motivada por el análisis de los resultados de la anterior.
 
-Cada iteración constó de cuatro pasos: la implementación de un cambio en el sistema, la ejecución de un experimento sobre el código resultante, el análisis de los datos obtenidos y la decisión del siguiente cambio a partir de esos hallazgos. Este ciclo de mejora basado en evidencia es el que vertebra la evolución del proyecto, desde el primer prototipo hasta el sistema definitivo, y se documenta en detalle en el capítulo~\ref{cap:desarrollo}.
+Cada iteración constó de cuatro pasos, que son la implementación de un cambio en el sistema, la ejecución de un experimento sobre el código resultante, el análisis de los datos obtenidos y la decisión del siguiente cambio a partir de esos hallazgos. Este ciclo de mejora basado en evidencia es el que vertebra la evolución del proyecto, desde el primer prototipo hasta el sistema definitivo, y se documenta en detalle en el capítulo~\ref{cap:desarrollo}.
 
 \section{Fases del trabajo}
 
@@ -34,7 +34,7 @@ Cada experimento sigue un mismo protocolo. Una configuración fija (tamaño de p
 El análisis de cada ejecución se apoya en un conjunto fijo de métricas, que reaparecen a lo largo del capítulo~\ref{cap:desarrollo}:
 
 \begin{itemize}
-    \item \textbf{Mejor fitness y fitness medio}: el valor del mejor individuo y la media de la población en cada generación. El primero mide el techo alcanzado; el segundo, el nivel general de la población y su progresión.
+    \item \textbf{Mejor fitness y fitness medio}: el valor del mejor individuo y la media de la población en cada generación. El primero mide el techo alcanzado, mientras que el segundo refleja el nivel general de la población y su progresión.
     \item \textbf{Diversidad}: media de las distancias $L_1$ entre todos los pares de mazos de la población, normalizada al intervalo $[0, 1]$. Un valor alto indica una población heterogénea. Su descenso a lo largo de las generaciones refleja convergencia.
     \item \textbf{Entropía de arquetipo}: entropía de Shannon de la distribución de arquetipos (aggro, midrange y control) en la población. Mide cuán repartida está entre los tres arquetipos y alcanza su máximo cuando el reparto es uniforme.
     \item \textbf{Coeficiente de variación} (CoV): desviación típica relativa a la media, empleado para auditar la capacidad de discriminación de las componentes de la métrica de calidad.
