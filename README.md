@@ -88,18 +88,24 @@ generations of the final run. The peak of 0.9755 is reached in the last generati
 
 ### Setting up Forge
 
-The algorithm evaluates decks by playing real games in Forge, so a local Forge
-build is required. **Any recent Forge desktop build works — the newer, the better.**
+MTG Deck Evolver runs on top of a local Forge installation, and **Forge and the
+project files must share the same folder** — the algorithm scripts live alongside
+the Forge files. It does not matter whether you drop the project into the Forge
+folder or extract Forge into the project folder; what matters is that they end up
+together. **Any recent Forge desktop build works — the newer, the better.**
 
-1. Get the desktop build (`forge-gui-desktop-*-jar-with-dependencies.jar`) from
-   the [Forge releases page](https://github.com/Card-Forge/forge/releases).
-2. From the main menu, choose **option 5 – Configurar Forge**, which lets you:
-   - **auto-detect** the JAR on your system,
-   - **set its path manually**, or
-   - **open the download page** in your browser.
+1. Download the full Forge **desktop** distribution from the
+   [Forge releases page](https://github.com/Card-Forge/forge/releases).
+2. Extract it so that the Forge files (the `.jar`, the `res/` folder, …) sit in the
+   same folder as `mtg_main.py`.
+3. **Run Forge once** so it generates all of its runtime files and dependencies.
+4. If a **mobile** build is also present, delete its JAR
+   (`forge-gui-mobile-dev-*.jar`); otherwise the system may pick it up instead of
+   the desktop build.
+5. From the main menu, choose **option 5 – Configurar Forge** to auto-detect the
+   JAR or set its path manually.
 
-Once configured, make sure **Java 21+** is installed and on your `PATH`
-(`java -version`).
+Make sure **Java 21+** is installed and on your `PATH` (`java -version`).
 
 ## Usage
 
