@@ -2,7 +2,7 @@
 
 **Fecha de apertura:** 2026-05-24
 **Rama:** `feature/ga-quality-rebalance` (creada desde `develop` en `8b42d12e`)
-**Motivación:** Tras la implementación de pack-aware (Fases 1/2/2.5), la métrica `deck_quality` perdió poder discriminativo. Auditando los 40 mazos finales de `prueba2`, el CoV de `quality` es 11.6 % y la métrica media de 0.751 ± 0.087 — no diferencia mazos buenos de mediocres. Esto se manifiesta también en `Gauntlet1`: ya en gen 0 hay mazos con fitness 1.0 saturado, sin gradiente para mejorar.
+**Motivación:** Tras la implementación de pack-aware (Fases 1/2/2.5), la métrica `deck_quality` perdió poder discriminativo. Auditando los 40 mazos finales de `exp03_pack_aware`, el CoV de `quality` es 11.6 % y la métrica media de 0.751 ± 0.087 — no diferencia mazos buenos de mediocres. Esto se manifiesta también en `exp05_gauntlet_tier1`: ya en gen 0 hay mazos con fitness 1.0 saturado, sin gradiente para mejorar.
 
 ---
 
@@ -14,7 +14,7 @@
 
 ## 1. Diagnóstico cuantitativo
 
-Métricas calculadas sobre los 40 mazos de la población final de `prueba2/` (gen 30, pack-aware):
+Métricas calculadas sobre los 40 mazos de la población final de `exp03_pack_aware/` (gen 30, pack-aware):
 
 | Componente | Peso actual | Media | StdDev | Rango | **CoV** | Veredicto |
 |---|---:|---:|---:|---:|---:|---|
@@ -111,7 +111,7 @@ enable_quality_metrics=True,
 
 ## 5. Validación esperada
 
-Tras los cambios, repetir la auditoría de la sección 1 sobre los mismos 40 mazos de prueba2:
+Tras los cambios, repetir la auditoría de la sección 1 sobre los mismos 40 mazos de exp03_pack_aware:
 
 - CoV de `quality` total debería pasar de **11.6 %** a **~22-25 %**.
 - Media de `quality` debería bajar de **0.751** a **~0.65** (deja de estar dominada por las 3 constantes ≈ 0.85-1.0).
@@ -127,7 +127,7 @@ Esto confirma que `quality` vuelve a discriminar y que el fitness combinado tend
 - [ ] Cambiar defaults del constructor (`fitness_alpha=0.7, fitness_beta=0.3, enable_quality_metrics=True`).
 - [ ] Actualizar las 5 llamadas en `mtg_main.py`.
 - [ ] Actualizar texto del submenú avanzado.
-- [ ] Smoke test: auditoría CoV sobre los 40 mazos de prueba2.
+- [ ] Smoke test: auditoría CoV sobre los 40 mazos de exp03_pack_aware.
 - [ ] Si CoV ≥ 20 % → commit y considerar el camino A completado.
 - [ ] Si CoV < 20 % → reconsiderar (camino B: añadir Karsten manabase / win-condition density / removal density).
 
@@ -147,6 +147,6 @@ Cada métrica entre 20-40 líneas de código. Solo abordar si el camino A result
 
 ## 8. Coherencia con runs previos
 
-- **`prueba2` mantiene su validez como entrega final.** Se ejecutó con `α=β=0.5` y `enable_quality_metrics=True` (configuración Fase 4). Su fitness reportado refleja el sistema multi-componente original.
-- **Runs futuros con este refinamiento** (e.g., `prueba3/`) usarán `α=0.7, β=0.3` con quality refinada — no son directamente comparables en fitness absoluto con prueba2, pero sí comparables en métricas estructurales, evolución y composición.
+- **`exp03_pack_aware` mantiene su validez como entrega final.** Se ejecutó con `α=β=0.5` y `enable_quality_metrics=True` (configuración Fase 4). Su fitness reportado refleja el sistema multi-componente original.
+- **Runs futuros con este refinamiento** (e.g., `prueba3/`) usarán `α=0.7, β=0.3` con quality refinada — no son directamente comparables en fitness absoluto con exp03_pack_aware, pero sí comparables en métricas estructurales, evolución y composición.
 - El TFG puede reportar la simplificación de `deck_quality` como **iteración de calibración**: "tras pack-aware se detectaron componentes saturados; se refinó la métrica para mantener su capacidad discriminativa".

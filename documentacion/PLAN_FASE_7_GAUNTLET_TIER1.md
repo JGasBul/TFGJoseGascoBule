@@ -1,14 +1,14 @@
 # Plan Fase 7: gauntlet tier-1 en el fitness
 
 **Fecha de apertura:** 2026-05-14
-**Marco:** TFG en dirección A (estudio del ecosistema emergente). El gauntlet tier-1 entra como **una dimensión más del fitness**, NO como objetivo. Sirve simultáneamente como bench externo (coordenada que caracteriza al ecosistema emergente) y como presión selectiva cross-arquetipo (rompe monoculturas como la B/W midrange observada en prueba2).
+**Marco:** TFG en dirección A (estudio del ecosistema emergente). El gauntlet tier-1 entra como **una dimensión más del fitness**, NO como objetivo. Sirve simultáneamente como bench externo (coordenada que caracteriza al ecosistema emergente) y como presión selectiva cross-arquetipo (rompe monoculturas como la B/W midrange observada en exp03_pack_aware).
 **Base:** rama `develop` tras merge de `feature/ga-pack-level-mutation` (commit `b7f4a8c2`).
 
 ---
 
 ## 0. Por qué Fase 7 y por qué ahora
 
-Tras prueba2 (pack-aware, 30 gens × 40 pop):
+Tras exp03_pack_aware (pack-aware, 30 gens × 40 pop):
 
 - Los 4 pendientes de la auditoría previa están resueltos o atenuados por pack-aware (ver `project_pendientes_post_auditoria.md`).
 - Aparece un problema nuevo: **monocultura B/W midrange** (37/40 mazos en B/W). Los arquetipos no-dominantes sobreviven solo por la cuota del HoF.
@@ -68,7 +68,7 @@ Antes de las decisiones, fijar lo que ya está descartado por el marco A:
 | 2026-05-14 | **3.B** Reglas de partida | **Reglas que Forge ya aplica al Swiss: play/draw aleatorio, London mulligan automático, SIN sideboarding** | Forge no soporta sideboarding limpio entre juegos. Como vamos a BO1 (2.C), no aplica de todos modos. Resto de reglas heredadas del Swiss = consistencia y cero código nuevo. |
 | 2026-05-14 | **3.C** Almacenamiento de anchor decks | **Carpeta `gauntlet/tier1/` con un `.dck` por anchor + `manifest.json` con metadata** | Estructura versionada en git (texto liviano). `manifest.json` contiene por anchor: nombre, arquetipo declarado, fuente (URL mtgtop8/mtggoldfish), fecha de extracción, formato (Standard). Garantiza reproducibilidad y trazabilidad para el TFG. |
 | 2026-05-14 | **5.A** Métricas reportadas del gauntlet | **(i) Win-rate medio pop vs gauntlet por gen; (ii) win-rate medio HoF vs gauntlet; (iii) matchup matrix HoF×anchors (9×5); (iv) win-rate por arquetipo de la pop vs gauntlet por gen** | Bajo A, estas son las coordenadas que caracterizan al ecosistema contra el meta externo. (i) es el eje temporal principal; (iii) sostiene el análisis rock-paper-scissors; (iv) muestra si γ desplaza qué arquetipo domina. |
-| 2026-05-14 | **5.B** Publicar `.dck` evolucionados | **Sí — 9 HoF + top-5 pop final** | Continuidad con la práctica de prueba2 (`hall_of_fame/*.dck`). Es el output material del TFG además de los gráficos. |
+| 2026-05-14 | **5.B** Publicar `.dck` evolucionados | **Sí — 9 HoF + top-5 pop final** | Continuidad con la práctica de exp03_pack_aware (`hall_of_fame/*.dck`). Es el output material del TFG además de los gráficos. |
 
 ---
 
@@ -97,7 +97,7 @@ Diseño ya cerrado en §3. Trabajo a ejecutar, ordenado por dependencia:
 - Plot de "win-rate medio pop vs gauntlet por generación" y "win-rate medio por arquetipo vs gauntlet por gen".
 
 ### 4.5 Validación corta antes del run grande
-- Test de 2-3 gens con la pop de prueba2 ya cargada (resume desde un checkpoint final) para validar que la matriz de win-rates no es identidicamente 0 ni 1.
+- Test de 2-3 gens con la pop de exp03_pack_aware ya cargada (resume desde un checkpoint final) para validar que la matriz de win-rates no es identidicamente 0 ni 1.
 - Si gradiente plano persiste → activar plan B (métricas parciales: parser de logs Forge para extraer turnos y vida final).
 
 ### 4.6 Run completo

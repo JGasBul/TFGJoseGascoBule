@@ -1,0 +1,118 @@
+% =============================================================
+% Memoria del TFG
+% Plantilla oficial de la EPSG (Escola Politècnica Superior de Gandia, UPV)
+% adaptada para flujo local con capítulos en archivos separados.
+%
+% Compilación: latexmk -pdf main.tex (desde la carpeta memoria/)
+% =============================================================
+
+\documentclass[11pt,a4paper,oneside]{report}
+
+% --- Codificación e idiomas
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,catalan,spanish]{babel}   % spanish = idioma principal
+% Usar "Tabla" en lugar de "Cuadro" (a petición del tutor)
+\addto\captionsspanish{%
+  \renewcommand{\tablename}{Tabla}%
+  \renewcommand{\listtablename}{Índice de tablas}%
+}
+\usepackage{newtxtext,newtxmath}              % fuente Times-like
+
+% --- Geometría de página
+\usepackage{geometry}
+\geometry{left=3cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% --- Tablas y figuras
+\usepackage{graphicx}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning}
+\usepackage{float}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{caption}
+
+% --- Listas, espaciado y formato
+\usepackage{enumitem}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{tocloft}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+
+% --- Hiperenlaces
+\usepackage{hyperref}
+\usepackage{url}
+
+\hypersetup{
+    hidelinks,
+    pdfauthor={Jose Gascó Bule},
+    pdftitle={Diseño e implementación de metaheurística para el problema de la generación de mazos en Magic: The Gathering}
+}
+\captionsetup{font={small},labelfont=bf}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\onehalfspacing
+
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries}
+  {\chaptertitlename\ \thechapter.}{0.5em}{\Huge}
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{0.75em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{0.75em}{}
+\apptocmd{\thebibliography}{\addcontentsline{toc}{chapter}{Bibliografía}}{}{}
+
+\renewcommand{\cftchapdotsep}{\cftdotsep}
+\renewcommand{\cftchappresnum}{Capítulo\ }
+\renewcommand{\cftchapaftersnum}{.\ }
+\settowidth{\cftchapnumwidth}{Capítulo 10.\ }
+
+% Marcador temporal de referencias pendientes (huecos a rellenar uno a uno).
+% Quitar la definición o vaciarla cuando esté todo citado.
+\newcommand{\faltaref}[1]{\textcolor{red}{\textbf{[falta ref: #1]}}}
+
+% =============================================================
+\begin{document}
+\selectlanguage{spanish}
+
+% La portada la genera EBRÓN automáticamente al subir la memoria.
+% No incluir portada aquí (la plantilla original avisaba de ello).
+
+% --- Resúmenes (castellano, valenciano, inglés) ---
+\pagenumbering{gobble}
+\input{capitulos/00-resumenes}
+
+% --- Índices ---
+\cleardoublepage
+\tableofcontents
+\cleardoublepage
+\listoffigures
+\cleardoublepage
+\listoftables
+\cleardoublepage
+
+% --- Cuerpo de la memoria ---
+\pagenumbering{arabic}
+
+\input{capitulos/01-introduccion}
+\input{capitulos/02-marco-teorico}
+\input{capitulos/03-metodologia}
+\input{capitulos/04-propuesta}
+\input{capitulos/05-implementacion}
+\input{capitulos/06-evaluacion}
+\input{capitulos/07-conclusiones}
+
+% --- Bibliografía ---
+\input{capitulos/08-bibliografia}
+
+% --- Glosario ---
+\input{capitulos/10-glosario}
+
+% --- Anexos ---
+\input{capitulos/09-anexo-ods}
+
+\end{document}

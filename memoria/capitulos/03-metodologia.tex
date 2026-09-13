@@ -1,0 +1,55 @@
+% =============================================================
+% Capítulo 3. Metodología
+% =============================================================
+% Proceso de trabajo seguido para desarrollar el TFG (NO el sistema).
+% El sistema se describe en el capítulo de Propuesta.
+% =============================================================
+
+\chapter{Metodología}
+\label{cap:metodologia}
+
+Establecidos en el marco teórico el problema y las herramientas para abordarlo, y antes de detallar el sistema que constituye la propuesta, conviene explicar cómo se llevó a cabo el trabajo. Este capítulo describe la metodología seguida, entendida como el proceso y las herramientas empleadas a lo largo del proyecto. La propuesta técnica, esto es, el sistema diseñado e implementado, se detalla en el capítulo~\ref{sec:arquitectura}.
+
+\section{Enfoque metodológico}
+
+El desarrollo siguió una metodología experimental de carácter iterativo e incremental, en lugar de un marco de gestión rígido con iteraciones de duración fija. Esta elección responde a la naturaleza del problema. Dado que la calidad de una decisión de diseño solo puede valorarse ejecutando el algoritmo y analizando los mazos que produce, el trabajo avanzó por etapas sucesivas, cada una motivada por el análisis de los resultados de la anterior.
+
+Cada iteración constó de cuatro pasos, que son la implementación de un cambio en el sistema, la ejecución de un experimento sobre el código resultante, el análisis de los datos obtenidos y la decisión del siguiente cambio a partir de esos hallazgos. Este ciclo de mejora basado en evidencia es el que vertebra la evolución del proyecto, desde el primer prototipo hasta el sistema definitivo, y se documenta en detalle en el capítulo~\ref{cap:desarrollo}.
+
+\section{Fases del trabajo}
+
+El proyecto se estructuró en cuatro fases, que se solaparon parcialmente a lo largo del desarrollo:
+
+\begin{enumerate}
+    \item \textbf{Documentación y análisis.} Estudio del problema de la construcción de mazos, del reglamento de Magic, del simulador Forge como entorno de evaluación y del estado del arte en la aplicación de técnicas evolutivas a juegos de cartas.
+    \item \textbf{Implementación del prototipo.} Desarrollo de una primera versión funcional del algoritmo genético, capaz de evolucionar una población de mazos y evaluarla mediante simulación, que sirvió como punto de partida para la experimentación.
+    \item \textbf{Ciclos de experimentación.} Ejecución sucesiva de experimentos, cada uno orientado a validar o refutar una decisión de diseño concreta, con el análisis de sus resultados guiando la siguiente iteración. Constituyen el núcleo del trabajo.
+    \item \textbf{Consolidación y redacción.} Estabilización del sistema, ejecución del experimento final y elaboración de la presente memoria.
+\end{enumerate}
+
+\section{Protocolo de evaluación y métricas de análisis}
+
+Cada experimento sigue un mismo protocolo. Una configuración fija (tamaño de población, operadores de variación y pesos del fitness) se ejecuta durante un número máximo de generaciones o hasta alcanzar un valor de fitness objetivo. En cada generación, el fitness de cada mazo se obtiene disputando partidas reales en Forge mediante el sistema de torneo Swiss descrito en el capítulo~\ref{sec:arquitectura}: cada enfrentamiento se resuelve al mejor de tres partidas y la tasa de victorias resultante alimenta la función de fitness.
+
+El análisis de cada ejecución se apoya en un conjunto fijo de métricas, que reaparecen a lo largo del capítulo~\ref{cap:desarrollo}:
+
+\begin{itemize}
+    \item \textbf{Mejor fitness y fitness medio}: el valor del mejor individuo y la media de la población en cada generación. El primero mide el techo alcanzado, mientras que el segundo refleja el nivel general de la población y su progresión.
+    \item \textbf{Diversidad}: media de las distancias $L_1$ entre todos los pares de mazos de la población, normalizada al intervalo $[0, 1]$. Un valor alto indica una población heterogénea. Su descenso a lo largo de las generaciones refleja convergencia.
+    \item \textbf{Entropía de arquetipo}: entropía de Shannon de la distribución de arquetipos (aggro, midrange y control) en la población. Mide cuán repartida está entre los tres arquetipos y alcanza su máximo cuando el reparto es uniforme.
+    \item \textbf{Coeficiente de variación} (CoV): desviación típica relativa a la media, empleado para auditar la capacidad de discriminación de las componentes de la métrica de calidad.
+\end{itemize}
+
+El carácter estocástico de la evaluación (cada partida depende del reparto inicial de cartas y de las decisiones de la inteligencia artificial) implica que estas métricas presentan variabilidad entre ejecuciones. El trabajo la afronta repitiendo partidas dentro de cada enfrentamiento. Su cuantificación rigurosa, como se señala entre las líneas de trabajo futuro, exigiría repetir las ejecuciones con semillas controladas.
+
+\section{Herramientas y control de versiones}
+
+La implementación se realizó en Python, que concentra el algoritmo genético y la lógica de orquestación, e integra el simulador Forge, escrito en Java, como motor externo de evaluación. El catálogo de cartas se obtiene de la API pública de Scryfall.
+
+El control de versiones se llevó con Git, que registró tanto la evolución del código como las configuraciones de los distintos experimentos. La organización del repositorio se sistematizó conforme el proyecto maduraba, a medida que el número de experimentos y de variantes del sistema hacía necesaria una trazabilidad más estricta.
+
+Durante el desarrollo del código y la redacción de esta memoria se empleó como apoyo el asistente de inteligencia artificial Claude \cite{anthropic}, siempre bajo supervisión del autor y limitado a tareas de depuración, documentación y revisión de estilo. El diseño del sistema, la experimentación y las conclusiones son de autoría propia.
+
+\section{Reproducibilidad de los experimentos}
+
+Cada experimento se almacenó junto con su configuración, su población y sus resultados. Esta práctica persigue dos fines. Por una parte, permite reconstruir a posteriori la trayectoria del proyecto y comparar entre sí ejecuciones realizadas en momentos distintos, lo que sustenta el análisis retrospectivo del capítulo~\ref{cap:desarrollo}. Por otra, facilita la reproducción de cualquier resultado a partir de su configuración, requisito de rigor en un trabajo de naturaleza experimental.

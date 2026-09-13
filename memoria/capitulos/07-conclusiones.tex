@@ -1,0 +1,67 @@
+% =============================================================
+% Capítulo 5. Conclusiones y trabajo futuro
+% =============================================================
+
+\chapter{Conclusiones y trabajo futuro}
+\label{cap:conclusiones}
+
+Este TFG ha desarrollado un algoritmo genético para la construcción automática de mazos competitivos en el formato Standard de Magic: The Gathering, evaluados mediante la simulación real de partidas. El sistema parte de una población de mazos generados al azar y la hace evolucionar con operadores que respetan la norma de las cuatro copias y con una función de fitness que combina el rendimiento en un torneo Swiss con una métrica de calidad estructural sensible al arquetipo. El proyecto ha quedado documentado en su totalidad, desde un prototipo inicial costoso y de mazos irreales hasta el sistema definitivo, junto con los experimentos que justifican cada decisión de diseño.
+
+La pregunta de investigación planteada en la introducción era si una metaheurística puede construir mazos con una calidad comparable a la de un jugador experto sin disponer de conocimiento de dominio previo. Los resultados permiten responderla de forma afirmativa, con matices. El sistema produce mazos coherentes, con un plan de juego identificable y con cartas presentes en el metajuego del formato, que un jugador reconocería como aptos para competición sin cambios estructurales. Ahora bien, la verificación de esa calidad frente al metajuego real está condicionada por el sesgo del simulador, de modo que la respuesta es afirmativa dentro del entorno de evaluación empleado y queda pendiente de una validación externa más exigente, apuntada entre las líneas de trabajo futuro.
+
+La contribución de este trabajo al estado del arte se sitúa en el plano metodológico y de diseño, más que en una comparación empírica directa con otros sistemas, por las limitaciones que se han comentado en el estado del arte. Frente a los antecedentes en construcción evolutiva de mazos, que operaban sobre juegos o formatos de espacio reducido y con operadores a nivel de carta individual, esta propuesta aporta tres elementos combinados. El primero, y el de mayor calado, son los operadores pack-aware, que trasladan la evolución al nivel de los conjuntos de cuatro copias en el que razona un jugador humano. El experimento comparativo de la sección~\ref{sec:experimento-ab} demuestra que ese cambio es el que más acerca los mazos generados a los que se construyen en competición. El segundo es la aplicación del enfoque al formato Standard completo, con miles de cartas y el problema añadido de la manabase, frente al repertorio reducido del formato sellado de Bjørke y Fludal \cite{bjorke2017} o al espacio simplificado de Hearthstone de García-Sánchez et al. \cite{garciasanchez2016}. El tercero es un esquema de evaluación por simulación real cuyo coste se mantiene acotado mediante un torneo Swiss, lo que hace viable jugar partidas completas como oráculo de fitness sobre una población grande. Una comparación empírica directa frente a esos sistemas u otros algoritmos queda como línea de trabajo futuro, ya que exigiría reimplementarlos sobre el mismo formato y el mismo entorno de evaluación.
+
+En cuanto a los objetivos planteados en la sección~\ref{sec:objetivos}, el objetivo general, desarrollar un algoritmo genético capaz de generar mazos competitivos y estructuralmente realistas para el formato Standard evaluándolos mediante simulación real, se ha alcanzado. Los cinco objetivos específicos se cumplieron en los términos siguientes:
+
+\begin{enumerate}
+    \item \textbf{Modelado del problema y representación.} Cumplido. El catálogo se construye a partir de las cartas reales del formato Standard obtenidas de Scryfall, alrededor de 4130 cartas, y el mazo se representa como un vector de enteros que permite operar con álgebra vectorial y codifica la norma de las cuatro copias de forma directa (capítulo~\ref{sec:arquitectura}).
+
+    \item \textbf{Operadores pack-aware.} Cumplido y validado cuantitativamente. Los siete operadores de mutación y los dos de cruce trabajan en packs de cuatro copias. El experimento comparativo de la sección~\ref{sec:experimento-ab} mide el efecto: los \emph{singletons} sueltos caen un 95\% y los packs consolidados suben un 41\% por mazo respecto al diseño que opera con copias individuales.
+
+    \item \textbf{Validación del rendimiento con evaluación viable en coste.} Cumplido. Forge actúa como oráculo de fitness jugando partidas reales, y el sistema de torneo Swiss reduce el número de enfrentamientos por generación en cerca de un 80\% frente al round-robin completo. Esa reducción es la que permitió duplicar la población sin disparar el coste (secciones~\ref{sec:torneo} y~\ref{sec:evolucion}).
+
+    \item \textbf{Función de fitness multi-componente.} Cumplido. El fitness combina la tasa de victorias en el Swiss con una métrica de calidad estructural sensible al arquetipo. La métrica se rediseñó tras detectar que la mejora estructural de los mazos había saturado parte de sus componentes (sección~\ref{sec:refinamiento}).
+
+    \item \textbf{Análisis del comportamiento emergente.} Cumplido. El trabajo documenta la convergencia de cada ejecución a un único par cromático, el ecosistema de arquetipos que preserva el Hall of Fame y el sesgo del simulador frente a arquetipos de juego complejo que llevó a descartar el gauntlet (secciones~\ref{sec:gauntlet} y~\ref{sec:run-final}).
+\end{enumerate}
+
+Más allá del cumplimiento de los objetivos, los principales hallazgos empíricos del trabajo, sostenidos por los experimentos, son cuantificables:
+
+\begin{itemize}
+    \item El pico de fitness ascendió de 0.791 en el prototipo inicial a 0.9755 en la ejecución definitiva, y el fitness medio de la población creció un 13.5\,\% a lo largo de esa ejecución.
+    \item Los operadores a nivel de pack redujeron los \emph{singletons} sueltos un 95\,\% y aumentaron los packs consolidados un 41\,\% por mazo, con un coste de apenas 1.4 puntos porcentuales en el pico de fitness.
+    \item El torneo Swiss redujo en cerca de un 80\,\% los enfrentamientos por generación frente al round-robin, lo que permitió duplicar la población de 20 a 40 mazos sin incrementar el coste.
+    \item La exploración del gauntlet reveló que solo tres de los cinco mazos de referencia del metajuego se ejecutan de forma fiable en el simulador, lo que motivó su descarte como componente de fitness.
+\end{itemize}
+
+Del trabajo se derivan, además, tres aprendizajes de fondo. El primero, y de mayor calado, atañe a la granularidad del espacio de búsqueda, ya que cambiar los operadores para que trabajen en packs de cuatro copias, en lugar de en copias sueltas, fue la decisión que más transformó la calidad de los resultados. La norma de las cuatro copias no es una restricción que deba satisfacerse al final, sino el nivel en el que razona un jugador humano, y mover el algoritmo a ese nivel lo acercó al espacio de los mazos reales, con un coste mínimo frente a un beneficio estructural grande.
+
+El segundo aprendizaje es metodológico. Evaluar el fitness jugando partidas reales ofrece una medida fiel del rendimiento, pero su coste y su ruido condicionan el resto del diseño. La viabilidad del enfoque no dependió de la función de fitness en sí, sino de la decisión de emparejar los mazos con un sistema cuyo coste crece de forma lineal con la población, lo que además alineó la evaluación con la forma en que se disputan los torneos reales del juego.
+
+El tercer aprendizaje es que los resultados negativos también informan. La exploración del gauntlet tier-1 no produjo el componente de fitness que se buscaba, pero el motivo de su descarte, el sesgo medible del simulador ante los arquetipos complejos, delimita con precisión hasta dónde llega lo que el método puede medir de forma fiable. Documentar ese límite vale tanto como documentar lo que funciona.
+
+\section{Limitaciones}
+
+El sistema presenta varias limitaciones que conviene reconocer.
+
+Cada ejecución converge a un único par cromático, un comportamiento que se observó en las dos ejecuciones independientes realizadas, cada una convergida a un par de colores distinto (sección~\ref{sec:repro}). La presión selectiva favorece la coherencia de la manabase, y el primer par de colores que la alcanza atrae las mutaciones sucesivas. Recorrer el ecosistema completo de arquetipos exigiría, por tanto, varias ejecuciones con puntos de partida distintos, no una sola.
+
+La evaluación hereda el sesgo de la inteligencia artificial de Forge. El simulador ejecuta por debajo de su potencial los arquetipos de mayor complejidad táctica, lo que invalida cualquier medida de rendimiento contra mazos que dependan de ese tipo de juego. Esta limitación es la que impidió usar el gauntlet del meta real como referencia externa.
+
+El fitness es estocástico. El valor de un mazo varía entre evaluaciones por el azar del reparto inicial y de las decisiones de la IA. El pico de 0.9755 del mejor mazo es el valor que el Hall of Fame conservó en el momento de su mejor evaluación, no una media estable. Su rendimiento esperado real es algo menor.
+
+La calibración es específica de Standard. Los rangos ideales de curva de maná, los pisos de tierras por arquetipo y la composición del catálogo están ajustados a este formato. Aplicar el sistema a otro formato exigiría recalibrar esos parámetros y reconstruir el conjunto de cartas.
+
+Por último, el coste computacional es alto. Una ejecución completa ocupa varios días de cómputo, lo que limita el número de experimentos que se pueden encadenar y la rapidez con la que se puede iterar sobre el diseño.
+
+En conjunto, estas limitaciones pueden ordenarse según el tipo de validez que comprometen. La \emph{validez de constructo} (hasta qué punto el fitness mide realmente la calidad de un mazo) está acotada por su naturaleza de \emph{proxy}: la tasa de victorias depende del criterio de la inteligencia artificial de Forge y la métrica de calidad es una heurística estructural, de modo que un fitness alto no equivale sin más al juicio de un jugador experto. La \emph{validez interna} (la solidez de las relaciones causales observadas) se apoya en la comparativa controlada del experimento A/B y en la segunda ejecución independiente, pero queda limitada por el uso de ejecuciones únicas, la ausencia de control de la semilla y la pérdida parcial de los datos del baseline. La \emph{validez externa} (la generalización de los resultados) está condicionada por el sesgo del simulador frente al juego humano, por la calibración específica del formato Standard y por la convergencia de cada ejecución a un único par cromático. Reconocer estas fronteras delimita con precisión el alcance de lo que el trabajo demuestra.
+
+\section{Líneas de trabajo futuro}
+
+La convergencia cromática de cada ejecución sugiere la línea más inmediata, que consiste en lanzar varias ejecuciones con semillas distintas y agregar sus resultados para cartografiar el ecosistema de arquetipos completo, en lugar de obtener un único par de colores por ejecución. Para que esas ejecuciones sean además reproducibles y puedan compararse de forma controlada, convendría fijar de manera explícita la semilla del generador de números aleatorios en cada una, algo que la implementación actual no hace y que impide repetir un resultado concreto de forma exacta. Mecanismos de preservación de diversidad dentro de una misma ejecución, del estilo del \emph{niching} \cite{mahfoud1995} o de los algoritmos de \emph{quality-diversity} como MAP-Elites \cite{mouret2015, pugh2016}, podrían atenuar la convergencia sin necesidad de multiplicar las ejecuciones.
+
+La reactivación del gauntlet tier-1 depende de superar el sesgo del simulador. Un motor con una inteligencia artificial más capaz, que ejecutara los arquetipos complejos a un nivel cercano al humano, devolvería validez a la evaluación contra mazos del meta real y permitiría introducir esa referencia externa en el fitness.
+
+El coste de la evaluación abre otra vía. Un modelo sustituto \cite{jin2011}, entrenado para predecir el resultado de una partida a partir de la composición de los dos mazos, podría reemplazar parte de las simulaciones de Forge y acelerar la evolución en órdenes de magnitud, reservando las partidas reales para validar a los candidatos más prometedores. Este tipo de aproximación por modelo sustituto ya se ha aplicado a la construcción de mazos en otros juegos de cartas \cite{zhang2022}. En la misma dirección, evaluar varias veces a los individuos que entran al Hall of Fame reduciría la varianza del fitness justo donde más importa.
+
+Finalmente, el sistema podría extenderse a otros formatos como Modern o Pioneer. El núcleo del algoritmo es independiente del formato. Lo que cambia es el conjunto de cartas y la calibración de los parámetros arquetípicos, de modo que la extensión es más una cuestión de recalibrado que de rediseño.
