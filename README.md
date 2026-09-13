@@ -6,7 +6,7 @@
 ![Java](https://img.shields.io/badge/Java-21%2B-orange)
 ![Status](https://img.shields.io/badge/status-TFG%20delivered-success)
 
-> Bachelor's Thesis (TFG) — José Gascó Bule
+> Trabajo de Fin de Grado (TFG) — José Gascó Bule
 > Grado en Tecnologías Interactivas · Escola Politècnica Superior de Gandia (UPV)
 > Tutors: Juan Miguel Alberola Oltra · Víctor Sánchez Anguix
 
@@ -185,20 +185,20 @@ For the full design, experiments and analysis, see the thesis in `memoria/`.
 
 ## Thesis & documentation
 
-The full Bachelor's Thesis (in Spanish) describing the design, experiments and
+The full TFG (in Spanish) describing the design, experiments and
 analysis behind this project is in [`memoria/`](memoria/) — both the LaTeX source
 and the compiled PDF. Additional development notes and intermediate analyses are in
 [`documentacion/`](documentacion/).
 
 ## Author
 
-**José Gascó Bule** — Bachelor's Thesis (TFG), Grado en Tecnologías Interactivas,
+**José Gascó Bule** — TFG, Grado en Tecnologías Interactivas,
 Escola Politècnica Superior de Gandia (Universitat Politècnica de València), 2026.
 Tutors: Juan Miguel Alberola Oltra · Víctor Sánchez Anguix.
 
 > If you reference this work:
 > Gascó Bule, J. (2026). *Diseño e implementación de metaheurística para el problema
-> de la generación de mazos en Magic: The Gathering* [Bachelor's Thesis]. Universitat
+> de la generación de mazos en Magic: The Gathering* [Trabajo de Fin de Grado]. Universitat
 > Politècnica de València.
 
 ## License
