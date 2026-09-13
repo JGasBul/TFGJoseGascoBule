@@ -1,6 +1,8 @@
 """Runner minimal para 1 generación completa con combates Forge.
 Valida los operadores pack-level en un ciclo evolutivo real."""
 import time
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from algoritmo_genetico_mtg import MTGGeneticAlgorithm
 
 config = {

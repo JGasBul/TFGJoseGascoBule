@@ -14,7 +14,7 @@ import os
 import numpy as np
 
 # Añadir directorio raíz al path
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from algoritmo_genetico_mtg import MTGGeneticAlgorithm
 
