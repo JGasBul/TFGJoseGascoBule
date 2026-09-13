@@ -6,6 +6,8 @@ ya en gen 0. Si todos los candidatos sacan 0/5, activamos plan B (métricas
 parciales). Coste estimado: ~100 min en portátil con 4 workers.
 """
 import time
+import os, sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from algoritmo_genetico_mtg import MTGGeneticAlgorithm
 
 config = {

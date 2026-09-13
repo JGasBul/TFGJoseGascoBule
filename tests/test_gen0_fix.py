@@ -8,7 +8,7 @@ y analiza la gen 0 resultante. No ejecuta combates Forge.
 """
 import sys
 import os
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from collections import Counter
 from algoritmo_genetico_mtg import MTGGeneticAlgorithm

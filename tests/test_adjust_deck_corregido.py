@@ -10,8 +10,10 @@ Este script demuestra que el método corregido ahora:
 """
 
 import sys
+import os
 import json
 import numpy as np
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from algoritmo_genetico_mtg import MTGGeneticAlgorithm
 
 def test_color_coherence():
